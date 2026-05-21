@@ -1,0 +1,17 @@
+{% extends "topics/_topic_base.html" %}
+{% from "topics/_macros.html" import place_card %}
+
+{% block topic_intro %}
+<p class="tj-intro">{{ topic.intro | default('Vendors, food trucks and stalls: the cheapest, fastest, frequently best food in ' ~ destination.name ~ '.') }}</p>
+{% endblock %}
+
+{% block topic_sections %}
+{% if research.street_food %}
+<section class="tj-section" id="vendors">
+    <h2>Don't-miss vendors</h2>
+    <div class="tj-card-grid">
+        {% for s in research.street_food %}{{ place_card(s, destination.name, s._url) }}{% endfor %}
+    </div>
+</section>
+{% endif %}
+{% endblock %}

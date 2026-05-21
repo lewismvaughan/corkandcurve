@@ -1,0 +1,82 @@
+{# Cross-cut: cuisine landing page (global).
+   /cuisine/<cuisine-slug>/
+
+   Context:
+     cuisine            "Japanese" (display name)
+     cuisine_slug       "japanese"
+     cities             [{city_name, city_slug, country_slug, restaurants:[entity,...]}]
+     total_entities     int
+     breadcrumb         standard breadcrumb list
+#}
+{% extends "base.html" %}
+{% from "partials/_ad_slot.html" import ad_slot %}
+{% from "topics/_macros.html" import place_card %}
+
+{% block hero %}
+<section class="tj-hero tj-container">
+    <div class="tj-hero-body">
+        <h1 itemprop="headline">{{ cuisine }} restaurants around the world</h1>
+        <p class="tj-hero-tagline">{{ total_entities }} editor-picked {{ cuisine | lower }} {% if total_entities == 1 %}restaurant{% else %}restaurants{% endif %} across {{ cities | length }} {% if cities | length == 1 %}city{% else %}cities{% endif %}.</p>
+    </div>
+</section>
+{% endblock %}
+
+{% block schema_extra %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "CollectionPage",
+      "@id": "{{ seo.meta.canonical_url }}#collection",
+      "name": {{ (cuisine ~ " restaurants on TableJourney") | tojson }},
+      "description": {{ seo.meta.description | tojson }},
+      "url": {{ seo.meta.canonical_url | tojson }}
+    },
+    {
+      "@type": "ItemList",
+      "numberOfItems": {{ total_entities }},
+      "itemListElement": [
+        {% set ns = namespace(i=0) %}
+        {% for city in cities %}{% for r in city.restaurants %}{% if ns.i > 0 %},{% endif %}{% set ns.i = ns.i + 1 %}
+        { "@type": "ListItem", "position": {{ ns.i }}, "url": "https://tablejourney.com{{ r._url }}", "name": {{ r.name | tojson }} }
+        {% endfor %}{% endfor %}
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {% for crumb in breadcrumb %}
+        { "@type": "ListItem", "position": {{ loop.index }}, "name": {{ crumb.name | tojson }}{% if crumb.url %}, "item": "https://tablejourney.com{{ crumb.url }}"{% endif %} }{% if not loop.last %},{% endif %}
+        {% endfor %}
+      ]
+    }
+  ]
+}
+</script>
+{% endblock %}
+
+{% block content %}
+<div class="tj-container">
+    <section class="tj-section">
+        <p class="tj-intro">A guide to {{ cuisine | lower }} restaurants worth a trip, by city. We list operators, signature dishes, and the rooms locals book first.</p>
+    </section>
+
+    {{ ad_slot('cross-cut-top', size='leaderboard') }}
+
+    {% for city in cities %}
+    <section class="tj-section" id="city-{{ city.city_slug }}">
+        <h2><a href="/{{ city.country_slug }}/{{ city.city_slug }}/">{{ cuisine }} in {{ city.city_name }}</a></h2>
+        <div class="tj-card-grid">
+            {% for r in city.restaurants %}{{ place_card(r, city.city_name, r._url) }}{% endfor %}
+        </div>
+        <p style="margin-top:12px"><a class="tj-card-link" href="/{{ city.country_slug }}/{{ city.city_slug }}/restaurants/">All {{ city.city_name }} restaurants →</a></p>
+    </section>
+    {% endfor %}
+
+    <section class="tj-section">
+        <p class="tj-note">More cities are in research. Want {{ cuisine | lower }} covered somewhere specific? <a href="/contact/">Tell us where you want to eat.</a></p>
+        <p style="margin-top:18px"><a class="tj-card-link" href="/cuisines/">Browse all cuisines →</a></p>
+    </section>
+</div>
+{% endblock %}

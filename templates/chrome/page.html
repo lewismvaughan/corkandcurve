@@ -1,0 +1,86 @@
+{# Generic single-column chrome / editorial / legal / index page.
+   Context expected:
+     page.title              <title> (50-70 chars ideal)
+     page.meta_description   meta description (140-165 chars)
+     page.h1                 on-page H1
+     page.subtitle           optional sub-headline under H1
+     page.canonical_url      full https://... canonical
+     page.body_html          rendered inner HTML (safe, hand-authored)
+     page.breadcrumb_items   [{position, name, url}] (last item omits url)
+     page.page_type          'webpage' | 'collection' | 'about' | 'contact'
+                             | 'privacy' | 'terms'
+     page.updated            human Updated stamp, e.g. 'May 2026'
+     page.og_image           optional override
+#}
+{% extends "base.html" %}
+
+{% block title %}{{ page.title }}{% endblock %}
+{% block meta_description %}{{ page.meta_description }}{% endblock %}
+
+{% block schema_extra %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": {{ ({
+        'webpage': 'WebPage',
+        'collection': 'CollectionPage',
+        'about': 'AboutPage',
+        'contact': 'ContactPage',
+        'privacy': 'WebPage',
+        'terms': 'WebPage'
+      }[page.page_type] | default('WebPage')) | tojson }},
+      "@id": "{{ page.canonical_url }}#webpage",
+      "url": "{{ page.canonical_url }}",
+      "name": {{ page.title | tojson }},
+      "description": {{ page.meta_description | tojson }},
+      "inLanguage": "en",
+      "isPartOf": { "@type": "WebSite", "name": "TableJourney", "url": "https://tablejourney.com" },
+      "datePublished": "2026-01-01T00:00:00Z",
+      "dateModified": "{{ page.modified | default('2026-05-17') }}T00:00:00Z",
+      "publisher": { "@type": "Organization", "name": "TableJourney", "url": "https://tablejourney.com" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "{{ page.canonical_url }}#breadcrumb",
+      "itemListElement": [
+        {% for item in page.breadcrumb_items %}
+        { "@type": "ListItem", "position": {{ item.position }}, "name": {{ item.name | tojson }}{% if item.url %}, "item": {{ item.url | tojson }}{% endif %} }{% if not loop.last %},{% endif %}
+        {% endfor %}
+      ]
+    }
+  ]
+}
+</script>
+{% endblock %}
+
+{% block hero %}
+<section class="tj-hero tj-container">
+    <div class="tj-hero-body">
+        <h1>{{ page.h1 }}</h1>
+        {% if page.subtitle %}<p class="tj-hero-tagline">{{ page.subtitle }}</p>{% endif %}
+        <div class="tj-byline">
+            <span class="tj-stamp">Updated {{ page.updated | default('May 2026') }}</span>
+        </div>
+    </div>
+</section>
+{% endblock %}
+
+{% block breadcrumb %}
+<nav class="tj-breadcrumbs" aria-label="Breadcrumb">
+    <ol>
+    {% for item in page.breadcrumb_items %}
+        <li>
+            {% if item.url %}<a href="{{ item.url | replace('https://tablejourney.com', '') }}">{{ item.name }}</a>{% else %}<span aria-current="page">{{ item.name }}</span>{% endif %}
+        </li>
+    {% endfor %}
+    </ol>
+</nav>
+{% endblock %}
+
+{% block content %}
+<div class="tj-container tj-prose">
+{{ page.body_html | safe }}
+</div>
+{% endblock %}

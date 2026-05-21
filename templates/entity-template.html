@@ -1,0 +1,273 @@
+{# Per-entity detail page. Renders one restaurant, cafe, bar, brewery,
+   market, food tour, cooking class, festival, hidden gem, brunch place,
+   late-night place, budget eat, or day-trip destination.
+
+   Context expected:
+     entity            the entity dict (has slug, name, address, etc.)
+     entity_type       canonical type label: "Restaurant", "Cafe", etc.
+     entity_schema     schema.org @type (e.g. "Restaurant", "LocalBusiness")
+     topic.{slug,name} topic the entity belongs to
+     destination.name  city display name
+     country_slug, region_slug, city_slug
+     breadcrumb        list of {url,name}
+     siblings          up to 6 other entities of same topic in same city
+     city_url          /<country>/<city>/
+     topic_url         /<country>/<city>/<topic>/
+     cuisine_url       /cuisine/<slug>/ if entity.cuisine
+     neighborhood_url  /neighborhood/<city>/<slug>/ if entity.neighborhood
+     directions_url    Google Maps directions URL (precomputed)
+#}
+{% extends "base.html" %}
+{% from "partials/_ad_slot.html" import ad_slot %}
+{% from "topics/_macros.html" import place_card, dish_card, editorial_score %}
+
+{% block hero %}
+<section class="tj-hero tj-container">
+    <a href="{{ topic_url }}" class="tj-back-hub" aria-label="Back to {{ topic.name }} in {{ destination.name }}">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg>
+        Back to {{ topic.name }} in {{ destination.name }}
+    </a>
+    <div class="tj-hero-body"
+         {% if entity.hours %}data-hours="{{ entity.hours }}"{% endif %}>
+        <h1 itemprop="headline">{{ entity.name }}{% if entity.stars %} <span class="tj-inline-tag">{{ entity.stars }} ★</span>{% endif %} {{ editorial_score(entity.editorial_score) }}</h1>
+        {% if entity.description %}<p class="tj-hero-tagline">{{ entity.description }}</p>{% endif %}
+        <div class="tj-byline">
+            <span class="tj-stamp">{{ entity_type }} in {{ destination.name }}</span>
+            {% if entity.neighborhood %}<span>· {{ entity.neighborhood }}</span>{% endif %}
+            {% if entity.cuisine %}<span>· {{ entity.cuisine }}</span>{% endif %}
+            {% if entity.price_tier %}<span>· {{ entity.price_tier }}</span>{% endif %}
+            {% if verified_display %}
+            <span class="tj-verified-badge" title="TableJourney editors verified this venue's address, hours and current operation on this date."
+                  style="margin-left:auto; display:inline-flex; align-items:center; gap:4px; font-size:.85em; color:var(--tj-muted, #6b6b6b);">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>
+                {% if verified_source_url %}<a href="{{ verified_source_url }}" rel="nofollow" target="_blank" style="color:inherit;">Verified {{ verified_display }}</a>{% else %}Verified {{ verified_display }}{% endif %}
+            </span>
+            {% endif %}
+        </div>
+    </div>
+</section>
+{% endblock %}
+
+{% block schema_extra %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": {{ entity_schema | tojson }},
+      "@id": "{{ seo.meta.canonical_url }}#entity",
+      "name": {{ entity.name | tojson }},
+      {% if entity.description %}"description": {{ entity.description | tojson }},{% endif %}
+      {% if topic.slug in ("festivals", "cooking-classes") and entity.address %}
+      "location": {
+        "@type": "Place",
+        "name": {{ (entity.name if topic.slug == "cooking-classes" else entity.address.split(',')[0]) | tojson }},
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": {{ entity.address | tojson }},
+          "addressLocality": {{ destination.name | tojson }}{% if seo.geo and seo.geo.country_code %},
+          "addressCountry": {{ seo.geo.country_code | tojson }}{% endif %}
+        }
+      },
+      {% elif entity.address %}
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": {{ entity.address | tojson }},
+        "addressLocality": {{ destination.name | tojson }}{% if seo.geo and seo.geo.country_code %},
+        "addressCountry": {{ seo.geo.country_code | tojson }}{% endif %}
+      },{% if entity.geo %}
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": {{ entity.geo.lat | tojson }},
+        "longitude": {{ entity.geo.lon | tojson }}
+      },{% endif %}{% endif %}
+      {% if topic.slug == "festivals" and entity.start_date_iso %}
+      "startDate": {{ entity.start_date_iso | tojson }},
+      "endDate": {{ entity.end_date_iso | tojson }},
+      "eventStatus": {{ entity.event_status_url | tojson }},
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "isAccessibleForFree": {{ (not entity.ticket_required) | tojson }},
+      "image": {{ seo.open_graph.og_image | tojson }},
+      {% endif %}
+      {% if topic.slug == "cooking-classes" %}
+      "eventStatus": {{ entity.event_status_url | tojson }},
+      "eventAttendanceMode": {{ entity.event_attendance_mode_url | tojson }},
+      {% if entity.cuisine_taught %}"about": {{ entity.cuisine_taught | tojson }},{% endif %}
+      {% if entity.offer_dict %}"offers": {{ entity.offer_dict | tojson }},{% endif %}
+      "image": {{ seo.open_graph.og_image | tojson }},
+      {% endif %}
+      {% if entity.cuisine %}"servesCuisine": {{ entity.cuisine | tojson }},{% endif %}
+      {% if entity.price_tier %}"priceRange": {{ entity.price_tier | tojson }},{% endif %}
+      {% if entity.hours %}"openingHours": {{ entity.hours | tojson }},{% endif %}
+      {% if entity.booking_url %}"sameAs": [{{ entity.booking_url | tojson }}],{% endif %}
+      {% if entity.affiliate_url and not entity.booking_url %}"sameAs": [{{ entity.affiliate_url | tojson }}],{% endif %}
+      {% if entity.editorial_score %}"aggregateRating": {
+        "@type": "AggregateRating",
+        "@id": "{{ seo.meta.canonical_url }}#aggregaterating",
+        "ratingValue": {{ entity.editorial_score | tojson }},
+        "bestRating": "5",
+        "worstRating": "1",
+        "ratingCount": "1",
+        "reviewCount": "1"
+      },
+      "review": {
+        "@type": "Review",
+        "@id": "{{ seo.meta.canonical_url }}#review",
+        "author": {
+          "@type": "Person",
+          "name": "TableJourney Editorial",
+          "url": "https://tablejourney.com/about/editorial/",
+          "jobTitle": "Editorial Desk",
+          "worksFor": { "@type": "Organization", "name": "TableJourney", "url": "https://tablejourney.com/" }
+        },
+        "publisher": { "@type": "Organization", "name": "TableJourney", "url": "https://tablejourney.com/" },
+        "datePublished": {{ (seo.article.published_time or '2026-01-01T00:00:00Z') | tojson }},
+        "reviewRating": { "@type": "Rating", "ratingValue": {{ entity.editorial_score | tojson }}, "bestRating": "5", "worstRating": "1" },
+        {% if entity.description %}"reviewBody": {{ entity.description | tojson }},{% endif %}
+        "itemReviewed": { "@type": {{ entity_schema | tojson }}, "name": {{ entity.name | tojson }} }
+      },{% endif %}
+      "url": {{ seo.meta.canonical_url | tojson }}
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {% for crumb in breadcrumb %}
+        { "@type": "ListItem", "position": {{ loop.index }}, "name": {{ crumb.name | tojson }}{% if crumb.url %}, "item": "https://tablejourney.com{{ crumb.url }}"{% endif %} }{% if not loop.last %},{% endif %}
+        {% endfor %}
+      ]
+    }
+  ]
+}
+</script>
+{% endblock %}
+
+{% block content %}
+<div class="tj-layout-3">
+    <aside class="tj-toc" aria-label="On this page">
+        <h4>On this page</h4>
+        <ul>
+            <li><a href="#details">Details</a></li>
+            {% if entity.address %}<li><a href="#location">Location</a></li>{% endif %}
+            {% if siblings %}<li><a href="#more">More in {{ destination.name }}</a></li>{% endif %}
+        </ul>
+        <a href="{{ topic_url }}" class="tj-toc-back">← {{ topic.name }} in {{ destination.name }}</a>
+    </aside>
+
+    <div class="tj-main-col">
+        <section class="tj-section" id="details">
+            <div class="tj-detail-grid">
+                {% if entity.cuisine %}<div><strong>Cuisine</strong><span>{{ entity.cuisine }}</span></div>{% endif %}
+                {% if entity.style %}<div><strong>Style</strong><span>{{ entity.style }}</span></div>{% endif %}
+                {% if entity.type %}<div><strong>Type</strong><span>{{ entity.type }}</span></div>{% endif %}
+                {% if entity.price_tier %}<div><strong>Price</strong><span>{{ entity.price_tier }}</span></div>{% endif %}
+                {% if entity.price_range %}<div><strong>Price range</strong><span>{{ entity.price_range }}</span></div>{% endif %}
+                {% if entity.tasting_menu_price %}<div><strong>Tasting menu</strong><span>{{ entity.tasting_menu_price }}</span></div>{% endif %}
+                {% if entity.neighborhood %}<div><strong>Neighbourhood</strong><span>{{ entity.neighborhood }}</span></div>{% endif %}
+                {% if entity.hours %}<div><strong>Hours</strong><span>{{ entity.hours }}</span></div>{% endif %}
+                {% if entity.taproom_hours %}<div><strong>Taproom hours</strong><span>{{ entity.taproom_hours }}</span></div>{% endif %}
+                {% if entity.closes %}<div><strong>Open until</strong><span>{{ entity.closes }}</span></div>{% endif %}
+                {% if entity.chef %}<div><strong>Chef</strong><span>{{ entity.chef }}</span></div>{% endif %}
+                {% if entity.reservation_lead_time %}<div><strong>Book ahead</strong><span>{{ entity.reservation_lead_time }}</span></div>{% endif %}
+                {% if entity.bookings %}<div><strong>Booking</strong><span>{{ entity.bookings }}</span></div>{% endif %}
+                {% if entity.signature_drink %}<div><strong>Signature drink</strong><span>{{ entity.signature_drink }}</span></div>{% endif %}
+                {% if entity.dish %}<div><strong>The dish</strong><span>{{ entity.dish }}</span></div>{% endif %}
+                {% if entity.cash_only %}<div><strong>Payment</strong><span>Cash only</span></div>{% endif %}
+                {% if entity.wifi %}<div><strong>Wifi</strong><span>Yes</span></div>{% endif %}
+                {% if entity.work_friendly %}<div><strong>Work-friendly</strong><span>Yes</span></div>{% endif %}
+            </div>
+
+            {% if entity.signature_dishes_links %}
+            <p class="tj-detail-line"><strong>Signature dishes:</strong>
+                {% for d in entity.signature_dishes_links %}{% if d.url %}<a href="{{ d.url }}">{{ d.name }}</a>{% else %}{{ d.name }}{% endif %}{% if not loop.last %}, {% endif %}{% endfor %}
+            </p>
+            {% endif %}
+
+            {% if entity.must_order %}<p class="tj-detail-line"><strong>Must order:</strong> {{ entity.must_order }}</p>{% endif %}
+            {% if entity.food_program %}<p class="tj-detail-line"><strong>Food program:</strong> {{ entity.food_program }}</p>{% endif %}
+            {% if entity.route %}<p class="tj-detail-line"><strong>Route:</strong> {{ entity.route }}</p>{% endif %}
+            {% if entity.why_hidden %}<p class="tj-detail-line"><strong>Why locals love it:</strong> {{ entity.why_hidden }}</p>{% endif %}
+            {% if entity.tip %}<p class="tj-detail-line"><strong>Tip:</strong> {{ entity.tip }}</p>{% endif %}
+
+            <div class="tj-cta-row">
+                {% if entity.booking_url %}<a class="tj-btn tj-btn-primary" href="{{ entity.booking_url }}" rel="nofollow" target="_blank">Book at {{ entity.name }}</a>{% endif %}
+                {% if entity.affiliate_url and not entity.booking_url %}<a class="tj-btn tj-btn-primary" href="{{ entity.affiliate_url }}" rel="nofollow sponsored" target="_blank">Book tour</a>{% endif %}
+            </div>
+        </section>
+
+        {{ ad_slot('entity-mid', size='in-article-native') }}
+
+        {% if entity.address %}
+        <section class="tj-section" id="location">
+            <h2>Location</h2>
+            {% if entity.map_thumb_url %}
+            <div class="tj-entity-map" aria-hidden="true">
+                <img src="{{ entity.map_thumb_url }}" alt="Map showing {{ entity.name }} in {{ destination.name }}"
+                     width="600" height="400" loading="lazy" decoding="async">
+            </div>
+            {% endif %}
+            <p class="tj-detail-line"><strong>Address:</strong> {{ entity.address }}{% if destination.name and destination.name.lower() not in entity.address.lower() %}, {{ destination.name }}{% endif %}</p>
+            <div class="tj-cta-row">
+                <a class="tj-btn tj-btn-secondary" href="{{ google_maps_url }}" target="_blank" rel="noopener nofollow">Google Maps →</a>
+                <a class="tj-btn tj-btn-secondary" href="{{ apple_maps_url }}" target="_blank" rel="noopener nofollow">Apple Maps →</a>
+                {% if entity.geo %}
+                <a class="tj-btn tj-btn-secondary" href="https://waze.com/ul?ll={{ entity.geo.lat }},{{ entity.geo.lon }}&navigate=yes" target="_blank" rel="noopener nofollow">Waze →</a>
+                {% endif %}
+            </div>
+        </section>
+        {% endif %}
+
+        {% if siblings %}
+        {% set _nbhd_siblings = siblings | selectattr('neighborhood', 'equalto', entity.neighborhood) | list if entity.neighborhood else [] %}
+        {% if _nbhd_siblings %}
+        <section class="tj-section" id="nbhd-siblings">
+            <h2>Also in {{ entity.neighborhood }}</h2>
+            <div class="tj-card-grid">
+                {% for s in _nbhd_siblings %}{{ place_card(s, destination.name, s._url) }}{% endfor %}
+            </div>
+            {% if neighborhood_url %}<p style="margin-top:16px"><a class="tj-card-link" href="{{ neighborhood_url }}">Full {{ entity.neighborhood }} food guide →</a></p>{% endif %}
+        </section>
+        {% endif %}
+        <section class="tj-section" id="more">
+            <h2>More {{ topic.name | lower }} in {{ destination.name }}</h2>
+            <div class="tj-card-grid">
+                {% for s in siblings %}{{ place_card(s, destination.name, s._url) }}{% endfor %}
+            </div>
+            <p style="margin-top:16px"><a class="tj-card-link" href="{{ topic_url }}">See every {{ topic.name | lower }} pick in {{ destination.name }} →</a></p>
+        </section>
+        {% endif %}
+
+        <div style="margin-top:32px">
+            <a href="{{ topic_url }}" class="tj-btn tj-btn-secondary">← Back to {{ topic.name }} in {{ destination.name }}</a>
+            <a href="{{ city_url }}" class="tj-btn tj-btn-secondary" style="margin-left:8px">← {{ destination.name }} food guide</a>
+        </div>
+    </div>
+
+    <aside class="tj-sidebar" aria-label="Sidebar">
+        <div class="tj-sidebar-box">
+            <h3>About this place</h3>
+            <ul class="tj-sidebar-list">
+                {% if entity.cuisine and cuisine_url %}<li><a href="{{ cuisine_url }}">{{ entity.cuisine }} in {{ destination.name }}</a></li>{% endif %}
+                {% if entity.neighborhood and neighborhood_url %}<li><a href="{{ neighborhood_url }}">{{ entity.neighborhood }} food guide</a></li>{% endif %}
+                <li><a href="{{ topic_url }}">All {{ topic.name | lower }} in {{ destination.name }}</a></li>
+                {% if topic.slug %}<li><a href="/topics/{{ topic.slug }}/">All {{ topic.name | lower }} on TableJourney</a></li>{% endif %}
+                <li><a href="{{ city_url }}">{{ destination.name }} food guide</a></li>
+            </ul>
+        </div>
+
+        {{ ad_slot('entity-sidebar-1', size='rectangle') }}
+
+        <div class="tj-sidebar-box">
+            <h3>Plan your visit</h3>
+            <ul class="tj-sidebar-list">
+                <li><a href="{{ city_url }}itineraries/">Eating itineraries</a></li>
+                <li><a href="{{ city_url }}food-tours/">Guided food tours</a></li>
+                <li><a href="{{ city_url }}markets/">Food markets</a></li>
+                <li><a href="{{ city_url }}signature-dishes/">Must-try dishes</a></li>
+                <li><a href="{{ city_url }}food-history/">Food history</a></li>
+            </ul>
+        </div>
+
+        {{ ad_slot('entity-sidebar-2', size='half-page', sticky=True, desktop_only=True) }}
+    </aside>
+</div>
+{% endblock %}

@@ -1,0 +1,34 @@
+{% extends "topics/_topic_base.html" %}
+{% from "topics/_macros.html" import place_card %}
+
+{% block topic_intro %}
+<p class="tj-intro">{{ topic.intro | default('Dance clubs, live music, rooftop bars, speakeasies, LGBTQ+ nightlife, listening bars and late-night dives across ' ~ destination.name ~ ', with where to go and what is worth the late night.') }}</p>
+{% endblock %}
+
+{% block topic_sections %}
+{% if research.nightlife %}
+{# Mirrors dietary's pattern: each sub-category renders as its own section,
+   with a heading that links to the city × sub-category landing page if a
+   2+ entry threshold is met (so the sub-page isn't an orphan).
+   Slug convention: nightlife.json key 'dance_clubs' -> URL 'dance-clubs'. #}
+{% for category, places in research.nightlife.items() %}
+{% set cat_slug = category | replace('_', '-') %}
+{% set cat_label = category | replace('_', ' ') | title %}
+{% set sub_url = (('/' ~ country_slug ~ '/' ~ region_slug ~ '/nightlife/' ~ cat_slug ~ '/') if region_slug else '') %}
+<section class="tj-section" id="{{ category }}">
+    {% if sub_url and (places is iterable and places is not string) and (places | length >= 1) %}
+    <h2><a href="{{ sub_url }}">{{ cat_label }} in {{ destination.name }}</a></h2>
+    {% else %}
+    <h2>{{ cat_label }}</h2>
+    {% endif %}
+    {% if places is iterable and places is not string %}
+    <div class="tj-card-grid">
+        {% for p in places %}{{ place_card(p, destination.name, ('/' ~ country_slug ~ '/' ~ region_slug ~ '/nightlife/' ~ p.slug ~ '/') if (region_slug and p.slug) else p._url) }}{% endfor %}
+    </div>
+    {% else %}
+    <p>{{ places }}</p>
+    {% endif %}
+</section>
+{% endfor %}
+{% endif %}
+{% endblock %}

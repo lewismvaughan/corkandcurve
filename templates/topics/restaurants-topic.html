@@ -1,0 +1,19 @@
+{% extends "topics/_topic_base.html" %}
+{% from "topics/_macros.html" import place_card %}
+
+{% block topic_intro %}
+<p class="tj-intro">{{ topic.intro | default('The restaurants worth the trip in ' ~ destination.name ~ '. bistros, neo-classics, neighbourhood favourites, and the rooms locals book first.') }}</p>
+{% endblock %}
+
+{% block topic_sections %}
+{% if research.restaurants %}
+<section class="tj-section" id="picks">
+    <h2>Our picks in {{ destination.name }}</h2>
+    <div class="tj-card-grid">
+        {% for r in research.restaurants %}{{ place_card(r, destination.name, r._url) }}{% endfor %}
+    </div>
+</section>
+{% endif %}
+
+<div class="tj-ad tj-ad-leaderboard" data-slot="topic-mid" aria-label="Advertisement"></div>
+{% endblock %}

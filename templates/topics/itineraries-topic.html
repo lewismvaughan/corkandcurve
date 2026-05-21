@@ -1,0 +1,63 @@
+{% extends "topics/_topic_base.html" %}
+{% from "topics/_macros.html" import itinerary_block %}
+
+{% block topic_schema_extra %}
+{% if research.itineraries %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {% for it in research.itineraries %}
+    {
+      "@type": "HowTo",
+      "@id": "{{ seo.meta.canonical_url }}#{{ it.slug }}",
+      "name": {{ it.name | tojson }},
+      {% if it.summary %}"description": {{ it.summary | tojson }},{% endif %}
+      {% if it.duration %}"totalTime": {{ it.duration | tojson }},{% endif %}
+      "supply": [{ "@type": "HowToSupply", "name": "Appetite" }],
+      "step": [
+        {% for day in (it.days or []) %}
+        {
+          "@type": "HowToSection",
+          "name": "Day {{ day.day_number or loop.index }}{% if day.title %}: {{ day.title }}{% endif %}",
+          "itemListElement": [
+            {%- set slots = [] -%}
+            {%- if day.morning %}{% set _ = slots.append({"name": "Morning", "text": day.morning}) %}{% endif -%}
+            {%- if day.afternoon %}{% set _ = slots.append({"name": "Afternoon", "text": day.afternoon}) %}{% endif -%}
+            {%- if day.evening %}{% set _ = slots.append({"name": "Evening", "text": day.evening}) %}{% endif -%}
+            {% for s in slots %}
+            { "@type": "HowToStep", "name": {{ s.name | tojson }}, "text": {{ s.text | tojson }} }{% if not loop.last %},{% endif %}
+            {% endfor %}
+          ]
+        }{% if not loop.last %},{% endif %}
+        {% endfor %}
+      ]
+    }{% if not loop.last %},{% endif %}
+    {% endfor %}
+  ]
+}
+</script>
+{% endif %}
+{% endblock %}
+
+{% block topic_intro %}
+<p class="tj-intro">{{ topic.intro | default('Day-by-day eating plans for ' ~ destination.name ~ '. weekend classics, family routes, vegan plans, on-a-budget editions.') }}</p>
+{% endblock %}
+
+{% block topic_sections %}
+{% if research.itineraries %}
+<section class="tj-section" id="plans">
+    <h2>Day-by-day plans</h2>
+    {% if research.itineraries | length > 1 %}
+    <nav class="tj-itinerary-nav" aria-label="Itineraries in this guide">
+        <ul>
+            {% for it in research.itineraries %}
+            <li><a href="#{{ it.slug }}">{{ it.name }}{% if it.audience %} <span class="tj-list-sub">{{ it.audience }}</span>{% endif %}</a></li>
+            {% endfor %}
+        </ul>
+    </nav>
+    {% endif %}
+    {% for it in research.itineraries %}{{ itinerary_block(it) }}{% endfor %}
+</section>
+{% endif %}
+{% endblock %}

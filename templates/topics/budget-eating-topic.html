@@ -1,0 +1,17 @@
+{% extends "topics/_topic_base.html" %}
+{% from "topics/_macros.html" import place_card %}
+
+{% block topic_intro %}
+<p class="tj-intro">{{ topic.intro | default('Eat well in ' ~ destination.name ~ ' for under €15 a plate: the places locals on a budget actually use.') }}</p>
+{% endblock %}
+
+{% block topic_sections %}
+{% if research.budget_eating %}
+<section class="tj-section" id="cheap-eats">
+    <h2>Cheap eats worth seeking out</h2>
+    <div class="tj-card-grid">
+        {% for s in research.budget_eating %}{{ place_card(s, destination.name, s._url) }}{% endfor %}
+    </div>
+</section>
+{% endif %}
+{% endblock %}

@@ -1,0 +1,33 @@
+{% extends "topics/_topic_base.html" %}
+{% from "topics/_macros.html" import place_card %}
+
+{% block topic_intro %}
+<p class="tj-intro">{{ topic.intro | default('Vegan, vegetarian, gluten-free, halal and kosher options across ' ~ destination.name ~ '. including where to go and what to order.') }}</p>
+{% endblock %}
+
+{% block topic_sections %}
+{% if research.dietary %}
+{# SEO standard: when a city × dietary sub-page exists for a diet, the
+   section heading links to it so the sub-page isn't an orphan.
+   Slug convention: dietary.json key 'gluten_free' -> URL 'gluten-free'. #}
+{% for category, places in research.dietary.items() %}
+{% set diet_slug = category | replace('_', '-') %}
+{% set diet_label = category | replace('_', ' ') | title %}
+{% set sub_url = (('/' ~ country_slug ~ '/' ~ region_slug ~ '/dietary/' ~ diet_slug ~ '/') if region_slug else '') %}
+<section class="tj-section" id="{{ category }}">
+    {% if sub_url and (places is iterable and places is not string) and (places | length >= 2) %}
+    <h2><a href="{{ sub_url }}">{{ diet_label }} in {{ destination.name }}</a></h2>
+    {% else %}
+    <h2>{{ diet_label }}</h2>
+    {% endif %}
+    {% if places is iterable and places is not string %}
+    <div class="tj-card-grid">
+        {% for p in places %}{{ place_card(p, destination.name, p._url) }}{% endfor %}
+    </div>
+    {% else %}
+    <p>{{ places }}</p>
+    {% endif %}
+</section>
+{% endfor %}
+{% endif %}
+{% endblock %}

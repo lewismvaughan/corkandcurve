@@ -1,0 +1,17 @@
+{% extends "topics/_topic_base.html" %}
+{% from "topics/_macros.html" import place_card %}
+
+{% block topic_intro %}
+<p class="tj-intro">{{ topic.intro | default('Bistros, trattorias, taverns and neighbourhood rooms: the mid-tier places where ' ~ destination.name ~ ' actually eats.') }}</p>
+{% endblock %}
+
+{% block topic_sections %}
+{% if research.casual_dining %}
+<section class="tj-section" id="picks">
+    <h2>Where to eat well, no fuss</h2>
+    <div class="tj-card-grid">
+        {% for r in research.casual_dining %}{{ place_card(r, destination.name, r._url) }}{% endfor %}
+    </div>
+</section>
+{% endif %}
+{% endblock %}

@@ -1,0 +1,17 @@
+{% extends "topics/_topic_base.html" %}
+{% from "topics/_macros.html" import trip_card %}
+
+{% block topic_intro %}
+<p class="tj-intro">{{ topic.intro | default('Food destinations within easy reach of ' ~ destination.name ~ '. worth the train, the rental car or the early start.') }}</p>
+{% endblock %}
+
+{% block topic_sections %}
+{% if research.day_trips_food %}
+<section class="tj-section" id="trips">
+    <h2>Worth the trip</h2>
+    <div class="tj-card-grid">
+        {% for t in research.day_trips_food %}{{ trip_card(t, '', t._url) }}{% endfor %}
+    </div>
+</section>
+{% endif %}
+{% endblock %}

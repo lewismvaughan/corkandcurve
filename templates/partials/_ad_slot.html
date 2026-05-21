@@ -1,0 +1,42 @@
+{# Single source of truth for every ad placeholder on TableJourney.
+   No real ad network wired yet; this macro renders a labelled, lazy
+   mount point that a future bootstrap script can target.
+
+   Usage:
+     {% from "partials/_ad_slot.html" import ad_slot %}
+     {{ ad_slot('city-mid-1', size='rectangle') }}
+     {{ ad_slot('topic-sidebar-1', size='half-page', sticky=True) }}
+     {{ ad_slot('mobile-bottom', size='sticky-bottom', mobile_only=True) }}
+
+   Sizes (matches the standard ad-network taxonomy):
+     leaderboard       728x90  / mobile 320x100
+     rectangle         300x250
+     large-rectangle   336x280
+     half-page         300x600
+     skyscraper        160x600
+     sticky-bottom     320x50  (mobile only, fixed bottom)
+     in-article-native fluid
+
+   The wrapper carries data-tj-ad-* attrs so a later adsense / mediavine
+   / freestar bootstrap can find every slot:
+     data-tj-ad-slot      stable slot identifier (used in network setup)
+     data-tj-ad-size      one of the sizes above
+     data-tj-ad-network   empty for now; filled by deploy config
+#}
+{# TJ_AD_NETWORK: leave empty to suppress all slots pre-launch.
+   Set to "adsense" / "mediavine" / "freestar" (etc.) to emit the full
+   placeholder markup so a network bootstrap can fill it. #}
+{% set TJ_AD_NETWORK = "" %}
+{% macro ad_slot(slot_name, size='leaderboard', sticky=False, mobile_only=False, desktop_only=False, label_visible=True) -%}
+{% if TJ_AD_NETWORK %}
+<aside class="tj-ad tj-ad-{{ size }}{% if sticky %} tj-ad-sticky{% endif %}{% if mobile_only %} tj-ad-mobile-only{% endif %}{% if desktop_only %} tj-ad-desktop-only{% endif %}"
+       data-tj-ad-slot="{{ slot_name }}"
+       data-tj-ad-size="{{ size }}"
+       data-tj-ad-network="{{ TJ_AD_NETWORK }}"
+       role="complementary"
+       aria-label="Advertisement">
+    {% if label_visible %}<span class="tj-ad-label" aria-hidden="true">Advertisement</span>{% endif %}
+    <div class="tj-ad-mount" data-tj-ad-mount></div>
+</aside>
+{% endif %}
+{%- endmacro %}

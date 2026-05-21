@@ -1,0 +1,283 @@
+{# Card macros for topic templates. All entity-style cards funnel through
+   place_card; the more specialised dish/festival/class/tour/market/trip
+   macros stay distinct because their fields and intent differ enough that
+   a single macro would be a worse abstraction.
+
+   Address rendering goes through `address_link`, which wraps the address in
+   a Google Maps directions URL (target=_blank, nofollow).
+#}
+
+{# Editorial score. Renders "★ 4.3" with the score formatted to one
+   decimal place. Skipped when score is missing or out of range. Note:
+   this is OUR editorial verdict, derived from many signals; we do NOT
+   display cached source ratings. See agents/food-research/PROMPT.md
+   "Editorial scoring".
+#}
+{% macro editorial_score(score) %}
+{%- if score is number and score >= 1.0 and score <= 5.0 -%}
+<span class="tj-score" aria-label="TableJourney editorial score {{ '%.1f'|format(score) }} out of 5">★ {{ '%.1f'|format(score) }}</span>
+{%- endif -%}
+{% endmacro %}
+
+{# Google Maps directions link wrapping the address. city_name is appended
+   to the query if not already present, so "18 Rue Paul Bert, 75011" with
+   destination.name = "Paris" becomes "18 Rue Paul Bert, 75011, Paris".
+#}
+{% macro address_link(address, city_name='') %}
+{%- if address -%}
+{%- set q = address if (city_name and city_name.lower() in address.lower()) else (address ~ (', ' ~ city_name if city_name else '')) -%}
+<a class="tj-card-addr" href="https://www.google.com/maps/dir/?api=1&destination={{ q | urlencode }}" target="_blank" rel="noopener nofollow" aria-label="Get directions to {{ address }}">{{ address }} <span class="tj-card-addr-arrow" aria-hidden="true">→</span></a>
+{%- endif -%}
+{% endmacro %}
+
+{# Optional: anchor wrapping the card title to an entity detail page.
+   entity_url is null until /<country>/<city>/<topic>/<slug>/ pages exist.
+#}
+{% macro title_link(name, entity_url) %}
+{%- if entity_url -%}
+<a class="tj-card-title-link" href="{{ entity_url }}">{{ name }}</a>
+{%- else -%}
+{{ name }}
+{%- endif -%}
+{% endmacro %}
+
+{# Universal place card. Handles restaurants, cafes, bars, breweries, brunch,
+   late-night, dietary entries, hidden gems, street-food, budget eats,
+   fine-dining. Each known field renders only if present.
+
+   The macro takes:
+     p           : the place entry dict
+     city_name   : (optional) destination.name, used for directions URL
+     entity_url  : (optional) URL of the per-entity detail page
+#}
+{% macro place_card(p, city_name='', entity_url=None) %}
+<article class="tj-card"
+    {% if entity_url %}data-entity-url="{{ entity_url }}"{% endif %}
+    {% if p.editorial_score is number %}data-score="{{ '%.2f' | format(p.editorial_score) }}"{% endif %}
+    {% if p.hours %}data-hours="{{ p.hours }}"{% endif %}
+    {% set _p_price = p | price_to_int %}{% if _p_price is not none %}data-price="{{ _p_price }}"{% endif %}
+    data-name="{{ p.name | default('') }}">
+    <h3>{{ title_link(p.name, entity_url) }}{% if p.stars %} <span class="tj-inline-tag">{{ p.stars }} ★</span>{% endif %} {{ editorial_score(p.editorial_score) }}</h3>
+    <div class="tj-card-meta">
+        {% if p.cuisine %}<span class="tj-tag">{{ p.cuisine }}</span>{% endif %}
+        {% if p.type %}<span class="tj-tag">{{ p.type }}</span>{% endif %}
+        {% if p.style %}<span class="tj-tag">{{ p.style }}</span>{% endif %}
+        {% if p.chef %}<span class="tj-tag">Chef {{ p.chef }}</span>{% endif %}
+        {% if p.price_tier %}<span>{{ p.price_tier }}</span>{% endif %}
+        {% if p.price_range %}<span>{{ p.price_range }}</span>{% endif %}
+        {% if p.tasting_menu_price %}<span>{{ p.tasting_menu_price }}</span>{% endif %}
+        {% if p.neighborhood %}<span>{{ p.neighborhood }}</span>{% endif %}
+        {% if p.hours %}<span>{{ p.hours }}</span>{% endif %}
+        {% if p.taproom_hours %}<span>{{ p.taproom_hours }}</span>{% endif %}
+        {% if p.closes %}<span>Until {{ p.closes }}</span>{% endif %}
+        {% if p.reservation_lead_time %}<span>Book {{ p.reservation_lead_time }} ahead</span>{% endif %}
+        {% if p.bookings %}<span>{{ p.bookings }}</span>{% endif %}
+        {% if p.work_friendly %}<span>Work-friendly</span>{% endif %}
+        {% if p.wifi %}<span>Wifi</span>{% endif %}
+        {% if p.cash_only %}<span>Cash only</span>{% endif %}
+        {% if p.walk_in_only %}<span>Walk-in only</span>{% endif %}
+        {% if p.specialty %}<span class="tj-tag">{{ p.specialty }}</span>{% endif %}
+        {% if p.has_cafe %}<span>Public cafe</span>{% endif %}
+    </div>
+    {% if p.description %}<p class="tj-card-desc">{{ p.description }}</p>{% endif %}
+    {% if p.signature_drink %}<p class="tj-card-desc"><strong>Signature drink:</strong> {{ p.signature_drink }}</p>{% endif %}
+    {% if p.signature_pour %}<p class="tj-card-desc"><strong>Signature pour:</strong> {{ p.signature_pour }}</p>{% endif %}
+    {% if p.wine_focus %}<p class="tj-card-desc"><strong>Wine focus:</strong> {{ p.wine_focus }}</p>{% endif %}
+    {% if p.signature_dishes %}<p class="tj-card-desc"><strong>Signature:</strong> {{ p.signature_dishes | join(', ') if p.signature_dishes is iterable and p.signature_dishes is not string else p.signature_dishes }}</p>{% endif %}
+    {% if p.dish %}<p class="tj-card-desc"><strong>Try:</strong> {{ p.dish }}</p>{% endif %}
+    {% if p.food_program %}<p class="tj-card-desc"><strong>Food:</strong> {{ p.food_program }}</p>{% endif %}
+    {% if p.must_order %}<p class="tj-card-desc"><strong>Order:</strong> {{ p.must_order }}</p>{% endif %}
+    {% if p.why_hidden %}<p class="tj-card-desc"><strong>Why locals love it:</strong> {{ p.why_hidden }}</p>{% endif %}
+    {% if p.tip %}<p class="tj-card-desc"><strong>Tip:</strong> {{ p.tip }}</p>{% endif %}
+    {% if p.signature_item %}<p class="tj-card-desc"><strong>Worth the queue:</strong> {{ p.signature_item }}</p>{% endif %}
+    {% if p.beans_from %}<p class="tj-card-desc"><strong>Sources from:</strong> {{ p.beans_from | join(', ') if p.beans_from is iterable and p.beans_from is not string else p.beans_from }}</p>{% endif %}
+    {% if p.brew_methods %}<p class="tj-card-desc"><strong>How they serve:</strong> {{ p.brew_methods | join(', ') if p.brew_methods is iterable and p.brew_methods is not string else p.brew_methods }}</p>{% endif %}
+    <div class="tj-card-foot">
+        {{ address_link(p.address or p.location, city_name) }}
+        {% if p.booking_url %}<a class="tj-card-link" href="{{ p.booking_url }}" rel="nofollow" target="_blank">Book →</a>{% endif %}
+        {% if p.affiliate_url and not p.booking_url %}<a class="tj-card-link" href="{{ p.affiliate_url }}" rel="nofollow sponsored" target="_blank">Book →</a>{% endif %}
+    </div>
+</article>
+{% endmacro %}
+
+{# Aliases kept for compatibility with topic templates that import the old
+   names. New code should call place_card directly.
+#}
+{% macro restaurant_card(r, city_name='', entity_url=None) %}{{ place_card(r, city_name, entity_url) }}{% endmacro %}
+{% macro venue_card(v, type_label='', city_name='', entity_url=None) %}{{ place_card(v, city_name, entity_url) }}{% endmacro %}
+{% macro spot_card(s, city_name='', entity_url=None) %}{{ place_card(s, city_name, entity_url) }}{% endmacro %}
+
+{# Signature dish card. Dishes are abstract entities (not places) and have
+   their own cross-cut URL at /dish/<slug>/.
+#}
+{% macro dish_card(d, dish_url=None) %}
+<article class="tj-dish">
+    <h3 class="tj-dish-name">{{ title_link(d.name, dish_url) }} {{ editorial_score(d.editorial_score) }}</h3>
+    {% if d.description %}<p class="tj-dish-desc">{{ d.description }}</p>{% endif %}
+    {% if d.where_to_eat %}
+    <p class="tj-dish-where"><strong>Where:</strong> {{ d.where_to_eat | join(', ') if d.where_to_eat is iterable and d.where_to_eat is not string else d.where_to_eat }}</p>
+    {% endif %}
+    {% if d.typical_price %}<p class="tj-dish-where"><strong>Price:</strong> {{ d.typical_price }}</p>{% endif %}
+</article>
+{% endmacro %}
+
+{# Festival, class, tour, market, trip cards. Each has fields specific
+   enough that merging into place_card would be a worse abstraction.
+#}
+{% macro festival_card(f, city_name='', entity_url=None) %}
+{% set _f_price = f | price_to_int %}
+<article class="tj-card"
+    {% if entity_url %}data-entity-url="{{ entity_url }}"{% endif %}
+    {% if f.editorial_score is number %}data-score="{{ '%.2f' | format(f.editorial_score) }}"{% endif %}
+    {% if _f_price is not none %}data-price="{{ _f_price }}"{% endif %}
+    data-name="{{ f.name | default('') }}">
+    <h3>{{ title_link(f.name, entity_url) }} {{ editorial_score(f.editorial_score) }}</h3>
+    <div class="tj-card-meta">
+        {% if f.month %}<span class="tj-tag">{{ f.month }}</span>{% endif %}
+        {% if f.start_month and not f.month %}<span class="tj-tag">{{ f.start_month }}</span>{% endif %}
+        {% if f.day_range %}<span>{{ f.day_range }}</span>{% endif %}
+        {% if f.recurrence_pattern %}<span>{{ f.recurrence_pattern }}</span>{% endif %}
+        {% if f.duration %}<span>{{ f.duration }}</span>{% endif %}
+        {% if f.ticket_required %}<span>Ticket needed</span>{% endif %}
+        {% if f.price %}<span>{{ f.price }}</span>{% endif %}
+        {% if f.neighborhood %}<span>{{ f.neighborhood }}</span>{% endif %}
+    </div>
+    {% if f.description %}<p class="tj-card-desc">{{ f.description }}</p>{% endif %}
+    {% if f.focus_cuisine %}<p class="tj-card-desc"><strong>Focus:</strong> {{ f.focus_cuisine }}</p>{% endif %}
+    {% if f.must_try or f.signature_dishes %}<p class="tj-card-desc"><strong>Eat at the festival:</strong> {{ f.must_try or (f.signature_dishes | join(', ') if f.signature_dishes is iterable and f.signature_dishes is not string else f.signature_dishes) }}</p>{% endif %}
+    {% if f.tip %}<p class="tj-card-desc"><strong>Tip:</strong> {{ f.tip }}</p>{% endif %}
+    <div class="tj-card-foot">
+        {{ address_link(f.address or f.meeting_point, city_name) }}
+        {% if f.ticket_url or f.booking_url %}<a class="tj-card-link" href="{{ f.ticket_url or f.booking_url }}" rel="nofollow" target="_blank">{% if f.ticket_required %}Tickets →{% else %}Festival info →{% endif %}</a>{% endif %}
+        {% if f.affiliate_url and not (f.ticket_url or f.booking_url) %}<a class="tj-card-link" href="{{ f.affiliate_url }}" rel="nofollow sponsored" target="_blank">Festival info →</a>{% endif %}
+    </div>
+</article>
+{% endmacro %}
+
+{% macro class_card(c, city_name='', entity_url=None) %}
+{% set _c_price = c | price_to_int %}
+<article class="tj-card"
+    {% if entity_url %}data-entity-url="{{ entity_url }}"{% endif %}
+    {% if c.editorial_score is number %}data-score="{{ '%.2f' | format(c.editorial_score) }}"{% endif %}
+    {% if _c_price is not none %}data-price="{{ _c_price }}"{% endif %}
+    data-name="{{ c.name | default('') }}">
+    <h3>{{ title_link(c.name, entity_url) }} {{ editorial_score(c.editorial_score) }}</h3>
+    <div class="tj-card-meta">
+        {% if c.cuisine_taught %}<span class="tj-tag">{{ c.cuisine_taught }}</span>{% endif %}
+        {% if c.cuisine %}<span class="tj-tag">{{ c.cuisine }}</span>{% endif %}
+        {% if c.level %}<span class="tj-tag">{{ c.level }}</span>{% endif %}
+        {% if c.duration %}<span>{{ c.duration }}</span>{% endif %}
+        {% if c.group_size %}<span>Group: {{ c.group_size }}</span>{% endif %}
+        {% if c.languages %}<span>{{ c.languages | join(', ') if c.languages is iterable and c.languages is not string else c.languages }}</span>{% endif %}
+        {% if c.price %}<span>{{ c.price }}</span>{% endif %}
+        {% if c.includes_market_tour %}<span>+Market tour</span>{% endif %}
+        {% if c.kids_friendly %}<span>Kids OK</span>{% endif %}
+        {% if c.neighborhood %}<span>{{ c.neighborhood }}</span>{% endif %}
+    </div>
+    {% if c.description %}<p class="tj-card-desc">{{ c.description }}</p>{% endif %}
+    {% if c.dishes_taught %}<p class="tj-card-desc"><strong>What you'll cook:</strong> {{ c.dishes_taught | join(', ') if c.dishes_taught is iterable and c.dishes_taught is not string else c.dishes_taught }}</p>{% endif %}
+    {% if c.instructor %}<p class="tj-card-desc"><strong>Chef:</strong> {{ c.instructor }}</p>{% endif %}
+    <div class="tj-card-foot">
+        {{ address_link(c.address or c.meeting_point, city_name) }}
+        {% if c.booking_url %}<a class="tj-card-link" href="{{ c.booking_url }}" rel="nofollow" target="_blank">Book class →</a>{% endif %}
+        {% if c.affiliate_url and not c.booking_url %}<a class="tj-card-link" href="{{ c.affiliate_url }}" rel="nofollow sponsored" target="_blank">Book class →</a>{% endif %}
+    </div>
+</article>
+{% endmacro %}
+
+{% macro tour_card(t, city_name='', entity_url=None) %}
+{% set _t_price = t | price_to_int %}
+<article class="tj-card"
+    {% if entity_url %}data-entity-url="{{ entity_url }}"{% endif %}
+    {% if t.editorial_score is number %}data-score="{{ '%.2f' | format(t.editorial_score) }}"{% endif %}
+    {% if _t_price is not none %}data-price="{{ _t_price }}"{% endif %}
+    data-name="{{ (t.operator or t.name) | default('') }}">
+    <h3>{{ title_link(t.operator or t.name, entity_url) }} {{ editorial_score(t.editorial_score) }}</h3>
+    <div class="tj-card-meta">
+        {% if t.duration %}<span class="tj-tag">{{ t.duration }}</span>{% endif %}
+        {% if t.tour_type %}<span class="tj-tag">{{ t.tour_type }}</span>{% endif %}
+        {% if t.group_size %}<span>Group: {{ t.group_size }}</span>{% endif %}
+        {% if t.cuisine_focus %}<span class="tj-tag">{{ t.cuisine_focus }}</span>{% endif %}
+        {% if t.languages %}<span>{{ t.languages | join(', ') if t.languages is iterable and t.languages is not string else t.languages }}</span>{% endif %}
+        {% if t.price %}<span>{{ t.price }}</span>{% endif %}
+        {% if t.includes_food %}<span>Tastings included</span>{% endif %}
+        {% if t.walking_distance %}<span>{{ t.walking_distance }} walking</span>{% endif %}
+        {% if t.neighborhood %}<span>{{ t.neighborhood }}</span>{% endif %}
+    </div>
+    {% if t.route %}<p class="tj-card-desc"><strong>Route:</strong> {{ t.route }}</p>{% endif %}
+    {% if t.stops_count %}<p class="tj-card-desc"><strong>Stops:</strong> {{ t.stops_count }}</p>{% endif %}
+    {% if t.description %}<p class="tj-card-desc">{{ t.description }}</p>{% endif %}
+    {% if t.dishes_sampled %}<p class="tj-card-desc"><strong>You'll taste:</strong> {{ t.dishes_sampled | join(', ') if t.dishes_sampled is iterable and t.dishes_sampled is not string else t.dishes_sampled }}</p>{% endif %}
+    <div class="tj-card-foot">
+        {{ address_link(t.meeting_point or t.address, city_name) }}
+        {% if t.affiliate_url %}<a class="tj-card-link" href="{{ t.affiliate_url }}" rel="nofollow sponsored" target="_blank">Book tour →</a>{% endif %}
+        {% if t.booking_url and not t.affiliate_url %}<a class="tj-card-link" href="{{ t.booking_url }}" rel="nofollow" target="_blank">Book tour →</a>{% endif %}
+    </div>
+</article>
+{% endmacro %}
+
+{% macro market_card(m, city_name='', entity_url=None) %}
+<article class="tj-card"
+    {% if entity_url %}data-entity-url="{{ entity_url }}"{% endif %}
+    {% if m.editorial_score is number %}data-score="{{ '%.2f' | format(m.editorial_score) }}"{% endif %}
+    data-name="{{ m.name | default('') }}">
+    <h3>{{ title_link(m.name, entity_url) }} {{ editorial_score(m.editorial_score) }}</h3>
+    <div class="tj-card-meta">
+        {% if m.hours %}<span class="tj-tag">{{ m.hours }}</span>{% endif %}
+        {% if m.market_type %}<span class="tj-tag">{{ m.market_type }}</span>{% endif %}
+        {% if m.vendors_count %}<span>{{ m.vendors_count }} vendors</span>{% endif %}
+        {% if m.indoor_outdoor %}<span>{{ m.indoor_outdoor }}</span>{% endif %}
+        {% if m.neighborhood %}<span>{{ m.neighborhood }}</span>{% endif %}
+    </div>
+    {% if m.description %}<p class="tj-card-desc">{{ m.description }}</p>{% endif %}
+    {% if m.best_for %}<p class="tj-card-desc"><strong>Go for:</strong> {{ m.best_for | join(', ') if m.best_for is iterable and m.best_for is not string else m.best_for }}</p>{% endif %}
+    {% if m.signature_stalls %}<p class="tj-card-desc"><strong>Don't miss:</strong> {{ m.signature_stalls | join(', ') if m.signature_stalls is iterable and m.signature_stalls is not string else m.signature_stalls }}</p>{% endif %}
+    {% if m.tip %}<p class="tj-card-desc"><strong>Tip:</strong> {{ m.tip }}</p>{% endif %}
+    <div class="tj-card-foot">{{ address_link(m.address, city_name) }}</div>
+</article>
+{% endmacro %}
+
+{% macro trip_card(t, city_name='', entity_url=None) %}
+<article class="tj-card">
+    <h3>{{ title_link(t.name, entity_url) }} {{ editorial_score(t.editorial_score) }}</h3>
+    <div class="tj-card-meta">
+        {% if t.distance %}<span class="tj-tag">{{ t.distance }}</span>{% endif %}
+        {% if t.how_to_get_there %}<span>{{ t.how_to_get_there }}</span>{% endif %}
+    </div>
+    {% if t.signature %}<p class="tj-card-desc"><strong>Famous for:</strong> {{ t.signature }}</p>{% endif %}
+    {% if t.description %}<p class="tj-card-desc">{{ t.description }}</p>{% endif %}
+    {% if t.name %}
+    <div class="tj-card-foot">{{ address_link(t.name, '') }}</div>
+    {% endif %}
+</article>
+{% endmacro %}
+
+{# Itinerary block. Itineraries are editorial content (day-by-day plans),
+   not venues. They render inline on /<country>/<city>/itineraries/ with
+   an anchor at #<slug> so individual plans can be linked to. No card,
+   no entity page; full day-by-day rendering with morning/afternoon/evening.
+#}
+{% macro itinerary_block(it) %}
+<section class="tj-itinerary" id="{{ it.slug or '' }}">
+    <h3>{{ it.name }} {{ editorial_score(it.editorial_score) }}</h3>
+    <div class="tj-card-meta">
+        {% if it.audience %}<span class="tj-tag">{{ it.audience }}</span>{% endif %}
+        {% if it.duration %}<span>{{ it.duration }}</span>{% endif %}
+    </div>
+    {% if it.summary %}<p class="tj-card-desc">{{ it.summary }}</p>{% endif %}
+    {% if it.days %}
+    <ol class="tj-itinerary-days">
+        {% for day in it.days %}
+        <li class="tj-itinerary-day">
+            <h4>Day {{ day.day_number or loop.index }}{% if day.title %}: {{ day.title }}{% endif %}</h4>
+            <dl>
+                {% if day.morning %}<dt>Morning</dt><dd>{{ day.morning }}</dd>{% endif %}
+                {% if day.afternoon %}<dt>Afternoon</dt><dd>{{ day.afternoon }}</dd>{% endif %}
+                {% if day.evening %}<dt>Evening</dt><dd>{{ day.evening }}</dd>{% endif %}
+            </dl>
+        </li>
+        {% endfor %}
+    </ol>
+    {% endif %}
+</section>
+{% endmacro %}

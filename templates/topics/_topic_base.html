@@ -1,0 +1,252 @@
+{# Shared base for all food-topic pages.
+   Each concrete topic template extends this and fills
+     {% block topic_intro %}    short paragraph above the fold
+     {% block topic_sections %} the meaty sections
+     {% block topic_schema_extra %} (optional) topic-specific JSON-LD
+
+   Context expected:
+     topic.{name,h1,subtitle,icon,slug,read_time,updated}
+     toc_items           [{id, title}]
+     related_topic_links [{slug, name, url}]
+#}
+{% extends "base.html" %}
+{% from "partials/_ad_slot.html" import ad_slot %}
+
+{% block title %}{{ seo.meta.title | default(topic.h1) }}{% endblock %}
+
+{% block hero %}
+<section class="tj-hero tj-container">
+    <a href="{% if region_slug %}/{{ country_slug }}/{{ region_slug }}/{% else %}/{{ country_slug }}/{% endif %}" class="tj-back-hub" aria-label="Back to {{ destination.name }} food guide">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg>
+        Back to {{ destination.name }} food guide
+    </a>
+    <div class="tj-hero-body">
+        <h1 itemprop="headline">{{ topic.h1 | default(topic.name ~ ' in ' ~ destination.name) }}</h1>
+        {% if topic.subtitle %}<p class="tj-hero-tagline">{{ topic.subtitle }}</p>{% endif %}
+        <div class="tj-byline">
+            <span class="tj-stamp">Updated {{ topic.updated | default('May 2026') }}</span>
+            <span>By <a rel="author" href="/about/editorial/">{{ seo.article.author | default('TableJourney Editorial') }}</a></span>
+            {% if topic.read_time %}<span>· {{ topic.read_time }} min read</span>{% endif %}
+        </div>
+    </div>
+</section>
+{% endblock %}
+
+{% block schema_extra %}
+{% set topic_entities = (
+    research.restaurants or research.fine_dining or research.casual_dining
+    or research.cafes or research.bakeries or research.coffee_roasters
+    or research.wine_bars or research.bars or research.street_food
+    or research.breweries or research.markets or research.food_tours
+    or research.food_festivals or research.cooking_classes
+    or research.budget_eating or research.hidden_gems
+    or research.brunch or research.late_night or research.day_trips_food
+    or research.signature_dishes or research.itineraries or []
+) %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "{{ seo.meta.canonical_url }}#article",
+      "headline": {{ (topic.h1 or topic.name) | tojson }},
+      "description": {{ (topic.meta_description or topic.subtitle or '') | tojson }},
+      "author": { "@type": "Organization", "name": "TableJourney Editorial", "url": "https://tablejourney.com/about/" },
+      "publisher": { "@type": "Organization", "name": "TableJourney", "logo": { "@type": "ImageObject", "url": "https://tablejourney.com/logo.png" } },
+      "datePublished": {{ (seo.article.published_time or '2026-01-01T00:00:00Z') | tojson }},
+      "dateModified": {{ (seo.article.modified_time or '2026-05-17T00:00:00Z') | tojson }},
+      "inLanguage": "en",
+      "isPartOf": { "@type": "WebSite", "name": "TableJourney", "url": "https://tablejourney.com" },
+      "mainEntityOfPage": { "@type": "WebPage", "@id": {{ seo.meta.canonical_url | tojson }} },
+      "articleSection": {{ (topic.name or 'Food Travel') | tojson }},
+      "about": { "@type": "Place", "name": {{ destination.name | tojson }} }
+    }
+    {% if topic_entities %},
+    {
+      "@type": "ItemList",
+      "@id": "{{ seo.meta.canonical_url }}#items",
+      "name": "{{ topic.name }} in {{ destination.name }}",
+      "numberOfItems": {{ topic_entities | length }},
+      "itemListElement": [
+        {% for e in topic_entities[:30] %}
+        { "@type": "ListItem", "position": {{ loop.index }}{% if e._url %}, "url": "https://tablejourney.com{{ e._url }}"{% endif %}, "name": {{ (e.name or e.operator) | tojson }} }{% if not loop.last %},{% endif %}
+        {% endfor %}
+      ]
+    }
+    {% endif %},
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://tablejourney.com/" },
+        { "@type": "ListItem", "position": 2, "name": {{ destination.name | tojson }}, "item": "https://tablejourney.com{% if region_slug %}/{{ country_slug }}/{{ region_slug }}/{% else %}/{{ country_slug }}/{% endif %}" },
+        { "@type": "ListItem", "position": 3, "name": {{ topic.name | tojson }} }
+      ]
+    }
+  ]
+}
+</script>
+{% block topic_schema_extra %}{% endblock %}
+{% endblock %}
+
+{% block content %}
+<div class="tj-layout-3">
+    <aside class="tj-toc" aria-label="On this page">
+        <h4>On this page</h4>
+        <ul>
+            {% for item in toc_items %}
+            <li><a href="#{{ item.id }}">{{ item.title }}</a></li>
+            {% endfor %}
+        </ul>
+        <a href="{% if region_slug %}/{{ country_slug }}/{{ region_slug }}/{% else %}/{{ country_slug }}/{% endif %}" class="tj-toc-back">← {{ destination.name }} food guide</a>
+    </aside>
+
+    <div class="tj-main-col">
+        <section class="tj-section" id="intro" itemprop="abstract">
+            {% block topic_intro %}
+            <p class="tj-intro">{{ topic.intro | default('A guide to ' ~ topic.name | lower ~ ' in ' ~ destination.name ~ '.') }}</p>
+            {% endblock %}
+        </section>
+
+        {# Client-side filter + sort across every entity card on the page.
+           Targets all .tj-card elements within #tj-topic-cards (the
+           place_card macro emits them with data-score/data-name attrs).
+           Widget only renders when the page has >=8 cards — not worth the
+           UI weight on short pages. The wrapping <div> always exists so
+           CSS / future enhancements can target it consistently. #}
+        {% set _ent_list = (
+            research.restaurants or research.fine_dining or research.casual_dining
+            or research.cafes or research.bakeries or research.coffee_roasters
+            or research.wine_bars or research.bars or research.street_food
+            or research.breweries or research.markets or research.food_tours
+            or research.food_festivals or research.cooking_classes
+            or research.budget_eating or research.hidden_gems
+            or research.brunch or research.late_night or research.day_trips_food
+            or []
+        ) %}
+        {% if _ent_list and (_ent_list | length) >= 8 %}
+        <div class="tj-filter-search" style="margin:12px 0 16px;display:flex;flex-wrap:wrap;gap:8px;align-items:center;">
+            <input type="search" autocomplete="off" spellcheck="false"
+                   class="tj-filter-search-input"
+                   placeholder="Filter by name, neighborhood, cuisine…"
+                   aria-label="Filter list"
+                   data-filter-target="#tj-topic-cards"
+                   data-filter-item=".tj-card"
+                   style="flex:1 1 280px;min-width:220px;padding:10px 14px;border:1px solid var(--tj-border);border-radius:var(--tj-radius);background:var(--tj-surface);color:inherit;font-size:1rem;">
+            <select class="tj-filter-sort-select"
+                    aria-label="Sort list"
+                    data-filter-target="#tj-topic-cards"
+                    data-filter-item=".tj-card"
+                    style="padding:10px 14px;border:1px solid var(--tj-border);border-radius:var(--tj-radius);background:var(--tj-surface);color:inherit;font-size:1rem;">
+                <option value="score-desc">Score (high to low)</option>
+                <option value="score-asc">Score (low to high)</option>
+                <option value="name-asc">Name (A→Z)</option>
+                <option value="name-desc">Name (Z→A)</option>
+                <option value="price-asc">Price (low to high)</option>
+                <option value="price-desc">Price (high to low)</option>
+            </select>
+        </div>
+        <script>(function(){
+            function getScore(el){var d=el.getAttribute("data-score");if(d){var n=parseFloat(d);if(!isNaN(n))return n;}var s=el.querySelector(".tj-entity-score, .tj-editorial-score");if(s){var m=(s.textContent||"").match(/(\d+(?:\.\d+)?)/);if(m)return parseFloat(m[1]);}return -Infinity;}
+            function getName(el){var d=el.getAttribute("data-name");if(d)return d.toLowerCase();var h=el.querySelector("h1,h2,h3,h4,strong");return ((h?h.textContent:el.textContent)||"").trim().toLowerCase();}
+            function getPrice(el){var d=el.getAttribute("data-price");if(d){var n=parseFloat(d);if(!isNaN(n))return n;}return null;}
+            function sortItems(t,sel,mode){var items=Array.prototype.slice.call(t.querySelectorAll(sel));if(!items.length)return;var parent=items[0].parentNode;items.sort(function(a,b){if(mode==="score-desc")return getScore(b)-getScore(a);if(mode==="score-asc")return getScore(a)-getScore(b);if(mode==="name-desc")return getName(b).localeCompare(getName(a));if(mode==="price-asc"){var pa=getPrice(a),pb=getPrice(b);if(pa===null&&pb===null)return getName(a).localeCompare(getName(b));if(pa===null)return 1;if(pb===null)return -1;return pa-pb;}if(mode==="price-desc"){var pa2=getPrice(a),pb2=getPrice(b);if(pa2===null&&pb2===null)return getName(a).localeCompare(getName(b));if(pa2===null)return 1;if(pb2===null)return -1;return pb2-pa2;}return getName(a).localeCompare(getName(b));});items.forEach(function(it){parent.appendChild(it);});}
+            function wire(){
+                var inputs=document.querySelectorAll("input.tj-filter-search-input:not([data-wired])");
+                inputs.forEach(function(inp){inp.setAttribute("data-wired","1");var t=document.querySelector(inp.getAttribute("data-filter-target"));if(!t)return;var sel=inp.getAttribute("data-filter-item");inp.addEventListener("input",function(){var q=inp.value.trim().toLowerCase();t.querySelectorAll(sel).forEach(function(it){var txt=(it.textContent||"").toLowerCase();it.style.display=(!q||txt.indexOf(q)!==-1)?"":"none";});});});
+                var selects=document.querySelectorAll("select.tj-filter-sort-select:not([data-wired])");
+                selects.forEach(function(sl){sl.setAttribute("data-wired","1");var t=document.querySelector(sl.getAttribute("data-filter-target"));if(!t)return;var sel=sl.getAttribute("data-filter-item");sl.addEventListener("change",function(){sortItems(t,sel,sl.value);});});
+            }
+            if(document.readyState==="loading"){document.addEventListener("DOMContentLoaded",wire);}else{wire();}
+        })();</script>
+        {% endif %}
+        <div id="tj-topic-cards">
+        {% block topic_sections %}{% endblock %}
+        </div>
+
+        {{ ad_slot('topic-mid', size='leaderboard') }}
+
+        {% if faqs %}
+        <section class="tj-section" id="faq">
+            <h2>{{ topic.name }} in {{ destination.name }}, FAQ</h2>
+            <div class="tj-faq-list">
+                {% for f in faqs %}
+                <details class="tj-faq">
+                    <summary>{{ f.question }}</summary>
+                    <p class="tj-faq-answer">{{ f.answer }}</p>
+                </details>
+                {% endfor %}
+            </div>
+        </section>
+        {% endif %}
+
+        {% if related_topic_links %}
+        <section class="tj-section" id="related">
+            <h2>More {{ destination.name }} food</h2>
+            <div class="tj-related-grid">
+                {% for r in related_topic_links %}
+                <a href="{{ r.url }}" class="tj-related-card">{{ r.name }}</a>
+                {% endfor %}
+            </div>
+        </section>
+        {% endif %}
+
+        <div style="margin-top:32px">
+            <a href="{% if region_slug %}/{{ country_slug }}/{{ region_slug }}/{% else %}/{{ country_slug }}/{% endif %}" class="tj-btn tj-btn-secondary">← Back to {{ destination.name }} food guide</a>
+        </div>
+    </div>
+
+    <aside class="tj-sidebar" aria-label="Sidebar">
+        <div class="tj-sidebar-box">
+            <h3>More in {{ destination.name }}</h3>
+            <ul class="tj-sidebar-list">
+                {% for r in related_topic_links | default([]) %}
+                <li><a href="{{ r.url }}">{{ r.name }}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        {{ ad_slot('topic-sidebar-1', size='rectangle') }}
+
+        <div class="tj-sidebar-box">
+            <h3>Plan your eating trip</h3>
+            <ul class="tj-sidebar-list">
+                <li><a href="{% if region_slug %}/{{ country_slug }}/{{ region_slug }}/itineraries/{% else %}/{{ country_slug }}/itineraries/{% endif %}">Eating itineraries</a></li>
+                <li><a href="{% if region_slug %}/{{ country_slug }}/{{ region_slug }}/food-tours/{% else %}/{{ country_slug }}/food-tours/{% endif %}">Guided food tours</a></li>
+                <li><a href="{% if region_slug %}/{{ country_slug }}/{{ region_slug }}/markets/{% else %}/{{ country_slug }}/markets/{% endif %}">Food markets</a></li>
+                <li><a href="{% if region_slug %}/{{ country_slug }}/{{ region_slug }}/signature-dishes/{% else %}/{{ country_slug }}/signature-dishes/{% endif %}">Must-try dishes</a></li>
+                <li><a href="{% if region_slug %}/{{ country_slug }}/{{ region_slug }}/food-history/{% else %}/{{ country_slug }}/food-history/{% endif %}">Food history</a></li>
+            </ul>
+        </div>
+
+        <div class="tj-sidebar-box">
+            <h3>Browse across cities</h3>
+            <ul class="tj-sidebar-list">
+                {% if topic.slug %}<li><a href="/topics/{{ topic.slug }}/">All {{ topic.name | lower }} on TableJourney</a></li>{% endif %}
+                <li><a href="/cuisines/">Cuisines</a></li>
+                <li><a href="/dishes/">Signature dishes</a></li>
+                <li><a href="/neighborhoods/">Neighbourhoods</a></li>
+            </ul>
+        </div>
+
+        {{ ad_slot('topic-sidebar-2', size='half-page', sticky=True, desktop_only=True) }}
+    </aside>
+</div>
+{% endblock %}
+
+{% block faq_schema %}
+{% if faqs %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {% for f in faqs %}
+    { "@type": "Question", "name": {{ f.question | tojson }}, "acceptedAnswer": { "@type": "Answer", "text": {{ f.answer | tojson }} } }{% if not loop.last %},{% endif %}
+    {% endfor %}
+  ],
+  "speakable": { "@type": "SpeakableSpecification", "cssSelector": [".tj-faq summary", ".tj-faq-answer"] }
+}
+</script>
+{% endif %}
+{% endblock %}

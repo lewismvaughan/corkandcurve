@@ -1,0 +1,77 @@
+{# Cross-cut: neighborhood landing (city-scoped).
+   /neighborhood/<city-slug>/<hood-slug>/
+
+   Context:
+     neighborhood       "Le Marais" (display name)
+     neighborhood_slug  "le-marais"
+     city_name          "Paris"
+     city_slug          "paris"
+     country_slug       "france"
+     vibe               optional, 1-2 sentence character sketch
+     entities_by_topic  {topic_slug: [entity, ...]}
+     total_entities     int
+     breadcrumb         standard breadcrumb
+#}
+{% extends "base.html" %}
+{% from "partials/_ad_slot.html" import ad_slot %}
+{% from "topics/_macros.html" import place_card %}
+
+{% block hero %}
+<section class="tj-hero tj-container">
+    <a href="/{{ country_slug }}/{{ city_slug }}/" class="tj-back-hub">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg>
+        Back to {{ city_name }} food guide
+    </a>
+    <div class="tj-hero-body">
+        <h1 itemprop="headline">Eat in {{ neighborhood }}, {{ city_name }}</h1>
+        {% if vibe %}<p class="tj-hero-tagline">{{ vibe }}</p>{% endif %}
+        <div class="tj-byline">
+            <span class="tj-stamp">{{ total_entities }} editor picks across {{ entities_by_topic | length }} categories</span>
+        </div>
+    </div>
+</section>
+{% endblock %}
+
+{% block schema_extra %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "CollectionPage",
+      "@id": "{{ seo.meta.canonical_url }}#collection",
+      "name": {{ ("Eat in " ~ neighborhood ~ ", " ~ city_name) | tojson }},
+      "description": {{ seo.meta.description | tojson }},
+      "url": {{ seo.meta.canonical_url | tojson }}
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {% for crumb in breadcrumb %}
+        { "@type": "ListItem", "position": {{ loop.index }}, "name": {{ crumb.name | tojson }}{% if crumb.url %}, "item": "https://tablejourney.com{{ crumb.url }}"{% endif %} }{% if not loop.last %},{% endif %}
+        {% endfor %}
+      ]
+    }
+  ]
+}
+</script>
+{% endblock %}
+
+{% block content %}
+<div class="tj-container">
+    {{ ad_slot('cross-cut-top', size='leaderboard') }}
+
+    {% for topic_slug, entities in entities_by_topic.items() %}
+    <section class="tj-section" id="topic-{{ topic_slug }}">
+        <h2>{{ topic_display.get(topic_slug, topic_slug | replace('-', ' ') | title) }} in {{ neighborhood }}</h2>
+        <div class="tj-card-grid">
+            {% for e in entities %}{{ place_card(e, city_name, e._url) }}{% endfor %}
+        </div>
+    </section>
+    {% endfor %}
+
+    <section class="tj-section">
+        <p><a class="tj-card-link" href="/{{ country_slug }}/{{ city_slug }}/">← Back to the {{ city_name }} food guide</a></p>
+    </section>
+</div>
+{% endblock %}

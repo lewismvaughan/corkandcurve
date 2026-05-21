@@ -1,0 +1,372 @@
+{% extends "base.html" %}
+{% from "partials/_ad_slot.html" import ad_slot %}
+
+{% block title %}{{ seo.meta.title | default(destination.name ~ ' Food Guide | TableJourney') }}{% endblock %}
+
+{% block hero %}
+<section class="tj-hero tj-container">
+    {% set _hero = destination.hero_image or research.hero_image %}
+    {% if _hero %}
+    {% set _hero_800  = _hero | replace('w=1600', 'w=800')  | replace('h=900', 'h=450') %}
+    {% set _hero_1200 = _hero | replace('w=1600', 'w=1200') | replace('h=900', 'h=675') %}
+    <img class="tj-hero-photo"
+         src="{{ _hero_1200 }}"
+         srcset="{{ _hero_800 }} 800w, {{ _hero_1200 }} 1200w, {{ _hero }} 1600w"
+         sizes="(min-width: 1200px) 1100px, 100vw"
+         alt="{{ destination.hero_image_alt | default(destination.name ~ ' food scene') }}"
+         fetchpriority="high" decoding="async" width="1600" height="900">
+    {% endif %}
+    <div class="tj-hero-body">
+        <h1 itemprop="headline">{{ destination.name }} Food Guide</h1>
+        {% if destination.tagline or research.food_tagline %}
+        <p class="tj-hero-tagline">{{ destination.tagline or research.food_tagline }}</p>
+        {% endif %}
+        <div class="tj-byline">
+            <span class="tj-stamp">Updated {{ updated_display | default(seo.article.modified_display) | default('May 2026') }}</span>
+            <span>By <a rel="author" href="/about/editorial/">{{ seo.article.author | default('TableJourney Editorial') }}</a></span>
+            {% if destination.country %}<span>· {{ destination.country }}</span>{% endif %}
+            {% if read_time %}<span>· {{ read_time }} min read</span>{% endif %}
+        </div>
+    </div>
+</section>
+{% endblock %}
+
+{% block schema_extra %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "{{ seo.meta.canonical_url }}#article",
+      "headline": {{ ((destination.name ~ ' Food Guide')) | tojson }},
+      "name": {{ (seo.meta.title or (destination.name ~ ' Food Guide')) | tojson }},
+      "description": {{ (seo.meta.description or '') | tojson }},
+      "image": {{ (destination.hero_image or research.hero_image or seo.open_graph.og_image or '') | tojson }},
+      "author": { "@type": "Organization", "name": "TableJourney Editorial", "url": "https://tablejourney.com/about/" },
+      "publisher": { "@type": "Organization", "name": "TableJourney", "logo": { "@type": "ImageObject", "url": "https://tablejourney.com/logo.png" } },
+      "datePublished": {{ (seo.article.published_time or '2026-01-01T00:00:00Z') | tojson }},
+      "dateModified": {{ (seo.article.modified_time or '2026-05-17T00:00:00Z') | tojson }},
+      "inLanguage": "en",
+      "isPartOf": { "@type": "WebSite", "name": "TableJourney", "url": "https://tablejourney.com" },
+      "mainEntityOfPage": { "@type": "WebPage", "@id": {{ seo.meta.canonical_url | tojson }} },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [".tj-hero-tagline", ".tj-hero h1"]
+      }
+    },
+    {
+      "@type": "TouristDestination",
+      "@id": "{{ seo.meta.canonical_url }}#destination",
+      "name": {{ destination.name | tojson }},
+      "description": {{ (research.food_culture_summary or destination.overview or '') | tojson }},
+      "image": {{ (destination.hero_image or research.hero_image or '') | tojson }},
+      "touristType": ["Food traveller", "Culinary tourist"]
+      {% if seo.geo and seo.geo.country_code %}, "address": { "@type": "PostalAddress", "addressCountry": {{ seo.geo.country_code | tojson }}, "addressLocality": {{ destination.name | tojson }} }{% endif %}
+      {% if seo.geo and seo.geo.latitude %}, "geo": { "@type": "GeoCoordinates", "latitude": {{ (seo.geo.latitude | string) | tojson }}, "longitude": {{ (seo.geo.longitude | string) | tojson }} }{% endif %}
+    }
+    {% if research.restaurants %},
+    {
+      "@type": "ItemList",
+      "@id": "{{ seo.meta.canonical_url }}#restaurants",
+      "name": "Restaurants in {{ destination.name }}",
+      "itemListOrder": "https://schema.org/ItemListOrderAscending",
+      "numberOfItems": {{ research.restaurants | length }},
+      "itemListElement": [
+        {% for r in research.restaurants[:10] %}
+        { "@type": "ListItem", "position": {{ loop.index }}, "item": {
+            "@type": "Restaurant", "name": {{ r.name | tojson }}
+            {% if r.cuisine %}, "servesCuisine": {{ r.cuisine | tojson }}{% endif %}
+            {% if r.price_tier %}, "priceRange": {{ r.price_tier | tojson }}{% endif %}
+            {% if r.address %}, "address": { "@type": "PostalAddress", "streetAddress": {{ r.address | tojson }} }{% endif %}
+        }}{% if not loop.last %},{% endif %}
+        {% endfor %}
+      ]
+    }
+    {% endif %}
+    {% if research.signature_dishes %},
+    {
+      "@type": "ItemList",
+      "@id": "{{ seo.meta.canonical_url }}#dishes",
+      "name": "Signature dishes of {{ destination.name }}",
+      "numberOfItems": {{ research.signature_dishes | length }},
+      "itemListElement": [
+        {% for d in research.signature_dishes[:10] %}
+        { "@type": "ListItem", "position": {{ loop.index }}{% if d._url %}, "url": "https://tablejourney.com{{ d._url }}"{% endif %}, "item": {
+            "@type": "Thing", "name": {{ d.name | tojson }}
+            {% if d.description %}, "description": {{ d.description | tojson }}{% endif %}
+        }}{% if not loop.last %},{% endif %}
+        {% endfor %}
+      ]
+    }
+    {% endif %},
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://tablejourney.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Cities", "item": "https://tablejourney.com/cities/" },
+        { "@type": "ListItem", "position": 3, "name": {{ destination.name | tojson }} }
+      ]
+    }
+  ]
+}
+</script>
+{% endblock %}
+
+{% block content %}
+<div class="tj-layout">
+    <div class="tj-main-col">
+        {% if research.food_culture_summary or destination.overview %}
+        <section class="tj-section" id="intro" itemprop="abstract">
+            <p class="tj-intro">{{ research.food_culture_summary or destination.overview }}</p>
+        </section>
+        {% endif %}
+
+        {{ ad_slot('city-top', size='in-article-native') }}
+
+        {% if region_slug and not is_state_hub %}
+        <section class="tj-section" id="explore">
+            <h2>Eat your way through {{ destination.name }}</h2>
+            <nav class="tj-topic-grid" aria-label="{{ destination.name }} food topics">
+                {% for topic in topic_nav %}
+                <a href="/{{ country_slug }}/{{ region_slug }}/{{ topic.slug }}/" class="tj-topic-chip" title="{{ topic.name }} in {{ destination.name }}">
+                    <span class="tj-topic-chip-icon" aria-hidden="true">{{ topic.icon }}</span>
+                    <span class="tj-topic-chip-name">{{ topic.name }}</span>
+                </a>
+                {% endfor %}
+            </nav>
+            {% if city_price_rollups %}
+            <h3 style="margin-top:24px;">Browse by price</h3>
+            <div class="tj-topic-grid" role="list" aria-label="Browse {{ destination.name }} by price">
+                {% for r in city_price_rollups %}
+                <a href="{{ r.href }}" class="tj-topic-chip" role="listitem" title="{{ r.label }} in {{ destination.name }}">
+                    <span class="tj-topic-chip-icon" aria-hidden="true">{{ r.icon }}</span>
+                    <span class="tj-topic-chip-name">{{ r.label }}</span>
+                </a>
+                {% endfor %}
+            </div>
+            {% endif %}
+        </section>
+
+        <section class="tj-section" id="map" aria-label="Map of every place we cover in {{ destination.name }}">
+            <h2>Map of {{ destination.name }}</h2>
+            <p class="tj-intro">Every restaurant, cafe, market and bar we cover in {{ destination.name }}, pinned. Click a pin for the page.</p>
+            <div class="tj-citymap-wrap">
+                <div class="tj-citymap" data-pins-url="/{{ country_slug }}/{{ region_slug }}/_pins.json"></div>
+            </div>
+        </section>
+        {% elif subregions %}
+        <section class="tj-section" id="cities">
+            <h2>Cities in {{ destination.name }}</h2>
+            <p>Each city has its own way of feeding you. Pick where to start.</p>
+            <div class="tj-card-grid">
+                {% for sub in subregions %}
+                <article class="tj-card">
+                    <h3><a class="tj-card-link" href="/{{ country_slug }}/{{ sub.slug }}/">{{ sub.name }}</a></h3>
+                    {% if sub.description %}<p class="tj-card-desc">{{ sub.description }}</p>{% endif %}
+                </article>
+                {% endfor %}
+            </div>
+        </section>
+
+        {% if country_state_hubs %}
+        <section class="tj-section" id="states">
+            <h2>By state</h2>
+            <p>State-level food guides aggregating every city in that state.</p>
+            <ul class="tj-grid-list">
+                {% for s in country_state_hubs %}
+                <li><a href="{{ s.href }}"><strong>{{ s.label }}</strong></a></li>
+                {% endfor %}
+            </ul>
+        </section>
+        {% endif %}
+
+        {% if country_topic_rollups %}
+        <section class="tj-section" id="country-topic-rollups">
+            <h2>Top across {{ destination.name }}</h2>
+            <p class="tj-intro">Country-wide editor lists across every category we cover.</p>
+            <div class="tj-topic-grid" role="list" aria-label="Top across {{ destination.name }} food topics">
+                {% for r in country_topic_rollups %}
+                <a href="{{ r.href }}" class="tj-topic-chip" role="listitem" title="{{ r.label }} across {{ destination.name }}">
+                    <span class="tj-topic-chip-icon" aria-hidden="true">{{ r.icon | default('★') }}</span>
+                    <span class="tj-topic-chip-name">{{ r.label }}</span>
+                </a>
+                {% endfor %}
+            </div>
+        </section>
+        {% endif %}
+        {% endif %}
+
+        {% if research.signature_dishes %}
+        <section class="tj-section" id="must-try">
+            <h2>Must-try dishes in {{ destination.name }}</h2>
+            <p>The plates that define eating in {{ destination.name }}.</p>
+            <div class="tj-dish-strip">
+                {% for dish in research.signature_dishes[:6] %}
+                {% set _dish_url = (region_slug and dish.slug and ('/' ~ country_slug ~ '/' ~ region_slug ~ '/dish/' ~ dish.slug ~ '/'))
+                                   or (dish.slug and ('/' ~ country_slug ~ '/dish/' ~ dish.slug ~ '/'))
+                                   or '' %}
+                <article class="tj-dish" itemscope itemtype="https://schema.org/Thing">
+                    <h3 class="tj-dish-name" itemprop="name">
+                        {% if _dish_url %}<a href="{{ _dish_url }}">{{ dish.name }}</a>{% else %}{{ dish.name }}{% endif %}
+                    </h3>
+                    {% if dish.description %}<p class="tj-dish-desc" itemprop="description">{{ dish.description }}</p>{% endif %}
+                    {% if dish.where_to_eat %}
+                    <p class="tj-dish-where"><strong>Where:</strong> {{ dish.where_to_eat | join(', ') if dish.where_to_eat is iterable and dish.where_to_eat is not string else dish.where_to_eat }}</p>
+                    {% endif %}
+                    {% if _dish_url %}<p style="margin-top:6px"><a class="tj-card-link" href="{{ _dish_url }}">Where to eat {{ dish.name }} in {{ destination.name }} →</a></p>{% endif %}
+                </article>
+                {% endfor %}
+            </div>
+            <p style="margin-top:14px"><a class="tj-card-link" href="{% if region_slug %}/{{ country_slug }}/{{ region_slug }}/signature-dishes/{% else %}/{{ country_slug }}/signature-dishes/{% endif %}">All {{ destination.name }} signature dishes →</a></p>
+        </section>
+        {% endif %}
+
+        {{ ad_slot('city-mid-1', size='leaderboard') }}
+
+        {% if research.restaurants %}
+        <section class="tj-section" id="restaurants">
+            <h2>Restaurants to know in {{ destination.name }}</h2>
+            <p>A handful of the places we send friends to when they are in {{ destination.name }}.</p>
+            <div class="tj-card-grid">
+                {% for r in research.restaurants[:6] %}
+                <article class="tj-card" itemscope itemtype="https://schema.org/Restaurant">
+                    <h3 itemprop="name">{% if r._url %}<a href="{{ r._url }}">{{ r.name }}</a>{% else %}{{ r.name }}{% endif %}</h3>
+                    <div class="tj-card-meta">
+                        {% if r.cuisine %}<span class="tj-tag" itemprop="servesCuisine">{{ r.cuisine }}</span>{% endif %}
+                        {% if r.price_tier %}<span itemprop="priceRange">{{ r.price_tier }}</span>{% endif %}
+                        {% if r.address %}<span itemprop="address">{{ r.address }}</span>{% endif %}
+                    </div>
+                    {% if r.description %}<p class="tj-card-desc" itemprop="description">{{ r.description }}</p>{% endif %}
+                    {% if r.signature_dishes %}<p class="tj-card-desc"><strong>Signature:</strong> {{ r.signature_dishes | join(', ') if r.signature_dishes is iterable and r.signature_dishes is not string else r.signature_dishes }}</p>{% endif %}
+                    {% if r._url %}<p style="margin-top:6px"><a class="tj-card-link" href="{{ r._url }}">More about {{ r.name }} →</a></p>{% endif %}
+                </article>
+                {% endfor %}
+            </div>
+            <p style="margin-top:16px"><a class="tj-card-link" href="{% if region_slug %}/{{ country_slug }}/{{ region_slug }}/restaurants/{% else %}/{{ country_slug }}/restaurants/{% endif %}">See every restaurant in {{ destination.name }} →</a></p>
+        </section>
+        {% endif %}
+
+        {% if research.neighborhoods %}
+        <section class="tj-section" id="neighborhoods">
+            <h2>Where to eat by neighborhood</h2>
+            <div class="tj-card-grid">
+                {% for n in research.neighborhoods[:6] %}
+                <article class="tj-card">
+                    <h3>{% if n._link_url %}<a href="{{ n._link_url }}">{{ n._display_label or n.name }}</a>{% else %}{{ n._display_label or n.name }}{% endif %}</h3>
+                    {% if n.vibe %}<p class="tj-card-desc">{{ n.vibe }}</p>{% endif %}
+                    {% if n.best_for_meals %}<p class="tj-card-desc"><strong>Best for:</strong> {{ n.best_for_meals | join(', ') if n.best_for_meals is iterable and n.best_for_meals is not string else n.best_for_meals }}</p>{% endif %}
+                    {% if n._linked_aliases and n._linked_aliases | length > 1 %}<p class="tj-card-desc"><strong>Also:</strong> {% for la in n._linked_aliases[1:] %}<a href="{{ la.url }}">{{ la.code }}</a>{% if not loop.last %}, {% endif %}{% endfor %}</p>{% endif %}
+                </article>
+                {% endfor %}
+            </div>
+        </section>
+        {% endif %}
+
+        {% if research.peak_food_season or research.local_dining_hours or research.tipping_norm %}
+        <section class="tj-section" id="when-to-come">
+            <h2>When to come hungry in {{ destination.name }}</h2>
+            {% if research.peak_food_season %}<p><strong>Peak food season:</strong> {{ research.peak_food_season }}</p>{% endif %}
+            {% if research.local_dining_hours %}<p><strong>Local dining hours:</strong> {{ research.local_dining_hours }}</p>{% endif %}
+            {% if research.tipping_norm %}<p><strong>Tipping:</strong> {{ research.tipping_norm }}</p>{% endif %}
+        </section>
+        {% endif %}
+
+        {% if related_cities %}
+        <section class="tj-section" id="related-cities">
+            <h2>Eating cities like {{ destination.name }}</h2>
+            <div class="tj-related-grid">
+                {% for c in related_cities %}
+                <a href="{{ c.url }}" class="tj-related-card">{{ c.name }}</a>
+                {% endfor %}
+            </div>
+        </section>
+        {% endif %}
+
+        {% if faqs %}
+        <section class="tj-section" id="faq">
+            <h2>{{ destination.name }} food, FAQ</h2>
+            <div class="tj-faq-list">
+                {% for f in faqs %}
+                <details class="tj-faq">
+                    <summary>{{ f.question }}</summary>
+                    <p class="tj-faq-answer">{{ f.answer }}</p>
+                </details>
+                {% endfor %}
+            </div>
+        </section>
+        {% endif %}
+    </div>
+
+    <aside class="tj-sidebar" aria-label="City sidebar">
+        <div class="tj-sidebar-box">
+            <h3>Quick facts</h3>
+            <ul class="tj-sidebar-list">
+                {% if destination.country %}<li><strong>Country:</strong> {{ destination.country }}</li>{% endif %}
+                {% if destination.population %}<li><strong>Population:</strong> {{ destination.population }}</li>{% endif %}
+                {% if research.peak_food_season %}<li><strong>Peak season:</strong> {{ research.peak_food_season }}</li>{% endif %}
+                {% if research.local_dining_hours %}<li><strong>Dining hours:</strong> {{ research.local_dining_hours }}</li>{% endif %}
+                {% if research.tipping_norm %}<li><strong>Tipping:</strong> {{ research.tipping_norm }}</li>{% endif %}
+            </ul>
+        </div>
+
+        {% if research.signature_dishes %}
+        <div class="tj-sidebar-box">
+            <h3>Must-try, at a glance</h3>
+            <ul class="tj-sidebar-list">
+                {% for dish in research.signature_dishes[:6] %}
+                {% set _dish_url = (region_slug and dish.slug and ('/' ~ country_slug ~ '/' ~ region_slug ~ '/dish/' ~ dish.slug ~ '/'))
+                                   or (dish.slug and ('/' ~ country_slug ~ '/dish/' ~ dish.slug ~ '/'))
+                                   or '#must-try' %}
+                <li><a href="{{ _dish_url }}">{{ dish.name }}</a></li>
+                {% endfor %}
+            </ul>
+            <p style="margin-top:8px"><a class="tj-card-link" href="{% if region_slug %}/{{ country_slug }}/{{ region_slug }}/signature-dishes/{% else %}/{{ country_slug }}/signature-dishes/{% endif %}">View all dishes →</a></p>
+        </div>
+        {% endif %}
+
+        {{ ad_slot('city-sidebar-1', size='rectangle') }}
+
+        {% if region_slug and not is_state_hub %}
+        <div class="tj-sidebar-box">
+            <h3>Plan your eating trip</h3>
+            <ul class="tj-sidebar-list">
+                <li><a href="/{{ country_slug }}/{{ region_slug }}/food-tours/">Guided food tours</a></li>
+                <li><a href="/{{ country_slug }}/{{ region_slug }}/cooking-classes/">Cooking classes</a></li>
+                <li><a href="/{{ country_slug }}/{{ region_slug }}/markets/">Food markets</a></li>
+                <li><a href="/{{ country_slug }}/{{ region_slug }}/festivals/">Food festivals</a></li>
+            </ul>
+        </div>
+        {% endif %}
+
+        <div class="tj-sidebar-box">
+            {% set _scope = '/' ~ country_slug ~ ('/' ~ region_slug if region_slug else '') %}
+            <h3>Explore {{ destination.name }}</h3>
+            <ul class="tj-sidebar-list">
+                <li><a href="{{ _scope }}/cuisines/">Cuisines</a></li>
+                <li><a href="{{ _scope }}/signature-dishes/">Signature dishes</a></li>
+                <li><a href="{{ _scope }}/neighborhoods/">Neighbourhoods</a></li>
+            </ul>
+        </div>
+
+        {{ ad_slot('city-sidebar-2', size='half-page', sticky=True, desktop_only=True) }}
+    </aside>
+</div>
+{% endblock %}
+
+{% block faq_schema %}
+{% if faqs %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {% for f in faqs %}
+    { "@type": "Question", "name": {{ f.question | tojson }}, "acceptedAnswer": { "@type": "Answer", "text": {{ f.answer | tojson }} } }{% if not loop.last %},{% endif %}
+    {% endfor %}
+  ],
+  "speakable": { "@type": "SpeakableSpecification", "cssSelector": [".tj-faq summary", ".tj-faq-answer"] }
+}
+</script>
+{% endif %}
+{% endblock %}

@@ -1,0 +1,147 @@
+{# Cross-cut: dish landing (global).
+   /dish/<dish-slug>/
+
+   Context:
+     dish              "Steak Frites" (display name)
+     dish_slug         "steak-frites"
+     description       editorial dish description
+     history           dish history paragraph (optional)
+     allergens         list (optional)
+     make_it_yourself  optional recipe block (see SCHEMA.md)
+     where_to_eat      [{city_name, city_slug, country_slug, restaurants:[entity,...]}]
+     total_restaurants int
+     breadcrumb        standard breadcrumb
+#}
+{% extends "base.html" %}
+{% from "partials/_ad_slot.html" import ad_slot %}
+{% from "topics/_macros.html" import place_card %}
+
+{% block hero %}
+<section class="tj-hero tj-container">
+    <div class="tj-hero-body">
+        <h1 itemprop="headline">{{ dish }}</h1>
+        {% if description %}<p class="tj-hero-tagline">{{ description }}</p>{% endif %}
+        {% if total_restaurants %}<p><strong>Where to eat it:</strong> {{ total_restaurants }} {% if total_restaurants == 1 %}restaurant{% else %}restaurants{% endif %} across {{ where_to_eat | length }} {% if where_to_eat | length == 1 %}city{% else %}cities{% endif %}.</p>{% endif %}
+    </div>
+</section>
+{% endblock %}
+
+{% block schema_extra %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "CollectionPage",
+      "@id": "{{ seo.meta.canonical_url }}#collection",
+      "name": {{ dish | tojson }},
+      {% if description %}"description": {{ description | tojson }},{% endif %}
+      "url": {{ seo.meta.canonical_url | tojson }}
+    },
+    {% if make_it_yourself and make_it_yourself.ingredients and make_it_yourself.method %}
+    {
+      "@type": "Recipe",
+      "@id": "{{ seo.meta.canonical_url }}#recipe",
+      "name": {{ (dish ~ ' (home recipe)') | tojson }},
+      "description": {{ (description or ('How to make ' ~ dish ~ ' at home.')) | tojson }},
+      "author": { "@type": "Organization", "name": "TableJourney" },
+      "publisher": { "@type": "Organization", "name": "TableJourney", "logo": { "@type": "ImageObject", "url": "https://tablejourney.com/logo.png" } },
+      {% if make_it_yourself.serves %}"recipeYield": {{ make_it_yourself.serves | tojson }},{% endif %}
+      {% if make_it_yourself.total_time %}"totalTime": {{ make_it_yourself.total_time | tojson }},{% endif %}
+      {% if make_it_yourself.active_time %}"prepTime": {{ make_it_yourself.active_time | tojson }},{% endif %}
+      {% if make_it_yourself.difficulty %}"keywords": {{ make_it_yourself.difficulty | tojson }},{% endif %}
+      "recipeIngredient": [
+        {% for ing in make_it_yourself.ingredients %}{{ ing | tojson }}{% if not loop.last %},{% endif %}{% endfor %}
+      ],
+      "recipeInstructions": [
+        {% for step in make_it_yourself.method %}{ "@type": "HowToStep", "position": {{ loop.index }}, "text": {{ step | tojson }} }{% if not loop.last %},{% endif %}{% endfor %}
+      ]
+    },
+    {% endif %}
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {% for crumb in breadcrumb %}
+        { "@type": "ListItem", "position": {{ loop.index }}, "name": {{ crumb.name | tojson }}{% if crumb.url %}, "item": "https://tablejourney.com{{ crumb.url }}"{% endif %} }{% if not loop.last %},{% endif %}
+        {% endfor %}
+      ]
+    }
+  ]
+}
+</script>
+{% endblock %}
+
+{% block content %}
+<div class="tj-container">
+    {% if history %}
+    <section class="tj-section" id="history">
+        <h2>History</h2>
+        <p>{{ history }}</p>
+    </section>
+    {% endif %}
+
+    {% if allergens %}
+    <section class="tj-section" id="allergens">
+        <p class="tj-detail-line"><strong>Common allergens:</strong> {{ allergens | join(', ') if allergens is iterable and allergens is not string else allergens }}</p>
+    </section>
+    {% endif %}
+
+    {{ ad_slot('cross-cut-top', size='leaderboard') }}
+
+    {% if make_it_yourself and make_it_yourself.ingredients and make_it_yourself.method %}
+    <section class="tj-section tj-recipe" id="make-it-yourself">
+        <h2>Make it at home</h2>
+        <div class="tj-recipe-meta">
+            {% if make_it_yourself.serves %}<span><strong>Yield</strong> {{ make_it_yourself.serves }}</span>{% endif %}
+            {% if make_it_yourself.active_time %}<span><strong>Hands-on</strong> {{ make_it_yourself.active_time | humanize_duration }}</span>{% endif %}
+            {% if make_it_yourself.total_time %}<span><strong>Total</strong> {{ make_it_yourself.total_time | humanize_duration }}</span>{% endif %}
+            {% if make_it_yourself.difficulty %}<span><strong>Difficulty</strong> {{ make_it_yourself.difficulty }}</span>{% endif %}
+        </div>
+
+        <div class="tj-recipe-grid">
+            <div class="tj-recipe-ingredients">
+                <h3>Ingredients</h3>
+                <ul>
+                    {% for ing in make_it_yourself.ingredients %}<li>{{ ing }}</li>{% endfor %}
+                </ul>
+            </div>
+            <div class="tj-recipe-method">
+                <h3>Method</h3>
+                <ol>
+                    {% for step in make_it_yourself.method %}<li>{{ step }}</li>{% endfor %}
+                </ol>
+            </div>
+        </div>
+
+        {% if make_it_yourself.tip %}
+        <p class="tj-recipe-tip"><strong>Tip from the editors.</strong> {{ make_it_yourself.tip }}</p>
+        {% endif %}
+
+        <p class="tj-recipe-note">This is the TableJourney editorial recipe, modelled on the canonical bistro / counter version. The first place to try the dish in its city of origin is below.</p>
+    </section>
+    {% endif %}
+
+    {% if where_to_eat %}
+    <section class="tj-section" id="where">
+        <h2>Where to eat {{ dish | lower }}</h2>
+        {% for city in where_to_eat %}
+        <div style="margin-top: 28px">
+            <h3><a href="/{{ city.country_slug }}/{{ city.city_slug }}/signature-dishes/">{{ dish }} in {{ city.city_name }}</a></h3>
+            {% if city.restaurants %}
+            <div class="tj-card-grid">
+                {% for r in city.restaurants %}{{ place_card(r, city.city_name, r._url) }}{% endfor %}
+            </div>
+            {% else %}
+            <p>Featured by TableJourney as a signature dish of {{ city.city_name }}. See the <a href="/{{ city.country_slug }}/{{ city.city_slug }}/signature-dishes/">{{ city.city_name }} signature dishes</a> guide for the canonical version.</p>
+            {% endif %}
+        </div>
+        {% endfor %}
+    </section>
+    {% endif %}
+
+    <section class="tj-section">
+        <p class="tj-note">More cities are in research. Want {{ dish | lower }} covered somewhere specific? <a href="/contact/">Tell us where you want to eat.</a></p>
+        <p style="margin-top:18px"><a class="tj-card-link" href="/dishes/">Browse all dishes →</a></p>
+    </section>
+</div>
+{% endblock %}

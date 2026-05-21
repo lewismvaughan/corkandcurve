@@ -1,0 +1,167 @@
+{% extends "base.html" %}
+{% from "partials/_ad_slot.html" import ad_slot %}
+{% from "topics/_macros.html" import editorial_score %}
+
+{% block title %}TableJourney, where the world eats{% endblock %}
+{% block meta_description %}Food travel guides for the world's great eating cities. Restaurants, street food, signature dishes, hidden gems and food culture, written for hungry travellers.{% endblock %}
+
+{% block schema_extra %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://tablejourney.com/#website",
+      "url": "https://tablejourney.com/",
+      "name": "TableJourney",
+      "description": "Food travel guides to the cities where eating is the reason to go.",
+      "inLanguage": "en",
+      "publisher": { "@type": "Organization", "name": "TableJourney" },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": { "@type": "EntryPoint", "urlTemplate": "https://tablejourney.com/search/?q={search_term_string}" },
+        "query-input": "required name=search_term_string"
+      }
+    }
+    {% set _live_cities = home.featured_cities | rejectattr('status','equalto','coming-soon') | list %}
+    {% if _live_cities %},
+    {
+      "@type": "ItemList",
+      "@id": "https://tablejourney.com/#featured-cities",
+      "name": "Featured food cities on TableJourney",
+      "numberOfItems": {{ _live_cities | length }},
+      "itemListElement": [
+        {% for c in _live_cities %}
+        { "@type": "ListItem", "position": {{ loop.index }}, "url": {{ c.url | tojson }}, "name": {{ c.name | tojson }} }{% if not loop.last %},{% endif %}
+        {% endfor %}
+      ]
+    }
+    {% endif %}
+  ]
+}
+</script>
+{% endblock %}
+
+{% block hero %}
+<section class="tj-home-hero">
+    <h1>Where the world eats</h1>
+    <p>Editorial food travel guides to the cities where eating is the reason to go.</p>
+    <form class="tj-home-search" role="search" action="/search/" method="get">
+        <label class="tj-sr-only" for="tj-home-search-input">Search a city, cuisine, or dish</label>
+        <input id="tj-home-search-input" type="search" name="q" placeholder="Search a city, cuisine, or dish" autocomplete="off" enterkeyhint="search">
+    </form>
+</section>
+{% endblock %}
+
+{% block content %}
+    <section class="tj-section" id="featured-cities">
+        <h2>Featured cities</h2>
+        <p class="tj-intro">Start with the cities our editors are eating their way through right now.</p>
+        <div class="tj-marquee" aria-label="Featured cities">
+            <div class="tj-marquee-track">
+                {% for _dup in [false, true] %}
+                <div class="tj-marquee-group"{% if _dup %} aria-hidden="true"{% endif %}>
+                    {% for city in home.featured_cities | default([]) %}
+                        {% set _is_lcp = loop.first and not _dup %}
+                        {% if city.status == 'coming-soon' %}
+                        <div class="tj-city-card is-coming-soon" title="{{ city.name }} guide launching soon">
+                            <span class="tj-city-card-badge">Launching soon</span>
+                            <img class="tj-city-card-img" src="{{ city.image }}" alt="{{ city.name }} food scene" {% if _is_lcp %}fetchpriority="high" loading="eager"{% else %}loading="lazy"{% endif %} decoding="async" width="600" height="450">
+                            <div class="tj-city-card-body">
+                                <h3 class="tj-city-card-name">{{ city.name }}</h3>
+                                <p class="tj-city-card-tagline">{{ city.tagline }}</p>
+                            </div>
+                        </div>
+                        {% else %}
+                        <a href="{{ city.url }}" class="tj-city-card" title="{{ city.name }} food guide"{% if _dup %} tabindex="-1" aria-hidden="true"{% endif %}>
+                            <img class="tj-city-card-img" src="{{ city.image }}" alt="{{ city.name }} food scene" {% if _is_lcp %}fetchpriority="high" loading="eager"{% else %}loading="lazy"{% endif %} decoding="async" width="600" height="450">
+                            <div class="tj-city-card-body">
+                                <h3 class="tj-city-card-name">{{ city.name }}</h3>
+                                <p class="tj-city-card-tagline">{{ city.tagline }}</p>
+                            </div>
+                        </a>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+
+    {{ ad_slot('home-mid', size='leaderboard') }}
+
+    <section class="tj-section" id="trending-dishes">
+        <h2>Trending dishes</h2>
+        <p class="tj-intro">Iconic plates worth booking a flight for.</p>
+        <div class="tj-marquee" aria-label="Trending dishes">
+            <div class="tj-marquee-track">
+                {% for _dup in [false, true] %}
+                <div class="tj-marquee-group"{% if _dup %} aria-hidden="true"{% endif %}>
+                    {% for dish in home.trending_dishes | default([]) %}
+                    {% if dish.url %}
+                    <a class="tj-dish" href="{{ dish.url }}"{% if _dup %} tabindex="-1" aria-hidden="true"{% endif %}>
+                    {% else %}
+                    <article class="tj-dish">
+                    {% endif %}
+                        <h3 class="tj-dish-name">{{ dish.name }} {{ editorial_score(dish.editorial_score) }}</h3>
+                        <p class="tj-dish-desc">{{ dish.description }}</p>
+                        {% if dish.city %}
+                        <p class="tj-dish-where"><strong>{{ dish.city }}</strong>{% if dish.where %} · {{ dish.where }}{% endif %}</p>
+                        {% endif %}
+                    {% if dish.url %}</a>{% else %}</article>{% endif %}
+                    {% endfor %}
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+
+    {% if home.featured_countries %}
+    <section class="tj-section" id="browse-countries">
+        <h2>Browse by country</h2>
+        <p class="tj-intro">Skip to a country hub when you already know where you are going.</p>
+        <nav class="tj-country-grid" aria-label="Countries on TableJourney">
+            {% for c in home.featured_countries %}
+            <a href="{{ c.url }}" class="tj-country-chip">
+                <span class="tj-country-chip-flag" aria-hidden="true">{{ c.flag }}</span>
+                <span class="tj-country-chip-name">{{ c.name }}</span>
+            </a>
+            {% endfor %}
+        </nav>
+    </section>
+    {% endif %}
+
+    <section class="tj-section" id="explore-topics">
+        <h2>Browse by what you are hungry for</h2>
+        <nav class="tj-topic-grid" aria-label="Topics across TableJourney">
+            {% for topic in home.topics | default(topic_nav) | default([]) %}
+            <a href="/topics/{{ topic.slug }}/" class="tj-topic-chip">
+                <span class="tj-topic-chip-icon" aria-hidden="true">{{ topic.icon }}</span>
+                <span class="tj-topic-chip-name">{{ topic.name }}</span>
+            </a>
+            {% endfor %}
+        </nav>
+    </section>
+
+    {{ ad_slot('home-bottom', size='in-article-native') }}
+
+    <section class="tj-section" id="more-from-tj">
+        <h2>More from TableJourney</h2>
+        <p class="tj-intro">
+            Looking for something specific? Try the <a href="/search/">site search</a>,
+            browse <a href="/cities/">every city we cover</a>,
+            see <a href="/topics/">every food topic</a>,
+            or skim the <a href="/cuisine/">global cuisines index</a>
+            and <a href="/dishes/">signature dishes index</a>.
+            Curious who we are? Read <a href="/about/">about TableJourney</a> and our <a href="/editorial-standards/">editorial standards</a>.
+        </p>
+        <p class="tj-note" style="font-size:.9em; opacity:.75;">
+            <a href="/privacy/">Privacy</a> &middot;
+            <a href="/terms/">Terms</a> &middot;
+            <a href="/cookies/">Cookies</a> &middot;
+            <a href="/disclaimer/">Disclaimer</a> &middot;
+            <a href="/contact/">Contact</a>
+        </p>
+    </section>
+{% endblock %}

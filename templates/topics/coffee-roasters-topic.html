@@ -1,0 +1,17 @@
+{% extends "topics/_topic_base.html" %}
+{% from "topics/_macros.html" import place_card %}
+
+{% block topic_intro %}
+<p class="tj-intro">{{ topic.intro | default('The roasters writing the coffee scene in ' ~ destination.name ~ '. who they are, where they source from, and where to drink the result.') }}</p>
+{% endblock %}
+
+{% block topic_sections %}
+{% if research.coffee_roasters %}
+<section class="tj-section" id="picks">
+    <h2>Roasters worth knowing</h2>
+    <div class="tj-card-grid">
+        {% for r in research.coffee_roasters %}{{ place_card(r, destination.name, r._url) }}{% endfor %}
+    </div>
+</section>
+{% endif %}
+{% endblock %}
