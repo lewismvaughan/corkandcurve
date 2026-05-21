@@ -1,236 +1,109 @@
-# TableJourney Pipeline
+# Cork & Curve — pipeline reference
 
-End-to-end flow for taking a city from idea to live on tablejourney.com.
-
-The site is **live as of 2026-05-17**. There is no separate deploy step:
-Caddy on the host reads `content/` straight from disk and serves it at
-`https://tablejourney.com/`. Any change to `content/` is public on the next
-HTTP request (after the chmod step below). See `CLAUDE.md` for hosting layout.
-
-**Site language: English only.** No multi-language plan; do not introduce
-locale/translation fields. Hardcoded `en_US` OG locale, `<html lang="en">`,
-`<language>en</language>` in the feed. See
-[CITY_ROADMAP.md](CITY_ROADMAP.md) for the per-city priority order
-(United States first, then EU, then rest of world).
-
----
-
-## Quick reference: one command per city
+5-stage canonical pipeline per region. Mirrors TableJourney pattern;
+see `agents/DISPATCH_TEMPLATE.md` for the full prompt skeletons.
 
 ```
-bash scripts/ship_city.sh <country_slug> <city_slug>
+1. Sonnet wine-research agent  →  ship_safety PASS
+2. Sonnet QA1 (judgment pass)
+3. Sonnet QA2 (judgment pass)
+4. Opus final QA               (small, narrow read)
+5. Orchestrator generation     (geocode + pins + regen + sitemap + index)
+   + orchestrator passthrough  (AI-tells / score-CV / address realism)
 ```
 
-That runs every step below in order. Use the long form if you want to inspect
-each phase, or if something blew up and you need to re-enter mid-pipeline.
+## Stage detail
 
----
+### 1. Research (Sonnet)
 
-## 1. Scaffold the data tree
+Dispatch: see `agents/DISPATCH_TEMPLATE.md` Stage 1 skeleton.
 
-```
-python scripts/new_city.py <country_slug> <city_slug> --name "<Name>" --country "<Country>"
-# example: python scripts/new_city.py italy rome --name Rome --country Italy
-```
+Run in background. Token cost: 250-500k per region. Time: 30-50 min.
 
-Creates `site-data/<country>/<city>/data/` with 23 empty-but-shaped JSON files.
-Idempotent on re-run (will not clobber filled files unless `--force`).
+Outputs: 24 wine topic JSONs + region.json + neighborhoods.json under
+`site-data/<country>/<region>/data/`. ship_safety.sh PASS at end.
 
-## 2. Run the food-research agent
+### 2. QA1 (Sonnet)
 
-Brief: [agents/food-research/PROMPT.md](../agents/food-research/PROMPT.md).
-Schema: [agents/food-research/SCHEMA.md](../agents/food-research/SCHEMA.md).
+Dispatch when Stage 1 prints `READY-TO-SHIP <country>/<region>`.
 
-The agent fills the 23 JSON files. Editorial voice, SEO rules, the
-`make_it_yourself` recipe block on signature dishes, the slug + address
-requirements on every entity, and the **zero em/en dashes** rule are all baked
-into the prompt.
+Reads `agents/qa/PROMPT.md` sections A-C.
 
-## 3. Finalise slugs + addresses
+Defect classes caught:
+- Classification accuracy (DOCG/DOC/IGT/AOC/AVA)
+- Hectarage realism
+- Score citations (reviewer + vintage + year)
 
-```
-python scripts/inject_slugs.py <country_slug> <city_slug>
-```
+Cost: 60-100k. Output: defect list + flagged removals + report at
+`agents/qa/reports/<country>_<region>_qa1_<date>.md`.
 
-Idempotent. Walks every entity-bearing topic file and:
+### 3. QA2 (Sonnet)
 
-- Injects a stable `slug` field on entries that lack one (unicode-aware,
-  collision-free within the file). These slugs become permanent URLs
-  (`/<country>/<city>/<topic>/<slug>/`), so the agent can either pre-set them
-  or let this script generate them.
-- Renames legacy `location` → `address` where present.
+Dispatch when Stage 2 prints `QA1-COMPLETE`.
 
-## 4. Validate the JSON
+Reads `agents/qa/PROMPT.md` sections D-H.
 
-```
-python scripts/validate_data.py --city <city_slug>
-```
+Defect classes:
+- Ownership currency (stale acquisitions)
+- Biodynamic / organic certification (Demeter / Ecocert / ICEA)
+- Independent-directory address cross-check (10-15 sample)
+- Voice + prose (em-dashes, AI-tells, score-bunching, clones)
+- Cross-link sanity (food_pairing TJ URLs)
 
-Hard gates:
+Cost: 60-100k.
 
-- Required files exist, JSON parses
-- Topic lists are non-empty and above minimum entry counts
-- Every entity has `slug` + `name` + `address` (or `meeting_point`)
-- No placeholder text (TODO, TBD, FIXME, XXX, Lorem ipsum, "placeholder")
-- SEO essentials present (title, description, geo)
-- Signature dishes: warns if `make_it_yourself` is missing (recipes are
-  strongly encouraged; warning is not a blocker but should not be ignored)
+### 4. Opus final
 
-Iterate until exit 0.
+Dispatch when Stage 3 prints `QA2-COMPLETE`.
 
-## 5. Render the city's HTML
+Narrow read; should find NOTHING. If it does, upstream prompt
+regressed. Sample 30 entities, verify one itinerary + one festival
+end-to-end, spot-check `editorial_score >= 4.7` for backing creds.
 
-```
-python scripts/generate_city.py <country_slug> <city_slug>
-```
+Cost: 40-80k.
 
-Outputs:
-- `content/<country>/<city>/index.html` (city hub)
-- `content/<country>/<city>/<topic>/index.html` (one per topic)
+### 5. Orchestrator (this session)
 
-## 6. Render the per-entity pages
+Run sequentially:
 
-```
-python scripts/generate_entity_pages.py <country_slug> <city_slug>
+```bash
+cd /station/repo
+python3 scripts/geocode_entities.py --city <region>
+python3 scripts/build_city_pins.py --city <region>  # rename to build_region_pins
+python3 scripts/qa_geo_outliers.py --bugs-only
+
+python3 scripts/generate_city.py <country> <region>  # rename to generate_region
+# Cross-cut generators per docs/SCRIPTS_AUDIT.md
+python3 scripts/generate_sitemap.py
+python3 scripts/generate_search_index.py
+python3 scripts/orphan_audit.py  # must be 0
 ```
 
-For each entry in restaurants / cafes / bars / fine-dining / casual-dining /
-brunch / late-night / breweries / street-food / markets / food-tours /
-festivals / cooking-classes / dietary / budget-eating / hidden-gems /
-day-trips-food, emits `/<country>/<city>/<topic>/<slug>/index.html` with full
-schema.org type, breadcrumbs, and a Google Maps directions link.
+Then a deterministic heuristic passthrough (AI-tell regex, score CV,
+address realism). If clean, chmod + commit + push.
 
-## 7. Refresh cross-cut landings
+## Token budget per region (typical)
 
-```
-python scripts/generate_cross_cuts.py
-```
+| Stage | Tokens | Time |
+|---|---|---|
+| Research (Sonnet) | 250-500k | 30-50 min |
+| QA1 (Sonnet) | 60-100k | 15-25 min |
+| QA2 (Sonnet) | 60-100k | 15-25 min |
+| Opus QA | 40-80k | 5-10 min |
+| Generation + passthrough | <10k | 2-5 min |
 
-Walks every city and re-emits `/cuisine/<slug>/`, `/dish/<slug>/`,
-`/neighborhood/<city>/<slug>/`. Dish pages pick up the `make_it_yourself`
-block and emit a schema.org `Recipe` block. Run after any new city or
-content change.
+Per-region total: ~450-800k, 70-110 min wallclock.
 
-## 8. Refresh chrome, homepage, search index, sitemap, feed, OG images
+5 regions parallel: ~2.5-4M, 1.5-2 hrs wallclock.
 
-```
-python scripts/generate_extras.py          # cross-city topic pages + 404 + feed + /og/<city>.jpg + /logo.png
-python scripts/generate_chrome_pages.py    # /about/, /cities/, /cuisines/, /dishes/, /neighborhoods/, /topics/, legal pages
-python scripts/generate_homepage.py        # /index.html (featured cities, trending dishes)
-python scripts/generate_sitemap.py         # walks content/ for every URL
-python scripts/generate_robots.py
-python scripts/generate_search_index.py
-```
+## What NOT to do (lessons from TJ batches)
 
-Re-run any of these whenever the underlying data set changes. They are all
-idempotent and fast.
-
-## 9. Make new files world-readable (Caddy)
-
-```
-sshp host 'echo "$TJ_SUDO_PASS" | sudo -S chmod -R a+rX /opt/claude-stations/tablejourney/repo/content'
-```
-
-Caddy runs on the host as the `caddy` user. Without this step, newly created
-files 404 silently for the public even though they exist on disk.
-
-## 10. Audit the rendered HTML
-
-```
-python scripts/validate_seo.py
-```
-
-Hard gates (ERR):
-- Any em/en dash in body copy (banned, treat as build break)
-- Any placeholder string in body copy (TODO, lorem ipsum, unrendered Jinja, etc.)
-- Missing canonical, missing OG image, broken JSON-LD
-- Legacy `/destinations/` or `opentravelguide` strings
-
-Or run the [SEO-validator agent](../agents/seo-validator/PROMPT.md) for a
-deeper editorial pass on a city.
-
-## 11. Smoke-test the live URLs
-
-```
-sshp host 'curl -sSI https://tablejourney.com/<country>/<city>/ | head -3'
-sshp host 'curl -sS -o /dev/null -w "%{http_code}\n" https://tablejourney.com/<country>/<city>/restaurants/<slug>/'
-```
-
-Both should return `200`. If the hub returns 200 but an entity returns 404,
-re-run the chmod step.
-
----
-
-## File layout reference
-
-```
-templates/
-  base.html                    single root all templates extend
-  home.html                    homepage
-  region-template.html         city hub
-  entity-template.html         per-entity detail
-  chrome/page.html             about, cities, legal, etc.
-  topics/
-    _topic_base.html           shared chrome for all 20 topics
-    _macros.html               card macros (place_card, dish_card, title_link, address_link)
-    <topic>-topic.html         one per food topic
-  cross-cuts/
-    cuisine.html               /cuisine/<slug>/
-    dish.html                  /dish/<slug>/  (includes Recipe schema + Make it at home)
-    neighborhood.html          /neighborhood/<city>/<slug>/
-  partials/
-    _ad_slot.html              the only place ad markup lives
-
-content/css/
-  base.css                     layout, components, responsive, recipe styles
-  theme.css                    auto dark mode + finishing touches
-
-scripts/
-  new_city.py                  scaffold a city's JSON files
-  inject_slugs.py              finalise slug + rename location -> address
-  validate_data.py             JSON validator (run before render)
-  generate_region_page.py      render one city hub
-  generate_topic_page.py       render one or all topic pages
-  generate_city.py             one-shot: hub + all topics
-  generate_entity_pages.py     per-entity detail pages
-  generate_cross_cuts.py       /cuisine/, /dish/, /neighborhood/ landings
-  generate_extras.py           cross-city topic pages + 404 + feed.xml + /og/*.jpg + /logo.png
-  generate_chrome_pages.py     /about/, /cities/, /cuisines/, /dishes/, /neighborhoods/, /topics/, legal
-  generate_homepage.py         /index.html
-  generate_sitemap.py          walk content/, write sitemap.xml
-  generate_robots.py           write robots.txt
-  generate_search_index.py     walk site-data, write search-index.json
-  validate_seo.py              HTML validator (run after render)
-  ship_city.sh                 one-shot wrapper that runs the full chain
-  utils/
-    template_renderer.py       Jinja env + context prep + filters
-    data_loader.py             JSON file loaders + _url injection
-    slug.py                    unicode-aware slugify + unique_slug
-
-agents/
-  food-research/PROMPT.md      city onboarding agent brief
-  food-research/SCHEMA.md      per-file JSON cheat sheet (recipes documented)
-  seo-validator/PROMPT.md      post-render auditor brief
-
-site-data/
-  home.json                    featured cities + trending dishes for /
-  <country>/<city>/data/       23 JSON files per city
-
-content/                       served directly by Caddy. never hand-edited
-  index.html, sitemap.xml, robots.txt, logo.png, feed.xml
-  og/default.jpg, og/<city>.jpg
-  <country>/<city>/index.html
-  <country>/<city>/<topic>/index.html
-  <country>/<city>/<topic>/<slug>/index.html
-  cuisine/<slug>/index.html
-  dish/<slug>/index.html
-  neighborhood/<city>/<slug>/index.html
-```
-
-## Ad slot taxonomy
-
-Every ad slot is rendered via `templates/partials/_ad_slot.html`. To wire a real ad network later:
-
-1. Pick the network (AdSense, Mediavine, Freestar, etc.).
-2. Update `_ad_slot.html` to set `data-tj-ad-network="<network>"`.
-3. Add a small bootstrap script that queries `document.querySelectorAll('[data-tj-ad-slot]')` and mounts the appropriate unit into `[data-tj-ad-mount]`.
+1. Don't conflate self-QA with the dedicated QA agent.
+2. Don't skip QA stages "to ship faster" — Valencia self-dropped 35
+   fabrications because of one honest agent; cross-agent quality varies.
+3. Don't run QA inside the research agent's run. Separate orchestrator
+   stages.
+4. Don't dispatch QA after generation. Order is research → QA1 → QA2
+   → Opus → generation → passthrough.
+5. Don't push HARD failures. ship_safety must exit 0 before any
+   commit + push.

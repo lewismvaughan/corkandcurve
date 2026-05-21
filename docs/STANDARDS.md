@@ -1,178 +1,111 @@
-# TableJourney engineering standards
+# Cork & Curve engineering standards
 
-This doc encodes the SEO + performance + correctness invariants every
-generator script and every research / QA / orchestrator agent must
-respect when shipping pages. The rules are derived from real Lighthouse
-+ GSC + structured-data audits; each comes with the failure mode that
-motivated it.
+SEO + performance + correctness invariants every generator script and
+every research / QA / orchestrator agent must respect when shipping
+pages on corkandcurve.com.
 
-If you are about to write a new generator, page type, or template,
-**read this first.** If you are about to break a rule, document why
-in the PR / commit message.
+Mirrors `tablejourney.com`'s STANDARDS.md in shape; deltas are
+wine-vertical.
 
-## 1. Internal linking — no orphans
+## 1. URL layout
 
-**Rule:** every URL we ship must have at least one inbound link from
-*page content* (not just from global header / footer / nav). When two
-related pages exist (a global cross-cut and a city-scoped child), the
-parent always links DOWN to the child, not UP to a wider scope.
+| URL | Source | Notes |
+|---|---|---|
+| `/` | `content/index.html` | homepage |
+| `/<country>/<region>/` | region hub | wine region (e.g. `/france/bordeaux/`) |
+| `/<country>/<region>/<topic>/` | topic chapter | 24 wine topics per region |
+| `/<country>/<region>/<topic>/<slug>/` | entity page | every vineyard/tasting-room/wine-bar entity |
+| `/grape/<varietal>/` | grape index | global cross-cut |
+| `/grape/<varietal>/<country>/<region>/` | grape × region | long-tail SEO |
+| `/style/<style>/` | style index | sparkling / still / sweet / fortified / orange / natural |
+| `/world/<old-world\|new-world>/` | world cross-cut |  |
+| `/regions/` | all-regions index | chrome |
+| `/grapes/`, `/styles/` | cross-cut indexes | chrome |
+| `/sitemap.xml`, `/robots.txt` | served by Caddy as files | not template-rendered |
+| `/favicon.svg`, `/favicon-32x32.png`, `/apple-touch-icon.png`, `/icon-192.png`, `/favicon.ico` | favicon set | burgundy + cream C glyph |
 
-**Why:** Google discovers + ranks pages via the link graph. An "orphan"
-page in the sitemap-only state gets indexed slowly (often weeks), passes
-no PageRank-equivalent, and rarely ranks. Audit on 2026-05-19 found 405
-orphans (city × dish, city × cuisine, city × dietary).
+URLs end in `/`. Caddy serves the `index.html` inside each dir.
 
-**How to apply:**
-- Scoped-cuisines pages (`/<country>/<city>/cuisines/`) link each cuisine
-  to the city × cuisine page (`/<country>/<city>/cuisine/<slug>/`) when
-  it exists, otherwise the global cross-cut.
-- City signature-dishes chapter links each dish to the city × dish page
-  when it exists, otherwise the global cross-cut. Handled by
-  `utils/data_loader.py:_inject_entity_urls`.
-- City dietary chapter wraps each diet's section heading in a link to
-  the city × dietary sub-page when it exists. Handled by
-  `templates/topics/dietary-topic.html`.
-- Cross-link sibling sub-pages: city × dietary `vegan/` page links to
-  `vegetarian/`, `gluten-free/`, etc. in the same city. Handled by
-  `scripts/generate_city_dietary.py`.
+## 2. Schema.org graph (entity pages)
 
-**Pipeline check:** `scripts/orphan_audit.py` (run manually for now;
-worth wiring into ship_city.sh as a soft fail) walks the link graph and
-reports orphans grouped by page type.
+- Vineyards / wineries → `@type: Winery` (sub-type of Place) with
+  `address`, `geo`, `image`, `description`, `priceRange` (where retail
+  range applicable), `openingHoursSpecification` (tasting hours).
+- Tasting rooms → `@type: Place` with `parentOrganization` pointing at
+  the parent vineyard.
+- Wine bars → `@type: BarOrPub` with `servesCuisine: "Wine focus"`.
+- Wine restaurants → `@type: Restaurant` with `servesCuisine` reflecting
+  food program + `additionalType` for wine focus.
+- Festivals → `@type: Festival` with `startDate` derived from
+  `recurrence_pattern`, `eventStatus`, `eventAttendanceMode`.
+- Tours → `@type: TouristTrip` with `provider` + `departureLocation`.
+- Wine schools → `@type: Course` with `provider`.
+- Signature wines → `@type: Product` with `brand`, `productionDate` (vintage
+  range), `aggregateRating` derived from `scores[*].points`.
+- Signature grapes → `@type: Thing` with `description` + `sameAs` to
+  Wikipedia + Wine Folly OR consortium pages.
 
-## 2. Performance — Core Web Vitals must pass
+Every region hub page emits a `BreadcrumbList` + an `ItemList` of the
+top entities + an `Article` block with `datePublished` / `dateModified`.
 
-**Targets:**
-- LCP ≤ 2.5s on mobile, simulated 4G
-- INP ≤ 200ms
-- CLS ≤ 0.1
-- Total Blocking Time ≤ 200ms
+## 3. Provenance block (`verified`) — mandatory
 
-**Rules:**
+Every entity ships with the 6-key `verified` block. No verified block,
+no entity. See `agents/wine-research/SCHEMA.md` for the field shape.
 
-**2a. CSS load order.** `base.css` is critical (header, hero, layout) —
-load synchronously, blocking render. `theme.css` is non-critical (cards,
-footer, sub-systems) — load async via the `rel=preload` + `onload` swap
-pattern. See `templates/base.html`.
+Pass-1 (`scripts/ship_safety.sh`) enforces:
+- HEAD `source_url`, `open_evidence_url`, `cuisine_evidence_url` (alive)
+- Fuzzy-match `address_quoted` ⊆ `entity.address`
+- Internal cross-references resolve
+- Dietary `cuisine_evidence_url` content match (biodynamic/organic
+  keyword on the page)
+- Festival source URL mentions `start_month`
+- External URLs (`booking_url`, `affiliate_url`, `tasting_url`,
+  `hero_image_source_url`) alive (anti-bot 401/403/429 → OK, not broken)
+- JSON-LD schema validity
 
-**2b. OG image preload.** Every page emits a `<link rel=preload as=image
-fetchpriority=high href={seo.open_graph.og_image}>` in `<head>`. Cheap;
-mandatory because the OG image (or its first tile on cross-cut map pages)
-is often the LCP candidate.
+## 4. Wine-vertical correctness invariants
 
-**2c. Layout stability for dynamic UI.** Any JS-inserted DOM element
-that affects layout must have its space reserved in static HTML. Maps
-wrap in `.tj-citymap-wrap { min-height: 480px }` so the lazy-loaded
-legend doesn't shift content below. Audited because Paris hub had CLS
-0.194 before the fix.
+- Classification (DOCG/DOC/IGT/AOC/AOP/AVA/VDP/WO/DOCa) MUST match the
+  producer label or consortium registry. Promotion (IGT → DOCG) is a
+  deal-breaker QA finding.
+- Hectarage MUST come from producer site OR a 2024-2026 press article.
+  Wikipedia hectarage is often stale; do not cite without a current
+  secondary check.
+- Ownership MUST be current (estates change hands; LVMH/Constellation/
+  Treasury Wine Estates portfolios shift yearly).
+- Wine scores MUST cite reviewer + vintage + year of review. Generic
+  "highly rated" without sourced number is removed by QA1.
+- Biodynamic / organic certification MUST name the certifier (Demeter,
+  Ecocert, ICEA, USDA Organic, CCPB, SQNPI). "Biodynamic-practicing"
+  without certification is a different field.
 
-**2d. Skip heavy JS on tiny payloads.** When a Leaflet map would show
-fewer than `data-min-pins` (default 5) pins, hide the map container
-instead of loading Leaflet. The card grid below already communicates the
-result. Audited because a 2-pin city × cuisine page had 7.2s LCP almost
-entirely from Leaflet + the first tile becoming the LCP element.
+## 5. Page performance (mirrors TJ)
 
-**2e. Lazy-load anything below the fold.** Static map thumbnails ship
-with `loading=lazy decoding=async`. Interactive maps lazy-load Leaflet
-via `IntersectionObserver` only when the container scrolls into view.
+- LCP < 2.5s. Hero image preload + width/height attrs to avoid CLS.
+- Inline critical CSS in `<head>`. Other CSS deferred.
+- Lazy-load all images below the fold (`loading="lazy"`).
+- All JS deferred (`<script defer>` or DOMContentLoaded gate).
+- Map (Leaflet) only loaded when a `.tj-citymap` enters viewport.
 
-## 3. Schema — every page type carries the right structured data
+## 6. Sitemap discipline
 
-| Page type | Required schema graph |
-|---|---|
-| Entity (Restaurant / Festival / etc) | type-specific schema + `AggregateRating` + `Review` (with `Person` author + `Organization` publisher) + `geo: GeoCoordinates` when coords cached + `BreadcrumbList` |
-| City × itineraries chapter | `Article` + `HowTo` per itinerary, `HowToSection` per day, `HowToStep` per (morning/afternoon/evening) + `BreadcrumbList` |
-| Festival entity | `Festival` (Event subtype) + `startDate` + `endDate` from computed next-occurrence + `AggregateRating` |
-| Topic / scoped / city × dietary / city × cuisine / city × dish | `CollectionPage` + `ItemList` + `ItemListElement` per card (capped at 50) + `BreadcrumbList` |
+- Sitemap-index at `/sitemap.xml`, sub-sitemaps sharded by section
+  (core / regions / entities / cross-cuts) per the same pattern as TJ.
+- Each URL appears EXACTLY ONCE site-wide (dedup pass at end of
+  `generate_sitemap.py`).
+- robots.txt is open to all crawlers including AI bots; sitemap line
+  references the index URL.
 
-**Rules:**
-- `AggregateRating` is emitted whenever `editorial_score` is present —
-  drives SERP star ratings (~15-30% CTR uplift). Required fields:
-  `ratingValue`, `bestRating`, `worstRating`, `ratingCount`, `reviewCount`.
-- `Review.author` is `@type: Person`, not `Organization` — Google's
-  E-E-A-T framework heavily prefers Person-authored content for YMYL.
-  Person has `worksFor: Organization` linking back.
-- `BreadcrumbList` last position omits `item` URL (per Google spec).
-- All schemas use absolute `https://tablejourney.com/...` URLs.
+## 7. Cross-linking to TableJourney
 
-## 4. Slugs — stable, ASCII, hyphen-only
+See `docs/CROSS_LINKING.md` for the full contract.
 
-**Rule:** every slug matches `^[a-z0-9-]+$`. Once a slug is committed,
-it never changes — if an entity renames, add the old slug to its
-`aliases: []` list; the generator emits a redirect.
-
-**Apostrophes, accents, parentheses, slashes are forbidden in slugs.**
-`utils/slug.py:slugify()` normalises them all, but if an agent
-hand-edits the JSON and writes `"slug": "cutty's"` the apostrophe
-escapes URL handling and the page becomes uncrawlable. Audit 2026-05-19
-found one of these (Boston / casual-dining / cutty-s). Fix any future
-recurrence in `validate_data.py`.
-
-## 5. Sitemap — section-sharded, honest lastmod
-
-- `/sitemap.xml` is a `sitemapindex` pointing at section files:
-  `sitemap-core.xml`, `sitemap-cities.xml`, `sitemap-entities.xml`,
-  `sitemap-crosscuts.xml`. Per-section indexing stats become trivial in
-  GSC.
-- Per-URL `<lastmod>` reflects the file's actual `mtime`, not the build
-  date. Google's crawl budget goes to pages that genuinely changed.
-- Every new URL emitted by a generator must be added to the sitemap
-  walker in `generate_sitemap.py`.
-
-## 6. Geocoding — post-QA, idempotent, v3 fallback chain
-
-- Geocoder runs in `ship_city.sh` step 2f, AFTER all QA gates pass.
-  Never spend the rate-limited Nominatim budget on addresses an agent
-  later corrects.
-- Fallback chain (each strategy logged on the cache entry):
-  canonical → venue-prefix strip → suite/unit strip → combo strip →
-  postcode centroid.
-- Cache lives at `data/geocode-cache.json`, committed to git so
-  re-shipping is free on hits.
-- Soft-fail report (`check_geocode_coverage.py`) lists addresses that
-  still didn't resolve so editors can refine them. Currently soft — flip
-  to `--hard --threshold 0.85` if a ship-gate becomes desirable.
-
-## 7. Maps — interactive on discovery pages, static on detail pages
-
-- City hub + cross-cut pages get an interactive Leaflet map (lazy-loaded).
-- Entity detail pages get a static 600×400 JPEG thumbnail (no JS).
-- Apple Maps + Google Maps + Waze deep-link buttons accompany every
-  entity with cached coords; fall back to address-string queries
-  otherwise.
-- Pin colour groups (`Eat`, `Coffee & bakery`, `Drink`, `Markets &
-  tours`, `Dietary`, `Day trips`) are clickable legend toggles —
-  keyboard-reachable.
-- Wheel zoom is OFF by default; clicking the map enables it for that
-  map until cursor leaves. Don't trap page scroll.
-
-## 8. Generation order — what runs when
-
-`ship_city.sh france paris` chain (the contract):
-
-1. mechanical pass-1 (validate / verify / check_internal_references)
-2. QA report gate (4-stage in ship_city_full.sh)
-3. geocode (post-QA, v3 chain)
-4. soft coverage report
-5. render city + topic pages
-6. render entity pages (with AggregateRating + geo + map thumbs)
-7. cross-cuts → scoped → city × dietary → city × cuisine → city × dish
-8. branded OG cards
-9. entity map JPEGs + city pins JSON
-10. global topic pages + chrome + homepage
-11. sitemap (section-sharded, honest lastmod)
-12. robots + search index
-13. chmod + IndexNow ping
-
-`generate_city.py` (dev mode) runs the equivalent subset for fast
-iteration. Both paths are wired in the same generators; no manual step.
-
-## 9. When to write a new doc
-
-Update **this doc** if you change a rule. Update
-**`docs/DATA_TO_PAGES.md`** if you change what data feeds what page.
-Update **`agents/food-research/PROMPT.md`** if you change what the
-research agent must do.
-
-Don't fork standards across multiple docs — the consequence is the kind
-of drift that produced 405 orphan pages between Phase 1 and Phase 3.
+Short version:
+- Footer mention on both sites (single brand + link, not a bulk
+  link list)
+- Editorial deep-links only when contextual (vineyard ↔ TJ city
+  food page; TJ wine-bars page ↔ C&C region)
+- NOT identical About / Privacy / Editorial pages on both sites
+- NOT shared author bylines (separate Person schemas)
+- NOT bulk reciprocal links
