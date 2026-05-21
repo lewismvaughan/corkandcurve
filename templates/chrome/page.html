@@ -36,10 +36,10 @@
       "name": {{ page.title | tojson }},
       "description": {{ page.meta_description | tojson }},
       "inLanguage": "en",
-      "isPartOf": { "@type": "WebSite", "name": "TableJourney", "url": "https://tablejourney.com" },
+      "isPartOf": { "@type": "WebSite", "name": "Cork and Curve", "url": "https://corkandcurve.com" },
       "datePublished": "2026-01-01T00:00:00Z",
       "dateModified": "{{ page.modified | default('2026-05-17') }}T00:00:00Z",
-      "publisher": { "@type": "Organization", "name": "TableJourney", "url": "https://tablejourney.com" }
+      "publisher": { "@type": "Organization", "name": "Cork and Curve", "url": "https://corkandcurve.com" }
     },
     {
       "@type": "BreadcrumbList",
@@ -72,7 +72,7 @@
     <ol>
     {% for item in page.breadcrumb_items %}
         <li>
-            {% if item.url %}<a href="{{ item.url | replace('https://tablejourney.com', '') }}">{{ item.name }}</a>{% else %}<span aria-current="page">{{ item.name }}</span>{% endif %}
+            {% if item.url %}<a href="{{ item.url | replace('https://corkandcurve.com', '') }}">{{ item.name }}</a>{% else %}<span aria-current="page">{{ item.name }}</span>{% endif %}
         </li>
     {% endfor %}
     </ol>

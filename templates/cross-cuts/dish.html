@@ -44,8 +44,8 @@
       "@id": "{{ seo.meta.canonical_url }}#recipe",
       "name": {{ (dish ~ ' (home recipe)') | tojson }},
       "description": {{ (description or ('How to make ' ~ dish ~ ' at home.')) | tojson }},
-      "author": { "@type": "Organization", "name": "TableJourney" },
-      "publisher": { "@type": "Organization", "name": "TableJourney", "logo": { "@type": "ImageObject", "url": "https://tablejourney.com/logo.png" } },
+      "author": { "@type": "Organization", "name": "Cork and Curve" },
+      "publisher": { "@type": "Organization", "name": "Cork and Curve", "logo": { "@type": "ImageObject", "url": "https://corkandcurve.com/logo.png" } },
       {% if make_it_yourself.serves %}"recipeYield": {{ make_it_yourself.serves | tojson }},{% endif %}
       {% if make_it_yourself.total_time %}"totalTime": {{ make_it_yourself.total_time | tojson }},{% endif %}
       {% if make_it_yourself.active_time %}"prepTime": {{ make_it_yourself.active_time | tojson }},{% endif %}
@@ -62,7 +62,7 @@
       "@type": "BreadcrumbList",
       "itemListElement": [
         {% for crumb in breadcrumb %}
-        { "@type": "ListItem", "position": {{ loop.index }}, "name": {{ crumb.name | tojson }}{% if crumb.url %}, "item": "https://tablejourney.com{{ crumb.url }}"{% endif %} }{% if not loop.last %},{% endif %}
+        { "@type": "ListItem", "position": {{ loop.index }}, "name": {{ crumb.name | tojson }}{% if crumb.url %}, "item": "https://corkandcurve.com{{ crumb.url }}"{% endif %} }{% if not loop.last %},{% endif %}
         {% endfor %}
       ]
     }
@@ -117,7 +117,7 @@
         <p class="tj-recipe-tip"><strong>Tip from the editors.</strong> {{ make_it_yourself.tip }}</p>
         {% endif %}
 
-        <p class="tj-recipe-note">This is the TableJourney editorial recipe, modelled on the canonical bistro / counter version. The first place to try the dish in its city of origin is below.</p>
+        <p class="tj-recipe-note">This is the Cork and Curve editorial recipe, modelled on the canonical bistro / counter version. The first place to try the dish in its city of origin is below.</p>
     </section>
     {% endif %}
 
@@ -132,7 +132,7 @@
                 {% for r in city.restaurants %}{{ place_card(r, city.city_name, r._url) }}{% endfor %}
             </div>
             {% else %}
-            <p>Featured by TableJourney as a signature dish of {{ city.city_name }}. See the <a href="/{{ city.country_slug }}/{{ city.city_slug }}/signature-dishes/">{{ city.city_name }} signature dishes</a> guide for the canonical version.</p>
+            <p>Featured by Cork and Curve as a signature dish of {{ city.city_name }}. See the <a href="/{{ city.country_slug }}/{{ city.city_slug }}/signature-dishes/">{{ city.city_name }} signature dishes</a> guide for the canonical version.</p>
             {% endif %}
         </div>
         {% endfor %}

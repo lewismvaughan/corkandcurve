@@ -16,16 +16,16 @@
     })(window,document,'script','dataLayer','GTM-P29C6LW6');</script>
     <!-- End Google Tag Manager -->
 
-    <title>{% block title %}{{ seo.meta.title | default('TableJourney') }}{% endblock %}</title>
-    <meta name="description" content="{% block meta_description %}{{ seo.meta.description | default('TableJourney. Where the world eats.') }}{% endblock %}">
+    <title>{% block title %}{{ seo.meta.title | default('Cork and Curve') }}{% endblock %}</title>
+    <meta name="description" content="{% block meta_description %}{{ seo.meta.description | default('Cork and Curve. Where the world eats.') }}{% endblock %}">
     <meta name="robots" content="{{ seo.meta.robots | default('index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1') }}">
     <meta name="googlebot" content="{{ seo.meta.googlebot | default('index, follow') }}">
-    <meta name="author" content="{{ seo.meta.author | default('TableJourney Editorial') }}">
-    <link rel="canonical" href="{{ seo.meta.canonical_url | default('https://tablejourney.com/') }}">
+    <meta name="author" content="{{ seo.meta.author | default('Cork and Curve Editorial') }}">
+    <link rel="canonical" href="{{ seo.meta.canonical_url | default('https://corkandcurve.com/') }}">
     <meta name="theme-color" content="#FAF6F0" media="(prefers-color-scheme: light)">
     <meta name="theme-color" content="#181513" media="(prefers-color-scheme: dark)">
-    <meta name="apple-mobile-web-app-title" content="TableJourney">
-    <meta name="application-name" content="TableJourney">
+    <meta name="apple-mobile-web-app-title" content="Cork and Curve">
+    <meta name="application-name" content="Cork and Curve">
 
     {# Google Search Console verification. Token comes from data/site_config.json
        (key: google_site_verification); leave empty until Lewis fetches one from
@@ -46,23 +46,23 @@
     {% for alt in seo.alternates | default([]) %}
     <link rel="alternate" hreflang="{{ alt.lang }}" href="{{ alt.url }}">
     {% endfor %}
-    <link rel="alternate" hreflang="x-default" href="{{ seo.meta.canonical_url | default('https://tablejourney.com/') }}">
+    <link rel="alternate" hreflang="x-default" href="{{ seo.meta.canonical_url | default('https://corkandcurve.com/') }}">
 
     <link rel="icon" type="image/svg+xml" href="{{ base_path | default('') }}/favicon.svg">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ base_path | default('') }}/favicon-32x32.png">
     <link rel="apple-touch-icon" sizes="180x180" href="{{ base_path | default('') }}/apple-touch-icon.png">
     <link rel="manifest" href="{{ base_path | default('') }}/site.webmanifest">
     <link rel="sitemap" type="application/xml" href="/sitemap.xml">
-    <link rel="alternate" type="application/rss+xml" title="TableJourney" href="/feed.xml">
+    <link rel="alternate" type="application/rss+xml" title="Cork and Curve" href="/feed.xml">
 
-    <meta property="og:site_name" content="TableJourney">
+    <meta property="og:site_name" content="Cork and Curve">
     <meta property="og:title" content="{{ seo.open_graph.og_title | default(seo.meta.title) }}">
     <meta property="og:description" content="{{ seo.open_graph.og_description | default(seo.meta.description) }}">
-    <meta property="og:image" content="{{ seo.open_graph.og_image | default('https://tablejourney.com/og/default.jpg') }}">
+    <meta property="og:image" content="{{ seo.open_graph.og_image | default('https://corkandcurve.com/og/default.jpg') }}">
     <meta property="og:image:type" content="image/jpeg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="{{ seo.open_graph.og_image_alt | default('TableJourney food guide') }}">
+    <meta property="og:image:alt" content="{{ seo.open_graph.og_image_alt | default('Cork and Curve food guide') }}">
     <meta property="og:url" content="{{ seo.open_graph.og_url | default(seo.meta.canonical_url) }}">
     <meta property="og:type" content="{{ seo.open_graph.og_type | default('article') }}">
     <meta property="og:locale" content="{{ seo.open_graph.og_locale | default('en_US') }}">
@@ -78,7 +78,7 @@
     {% if seo.article %}
     <meta property="article:published_time" content="{{ seo.article.published_time }}">
     <meta property="article:modified_time" content="{{ seo.article.modified_time }}">
-    <meta property="article:author" content="{{ seo.article.author | default('TableJourney Editorial') }}">
+    <meta property="article:author" content="{{ seo.article.author | default('Cork and Curve Editorial') }}">
     <meta property="article:section" content="{{ seo.article.section | default('Food Travel') }}">
     {% for tag in seo.article.tags | default([]) %}<meta property="article:tag" content="{{ tag }}">{% endfor %}
     {% endif %}
@@ -257,18 +257,18 @@
       "@graph": [
         {
           "@type": "Organization",
-          "name": "TableJourney",
-          "url": "https://tablejourney.com",
-          "logo": "https://tablejourney.com/logo.png",
+          "name": "Cork and Curve",
+          "url": "https://corkandcurve.com",
+          "logo": "https://corkandcurve.com/logo.png",
           "slogan": "Where the world eats"
         },
         {
           "@type": "WebSite",
-          "name": "TableJourney",
-          "url": "https://tablejourney.com",
+          "name": "Cork and Curve",
+          "url": "https://corkandcurve.com",
           "potentialAction": {
             "@type": "SearchAction",
-            "target": { "@type": "EntryPoint", "urlTemplate": "https://tablejourney.com/search/?q={search_term_string}" },
+            "target": { "@type": "EntryPoint", "urlTemplate": "https://corkandcurve.com/search/?q={search_term_string}" },
             "query-input": "required name=search_term_string"
           }
         }{% if seo.structured_data and seo.structured_data.breadcrumb_items %},
@@ -298,7 +298,7 @@
 
     <header class="tj-nav" role="banner">
         <div class="tj-nav-inner">
-            <a href="/" class="tj-brand" aria-label="TableJourney home">Table<span class="tj-brand-mark">Journey</span></a>
+            <a href="/" class="tj-brand" aria-label="Cork and Curve home">Cork <span class="tj-brand-mark">&amp; Curve</span></a>
             <ul class="tj-nav-links" role="navigation" aria-label="Primary">
                 <li><a href="/cities/">Cities</a></li>
                 <li><a href="/cuisines/">Cuisines</a></li>
@@ -321,7 +321,7 @@
     <div class="tj-menu-backdrop" data-tj-menu-backdrop hidden></div>
     <aside id="tj-mobile-menu" class="tj-mobile-menu" aria-hidden="true" aria-label="Mobile menu">
         <div class="tj-menu-head">
-            <span class="tj-brand" aria-hidden="true">Table<span class="tj-brand-mark">Journey</span></span>
+            <span class="tj-brand" aria-hidden="true">Cork <span class="tj-brand-mark">&amp; Curve</span></span>
             <button class="tj-menu-close" type="button" aria-label="Close menu" data-tj-menu-toggle>
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg>
             </button>
@@ -350,7 +350,7 @@
             </div>
             <div class="tj-menu-section">
                 <h4>About</h4>
-                <a href="/about/">About TableJourney</a>
+                <a href="/about/">About Cork and Curve</a>
                 <a href="/editorial-standards/">Editorial Standards</a>
                 <a href="/contact/">Contact</a>
             </div>
@@ -390,7 +390,7 @@
     <footer class="tj-footer" role="contentinfo">
         <div class="tj-footer-inner">
             <div class="tj-footer-brand">
-                <div class="tj-footer-logo">Table<span class="tj-brand-mark">Journey</span></div>
+                <div class="tj-footer-logo">Cork <span class="tj-brand-mark">&amp; Curve</span></div>
                 <p class="tj-footer-tagline">Where the world eats.</p>
             </div>
             <nav class="tj-footer-nav" aria-label="Footer">
@@ -434,7 +434,7 @@
             </nav>
         </div>
         <div class="tj-footer-bottom">
-            <p>&copy; {{ current_year | default(2026) }} TableJourney. All rights reserved.</p>
+            <p>&copy; {{ current_year | default(2026) }} Cork and Curve. All rights reserved.</p>
         </div>
     </footer>
 

@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% from "partials/_ad_slot.html" import ad_slot %}
 
-{% block title %}{{ seo.meta.title | default(destination.name ~ ' Food Guide | TableJourney') }}{% endblock %}
+{% block title %}{{ seo.meta.title | default(destination.name ~ ' Food Guide | Cork and Curve') }}{% endblock %}
 
 {% block hero %}
 <section class="tj-hero tj-container">
@@ -23,7 +23,7 @@
         {% endif %}
         <div class="tj-byline">
             <span class="tj-stamp">Updated {{ updated_display | default(seo.article.modified_display) | default('May 2026') }}</span>
-            <span>By <a rel="author" href="/about/editorial/">{{ seo.article.author | default('TableJourney Editorial') }}</a></span>
+            <span>By <a rel="author" href="/about/editorial/">{{ seo.article.author | default('Cork and Curve Editorial') }}</a></span>
             {% if destination.country %}<span>· {{ destination.country }}</span>{% endif %}
             {% if read_time %}<span>· {{ read_time }} min read</span>{% endif %}
         </div>
@@ -43,12 +43,12 @@
       "name": {{ (seo.meta.title or (destination.name ~ ' Food Guide')) | tojson }},
       "description": {{ (seo.meta.description or '') | tojson }},
       "image": {{ (destination.hero_image or research.hero_image or seo.open_graph.og_image or '') | tojson }},
-      "author": { "@type": "Organization", "name": "TableJourney Editorial", "url": "https://tablejourney.com/about/" },
-      "publisher": { "@type": "Organization", "name": "TableJourney", "logo": { "@type": "ImageObject", "url": "https://tablejourney.com/logo.png" } },
+      "author": { "@type": "Organization", "name": "Cork and Curve Editorial", "url": "https://corkandcurve.com/about/" },
+      "publisher": { "@type": "Organization", "name": "Cork and Curve", "logo": { "@type": "ImageObject", "url": "https://corkandcurve.com/logo.png" } },
       "datePublished": {{ (seo.article.published_time or '2026-01-01T00:00:00Z') | tojson }},
       "dateModified": {{ (seo.article.modified_time or '2026-05-17T00:00:00Z') | tojson }},
       "inLanguage": "en",
-      "isPartOf": { "@type": "WebSite", "name": "TableJourney", "url": "https://tablejourney.com" },
+      "isPartOf": { "@type": "WebSite", "name": "Cork and Curve", "url": "https://corkandcurve.com" },
       "mainEntityOfPage": { "@type": "WebPage", "@id": {{ seo.meta.canonical_url | tojson }} },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -92,7 +92,7 @@
       "numberOfItems": {{ research.signature_dishes | length }},
       "itemListElement": [
         {% for d in research.signature_dishes[:10] %}
-        { "@type": "ListItem", "position": {{ loop.index }}{% if d._url %}, "url": "https://tablejourney.com{{ d._url }}"{% endif %}, "item": {
+        { "@type": "ListItem", "position": {{ loop.index }}{% if d._url %}, "url": "https://corkandcurve.com{{ d._url }}"{% endif %}, "item": {
             "@type": "Thing", "name": {{ d.name | tojson }}
             {% if d.description %}, "description": {{ d.description | tojson }}{% endif %}
         }}{% if not loop.last %},{% endif %}
@@ -103,8 +103,8 @@
     {
       "@type": "BreadcrumbList",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://tablejourney.com/" },
-        { "@type": "ListItem", "position": 2, "name": "Cities", "item": "https://tablejourney.com/cities/" },
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://corkandcurve.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Cities", "item": "https://corkandcurve.com/cities/" },
         { "@type": "ListItem", "position": 3, "name": {{ destination.name | tojson }} }
       ]
     }

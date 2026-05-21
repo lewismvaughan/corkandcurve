@@ -15,7 +15,7 @@
 #}
 {% macro editorial_score(score) %}
 {%- if score is number and score >= 1.0 and score <= 5.0 -%}
-<span class="tj-score" aria-label="TableJourney editorial score {{ '%.1f'|format(score) }} out of 5">★ {{ '%.1f'|format(score) }}</span>
+<span class="tj-score" aria-label="Cork and Curve editorial score {{ '%.1f'|format(score) }} out of 5">★ {{ '%.1f'|format(score) }}</span>
 {%- endif -%}
 {% endmacro %}
 

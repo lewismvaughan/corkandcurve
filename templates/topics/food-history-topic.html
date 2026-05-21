@@ -58,8 +58,8 @@
   "headline": {{ topic.h1 | default(topic.name ~ ' in ' ~ destination.name) | tojson }},
   "datePublished": {{ (seo.article.published_time or '2026-01-01T00:00:00Z') | tojson }},
   "dateModified": {{ (seo.article.modified_time or '2026-05-17T00:00:00Z') | tojson }},
-  "author": { "@type": "Organization", "name": "TableJourney Editorial", "url": "https://tablejourney.com/about/" },
-  "publisher": { "@type": "Organization", "name": "TableJourney", "logo": { "@type": "ImageObject", "url": "https://tablejourney.com/logo.png" } },
+  "author": { "@type": "Organization", "name": "Cork and Curve Editorial", "url": "https://corkandcurve.com/about/" },
+  "publisher": { "@type": "Organization", "name": "Cork and Curve", "logo": { "@type": "ImageObject", "url": "https://corkandcurve.com/logo.png" } },
   "url": {{ seo.meta.canonical_url | tojson }},
   "speakable": {
     "@type": "SpeakableSpecification",

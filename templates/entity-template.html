@@ -37,7 +37,7 @@
             {% if entity.cuisine %}<span>· {{ entity.cuisine }}</span>{% endif %}
             {% if entity.price_tier %}<span>· {{ entity.price_tier }}</span>{% endif %}
             {% if verified_display %}
-            <span class="tj-verified-badge" title="TableJourney editors verified this venue's address, hours and current operation on this date."
+            <span class="tj-verified-badge" title="Cork and Curve editors verified this venue's address, hours and current operation on this date."
                   style="margin-left:auto; display:inline-flex; align-items:center; gap:4px; font-size:.85em; color:var(--tj-muted, #6b6b6b);">
                 <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>
                 {% if verified_source_url %}<a href="{{ verified_source_url }}" rel="nofollow" target="_blank" style="color:inherit;">Verified {{ verified_display }}</a>{% else %}Verified {{ verified_display }}{% endif %}
@@ -115,12 +115,12 @@
         "@id": "{{ seo.meta.canonical_url }}#review",
         "author": {
           "@type": "Person",
-          "name": "TableJourney Editorial",
-          "url": "https://tablejourney.com/about/editorial/",
+          "name": "Cork and Curve Editorial",
+          "url": "https://corkandcurve.com/about/editorial/",
           "jobTitle": "Editorial Desk",
-          "worksFor": { "@type": "Organization", "name": "TableJourney", "url": "https://tablejourney.com/" }
+          "worksFor": { "@type": "Organization", "name": "Cork and Curve", "url": "https://corkandcurve.com/" }
         },
-        "publisher": { "@type": "Organization", "name": "TableJourney", "url": "https://tablejourney.com/" },
+        "publisher": { "@type": "Organization", "name": "Cork and Curve", "url": "https://corkandcurve.com/" },
         "datePublished": {{ (seo.article.published_time or '2026-01-01T00:00:00Z') | tojson }},
         "reviewRating": { "@type": "Rating", "ratingValue": {{ entity.editorial_score | tojson }}, "bestRating": "5", "worstRating": "1" },
         {% if entity.description %}"reviewBody": {{ entity.description | tojson }},{% endif %}
@@ -132,7 +132,7 @@
       "@type": "BreadcrumbList",
       "itemListElement": [
         {% for crumb in breadcrumb %}
-        { "@type": "ListItem", "position": {{ loop.index }}, "name": {{ crumb.name | tojson }}{% if crumb.url %}, "item": "https://tablejourney.com{{ crumb.url }}"{% endif %} }{% if not loop.last %},{% endif %}
+        { "@type": "ListItem", "position": {{ loop.index }}, "name": {{ crumb.name | tojson }}{% if crumb.url %}, "item": "https://corkandcurve.com{{ crumb.url }}"{% endif %} }{% if not loop.last %},{% endif %}
         {% endfor %}
       ]
     }
@@ -249,7 +249,7 @@
                 {% if entity.cuisine and cuisine_url %}<li><a href="{{ cuisine_url }}">{{ entity.cuisine }} in {{ destination.name }}</a></li>{% endif %}
                 {% if entity.neighborhood and neighborhood_url %}<li><a href="{{ neighborhood_url }}">{{ entity.neighborhood }} food guide</a></li>{% endif %}
                 <li><a href="{{ topic_url }}">All {{ topic.name | lower }} in {{ destination.name }}</a></li>
-                {% if topic.slug %}<li><a href="/topics/{{ topic.slug }}/">All {{ topic.name | lower }} on TableJourney</a></li>{% endif %}
+                {% if topic.slug %}<li><a href="/topics/{{ topic.slug }}/">All {{ topic.name | lower }} on Cork and Curve</a></li>{% endif %}
                 <li><a href="{{ city_url }}">{{ destination.name }} food guide</a></li>
             </ul>
         </div>

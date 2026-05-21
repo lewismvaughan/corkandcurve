@@ -25,7 +25,7 @@
         {% if topic.subtitle %}<p class="tj-hero-tagline">{{ topic.subtitle }}</p>{% endif %}
         <div class="tj-byline">
             <span class="tj-stamp">Updated {{ topic.updated | default('May 2026') }}</span>
-            <span>By <a rel="author" href="/about/editorial/">{{ seo.article.author | default('TableJourney Editorial') }}</a></span>
+            <span>By <a rel="author" href="/about/editorial/">{{ seo.article.author | default('Cork and Curve Editorial') }}</a></span>
             {% if topic.read_time %}<span>· {{ topic.read_time }} min read</span>{% endif %}
         </div>
     </div>
@@ -52,12 +52,12 @@
       "@id": "{{ seo.meta.canonical_url }}#article",
       "headline": {{ (topic.h1 or topic.name) | tojson }},
       "description": {{ (topic.meta_description or topic.subtitle or '') | tojson }},
-      "author": { "@type": "Organization", "name": "TableJourney Editorial", "url": "https://tablejourney.com/about/" },
-      "publisher": { "@type": "Organization", "name": "TableJourney", "logo": { "@type": "ImageObject", "url": "https://tablejourney.com/logo.png" } },
+      "author": { "@type": "Organization", "name": "Cork and Curve Editorial", "url": "https://corkandcurve.com/about/" },
+      "publisher": { "@type": "Organization", "name": "Cork and Curve", "logo": { "@type": "ImageObject", "url": "https://corkandcurve.com/logo.png" } },
       "datePublished": {{ (seo.article.published_time or '2026-01-01T00:00:00Z') | tojson }},
       "dateModified": {{ (seo.article.modified_time or '2026-05-17T00:00:00Z') | tojson }},
       "inLanguage": "en",
-      "isPartOf": { "@type": "WebSite", "name": "TableJourney", "url": "https://tablejourney.com" },
+      "isPartOf": { "@type": "WebSite", "name": "Cork and Curve", "url": "https://corkandcurve.com" },
       "mainEntityOfPage": { "@type": "WebPage", "@id": {{ seo.meta.canonical_url | tojson }} },
       "articleSection": {{ (topic.name or 'Food Travel') | tojson }},
       "about": { "@type": "Place", "name": {{ destination.name | tojson }} }
@@ -70,7 +70,7 @@
       "numberOfItems": {{ topic_entities | length }},
       "itemListElement": [
         {% for e in topic_entities[:30] %}
-        { "@type": "ListItem", "position": {{ loop.index }}{% if e._url %}, "url": "https://tablejourney.com{{ e._url }}"{% endif %}, "name": {{ (e.name or e.operator) | tojson }} }{% if not loop.last %},{% endif %}
+        { "@type": "ListItem", "position": {{ loop.index }}{% if e._url %}, "url": "https://corkandcurve.com{{ e._url }}"{% endif %}, "name": {{ (e.name or e.operator) | tojson }} }{% if not loop.last %},{% endif %}
         {% endfor %}
       ]
     }
@@ -78,8 +78,8 @@
     {
       "@type": "BreadcrumbList",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://tablejourney.com/" },
-        { "@type": "ListItem", "position": 2, "name": {{ destination.name | tojson }}, "item": "https://tablejourney.com{% if region_slug %}/{{ country_slug }}/{{ region_slug }}/{% else %}/{{ country_slug }}/{% endif %}" },
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://corkandcurve.com/" },
+        { "@type": "ListItem", "position": 2, "name": {{ destination.name | tojson }}, "item": "https://corkandcurve.com{% if region_slug %}/{{ country_slug }}/{{ region_slug }}/{% else %}/{{ country_slug }}/{% endif %}" },
         { "@type": "ListItem", "position": 3, "name": {{ topic.name | tojson }} }
       ]
     }
@@ -222,7 +222,7 @@
         <div class="tj-sidebar-box">
             <h3>Browse across cities</h3>
             <ul class="tj-sidebar-list">
-                {% if topic.slug %}<li><a href="/topics/{{ topic.slug }}/">All {{ topic.name | lower }} on TableJourney</a></li>{% endif %}
+                {% if topic.slug %}<li><a href="/topics/{{ topic.slug }}/">All {{ topic.name | lower }} on Cork and Curve</a></li>{% endif %}
                 <li><a href="/cuisines/">Cuisines</a></li>
                 <li><a href="/dishes/">Signature dishes</a></li>
                 <li><a href="/neighborhoods/">Neighbourhoods</a></li>

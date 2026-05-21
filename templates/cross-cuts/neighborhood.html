@@ -48,7 +48,7 @@
       "@type": "BreadcrumbList",
       "itemListElement": [
         {% for crumb in breadcrumb %}
-        { "@type": "ListItem", "position": {{ loop.index }}, "name": {{ crumb.name | tojson }}{% if crumb.url %}, "item": "https://tablejourney.com{{ crumb.url }}"{% endif %} }{% if not loop.last %},{% endif %}
+        { "@type": "ListItem", "position": {{ loop.index }}, "name": {{ crumb.name | tojson }}{% if crumb.url %}, "item": "https://corkandcurve.com{{ crumb.url }}"{% endif %} }{% if not loop.last %},{% endif %}
         {% endfor %}
       ]
     }
