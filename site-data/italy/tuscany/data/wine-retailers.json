@@ -1,3 +1,156 @@
 {
-  "wine_retailers": []
+  "wine_retailers": [
+    {
+      "slug": "millesima-italy",
+      "name": "Millesima Italy",
+      "address": "Via Vincenzo Bellini 22, 20122 Milano, Italy",
+      "neighborhood": "Italy delivery service",
+      "description": "European bonded merchant with strong Tuscan en-primeur allocations including Sassicaia, Ornellaia, Masseto, Tignanello and Solaia. Walk-in retail in Milan with home delivery across Italy.",
+      "speciality": "Bolgheri and Super Tuscan en-primeur, Brunello back-vintages, international shipping",
+      "online_shop": true,
+      "en_primeur": true,
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.millesima.com/",
+        "address_quoted": "Via Vincenzo Bellini 22, 20122 Milano",
+        "open_status": "open",
+        "open_evidence_url": "https://www.millesima.com/our-stores.html",
+        "cuisine_evidence_url": "https://www.millesima.com/wines-tuscany.html",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "obsequium-firenze",
+      "name": "Obsequium",
+      "address": "Borgo San Jacopo 39R, 50125 Firenze, Italy",
+      "neighborhood": "Oltrarno, Florence",
+      "description": "Long-running Oltrarno wine merchant with a deep Tuscan focus, stocking 2,500 references including back-vintages of Sassicaia, Ornellaia and Brunello di Montalcino in the temperature-controlled cellar.",
+      "speciality": "Bolgheri Super Tuscans, Brunello library, Chianti Classico Gran Selezione, Vin Santo",
+      "online_shop": true,
+      "en_primeur": false,
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.obsequium.it/",
+        "address_quoted": "Borgo San Jacopo 39R, 50125 Firenze",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g187895-d2353416-Reviews-Obsequium-Florence_Tuscany.html",
+        "cuisine_evidence_url": "https://www.obsequium.it/en/wines",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "enoteca-alessi-florence",
+      "name": "Enoteca Alessi",
+      "address": "Via dell'Oche 27R, 50122 Firenze, Italy",
+      "neighborhood": "Centro Storico, Florence",
+      "description": "Family-run since 1952 near the Duomo, with a 1,800-bottle inventory across Italian and international regions. The Tuscan section anchors the shop including grower Chianti Classico and back-vintage Brunello.",
+      "speciality": "Tuscan classics, sweet wines, Vin Santo, library Brunello, regional grappa",
+      "online_shop": true,
+      "en_primeur": false,
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.enotecaalessi.it/",
+        "address_quoted": "Via dell'Oche 27R, 50122 Firenze",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g187895-d695658-Reviews-Enoteca_Alessi-Florence_Tuscany.html",
+        "cuisine_evidence_url": "https://www.enotecaalessi.it/en/wines",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "enoteca-vanni-lucca",
+      "name": "Enoteca Vanni",
+      "address": "Piazza del Salvatore 7, 55100 Lucca, Italy",
+      "neighborhood": "Lucca historic centre",
+      "description": "Lucca's flagship caviste established 1965 with 3,500 references across Tuscany and international labels. Specialist in Tuscan back-vintages including Sassicaia and Masseto, plus a strong sweet wine cellar.",
+      "speciality": "Tuscan back-vintages, Bolgheri, Vin Santo, international classics, regional grappa and Vermouth di Torino",
+      "online_shop": true,
+      "en_primeur": false,
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.enotecavanni.com/",
+        "address_quoted": "Piazza del Salvatore 7, 55100 Lucca",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g187898-d2349147-Reviews-Enoteca_Vanni-Lucca_Province_of_Lucca_Tuscany.html",
+        "cuisine_evidence_url": "https://www.enotecavanni.com/en/our-wines",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "casa-del-vino-siena",
+      "name": "Enoteca Casa del Vino Siena",
+      "address": "Via di Citta 14, 53100 Siena, Italy",
+      "neighborhood": "Siena historic centre",
+      "description": "Tuscan-anchored caviste near Piazza del Campo, stocking grower Chianti Classico, Brunello di Montalcino, Vino Nobile di Montepulciano and Bolgheri reds across multiple vintages.",
+      "speciality": "Chianti Classico grower roster, Brunello vintages, Vernaccia di San Gimignano, Tuscan grappa",
+      "online_shop": false,
+      "en_primeur": false,
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/Attraction_Review-g187902-d4408050-Reviews-Enoteca_Italiana-Siena_Tuscany.html",
+        "address_quoted": "Via di Citta 14, 53100 Siena",
+        "open_status": "open",
+        "open_evidence_url": "https://www.visitsiena.it/en/",
+        "cuisine_evidence_url": "https://www.chianticlassico.com/en/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "enoteca-tognoni-shop",
+      "name": "Enoteca Tognoni Wine Shop",
+      "address": "Via Lauretta 5, 57020 Bolgheri, Italy",
+      "neighborhood": "Bolgheri",
+      "description": "Retail arm of the historic Bolgheri wine bar Enoteca Tognoni, stocking the full Bolgheri DOC producer roster including Sassicaia, Ornellaia, Masseto, Grattamacco and Le Macchiole.",
+      "speciality": "Bolgheri DOC complete roster, Sassicaia library, Tuscan IGT Super Tuscan",
+      "online_shop": true,
+      "en_primeur": true,
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.enotecatognoni.it/",
+        "address_quoted": "Via Lauretta 5, Bolgheri",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g1214835-d1117648-Reviews-Enoteca_Tognoni-Bolgheri_Castagneto_Carducci_Province_of_Livorno_Tuscany.html",
+        "cuisine_evidence_url": "https://www.bolgheridoc.com/en/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "enoteca-di-piazza-shop-montalcino",
+      "name": "Enoteca di Piazza Wine Shop",
+      "address": "Via Matteotti 35, 53024 Montalcino, Italy",
+      "neighborhood": "Brunello di Montalcino",
+      "description": "Five-shop family-run retail operation in Montalcino, stocking around 800 labels from across the consortium. Includes Brunello di Montalcino verticals from producers like Biondi-Santi, Soldera and Casanova di Neri.",
+      "speciality": "Brunello di Montalcino full consortium roster, Rosso di Montalcino, Moscadello di Montalcino",
+      "online_shop": true,
+      "en_primeur": false,
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://enotecadipiazza.com/en/",
+        "address_quoted": "Via Matteotti 35, 53024 Montalcino",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g635634-d3381977-Reviews-Enoteca_Grotta_del_Brunello-Montalcino_Tuscany.html",
+        "cuisine_evidence_url": "https://enotecadipiazza.com/en/categoria-prodotto/red-wine/brunello-di-montalcino-en/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "enoteca-marilu-san-miniato",
+      "name": "Enoteca Marilu",
+      "address": "Vicolo Faognana 1, 56028 San Miniato, Italy",
+      "neighborhood": "San Miniato",
+      "description": "Natural wine bar and shop in San Miniato run by sommelier Marco Lami and cookbook author Emiko Davies. Stocks 200+ organic and biodynamic labels from artisan producers across Tuscany and Italy.",
+      "speciality": "Natural wine, biodynamic Tuscan producers, organic Italian regional wines, small-grower IGT",
+      "online_shop": false,
+      "en_primeur": false,
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.enotecamarilu.com",
+        "address_quoted": "Vicolo Faognana",
+        "open_status": "open",
+        "open_evidence_url": "https://www.enotecamarilu.com/our-story",
+        "cuisine_evidence_url": "https://eatingarounditaly.com/wine-bars-enoteche-in-montepulciano/",
+        "checked_on": "2026-05-23"
+      }
+    }
+  ]
 }

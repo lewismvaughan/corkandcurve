@@ -171,10 +171,15 @@ def main() -> int:
     pages_with_issues = []
     type_counts: dict[str, int] = defaultdict(int)
 
+    # Utility pages exempt from JSON-LD validation (they're not crawled for
+    # rich-result snippets — they're transport-level error/redirect pages).
+    EXEMPT_URLS = {"/404.html"}
     for f in sorted(pages):
         if not f.is_file():
             continue
         url = url_for_file(f)
+        if url in EXEMPT_URLS:
+            continue
         html = f.read_text(encoding="utf-8", errors="replace")
         blocks = JSONLD_RE.findall(html)
         issues: list[str] = []

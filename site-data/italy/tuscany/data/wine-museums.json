@@ -1,3 +1,104 @@
 {
-  "wine_museums": []
+  "wine_museums": [
+    {
+      "slug": "antinori-art-museum-bargino",
+      "name": "Antinori nel Chianti Classico Museum",
+      "address": "Via Cassia per Siena 133, Loc. Bargino, 50026 San Casciano in Val di Pesa, Italy",
+      "neighborhood": "Chianti Classico",
+      "description": "The Antinori museum and art gallery inside the Bargino cellar covers 26 generations of family winemaking. Permanent exhibits trace the Marchesi Antinori archives back to 1385 alongside contemporary art commissions and amphorae from the Etruscan period.",
+      "admission": "Cellar tour entry includes museum access; standalone museum visits not available",
+      "permanent_collection": true,
+      "temporary_exhibitions": true,
+      "tasting_bar": true,
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.antinori.it/en/tenuta/estates-antinori/antinori-nel-chianti-classico-estate/",
+        "address_quoted": "Via Cassia per Siena, 133, Loc. Bargino, 50026 San Casciano Val di Pesa",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g652039-d4419171-Reviews-Antinori_nel_Chianti_Classico-San_Casciano_in_Val_di_Pesa_Tuscany.html",
+        "cuisine_evidence_url": "https://www.antinori.it/en/experience/antinori-nel-chianti-classico-tailor-made-private-experiences/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "vernaccia-museum-san-gimignano",
+      "name": "Museo del Vino Vernaccia di San Gimignano",
+      "address": "Villa della Rocca di Montestaffoli, 53037 San Gimignano, Italy",
+      "neighborhood": "Vernaccia di San Gimignano",
+      "description": "Vernaccia di San Gimignano Wine Experience housed in the Rocca di Montestaffoli at the top of the medieval town. Three rooms cover Vernaccia history, the DOCG (created 1993) and a sommelier-staffed tasting room with 500+ bottles.",
+      "admission": "Free entry to museum; wine tastings priced from EUR 12 per flight",
+      "permanent_collection": true,
+      "temporary_exhibitions": false,
+      "tasting_bar": true,
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://comune.sangimignano.si.it/it/vivere/700119",
+        "address_quoted": "Villa della Rocca di Montestaffoli",
+        "open_status": "open",
+        "open_evidence_url": "https://www.lonelyplanet.com/italy/tuscany/san-gimignano/attractions/vernaccia-di-san-gimignano-wine-experience/a/poi-sig/471954/360052",
+        "cuisine_evidence_url": "https://www.tripadvisor.com/ShowUserReviews-g187901-d10425570-r524467576-Museo_del_Vino_Vernaccia_di_San_Gimignano-San_Gimignano_Tuscany.html",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "museo-vite-vino-carmignano",
+      "name": "Museo della Vite e del Vino Carmignano",
+      "address": "Cantine Niccolini, Via Carlo Lorenzini 1, 59015 Carmignano, Italy",
+      "neighborhood": "Carmignano",
+      "description": "Housed in the former Niccolini wine cellars, this Carmignano museum traces local viticulture from Etruscan amphorae and a medieval jug to 800+ vintage bottles from the Federigo Melis collection. Displays cover the Carmignano DOCG region.",
+      "admission": "Free entry by reservation",
+      "permanent_collection": true,
+      "temporary_exhibitions": false,
+      "tasting_bar": false,
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.carmignanodivino.it/en/museums/the-museum-of-the-vine-and-wine/",
+        "address_quoted": "Carmignano",
+        "open_status": "open",
+        "open_evidence_url": "https://www.visittuscany.com/en/attractions/the-museum-of-grapes-and-wine-in-carmignano/",
+        "cuisine_evidence_url": "https://www.visittuscany.com/en/towns-and-villages/carmignano/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "banfi-bottle-glass-museum",
+      "name": "Castello Banfi Bottle and Glass Museum",
+      "address": "Castello di Poggio alle Mura 1, 53024 Montalcino, Italy",
+      "neighborhood": "Brunello di Montalcino",
+      "description": "The Bottle and Glass Museum inside the 14th-century Poggio alle Mura castle holds a collection of historic wine vessels spanning Roman amphorae, Renaissance flasks and 19th-century Sienese terracotta. Combined with the Banfi cellar tour.",
+      "admission": "Cellar tour with museum access from EUR 35",
+      "permanent_collection": true,
+      "temporary_exhibitions": false,
+      "tasting_bar": true,
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.banfi.it/eng/hotel-il-borgo/",
+        "address_quoted": "Castello di Poggio alle Mura, 1, Montalcino, Italy 53024",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g635634-d195461-Reviews-Castello_Banfi_L_Enoteca-Montalcino_Tuscany.html",
+        "cuisine_evidence_url": "https://www.banfi.it/eng/tasting-tours/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "museo-archeologico-vite-vino-scansano",
+      "name": "Museo Archeologico e della Vite e del Vino Scansano",
+      "address": "Palazzo Pretorio, Piazza del Pretorio 4, 58054 Scansano, Italy",
+      "neighborhood": "Morellino di Scansano",
+      "description": "A combined archaeology and wine museum in Scansano's Palazzo Pretorio. Etruscan and Roman wine-making artefacts displayed alongside contemporary documentation of the Morellino di Scansano DOCG.",
+      "admission": "EUR 4 adults; combined ticket with Scansano archaeology galleries",
+      "permanent_collection": true,
+      "temporary_exhibitions": true,
+      "tasting_bar": false,
+      "editorial_score": 4.1,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/Attraction_Review-g642191-d4367100-Reviews-Museo_Archeologico_e_della_Vite_e_del_Vino-Scansano_Province_of_Grosseto_Tuscany.html",
+        "address_quoted": "Palazzo Pretorio, Scansano",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g642191-d4367100-Reviews-Museo_Archeologico_e_della_Vite_e_del_Vino-Scansano_Province_of_Grosseto_Tuscany.html",
+        "cuisine_evidence_url": "https://www.consorziomorellino.it/en/",
+        "checked_on": "2026-05-23"
+      }
+    }
+  ]
 }

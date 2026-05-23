@@ -1,3 +1,256 @@
 {
-  "tasting_rooms": []
+  "tasting_rooms": [
+    {
+      "slug": "antinori-nel-chianti-classico-tasting",
+      "name": "Antinori nel Chianti Classico Tasting Cellars",
+      "address": "Via Cassia per Siena 133, Loc. Bargino, 50026 San Casciano in Val di Pesa, Italy",
+      "neighborhood": "Chianti Classico",
+      "varietals_focus": ["Sangiovese", "Cabernet Sauvignon", "Cabernet Franc", "Merlot"],
+      "pricing": "Standard tour and 3-wine tasting from EUR 45; Tinaia tour with cru tasting from EUR 80",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "marchesi-antinori",
+      "description": "Marchesi Antinori's signature Chianti Classico cellar in Bargino, opened 2012. Spiral staircase and rooftop vineyard architecture; flights cover the estate wines including Tignanello and Solaia.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.antinori.it/en/experience/antinori-nel-chianti-classico-tailor-made-private-experiences/",
+        "address_quoted": "Via Cassia per Siena, 133, Loc. Bargino, 50026 San Casciano Val di Pesa",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g652039-d4419171-Reviews-Antinori_nel_Chianti_Classico-San_Casciano_in_Val_di_Pesa_Tuscany.html",
+        "cuisine_evidence_url": "https://www.antinori.it/en/tenuta/estates-antinori/antinori-nel-chianti-classico-estate/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "enoteca-italiana-siena",
+      "name": "Enoteca Italiana Siena",
+      "address": "Fortezza Medicea, Piazza della Liberta, 53100 Siena, Italy",
+      "neighborhood": "Siena historic centre",
+      "varietals_focus": ["Sangiovese", "Vernaccia", "Cabernet Sauvignon", "Merlot"],
+      "pricing": "Walk-in tastings from EUR 8 per glass; structured flights of Italian regions from EUR 25",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": null,
+      "description": "Italy's oldest official wine promoting organisation, set inside the Medicean Fortress in Siena. Showroom with more than 1,600 Italian wines and a tasting bar across the bastion vaults.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.enotecaitalianasiena.it/en/the-wine-museum/",
+        "address_quoted": "Fortezza Medicea",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g187902-d243047-Reviews-Enoteca_Italiana-Siena_Tuscany.html",
+        "cuisine_evidence_url": "https://www.enotecaitalianasiena.it/en/contacts/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "le-volpi-e-l-uva",
+      "name": "Le Volpi e l'Uva",
+      "address": "Piazza dei Rossi 1R, 50125 Firenze, Italy",
+      "neighborhood": "Oltrarno, Florence",
+      "varietals_focus": ["Sangiovese", "Vermentino", "Trebbiano", "Cabernet Sauvignon"],
+      "pricing": "Glass pours from EUR 5; sit-down flights from EUR 18 with charcuterie board",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": null,
+      "description": "Founded 1992 just behind Ponte Vecchio, this Oltrarno wine bar sources from small independent Tuscan producers. Rotating by-the-glass list shows Chianti Classico, Vernaccia and lesser-known appellations.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.levolpieluva.com/home-english",
+        "address_quoted": "Piazza dei Rossi, 1 Firenze",
+        "open_status": "open",
+        "open_evidence_url": "https://www.yelp.com/biz/le-volpi-e-l-uva-firenze",
+        "cuisine_evidence_url": "https://www.levolpieluva.com/cantina-english",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "enoteca-falorni-greve",
+      "name": "Enoteca Falorni",
+      "address": "Piazza delle Cantine 6, 50022 Greve in Chianti, Italy",
+      "neighborhood": "Greve in Chianti",
+      "varietals_focus": ["Sangiovese", "Canaiolo", "Colorino", "Cabernet Sauvignon"],
+      "pricing": "Enomatic dispensed pours from EUR 1.50 sample to EUR 12 premium pour; flight cards prepaid",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": null,
+      "description": "Tuscany's largest enoteca with over 1,000 wines and 100 simultaneously available for sampling via Enomatic dispensers. Underground vaulted cellars on the site of Greve's first wine merchant.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/Attraction_Review-g580240-d2342946-Reviews-Enoteca_Falorni-Greve_in_Chianti_Tuscany.html",
+        "address_quoted": "Piazza delle Cantine, 6, Greve in Chianti, Metropolitan City of Florence, 50022",
+        "open_status": "open",
+        "open_evidence_url": "https://www.yelp.com/biz/enoteca-falorni-greve-in-chianti",
+        "cuisine_evidence_url": "https://evendo.com/locations/italy/chianti/shop/enoteca-falorni",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "enoteca-la-fortezza-montalcino",
+      "name": "Enoteca La Fortezza di Montalcino",
+      "address": "Piazzale Fortezza, 53024 Montalcino, Italy",
+      "neighborhood": "Brunello di Montalcino",
+      "varietals_focus": ["Sangiovese Grosso", "Sangiovese", "Cabernet Sauvignon", "Merlot"],
+      "pricing": "Brunello and Rosso flights from EUR 18; vertical tastings from EUR 60 by reservation",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": null,
+      "description": "Founded 1980 inside the medieval fortress walls of Montalcino, with Val d'Orcia panoramas from the ramparts. Specialises in Brunello di Montalcino verticals and Rosso di Montalcino flights.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.enotecalafortezza.com/GB/Home",
+        "address_quoted": "Piazzale Fortezza, Montalcino",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g635634-d3381977-Reviews-Enoteca_Grotta_del_Brunello-Montalcino_Tuscany.html",
+        "cuisine_evidence_url": "https://www.enotecalafortezza.com/GB/wine-tasting/wine-tasting",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "enoteca-di-piazza-montalcino",
+      "name": "Enoteca di Piazza Montalcino",
+      "address": "Via Matteotti 35, 53024 Montalcino, Italy",
+      "neighborhood": "Brunello di Montalcino",
+      "varietals_focus": ["Sangiovese Grosso", "Cabernet Sauvignon", "Merlot", "Syrah"],
+      "pricing": "Card-system pours from EUR 2 sample; Brunello producer flights from EUR 25",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": null,
+      "description": "Family-run since 2004 by the Fedolfi family, with multiple shop fronts across Montalcino. Enomatic-driven tasting room covering 40 Brunello producers side by side; staff sommelier on call.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://enotecadipiazza.com/en/",
+        "address_quoted": "Via Matteotti 35, 53024 Montalcino",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g635634-d3381977-Reviews-Enoteca_Grotta_del_Brunello-Montalcino_Tuscany.html",
+        "cuisine_evidence_url": "https://enotecadipiazza.com/en/categoria-prodotto/red-wine/brunello-di-montalcino-en/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "castello-banfi-enoteca",
+      "name": "Castello Banfi L'Enoteca",
+      "address": "Castello di Poggio alle Mura 1, 53024 Montalcino, Italy",
+      "neighborhood": "Brunello di Montalcino",
+      "varietals_focus": ["Sangiovese Grosso", "Cabernet Sauvignon", "Merlot", "Pinot Grigio"],
+      "pricing": "Cellar tour with tasting from EUR 35; vertical Brunello tasting from EUR 90",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "banfi",
+      "description": "The Castello Banfi tasting room inside the 14th-century Poggio alle Mura castle, with the Bottle and Glass Museum next door. Flights cover the full Banfi range from Pinot Grigio to Brunello Riserva Poggio alle Mura.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.banfi.it/eng/tasting-tours/",
+        "address_quoted": "Castello di Poggio alle Mura, 1, Montalcino, Italy 53024",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g635634-d195461-Reviews-Castello_Banfi_L_Enoteca-Montalcino_Tuscany.html",
+        "cuisine_evidence_url": "https://www.banfi.it/eng/hotel-il-borgo/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "tenuta-capezzana-tasting",
+      "name": "Tenuta di Capezzana Tasting Cellars",
+      "address": "Via Capezzana 100, 59015 Carmignano, Italy",
+      "neighborhood": "Carmignano",
+      "varietals_focus": ["Sangiovese", "Cabernet Sauvignon", "Trebbiano", "San Colombano"],
+      "pricing": "Cellar tour with 5-wine tasting from EUR 30; full experience with jeep vineyard tour and lunch from EUR 110",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "tenuta-di-capezzana",
+      "description": "Tasting cellars at one of Tuscany's oldest estates, documented at 804 AD. The Vinsantaia is included on tours; flights cover Carmignano DOCG, Trefiano Riserva, and the Vin Santo di Carmignano DOC.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://capezzana.it/en/experience/wine-experience-tuscany-capezzana/",
+        "address_quoted": "Via Capezzana 100, Carmignano",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g644273-d2531462-Reviews-Tenuta_di_Capezzana-Carmignano_Province_of_Prato_Tuscany.html",
+        "cuisine_evidence_url": "https://capezzana.it/en/experience/wine-tasting-in-tuscany/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "castello-di-verrazzano-cellars",
+      "name": "Castello di Verrazzano Tasting Cellars",
+      "address": "Via Citille 32, 50022 Greve in Chianti, Italy",
+      "neighborhood": "Chianti Classico",
+      "varietals_focus": ["Sangiovese", "Cabernet Sauvignon", "Merlot", "Malvasia"],
+      "pricing": "Cellar tour and 4-wine tasting from EUR 28; tour with lunch from EUR 65",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": null,
+      "description": "Tour the cellars of this organic Greve estate, named for the navigator Giovanni da Verrazzano. Flight programme covers Chianti Classico, Riserva, the Sassello IGT, and Vin Santo of the property.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.verrazzano.com/en/guided-tours/",
+        "address_quoted": "Via Citille 32, Greve in Chianti",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g580240-d195906-Reviews-Castello_Di_Verrazzano-Greve_in_Chianti_Tuscany.html",
+        "cuisine_evidence_url": "https://www.verrazzano.com/en/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "grattamacco-tasting-room",
+      "name": "Grattamacco Tasting Room",
+      "address": "Localita Lungagnano 129, 57022 Castagneto Carducci, Italy",
+      "neighborhood": "Bolgheri",
+      "varietals_focus": ["Cabernet Sauvignon", "Merlot", "Sangiovese", "Vermentino"],
+      "pricing": "Estate tour and 3-wine tasting from EUR 40; Grattamacco vertical from EUR 90",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "grattamacco",
+      "description": "Bolgheri's second-oldest winery, with a hilltop tasting terrace overlooking the Tyrrhenian coast. Flights include Bolgheri Rosso DOC, L'Alberello and Grattamacco Bolgheri Superiore DOC.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.grattamacco.it/en/tours-tasting",
+        "address_quoted": "Localita Lungagnano",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g194715-d11712422-Reviews-Tenuta_Podere_Grattamacco-Castagneto_Carducci_Province_of_Livorno_Tuscany.html",
+        "cuisine_evidence_url": "https://www.grattamacco.it/en/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "frescobaldi-castelgiocondo-tasting",
+      "name": "Frescobaldi CastelGiocondo Tasting Cellars",
+      "address": "Localita Castelgiocondo, 53024 Montalcino, Italy",
+      "neighborhood": "Brunello di Montalcino",
+      "varietals_focus": ["Sangiovese Grosso", "Cabernet Sauvignon", "Merlot", "Petit Verdot"],
+      "pricing": "Standard cellar visit with 4-wine flight from EUR 45; Lamaione Merlot vertical from EUR 95",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "frescobaldi-castelgiocondo",
+      "description": "Marchesi Frescobaldi's flagship Montalcino estate, founded as a fortress in 1100. Cellar tour ends in tastings of CastelGiocondo Brunello di Montalcino and the Lamaione single-vineyard Merlot.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.frescobaldi.com/en/estates/tenuta-castelgiocondo",
+        "address_quoted": "Castelgiocondo",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g635634-d8041748-Reviews-Tenuta_CastelGiocondo-Montalcino_Tuscany.html",
+        "cuisine_evidence_url": "https://www.frescobaldi.com/en/wines/estates/tenuta-castelgiocondo",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "vernaccia-wine-experience-rocca",
+      "name": "Vernaccia di San Gimignano Wine Experience",
+      "address": "Villa della Rocca di Montestaffoli, 53037 San Gimignano, Italy",
+      "neighborhood": "Vernaccia di San Gimignano",
+      "varietals_focus": ["Vernaccia di San Gimignano", "Sangiovese", "Trebbiano"],
+      "pricing": "Wine museum visit free; tasting flights from EUR 12; producer-led masterclasses from EUR 35",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": null,
+      "description": "The consortium tasting room inside the medieval Rocca di Montestaffoli at the top of San Gimignano. Sommelier-led flights cover the DOCG Vernaccia plus the San Gimignano Rosso DOC.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://comune.sangimignano.si.it/it/vivere/700119",
+        "address_quoted": "Villa della Rocca di Montestaffoli",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/ShowUserReviews-g187901-d10425570-r524467576-Museo_del_Vino_Vernaccia_di_San_Gimignano-San_Gimignano_Tuscany.html",
+        "cuisine_evidence_url": "https://www.lonelyplanet.com/italy/tuscany/san-gimignano/attractions/vernaccia-di-san-gimignano-wine-experience/a/poi-sig/471954/360052",
+        "checked_on": "2026-05-23"
+      }
+    }
+  ]
 }

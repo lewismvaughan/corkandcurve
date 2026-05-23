@@ -1,11 +1,538 @@
 {
   "nightlife": {
-    "wine_bars_late": [],
-    "listening_bars": [],
-    "candle_lit": [],
-    "lounges": [],
-    "fortified_specialists": [],
-    "late_tastings": [],
-    "sparkling_rooms": []
+    "wine_bars_late": [
+      {
+        "slug": "le-volpi-e-luva",
+        "name": "Le Volpi e l'Uva",
+        "address": "Piazza dei Rossi 1R, 50125 Firenze, Italy",
+        "neighborhood": "Oltrarno (Florence)",
+        "wine_program": "Around 350 bottles on the shelf and 45 by-the-glass pours, almost all from small terroir-driven producers across Italy and France",
+        "glass_count": 45,
+        "opens_until": "21:00",
+        "tip": "Stand at the marble counter and ask Riccardo or Ciro for an off-list small-producer Sangiovese; the staff have been doing this since 1992.",
+        "description": "Compact Oltrarno wine bar opened in 1992. Curated small-producer list, French and Italian cheese plates, the unhurried pace older enoteche were built for.",
+        "editorial_score": 4.8,
+        "verified": {
+          "source_url": "https://www.levolpieluva.com/home-english",
+          "address_quoted": "Piazza dei Rossi, 1R",
+          "open_status": "open",
+          "open_evidence_url": "https://starwinelist.com/wine-place/le-volpi-e-l-uva",
+          "cuisine_evidence_url": "https://www.enprimeurclub.com/bars/le-volpi-e-l-uva-florence-bar",
+          "checked_on": "2026-05-23"
+        }
+      },
+      {
+        "slug": "il-santino",
+        "name": "Il Santino",
+        "address": "Via di Santo Spirito 60R, 50125 Firenze, Italy",
+        "neighborhood": "Santo Spirito (Florence)",
+        "wine_program": "Six reds and six whites by the glass at any one time, roughly 200 bottles on the list with a Tuscan small-producer focus",
+        "glass_count": 12,
+        "opens_until": "23:00",
+        "tip": "Wines by the glass come with a complimentary snack; arrive early to claim one of the four small tables before the room spills into the street.",
+        "description": "Opened in 2008 on Via Santo Spirito, exposed brick, four tables, iron stools and burrata-and-pecorino crostini matched to natural-leaning Tuscan reds.",
+        "editorial_score": 4.6,
+        "verified": {
+          "source_url": "https://ilsantino.shop/",
+          "address_quoted": "Via di Santo Spirito 60R",
+          "open_status": "open",
+          "open_evidence_url": "https://starwinelist.com/wine-place/il-santino",
+          "cuisine_evidence_url": "https://www.lostinflorence.it/il-santino/",
+          "checked_on": "2026-05-23"
+        }
+      },
+      {
+        "slug": "enoteca-pitti-gola-e-cantina",
+        "name": "Enoteca Pitti Gola e Cantina",
+        "address": "Piazza Pitti 16, 50125 Firenze, Italy",
+        "neighborhood": "Oltrarno (Florence)",
+        "wine_program": "Hand-selected small-production Tuscan and Italian bottlings, many available by the glass with cured meats and local cheese",
+        "glass_count": 25,
+        "opens_until": "23:00",
+        "tip": "Aimed squarely at small Tuscan producers; ask the owners for a vertical of a single Brunello or Chianti Classico Riserva.",
+        "description": "Wine bar across Piazza Pitti from Palazzo Pitti, focused on small handcrafted Tuscan producers. Dinner runs to 22:30, the bar past 23:00.",
+        "editorial_score": 4.7,
+        "verified": {
+          "source_url": "https://www.yelp.com/biz/enoteca-pitti-gola-e-cantina-firenze",
+          "address_quoted": "Piazza de' Pitti 16",
+          "open_status": "open",
+          "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187895-d896746-Reviews-Enoteca_Pitti_Gola_e_Cantina-Florence_Tuscany.html",
+          "cuisine_evidence_url": "https://www.myguide-florence.com/restaurants/enoteca-pitti-gola-e-cantina",
+          "checked_on": "2026-05-23"
+        }
+      },
+      {
+        "slug": "coquinarius",
+        "name": "Coquinarius",
+        "address": "Via delle Oche 11R, 50122 Firenze, Italy",
+        "neighborhood": "Duomo (Florence)",
+        "wine_program": "Around 200 labels with a stated minimum 30 percent natural wine selection, curated by a long-tenured Florentine sommelier",
+        "glass_count": 30,
+        "opens_until": "22:30",
+        "tip": "The burrata ravioli in pistachio pesto is one of Florence's most-quoted dishes; pair with a Sangiovese-led IGT from a small producer.",
+        "description": "Wine bar and restaurant on Via delle Oche since 1999, near the Duomo. Local-seasonal Tuscan menu and an at-least-30-percent natural-wine list.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://www.raisin.digital/en/coquinarius-1191/",
+          "address_quoted": "Via delle Oche 11R",
+          "open_status": "open",
+          "open_evidence_url": "https://www.thefork.com/restaurant/coquinarius-bistrot-r53158",
+          "cuisine_evidence_url": "https://www.raisin.digital/en/explore/italy/tuscany/venues/coquinarius-1191/",
+          "checked_on": "2026-05-23"
+        }
+      },
+      {
+        "slug": "fuori-porta",
+        "name": "Enoteca Fuori Porta",
+        "address": "Via del Monte alle Croci 10, 50125 Firenze, Italy",
+        "neighborhood": "San Niccolo (Florence)",
+        "wine_program": "More than 200 labels with strong representation of small producers; signature crostoni and Tuscan charcuterie plates",
+        "glass_count": 28,
+        "opens_until": "00:30",
+        "tip": "Walk up here after the climb to Piazzale Michelangelo; the back terrace has the longest evening service in San Niccolo.",
+        "description": "Founded in 1987 by Andrea Conti at the foot of the climb to Piazzale Michelangelo. Crostoni, charcuterie, more than 200 labels with continuous list rotation.",
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://www.fuoriporta.it/",
+          "address_quoted": "Via del Monte alle Croci 10",
+          "open_status": "open",
+          "open_evidence_url": "https://www.yelp.com/biz/enoteca-fuori-porta-firenze",
+          "cuisine_evidence_url": "https://www.myguide-florence.com/restaurants/enoteca-fuori-porta",
+          "checked_on": "2026-05-23"
+        }
+      },
+      {
+        "slug": "casa-del-vino",
+        "name": "Casa del Vino",
+        "address": "Via dell'Ariento 16R, 50123 Firenze, Italy",
+        "neighborhood": "San Lorenzo (Florence)",
+        "wine_program": "Small-producer Tuscan, natural-leaning, by-the-glass pours rotating with the market traffic",
+        "glass_count": 16,
+        "opens_until": "22:00",
+        "tip": "Standing-only at the marble counter; the tripe-salad crostino is the local order alongside a Sangiovese glass.",
+        "description": "Historic stand-up wine bar near the San Lorenzo market, run by Gianni Migliorini. Daily small-producer pours and cured-meat crostini.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://attivitastoriche.destinationflorence.com/en/attivita_storiche/casa-del-vino/",
+          "address_quoted": "Via dell'Ariento 16R",
+          "open_status": "open",
+          "open_evidence_url": "https://www.enprimeurclub.com/bars/casa-del-vino-firenze-florence-bar",
+          "cuisine_evidence_url": "https://www.theflorentine.net/2021/06/24/natural-wine-bars-florence/",
+          "checked_on": "2026-05-23"
+        }
+      },
+      {
+        "slug": "enoteca-la-fortezza-montalcino",
+        "name": "Enoteca La Fortezza di Montalcino",
+        "address": "Piazzale Fortezza 9, 53024 Montalcino, Italy",
+        "neighborhood": "Montalcino",
+        "wine_program": "Wide-ranging Brunello di Montalcino vertical with around five regular tasting flights and five top-shelf flights, plus cheese, salumi and pasta pairings",
+        "glass_count": 30,
+        "opens_until": "20:00",
+        "tip": "Climb the fortress staircase before the tasting; the panoramic ramparts run around the medieval walls and overlook the Val d'Orcia.",
+        "description": "Inside Montalcino's 14th-century fortress, founded 1980 by Mario Pianigiani and Marzio Giannelli. Five-glass Brunello flights, blind tastings and panoramic ramparts.",
+        "editorial_score": 4.6,
+        "verified": {
+          "source_url": "https://www.enotecalafortezza.com/GB/Home",
+          "address_quoted": "Piazzale Fortezza 9",
+          "open_status": "open",
+          "open_evidence_url": "https://www.enotecalafortezza.com/GB/wine-tasting/wine-tasting",
+          "cuisine_evidence_url": "https://www.yelp.com/biz/la-fortezza-di-montalcino-montalcino",
+          "checked_on": "2026-05-23"
+        }
+      }
+    ],
+    "listening_bars": [
+      {
+        "slug": "move-on-italian-pub-record-store",
+        "name": "Move On Italian Pub and Record Store",
+        "address": "Piazza di San Giovanni 1R, 50122 Firenze, Italy",
+        "neighborhood": "Duomo (Florence)",
+        "wine_program": "Italian craft beers, regional cured meats and pecorino plates plus a small but well-chosen Tuscan red and white list",
+        "music_format": "Vinyl record store upstairs, in-house DJ sessions and listening nights",
+        "opens_until": "01:00",
+        "tip": "Vinyl shopping while drinking; the front-row view of the Baptistery turns golden after sunset.",
+        "description": "Front-row table service across from the Duomo and Baptistery, a record store upstairs and Italian craft beer and wine pours below. Closed Mondays.",
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://moveonfirenze.com/en/pub-store/",
+          "address_quoted": "Piazza di San Giovanni, 1R",
+          "open_status": "open",
+          "open_evidence_url": "https://www.italia.it/en/toscana/firenze/where-to-eat/move-on",
+          "cuisine_evidence_url": "https://www.spottedbylocals.com/florence/move-on/",
+          "checked_on": "2026-05-23"
+        }
+      },
+      {
+        "slug": "mad-souls-and-spirits",
+        "name": "Mad Souls and Spirits",
+        "address": "Borgo San Frediano 36R, 50124 Firenze, Italy",
+        "neighborhood": "San Frediano (Florence)",
+        "wine_program": "Cocktail-led, with a tight by-the-glass list of Tuscan small producers as supplement",
+        "music_format": "Live DJs through the evening, themed listening nights on weekends",
+        "opens_until": "02:00",
+        "tip": "The Soul Warmers section of the menu is the bar's signature; arrive early to claim a wooden table by the brick wall before the DJ starts.",
+        "description": "San Frediano cocktail spot run by Neri Fantechi and Julian Biondi. Tiny brick-walled room turns club-like after midnight when the DJ takes over.",
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://flawless.life/en/italy/florence/mad-souls-and-spirits/",
+          "address_quoted": "Borgo San Frediano 36R",
+          "open_status": "open",
+          "open_evidence_url": "https://www.inyourpocket.com/florence/mad-souls-and-spirits_167026v",
+          "cuisine_evidence_url": "https://www.afar.com/places/mad-souls-and-spirits-firenze",
+          "checked_on": "2026-05-23"
+        }
+      },
+      {
+        "slug": "tenax-florence",
+        "name": "Tenax",
+        "address": "Via Pratese 46, 50145 Firenze, Italy",
+        "neighborhood": "Peretola (Florence)",
+        "wine_program": "Cocktails and Italian craft beers; modest by-the-glass list",
+        "music_format": "Friday and Saturday club nights with international techno and house DJs",
+        "opens_until": "05:00",
+        "tip": "Plan a taxi back; Tenax sits near Florence airport and runs latest of any Tuscan club.",
+        "description": "Florence's longest-running club, opened 1981 near the airport. International techno and house DJs on weekends, with a wine bar room for slower pours.",
+        "editorial_score": 4.2,
+        "verified": {
+          "source_url": "https://tenax.org/en/",
+          "address_quoted": "Via Pratese, 46",
+          "open_status": "open",
+          "open_evidence_url": "https://ra.co/clubs/2965",
+          "cuisine_evidence_url": "https://wanderlog.com/place/details/1563616/tenax-discoteca-club-firenze",
+          "checked_on": "2026-05-23"
+        }
+      }
+    ],
+    "candle_lit": [
+      {
+        "slug": "rasputin",
+        "name": "Rasputin",
+        "address": "Borgo Tegolaio 21R, 50125 Firenze, Italy",
+        "neighborhood": "Oltrarno (Florence)",
+        "wine_program": "Cocktail-led; a small reserve wine list with Tuscan and Champagne bottles",
+        "atmosphere": "Candlelit Prohibition-era speakeasy with 45 seats, rich red walls, no phones and no flash photos",
+        "opens_until": "02:00",
+        "tip": "No walk-ins; ring the doorbell only after a reservation made through the bar's site, otherwise expect to be turned away.",
+        "description": "Florence's original speakeasy, hidden behind a faint blue light on Borgo Tegolaio. Forty-five seats, candlelight, no standing and a strict reservation policy.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://theeuropeanbarguide.com/rasputin-florence/",
+          "address_quoted": "Borgo Tegolaio, 21R",
+          "open_status": "open",
+          "open_evidence_url": "https://www.enprimeurclub.com/bars/rasputin-florence-bar",
+          "cuisine_evidence_url": "https://www.novacircle.com/spots/europe/italy/tuscany-region/metropolitan-city-of-florence/florence/rasputin-fa2507/about",
+          "checked_on": "2026-05-23"
+        }
+      },
+      {
+        "slug": "officina-della-bistecca",
+        "name": "Officina della Bistecca, Dario Cecchini",
+        "address": "Via XX Luglio 11, 50022 Panzano in Chianti, Italy",
+        "neighborhood": "Panzano (Chianti Classico)",
+        "wine_program": "House Carne Diem wine plus Panzano-vintner bottles available to BYO or to buy from the shop downstairs",
+        "atmosphere": "Long communal tables above Cecchini's butcher shop, music, candle holders on the tables, communal courses of bistecca",
+        "opens_until": "23:00",
+        "tip": "One dinner seating only at 20:00 in Panzano; book months in advance through the official site.",
+        "description": "Dario Cecchini's upstairs steak house in Panzano. Single seating, communal table, parade of beef courses paired with house red and Panzano bottles.",
+        "editorial_score": 4.6,
+        "verified": {
+          "source_url": "https://www.dariocecchini.com/en/officina-cecchini/",
+          "address_quoted": "Panzano in Chianti",
+          "open_status": "open",
+          "open_evidence_url": "https://www.worldofmouth.app/restaurants/officina-della-bistecca",
+          "cuisine_evidence_url": "https://www.dariocecchini.com/officina/?lang=en",
+          "checked_on": "2026-05-23"
+        }
+      },
+      {
+        "slug": "caffe-rivoire",
+        "name": "Caffe Rivoire",
+        "address": "Piazza della Signoria 5R, 50122 Firenze, Italy",
+        "neighborhood": "Piazza della Signoria (Florence)",
+        "wine_program": "Glass-pour list expanded since 2023 with Italian regional bottles paired to savoury plates",
+        "atmosphere": "Belle-epoque terrace overlooking Palazzo Vecchio and the Loggia dei Lanzi, lamp-lit at night",
+        "opens_until": "22:00",
+        "tip": "Daytime tourists clear after 21:00; come for a late Negroni and the view of the lit-up Loggia dei Lanzi.",
+        "description": "Founded 1872 as chocolatier to the House of Savoy. Outdoor terrace gives the best dusk view on Piazza della Signoria, now hosting evening wine and savoury pairings.",
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://rivoire.it/en/home-en/",
+          "address_quoted": "Piazza Signoria",
+          "open_status": "open",
+          "open_evidence_url": "https://www.yelp.com/biz/rivoire-firenze-2",
+          "cuisine_evidence_url": "https://www.florenceinferno.com/caffe-rivoire/",
+          "checked_on": "2026-05-23"
+        }
+      },
+      {
+        "slug": "gucci-osteria-firenze",
+        "name": "Gucci Osteria da Massimo Bottura",
+        "address": "Piazza della Signoria 10, 50122 Firenze, Italy",
+        "neighborhood": "Piazza della Signoria (Florence)",
+        "wine_program": "Bottura-curated list with strong Italian regional representation, including small-grower Piedmont and Tuscan reds",
+        "atmosphere": "Intimate green-and-teal dining room and a candlelit terrace on Piazza della Signoria",
+        "opens_until": "22:00",
+        "tip": "Reserve months ahead via OpenTable; the 19:00 seating gets the candles lit on the terrace as Palazzo Vecchio illuminates.",
+        "description": "Massimo Bottura's Florence outpost inside the Gucci Garden, one Michelin star. Tortellini in parmesan cream, a candle-lit terrace and an Italian-leaning list.",
+        "editorial_score": 4.7,
+        "verified": {
+          "source_url": "https://www.gucciosteria.com/en/florence/menu/wine-list/",
+          "address_quoted": "Piazza della Signoria",
+          "open_status": "open",
+          "open_evidence_url": "https://guide.michelin.com/us/en/toscana/firenze/restaurant/gucci-osteria-da-massimo-bottura",
+          "cuisine_evidence_url": "https://www.gucciosteria.com/en/florence/menu/",
+          "checked_on": "2026-05-23"
+        }
+      }
+    ],
+    "lounges": [
+      {
+        "slug": "locale-firenze",
+        "name": "Locale Firenze",
+        "address": "Via delle Seggiole 12R, 50122 Firenze, Italy",
+        "neighborhood": "Sant'Ambrogio (Florence)",
+        "wine_program": "Italian fine-wine list curated alongside the bar program, including Tuscan and Piedmontese verticals",
+        "atmosphere": "Renaissance interior of Concini Palace with frescoed ceilings, atrium courtyard and modern cocktail bar",
+        "opens_until": "02:00",
+        "tip": "The Foglia signature cocktail uses gin, hemp, mint, basil and lemon; pair it with the small-plates menu before moving to a wine course at the back.",
+        "description": "Cocktail bar inside the 13th-century Palazzo delle Seggiole. Ranked among the World's 50 Best Bars, signature drinks by Fabio Fanni and an Italian fine-wine list.",
+        "editorial_score": 4.8,
+        "verified": {
+          "source_url": "https://www.localefirenze.it/",
+          "address_quoted": "Via delle Seggiole, 12r",
+          "open_status": "open",
+          "open_evidence_url": "https://www.theworlds50best.com/bars/the-list/locale-firenze.html",
+          "cuisine_evidence_url": "https://www.destinationflorence.com/en/details/5119-LOCALE",
+          "checked_on": "2026-05-23"
+        }
+      },
+      {
+        "slug": "atrium-bar-four-seasons-firenze",
+        "name": "Atrium Bar, Four Seasons Hotel Firenze",
+        "address": "Borgo Pinti 99, 50121 Firenze, Italy",
+        "neighborhood": "San Marco (Florence)",
+        "wine_program": "Champagne list including Krug Grande Cuvee, plus a curated Italian fine-wine selection",
+        "atmosphere": "Ground-floor lounge in a 16th-century palazzo opening onto an 11-acre private garden",
+        "opens_until": "01:00",
+        "tip": "Reserve Champagne Afternoon Tea (75 euros) earlier in the day and stay through dusk for cocktails in the garden.",
+        "description": "Cocktail lounge in the Four Seasons Florence with a private 11-acre garden. Head mixologist Edoardo Sandri, Krug-Grande-Cuvee Champagne list, set afternoon tea service.",
+        "editorial_score": 4.6,
+        "verified": {
+          "source_url": "https://www.fourseasons.com/florence/dining/lounges/atrium_bar/",
+          "address_quoted": "Borgo Pinti 99",
+          "open_status": "open",
+          "open_evidence_url": "https://www.theworlds50best.com/discovery/Establishments/Italy/Florence/Atrium-Bar.html",
+          "cuisine_evidence_url": "https://www.firenzemadeintuscany.com/en/place/atrium-bar-e-lounge/",
+          "checked_on": "2026-05-23"
+        }
+      },
+      {
+        "slug": "manifattura-firenze",
+        "name": "Manifattura",
+        "address": "Piazza di San Pancrazio 1R, 50123 Firenze, Italy",
+        "neighborhood": "Strozzi (Florence)",
+        "wine_program": "Italian-only spirits and aperitivo bottlings; small wine list of Tuscan and Piedmontese pours",
+        "atmosphere": "1950s retro Italian lounge with potted-herb walls, lacquered Tuscan wood tabletops and tied-suit service",
+        "opens_until": "01:00",
+        "tip": "All-Italian rule means no London-style gin cocktails; ask the bar team for an amaro flight or a vermouth pairing instead.",
+        "description": "All-Italian cocktail bar from 2017 on Piazza San Pancrazio, vintage Italian bitters, vermouth and amari plus seasonal Bellini-style prosecco drinks.",
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://flawless.life/en/italy/florence/manifattura",
+          "address_quoted": "Piazza di San Pancrazio 1R",
+          "open_status": "open",
+          "open_evidence_url": "https://thecuriousappetite.com/2017/07/13/manifattura-new-italian-cocktail-bar-in-florence/",
+          "cuisine_evidence_url": "https://onthesauceagain.com/2024/03/19/visiting-manifattura-cocktail-bar-in-florence/",
+          "checked_on": "2026-05-23"
+        }
+      }
+    ],
+    "fortified_specialists": [
+      {
+        "slug": "procacci-firenze",
+        "name": "Procacci 1885",
+        "address": "Via de' Tornabuoni 64R, 50123 Firenze, Italy",
+        "neighborhood": "Tornabuoni (Florence)",
+        "wine_program": "Antinori bottles from across the family's Tuscany and Umbria estates, including Castello della Sala fortified-style passito and dessert pours",
+        "specialty_fortified": ["Vin Santo del Chianti Classico", "Castello della Sala Muffato della Sala"],
+        "opens_until": "21:00",
+        "tip": "Order the truffle-butter panini with a flute of Prosecco or a Muffato della Sala; the Art Nouveau walnut shelving has been on this corner since 1885.",
+        "description": "Founded 1885 by Leopoldo Procacci and run by Marchesi Antinori since 1998. Truffle-butter tramezzini paired with Antinori sparkling and sweet pours on Via Tornabuoni.",
+        "editorial_score": 4.7,
+        "verified": {
+          "source_url": "https://www.antinori.it/en/experience/procacci-florence/",
+          "address_quoted": "Via de' Tornabuoni",
+          "open_status": "open",
+          "open_evidence_url": "https://procacci1885.it/en/florence-wine-and-truffles/",
+          "cuisine_evidence_url": "https://www.enprimeurclub.com/bars/procacci-1885-florence-bar",
+          "checked_on": "2026-05-23"
+        }
+      },
+      {
+        "slug": "obsequium-firenze",
+        "name": "Obsequium",
+        "address": "Borgo San Jacopo 17/39, 50125 Firenze, Italy",
+        "neighborhood": "Ponte Vecchio (Florence)",
+        "wine_program": "Around 1,000 Italian and Tuscan labels with strong Vin Santo and grappa selections; tastings paired with cured meats and pecorino",
+        "specialty_fortified": ["Vin Santo del Chianti Classico Riserva", "Castello di Volpaia Vin Santo", "Avignonesi Vin Santo Occhio di Pernice"],
+        "opens_until": "20:00",
+        "tip": "Ask the Capecchi family to taste a Vin Santo flight including the Avignonesi Occhio di Pernice, one of Tuscany's longest-aged Vin Santo bottlings.",
+        "description": "Borgo San Jacopo wine shop and tasting room steps from Ponte Vecchio, 1,000-plus-bottle Italian list with one of Florence's deepest Vin Santo and grappa cellars.",
+        "editorial_score": 4.6,
+        "verified": {
+          "source_url": "https://www.obsequium.it/",
+          "address_quoted": "Borgo San Jacopo n. 17/39",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Vin_Santo",
+          "cuisine_evidence_url": "https://www.firenzemadeintuscany.com/en/shopping/wine/",
+          "checked_on": "2026-05-23"
+        }
+      }
+    ],
+    "late_tastings": [
+      {
+        "slug": "enoteca-alessi",
+        "name": "Enoteca Alessi (Wine Bar e Spirits)",
+        "address": "Via delle Oche 27/29/31R, 50122 Firenze, Italy",
+        "neighborhood": "Duomo (Florence)",
+        "wine_program": "Over 2,500 Italian labels with a dedicated Tuscan room; tasting bar serving wines by the glass with charcuterie and pecorino plates",
+        "format": "Walk-in tasting bar, scheduled regular tastings by booking through the family's Facebook page",
+        "opens_until": "22:00",
+        "tip": "The two Alessi addresses on Via delle Oche split shop and tasting bar; the 33r spirits-and-wine bar room runs latest.",
+        "description": "Alessi family wine shop on Via delle Oche since 1952. The 33R room hosts the wine-and-spirits tasting bar with a Tuscan-focused room from a 2,500-label cellar.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://www.enotecaalessi.it/",
+          "address_quoted": "Via delle Oche 27/29/31R",
+          "open_status": "open",
+          "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g187895-d26873890-Reviews-Enoteca_Alessi_dal_1952-Florence_Tuscany.html",
+          "cuisine_evidence_url": "https://www.elizabethminchilli.com/2017/05/enoteca-alessi-florence/",
+          "checked_on": "2026-05-23"
+        }
+      },
+      {
+        "slug": "enoteca-italiana-siena",
+        "name": "Enoteca Italiana",
+        "address": "Piazza Libertà 1, Fortezza Medicea, 53100 Siena, Italy",
+        "neighborhood": "Siena",
+        "wine_program": "National wine library covering every Italian region; rotating tasting selections and themed evenings",
+        "format": "Evening tastings, themed flights and library bottles available by the glass inside the Medici fortress",
+        "opens_until": "01:00",
+        "tip": "Tour the underground brick vaults below the bar where the wine library is stored; tasting flights are pre-bookable through the Enoteca team.",
+        "description": "Italy's national wine library since 1960, inside the Fortezza Medicea in Siena. National-scope cellar with Tuscan focus and a panoramic walking-rampart bar.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://en.wikipedia.org/wiki/Fortezza_Medicea",
+          "address_quoted": "Fortezza Medicea, Siena",
+          "open_status": "open",
+          "open_evidence_url": "https://wanderlog.com/list/geoCategory/6543/best-bars-and-drinks-in-siena",
+          "cuisine_evidence_url": "http://www.tourism-siena.com/nightlife-in-siena.html",
+          "checked_on": "2026-05-23"
+        }
+      },
+      {
+        "slug": "sapordivino-grand-hotel-continental-siena",
+        "name": "SaporDivino at Grand Hotel Continental Siena",
+        "address": "Via Banchi di Sopra 85, 53100 Siena, Italy",
+        "neighborhood": "Siena",
+        "wine_program": "Curated Tuscan flight programme paired with cured meats and Sienese cheeses, with thematic Brunello and Chianti Classico nights",
+        "format": "Hotel wine cellar tastings, reservation only",
+        "opens_until": "23:00",
+        "tip": "Stay for the late session and book the in-cellar dinner; the wine cellar is dug into the 15th-century palazzo basement.",
+        "description": "Tasting cellar of the Grand Hotel Continental Siena on Via Banchi di Sopra. Reserved Tuscan flights, hosted Sienese cheese pairings inside a 15th-century palazzo vault.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://collezione.starhotels.com/en/our-hotels/grand-hotel-continental-siena/dining/enoteca-sapordivino.html",
+          "address_quoted": "Via Banchi di Sopra, 85",
+          "open_status": "open",
+          "open_evidence_url": "https://toscanasecrets.com/en/luxury/wine-cellar-by-sapordivino-siena/",
+          "cuisine_evidence_url": "https://collezione.starhotels.com/en/our-hotels/grand-hotel-continental-siena/dining/",
+          "checked_on": "2026-05-23"
+        }
+      },
+      {
+        "slug": "morbidi-siena",
+        "name": "Gastronomia Morbidi",
+        "address": "Via Banchi di Sopra 75, 53100 Siena, Italy",
+        "neighborhood": "Siena",
+        "wine_program": "Tuscan-leaning by-the-glass programme, with Brunello, Chianti Classico Gran Selezione and Vernaccia di San Gimignano on rotation",
+        "format": "Wine-bar counter inside a historic Siena gourmet grocer since 1925",
+        "opens_until": "00:00",
+        "tip": "The basement is an underground wine-cellar tasting room; ask for a Brunello flight after dinner.",
+        "description": "Sienese institution since 1925 with a basement wine cellar pouring Brunello, Chianti Classico and Vernaccia by the glass alongside truffle and pecorino plates.",
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://www.morbidi.com/",
+          "address_quoted": "Via Banchi di Sopra, 75",
+          "open_status": "open",
+          "open_evidence_url": "https://wanderlog.com/list/geoCategory/6543/best-bars-and-drinks-in-siena",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Siena",
+          "checked_on": "2026-05-23"
+        }
+      }
+    ],
+    "sparkling_rooms": [
+      {
+        "slug": "antinori-procacci-bollicine",
+        "name": "Procacci 1885 Bollicine Bar",
+        "address": "Via de' Tornabuoni 64R, 50123 Firenze, Italy",
+        "neighborhood": "Tornabuoni (Florence)",
+        "wine_program": "Antinori-house sparkling flights including Cuvee Royale (Conte della Vipera) and Antinori metodo classico from the Tuscany and Umbria estates",
+        "specialty_sparkling": ["Antinori metodo classico", "Castello della Sala Cuvee Royale", "Tenuta di Capezzana metodo classico Carmignano"],
+        "opens_until": "21:00",
+        "tip": "Order a flute of metodo classico with the truffle tramezzino combo; the Antinori sparkling list is the bar's anchor offering.",
+        "description": "Procacci's bar program leans heavily on Antinori sparkling flights paired with truffled small bites. The shortest, oldest Champagne-style program in Florence.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://www.antinori.it/en/experience/procacci-florence/",
+          "address_quoted": "Via de' Tornabuoni",
+          "open_status": "open",
+          "open_evidence_url": "https://procacci1885.it/en/florence-wine-and-truffles/",
+          "cuisine_evidence_url": "https://www.elizabethminchilli.com/2013/04/procacci-florence/",
+          "checked_on": "2026-05-23"
+        }
+      },
+      {
+        "slug": "atrium-bar-champagne",
+        "name": "Atrium Bar Champagne Salon",
+        "address": "Borgo Pinti 99, 50121 Firenze, Italy",
+        "neighborhood": "San Marco (Florence)",
+        "wine_program": "Champagne-led list including Krug Grande Cuvée, Bollinger, Ruinart and Italian metodo classico from Tuscany and Trentino",
+        "specialty_sparkling": ["Krug Grande Cuvee", "Bellavista Franciacorta", "Tenuta di Capezzana Carmignano metodo classico"],
+        "opens_until": "01:00",
+        "tip": "Champagne Afternoon Tea is the daytime ritual at 75 euros; in the evening the same list is poured by the flute in the lounge.",
+        "description": "Champagne corner of the Four Seasons Atrium Bar, with a marquee Krug Grande Cuvee listing alongside Italian metodo classico bottles from Capezzana and Bellavista.",
+        "editorial_score": 4.6,
+        "verified": {
+          "source_url": "https://www.fourseasons.com/florence/dining/lounges/atrium_bar/",
+          "address_quoted": "Borgo Pinti 99",
+          "open_status": "open",
+          "open_evidence_url": "https://reportergourmet.com/en/wine-reporter/887-atrium-bar-liquid-magic-the-drink-list-that-s-creating-a-stir-in-florence",
+          "cuisine_evidence_url": "https://bownsbest.com/atriumloungefourseasons2.html",
+          "checked_on": "2026-05-23"
+        }
+      },
+      {
+        "slug": "capezzana-villa-tasting-prato",
+        "name": "Tenuta di Capezzana Villa Tasting",
+        "address": "Via Capezzana 100, 59015 Carmignano, Prato, Italy",
+        "neighborhood": "Carmignano",
+        "wine_program": "Capezzana metodo classico from the Carmignano estate, paired with the estate's Chianti, Carmignano DOCG reds and Vin Santo",
+        "specialty_sparkling": ["Capezzana metodo classico Carmignano", "Capezzana Pinot Bianco Brut"],
+        "opens_until": "21:00 by booking",
+        "tip": "Combine the Capezzana Carmignano tasting with the Vin Santo riserva flight; both are estate signatures.",
+        "description": "Bonacossi family villa above Carmignano, the 1716 Cosimo III appellation. Estate-only metodo classico tasting paired with Carmignano DOCG reds and 10-year Vin Santo.",
+        "editorial_score": 4.6,
+        "verified": {
+          "source_url": "https://www.capezzana.it/",
+          "address_quoted": "Via Capezzana 100, Carmignano",
+          "open_status": "open",
+          "open_evidence_url": "https://www.fabriziopratesi.it/en/carmignano/",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Carmignano_DOCG",
+          "checked_on": "2026-05-23"
+        }
+      }
+    ]
   }
 }

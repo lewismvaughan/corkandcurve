@@ -288,6 +288,13 @@
       "country_slug": "france"
     },
     {
+      "slug": "bolgheri",
+      "display": "Bolgheri",
+      "region_slug": "tuscany",
+      "region_name": "Tuscany",
+      "country_slug": "italy"
+    },
+    {
       "slug": "bolgheri-doc",
       "display": "Bolgheri DOC",
       "region_slug": "tuscany",
@@ -302,7 +309,21 @@
       "country_slug": "italy"
     },
     {
+      "slug": "brunello-di-montalcino",
+      "display": "Brunello di Montalcino",
+      "region_slug": "tuscany",
+      "region_name": "Tuscany",
+      "country_slug": "italy"
+    },
+    {
       "slug": "brunello-di-montalcino-docg",
+      "display": "Brunello di Montalcino DOCG",
+      "region_slug": "tuscany",
+      "region_name": "Tuscany",
+      "country_slug": "italy"
+    },
+    {
+      "slug": "brunello-di-montalcino-docg-castelnuovo-dell-abate",
       "display": "Brunello di Montalcino DOCG",
       "region_slug": "tuscany",
       "region_name": "Tuscany",
@@ -316,6 +337,13 @@
       "country_slug": "italy"
     },
     {
+      "slug": "carmignano",
+      "display": "Carmignano",
+      "region_slug": "tuscany",
+      "region_name": "Tuscany",
+      "country_slug": "italy"
+    },
+    {
       "slug": "carmignano-docg",
       "display": "Carmignano DOCG",
       "region_slug": "tuscany",
@@ -323,8 +351,50 @@
       "country_slug": "italy"
     },
     {
+      "slug": "centro-storico-florence",
+      "display": "Centro Storico, Florence",
+      "region_slug": "tuscany",
+      "region_name": "Tuscany",
+      "country_slug": "italy"
+    },
+    {
+      "slug": "chianti-classico",
+      "display": "Chianti Classico",
+      "region_slug": "tuscany",
+      "region_name": "Tuscany",
+      "country_slug": "italy"
+    },
+    {
+      "slug": "chianti-classico-castelnuovo-berardenga",
+      "display": "Chianti Classico",
+      "region_slug": "tuscany",
+      "region_name": "Tuscany",
+      "country_slug": "italy"
+    },
+    {
       "slug": "chianti-classico-docg",
       "display": "Chianti Classico DOCG",
+      "region_slug": "tuscany",
+      "region_name": "Tuscany",
+      "country_slug": "italy"
+    },
+    {
+      "slug": "chianti-classico-docg-castellina-in-chianti",
+      "display": "Chianti Classico DOCG",
+      "region_slug": "tuscany",
+      "region_name": "Tuscany",
+      "country_slug": "italy"
+    },
+    {
+      "slug": "chianti-classico-greve",
+      "display": "Chianti Classico",
+      "region_slug": "tuscany",
+      "region_name": "Tuscany",
+      "country_slug": "italy"
+    },
+    {
+      "slug": "chianti-classico-radda",
+      "display": "Chianti Classico",
       "region_slug": "tuscany",
       "region_name": "Tuscany",
       "country_slug": "italy"
@@ -344,8 +414,50 @@
       "country_slug": "italy"
     },
     {
+      "slug": "florence",
+      "display": "Florence",
+      "region_slug": "tuscany",
+      "region_name": "Tuscany",
+      "country_slug": "italy"
+    },
+    {
+      "slug": "greve-in-chianti",
+      "display": "Greve in Chianti",
+      "region_slug": "tuscany",
+      "region_name": "Tuscany",
+      "country_slug": "italy"
+    },
+    {
+      "slug": "italy-delivery-service",
+      "display": "Italy delivery service",
+      "region_slug": "tuscany",
+      "region_name": "Tuscany",
+      "country_slug": "italy"
+    },
+    {
+      "slug": "lucca-historic-centre",
+      "display": "Lucca historic centre",
+      "region_slug": "tuscany",
+      "region_name": "Tuscany",
+      "country_slug": "italy"
+    },
+    {
+      "slug": "maremma",
+      "display": "Maremma",
+      "region_slug": "tuscany",
+      "region_name": "Tuscany",
+      "country_slug": "italy"
+    },
+    {
       "slug": "maremma-toscana-doc",
       "display": "Maremma Toscana DOC",
+      "region_slug": "tuscany",
+      "region_name": "Tuscany",
+      "country_slug": "italy"
+    },
+    {
+      "slug": "morellino-di-scansano",
+      "display": "Morellino di Scansano",
       "region_slug": "tuscany",
       "region_name": "Tuscany",
       "country_slug": "italy"
@@ -358,8 +470,92 @@
       "country_slug": "italy"
     },
     {
+      "slug": "oltrarno-florence",
+      "display": "Oltrarno, Florence",
+      "region_slug": "tuscany",
+      "region_name": "Tuscany",
+      "country_slug": "italy"
+    },
+    {
+      "slug": "panzano-in-chianti",
+      "display": "Panzano in Chianti",
+      "region_slug": "tuscany",
+      "region_name": "Tuscany",
+      "country_slug": "italy"
+    },
+    {
       "slug": "pomino-doc",
       "display": "Pomino DOC",
+      "region_slug": "tuscany",
+      "region_name": "Tuscany",
+      "country_slug": "italy"
+    },
+    {
+      "slug": "ponte-vecchio-florence",
+      "display": "Ponte Vecchio, Florence",
+      "region_slug": "tuscany",
+      "region_name": "Tuscany",
+      "country_slug": "italy"
+    },
+    {
+      "slug": "region-wide",
+      "display": "Region-wide",
+      "region_slug": "tuscany",
+      "region_name": "Tuscany",
+      "country_slug": "italy"
+    },
+    {
+      "slug": "san-frediano-florence",
+      "display": "San Frediano, Florence",
+      "region_slug": "tuscany",
+      "region_name": "Tuscany",
+      "country_slug": "italy"
+    },
+    {
+      "slug": "san-lorenzo-florence",
+      "display": "San Lorenzo, Florence",
+      "region_slug": "tuscany",
+      "region_name": "Tuscany",
+      "country_slug": "italy"
+    },
+    {
+      "slug": "san-miniato",
+      "display": "San Miniato",
+      "region_slug": "tuscany",
+      "region_name": "Tuscany",
+      "country_slug": "italy"
+    },
+    {
+      "slug": "san-niccolo-florence",
+      "display": "San Niccolo, Florence",
+      "region_slug": "tuscany",
+      "region_name": "Tuscany",
+      "country_slug": "italy"
+    },
+    {
+      "slug": "sant-ambrogio-florence",
+      "display": "Sant'Ambrogio, Florence",
+      "region_slug": "tuscany",
+      "region_name": "Tuscany",
+      "country_slug": "italy"
+    },
+    {
+      "slug": "santa-croce-florence",
+      "display": "Santa Croce, Florence",
+      "region_slug": "tuscany",
+      "region_name": "Tuscany",
+      "country_slug": "italy"
+    },
+    {
+      "slug": "santo-spirito-florence",
+      "display": "Santo Spirito, Florence",
+      "region_slug": "tuscany",
+      "region_name": "Tuscany",
+      "country_slug": "italy"
+    },
+    {
+      "slug": "siena-historic-centre",
+      "display": "Siena historic centre",
       "region_slug": "tuscany",
       "region_name": "Tuscany",
       "country_slug": "italy"
@@ -372,8 +568,64 @@
       "country_slug": "italy"
     },
     {
+      "slug": "toscana-igt-radda-in-chianti",
+      "display": "Toscana IGT",
+      "region_slug": "tuscany",
+      "region_name": "Tuscany",
+      "country_slug": "italy"
+    },
+    {
+      "slug": "val-d-arno-di-sopra-doc-mercatale-valdarno",
+      "display": "Val d'Arno di Sopra DOC",
+      "region_slug": "tuscany",
+      "region_name": "Tuscany",
+      "country_slug": "italy"
+    },
+    {
+      "slug": "val-d-elsa",
+      "display": "Val d'Elsa",
+      "region_slug": "tuscany",
+      "region_name": "Tuscany",
+      "country_slug": "italy"
+    },
+    {
+      "slug": "valdarno",
+      "display": "Valdarno",
+      "region_slug": "tuscany",
+      "region_name": "Tuscany",
+      "country_slug": "italy"
+    },
+    {
+      "slug": "valdera",
+      "display": "Valdera",
+      "region_slug": "tuscany",
+      "region_name": "Tuscany",
+      "country_slug": "italy"
+    },
+    {
+      "slug": "vernaccia-di-san-gimignano",
+      "display": "Vernaccia di San Gimignano",
+      "region_slug": "tuscany",
+      "region_name": "Tuscany",
+      "country_slug": "italy"
+    },
+    {
       "slug": "vernaccia-di-san-gimignano-docg",
       "display": "Vernaccia di San Gimignano DOCG",
+      "region_slug": "tuscany",
+      "region_name": "Tuscany",
+      "country_slug": "italy"
+    },
+    {
+      "slug": "vernaccia-di-san-gimignano-docg-pancole",
+      "display": "Vernaccia di San Gimignano DOCG",
+      "region_slug": "tuscany",
+      "region_name": "Tuscany",
+      "country_slug": "italy"
+    },
+    {
+      "slug": "vino-nobile-di-montepulciano",
+      "display": "Vino Nobile di Montepulciano",
       "region_slug": "tuscany",
       "region_name": "Tuscany",
       "country_slug": "italy"

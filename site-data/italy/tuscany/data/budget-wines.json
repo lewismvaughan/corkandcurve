@@ -1,3 +1,208 @@
 {
-  "budget_wines": []
+  "budget_wines": [
+    {
+      "slug": "castello-di-volpaia-chianti-classico",
+      "name": "Castello di Volpaia Chianti Classico DOCG",
+      "producer": "castello-di-volpaia",
+      "varietals": ["Sangiovese", "Merlot", "Petit Verdot"],
+      "classification": "Chianti Classico DOCG",
+      "price_band": "€18-22 retail",
+      "where_to_buy": "Direct at Castello di Volpaia, Volpaia village, Radda in Chianti; also distributed widely in Italy and the United States.",
+      "description": "High-elevation Radda annata from the medieval Volpaia village. Cool-site Sangiovese gives mountain-Chianti lift and red-cherry-and-violet poise for under twenty euros at the cellar door.",
+      "tip": "The 18-euro at-cellar price for the latest annata is one of the best deals in Chianti Classico; order a case before leaving the village.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.volpaia.com/en/i-vini/chianti-classico-d-o-c-g/",
+        "address_quoted": "Volpaia",
+        "open_status": "open",
+        "open_evidence_url": "https://www.mykindofitaly.com/post/affordable-chianti-classico",
+        "cuisine_evidence_url": "https://www.chianticlassico.com/en/members/castello-di-volpaia/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "felsina-berardenga-chianti-classico",
+      "name": "Felsina Berardenga Chianti Classico DOCG",
+      "producer": "felsina",
+      "varietals": ["Sangiovese"],
+      "classification": "Chianti Classico DOCG",
+      "price_band": "€20-24 retail",
+      "where_to_buy": "Felsina cellar door at Castelnuovo Berardenga; widely distributed in Italian wine shops and US importers (Domaine Select).",
+      "description": "Felsina's entry-level Berardenga from the warm southern edge of Chianti Classico. Pure Sangiovese, dense plum-and-leather profile, the most reliable benchmark annata in the appellation.",
+      "tip": "Always stable in style across vintages; great choice when shopping a Tuscan wine shop without scoring guidance.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.felsina.it/en/wine/berardenga-chianti-classico/",
+        "address_quoted": "Castelnuovo Berardenga",
+        "open_status": "open",
+        "open_evidence_url": "https://www.mykindofitaly.com/post/affordable-chianti-classico",
+        "cuisine_evidence_url": "https://www.chianticlassico.com/en/members/felsina/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "fontodi-chianti-classico",
+      "name": "Fontodi Chianti Classico DOCG",
+      "producer": "fontodi",
+      "varietals": ["Sangiovese"],
+      "classification": "Chianti Classico DOCG",
+      "price_band": "€22-25 retail",
+      "where_to_buy": "Fontodi cellar at Panzano in Chianti; via Italian wine retailers and US importers.",
+      "description": "Fontodi entry-level annata from Conca d'Oro in Panzano, certified organic since 2008. 100 percent Sangiovese, concentrated dark cherry and mineral, and one of the most consistently over-delivering values in the appellation.",
+      "tip": "Best value Conca d'Oro Sangiovese in the under-25 band; cellar five years to taste it at its best.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.fontodi.com/wine/chianti-classico-docg/?lang=en",
+        "address_quoted": "Panzano in Chianti",
+        "open_status": "open",
+        "open_evidence_url": "https://binendswine.com/products/fontodi-chianti-classico-docg-tuscany-italy-2020-750ml",
+        "cuisine_evidence_url": "https://www.chianticlassico.com/en/members/fontodi/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "selvapiana-chianti-rufina-annata",
+      "name": "Selvapiana Chianti Rufina DOCG",
+      "producer": "selvapiana",
+      "varietals": ["Sangiovese"],
+      "classification": "Chianti Rufina DOCG",
+      "price_band": "€16-20 retail",
+      "where_to_buy": "Selvapiana cellar at Pontassieve; widely available in Italian wine retailers.",
+      "description": "Certified-organic Sangiovese from the cool Sieve valley east of Florence. Pencil-shaving aromatics and a high-acid spine give Rufina its longevity reputation, all for under twenty euros.",
+      "tip": "Rufina ages longer than most Chianti annate; lay one down for three to five years for a softer mid-palate.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.selvapiana.it/en/wines/chianti-rufina/",
+        "address_quoted": "Pontassieve",
+        "open_status": "open",
+        "open_evidence_url": "https://www.consorziochiantirufina.com/en/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Chianti_R%C3%B9fina",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "panizzi-vernaccia-di-san-gimignano-annata",
+      "name": "Panizzi Vernaccia di San Gimignano DOCG",
+      "producer": "panizzi",
+      "varietals": ["Vernaccia di San Gimignano"],
+      "classification": "Vernaccia di San Gimignano DOCG",
+      "price_band": "€12-15 retail",
+      "where_to_buy": "Panizzi cellar in Santa Margherita, San Gimignano; broad Italian wine-shop distribution.",
+      "description": "The Panizzi reference Vernaccia bottling pours bitter-almond, citrus pith and saline notes. The benchmark producer of Tuscany only DOCG white, often under fifteen euros retail.",
+      "tip": "Drink it young and chilled with fritto misto di mare; the Riserva (around 20 euros) rewards two to three years of cellar.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.panizzi.it/en/our-wines/vernaccia-di-san-gimignano-docg/",
+        "address_quoted": "San Gimignano",
+        "open_status": "open",
+        "open_evidence_url": "https://vernaccia.it/en/the-consortium/mission/",
+        "cuisine_evidence_url": "https://www.decanter.com/sponsored/panizzi-vernaccia-di-san-gimignano-an-enduring-dream-512803/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "le-pupille-morellino-di-scansano",
+      "name": "Le Pupille Morellino di Scansano DOCG",
+      "producer": "le-pupille",
+      "varietals": ["Sangiovese", "Alicante", "Malvasia Nera"],
+      "classification": "Morellino di Scansano DOCG",
+      "price_band": "€14-18 retail",
+      "where_to_buy": "Le Pupille cellar at Istia d'Ombrone, Maremma; widely available in Italian retail and US import.",
+      "description": "Elisabetta Geppetti reference Morellino. Sangiovese-led but generous and warm in the Maremma idiom: dark plum, Mediterranean herb and soft tannin for under twenty euros.",
+      "tip": "Earlier-drinking than Chianti Classico annata; serve with grilled cinta senese pork or wild boar pappardelle.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.elisabettageppetti.com/en/wines/morellino-di-scansano-docg/",
+        "address_quoted": "Istia d'Ombrone",
+        "open_status": "open",
+        "open_evidence_url": "https://www.consorziomorellino.it/en/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Morellino_di_Scansano",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "moris-farms-morellino-di-scansano",
+      "name": "Moris Farms Morellino di Scansano DOCG",
+      "producer": "moris-farms",
+      "varietals": ["Sangiovese", "Syrah", "Merlot"],
+      "classification": "Morellino di Scansano DOCG",
+      "price_band": "€13-17 retail",
+      "where_to_buy": "Moris Farms cellar at Massa Marittima; Italian wine retailers and superiore.de.",
+      "description": "Parentini family Morellino, with a Sangiovese-led blend that captures the coastal Mediterranean Maremma character. Forward fruit, soft tannin, sub-twenty-euro price band.",
+      "tip": "A textbook Maremma Sangiovese for dinner with rosemary lamb or pappa al pomodoro.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://morisfarms.it/en/2164023/morellino-di-scansano-classico",
+        "address_quoted": "Massa Marittima",
+        "open_status": "open",
+        "open_evidence_url": "https://www.consorziomorellino.it/en/",
+        "cuisine_evidence_url": "https://www.superiore.de/en/wine/tuscany-maremma/morisfarms/morellino-di-scansano-docg-2022.html",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "castello-banfi-centine-toscana",
+      "name": "Castello Banfi Centine Toscana IGT",
+      "producer": "banfi",
+      "varietals": [
+        {"grape": "Sangiovese", "pct": 60},
+        {"grape": "Cabernet Sauvignon", "pct": 20},
+        {"grape": "Merlot", "pct": 20}
+      ],
+      "classification": "Toscana IGT",
+      "price_band": "€10-14 retail",
+      "where_to_buy": "Castello Banfi enoteca at Sant'Angelo Scalo, Montalcino; broad Italian retail and US Banfi distribution.",
+      "description": "Castello Banfi entry-level IGT, named after a 19th-century farmhouse on the Montalcino estate. Sangiovese-Cabernet-Merlot blend made for everyday drinking at around twelve to thirteen euros.",
+      "tip": "True under-15-euro Tuscan wine that punches above its weight on weeknight pasta with red sauce.",
+      "editorial_score": 4.1,
+      "verified": {
+        "source_url": "https://banfiusa.com/italy/centine-toscana-igt/",
+        "address_quoted": "Montalcino",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wine-searcher.com/find/castello+banfi+centine+tuscany+igp+italy",
+        "cuisine_evidence_url": "https://www.banfi.it/en/wines/centine-rosso-toscana-igt/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "rocca-delle-macie-chianti-classico",
+      "name": "Rocca delle Macie Famiglia Zingarelli Chianti Classico DOCG",
+      "producer": "rocca-delle-macie",
+      "varietals": ["Sangiovese", "Cabernet Sauvignon", "Merlot"],
+      "classification": "Chianti Classico DOCG",
+      "price_band": "€14-18 retail",
+      "where_to_buy": "Rocca delle Macie cellar at Castellina in Chianti; broad Italian retail distribution.",
+      "description": "Castellina-based Zingarelli family blend pouring under twenty euros at most Italian retailers. A reliable Chianti Classico annata template: Sangiovese fruit, light international wood polish, ready to drink.",
+      "tip": "Available in most Tuscan supermarkets; pair with cinghiale-sauce pappardelle on weeknights.",
+      "editorial_score": 4.0,
+      "verified": {
+        "source_url": "https://www.roccadellemacie.com/en/wines/chianti-classico-docg/",
+        "address_quoted": "Castellina in Chianti",
+        "open_status": "open",
+        "open_evidence_url": "https://www.chianticlassico.com/en/members/rocca-delle-macie/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Chianti_Classico",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "cesani-vernaccia-di-san-gimignano",
+      "name": "Cesani Vernaccia di San Gimignano DOCG",
+      "producer": "cesani",
+      "varietals": ["Vernaccia di San Gimignano"],
+      "classification": "Vernaccia di San Gimignano DOCG",
+      "price_band": "€11-15 retail",
+      "where_to_buy": "Cesani cellar at Pancole, San Gimignano; small but reliable Italian distribution.",
+      "description": "Family-run Cesani estate has bottled Vernaccia since 1980. Saline, lemon-zest annata that pours at the cellar for around twelve euros, a textbook Tuscan white at budget.",
+      "tip": "Cellar visits at Pancole pair the Vernaccia with the estate's organic olive oil and chickpea pasta.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.agricolacesani.com/en/wines/vernaccia-di-san-gimignano/",
+        "address_quoted": "Pancole",
+        "open_status": "open",
+        "open_evidence_url": "https://vernaccia.it/en/the-consortium/mission/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Vernaccia_di_San_Gimignano",
+        "checked_on": "2026-05-23"
+      }
+    }
+  ]
 }

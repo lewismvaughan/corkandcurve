@@ -1,3 +1,204 @@
 {
-  "wine_experiences": []
+  "wine_experiences": [
+    {
+      "slug": "helicopter-chianti-fly-to-wine",
+      "name": "Chianti Helicopter Wine Tour Fly to Wine",
+      "address": "Via XX Settembre 25, 50129 Firenze, Italy",
+      "neighborhood": "Centro Storico, Florence",
+      "description": "Helicopter departing Florence overflies the Chianti and Vernaccia vineyards before landing at Tenuta Torciano in San Gimignano. Three-hour winery experience with lunch then helicopter return; total programme around six hours.",
+      "duration": "6 hours including flight, winery and lunch",
+      "price_range": "EUR 850-1100 per person",
+      "group_size": "2-4 passengers",
+      "booking_url": "https://www.flytowine.com/helicopter-wine-tour-tuscany/",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.flytowine.com/helicopter-wine-tour-tuscany/",
+        "address_quoted": "Florence",
+        "open_status": "open",
+        "open_evidence_url": "https://www.viator.com/tours/Florence/Helicopter-Exclusive-VIP-Wine-Tour-in-Tuscany-Fly-To-Wine-in-a-birds-eye-view/d519-47680P179",
+        "cuisine_evidence_url": "https://www.flytowine.com/helicopterexperience/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "blending-workshop-antinori",
+      "name": "Blending Workshop at Antinori nel Chianti Classico",
+      "address": "Via Cassia per Siena 133, Loc. Bargino, 50026 San Casciano in Val di Pesa, Italy",
+      "neighborhood": "Chianti Classico",
+      "description": "Hands-on blending workshop at the Antinori nel Chianti Classico cellars in Bargino, guided by the winemaking team. Participants blend Sangiovese, Cabernet Sauvignon, Cabernet Franc and Merlot vat samples; bottle their blend on-site.",
+      "duration": "3 hours",
+      "price_range": "EUR 130 per person",
+      "group_size": "4-12 participants",
+      "booking_url": "https://www.antinori.it/en/experience/antinori-nel-chianti-classico-tailor-made-private-experiences/",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.antinori.it/en/experience/antinori-nel-chianti-classico-tailor-made-private-experiences/",
+        "address_quoted": "Via Cassia per Siena, 133, Loc. Bargino, 50026 San Casciano Val di Pesa",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g652039-d4419171-Reviews-Antinori_nel_Chianti_Classico-San_Casciano_in_Val_di_Pesa_Tuscany.html",
+        "cuisine_evidence_url": "https://www.antinori.it/en/experience/antinori-nel-chianti-classico-the-tinaia-tour/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "truffle-hunting-wine-tasting-san-miniato",
+      "name": "Truffle Hunting and Chianti Classico Wine Tasting",
+      "address": "Centro Visitatori Tartufo, Via Augusto Conti 26, 56028 San Miniato, Italy",
+      "neighborhood": "San Miniato",
+      "description": "Half-day truffle hunt in San Miniato (source of nearly 80 percent of the world's white truffle) followed by a structured tasting at a Chianti Classico producer. Truffle lunch in the hunter's farmhouse between the two halves.",
+      "duration": "8 hours including truffle hunt, lunch and winery tasting",
+      "price_range": "EUR 280-380 per person",
+      "group_size": "2-12 participants",
+      "booking_url": "https://www.italyandwine.net/private-Wine-tour/truffle-and-wine-tour",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.italyandwine.net/truffle-hunting-wine-tasting-tour",
+        "address_quoted": "San Miniato",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/AttractionProductReview-g187895-d16810240-Truffle_Hunting_Experience_with_Lunch_in_San_Miniato_Florence_Tuscany.html",
+        "cuisine_evidence_url": "https://www.truffleintuscany.com/eng-04-truffle-hunting-wine-tasting-truffles-pairing-food-wines-chianti-sangiovese-san-miniato.html",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "harvest-experience-castiglion-del-bosco",
+      "name": "Brunello Harvest Experience at Castiglion del Bosco",
+      "address": "Localita Castiglion del Bosco, 53024 Montalcino, Italy",
+      "neighborhood": "Brunello di Montalcino",
+      "description": "Multi-day Brunello harvest participation programme at Rosewood Castiglion del Bosco. Guests join the cellar team for manual sorting, fermentation cellar work, and daily pairing dinners with vintners; September-October only.",
+      "duration": "3-7 days seasonal (September-October)",
+      "price_range": "EUR 450-650 per person per day, full board",
+      "group_size": "2-8 participants",
+      "booking_url": "https://www.rosewoodhotels.com/en/castiglion-del-bosco/experiences/food-and-wine/castiglion-del-bosco-winery-experiences",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.rosewoodhotels.com/en/castiglion-del-bosco/experiences/food-and-wine/castiglion-del-bosco-winery-experiences",
+        "address_quoted": "Castiglion del Bosco",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Hotel_Review-g635634-d1147343-Reviews-Castiglion_del_Bosco_A_Rosewood_Hotel-Montalcino_Tuscany.html",
+        "cuisine_evidence_url": "https://m.rosewoodhotels.com/en/castiglion-del-bosco/experiences/winery",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "vespa-chianti-wine-day-florence",
+      "name": "Self-Drive Vespa Chianti Wine Day from Florence",
+      "address": "Via dei Lamberti 1, 50123 Firenze, Italy",
+      "neighborhood": "Centro Storico, Florence",
+      "description": "Florencetown's flagship full-day Vespa wine tour. Minivan transfer to a Chianti winery, Vespa training, then up to seven hours of self-drive riding through cypress-lined backroads with two winery stops and full Tuscan lunch.",
+      "duration": "9 hours including transfers, Vespa training, lunch and tastings",
+      "price_range": "EUR 165-220 per rider",
+      "group_size": "4-12 riders",
+      "booking_url": "https://florencetown.com/en/florence-tuscany/tuscany-chianti-vespa-tour",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://florencetown.com/en/florence-tuscany/tuscany-chianti-vespa-tour",
+        "address_quoted": "Florence",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g187895-d2702701-Reviews-Tuscany_Vespa_Tours-Florence_Tuscany.html",
+        "cuisine_evidence_url": "https://maddysavenue.com/riding-vespas-through-tuscany/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "castello-banfi-wine-pairing-lunch",
+      "name": "Castello Banfi Cellar Tour and Pairing Lunch",
+      "address": "Castello di Poggio alle Mura 1, 53024 Montalcino, Italy",
+      "neighborhood": "Brunello di Montalcino",
+      "description": "Guided cellar tour at Castello Banfi covering the historic Brunello vineyards plus a four-course pairing lunch at the Taverna Banfi restaurant. Includes the Bottle and Glass Museum and Banfi estate library Brunello vertical.",
+      "duration": "4 hours including tour and lunch",
+      "price_range": "EUR 110-180 per person",
+      "group_size": "2-12 participants",
+      "booking_url": "https://www.banfi.it/eng/tasting-tours/",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.banfi.it/eng/tasting-tours/",
+        "address_quoted": "Castello di Poggio alle Mura, 1, Montalcino, Italy 53024",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g635634-d195461-Reviews-Castello_Banfi_L_Enoteca-Montalcino_Tuscany.html",
+        "cuisine_evidence_url": "https://www.banfi.it/eng/wine-and-food-tour-in-tuscany-castello-banfi-wine-resort/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "capezzana-vin-santo-experience",
+      "name": "Capezzana Vin Santo Vinsantaia Experience",
+      "address": "Via Capezzana 100, 59015 Carmignano, Italy",
+      "neighborhood": "Carmignano",
+      "description": "Visit to the Vinsantaia at Tenuta di Capezzana to see Vin Santo di Carmignano DOC production: grape drying lofts and chestnut caratelli. Includes vertical tasting across multiple Vin Santo vintages with Trebbiano-San Colombano blend.",
+      "duration": "2.5 hours",
+      "price_range": "EUR 65 per person",
+      "group_size": "2-10 participants",
+      "booking_url": "https://capezzana.it/en/experience/wine-tasting-in-tuscany/",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://capezzana.it/en/experience/wine-experience-tuscany-capezzana/",
+        "address_quoted": "Via Capezzana 100, Carmignano",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g644273-d2531462-Reviews-Tenuta_di_Capezzana-Carmignano_Province_of_Prato_Tuscany.html",
+        "cuisine_evidence_url": "https://capezzana.it/en/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "bolgheri-cypress-cycling-wine-tour",
+      "name": "Bolgheri Cypress Avenue Cycling and Wine Tour",
+      "address": "Via Lauretta 5, 57020 Bolgheri, Italy",
+      "neighborhood": "Bolgheri",
+      "description": "Half-day guided cycling tour along the iconic 5km cypress avenue from Bolgheri village down to San Guido, passing the Sassicaia vineyards. Two winery stops including a Bolgheri DOC producer with tasting and lunch.",
+      "duration": "5 hours including cycling, two cellar visits and lunch",
+      "price_range": "EUR 165-220 per person",
+      "group_size": "2-10 riders",
+      "booking_url": "https://www.bolgheridoc.com/en/",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.bolgheridoc.com/en/",
+        "address_quoted": "Bolgheri",
+        "open_status": "open",
+        "open_evidence_url": "https://www.theitalyedit.com/bolgheri-wineries/",
+        "cuisine_evidence_url": "http://www.notordinaryways.com/tuscany-tours/bolgheri-wine-tours.htm",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "candlelit-cellar-dinner-castello-banfi",
+      "name": "Candlelit Cellar Dinner at Castello Banfi",
+      "address": "Castello di Poggio alle Mura 1, 53024 Montalcino, Italy",
+      "neighborhood": "Brunello di Montalcino",
+      "description": "Private dinner in the historic Banfi barrel cellar, available to Il Borgo hotel guests and private groups. Five-course Tuscan menu paired with Banfi Brunello di Montalcino across three vintages plus Poggio alle Mura Riserva.",
+      "duration": "3.5 hours",
+      "price_range": "EUR 220-320 per person",
+      "group_size": "8-30 participants",
+      "booking_url": "https://www.banfi.it/eng/hospitality/",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.banfi.it/eng/hotel-il-borgo/",
+        "address_quoted": "Castello di Poggio alle Mura, 1, Montalcino, Italy 53024",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Hotel_Review-g635634-d648286-Reviews-Castello_Banfi_Il_Borgo-Montalcino_Tuscany.html",
+        "cuisine_evidence_url": "https://www.banfi.it/eng/tasting-tours/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "verrazzano-tour-lunch-greve",
+      "name": "Castello di Verrazzano Tour and Lunch",
+      "address": "Via Citille 32, 50022 Greve in Chianti, Italy",
+      "neighborhood": "Chianti Classico",
+      "description": "Guided tour of the historic Verrazzano gardens and cellars in Greve, followed by tasting of four organic estate wines plus Vin Santo and a full Tuscan farm-table lunch with estate produce.",
+      "duration": "4 hours including tour, tasting and lunch",
+      "price_range": "EUR 75-110 per person",
+      "group_size": "4-20 participants",
+      "booking_url": "https://www.verrazzano.com/en/guided-tours/",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.verrazzano.com/en/guided-tours/",
+        "address_quoted": "Via Citille 32, Greve in Chianti",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g580240-d195906-Reviews-Castello_Di_Verrazzano-Greve_in_Chianti_Tuscany.html",
+        "cuisine_evidence_url": "https://card.chianticlassico.com/en/experiences/guided-tour-with-tasting-and-lunch---castello-di-verrazzano",
+        "checked_on": "2026-05-23"
+      }
+    }
+  ]
 }

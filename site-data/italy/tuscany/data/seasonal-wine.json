@@ -1,3 +1,232 @@
 {
-  "seasonal_wine": []
+  "seasonal_wine": [
+    {
+      "slug": "chianti-classico-collection-mid-february",
+      "name": "Chianti Classico Collection, mid February",
+      "season": "Winter",
+      "month": "February",
+      "recurrence_pattern": "annual, second or third week of February",
+      "description": "The Chianti Classico Consortium gathers more than 200 producers at Stazione Leopolda in Florence to pour the latest vintage of annata, Riserva and Gran Selezione across two days. The opening day is trade-only, the second opens to the public.",
+      "what_to_taste": ["Chianti Classico annata", "Chianti Classico Riserva", "Chianti Classico Gran Selezione"],
+      "tip": "Public day sells out in advance once tickets release in January; consortium members and press get priority access on day one.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.chianticlassico.com/en/event/chianti-classico-collection-2026-2/",
+        "address_quoted": "Stazione Leopolda, Florence",
+        "open_status": "open",
+        "open_evidence_url": "https://www.feelflorence.it/en/events/chianti-classico-collection-2026",
+        "cuisine_evidence_url": "https://www.stazione-leopolda.com/it/evento.308/chianti-classico-collection",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "anteprima-vernaccia-mid-february",
+      "name": "Anteprima della Vernaccia di San Gimignano, mid February",
+      "season": "Winter",
+      "month": "February",
+      "recurrence_pattern": "annual, mid February",
+      "description": "Inside the Museo Civico in the heart of San Gimignano, the Consorzio della Vernaccia presents the newest DOCG vintage to press, trade and consumers. Tuscany's only DOCG white opens the Anteprime week.",
+      "what_to_taste": ["Vernaccia di San Gimignano DOCG", "Vernaccia di San Gimignano Riserva"],
+      "tip": "Pair the tasting with a climb up the Torre Grossa for a panoramic view of the vine-laced hills that produced the wines in the glass.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://vernaccia.it/en/the-consortium/mission/",
+        "address_quoted": "San Gimignano",
+        "open_status": "open",
+        "open_evidence_url": "https://www.discovertuscany.com/itineraries-in-tuscany/strada-del-vino/vernaccia-of-san-gimignano.html",
+        "cuisine_evidence_url": "https://liz-palmer.com/anteprima-della-vernaccia-di-san-gimignano-discovering-a-truly-unique-wine-in-tuscany-the-white-queen-in-a-land-of-red-kings-filippo-magnani/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "anteprima-vino-nobile-mid-february",
+      "name": "Anteprima del Vino Nobile di Montepulciano, mid February",
+      "season": "Winter",
+      "month": "February",
+      "recurrence_pattern": "annual, third weekend of February",
+      "description": "Inside the Fortezza di Montepulciano the Consorzio del Vino Nobile presents the new annata, the Riserva and the recently introduced Pieve tier. The 2026 edition brought a record 57 producers; the wine show is preceded by a press-only stars-of-the-vintage ceremony.",
+      "what_to_taste": ["Vino Nobile di Montepulciano DOCG", "Vino Nobile Riserva", "Vino Nobile Pieve"],
+      "tip": "The new Pieve sub-zone tier debuted in 2024 and ages 36 months minimum from estate fruit; ask producers to pour Pieve alongside annata to taste the village contrast.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://anteprimavinonobile.it/en/home-eng/",
+        "address_quoted": "Fortezza di Montepulciano",
+        "open_status": "open",
+        "open_evidence_url": "https://www.consorziovinonobile.it/anteprima-vino-nobile-dal-22-al-23-febbraio-57-aziende-in-vetrina/",
+        "cuisine_evidence_url": "https://www.comune.montepulciano.si.it/vivere-il-comune/eventi/anteprima-del-vino-nobile-di-montepulciano/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "benvenuto-brunello-late-february",
+      "name": "Benvenuto Brunello, late February",
+      "season": "Winter",
+      "month": "February",
+      "recurrence_pattern": "annual, last week of February",
+      "description": "The Consorzio del Vino Brunello di Montalcino fills the cloisters of Sant'Agostino and the Montalcino fortress with the new five-year-aged Brunello, the Riserva and the freshly released Rosso. A press five-star ceremony assigns a vintage rating before the public days.",
+      "what_to_taste": ["Brunello di Montalcino DOCG", "Brunello di Montalcino Riserva", "Rosso di Montalcino DOC"],
+      "tip": "Book accommodation in Sant'Antimo or Sant'Angelo in Colle to avoid a sold-out Montalcino centre and to be close to the producer cellar visits surrounding the official tasting.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.benvenutobrunello.com/en/",
+        "address_quoted": "Montalcino",
+        "open_status": "open",
+        "open_evidence_url": "https://www.consorziobrunellodimontalcino.it/en/home/home",
+        "cuisine_evidence_url": "https://www.prnewswire.com/news-releases/rising-demand-for-brunello-di-montalcino-in-the-united-states-sets-the-stage-for-benvenuto-brunello-2026-302693928.html",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "anteprima-bolgheri-en-primeur-late-spring",
+      "name": "Bolgheri en primeur, late spring",
+      "season": "Spring",
+      "month": "May",
+      "recurrence_pattern": "annual, May",
+      "description": "The Consorzio Bolgheri pours the new Bolgheri DOC reds and Sassicaia bottlings under barrel-sample conditions for international press. Tenuta San Guido, Ornellaia, Le Macchiole and Grattamacco anchor the show along the Strada del Vino Costa degli Etruschi.",
+      "what_to_taste": ["Bolgheri Rosso DOC", "Bolgheri Superiore DOC", "Bolgheri Sassicaia DOC"],
+      "tip": "Trade-only on most days; consumers can mirror the tasting by booking estate visits via the Strada del Vino Costa degli Etruschi office in Castagneto Carducci.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.bolgheridoc.com/en/",
+        "address_quoted": "Bolgheri",
+        "open_status": "open",
+        "open_evidence_url": "https://www.bolgheridoc.com/en/bolgheri-di-vino-en/",
+        "cuisine_evidence_url": "https://www.terredelmarchesato.com/en/news-en/bolgheri-divino-is-back-the-event-that-celebrates-the-bolgheri-terroir/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "cantine-aperte-last-sunday-may",
+      "name": "Cantine Aperte, last weekend of May",
+      "season": "Spring",
+      "month": "May",
+      "recurrence_pattern": "annual, last weekend of May",
+      "description": "Movimento Turismo del Vino Toscana opens around 200 member estates across the region on the last weekend of May for cellar visits, paired meals, vineyard hikes and harvest-equipment demos. The 2026 edition runs 30 and 31 May.",
+      "what_to_taste": ["Chianti Classico cellar pours", "Brunello di Montalcino estate flights", "Maremma natural wine"],
+      "tip": "Many estates open without booking but the top ten Brunello cellars usually require a confirmed slot; check Movimento Turismo del Vino's regional listings two weeks ahead.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://movimentoturismovino.it/cantine-aperte-movimento/",
+        "address_quoted": "Italia",
+        "open_status": "open",
+        "open_evidence_url": "https://www.visittuscany.com/en/events/cantine-aperte/",
+        "cuisine_evidence_url": "https://horecanews.it/cantine-aperte-2026-torna-il-30-e-31-maggio-con-nuove-esperienze-nelle-cantine-italiane",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "calici-di-stelle-around-10-august",
+      "name": "Calici di Stelle, around 10 August",
+      "season": "Summer",
+      "month": "August",
+      "recurrence_pattern": "annual, late July to mid August",
+      "description": "Movimento Turismo del Vino Toscana hosts vineyard tastings under the Perseid meteor shower on the Night of San Lorenzo (10 August), with estate dinners, telescopes and live music. The 2025 edition spanned 25 July to 24 August across the region's wineries.",
+      "what_to_taste": ["Chianti Classico under stars", "Vernaccia di San Gimignano summer pours", "Maremma rose"],
+      "tip": "Vinci, Montalcino and Castelfalfi run the largest open-air programs; bring a flashlight and a wool wrap, the hills get cool after midnight.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.visittuscany.com/en/events/calici-di-stelle-tuscany/",
+        "address_quoted": "Tuscany",
+        "open_status": "open",
+        "open_evidence_url": "https://movimentoturismovino.it/eventi/",
+        "cuisine_evidence_url": "https://www.intoscana.it/it/enogastronomia/articolo/Un-selfie-per-i-wine-lovers-br-Agosto-di-degustazioni-stellari",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "vendemmia-bolgheri-coast-late-august",
+      "name": "Vendemmia on the Bolgheri coast, late August to early September",
+      "season": "Summer",
+      "month": "August",
+      "recurrence_pattern": "annual, late August into early September",
+      "description": "Harvest opens on the Tyrrhenian gravels of Bolgheri with whites first (Vermentino, Sauvignon Blanc), then Merlot from the warmest blocks. Tenuta San Guido, Ornellaia, Masseto and Le Macchiole all begin around the same Bordeaux-grape window.",
+      "what_to_taste": ["Last-year-vintage Bolgheri whites", "Cellar-fresh barrel samples on private visits"],
+      "tip": "Late-August Bolgheri visits give the highest chance of seeing pickers in the rows; midweek visits avoid the August Italian holiday crush.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.bolgheridoc.com/en/wines/",
+        "address_quoted": "Bolgheri",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tenutasanguido.com/en/history",
+        "cuisine_evidence_url": "https://www.decanter.com/wine-news/opinion/news-blogs-anson/tasting-sassicaia-top-vintages-346796/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "bolgheri-divino-early-september",
+      "name": "Bolgheri DiVino, early September",
+      "season": "Late summer",
+      "month": "September",
+      "recurrence_pattern": "annual, first week of September",
+      "description": "On the eve of the Bordeaux-grape harvest the Consorzio Bolgheri stages Bolgheri DiVino at the Castello della Gherardesca and Frantoio of Casa Carducci, opening a walk-around tasting of all consortium producers plus a thousand-seat dinner on the cypress-lined Viale dei Cipressi.",
+      "what_to_taste": ["Bolgheri Rosso DOC", "Bolgheri Superiore DOC", "Sassicaia barrel samples"],
+      "tip": "The Cena dei Mille on Viale dei Cipressi sells out months in advance; tickets release via the Consorzio Bolgheri site each spring.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.bolgheridoc.com/en/bolgheri-di-vino-en/",
+        "address_quoted": "Castagneto Carducci",
+        "open_status": "open",
+        "open_evidence_url": "https://www.terredelmarchesato.com/en/news-en/bolgheri-divino-is-back-the-event-that-celebrates-the-bolgheri-terroir/",
+        "cuisine_evidence_url": "https://cucineditalia.com/en/bolgheri-divino-2024-tuscan-wine-events/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "vendemmia-chianti-classico-mid-september",
+      "name": "Vendemmia in Chianti Classico, mid September to early October",
+      "season": "Autumn",
+      "month": "September",
+      "recurrence_pattern": "annual, mid September to early October",
+      "description": "Sangiovese harvest swings across Chianti Classico from south (Castelnuovo Berardenga) to north (Greve, Rufina, Montefioralle) as altitudes rise. Castello di Ama, Felsina, Fontodi and Isole e Olena typically pick in this window.",
+      "what_to_taste": ["Cellar-side fermentation tastings", "Vintage prelude flights at member estates"],
+      "tip": "Most Gallo Nero estates accept harvest visitors by appointment; pair the cellar visit with a vineyard lunch to see crushed must in the open vats.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.chianticlassico.com/en/territory/the-territory/",
+        "address_quoted": "Chianti Classico",
+        "open_status": "open",
+        "open_evidence_url": "https://www.chianticlassico.com/en/100-years/timeline/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Chianti_Classico",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "vendemmia-montalcino-late-september",
+      "name": "Vendemmia in Montalcino, late September to mid October",
+      "season": "Autumn",
+      "month": "September",
+      "recurrence_pattern": "annual, late September to mid October",
+      "description": "Montalcino Sangiovese (locally Brunello) starts later than Chianti Classico thanks to higher altitudes; northern slopes (Montosoli, Torrenieri) finish first, southern Sant'Angelo and Castelnuovo dell'Abate later. The Rosso di Montalcino fruit precedes the Brunello blocks.",
+      "what_to_taste": ["Rosso di Montalcino fermentation samples", "Brunello barrel samples one year prior to release"],
+      "tip": "Producers like Il Poggione, Casanova di Neri and Mastrojanni host harvest lunches; ask about the lieu-dit-by-lieu-dit picking calendar to understand the altitude ladder.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.consorziobrunellodimontalcino.it/en/the-territory",
+        "address_quoted": "Montalcino",
+        "open_status": "open",
+        "open_evidence_url": "https://www.consorziobrunellodimontalcino.it/en/home/home",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Brunello_di_Montalcino",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "vino-al-vino-panzano-mid-september",
+      "name": "Vino al Vino, Panzano, mid September",
+      "season": "Autumn",
+      "month": "September",
+      "recurrence_pattern": "annual, third weekend of September",
+      "description": "Since 1995 the Unione Viticoltori di Panzano gathers 23 producers in Piazza Bucciarelli, the medieval village square, for a four-day tasting of more than 80 wines. The 2026 edition runs 18 to 20 September.",
+      "what_to_taste": ["Chianti Classico Panzano UGA", "Conca d'Oro single-village bottlings", "Sangiovese-led IGT Toscana"],
+      "tip": "Each producer pours their own bottle range from a stall; buy the tasting glass at the entrance and walk the square clockwise to taste alphabetically.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://viticoltoripanzano.com/en/vino-al-vino/",
+        "address_quoted": "Piazza Bucciarelli, Panzano in Chianti",
+        "open_status": "open",
+        "open_evidence_url": "https://www.visitchianti.net/vino-al-vino/?lang=en",
+        "cuisine_evidence_url": "https://www.ninainchianti.com/en/winefestivals-tastings/vino-al-vino-2025",
+        "checked_on": "2026-05-23"
+      }
+    }
+  ]
 }

@@ -193,13 +193,22 @@ def _index_city(entries: list, country: str, region: str | None) -> None:
             varietals = e.get("varietals") or e.get("varietals_focus") or []
             if isinstance(varietals, str):
                 varietals = [varietals]
+            # normalize: cuvée entries store [{grape, pct}]; vineyards store ["Sangiovese", ...]
+            _norm_varietals: list[str] = []
+            for _item in varietals:
+                if isinstance(_item, str):
+                    _norm_varietals.append(_item)
+                elif isinstance(_item, dict):
+                    _g = _item.get("grape") or _item.get("name") or _item.get("varietal")
+                    if _g and isinstance(_g, str):
+                        _norm_varietals.append(_g)
             entries.append(_entry(
                 "entity", name, f"{base}{topic_slug}/{e['slug']}/",
                 subtitle=subtitle,
                 country=country, city=city_slug,
                 extra_tokens=[
                     e.get("classification", ""), e.get("neighborhood", ""),
-                    *varietals, topic_slug, e["slug"],
+                    *_norm_varietals, topic_slug, e["slug"],
                 ],
             ))
 

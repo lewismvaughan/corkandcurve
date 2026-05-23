@@ -228,7 +228,16 @@ def collect_all() -> dict:
                 varietals = v.get("varietals") or v.get("varietals_focus") or []
                 if isinstance(varietals, str):
                     varietals = [varietals]
-                for varietal in varietals:
+                # normalize: cuvée entries store [{grape, pct}]; vineyards store ["Sangiovese", ...]
+                norm_varietals: list[str] = []
+                for _item in varietals:
+                    if isinstance(_item, str):
+                        norm_varietals.append(_item)
+                    elif isinstance(_item, dict):
+                        _g = _item.get("grape") or _item.get("name") or _item.get("varietal")
+                        if _g and isinstance(_g, str):
+                            norm_varietals.append(_g)
+                for varietal in norm_varietals:
                     gslug = slugify(varietal)
                     if not gslug:
                         continue

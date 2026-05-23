@@ -1,3 +1,188 @@
 {
-  "food_pairing": []
+  "food_pairing": [
+    {
+      "slug": "brunello-bistecca-fiorentina",
+      "name": "Brunello di Montalcino with bistecca alla fiorentina",
+      "pairing": "Brunello di Montalcino DOCG with charcoal-grilled bistecca alla fiorentina",
+      "tablejourney_ref": "italy/florence/dish/bistecca-alla-fiorentina",
+      "wine_entities": [
+        "biondi-santi-brunello-di-montalcino",
+        "argiano-brunello-di-montalcino",
+        "il-poggione-brunello-di-montalcino",
+        "casanova-di-neri-tenuta-nuova"
+      ],
+      "description": "Florence's defining wine-and-meat marriage: a thick Chianina T-bone seared over chestnut embers, paired with Brunello's iron-cherry spine and resolved tannins.",
+      "editorial_score": 5.0,
+      "verified": {
+        "source_url": "https://tablejourney.com/italy/florence/dish/bistecca-alla-fiorentina/",
+        "open_status": "open",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "chianti-classico-ribollita",
+      "name": "Chianti Classico with ribollita",
+      "pairing": "Chianti Classico DOCG with ribollita, the Florentine bean-and-bread stew",
+      "tablejourney_ref": "italy/florence/dish/ribollita",
+      "wine_entities": [
+        "fontodi-chianti-classico",
+        "felsina-berardenga-chianti-classico",
+        "isole-e-olena-chianti-classico",
+        "castello-di-volpaia-chianti-classico"
+      ],
+      "description": "Florentine cucina povera meets the regional everyday wine. Chianti Classico's bright Sangiovese acidity refreshes the bean stew's heaviness while its herbal lift ech",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://tablejourney.com/italy/florence/dish/ribollita/",
+        "open_status": "open",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "super-tuscan-trippa-fiorentina",
+      "name": "Super Tuscan with trippa alla fiorentina",
+      "pairing": "Sangiovese-led Super Tuscan with trippa alla fiorentina, Florentine tomato-braised tripe",
+      "tablejourney_ref": "italy/florence/dish/trippa-alla-fiorentina",
+      "wine_entities": [
+        "tignanello",
+        "fontodi-flaccianello-della-pieve",
+        "isole-e-olena-cepparello",
+        "felsina-fontalloro"
+      ],
+      "description": "Florence's offal classic finds a serious partner in Sangiovese-led Super Tuscans. The wine's structured tannin cuts through the long-stewed tripe while its herbal ar",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://tablejourney.com/italy/florence/dish/trippa-alla-fiorentina/",
+        "open_status": "open",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "vin-santo-cantucci",
+      "name": "Vin Santo with cantucci",
+      "pairing": "Vin Santo with cantucci almond biscotti",
+      "tablejourney_ref": "italy/florence/dish/cantucci-vin-santo",
+      "wine_entities": [
+        "avignonesi-occhio-di-pernice",
+        "capezzana-vin-santo-di-carmignano-riserva",
+        "le-fonti-vin-santo"
+      ],
+      "description": "The canonical Tuscan after-dinner ritual: dunk hard almond biscotti into a small glass of Vin Santo. The wine's apricot-and-walnut depth and oxidative rancio meet th",
+      "editorial_score": 5.0,
+      "verified": {
+        "source_url": "https://tablejourney.com/italy/florence/dish/cantucci-vin-santo/",
+        "open_status": "open",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "chianti-crostini-di-fegatini",
+      "name": "Chianti Classico with crostini di fegatini",
+      "pairing": "Chianti Classico with crostini di fegatini, Florentine chicken-liver crostini",
+      "tablejourney_ref": "italy/florence/dish/crostini-di-fegatini",
+      "wine_entities": [
+        "fontodi-chianti-classico",
+        "castello-di-volpaia-chianti-classico",
+        "querciabella-chianti-classico",
+        "riecine-chianti-classico"
+      ],
+      "description": "The aperitivo Tuscan rite. Sour-cherry Sangiovese acidity cuts through chicken-liver fat while the wine's tobacco-and-herb register echoes the capers, anchovies and ",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://tablejourney.com/italy/florence/dish/crostini-di-fegatini/",
+        "open_status": "open",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "vernaccia-lampredotto",
+      "name": "Vernaccia di San Gimignano with lampredotto",
+      "pairing": "Vernaccia di San Gimignano with lampredotto, Florence's tripe street-food sandwich",
+      "tablejourney_ref": "italy/florence/dish/lampredotto",
+      "wine_entities": [
+        "panizzi-vernaccia-di-san-gimignano",
+        "panizzi-riserva-vernaccia-di-san-gimignano"
+      ],
+      "description": "Florence's working-class street-food meets the city's regional white. Vernaccia's almond-and-salt structure refreshes the brothy fourth-stomach sandwich while its hi",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://tablejourney.com/italy/florence/dish/lampredotto/",
+        "open_status": "open",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "rufina-pici-ragu",
+      "name": "Chianti Rufina with pici al ragu",
+      "pairing": "Chianti Rufina DOCG with hand-rolled pici and meat ragu",
+      "tablejourney_ref": "italy/florence/dish/pici",
+      "wine_entities": [
+        "selvapiana-bucerchiale",
+        "selvapiana-chianti-rufina",
+        "nipozzano-chianti-rufina-riserva"
+      ],
+      "description": "Cool-climate Chianti Rufina pairs precisely with hand-rolled pici and slow ragu. The high-altitude Sangiovese's sour-cherry lift refreshes the rich meat sauce while ",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://tablejourney.com/italy/florence/dish/pici/",
+        "open_status": "open",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "bolgheri-rib-eye-regina-bistecca",
+      "name": "Bolgheri Super Tuscan with dry-aged rib-eye",
+      "pairing": "Bolgheri Cabernet-led blend with dry-aged Chianina rib-eye",
+      "tablejourney_ref": "italy/florence/restaurants/regina-bistecca",
+      "wine_entities": [
+        "sassicaia",
+        "ornellaia",
+        "guado-al-tasso",
+        "grattamacco-bolgheri-superiore"
+      ],
+      "description": "Florence's modern steakhouses plate dry-aged Chianina that demands Bolgheri's polished Cabernet weight. Graphite-cedar meets dry-aged beef umami.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://tablejourney.com/italy/florence/restaurants/regina-bistecca/",
+        "open_status": "open",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "morellino-cinghiale-pappardelle",
+      "name": "Morellino di Scansano with wild boar pappardelle",
+      "pairing": "Morellino di Scansano DOCG with pappardelle al cinghiale (wild boar ragu)",
+      "tablejourney_ref": "italy/florence/restaurants/trattoria-mario",
+      "wine_entities": [
+        "le-pupille-morellino-di-scansano",
+        "le-pupille-poggio-valente",
+        "le-pupille-saffredi"
+      ],
+      "description": "Maremma's coastal Sangiovese partners the Tuscan boar that haunts the hillsides above its vineyards. Trattoria Mario plates the canonical Florentine pappardelle al c",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://tablejourney.com/italy/florence/restaurants/trattoria-mario/",
+        "open_status": "open",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "vin-santo-schiacciata",
+      "name": "Late-harvest sweet wine with schiacciata fiorentina",
+      "pairing": "Vin Santo or Pomino Benefizio with schiacciata fiorentina (orange-scented Carnival sweet bread)",
+      "tablejourney_ref": "italy/florence/dish/schiacciata-fiorentina",
+      "wine_entities": [
+        "capezzana-vin-santo-di-carmignano-riserva",
+        "le-fonti-vin-santo",
+        "pomino-benefizio-riserva"
+      ],
+      "description": "Florence's Carnival sweet bread, perfumed with orange and dusted with powdered sugar, leans on Vin Santo. Apricot-honey depth doubles the orange peel.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://tablejourney.com/italy/florence/dish/schiacciata-fiorentina/",
+        "open_status": "open",
+        "checked_on": "2026-05-23"
+      }
+    }
+  ]
 }

@@ -1,3 +1,151 @@
 {
-  "day_trips_wine": []
+  "day_trips_wine": [
+    {
+      "slug": "montefalco-umbria-sagrantino",
+      "name": "Montefalco, Umbria (Sagrantino di Montefalco DOCG)",
+      "distance_km": 180,
+      "travel_time": "2h 15m by car from Siena",
+      "destination_country": "Italy",
+      "destination_region": "Umbria",
+      "signature_pours": ["Sagrantino di Montefalco DOCG", "Montefalco Rosso DOC"],
+      "recommended_vineyards": [],
+      "description": "Montefalco in central Umbria is the home of Sagrantino, one of Italy's most tannin-rich indigenous grapes. DOCG since 1992 in both dry and passito styles. Arnaldo Caprai pioneered the modern revival from 1971; visits to the Caprai cellar and the medieval ramparts of Montefalco make a long but manageable Tuscan day trip.",
+      "tip": "Combine Sagrantino with Sagrantino passito at Caprai for the full ampelographic picture; the dry version's polyphenol count is among the highest in the world.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.arnaldocaprai.it/sagrantino/",
+        "address_quoted": "Montefalco",
+        "open_status": "open",
+        "open_evidence_url": "https://italianwine.guide/regions-en-gb/umbria-en-GB/sagrantino-di-montefalco-docg/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Sagrantino",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "orvieto-umbria-classico",
+      "name": "Orvieto, Umbria (Orvieto Classico DOC)",
+      "distance_km": 130,
+      "travel_time": "1h 30m by car from Florence to Orvieto",
+      "destination_country": "Italy",
+      "destination_region": "Umbria",
+      "signature_pours": ["Orvieto Classico Superiore DOC", "Cervaro della Sala IGT Umbria"],
+      "recommended_vineyards": [],
+      "description": "The volcanic tufa cliffs of Orvieto host one of Italy's oldest white-wine zones, blending Grechetto with Trebbiano (Procanico) over Roman cellars carved into the rock. Antinori's Castello della Sala Cervaro della Sala (Chardonnay-Grechetto IGT Umbria) is one of Italy's most awarded whites.",
+      "tip": "Book a cellar visit at Castello della Sala (a 30-minute drive west of Orvieto town); Antinori shows the contrast between traditional Orvieto Classico and the modern Cervaro.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://italianwinecentral.com/denomination/orvieto-doc/",
+        "address_quoted": "Orvieto",
+        "open_status": "open",
+        "open_evidence_url": "https://www.antinori.it/en/our-territories/castello-della-sala/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Orvieto_DOC",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "lambrusco-modena-emilia-romagna",
+      "name": "Modena, Emilia-Romagna (Lambrusco di Sorbara DOC)",
+      "distance_km": 200,
+      "travel_time": "2h by car from Florence to Modena",
+      "destination_country": "Italy",
+      "destination_region": "Emilia-Romagna",
+      "signature_pours": ["Lambrusco di Sorbara DOC", "Lambrusco Grasparossa di Castelvetro DOC"],
+      "recommended_vineyards": [],
+      "description": "Just over the Apennines from Tuscany lies Modena's Lambrusco country. Lambrusco di Sorbara DOC (north of Modena, between the Secchia and Panaro rivers) is the lightest, most aromatic and most floral of the five Lambrusco DOC zones, made in frizzante and spumante styles.",
+      "tip": "Pair Sorbara with tortelli di zucca and prosciutto from the nearby Parma slopes; small producers like Cleto Chiarli and Cantina della Volta book direct visits.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://italianwinecentral.com/denomination/lambrusco-di-sorbara-doc/",
+        "address_quoted": "Modena",
+        "open_status": "open",
+        "open_evidence_url": "https://wineandtravelitaly.com/wines/lambrusco-di-sorbara-doc/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Lambrusco",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "cinque-terre-liguria-sciacchetra",
+      "name": "Cinque Terre, Liguria (Sciacchetra and Cinque Terre DOC)",
+      "distance_km": 220,
+      "travel_time": "2h 30m by car from Florence to Manarola",
+      "destination_country": "Italy",
+      "destination_region": "Liguria",
+      "signature_pours": ["Cinque Terre DOC (Bosco, Albarola, Vermentino blend)", "Cinque Terre Sciacchetra DOC (passito dessert)"],
+      "recommended_vineyards": [],
+      "description": "The terraced cliffs of Riomaggiore, Manarola, Vernazza and Monterosso make Cinque Terre one of Italy's most heroic vineyards. Sciacchetra is the rare honey-coloured passito dessert wine, dried for up to 40 days on coastal cantinas. Annual production is tiny, often just a few thousand bottles.",
+      "tip": "Hike the Sentiero Azzurro between villages and book a tasting at the Cantina Cinque Terre cooperative or a small producer like Possa or Bisson.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.wanderingliguria.com/articles/13/cinque-terre-the-wines-of-the-cinque-terre-including-vernazza-sciacchetra",
+        "address_quoted": "Cinque Terre",
+        "open_status": "open",
+        "open_evidence_url": "https://cinqueterreriviera.com/sciacchetra-wine-cinque-terre/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Cinque_Terre_DOC",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "verdicchio-marche-jesi",
+      "name": "Castelli di Jesi, Marche (Verdicchio DOCG Riserva)",
+      "distance_km": 240,
+      "travel_time": "2h 45m by car from Florence to Jesi",
+      "destination_country": "Italy",
+      "destination_region": "Marche",
+      "signature_pours": ["Verdicchio dei Castelli di Jesi Classico Superiore DOC", "Castelli di Jesi Verdicchio Riserva DOCG"],
+      "recommended_vineyards": [],
+      "description": "Verdicchio's hill-country home, across the Apennines on the Adriatic side. Castelli di Jesi Verdicchio Riserva was promoted to DOCG in 2010, requiring 18 months minimum ageing. Villa Bucci, Umani Ronchi and La Staffa anchor the producer roster.",
+      "tip": "Pair the structured Riserva with the Marche's brodetto fish stew; the bitter-almond Verdicchio finish is one of Italy's most distinctive white-wine signatures.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.imtdoc.it/verdicchio/index_en.html",
+        "address_quoted": "Jesi",
+        "open_status": "open",
+        "open_evidence_url": "https://italianwinecentral.com/denomination/verdicchio-dei-castelli-di-jesi-doc/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Verdicchio",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "frascati-lazio-superiore",
+      "name": "Frascati, Lazio (Frascati Superiore DOCG)",
+      "distance_km": 280,
+      "travel_time": "3h by car from Florence to Frascati",
+      "destination_country": "Italy",
+      "destination_region": "Lazio",
+      "signature_pours": ["Frascati Superiore DOCG", "Cannellino di Frascati DOCG"],
+      "recommended_vineyards": [],
+      "description": "Thirty minutes by train from Roma Termini, the Castelli Romani volcanic hills produce Italy's most historical white. Frascati Superiore became DOCG in 2011, blending Malvasia di Candia and Malvasia del Lazio with Trebbiano. Roman caves under producers like Castel de Paolis and Poggio Le Volpi host tastings.",
+      "tip": "Frascati makes the most sense as a satellite of a Rome stay; the train from Termini to Frascati takes 20 to 30 minutes with frequent departures.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://italianwinecentral.com/denomination/frascati-superiore-docg/",
+        "address_quoted": "Frascati",
+        "open_status": "open",
+        "open_evidence_url": "https://italianwine.guide/regions-en-gb/lazio-en-GB/frascati-doc-g-en-gb/frascati-superiore-docg-en-gb/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Frascati_DOC",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "emilia-romagna-romagna-sangiovese",
+      "name": "Romagna, Emilia-Romagna (Romagna Sangiovese DOC)",
+      "distance_km": 150,
+      "travel_time": "1h 45m by car from Florence to Forli",
+      "destination_country": "Italy",
+      "destination_region": "Emilia-Romagna",
+      "signature_pours": ["Romagna Sangiovese Superiore DOC", "Romagna Sangiovese Riserva DOC", "Albana di Romagna DOCG"],
+      "recommended_vineyards": [],
+      "description": "The east-Apennine flip side of Tuscany's Sangiovese reaches Romagna across the mountain ridge. Single-village MGAs (Modigliana, Predappio, Bertinoro) showcase a leaner, more vertical Sangiovese; Albana di Romagna was the first white DOCG in Italy, in 1986.",
+      "tip": "Producers like Fattoria Zerbina, Tre Monti and Drei Dona Tenuta La Palazza make the Romagna case persuasively; pair with piadina and squacquerone.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://italianwinecentral.com/denomination/romagna-sangiovese-doc/",
+        "address_quoted": "Romagna",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Romagna_DOC",
+        "cuisine_evidence_url": "https://italianwine.guide/regions-en-gb/emilia-romagna-en-GB/",
+        "checked_on": "2026-05-23"
+      }
+    }
+  ]
 }

@@ -4,8 +4,13 @@
       "slug": "old-world",
       "display": "Old World",
       "axis": "world",
-      "count": 100,
+      "count": 256,
       "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 156
+        },
         {
           "country_slug": "france",
           "region_slug": "bordeaux",
@@ -17,8 +22,13 @@
       "slug": "dry",
       "display": "Dry",
       "axis": "sweetness",
-      "count": 95,
+      "count": 248,
       "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 153
+        },
         {
           "country_slug": "france",
           "region_slug": "bordeaux",
@@ -30,8 +40,13 @@
       "slug": "still-red",
       "display": "Still red",
       "axis": "style",
-      "count": 79,
+      "count": 221,
       "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 142
+        },
         {
           "country_slug": "france",
           "region_slug": "bordeaux",
@@ -40,115 +55,16 @@
       ]
     },
     {
-      "slug": "merlot",
-      "display": "Merlot",
-      "axis": "grape",
-      "count": 78,
-      "regions": [
-        {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
-          "count": 78
-        }
-      ]
-    },
-    {
-      "slug": "pairs-with-red-meat",
-      "display": "Red meat",
-      "axis": "pairing",
-      "count": 69,
-      "regions": [
-        {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
-          "count": 69
-        }
-      ]
-    },
-    {
-      "slug": "cabernet-sauvignon",
-      "display": "Cabernet Sauvignon",
-      "axis": "grape",
-      "count": 63,
-      "regions": [
-        {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
-          "count": 63
-        }
-      ]
-    },
-    {
-      "slug": "cellar-worthy",
-      "display": "Cellar-worthy",
-      "axis": "ageing",
-      "count": 59,
-      "regions": [
-        {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
-          "count": 59
-        }
-      ]
-    },
-    {
-      "slug": "mood-elegant",
-      "display": "Elegant",
-      "axis": "mood",
-      "count": 57,
-      "regions": [
-        {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
-          "count": 57
-        }
-      ]
-    },
-    {
-      "slug": "occasion-special",
-      "display": "Special occasion",
-      "axis": "occasion",
-      "count": 57,
-      "regions": [
-        {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
-          "count": 57
-        }
-      ]
-    },
-    {
-      "slug": "cabernet-franc",
-      "display": "Cabernet Franc",
-      "axis": "grape",
-      "count": 56,
-      "regions": [
-        {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
-          "count": 56
-        }
-      ]
-    },
-    {
-      "slug": "full-body",
-      "display": "Full-bodied",
-      "axis": "body",
-      "count": 55,
-      "regions": [
-        {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
-          "count": 55
-        }
-      ]
-    },
-    {
       "slug": "high-acid",
       "display": "High acidity",
       "axis": "acidity",
-      "count": 53,
+      "count": 209,
       "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 156
+        },
         {
           "country_slug": "france",
           "region_slug": "bordeaux",
@@ -157,15 +73,573 @@
       ]
     },
     {
+      "slug": "pairs-with-red-meat",
+      "display": "Red meat",
+      "axis": "pairing",
+      "count": 198,
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 129
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 69
+        }
+      ]
+    },
+    {
+      "slug": "occasion-special",
+      "display": "Special occasion",
+      "axis": "occasion",
+      "count": 172,
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 115
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 57
+        }
+      ]
+    },
+    {
+      "slug": "full-body",
+      "display": "Full-bodied",
+      "axis": "body",
+      "count": 170,
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 115
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 55
+        }
+      ]
+    },
+    {
+      "slug": "mood-elegant",
+      "display": "Elegant",
+      "axis": "mood",
+      "count": 162,
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 105
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 57
+        }
+      ]
+    },
+    {
+      "slug": "pairs-with-game",
+      "display": "Game",
+      "axis": "pairing",
+      "count": 154,
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 110
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 44
+        }
+      ]
+    },
+    {
+      "slug": "firm-tannin",
+      "display": "Firm tannin",
+      "axis": "tannin",
+      "count": 153,
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 112
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 41
+        }
+      ]
+    },
+    {
       "slug": "occasion-dinner-party",
       "display": "Dinner party",
       "axis": "occasion",
-      "count": 52,
+      "count": 151,
       "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 99
+        },
         {
           "country_slug": "france",
           "region_slug": "bordeaux",
           "count": 52
+        }
+      ]
+    },
+    {
+      "slug": "cellar-worthy",
+      "display": "Cellar-worthy",
+      "axis": "ageing",
+      "count": 148,
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 89
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 59
+        }
+      ]
+    },
+    {
+      "slug": "pairs-with-aged-cheese",
+      "display": "Aged cheese",
+      "axis": "pairing",
+      "count": 126,
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 104
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 22
+        }
+      ]
+    },
+    {
+      "slug": "merlot",
+      "display": "Merlot",
+      "axis": "grape",
+      "count": 122,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 78
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 44
+        }
+      ]
+    },
+    {
+      "slug": "occasion-cellar",
+      "display": "Cellar candidate",
+      "axis": "occasion",
+      "count": 109,
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 67
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 42
+        }
+      ]
+    },
+    {
+      "slug": "cabernet-sauvignon",
+      "display": "Cabernet Sauvignon",
+      "axis": "grape",
+      "count": 101,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 63
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 38
+        }
+      ]
+    },
+    {
+      "slug": "medium-term",
+      "display": "Medium-term ageing",
+      "axis": "ageing",
+      "count": 101,
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 62
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 39
+        }
+      ]
+    },
+    {
+      "slug": "mood-contemplative",
+      "display": "Contemplative",
+      "axis": "mood",
+      "count": 89,
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 51
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 38
+        }
+      ]
+    },
+    {
+      "slug": "price-premium",
+      "display": "Premium (€30-75)",
+      "axis": "price",
+      "count": 89,
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 61
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 28
+        }
+      ]
+    },
+    {
+      "slug": "medium-body",
+      "display": "Medium-bodied",
+      "axis": "body",
+      "count": 85,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 44
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 41
+        }
+      ]
+    },
+    {
+      "slug": "iconic",
+      "display": "Iconic",
+      "axis": "editorial",
+      "count": 82,
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 47
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 35
+        }
+      ]
+    },
+    {
+      "slug": "occasion-weeknight",
+      "display": "Weeknight",
+      "axis": "occasion",
+      "count": 75,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 38
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 37
+        }
+      ]
+    },
+    {
+      "slug": "sangiovese",
+      "display": "Sangiovese",
+      "axis": "grape",
+      "count": 73,
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 73
+        }
+      ]
+    },
+    {
+      "slug": "cabernet-franc",
+      "display": "Cabernet Franc",
+      "axis": "grape",
+      "count": 70,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 56
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 14
+        }
+      ]
+    },
+    {
+      "slug": "pairs-with-poultry",
+      "display": "Poultry",
+      "axis": "pairing",
+      "count": 69,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 38
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 31
+        }
+      ]
+    },
+    {
+      "slug": "mood-easygoing",
+      "display": "Easygoing",
+      "axis": "mood",
+      "count": 64,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 35
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 29
+        }
+      ]
+    },
+    {
+      "slug": "mood-bold",
+      "display": "Bold",
+      "axis": "mood",
+      "count": 62,
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 41
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 21
+        }
+      ]
+    },
+    {
+      "slug": "value-pick",
+      "display": "Value pick",
+      "axis": "editorial",
+      "count": 62,
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 40
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 22
+        }
+      ]
+    },
+    {
+      "slug": "medium-tannin",
+      "display": "Medium tannin",
+      "axis": "tannin",
+      "count": 60,
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 30
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 30
+        }
+      ]
+    },
+    {
+      "slug": "price-fine",
+      "display": "Fine (€75-200)",
+      "axis": "price",
+      "count": 60,
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 35
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 25
+        }
+      ]
+    },
+    {
+      "slug": "mood-savoury",
+      "display": "Savoury",
+      "axis": "mood",
+      "count": 57,
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 46
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 11
+        }
+      ]
+    },
+    {
+      "slug": "pairs-with-charcuterie",
+      "display": "Charcuterie",
+      "axis": "pairing",
+      "count": 56,
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 28
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 28
+        }
+      ]
+    },
+    {
+      "slug": "mood-rustic",
+      "display": "Rustic",
+      "axis": "mood",
+      "count": 55,
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 37
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 18
+        }
+      ]
+    },
+    {
+      "slug": "pairs-with-truffles",
+      "display": "Truffles",
+      "axis": "pairing",
+      "count": 55,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 28
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 27
+        }
+      ]
+    },
+    {
+      "slug": "pairs-with-pasta-red-sauce",
+      "display": "Pasta with red sauce",
+      "axis": "pairing",
+      "count": 51,
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 45
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "slug": "price-trade-up",
+      "display": "Trade-up (€15-30)",
+      "axis": "price",
+      "count": 51,
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 35
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 16
         }
       ]
     },
@@ -183,132 +657,20 @@
       ]
     },
     {
-      "slug": "medium-body",
-      "display": "Medium-bodied",
-      "axis": "body",
-      "count": 44,
-      "regions": [
-        {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
-          "count": 44
-        }
-      ]
-    },
-    {
-      "slug": "pairs-with-game",
-      "display": "Game",
-      "axis": "pairing",
-      "count": 44,
-      "regions": [
-        {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
-          "count": 44
-        }
-      ]
-    },
-    {
-      "slug": "occasion-cellar",
-      "display": "Cellar candidate",
-      "axis": "occasion",
-      "count": 42,
-      "regions": [
-        {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
-          "count": 42
-        }
-      ]
-    },
-    {
-      "slug": "firm-tannin",
-      "display": "Firm tannin",
-      "axis": "tannin",
-      "count": 41,
-      "regions": [
-        {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
-          "count": 41
-        }
-      ]
-    },
-    {
-      "slug": "medium-term",
-      "display": "Medium-term ageing",
-      "axis": "ageing",
-      "count": 39,
-      "regions": [
-        {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
-          "count": 39
-        }
-      ]
-    },
-    {
-      "slug": "mood-contemplative",
-      "display": "Contemplative",
-      "axis": "mood",
-      "count": 38,
-      "regions": [
-        {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
-          "count": 38
-        }
-      ]
-    },
-    {
-      "slug": "occasion-weeknight",
-      "display": "Weeknight",
-      "axis": "occasion",
-      "count": 38,
-      "regions": [
-        {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
-          "count": 38
-        }
-      ]
-    },
-    {
-      "slug": "pairs-with-poultry",
-      "display": "Poultry",
-      "axis": "pairing",
-      "count": 38,
-      "regions": [
-        {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
-          "count": 38
-        }
-      ]
-    },
-    {
-      "slug": "iconic",
-      "display": "Iconic",
+      "slug": "single-vineyard",
+      "display": "Single-vineyard",
       "axis": "editorial",
-      "count": 35,
+      "count": 44,
       "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 35
+        },
         {
           "country_slug": "france",
           "region_slug": "bordeaux",
-          "count": 35
-        }
-      ]
-    },
-    {
-      "slug": "mood-easygoing",
-      "display": "Easygoing",
-      "axis": "mood",
-      "count": 35,
-      "regions": [
-        {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
-          "count": 35
+          "count": 9
         }
       ]
     },
@@ -316,51 +678,17 @@
       "slug": "occasion-gift",
       "display": "Gift",
       "axis": "occasion",
-      "count": 31,
+      "count": 41,
       "regions": [
         {
           "country_slug": "france",
           "region_slug": "bordeaux",
           "count": 31
-        }
-      ]
-    },
-    {
-      "slug": "medium-tannin",
-      "display": "Medium tannin",
-      "axis": "tannin",
-      "count": 30,
-      "regions": [
+        },
         {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
-          "count": 30
-        }
-      ]
-    },
-    {
-      "slug": "pairs-with-charcuterie",
-      "display": "Charcuterie",
-      "axis": "pairing",
-      "count": 28,
-      "regions": [
-        {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
-          "count": 28
-        }
-      ]
-    },
-    {
-      "slug": "pairs-with-truffles",
-      "display": "Truffles",
-      "axis": "pairing",
-      "count": 28,
-      "regions": [
-        {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
-          "count": 28
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 10
         }
       ]
     },
@@ -368,38 +696,151 @@
       "slug": "petit-verdot",
       "display": "Petit Verdot",
       "axis": "grape",
-      "count": 28,
+      "count": 34,
       "regions": [
         {
           "country_slug": "france",
           "region_slug": "bordeaux",
           "count": 28
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 6
         }
       ]
     },
     {
-      "slug": "price-premium",
-      "display": "Premium (€30-75)",
-      "axis": "price",
-      "count": 28,
+      "slug": "super-tuscan",
+      "display": "Super Tuscan",
+      "axis": "editorial",
+      "count": 34,
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 34
+        }
+      ]
+    },
+    {
+      "slug": "pairs-with-mushroom",
+      "display": "Mushroom dishes",
+      "axis": "pairing",
+      "count": 31,
       "regions": [
         {
           "country_slug": "france",
           "region_slug": "bordeaux",
+          "count": 23
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "slug": "sangiovese-grosso",
+      "display": "Sangiovese Grosso",
+      "axis": "grape",
+      "count": 28,
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
           "count": 28
         }
       ]
     },
     {
-      "slug": "price-fine",
-      "display": "Fine (€75-200)",
+      "slug": "pairs-with-white-fish",
+      "display": "White fish",
+      "axis": "pairing",
+      "count": 27,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 16
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 11
+        }
+      ]
+    },
+    {
+      "slug": "still-white",
+      "display": "Still white",
+      "axis": "style",
+      "count": 26,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 16
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 10
+        }
+      ]
+    },
+    {
+      "slug": "cult-wine",
+      "display": "Cult wine",
+      "axis": "editorial",
+      "count": 25,
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 13
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "slug": "price-luxury",
+      "display": "Luxury (€200-500)",
       "axis": "price",
       "count": 25,
       "regions": [
         {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 13
+        },
+        {
           "country_slug": "france",
           "region_slug": "bordeaux",
-          "count": 25
+          "count": 12
+        }
+      ]
+    },
+    {
+      "slug": "hidden-gem",
+      "display": "Hidden gem",
+      "axis": "editorial",
+      "count": 24,
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 17
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 7
         }
       ]
     },
@@ -417,54 +858,20 @@
       ]
     },
     {
-      "slug": "pairs-with-mushroom",
-      "display": "Mushroom dishes",
+      "slug": "pairs-with-shellfish",
+      "display": "Shellfish",
       "axis": "pairing",
       "count": 23,
       "regions": [
         {
           "country_slug": "france",
           "region_slug": "bordeaux",
-          "count": 23
-        }
-      ]
-    },
-    {
-      "slug": "pairs-with-aged-cheese",
-      "display": "Aged cheese",
-      "axis": "pairing",
-      "count": 22,
-      "regions": [
+          "count": 16
+        },
         {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
-          "count": 22
-        }
-      ]
-    },
-    {
-      "slug": "value-pick",
-      "display": "Value pick",
-      "axis": "editorial",
-      "count": 22,
-      "regions": [
-        {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
-          "count": 22
-        }
-      ]
-    },
-    {
-      "slug": "mood-bold",
-      "display": "Bold",
-      "axis": "mood",
-      "count": 21,
-      "regions": [
-        {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
-          "count": 21
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 7
         }
       ]
     },
@@ -472,12 +879,53 @@
       "slug": "sauvignon-blanc",
       "display": "Sauvignon Blanc",
       "axis": "grape",
-      "count": 21,
+      "count": 23,
       "regions": [
         {
           "country_slug": "france",
           "region_slug": "bordeaux",
           "count": 21
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "slug": "mood-refreshing",
+      "display": "Refreshing",
+      "axis": "mood",
+      "count": 22,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 13
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "slug": "pairs-with-pizza",
+      "display": "Pizza",
+      "axis": "pairing",
+      "count": 21,
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 20
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 1
         }
       ]
     },
@@ -495,6 +943,55 @@
       ]
     },
     {
+      "slug": "old-vines",
+      "display": "Old vines",
+      "axis": "editorial",
+      "count": 20,
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 13
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "slug": "pairs-with-soft-cheese",
+      "display": "Soft cheese",
+      "axis": "pairing",
+      "count": 20,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 13
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "slug": "occasion-celebration",
+      "display": "Celebration",
+      "axis": "occasion",
+      "count": 19,
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 19
+        }
+      ]
+    },
+    {
       "slug": "pairs-with-pork",
       "display": "Pork",
       "axis": "pairing",
@@ -504,19 +1001,6 @@
           "country_slug": "france",
           "region_slug": "bordeaux",
           "count": 19
-        }
-      ]
-    },
-    {
-      "slug": "mood-rustic",
-      "display": "Rustic",
-      "axis": "mood",
-      "count": 18,
-      "regions": [
-        {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
-          "count": 18
         }
       ]
     },
@@ -534,54 +1018,33 @@
       ]
     },
     {
-      "slug": "pairs-with-shellfish",
-      "display": "Shellfish",
-      "axis": "pairing",
-      "count": 16,
-      "regions": [
-        {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
-          "count": 16
-        }
-      ]
-    },
-    {
-      "slug": "pairs-with-white-fish",
-      "display": "White fish",
-      "axis": "pairing",
-      "count": 16,
-      "regions": [
-        {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
-          "count": 16
-        }
-      ]
-    },
-    {
-      "slug": "price-trade-up",
-      "display": "Trade-up (€15-30)",
+      "slug": "price-collector",
+      "display": "Collector (€500+)",
       "axis": "price",
-      "count": 16,
+      "count": 17,
       "regions": [
         {
           "country_slug": "france",
           "region_slug": "bordeaux",
-          "count": 16
+          "count": 13
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 4
         }
       ]
     },
     {
-      "slug": "still-white",
-      "display": "Still white",
-      "axis": "style",
-      "count": 16,
+      "slug": "library-release",
+      "display": "Library release",
+      "axis": "editorial",
+      "count": 15,
       "regions": [
         {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
-          "count": 16
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 15
         }
       ]
     },
@@ -599,80 +1062,69 @@
       ]
     },
     {
-      "slug": "mood-refreshing",
-      "display": "Refreshing",
-      "axis": "mood",
-      "count": 13,
-      "regions": [
-        {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
-          "count": 13
-        }
-      ]
-    },
-    {
-      "slug": "pairs-with-soft-cheese",
-      "display": "Soft cheese",
-      "axis": "pairing",
-      "count": 13,
-      "regions": [
-        {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
-          "count": 13
-        }
-      ]
-    },
-    {
-      "slug": "price-collector",
-      "display": "Collector (€500+)",
+      "slug": "price-everyday",
+      "display": "Everyday (under €15)",
       "axis": "price",
+      "count": 14,
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 8
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "slug": "occasion-summer",
+      "display": "Summer drinking",
+      "axis": "occasion",
       "count": 13,
       "regions": [
         {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 7
+        },
+        {
           "country_slug": "france",
           "region_slug": "bordeaux",
-          "count": 13
+          "count": 6
         }
       ]
     },
     {
-      "slug": "cult-wine",
-      "display": "Cult wine",
-      "axis": "editorial",
-      "count": 12,
+      "slug": "occasion-aperitivo",
+      "display": "Aperitivo",
+      "axis": "occasion",
+      "count": 10,
       "regions": [
         {
           "country_slug": "france",
           "region_slug": "bordeaux",
-          "count": 12
+          "count": 6
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 4
         }
       ]
     },
     {
-      "slug": "price-luxury",
-      "display": "Luxury (€200-500)",
-      "axis": "price",
-      "count": 12,
+      "slug": "sangiovese-prugnolo-gentile",
+      "display": "Sangiovese Prugnolo Gentile",
+      "axis": "grape",
+      "count": 10,
       "regions": [
         {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
-          "count": 12
-        }
-      ]
-    },
-    {
-      "slug": "mood-savoury",
-      "display": "Savoury",
-      "axis": "mood",
-      "count": 11,
-      "regions": [
-        {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
-          "count": 11
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 10
         }
       ]
     },
@@ -690,15 +1142,69 @@
       ]
     },
     {
-      "slug": "single-vineyard",
-      "display": "Single-vineyard",
-      "axis": "editorial",
+      "slug": "syrah",
+      "display": "Syrah",
+      "axis": "grape",
       "count": 9,
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "slug": "mood-fruity",
+      "display": "Fruity",
+      "axis": "mood",
+      "count": 8,
       "regions": [
         {
           "country_slug": "france",
           "region_slug": "bordeaux",
-          "count": 9
+          "count": 6
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "slug": "occasion-picnic",
+      "display": "Picnic",
+      "axis": "occasion",
+      "count": 8,
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 6
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "slug": "pairs-with-fruit-desserts",
+      "display": "Fruit desserts",
+      "axis": "pairing",
+      "count": 8,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 5
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 3
         }
       ]
     },
@@ -716,40 +1222,32 @@
       ]
     },
     {
-      "slug": "hidden-gem",
-      "display": "Hidden gem",
-      "axis": "editorial",
+      "slug": "drink-young",
+      "display": "Drink young",
+      "axis": "ageing",
       "count": 7,
       "regions": [
         {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 5
+        },
+        {
           "country_slug": "france",
           "region_slug": "bordeaux",
-          "count": 7
+          "count": 2
         }
       ]
     },
     {
-      "slug": "old-vines",
-      "display": "Old vines",
-      "axis": "editorial",
-      "count": 7,
-      "regions": [
-        {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
-          "count": 7
-        }
-      ]
-    },
-    {
-      "slug": "mood-fruity",
-      "display": "Fruity",
-      "axis": "mood",
+      "slug": "colorino",
+      "display": "Colorino",
+      "axis": "grape",
       "count": 6,
       "regions": [
         {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
+          "country_slug": "italy",
+          "region_slug": "tuscany",
           "count": 6
         }
       ]
@@ -768,28 +1266,20 @@
       ]
     },
     {
-      "slug": "occasion-aperitivo",
-      "display": "Aperitivo",
-      "axis": "occasion",
+      "slug": "pairs-with-aperitif",
+      "display": "Aperitif (no food)",
+      "axis": "pairing",
       "count": 6,
       "regions": [
         {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
-          "count": 6
-        }
-      ]
-    },
-    {
-      "slug": "occasion-summer",
-      "display": "Summer drinking",
-      "axis": "occasion",
-      "count": 6,
-      "regions": [
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 4
+        },
         {
           "country_slug": "france",
           "region_slug": "bordeaux",
-          "count": 6
+          "count": 2
         }
       ]
     },
@@ -807,27 +1297,14 @@
       ]
     },
     {
-      "slug": "pairs-with-pasta-red-sauce",
-      "display": "Pasta with red sauce",
+      "slug": "pairs-with-pasta-cream",
+      "display": "Pasta with cream sauce",
       "axis": "pairing",
       "count": 6,
       "regions": [
         {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
-          "count": 6
-        }
-      ]
-    },
-    {
-      "slug": "price-everyday",
-      "display": "Everyday (under €15)",
-      "axis": "price",
-      "count": 6,
-      "regions": [
-        {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
+          "country_slug": "italy",
+          "region_slug": "tuscany",
           "count": 6
         }
       ]
@@ -885,14 +1362,14 @@
       ]
     },
     {
-      "slug": "pairs-with-fruit-desserts",
-      "display": "Fruit desserts",
-      "axis": "pairing",
+      "slug": "malvasia-nera",
+      "display": "Malvasia Nera",
+      "axis": "grape",
       "count": 5,
       "regions": [
         {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
+          "country_slug": "italy",
+          "region_slug": "tuscany",
           "count": 5
         }
       ]
@@ -911,6 +1388,76 @@
       ]
     },
     {
+      "slug": "canaiolo",
+      "display": "Canaiolo",
+      "axis": "grape",
+      "count": 4,
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "slug": "canaiolo-nero",
+      "display": "Canaiolo Nero",
+      "axis": "grape",
+      "count": 4,
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "slug": "chardonnay",
+      "display": "Chardonnay",
+      "axis": "grape",
+      "count": 4,
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "slug": "field-blend",
+      "display": "Field blend",
+      "axis": "editorial",
+      "count": 4,
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "slug": "garagiste",
+      "display": "Garagiste",
+      "axis": "editorial",
+      "count": 4,
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 3
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 1
+        }
+      ]
+    },
+    {
       "slug": "malbec",
       "display": "Malbec",
       "axis": "grape",
@@ -920,6 +1467,42 @@
           "country_slug": "france",
           "region_slug": "bordeaux",
           "count": 4
+        }
+      ]
+    },
+    {
+      "slug": "occasion-bbq",
+      "display": "BBQ",
+      "axis": "occasion",
+      "count": 4,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 3
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "slug": "pairs-with-chocolate",
+      "display": "Chocolate",
+      "axis": "pairing",
+      "count": 4,
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 3
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 1
         }
       ]
     },
@@ -950,6 +1533,32 @@
       ]
     },
     {
+      "slug": "vernaccia",
+      "display": "Vernaccia",
+      "axis": "grape",
+      "count": 4,
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "slug": "dessert-passito",
+      "display": "Dried-grape (passito / vin santo / Amarone)",
+      "axis": "style",
+      "count": 3,
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 3
+        }
+      ]
+    },
+    {
       "slug": "high-tannin",
       "display": "High tannin",
       "axis": "tannin",
@@ -958,6 +1567,19 @@
         {
           "country_slug": "france",
           "region_slug": "bordeaux",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "slug": "mammolo",
+      "display": "Mammolo",
+      "axis": "grape",
+      "count": 3,
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
           "count": 3
         }
       ]
@@ -989,15 +1611,33 @@
       ]
     },
     {
-      "slug": "occasion-bbq",
-      "display": "BBQ",
-      "axis": "occasion",
+      "slug": "pairs-with-digestif",
+      "display": "Digestif (no food)",
+      "axis": "pairing",
+      "count": 3,
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "slug": "pairs-with-salad",
+      "display": "Salads",
+      "axis": "pairing",
       "count": 3,
       "regions": [
         {
           "country_slug": "france",
           "region_slug": "bordeaux",
-          "count": 3
+          "count": 2
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 1
         }
       ]
     },
@@ -1015,41 +1655,28 @@
       ]
     },
     {
-      "slug": "drink-young",
-      "display": "Drink young",
-      "axis": "ageing",
-      "count": 2,
+      "slug": "pugnitello",
+      "display": "Pugnitello",
+      "axis": "grape",
+      "count": 3,
       "regions": [
         {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
-          "count": 2
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 3
         }
       ]
     },
     {
-      "slug": "occasion-picnic",
-      "display": "Picnic",
-      "axis": "occasion",
-      "count": 2,
+      "slug": "sweet",
+      "display": "Sweet",
+      "axis": "sweetness",
+      "count": 3,
       "regions": [
         {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "slug": "pairs-with-aperitif",
-      "display": "Aperitif (no food)",
-      "axis": "pairing",
-      "count": 2,
-      "regions": [
-        {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
-          "count": 2
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 3
         }
       ]
     },
@@ -1080,15 +1707,20 @@
       ]
     },
     {
-      "slug": "pairs-with-salad",
-      "display": "Salads",
+      "slug": "pairs-with-oily-fish",
+      "display": "Oily fish",
       "axis": "pairing",
       "count": 2,
       "regions": [
         {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 1
+        },
+        {
           "country_slug": "france",
           "region_slug": "bordeaux",
-          "count": 2
+          "count": 1
         }
       ]
     },
@@ -1101,6 +1733,19 @@
         {
           "country_slug": "france",
           "region_slug": "bordeaux",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "slug": "pinot-bianco",
+      "display": "Pinot Bianco",
+      "axis": "grape",
+      "count": 2,
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
           "count": 2
         }
       ]
@@ -1119,6 +1764,32 @@
       ]
     },
     {
+      "slug": "sangiovese-morellino",
+      "display": "Sangiovese Morellino",
+      "axis": "grape",
+      "count": 2,
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "slug": "trebbiano-toscano",
+      "display": "Trebbiano Toscano",
+      "axis": "grape",
+      "count": 2,
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 2
+        }
+      ]
+    },
+    {
       "slug": "vegan",
       "display": "Vegan",
       "axis": "production",
@@ -1132,14 +1803,40 @@
       ]
     },
     {
-      "slug": "garagiste",
-      "display": "Garagiste",
-      "axis": "editorial",
+      "slug": "vermentino",
+      "display": "Vermentino",
+      "axis": "grape",
+      "count": 2,
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "slug": "abrusco",
+      "display": "Abrusco",
+      "axis": "grape",
       "count": 1,
       "regions": [
         {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "slug": "alicante",
+      "display": "Alicante",
+      "axis": "grape",
+      "count": 1,
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
           "count": 1
         }
       ]
@@ -1158,40 +1855,92 @@
       ]
     },
     {
-      "slug": "pairs-with-chocolate",
-      "display": "Chocolate",
-      "axis": "pairing",
+      "slug": "malvasia-bianca-lunga",
+      "display": "Malvasia Bianca Lunga",
+      "axis": "grape",
       "count": 1,
       "regions": [
         {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
+          "country_slug": "italy",
+          "region_slug": "tuscany",
           "count": 1
         }
       ]
     },
     {
-      "slug": "pairs-with-oily-fish",
-      "display": "Oily fish",
-      "axis": "pairing",
+      "slug": "pinot-nero",
+      "display": "Pinot Nero",
+      "axis": "grape",
       "count": 1,
       "regions": [
         {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
+          "country_slug": "italy",
+          "region_slug": "tuscany",
           "count": 1
         }
       ]
     },
     {
-      "slug": "pairs-with-pizza",
-      "display": "Pizza",
-      "axis": "pairing",
+      "slug": "san-colombano",
+      "display": "San Colombano",
+      "axis": "grape",
       "count": 1,
       "regions": [
         {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "slug": "still-rose",
+      "display": "Still rosé",
+      "axis": "style",
+      "count": 1,
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "slug": "teroldego",
+      "display": "Teroldego",
+      "axis": "grape",
+      "count": 1,
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "slug": "traminer",
+      "display": "Traminer",
+      "axis": "grape",
+      "count": 1,
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "slug": "viognier",
+      "display": "Viognier",
+      "axis": "grape",
+      "count": 1,
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
           "count": 1
         }
       ]

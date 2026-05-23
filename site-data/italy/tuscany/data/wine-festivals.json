@@ -1,3 +1,224 @@
 {
-  "wine_festivals": []
+  "wine_festivals": [
+    {
+      "slug": "chianti-classico-collection",
+      "name": "Chianti Classico Collection",
+      "recurrence_pattern": "annual, second or third week of February",
+      "start_month": "February",
+      "duration": "2 days",
+      "host_organization": "Consorzio Vino Chianti Classico",
+      "ticket_required": true,
+      "ticket_url": "https://www.chianticlassico.com/en/event/chianti-classico-collection-2026-2/",
+      "featured_producers": [
+        "marchesi-antinori",
+        "castello-di-ama",
+        "felsina",
+        "fontodi",
+        "isole-e-olena",
+        "castello-di-volpaia"
+      ],
+      "neighborhood": "Florence",
+      "description": "More than 200 Chianti Classico producers pour the new annata, Riserva and Gran Selezione vintages from over 680 labels at Stazione Leopolda in Florence. The opening day is trade-only, the second opens to consumers.",
+      "tip": "Tickets release late January; the consortium prioritises trade and press on day one and consumers on day two.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.chianticlassico.com/en/event/chianti-classico-collection-2026-2/",
+        "address_quoted": "Stazione Leopolda, Florence",
+        "open_status": "open",
+        "open_evidence_url": "https://www.destinationflorence.com/en/details/7883-chianti-classico-collection-2025---stazione-leopolda-florence-calendars",
+        "cuisine_evidence_url": "https://www.cronachedigusto.it/eventi-e-iniziative/chianti-classico-collection-2026-record-di-aziende-alla-leopolda-con-680-etichette/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "anteprima-vernaccia-di-san-gimignano",
+      "name": "Anteprima della Vernaccia di San Gimignano",
+      "recurrence_pattern": "annual, mid February",
+      "start_month": "February",
+      "duration": "2 days",
+      "host_organization": "Consorzio della Vernaccia di San Gimignano",
+      "ticket_required": true,
+      "ticket_url": "https://vernaccia.it/en/the-consortium/mission/",
+      "featured_producers": [
+        "panizzi"
+      ],
+      "neighborhood": "Vernaccia di San Gimignano",
+      "description": "The Consorzio della Vernaccia presents the new vintage of Tuscany sole DOCG white inside the Museo Civico in San Gimignano, with 40-plus producers pouring annata and Riserva.",
+      "tip": "The historical centre of San Gimignano fills quickly on tasting day; reserve a stay in Pancole or the Castagno area five minutes out.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://vernaccia.it/en/the-consortium/mission/",
+        "address_quoted": "San Gimignano",
+        "open_status": "open",
+        "open_evidence_url": "https://www.sangimignano.com/en/what-to-do/food-and-wine/",
+        "cuisine_evidence_url": "https://liz-palmer.com/anteprima-della-vernaccia-di-san-gimignano-discovering-a-truly-unique-wine-in-tuscany-the-white-queen-in-a-land-of-red-kings-filippo-magnani/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "anteprima-vino-nobile-montepulciano",
+      "name": "Anteprima del Vino Nobile di Montepulciano",
+      "recurrence_pattern": "annual, third weekend of February",
+      "start_month": "February",
+      "duration": "2 days plus 2 press days",
+      "host_organization": "Consorzio del Vino Nobile di Montepulciano",
+      "ticket_required": true,
+      "ticket_url": "https://anteprimavinonobile.it/en/how-to-participate/",
+      "featured_producers": [
+        "avignonesi",
+        "boscarelli",
+        "salcheto",
+        "poliziano"
+      ],
+      "neighborhood": "Vino Nobile di Montepulciano",
+      "description": "A record 57 producers pour Vino Nobile annata, Riserva and the newly introduced Pieve sub-zone tier inside the Fortezza di Montepulciano. Two press days precede the public tasting and assign vintage stars.",
+      "tip": "Combine the Anteprima with a walk through the Cantina Contucci and Cantina De Ricci, both carved into the medieval cellars beneath the town hall.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://anteprimavinonobile.it/en/home-eng/",
+        "address_quoted": "Fortezza di Montepulciano",
+        "open_status": "open",
+        "open_evidence_url": "https://www.consorziovinonobile.it/anteprima-vino-nobile-dal-22-al-23-febbraio-57-aziende-in-vetrina/",
+        "cuisine_evidence_url": "https://winecouture.it/2026/02/03/anteprima-del-vino-nobile-di-montepulciano-2026-record-di-57-aziende-alla-fortezza-in-degustazione-nobile-2023-riserva-2022-e-le-pievi/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "benvenuto-brunello",
+      "name": "Benvenuto Brunello",
+      "recurrence_pattern": "annual, third or fourth week of November",
+      "start_month": "November",
+      "duration": "5 days",
+      "host_organization": "Consorzio del Vino Brunello di Montalcino",
+      "ticket_required": true,
+      "ticket_url": "https://www.benvenutobrunello.com/en/",
+      "featured_producers": [
+        "biondi-santi",
+        "casanova-di-neri",
+        "banfi",
+        "il-poggione",
+        "argiano",
+        "mastrojanni"
+      ],
+      "neighborhood": "Brunello di Montalcino",
+      "description": "Tasting of the freshly released Brunello (five-year-aged) and Brunello Riserva (six-year-aged) inside the cloisters of Sant'Agostino and the Montalcino fortress, with a vintage-rating ceremony assigning a star count from one to five. Since 2018 the consortium holds Benvenuto Brunello in November (previously late February).",
+      "tip": "Plan three days minimum: the consortium walk-around, an estate cellar visit, and a vertical lunch at one of the historic Montalcino enoteche.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.benvenutobrunello.com/en/",
+        "address_quoted": "Montalcino",
+        "open_status": "open",
+        "open_evidence_url": "https://www.consorziobrunellodimontalcino.it/en/home/home",
+        "cuisine_evidence_url": "https://www.consorziobrunellodimontalcino.it/news/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "cantine-aperte",
+      "name": "Cantine Aperte",
+      "recurrence_pattern": "annual, last weekend of May",
+      "start_month": "May",
+      "duration": "2 days",
+      "host_organization": "Movimento Turismo del Vino Toscana",
+      "ticket_required": false,
+      "featured_producers": [
+        "castello-di-volpaia",
+        "salcheto",
+        "selvapiana"
+      ],
+      "neighborhood": "Region-wide",
+      "description": "Around a thousand Italian estates and roughly two hundred Tuscan members of Movimento Turismo del Vino open their cellars to visitors with vineyard hikes, paired meals and harvest-machinery demos. The 2026 edition runs 30 and 31 May.",
+      "tip": "Most cellars accept walk-ins but star Brunello and Bolgheri estates require advance booking through the Movimento Turismo del Vino regional site.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://movimentoturismovino.it/cantine-aperte-movimento/",
+        "address_quoted": "Italia",
+        "open_status": "open",
+        "open_evidence_url": "https://www.visittuscany.com/en/events/cantine-aperte/",
+        "cuisine_evidence_url": "https://horecanews.it/cantine-aperte-2026-torna-il-30-e-31-maggio-con-nuove-esperienze-nelle-cantine-italiane",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "calici-di-stelle",
+      "name": "Calici di Stelle",
+      "recurrence_pattern": "annual, late July to mid August (centred on 10 August)",
+      "start_month": "August",
+      "duration": "approximately 4 weeks of events around the 10 August night",
+      "host_organization": "Movimento Turismo del Vino Toscana",
+      "ticket_required": true,
+      "featured_producers": [
+        "castello-di-volpaia",
+        "tenuta-di-capezzana"
+      ],
+      "neighborhood": "Region-wide",
+      "description": "Vineyard tastings paired with stargazing under the Perseid meteor shower on the Night of San Lorenzo. Member estates host open-air dinners, telescopes and music; the 2025 program spanned 25 July to 24 August across more than fifty Tuscan venues.",
+      "tip": "Vinci, Montalcino and Castelfalfi run the most production-heavy programs; check the Movimento Turismo del Vino events calendar in early July.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.visittuscany.com/en/events/calici-di-stelle-tuscany/",
+        "address_quoted": "Tuscany",
+        "open_status": "open",
+        "open_evidence_url": "https://movimentoturismovino.it/eventi/",
+        "cuisine_evidence_url": "https://www.firenzemadeintuscany.com/en/article/calici-di-stelle-programme-events/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "bolgheri-divino",
+      "name": "Bolgheri DiVino",
+      "recurrence_pattern": "annual, first week of September",
+      "start_month": "September",
+      "duration": "2 to 3 days",
+      "host_organization": "Consorzio per la tutela dei vini Bolgheri e Bolgheri Sassicaia DOC",
+      "ticket_required": true,
+      "ticket_url": "https://www.bolgheridoc.com/en/bolgheri-di-vino-en/",
+      "featured_producers": [
+        "tenuta-san-guido",
+        "tenuta-dell-ornellaia",
+        "masseto",
+        "tenuta-guado-al-tasso",
+        "le-macchiole",
+        "grattamacco",
+        "michele-satta"
+      ],
+      "neighborhood": "Bolgheri",
+      "description": "The Consorzio Bolgheri walk-around tasting at the Castello della Gherardesca and the Frantoio of Casa Carducci in Castagneto Carducci, followed by the kilometre-long Cena dei Mille on the cypress-lined Viale dei Cipressi.",
+      "tip": "The Cena dei Mille on the Viale dei Cipressi seats one thousand and books out months in advance; the walk-around tasting is easier to secure.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.bolgheridoc.com/en/bolgheri-di-vino-en/",
+        "address_quoted": "Castagneto Carducci",
+        "open_status": "open",
+        "open_evidence_url": "https://www.terredelmarchesato.com/en/news-en/bolgheri-divino-is-back-the-event-that-celebrates-the-bolgheri-terroir/",
+        "cuisine_evidence_url": "https://cucineditalia.com/en/bolgheri-divino-2024-tuscan-wine-events/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "vino-al-vino-panzano",
+      "name": "Vino al Vino, Panzano in Chianti",
+      "recurrence_pattern": "annual, third weekend of September",
+      "start_month": "September",
+      "duration": "3 days",
+      "host_organization": "Unione Viticoltori di Panzano in Chianti",
+      "ticket_required": true,
+      "ticket_url": "https://viticoltoripanzano.com/en/vino-al-vino/",
+      "featured_producers": [
+        "fontodi"
+      ],
+      "neighborhood": "Panzano in Chianti",
+      "description": "Twenty-three producers of the Unione Viticoltori di Panzano pour Chianti Classico Panzano UGA bottlings, Conca d'Oro single-village reds and IGT Toscana from stalls around Piazza Bucciarelli. Over 80 wines are typically open across the weekend.",
+      "tip": "The Conca d'Oro sub-zone within Panzano produces some of Chianti Classico's longest-lived bottlings; ask producers to compare a Riserva to a Gran Selezione side by side.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://viticoltoripanzano.com/en/vino-al-vino/",
+        "address_quoted": "Piazza Bucciarelli, Panzano in Chianti",
+        "open_status": "open",
+        "open_evidence_url": "https://www.visitchianti.net/vino-al-vino/?lang=en",
+        "cuisine_evidence_url": "https://www.ninainchianti.com/en/winefestivals-tastings/vino-al-vino-2025",
+        "checked_on": "2026-05-23"
+      }
+    }
+  ]
 }

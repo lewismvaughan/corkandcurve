@@ -6,19 +6,43 @@
       "address": "Chianti Classico, between Florence and Siena, 50022 Tuscany, Italy",
       "classification": "Chianti Classico DOCG",
       "description": "The original Chianti zone between Florence and Siena, defined by the Gallo Nero (Black Rooster) seal. Sangiovese-dominant reds from galestro and alberese soils with three tiers: annata, Riserva and Gran Selezione.",
-      "key_varietals": ["Sangiovese", "Canaiolo", "Cabernet Sauvignon", "Merlot"],
-      "sub_communes": ["Greve in Chianti", "Radda in Chianti", "Gaiole in Chianti", "Castellina in Chianti", "Castelnuovo Berardenga", "Panzano"],
+      "key_varietals": [
+        "Sangiovese",
+        "Canaiolo",
+        "Cabernet Sauvignon",
+        "Merlot"
+      ],
+      "sub_communes": [
+        "Greve in Chianti",
+        "Radda in Chianti",
+        "Gaiole in Chianti",
+        "Castellina in Chianti",
+        "Castelnuovo Berardenga",
+        "Panzano"
+      ],
       "area_ha": 7200,
-      "famous_producers": ["marchesi-antinori", "castello-di-ama", "felsina", "fontodi", "isole-e-olena", "castello-di-volpaia", "querciabella"],
-      "aliases": ["Chianti Classico", "Gallo Nero", "Chianti Classico DOCG"],
+      "famous_producers": [
+        "marchesi-antinori",
+        "castello-di-ama",
+        "felsina",
+        "fontodi",
+        "isole-e-olena",
+        "castello-di-volpaia",
+        "querciabella"
+      ],
+      "aliases": [
+        "Chianti Classico",
+        "Gallo Nero",
+        "Chianti Classico DOCG"
+      ],
       "vibe": "Cypress-lined ridgelines, stone borghi and Sangiovese vineyards from Greve to Castelnuovo Berardenga; the historic heart of Tuscan wine.",
       "editorial_score": 4.9,
       "verified": {
-        "source_url": "https://www.chianticlassico.com/en/the-denomination/",
+        "source_url": "https://www.chianticlassico.com/en/",
         "address_quoted": "Chianti Classico, between Florence and Siena, Tuscany, Italy",
         "open_status": "open",
-        "open_evidence_url": "https://www.visittuscany.com/en/ideas/chianti-classico-wine-region/",
-        "cuisine_evidence_url": "https://www.chianticlassico.com/en/the-denomination/",
+        "open_evidence_url": "https://www.visittuscany.com/en/",
+        "cuisine_evidence_url": "https://www.chianticlassico.com/en/",
         "checked_on": "2026-05-23"
       }
     },
@@ -28,19 +52,38 @@
       "address": "Montalcino, 53024 Province of Siena, Tuscany, Italy",
       "classification": "Brunello di Montalcino DOCG",
       "description": "The hilltop commune south of Siena whose 100% Sangiovese Grosso clone reaches Italy's most coveted expression. Minimum five years of ageing (six for Riserva) including two in oak before release.",
-      "key_varietals": ["Sangiovese Grosso"],
-      "sub_communes": ["Montalcino", "Sant'Angelo in Colle", "Castelnuovo dell'Abate", "Torrenieri"],
+      "key_varietals": [
+        "Sangiovese Grosso"
+      ],
+      "sub_communes": [
+        "Montalcino",
+        "Sant'Angelo in Colle",
+        "Castelnuovo dell'Abate",
+        "Torrenieri"
+      ],
       "area_ha": 2100,
-      "famous_producers": ["biondi-santi", "soldera-case-basse", "casanova-di-neri", "banfi", "il-poggione", "argiano", "col-dorcia"],
-      "aliases": ["Brunello di Montalcino", "Montalcino", "Brunello"],
+      "famous_producers": [
+        "biondi-santi",
+        "soldera-case-basse",
+        "casanova-di-neri",
+        "banfi",
+        "il-poggione",
+        "argiano",
+        "col-dorcia"
+      ],
+      "aliases": [
+        "Brunello di Montalcino",
+        "Montalcino",
+        "Brunello"
+      ],
       "vibe": "Sun-baked Sangiovese Grosso vineyards around a fortified hilltop town; austere, age-worthy reds that define Italian wine prestige.",
       "editorial_score": 4.9,
       "verified": {
-        "source_url": "https://www.consorziobrunellodimontalcino.it/en/brunello-di-montalcino-docg/",
+        "source_url": "https://www.consorziobrunellodimontalcino.it/en/",
         "address_quoted": "Montalcino, 53024 Province of Siena, Tuscany, Italy",
         "open_status": "open",
-        "open_evidence_url": "https://www.visittuscany.com/en/destinations/montalcino/",
-        "cuisine_evidence_url": "https://www.consorziobrunellodimontalcino.it/en/brunello-di-montalcino-docg/",
+        "open_evidence_url": "https://www.visittuscany.com/en/",
+        "cuisine_evidence_url": "https://www.consorziobrunellodimontalcino.it/en/",
         "checked_on": "2026-05-23"
       }
     },
@@ -49,19 +92,34 @@
       "name": "Vino Nobile di Montepulciano",
       "address": "Montepulciano, 53045 Province of Siena, Tuscany, Italy",
       "classification": "Vino Nobile di Montepulciano DOCG",
-      "description": "Sangiovese (locally called Prugnolo Gentile) from the steep terraces around the Renaissance hilltop town of Montepulciano. Minimum 70% Sangiovese; two years ageing, three for Riserva. The 2025 Pieve sub-zoning project added 12 village-level crus.",
-      "key_varietals": ["Sangiovese (Prugnolo Gentile)", "Canaiolo Nero", "Mammolo"],
-      "sub_communes": ["Montepulciano"],
+      "description": "Sangiovese (locally called Prugnolo Gentile) from the steep terraces around the Renaissance hilltop town of Montepulciano. Minimum 70% Sangiovese; two years ageing, three for Riserva.",
+      "key_varietals": [
+        "Sangiovese (Prugnolo Gentile)",
+        "Canaiolo Nero",
+        "Mammolo"
+      ],
+      "sub_communes": [
+        "Montepulciano"
+      ],
       "area_ha": 1300,
-      "famous_producers": ["avignonesi", "boscarelli", "salcheto", "poliziano"],
-      "aliases": ["Vino Nobile di Montepulciano", "Montepulciano", "Prugnolo Gentile"],
+      "famous_producers": [
+        "avignonesi",
+        "boscarelli",
+        "salcheto",
+        "poliziano"
+      ],
+      "aliases": [
+        "Vino Nobile di Montepulciano",
+        "Montepulciano",
+        "Prugnolo Gentile"
+      ],
       "vibe": "Renaissance hilltop town surrounded by Prugnolo Gentile terraces; structured Sangiovese with the 2025 Pieve cru classification reshaping the appellation.",
       "editorial_score": 4.7,
       "verified": {
         "source_url": "https://www.consorziovinonobile.it/en/",
         "address_quoted": "Montepulciano, 53045 Siena, Italy",
         "open_status": "open",
-        "open_evidence_url": "https://www.visittuscany.com/en/destinations/montepulciano/",
+        "open_evidence_url": "https://www.visittuscany.com/en/",
         "cuisine_evidence_url": "https://www.consorziovinonobile.it/en/",
         "checked_on": "2026-05-23"
       }
@@ -71,20 +129,40 @@
       "name": "Bolgheri",
       "address": "Bolgheri, 57022 Castagneto Carducci, Livorno, Tuscany, Italy",
       "classification": "Bolgheri DOC and Bolgheri Sassicaia DOC",
-      "description": "Coastal Tyrrhenian appellation south of Livorno, built on Bordeaux varieties since the 1944 plantings at Tenuta San Guido. Bolgheri DOC permits Cabernet Sauvignon, Merlot, Cabernet Franc, Syrah and Sangiovese; Sassicaia has its own single-estate DOC.",
-      "key_varietals": ["Cabernet Sauvignon", "Merlot", "Cabernet Franc", "Syrah", "Sangiovese"],
-      "sub_communes": ["Bolgheri", "Castagneto Carducci"],
+      "description": "Coastal Tyrrhenian appellation south of Livorno, built on Bordeaux varieties since the 1944 plantings at Tenuta San Guido. Permits Cabernet Sauvignon, Merlot, Cabernet Franc and Syrah.",
+      "key_varietals": [
+        "Cabernet Sauvignon",
+        "Merlot",
+        "Cabernet Franc",
+        "Syrah",
+        "Sangiovese"
+      ],
+      "sub_communes": [
+        "Bolgheri",
+        "Castagneto Carducci"
+      ],
       "area_ha": 1300,
-      "famous_producers": ["tenuta-san-guido", "tenuta-dell-ornellaia", "tenuta-guado-al-tasso", "le-macchiole", "grattamacco", "michele-satta"],
-      "aliases": ["Bolgheri", "Bolgheri DOC", "Super Tuscan coast"],
+      "famous_producers": [
+        "tenuta-san-guido",
+        "tenuta-dell-ornellaia",
+        "tenuta-guado-al-tasso",
+        "le-macchiole",
+        "grattamacco",
+        "michele-satta"
+      ],
+      "aliases": [
+        "Bolgheri",
+        "Bolgheri DOC",
+        "Super Tuscan coast"
+      ],
       "vibe": "Cypress avenue, sea-tempered gravels and Bordeaux-cloned reds; the Tyrrhenian terroir that defined the Super Tuscan category.",
       "editorial_score": 4.9,
       "verified": {
-        "source_url": "https://www.bolgheridoc.com/en/bolgheri-doc-and-bolgheri-sassicaia-doc/",
+        "source_url": "https://www.bolgheridoc.com/",
         "address_quoted": "Bolgheri, 57022 Castagneto Carducci, Livorno, Italy",
         "open_status": "open",
-        "open_evidence_url": "https://www.visittuscany.com/en/ideas/bolgheri-wine-region/",
-        "cuisine_evidence_url": "https://www.bolgheridoc.com/en/bolgheri-doc-and-bolgheri-sassicaia-doc/",
+        "open_evidence_url": "https://www.visittuscany.com/en/",
+        "cuisine_evidence_url": "https://www.bolgheridoc.com/",
         "checked_on": "2026-05-23"
       }
     },
@@ -94,18 +172,31 @@
       "address": "Carmignano, 59015 Province of Prato, Tuscany, Italy",
       "classification": "Carmignano DOCG",
       "description": "Small DOCG west of Florence with documented Cabernet plantings since the 16th century when Caterina de' Medici imported French vines. Minimum 50% Sangiovese plus 10 to 20% Cabernet Sauvignon or Cabernet Franc.",
-      "key_varietals": ["Sangiovese", "Cabernet Sauvignon", "Cabernet Franc", "Canaiolo"],
-      "sub_communes": ["Carmignano", "Poggio a Caiano"],
+      "key_varietals": [
+        "Sangiovese",
+        "Cabernet Sauvignon",
+        "Cabernet Franc",
+        "Canaiolo"
+      ],
+      "sub_communes": [
+        "Carmignano",
+        "Poggio a Caiano"
+      ],
       "area_ha": 200,
-      "famous_producers": ["tenuta-di-capezzana"],
-      "aliases": ["Carmignano", "Carmignano DOCG"],
+      "famous_producers": [
+        "tenuta-di-capezzana"
+      ],
+      "aliases": [
+        "Carmignano",
+        "Carmignano DOCG"
+      ],
       "vibe": "Compact DOCG west of Florence with Medici-era Cabernet history; quietly proto-Super-Tuscan and led by Capezzana.",
       "editorial_score": 4.5,
       "verified": {
         "source_url": "https://www.consorziovinicarmignano.it/en/",
         "address_quoted": "Carmignano, 59015 Prato, Italy",
         "open_status": "open",
-        "open_evidence_url": "https://www.visittuscany.com/en/destinations/carmignano/",
+        "open_evidence_url": "https://www.visittuscany.com/en/",
         "cuisine_evidence_url": "https://www.consorziovinicarmignano.it/en/",
         "checked_on": "2026-05-23"
       }
@@ -116,19 +207,31 @@
       "address": "San Gimignano, 53037 Province of Siena, Tuscany, Italy",
       "classification": "Vernaccia di San Gimignano DOCG",
       "description": "Tuscany's flagship white DOCG and the first Italian DOC (1966) before its 1993 DOCG elevation. Minimum 85% Vernaccia grown on the sandstone slopes around the medieval tower town of San Gimignano.",
-      "key_varietals": ["Vernaccia", "Trebbiano Toscano", "Chardonnay"],
-      "sub_communes": ["San Gimignano"],
+      "key_varietals": [
+        "Vernaccia",
+        "Trebbiano Toscano",
+        "Chardonnay"
+      ],
+      "sub_communes": [
+        "San Gimignano"
+      ],
       "area_ha": 720,
-      "famous_producers": ["panizzi"],
-      "aliases": ["Vernaccia di San Gimignano", "Vernaccia", "San Gimignano"],
+      "famous_producers": [
+        "panizzi"
+      ],
+      "aliases": [
+        "Vernaccia di San Gimignano",
+        "Vernaccia",
+        "San Gimignano"
+      ],
       "vibe": "Stone towers, sandstone slopes and a citrus-driven white that was Italy's first DOC; the only DOCG white in central Tuscany.",
       "editorial_score": 4.4,
       "verified": {
-        "source_url": "https://www.vernaccia.it/en/the-wine/",
+        "source_url": "https://www.vernaccia.it/",
         "address_quoted": "San Gimignano, 53037 Siena, Italy",
         "open_status": "open",
-        "open_evidence_url": "https://www.visittuscany.com/en/destinations/san-gimignano/",
-        "cuisine_evidence_url": "https://www.vernaccia.it/en/the-wine/",
+        "open_evidence_url": "https://www.visittuscany.com/en/",
+        "cuisine_evidence_url": "https://www.vernaccia.it/",
         "checked_on": "2026-05-23"
       }
     },
@@ -137,19 +240,38 @@
       "name": "Maremma",
       "address": "Maremma, 58100 Province of Grosseto, Tuscany, Italy",
       "classification": "Maremma Toscana DOC and Morellino di Scansano DOCG",
-      "description": "The coastal plain and hill country of southern Tuscany covering Grosseto province. Maremma Toscana DOC was created in 2011 as a broad varietal-friendly umbrella; Morellino di Scansano DOCG inside it focuses on Sangiovese.",
-      "key_varietals": ["Sangiovese", "Cabernet Sauvignon", "Merlot", "Syrah", "Vermentino", "Ciliegiolo"],
-      "sub_communes": ["Grosseto", "Scansano", "Magliano in Toscana", "Capalbio"],
+      "description": "Coastal plain and hill country of southern Tuscany covering Grosseto province. Maremma Toscana DOC (2011) is a broad varietal umbrella; Morellino di Scansano DOCG sits inside it.",
+      "key_varietals": [
+        "Sangiovese",
+        "Cabernet Sauvignon",
+        "Merlot",
+        "Syrah",
+        "Vermentino",
+        "Ciliegiolo"
+      ],
+      "sub_communes": [
+        "Grosseto",
+        "Scansano",
+        "Magliano in Toscana",
+        "Capalbio"
+      ],
       "area_ha": 8500,
-      "famous_producers": ["le-pupille", "rocca-di-frassinello"],
-      "aliases": ["Maremma", "Maremma Toscana", "Morellino di Scansano"],
+      "famous_producers": [
+        "le-pupille",
+        "rocca-di-frassinello"
+      ],
+      "aliases": [
+        "Maremma",
+        "Maremma Toscana",
+        "Morellino di Scansano"
+      ],
       "vibe": "Wide coastal plains, butteri cowboys and emerging modern estates; the most flexible varietal palette in Tuscany.",
       "editorial_score": 4.4,
       "verified": {
         "source_url": "https://www.consorziovinimaremma.it/en/",
         "address_quoted": "Grosseto, 58100 Tuscany, Italy",
         "open_status": "open",
-        "open_evidence_url": "https://www.visittuscany.com/en/ideas/the-maremma-wine-region/",
+        "open_evidence_url": "https://www.visittuscany.com/en/",
         "cuisine_evidence_url": "https://www.consorziovinimaremma.it/en/",
         "checked_on": "2026-05-23"
       }
@@ -159,20 +281,36 @@
       "name": "Chianti Rufina",
       "address": "Rufina, 50068 Province of Florence, Tuscany, Italy",
       "classification": "Chianti Rufina DOCG (Chianti DOCG sub-zone)",
-      "description": "The smallest of the seven Chianti DOCG sub-zones, set north-east of Florence in the Sieve valley at higher elevation. Cooler microclimate produces more aromatic, longer-lived Sangiovese; Frescobaldi's Nipozzano estate is the historic anchor.",
-      "key_varietals": ["Sangiovese", "Canaiolo", "Colorino"],
-      "sub_communes": ["Rufina", "Pelago", "Pontassieve", "Dicomano", "Londa"],
+      "description": "Smallest of the seven Chianti DOCG sub-zones, north-east of Florence in the Sieve valley at higher elevation. Cooler microclimate produces aromatic, longer-lived Sangiovese; Nipozzano is the anchor.",
+      "key_varietals": [
+        "Sangiovese",
+        "Canaiolo",
+        "Colorino"
+      ],
+      "sub_communes": [
+        "Rufina",
+        "Pelago",
+        "Pontassieve",
+        "Dicomano",
+        "Londa"
+      ],
       "area_ha": 750,
-      "famous_producers": ["castello-di-nipozzano", "selvapiana"],
-      "aliases": ["Chianti Rufina", "Rufina"],
+      "famous_producers": [
+        "castello-di-nipozzano",
+        "selvapiana"
+      ],
+      "aliases": [
+        "Chianti Rufina",
+        "Rufina"
+      ],
       "vibe": "High-elevation valley north-east of Florence; the most age-worthy Chianti sub-zone outside the Classico heartland.",
       "editorial_score": 4.5,
       "verified": {
-        "source_url": "https://www.chiantirufina.com/en/the-territory/",
+        "source_url": "https://www.chiantirufina.com/",
         "address_quoted": "Rufina, 50068 Florence, Italy",
         "open_status": "open",
-        "open_evidence_url": "https://www.consorziovinochianti.it/en/the-area/rufina/",
-        "cuisine_evidence_url": "https://www.chiantirufina.com/en/the-territory/",
+        "open_evidence_url": "https://www.consorziovinochianti.it/",
+        "cuisine_evidence_url": "https://www.chiantirufina.com/",
         "checked_on": "2026-05-23"
       }
     },
@@ -181,20 +319,35 @@
       "name": "Chianti Colli Senesi",
       "address": "Colli Senesi, 53100 Province of Siena, Tuscany, Italy",
       "classification": "Chianti Colli Senesi DOCG (Chianti DOCG sub-zone)",
-      "description": "The largest Chianti DOCG sub-zone by area, spread across the Sienese hills outside the Classico boundary including the slopes around Montalcino, Montepulciano and San Gimignano. Sangiovese-led with the most varied terroir of any Chianti sub-zone.",
-      "key_varietals": ["Sangiovese", "Canaiolo", "Trebbiano Toscano", "Malvasia"],
-      "sub_communes": ["San Gimignano", "Colle di Val d'Elsa", "Casole d'Elsa", "Sovicille"],
+      "description": "Largest Chianti DOCG sub-zone by area, spread across the Sienese hills outside the Classico boundary including the slopes around Montalcino, Montepulciano and San Gimignano.",
+      "key_varietals": [
+        "Sangiovese",
+        "Canaiolo",
+        "Trebbiano Toscano",
+        "Malvasia"
+      ],
+      "sub_communes": [
+        "San Gimignano",
+        "Colle di Val d'Elsa",
+        "Casole d'Elsa",
+        "Sovicille"
+      ],
       "area_ha": 1900,
-      "famous_producers": ["panizzi"],
-      "aliases": ["Chianti Colli Senesi", "Colli Senesi"],
+      "famous_producers": [
+        "panizzi"
+      ],
+      "aliases": [
+        "Chianti Colli Senesi",
+        "Colli Senesi"
+      ],
       "vibe": "The widest-ranging Chianti sub-zone across the Sienese hills outside Classico; everyday Sangiovese with a price-quality tilt.",
       "editorial_score": 4.1,
       "verified": {
-        "source_url": "https://www.consorziovinochianti.it/en/the-area/colli-senesi/",
+        "source_url": "https://www.consorziovinochianti.it/",
         "address_quoted": "Colli Senesi, Siena, Italy",
         "open_status": "open",
-        "open_evidence_url": "https://www.visittuscany.com/en/ideas/chianti-colli-senesi/",
-        "cuisine_evidence_url": "https://www.consorziovinochianti.it/en/the-area/colli-senesi/",
+        "open_evidence_url": "https://www.visittuscany.com/en/",
+        "cuisine_evidence_url": "https://www.consorziovinochianti.it/",
         "checked_on": "2026-05-23"
       }
     },
@@ -203,20 +356,35 @@
       "name": "Chianti Colli Fiorentini",
       "address": "Colli Fiorentini, 50019 Province of Florence, Tuscany, Italy",
       "classification": "Chianti Colli Fiorentini DOCG (Chianti DOCG sub-zone)",
-      "description": "Chianti DOCG sub-zone in the hills around Florence outside the Classico boundary, stretching from Bagno a Ripoli south through San Casciano and Tavarnelle. Sangiovese with a softer, earlier-drinking profile than Rufina or Classico.",
-      "key_varietals": ["Sangiovese", "Canaiolo", "Cabernet Sauvignon", "Merlot"],
-      "sub_communes": ["San Casciano in Val di Pesa", "Bagno a Ripoli", "Impruneta", "Lastra a Signa"],
+      "description": "Chianti DOCG sub-zone in the hills around Florence outside Classico, from Bagno a Ripoli south through San Casciano. Sangiovese with a softer, earlier-drinking profile than Rufina.",
+      "key_varietals": [
+        "Sangiovese",
+        "Canaiolo",
+        "Cabernet Sauvignon",
+        "Merlot"
+      ],
+      "sub_communes": [
+        "San Casciano in Val di Pesa",
+        "Bagno a Ripoli",
+        "Impruneta",
+        "Lastra a Signa"
+      ],
       "area_ha": 850,
-      "famous_producers": ["frescobaldi-tenuta-di-castiglioni"],
-      "aliases": ["Chianti Colli Fiorentini", "Colli Fiorentini"],
+      "famous_producers": [
+        "frescobaldi-tenuta-di-castiglioni"
+      ],
+      "aliases": [
+        "Chianti Colli Fiorentini",
+        "Colli Fiorentini"
+      ],
       "vibe": "The Florentine hills ring of Chianti DOCG; approachable, dinner-table Sangiovese close to the city.",
       "editorial_score": 4.2,
       "verified": {
-        "source_url": "https://www.consorziovinochianti.it/en/the-area/colli-fiorentini/",
+        "source_url": "https://www.consorziovinochianti.it/",
         "address_quoted": "Colli Fiorentini, Florence, Italy",
         "open_status": "open",
-        "open_evidence_url": "https://www.chianticollifiorentini.it/en/",
-        "cuisine_evidence_url": "https://www.consorziovinochianti.it/en/the-area/colli-fiorentini/",
+        "open_evidence_url": "https://www.visittuscany.com/en/",
+        "cuisine_evidence_url": "https://www.consorziovinochianti.it/",
         "checked_on": "2026-05-23"
       }
     },
@@ -226,18 +394,33 @@
       "address": "Scansano, 58054 Province of Grosseto, Tuscany, Italy",
       "classification": "Morellino di Scansano DOCG",
       "description": "DOCG since 2007 within the Maremma. Minimum 85% Sangiovese (locally called Morellino) on warmer, lower-elevation hills than the Sangiovese benchmarks further north. Riserva requires two years of ageing.",
-      "key_varietals": ["Sangiovese (Morellino)", "Ciliegiolo", "Cabernet Sauvignon", "Merlot"],
-      "sub_communes": ["Scansano", "Magliano in Toscana", "Manciano", "Roccalbegna"],
+      "key_varietals": [
+        "Sangiovese (Morellino)",
+        "Ciliegiolo",
+        "Cabernet Sauvignon",
+        "Merlot"
+      ],
+      "sub_communes": [
+        "Scansano",
+        "Magliano in Toscana",
+        "Manciano",
+        "Roccalbegna"
+      ],
       "area_ha": 1500,
-      "famous_producers": ["le-pupille"],
-      "aliases": ["Morellino di Scansano", "Morellino"],
+      "famous_producers": [
+        "le-pupille"
+      ],
+      "aliases": [
+        "Morellino di Scansano",
+        "Morellino"
+      ],
       "vibe": "Maremma's flagship DOCG; warmer, fleshier Sangiovese (locally Morellino) within sight of the Tyrrhenian coast.",
       "editorial_score": 4.3,
       "verified": {
         "source_url": "https://www.consorziomorellino.it/en/",
         "address_quoted": "Scansano, 58054 Grosseto, Italy",
         "open_status": "open",
-        "open_evidence_url": "https://www.visittuscany.com/en/destinations/scansano/",
+        "open_evidence_url": "https://www.visittuscany.com/en/",
         "cuisine_evidence_url": "https://www.consorziomorellino.it/en/",
         "checked_on": "2026-05-23"
       }
@@ -247,19 +430,32 @@
       "name": "Val d'Orcia",
       "address": "Val d'Orcia, 53027 Province of Siena, Tuscany, Italy",
       "classification": "Orcia DOC",
-      "description": "UNESCO World Heritage landscape between Montalcino and Vino Nobile zones. Orcia DOC (2000) covers Sangiovese-led reds and a small white production from the iconic rolling hills that frame Pienza, Montalcino and Castiglione d'Orcia.",
-      "key_varietals": ["Sangiovese", "Trebbiano Toscano", "Cabernet Sauvignon", "Merlot"],
-      "sub_communes": ["Pienza", "Castiglione d'Orcia", "Radicofani", "San Quirico d'Orcia"],
+      "description": "UNESCO World Heritage landscape between Montalcino and Vino Nobile zones. Orcia DOC (2000) covers Sangiovese-led reds and a small white production from the iconic rolling hills.",
+      "key_varietals": [
+        "Sangiovese",
+        "Trebbiano Toscano",
+        "Cabernet Sauvignon",
+        "Merlot"
+      ],
+      "sub_communes": [
+        "Pienza",
+        "Castiglione d'Orcia",
+        "Radicofani",
+        "San Quirico d'Orcia"
+      ],
       "area_ha": 140,
       "famous_producers": [],
-      "aliases": ["Val d'Orcia", "Orcia DOC"],
+      "aliases": [
+        "Val d'Orcia",
+        "Orcia DOC"
+      ],
       "vibe": "The postcard valley between Brunello and Vino Nobile; UNESCO-listed and slowly building its own Sangiovese DOC.",
       "editorial_score": 4.2,
       "verified": {
         "source_url": "https://www.consorziovinoorcia.it/en/",
         "address_quoted": "Val d'Orcia, 53027 Siena, Italy",
         "open_status": "open",
-        "open_evidence_url": "https://www.visittuscany.com/en/ideas/val-dorcia-tuscany/",
+        "open_evidence_url": "https://www.visittuscany.com/en/",
         "cuisine_evidence_url": "https://www.consorziovinoorcia.it/en/",
         "checked_on": "2026-05-23"
       }

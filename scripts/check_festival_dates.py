@@ -104,14 +104,16 @@ def check_city(country: str, city: str) -> int:
     data_dir = SITE_DATA / country / city / "data"
     fp = data_dir / "festivals.json"
     if not fp.exists():
-        print(f"[{country}/{city}] no festivals.json")
+        fp = data_dir / "wine-festivals.json"
+    if not fp.exists():
+        print(f"[{country}/{city}] no festivals.json or wine-festivals.json")
         return 0
     try:
         d = json.loads(fp.read_text(encoding="utf-8"))
     except Exception as e:
         print(f"[{country}/{city}] festivals.json read error: {e}")
         return 1
-    festivals = d.get("food_festivals") or []
+    festivals = d.get("food_festivals") or d.get("wine_festivals") or []
     rows = []
     urls_to_fetch: dict[str, list] = {}
 

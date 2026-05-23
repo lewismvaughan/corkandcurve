@@ -1,3 +1,297 @@
 {
-  "signature_wines": []
+  "signature_wines": [
+    {
+      "slug": "sassicaia",
+      "name": "Sassicaia",
+      "producer": "tenuta-san-guido",
+      "varietals": [
+        "Cabernet Sauvignon",
+        "Cabernet Franc"
+      ],
+      "style": "still red Bolgheri Bordeaux blend",
+      "vintage_range": "approachable from 8 to 12 years, cellar 25 to 50",
+      "price_band": "EUR 250 to 500 at retail",
+      "tasting_notes": "Cassis and graphite layered over violet aromatics. The 1985 vintage was the first Italian wine to receive a perfect 100 points from Robert Parker (Wine Advocate, 1992). Source: tenutasanguido.com and robertparker.com.",
+      "editorial_score": 5.0,
+      "description": "The founding Super Tuscan. Bordeaux cuttings planted at Bolgheri in 1944 by Mario Incisa della Rocchetta; granted its own single-estate DOC in 1994.",
+      "verified": {
+        "source_url": "https://www.tenutasanguido.com/en/",
+        "open_status": "open",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "tignanello",
+      "name": "Tignanello",
+      "producer": "marchesi-antinori",
+      "varietals": [
+        "Sangiovese",
+        "Cabernet Sauvignon",
+        "Cabernet Franc"
+      ],
+      "style": "still red Sangiovese-led Super Tuscan",
+      "vintage_range": "approachable from 5 to 10 years, cellar 20 to 30",
+      "price_band": "EUR 100 to 160 at retail",
+      "tasting_notes": "Violet and dark cherry above graphite, with firm tannins and a long savoury finish. Source: antinori.it and Wine Advocate 97 points 2019 vintage.",
+      "editorial_score": 4.8,
+      "description": "The Super Tuscan that broke Chianti Classico DOCG rules in 1971 by blending Sangiovese with Cabernet and ageing in French barrique. Still a global benchmark.",
+      "verified": {
+        "source_url": "https://www.antinori.it/en/wine/tignanello/",
+        "open_status": "open",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "solaia",
+      "name": "Solaia",
+      "producer": "marchesi-antinori",
+      "varietals": [
+        "Cabernet Sauvignon",
+        "Sangiovese",
+        "Cabernet Franc"
+      ],
+      "style": "still red Cabernet-led Super Tuscan",
+      "vintage_range": "approachable from 8 to 12 years, cellar 25 to 35",
+      "price_band": "EUR 280 to 450 at retail",
+      "tasting_notes": "Cassis and graphite intensity over a long Tuscan acid spine. Wine Spectator named the 1997 vintage its Wine of the Year for 2000 (scored 98 points). Source: antinori.it and Wine Spectator Top 100 archive.",
+      "editorial_score": 4.9,
+      "description": "Cabernet-led counterpart to Tignanello, from the same Tenuta Tignanello hillside. The 1997 vintage was the first Italian wine ever named Wine Spectator's Wine of the Year (2000, 98 points).",
+      "verified": {
+        "source_url": "https://www.antinori.it/en/wine/solaia/",
+        "open_status": "open",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "ornellaia",
+      "name": "Ornellaia",
+      "producer": "tenuta-dell-ornellaia",
+      "varietals": [
+        "Cabernet Sauvignon",
+        "Merlot",
+        "Cabernet Franc",
+        "Petit Verdot"
+      ],
+      "style": "still red Bolgheri Bordeaux blend",
+      "vintage_range": "approachable from 8 to 12 years, cellar 20 to 35",
+      "price_band": "EUR 200 to 350 at retail",
+      "tasting_notes": "Black cherry, cassis and sweet cedar built on a graphite-iron mineral spine. Wine Spectator named the 1998 vintage its Wine of the Year for 2001 (scored 96 points). Source: ornellaia.com and Wine Spectator Top 100 archive.",
+      "editorial_score": 4.9,
+      "description": "Lodovico Antinori's Bolgheri Superiore DOC Bordeaux-blend flagship, founded 1981 and now owned by Frescobaldi. A coastal-Tuscan benchmark for the Bordeaux idiom.",
+      "verified": {
+        "source_url": "https://www.ornellaia.com/en/",
+        "open_status": "open",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "masseto",
+      "name": "Masseto",
+      "producer": "masseto",
+      "varietals": [
+        "Merlot"
+      ],
+      "style": "still red 100 percent Bolgheri Merlot",
+      "vintage_range": "approachable from 10 to 15 years, cellar 25 to 35",
+      "price_band": "EUR 1000 to 2500 at retail",
+      "tasting_notes": "Black cherry, graphite, sweet cedar over polished oak and salinity. Source: masseto.com and Wine Advocate 100 points for the 2015 vintage (review 2018).",
+      "editorial_score": 5.0,
+      "description": "Italy's most prestigious Merlot. A 7-hectare blue-clay parcel inside the Ornellaia estate, with its own dedicated cellar since 2020. A reference Merlot worldwide.",
+      "verified": {
+        "source_url": "https://www.masseto.com/en/",
+        "open_status": "open",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "biondi-santi-brunello-di-montalcino-riserva",
+      "name": "Biondi-Santi Brunello di Montalcino Riserva",
+      "producer": "biondi-santi",
+      "varietals": [
+        "Sangiovese Grosso"
+      ],
+      "style": "still red Brunello di Montalcino Riserva",
+      "vintage_range": "approachable from 15 to 20 years, cellar 30 to 60",
+      "price_band": "EUR 800 to 2500 at retail",
+      "tasting_notes": "Dried cherry, rose petal, iron and leather across an extraordinarily long finish. Famous library vintages 1955, 1964, 1975, 1988, 2010, 2016. Source: biondisanti.it.",
+      "editorial_score": 4.9,
+      "description": "The founding Brunello Riserva, released only in exceptional vintages from the 1888-bottled estate. EPI Group ownership since 2017. Famous library vintages 1955.",
+      "verified": {
+        "source_url": "https://www.biondisanti.it/en/",
+        "open_status": "open",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "soldera-case-basse-toscana-igt",
+      "name": "Soldera Case Basse Toscana IGT",
+      "producer": "soldera-case-basse",
+      "varietals": [
+        "Sangiovese"
+      ],
+      "style": "still red pure Sangiovese cult IGT",
+      "vintage_range": "approachable from 12 to 15 years, cellar 25 to 40",
+      "price_band": "EUR 500 to 1500 at retail",
+      "tasting_notes": "Dried cherry, potpourri, rose petal and iron across a savoury herbal core. Source: soldera.it. Pre-2013 the estate bottled under Brunello DOCG; the 2007 to 2012 Brunello vintages were destroyed in the December 2012 cellar vandalism.",
+      "editorial_score": 4.9,
+      "description": "Cult Montalcino estate that left Brunello DOCG in 2013. Bottles continue as Toscana IGT from the original Case Basse and Intistieti vineyards.",
+      "verified": {
+        "source_url": "https://www.soldera.it/",
+        "open_status": "open",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "casanova-di-neri-cerretalto",
+      "name": "Casanova di Neri Cerretalto",
+      "producer": "casanova-di-neri",
+      "varietals": [
+        "Sangiovese Grosso"
+      ],
+      "style": "still red single-vineyard Brunello",
+      "vintage_range": "approachable from 12 to 15 years, cellar 20 to 35",
+      "price_band": "EUR 250 to 450 at retail",
+      "tasting_notes": "Black cherry, graphite, leather and violet with espresso and polished oak. Source: consorziobrunellodimontalcino.it and Wine Advocate 98 points 2016 vintage (Monica Larner review).",
+      "editorial_score": 4.9,
+      "description": "Single-vineyard Brunello from a south-facing parcel above the Asso river. Casanova di Neri's most concentrated cru. One of the iconic Tuscan bottles in 2026.",
+      "verified": {
+        "source_url": "https://www.consorziobrunellodimontalcino.it/en/",
+        "open_status": "open",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "argiano-brunello-di-montalcino",
+      "name": "Argiano Brunello di Montalcino",
+      "producer": "argiano",
+      "varietals": [
+        "Sangiovese Grosso"
+      ],
+      "style": "still red modern Brunello",
+      "vintage_range": "approachable from 8 to 12 years, cellar 20 to 30",
+      "price_band": "EUR 60 to 90 at retail",
+      "tasting_notes": "Black cherry, graphite, leather and violet across a sweet-spice mid-palate. Wine Spectator named the 2018 vintage its 2023 Wine of the Year (scored 95 points). Source: argiano.net and Wine Spectator Top 100 archive.",
+      "editorial_score": 4.9,
+      "description": "Argiano's annata Brunello. The 2018 vintage was named Wine Spectator's 2023 Wine of the Year (95 points), the first Italian wine to claim the title in two decades.",
+      "verified": {
+        "source_url": "https://www.argiano.net/en/",
+        "open_status": "open",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "fontodi-flaccianello-della-pieve",
+      "name": "Fontodi Flaccianello della Pieve",
+      "producer": "fontodi",
+      "varietals": [
+        "Sangiovese"
+      ],
+      "style": "still red pure Sangiovese Super Tuscan",
+      "vintage_range": "approachable from 5 to 10 years, cellar 20 to 30",
+      "price_band": "EUR 80 to 130 at retail",
+      "tasting_notes": "Black cherry, violet, Mediterranean herbs and graphite with dark plum and balsamic depth. Source: fontodi.com and Wine Advocate 98 points 2019 vintage (Monica Larner, February 2023).",
+      "editorial_score": 4.9,
+      "description": "Giovanni Manetti's flagship pure Sangiovese Toscana IGT from the Conca d'Oro at Panzano. Helped legitimise 100 percent Sangiovese as a Super Tuscan idiom.",
+      "verified": {
+        "source_url": "https://www.fontodi.com/en/",
+        "open_status": "open",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "tua-rita-redigaffi",
+      "name": "Tua Rita Redigaffi",
+      "producer": "tua-rita",
+      "varietals": [
+        "Merlot"
+      ],
+      "style": "still red 100 percent Suvereto Merlot",
+      "vintage_range": "approachable from 10 to 12 years, cellar 20 to 30",
+      "price_band": "EUR 200 to 350 at retail",
+      "tasting_notes": "Black cherry, graphite, violet and sweet cedar over polished oak. Source: tuarita.it and Wine Advocate 100 points 2000 vintage.",
+      "editorial_score": 4.8,
+      "description": "Tua Rita's cult 100 percent Merlot from Suvereto. The 2000 vintage was awarded 100 points by Wine Advocate, putting the Val di Cornia on the world map.",
+      "verified": {
+        "source_url": "https://www.tuarita.it/en/",
+        "open_status": "open",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "avignonesi-occhio-di-pernice",
+      "name": "Avignonesi Occhio di Pernice Vin Santo",
+      "producer": "avignonesi",
+      "varietals": [
+        "Sangiovese (Prugnolo Gentile)"
+      ],
+      "style": "dessert passito Vin Santo from Sangiovese",
+      "vintage_range": "approachable on release, cellar 15 to 30",
+      "price_band": "EUR 250 to 500 per 375ml at retail",
+      "tasting_notes": "Dried fig, tamarind, walnut, candied orange and burnt caramel with rancio depth. Raisined Sangiovese aged 10 plus years in caratelli. Source: avignonesi.it.",
+      "editorial_score": 4.9,
+      "description": "The cult Vin Santo. Raisined Sangiovese aged 10 plus years in caratelli; widely considered Italy's most ambitious sweet wine. The Saverys Demeter-biodynamic.",
+      "verified": {
+        "source_url": "https://www.avignonesi.it/en/",
+        "open_status": "open",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "le-pergole-torte",
+      "name": "Le Pergole Torte",
+      "producer": "montevertine",
+      "varietals": [
+        "Sangiovese"
+      ],
+      "style": "still red pure Sangiovese Toscana IGT",
+      "vintage_range": "approachable from 8 to 10 years, cellar 20 to 30",
+      "price_band": "EUR 200 to 350 at retail",
+      "tasting_notes": "Red cherry, rose petal and dried herbs over a tobacco-and-iron core; very long, linear finish. Source: montevertine.it. The first pure Sangiovese vinified in the Chianti zone, released 1977.",
+      "editorial_score": 4.9,
+      "description": "Sergio Manetti's pioneering pure-Sangiovese Toscana IGT, first released 1977 from Radda in Chianti. The canonical IGT-by-choice Sangiovese.",
+      "verified": {
+        "source_url": "https://www.montevertine.it/le-pergole-torte/",
+        "open_status": "open",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "galatrona",
+      "name": "Petrolo Galatrona",
+      "producer": "petrolo",
+      "varietals": [
+        "Merlot"
+      ],
+      "style": "still red 100 percent Val d'Arno di Sopra DOC Merlot",
+      "vintage_range": "approachable from 8 to 12 years, cellar 18 to 25",
+      "price_band": "EUR 130 to 220 at retail",
+      "tasting_notes": "Black cherry, blackberry and violet over a graphite-iron mineral spine. Source: petrolo.it. Italy's reference 100 percent Merlot away from Bolgheri; first released 1994.",
+      "editorial_score": 4.9,
+      "description": "Petrolo's Val d'Arno di Sopra DOC Galatrona: 100 percent Merlot from the 10-hectare blue-clay parcel at Mercatale Valdarno. First vintage 1994.",
+      "verified": {
+        "source_url": "https://www.petrolo.it/en/galatrona/",
+        "open_status": "open",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "poggio-di-sotto-brunello-riserva",
+      "name": "Poggio di Sotto Brunello di Montalcino Riserva",
+      "producer": "poggio-di-sotto",
+      "varietals": [
+        "Sangiovese Grosso"
+      ],
+      "style": "still red Brunello di Montalcino DOCG Riserva",
+      "vintage_range": "approachable from 12 to 15 years, cellar 25 to 40",
+      "price_band": "EUR 400 to 700 at retail",
+      "tasting_notes": "Dried cherry, rose petal, leather and dried fig with iron and balsamic depth; very long finish. Source: poggiodisotto.it and Wine Advocate 98 points 2015 vintage. Released only in exceptional vintages.",
+      "editorial_score": 4.9,
+      "description": "Poggio di Sotto's Brunello Riserva from Castelnuovo dell'Abate, around 60 months in large Slavonian botti. Released only in exceptional vintages; ColleMassari Group-owned since 2011.",
+      "verified": {
+        "source_url": "https://www.poggiodisotto.it/",
+        "open_status": "open",
+        "checked_on": "2026-05-23"
+      }
+    }
+  ]
 }

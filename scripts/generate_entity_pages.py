@@ -353,7 +353,19 @@ def build_entity_context(
         facts.append(entity["classification"])
     if entity.get("varietals"):
         _v = entity["varietals"]
-        facts.append(", ".join(_v) if isinstance(_v, list) else str(_v))
+        if isinstance(_v, list):
+            _parts = []
+            for _item in _v:
+                if isinstance(_item, str):
+                    _parts.append(_item)
+                elif isinstance(_item, dict):
+                    _g = _item.get("grape") or _item.get("name") or _item.get("varietal")
+                    if _g:
+                        _parts.append(str(_g))
+            if _parts:
+                facts.append(", ".join(_parts))
+        else:
+            facts.append(str(_v))
     if entity.get("cuisine"):
         facts.append(entity["cuisine"])
     if entity.get("neighborhood"):

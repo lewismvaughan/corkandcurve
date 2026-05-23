@@ -1,3 +1,232 @@
 {
-  "wine_bars": []
+  "wine_bars": [
+    {
+      "slug": "il-santino-florence",
+      "name": "Il Santino",
+      "address": "Via di Santo Spirito 60R, 50125 Firenze, Italy",
+      "neighborhood": "Santo Spirito, Florence",
+      "wine_program": "200 mostly Tuscan labels with rotating six reds and six whites by the glass, sourced from small under-the-radar producers; complimentary snack with each pour",
+      "glass_count": 12,
+      "signature_pours": ["Chianti Classico", "Sangiovese Toscana IGT", "Bolgheri Superiore"],
+      "description": "Tiny Santo Spirito wine bar in a former cellar, sister venue to Il Santo Bevitore next door. Tuscan-favoured list with small artisan producers; standing-room counter and a handful of bar stools.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://il-santino.placejoys.com/",
+        "address_quoted": "Via di Santo Spirito 60R, Firenze",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187895-d1231781-Reviews-Il_Santino-Florence_Tuscany.html",
+        "cuisine_evidence_url": "https://www.yelp.com/biz/il-santino-firenze",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "pitti-gola-cantina",
+      "name": "Enoteca Pitti Gola e Cantina",
+      "address": "Piazza Pitti 16, 50125 Firenze, Italy",
+      "neighborhood": "Oltrarno, Florence",
+      "wine_program": "Hand-selected small-production Tuscan-led list with high-end vertical verticals available; structured tasting menus pair courses with wine across all price tiers",
+      "glass_count": 20,
+      "signature_pours": ["Brunello di Montalcino", "Chianti Classico Gran Selezione", "Bolgheri Superiore"],
+      "description": "Wine shop and bar facing the Pitti Palace, focused on small-production handcrafted Tuscan wines. Tasting menus engineered around the bottle list; dinner service runs to 22:30.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/Restaurant_Review-g187895-d896746-Reviews-Enoteca_Pitti_Gola_e_Cantina-Florence_Tuscany.html",
+        "address_quoted": "Piazza de' Pitti 16, Firenze",
+        "open_status": "open",
+        "open_evidence_url": "https://www.yelp.com/biz/enoteca-pitti-gola-e-cantina-firenze",
+        "cuisine_evidence_url": "https://www.firenzemadeintuscany.com/en/place/pitti-gola-e-cantina/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "casa-del-vino-florence",
+      "name": "Casa del Vino",
+      "address": "Via dell'Ariento 16R, 50123 Firenze, Italy",
+      "neighborhood": "San Lorenzo, Florence",
+      "wine_program": "Florence's oldest operating wine shop with 25 bottles open daily; Tuscan-heavy by-the-glass list rotating with seasonal selections from grower producers",
+      "glass_count": 25,
+      "signature_pours": ["Chianti Rufina", "Tuscan house wine carafe", "Vin Santo del Chianti"],
+      "description": "Behind the San Lorenzo market under a colonnade, this 19th-century enoteca is run by the Migliorini family in its fourth generation. Wine by the glass alongside crostini and made-to-order panini.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://attivitastoriche.destinationflorence.com/en/attivita_storiche/casa-del-vino/",
+        "address_quoted": "Via dell'Ariento 16R, Firenze",
+        "open_status": "open",
+        "open_evidence_url": "https://www.yelp.com/biz/casa-del-vino-firenze",
+        "cuisine_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187895-d1088249-Reviews-Casa_del_Vino-Florence_Tuscany.html",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "locale-firenze",
+      "name": "Locale Firenze",
+      "address": "Via delle Seggiole 12, 50122 Firenze, Italy",
+      "neighborhood": "Centro Storico, Florence",
+      "wine_program": "Sommelier-prescribed pairing programme with deep Tuscan verticals plus international cellar; bar manager Fabio Fanni leads a parallel low-waste cocktail menu",
+      "glass_count": 35,
+      "signature_pours": ["Tuscan Cabernet Sauvignon blends", "Chianti Classico Riserva", "Super Tuscan IGT"],
+      "description": "Inside the 13th-century Palazzo Concini with multiple floors including a Renaissance courtyard. Ranked 22 on World's 50 Best Bars 2025; sommelier-led pairings alongside cocktail bar programme.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.yelp.com/biz/locale-firenze",
+        "address_quoted": "Via delle Seggiole 12, Firenze",
+        "open_status": "open",
+        "open_evidence_url": "https://www.theworlds50best.com/bars/the-list/locale-firenze.html",
+        "cuisine_evidence_url": "https://www.thedrinksbusiness.com/2025/03/wine-list-of-the-week-locale-firenze/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "enoteca-grotta-del-brunello",
+      "name": "Enoteca Grotta del Brunello",
+      "address": "Via Mazzini 24, 53024 Montalcino, Italy",
+      "neighborhood": "Brunello di Montalcino",
+      "wine_program": "Brunello-specialist list with 200+ labels covering every producer in the consortium; verticals available by reservation and food-pairing platters from Tuscan producers",
+      "glass_count": 25,
+      "signature_pours": ["Brunello di Montalcino Riserva", "Rosso di Montalcino", "Vino Nobile di Montepulciano"],
+      "description": "Run by Marco Capitoni since 1985 in the heart of Montalcino, with vaulted cellar tasting rooms below the shop. Pairings of Brunello with sliced pici, cinghiale and pecorino di Pienza.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.grottadelbrunello.it/",
+        "address_quoted": "Via Mazzini 24, Montalcino",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g635634-d3381977-Reviews-Enoteca_Grotta_del_Brunello-Montalcino_Tuscany.html",
+        "cuisine_evidence_url": "https://www.grottadelbrunello.it/enoteca",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "enoteca-oltre-il-vino-montepulciano",
+      "name": "Locanda San Francesco Enoteca",
+      "address": "Via San Francesco 5, 53045 Montepulciano, Italy",
+      "neighborhood": "Vino Nobile di Montepulciano",
+      "wine_program": "Vino Nobile di Montepulciano-led list of 150 labels with comprehensive vintage depth; producer flights weekly; food-friendly bistrot adjacent",
+      "glass_count": 20,
+      "signature_pours": ["Vino Nobile di Montepulciano Riserva", "Rosso di Montepulciano", "Vin Santo di Montepulciano"],
+      "description": "Wine bistrot on the historic centre's edge with a Vino Nobile-focused list across the consortium. Producer-led tastings and structured vertical flights in the vaulted cellar below.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://locandasanfrancesco.it/enoteca-winebistrot/?lang=en",
+        "address_quoted": "Via San Francesco 5, Montepulciano",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attractions-g194833-Activities-c20-t206-Montepulciano_Tuscany.html",
+        "cuisine_evidence_url": "https://locandasanfrancesco.it/enoteca-winebistrot/?lang=en",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "fuori-porta-florence",
+      "name": "Fuori Porta",
+      "address": "Via del Monte alle Croci 10R, 50125 Firenze, Italy",
+      "neighborhood": "San Niccolo, Florence",
+      "wine_program": "650-bottle Tuscan-anchored list with deep verticals of Brunello, Chianti Classico and Bolgheri; sommelier rotation of 30 by-the-glass selections",
+      "glass_count": 30,
+      "signature_pours": ["Brunello di Montalcino", "Bolgheri Superiore", "Chianti Classico Gran Selezione"],
+      "description": "Long-running San Niccolo enoteca with a 650-label cellar leaning hard on Tuscan classics. Crostoni and pasta plates designed to anchor the by-the-glass menu; terrace below the medieval gate.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.fuoriporta.it/",
+        "address_quoted": "Via del Monte alle Croci 10R, Firenze",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187895-d695658-Reviews-Fuori_Porta-Florence_Tuscany.html",
+        "cuisine_evidence_url": "https://www.eatingeurope.com/blog/wine-bars-in-florence/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "enoteca-alla-vecchia-bettola",
+      "name": "Enoteca Alla Vecchia Bettola",
+      "address": "Viale Vasco Pratolini 3-7R, 50124 Firenze, Italy",
+      "neighborhood": "San Frediano, Florence",
+      "wine_program": "Tuscan-anchored 200-label list with rotating producer tastings; classic by-the-glass programme of Chianti Classico and Vino Nobile",
+      "glass_count": 18,
+      "signature_pours": ["Chianti Classico", "Vino Nobile di Montepulciano", "Vermentino di Maremma"],
+      "description": "San Frediano neighbourhood wine bar with marble counter and barrel-table seating. Famed for its house carafe Chianti and a deeper bottle list curated by the Latini family.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/Restaurant_Review-g187895-d800050-Reviews-Enoteca_Alla_Vecchia_Bettola-Florence_Tuscany.html",
+        "address_quoted": "Viale Vasco Pratolini, 3-7R",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187895-d800050-Reviews-Enoteca_Alla_Vecchia_Bettola-Florence_Tuscany.html",
+        "cuisine_evidence_url": "https://www.eatingeurope.com/blog/wine-bars-in-florence/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "antica-enoteca-rinaldi-siena",
+      "name": "Antica Enoteca Rinaldi",
+      "address": "Via Pianigiani 9, 53100 Siena, Italy",
+      "neighborhood": "Siena historic centre",
+      "wine_program": "300-label Tuscan list with vertical depth in Chianti Classico, Brunello and Vino Nobile; sommelier-led producer flights weekly",
+      "glass_count": 22,
+      "signature_pours": ["Chianti Colli Senesi", "Brunello di Montalcino", "Sangiovese Toscana IGT"],
+      "description": "A Siena institution off Piazza del Campo with vaulted cellar seating and a long marble pouring counter. Producer flights every Friday; pairing boards from Tuscan cured meats and pecorino.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/Restaurant_Review-g187902-d1188891-Reviews-Antica_Enoteca_Rinaldi-Siena_Tuscany.html",
+        "address_quoted": "Via Pianigiani 9, Siena",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187902-d1188891-Reviews-Antica_Enoteca_Rinaldi-Siena_Tuscany.html",
+        "cuisine_evidence_url": "https://www.visitsiena.it/en/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "enoteca-tognoni-bolgheri",
+      "name": "Enoteca Tognoni",
+      "address": "Via Lauretta 5, 57020 Bolgheri, Italy",
+      "neighborhood": "Bolgheri",
+      "wine_program": "Bolgheri-specialist list with the full classified producer roster including Sassicaia, Ornellaia, Masseto, Le Macchiole and Grattamacco; vertical flights by reservation",
+      "glass_count": 20,
+      "signature_pours": ["Bolgheri Superiore DOC", "Sassicaia", "Toscana IGT"],
+      "description": "The village wine bar of Bolgheri, established 1965 just off the Cypress Avenue. Full Bolgheri DOC roster on bottle and a long-standing relationship with the founding producers of the appellation.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.enotecatognoni.it/",
+        "address_quoted": "Via Lauretta 5, Bolgheri",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g1214835-d1117648-Reviews-Enoteca_Tognoni-Bolgheri_Castagneto_Carducci_Province_of_Livorno_Tuscany.html",
+        "cuisine_evidence_url": "https://www.bolgheridoc.com/en/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "il-toscanaccio-greve-chianti",
+      "name": "Il Toscanaccio Wine Bar",
+      "address": "Piazza Matteotti 50, 50022 Greve in Chianti, Italy",
+      "neighborhood": "Chianti Classico",
+      "wine_program": "Chianti Classico-led list of 250 producers with by-the-glass selections across Greve and Panzano area estates; tasting flights of 3 to 6 wines",
+      "glass_count": 18,
+      "signature_pours": ["Chianti Classico Gran Selezione", "Sangiovese di Greve", "Vin Santo del Chianti Classico"],
+      "description": "Tasting bar on Greve's central piazza specialising in producers from the Greve and Panzano sub-zones. Sommelier-curated flights match Chianti Classico tiers with classic Tuscan pairing plates.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/Restaurant_Review-g580240-d3573528-Reviews-Il_Toscanaccio-Greve_in_Chianti_Tuscany.html",
+        "address_quoted": "Piazza Matteotti, Greve in Chianti",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g580240-d3573528-Reviews-Il_Toscanaccio-Greve_in_Chianti_Tuscany.html",
+        "cuisine_evidence_url": "https://www.chianticlassico.com/en/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "divinarium-san-gimignano",
+      "name": "DiVinorum Wine Bar",
+      "address": "Via degli Innocenti 5, 53037 San Gimignano, Italy",
+      "neighborhood": "Vernaccia di San Gimignano",
+      "wine_program": "Vernaccia-specialist list with full DOCG producer roster plus San Gimignano Rosso and Toscana IGT; flights of Vernaccia from different sub-zones available",
+      "glass_count": 22,
+      "signature_pours": ["Vernaccia di San Gimignano DOCG", "San Gimignano Rosso DOC", "Vin Santo San Gimignano"],
+      "description": "San Gimignano wine bar focused on Vernaccia di San Gimignano DOCG and the surrounding red appellations. Vaulted cellar room with a structured glass and bottle programme.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/Restaurant_Review-g187901-d4035263-Reviews-DiVinorum_Wine_Bar-San_Gimignano_Tuscany.html",
+        "address_quoted": "Via degli Innocenti, San Gimignano",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187901-d4035263-Reviews-DiVinorum_Wine_Bar-San_Gimignano_Tuscany.html",
+        "cuisine_evidence_url": "https://www.lonelyplanet.com/italy/tuscany/san-gimignano/attractions/vernaccia-di-san-gimignano-wine-experience/a/poi-sig/471954/360052",
+        "checked_on": "2026-05-23"
+      }
+    }
+  ]
 }

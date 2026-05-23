@@ -1,3 +1,257 @@
 {
-  "wine_restaurants": []
+  "wine_restaurants": [
+    {
+      "slug": "enoteca-pinchiorri",
+      "name": "Enoteca Pinchiorri",
+      "address": "Via Ghibellina 87, 50122 Firenze, Italy",
+      "neighborhood": "Santa Croce, Florence",
+      "cuisine": "Modern Tuscan haute cuisine; tasting menus engineered around the cellar; pairing menus across five continents of wines",
+      "cellar_size": 100000,
+      "awards": [
+        { "source": "Michelin", "year": 2024 },
+        { "source": "World's 50 Best Discovery", "year": 2024 }
+      ],
+      "description": "Three-Michelin-starred icon founded 1972 by Annie Feolde and Giorgio Pinchiorri, with a cellar of 100,000 bottles across 4,000 labels. Set in a 17th-century palazzo with formal dining and pairing menus from the cellar.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://guide.michelin.com/us/en/toscana/firenze/restaurant/enoteca-pinchiorri",
+        "address_quoted": "Via Ghibellina, 87, 50122 Firenze",
+        "open_status": "open",
+        "open_evidence_url": "https://www.theworlds50best.com/discovery/Establishments/Italy/Florence/Enoteca-Pinchiorri.html",
+        "cuisine_evidence_url": "https://www.yelp.com/biz/enoteca-pinchiorri-firenze",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "osteria-di-passignano",
+      "name": "Osteria di Passignano",
+      "address": "Via di Passignano 33, 50028 Badia a Passignano, Tavarnelle Val di Pesa, Italy",
+      "neighborhood": "Chianti Classico",
+      "cuisine": "Modern Tuscan menus driven by the Antinori estate kitchen garden and the abbey cellars; comprehensive Antinori vertical programme",
+      "cellar_size": 4000,
+      "awards": [
+        { "source": "Michelin", "year": 2024 }
+      ],
+      "description": "Michelin-starred restaurant within the medieval Badia a Passignano abbey, run by the Antinori family. Chef Matteo Lorenzini's Tuscan menus pair against the abbey's 10th-century cellars; guided pairings from Tignanello and Solaia verticals.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.antinori.it/en/experience/osteria-di-passignano-restaurant/",
+        "address_quoted": "Via Passignano 33, Badia a Passignano",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g670654-d1065564-Reviews-Osteria_di_Passignano-Tavarnelle_Val_di_Pesa_Barberino_Tavarnellle_Tuscany.html",
+        "cuisine_evidence_url": "https://guide.michelin.com/us/en/toscana/badia-a-passignano/restaurant/osteria-di-passignano",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "officina-della-bistecca-cecchini",
+      "name": "Officina della Bistecca",
+      "address": "Via XX Luglio 11, 50022 Panzano in Chianti, Italy",
+      "neighborhood": "Chianti Classico",
+      "cuisine": "Whole-animal beef tasting menus by butcher-chef Dario Cecchini; communal seating with Chianti Classico-led pairing programme",
+      "cellar_size": 250,
+      "awards": [
+        { "source": "Netflix Chef's Table", "year": 2019 }
+      ],
+      "description": "Upstairs from the Antica Macelleria Cecchini in Panzano, with one long communal table. Butcher-chef Dario Cecchini's fixed-format beef menu paired with grower Chianti Classico from the surrounding hills.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.dariocecchini.com/officina/?lang=en",
+        "address_quoted": "Via XX Luglio, 11, 50022 Panzano In Chianti FI",
+        "open_status": "open",
+        "open_evidence_url": "https://www.yelp.com/biz/officina-della-bistecca-panzano-in-chianti",
+        "cuisine_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g635878-d1495001-Reviews-Officina_Della_Bistecca-Panzano_in_Chianti_Greve_in_Chianti_Tuscany.html",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "il-latini-florence",
+      "name": "Il Latini",
+      "address": "Via dei Palchetti 6R, 50123 Firenze, Italy",
+      "neighborhood": "Centro Storico, Florence",
+      "cuisine": "Classical Tuscan trattoria; Florentine steak and ribollita with Tuscan-anchored wine list across Super Tuscan and Chianti Classico labels",
+      "cellar_size": 1200,
+      "awards": [
+        { "source": "Michelin Guide", "year": 2024 }
+      ],
+      "description": "Family-run Tuscan institution founded 1911 on Via dei Palchetti, now in its fourth generation in the Palazzo Rucellai. House Sangiovese carafes alongside a serious Super Tuscan cellar.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://latinifirenze.com/en/",
+        "address_quoted": "Via dei Palchetti, 6/R",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187895-d1088252-Reviews-Il_Latini-Florence_Tuscany.html",
+        "cuisine_evidence_url": "https://latinifirenze.com/en/the-cellar/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "cibreo-ristorante-florence",
+      "name": "Cibreo Ristorante",
+      "address": "Via del Verrocchio 8R, 50122 Firenze, Italy",
+      "neighborhood": "Sant'Ambrogio, Florence",
+      "cuisine": "Tuscan-driven menus from chef Fabio Picchi; rotating Tuscan-anchored cellar list with deep Chianti Classico and Sangiovese verticals",
+      "cellar_size": 800,
+      "awards": [
+        { "source": "Michelin Guide", "year": 2024 }
+      ],
+      "description": "Founded in the 1980s by Fabio Picchi, anchored on traditional Tuscan ingredients from the Sant'Ambrogio market. The list pairs against rustic dishes including ribollita, peposo and trippa alla fiorentina.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://cibreo.com/accademia",
+        "address_quoted": "Via del Verrocchio",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187895-d696511-Reviews-Cibreo_Ristorante-Florence_Tuscany.html",
+        "cuisine_evidence_url": "https://toscanasecrets.com/en/rustic/cibreo-ristorante-firenze/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "la-bottega-del-30-villa-castelnuovo",
+      "name": "La Bottega del 30",
+      "address": "Via di Santa Caterina 2, 53019 Villa a Sesta, Castelnuovo Berardenga, Italy",
+      "neighborhood": "Chianti Classico",
+      "cuisine": "Refined Tuscan tasting menus driven by garden produce; cellar weighted toward Chianti Classico and Brunello di Montalcino verticals",
+      "cellar_size": 600,
+      "awards": [
+        { "source": "Michelin", "year": 2024 }
+      ],
+      "description": "Michelin-starred Chianti Classico restaurant in the hamlet of Villa a Sesta, owned by chef Helene Stoquelet. Tuscan tasting menus paired with growers from neighbouring estates Felsina and Castell'in Villa.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.labottegadel30.it/en/",
+        "address_quoted": "Via di Santa Caterina 2, 53019 Villa a Sesta",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g1188317-d1009244-Reviews-La_Bottega_del_30-Castelnuovo_Berardenga_Province_of_Siena_Tuscany.html",
+        "cuisine_evidence_url": "https://guide.michelin.com/us/en/toscana/villa-a-sesta/restaurant/la-bottega-del-30",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "buca-dell-orafo-florence",
+      "name": "Buca dell'Orafo",
+      "address": "Volta dei Girolami 28R, 50122 Firenze, Italy",
+      "neighborhood": "Ponte Vecchio, Florence",
+      "cuisine": "Traditional Florentine cuisine in a 13th-century palazzo cellar; Tuscan-led wine list anchored by Chianti and grower Sangiovese",
+      "cellar_size": 400,
+      "awards": [
+        { "source": "Michelin Guide", "year": 2024 }
+      ],
+      "description": "Florentine buca since 1945 in a vaulted goldsmith's cellar by the Ponte Vecchio. Signature ribollita and artichoke frittata paired from a Tuscan-led cellar built across grower Chianti Classico and Vin Santo.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.firenzemadeintuscany.com/en/place/buca-dell-orafo/",
+        "address_quoted": "Volta dei Girolami 28r",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187895-d1088155-Reviews-Buca_dell_Orafo-Florence_Tuscany.html",
+        "cuisine_evidence_url": "https://www.firenzeyesplease.com/en/post/buca-dellorafo",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "il-poggio-rosso-borgo-san-felice",
+      "name": "Il Poggio Rosso",
+      "address": "Localita San Felice, 53019 Castelnuovo Berardenga, Italy",
+      "neighborhood": "Chianti Classico",
+      "cuisine": "Modern Tuscan gourmet menus driven by the San Felice estate; pairing menu mining the 500-label cellar across Tuscan classics",
+      "cellar_size": 500,
+      "awards": [
+        { "source": "Michelin", "year": 2024 }
+      ],
+      "description": "Michelin-starred restaurant inside Borgo San Felice in Castelnuovo Berardenga, with a 500-label cellar built around Chianti Classico Riserva and the San Felice Vigorello Super Tuscan.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.sanfelice.com/en",
+        "address_quoted": "Castelnuovo Berardenga",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Hotel_Review-g652035-d275917-Reviews-Hotel_Borgo_San_Felice-Castelnuovo_Berardenga_Tuscany.html",
+        "cuisine_evidence_url": "https://guide.michelin.com/us/en/hotels-stays/Castelnuovo-Berardenga/borgo-san-felice-resort-7244",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "la-sala-dei-grappoli-banfi",
+      "name": "La Sala dei Grappoli",
+      "address": "Castello di Poggio alle Mura 1, 53024 Montalcino, Italy",
+      "neighborhood": "Brunello di Montalcino",
+      "cuisine": "Refined modern Tuscan cuisine with menus paired entirely from the Banfi estate cellar plus producer rotation across Brunello consortium",
+      "cellar_size": 1500,
+      "awards": [
+        { "source": "Michelin Guide", "year": 2024 }
+      ],
+      "description": "Castello Banfi's flagship restaurant inside the 14th-century castle at Poggio alle Mura. Estate-driven menus from chef Domenico Francone, paired exclusively from Banfi and curated Brunello producer verticals.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.banfi.it/eng/hotel-il-borgo/",
+        "address_quoted": "Castello di Poggio alle Mura, 1, Montalcino, Italy 53024",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Hotel_Review-g635634-d648286-Reviews-Castello_Banfi_Il_Borgo-Montalcino_Tuscany.html",
+        "cuisine_evidence_url": "https://www.banfi.it/eng/tasting-tours/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "campo-del-drago-castiglion-del-bosco",
+      "name": "Campo del Drago",
+      "address": "Localita Castiglion del Bosco, 53024 Montalcino, Italy",
+      "neighborhood": "Brunello di Montalcino",
+      "cuisine": "Modern Tuscan haute cuisine; pairing menus from the Castiglion del Bosco Brunello vertical plus consortium roster",
+      "cellar_size": 1200,
+      "awards": [
+        { "source": "Michelin", "year": 2024 }
+      ],
+      "description": "Michelin-starred restaurant at Rosewood Castiglion del Bosco. Menus driven by Val d'Orcia produce, paired with the estate Brunello di Montalcino verticals across multiple vintages.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.rosewoodhotels.com/en/castiglion-del-bosco",
+        "address_quoted": "Castiglion del Bosco",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Hotel_Review-g635634-d1147343-Reviews-Castiglion_del_Bosco_A_Rosewood_Hotel-Montalcino_Tuscany.html",
+        "cuisine_evidence_url": "https://m.rosewoodhotels.com/en/castiglion-del-bosco/experiences/winery",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "trattoria-enrico-bartolini-landana",
+      "name": "Trattoria Enrico Bartolini at L'Andana",
+      "address": "Localita Badiola, 58043 Castiglione della Pescaia, Italy",
+      "neighborhood": "Maremma",
+      "cuisine": "Modern Maremma cuisine from Enrico Bartolini's kitchen team; pairing programme of Maremma DOC reds and Bolgheri Superiore",
+      "cellar_size": 1500,
+      "awards": [
+        { "source": "Michelin", "year": 2024 }
+      ],
+      "description": "Michelin-starred restaurant at L'Andana resort in the Maremma. Menus driven by hyper-local Maremma produce paired with the Acquagiusta estate plus Bolgheri and Morellino di Scansano producer verticals.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.andana.it/en/",
+        "address_quoted": "Castiglione della Pescaia",
+        "open_status": "open",
+        "open_evidence_url": "https://www.lhw.com/hotel/LAndana-Resort-Castiglione-della-Pescaia-Italy",
+        "cuisine_evidence_url": "https://www.andana.it/en/tuscany/experience/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "osteria-cinghiale-bianco-florence",
+      "name": "Osteria del Cinghiale Bianco",
+      "address": "Borgo San Jacopo 43R, 50125 Firenze, Italy",
+      "neighborhood": "Oltrarno, Florence",
+      "cuisine": "Tuscan trattoria menus driven by wild boar specialties; Chianti Classico and Bolgheri pairing programme",
+      "cellar_size": 350,
+      "awards": [
+        { "source": "Michelin Guide", "year": 2024 }
+      ],
+      "description": "Set inside a 14th-century tower on Borgo San Jacopo with vaulted stone dining rooms. Pappardelle al cinghiale and Tuscan ragu paired against a 350-label cellar of Chianti Classico and Bolgheri reds.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.cinghialebianco.net/en-gb",
+        "address_quoted": "Borgo San Jacopo",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187895-d1058852-Reviews-Osteria_del_Cinghiale_Bianco-Florence_Tuscany.html",
+        "cuisine_evidence_url": "https://wanderlog.com/place/details/378770/osteria-del-cinghiale-bianco",
+        "checked_on": "2026-05-23"
+      }
+    }
+  ]
 }

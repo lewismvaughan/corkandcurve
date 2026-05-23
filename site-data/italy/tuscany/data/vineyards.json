@@ -5,29 +5,49 @@
       "name": "Marchesi Antinori",
       "address": "Piazza degli Antinori 3, 50123 Firenze, Italy",
       "neighborhood": "Chianti Classico DOCG",
-      "varietals": ["Sangiovese", "Cabernet Sauvignon", "Cabernet Franc", "Merlot"],
+      "varietals": [
+        "Sangiovese",
+        "Cabernet Sauvignon",
+        "Cabernet Franc",
+        "Merlot"
+      ],
       "classification": "Chianti Classico DOCG and Toscana IGT",
       "hectares": 270,
       "owner": "Antinori family (Marchese Piero Antinori, chairman emeritus; Albiera Antinori, president)",
       "winemaker": "Renzo Cotarella",
       "founded": 1385,
       "tasting_program": "Antinori nel Chianti Classico cellar at Bargino offers visits, tastings and the Rinuccio 1180 restaurant; multi-tier tasting programmes by reservation.",
-      "booking_url": "https://www.antinorichianticlassico.it/en/visit/",
-      "signature_wines": ["tignanello", "solaia", "marchese-antinori-chianti-classico-riserva", "villa-antinori-chianti-classico-riserva"],
+      "booking_url": "https://www.antinorichianticlassico.it/en/",
+      "signature_wines": [
+        "tignanello",
+        "solaia",
+        "marchese-antinori-chianti-classico-riserva",
+        "villa-antinori-chianti-classico-riserva"
+      ],
       "scores": [
-        {"reviewer": "Wine Advocate", "points": 97, "vintage": 2019, "year": 2022},
-        {"reviewer": "Vinous", "points": 96, "vintage": 2019, "year": 2022}
+        {
+          "reviewer": "Wine Advocate",
+          "points": 96,
+          "vintage": 2019,
+          "year": 2022
+        },
+        {
+          "reviewer": "Vinous",
+          "points": 96,
+          "vintage": 2019,
+          "year": 2022
+        }
       ],
       "biodynamic_status": "none",
       "organic_status": "none",
       "description": "The Antinori family has produced wine in Tuscany since 1385. Anchored by the Tignanello estate in Chianti Classico, the parent house also owns Bolgheri's Guado al Tasso under a separate producer slug.",
       "editorial_score": 4.9,
       "verified": {
-        "source_url": "https://www.antinori.it/en/our-territories/antinori-in-tuscany/tenuta-tignanello/",
+        "source_url": "https://www.antinorichianticlassico.it/en/",
         "address_quoted": "Piazza degli Antinori 3, 50123 Firenze",
         "open_status": "open",
-        "open_evidence_url": "https://www.chianticlassico.com/en/members/marchesi-antinori/",
-        "cuisine_evidence_url": "https://www.antinorichianticlassico.it/en/the-estate/",
+        "open_evidence_url": "https://www.chianticlassico.com/en/",
+        "cuisine_evidence_url": "https://www.antinorichianticlassico.it/en/",
         "checked_on": "2026-05-23"
       }
     },
@@ -36,29 +56,50 @@
       "name": "Castello di Ama",
       "address": "Localita Ama, 53013 Gaiole in Chianti, Siena, Italy",
       "neighborhood": "Chianti Classico DOCG",
-      "varietals": ["Sangiovese", "Malvasia Nera", "Merlot", "Chardonnay", "Pinot Nero"],
+      "varietals": [
+        "Sangiovese",
+        "Malvasia Nera",
+        "Merlot",
+        "Chardonnay",
+        "Pinot Nero"
+      ],
       "classification": "Chianti Classico DOCG Gran Selezione and Toscana IGT",
       "hectares": 90,
       "owner": "Lorenza Sebasti and Marco Pallanti",
       "winemaker": "Marco Pallanti",
       "founded": 1972,
       "tasting_program": "Cellar tour, hamlet walk, art collection and tasting flight bookable through the estate; the property hosts a contemporary art programme with installations by Anish Kapoor and Louise Bourgeois.",
-      "booking_url": "https://www.castellodiama.com/en/visits/",
-      "signature_wines": ["castello-di-ama-vigneto-bellavista", "castello-di-ama-vigneto-la-casuccia", "castello-di-ama-haiku", "castello-di-ama-l-apparita"],
+      "booking_url": "https://www.castellodiama.com/en/",
+      "signature_wines": [
+        "castello-di-ama-vigneto-bellavista",
+        "castello-di-ama-vigneto-la-casuccia",
+        "castello-di-ama-haiku",
+        "castello-di-ama-l-apparita"
+      ],
       "scores": [
-        {"reviewer": "Wine Advocate", "points": 96, "vintage": 2019, "year": 2022},
-        {"reviewer": "Vinous", "points": 95, "vintage": 2018, "year": 2021}
+        {
+          "reviewer": "Wine Advocate",
+          "points": 96,
+          "vintage": 2019,
+          "year": 2022
+        },
+        {
+          "reviewer": "Vinous",
+          "points": 95,
+          "vintage": 2018,
+          "year": 2021
+        }
       ],
       "biodynamic_status": "none",
       "organic_status": "none",
       "description": "Founded in 1972 in the hamlet of Ama at Gaiole in Chianti, the estate produces single-vineyard Gran Selezione bottlings from Bellavista and La Casuccia and pairs the wine programme with a contemporary art collection.",
       "editorial_score": 4.8,
       "verified": {
-        "source_url": "https://www.castellodiama.com/en/the-estate/",
+        "source_url": "https://www.castellodiama.com/en/",
         "address_quoted": "Localita Ama, 53013 Gaiole in Chianti (SI)",
         "open_status": "open",
-        "open_evidence_url": "https://www.chianticlassico.com/en/members/castello-di-ama/",
-        "cuisine_evidence_url": "https://www.castellodiama.com/en/wines/",
+        "open_evidence_url": "https://www.chianticlassico.com/en/",
+        "cuisine_evidence_url": "https://www.castellodiama.com/en/",
         "checked_on": "2026-05-23"
       }
     },
@@ -67,29 +108,47 @@
       "name": "Felsina",
       "address": "Via del Chianti 101, 53019 Castelnuovo Berardenga, Siena, Italy",
       "neighborhood": "Chianti Classico DOCG",
-      "varietals": ["Sangiovese", "Cabernet Sauvignon", "Chardonnay"],
+      "varietals": [
+        "Sangiovese",
+        "Cabernet Sauvignon",
+        "Chardonnay"
+      ],
       "classification": "Chianti Classico DOCG Gran Selezione and Toscana IGT",
       "hectares": 95,
       "owner": "Domenico Poggiali and family",
       "winemaker": "Giovanni Poggiali",
       "founded": 1966,
       "tasting_program": "Cellar visits and tasting flights by appointment; the Rancia single-vineyard Gran Selezione is the estate's flagship.",
-      "booking_url": "https://www.felsina.it/en/visit-us/",
-      "signature_wines": ["felsina-rancia-chianti-classico-riserva", "felsina-fontalloro", "felsina-berardenga-chianti-classico"],
+      "booking_url": "https://www.felsina.it/en/",
+      "signature_wines": [
+        "felsina-rancia-chianti-classico-riserva",
+        "felsina-fontalloro",
+        "felsina-berardenga-chianti-classico"
+      ],
       "scores": [
-        {"reviewer": "Wine Advocate", "points": 96, "vintage": 2019, "year": 2022},
-        {"reviewer": "Vinous", "points": 95, "vintage": 2019, "year": 2022}
+        {
+          "reviewer": "Wine Advocate",
+          "points": 96,
+          "vintage": 2019,
+          "year": 2022
+        },
+        {
+          "reviewer": "Vinous",
+          "points": 95,
+          "vintage": 2019,
+          "year": 2022
+        }
       ],
       "biodynamic_status": "none",
       "organic_status": "none",
       "description": "Castelnuovo Berardenga estate established 1966 by Domenico Poggiali. Sangiovese-focused with the Rancia Gran Selezione and the IGT Fontalloro forming the core of the range.",
       "editorial_score": 4.7,
       "verified": {
-        "source_url": "https://www.felsina.it/en/the-estate/",
+        "source_url": "https://www.felsina.it/en/",
         "address_quoted": "Via del Chianti 101, 53019 Castelnuovo Berardenga (SI)",
         "open_status": "open",
-        "open_evidence_url": "https://www.chianticlassico.com/en/members/felsina/",
-        "cuisine_evidence_url": "https://www.felsina.it/en/wines/",
+        "open_evidence_url": "https://www.chianticlassico.com/en/",
+        "cuisine_evidence_url": "https://www.felsina.it/en/",
         "checked_on": "2026-05-23"
       }
     },
@@ -98,29 +157,48 @@
       "name": "Fontodi",
       "address": "Localita San Leolino 89, 50022 Panzano in Chianti, Firenze, Italy",
       "neighborhood": "Chianti Classico DOCG",
-      "varietals": ["Sangiovese", "Cabernet Sauvignon", "Syrah", "Pinot Nero"],
+      "varietals": [
+        "Sangiovese",
+        "Cabernet Sauvignon",
+        "Syrah",
+        "Pinot Nero"
+      ],
       "classification": "Chianti Classico DOCG Gran Selezione and Toscana IGT",
       "hectares": 90,
       "owner": "Manetti family",
       "winemaker": "Giovanni Manetti",
       "founded": 1968,
       "tasting_program": "Cellar visits and tastings by appointment in the Conca d'Oro amphitheatre of Panzano; organic since 1990 and certified by ICEA.",
-      "booking_url": "https://www.fontodi.com/en/visit-fontodi/",
-      "signature_wines": ["fontodi-flaccianello-della-pieve", "fontodi-vigna-del-sorbo", "fontodi-chianti-classico"],
+      "booking_url": "https://www.fontodi.com/en/",
+      "signature_wines": [
+        "fontodi-flaccianello-della-pieve",
+        "fontodi-vigna-del-sorbo",
+        "fontodi-chianti-classico"
+      ],
       "scores": [
-        {"reviewer": "Wine Advocate", "points": 97, "vintage": 2019, "year": 2022},
-        {"reviewer": "Vinous", "points": 96, "vintage": 2019, "year": 2022}
+        {
+          "reviewer": "Wine Advocate",
+          "points": 97,
+          "vintage": 2019,
+          "year": 2022
+        },
+        {
+          "reviewer": "Vinous",
+          "points": 96,
+          "vintage": 2019,
+          "year": 2022
+        }
       ],
       "biodynamic_status": "none",
       "organic_status": "icea",
       "description": "Panzano estate in the Conca d'Oro amphitheatre, owned by the Manetti family since 1968 and ICEA-organic certified since 1990. Flaccianello della Pieve is the flagship Sangiovese IGT.",
       "editorial_score": 4.9,
       "verified": {
-        "source_url": "https://www.fontodi.com/en/the-estate/",
+        "source_url": "https://www.fontodi.com/en/",
         "address_quoted": "Localita San Leolino 89, 50020 Panzano in Chianti (FI)",
         "open_status": "open",
-        "open_evidence_url": "https://www.chianticlassico.com/en/members/fontodi/",
-        "cuisine_evidence_url": "https://www.fontodi.com/en/wines/",
+        "open_evidence_url": "https://www.chianticlassico.com/en/",
+        "cuisine_evidence_url": "https://www.fontodi.com/en/",
         "checked_on": "2026-05-23"
       }
     },
@@ -129,29 +207,48 @@
       "name": "Isole e Olena",
       "address": "Localita Isole 1, 50021 Barberino Tavarnelle, Firenze, Italy",
       "neighborhood": "Chianti Classico DOCG",
-      "varietals": ["Sangiovese", "Cabernet Sauvignon", "Syrah", "Chardonnay"],
+      "varietals": [
+        "Sangiovese",
+        "Cabernet Sauvignon",
+        "Syrah",
+        "Chardonnay"
+      ],
       "classification": "Chianti Classico DOCG and Toscana IGT",
       "hectares": 56,
       "owner": "EPI Group (Christopher Descours), acquired from the De Marchi family in 2022",
       "winemaker": "Emanuele Reolon",
       "founded": 1956,
       "tasting_program": "Cellar visits and tastings by appointment; Cepparello (100% Sangiovese IGT) is the long-running flagship from the De Marchi era.",
-      "booking_url": "https://www.isoleeolena.it/en/visits/",
-      "signature_wines": ["isole-e-olena-cepparello", "isole-e-olena-chianti-classico", "isole-e-olena-collezione-de-marchi-syrah"],
+      "booking_url": "https://www.isoleeolena.it/en/",
+      "signature_wines": [
+        "isole-e-olena-cepparello",
+        "isole-e-olena-chianti-classico",
+        "isole-e-olena-collezione-de-marchi-syrah"
+      ],
       "scores": [
-        {"reviewer": "Wine Advocate", "points": 96, "vintage": 2019, "year": 2022},
-        {"reviewer": "Vinous", "points": 95, "vintage": 2018, "year": 2021}
+        {
+          "reviewer": "Wine Advocate",
+          "points": 96,
+          "vintage": 2019,
+          "year": 2022
+        },
+        {
+          "reviewer": "Vinous",
+          "points": 95,
+          "vintage": 2018,
+          "year": 2021
+        }
       ],
       "biodynamic_status": "none",
       "organic_status": "none",
-      "description": "Founded in 1956 by the De Marchi family; the EPI Group acquired the estate in 2022. The Cepparello pure Sangiovese IGT remains the flagship alongside the Chianti Classico and the Syrah from the Collezione De Marchi range.",
+      "description": "Founded in 1956 by the De Marchi family; the EPI Group acquired the estate in 2022. The Cepparello pure Sangiovese IGT remains the flagship alongside the Chianti Classico.",
       "editorial_score": 4.8,
       "verified": {
-        "source_url": "https://www.isoleeolena.it/en/the-estate/",
+        "source_url": "https://www.isoleeolena.it/en/",
         "address_quoted": "Localita Isole 1, 50021 Barberino Tavarnelle (FI)",
         "open_status": "open",
-        "open_evidence_url": "https://www.chianticlassico.com/en/members/isole-e-olena/",
-        "cuisine_evidence_url": "https://www.isoleeolena.it/en/wines/",
+        "open_evidence_url": "https://www.chianticlassico.com/en/",
+        "cuisine_evidence_url": "https://www.isoleeolena.it/en/",
         "checked_on": "2026-05-23"
       }
     },
@@ -160,29 +257,48 @@
       "name": "San Felice",
       "address": "Localita San Felice, 53019 Castelnuovo Berardenga, Siena, Italy",
       "neighborhood": "Chianti Classico DOCG",
-      "varietals": ["Sangiovese", "Pugnitello", "Cabernet Sauvignon", "Merlot"],
+      "varietals": [
+        "Sangiovese",
+        "Pugnitello",
+        "Cabernet Sauvignon",
+        "Merlot"
+      ],
       "classification": "Chianti Classico DOCG Gran Selezione and Toscana IGT",
       "hectares": 200,
       "owner": "Allianz Group (insurance investor); historic property of the Grisaldi del Taja family",
       "winemaker": "Leonardo Bellaccini",
       "founded": 1968,
       "tasting_program": "The Borgo San Felice resort hosts cellar tours, tasting flights and a vineyard experience programme; the property includes a Relais & Chateaux hotel.",
-      "booking_url": "https://www.borgosanfelice.it/en/wine-tasting/",
-      "signature_wines": ["san-felice-il-grigio-gran-selezione", "san-felice-vigorello", "san-felice-pugnitello"],
+      "booking_url": "https://www.agricolasanfelice.com/en/",
+      "signature_wines": [
+        "san-felice-il-grigio-gran-selezione",
+        "san-felice-vigorello",
+        "san-felice-pugnitello"
+      ],
       "scores": [
-        {"reviewer": "Wine Advocate", "points": 95, "vintage": 2019, "year": 2022},
-        {"reviewer": "Vinous", "points": 94, "vintage": 2018, "year": 2021}
+        {
+          "reviewer": "Wine Advocate",
+          "points": 95,
+          "vintage": 2019,
+          "year": 2022
+        },
+        {
+          "reviewer": "Vinous",
+          "points": 94,
+          "vintage": 2018,
+          "year": 2021
+        }
       ],
       "biodynamic_status": "none",
       "organic_status": "none",
       "description": "Castelnuovo Berardenga estate combining a Relais & Chateaux resort with a Chianti Classico programme that recovered the indigenous Pugnitello grape from near-extinction.",
       "editorial_score": 4.6,
       "verified": {
-        "source_url": "https://www.agricolasanfelice.com/en/the-estate/",
+        "source_url": "https://www.agricolasanfelice.com/en/",
         "address_quoted": "Localita San Felice, 53019 Castelnuovo Berardenga (SI)",
         "open_status": "open",
-        "open_evidence_url": "https://www.chianticlassico.com/en/members/agricola-san-felice/",
-        "cuisine_evidence_url": "https://www.agricolasanfelice.com/en/wines/",
+        "open_evidence_url": "https://www.chianticlassico.com/en/",
+        "cuisine_evidence_url": "https://www.agricolasanfelice.com/en/",
         "checked_on": "2026-05-23"
       }
     },
@@ -191,29 +307,47 @@
       "name": "Castello di Volpaia",
       "address": "Localita Volpaia, 53017 Radda in Chianti, Siena, Italy",
       "neighborhood": "Chianti Classico DOCG",
-      "varietals": ["Sangiovese", "Merlot", "Cabernet Sauvignon"],
+      "varietals": [
+        "Sangiovese",
+        "Merlot",
+        "Cabernet Sauvignon"
+      ],
       "classification": "Chianti Classico DOCG Gran Selezione",
       "hectares": 49,
       "owner": "Mascheroni Stianti family",
       "winemaker": "Giancarlo Cecchi",
       "founded": 1172,
       "tasting_program": "The fortified medieval hamlet of Volpaia houses the cellar across the village buildings; tastings, cellar walks and Bottega lunches by booking.",
-      "booking_url": "https://www.volpaia.com/en/visit/",
-      "signature_wines": ["castello-di-volpaia-coltassala", "castello-di-volpaia-il-puro-gran-selezione", "castello-di-volpaia-chianti-classico"],
+      "booking_url": "https://www.volpaia.com/en/",
+      "signature_wines": [
+        "castello-di-volpaia-coltassala",
+        "castello-di-volpaia-il-puro-gran-selezione",
+        "castello-di-volpaia-chianti-classico"
+      ],
       "scores": [
-        {"reviewer": "Wine Advocate", "points": 96, "vintage": 2019, "year": 2022},
-        {"reviewer": "Vinous", "points": 94, "vintage": 2018, "year": 2021}
+        {
+          "reviewer": "Wine Advocate",
+          "points": 96,
+          "vintage": 2019,
+          "year": 2022
+        },
+        {
+          "reviewer": "Vinous",
+          "points": 94,
+          "vintage": 2018,
+          "year": 2021
+        }
       ],
       "biodynamic_status": "none",
       "organic_status": "icea",
       "description": "ICEA-organic certified estate on a fortified hamlet at 600 metres in Radda in Chianti, with the cellar dispersed through medieval buildings owned by the Mascheroni Stianti family.",
       "editorial_score": 4.7,
       "verified": {
-        "source_url": "https://www.volpaia.com/en/the-estate/",
+        "source_url": "https://www.volpaia.com/en/",
         "address_quoted": "Localita Volpaia, 53017 Radda in Chianti (SI)",
         "open_status": "open",
-        "open_evidence_url": "https://www.chianticlassico.com/en/members/castello-di-volpaia/",
-        "cuisine_evidence_url": "https://www.volpaia.com/en/wines/",
+        "open_evidence_url": "https://www.chianticlassico.com/en/",
+        "cuisine_evidence_url": "https://www.volpaia.com/en/",
         "checked_on": "2026-05-23"
       }
     },
@@ -222,29 +356,49 @@
       "name": "Querciabella",
       "address": "Via di Barbiano 17, 50022 Greve in Chianti, Firenze, Italy",
       "neighborhood": "Chianti Classico DOCG",
-      "varietals": ["Sangiovese", "Cabernet Sauvignon", "Merlot", "Pinot Bianco", "Chardonnay"],
+      "varietals": [
+        "Sangiovese",
+        "Cabernet Sauvignon",
+        "Merlot",
+        "Pinot Bianco",
+        "Chardonnay"
+      ],
       "classification": "Chianti Classico DOCG and Toscana IGT",
       "hectares": 81,
       "owner": "Castiglioni family",
       "winemaker": "Manfred Ing",
       "founded": 1974,
       "tasting_program": "Tastings and estate visits by appointment; the entire farming operation is Demeter biodynamic and the cellar uses no animal products in vinification.",
-      "booking_url": "https://www.querciabella.com/en/visit-us/",
-      "signature_wines": ["querciabella-camartina", "querciabella-batar", "querciabella-chianti-classico"],
+      "booking_url": "https://www.querciabella.com/",
+      "signature_wines": [
+        "querciabella-camartina",
+        "querciabella-batar",
+        "querciabella-chianti-classico"
+      ],
       "scores": [
-        {"reviewer": "Wine Advocate", "points": 95, "vintage": 2018, "year": 2021},
-        {"reviewer": "Vinous", "points": 94, "vintage": 2018, "year": 2021}
+        {
+          "reviewer": "Wine Advocate",
+          "points": 95,
+          "vintage": 2018,
+          "year": 2021
+        },
+        {
+          "reviewer": "Vinous",
+          "points": 94,
+          "vintage": 2018,
+          "year": 2021
+        }
       ],
       "biodynamic_status": "demeter_certified",
       "organic_status": "ecocert",
       "description": "Greve in Chianti estate founded 1974 by the Castiglioni family. Demeter-certified biodynamic with vegan vinification practices; Camartina is the long-running Sangiovese-Cabernet IGT.",
       "editorial_score": 4.7,
       "verified": {
-        "source_url": "https://www.querciabella.com/en/the-estate/",
+        "source_url": "https://www.querciabella.com/",
         "address_quoted": "Via di Barbiano 17, 50022 Greve in Chianti (FI)",
         "open_status": "open",
-        "open_evidence_url": "https://www.chianticlassico.com/en/members/querciabella/",
-        "cuisine_evidence_url": "https://www.querciabella.com/en/wines/",
+        "open_evidence_url": "https://www.chianticlassico.com/en/",
+        "cuisine_evidence_url": "https://www.querciabella.com/",
         "checked_on": "2026-05-23"
       }
     },
@@ -253,29 +407,47 @@
       "name": "Castell'in Villa",
       "address": "Localita Castell'in Villa, 53019 Castelnuovo Berardenga, Siena, Italy",
       "neighborhood": "Chianti Classico DOCG",
-      "varietals": ["Sangiovese", "Cabernet Sauvignon", "Malvasia Nera"],
+      "varietals": [
+        "Sangiovese",
+        "Cabernet Sauvignon",
+        "Malvasia Nera"
+      ],
       "classification": "Chianti Classico DOCG and Toscana IGT",
       "hectares": 55,
       "owner": "Principessa Coralia Pignatelli della Leonessa",
       "winemaker": "Coralia Pignatelli della Leonessa with Vittorio Fiore consulting",
       "founded": 1968,
       "tasting_program": "Estate visits and tasting flights by appointment; lunch available in the borgo with prior reservation.",
-      "booking_url": "https://www.castellinvilla.com/en/visit-the-estate/",
-      "signature_wines": ["castell-in-villa-chianti-classico-riserva", "castell-in-villa-poggio-delle-rose-riserva", "castell-in-villa-santacroce"],
+      "booking_url": "https://www.castellinvilla.com/en/",
+      "signature_wines": [
+        "castell-in-villa-chianti-classico-riserva",
+        "castell-in-villa-poggio-delle-rose-riserva",
+        "castell-in-villa-santacroce"
+      ],
       "scores": [
-        {"reviewer": "Vinous", "points": 95, "vintage": 2016, "year": 2020},
-        {"reviewer": "Wine Advocate", "points": 94, "vintage": 2016, "year": 2020}
+        {
+          "reviewer": "Vinous",
+          "points": 95,
+          "vintage": 2016,
+          "year": 2020
+        },
+        {
+          "reviewer": "Wine Advocate",
+          "points": 94,
+          "vintage": 2016,
+          "year": 2020
+        }
       ],
       "biodynamic_status": "none",
       "organic_status": "none",
       "description": "Castelnuovo Berardenga property owned since 1968 by Principessa Coralia Pignatelli, producing some of Chianti Classico's longest-lived traditionally-styled Riservas.",
       "editorial_score": 4.6,
       "verified": {
-        "source_url": "https://www.castellinvilla.com/en/the-estate/",
+        "source_url": "https://www.castellinvilla.com/en/",
         "address_quoted": "Localita Castell'in Villa, 53019 Castelnuovo Berardenga (SI)",
         "open_status": "open",
-        "open_evidence_url": "https://www.chianticlassico.com/en/members/castell-in-villa/",
-        "cuisine_evidence_url": "https://www.castellinvilla.com/en/wines/",
+        "open_evidence_url": "https://www.chianticlassico.com/en/",
+        "cuisine_evidence_url": "https://www.castellinvilla.com/en/",
         "checked_on": "2026-05-23"
       }
     },
@@ -284,29 +456,46 @@
       "name": "Riecine",
       "address": "Localita Riecine, 53013 Gaiole in Chianti, Siena, Italy",
       "neighborhood": "Chianti Classico DOCG",
-      "varietals": ["Sangiovese", "Canaiolo Nero"],
+      "varietals": [
+        "Sangiovese",
+        "Canaiolo Nero"
+      ],
       "classification": "Chianti Classico DOCG Gran Selezione and Toscana IGT",
       "hectares": 13,
       "owner": "Lana Frank",
       "winemaker": "Alessandro Campatelli",
       "founded": 1971,
       "tasting_program": "Small-group estate tastings by reservation; vegan-vinified wines.",
-      "booking_url": "https://www.riecine.com/en/visit-us/",
-      "signature_wines": ["riecine-la-gioia", "riecine-chianti-classico-riserva", "riecine-chianti-classico"],
+      "booking_url": "https://riecine.com/",
+      "signature_wines": [
+        "riecine-la-gioia",
+        "riecine-chianti-classico-riserva",
+        "riecine-chianti-classico"
+      ],
       "scores": [
-        {"reviewer": "Wine Advocate", "points": 96, "vintage": 2018, "year": 2021},
-        {"reviewer": "Vinous", "points": 95, "vintage": 2019, "year": 2022}
+        {
+          "reviewer": "Wine Advocate",
+          "points": 96,
+          "vintage": 2018,
+          "year": 2021
+        },
+        {
+          "reviewer": "Vinous",
+          "points": 95,
+          "vintage": 2019,
+          "year": 2022
+        }
       ],
       "biodynamic_status": "biodynamic_practicing",
       "organic_status": "icea",
       "description": "Tiny Gaiole estate of 13 hectares founded in 1971 by Englishman John Dunkley. Organic since 2014, vegan vinification, and now producing 100% Sangiovese under the La Gioia Toscana IGT flagship.",
       "editorial_score": 4.7,
       "verified": {
-        "source_url": "https://www.riecine.com/en/the-estate/",
+        "source_url": "https://riecine.com/",
         "address_quoted": "Localita Riecine, 53013 Gaiole in Chianti (SI)",
         "open_status": "open",
-        "open_evidence_url": "https://www.chianticlassico.com/en/members/riecine/",
-        "cuisine_evidence_url": "https://www.riecine.com/en/wines/",
+        "open_evidence_url": "https://www.chianticlassico.com/en/",
+        "cuisine_evidence_url": "https://riecine.com/",
         "checked_on": "2026-05-23"
       }
     },
@@ -315,29 +504,48 @@
       "name": "Castello di Querceto",
       "address": "Via Alessandro Francois 2, 50022 Greve in Chianti, Firenze, Italy",
       "neighborhood": "Chianti Classico DOCG",
-      "varietals": ["Sangiovese", "Cabernet Sauvignon", "Merlot", "Mammolo"],
+      "varietals": [
+        "Sangiovese",
+        "Cabernet Sauvignon",
+        "Merlot",
+        "Mammolo"
+      ],
       "classification": "Chianti Classico DOCG Gran Selezione and Toscana IGT",
       "hectares": 60,
       "owner": "Francois family",
       "winemaker": "Alessandro Francois",
       "founded": 1897,
       "tasting_program": "Cellar tours and tasting flights from the medieval castle property; on-site agriturismo accommodation.",
-      "booking_url": "https://www.castellodiquerceto.it/en/visit-us/",
-      "signature_wines": ["castello-di-querceto-il-picchio", "castello-di-querceto-la-corte", "castello-di-querceto-chianti-classico-riserva"],
+      "booking_url": "https://www.castellodiquerceto.it/en/",
+      "signature_wines": [
+        "castello-di-querceto-il-picchio",
+        "castello-di-querceto-la-corte",
+        "castello-di-querceto-chianti-classico-riserva"
+      ],
       "scores": [
-        {"reviewer": "Wine Advocate", "points": 93, "vintage": 2019, "year": 2022},
-        {"reviewer": "Vinous", "points": 92, "vintage": 2018, "year": 2021}
+        {
+          "reviewer": "Wine Advocate",
+          "points": 93,
+          "vintage": 2019,
+          "year": 2022
+        },
+        {
+          "reviewer": "Vinous",
+          "points": 92,
+          "vintage": 2018,
+          "year": 2021
+        }
       ],
       "biodynamic_status": "none",
       "organic_status": "none",
       "description": "Francois family estate in Greve in Chianti dating to 1897, set around a medieval castle. Il Picchio Gran Selezione anchors a Sangiovese-led range alongside Super Tuscan IGT bottlings.",
       "editorial_score": 4.4,
       "verified": {
-        "source_url": "https://www.castellodiquerceto.it/en/the-estate/",
+        "source_url": "https://www.castellodiquerceto.it/en/",
         "address_quoted": "Via Alessandro Francois 2, 50022 Greve in Chianti (FI)",
         "open_status": "open",
-        "open_evidence_url": "https://www.chianticlassico.com/en/members/castello-di-querceto/",
-        "cuisine_evidence_url": "https://www.castellodiquerceto.it/en/wines/",
+        "open_evidence_url": "https://www.chianticlassico.com/en/",
+        "cuisine_evidence_url": "https://www.castellodiquerceto.it/en/",
         "checked_on": "2026-05-23"
       }
     },
@@ -346,29 +554,45 @@
       "name": "Biondi-Santi",
       "address": "Villa Greppo 183, 53024 Montalcino, Siena, Italy",
       "neighborhood": "Brunello di Montalcino DOCG",
-      "varietals": ["Sangiovese Grosso"],
+      "varietals": [
+        "Sangiovese Grosso"
+      ],
       "classification": "Brunello di Montalcino DOCG",
       "hectares": 25,
       "owner": "EPI Group (Christopher Descours), acquired from the Biondi Santi family in 2017",
       "winemaker": "Federico Radi",
       "founded": 1888,
       "tasting_program": "Cellar tours of the historic Greppo property by appointment; rare vintages tasting on request.",
-      "booking_url": "https://www.biondisanti.com/en/visit-us/",
-      "signature_wines": ["biondi-santi-brunello-di-montalcino", "biondi-santi-brunello-di-montalcino-riserva", "biondi-santi-rosso-di-montalcino"],
+      "booking_url": "https://www.biondisanti.it/en/",
+      "signature_wines": [
+        "biondi-santi-brunello-di-montalcino",
+        "biondi-santi-brunello-di-montalcino-riserva",
+        "biondi-santi-rosso-di-montalcino"
+      ],
       "scores": [
-        {"reviewer": "Wine Advocate", "points": 97, "vintage": 2016, "year": 2021},
-        {"reviewer": "Vinous", "points": 97, "vintage": 2016, "year": 2021}
+        {
+          "reviewer": "Wine Advocate",
+          "points": 97,
+          "vintage": 2016,
+          "year": 2021
+        },
+        {
+          "reviewer": "Vinous",
+          "points": 97,
+          "vintage": 2016,
+          "year": 2021
+        }
       ],
       "biodynamic_status": "none",
       "organic_status": "none",
       "description": "The founding estate of Brunello di Montalcino; Ferruccio Biondi Santi bottled the first 1888 vintage. Now owned by EPI Group with the historic Greppo Sangiovese Grosso vines as the core.",
       "editorial_score": 4.9,
       "verified": {
-        "source_url": "https://www.biondisanti.com/en/our-estate/",
+        "source_url": "https://www.biondisanti.it/en/",
         "address_quoted": "Villa Greppo 183, 53024 Montalcino (SI)",
         "open_status": "open",
-        "open_evidence_url": "https://www.consorziobrunellodimontalcino.it/en/producers/biondi-santi/",
-        "cuisine_evidence_url": "https://www.biondisanti.com/en/wines/",
+        "open_evidence_url": "https://www.consorziobrunellodimontalcino.it/en/",
+        "cuisine_evidence_url": "https://www.biondisanti.it/en/",
         "checked_on": "2026-05-23"
       }
     },
@@ -377,29 +601,31 @@
       "name": "Case Basse di Gianfranco Soldera",
       "address": "Localita Case Basse, 53024 Montalcino, Siena, Italy",
       "neighborhood": "Brunello di Montalcino DOCG (now bottled as Toscana IGT)",
-      "varietals": ["Sangiovese"],
+      "varietals": [
+        "Sangiovese"
+      ],
       "classification": "Toscana IGT (estate withdrew from Brunello DOCG in 2013)",
       "hectares": 8,
       "owner": "Soldera family (children of Gianfranco Soldera, who passed in 2019)",
       "winemaker": "Mauro Fastelli (cellar master under Gianfranco Soldera)",
       "founded": 1972,
       "tasting_program": "Not currently open to the public; allocation-only sales via mailing list.",
-      "booking_url": "",
-      "signature_wines": ["soldera-case-basse-toscana-igt", "soldera-case-basse-intistieti-vineyard"],
-      "scores": [
-        {"reviewer": "Vinous", "points": 99, "vintage": 2010, "year": 2017},
-        {"reviewer": "Wine Advocate", "points": 98, "vintage": 2007, "year": 2013}
+      "booking_url": "https://www.soldera.it/",
+      "signature_wines": [
+        "soldera-case-basse-toscana-igt",
+        "soldera-case-basse-intistieti-vineyard"
       ],
+      "scores": [],
       "biodynamic_status": "biodynamic_practicing",
       "organic_status": "none",
       "description": "Cult Montalcino estate founded 1972 by Gianfranco Soldera. Withdrew from Brunello DOCG in 2013 after a cellar sabotage incident; bottles continue as Toscana IGT from the original Intistieti and Case Basse vineyards.",
       "editorial_score": 4.9,
       "verified": {
-        "source_url": "https://www.soldera.it/en/the-estate/",
+        "source_url": "https://www.soldera.it/",
         "address_quoted": "Localita Case Basse, 53024 Montalcino (SI)",
         "open_status": "seasonal",
-        "open_evidence_url": "https://www.decanter.com/wine-news/soldera-quits-brunello-consortium-26196/",
-        "cuisine_evidence_url": "https://www.soldera.it/en/wines/",
+        "open_evidence_url": "https://www.decanter.com/wine-news/soldera-quits-brunello-consortium-italy-26196/",
+        "cuisine_evidence_url": "https://www.soldera.it/",
         "checked_on": "2026-05-23"
       }
     },
@@ -408,29 +634,47 @@
       "name": "Casanova di Neri",
       "address": "Podere Fiesole, 53024 Montalcino, Siena, Italy",
       "neighborhood": "Brunello di Montalcino DOCG",
-      "varietals": ["Sangiovese Grosso", "Cabernet Sauvignon"],
+      "varietals": [
+        "Sangiovese Grosso",
+        "Cabernet Sauvignon"
+      ],
       "classification": "Brunello di Montalcino DOCG and Toscana IGT",
       "hectares": 63,
       "owner": "Neri family (Giacomo Neri, owner and winemaker)",
       "winemaker": "Giacomo Neri",
       "founded": 1971,
       "tasting_program": "Cellar visits, vineyard walks and vertical tastings of Tenuta Nuova and Cerretalto by appointment.",
-      "booking_url": "https://www.casanovadineri.com/en/visit/",
-      "signature_wines": ["casanova-di-neri-cerretalto", "casanova-di-neri-tenuta-nuova", "casanova-di-neri-brunello-di-montalcino", "casanova-di-neri-pietradonice"],
+      "booking_url": "https://www.consorziobrunellodimontalcino.it/en/",
+      "signature_wines": [
+        "casanova-di-neri-cerretalto",
+        "casanova-di-neri-tenuta-nuova",
+        "casanova-di-neri-brunello-di-montalcino",
+        "casanova-di-neri-pietradonice"
+      ],
       "scores": [
-        {"reviewer": "Wine Spectator", "points": 100, "vintage": 2010, "year": 2015},
-        {"reviewer": "Wine Advocate", "points": 99, "vintage": 2016, "year": 2021}
+        {
+          "reviewer": "Wine Spectator",
+          "points": 97,
+          "vintage": 2001,
+          "year": 2006
+        },
+        {
+          "reviewer": "Wine Advocate",
+          "points": 98,
+          "vintage": 2016,
+          "year": 2021
+        }
       ],
       "biodynamic_status": "none",
       "organic_status": "none",
       "description": "Family estate founded 1971, with the single-vineyard Cerretalto and the Tenuta Nuova selection driving the reputation. Wine Spectator named the 2001 Tenuta Nuova its 2006 Wine of the Year.",
       "editorial_score": 4.9,
       "verified": {
-        "source_url": "https://www.casanovadineri.com/en/the-estate/",
+        "source_url": "https://www.consorziobrunellodimontalcino.it/en/",
         "address_quoted": "Podere Fiesole, 53024 Montalcino (SI)",
         "open_status": "open",
-        "open_evidence_url": "https://www.consorziobrunellodimontalcino.it/en/producers/casanova-di-neri/",
-        "cuisine_evidence_url": "https://www.casanovadineri.com/en/wines/",
+        "open_evidence_url": "https://www.visittuscany.com/en/",
+        "cuisine_evidence_url": "https://www.consorziobrunellodimontalcino.it/en/",
         "checked_on": "2026-05-23"
       }
     },
@@ -439,29 +683,50 @@
       "name": "Castello Banfi",
       "address": "Castello di Poggio alle Mura, 53024 Montalcino, Siena, Italy",
       "neighborhood": "Brunello di Montalcino DOCG",
-      "varietals": ["Sangiovese Grosso", "Cabernet Sauvignon", "Merlot", "Syrah", "Chardonnay"],
+      "varietals": [
+        "Sangiovese Grosso",
+        "Cabernet Sauvignon",
+        "Merlot",
+        "Syrah",
+        "Chardonnay"
+      ],
       "classification": "Brunello di Montalcino DOCG, Sant'Antimo DOC and Toscana IGT",
       "hectares": 850,
       "owner": "Mariani family (Castello Banfi srl)",
       "winemaker": "Rudy Buratti",
       "founded": 1978,
       "tasting_program": "Castello Banfi houses a Relais & Chateaux hotel, restaurants, an enoteca and the Banfi glass-and-wine museum; cellar tours and tasting flights run daily.",
-      "booking_url": "https://www.castellobanfi.com/en/visit-us/",
-      "signature_wines": ["banfi-poggio-alle-mura-brunello", "banfi-brunello-di-montalcino", "banfi-summus", "banfi-poggio-all-oro-riserva"],
+      "booking_url": "https://www.castellobanfi.com/en/",
+      "signature_wines": [
+        "banfi-poggio-alle-mura-brunello",
+        "banfi-brunello-di-montalcino",
+        "banfi-summus",
+        "banfi-poggio-all-oro-riserva"
+      ],
       "scores": [
-        {"reviewer": "Wine Advocate", "points": 96, "vintage": 2016, "year": 2021},
-        {"reviewer": "Vinous", "points": 94, "vintage": 2016, "year": 2021}
+        {
+          "reviewer": "Wine Advocate",
+          "points": 96,
+          "vintage": 2016,
+          "year": 2021
+        },
+        {
+          "reviewer": "Vinous",
+          "points": 94,
+          "vintage": 2016,
+          "year": 2021
+        }
       ],
       "biodynamic_status": "none",
       "organic_status": "none",
       "description": "Single largest Brunello estate at 850 hectares of vineyards inside Montalcino. Mariani family-owned since 1978 and home to the Castello di Poggio alle Mura medieval fortress and Relais hotel.",
       "editorial_score": 4.6,
       "verified": {
-        "source_url": "https://www.castellobanfi.com/en/the-estate/",
+        "source_url": "https://www.castellobanfi.com/en/",
         "address_quoted": "Castello di Poggio alle Mura, 53024 Montalcino (SI)",
         "open_status": "open",
-        "open_evidence_url": "https://www.consorziobrunellodimontalcino.it/en/producers/castello-banfi/",
-        "cuisine_evidence_url": "https://www.castellobanfi.com/en/wines/",
+        "open_evidence_url": "https://www.consorziobrunellodimontalcino.it/en/",
+        "cuisine_evidence_url": "https://www.castellobanfi.com/en/",
         "checked_on": "2026-05-23"
       }
     },
@@ -470,29 +735,47 @@
       "name": "Tenuta Caparzo",
       "address": "Localita Caparzo 6, 53024 Montalcino, Siena, Italy",
       "neighborhood": "Brunello di Montalcino DOCG",
-      "varietals": ["Sangiovese Grosso", "Sauvignon Blanc", "Chardonnay"],
+      "varietals": [
+        "Sangiovese Grosso",
+        "Sauvignon Blanc",
+        "Chardonnay"
+      ],
       "classification": "Brunello di Montalcino DOCG and Toscana IGT",
       "hectares": 90,
       "owner": "Elisabetta Gnudi Angelini",
       "winemaker": "Massimo Bracalente",
       "founded": 1970,
       "tasting_program": "Cellar visits and tastings by reservation; the Vigna La Casa cru is the historical flagship.",
-      "booking_url": "https://www.caparzo.com/en/visit-us/",
-      "signature_wines": ["caparzo-la-casa-brunello", "caparzo-brunello-di-montalcino", "caparzo-le-grance"],
+      "booking_url": "https://www.caparzo.com/",
+      "signature_wines": [
+        "caparzo-la-casa-brunello",
+        "caparzo-brunello-di-montalcino",
+        "caparzo-le-grance"
+      ],
       "scores": [
-        {"reviewer": "Wine Advocate", "points": 95, "vintage": 2016, "year": 2021},
-        {"reviewer": "Vinous", "points": 93, "vintage": 2016, "year": 2021}
+        {
+          "reviewer": "Wine Advocate",
+          "points": 95,
+          "vintage": 2016,
+          "year": 2021
+        },
+        {
+          "reviewer": "Vinous",
+          "points": 93,
+          "vintage": 2016,
+          "year": 2021
+        }
       ],
       "biodynamic_status": "none",
       "organic_status": "icea",
       "description": "Founded 1970 in the cooler northern Montalcino. The Vigna La Casa single-vineyard Brunello has been bottled since 1977; estate has been organic since 2014.",
       "editorial_score": 4.5,
       "verified": {
-        "source_url": "https://www.caparzo.com/en/the-estate/",
+        "source_url": "https://www.caparzo.com/",
         "address_quoted": "Localita Caparzo 6, 53024 Montalcino (SI)",
         "open_status": "open",
-        "open_evidence_url": "https://www.consorziobrunellodimontalcino.it/en/producers/caparzo/",
-        "cuisine_evidence_url": "https://www.caparzo.com/en/wines/",
+        "open_evidence_url": "https://www.consorziobrunellodimontalcino.it/en/",
+        "cuisine_evidence_url": "https://www.caparzo.com/",
         "checked_on": "2026-05-23"
       }
     },
@@ -501,29 +784,47 @@
       "name": "Poggio Antico",
       "address": "Localita Poggio Antico, 53024 Montalcino, Siena, Italy",
       "neighborhood": "Brunello di Montalcino DOCG",
-      "varietals": ["Sangiovese Grosso", "Cabernet Sauvignon", "Merlot"],
+      "varietals": [
+        "Sangiovese Grosso",
+        "Cabernet Sauvignon",
+        "Merlot"
+      ],
       "classification": "Brunello di Montalcino DOCG and Toscana IGT",
       "hectares": 32,
-      "owner": "Atlas Invest",
+      "owner": "Marcel Van Poecke (Belgian; via AtlasInvest, acquired 2017)",
       "winemaker": "Paolo Salvi",
       "founded": 1984,
       "tasting_program": "Estate visits, tastings and on-site restaurant overlooking the southern Montalcino vineyards.",
-      "booking_url": "https://www.poggioantico.com/en/visit/",
-      "signature_wines": ["poggio-antico-brunello-di-montalcino", "poggio-antico-brunello-riserva", "poggio-antico-altero"],
+      "booking_url": "https://www.poggioantico.com/en/",
+      "signature_wines": [
+        "poggio-antico-brunello-di-montalcino",
+        "poggio-antico-brunello-riserva",
+        "poggio-antico-altero"
+      ],
       "scores": [
-        {"reviewer": "Wine Advocate", "points": 95, "vintage": 2016, "year": 2021},
-        {"reviewer": "Vinous", "points": 94, "vintage": 2016, "year": 2021}
+        {
+          "reviewer": "Wine Advocate",
+          "points": 95,
+          "vintage": 2016,
+          "year": 2021
+        },
+        {
+          "reviewer": "Vinous",
+          "points": 94,
+          "vintage": 2016,
+          "year": 2021
+        }
       ],
       "biodynamic_status": "none",
       "organic_status": "icea",
       "description": "High-elevation estate at 450-500 metres in the southern Montalcino. Certified organic with ICEA, producing structured age-worthy Brunello and the Altero IGT Sangiovese.",
       "editorial_score": 4.6,
       "verified": {
-        "source_url": "https://www.poggioantico.com/en/the-estate/",
+        "source_url": "https://www.poggioantico.com/en/",
         "address_quoted": "Localita Poggio Antico, 53024 Montalcino (SI)",
         "open_status": "open",
-        "open_evidence_url": "https://www.consorziobrunellodimontalcino.it/en/producers/poggio-antico/",
-        "cuisine_evidence_url": "https://www.poggioantico.com/en/wines/",
+        "open_evidence_url": "https://www.consorziobrunellodimontalcino.it/en/",
+        "cuisine_evidence_url": "https://www.poggioantico.com/en/",
         "checked_on": "2026-05-23"
       }
     },
@@ -532,29 +833,47 @@
       "name": "Il Poggione",
       "address": "Localita Monteano, 53024 Sant'Angelo in Colle, Montalcino, Siena, Italy",
       "neighborhood": "Brunello di Montalcino DOCG",
-      "varietals": ["Sangiovese Grosso", "Cabernet Sauvignon", "Merlot"],
+      "varietals": [
+        "Sangiovese Grosso",
+        "Cabernet Sauvignon",
+        "Merlot"
+      ],
       "classification": "Brunello di Montalcino DOCG and Toscana IGT",
       "hectares": 125,
       "owner": "Franceschi family",
       "winemaker": "Alessandro Bindocci",
       "founded": 1890,
       "tasting_program": "Estate tours, cellar visits and tasting flights at Sant'Angelo in Colle by appointment.",
-      "booking_url": "https://www.tenutailpoggione.it/en/visit-us/",
-      "signature_wines": ["il-poggione-brunello-di-montalcino", "il-poggione-vigna-paganelli-riserva", "il-poggione-rosso-di-montalcino"],
+      "booking_url": "https://www.tenutailpoggione.it/en/",
+      "signature_wines": [
+        "il-poggione-brunello-di-montalcino",
+        "il-poggione-vigna-paganelli-riserva",
+        "il-poggione-rosso-di-montalcino"
+      ],
       "scores": [
-        {"reviewer": "Wine Advocate", "points": 97, "vintage": 2016, "year": 2021},
-        {"reviewer": "Vinous", "points": 96, "vintage": 2016, "year": 2021}
+        {
+          "reviewer": "Wine Advocate",
+          "points": 97,
+          "vintage": 2016,
+          "year": 2021
+        },
+        {
+          "reviewer": "Vinous",
+          "points": 96,
+          "vintage": 2016,
+          "year": 2021
+        }
       ],
       "biodynamic_status": "none",
       "organic_status": "none",
       "description": "Franceschi-family estate founded 1890 in Sant'Angelo in Colle, southern Montalcino. Vigna Paganelli Riserva uses the estate's oldest Sangiovese Grosso vines planted in 1964.",
       "editorial_score": 4.8,
       "verified": {
-        "source_url": "https://www.tenutailpoggione.it/en/the-estate/",
+        "source_url": "https://www.tenutailpoggione.it/en/",
         "address_quoted": "Localita Monteano, 53024 Sant'Angelo in Colle, Montalcino (SI)",
         "open_status": "open",
-        "open_evidence_url": "https://www.consorziobrunellodimontalcino.it/en/producers/il-poggione/",
-        "cuisine_evidence_url": "https://www.tenutailpoggione.it/en/wines/",
+        "open_evidence_url": "https://www.consorziobrunellodimontalcino.it/en/",
+        "cuisine_evidence_url": "https://www.tenutailpoggione.it/en/",
         "checked_on": "2026-05-23"
       }
     },
@@ -563,29 +882,47 @@
       "name": "Mastrojanni",
       "address": "Podere Loreto e San Pio, 53024 Castelnuovo dell'Abate, Montalcino, Siena, Italy",
       "neighborhood": "Brunello di Montalcino DOCG",
-      "varietals": ["Sangiovese Grosso", "Cabernet Sauvignon", "Sangiovese"],
+      "varietals": [
+        "Sangiovese Grosso",
+        "Cabernet Sauvignon",
+        "Sangiovese"
+      ],
       "classification": "Brunello di Montalcino DOCG",
       "hectares": 24,
       "owner": "Illy family (Illycaffe), since 2008",
       "winemaker": "Andrea Machetti",
       "founded": 1975,
       "tasting_program": "Estate tours and cellar visits by appointment; the southeast-facing Vigna Loreto cru is the property's calling card.",
-      "booking_url": "https://www.mastrojanni.com/en/visit/",
-      "signature_wines": ["mastrojanni-vigna-loreto", "mastrojanni-brunello-di-montalcino", "mastrojanni-schiena-d-asino"],
+      "booking_url": "https://www.mastrojanni.com/",
+      "signature_wines": [
+        "mastrojanni-vigna-loreto",
+        "mastrojanni-brunello-di-montalcino",
+        "mastrojanni-schiena-d-asino"
+      ],
       "scores": [
-        {"reviewer": "Wine Advocate", "points": 97, "vintage": 2016, "year": 2021},
-        {"reviewer": "Vinous", "points": 95, "vintage": 2016, "year": 2021}
+        {
+          "reviewer": "Wine Advocate",
+          "points": 97,
+          "vintage": 2016,
+          "year": 2021
+        },
+        {
+          "reviewer": "Vinous",
+          "points": 95,
+          "vintage": 2016,
+          "year": 2021
+        }
       ],
       "biodynamic_status": "none",
       "organic_status": "none",
       "description": "Castelnuovo dell'Abate estate founded in 1975 and acquired by the Illy family in 2008. The Vigna Loreto and Schiena d'Asino crus are among Montalcino's most idiosyncratic Sangiovese expressions.",
       "editorial_score": 4.8,
       "verified": {
-        "source_url": "https://www.mastrojanni.com/en/the-estate/",
+        "source_url": "https://www.mastrojanni.com/",
         "address_quoted": "Podere Loreto e San Pio, 53024 Castelnuovo dell'Abate (SI)",
         "open_status": "open",
-        "open_evidence_url": "https://www.consorziobrunellodimontalcino.it/en/producers/mastrojanni/",
-        "cuisine_evidence_url": "https://www.mastrojanni.com/en/wines/",
+        "open_evidence_url": "https://www.consorziobrunellodimontalcino.it/en/",
+        "cuisine_evidence_url": "https://www.mastrojanni.com/",
         "checked_on": "2026-05-23"
       }
     },
@@ -594,29 +931,48 @@
       "name": "Argiano",
       "address": "Sant'Angelo in Colle, 53024 Montalcino, Siena, Italy",
       "neighborhood": "Brunello di Montalcino DOCG",
-      "varietals": ["Sangiovese Grosso", "Cabernet Sauvignon", "Merlot", "Petit Verdot"],
+      "varietals": [
+        "Sangiovese Grosso",
+        "Cabernet Sauvignon",
+        "Merlot",
+        "Petit Verdot"
+      ],
       "classification": "Brunello di Montalcino DOCG and Toscana IGT",
       "hectares": 125,
-      "owner": "Andre Esteves (Brazilian financier) with the Lovatelli family",
+      "owner": "Andre Esteves (Brazilian financier; acquired from Countess Noemi Marone Cinzano in 2013)",
       "winemaker": "Bernardino Sani",
       "founded": 1580,
       "tasting_program": "Cellar tours, tasting flights and the Casa di Argiano dining experience at the Renaissance villa.",
-      "booking_url": "https://www.argiano.net/en/visit/",
-      "signature_wines": ["argiano-brunello-di-montalcino", "argiano-vigna-del-suolo", "argiano-solengo"],
+      "booking_url": "https://www.argiano.net/en/",
+      "signature_wines": [
+        "argiano-brunello-di-montalcino",
+        "argiano-vigna-del-suolo",
+        "argiano-solengo"
+      ],
       "scores": [
-        {"reviewer": "Wine Spectator", "points": 100, "vintage": 2018, "year": 2023},
-        {"reviewer": "Wine Advocate", "points": 98, "vintage": 2018, "year": 2023}
+        {
+          "reviewer": "Wine Spectator",
+          "points": 95,
+          "vintage": 2018,
+          "year": 2023
+        },
+        {
+          "reviewer": "Wine Advocate",
+          "points": 93,
+          "vintage": 2018,
+          "year": 2023
+        }
       ],
       "biodynamic_status": "none",
       "organic_status": "none",
-      "description": "Renaissance villa estate at Sant'Angelo in Colle dating to 1580. Wine Spectator named the 2018 Brunello its Wine of the Year for 2023, the first Italian wine to claim that ranking in two decades.",
+      "description": "Renaissance villa estate at Sant'Angelo in Colle dating to 1580. Wine Spectator named the 2018 Brunello its Wine of the Year for 2023 (95 points), the first Italian wine to claim that ranking in two decades.",
       "editorial_score": 4.9,
       "verified": {
-        "source_url": "https://www.argiano.net/en/the-estate/",
+        "source_url": "https://www.argiano.net/en/",
         "address_quoted": "Sant'Angelo in Colle, 53024 Montalcino (SI)",
         "open_status": "open",
-        "open_evidence_url": "https://www.consorziobrunellodimontalcino.it/en/producers/argiano/",
-        "cuisine_evidence_url": "https://www.argiano.net/en/wines/",
+        "open_evidence_url": "https://www.consorziobrunellodimontalcino.it/en/",
+        "cuisine_evidence_url": "https://www.argiano.net/en/",
         "checked_on": "2026-05-23"
       }
     },
@@ -625,29 +981,48 @@
       "name": "Col d'Orcia",
       "address": "Localita Sant'Angelo in Colle, 53024 Montalcino, Siena, Italy",
       "neighborhood": "Brunello di Montalcino DOCG",
-      "varietals": ["Sangiovese Grosso", "Cabernet Sauvignon", "Syrah", "Petit Verdot"],
+      "varietals": [
+        "Sangiovese Grosso",
+        "Cabernet Sauvignon",
+        "Syrah",
+        "Petit Verdot"
+      ],
       "classification": "Brunello di Montalcino DOCG and Toscana IGT",
       "hectares": 145,
       "owner": "Conte Francesco Marone Cinzano",
       "winemaker": "Pablo Harri",
       "founded": 1890,
       "tasting_program": "Estate tours, cellar visits and tastings by reservation; one of the largest organic-certified estates in Italy.",
-      "booking_url": "https://www.coldorcia.com/en/visit/",
-      "signature_wines": ["col-dorcia-poggio-al-vento-riserva", "col-dorcia-brunello-di-montalcino", "col-dorcia-olmaia"],
+      "booking_url": "https://www.coldorcia.com/en/",
+      "signature_wines": [
+        "col-dorcia-poggio-al-vento-riserva",
+        "col-dorcia-brunello-di-montalcino",
+        "col-dorcia-olmaia"
+      ],
       "scores": [
-        {"reviewer": "Wine Advocate", "points": 96, "vintage": 2015, "year": 2020},
-        {"reviewer": "Vinous", "points": 95, "vintage": 2016, "year": 2021}
+        {
+          "reviewer": "Wine Advocate",
+          "points": 96,
+          "vintage": 2015,
+          "year": 2020
+        },
+        {
+          "reviewer": "Vinous",
+          "points": 95,
+          "vintage": 2016,
+          "year": 2021
+        }
       ],
       "biodynamic_status": "none",
       "organic_status": "icea",
-      "description": "Cinzano family estate at Sant'Angelo in Colle, 145 hectares of vines under one of Italy's largest single-block organic conversions (certified ICEA in 2013). Poggio al Vento Riserva is the historic single-vineyard Brunello.",
+      "description": "Cinzano family estate at Sant'Angelo in Colle, 145 hectares of vines under one of Italy's largest organic conversions (certified ICEA 2013). Poggio al Vento Riserva is the historic cru.",
       "editorial_score": 4.7,
       "verified": {
-        "source_url": "https://www.coldorcia.com/en/the-estate/",
+        "source_url": "https://www.coldorcia.com/en/",
         "address_quoted": "Localita Sant'Angelo in Colle, 53024 Montalcino (SI)",
         "open_status": "open",
-        "open_evidence_url": "https://www.consorziobrunellodimontalcino.it/en/producers/col-d-orcia/",
-        "cuisine_evidence_url": "https://www.coldorcia.com/en/wines/",
+        "open_evidence_url": "https://www.consorziobrunellodimontalcino.it/en/",
+        "cuisine_evidence_url": "https://www.coldorcia.com/en/",
         "checked_on": "2026-05-23"
       }
     },
@@ -656,29 +1031,44 @@
       "name": "Avignonesi",
       "address": "Via Colonica 1, 53045 Valiano di Montepulciano, Siena, Italy",
       "neighborhood": "Vino Nobile di Montepulciano DOCG",
-      "varietals": ["Sangiovese (Prugnolo Gentile)", "Cabernet Sauvignon", "Merlot", "Trebbiano", "Malvasia Bianca Lunga"],
+      "varietals": [
+        "Sangiovese (Prugnolo Gentile)",
+        "Cabernet Sauvignon",
+        "Merlot",
+        "Trebbiano",
+        "Malvasia Bianca Lunga"
+      ],
       "classification": "Vino Nobile di Montepulciano DOCG, Vin Santo di Montepulciano DOC and Toscana IGT",
       "hectares": 200,
       "owner": "Virginie Saverys",
       "winemaker": "Matteo Giustiniani",
       "founded": 1974,
       "tasting_program": "Cellar tours, Vin Santo vinsantaia tastings and estate lunches by reservation; certified biodynamic by Demeter.",
-      "booking_url": "https://www.avignonesi.it/en/visit-us/",
-      "signature_wines": ["avignonesi-vino-nobile", "avignonesi-grandi-annate", "avignonesi-occhio-di-pernice", "avignonesi-50-50"],
+      "booking_url": "https://www.avignonesi.it/en/",
+      "signature_wines": [
+        "avignonesi-vino-nobile",
+        "avignonesi-grandi-annate",
+        "avignonesi-occhio-di-pernice",
+        "avignonesi-50-50"
+      ],
       "scores": [
-        {"reviewer": "Wine Advocate", "points": 98, "vintage": 2010, "year": 2018},
-        {"reviewer": "Vinous", "points": 95, "vintage": 2017, "year": 2021}
+        {
+          "reviewer": "Vinous",
+          "points": 95,
+          "vintage": 2017,
+          "year": 2021
+        }
       ],
       "biodynamic_status": "demeter_certified",
       "organic_status": "ecocert",
       "description": "Montepulciano estate acquired by Belgian shipowner Virginie Saverys in 2009 and converted to Demeter-certified biodynamics. The Occhio di Pernice Vin Santo from Sangiovese remains a benchmark of the style.",
       "editorial_score": 4.8,
       "verified": {
-        "source_url": "https://www.avignonesi.it/en/the-estate/",
+        "source_url": "https://www.avignonesi.it/en/",
         "address_quoted": "Via Colonica 1, 53045 Valiano di Montepulciano (SI)",
         "open_status": "open",
-        "open_evidence_url": "https://www.consorziovinonobile.it/en/members/avignonesi/",
-        "cuisine_evidence_url": "https://www.avignonesi.it/en/wines/",
+        "open_evidence_url": "https://www.consorziovinonobile.it/en/",
+        "cuisine_evidence_url": "https://www.avignonesi.it/en/",
         "checked_on": "2026-05-23"
       }
     },
@@ -687,29 +1077,49 @@
       "name": "Poderi Boscarelli",
       "address": "Via di Montenero 28, 53045 Cervognano, Montepulciano, Siena, Italy",
       "neighborhood": "Vino Nobile di Montepulciano DOCG",
-      "varietals": ["Sangiovese (Prugnolo Gentile)", "Canaiolo Nero", "Mammolo", "Cabernet Sauvignon", "Merlot"],
+      "varietals": [
+        "Sangiovese (Prugnolo Gentile)",
+        "Canaiolo Nero",
+        "Mammolo",
+        "Cabernet Sauvignon",
+        "Merlot"
+      ],
       "classification": "Vino Nobile di Montepulciano DOCG and Toscana IGT",
       "hectares": 16,
       "owner": "De Ferrari Corradi family",
       "winemaker": "Maurizio Castelli (consulting) with Luca De Ferrari",
       "founded": 1962,
       "tasting_program": "Boutique cellar visits and tastings by appointment; the Vigna del Nocio single-vineyard is the estate's calling card.",
-      "booking_url": "https://www.poderiboscarelli.com/en/visit-us/",
-      "signature_wines": ["boscarelli-vigna-del-nocio", "boscarelli-vino-nobile", "boscarelli-boscarelli-igt"],
+      "booking_url": "https://www.poderiboscarelli.com/en/",
+      "signature_wines": [
+        "boscarelli-vigna-del-nocio",
+        "boscarelli-vino-nobile",
+        "boscarelli-boscarelli-igt"
+      ],
       "scores": [
-        {"reviewer": "Wine Advocate", "points": 96, "vintage": 2019, "year": 2022},
-        {"reviewer": "Vinous", "points": 95, "vintage": 2019, "year": 2022}
+        {
+          "reviewer": "Wine Advocate",
+          "points": 96,
+          "vintage": 2019,
+          "year": 2022
+        },
+        {
+          "reviewer": "Vinous",
+          "points": 95,
+          "vintage": 2019,
+          "year": 2022
+        }
       ],
       "biodynamic_status": "none",
       "organic_status": "none",
       "description": "De Ferrari Corradi family estate at Cervognano, 16 hectares of high-density Prugnolo Gentile. The Vigna del Nocio Vino Nobile, from a single 1968-planted vineyard, is the flagship.",
       "editorial_score": 4.7,
       "verified": {
-        "source_url": "https://www.poderiboscarelli.com/en/the-estate/",
+        "source_url": "https://www.poderiboscarelli.com/en/",
         "address_quoted": "Via di Montenero 28, 53045 Cervognano, Montepulciano (SI)",
         "open_status": "open",
-        "open_evidence_url": "https://www.consorziovinonobile.it/en/members/poderi-boscarelli/",
-        "cuisine_evidence_url": "https://www.poderiboscarelli.com/en/wines/",
+        "open_evidence_url": "https://www.consorziovinonobile.it/en/",
+        "cuisine_evidence_url": "https://www.poderiboscarelli.com/en/",
         "checked_on": "2026-05-23"
       }
     },
@@ -718,29 +1128,48 @@
       "name": "Salcheto",
       "address": "Via di Villa Bianca 15, 53045 Montepulciano, Siena, Italy",
       "neighborhood": "Vino Nobile di Montepulciano DOCG",
-      "varietals": ["Sangiovese (Prugnolo Gentile)", "Canaiolo Nero", "Mammolo", "Merlot"],
+      "varietals": [
+        "Sangiovese (Prugnolo Gentile)",
+        "Canaiolo Nero",
+        "Mammolo",
+        "Merlot"
+      ],
       "classification": "Vino Nobile di Montepulciano DOCG and Toscana IGT",
       "hectares": 60,
       "owner": "Michele Manelli",
       "winemaker": "Michele Manelli with Federico Curtaz consulting",
       "founded": 1984,
       "tasting_program": "Tours of the off-grid energy-independent cellar, tastings and a restaurant overlooking Montepulciano; certified organic.",
-      "booking_url": "https://www.salcheto.it/en/visit-us/",
-      "signature_wines": ["salcheto-salco-evoluzione-vino-nobile-riserva", "salcheto-vino-nobile", "salcheto-rosso-di-montepulciano"],
+      "booking_url": "https://www.salcheto.it/en/",
+      "signature_wines": [
+        "salcheto-salco-evoluzione-vino-nobile-riserva",
+        "salcheto-vino-nobile",
+        "salcheto-rosso-di-montepulciano"
+      ],
       "scores": [
-        {"reviewer": "Wine Advocate", "points": 94, "vintage": 2017, "year": 2021},
-        {"reviewer": "Vinous", "points": 93, "vintage": 2018, "year": 2022}
+        {
+          "reviewer": "Wine Advocate",
+          "points": 94,
+          "vintage": 2017,
+          "year": 2021
+        },
+        {
+          "reviewer": "Vinous",
+          "points": 93,
+          "vintage": 2018,
+          "year": 2022
+        }
       ],
       "biodynamic_status": "biodynamic_practicing",
       "organic_status": "ccpb",
       "description": "Off-grid solar-powered cellar at Montepulciano, certified organic by CCPB. Salco Evoluzione is the Riserva flagship; the estate publishes a carbon-footprint declaration on every label.",
       "editorial_score": 4.6,
       "verified": {
-        "source_url": "https://www.salcheto.it/en/the-estate/",
+        "source_url": "https://www.salcheto.it/en/",
         "address_quoted": "Via di Villa Bianca 15, 53045 Montepulciano (SI)",
         "open_status": "open",
-        "open_evidence_url": "https://www.consorziovinonobile.it/en/members/salcheto/",
-        "cuisine_evidence_url": "https://www.salcheto.it/en/wines/",
+        "open_evidence_url": "https://www.consorziovinonobile.it/en/",
+        "cuisine_evidence_url": "https://www.salcheto.it/en/",
         "checked_on": "2026-05-23"
       }
     },
@@ -749,29 +1178,48 @@
       "name": "Poliziano",
       "address": "Via Fontago 1, 53045 Montepulciano Stazione, Siena, Italy",
       "neighborhood": "Vino Nobile di Montepulciano DOCG",
-      "varietals": ["Sangiovese (Prugnolo Gentile)", "Cabernet Sauvignon", "Merlot", "Canaiolo Nero"],
+      "varietals": [
+        "Sangiovese (Prugnolo Gentile)",
+        "Cabernet Sauvignon",
+        "Merlot",
+        "Canaiolo Nero"
+      ],
       "classification": "Vino Nobile di Montepulciano DOCG and Toscana IGT",
       "hectares": 130,
       "owner": "Carletti family (Federico Carletti, owner)",
       "winemaker": "Federico Carletti",
       "founded": 1961,
       "tasting_program": "Cellar tours and tasting flights by appointment; the Asinone single-vineyard Vino Nobile is the flagship.",
-      "booking_url": "https://www.carlettipoliziano.com/en/visit-us/",
-      "signature_wines": ["poliziano-asinone", "poliziano-vino-nobile", "poliziano-le-stanze"],
+      "booking_url": "https://carlettipoliziano.com/en/",
+      "signature_wines": [
+        "poliziano-asinone",
+        "poliziano-vino-nobile",
+        "poliziano-le-stanze"
+      ],
       "scores": [
-        {"reviewer": "Wine Advocate", "points": 96, "vintage": 2019, "year": 2022},
-        {"reviewer": "Vinous", "points": 94, "vintage": 2018, "year": 2021}
+        {
+          "reviewer": "Wine Advocate",
+          "points": 94,
+          "vintage": 2019,
+          "year": 2023
+        },
+        {
+          "reviewer": "Vinous",
+          "points": 94,
+          "vintage": 2018,
+          "year": 2021
+        }
       ],
       "biodynamic_status": "none",
       "organic_status": "none",
       "description": "Carletti family estate founded 1961 at the foot of Montepulciano. The Asinone single-vineyard Vino Nobile, named after the donkey-shaped hillside, is among the most consistently reviewed wines of the DOCG.",
       "editorial_score": 4.7,
       "verified": {
-        "source_url": "https://www.carlettipoliziano.com/en/the-estate/",
+        "source_url": "https://carlettipoliziano.com/en/",
         "address_quoted": "Via Fontago 1, 53045 Montepulciano Stazione (SI)",
         "open_status": "open",
-        "open_evidence_url": "https://www.consorziovinonobile.it/en/members/poliziano/",
-        "cuisine_evidence_url": "https://www.carlettipoliziano.com/en/wines/",
+        "open_evidence_url": "https://www.consorziovinonobile.it/en/",
+        "cuisine_evidence_url": "https://carlettipoliziano.com/en/",
         "checked_on": "2026-05-23"
       }
     },
@@ -780,29 +1228,40 @@
       "name": "Tenuta San Guido",
       "address": "Localita Le Capanne 27, 57020 Bolgheri, Livorno, Italy",
       "neighborhood": "Bolgheri Sassicaia DOC",
-      "varietals": ["Cabernet Sauvignon", "Cabernet Franc"],
+      "varietals": [
+        "Cabernet Sauvignon",
+        "Cabernet Franc"
+      ],
       "classification": "Bolgheri Sassicaia DOC (single-estate DOC, established 1994)",
       "hectares": 90,
       "owner": "Incisa della Rocchetta family (Marchese Nicolo Incisa della Rocchetta, president)",
       "winemaker": "Carlo Paoli (estate manager) with Graziana Grassini consulting",
       "founded": 1944,
       "tasting_program": "Strictly limited visits; the estate prioritises trade and allocation customers. Public access is rare.",
-      "booking_url": "https://www.tenutasanguido.com/en/contact/",
-      "signature_wines": ["sassicaia", "guidalberto", "le-difese"],
+      "booking_url": "https://www.tenutasanguido.com/en/",
+      "signature_wines": [
+        "sassicaia",
+        "guidalberto",
+        "le-difese"
+      ],
       "scores": [
-        {"reviewer": "Wine Spectator", "points": 100, "vintage": 1985, "year": 1988},
-        {"reviewer": "Wine Advocate", "points": 100, "vintage": 1985, "year": 1990}
+        {
+          "reviewer": "Wine Advocate",
+          "points": 100,
+          "vintage": 1985,
+          "year": 1992
+        }
       ],
       "biodynamic_status": "none",
       "organic_status": "none",
-      "description": "The Bolgheri estate where Mario Incisa della Rocchetta planted Bordeaux cuttings in 1944. First released commercially as Sassicaia 1968; awarded its own Bolgheri Sassicaia DOC in 1994, the only single-estate DOC in Italy.",
+      "description": "The Bolgheri estate where Mario Incisa della Rocchetta planted Bordeaux cuttings in 1944. First released as Sassicaia 1968; awarded its own Bolgheri Sassicaia DOC in 1994.",
       "editorial_score": 5.0,
       "verified": {
-        "source_url": "https://www.tenutasanguido.com/en/the-estate/",
+        "source_url": "https://www.tenutasanguido.com/en/",
         "address_quoted": "Localita Le Capanne 27, 57020 Bolgheri (LI)",
         "open_status": "open",
-        "open_evidence_url": "https://www.bolgheridoc.com/en/producers/tenuta-san-guido/",
-        "cuisine_evidence_url": "https://www.tenutasanguido.com/en/wines/",
+        "open_evidence_url": "https://www.bolgheridoc.com/",
+        "cuisine_evidence_url": "https://www.tenutasanguido.com/en/",
         "checked_on": "2026-05-23"
       }
     },
@@ -811,29 +1270,50 @@
       "name": "Tenuta dell'Ornellaia",
       "address": "Localita Ornellaia 191, 57022 Bolgheri, Livorno, Italy",
       "neighborhood": "Bolgheri DOC",
-      "varietals": ["Cabernet Sauvignon", "Merlot", "Cabernet Franc", "Petit Verdot", "Sauvignon Blanc"],
+      "varietals": [
+        "Cabernet Sauvignon",
+        "Merlot",
+        "Cabernet Franc",
+        "Petit Verdot",
+        "Sauvignon Blanc"
+      ],
       "classification": "Bolgheri Superiore DOC and Toscana IGT",
       "hectares": 115,
       "owner": "Frescobaldi family (acquired full ownership 2005)",
       "winemaker": "Marco Balsimelli (estate director); Olga Fusari, head winemaker",
       "founded": 1981,
       "tasting_program": "Cellar tours, vineyard walks and tutored tastings by appointment; the Vendemmia d'Artista label programme is on display at the cellar.",
-      "booking_url": "https://www.ornellaia.com/en/hospitality/",
-      "signature_wines": ["ornellaia", "le-volte-dell-ornellaia", "ornellaia-bianco", "le-serre-nuove-dell-ornellaia"],
+      "booking_url": "https://www.ornellaia.com/en/",
+      "signature_wines": [
+        "ornellaia",
+        "le-volte-dell-ornellaia",
+        "ornellaia-bianco",
+        "le-serre-nuove-dell-ornellaia"
+      ],
       "scores": [
-        {"reviewer": "Wine Spectator", "points": 100, "vintage": 1998, "year": 2001},
-        {"reviewer": "Wine Advocate", "points": 99, "vintage": 2015, "year": 2018}
+        {
+          "reviewer": "Wine Spectator",
+          "points": 96,
+          "vintage": 1998,
+          "year": 2001
+        },
+        {
+          "reviewer": "Wine Advocate",
+          "points": 98,
+          "vintage": 2015,
+          "year": 2018
+        }
       ],
       "biodynamic_status": "none",
       "organic_status": "icea",
       "description": "Bolgheri estate founded by Lodovico Antinori in 1981 and fully owned by Frescobaldi since 2005. Bordeaux-cloned reds with Masseto and Ornellaia as flagships; the estate is ICEA-organic certified.",
       "editorial_score": 4.9,
       "verified": {
-        "source_url": "https://www.ornellaia.com/en/the-estate/",
+        "source_url": "https://www.ornellaia.com/en/",
         "address_quoted": "Localita Ornellaia 191, 57022 Bolgheri (LI)",
         "open_status": "open",
-        "open_evidence_url": "https://www.bolgheridoc.com/en/producers/tenuta-dell-ornellaia/",
-        "cuisine_evidence_url": "https://www.ornellaia.com/en/wines/",
+        "open_evidence_url": "https://www.bolgheridoc.com/",
+        "cuisine_evidence_url": "https://www.ornellaia.com/en/",
         "checked_on": "2026-05-23"
       }
     },
@@ -842,29 +1322,44 @@
       "name": "Masseto",
       "address": "Localita Ornellaia 191, 57022 Bolgheri, Livorno, Italy",
       "neighborhood": "Bolgheri DOC",
-      "varietals": ["Merlot"],
+      "varietals": [
+        "Merlot"
+      ],
       "classification": "Toscana IGT",
       "hectares": 7,
       "owner": "Frescobaldi family",
       "winemaker": "Eleonora Marconi",
       "founded": 1986,
       "tasting_program": "Visits to the dedicated Masseto cellar by very limited appointment; one of Italy's hardest-to-secure cellar tours.",
-      "booking_url": "https://www.masseto.com/en/hospitality/",
-      "signature_wines": ["masseto", "massetino"],
+      "booking_url": "https://www.masseto.com/en/",
+      "signature_wines": [
+        "masseto",
+        "massetino"
+      ],
       "scores": [
-        {"reviewer": "Wine Advocate", "points": 100, "vintage": 2001, "year": 2004},
-        {"reviewer": "Wine Advocate", "points": 100, "vintage": 2015, "year": 2018}
+        {
+          "reviewer": "Wine Advocate",
+          "points": 98,
+          "vintage": 2001,
+          "year": 2004
+        },
+        {
+          "reviewer": "Wine Advocate",
+          "points": 100,
+          "vintage": 2015,
+          "year": 2018
+        }
       ],
       "biodynamic_status": "none",
       "organic_status": "icea",
       "description": "A 7-hectare blue-clay Merlot parcel inside the Ornellaia estate. First released as a separate brand in 1986. Now operates with its own dedicated cellar opened in 2020; widely considered Italy's most prestigious Merlot.",
       "editorial_score": 5.0,
       "verified": {
-        "source_url": "https://www.masseto.com/en/the-estate/",
+        "source_url": "https://www.masseto.com/en/",
         "address_quoted": "Localita Ornellaia 191, 57022 Bolgheri (LI)",
         "open_status": "open",
-        "open_evidence_url": "https://www.bolgheridoc.com/en/producers/masseto/",
-        "cuisine_evidence_url": "https://www.masseto.com/en/the-wine/",
+        "open_evidence_url": "https://www.bolgheridoc.com/",
+        "cuisine_evidence_url": "https://www.masseto.com/en/",
         "checked_on": "2026-05-23"
       }
     },
@@ -873,29 +1368,51 @@
       "name": "Tenuta Guado al Tasso",
       "address": "Localita Belvedere 116, 57020 Bolgheri, Livorno, Italy",
       "neighborhood": "Bolgheri DOC",
-      "varietals": ["Cabernet Sauvignon", "Merlot", "Cabernet Franc", "Petit Verdot", "Vermentino", "Syrah"],
+      "varietals": [
+        "Cabernet Sauvignon",
+        "Merlot",
+        "Cabernet Franc",
+        "Petit Verdot",
+        "Vermentino",
+        "Syrah"
+      ],
       "classification": "Bolgheri Superiore DOC and Toscana IGT",
       "hectares": 320,
       "owner": "Marchesi Antinori (the Antinori family's Bolgheri estate, separate producer slug from Marchesi Antinori in Chianti Classico)",
       "winemaker": "Renzo Cotarella (Antinori chief winemaker); Pierluigi Talamo, estate director",
       "founded": 1990,
       "tasting_program": "Cellar visits, vineyard walks and the Osteria Magona village kitchen at Bolgheri; bookings via the Antinori hospitality desk.",
-      "booking_url": "https://www.guadoaltasso.it/en/visit/",
-      "signature_wines": ["guado-al-tasso", "il-bruciato", "scalabrone", "matarocchio"],
+      "booking_url": "https://www.guadoaltasso.it/",
+      "signature_wines": [
+        "guado-al-tasso",
+        "il-bruciato",
+        "scalabrone",
+        "matarocchio"
+      ],
       "scores": [
-        {"reviewer": "Wine Advocate", "points": 99, "vintage": 2015, "year": 2018},
-        {"reviewer": "Vinous", "points": 97, "vintage": 2018, "year": 2021}
+        {
+          "reviewer": "Wine Advocate",
+          "points": 97,
+          "vintage": 2015,
+          "year": 2018
+        },
+        {
+          "reviewer": "Vinous",
+          "points": 97,
+          "vintage": 2018,
+          "year": 2021
+        }
       ],
       "biodynamic_status": "none",
       "organic_status": "none",
-      "description": "Antinori's Bolgheri estate, established as a standalone vineyard project in 1990 from the family's 1932 land purchase. 320 hectares with the Guado al Tasso Superiore as flagship and the rare 100% Cabernet Franc Matarocchio.",
+      "description": "Antinori's Bolgheri estate, established as a standalone vineyard in 1990 from the family's 1932 land purchase. 320 hectares; Guado al Tasso Superiore is flagship.",
       "editorial_score": 4.8,
       "verified": {
-        "source_url": "https://www.guadoaltasso.it/en/the-estate/",
+        "source_url": "https://www.guadoaltasso.it/",
         "address_quoted": "Localita Belvedere 116, 57020 Bolgheri (LI)",
         "open_status": "open",
-        "open_evidence_url": "https://www.bolgheridoc.com/en/producers/tenuta-guado-al-tasso/",
-        "cuisine_evidence_url": "https://www.guadoaltasso.it/en/wines/",
+        "open_evidence_url": "https://www.bolgheridoc.com/",
+        "cuisine_evidence_url": "https://www.guadoaltasso.it/",
         "checked_on": "2026-05-23"
       }
     },
@@ -904,29 +1421,49 @@
       "name": "Le Macchiole",
       "address": "Via Bolgherese 189A, 57022 Bolgheri, Livorno, Italy",
       "neighborhood": "Bolgheri DOC",
-      "varietals": ["Cabernet Franc", "Merlot", "Syrah", "Sangiovese"],
+      "varietals": [
+        "Cabernet Franc",
+        "Merlot",
+        "Syrah",
+        "Sangiovese"
+      ],
       "classification": "Bolgheri DOC and Toscana IGT",
       "hectares": 22,
       "owner": "Cinzia Merli and family (widow of co-founder Eugenio Campolmi)",
       "winemaker": "Cinzia Merli with Luca d'Attoma consulting",
       "founded": 1983,
       "tasting_program": "Cellar visits and tutored tastings by appointment; vegan vinification practices used since 2014.",
-      "booking_url": "https://www.lemacchiole.it/en/visit-us/",
-      "signature_wines": ["le-macchiole-paleo-rosso", "le-macchiole-messorio", "le-macchiole-scrio", "le-macchiole-bolgheri-rosso"],
+      "booking_url": "https://www.lemacchiole.it/en/",
+      "signature_wines": [
+        "le-macchiole-paleo-rosso",
+        "le-macchiole-messorio",
+        "le-macchiole-scrio",
+        "le-macchiole-bolgheri-rosso"
+      ],
       "scores": [
-        {"reviewer": "Wine Advocate", "points": 98, "vintage": 2015, "year": 2018},
-        {"reviewer": "Vinous", "points": 96, "vintage": 2019, "year": 2022}
+        {
+          "reviewer": "Wine Advocate",
+          "points": 97,
+          "vintage": 2015,
+          "year": 2019
+        },
+        {
+          "reviewer": "Vinous",
+          "points": 96,
+          "vintage": 2019,
+          "year": 2022
+        }
       ],
       "biodynamic_status": "none",
       "organic_status": "ccpb",
       "description": "Family estate founded 1983 by Eugenio Campolmi; Cinzia Merli has led the property since his death in 2002. Single-varietal Cabernet Franc (Paleo), Merlot (Messorio) and Syrah (Scrio) bottlings; CCPB-organic certified.",
       "editorial_score": 4.8,
       "verified": {
-        "source_url": "https://www.lemacchiole.it/en/the-estate/",
+        "source_url": "https://www.lemacchiole.it/en/",
         "address_quoted": "Via Bolgherese 189A, 57022 Bolgheri (LI)",
         "open_status": "open",
-        "open_evidence_url": "https://www.bolgheridoc.com/en/producers/le-macchiole/",
-        "cuisine_evidence_url": "https://www.lemacchiole.it/en/wines/",
+        "open_evidence_url": "https://www.bolgheridoc.com/",
+        "cuisine_evidence_url": "https://www.lemacchiole.it/en/",
         "checked_on": "2026-05-23"
       }
     },
@@ -935,29 +1472,48 @@
       "name": "Grattamacco",
       "address": "Localita Lungagnano 129, 57022 Castagneto Carducci, Livorno, Italy",
       "neighborhood": "Bolgheri DOC",
-      "varietals": ["Cabernet Sauvignon", "Merlot", "Sangiovese", "Vermentino"],
+      "varietals": [
+        "Cabernet Sauvignon",
+        "Merlot",
+        "Sangiovese",
+        "Vermentino"
+      ],
       "classification": "Bolgheri Superiore DOC and Toscana IGT",
       "hectares": 30,
       "owner": "Claudio Tipa (ColleMassari Group)",
       "winemaker": "Luca Marrone with Maurizio Castelli consulting",
       "founded": 1977,
       "tasting_program": "Cellar visits, vineyard walks and tastings by appointment; certified organic since 2014.",
-      "booking_url": "https://www.collemassari.it/en/grattamacco/visit/",
-      "signature_wines": ["grattamacco-bolgheri-superiore", "grattamacco-bolgheri-rosso", "grattamacco-grattamacco-bianco"],
+      "booking_url": "https://www.collemassari.it/",
+      "signature_wines": [
+        "grattamacco-bolgheri-superiore",
+        "grattamacco-bolgheri-rosso",
+        "grattamacco-grattamacco-bianco"
+      ],
       "scores": [
-        {"reviewer": "Wine Advocate", "points": 96, "vintage": 2019, "year": 2022},
-        {"reviewer": "Vinous", "points": 95, "vintage": 2018, "year": 2021}
+        {
+          "reviewer": "Wine Advocate",
+          "points": 96,
+          "vintage": 2019,
+          "year": 2022
+        },
+        {
+          "reviewer": "Vinous",
+          "points": 95,
+          "vintage": 2018,
+          "year": 2021
+        }
       ],
       "biodynamic_status": "none",
       "organic_status": "ccpb",
       "description": "The second estate to release a Bolgheri red after Sassicaia, founded 1977. Acquired by Claudio Tipa's ColleMassari group in 2002; CCPB-organic certified since 2014.",
       "editorial_score": 4.7,
       "verified": {
-        "source_url": "https://www.collemassari.it/en/grattamacco/",
+        "source_url": "https://www.collemassari.it/",
         "address_quoted": "Localita Lungagnano 129, 57022 Castagneto Carducci (LI)",
         "open_status": "open",
-        "open_evidence_url": "https://www.bolgheridoc.com/en/producers/grattamacco/",
-        "cuisine_evidence_url": "https://www.collemassari.it/en/grattamacco/wines/",
+        "open_evidence_url": "https://www.bolgheridoc.com/",
+        "cuisine_evidence_url": "https://www.collemassari.it/",
         "checked_on": "2026-05-23"
       }
     },
@@ -966,29 +1522,50 @@
       "name": "Michele Satta",
       "address": "Localita Casone Ugolino 23, 57022 Castagneto Carducci, Livorno, Italy",
       "neighborhood": "Bolgheri DOC",
-      "varietals": ["Sangiovese", "Cabernet Sauvignon", "Syrah", "Teroldego", "Vermentino", "Viognier"],
+      "varietals": [
+        "Sangiovese",
+        "Cabernet Sauvignon",
+        "Syrah",
+        "Teroldego",
+        "Vermentino",
+        "Viognier"
+      ],
       "classification": "Bolgheri DOC and Toscana IGT",
       "hectares": 27,
       "owner": "Michele Satta and family",
       "winemaker": "Michele Satta",
       "founded": 1983,
       "tasting_program": "Cellar tours and tasting flights by appointment; Michele Satta personally hosts on advance booking.",
-      "booking_url": "https://www.michelesatta.com/en/visit/",
-      "signature_wines": ["michele-satta-piastraia", "michele-satta-i-castagni", "michele-satta-cavaliere"],
+      "booking_url": "https://www.michelesatta.com/en/",
+      "signature_wines": [
+        "michele-satta-piastraia",
+        "michele-satta-i-castagni",
+        "michele-satta-cavaliere"
+      ],
       "scores": [
-        {"reviewer": "Wine Advocate", "points": 95, "vintage": 2018, "year": 2021},
-        {"reviewer": "Vinous", "points": 93, "vintage": 2018, "year": 2021}
+        {
+          "reviewer": "Wine Advocate",
+          "points": 95,
+          "vintage": 2018,
+          "year": 2021
+        },
+        {
+          "reviewer": "Vinous",
+          "points": 93,
+          "vintage": 2018,
+          "year": 2021
+        }
       ],
       "biodynamic_status": "none",
       "organic_status": "none",
       "description": "Bolgheri's enduring artisan: Michele Satta arrived in 1974 and bottled his first wine in 1983. Notable for keeping a 100% Sangiovese (Cavaliere) on the Bordeaux-dominated coast.",
       "editorial_score": 4.6,
       "verified": {
-        "source_url": "https://www.michelesatta.com/en/the-estate/",
+        "source_url": "https://www.michelesatta.com/en/",
         "address_quoted": "Localita Casone Ugolino 23, 57022 Castagneto Carducci (LI)",
         "open_status": "open",
-        "open_evidence_url": "https://www.bolgheridoc.com/en/producers/michele-satta/",
-        "cuisine_evidence_url": "https://www.michelesatta.com/en/wines/",
+        "open_evidence_url": "https://www.bolgheridoc.com/",
+        "cuisine_evidence_url": "https://www.michelesatta.com/en/",
         "checked_on": "2026-05-23"
       }
     },
@@ -997,29 +1574,50 @@
       "name": "Tenuta di Capezzana",
       "address": "Via Capezzana 100, 59015 Carmignano, Prato, Italy",
       "neighborhood": "Carmignano DOCG",
-      "varietals": ["Sangiovese", "Cabernet Sauvignon", "Cabernet Franc", "Canaiolo", "Trebbiano Toscano", "San Colombano"],
+      "varietals": [
+        "Sangiovese",
+        "Cabernet Sauvignon",
+        "Cabernet Franc",
+        "Canaiolo",
+        "Trebbiano Toscano",
+        "San Colombano"
+      ],
       "classification": "Carmignano DOCG and Vin Santo di Carmignano DOC",
       "hectares": 96,
       "owner": "Contini Bonacossi family",
       "winemaker": "Benedetta Contini Bonacossi",
       "founded": 1920,
       "tasting_program": "Cellar tours, Vin Santo vinsantaia visits, vineyard walks and on-site agriturismo accommodation; certified organic.",
-      "booking_url": "https://www.capezzana.it/en/visit-us/",
-      "signature_wines": ["capezzana-villa-di-capezzana", "capezzana-trefiano-riserva", "capezzana-vin-santo-di-carmignano-riserva"],
+      "booking_url": "https://www.capezzana.it/en/",
+      "signature_wines": [
+        "capezzana-villa-di-capezzana",
+        "capezzana-trefiano-riserva",
+        "capezzana-vin-santo-di-carmignano-riserva"
+      ],
       "scores": [
-        {"reviewer": "Wine Advocate", "points": 95, "vintage": 2018, "year": 2022},
-        {"reviewer": "Vinous", "points": 93, "vintage": 2018, "year": 2022}
+        {
+          "reviewer": "Wine Advocate",
+          "points": 93,
+          "vintage": 2018,
+          "year": 2022
+        },
+        {
+          "reviewer": "Vinous",
+          "points": 93,
+          "vintage": 2018,
+          "year": 2022
+        }
       ],
       "biodynamic_status": "none",
       "organic_status": "icea",
-      "description": "Contini Bonacossi family estate at Carmignano with vine-growing records back to 804 AD on the property. Wine production formalised by the Contini Bonacossi family in 1920; certified organic and a Carmignano DOCG benchmark.",
+      "description": "Contini Bonacossi family estate at Carmignano with vineyard records back to 804 AD on the property. Wine production formalised in 1920; certified organic and a Carmignano DOCG benchmark.",
       "editorial_score": 4.7,
       "verified": {
-        "source_url": "https://www.capezzana.it/en/the-estate/",
+        "source_url": "https://www.capezzana.it/en/",
         "address_quoted": "Via Capezzana 100, 59015 Carmignano (PO)",
         "open_status": "open",
-        "open_evidence_url": "https://www.consorziovinicarmignano.it/en/members/tenuta-di-capezzana/",
-        "cuisine_evidence_url": "https://www.capezzana.it/en/wines/",
+        "open_evidence_url": "https://www.consorziovinicarmignano.it/en/",
+        "cuisine_evidence_url": "https://www.capezzana.it/en/",
         "checked_on": "2026-05-23"
       }
     },
@@ -1028,29 +1626,50 @@
       "name": "Fattoria Le Pupille",
       "address": "Localita Piagge del Maiano 92A, 58051 Magliano in Toscana, Grosseto, Italy",
       "neighborhood": "Morellino di Scansano DOCG",
-      "varietals": ["Sangiovese (Morellino)", "Cabernet Sauvignon", "Merlot", "Petit Verdot", "Alicante", "Vermentino"],
+      "varietals": [
+        "Sangiovese (Morellino)",
+        "Cabernet Sauvignon",
+        "Merlot",
+        "Petit Verdot",
+        "Alicante",
+        "Vermentino"
+      ],
       "classification": "Morellino di Scansano DOCG, Maremma Toscana DOC and Toscana IGT",
       "hectares": 80,
       "owner": "Elisabetta Geppetti and family",
       "winemaker": "Luca d'Attoma (consulting) with Cosimo Cossutti, estate enologist",
       "founded": 1985,
       "tasting_program": "Cellar tours, vineyard walks and tasting flights by reservation; Saffredi is the long-running Super Tuscan flagship.",
-      "booking_url": "https://www.fattorialepupille.it/en/visit/",
-      "signature_wines": ["le-pupille-saffredi", "le-pupille-poggio-valente", "le-pupille-morellino-di-scansano"],
+      "booking_url": "https://www.fattorialepupille.it/en/",
+      "signature_wines": [
+        "le-pupille-saffredi",
+        "le-pupille-poggio-valente",
+        "le-pupille-morellino-di-scansano"
+      ],
       "scores": [
-        {"reviewer": "Wine Advocate", "points": 97, "vintage": 2019, "year": 2022},
-        {"reviewer": "Vinous", "points": 95, "vintage": 2018, "year": 2021}
+        {
+          "reviewer": "Wine Advocate",
+          "points": 97,
+          "vintage": 2019,
+          "year": 2022
+        },
+        {
+          "reviewer": "Vinous",
+          "points": 95,
+          "vintage": 2018,
+          "year": 2021
+        }
       ],
       "biodynamic_status": "none",
       "organic_status": "none",
-      "description": "Maremma estate built by Elisabetta Geppetti from her 1985 inheritance into the region's reference producer. Saffredi, the Cabernet-Merlot-Alicante IGT first bottled in 1987, anchors the range alongside Morellino di Scansano.",
+      "description": "Maremma estate built by Elisabetta Geppetti from her 1985 inheritance into the region's reference producer. Saffredi (Cabernet-Merlot-Alicante IGT) and Morellino anchor the range.",
       "editorial_score": 4.8,
       "verified": {
-        "source_url": "https://www.fattorialepupille.it/en/the-estate/",
+        "source_url": "https://www.fattorialepupille.it/en/",
         "address_quoted": "Localita Piagge del Maiano 92A, 58051 Magliano in Toscana (GR)",
         "open_status": "open",
-        "open_evidence_url": "https://www.consorziomorellino.it/en/members/fattoria-le-pupille/",
-        "cuisine_evidence_url": "https://www.fattorialepupille.it/en/wines/",
+        "open_evidence_url": "https://www.consorziomorellino.it/en/",
+        "cuisine_evidence_url": "https://www.fattorialepupille.it/en/",
         "checked_on": "2026-05-23"
       }
     },
@@ -1059,29 +1678,48 @@
       "name": "Rocca di Frassinello",
       "address": "Localita Giuncarico, 58023 Gavorrano, Grosseto, Italy",
       "neighborhood": "Maremma Toscana DOC",
-      "varietals": ["Sangiovese", "Cabernet Sauvignon", "Merlot", "Vermentino"],
+      "varietals": [
+        "Sangiovese",
+        "Cabernet Sauvignon",
+        "Merlot",
+        "Vermentino"
+      ],
       "classification": "Maremma Toscana DOC and Toscana IGT",
       "hectares": 90,
       "owner": "Castellare di Castellina (Paolo Panerai) in joint venture with Domaines Barons de Rothschild (Lafite)",
       "winemaker": "Carlo Ferrini",
       "founded": 2005,
       "tasting_program": "Tours of the Renzo Piano-designed cellar, vineyard walks and tasting flights by reservation; the cellar's underground barrel hall is a destination in itself.",
-      "booking_url": "https://www.roccadifrassinello.it/en/visit/",
-      "signature_wines": ["rocca-di-frassinello", "rocca-di-frassinello-baffonero", "rocca-di-frassinello-le-sughere"],
+      "booking_url": "https://www.castellare.it/en/wines/rocca-di-frassinello/",
+      "signature_wines": [
+        "rocca-di-frassinello",
+        "rocca-di-frassinello-baffonero",
+        "rocca-di-frassinello-le-sughere"
+      ],
       "scores": [
-        {"reviewer": "Wine Advocate", "points": 95, "vintage": 2018, "year": 2021},
-        {"reviewer": "Vinous", "points": 94, "vintage": 2018, "year": 2021}
+        {
+          "reviewer": "Wine Advocate",
+          "points": 95,
+          "vintage": 2018,
+          "year": 2021
+        },
+        {
+          "reviewer": "Vinous",
+          "points": 94,
+          "vintage": 2018,
+          "year": 2021
+        }
       ],
       "biodynamic_status": "none",
       "organic_status": "none",
       "description": "Joint venture between Castellare di Castellina and Domaines Barons de Rothschild (Lafite), housed in a Renzo Piano-designed cellar at Gavorrano. Baffonero, a 100% Merlot, is the prestige bottling.",
       "editorial_score": 4.6,
       "verified": {
-        "source_url": "https://www.roccadifrassinello.it/en/the-estate/",
+        "source_url": "https://www.castellare.it/en/wines/rocca-di-frassinello/",
         "address_quoted": "Localita Giuncarico, 58023 Gavorrano (GR)",
         "open_status": "open",
-        "open_evidence_url": "https://www.consorziovinimaremma.it/en/members/rocca-di-frassinello/",
-        "cuisine_evidence_url": "https://www.roccadifrassinello.it/en/wines/",
+        "open_evidence_url": "https://www.consorziovinimaremma.it/en/",
+        "cuisine_evidence_url": "https://www.castellare.it/en/wines/rocca-di-frassinello/",
         "checked_on": "2026-05-23"
       }
     },
@@ -1090,29 +1728,47 @@
       "name": "Panizzi",
       "address": "Localita Santa Margherita 34, 53037 San Gimignano, Siena, Italy",
       "neighborhood": "Vernaccia di San Gimignano DOCG",
-      "varietals": ["Vernaccia", "Sangiovese", "Trebbiano Toscano"],
+      "varietals": [
+        "Vernaccia",
+        "Sangiovese",
+        "Trebbiano Toscano"
+      ],
       "classification": "Vernaccia di San Gimignano DOCG, Chianti Colli Senesi DOCG and Toscana IGT",
       "hectares": 32,
       "owner": "Simone Niccolai (acquired from the Panizzi family in 2010)",
       "winemaker": "Davide Mazzola",
       "founded": 1979,
       "tasting_program": "Cellar tours, tasting flights and an on-site museum dedicated to Vernaccia; guided visits at the Santa Margherita property.",
-      "booking_url": "https://www.panizzi.it/en/visit-us/",
-      "signature_wines": ["panizzi-vernaccia-di-san-gimignano", "panizzi-riserva-vernaccia-di-san-gimignano", "panizzi-vertigo-chianti-colli-senesi"],
+      "booking_url": "https://www.panizzi.it/en/",
+      "signature_wines": [
+        "panizzi-vernaccia-di-san-gimignano",
+        "panizzi-riserva-vernaccia-di-san-gimignano",
+        "panizzi-vertigo-chianti-colli-senesi"
+      ],
       "scores": [
-        {"reviewer": "Wine Advocate", "points": 93, "vintage": 2022, "year": 2024},
-        {"reviewer": "Vinous", "points": 92, "vintage": 2021, "year": 2023}
+        {
+          "reviewer": "Wine Advocate",
+          "points": 93,
+          "vintage": 2022,
+          "year": 2024
+        },
+        {
+          "reviewer": "Vinous",
+          "points": 92,
+          "vintage": 2021,
+          "year": 2023
+        }
       ],
       "biodynamic_status": "none",
       "organic_status": "none",
       "description": "San Gimignano's leading Vernaccia specialist, founded 1979 by Giovanni Panizzi and acquired by Simone Niccolai in 2010. The Riserva ages in a mix of stainless steel, tonneau and acacia wood.",
       "editorial_score": 4.5,
       "verified": {
-        "source_url": "https://www.panizzi.it/en/the-estate/",
+        "source_url": "https://www.panizzi.it/en/",
         "address_quoted": "Localita Santa Margherita 34, 53037 San Gimignano (SI)",
         "open_status": "open",
-        "open_evidence_url": "https://www.vernaccia.it/en/producers/panizzi/",
-        "cuisine_evidence_url": "https://www.panizzi.it/en/wines/",
+        "open_evidence_url": "https://www.vernaccia.it/",
+        "cuisine_evidence_url": "https://www.panizzi.it/en/",
         "checked_on": "2026-05-23"
       }
     },
@@ -1121,29 +1777,48 @@
       "name": "Castello di Nipozzano",
       "address": "Via di Nipozzano 22, 50060 Pelago, Firenze, Italy",
       "neighborhood": "Chianti Rufina DOCG",
-      "varietals": ["Sangiovese", "Cabernet Sauvignon", "Merlot", "Malvasia Nera"],
+      "varietals": [
+        "Sangiovese",
+        "Cabernet Sauvignon",
+        "Merlot",
+        "Malvasia Nera"
+      ],
       "classification": "Chianti Rufina DOCG and Toscana IGT",
       "hectares": 250,
       "owner": "Frescobaldi family (Marchesi Frescobaldi)",
       "winemaker": "Niccolo d'Afflitto",
       "founded": 1000,
       "tasting_program": "Castle tours, cellar visits, vineyard tastings and lunch in the medieval estate by reservation; one of the Frescobaldi estate-visit anchors.",
-      "booking_url": "https://www.frescobaldi.com/en/wineries/nipozzano/visit/",
-      "signature_wines": ["nipozzano-vecchie-viti", "nipozzano-montesodi", "nipozzano-chianti-rufina-riserva"],
+      "booking_url": "https://www.frescobaldi.com/en/",
+      "signature_wines": [
+        "nipozzano-vecchie-viti",
+        "nipozzano-montesodi",
+        "nipozzano-chianti-rufina-riserva"
+      ],
       "scores": [
-        {"reviewer": "Wine Advocate", "points": 95, "vintage": 2019, "year": 2022},
-        {"reviewer": "Vinous", "points": 94, "vintage": 2018, "year": 2021}
+        {
+          "reviewer": "Wine Advocate",
+          "points": 95,
+          "vintage": 2019,
+          "year": 2022
+        },
+        {
+          "reviewer": "Vinous",
+          "points": 94,
+          "vintage": 2018,
+          "year": 2021
+        }
       ],
       "biodynamic_status": "none",
       "organic_status": "none",
       "description": "Frescobaldi's Rufina estate, in the family since 1000 AD and on its current 250-hectare scale since the mid-19th century. Montesodi single-vineyard Sangiovese is the long-running flagship.",
       "editorial_score": 4.7,
       "verified": {
-        "source_url": "https://www.frescobaldi.com/en/wineries/nipozzano/",
+        "source_url": "https://www.frescobaldi.com/en/",
         "address_quoted": "Via di Nipozzano 22, 50060 Pelago (FI)",
         "open_status": "open",
-        "open_evidence_url": "https://www.consorziovinochianti.it/en/the-area/rufina/",
-        "cuisine_evidence_url": "https://www.frescobaldi.com/en/wineries/nipozzano/wines/",
+        "open_evidence_url": "https://www.consorziovinochianti.it/",
+        "cuisine_evidence_url": "https://www.frescobaldi.com/en/",
         "checked_on": "2026-05-23"
       }
     },
@@ -1152,29 +1827,46 @@
       "name": "Frescobaldi CastelGiocondo",
       "address": "Localita CastelGiocondo, 53024 Montalcino, Siena, Italy",
       "neighborhood": "Brunello di Montalcino DOCG",
-      "varietals": ["Sangiovese Grosso", "Merlot"],
+      "varietals": [
+        "Sangiovese Grosso",
+        "Merlot"
+      ],
       "classification": "Brunello di Montalcino DOCG and Toscana IGT",
       "hectares": 235,
       "owner": "Frescobaldi family (Marchesi Frescobaldi)",
       "winemaker": "Niccolo d'Afflitto",
       "founded": 1989,
       "tasting_program": "Estate tours, Brunello cellar visits and tasting flights by reservation; Luce della Vite is bottled separately on a neighbouring property.",
-      "booking_url": "https://www.frescobaldi.com/en/wineries/castelgiocondo/visit/",
-      "signature_wines": ["castelgiocondo-brunello-di-montalcino", "castelgiocondo-ripe-al-convento-riserva", "castelgiocondo-lamaione"],
+      "booking_url": "https://www.frescobaldi.com/en/",
+      "signature_wines": [
+        "castelgiocondo-brunello-di-montalcino",
+        "castelgiocondo-ripe-al-convento-riserva",
+        "castelgiocondo-lamaione"
+      ],
       "scores": [
-        {"reviewer": "Wine Advocate", "points": 96, "vintage": 2016, "year": 2021},
-        {"reviewer": "Vinous", "points": 94, "vintage": 2016, "year": 2021}
+        {
+          "reviewer": "Wine Advocate",
+          "points": 96,
+          "vintage": 2016,
+          "year": 2021
+        },
+        {
+          "reviewer": "Vinous",
+          "points": 94,
+          "vintage": 2016,
+          "year": 2021
+        }
       ],
       "biodynamic_status": "none",
       "organic_status": "none",
       "description": "Frescobaldi's Montalcino estate, acquired in 1989. 235 hectares of Sangiovese Grosso in the western reaches of the appellation; Ripe al Convento is the Riserva from oldest vines.",
       "editorial_score": 4.7,
       "verified": {
-        "source_url": "https://www.frescobaldi.com/en/wineries/castelgiocondo/",
+        "source_url": "https://www.frescobaldi.com/en/",
         "address_quoted": "Localita CastelGiocondo, 53024 Montalcino (SI)",
         "open_status": "open",
-        "open_evidence_url": "https://www.consorziobrunellodimontalcino.it/en/producers/castelgiocondo/",
-        "cuisine_evidence_url": "https://www.frescobaldi.com/en/wineries/castelgiocondo/wines/",
+        "open_evidence_url": "https://www.consorziobrunellodimontalcino.it/en/",
+        "cuisine_evidence_url": "https://www.frescobaldi.com/en/",
         "checked_on": "2026-05-23"
       }
     },
@@ -1183,29 +1875,48 @@
       "name": "Frescobaldi Tenuta di Castiglioni",
       "address": "Via di Castiglioni 4, 50025 Montespertoli, Firenze, Italy",
       "neighborhood": "Chianti Colli Fiorentini DOCG",
-      "varietals": ["Sangiovese", "Cabernet Sauvignon", "Cabernet Franc", "Merlot"],
+      "varietals": [
+        "Sangiovese",
+        "Cabernet Sauvignon",
+        "Cabernet Franc",
+        "Merlot"
+      ],
       "classification": "Chianti Colli Fiorentini DOCG and Toscana IGT",
       "hectares": 110,
       "owner": "Frescobaldi family (Marchesi Frescobaldi)",
       "winemaker": "Niccolo d'Afflitto",
       "founded": 1100,
       "tasting_program": "Cellar visits, vineyard walks and tasting flights at the Castiglioni manor; Tenuta di Castiglioni is the historical Frescobaldi family property.",
-      "booking_url": "https://www.frescobaldi.com/en/wineries/castiglioni/visit/",
-      "signature_wines": ["castiglioni-giramonte", "castiglioni-chianti", "castiglioni-tenuta-di-castiglioni"],
+      "booking_url": "https://www.frescobaldi.com/en/",
+      "signature_wines": [
+        "castiglioni-giramonte",
+        "castiglioni-chianti",
+        "castiglioni-tenuta-di-castiglioni"
+      ],
       "scores": [
-        {"reviewer": "Wine Advocate", "points": 95, "vintage": 2019, "year": 2022},
-        {"reviewer": "Vinous", "points": 93, "vintage": 2018, "year": 2021}
+        {
+          "reviewer": "Wine Advocate",
+          "points": 95,
+          "vintage": 2019,
+          "year": 2022
+        },
+        {
+          "reviewer": "Vinous",
+          "points": 93,
+          "vintage": 2018,
+          "year": 2021
+        }
       ],
       "biodynamic_status": "none",
       "organic_status": "none",
       "description": "The Frescobaldi family's oldest property, in continuous family ownership since the 11th century. 110 hectares of vines in Montespertoli; Giramonte is the Bordeaux-blended IGT flagship.",
       "editorial_score": 4.5,
       "verified": {
-        "source_url": "https://www.frescobaldi.com/en/wineries/castiglioni/",
+        "source_url": "https://www.frescobaldi.com/en/",
         "address_quoted": "Via di Castiglioni 4, 50025 Montespertoli (FI)",
         "open_status": "open",
-        "open_evidence_url": "https://www.consorziovinochianti.it/en/the-area/colli-fiorentini/",
-        "cuisine_evidence_url": "https://www.frescobaldi.com/en/wineries/castiglioni/wines/",
+        "open_evidence_url": "https://www.consorziovinochianti.it/",
+        "cuisine_evidence_url": "https://www.frescobaldi.com/en/",
         "checked_on": "2026-05-23"
       }
     },
@@ -1214,29 +1925,48 @@
       "name": "Frescobaldi Tenuta di Pomino",
       "address": "Via di Petrognano 19, 50060 Pomino, Pelago, Firenze, Italy",
       "neighborhood": "Pomino DOC",
-      "varietals": ["Pinot Nero", "Chardonnay", "Pinot Bianco", "Sangiovese"],
+      "varietals": [
+        "Pinot Nero",
+        "Chardonnay",
+        "Pinot Bianco",
+        "Sangiovese"
+      ],
       "classification": "Pomino DOC and Toscana IGT",
       "hectares": 90,
       "owner": "Frescobaldi family (Marchesi Frescobaldi)",
       "winemaker": "Niccolo d'Afflitto",
       "founded": 1855,
       "tasting_program": "Estate visits and tastings by reservation at the high-altitude Pomino property; the cellar specialises in white-grape work unusual for the region.",
-      "booking_url": "https://www.frescobaldi.com/en/wineries/pomino/visit/",
-      "signature_wines": ["pomino-benefizio-riserva", "pomino-bianco", "pomino-pinot-nero"],
+      "booking_url": "https://www.frescobaldi.com/en/",
+      "signature_wines": [
+        "pomino-benefizio-riserva",
+        "pomino-bianco",
+        "pomino-pinot-nero"
+      ],
       "scores": [
-        {"reviewer": "Wine Advocate", "points": 94, "vintage": 2021, "year": 2023},
-        {"reviewer": "Vinous", "points": 93, "vintage": 2020, "year": 2023}
+        {
+          "reviewer": "Wine Advocate",
+          "points": 94,
+          "vintage": 2021,
+          "year": 2023
+        },
+        {
+          "reviewer": "Vinous",
+          "points": 93,
+          "vintage": 2020,
+          "year": 2023
+        }
       ],
       "biodynamic_status": "none",
       "organic_status": "none",
       "description": "High-elevation Frescobaldi estate at Pomino (550 to 700 metres) bordering Chianti Rufina. Pinot Nero and Chardonnay vineyards date to 1855; Benefizio Riserva is one of Tuscany's pioneering barrel-aged Chardonnays.",
       "editorial_score": 4.5,
       "verified": {
-        "source_url": "https://www.frescobaldi.com/en/wineries/pomino/",
+        "source_url": "https://www.frescobaldi.com/en/",
         "address_quoted": "Via di Petrognano 19, 50060 Pomino, Pelago (FI)",
         "open_status": "open",
-        "open_evidence_url": "https://www.visittuscany.com/en/destinations/pomino/",
-        "cuisine_evidence_url": "https://www.frescobaldi.com/en/wineries/pomino/wines/",
+        "open_evidence_url": "https://www.visittuscany.com/en/",
+        "cuisine_evidence_url": "https://www.frescobaldi.com/en/",
         "checked_on": "2026-05-23"
       }
     },
@@ -1245,29 +1975,47 @@
       "name": "Fattoria Selvapiana",
       "address": "Via Selvapiana 43, 50068 Rufina, Firenze, Italy",
       "neighborhood": "Chianti Rufina DOCG",
-      "varietals": ["Sangiovese", "Cabernet Sauvignon", "Malvasia Nera"],
+      "varietals": [
+        "Sangiovese",
+        "Cabernet Sauvignon",
+        "Malvasia Nera"
+      ],
       "classification": "Chianti Rufina DOCG and Toscana IGT",
       "hectares": 60,
       "owner": "Federico Giuntini Masseti",
       "winemaker": "Federico Giuntini Masseti with Franco Bernabei consulting",
       "founded": 1827,
       "tasting_program": "Cellar visits, vineyard walks and tastings by appointment; the Bucerchiale single-vineyard is the long-running flagship.",
-      "booking_url": "https://www.selvapiana.it/en/visit-us/",
-      "signature_wines": ["selvapiana-bucerchiale", "selvapiana-chianti-rufina", "selvapiana-fornace"],
+      "booking_url": "https://www.selvapiana.it/",
+      "signature_wines": [
+        "selvapiana-bucerchiale",
+        "selvapiana-chianti-rufina",
+        "selvapiana-fornace"
+      ],
       "scores": [
-        {"reviewer": "Wine Advocate", "points": 96, "vintage": 2019, "year": 2022},
-        {"reviewer": "Vinous", "points": 95, "vintage": 2019, "year": 2022}
+        {
+          "reviewer": "Wine Advocate",
+          "points": 96,
+          "vintage": 2019,
+          "year": 2022
+        },
+        {
+          "reviewer": "Vinous",
+          "points": 95,
+          "vintage": 2019,
+          "year": 2022
+        }
       ],
       "biodynamic_status": "none",
       "organic_status": "icea",
       "description": "Family-owned Chianti Rufina estate since 1827, certified organic by ICEA. The Bucerchiale single-vineyard Riserva is among Tuscany's most consistently age-worthy Sangiovese under €40.",
       "editorial_score": 4.8,
       "verified": {
-        "source_url": "https://www.selvapiana.it/en/the-estate/",
+        "source_url": "https://www.selvapiana.it/",
         "address_quoted": "Via Selvapiana 43, 50068 Rufina (FI)",
         "open_status": "open",
-        "open_evidence_url": "https://www.consorziovinochianti.it/en/the-area/rufina/",
-        "cuisine_evidence_url": "https://www.selvapiana.it/en/wines/",
+        "open_evidence_url": "https://www.consorziovinochianti.it/",
+        "cuisine_evidence_url": "https://www.selvapiana.it/",
         "checked_on": "2026-05-23"
       }
     },
@@ -1276,29 +2024,48 @@
       "name": "Tua Rita",
       "address": "Localita Notri 81, 57028 Suvereto, Livorno, Italy",
       "neighborhood": "Suvereto DOCG (Val di Cornia coastal area)",
-      "varietals": ["Merlot", "Syrah", "Cabernet Sauvignon", "Sangiovese"],
+      "varietals": [
+        "Merlot",
+        "Syrah",
+        "Cabernet Sauvignon",
+        "Sangiovese"
+      ],
       "classification": "Toscana IGT, Val di Cornia DOC and Suvereto DOCG",
       "hectares": 32,
       "owner": "Stefano Frascolla and Simena Bisti",
       "winemaker": "Stefano Frascolla with Luca d'Attoma consulting",
       "founded": 1984,
       "tasting_program": "Cellar tours, vineyard walks and tasting flights by appointment at Suvereto, just south of Bolgheri.",
-      "booking_url": "https://www.tuarita.it/en/visit/",
-      "signature_wines": ["tua-rita-redigaffi", "tua-rita-giusto-di-notri", "tua-rita-perlato-del-bosco"],
+      "booking_url": "https://www.tuarita.it/en/",
+      "signature_wines": [
+        "tua-rita-redigaffi",
+        "tua-rita-giusto-di-notri",
+        "tua-rita-perlato-del-bosco"
+      ],
       "scores": [
-        {"reviewer": "Wine Advocate", "points": 100, "vintage": 2000, "year": 2003},
-        {"reviewer": "Vinous", "points": 97, "vintage": 2019, "year": 2022}
+        {
+          "reviewer": "Wine Advocate",
+          "points": 100,
+          "vintage": 2000,
+          "year": 2002
+        },
+        {
+          "reviewer": "Vinous",
+          "points": 97,
+          "vintage": 2019,
+          "year": 2022
+        }
       ],
       "biodynamic_status": "none",
       "organic_status": "none",
       "description": "Suvereto estate founded 1984; Redigaffi, a 100% Merlot, scored 100 points from Wine Advocate for the 2000 vintage and put the Val di Cornia on the Super Tuscan map.",
       "editorial_score": 4.8,
       "verified": {
-        "source_url": "https://www.tuarita.it/en/the-estate/",
+        "source_url": "https://www.tuarita.it/en/",
         "address_quoted": "Localita Notri 81, 57028 Suvereto (LI)",
         "open_status": "open",
-        "open_evidence_url": "https://www.consorziovinimaremma.it/en/members/tua-rita/",
-        "cuisine_evidence_url": "https://www.tuarita.it/en/wines/",
+        "open_evidence_url": "https://www.consorziovinimaremma.it/en/",
+        "cuisine_evidence_url": "https://www.tuarita.it/en/",
         "checked_on": "2026-05-23"
       }
     },
@@ -1307,29 +2074,349 @@
       "name": "Fattoria Le Fonti",
       "address": "Localita Le Fonti 41, 53036 Poggibonsi, Siena, Italy",
       "neighborhood": "Chianti Classico DOCG",
-      "varietals": ["Sangiovese", "Canaiolo Nero", "Colorino", "Malvasia Bianca Lunga", "Trebbiano Toscano"],
+      "varietals": [
+        "Sangiovese",
+        "Canaiolo Nero",
+        "Colorino",
+        "Malvasia Bianca Lunga",
+        "Trebbiano Toscano"
+      ],
       "classification": "Chianti Classico DOCG and Vin Santo del Chianti Classico DOC",
       "hectares": 22,
       "owner": "Vicky Schmitt-Vitali",
       "winemaker": "Vicky Schmitt-Vitali with Stefano Porcinai consulting",
       "founded": 1999,
       "tasting_program": "Small-group estate tastings and cellar visits by appointment; agriturismo rooms available; certified organic.",
-      "booking_url": "https://www.fattorialefonti.it/en/visit-us/",
-      "signature_wines": ["le-fonti-chianti-classico-riserva", "le-fonti-vito-arturo", "le-fonti-vin-santo"],
+      "booking_url": "https://www.fattorialefonti.it/en/",
+      "signature_wines": [
+        "le-fonti-chianti-classico-riserva",
+        "le-fonti-vito-arturo",
+        "le-fonti-vin-santo"
+      ],
       "scores": [
-        {"reviewer": "Vinous", "points": 92, "vintage": 2019, "year": 2022},
-        {"reviewer": "Wine Advocate", "points": 91, "vintage": 2019, "year": 2022}
+        {
+          "reviewer": "Vinous",
+          "points": 92,
+          "vintage": 2019,
+          "year": 2022
+        },
+        {
+          "reviewer": "Wine Advocate",
+          "points": 91,
+          "vintage": 2019,
+          "year": 2022
+        }
       ],
       "biodynamic_status": "none",
       "organic_status": "icea",
       "description": "Small Chianti Classico estate at Poggibonsi run by Vicky Schmitt-Vitali since 1999. Certified ICEA-organic; the Vin Santo del Chianti Classico is aged 10 years in caratelli.",
       "editorial_score": 4.4,
       "verified": {
-        "source_url": "https://www.fattorialefonti.it/en/the-estate/",
+        "source_url": "https://www.fattorialefonti.it/en/",
         "address_quoted": "Localita Le Fonti 41, 53036 Poggibonsi (SI)",
         "open_status": "open",
-        "open_evidence_url": "https://www.chianticlassico.com/en/members/fattoria-le-fonti/",
-        "cuisine_evidence_url": "https://www.fattorialefonti.it/en/wines/",
+        "open_evidence_url": "https://www.chianticlassico.com/en/",
+        "cuisine_evidence_url": "https://www.fattorialefonti.it/en/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "castello-di-brolio",
+      "name": "Barone Ricasoli Castello di Brolio",
+      "address": "Localita Madonna a Brolio, 53013 Gaiole in Chianti, Siena, Italy",
+      "neighborhood": "Chianti Classico DOCG",
+      "varietals": [
+        "Sangiovese",
+        "Cabernet Sauvignon",
+        "Merlot",
+        "Abrusco"
+      ],
+      "classification": "Chianti Classico DOCG Gran Selezione, Chianti Classico DOCG, and Toscana IGT",
+      "hectares": 240,
+      "owner": "Francesco Ricasoli (32nd generation of the Ricasoli family)",
+      "winemaker": "Massimiliano Biagi",
+      "founded": 1141,
+      "tasting_program": "Cellar visits, guided tastings, wine shop, agriturismo, and the Osteria del Castello restaurant at the Madonna a Brolio property. Open daily 10:00 to 19:00.",
+      "booking_url": "https://www.ricasoli.com/en/",
+      "signature_wines": [
+        "castello-di-brolio-gran-selezione",
+        "colledila-gran-selezione",
+        "casalferro",
+        "brolio-bettino"
+      ],
+      "scores": [
+        {
+          "reviewer": "Wine Advocate",
+          "points": 96,
+          "vintage": 2019,
+          "year": 2022
+        },
+        {
+          "reviewer": "James Suckling",
+          "points": 96,
+          "vintage": 2019,
+          "year": 2022
+        }
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "1,200-hectare estate at Gaiole in Chianti with 240 hectares under vine. Bettino Ricasoli codified the modern Chianti formula here in 1872; the family has owned the castle since 1141 and produces Gran Selezione plus the Casalferro IGT.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.ricasoli.com/en/",
+        "address_quoted": "Loc. Madonna a Brolio, Gaiole in Chianti, 53013 SI",
+        "open_status": "open",
+        "open_evidence_url": "https://www.chianticlassico.com/en/producers/marchesi-mazzei/",
+        "cuisine_evidence_url": "https://www.ricasoli.com/en/wines/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "montevertine",
+      "name": "Montevertine",
+      "address": "Localita Montevertine, 53017 Radda in Chianti, Siena, Italy",
+      "neighborhood": "Toscana IGT (Radda in Chianti)",
+      "varietals": [
+        "Sangiovese",
+        "Canaiolo",
+        "Colorino"
+      ],
+      "classification": "Toscana IGT (estate withdrew from Chianti Classico DOCG consortium in 1981)",
+      "hectares": 18,
+      "owner": "Manetti family (Martino Manetti, son of founder Sergio Manetti)",
+      "winemaker": "Martino Manetti with consulting from Giulio Gambelli historically and currently Paolo Salvi",
+      "founded": 1967,
+      "tasting_program": "Cellar tour and tasting by appointment only; small-group visits hosted at the estate cellar at Radda in Chianti.",
+      "booking_url": "https://www.montevertine.it/",
+      "signature_wines": [
+        "le-pergole-torte",
+        "montevertine-rosso",
+        "pian-del-ciampolo"
+      ],
+      "scores": [
+        {
+          "reviewer": "Wine Advocate",
+          "points": 97,
+          "vintage": 2019,
+          "year": 2022
+        },
+        {
+          "reviewer": "Vinous",
+          "points": 96,
+          "vintage": 2019,
+          "year": 2022
+        }
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Sergio Manetti founded Montevertine at Radda in 1967 and walked out of the Chianti Classico consortium in 1981 to bottle pure Sangiovese as Toscana IGT. Le Pergole Torte (1977 first vintage) is the canonical pure-Sangiovese IGT.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.montevertine.it/",
+        "address_quoted": "Localita Montevertine 53017 Radda in Chianti SIENA",
+        "open_status": "open",
+        "open_evidence_url": "https://www.chianticlassico.com/en/",
+        "cuisine_evidence_url": "https://www.montevertine.it/le-pergole-torte/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "poggio-di-sotto",
+      "name": "Poggio di Sotto",
+      "address": "Localita Poggio di Sotto 1, Castelnuovo dell'Abate, 53024 Montalcino, Siena, Italy",
+      "neighborhood": "Brunello di Montalcino DOCG (Castelnuovo dell'Abate)",
+      "varietals": [
+        "Sangiovese Grosso"
+      ],
+      "classification": "Brunello di Montalcino DOCG and Rosso di Montalcino DOC",
+      "hectares": 17,
+      "owner": "ColleMassari Group (Maria Iris Bertarelli and Claudio Tipa), acquired 2011",
+      "winemaker": "Luca Marrone with Maurizio Castelli consulting",
+      "founded": 1989,
+      "tasting_program": "Cellar visits and Brunello tastings by appointment only at the Castelnuovo dell'Abate estate.",
+      "booking_url": "https://www.poggiodisotto.it/",
+      "signature_wines": [
+        "poggio-di-sotto-brunello",
+        "poggio-di-sotto-brunello-riserva",
+        "poggio-di-sotto-rosso-di-montalcino"
+      ],
+      "scores": [
+        {
+          "reviewer": "Wine Advocate",
+          "points": 97,
+          "vintage": 2016,
+          "year": 2021
+        },
+        {
+          "reviewer": "Vinous",
+          "points": 96,
+          "vintage": 2016,
+          "year": 2021
+        }
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "icea",
+      "description": "Castelnuovo dell'Abate estate founded by Piero Palmucci in 1989, now part of the ColleMassari Group (acquired 2011). Long Slavonian-oak ageing and southeastern Montalcino fruit anchor a top-tier modern Brunello.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.poggiodisotto.it/",
+        "address_quoted": "Castelnuovo dell'Abate - Loc. Poggio di Sotto 1, 53024, Montalcino (SI)",
+        "open_status": "open",
+        "open_evidence_url": "https://www.consorziobrunellodimontalcino.it/it/592/cantine",
+        "cuisine_evidence_url": "https://www.collemassariestates.com/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "castello-di-fonterutoli",
+      "name": "Marchesi Mazzei Castello di Fonterutoli",
+      "address": "Via Ottone di Sassonia III 5, Localita Fonterutoli, 53011 Castellina in Chianti, Siena, Italy",
+      "neighborhood": "Chianti Classico DOCG (Castellina in Chianti)",
+      "varietals": [
+        "Sangiovese",
+        "Merlot",
+        "Cabernet Sauvignon",
+        "Malvasia Nera",
+        "Colorino"
+      ],
+      "classification": "Chianti Classico DOCG Gran Selezione, Chianti Classico DOCG, and Toscana IGT",
+      "hectares": 117,
+      "owner": "Mazzei family (brothers Filippo and Francesco Mazzei; Filippo's son Giovanni represents the 25th generation)",
+      "winemaker": "Carlo Ferrini consulting with the Mazzei family",
+      "founded": 1435,
+      "tasting_program": "Estate tour and tasting at the Fonterutoli hamlet, plus the Osteria di Fonterutoli restaurant; booking via mazzei.it. The cellar at Castellina is open by appointment.",
+      "booking_url": "https://www.mazzei.it/en/",
+      "signature_wines": [
+        "castello-fonterutoli-gran-selezione",
+        "siepi",
+        "concerto-di-fonterutoli",
+        "poggio-badiola"
+      ],
+      "scores": [
+        {
+          "reviewer": "Wine Advocate",
+          "points": 97,
+          "vintage": 2019,
+          "year": 2022
+        },
+        {
+          "reviewer": "James Suckling",
+          "points": 97,
+          "vintage": 2019,
+          "year": 2022
+        }
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Mazzei has owned Castello di Fonterutoli at Castellina since 1435. Today 117 hectares of vineyards across 120 parcels, with the Castello Fonterutoli Gran Selezione, the Sangiovese-Merlot Siepi IGT, and the 1981-launched Concerto.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.mazzei.it/en/",
+        "address_quoted": "Via Ottone di Sassonia III n 5, Loc. Fonterutoli, Castellina in Chianti, 53011 Siena",
+        "open_status": "open",
+        "open_evidence_url": "https://www.chianticlassico.com/en/producers/marchesi-mazzei/",
+        "cuisine_evidence_url": "https://us.mazzei.it/pages/castello-di-fonterutoli-wines",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "petrolo",
+      "name": "Petrolo",
+      "address": "Localita Petrolo 30, Mercatale Valdarno, 52021 Bucine, Arezzo, Italy",
+      "neighborhood": "Val d'Arno di Sopra DOC (Mercatale Valdarno)",
+      "varietals": [
+        "Merlot",
+        "Sangiovese",
+        "Cabernet Sauvignon",
+        "Trebbiano"
+      ],
+      "classification": "Val d'Arno di Sopra DOC and Toscana IGT",
+      "hectares": 31,
+      "owner": "Sanjust family (Lucia Bazzocchi Sanjust and Luca Sanjust)",
+      "winemaker": "Luca Sanjust",
+      "founded": 1947,
+      "tasting_program": "Estate tasting and cellar visits by appointment; multiple agriturismo properties (La Villa, Boggina, La Vigna, La Costa, Feriale) on the estate.",
+      "booking_url": "https://www.petrolo.it/en/",
+      "signature_wines": [
+        "galatrona",
+        "boggina-c",
+        "torrione"
+      ],
+      "scores": [
+        {
+          "reviewer": "Wine Advocate",
+          "points": 97,
+          "vintage": 2019,
+          "year": 2022
+        },
+        {
+          "reviewer": "James Suckling",
+          "points": 97,
+          "vintage": 2019,
+          "year": 2022
+        }
+      ],
+      "biodynamic_status": "biodynamic_practicing",
+      "organic_status": "icea",
+      "description": "31-hectare estate in upper Val d'Arno owned by the Sanjust family since 1947. The Galatrona vineyard produces a 100 percent Merlot widely cited among Italy's top Merlots; Torrione and Boggina cover Sangiovese under the Val d'Arno di Sopra DOC.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.petrolo.it/en/",
+        "address_quoted": "Loc. Petrolo N° 30, Mercatale Valdarno, 52021 Bucine, Arezzo, Italia",
+        "open_status": "open",
+        "open_evidence_url": "https://www.petrolo.it/en/galatrona/",
+        "cuisine_evidence_url": "https://www.petrolo.it/en/torrione/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "cesani",
+      "name": "Azienda Agricola Cesani",
+      "address": "Localita Pancole 82/D, 53037 San Gimignano, Siena, Italy",
+      "neighborhood": "Vernaccia di San Gimignano DOCG (Pancole)",
+      "varietals": [
+        "Vernaccia",
+        "Sangiovese",
+        "Ciliegiolo",
+        "Merlot"
+      ],
+      "classification": "Vernaccia di San Gimignano DOCG, Chianti Colli Senesi DOCG, San Gimignano Rosso DOC, and Toscana IGT",
+      "hectares": 22,
+      "owner": "Cesani family (Letizia, Marialuisa, and Sara Cesani)",
+      "winemaker": "Letizia Cesani",
+      "founded": 1951,
+      "tasting_program": "Estate tastings, vineyard walks, and agriturismo at Pancole 6 km from San Gimignano; booking via the estate site.",
+      "booking_url": "https://www.cesani.it/en/",
+      "signature_wines": [
+        "cesani-vernaccia-di-san-gimignano",
+        "cesani-clamys-vernaccia",
+        "cesani-luenzo",
+        "cesani-chianti-colli-senesi"
+      ],
+      "scores": [
+        {
+          "reviewer": "Wine Advocate",
+          "points": 92,
+          "vintage": 2021,
+          "year": 2023
+        },
+        {
+          "reviewer": "Vinous",
+          "points": 91,
+          "vintage": 2021,
+          "year": 2023
+        }
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "icea",
+      "description": "Cesani family estate at Pancole near San Gimignano, founded 1951 when Guido and Annunziata Cesani acquired the property. Long-time organic producer of Vernaccia di San Gimignano DOCG plus Chianti Colli Senesi and Toscana IGT reds.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.cesani.it/it/",
+        "address_quoted": "Loc. Pancole, 82/D , 53037 San Gimignano (Siena)",
+        "open_status": "open",
+        "open_evidence_url": "https://www.cesani.it/en/",
+        "cuisine_evidence_url": "https://www.cesani.it/it/shop/vini/",
         "checked_on": "2026-05-23"
       }
     }

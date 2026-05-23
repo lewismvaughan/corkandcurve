@@ -1,3 +1,228 @@
 {
-  "itineraries": []
+  "itineraries": [
+    {
+      "slug": "chianti-classico-two-day-weekend",
+      "name": "Chianti Classico two-day weekend",
+      "length_days": 2,
+      "theme": "First-time Chianti Classico: Greve, Panzano, Radda and Castelnuovo Berardenga",
+      "base": "Greve in Chianti",
+      "days": [
+        {
+          "day": 1,
+          "morning": "Drive south from Florence along the SR222 Chiantigiana, stopping for an early visit at Marchesi Antinori's Antinori nel Chianti Classico cellar at Bargino for the 90-minute tour and tasting.",
+          "lunch": "Lunch at Rinuccio 1180 on the Antinori roof terrace; views over the Pesa valley and a Tignanello pairing.",
+          "afternoon": "Continue to Panzano in Chianti for a 16:00 cellar tasting at Fontodi in Conca d'Oro, focused on the certified-organic estate's Sangiovese and Flaccianello.",
+          "evening": "Aperitivo on Piazza Bucciarelli in Panzano followed by dinner at Officina della Bistecca with Dario Cecchini.",
+          "accommodation": "Boutique stay at Villa le Barone or Villa Bordoni in the Greve hills.",
+          "venues": ["marchesi-antinori", "fontodi"]
+        },
+        {
+          "day": 2,
+          "morning": "Drive east to Radda in Chianti for a 10:30 tasting at Castello di Volpaia inside the medieval Volpaia village, focused on high-elevation Sangiovese.",
+          "lunch": "Lunch at La Bottega di Volpaia or pack a picnic for the Volpaia walking trails.",
+          "afternoon": "Continue south-east to Castelnuovo Berardenga for an estate visit at Felsina for the Berardenga Chianti Classico and Fontalloro IGT.",
+          "evening": "Return to Florence for a late aperitivo at Le Volpi e l'Uva off the Ponte Vecchio before dinner.",
+          "accommodation": "Florence centro storico stay.",
+          "venues": ["castello-di-volpaia", "felsina"]
+        }
+      ],
+      "description": "Two-day weekend route through Chianti Classico from Greve and Panzano to Radda and Castelnuovo Berardenga. Four producer visits plus a Cecchini dinner, ending in Florence.",
+      "tip": "Book the Antinori nel Chianti Classico timed tour at least three weeks in advance; Volpaia and Fontodi both prefer 7 to 10 days' notice.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.antinorichianticlassico.it/en/visit/",
+        "address_quoted": "Chianti Classico",
+        "open_status": "open",
+        "open_evidence_url": "https://www.chianticlassico.com/en/",
+        "cuisine_evidence_url": "https://www.dariocecchini.com/officina/?lang=en",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "brunello-and-vino-nobile-three-day-loop",
+      "name": "Brunello and Vino Nobile three-day loop",
+      "length_days": 3,
+      "theme": "Southern Tuscany's two great DOCGs: Montalcino and Montepulciano with a Val d'Orcia detour",
+      "base": "Montalcino",
+      "days": [
+        {
+          "day": 1,
+          "morning": "Begin in Montalcino at Biondi-Santi's Il Greppo estate for a 10:00 visit, focused on the 19th-century clone selection and a Riserva tasting.",
+          "lunch": "Lunch at Enoteca La Fortezza di Montalcino inside the medieval fortress; flight of five Brunello pours.",
+          "afternoon": "Drive south to Sant'Angelo in Colle for a 16:00 tasting at Il Poggione, the historic Franceschi family estate.",
+          "evening": "Dinner at Re di Macchia or Drogheria Franci in Montalcino with a Rosso di Montalcino comparison.",
+          "accommodation": "Montalcino centro storico boutique stay.",
+          "venues": ["biondi-santi", "il-poggione"]
+        },
+        {
+          "day": 2,
+          "morning": "Visit Casanova di Neri for the Cerretalto cru tasting; cellar tour through the recent Mastrojanni acquisition.",
+          "lunch": "Lunch at Banfi's Castello dining room, Sant'Angelo Scalo, paired with the estate's flagship Brunello.",
+          "afternoon": "Cross the Val d'Orcia eastward via Pienza for a 16:30 visit at Avignonesi in Valiano di Montepulciano; focus on the biodynamic-certified Vino Nobile and the Vin Santo Occhio di Pernice.",
+          "evening": "Drive into Montepulciano for dinner at La Grotta below the town walls.",
+          "accommodation": "Montepulciano boutique stay.",
+          "venues": ["casanova-di-neri", "banfi", "avignonesi"]
+        },
+        {
+          "day": 3,
+          "morning": "Tour Salcheto's off-grid carbon-neutral cellar, with a no-added-sulfite Vino Nobile tasting.",
+          "lunch": "Lunch at Osteria Acquacheta in Montepulciano old town; bistecca alla fiorentina with Vino Nobile.",
+          "afternoon": "Drive west to Boscarelli for a 16:00 tasting of the De Ferrari Corradi family's Riserva and IGT bottlings.",
+          "evening": "Return drive to Florence or Siena.",
+          "accommodation": "Drop-off at airport or Florence.",
+          "venues": ["salcheto", "boscarelli"]
+        }
+      ],
+      "description": "Three-day southern Tuscany loop covering Montalcino's Brunello and Montepulciano's Vino Nobile. Six producer visits, an Avignonesi biodynamic stop and a Salcheto carbon-neutral tour.",
+      "tip": "Brunello flagship estates require 2 to 4 weeks' booking lead time; the Pienza Val d'Orcia detour midway is the natural lunch pause between Montalcino and Montepulciano.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.biondisanti.com/en/visit/",
+        "address_quoted": "Montalcino",
+        "open_status": "open",
+        "open_evidence_url": "https://www.consorziobrunellodimontalcino.it/en/home/home",
+        "cuisine_evidence_url": "https://www.consorziovinonobile.it/en/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "bolgheri-and-maremma-coast-four-days",
+      "name": "Bolgheri and Maremma coast four-day route",
+      "length_days": 4,
+      "theme": "Super Tuscans on the gravel coast, then south into Maremma natural-wine country",
+      "base": "Castagneto Carducci",
+      "days": [
+        {
+          "day": 1,
+          "morning": "Drive from Florence to Bolgheri along the Tyrrhenian coast. Arrive at Tenuta San Guido for a noon tasting of Sassicaia in the Bolgheri Sassicaia DOC sub-zone.",
+          "lunch": "Lunch at Osteria Magona in Bolgheri village; pici with cinghiale and a glass of Bolgheri rosso.",
+          "afternoon": "Continue to Tenuta dell'Ornellaia for a 16:00 cellar visit and Ornellaia flight.",
+          "evening": "Aperitivo on the cypress-lined Viale dei Cipressi, then dinner at Enoteca Tognoni in Bolgheri.",
+          "accommodation": "Castagneto Carducci boutique stay or Hotel Marina di Castagneto.",
+          "venues": ["tenuta-san-guido", "tenuta-dell-ornellaia"]
+        },
+        {
+          "day": 2,
+          "morning": "Visit Masseto's hill estate for the dedicated Merlot tasting; allocations are small but cellar visits accommodate serious enthusiasts.",
+          "lunch": "Lunch at Tenuta Argentiera for Bolgheri Superiore by the glass.",
+          "afternoon": "Tour Le Macchiole, the Cinzia Merli estate that pioneered the Cabernet Franc-led Paleo bottling.",
+          "evening": "Dinner at the Castagneto Carducci hilltop trattoria scene.",
+          "accommodation": "Castagneto Carducci.",
+          "venues": ["masseto", "le-macchiole"]
+        },
+        {
+          "day": 3,
+          "morning": "Drive south into the Maremma. Visit Tua Rita at Suvereto for the Redigaffi Merlot tasting.",
+          "lunch": "Lunch at the Petra winery restaurant in Suvereto.",
+          "afternoon": "Continue south to Le Pupille at Istia d'Ombrone for a Morellino di Scansano DOCG tasting.",
+          "evening": "Aperitivo in Grosseto, then dinner at Trattoria Toscana in the centro storico.",
+          "accommodation": "Maremma boutique stay outside Magliano in Toscana.",
+          "venues": ["tua-rita", "le-pupille"]
+        },
+        {
+          "day": 4,
+          "morning": "Drive inland to Rocca di Frassinello for the Castellare-Domaines Barons de Rothschild joint-venture estate.",
+          "lunch": "Lunch on the estate's Renzo Piano-designed terrace.",
+          "afternoon": "Return north via Massa Marittima with an optional stop at Massa Vecchia for the natural-wine cellar visit (referral only).",
+          "evening": "Drive back to Florence or Pisa airport.",
+          "accommodation": "Drop-off.",
+          "venues": ["rocca-di-frassinello", "massa-vecchia"]
+        }
+      ],
+      "description": "Four-day Tyrrhenian-coast route from Bolgheri's Bordeaux-grape Super Tuscans to Suvereto and the Maremma Morellino zone, finishing with a Renzo Piano architectural cellar at Rocca di Frassinello.",
+      "tip": "Sassicaia, Ornellaia and Masseto all require months-ahead reservations; book directly through each estate's official site, not through third-party booking agents.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.tenutasanguido.com/en/visits-and-tastings",
+        "address_quoted": "Bolgheri",
+        "open_status": "open",
+        "open_evidence_url": "https://www.bolgheridoc.com/en/wines/",
+        "cuisine_evidence_url": "https://www.elisabettageppetti.com/en/wines/morellino-di-scansano-docg/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "tuscany-grand-tour-seven-days",
+      "name": "Tuscany grand tour, seven days",
+      "length_days": 7,
+      "theme": "Florence to Bolgheri via Chianti Classico, Brunello, Vino Nobile, Vernaccia and Carmignano",
+      "base": "Florence and three regional bases",
+      "days": [
+        {
+          "day": 1,
+          "morning": "Arrive Florence; walk to Le Volpi e l'Uva off the Ponte Vecchio for a Tuscan by-the-glass introduction.",
+          "lunch": "Lunch at Il Santino on Via Santo Spirito.",
+          "afternoon": "Drive west to Carmignano for a tasting at Tenuta di Capezzana, the historical centre of the 1716 Cosimo III appellation.",
+          "evening": "Return to Florence for dinner at Coquinarius.",
+          "accommodation": "Florence stay.",
+          "venues": ["tenuta-di-capezzana"]
+        },
+        {
+          "day": 2,
+          "morning": "Drive into Chianti Classico. Visit Castello di Ama at Gaiole for the contemporary-art-and-wine tour.",
+          "lunch": "Lunch at Ristoro di Lamole in Greve, with Lamole Sangiovese.",
+          "afternoon": "Continue to Isole e Olena (Barberino Val d'Elsa) for the Paolo De Marchi (Proprieta Sperino link) cellar visit and Cepparello tasting.",
+          "evening": "Dinner at Officina della Bistecca in Panzano with Dario Cecchini.",
+          "accommodation": "Greve in Chianti boutique stay.",
+          "venues": ["castello-di-ama", "isole-e-olena"]
+        },
+        {
+          "day": 3,
+          "morning": "Visit San Felice at Castelnuovo Berardenga for the Vigorello IGT and Brunello at Campogiovanni in Sant'Angelo in Colle.",
+          "lunch": "Lunch on the San Felice estate at Borgo San Felice.",
+          "afternoon": "Continue south to Riecine for a high-elevation Gaiole Sangiovese tasting.",
+          "evening": "Drive to Montalcino. Aperitivo at Enoteca La Fortezza di Montalcino inside the fortress.",
+          "accommodation": "Montalcino centro storico.",
+          "venues": ["san-felice", "riecine"]
+        },
+        {
+          "day": 4,
+          "morning": "Brunello morning at Casanova di Neri or Mastrojanni.",
+          "lunch": "Lunch at Banfi castello.",
+          "afternoon": "Visit Argiano for the Sesta cru and the Solengo Super Tuscan.",
+          "evening": "Dinner at Re di Macchia.",
+          "accommodation": "Montalcino.",
+          "venues": ["casanova-di-neri", "banfi", "argiano"]
+        },
+        {
+          "day": 5,
+          "morning": "Cross to Montepulciano via Pienza. Visit Poliziano for the Asinone single-vineyard Vino Nobile.",
+          "lunch": "Lunch at Osteria Acquacheta.",
+          "afternoon": "Tasting at Salcheto's off-grid carbon-neutral cellar.",
+          "evening": "Drive west to Bolgheri via the SS1 Aurelia coast road.",
+          "accommodation": "Castagneto Carducci.",
+          "venues": ["poliziano", "salcheto"]
+        },
+        {
+          "day": 6,
+          "morning": "Tenuta San Guido for Sassicaia.",
+          "lunch": "Osteria Magona in Bolgheri.",
+          "afternoon": "Tenuta dell'Ornellaia tasting.",
+          "evening": "Dinner at Enoteca Tognoni.",
+          "accommodation": "Castagneto Carducci.",
+          "venues": ["tenuta-san-guido", "tenuta-dell-ornellaia"]
+        },
+        {
+          "day": 7,
+          "morning": "Drive north to San Gimignano for the Tuscany white-wine pause. Tasting at Panizzi or Cesani for Vernaccia di San Gimignano DOCG.",
+          "lunch": "Lunch in San Gimignano historic centre.",
+          "afternoon": "Return to Florence; final aperitivo at Procacci on Via Tornabuoni with truffle tramezzini and Antinori sparkling.",
+          "evening": "Departure dinner at Enoteca Pitti Gola e Cantina.",
+          "accommodation": "Florence airport hotel or departure.",
+          "venues": ["panizzi"]
+        }
+      ],
+      "description": "Seven-day grand tour from Florence through Carmignano, Chianti Classico, Brunello, Vino Nobile, Bolgheri and Vernaccia. Twelve producer visits, three regional bases.",
+      "tip": "Plan one cellar-free recovery half-day in Pienza or San Quirico d'Orcia mid-trip; seven days of cellar tastings without a pause leads to palate fatigue.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.chianticlassico.com/en/",
+        "address_quoted": "Tuscany",
+        "open_status": "open",
+        "open_evidence_url": "https://www.consorziobrunellodimontalcino.it/en/home/home",
+        "cuisine_evidence_url": "https://www.bolgheridoc.com/en/wines/",
+        "checked_on": "2026-05-23"
+      }
+    }
+  ]
 }

@@ -1,3 +1,114 @@
 {
-  "distilleries": []
+  "distilleries": [
+    {
+      "slug": "nannoni-grappe-paganico",
+      "name": "Distilleria Nannoni",
+      "address": "Localita Aratrice 8, 58045 Civitella Paganico, Italy",
+      "neighborhood": "Maremma",
+      "classification": "Grappa di Toscana",
+      "spirits_produced": ["Grappa di Sangiovese", "Grappa di Brunello", "Grappa di Vermentino", "Gin di Tuscany", "Brandy artigianale"],
+      "description": "Founded 1973 in the Maremma by Gioacchino Nannoni, now run by Priscilla Occhipinti. The most awarded Italian grappa producer with 150+ international medals; specialises in cru grappa from single Tuscan varietals.",
+      "distillation_method": "Bain-marie copper alembic stills; pomace distilled within 24 hours of arrival",
+      "visit_available": true,
+      "tasting_program": "Distillery visits and grappa flights by appointment; gin and brandy masterclasses also available",
+      "booking_url": "https://nannonigrappe.it/distillazione-grappa-toscana/",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://nannonigrappe.it/",
+        "address_quoted": "Aratrice, Paganico",
+        "open_status": "open",
+        "open_evidence_url": "https://maremma-magazine.it/le-rubriche/nannoni-grappe-uneccellenza-di-maremma-che-tutto-il-mondo-ci-invidia/",
+        "cuisine_evidence_url": "https://www.esperienzadimaremma.it/esperienze/distilleria-grappe-nannoni/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "distilleria-deta-barberino",
+      "name": "Distilleria Deta",
+      "address": "Strada di Poneta 2/16, 50028 Barberino Tavarnelle, Italy",
+      "neighborhood": "Chianti Classico",
+      "classification": "Grappa di Toscana, Acquavite di Vino",
+      "spirits_produced": ["Grappa di Chianti Classico Riserva", "Grappa di Brunello di Montalcino", "Grappa di Vernaccia di San Gimignano", "Grappa Biologica", "Brandy Toscano"],
+      "description": "Founded 1926 by the Torrigiani di Santa Cristina family in Chianti Classico. Tuscan grappa specialist combining traditional techniques with modern eco-distilling; multiple London Spirits silver medals.",
+      "distillation_method": "Continuous and discontinuous alembic stills processing fresh wine-grape pomace from Tuscan estates",
+      "visit_available": true,
+      "tasting_program": "Distillery visits and tastings by appointment; full Tuscan grappa flight from EUR 15",
+      "booking_url": "https://detadistilleria.it/en/contact/",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://detadistilleria.it/en/",
+        "address_quoted": "Strada di Poneta 2/16, 50028 Barberino Tavarnelle (FI)",
+        "open_status": "open",
+        "open_evidence_url": "https://www.imbottigliamento.it/2024/10/15/distilleria-deta-tradizione-toscana-lunga-100-anni/",
+        "cuisine_evidence_url": "https://detadistilleria.it/en/company/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "bonollo-torrita-di-siena",
+      "name": "Distillerie Bonollo Torrita di Siena",
+      "address": "Strada Provinciale 326 di Sinalunga, 53049 Torrita di Siena, Italy",
+      "neighborhood": "Vino Nobile di Montepulciano",
+      "classification": "Grappa di Toscana, Acquavite di Vino",
+      "spirits_produced": ["Grappa Of Bonollo", "Grappa di Brunello di Montalcino", "Grappa di Nobile di Montepulciano", "Grappa di Chianti"],
+      "description": "Bonollo's Tuscan flagship plant in Torrita di Siena, on the historic site of an ancient distillery rebuilt in 1976. Continuous and discontinuous alembics; pomace sourced from Brunello, Nobile and Chianti Classico estates.",
+      "distillation_method": "Continuous and discontinuous alembic stills",
+      "visit_available": true,
+      "tasting_program": "Distillery visits and tastings by appointment for groups; educational tours available",
+      "booking_url": "https://bonollo.com/en/torrita-di-siena-plant/",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://bonollo.com/en/torrita-di-siena-plant/",
+        "address_quoted": "Torrita di Siena",
+        "open_status": "open",
+        "open_evidence_url": "https://bonollo.com/en/facilities/",
+        "cuisine_evidence_url": "https://bonollo.com/en/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "liquorificio-morelli-palaia",
+      "name": "Liquorificio Morelli",
+      "address": "Via Meucci 2, Localita Montanelli, 56036 Palaia, Italy",
+      "neighborhood": "Valdera",
+      "classification": "Grappa di Toscana, Liquori",
+      "spirits_produced": ["Grappa Toscana Riserva", "Grappa Toscana Fiasco", "Limoncino", "Amaro Toscano", "Brandy Italiano"],
+      "description": "Founded 1911 by Leonello Morelli in the Valdera, this family-run liquorificio is among Tuscany's oldest, producing grappa from continuous distillation of certified Tuscan pomace plus traditional liqueurs.",
+      "distillation_method": "Continuous distillation of fresh Tuscan pomace; barrel ageing in large casks",
+      "visit_available": true,
+      "tasting_program": "Distillery and shop visits by appointment; structured tasting flights of grappa and liqueurs",
+      "booking_url": "https://liquorimorelli.it/en/",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://liquorimorelli.it/en/",
+        "address_quoted": "Via Meucci 2 loc. Montanelli 56036 Palaia",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g1959439-d4817261-Reviews-Liquorificio_Morelli-Forcoli_Province_of_Pisa_Tuscany.html",
+        "cuisine_evidence_url": "https://liquorimorelli.it/en/prodotto/riserva-50cl-en/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "distilleria-toscana-colle-val-elsa",
+      "name": "Distilleria Toscana Colle Val d'Elsa",
+      "address": "Via Cervaione 33, 53034 Colle di Val d'Elsa, Italy",
+      "neighborhood": "Val d'Elsa",
+      "classification": "Grappa di Toscana, Gin",
+      "spirits_produced": ["Grappa di Chianti Classico", "Grappa di Vernaccia", "Gin Tuscan Botanical", "Acquavite di Vermentino"],
+      "description": "Colle Val d'Elsa distillery founded from a family tradition of distillation spanning over 50 years. Produces single-variety Tuscan grappa plus a botanical gin with juniper from the Maremma macchia.",
+      "distillation_method": "Bain-marie discontinuous copper alembic stills; small-batch artisan production",
+      "visit_available": true,
+      "tasting_program": "Distillery tours and tastings by appointment; gin distillation masterclasses on request",
+      "booking_url": "https://oltrevino.it/en/manufacturer/distilleria-toscana.html",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://oltrevino.it/en/manufacturer/distilleria-toscana.html",
+        "address_quoted": "Colle Val d'Elsa",
+        "open_status": "open",
+        "open_evidence_url": "https://www.sichef.cooking/en/grappe-digestivi-amari-una-tradizione-toscana/",
+        "cuisine_evidence_url": "https://oltrevino.it/en/manufacturer/distilleria-toscana.html",
+        "checked_on": "2026-05-23"
+      }
+    }
+  ]
 }

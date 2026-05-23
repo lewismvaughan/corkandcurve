@@ -1,9 +1,309 @@
 {
   "dietary": {
-    "biodynamic": [],
-    "organic": [],
-    "natural": [],
-    "vegan_winemaking": [],
-    "lowsulfite": []
+    "biodynamic": [
+      {
+        "slug": "avignonesi-biodynamic",
+        "name": "Avignonesi",
+        "vineyard_ref": "avignonesi",
+        "address": "Via Colonica 1, 53045 Valiano di Montepulciano, Italy",
+        "neighborhood": "Vino Nobile di Montepulciano",
+        "biodynamic_status": "biodynamic_practicing",
+        "biodynamic_certifier": "Biodyvin",
+        "organic_status": "ecocert",
+        "organic_certifier": "Suolo e Salute",
+        "certified_year": 2019,
+        "description": "Owned since 2009 by Virginie Saverys. The estate completed organic certification in 2016 (Suolo e Salute) and biodynamic certification by Biodyvin in 2019. The Vino Nobile is now 100 percent biodynamic-and-organic Sangiovese, with Biodyvin and B Corp certifications.",
+        "tip": "Single-vineyard Pieve Vino Nobile bottlings (released 2024 onward) showcase the biodynamic farming village by village.",
+        "editorial_score": 4.7,
+        "verified": {
+          "source_url": "https://www.avignonesi.it/en/",
+          "address_quoted": "Valiano di Montepulciano",
+          "open_status": "open",
+          "open_evidence_url": "https://i-winereview.com/blog/index.php/2025/08/20/avignonesi-a-biodynamic-and-organic-leader-in-vino-nobile-di-montepulciano/",
+          "cuisine_evidence_url": "https://amustreadblog.com/2021/06/01/avignonesi-winery-leading-montepulcianos-vino-nobile-regenerative-renaissance/",
+          "checked_on": "2026-05-23"
+        }
+      },
+      {
+        "slug": "stella-di-campalto-biodynamic",
+        "name": "Stella di Campalto (Podere San Giuseppe)",
+        "vineyard_ref": "stella-di-campalto",
+        "address": "Podere San Giuseppe, 53024 Castelnuovo dell'Abate, Montalcino, Italy",
+        "neighborhood": "Brunello di Montalcino",
+        "biodynamic_status": "demeter_certified",
+        "biodynamic_certifier": "Demeter",
+        "organic_status": "ecocert",
+        "organic_certifier": "Ecocert",
+        "certified_year": 2005,
+        "description": "Stella di Campalto has farmed organically in Sant'Angelo in Colle since 1996 and biodynamically since 2002; full Demeter certification was awarded in 2005. Roughly 5.5 hectares planted to Sangiovese.",
+        "tip": "Listen for the Gregorian chant in the cellar during fermentation; small allocations move via Polaner Selections in the United States.",
+        "editorial_score": 4.8,
+        "verified": {
+          "source_url": "https://www.polanerselections.com/producers/stella-di-campalto/",
+          "address_quoted": "Castelnuovo dell'Abate",
+          "open_status": "open",
+          "open_evidence_url": "https://www.wine-searcher.com/merchant/53644-stella-di-campalto",
+          "cuisine_evidence_url": "https://dbgitalia.com/producer/stella-di-campalto-montalcino/",
+          "checked_on": "2026-05-23"
+        }
+      },
+      {
+        "slug": "salcheto-biodynamic",
+        "name": "Salcheto",
+        "vineyard_ref": "salcheto",
+        "address": "Via di Villa Bianca 15, 53045 Montepulciano, Italy",
+        "neighborhood": "Vino Nobile di Montepulciano",
+        "biodynamic_status": "biodynamic_practicing",
+        "biodynamic_certifier": "Biodynamic certification per estate documentation",
+        "organic_status": "icea",
+        "organic_certifier": "ICEA",
+        "certified_year": 2009,
+        "description": "Salcheto has been organically farmed since the late 1990s and fully certified organic and biodynamic since 2009. Italy's first carbon-neutral winery, with Italy's first carbon-footprint-certified bottle of wine (ISO 14064, 2010).",
+        "tip": "Tour the off-grid cellar designed with gravity flow and natural light wells; tastings showcase the producer's no-added-sulfite Vino Nobile.",
+        "editorial_score": 4.6,
+        "verified": {
+          "source_url": "https://salcheto.it/en/wines/",
+          "address_quoted": "Montepulciano",
+          "open_status": "open",
+          "open_evidence_url": "https://www.consorziovinonobile.it/en/",
+          "cuisine_evidence_url": "https://www.italyfoodies.com/blog/salcheto-winery-wine-tasting-in-montepulciano",
+          "checked_on": "2026-05-23"
+        }
+      },
+      {
+        "slug": "querciabella-biodynamic",
+        "name": "Querciabella",
+        "vineyard_ref": "querciabella",
+        "address": "Via di Barbiano 17, 50022 Greve in Chianti, Italy",
+        "neighborhood": "Chianti Classico",
+        "biodynamic_status": "biodynamic_practicing",
+        "biodynamic_certifier": "Plant-only biodynamics per estate documentation",
+        "organic_status": "ccpb",
+        "organic_certifier": "CCPB",
+        "certified_year": 2000,
+        "description": "Greve estate that began organic conversion in 1988 and adopted biodynamics in 2000. The vegan biodynamics regime omits all animal-derived inputs (cow horn, manure) in favor of green manure and cover crops. The largest vegan-certified vineyard surface in Italy.",
+        "tip": "Querciabella is certified vegan as well; the Greve cellar visit covers the unusual plant-only biodynamic regime.",
+        "editorial_score": 4.7,
+        "verified": {
+          "source_url": "https://querciabella.com/wine/querciabella-chianti-classico/",
+          "address_quoted": "Greve in Chianti",
+          "open_status": "open",
+          "open_evidence_url": "https://wineanorak.com/2021/11/14/querciabella-one-of-tuscanys-top-wineries-who-employ-vegan-biodynamics/",
+          "cuisine_evidence_url": "https://mmdusa.net/portfolio/querciabella/vineyard",
+          "checked_on": "2026-05-23"
+        }
+      }
+    ],
+    "organic": [
+      {
+        "slug": "selvapiana-organic",
+        "name": "Fattoria Selvapiana",
+        "vineyard_ref": "selvapiana",
+        "address": "Via Selvapiana 43, 50065 Pontassieve, Italy",
+        "neighborhood": "Chianti Rufina",
+        "organic_status": "icea",
+        "organic_certifier": "ICEA",
+        "certified_year": 2019,
+        "description": "Selvapiana's vineyards on the Sieve valley east of Florence became officially certified organic in 2019 by ICEA, although the estate had been farming on organic principles for many years prior. Bucerchiale single-vineyard Riserva is the flagship.",
+        "tip": "Pair the Bucerchiale Riserva with the rosso annata to taste cool-Rufina altitude and altitude age-worthiness side by side.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://www.selvapiana.it/",
+          "address_quoted": "Via Selvapiana 43, 50065 Pontassieve",
+          "open_status": "open",
+          "open_evidence_url": "https://whwc.com/selvapiana-chianti-rufina-vigneto-bucerchiale-riserva-2020/",
+          "cuisine_evidence_url": "https://www.winemonthclub.com/fattoria-selvapiana-vigneto-bucerchiale-chianti-riserva-2019",
+          "checked_on": "2026-05-23"
+        }
+      },
+      {
+        "slug": "fontodi-organic",
+        "name": "Fontodi",
+        "vineyard_ref": "fontodi",
+        "address": "Via San Leolino 89, 50022 Panzano in Chianti, Italy",
+        "neighborhood": "Chianti Classico",
+        "organic_status": "icea",
+        "organic_certifier": "ICEA",
+        "certified_year": 2008,
+        "description": "The Manetti family farm 90 hectares of Conca d'Oro Chianti Classico organically since 2008. The Flaccianello della Pieve IGT and the Chianti Classico annata are the estate signatures; the closed-loop farm also runs cattle for vineyard manure as part of organic vineyard practice.",
+        "tip": "Visit during late September for harvest; Fontodi's Conca d'Oro amphitheater is one of Chianti Classico's most photogenic sites.",
+        "editorial_score": 4.8,
+        "verified": {
+          "source_url": "https://www.fontodi.com/?lang=en",
+          "address_quoted": "Panzano in Chianti",
+          "open_status": "open",
+          "open_evidence_url": "https://www.chianticlassico.com/en/estates/fontodi/",
+          "cuisine_evidence_url": "https://www.thewinesociety.com/product/chianti-classico-fontodi-2020-organic/",
+          "checked_on": "2026-05-23"
+        }
+      },
+      {
+        "slug": "querciavalle-organic",
+        "name": "Querciavalle (Losi)",
+        "vineyard_ref": "querciavalle",
+        "address": "Loc. Pontignanello 6, 53019 Castelnuovo Berardenga, Italy",
+        "neighborhood": "Chianti Classico",
+        "organic_status": "ecocert",
+        "organic_certifier": "Ecocert",
+        "certified_year": 2014,
+        "description": "Losi family Chianti Classico estate at Pontignanello, organic since 2014. Traditionalist producer still doing the governo all'uso toscano and a Vin Santo Millennium aged 10+ years in caratelli.",
+        "tip": "Ask for the Vin Santo Millennium vertical; the solera-style caratelli have been refilled for decades.",
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://www.chianticlassico.com/en/estates/losi-querciavalle/",
+          "address_quoted": "Castelnuovo Berardenga",
+          "open_status": "open",
+          "open_evidence_url": "https://www.chianticlassico.com/en/event/chianti-classico-collection-2025/",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Vin_Santo",
+          "checked_on": "2026-05-23"
+        }
+      }
+    ],
+    "natural": [
+      {
+        "slug": "pacina-natural",
+        "name": "Pacina",
+        "vineyard_ref": "pacina",
+        "address": "Localita Pacina, 53019 Castelnuovo Berardenga, Italy",
+        "neighborhood": "Chianti Classico",
+        "natural_wine": true,
+        "low_sulfite": true,
+        "organic_status": "ecocert",
+        "description": "Tiezzi-Borsa family estate east of Siena, a registered VinNatur member. Long macerations, native yeasts, no fining or filtration, minimal sulfur. Wines like Pacina, Donesco and La Cerretina are reference points for Tuscan natural Sangiovese.",
+        "tip": "Pacina is also a working farm with cereals, pulses and olive oil; a visit takes a full half-day.",
+        "editorial_score": 4.6,
+        "verified": {
+          "source_url": "https://www.pacina.it/?lang=en",
+          "address_quoted": "Pacina",
+          "open_status": "open",
+          "open_evidence_url": "https://www.vinnatur.org/en/soci/pacina-az-agr/",
+          "cuisine_evidence_url": "https://uncorkedinitaly.com/pacina-stewards-of-a-generous-gift-from-nature-in-tuscany/",
+          "checked_on": "2026-05-23"
+        }
+      },
+      {
+        "slug": "le-boncie-natural",
+        "name": "Podere Le Boncie",
+        "vineyard_ref": "podere-le-boncie",
+        "address": "Loc. San Felice, Castelnuovo Berardenga 53019, Italy",
+        "neighborhood": "Chianti Classico",
+        "natural_wine": true,
+        "low_sulfite": true,
+        "organic_status": "ecocert",
+        "description": "Giovanna Morganti's three-hectare Castelnuovo Berardenga estate. Le Trame, the estate's only wine, is unoaked Sangiovese-led IGT Toscana (left the DOCG in 2012 in protest at wood-fashion rules), made from meticulously farmed organic fruit.",
+        "tip": "Allocations move via Rosenthal Wine Merchant; cellar visits by referral only.",
+        "editorial_score": 4.6,
+        "verified": {
+          "source_url": "https://www.naturalwineco.com/producer/podere-le-boncie-138/",
+          "address_quoted": "Castelnuovo Berardenga",
+          "open_status": "open",
+          "open_evidence_url": "https://www.zarahwine.com/brand/77-podere-le-boncie",
+          "cuisine_evidence_url": "https://www.lebendigeweine.de/en/le-boncie/",
+          "checked_on": "2026-05-23"
+        }
+      },
+      {
+        "slug": "massa-vecchia-natural",
+        "name": "Massa Vecchia",
+        "vineyard_ref": "massa-vecchia",
+        "address": "Localita Rocche 53, 58024 Massa Marittima, Italy",
+        "neighborhood": "Maremma",
+        "natural_wine": true,
+        "low_sulfite": true,
+        "biodynamic_status": "biodynamic_practicing",
+        "organic_status": "icea",
+        "description": "Pioneer natural-wine estate above Massa Marittima. Founded by Fabrizio Niccolaini in the 1980s, biodynamic since 2004, run today by Francesca Sfondrini. Native yeasts, extended maceration, no filtration, minimal or no sulfur across reds, rose and white Vermentino.",
+        "tip": "The rose and the Vermentino offer the natural lineage at its most approachable; reds need decanting and tend toward funkier registers.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://www.raisin.digital/en/explore/italy/tuscany/natural-winemakers/francesca-sfondrini-fabrizio-niccolaini-massa-vecchia-1576/",
+          "address_quoted": "Massa Marittima",
+          "open_status": "open",
+          "open_evidence_url": "https://louisdressner.com/producers/massa+vecchia",
+          "cuisine_evidence_url": "https://www.winenatur.com/massa-vecchia",
+          "checked_on": "2026-05-23"
+        }
+      }
+    ],
+    "vegan_winemaking": [
+      {
+        "slug": "querciabella-vegan",
+        "name": "Querciabella vegan vinification",
+        "vineyard_ref": "querciabella",
+        "address": "Via di Barbiano 17, 50022 Greve in Chianti, Italy",
+        "neighborhood": "Chianti Classico",
+        "vegan_certified": true,
+        "description": "Querciabella practices a strict vegan vinification, eliminating all animal-derived fining agents alongside its plant-only biodynamics. The estate is recognised as the largest extension of vegan organic vineyards in Italy.",
+        "tip": "Ask the Greve cellar team to walk through the green-manure cover-crop and plant-based-preparation regime.",
+        "editorial_score": 4.6,
+        "verified": {
+          "source_url": "https://wineanorak.com/2021/11/14/querciabella-one-of-tuscanys-top-wineries-who-employ-vegan-biodynamics/",
+          "address_quoted": "Greve in Chianti",
+          "open_status": "open",
+          "open_evidence_url": "https://www.thenomadicvegan.com/organic-vegan-wine-in-tuscany/",
+          "cuisine_evidence_url": "https://querciabella.com/wine/querciabella-chianti-classico/",
+          "checked_on": "2026-05-23"
+        }
+      },
+      {
+        "slug": "avignonesi-vegan",
+        "name": "Avignonesi Vegan Society registered",
+        "vineyard_ref": "avignonesi",
+        "address": "Via Colonica 1, 53045 Valiano di Montepulciano, Italy",
+        "neighborhood": "Vino Nobile di Montepulciano",
+        "vegan_certified": true,
+        "description": "Avignonesi is registered with The Vegan Society and certified ISO 45001 by SGS; the estate's biodynamic-and-organic Vino Nobile carries vegan declarations on the technical sheets. The homepage lists Vegan among its certifications.",
+        "tip": "Verify on the bottle vintage by vintage; some single-vineyard cuvees outside the main Vino Nobile may not carry the same vegan declaration year to year.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://www.avignonesi.it/en/",
+          "address_quoted": "Valiano di Montepulciano",
+          "open_status": "open",
+          "open_evidence_url": "https://i-winereview.com/blog/index.php/2025/08/20/avignonesi-a-biodynamic-and-organic-leader-in-vino-nobile-di-montepulciano/",
+          "cuisine_evidence_url": "https://www.winewithseth.com/winewiki/avignonesi/",
+          "checked_on": "2026-05-23"
+        }
+      }
+    ],
+    "lowsulfite": [
+      {
+        "slug": "salcheto-no-added-sulfite",
+        "name": "Salcheto no-added-sulfite vinification",
+        "vineyard_ref": "salcheto",
+        "address": "Via di Villa Bianca 15, 53045 Montepulciano, Italy",
+        "neighborhood": "Vino Nobile di Montepulciano",
+        "low_sulfite": true,
+        "description": "Salcheto runs a no-added-sulfite vinification across its certified-organic-and-biodynamic Vino Nobile lineage; water waste is 100 percent recycled and the off-grid cellar runs on solar, geothermal and biomass energy.",
+        "tip": "The Salcheto Salco Vino Nobile bottling is the showcase no-added-sulfite Sangiovese; ask for the carbon-footprint passport at the cellar door.",
+        "editorial_score": 4.6,
+        "verified": {
+          "source_url": "https://www.raschvin.com/en/product/vino-nobile-salcheto-docg-eco-2020-75-cl/",
+          "address_quoted": "Montepulciano",
+          "open_status": "open",
+          "open_evidence_url": "https://www.consorziovinonobile.it/en/",
+          "cuisine_evidence_url": "https://salcheto.it/en/wines/",
+          "checked_on": "2026-05-23"
+        }
+      },
+      {
+        "slug": "massa-vecchia-low-sulfite",
+        "name": "Massa Vecchia low-sulfite vinification",
+        "vineyard_ref": "massa-vecchia",
+        "address": "Localita Rocche 53, 58024 Massa Marittima, Italy",
+        "neighborhood": "Maremma",
+        "low_sulfite": true,
+        "description": "Massa Vecchia bottles its reds, rose and white Vermentino with native-yeast fermentation, extended maceration, no filtration and minimal sulfites, often with no added SO2 at all. A founding producer in the Italian low-sulfite movement.",
+        "tip": "Look for the Rosso da Tavola NV and the Rosato; both are entry points to the low-sulfite Tuscan rangelist.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://louisdressner.com/producers/massa+vecchia",
+          "address_quoted": "Massa Marittima",
+          "open_status": "open",
+          "open_evidence_url": "https://www.winenatur.com/massa-vecchia",
+          "cuisine_evidence_url": "https://primalwine.com/collections/no-added-sulfites-natural-wine",
+          "checked_on": "2026-05-23"
+        }
+      }
+    ]
   }
 }

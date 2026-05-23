@@ -1,3 +1,268 @@
 {
-  "wine_hotels": []
+  "wine_hotels": [
+    {
+      "slug": "castello-banfi-il-borgo",
+      "name": "Castello Banfi Il Borgo",
+      "address": "Castello di Poggio alle Mura 1, 53024 Montalcino, Italy",
+      "neighborhood": "Brunello di Montalcino",
+      "parent_vineyard": "banfi",
+      "category": "5-star Relais and Chateaux estate hotel",
+      "rooms": 14,
+      "description": "Relais and Chateaux property fashioned from an 18th-century borgo on the working Castello Banfi wine estate. Tastings, vineyard and cellar tours with the sommelier; two restaurants including Michelin-starred La Sala dei Grappoli.",
+      "wine_program": "Banfi Brunello di Montalcino vertical tastings; harvest participation (September-October); blending workshops with the cellar team",
+      "price_range": "EUR 480-1500 per night",
+      "booking_url": "https://www.banfi.it/eng/hotel-il-borgo/",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.banfi.it/eng/hotel-il-borgo/",
+        "address_quoted": "Castello di Poggio alle Mura, 1, Montalcino, Italy 53024",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Hotel_Review-g635634-d648286-Reviews-Castello_Banfi_Il_Borgo-Montalcino_Tuscany.html",
+        "cuisine_evidence_url": "https://www.banfi.it/eng/tasting-tours/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "borgo-san-felice",
+      "name": "Borgo San Felice",
+      "address": "Localita San Felice, 53019 Castelnuovo Berardenga, Italy",
+      "neighborhood": "Chianti Classico",
+      "parent_vineyard": "san-felice",
+      "category": "5-star Relais and Chateaux estate hotel",
+      "rooms": 63,
+      "description": "Medieval Chianti Classico hamlet restored into a Relais and Chateaux resort. Michelin-starred Il Poggio Rosso restaurant with 500-bottle cellar; Osteria del Grigio for informal Tuscan dining; estate winery and vineyard tours.",
+      "wine_program": "San Felice Chianti Classico Riserva and Vigorello Super Tuscan vertical tastings; harvest participation; pairing dinners with the winemaker",
+      "price_range": "EUR 420-1400 per night",
+      "booking_url": "https://www.sanfelice.com/en",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.sanfelice.com/en",
+        "address_quoted": "Castelnuovo Berardenga",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Hotel_Review-g652035-d275917-Reviews-Hotel_Borgo_San_Felice-Castelnuovo_Berardenga_Tuscany.html",
+        "cuisine_evidence_url": "https://guide.michelin.com/us/en/hotels-stays/Castelnuovo-Berardenga/borgo-san-felice-resort-7244",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "como-castello-del-nero",
+      "name": "COMO Castello del Nero",
+      "address": "Strada Spicciano 7, 50028 Tavarnelle Val di Pesa, Italy",
+      "neighborhood": "Chianti Classico",
+      "parent_vineyard": null,
+      "category": "5-star castle hotel",
+      "rooms": 50,
+      "description": "Luxury hotel inside a 12th-century castle in Chianti Classico between Florence and Siena. La Torre restaurant under chef Giovanni Luca Di Pirro and a wine programme covering the Chianti Classico consortium.",
+      "wine_program": "Chianti Classico estate masterclasses; cooking and wine pairing workshops; private cellar dinners",
+      "price_range": "EUR 650-2200 per night",
+      "booking_url": "https://www.comohotels.com/en/castellodelnero",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.comohotels.com/en/castellodelnero",
+        "address_quoted": "Strada Spicciano, 7, 50028, Tavarnelle Val di Pesa",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Hotel_Review-g3580826-d676895-Reviews-COMO_Castello_Del_Nero-Tavarnelle_Val_di_Pesa_Barberino_Tavarnellle_Tuscany.html",
+        "cuisine_evidence_url": "https://celebratedexperiences.com/hotels/como-castello-del-nero/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "borgo-scopeto-relais",
+      "name": "Borgo Scopeto Wine and Country Relais",
+      "address": "Localita Scopeto, Vagliagli, 53019 Castelnuovo Berardenga, Italy",
+      "neighborhood": "Chianti Classico",
+      "parent_vineyard": null,
+      "category": "4-star estate hotel",
+      "rooms": 58,
+      "description": "Country relais on the Castelnuovo Berardenga estate of the Borgo Scopeto wine producer. Restored 16th-century farm buildings amid Chianti Classico vineyards with cellar visits, pool, and tennis courts.",
+      "wine_program": "Borgo Scopeto Chianti Classico estate tastings; vineyard walks and pairing lunches with the winemaker",
+      "price_range": "EUR 220-650 per night",
+      "booking_url": "https://www.borgoscopetorelais.it/en/index",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.borgoscopetorelais.it/en/index",
+        "address_quoted": "Strada Comunale 14, 18, Localita Scopeto, Vagliagli, 53019",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Hotel_Review-g668215-d576078-Reviews-Borgo_Scopeto_Wine_Country_Relais-Vagliagli_Castelnuovo_Berardenga_Tuscany.html",
+        "cuisine_evidence_url": "https://celebratedexperiences.com/hotels/borgo-scopeto-relais/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "belmond-castello-di-casole",
+      "name": "Castello di Casole A Belmond Hotel",
+      "address": "Localita Querceto, 53031 Casole d'Elsa, Italy",
+      "neighborhood": "Val d'Elsa",
+      "parent_vineyard": null,
+      "category": "5-star Belmond castle resort",
+      "rooms": 41,
+      "description": "Belmond-owned 1000-year-old estate spanning 4,200 acres west of Siena. Organic vineyards across 25 acres in 13 distinct plots producing the Ulpaia private-label Cabernet, Sangiovese, Merlot and Petit Verdot wines.",
+      "wine_program": "Ulpaia estate vertical tastings; vineyard tours and harvest experience; blending workshops with the estate team",
+      "price_range": "EUR 850-3500 per night",
+      "booking_url": "https://www.belmond.com/hotels/europe/italy/tuscany/belmond-castello-di-casole/",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.belmond.com/hotels/europe/italy/tuscany/belmond-castello-di-casole/about",
+        "address_quoted": "Localita Querceto, 53031 Casole d'Elsa, Siena",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Hotel_Review-g635636-d2655699-Reviews-Castello_di_Casole_A_Belmond_Hotel_Tuscany-Casole_d_Elsa_Tuscany.html",
+        "cuisine_evidence_url": "https://www.belmond.com/hotels/europe/italy/tuscany/belmond-castello-di-casole/location",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "villa-il-poggiale",
+      "name": "Villa il Poggiale Dimora Storica",
+      "address": "Via Empolese 69, 50026 San Casciano in Val di Pesa, Italy",
+      "neighborhood": "Chianti Classico",
+      "parent_vineyard": null,
+      "category": "4-star historic villa hotel",
+      "rooms": 25,
+      "description": "Restored 16th-century villa in Chianti Classico just south of Florence. Family-run; vineyard and olive grove walks plus cellar tastings of neighbouring estates including Antinori and Castello di Cigliano.",
+      "wine_program": "Chianti Classico cellar tastings with neighbouring producers; cooking class with wine-pairing component",
+      "price_range": "EUR 220-650 per night",
+      "booking_url": "https://www.villailpoggiale.it/en",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.villailpoggiale.it/en",
+        "address_quoted": "Via Empolese 69, 50026, San Casciano in Val di Pesa",
+        "open_status": "open",
+        "open_evidence_url": "https://guide.michelin.com/us/en/hotels-stays/san-casciano-in-val-di-pesa/villa-il-poggiale-7948",
+        "cuisine_evidence_url": "https://www.discovertuscany.com/tuscany-bed-and-breakfast/tuscany-villa-bed-and-breakfast.html",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "rosewood-castiglion-del-bosco",
+      "name": "Rosewood Castiglion del Bosco",
+      "address": "Localita Castiglion del Bosco, 53024 Montalcino, Italy",
+      "neighborhood": "Brunello di Montalcino",
+      "parent_vineyard": null,
+      "category": "5-star Rosewood resort",
+      "rooms": 53,
+      "description": "Rosewood resort on a 900-year-old Tuscan estate spanning 5,000+ acres in Val d'Orcia. Castiglion del Bosco is the fifth-largest Brunello di Montalcino producer; Michelin-starred Campo del Drago restaurant and cooking school onsite.",
+      "wine_program": "Castiglion del Bosco Brunello di Montalcino vertical tastings; harvest experience; cellar masterclasses with the winemaker",
+      "price_range": "EUR 1100-4500 per night",
+      "booking_url": "https://www.rosewoodhotels.com/en/castiglion-del-bosco",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.rosewoodhotels.com/en/castiglion-del-bosco",
+        "address_quoted": "Castiglion del Bosco",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Hotel_Review-g635634-d1147343-Reviews-Castiglion_del_Bosco_A_Rosewood_Hotel-Montalcino_Tuscany.html",
+        "cuisine_evidence_url": "https://m.rosewoodhotels.com/en/castiglion-del-bosco/experiences/winery",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "castello-di-velona",
+      "name": "Castello di Velona Resort Thermal SPA and Winery",
+      "address": "Localita Velona, 53024 Castelnuovo dell'Abate, Italy",
+      "neighborhood": "Brunello di Montalcino",
+      "parent_vineyard": null,
+      "category": "5-star castle resort",
+      "rooms": 45,
+      "description": "11th-century fortress with thermal hot springs in the Val d'Orcia, 8km from Montalcino. Five hectares of estate Brunello di Montalcino vineyards; restaurant menus paired with castle-produced wines.",
+      "wine_program": "Estate Brunello di Montalcino tastings and pairing menus; Dine Around programme to neighbouring Michelin starred restaurants",
+      "price_range": "EUR 550-2400 per night",
+      "booking_url": "https://www.castellodivelona.it/",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.castellodivelona.it/",
+        "address_quoted": "Val d'Orcia, Castelnuovo dell'Abate",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Hotel_Review-g4359515-d295633-Reviews-Castello_di_Velona_Resort_Thermal_SPA_Winery-Castelnuovo_dell_Abate_Montalcino_Tuscany.html",
+        "cuisine_evidence_url": "https://www.charmingtuscany.com/en/castello-di-velona",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "il-borro-relais-chateaux",
+      "name": "Il Borro Relais and Chateaux",
+      "address": "Localita Borro 1, 52024 San Giustino Valdarno, Italy",
+      "neighborhood": "Valdarno",
+      "parent_vineyard": null,
+      "category": "5-star Relais and Chateaux estate hotel",
+      "rooms": 58,
+      "description": "Ferruccio Ferragamo's restored medieval village across 1,100 organic acres including 85 hectares of vineyards and 40 hectares of olive groves. Two restaurants including Osteria del Borro, four pools and a wine cellar.",
+      "wine_program": "Il Borro Toscana Super Tuscan tastings; organic vineyard tours; cooking classes with pairing component",
+      "price_range": "EUR 850-3000 per night",
+      "booking_url": "https://www.ilborro.it/en/",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.ilborro.it/en/",
+        "address_quoted": "San Giustino Valdarno",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Hotel_Review-g737120-d195889-Reviews-Il_Borro_Relais_Chateaux-San_Giustino_Valdarno_Province_of_Arezzo_Tuscany.html",
+        "cuisine_evidence_url": "https://www.relaischateaux.com/us/hotel/il-borro/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "landana-resort-castiglione-pescaia",
+      "name": "L'Andana Resort Tenuta La Badiola",
+      "address": "Localita Badiola, 58043 Castiglione della Pescaia, Italy",
+      "neighborhood": "Maremma",
+      "parent_vineyard": null,
+      "category": "5-star resort",
+      "rooms": 33,
+      "description": "Former hunting residence of Leopold II Grand Duke of Tuscany, now a Leading Hotels of the World property in the Maremma. Acquagiusta estate vineyards on site plus Michelin-starred Trattoria Enrico Bartolini.",
+      "wine_program": "Acquagiusta Maremma DOC tastings; horseback vineyard rides; harvest participation in September",
+      "price_range": "EUR 480-1800 per night",
+      "booking_url": "https://www.andana.it/en/",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.andana.it/en/",
+        "address_quoted": "Castiglione della Pescaia",
+        "open_status": "open",
+        "open_evidence_url": "https://www.lhw.com/hotel/LAndana-Resort-Castiglione-della-Pescaia-Italy",
+        "cuisine_evidence_url": "https://www.andana.it/en/tuscany/experience/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "foresteria-castello-verrazzano",
+      "name": "Foresteria Castello di Verrazzano",
+      "address": "Via Citille 32, 50022 Greve in Chianti, Italy",
+      "neighborhood": "Chianti Classico",
+      "parent_vineyard": null,
+      "category": "Estate guesthouse",
+      "rooms": 8,
+      "description": "Guesthouse rooms at the Castello di Verrazzano estate in Greve in Chianti, with terrace views over the organic Chianti Classico vineyards. Daily cellar visits, restaurant in the historic stables.",
+      "wine_program": "Castello di Verrazzano cellar tours; pairing lunches with estate wines; guided vineyard walks",
+      "price_range": "EUR 180-380 per night",
+      "booking_url": "https://www.verrazzano.com/en/",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.verrazzano.com/en/",
+        "address_quoted": "Via Citille 32, Greve in Chianti",
+        "open_status": "open",
+        "open_evidence_url": "https://www.expedia.com/Greve-In-Chianti-Hotels-Foresteria-Castello-Di-Verrazzano.h46060650.Hotel-Information",
+        "cuisine_evidence_url": "https://www.verrazzano.com/en/guided-tours/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "frescobaldi-castelgiocondo-guesthouse",
+      "name": "Frescobaldi CastelGiocondo Guesthouse",
+      "address": "Localita Castelgiocondo, 53024 Montalcino, Italy",
+      "neighborhood": "Brunello di Montalcino",
+      "parent_vineyard": "frescobaldi-castelgiocondo",
+      "category": "Estate guesthouse",
+      "rooms": 7,
+      "description": "Seven guest rooms within the medieval CastelGiocondo borgo on the Frescobaldi Brunello di Montalcino estate. Includes private cellar visits, cooking classes from the kitchen garden, and Lamaione Merlot vertical tastings.",
+      "wine_program": "CastelGiocondo Brunello and Lamaione Merlot verticals; in-cellar barrel tastings with winemaker",
+      "price_range": "EUR 350-850 per night",
+      "booking_url": "https://www.frescobaldi.com/en/estates/tenuta-castelgiocondo",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.frescobaldi.com/en/estates/tenuta-castelgiocondo",
+        "address_quoted": "Castelgiocondo",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g635634-d8041748-Reviews-Tenuta_CastelGiocondo-Montalcino_Tuscany.html",
+        "cuisine_evidence_url": "https://www.frescobaldi.com/en/wines/estates/tenuta-castelgiocondo",
+        "checked_on": "2026-05-23"
+      }
+    }
+  ]
 }

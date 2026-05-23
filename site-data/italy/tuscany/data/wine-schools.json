@@ -1,3 +1,109 @@
 {
-  "wine_schools": []
+  "wine_schools": [
+    {
+      "slug": "wine-school-italia-florence",
+      "name": "Wine School Italia",
+      "address": "Via dei Servi 25, 50122 Firenze, Italy",
+      "neighborhood": "Centro Storico, Florence",
+      "description": "WSET Approved Programme Provider in Florence, delivering Level 1, 2 and 3 Award in Wines in English. Classes held in central Florence with online learning available for distance students.",
+      "courses_offered": ["WSET Level 1 Award in Wines", "WSET Level 2 Award in Wines", "WSET Level 3 Award in Wines", "WSET Level 2 Award in Spirits"],
+      "languages": ["English"],
+      "price_range": "EUR 220 Level 1 to EUR 1100 Level 3 Award in Wines",
+      "certifications": ["WSET Level 1", "WSET Level 2", "WSET Level 3"],
+      "booking_url": "https://wineschoolitalia.com/en/wset-courses/",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://wineschoolitalia.com/en/",
+        "address_quoted": "Florence",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wsetglobal.com/find-a-course/",
+        "cuisine_evidence_url": "https://wineschoolitalia.com/en/wset/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "apicius-florence-wine-school",
+      "name": "Apicius International School of Hospitality Wine Programme",
+      "address": "Via Guelfa 85, 50129 Firenze, Italy",
+      "neighborhood": "Centro Storico, Florence",
+      "description": "The School of Food and Wine Studies at Apicius offers academic and amateur wine programmes including Wine and Culture, Wine Expertise, and structured Tuscan winery tours with sommelier instruction.",
+      "courses_offered": ["Introduction to Tuscan Wines", "Introduction to Italian Wines", "Wine and Culture seminar", "Wine Expertise academic course", "Tuscany day winery tour"],
+      "languages": ["English", "Italian"],
+      "price_range": "EUR 90 amateur lesson to EUR 350 full Tuscan winery day",
+      "certifications": ["Apicius participation certificate", "FUA-AUF academic credit option"],
+      "booking_url": "https://amateur.apicius.it/Lessons-and-Tours/food-and-wine-lessons.html",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://apicius.it/Prospective-Students/enrichment-classes.html",
+        "address_quoted": "Florence",
+        "open_status": "open",
+        "open_evidence_url": "https://www.auf-florence.org/school/apicius-international-school-of-hospitality/",
+        "cuisine_evidence_url": "https://catalog.auf-florence.org/courses/38/wine-and-culture",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "italian-wine-scholar-grape-tours",
+      "name": "Italian Wine Scholar at Grape Tours Florence",
+      "address": "Via dei Servi 38, 50122 Firenze, Italy",
+      "neighborhood": "Centro Storico, Florence",
+      "description": "Florence-based programme offering the Wine Scholar Guild's Italian Wine Scholar certification, the most rigorous Italian-specific wine credential. Two-unit study programme with examinations and an optional immersion day in Chianti Classico.",
+      "courses_offered": ["Italian Wine Scholar Unit 1 Northern Italy", "Italian Wine Scholar Unit 2 Central and Southern Italy", "Tuscan immersion day in Chianti Classico"],
+      "languages": ["English"],
+      "price_range": "EUR 650 single unit to EUR 1200 full IWS programme",
+      "certifications": ["Italian Wine Scholar (IWS) by Wine Scholar Guild"],
+      "booking_url": "https://www.winescholarguild.com/where-to-study/italian-wine-institute-florence-tuscany",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.winescholarguild.com/where-to-study/italian-wine-institute-florence-tuscany",
+        "address_quoted": "Florence",
+        "open_status": "open",
+        "open_evidence_url": "https://www.winescholarguild.com/latest-news/interview-rebecca-christophersen-from-italian-wine-institute-florence-italy",
+        "cuisine_evidence_url": "https://www.tuscan-wine-tours.com/italian-wine-scholar",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "vernaccia-experience-wine-school",
+      "name": "Vernaccia di San Gimignano Wine Experience School",
+      "address": "Villa della Rocca di Montestaffoli, 53037 San Gimignano, Italy",
+      "neighborhood": "Vernaccia di San Gimignano",
+      "description": "Wine education programmes run by the Vernaccia consortium in the rooftop tasting room of the Rocca di Montestaffoli. Covers DOCG classification, grape identification and structured vertical sessions.",
+      "courses_offered": ["Vernaccia DOCG appellation course", "San Gimignano sommelier introduction", "Tuscan white grape masterclass", "Harvest and winemaking experience (September-October)"],
+      "languages": ["English", "Italian"],
+      "price_range": "EUR 25 introductory to EUR 150 full-day programme",
+      "certifications": ["Consorzio Vernaccia di San Gimignano participation certificate"],
+      "booking_url": "https://www.lonelyplanet.com/italy/tuscany/san-gimignano/attractions/vernaccia-di-san-gimignano-wine-experience/a/poi-sig/471954/360052",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.lonelyplanet.com/italy/tuscany/san-gimignano/attractions/vernaccia-di-san-gimignano-wine-experience/a/poi-sig/471954/360052",
+        "address_quoted": "Villa della Rocca di Montestaffoli",
+        "open_status": "open",
+        "open_evidence_url": "https://comune.sangimignano.si.it/it/vivere/700119",
+        "cuisine_evidence_url": "https://www.lonelyplanet.com/italy/tuscany/san-gimignano/attractions/vernaccia-di-san-gimignano-wine-experience/a/poi-sig/471954/360052",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "ais-toscana-corso-sommelier",
+      "name": "AIS Toscana Sommelier Course",
+      "address": "Via Cosseria 7, 50129 Firenze, Italy",
+      "neighborhood": "Centro Storico, Florence",
+      "description": "The Tuscan delegation of the Associazione Italiana Sommelier offers the official three-level Italian sommelier qualification, with classes held across Florence and Siena. Recognised certification in Italy's hospitality industry.",
+      "courses_offered": ["AIS Sommelier Level 1", "AIS Sommelier Level 2", "AIS Sommelier Level 3 with diploma exam"],
+      "languages": ["Italian", "occasional English-language modules"],
+      "price_range": "EUR 700 Level 1 to EUR 850 Level 3",
+      "certifications": ["AIS Sommelier diploma (national recognition)"],
+      "booking_url": "https://www.aistoscana.it/",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.aistoscana.it/",
+        "address_quoted": "Firenze",
+        "open_status": "open",
+        "open_evidence_url": "https://www.aisitalia.it/",
+        "cuisine_evidence_url": "https://www.aistoscana.it/corsi/",
+        "checked_on": "2026-05-23"
+      }
+    }
+  ]
 }

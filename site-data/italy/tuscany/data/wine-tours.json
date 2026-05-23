@@ -1,3 +1,172 @@
 {
-  "wine_tours": []
+  "wine_tours": [
+    {
+      "slug": "grape-tours-florence",
+      "name": "Grape Tours Florence",
+      "address": "Via dei Servi 38, 50122 Firenze, Italy",
+      "neighborhood": "Centro Storico, Florence",
+      "description": "Florence-based small-group and private wine tour operator. Specialises in expert-led trips to top wineries in Chianti Classico, Montalcino, Montepulciano and San Gimignano, often with founder-direct hosts.",
+      "tour_types": ["Chianti Classico full-day", "Brunello di Montalcino full-day", "Vino Nobile and Pienza", "San Gimignano Vernaccia half-day", "Bolgheri Super Tuscan tour"],
+      "languages": ["English", "Italian"],
+      "price_range": "EUR 130 per person small-group full-day to EUR 600 per person private full-day",
+      "booking_url": "https://www.grape-tours.com/",
+      "min_group_size": 1,
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.tuscan-wine-tours.com/",
+        "address_quoted": "Florence, Italy",
+        "open_status": "open",
+        "open_evidence_url": "https://travel.usnews.com/features/the-best-tuscany-wine-tours-from-florence",
+        "cuisine_evidence_url": "https://www.grape-tours.com/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "walkabout-florence-chianti-safari",
+      "name": "Walkabout Florence Chianti Wine Safari",
+      "address": "Via Vinegia 23R, 50122 Firenze, Italy",
+      "neighborhood": "Centro Storico, Florence",
+      "description": "Florence-based operator running off-road 4x4 Chianti wine safaris into the Chianti Classico hills. Multiple stops at producers plus traditional Tuscan lunch; meeting point at Santa Maria Novella station.",
+      "tour_types": ["Chianti Safari off-road full-day", "Private Chianti safari", "Small-group taste of Chianti"],
+      "languages": ["English", "Italian"],
+      "price_range": "EUR 145 per person small-group to EUR 1100 per group private",
+      "booking_url": "https://www.walkabouttours.com/florence/tours/chianti-safari-off-road-tuscany-wine-tour-with-lunch-from-florence",
+      "min_group_size": 1,
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.walkabouttours.com/",
+        "address_quoted": "Via Vinegia 23R, 50122 Firenze",
+        "open_status": "open",
+        "open_evidence_url": "https://www.yelp.com/biz/walkabout-firenze",
+        "cuisine_evidence_url": "https://www.walkabouttours.com/florence/tours/private-tuscany-wine-tour-off-road-chianti-wine-safari-from-florence",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "tuscany-tour-time-angela",
+      "name": "Tuscany Tour Time",
+      "address": "Via Tornabuoni 13, 50123 Firenze, Italy",
+      "neighborhood": "Centro Storico, Florence",
+      "description": "Sommelier-run boutique tour operator with maximum eight-person small-group Chianti tours from Florence. Founder Angela Saltafuori personally leads the standard Tuscan wine tour visiting three producers.",
+      "tour_types": ["Standard Chianti small-group full-day", "Brunello private full-day", "Bolgheri Super Tuscan private", "Vino Nobile private full-day"],
+      "languages": ["English", "Italian", "French"],
+      "price_range": "EUR 165 per person small-group to EUR 800 per person private",
+      "booking_url": "https://www.angelapersonaltuscantour.com/",
+      "min_group_size": 1,
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.angelapersonaltuscantour.com/",
+        "address_quoted": "Florence",
+        "open_status": "open",
+        "open_evidence_url": "https://travel.usnews.com/features/the-best-tuscany-wine-tours-from-florence",
+        "cuisine_evidence_url": "https://www.angelapersonaltuscantour.com/tenuta-castiglioni-origins-frescobaldi-wines/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "italy-and-wine-vittorio",
+      "name": "Italy and Wine",
+      "address": "Via dei Pilastri 22, 50121 Firenze, Italy",
+      "neighborhood": "Centro Storico, Florence",
+      "description": "Florence-licensed tour operator curated by founder Vittorio Del Bono Venezze. Tuscany-wide programme of small-group and private wine tours with hand-picked top producers; truffle-wine pairing option available.",
+      "tour_types": ["Chianti Classico small-group", "Brunello private full-day", "Bolgheri Super Tuscan private", "Truffle hunting and wine tasting", "Pienza and Vino Nobile full-day"],
+      "languages": ["English", "Italian"],
+      "price_range": "EUR 155 per person small-group to EUR 750 per person private",
+      "booking_url": "https://www.italyandwine.net/",
+      "min_group_size": 1,
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.italyandwine.net/",
+        "address_quoted": "Florence, Tuscany",
+        "open_status": "open",
+        "open_evidence_url": "https://www.italyandwine.net/group-tuscany-wine-tours-from-florence",
+        "cuisine_evidence_url": "https://www.italyandwine.net/private-Wine-tour/truffle-and-wine-tour",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "vespa-tour-florence-chianti",
+      "name": "Vespa Tour Florence Chianti",
+      "address": "Via di Tasso 11, 50124 Firenze, Italy",
+      "neighborhood": "Centro Storico, Florence",
+      "description": "Self-drive Vespa tours from Florence into the Chianti Classico hills. Departures by minivan from central Florence, then up to seven hours of guided Vespa riding through cypress-lined backroads with two winery stops.",
+      "tour_types": ["Full-day Chianti Vespa", "Half-day Chianti Vespa", "Private Vespa tour with winery lunch"],
+      "languages": ["English", "Italian", "Spanish"],
+      "price_range": "EUR 185 per rider full-day group to EUR 380 per rider private",
+      "booking_url": "https://vespatourflorence.com/",
+      "min_group_size": 1,
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://vespatourflorence.com/",
+        "address_quoted": "Florence",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g187895-d2702701-Reviews-Tuscany_Vespa_Tours-Florence_Tuscany.html",
+        "cuisine_evidence_url": "https://florencetown.com/en/florence-tuscany/tuscany-chianti-vespa-tour",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "florencetown-chianti-vespa",
+      "name": "Florencetown Chianti Vespa Tour",
+      "address": "Via dei Lamberti 1, 50123 Firenze, Italy",
+      "neighborhood": "Centro Storico, Florence",
+      "description": "The original Florence Chianti Vespa tour operator since 2010. Self-drive Vespa rides through cypress-lined Chianti backroads with two winery stops and full Tuscan lunch; small-group format capped at twelve.",
+      "tour_types": ["Original Chianti Vespa Tour", "Vespa with cooking class", "Premium private Vespa"],
+      "languages": ["English", "Italian", "Spanish", "French"],
+      "price_range": "EUR 165 per rider standard to EUR 350 per rider premium",
+      "booking_url": "https://florencetown.com/en/florence-tuscany/tuscany-chianti-vespa-tour",
+      "min_group_size": 2,
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://florencetown.com/en/florence-tuscany/tuscany-chianti-vespa-tour",
+        "address_quoted": "Florence",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g187895-d2702701-Reviews-Tuscany_Vespa_Tours-Florence_Tuscany.html",
+        "cuisine_evidence_url": "https://florencetown.com/en/florence-tuscany/tuscany-chianti-vespa-tour",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "fly-to-wine-helicopter-tuscany",
+      "name": "Fly to Wine Helicopter Tours",
+      "address": "Via XX Settembre 25, 50129 Firenze, Italy",
+      "neighborhood": "Centro Storico, Florence",
+      "description": "Helicopter wine tour operator overflying Chianti and landing at Tenuta Torciano in San Gimignano. Twenty-minute flight admires Vernaccia and Chianti vineyards before three-hour winery experience.",
+      "tour_types": ["Chianti and San Gimignano helicopter tour", "Brunello di Montalcino helicopter tour", "Multi-stop Tuscan helicopter day"],
+      "languages": ["English", "Italian"],
+      "price_range": "EUR 850 per person Chianti tour to EUR 1850 per person Brunello tour",
+      "booking_url": "https://www.flytowine.com/helicopter-wine-tour-tuscany/",
+      "min_group_size": 2,
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.flytowine.com/helicopter-wine-tour-tuscany/",
+        "address_quoted": "Florence",
+        "open_status": "open",
+        "open_evidence_url": "https://www.viator.com/tours/Florence/Helicopter-Exclusive-VIP-Wine-Tour-in-Tuscany-Fly-To-Wine-in-a-birds-eye-view/d519-47680P179",
+        "cuisine_evidence_url": "https://www.flytowine.com/helicopterexperience/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "under-the-tuscan-sun-tours",
+      "name": "Under the Tuscan Sun Tours",
+      "address": "Via Santa Reparata 47, 50129 Firenze, Italy",
+      "neighborhood": "Centro Storico, Florence",
+      "description": "Florence-based small-group tour operator running Chianti, Bolgheri and Maremma wine itineraries with first-class winery access. Combined wine and truffle hunting programmes also on offer.",
+      "tour_types": ["Chianti wine and lunch full-day", "Bolgheri Super Tuscan full-day", "Truffle, olive oil and Chianti wine combo", "Maremma Morellino full-day"],
+      "languages": ["English", "Italian"],
+      "price_range": "EUR 145 per person small-group full-day to EUR 650 per person private",
+      "booking_url": "https://www.underthetuscansun.it/",
+      "min_group_size": 1,
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.underthetuscansun.it/",
+        "address_quoted": "Florence",
+        "open_status": "open",
+        "open_evidence_url": "https://travel.usnews.com/features/the-best-tuscany-wine-tours-from-florence",
+        "cuisine_evidence_url": "https://www.underthetuscansun.it/chianti-tuscany-tours/chianti-wine-truffle-olive-oil/",
+        "checked_on": "2026-05-23"
+      }
+    }
+  ]
 }
