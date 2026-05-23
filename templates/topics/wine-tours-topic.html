@@ -25,7 +25,7 @@
   "@graph": [
     {% for t in _ts %}
     {
-      "@type": "Service",
+      "@type": "LocalBusiness",
       "@id": "{{ seo.meta.canonical_url }}#tour-{{ loop.index }}",
       "name": {{ (t.operator or t.name) | tojson }}{% if t.description %},
       "description": {{ t.description | tojson }}{% endif %},

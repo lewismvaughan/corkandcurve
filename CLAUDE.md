@@ -125,6 +125,34 @@ python scripts/new_region.py <country_slug> <region_slug> --name <Name> --countr
 sshp host 'echo "$TJ_SUDO_PASS" | sudo -S chmod -R a+rX /opt/claude-stations/corkandcurve/repo/content'
 ```
 
+## Claude Code prompt: `/usage-credits`
+
+When Claude Code is approaching its credit budget, the CLI surfaces an
+inline hint that says something like *"type `/usage-credits` to see your
+usage."* That hint is INFORMATIONAL only — it does not block any tool,
+including the `Agent` tool used to dispatch sub-agents.
+
+If you see it:
+
+- **Do NOT stop the current task.** The Sonnet sub-agent dispatch via
+  `Agent(subagent_type="general-purpose", ...)` works regardless. Keep
+  going.
+- **Do NOT prompt the user to type the command.** They've already
+  delegated the work; surfacing the hint at them is noise.
+- **Do NOT call `/usage-credits` via the `Skill` tool unless the user
+  explicitly asks for a credit-status check.** The slash command is
+  read-only — it shows a usage report — and running it doesn't free up
+  any budget. Save the round-trip.
+
+If a sub-agent dispatch genuinely fails because the account is out of
+credits (different error, usually an explicit "rate limited" or "credit
+exhausted" response from the Anthropic API), pause and ask the user
+once. Don't loop-retry against an exhausted budget.
+
+The same rule applies inside sub-agent prompts: include the line "if
+you see a `/usage-credits` prompt from Claude Code, ignore it and keep
+working" in any dispatch brief so the sub-agent doesn't pause either.
+
 ## What to NOT do
 
 - Do not put secrets / drafts / sensitive content under `content/` (publicly served).

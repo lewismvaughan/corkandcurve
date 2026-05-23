@@ -131,7 +131,7 @@ ENTITY_TOPICS = {
     "wine-restaurants": ("wine_restaurants", "Wine restaurant", "Restaurant"),
     "wine-retailers":   ("wine_retailers",   "Wine retailer",   "Store"),
     "wine-schools":     ("wine_schools",     "Wine school",     "EducationEvent"),
-    "wine-tours":       ("wine_tours",       "Wine tour",       "Service"),
+    "wine-tours":       ("wine_tours",       "Wine tour",       "LocalBusiness"),
     "wine-festivals":   ("wine_festivals",   "Wine festival",   "Festival"),
     "distilleries":     ("distilleries",     "Distillery",      "Distillery"),
     "wine-museums":     ("wine_museums",     "Wine museum",     "Museum"),

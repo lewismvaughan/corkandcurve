@@ -1,0 +1,148 @@
+{
+  "signature_grapes": [
+    {
+      "slug": "sangiovese",
+      "name": "Sangiovese",
+      "style_focus": "red",
+      "regions_grown": ["chianti-classico", "brunello-di-montalcino", "vino-nobile-di-montepulciano", "chianti-rufina", "morellino-di-scansano", "carmignano", "maremma"],
+      "description": "The defining grape of Tuscany and Italy's most planted variety, accounting for the entire Brunello di Montalcino DOCG (as the Sangiovese Grosso clone), 80% minimum of Chianti Classico DOCG and a minimum of 70% of Vino Nobile (locally called Prugnolo Gentile). Bright red cherry, dried herbs, leather and balsamic notes with characteristically high acidity and firm tannins. Performs best on galestro and alberese soils at 250 to 500 metres elevation.",
+      "key_producers": ["biondi-santi", "marchesi-antinori", "castello-di-ama", "felsina", "fontodi", "il-poggione", "casanova-di-neri", "avignonesi"],
+      "verified": {
+        "source_url": "https://www.chianticlassico.com/en/sangiovese-and-the-supplementary-grape-varieties/",
+        "address_quoted": "Chianti Classico, Tuscany, Italy",
+        "open_status": "open",
+        "open_evidence_url": "https://www.consorziobrunellodimontalcino.it/en/brunello-di-montalcino-docg/",
+        "cuisine_evidence_url": "https://www.chianticlassico.com/en/sangiovese-and-the-supplementary-grape-varieties/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "cabernet-sauvignon",
+      "name": "Cabernet Sauvignon",
+      "style_focus": "red",
+      "regions_grown": ["bolgheri", "carmignano", "maremma", "chianti-classico"],
+      "description": "Imported to Tuscany via Caterina de' Medici's 16th-century Carmignano plantings and re-energised by Mario Incisa della Rocchetta's 1944 cuttings at Tenuta San Guido. Now dominant in Bolgheri DOC (Sassicaia is 85% Cabernet Sauvignon) and a permitted blender in Chianti Classico up to 20%. Performs best on the iron-rich gravels and clay of the Tyrrhenian coast.",
+      "key_producers": ["tenuta-san-guido", "tenuta-dell-ornellaia", "tenuta-guado-al-tasso", "marchesi-antinori", "tenuta-di-capezzana"],
+      "verified": {
+        "source_url": "https://www.bolgheridoc.com/en/varietal-composition/",
+        "address_quoted": "Bolgheri, Castagneto Carducci, Livorno, Italy",
+        "open_status": "open",
+        "open_evidence_url": "https://www.chianticlassico.com/en/sangiovese-and-the-supplementary-grape-varieties/",
+        "cuisine_evidence_url": "https://www.bolgheridoc.com/en/varietal-composition/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "merlot",
+      "name": "Merlot",
+      "style_focus": "red",
+      "regions_grown": ["bolgheri", "maremma", "chianti-classico", "carmignano"],
+      "description": "The second-most-planted international red in Tuscany after Cabernet Sauvignon. Tenuta dell'Ornellaia's Masseto produces 100% Merlot from a single 7-hectare blue-clay parcel that is widely considered Italy's greatest Merlot. Also a key blender in Bolgheri Superiore wines and a permitted complement in Chianti Classico. Plump black plum, mocha and integrated tannins balance Sangiovese-driven Tuscan blends.",
+      "key_producers": ["tenuta-dell-ornellaia", "le-macchiole", "tua-rita", "tenuta-san-guido", "marchesi-antinori"],
+      "verified": {
+        "source_url": "https://www.ornellaia.com/en/wines/masseto/",
+        "address_quoted": "Bolgheri, Castagneto Carducci, Livorno, Italy",
+        "open_status": "open",
+        "open_evidence_url": "https://www.bolgheridoc.com/en/varietal-composition/",
+        "cuisine_evidence_url": "https://www.ornellaia.com/en/wines/masseto/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "cabernet-franc",
+      "name": "Cabernet Franc",
+      "style_focus": "red",
+      "regions_grown": ["bolgheri", "carmignano", "maremma"],
+      "description": "A minor but structurally important blender on the Tuscan coast. Le Macchiole's Paleo is one of the few 100% Cabernet Franc bottlings on Bolgheri and demonstrates the variety's graphite, violet and red-currant register on sea-tempered gravels. Permitted in Bolgheri DOC and used in small percentages by most coastal estates to lift aromatic complexity without the weight of Cabernet Sauvignon.",
+      "key_producers": ["le-macchiole", "tenuta-dell-ornellaia", "tenuta-san-guido"],
+      "verified": {
+        "source_url": "https://www.lemacchiole.it/en/wines/paleo-rosso/",
+        "address_quoted": "Bolgheri, Castagneto Carducci, Livorno, Italy",
+        "open_status": "open",
+        "open_evidence_url": "https://www.bolgheridoc.com/en/varietal-composition/",
+        "cuisine_evidence_url": "https://www.lemacchiole.it/en/wines/paleo-rosso/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "syrah",
+      "name": "Syrah",
+      "style_focus": "red",
+      "regions_grown": ["maremma", "bolgheri", "chianti-classico"],
+      "description": "Increasingly important in the warmer Maremma and along the Bolgheri coast where it produces dark-fruited, peppery reds with the structural lift of cool-night mountain Syrah. Permitted in Bolgheri DOC blends and a varietal under Maremma Toscana DOC. Isole e Olena's Syrah is among the longest-established Tuscan single-varietal bottlings from this grape.",
+      "key_producers": ["isole-e-olena", "michele-satta", "fontodi"],
+      "verified": {
+        "source_url": "https://www.bolgheridoc.com/en/varietal-composition/",
+        "address_quoted": "Bolgheri, Castagneto Carducci, Livorno, Italy",
+        "open_status": "open",
+        "open_evidence_url": "https://www.consorziovinimaremma.it/en/maremma-toscana-doc/",
+        "cuisine_evidence_url": "https://www.bolgheridoc.com/en/varietal-composition/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "canaiolo",
+      "name": "Canaiolo Nero",
+      "style_focus": "red",
+      "regions_grown": ["chianti-classico", "vino-nobile-di-montepulciano", "carmignano", "chianti-rufina"],
+      "description": "Historically the principal softening blender for Sangiovese in Chianti Classico, recorded in Bettino Ricasoli's original 1872 formula. The 2025 Chianti Classico revision raised the minimum Sangiovese to 90% in Gran Selezione, reducing Canaiolo's role but preserving its identity as the traditional supplementary grape. Adds floral, juicy red-fruit suppleness to Sangiovese's grip.",
+      "key_producers": ["castello-di-volpaia", "felsina", "isole-e-olena", "boscarelli"],
+      "verified": {
+        "source_url": "https://www.chianticlassico.com/en/sangiovese-and-the-supplementary-grape-varieties/",
+        "address_quoted": "Chianti Classico, Tuscany, Italy",
+        "open_status": "open",
+        "open_evidence_url": "https://www.consorziovinonobile.it/en/the-disciplinary/",
+        "cuisine_evidence_url": "https://www.chianticlassico.com/en/sangiovese-and-the-supplementary-grape-varieties/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "vernaccia",
+      "name": "Vernaccia",
+      "style_focus": "white",
+      "regions_grown": ["vernaccia-di-san-gimignano"],
+      "description": "Tuscany's only DOCG white grape, grown almost exclusively around the medieval tower town of San Gimignano. Bone-dry citrus, almond and saline notes from sandstone-rich Triassic soils. Vernaccia di San Gimignano was the first Italian wine to receive DOC status in 1966 and was promoted to DOCG in 1993.",
+      "key_producers": ["panizzi"],
+      "verified": {
+        "source_url": "https://www.vernaccia.it/en/the-wine/",
+        "address_quoted": "San Gimignano, 53037 Siena, Italy",
+        "open_status": "open",
+        "open_evidence_url": "https://www.visittuscany.com/en/ideas/vernaccia-di-san-gimignano-tuscan-white-wine/",
+        "cuisine_evidence_url": "https://www.vernaccia.it/en/the-wine/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "trebbiano-toscano",
+      "name": "Trebbiano Toscano",
+      "style_focus": "white",
+      "regions_grown": ["chianti-classico", "chianti-colli-senesi", "vino-nobile-di-montepulciano", "maremma"],
+      "description": "Italy's most planted white grape and the historical white blender across Tuscany. Once permitted in red Chianti before being removed from Chianti Classico DOCG; still important for Vin Santo del Chianti Classico DOC, where late-harvested Trebbiano (often blended with Malvasia Bianca Lunga) is dried on cane mats before fermentation in small caratelli barrels for years of oxidative ageing.",
+      "key_producers": ["avignonesi", "isole-e-olena", "castello-di-ama"],
+      "verified": {
+        "source_url": "https://www.chianticlassico.com/en/sangiovese-and-the-supplementary-grape-varieties/",
+        "address_quoted": "Chianti Classico, Tuscany, Italy",
+        "open_status": "open",
+        "open_evidence_url": "https://www.consorziovinochianti.it/en/the-wines/vin-santo/",
+        "cuisine_evidence_url": "https://www.chianticlassico.com/en/sangiovese-and-the-supplementary-grape-varieties/",
+        "checked_on": "2026-05-23"
+      }
+    },
+    {
+      "slug": "vermentino",
+      "name": "Vermentino",
+      "style_focus": "white",
+      "regions_grown": ["maremma", "bolgheri"],
+      "description": "The defining white of coastal Tuscany, producing crisp, saline, herb-driven wines along the Tyrrhenian shore from Bolgheri through the Maremma. Permitted under Bolgheri DOC Bianco and Maremma Toscana DOC. Best examples come from sandy-soiled vineyards within sight of the sea, where night breezes preserve acidity and aromatic precision.",
+      "key_producers": ["tenuta-guado-al-tasso", "michele-satta", "le-pupille", "rocca-di-frassinello"],
+      "verified": {
+        "source_url": "https://www.bolgheridoc.com/en/varietal-composition/",
+        "address_quoted": "Bolgheri, Castagneto Carducci, Livorno, Italy",
+        "open_status": "open",
+        "open_evidence_url": "https://www.consorziovinimaremma.it/en/maremma-toscana-doc/",
+        "cuisine_evidence_url": "https://www.bolgheridoc.com/en/varietal-composition/",
+        "checked_on": "2026-05-23"
+      }
+    }
+  ]
+}

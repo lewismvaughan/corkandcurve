@@ -1,6 +1,18 @@
 {
   "entries": [
     {
+      "slug": "alicante",
+      "display": "Alicante",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "region_name": "Tuscany",
+          "n": 1
+        }
+      ]
+    },
+    {
       "slug": "cabernet-franc",
       "display": "Cabernet Franc",
       "regions": [
@@ -9,6 +21,12 @@
           "region_slug": "bordeaux",
           "region_name": "Bordeaux",
           "n": 46
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "region_name": "Tuscany",
+          "n": 7
         }
       ]
     },
@@ -21,6 +39,60 @@
           "region_slug": "bordeaux",
           "region_name": "Bordeaux",
           "n": 53
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "region_name": "Tuscany",
+          "n": 31
+        }
+      ]
+    },
+    {
+      "slug": "canaiolo",
+      "display": "Canaiolo",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "region_name": "Tuscany",
+          "n": 1
+        }
+      ]
+    },
+    {
+      "slug": "canaiolo-nero",
+      "display": "Canaiolo Nero",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "region_name": "Tuscany",
+          "n": 5
+        }
+      ]
+    },
+    {
+      "slug": "chardonnay",
+      "display": "Chardonnay",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "region_name": "Tuscany",
+          "n": 7
+        }
+      ]
+    },
+    {
+      "slug": "colorino",
+      "display": "Colorino",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "region_name": "Tuscany",
+          "n": 1
         }
       ]
     },
@@ -37,6 +109,42 @@
       ]
     },
     {
+      "slug": "malvasia-bianca-lunga",
+      "display": "Malvasia Bianca Lunga",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "region_name": "Tuscany",
+          "n": 2
+        }
+      ]
+    },
+    {
+      "slug": "malvasia-nera",
+      "display": "Malvasia Nera",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "region_name": "Tuscany",
+          "n": 4
+        }
+      ]
+    },
+    {
+      "slug": "mammolo",
+      "display": "Mammolo",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "region_name": "Tuscany",
+          "n": 3
+        }
+      ]
+    },
+    {
       "slug": "merlot",
       "display": "Merlot",
       "regions": [
@@ -45,6 +153,12 @@
           "region_slug": "bordeaux",
           "region_name": "Bordeaux",
           "n": 63
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "region_name": "Tuscany",
+          "n": 25
         }
       ]
     },
@@ -69,6 +183,108 @@
           "region_slug": "bordeaux",
           "region_name": "Bordeaux",
           "n": 18
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "region_name": "Tuscany",
+          "n": 5
+        }
+      ]
+    },
+    {
+      "slug": "pinot-bianco",
+      "display": "Pinot Bianco",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "region_name": "Tuscany",
+          "n": 2
+        }
+      ]
+    },
+    {
+      "slug": "pinot-nero",
+      "display": "Pinot Nero",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "region_name": "Tuscany",
+          "n": 3
+        }
+      ]
+    },
+    {
+      "slug": "pugnitello",
+      "display": "Pugnitello",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "region_name": "Tuscany",
+          "n": 1
+        }
+      ]
+    },
+    {
+      "slug": "san-colombano",
+      "display": "San Colombano",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "region_name": "Tuscany",
+          "n": 1
+        }
+      ]
+    },
+    {
+      "slug": "sangiovese",
+      "display": "Sangiovese",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "region_name": "Tuscany",
+          "n": 25
+        }
+      ]
+    },
+    {
+      "slug": "sangiovese-grosso",
+      "display": "Sangiovese Grosso",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "region_name": "Tuscany",
+          "n": 10
+        }
+      ]
+    },
+    {
+      "slug": "sangiovese-morellino",
+      "display": "Sangiovese (Morellino)",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "region_name": "Tuscany",
+          "n": 1
+        }
+      ]
+    },
+    {
+      "slug": "sangiovese-prugnolo-gentile",
+      "display": "Sangiovese (Prugnolo Gentile)",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "region_name": "Tuscany",
+          "n": 4
         }
       ]
     },
@@ -81,6 +297,12 @@
           "region_slug": "bordeaux",
           "region_name": "Bordeaux",
           "n": 16
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "region_name": "Tuscany",
+          "n": 2
         }
       ]
     },
@@ -105,6 +327,90 @@
           "region_slug": "bordeaux",
           "region_name": "Bordeaux",
           "n": 15
+        }
+      ]
+    },
+    {
+      "slug": "syrah",
+      "display": "Syrah",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "region_name": "Tuscany",
+          "n": 8
+        }
+      ]
+    },
+    {
+      "slug": "teroldego",
+      "display": "Teroldego",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "region_name": "Tuscany",
+          "n": 1
+        }
+      ]
+    },
+    {
+      "slug": "trebbiano",
+      "display": "Trebbiano",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "region_name": "Tuscany",
+          "n": 1
+        }
+      ]
+    },
+    {
+      "slug": "trebbiano-toscano",
+      "display": "Trebbiano Toscano",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "region_name": "Tuscany",
+          "n": 3
+        }
+      ]
+    },
+    {
+      "slug": "vermentino",
+      "display": "Vermentino",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "region_name": "Tuscany",
+          "n": 5
+        }
+      ]
+    },
+    {
+      "slug": "vernaccia",
+      "display": "Vernaccia",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "region_name": "Tuscany",
+          "n": 1
+        }
+      ]
+    },
+    {
+      "slug": "viognier",
+      "display": "Viognier",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "region_name": "Tuscany",
+          "n": 1
         }
       ]
     }

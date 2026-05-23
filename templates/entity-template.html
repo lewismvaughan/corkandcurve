@@ -125,7 +125,23 @@
       {% if entity.hours %}"openingHours": {{ entity.hours | tojson }},{% endif %}
       {% if entity.booking_url %}"sameAs": [{{ entity.booking_url | tojson }}],{% endif %}
       {% if entity.affiliate_url and not entity.booking_url %}"sameAs": [{{ entity.affiliate_url | tojson }}],{% endif %}
-      {% if entity.editorial_score %}"aggregateRating": {
+      {# Review-emission guard: Google's Review-snippet validator only
+         accepts a fixed set of parent @types. Skip Review + aggregateRating
+         when entity_schema is outside that set (e.g. Museum, TouristAttraction,
+         TouristDestination — all Place subtypes, not LocalBusiness). The
+         entity keeps its semantically-correct @type but doesn't emit a
+         Review block that would error in GSC. Sourced from
+         https://developers.google.com/search/docs/appearance/structured-data/review-snippet. #}
+      {% set _review_ok_types = (
+          'Book', 'Course', 'Event', 'Festival', 'EducationEvent',
+          'SocialEvent', 'BusinessEvent', 'FoodEvent', 'Game', 'HowTo',
+          'LocalBusiness', 'Restaurant', 'BarOrPub', 'CafeOrCoffeeShop',
+          'Bakery', 'Brewery', 'FoodEstablishment', 'NightClub',
+          'Distillery', 'Winery', 'Store', 'LodgingBusiness',
+          'MediaObject', 'Movie', 'MusicPlaylist', 'MusicRecording',
+          'Organization', 'Product', 'Recipe', 'SoftwareApplication'
+      ) %}
+      {% if entity.editorial_score and entity_schema in _review_ok_types %}"aggregateRating": {
         "@type": "AggregateRating",
         "@id": "{{ seo.meta.canonical_url }}#aggregaterating",
         "ratingValue": {{ entity.editorial_score | tojson }},

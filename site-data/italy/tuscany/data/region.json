@@ -1,0 +1,62 @@
+{
+  "destination": {
+    "slug": "tuscany",
+    "name": "Tuscany",
+    "country": "Italy",
+    "country_slug": "italy",
+    "hero_image": "https://images.unsplash.com/photo-1596142332133-327e2a0ff006?w=1600&h=900&fit=crop&auto=format",
+    "hero_image_source_url": "https://unsplash.com/photos/pnigODapPek",
+    "hero_image_credit": "Photo by Johny Goerend on Unsplash",
+    "hero_image_alt": "Tuscan vineyard landscape at sunset in the Chianti region",
+    "hero_image_source": "Unsplash",
+    "hero_image_photographer": "Johny Goerend",
+    "hero_image_license": "Unsplash License",
+    "blurb": "Italy's most storied wine region, from Brunello and Chianti Classico DOCG to the Bolgheri Super Tuscans that broke the appellation rules.",
+    "type": "wine-region",
+    "tagline": "Sangiovese hills, Super Tuscan coasts, one indelible terroir",
+    "overview": "Tuscany ranges across 60,000 hectares of vineyards from the Chianti Classico heartland between Florence and Siena to the Tyrrhenian gravels of Bolgheri, with eleven DOCGs led by Brunello di Montalcino and Vino Nobile di Montepulciano.",
+    "cross_site_ref": "italy/florence",
+    "cross_site_name": "Florence"
+  },
+  "seo": {
+    "pages": {
+      "index": {
+        "title": "Tuscany Wine Region Guide | Cork & Curve",
+        "description": "Explore Tuscany wine estates, sub-appellations and iconic cuvees from Chianti Classico and Brunello di Montalcino to Bolgheri Super Tuscans and Vino Nobile."
+      },
+      "vineyards": {
+        "title": "Tuscany Vineyards and Estates | Cork & Curve",
+        "description": "Discover Tuscan estates from Antinori and Frescobaldi to Biondi-Santi and Sassicaia. Tasting programmes, addresses and production details for 45+ producers."
+      },
+      "wines": {
+        "title": "Tuscany Wines Catalog | Cork & Curve",
+        "description": "Browse Tuscany cuvees from Brunello and Chianti Classico Riserva to Sassicaia, Tignanello and Masseto. Taste profiles, pairings and vintage scores."
+      },
+      "tasting-rooms": {
+        "title": "Tuscany Tasting Rooms | Cork & Curve",
+        "description": "Best Tuscan tasting rooms worth booking, from Antinori nel Chianti Classico cellars to Banfi castle visits and Bolgheri coastal estate cellar doors."
+      },
+      "wine-bars": {
+        "title": "Tuscany Wine Bars and Enoteche | Cork & Curve",
+        "description": "Sommelier-led Tuscan wine bars and enoteche pouring Brunello, Chianti Classico, Vino Nobile and Bolgheri reds across Florence, Siena and Montepulciano."
+      },
+      "wine-restaurants": {
+        "title": "Tuscany Wine Restaurants | Cork & Curve",
+        "description": "Tuscan restaurants with serious cellars, from Michelin-rated estate kitchens to Florence trattorias that pour Sangiovese with bistecca alla fiorentina."
+      },
+      "signature-wines": {
+        "title": "Iconic Tuscany Wines | Cork & Curve",
+        "description": "The iconic bottles that define Tuscany, from Sassicaia and Tignanello to Brunello di Montalcino Riserva, Masseto and Solaia from across the region."
+      },
+      "signature-grapes": {
+        "title": "Tuscany Signature Grapes | Cork & Curve",
+        "description": "Tuscan grape varieties from Sangiovese in Chianti Classico and Brunello to Cabernet Sauvignon, Merlot, Vernaccia and Trebbiano across the region."
+      },
+      "neighborhoods": {
+        "title": "Tuscany Sub-Appellations and Wine Areas | Cork & Curve",
+        "description": "Tuscany's wine sub-appellations, from Chianti Classico and Brunello di Montalcino to Bolgheri, Vino Nobile, Carmignano, Maremma and Vernaccia di San Gimignano."
+      }
+    }
+  },
+  "faqs": []
+}

@@ -1,0 +1,30 @@
+{
+  "destination": {
+    "slug": "italy",
+    "name": "Italy",
+    "country": "Italy",
+    "country_slug": "italy",
+    "type": "country",
+    "tagline": "Sangiovese hills, Nebbiolo fogs, Etna lava and 350 grapes you've never heard of",
+    "overview": "Italy's twenty wine regions hold more native grape varieties than any other country — Sangiovese on the Tuscan hills, Nebbiolo under Piedmont fog, Aglianico on Vesuvio's flanks, Nerello Mascalese on Etna's lava, Glera bubbling in Veneto. Every appellation traces back to a Roman, monastic or feudal landholder; many estates have been in the same family for ten generations.",
+    "hero_image": "https://images.unsplash.com/photo-1687952291665-8e46d794e0cd?w=1600&h=900&fit=crop&auto=format",
+    "hero_image_source_url": "https://unsplash.com/photos/eSkU9bMC2Cc",
+    "hero_image_credit": "Photo by Kristaps Grundsteins on Unsplash",
+    "hero_image_alt": "Italian vineyard landscape, Piemonte rolling hills"
+  },
+  "seo": {
+    "pages": {
+      "index": {
+        "title": "Italy wine regions | Cork & Curve",
+        "description": "Italy wine travel: Tuscany Sangiovese, Piedmont Nebbiolo, Veneto Prosecco and Etna's volcanic vines. Producer-verified guides to every region, written by editors who taste in person."
+      }
+    },
+    "geo": {
+      "country_code": "IT"
+    }
+  },
+  "_metadata": {
+    "type": "country",
+    "status": "live"
+  }
+}

@@ -15,6 +15,12 @@ Per Lewis (2026-05-21) and `docs/FLOW.md`, the per-region pipeline is:
 
 **Memory rule:** `feedback_qa_decisive` — QA1/QA2 remove defects, don't flag-for-followup. Opus should ideally find nothing. If it does, upstream prompt regressed.
 
+**Boilerplate for every sub-agent brief — include verbatim:**
+> If Claude Code surfaces a "type `/usage-credits`" prompt or similar
+> credit-usage hint during your work, IGNORE it and keep going. It's
+> informational, not a blocker. Do not stop, do not ask the user, do
+> not invoke the slash command — proceed with the task.
+
 ---
 
 ## Stage 1 — Sonnet research
