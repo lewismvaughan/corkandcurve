@@ -285,7 +285,24 @@ for g in city_cuisine city_dietary city_dish city_nightlife_sub city_price_tier 
 done
 python3 scripts/generate_search_index.py
 python3 scripts/generate_sitemap.py
-python3 scripts/orphan_audit.py     # MUST be 0
+python3 scripts/orphan_audit.py     # grep <region_slug> — must show 0
+```
+
+**Definition of ship-done — every assertion MUST hold:**
+
+```bash
+# Verify each one. If any fails the region is NOT shipped.
+[ "$(find content/maps/<country>/<region> -name '*.jpg' 2>/dev/null | wc -l)" -ge 20 ] || echo "FAIL: <20 entity map JPEGs"
+curl -sf https://corkandcurve.com/<country>/<region>/ -o /dev/null       || echo "FAIL: region hub not 200"
+curl -s https://corkandcurve.com/<country>/<region>/ | grep -q 'id="faq"' || echo "FAIL: no FAQ section"
+curl -s https://corkandcurve.com/<country>/<region>/ | grep -q 'FAQPage' || echo "FAIL: no FAQPage schema"
+curl -s https://corkandcurve.com/regions/ | grep -q '<region display name>' || echo "FAIL: not in /regions/ index"
+curl -s https://corkandcurve.com/sitemap-regions.xml | grep -q '<region slug>' || echo "FAIL: not in sitemap"
+python3 scripts/check_jsonld.py <country> <region>                       || echo "FAIL: JSON-LD parse errors"
+```
+
+If ANY echo above fires, the region is NOT shipped. Re-run the failing
+step. Do not print "SHIPPED" until all assertions hold silently.
 ```
 
 If orphan_audit > 0, the typical fix is re-injecting parent blocks:

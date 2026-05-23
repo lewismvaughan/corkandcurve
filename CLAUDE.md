@@ -125,6 +125,38 @@ python scripts/new_region.py <country_slug> <region_slug> --name <Name> --countr
 sshp host 'echo "$TJ_SUDO_PASS" | sudo -S chmod -R a+rX /opt/claude-stations/corkandcurve/repo/content'
 ```
 
+## Definition of region ship-done (HARD GATES — no exceptions)
+
+`ship_safety.sh PASS` + `generate_city.py` is **NOT** enough. Both can
+exit cleanly while a region is missing maps, pins, FAQ blocks, or
+inbound chrome links. TableJourney 2026-05-23 shipped Hong Kong with
+0% geocode coverage because the orchestrator stopped after
+`generate_city.py`. Don't repeat the mistake here.
+
+Before printing `SHIP-READY` for any region, EVERY step below must
+pass. Full command list in `docs/FLOW.md`. Headlines:
+
+1. `bash scripts/ship_safety.sh <country> <region>` — exit 0
+2. `python3 scripts/geocode_entities.py --city <region>` — Nominatim ~1/s
+3. `python3 scripts/check_geocode_coverage.py <country> <region>` — ≥95%
+4. `python3 scripts/build_entity_maps.py --city <region>` — JPEGs on disk
+5. `python3 scripts/build_city_pins.py` — `_pins.json` updated
+6. `python3 scripts/generate_city.py <country> <region>` — auto-chains
+   cross-cuts, scoped, dietary (vegan winemaking), cuisine (grape),
+   search-index, sitemap, llms.txt
+7. `python3 scripts/generate_chrome_pages.py` — refreshes `/regions/`,
+   `/topics/`, `/grapes/`, `/styles/` so the new region appears
+8. `orphan_audit.py` — no new orphans for the region slug
+9. FAQ check — `id="faq"` + `FAQPage` schema both ≥1 on region hub
+10. `check_jsonld.py <country> <region>` — JSON-LD parses clean
+11. Live smoke test — 6+ URLs return 200 (hub, entities, cross-cuts, OG card)
+12. `/regions/` chrome page lists the new region display name
+13. chmod `a+rX` on `content/`
+
+`generate_city.py` does NOT auto-run #7 (`generate_chrome_pages.py`)
+or #2-5 (geocode + maps + pins). Those are explicit-only. Most ship
+failures come from forgetting them.
+
 ## Claude Code prompt: `/usage-credits`
 
 When Claude Code is approaching its credit budget, the CLI surfaces an

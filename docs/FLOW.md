@@ -145,3 +145,46 @@ See `docs/CROSS_LINKING.md` for the contract.
 | `docs/SCRIPTS_AUDIT.md` | Which scripts work as-is, which need wine adaptation |
 | `docs/TEMPLATES_AUDIT.md` | Which templates work as-is, which need wine adaptation |
 | `docs/HANDOFF.md` | Current session state, what's pending |
+
+## Definition of region ship-done (the orchestrator's contract)
+
+A region is NOT shipped until every gate below is green. Added
+2026-05-23 after TJ shipped Hong Kong with 0% geocode coverage + no
+inbound chrome listing because the orchestrator declared "done" off
+`ship_safety` + `generate_city.py` alone. Both pass while the region
+is missing maps, pins, and inbound chrome links.
+
+```
+# Mechanical gate
+1. bash scripts/ship_safety.sh <country> <region>
+   (exits 0 — 7 layers PASS)
+
+# Geocode + maps + pins (NEW gates — these are the easiest to forget)
+2. python3 scripts/geocode_entities.py --city <region>
+   (Nominatim ~1/s, ~2 min per 100 entities)
+3. python3 scripts/check_geocode_coverage.py <country> <region>
+   (≥95% coverage)
+4. python3 scripts/build_entity_maps.py --city <region>
+5. python3 scripts/build_city_pins.py
+
+# Render
+6. python3 scripts/generate_city.py <country> <region>
+
+# Chrome integration — NOT in generate_city.py's chain
+7. python3 scripts/generate_chrome_pages.py
+   (refreshes /regions/, /topics/, /grapes/, /styles/)
+
+# Verification gates
+8. orphan_audit.py: orphan count for the new region ≤ 0
+9. FAQ presence on region hub (id="faq" + FAQPage schema)
+10. check_jsonld.py — no JSON parse errors
+11. Sitemap-vs-disk reconcile
+12. Live smoke test — 6+ URLs return 200
+13. Chrome regions listing — region appears in /regions/
+
+# Permissions
+14. chmod a+rX on content/
+```
+
+If ANY of these fail, the region is NOT ship-done.
+
