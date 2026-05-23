@@ -92,7 +92,7 @@
       "endDate": {{ (entity.end_date_iso or entity.start_date_iso or current_date_iso) | tojson }},
       "eventStatus": {{ (entity.event_status_url or "https://schema.org/EventScheduled") | tojson }},
       "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-      {% if entity.organizer %}"organizer": { "@type": "Organization", "name": {{ entity.organizer | tojson }} },{% endif %}
+      "organizer": { "@type": "Organization", "name": {{ (entity.organizer or entity.name) | tojson }} },
       {% if entity.performer %}"performer": { "@type": "PerformingGroup", "name": {{ entity.performer | tojson }} },{% endif %}
       {% if entity.ticket_required is defined %}"isAccessibleForFree": {{ (not entity.ticket_required) | tojson }},{% endif %}
       {% if entity.ticket_url or entity.booking_url or entity.price or entity.ticket_required == false %}
@@ -116,7 +116,7 @@
       "eventStatus": {{ (entity.event_status_url or "https://schema.org/EventScheduled") | tojson }},
       "eventAttendanceMode": {{ (entity.event_attendance_mode_url or "https://schema.org/OfflineEventAttendanceMode") | tojson }},
       {% if entity.focus %}"about": {{ entity.focus | tojson }},{% endif %}
-      {% if entity.organizer %}"organizer": { "@type": "Organization", "name": {{ entity.organizer | tojson }} },{% endif %}
+      "organizer": { "@type": "Organization", "name": {{ (entity.organizer or entity.name) | tojson }} },
       {% if entity.offer_dict %}"offers": {{ entity.offer_dict | tojson }},{% endif %}
       "image": {{ seo.open_graph.og_image | tojson }},
       {% endif %}

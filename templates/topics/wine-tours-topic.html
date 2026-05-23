@@ -25,12 +25,12 @@
   "@graph": [
     {% for t in _ts %}
     {
-      "@type": "TouristTrip",
+      "@type": "Service",
       "@id": "{{ seo.meta.canonical_url }}#tour-{{ loop.index }}",
       "name": {{ (t.operator or t.name) | tojson }}{% if t.description %},
       "description": {{ t.description | tojson }}{% endif %},
-      "touristType": "Wine traveller"{% if t.meeting_point or t.address %},
-      "departureLocation": { "@type": "Place", "name": {{ destination.name | tojson }}, "address": {{ (t.meeting_point or t.address) | tojson }} }{% endif %}{% if t.affiliate_url or t.booking_url %},
+      "serviceType": "Wine traveller"{% if t.meeting_point or t.address %},
+      "areaServed": { "@type": "Place", "name": {{ destination.name | tojson }}, "address": {{ (t.meeting_point or t.address) | tojson }} }{% endif %}{% if t.affiliate_url or t.booking_url %},
       "offers": { "@type": "Offer", "url": {{ (t.affiliate_url or t.booking_url) | tojson }}, "availability": "https://schema.org/InStock" ,
         "validFrom": {{ current_date_iso | tojson }}
       }{% endif %}
