@@ -232,6 +232,29 @@ to C&C from its city × wine-bars and city × cuisine pages.
 
 Do NOT auto-link bulk. Editorial pairings only.
 
+## P0 — DEPTH CONTRACT (per-tier hard floors)
+
+The per-topic ranges in the table below are NOT soft targets. The LOWER
+bound is a HARD FLOOR. You may not print `READY-TO-QA <country>/<region>`
+until every list-shaped topic meets at least the lower bound for the
+region's tier.
+
+| Tier | Description | Lower-bound rule |
+|------|-------------|------------------|
+| **Tier 1** | Global wine-tourism gravity. Bordeaux, Tuscany, Napa, Champagne, Burgundy, Mendoza, Barossa, Stellenbosch. | Use the UPPER bound of each topic's range as the minimum. |
+| **Tier 2** | Strong regional wine zone. Loire, Rhone, Piedmont, Sonoma, Mosel, Marlborough, McLaren Vale. | Use the midpoint. |
+| **Tier 3** | Emerging or thinner-supply region. | Use the lower bound. |
+
+If you can't hit the floor for a topic after good-faith research, set
+`cities[<row>].categories.<topic> = "researched-empty-floor"` in
+`data/locations.json` with an `evidence_note`. RARE for Tier 1.
+
+TableJourney's Hong Kong shipped at 104 entities (vs Tier-1 floor ~250)
+because the agent treated the range as a target. Same prompt error
+would land C&C with thin Bordeaux / Tuscany / Napa research — don't
+repeat it. Tier-1 regions should land 280-450 total entities;
+Tier-2 200-300; Tier-3 140-220.
+
 ## What you produce
 
 24 list-shaped topic JSONs (including `wines.json` per-cuvée catalog)
