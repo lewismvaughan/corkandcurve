@@ -93,7 +93,7 @@
       "eventStatus": {{ (entity.event_status_url or "https://schema.org/EventScheduled") | tojson }},
       "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
       "organizer": { "@type": "Organization", "name": {{ (entity.organizer or entity.name) | tojson }} },
-      {% if entity.performer %}"performer": { "@type": "PerformingGroup", "name": {{ entity.performer | tojson }} },{% endif %}
+      "performer": { "@type": "PerformingGroup", "name": {{ (entity.performer or entity.name) | tojson }} },
       {% if entity.ticket_required is defined %}"isAccessibleForFree": {{ (not entity.ticket_required) | tojson }},{% endif %}
       {% if entity.ticket_url or entity.booking_url or entity.price or entity.ticket_required == false %}
       "offers": {

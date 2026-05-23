@@ -36,6 +36,7 @@
       "eventStatus": "https://schema.org/EventScheduled",
       "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
       "organizer": { "@type": "Organization", "name": {{ (f.organizer or f.name) | tojson }} },
+      "performer": { "@type": "PerformingGroup", "name": {{ (f.performer or f.name) | tojson }} },
       "location": { "@type": "Place", "name": {{ destination.name | tojson }}{% if f.address %}, "address": {{ f.address | tojson }}{% endif %} }{% if f.ticket_url or f.booking_url %},
       "offers": { "@type": "Offer", "url": {{ (f.ticket_url or f.booking_url) | tojson }}, "availability": "https://schema.org/InStock" ,
         "validFrom": {{ current_date_iso | tojson }}
