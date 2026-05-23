@@ -1,3 +1,321 @@
 {
-  "wine_history": []
+  "wine_history": {
+    "ancient": [
+      {
+        "slug": "roman-viticulture-bordeaux",
+        "era": "Roman period",
+        "period": "1st-5th century AD",
+        "title": "Roman Viticulture and the Foundation of Bordeaux Wine",
+        "description": "The Romans planted the first recorded vines in the Burdigala (Bordeaux) region in the 1st century AD, following their conquest of Gaul. The poet Ausonius, born near Bordeaux in 310 AD, owned a famous vineyard on the limestone plateau of what is now Saint-Emilion; Chateau Ausone takes its name from him. Roman trade via the Garonne river established Bordeaux as a wine-export port for northern Gaul and Britain.",
+        "key_figures": [
+          "Ausonius (Decimus Magnus Ausonius, 310-395 AD)"
+        ],
+        "verified": {
+          "source_url": "https://www.vins-bordeaux.fr/en/bordeaux-wines/history.html",
+          "address_quoted": "Bordeaux, Gironde, France",
+          "open_status": "open",
+          "open_evidence_url": "https://www.laciteduvin.com/en/visit/the-permanent-exhibition/",
+          "cuisine_evidence_url": "https://www.vins-bordeaux.fr/en/bordeaux-wines/history.html",
+          "checked_on": "2026-05-22"
+        }
+      }
+    ],
+    "medieval": [
+      {
+        "slug": "eleanor-of-aquitaine-english-claret",
+        "era": "Medieval",
+        "period": "1152-1453",
+        "title": "Eleanor of Aquitaine and the English Claret Trade",
+        "description": "Eleanor of Aquitaine's marriage to Henry II of England in 1152 brought Bordeaux under English Crown control for three centuries. English demand for Bordeaux's pale red wine, known as claret, created the first great international wine trade. At its peak in the 14th century, more than 90,000 tonnes of wine were shipped annually from Bordeaux to England. The English connection fundamentally shaped Bordeaux's château estate model and its commercial outward orientation.",
+        "key_figures": [
+          "Eleanor of Aquitaine",
+          "Henry II of England"
+        ],
+        "verified": {
+          "source_url": "https://www.vins-bordeaux.fr/en/bordeaux-wines/history.html",
+          "address_quoted": "Bordeaux, Gironde, France",
+          "open_status": "open",
+          "open_evidence_url": "https://www.laciteduvin.com/en/the-permanent-exhibition/a-universal-library/",
+          "cuisine_evidence_url": "https://www.vins-bordeaux.fr/en/bordeaux-wines/history.html",
+          "checked_on": "2026-05-22"
+        }
+      }
+    ],
+    "early_modern": [
+      {
+        "slug": "dutch-merchants-chartrons-1600s",
+        "era": "Early Modern",
+        "period": "1600-1700",
+        "title": "Dutch Merchants and the Chartrons Wine Trade Quarter",
+        "description": "Dutch Protestant merchants, fleeing religious persecution, settled in the Chartrons district of Bordeaux in the early 17th century. They brought capital, drainage technology (transforming the marshy Medoc), and crucial export routes to northern Europe. They established the negociant system that still underpins Bordeaux's trade structure. The Chartrons buildings that survive today along the quays are largely of Dutch merchant origin.",
+        "key_figures": [
+          "Protestant Dutch merchant community (Schylers, Bartons, Johnstons)"
+        ],
+        "verified": {
+          "source_url": "https://www.museeduvin-bordeaux.com/en/collections/",
+          "address_quoted": "41 rue Borie, 33300 Bordeaux",
+          "open_status": "open",
+          "open_evidence_url": "https://www.laciteduvin.com/en/visit/the-permanent-exhibition/",
+          "cuisine_evidence_url": "https://www.vins-bordeaux.fr/en/bordeaux-wines/history.html",
+          "checked_on": "2026-05-22"
+        }
+      }
+    ],
+    "nineteenth_century": [
+      {
+        "slug": "1855-classification-paris",
+        "era": "19th century",
+        "period": "1855",
+        "title": "The 1855 Classification at the Paris Exposition Universelle",
+        "description": "Emperor Napoleon III commissioned a ranking of Bordeaux wines for the 1855 Paris Exposition Universelle. The Bordeaux Chamber of Commerce asked the Syndicat de Courtiers to rank wines by prestige and price. The result was five tiers of Medoc reds (61 chateaux) and a separate ranking of Sauternes (27 estates including d'Yquem as Premier Cru Superieur). The classification has remained almost entirely unchanged since 1855; the only modification was Chateau Mouton Rothschild's elevation from second to first growth in 1973 by decree of the French Ministry of Agriculture.",
+        "key_figures": [
+          "Napoleon III",
+          "Bordeaux Chamber of Commerce",
+          "Baron Philippe de Rothschild (1973 elevation)"
+        ],
+        "verified": {
+          "source_url": "https://www.ugcb.net/en/classification/1855-classification/",
+          "address_quoted": "Bordeaux, Gironde, France",
+          "open_status": "open",
+          "open_evidence_url": "https://www.vins-bordeaux.fr/en/bordeaux-wines/history.html",
+          "cuisine_evidence_url": "https://www.ugcb.net/en/classification/1855-classification/",
+          "checked_on": "2026-05-22"
+        }
+      },
+      {
+        "slug": "phylloxera-crisis-bordeaux",
+        "era": "19th century",
+        "period": "1869-1900",
+        "title": "Phylloxera and the Reconstruction of the Bordeaux Vineyards",
+        "description": "The phylloxera louse (Daktulosphaira vitifoliae), introduced from North America on botanical specimens, reached Bordeaux in 1869 and destroyed most of the Gironde vineyards over the following 20 years. The solution, grafting Vitis vinifera onto phylloxera-resistant American rootstocks, was developed partly in Bordeaux. By 1900 most estates had replanted on grafted vines; the reconstruction fundamentally reset the age of Bordeaux vineyards and led to the dominance of Cabernet Sauvignon and Merlot over older varieties.",
+        "key_figures": [
+          "Jules Millardet (who also developed Bordeaux Mixture, the first effective fungicide)"
+        ],
+        "verified": {
+          "source_url": "https://www.vins-bordeaux.fr/en/bordeaux-wines/history.html",
+          "address_quoted": "Bordeaux, Gironde, France",
+          "open_status": "open",
+          "open_evidence_url": "https://www.laciteduvin.com/en/visit/the-permanent-exhibition/",
+          "cuisine_evidence_url": "https://www.vins-bordeaux.fr/en/bordeaux-wines/history.html",
+          "checked_on": "2026-05-22"
+        }
+      }
+    ],
+    "twentieth_century": [
+      {
+        "slug": "1956-frost-right-bank",
+        "era": "20th century",
+        "period": "1956",
+        "title": "The 1956 Frost and the Transformation of the Right Bank",
+        "description": "The catastrophic February 1956 frost killed most of the older vine stock across the Gironde, particularly on the Right Bank. Estates replanted with higher proportions of cold-hardy Merlot and Cabernet Franc, accelerating the shift that made Merlot the dominant grape of Saint-Emilion and Pomerol. Many estates also eliminated older lesser varieties such as Malbec and Carmenere that had been more common before the frost.",
+        "key_figures": [
+          "Right Bank estate owners (Vauthier, Moueix, Thienpont families)"
+        ],
+        "verified": {
+          "source_url": "https://www.vins-saint-emilion.com/en/the-appellation/history/",
+          "address_quoted": "Saint-Emilion, 33330 Gironde, France",
+          "open_status": "open",
+          "open_evidence_url": "https://www.vins-bordeaux.fr/en/bordeaux-wines/history.html",
+          "cuisine_evidence_url": "https://www.vins-saint-emilion.com/en/the-appellation/history/",
+          "checked_on": "2026-05-22"
+        }
+      },
+      {
+        "slug": "1973-mouton-rothschild-elevation",
+        "era": "20th century",
+        "period": "1973",
+        "title": "Mouton Rothschild Elevated to First Growth",
+        "description": "On 21 June 1973, by decree of the French Ministry of Agriculture, Chateau Mouton Rothschild was elevated from second growth to first growth in the 1855 classification, becoming the only modification to the original ranking. This was the culmination of a 30-year campaign by Baron Philippe de Rothschild, who famously wrote: 'Premier je suis, second je fus, Mouton ne change.' The elevation is the defining moment in the modern history of Bordeaux classification politics.",
+        "key_figures": [
+          "Baron Philippe de Rothschild",
+          "French Ministry of Agriculture"
+        ],
+        "verified": {
+          "source_url": "https://www.chateau-mouton-rothschild.com/en/the-estate/history/",
+          "address_quoted": "Chateau Mouton Rothschild, 33250 Pauillac, France",
+          "open_status": "open",
+          "open_evidence_url": "https://www.ugcb.net/en/classification/1855-classification/",
+          "cuisine_evidence_url": "https://www.chateau-mouton-rothschild.com/en/wines/",
+          "checked_on": "2026-05-22"
+        }
+      },
+      {
+        "slug": "robert-parker-1982-vintage",
+        "era": "20th century",
+        "period": "1982",
+        "title": "Robert Parker and the 1982 Vintage Revolution",
+        "description": "American critic Robert Parker staked his nascent newsletter The Wine Advocate on an unprecedented 1982 Bordeaux vintage that few in the trade had praised barrel. His assessment was confirmed in bottle; the 1982 vintage reshaped international wine criticism, introduced the 100-point scoring system to a global audience, and made Parker the most influential wine critic in history. Bordeaux prices and futures markets were transformed; the primeur system reached its current centrality.",
+        "key_figures": [
+          "Robert Parker (Wine Advocate)",
+          "Jean-Michel Cazes (Lynch-Bages populariser in the US market)"
+        ],
+        "verified": {
+          "source_url": "https://www.vins-bordeaux.fr/en/bordeaux-wines/history.html",
+          "address_quoted": "Bordeaux, Gironde, France",
+          "open_status": "open",
+          "open_evidence_url": "https://www.decanter.com/bordeaux-en-primeur/",
+          "cuisine_evidence_url": "https://www.winespectator.com/articles/bordeaux-1982-vintage",
+          "checked_on": "2026-05-22"
+        }
+      },
+      {
+        "slug": "saint-emilion-classification-system",
+        "era": "20th century",
+        "period": "1954-2022",
+        "title": "The Saint-Emilion Classification System and Its Revisions",
+        "description": "Unlike the 1855 Medoc classification, the Saint-Emilion classification was created in 1954 and designed to be revised every 10 years, theoretically based on current quality. Revisions in 1969, 1985, 1996, 2006, 2012, and 2022 have all been accompanied by legal disputes. The 2022 revision elevated Chateau Pavie and Chateau Figeac to the new Premier Grand Cru Classe A tier alongside the historic Cheval Blanc and Ausone; controversially, Cheval Blanc and Ausone withdrew from the system entirely before results were published.",
+        "key_figures": [
+          "INAO (Institut National de l'Origine et de la Qualite)",
+          "Cheval Blanc and Ausone (2022 withdrawal)"
+        ],
+        "verified": {
+          "source_url": "https://www.vins-saint-emilion.com/en/the-appellation/classification/",
+          "address_quoted": "Saint-Emilion, 33330 Gironde, France",
+          "open_status": "open",
+          "open_evidence_url": "https://www.decanter.com/learn/advice/saint-emilion-classification-explained/",
+          "cuisine_evidence_url": "https://www.vins-saint-emilion.com/en/the-appellation/classification/",
+          "checked_on": "2026-05-22"
+        }
+      },
+      {
+        "slug": "petrus-moueix-global-discovery",
+        "era": "20th century",
+        "period": "1945-1975",
+        "title": "Jean-Pierre Moueix and the Global Discovery of Petrus",
+        "description": "Petrus was a little-known Pomerol estate until Jean-Pierre Moueix, a Libourne-based negociant, obtained exclusive distribution rights in the 1940s and began strategic placement in the US and UK. His targeting of John F. Kennedy's inaugural dinner (1961) with Petrus helped establish the wine's mythological status. By the early 1970s Petrus commanded prices rivalling or exceeding the first growths despite having no official classification.",
+        "key_figures": [
+          "Jean-Pierre Moueix",
+          "Madame Loubat (former estate owner)"
+        ],
+        "verified": {
+          "source_url": "https://www.thewinecellarinsider.com/bordeaux-wine-producer-profiles/bordeaux/pomerol/petrus/",
+          "address_quoted": "3 Route de Lussac, 33500 Pomerol, France",
+          "open_status": "open",
+          "open_evidence_url": "https://tasteandterroir.com/chateau-petrus-pomerol/",
+          "cuisine_evidence_url": "https://www.wineinvestment.com/us/learn/wine/bordeaux/pomerol/petrus/",
+          "checked_on": "2026-05-22"
+        }
+      },
+      {
+        "slug": "pessac-leognan-appellation-creation",
+        "era": "20th century",
+        "period": "1987",
+        "title": "Creation of the Pessac-Leognan AOC (1987)",
+        "description": "On 9 September 1987, the INAO created the Pessac-Leognan AOC, carving out the northern Graves communes containing all the 1953 Cru Classé de Graves estates. The appellation covers Chateau Haut-Brion, Chateau La Mission Haut-Brion, Chateau Pape Clement, and Chateau Smith Haut Lafitte among others. The creation gave greater identity and premium positioning to the urban-fringe vineyard zone between Bordeaux city and Leognan, at a time when suburban encroachment threatened the appellation's coherence.",
+        "key_figures": [
+          "INAO (Institut National de l'Origine et de la Qualite)",
+          "Andre Lurton (major advocate for the appellation)"
+        ],
+        "verified": {
+          "source_url": "https://www.vins-graves.com/en/appellation-pessac-leognan/",
+          "address_quoted": "Pessac-Leognan, 33140 Gironde, France",
+          "open_status": "open",
+          "open_evidence_url": "https://www.vins-bordeaux.fr/bordeaux-wines/regions/pessac-leognan.html",
+          "cuisine_evidence_url": "https://www.vins-graves.com/en/appellation-pessac-leognan/",
+          "checked_on": "2026-05-22"
+        }
+      }
+    ],
+    "modern": [
+      {
+        "slug": "en-primeur-system-evolution",
+        "era": "20th-21st century",
+        "period": "1972-present",
+        "title": "The En Primeur Futures System: Origins and Modern Structure",
+        "description": "Bordeaux's en primeur system allows buyers to purchase wines in barrel the spring after harvest, 18-24 months before bottling. It developed systematically after the 1972 vintage when Bordeaux opened tasting to foreign press and trade during the April barrel week. The system reached its peak financial influence after the Parker 1982 vindication; first growth en primeur prices multiplied 10-15x between 1982 and 2010. Chateau Latour controversially withdrew from en primeur in 2012, releasing wines when ready to drink.",
+        "key_figures": [
+          "Chateau Latour (2012 withdrawal)",
+          "Wine Advocate",
+          "Liv-ex"
+        ],
+        "verified": {
+          "source_url": "https://www.ugcb.net/en/en-primeur/",
+          "address_quoted": "Bordeaux, Gironde, France",
+          "open_status": "open",
+          "open_evidence_url": "https://www.decanter.com/bordeaux-en-primeur/",
+          "cuisine_evidence_url": "https://www.ugcb.net/en/en-primeur/the-tasting-week/",
+          "checked_on": "2026-05-22"
+        }
+      }
+    ],
+    "twenty_first_century": [
+      {
+        "slug": "biodynamic-movement-bordeaux",
+        "era": "21st century",
+        "period": "2000-present",
+        "title": "The Biodynamic Movement Takes Root in Bordeaux",
+        "description": "Biodynamic viticulture, based on Rudolf Steiner's 1924 lectures, gained significant footing in Bordeaux in the 2000s and 2010s. Chateau Palmer achieved Demeter certification in 2017; Chateau Pontet-Canet was certified Biodyvin from 2010 and Demeter from 2014; Chateau Lafleur and others practice biodynamics without full certification. The Biodyvin association, founded 1995, certifies estates across France. The trend reflects broader consumer and producer interest in minimal-intervention farming.",
+        "key_figures": [
+          "Thomas Duroux (Palmer)",
+          "Alfred Tesseron (Pontet-Canet)",
+          "Baptiste Guinaudeau (Lafleur)"
+        ],
+        "verified": {
+          "source_url": "https://www.biodyvin.com/en/our-members/",
+          "address_quoted": "Bordeaux, Gironde, France",
+          "open_status": "open",
+          "open_evidence_url": "https://www.demeter.net/",
+          "cuisine_evidence_url": "https://winespecific.com/2024/07/23/full-force-biodynamics-at-chateau-pontet-canet-and-the-meaning-of-local/",
+          "checked_on": "2026-05-22"
+        }
+      },
+      {
+        "slug": "bordeaux-2000-vintage-benchmark",
+        "era": "21st century",
+        "period": "2000",
+        "title": "The 2000 Vintage: Bordeaux's Millennial Benchmark",
+        "description": "The 2000 Bordeaux vintage was declared exceptional across both banks, with numerous estates scoring 100-point reviews from Wine Advocate. Petrus, Le Pin, Clinet, Vieux Chateau Certan, Chateau Mouton Rothschild, and Chateau Latour all received perfect scores. The millennial symbolism drove unprecedented en primeur demand and record release prices; the vintage defined Bordeaux's 21st-century financial zenith.",
+        "key_figures": [
+          "Robert Parker (Wine Advocate)",
+          "All five first growths plus Petrus"
+        ],
+        "verified": {
+          "source_url": "https://www.winespectator.com/articles/bordeaux-2000-vintage",
+          "address_quoted": "Bordeaux, Gironde, France",
+          "open_status": "open",
+          "open_evidence_url": "https://www.decanter.com/bordeaux-en-primeur/bordeaux-2000-vintage-report/",
+          "cuisine_evidence_url": "https://www.wineinvestment.com/us/learn/wine/bordeaux/",
+          "checked_on": "2026-05-22"
+        }
+      },
+      {
+        "slug": "bordeaux-2009-2010-back-to-back",
+        "era": "21st century",
+        "period": "2009-2010",
+        "title": "Back-to-Back Legendary Vintages: 2009 and 2010",
+        "description": "The consecutive 2009 and 2010 Bordeaux vintages are considered the greatest back-to-back pair in modern history. The 2009 was hailed for extraordinary richness and ripeness; the 2010 for perfect balance, concentration and longevity. Chateau Haut-Brion, Chateau Margaux, Chateau Latour, and Chateau Ducru-Beaucaillou all received 100-point Wine Advocate scores across the two vintages. En primeur prices in 2010 reached their historic peak before the subsequent market correction.",
+        "key_figures": [
+          "Robert Parker (Wine Advocate)",
+          "All five first growths"
+        ],
+        "verified": {
+          "source_url": "https://www.winespectator.com/articles/bordeaux-2010-vintage",
+          "address_quoted": "Bordeaux, Gironde, France",
+          "open_status": "open",
+          "open_evidence_url": "https://www.decanter.com/bordeaux-en-primeur/",
+          "cuisine_evidence_url": "https://www.wineinvestment.com/us/learn/wine/bordeaux/",
+          "checked_on": "2026-05-22"
+        }
+      },
+      {
+        "slug": "bordeaux-wine-tourism-citeduvin",
+        "era": "21st century",
+        "period": "2016-present",
+        "title": "The Cite du Vin and Bordeaux's Reinvention as a Wine Tourism Capital",
+        "description": "The opening of La Cite du Vin in June 2016 marked Bordeaux's transformation from a trading city into a wine-tourism destination. The XTU-designed building, shaped like a wine decanter, cost EUR 81 million and attracted 450,000 visitors in its first year. The simultaneous refurbishment of the Bordeaux waterfront, tram network, and UNESCO inscription of Saint-Emilion's viticultural landscape (1999) positioned the region as a world-class cultural and oenological destination.",
+        "key_figures": [
+          "La Cite du Vin Foundation",
+          "Alain Juppe (Mayor of Bordeaux 2006-2019)"
+        ],
+        "verified": {
+          "source_url": "https://www.laciteduvin.com/en/about/",
+          "address_quoted": "134-150 quai de Bacalan, 33300 Bordeaux",
+          "open_status": "open",
+          "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g187079-d8728278-Reviews-La_Cite_du_Vin-Bordeaux_Gironde_Nouvelle_Aquitaine.html",
+          "cuisine_evidence_url": "https://www.laciteduvin.com/en/visit/the-permanent-exhibition/",
+          "checked_on": "2026-05-22"
+        }
+      }
+    ]
+  }
 }

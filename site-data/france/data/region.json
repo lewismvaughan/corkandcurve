@@ -1,0 +1,30 @@
+{
+  "destination": {
+    "slug": "france",
+    "name": "France",
+    "country": "France",
+    "country_slug": "france",
+    "type": "country",
+    "tagline": "From Bordeaux first-growths to Burgundy grand crus, Champagne chalk and Loire freshness",
+    "overview": "France made the modern grammar of wine. Bordeaux for blends, Burgundy for varietal purity, Champagne for fizz, Loire for freshness, Rhône for warmth, Alsace for aromatic whites, Provence for rosé. Twelve major wine regions, hundreds of appellations, a vocabulary the rest of the world borrowed.",
+    "hero_image": "https://images.unsplash.com/photo-1543418219-44e30b057fea?w=1600&h=900&fit=crop&auto=format",
+    "hero_image_source_url": "https://unsplash.com/photos/qT515JdZNy8",
+    "hero_image_credit": "Photo by Boudewijn Boer on Unsplash",
+    "hero_image_alt": "French vineyard landscape, Carcassonne, Occitanie"
+  },
+  "seo": {
+    "pages": {
+      "index": {
+        "title": "France wine regions | Cork & Curve",
+        "description": "Wine regions across France on Cork & Curve, from Bordeaux first-growths to Burgundy grand crus, Champagne chalk and Loire freshness, by editors who taste in person."
+      }
+    },
+    "geo": {
+      "country_code": "FR"
+    }
+  },
+  "_metadata": {
+    "type": "country",
+    "status": "live"
+  }
+}

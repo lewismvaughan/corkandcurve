@@ -1,0 +1,17 @@
+{% extends "topics/_topic_base.html" %}
+{% from "topics/_macros.html" import wine_restaurant_card %}
+
+{% block topic_intro %}
+<p class="tj-intro">{{ topic.intro | default('Restaurants in ' ~ destination.name ~ ' with cellars and sommeliers worth the markup.') }}</p>
+{% endblock %}
+
+{% block topic_sections %}
+{% if research.wine_restaurants %}
+<section class="tj-section" id="picks">
+    <h2>Cellar and plate in {{ destination.name }}</h2>
+    <div class="tj-card-grid">
+        {% for r in research.wine_restaurants %}{{ wine_restaurant_card(r, destination.name, r._url) }}{% endfor %}
+    </div>
+</section>
+{% endif %}
+{% endblock %}

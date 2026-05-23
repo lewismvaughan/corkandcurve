@@ -8,24 +8,26 @@
     <meta name="referrer" content="strict-origin-when-cross-origin">
     <meta name="color-scheme" content="light dark">
 
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-P29C6LW6');</script>
-    <!-- End Google Tag Manager -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2CGPFLZERF"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-2CGPFLZERF');
+    </script>
+    <!-- End Google tag -->
 
-    <title>{% block title %}{{ seo.meta.title | default('Cork and Curve') }}{% endblock %}</title>
-    <meta name="description" content="{% block meta_description %}{{ seo.meta.description | default('Cork and Curve. Where the world eats.') }}{% endblock %}">
+    <title>{% block title %}{{ seo.meta.title | default('Cork & Curve') }}{% endblock %}</title>
+    <meta name="description" content="{% block meta_description %}{{ seo.meta.description | default('Cork & Curve. The world wine and spirits travel atlas.') }}{% endblock %}">
     <meta name="robots" content="{{ seo.meta.robots | default('index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1') }}">
     <meta name="googlebot" content="{{ seo.meta.googlebot | default('index, follow') }}">
-    <meta name="author" content="{{ seo.meta.author | default('Cork and Curve Editorial') }}">
+    <meta name="author" content="{{ seo.meta.author | default('Cork & Curve Editorial') }}">
     <link rel="canonical" href="{{ seo.meta.canonical_url | default('https://corkandcurve.com/') }}">
     <meta name="theme-color" content="#FAF6F0" media="(prefers-color-scheme: light)">
     <meta name="theme-color" content="#181513" media="(prefers-color-scheme: dark)">
-    <meta name="apple-mobile-web-app-title" content="Cork and Curve">
-    <meta name="application-name" content="Cork and Curve">
+    <meta name="apple-mobile-web-app-title" content="Cork & Curve">
+    <meta name="application-name" content="Cork & Curve">
 
     {# Google Search Console verification. Token comes from data/site_config.json
        (key: google_site_verification); leave empty until Lewis fetches one from
@@ -53,16 +55,16 @@
     <link rel="apple-touch-icon" sizes="180x180" href="{{ base_path | default('') }}/apple-touch-icon.png">
     <link rel="manifest" href="{{ base_path | default('') }}/site.webmanifest">
     <link rel="sitemap" type="application/xml" href="/sitemap.xml">
-    <link rel="alternate" type="application/rss+xml" title="Cork and Curve" href="/feed.xml">
+    <link rel="alternate" type="application/rss+xml" title="Cork & Curve" href="/feed.xml">
 
-    <meta property="og:site_name" content="Cork and Curve">
+    <meta property="og:site_name" content="Cork & Curve">
     <meta property="og:title" content="{{ seo.open_graph.og_title | default(seo.meta.title) }}">
     <meta property="og:description" content="{{ seo.open_graph.og_description | default(seo.meta.description) }}">
     <meta property="og:image" content="{{ seo.open_graph.og_image | default('https://corkandcurve.com/og/default.jpg') }}">
     <meta property="og:image:type" content="image/jpeg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="{{ seo.open_graph.og_image_alt | default('Cork and Curve food guide') }}">
+    <meta property="og:image:alt" content="{{ seo.open_graph.og_image_alt | default('Cork & Curve wine guide') }}">
     <meta property="og:url" content="{{ seo.open_graph.og_url | default(seo.meta.canonical_url) }}">
     <meta property="og:type" content="{{ seo.open_graph.og_type | default('article') }}">
     <meta property="og:locale" content="{{ seo.open_graph.og_locale | default('en_US') }}">
@@ -78,8 +80,8 @@
     {% if seo.article %}
     <meta property="article:published_time" content="{{ seo.article.published_time }}">
     <meta property="article:modified_time" content="{{ seo.article.modified_time }}">
-    <meta property="article:author" content="{{ seo.article.author | default('Cork and Curve Editorial') }}">
-    <meta property="article:section" content="{{ seo.article.section | default('Food Travel') }}">
+    <meta property="article:author" content="{{ seo.article.author | default('Cork & Curve Editorial') }}">
+    <meta property="article:section" content="{{ seo.article.section | default('Wine Travel') }}">
     {% for tag in seo.article.tags | default([]) %}<meta property="article:tag" content="{{ tag }}">{% endfor %}
     {% endif %}
 
@@ -126,7 +128,8 @@
        Full layout in css/base.css + css/theme.css. */
     :root {
         --tj-bg: #FAF6F0; --tj-surface: #FFFFFF; --tj-text: #1A1A1A; --tj-muted: #5C5750;
-        --tj-border: #E8E2D5; --tj-accent: #C84A2E; --tj-accent-soft: #F2DDD4;
+        --tj-border: #E8E2D5; --tj-accent: #722F37; --tj-accent-soft: #ECD7DB;
+        --tj-accent-ink: #5A252C;
         --tj-shadow: 0 1px 2px rgba(26,26,26,.04), 0 2px 8px rgba(26,26,26,.06);
         --tj-radius: 14px; --tj-radius-sm: 8px; --tj-radius-pill: 999px;
         --tj-display: 'Playfair Display', 'Playfair-fallback', Georgia, serif;
@@ -135,7 +138,8 @@
     }
     html[data-theme="dark"] {
         --tj-bg: #181513; --tj-surface: #221F1B; --tj-text: #F2EDE4; --tj-muted: #A09689;
-        --tj-border: #2E2924; --tj-accent: #E36045; --tj-accent-soft: #3A2823;
+        --tj-border: #2E2924; --tj-accent: #CC8A98; --tj-accent-soft: #3A262A;
+        --tj-accent-ink: #E8C2CB;
         --tj-shadow: 0 1px 2px rgba(0,0,0,.4), 0 2px 8px rgba(0,0,0,.5);
     }
     *,*::before,*::after { box-sizing: border-box; }
@@ -257,14 +261,14 @@
       "@graph": [
         {
           "@type": "Organization",
-          "name": "Cork and Curve",
+          "name": "Cork & Curve",
           "url": "https://corkandcurve.com",
           "logo": "https://corkandcurve.com/logo.png",
-          "slogan": "Where the world eats"
+          "slogan": "Where the world drinks"
         },
         {
           "@type": "WebSite",
-          "name": "Cork and Curve",
+          "name": "Cork & Curve",
           "url": "https://corkandcurve.com",
           "potentialAction": {
             "@type": "SearchAction",
@@ -289,25 +293,20 @@
 </head>
 <body class="{% block body_class %}{% endblock %}">
 
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P29C6LW6"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-
     <a class="tj-skip" href="#tj-main">Skip to content</a>
 
     <header class="tj-nav" role="banner">
         <div class="tj-nav-inner">
-            <a href="/" class="tj-brand" aria-label="Cork and Curve home">Cork <span class="tj-brand-mark">&amp; Curve</span></a>
+            <a href="/" class="tj-brand" aria-label="Cork & Curve home">Cork <span class="tj-brand-mark">&amp; Curve</span></a>
             <ul class="tj-nav-links" role="navigation" aria-label="Primary">
-                <li><a href="/cities/">Cities</a></li>
-                <li><a href="/cuisines/">Cuisines</a></li>
-                <li><a href="/dishes/">Dishes</a></li>
+                <li><a href="/regions/">Regions</a></li>
+                <li><a href="/grapes/">Grapes</a></li>
+                <li><a href="/styles/">Styles</a></li>
                 <li><a href="/topics/">Topics</a></li>
             </ul>
             <form class="tj-nav-search" role="search" action="/search/" method="get">
-                <label class="tj-sr-only" for="tj-search-input">Search cities, cuisines, dishes</label>
-                <input id="tj-search-input" type="search" name="q" placeholder="Search cities, cuisines, dishes" autocomplete="off">
+                <label class="tj-sr-only" for="tj-search-input">Search regions, grapes, wines</label>
+                <input id="tj-search-input" type="search" name="q" placeholder="Search regions, grapes, wines" autocomplete="off">
             </form>
             <button class="tj-theme-toggle" type="button" aria-label="Toggle dark mode" data-tj-theme-toggle>
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
@@ -327,30 +326,30 @@
             </button>
         </div>
         <form class="tj-mobile-menu-search" role="search" action="/search/" method="get">
-            <label class="tj-sr-only" for="tj-mobile-search-input">Search cities, cuisines, dishes</label>
-            <input id="tj-mobile-search-input" type="search" name="q" placeholder="Search cities, cuisines, dishes" autocomplete="off">
+            <label class="tj-sr-only" for="tj-mobile-search-input">Search regions, grapes, wines</label>
+            <input id="tj-mobile-search-input" type="search" name="q" placeholder="Search regions, grapes, wines" autocomplete="off">
         </form>
         <nav role="navigation" aria-label="Primary mobile">
             <ul>
                 <li><a href="/">Home</a></li>
-                <li><a href="/cities/">Cities</a></li>
-                <li><a href="/cuisines/">Cuisines</a></li>
-                <li><a href="/dishes/">Dishes</a></li>
+                <li><a href="/regions/">Regions</a></li>
+                <li><a href="/grapes/">Grapes</a></li>
+                <li><a href="/styles/">Styles</a></li>
                 <li><a href="/topics/">Topics</a></li>
-                <li><a href="/neighborhoods/">Neighborhoods</a></li>
+                <li><a href="/world/">Old World &amp; New World</a></li>
             </ul>
             <div class="tj-menu-section">
                 <h4>Popular topics</h4>
-                <a href="/topics/restaurants/">Restaurants</a>
-                <a href="/topics/street-food/">Street Food</a>
-                <a href="/topics/fine-dining/">Fine Dining</a>
-                <a href="/topics/markets/">Markets</a>
-                <a href="/topics/food-tours/">Food Tours</a>
-                <a href="/topics/festivals/">Festivals</a>
+                <a href="/topics/vineyards/">Vineyards</a>
+                <a href="/topics/tasting-rooms/">Tasting Rooms</a>
+                <a href="/topics/wine-bars/">Wine Bars</a>
+                <a href="/topics/wine-retailers/">Wine Retailers</a>
+                <a href="/topics/wine-tours/">Wine Tours</a>
+                <a href="/topics/wine-festivals/">Wine Festivals</a>
             </div>
             <div class="tj-menu-section">
                 <h4>About</h4>
-                <a href="/about/">About Cork and Curve</a>
+                <a href="/about/">About Cork & Curve</a>
                 <a href="/editorial-standards/">Editorial Standards</a>
                 <a href="/contact/">Contact</a>
             </div>
@@ -402,28 +401,28 @@
                 <div class="tj-footer-col">
                     <h4>Explore</h4>
                     <ul>
-                        <li><a href="/cities/">Cities</a></li>
-                        <li><a href="/cuisines/">Cuisines</a></li>
-                        <li><a href="/dishes/">Dishes</a></li>
-                        <li><a href="/neighborhoods/">Neighborhoods</a></li>
+                        <li><a href="/regions/">Regions</a></li>
+                        <li><a href="/grapes/">Grapes</a></li>
+                        <li><a href="/styles/">Styles</a></li>
+                        <li><a href="/world/">Old World &amp; New World</a></li>
                     </ul>
                 </div>
                 <div class="tj-footer-col">
                     <h4>Topics</h4>
                     <ul>
-                        <li><a href="/topics/restaurants/">Restaurants</a></li>
-                        <li><a href="/topics/street-food/">Street Food</a></li>
-                        <li><a href="/topics/fine-dining/">Fine Dining</a></li>
-                        <li><a href="/topics/markets/">Markets</a></li>
-                        <li><a href="/topics/food-tours/">Food Tours</a></li>
-                        <li><a href="/topics/festivals/">Festivals</a></li>
+                        <li><a href="/topics/vineyards/">Vineyards</a></li>
+                        <li><a href="/topics/tasting-rooms/">Tasting Rooms</a></li>
+                        <li><a href="/topics/wine-bars/">Wine Bars</a></li>
+                        <li><a href="/topics/wine-retailers/">Wine Retailers</a></li>
+                        <li><a href="/topics/wine-tours/">Wine Tours</a></li>
+                        <li><a href="/topics/wine-festivals/">Wine Festivals</a></li>
                     </ul>
                 </div>
                 <div class="tj-footer-col">
                     <h4>About</h4>
                     <ul>
                         <li><a href="/about/">About</a></li>
-                        <li><a href="/editorial-standards/">Editorial Standards</a></li>
+                        <li><a href="/about/editorial/">Editorial Standards</a></li>
                         <li><a href="/contact/">Contact</a></li>
                     </ul>
                 </div>
@@ -439,7 +438,7 @@
             </nav>
         </div>
         <div class="tj-footer-bottom">
-            <p>&copy; {{ current_year | default(2026) }} Cork and Curve. All rights reserved.</p>
+            <p>&copy; {{ current_year | default(2026) }} Cork & Curve. All rights reserved.</p>
         </div>
     </footer>
 
@@ -449,17 +448,17 @@
             <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 10.5 12 3l9 7.5V21a1 1 0 0 1-1 1h-5v-7H9v7H4a1 1 0 0 1-1-1z"/></svg>
             <span>Home</span>
         </a>
-        <a href="/cities/" class="tj-bn-item" data-tj-bn="cities">
+        <a href="/regions/" class="tj-bn-item" data-tj-bn="regions">
             <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21V8l6-4 6 4v13M9 21v-6h4v6M15 21h6v-9l-3-2"/></svg>
-            <span>Cities</span>
+            <span>Regions</span>
         </a>
         <a href="/search/" class="tj-bn-item" data-tj-bn="search" aria-label="Search">
             <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
             <span>Search</span>
         </a>
-        <a href="/dishes/" class="tj-bn-item" data-tj-bn="dishes">
+        <a href="/grapes/" class="tj-bn-item" data-tj-bn="grapes">
             <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11h18a9 9 0 0 1-18 0Z"/><path d="M3 14h18M12 3v3M9 5l3-2 3 2"/></svg>
-            <span>Dishes</span>
+            <span>Grapes</span>
         </a>
     </nav>
     {% endblock %}

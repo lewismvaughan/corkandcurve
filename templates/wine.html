@@ -1,0 +1,267 @@
+{# Per-cuvée page: /wine/<producer>/<cuvee>/
+
+   Renders one cuvée (vintage-agnostic). Context expected, set by
+   generate_wine_pages.py:
+     wine          the cuvée dict from wines.json
+     producer      the matching vineyards.json entry (for cellar visit info)
+     destination   the region's destination block
+     country_slug, region_slug
+     breadcrumb    [{name,url}]
+     region_url    /<country>/<region>/
+     wines_topic_url  /<country>/<region>/wines/
+     tj_pairings   pairings[] with absolute https://tablejourney.com URLs
+                   pre-built where tablejourney_ref is non-null
+#}
+{% extends "base.html" %}
+{% from "topics/_macros.html" import editorial_score, tj_crosslink, star_strip, price_tier %}
+
+{% block title %}{{ seo.meta.title | default(wine.name ~ ' by ' ~ wine.producer_name ~ ' | Cork & Curve') }}{% endblock %}
+
+{% block hero %}
+{# Build the wine descriptor line: sweetness · body · tannin · acidity · top mood tags.
+   Reads from controlled-vocabulary fields the cuvée carries. Each piece is
+   optional; we join only the non-empty pieces with ` · `. #}
+{% set descriptors = [] %}
+{% if wine.sweetness %}{% set _ = descriptors.append(wine.sweetness | replace('-', ' ') | title) %}{% endif %}
+{% if wine.taste and wine.taste.body %}{% set _ = descriptors.append(wine.taste.body | title ~ '-bodied') %}{% endif %}
+{% if wine.taste and wine.taste.tannin %}{% set _ = descriptors.append(wine.taste.tannin | title ~ ' tannin') %}{% endif %}
+{% if wine.taste and wine.taste.acidity %}{% set _ = descriptors.append(wine.taste.acidity | title ~ ' acidity') %}{% endif %}
+{% for t in wine.tags | default([]) %}{% if t.startswith('mood-') and descriptors | length < 6 %}{% set _ = descriptors.append(t[5:] | replace('-', ' ') | title) %}{% endif %}{% endfor %}
+<section class="tj-hero tj-container">
+    <a href="{{ wines_topic_url }}" class="tj-back-hub" aria-label="Back to wines in {{ destination.name }}">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg>
+        Back to wines in {{ destination.name }}
+    </a>
+    <div class="tj-hero-body">
+        <div style="display:flex;align-items:flex-start;gap:20px;flex-wrap:wrap;">
+            <div style="flex:1 1 320px;min-width:280px;">
+                <h1 itemprop="headline" style="margin:0 0 8px;">{{ wine.name }}</h1>
+                {% if descriptors %}
+                <p class="tj-wine-descriptors"
+                   style="margin:0 0 12px;font-size:1.05rem;color:var(--tj-text, #222);letter-spacing:0.01em;">
+                    {{ descriptors | join(' · ') }}
+                </p>
+                {% endif %}
+                <p class="tj-hero-tagline">
+                    {% if wine.taste and wine.taste.summary %}{{ wine.taste.summary }}
+                    {% elif wine.description %}{{ wine.description }}
+                    {% endif %}
+                </p>
+            </div>
+            {% if wine.editorial_score is number and wine.editorial_score >= 1.0 %}
+            <div class="tj-wine-rating"
+                 aria-label="Cork & Curve editorial rating {{ '%.1f' | format(wine.editorial_score) }} out of 5"
+                 style="flex:0 0 auto;display:flex;flex-direction:column;align-items:center;padding:12px 18px;border:1px solid var(--tj-border, #d9d2c8);border-radius:var(--tj-radius, 8px);background:var(--tj-surface, #faf8f4);min-width:120px;">
+                <div style="font-size:1.6rem;font-weight:700;line-height:1;color:var(--tj-accent, #7a1d2d);">
+                    {{ '%.1f' | format(wine.editorial_score) }}<span style="font-size:0.9rem;opacity:0.65;font-weight:500;"> / 5</span>
+                </div>
+                <div style="margin:4px 0 2px;">
+                    {{ star_strip(wine.editorial_score, size='1.25rem') }}
+                </div>
+                <div style="font-size:0.75rem;text-transform:uppercase;letter-spacing:0.08em;color:var(--tj-muted, #6b6b6b);">
+                    Editorial rating
+                </div>
+            </div>
+            {% endif %}
+        </div>
+        <div class="tj-byline" style="margin-top:14px;">
+            <span class="tj-stamp">{{ wine.producer_name }} · {{ destination.name }}</span>
+            {% if wine._price_tier %}<span>· {{ price_tier(wine._price_tier) }} <span style="color:var(--tj-muted, #6b6b6b);">{{ wine._price_tier.range }}</span></span>{% endif %}
+            {% if wine.classification %}<span>· {{ wine.classification }}</span>{% endif %}
+            {% if wine.style %}<span>· {{ wine.style | replace('-', ' ') | title }}</span>{% endif %}
+            {% if wine.first_vintage %}<span>· First vintage {{ wine.first_vintage }}</span>{% endif %}
+            {% if verified_display %}
+            <span class="tj-verified-badge" title="Cork & Curve editors verified this cuvée's facts on this date."
+                  style="margin-left:auto; display:inline-flex; align-items:center; gap:4px; font-size:.85em; color:var(--tj-muted, #6b6b6b);">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>
+                {% if verified_source_url %}<a href="{{ verified_source_url }}" rel="nofollow" target="_blank" style="color:inherit;">Verified {{ verified_display }}</a>{% else %}Verified {{ verified_display }}{% endif %}
+            </span>
+            {% endif %}
+        </div>
+    </div>
+</section>
+{% endblock %}
+
+{% block schema_extra %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Product",
+      "@id": "{{ seo.meta.canonical_url }}#cuvee",
+      "name": {{ wine.name | tojson }}{% if wine.description %},
+      "description": {{ wine.description | tojson }}{% endif %}{% if wine.producer_name %},
+      "brand": { "@type": "Brand", "name": {{ wine.producer_name | tojson }} }{% endif %}{% if wine.style %},
+      "category": {{ (wine.style | replace('-', ' ')) | tojson }}{% endif %}{% if wine.scores %},
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": {{ ((wine.scores | map(attribute='points') | select | list | sum) / (wine.scores | length) if wine.scores | length else 0) | tojson }},
+        "ratingCount": {{ wine.scores | length }},
+        "bestRating": 100
+      }{% endif %}
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {% for c in breadcrumb %}
+        { "@type": "ListItem", "position": {{ loop.index }}, "name": {{ c.name | tojson }}{% if c.url %}, "item": "https://corkandcurve.com{{ c.url }}"{% endif %} }{% if not loop.last %},{% endif %}
+        {% endfor %}
+      ]
+    }
+  ]
+}
+</script>
+{% endblock %}
+
+{% block content %}
+<div class="tj-layout-3">
+    <aside class="tj-toc" aria-label="On this page">
+        <h4>On this page</h4>
+        <ul>
+            <li><a href="#taste">In the glass</a></li>
+            <li><a href="#pairings">Food pairings</a></li>
+            <li><a href="#history">History</a></li>
+            <li><a href="#facts">Facts</a></li>
+            <li><a href="#tags">Tags</a></li>
+        </ul>
+        <a href="{{ wines_topic_url }}" class="tj-toc-back">← Wines in {{ destination.name }}</a>
+    </aside>
+
+    <div class="tj-main-col">
+        {% if wine.taste %}
+        <section class="tj-section" id="taste">
+            <h2>In the glass</h2>
+            <div class="tj-card-meta" style="margin:0 0 12px;">
+                {% if wine.taste.body %}<span class="tj-tag">{{ wine.taste.body | title }}-bodied</span>{% endif %}
+                {% if wine.taste.tannin %}<span class="tj-tag">{{ wine.taste.tannin | title }} tannin</span>{% endif %}
+                {% if wine.taste.acidity %}<span class="tj-tag">{{ wine.taste.acidity | title }} acidity</span>{% endif %}
+                {% if wine.sweetness %}<span class="tj-tag">{{ wine.sweetness | replace('-', ' ') | title }}</span>{% endif %}
+                {% if wine.taste.finish %}<span>{{ wine.taste.finish | title }} finish</span>{% endif %}
+            </div>
+            {% if wine.taste.aroma %}
+            <p><strong>Aroma:</strong> {{ wine.taste.aroma | join(', ') }}</p>
+            {% endif %}
+            {% if wine.taste.palate %}
+            <p><strong>Palate:</strong> {{ wine.taste.palate | join(', ') }}</p>
+            {% endif %}
+            {% if wine.taste.summary and (wine.taste.aroma or wine.taste.palate) %}
+            <p class="tj-intro">{{ wine.taste.summary }}</p>
+            {% endif %}
+        </section>
+        {% endif %}
+
+        {% if wine.pairings %}
+        <section class="tj-section" id="pairings">
+            <h2>What it pairs with</h2>
+            <ul class="tj-pairing-list" style="list-style:none;padding:0;">
+                {% for p in tj_pairings %}
+                <li style="margin:0 0 14px;padding:12px;border:1px solid var(--tj-border);border-radius:var(--tj-radius);">
+                    <strong>{{ p.dish }}</strong>
+                    {% if p.tj_url %}
+                    <a href="{{ p.tj_url }}" rel="noopener" style="margin-left:8px;font-size:0.9em;">Find {{ p.dish | lower }} on TableJourney →</a>
+                    {% endif %}
+                    {% if p.why %}<br><span style="color:var(--tj-muted, #6b6b6b);">{{ p.why }}</span>{% endif %}
+                </li>
+                {% endfor %}
+            </ul>
+        </section>
+        {% endif %}
+
+        {% if wine.history %}
+        <section class="tj-section" id="history">
+            <h2>History</h2>
+            {% if wine.history.summary %}<p>{{ wine.history.summary }}</p>{% endif %}
+            {% if wine.history.milestones %}
+            <ol style="padding-left:1.2rem;">
+                {% for m in wine.history.milestones %}
+                <li><strong>{{ m.year }}</strong> &mdash; {{ m.event }}</li>
+                {% endfor %}
+            </ol>
+            {% endif %}
+        </section>
+        {% endif %}
+
+        <section class="tj-section" id="facts">
+            <h2>Facts</h2>
+            <dl style="display:grid;grid-template-columns:max-content 1fr;gap:6px 14px;">
+                {% if wine.producer_name %}<dt>Producer</dt><dd>
+                    {% if producer and producer._url %}<a href="{{ producer._url }}">{{ wine.producer_name }}</a>{% else %}{{ wine.producer_name }}{% endif %}
+                </dd>{% endif %}
+                {% if wine.varietals %}<dt>Grapes</dt><dd>
+                {% for v in wine.varietals %}{{ v.grape }}{% if v.pct %} ({{ v.pct }}%){% endif %}{% if not loop.last %}, {% endif %}{% endfor %}
+                </dd>{% endif %}
+                {% if wine.classification %}<dt>Classification</dt><dd>{{ wine.classification }}</dd>{% endif %}
+                {% if wine.oak_regime %}<dt>Oak</dt><dd>{{ wine.oak_regime }}</dd>{% endif %}
+                {% if wine.abv_typical %}<dt>ABV</dt><dd>{{ wine.abv_typical }}%</dd>{% endif %}
+                {% if wine.production_bottles_typical %}<dt>Production</dt><dd>{{ '{:,}'.format(wine.production_bottles_typical) }} bottles</dd>{% endif %}
+                {% if wine.price_band %}<dt>Price</dt><dd>{{ wine.price_band }}</dd>{% endif %}
+                {% if wine.drinking_window_years %}<dt>Drinking window</dt><dd>{{ wine.drinking_window_years }}</dd>{% endif %}
+                {% if wine.first_vintage %}<dt>First vintage</dt><dd>{{ wine.first_vintage }}</dd>{% endif %}
+                {% if wine.biodynamic_status and wine.biodynamic_status != 'none' %}<dt>Biodynamic</dt><dd>{{ wine.biodynamic_status | replace('_', ' ') | title }}</dd>{% endif %}
+                {% if wine.organic_status and wine.organic_status != 'none' %}<dt>Organic</dt><dd>{{ wine.organic_status | replace('_', ' ') | upper }}</dd>{% endif %}
+                {% if wine.vegan %}<dt>Vegan</dt><dd>Yes (no animal-derived fining)</dd>{% endif %}
+            </dl>
+
+            {% if wine.scores %}
+            <h3>Scores</h3>
+            <ul>
+                {% for s in wine.scores %}
+                <li>{{ s.reviewer }} {{ s.points }}{% if s.vintage %} ({{ s.vintage }} vintage{% if s.year %}, reviewed {{ s.year }}{% endif %}){% endif %}</li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+        </section>
+
+        {% if all_tags %}
+        <section class="tj-section" id="tags">
+            <h2>Tags</h2>
+            <div class="tj-tag-chips" style="display:flex;flex-wrap:wrap;gap:6px;">
+                {% for t in all_tags %}
+                <a href="/tag/{{ t }}/" class="tj-tag-chip"
+                   style="padding:5px 10px;border:1px solid var(--tj-border);border-radius:999px;background:var(--tj-surface);text-decoration:none;color:inherit;font-size:0.85rem;">{{ t | replace('-', ' ') }}</a>
+                {% endfor %}
+            </div>
+        </section>
+        {% endif %}
+
+        <div style="margin-top:32px">
+            <a href="{{ wines_topic_url }}" class="tj-btn tj-btn-secondary">← Back to wines in {{ destination.name }}</a>
+        </div>
+    </div>
+
+    <aside class="tj-sidebar" aria-label="Sidebar">
+        {% if producer %}
+        <div class="tj-sidebar-box">
+            <h3>{{ wine.producer_name }}</h3>
+            {% if producer.address %}<p class="tj-sidebar-note">{{ producer.address }}</p>{% endif %}
+            {% if producer.tasting_program %}<p><strong>Tasting:</strong> {{ producer.tasting_program }}</p>{% endif %}
+            {% if producer._url %}<p><a class="tj-card-link" href="{{ producer._url }}">Visit {{ wine.producer_name }} →</a></p>{% endif %}
+            {% if producer.booking_url %}<p><a class="tj-card-link" href="{{ producer.booking_url }}" rel="nofollow" target="_blank">Book a visit →</a></p>{% endif %}
+        </div>
+        {% endif %}
+
+        {% if sibling_cuvees %}
+        <div class="tj-sidebar-box">
+            <h3>Other cuvées by {{ wine.producer_name }}</h3>
+            <ul class="tj-sidebar-list">
+                {% for s in sibling_cuvees %}
+                <li><a href="{{ s._url }}">{{ s.name }}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endif %}
+
+        <div class="tj-sidebar-box">
+            <h3>Discover {{ destination.name }}</h3>
+            <ul class="tj-sidebar-list">
+                <li><a href="{{ wines_topic_url }}">All wines in {{ destination.name }}</a></li>
+                <li><a href="{{ region_url }}vineyards/">Vineyards to visit</a></li>
+                <li><a href="{{ region_url }}signature-wines/">Signature wines</a></li>
+                <li><a href="{{ region_url }}signature-grapes/">Signature grapes</a></li>
+                <li><a href="{{ region_url }}food-pairing/">Food and wine pairing</a></li>
+            </ul>
+        </div>
+    </aside>
+</div>
+{% endblock %}

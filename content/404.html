@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="robots" content="noindex, follow">
+<title>Page not found · Cork & Curve</title>
+<meta name="description" content="The page you were looking for isn't here. Start with our wine regions, browse by grape or style, or search the cellar.">
+<link rel="canonical" href="https://corkandcurve.com/404.html">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/css/base.css">
+<link rel="stylesheet" href="/css/theme.css">
+<style>
+    /* Minimal local styles — 404 is served raw by Caddy, so no template
+       inheritance. Keep look consistent with the rest of the site. */
+    .nf-wrap { max-width: 720px; margin: 80px auto; padding: 0 24px; text-align: center; }
+    .nf-wrap h1 { font-size: 2.4rem; margin: 0 0 12px; color: var(--tj-accent, #7a1d2d); }
+    .nf-wrap .nf-num { font-size: 5rem; font-weight: 700; line-height: 1; color: var(--tj-accent, #7a1d2d); letter-spacing: 0.04em; margin: 0 0 16px; }
+    .nf-wrap p { color: var(--tj-muted, #6b6b6b); font-size: 1.1rem; line-height: 1.6; }
+    .nf-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; margin: 32px auto 0; max-width: 580px; }
+    .nf-grid a {
+        display: block; padding: 14px 16px; border: 1px solid var(--tj-border, #d9d2c8);
+        border-radius: var(--tj-radius, 8px); background: var(--tj-surface, #faf8f4);
+        color: var(--tj-text, #222); text-decoration: none; font-weight: 600; transition: border-color .15s, transform .15s;
+    }
+    .nf-grid a:hover { border-color: var(--tj-accent, #7a1d2d); transform: translateY(-1px); }
+    .nf-search { margin: 28px auto 0; max-width: 460px; }
+    .nf-search input {
+        width: 100%; padding: 12px 16px; border: 1px solid var(--tj-border, #d9d2c8);
+        border-radius: var(--tj-radius, 8px); background: var(--tj-surface, #faf8f4);
+        font-size: 1rem; font-family: inherit; color: inherit;
+    }
+    .nf-back { display: inline-block; margin-top: 24px; color: var(--tj-accent, #7a1d2d); font-weight: 600; text-decoration: none; }
+    .nf-back:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+    <main class="nf-wrap">
+        <p class="nf-num" aria-label="404">404</p>
+        <h1>This cellar is empty</h1>
+        <p>The page you were looking for isn't on Cork & Curve, at least not under that URL. It may have moved, or the link may have been mistyped.</p>
+
+        <div class="nf-search">
+            <form action="/search/" method="get" role="search">
+                <input type="search" name="q" placeholder="Search the cellar (producer, region, grape…)" autocomplete="off" aria-label="Search Cork & Curve">
+            </form>
+        </div>
+
+        <div class="nf-grid">
+            <a href="/">Home</a>
+            <a href="/regions/">All wine regions</a>
+            <a href="/grapes/">Grapes</a>
+            <a href="/styles/">Wine styles</a>
+            <a href="/topics/">Topics</a>
+            <a href="/about/">About</a>
+        </div>
+
+        <a class="nf-back" href="javascript:history.back()">← Go back</a>
+    </main>
+</body>
+</html>

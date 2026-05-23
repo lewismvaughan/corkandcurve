@@ -2,20 +2,22 @@
 {% from "topics/_macros.html" import place_card %}
 
 {% block topic_intro %}
-<p class="tj-intro">{{ topic.intro | default('Vegan, vegetarian, gluten-free, halal and kosher options across ' ~ destination.name ~ '. including where to go and what to order.') }}</p>
+<p class="tj-intro">{{ topic.intro | default('Biodynamic, organic and natural wine across ' ~ destination.name ~ ': the certified estates and low-intervention cellars.') }}</p>
 {% endblock %}
 
 {% block topic_sections %}
-{% if research.dietary %}
-{# SEO standard: when a city × dietary sub-page exists for a diet, the
-   section heading links to it so the sub-page isn't an orphan.
-   Slug convention: dietary.json key 'gluten_free' -> URL 'gluten-free'. #}
+{% if research.dietary and research.dietary is mapping %}
+{# Each sub-category (biodynamic, organic, natural, vegan_winemaking,
+   lowsulfite) renders as its own section. Heading links to the region x
+   sub-category page when the threshold is met so the sub-page is not an
+   orphan. Slug convention: dietary key 'vegan_winemaking' -> 'vegan-winemaking'. #}
 {% for category, places in research.dietary.items() %}
 {% set diet_slug = category | replace('_', '-') %}
 {% set diet_label = category | replace('_', ' ') | title %}
 {% set sub_url = (('/' ~ country_slug ~ '/' ~ region_slug ~ '/dietary/' ~ diet_slug ~ '/') if region_slug else '') %}
+{% if places %}
 <section class="tj-section" id="{{ category }}">
-    {% if sub_url and (places is iterable and places is not string) and (places | length >= 2) %}
+    {% if sub_url and (places is iterable and places is not string) and (places | length >= 1) %}
     <h2><a href="{{ sub_url }}">{{ diet_label }} in {{ destination.name }}</a></h2>
     {% else %}
     <h2>{{ diet_label }}</h2>
@@ -28,6 +30,7 @@
     <p>{{ places }}</p>
     {% endif %}
 </section>
+{% endif %}
 {% endfor %}
 {% endif %}
 {% endblock %}

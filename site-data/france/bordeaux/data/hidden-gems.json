@@ -1,3 +1,156 @@
 {
-  "hidden_gems": []
+  "hidden_gems": [
+    {
+      "slug": "chateau-sociando-mallet-gem",
+      "name": "Chateau Sociando-Mallet",
+      "address": "Chateau Sociando-Mallet, 33180 Saint-Seurin-de-Cadourne, France",
+      "neighborhood": "Haut-Medoc AOC",
+      "why_hidden": "Deliberately refused to enter the Cru Bourgeois classification; beloved by trade professionals as the Medoc's most underrated unclassified estate. Jean Gautreau's 85-hectare property consistently outperforms many 4th and 5th growths in blind tastings, yet remains little-known to mainstream consumers.",
+      "varietals": ["Cabernet Sauvignon", "Merlot", "Cabernet Franc"],
+      "classification": "Cru Bourgeois (Haut-Medoc AOC; declined Cru Bourgeois Exceptionnel)",
+      "price_range": "EUR 25-45 grand vin",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.vins-bordeaux.fr/bordeaux-wines/regions/haut-medoc.html",
+        "address_quoted": "33180 Saint-Seurin-de-Cadourne, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.millesima-usa.com/blog/chateau-sociando-mallet-haut-medoc.html",
+        "cuisine_evidence_url": "https://www.vins-bordeaux.fr/bordeaux-wines/regions/haut-medoc.html",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "chateau-roc-de-cambes-gem",
+      "name": "Chateau Roc de Cambes",
+      "address": "Chateau Roc de Cambes, 33710 Bourg-sur-Gironde, France",
+      "neighborhood": "Cotes de Bourg AOC",
+      "why_hidden": "Created by Francois Mitjavile, the legendary maker of Le Tertre-Roteboeuf, as a project in the overlooked Cotes de Bourg appellation. 10 hectares of Merlot-Malbec on limestone slopes produce cult-quality wine at a fraction of Mitjavile's Right Bank prices. Wine Advocate 95 points 2005.",
+      "varietals": ["Merlot", "Cabernet Sauvignon", "Cabernet Franc", "Malbec"],
+      "classification": "Cotes de Bourg AOC",
+      "price_range": "EUR 35-60",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.vins-bordeaux.fr/bordeaux-wines/regions/cotes-de-bourg.html",
+        "address_quoted": "33710 Bourg-sur-Gironde, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wineinvestment.com/us/learn/wine/bordeaux/cotes-de-bourg/",
+        "cuisine_evidence_url": "https://www.vins-bordeaux.fr/bordeaux-wines/regions/cotes-de-bourg.html",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "chateau-moulin-pey-labrie-gem",
+      "name": "Chateau Moulin Pey-Labrie",
+      "address": "Chateau Moulin Pey-Labrie, 33141 Saillans, France",
+      "neighborhood": "Canon-Fronsac AOC",
+      "why_hidden": "Canon-Fronsac is one of Bordeaux's most undervalued appellations and Moulin Pey-Labrie is its benchmark organic producer. The Hubau family's 7-hectare estate consistently produces wines with greater depth and terroir expression than many Pomerol satellites at half the price.",
+      "varietals": ["Merlot", "Cabernet Franc"],
+      "classification": "Canon-Fronsac AOC",
+      "price_range": "EUR 15-20",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.vins-bordeaux.fr/bordeaux-wines/regions/fronsac.html",
+        "address_quoted": "33141 Saillans, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vignerons-fronsac.com/en/the-appellation/",
+        "cuisine_evidence_url": "https://www.vins-bordeaux.fr/bordeaux-wines/regions/fronsac.html",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "vieux-chateau-certan-gem",
+      "name": "Vieux Chateau Certan",
+      "address": "Vieux Chateau Certan, 33500 Pomerol, France",
+      "neighborhood": "Pomerol AOC",
+      "why_hidden": "The Thienpont family's 14-hectare Pomerol estate with an unusually high Cabernet Franc percentage (30%) gives VCC a more structured, mineral character than Petrus-school pure Merlot. Often described by insiders as the intellectual choice in Pomerol; Wine Advocate 100 points 2015.",
+      "varietals": ["Merlot", "Cabernet Franc", "Cabernet Sauvignon"],
+      "classification": "Pomerol AOC",
+      "price_range": "EUR 120-350",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.thienpontwine.com/en/vieux-chateau-certan-2017002-00750",
+        "address_quoted": "33500 Pomerol, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.millesima-usa.com/vieux-chateau-certan-2021.html",
+        "cuisine_evidence_url": "https://www.premiumgrandscrus.com/en/298_vieux-chateau-certan",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "chateau-lafleur-gem",
+      "name": "Chateau Lafleur",
+      "address": "Chateau Lafleur, 33500 Pomerol, France",
+      "neighborhood": "Pomerol AOC",
+      "why_hidden": "Just 4.5 hectares with an unusual 50-50 Merlot-Cabernet Franc split that gives Lafleur a floral, graphite complexity absent in the Petrus-school. Baptiste Guinaudeau's biodynamic farming and tiny production make it almost impossible to buy; yet it is the connoisseur's Pomerol. Wine Advocate 100 points 1947.",
+      "varietals": ["Merlot", "Cabernet Franc"],
+      "classification": "Pomerol AOC",
+      "price_range": "EUR 600-2500",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.chateau-lafleur.fr/",
+        "address_quoted": "33500 Pomerol, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.thewinecellarinsider.com/bordeaux-wine-producer-profiles/bordeaux/pomerol/lafleur/",
+        "cuisine_evidence_url": "https://www.wineinvestment.com/us/learn/wine/bordeaux/pomerol/chateau-lafleur/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "chateau-bauduc-gem",
+      "name": "Chateau Bauduc Les Trois Hectares",
+      "address": "Chateau Bauduc, 33670 Creon, France",
+      "neighborhood": "Entre-Deux-Mers AOC",
+      "why_hidden": "English winemaker Gavin Quinney's Les Trois Hectares is the best Bordeaux blanc that most people will never hear of: 100% old-vine Semillon from a 3-hectare plot, fermented in barrel. Decanter 91 points. An Entre-Deux-Mers that makes Pessac-Leognan fans take notice.",
+      "varietals": ["Semillon"],
+      "classification": "Bordeaux AOC (white)",
+      "price_range": "EUR 16-22",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.bauduc.com/wines/",
+        "address_quoted": "33670 Creon, France",
+        "open_status": "open",
+        "open_evidence_url": "https://cluboenologique.com/story/best-bordeaux-chateaux-wine-hotels/",
+        "cuisine_evidence_url": "https://www.thewinecellarinsider.com/bordeaux-wine-producer-profiles/bordeaux/entre-deux-mers/bauduc/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "chateau-figeac-gem",
+      "name": "Chateau Figeac - The Equal-Thirds Right Bank Outlier",
+      "address": "Chateau Figeac, 33330 Saint-Emilion, France",
+      "neighborhood": "Saint-Emilion Grand Cru AOC",
+      "why_hidden": "While the media focuses on Merlot-dominant Saint-Emilion, Figeac's unusual equal-thirds Cabernet Sauvignon, Cabernet Franc, Merlot blend on gravelly soils gives it a Left Bank-meets-Right Bank character unlike any other Saint-Emilion estate. The 2022 elevation to Premier Grand Cru Classe A attracted new attention, but the estate remains undervalued relative to peers. Wine Advocate 99 points 2022.",
+      "varietals": ["Cabernet Sauvignon", "Cabernet Franc", "Merlot"],
+      "classification": "Saint-Emilion Premier Grand Cru Classe A (2022 classification)",
+      "price_range": "EUR 100-250",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.chateau-figeac.com/en/",
+        "address_quoted": "33330 Saint-Emilion, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.ugcb.net/en/chateaux/chateau-figeac-2/",
+        "cuisine_evidence_url": "https://www.thewinecellarinsider.com/bordeaux-wine-producer-profiles/bordeaux/st-emilion/figeac/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "chateau-leoville-barton-gem",
+      "name": "Chateau Leoville-Barton - Family-Owned Super-Second Value",
+      "address": "Chateau Leoville-Barton, 33250 Saint-Julien-Beychevelle, France",
+      "neighborhood": "Saint-Julien AOC",
+      "why_hidden": "The Barton family has owned Leoville-Barton continuously since 1826 with no corporate parent and no price inflation beyond merit. It remains the best-value second growth in Bordeaux: consistently scoring 97-99 points in top vintages at prices well below peers. Melanie Barton's recent vintages have elevated it further.",
+      "varietals": ["Cabernet Sauvignon", "Merlot", "Cabernet Franc"],
+      "classification": "Deuxieme Cru Classe (1855 classification)",
+      "price_range": "EUR 60-120",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.leoville-barton.com/en/",
+        "address_quoted": "33250 Saint-Julien-Beychevelle, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.ugcb.net/en/chateaux/chateau-leoville-barton-2/",
+        "cuisine_evidence_url": "https://www.thewinecellarinsider.com/bordeaux-wine-producer-profiles/bordeaux/st-julien/leoville-barton/",
+        "checked_on": "2026-05-22"
+      }
+    }
+  ]
 }

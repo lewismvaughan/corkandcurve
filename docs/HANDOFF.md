@@ -31,7 +31,7 @@ Everything below has been verified before commit.
 | `agents/qa/PROMPT.md` | wine-vertical QA (8 defect classes: classification, hectarage, scores, ownership, certification, address cross-check, cross-link sanity, voice) |
 | `agents/DISPATCH_TEMPLATE.md` | shared with TJ — 5-stage canonical pipeline |
 | `scripts/new_region.py` | wine-vertical scaffolding (24 topic JSONs + nightlife + dietary) |
-| Templates | brand sed-pass done (`Cork and Curve`, `corkandcurve.com`); content adaptation NOT done — see `docs/TEMPLATES_AUDIT.md` |
+| Templates | brand sed-pass done (`Cork & Curve`, `corkandcurve.com`); content adaptation NOT done — see `docs/TEMPLATES_AUDIT.md` |
 | `docs/STANDARDS.md` | wine-vertical |
 | `docs/FLOW.md` | wine-vertical operational playbook |
 | `docs/DATA_TO_PAGES.md` | wine field → page mapping |

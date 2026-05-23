@@ -38,26 +38,23 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 SITE_DATA = REPO_ROOT / "site-data"
 
-# Topic files whose entries can be referenced from itineraries / where_to_eat.
+# Topic files whose entries can be referenced from itineraries / producer.
 ENTITY_TOPIC_FILES = (
-    "restaurants.json", "fine-dining.json", "casual-dining.json",
-    "cafes.json", "bakeries.json", "coffee-roasters.json", "wine-bars.json",
-    "bars.json", "street-food.json", "breweries.json", "markets.json",
-    "food-tours.json", "festivals.json", "cooking-classes.json",
-    "budget-eating.json", "hidden-gems.json", "brunch.json", "late-night.json",
-    "day-trips-food.json",
+    "vineyards.json", "tasting-rooms.json", "wine-bars.json",
+    "wine-restaurants.json", "wine-retailers.json", "wine-schools.json",
+    "wine-tours.json", "wine-festivals.json", "distilleries.json",
+    "wine-museums.json", "wine-hotels.json", "wine-experiences.json",
+    "budget-wines.json", "hidden-gems.json", "day-trips-wine.json",
 )
 TOPIC_KEY = {
-    "restaurants.json": "restaurants", "fine-dining.json": "fine_dining",
-    "casual-dining.json": "casual_dining", "cafes.json": "cafes",
-    "bakeries.json": "bakeries", "coffee-roasters.json": "coffee_roasters",
-    "wine-bars.json": "wine_bars", "bars.json": "bars",
-    "street-food.json": "street_food", "breweries.json": "breweries",
-    "markets.json": "markets", "food-tours.json": "food_tours",
-    "festivals.json": "food_festivals", "cooking-classes.json": "cooking_classes",
-    "budget-eating.json": "budget_eating", "hidden-gems.json": "hidden_gems",
-    "brunch.json": "brunch", "late-night.json": "late_night",
-    "day-trips-food.json": "day_trips_food",
+    "vineyards.json": "vineyards", "tasting-rooms.json": "tasting_rooms",
+    "wine-bars.json": "wine_bars", "wine-restaurants.json": "wine_restaurants",
+    "wine-retailers.json": "wine_retailers", "wine-schools.json": "wine_schools",
+    "wine-tours.json": "wine_tours", "wine-festivals.json": "wine_festivals",
+    "distilleries.json": "distilleries", "wine-museums.json": "wine_museums",
+    "wine-hotels.json": "wine_hotels", "wine-experiences.json": "wine_experiences",
+    "budget-wines.json": "budget_wines", "hidden-gems.json": "hidden_gems",
+    "day-trips-wine.json": "day_trips_wine",
 }
 
 _NAME_NORM_RE = re.compile(r"[^a-z0-9]+")
@@ -128,36 +125,43 @@ def _build_index(data_dir: Path) -> tuple[dict[str, tuple[str, str]], dict[str, 
     return name_index, slug_index
 
 
-def _check_signature_dishes(data_dir: Path, name_index: dict, issues: list) -> None:
-    """Every entry in `signature-dishes.where_to_eat[*]` must fuzzy-resolve
-    to a verified entity name in the city. Otherwise ERR."""
-    sd = data_dir / "signature-dishes.json"
-    if not sd.exists():
+def _check_signature_wines(data_dir: Path, name_index: dict, issues: list,
+                           slug_index: dict | None = None) -> None:
+    """Every `signature-wines.producer` should fuzzy-resolve to a verified
+    vineyard name in the region. Otherwise ERR (an iconic bottle whose
+    producer we don't cover is a dangling reference).
+
+    The producer field is a slug, so we also check slug_index as a fallback
+    for cases where name normalisation fails (e.g. apostrophe in 'Chateau d\'Yquem'
+    normalises differently from the slug 'chateau-dyquem').
+    """
+    sw = data_dir / "signature-wines.json"
+    if not sw.exists():
         return
     try:
-        d = json.loads(sd.read_text(encoding="utf-8"))
+        d = json.loads(sw.read_text(encoding="utf-8"))
     except Exception:
         return
-    for dish in d.get("signature_dishes") or []:
-        if not isinstance(dish, dict):
+    for wine in d.get("signature_wines") or []:
+        if not isinstance(wine, dict):
             continue
-        dish_slug = dish.get("slug", "?")
-        for venue in dish.get("where_to_eat") or []:
-            if not isinstance(venue, str):
-                continue
-            n = _norm_name(venue)
-            if not n:
-                continue
-            if n in name_index:
-                continue
-            # Try partial match — venue name might include extra qualifier
-            partial = next((k for k in name_index if n in k or k in n), None)
-            if partial:
-                continue
-            issues.append((
-                "ERR",
-                f"signature-dishes.json '{dish_slug}' where_to_eat={venue!r} does not resolve to any verified entity in this city",
-            ))
+        wine_slug = wine.get("slug", "?")
+        producer = wine.get("producer")
+        if not isinstance(producer, str) or not producer:
+            continue
+        # Direct slug lookup (producer field IS a slug)
+        if slug_index and producer in slug_index:
+            continue
+        n = _norm_name(producer)
+        if not n or n in name_index:
+            continue
+        partial = next((k for k in name_index if n in k or k in n), None)
+        if partial:
+            continue
+        issues.append((
+            "ERR",
+            f"signature-wines.json '{wine_slug}' producer={producer!r} does not resolve to any verified vineyard in this region",
+        ))
 
 
 def _check_itineraries(data_dir: Path, slug_index: dict, issues: list) -> None:
@@ -213,7 +217,7 @@ def check_city(country: str, city: str) -> int:
         return 1
     name_index, slug_index = _build_index(data_dir)
     issues: list[tuple[str, str]] = []
-    _check_signature_dishes(data_dir, name_index, issues)
+    _check_signature_wines(data_dir, name_index, issues, slug_index=slug_index)
     _check_itineraries(data_dir, slug_index, issues)
     print(f"[{country}/{city}] verified-entity index: {len(name_index)} names, {len(slug_index)} slugs")
     errs = sum(1 for lvl, _ in issues if lvl == "ERR")

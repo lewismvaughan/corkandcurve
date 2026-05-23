@@ -1,3 +1,110 @@
 {
-  "seasonal_wine": []
+  "seasonal_wine": {
+    "late_summer": [
+      {
+        "slug": "late-summer-veraison",
+        "name": "Veraison: Grapes Turn Colour",
+        "month_range": "August",
+        "recurrence": "Annual, mid-August",
+        "description": "Veraison is the physiological turning point when grape berries change colour from green to red (for black varieties) or translucent gold (for white varieties), marking the beginning of sugar accumulation. In Bordeaux, veraison typically occurs from early-mid August for Merlot on the Right Bank and mid-late August for Cabernet Sauvignon on the Left Bank. Visiting estates during veraison provides dramatic visual contrast in the vineyard and access to technical conversations with the vigneron about vintage prospects.",
+        "visitor_tip": "Pontet-Canet and Palmer offer vineyard visits during veraison; no formal harvest events but cellar door open for estate tours."
+      }
+    ],
+    "harvest_season": [
+      {
+        "slug": "merlot-harvest-right-bank",
+        "name": "Merlot Harvest - Right Bank",
+        "month_range": "September",
+        "recurrence": "Annual, mid-to-late September depending on vintage conditions",
+        "description": "Merlot ripens approximately 2 weeks earlier than Cabernet Sauvignon, so Right Bank harvests in Saint-Emilion and Pomerol typically begin in mid-September in average to warm vintages. The picking window can be as short as 8-12 days given Merlot's narrow optimal harvest range. Watching the vendangeurs moving through the vineyard rows and the first grapes arriving at the sorting table is the most visceral wine experience Bordeaux offers.",
+        "visitor_tip": "Chateau de la Riviere (Fronsac), Chateau Bauduc (Entre-Deux-Mers), and Beau-Sejour Becot welcome harvest visitors by prior arrangement."
+      },
+      {
+        "slug": "cabernet-sauvignon-harvest-left-bank",
+        "name": "Cabernet Sauvignon Harvest - Left Bank",
+        "month_range": "October",
+        "recurrence": "Annual, early-to-mid October in most vintages",
+        "description": "The main Left Bank Cabernet Sauvignon harvest runs from late September to mid-October across the Medoc communes. Estates with high Cabernet percentages (Lafite, Latour, Lynch-Bages, Ducru-Beaucaillou) typically pick last. October in Pauillac combines harvest activity with the Marathon du Medoc (second Saturday of September), creating a concentrated wine-tourism peak. Access to harvest is tightly controlled at first growths but accessible at Cru Bourgeois estates.",
+        "visitor_tip": "Larose-Trintaudon (Haut-Medoc), Camensac, and Chasse-Spleen often take harvest visitors by appointment."
+      },
+      {
+        "slug": "botrytis-sauternes-harvest",
+        "name": "Botrytis Harvest - Sauternes",
+        "month_range": "October",
+        "recurrence": "Annual, October; timing highly variable depending on botrytis onset",
+        "description": "The Sauternes harvest is unique: pickers walk through the vineyard multiple times (tries successives) selecting only botrytised berries at peak shrivelling and sugar concentration. The process can extend from late September to December in exceptional years. Chateau d'Yquem famously makes no wine in years when perfect botrytis cannot be achieved (1972, 1974, 1992). October is the peak month; the Ciron river mist that encourages the noble rot arrives in late morning and burns off by afternoon.",
+        "visitor_tip": "Chateau d'Yquem offers October harvest walks for small groups by appointment (from EUR 120 per person)."
+      },
+      {
+        "slug": "marathon-du-medoc-september",
+        "name": "Marathon du Medoc",
+        "month_range": "September",
+        "recurrence": "Annual, second Saturday of September",
+        "description": "The world's most wine-soaked marathon, 42.2km through Pauillac and Saint-Julien vineyards with 23 wine stops at classified-growth chateaux including Lafite, Latour, Mouton, Lynch-Bages, and Pichon-Baron. Costumed participants, oyster stops, and foie gras stations alongside the Medoc wines. Entry ballot opens in January each year; demand far exceeds places.",
+        "visitor_tip": "Entry by ballot only; apply in January at www.marathondumedoc.com. Non-runners can follow chateau open days on the day of the event."
+      },
+      {
+        "slug": "jurade-september-harvest",
+        "name": "La Jurade de Saint-Emilion (September)",
+        "month_range": "September",
+        "recurrence": "Annual, third Sunday of September",
+        "description": "The autumn Jurade ceremony formally marks the end of the harvest ban period, with the Jurade brotherhood tasting the new vintage barrel samples and pronouncing on the harvest quality from the Tour du Roi. Public celebrations, village market, and open-chateau visits throughout the weekend.",
+        "visitor_tip": "Estate tasting rooms across Saint-Emilion extend their hours for the Jurade weekend; some offer provisional barrel samples of the new harvest."
+      },
+      {
+        "slug": "new-vintage-bottle-release-spring",
+        "name": "New Vintage Bottle Release - Previous En Primeur",
+        "month_range": "October-December",
+        "recurrence": "Annual, 18-24 months after the tasting week of the purchased vintage",
+        "description": "Wines sold en primeur are bottled and released to buyers approximately 18-24 months after the April tasting week. Collectors receive delivery in autumn-winter of the year following the harvest. For example, 2023 vintage wines are tasted en primeur in April 2024 and released in bottle by December 2025. This is when futures buyers can actually drink or cellar their purchases.",
+        "visitor_tip": "Millesima, Badie, and Bordeaux direct ship worldwide for bottled-wine delivery after release."
+      }
+    ],
+    "primeur_spring": [
+      {
+        "slug": "en-primeur-barrel-tasting-week",
+        "name": "En Primeur Barrel Tasting Week",
+        "month_range": "April",
+        "recurrence": "Annual, first week of April",
+        "description": "Each April, the global wine trade and press converge on Bordeaux to taste barrel samples of the previous harvest vintage. The week is structured around UGCB collective tastings, individual chateau appointments, and merchant dinners. Prices for the new vintage are announced during or shortly after the tasting week, making it the financial and media epicentre of the Bordeaux calendar. Consumer access is limited; trade and press credentials required.",
+        "visitor_tip": "Trade professionals can register through UGCB or individual chateau contacts; Millesima and Badie hold consumer-facing primeur tastings during the same week."
+      },
+      {
+        "slug": "primeur-releases-summer",
+        "name": "En Primeur Price Releases",
+        "month_range": "May-June",
+        "recurrence": "Annual, May-June following the April tasting week",
+        "description": "After the April tasting week, chateaux release their en primeur prices progressively from May through June. Release order is tracked by wine merchants globally; prestigious estates releasing at attractive prices generate immediate secondary-market trading. First growths typically release last. This is the period when futures buyers must decide whether to commit to barrel samples not yet bottled.",
+        "visitor_tip": "No visitor access; purely a commercial release period, but participating through a wine merchant (Millesima, Badie) locks in pre-release pricing approximately 18 months before bottling."
+      }
+    ],
+    "summer_events": [
+      {
+        "slug": "bordeaux-fete-le-vin-biennial",
+        "name": "Bordeaux Fete le Vin (Biennial, Even Years)",
+        "month_range": "June",
+        "recurrence": "Biennial, even years, late June",
+        "description": "Europe's largest wine festival, held every two years on the Bordeaux quays. 70+ producer pavilions, 35,000 tasting tokens, live entertainment. The festival in 2024 showcased over 60 chateaux pouring current releases and select back vintages. A must-attend for collectors and casual wine enthusiasts alike; hotel prices in Bordeaux surge significantly during the festival weekend.",
+        "visitor_tip": "Book accommodation 6+ months in advance for even-year June dates; tasting tokens sell out; many chateau pavilions offer vertical flights unavailable at any other public event."
+      },
+      {
+        "slug": "saint-emilion-jurade-june",
+        "name": "La Jurade de Saint-Emilion (June)",
+        "month_range": "June",
+        "recurrence": "Annual, third Sunday of June",
+        "description": "The June ceremony of the Jurade brotherhood, established in 1199, proclaims the ban de vendange: the official start of the tasting evaluation period. Jurade members in medieval red robes process through the village to the Tour du Roi for the proclamation. Public street events and open chateau tastings accompany the day. Free to attend the procession; ticketed dinner gala in the evening.",
+        "visitor_tip": "The Saint-Emilion Maison du Vin sets up open tastings on the village square during the Jurade celebrations."
+      }
+    ],
+    "winter_events": [
+      {
+        "slug": "bordeaux-tasting-december",
+        "name": "Bordeaux Tasting (Bettane et Desseauve)",
+        "month_range": "December",
+        "recurrence": "Annual, early December",
+        "description": "The annual consumer and trade grand tasting in Hangar 14, Chartrons, organised by the Bettane et Desseauve guide. 250+ producers pour current releases across three days. One of the few public events where consumers can taste a broad cross-section of recent Bordeaux vintages in a single session. Tickets available online from October.",
+        "visitor_tip": "Saturday is the main consumer day; trade professionals have preferential entry on the Friday."
+      }
+    ]
+  }
 }

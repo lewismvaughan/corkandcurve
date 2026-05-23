@@ -3,7 +3,7 @@
 Render the site's chrome / footer / index pages from a single config.
 
 Pages produced (all under content/):
-  /about/                  about TableJourney
+  /about/                  about Cork & Curve
   /about/editorial/        editorial team / author bios
   /editorial-standards/    full editorial policy
   /contact/                contact info
@@ -33,11 +33,11 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from utils.template_renderer import TemplateRenderer, FOOD_TOPIC_NAV  # noqa: E402
+from utils.template_renderer import TemplateRenderer, WINE_TOPIC_NAV  # noqa: E402
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 CONTENT = REPO_ROOT / "content"
-BASE = "https://tablejourney.com"
+BASE = "https://corkandcurve.com"
 
 # Pagination thresholds for chrome index pages. Below GROUP, render as a
 # single flat list. At/above GROUP, alpha-group with anchor jumplinks.
@@ -125,7 +125,7 @@ def crumb(*items):
 
 def _topic_list_html():
     rows = []
-    for t in FOOD_TOPIC_NAV:
+    for t in WINE_TOPIC_NAV:
         rows.append(
             f'<li><a href="/topics/{t["slug"]}/"><span class="tj-topic-icon" aria-hidden="true">{t["icon"]}</span> {t["name"]}</a></li>'
         )
@@ -289,7 +289,7 @@ def _dishes_html():
     intro = (
         "<p>Each signature dish gets a page collecting where to eat the "
         "canonical version, the history, and (where we have it) a recipe "
-        "from the TableJourney kitchen.</p>"
+        "from the Cork & Curve kitchen.</p>"
     )
     if not entries:
         return intro + (
@@ -385,62 +385,62 @@ def _neighborhoods_html():
 
 def _topics_index_html():
     return (
-        "<p>Every city we cover is broken into the same twenty-four food chapters. "
-        "Each topic page below is a cross-city index. Pick a topic to see "
-        "every city we have written about it.</p>"
+        "<p>Every region we cover is broken into the same twenty-four wine chapters. "
+        "Each topic page below is a cross-region index. Pick a topic to see "
+        "every region we have written about it.</p>"
         + _topic_list_html()
     )
 
 
 def _about_html():
     return """
-<p>TableJourney is a food travel publication. We write the food chapter of
+<p>Cork & Curve is a wine travel publication. We write the wine chapter of
 a guidebook the way a guidebook used to be written: with a point of view,
-on the ground, by editors who care which room you sit down in.</p>
+on the ground, by editors who care which cellar you walk into.</p>
 
-<p>We do not aggregate. We do not score restaurants on a five-star wheel.
-We do not promise the &quot;top 10 of everything&quot;. Each city we cover is
-researched, eaten, and written by one editorial voice with help from
-the cooks, bakers and bartenders living in it.</p>
+<p>We do not aggregate. We do not score estates on a borrowed five-star wheel.
+We do not promise the &quot;top 10 of everything&quot;. Each region we cover is
+researched, tasted, and written by one editorial voice with help from
+the growers, winemakers and sommeliers living in it.</p>
 
 <h2>What you will find here</h2>
 <ul>
-  <li>City guides organised into twenty-four consistent food chapters,
-    from fine dining to street food to late-night.</li>
-  <li>Signature-dish writing that tells you what to order, where the
-    canonical version is, and what the dish actually means in that place.</li>
-  <li>Neighborhood breakdowns so you can plan by the district you are
-    staying in, not by a single mega-list.</li>
+  <li>Region guides organised into twenty-four consistent wine chapters,
+    from vineyards to tasting rooms to wine festivals.</li>
+  <li>Signature-wine writing that tells you what the bottle is, who makes it,
+    and what it actually means in that region.</li>
+  <li>Sub-appellation breakdowns so you can plan by the cru you are
+    visiting, not by a single mega-list.</li>
   <li>No sponsored placements in the editorial. See <a
-    href="/editorial-standards/">our standards</a>.</li>
+    href="/about/editorial/">our standards</a>.</li>
 </ul>
 
 <h2>Who is behind it</h2>
-<p>TableJourney is published by a small editorial desk based in the United
-Kingdom. The food research that powers each city guide is done by editorial
-staff and on-the-ground correspondents, working from a shared 23-chapter
-brief so every city reads with the same depth.</p>
+<p>Cork & Curve is published by a small editorial desk based in the United
+Kingdom. The wine research that powers each region guide is done by editorial
+staff and on-the-ground correspondents, working from a shared 24-chapter
+brief so every region reads with the same depth.</p>
 
 <h2>How to use the site</h2>
-<p>Start with the <a href="/cities/">cities index</a>, or jump straight to a
-city you are travelling to. Inside each city, the chapters work as
-stand-alone pieces. you can read just the Restaurants chapter, or just
-the Markets chapter, without needing the rest.</p>
+<p>Start with the <a href="/regions/">regions index</a>, or jump straight to a
+region you are travelling to. Inside each region, the chapters work as
+stand-alone pieces. you can read just the Vineyards chapter, or just
+the Tasting Rooms chapter, without needing the rest.</p>
 
 <h2>Get in touch</h2>
-<p>Press, partnerships, corrections, or just want to tell us where you ate?
+<p>Press, partnerships, corrections, or just want to tell us where you tasted?
 The <a href="/contact/">contact page</a> is the way.</p>
 """
 
 
 def _about_editorial_html():
     return """
-<p>TableJourney is written and edited by a small team working from a
+<p>Cork & Curve is written and edited by a small team working from a
 shared 23-chapter brief. Every city guide is overseen by the editorial
 desk before publication.</p>
 
 <h2>The desk</h2>
-<p><strong>TableJourney Editorial</strong> is the byline you will see on
+<p><strong>Cork & Curve Editorial</strong> is the byline you will see on
 city guides, signature-dish writeups and topic pages. It is a working
 desk, not a pseudonym: every piece has an editor of record on file.
 Corrections, story tips and inquiries go to that desk.</p>
@@ -463,7 +463,7 @@ the <a href="/contact/">contact page</a>. We read everything.</p>
 
 def _editorial_standards_html():
     return """
-<p>TableJourney exists to help readers eat well. We treat that as a
+<p>Cork & Curve exists to help readers eat well. We treat that as a
 responsibility, not a tagline. These are the rules we apply to every
 piece we publish.</p>
 
@@ -509,8 +509,8 @@ relationship is material, the piece is reassigned.</p>
 
 <h2>8. Scoring methodology</h2>
 <p>Every restaurant, bar, market, dish, itinerary and other entry on
-TableJourney carries an editorial score between 1.0 and 5.0, shown as
-&quot;★ 4.3&quot; next to the entry name. The score is the TableJourney
+Cork & Curve carries an editorial score between 1.0 and 5.0, shown as
+&quot;★ 4.3&quot; next to the entry name. The score is the Cork & Curve
 editorial verdict, derived from many inputs:</p>
 <ul>
   <li><strong>External reputation</strong>. published reviews,
@@ -546,30 +546,30 @@ def _contact_html():
 syndication, and just wanting to tell us where you ate. all welcome.</p>
 
 <h2>Email</h2>
-<p><a href="mailto:hello@tablejourney.com">hello@tablejourney.com</a>
+<p><a href="mailto:hello@corkandcurve.com">hello@corkandcurve.com</a>
 for general inquiries.</p>
 
 <h2>Editorial corrections</h2>
 <p>Spotted a factual error, a closed business, or something that needs an
-update? Email <a href="mailto:editorial@tablejourney.com">editorial@tablejourney.com</a>
+update? Email <a href="mailto:editorial@corkandcurve.com">editorial@corkandcurve.com</a>
 with the URL and what needs fixing. We read every correction and respond
 to those that need a reply.</p>
 
 <h2>Press and partnerships</h2>
 <p>Tour operators, hotels, tourism boards and other partners can reach
-the partnerships desk at <a href="mailto:partnerships@tablejourney.com">partnerships@tablejourney.com</a>.
+the partnerships desk at <a href="mailto:partnerships@corkandcurve.com">partnerships@corkandcurve.com</a>.
 Read the <a href="/editorial-standards/">editorial standards</a> first.
 The short version: editorial decisions are not for sale.</p>
 
 <h2>Where we are</h2>
-<p>TableJourney is published from the United Kingdom. The editorial team
+<p>Cork & Curve is published from the United Kingdom. The editorial team
 works remotely with correspondents in each of the cities we cover.</p>
 """
 
 
 def _privacy_html():
     return """
-<p>This privacy notice describes what data TableJourney collects when you
+<p>This privacy notice describes what data Cork & Curve collects when you
 visit this site, why we collect it, and what we do with it. We try to
 collect as little as possible and to be honest about what we do collect.</p>
 
@@ -606,7 +606,7 @@ on the <a href="/cookies/">cookies policy</a>.</p>
 
 <h2>Your rights</h2>
 <p>You have the right to know what we hold about you, to ask for a copy,
-and to ask us to delete it. Email <a href="mailto:privacy@tablejourney.com">privacy@tablejourney.com</a>
+and to ask us to delete it. Email <a href="mailto:privacy@corkandcurve.com">privacy@corkandcurve.com</a>
 and we will respond within a reasonable time.</p>
 
 <h2>Updates</h2>
@@ -617,7 +617,7 @@ and we will respond within a reasonable time.</p>
 
 def _terms_html():
     return """
-<p>By using tablejourney.com you agree to these terms. If you do not
+<p>By using corkandcurve.com you agree to these terms. If you do not
 agree with any of them, do not use the site.</p>
 
 <h2>What you can do</h2>
@@ -663,7 +663,7 @@ shows when they last changed.</p>
 
 def _cookies_html():
     return """
-<p>This page lists the cookies and similar technologies tablejourney.com
+<p>This page lists the cookies and similar technologies corkandcurve.com
 may set when you visit. We aim to keep it short.</p>
 
 <h2>Strictly necessary</h2>
@@ -696,7 +696,7 @@ accepting them. Doing so will not break the editorial part of the site.</p>
 
 def _disclaimer_html():
     return """
-<p>TableJourney publishes editorial recommendations for food, drink, and
+<p>Cork & Curve publishes editorial recommendations for food, drink, and
 travel. We do our best to be accurate, but we are not infallible and the
 world keeps moving. Before you act on anything here, please confirm.</p>
 
@@ -723,7 +723,7 @@ our editorial choices. See <a href="/editorial-standards/">editorial
 standards</a> for the full policy.</p>
 
 <h2>Liability</h2>
-<p>To the maximum extent permitted by law, TableJourney is not liable for
+<p>To the maximum extent permitted by law, Cork & Curve is not liable for
 losses arising from your reliance on the editorial content.</p>
 """
 
@@ -731,18 +731,18 @@ losses arising from your reliance on the editorial content.</p>
 PAGES = [
     {
         "slug": "about",
-        "title": "About TableJourney. Where the world eats",
-        "meta_description": "Food travel guides written by editors on the ground. Twenty-four consistent food chapters per city, signature-dish writing and neighborhood maps. No paid placements.",
-        "h1": "About TableJourney",
-        "subtitle": "A food travel publication, edited by humans, eaten in person.",
+        "title": "About Cork & Curve. Where the world drinks",
+        "meta_description": "Wine travel guides written by editors on the ground. Twenty-four consistent wine chapters per region, signature-wine writing and sub-appellation maps. No paid placements.",
+        "h1": "About Cork & Curve",
+        "subtitle": "A wine travel publication, edited by humans, tasted in person.",
         "page_type": "about",
         "body": _about_html(),
         "breadcrumb": crumb(("Home", f"{BASE}/"), ("About", None)),
     },
     {
         "slug": "about/editorial",
-        "title": "The TableJourney editorial team",
-        "meta_description": "Meet the editors and correspondents behind TableJourney. Who writes each city guide, who edits, who signs off, and how every published piece gets attributed.",
+        "title": "The Cork & Curve editorial team",
+        "meta_description": "Meet the editors and correspondents behind Cork & Curve. Who writes each city guide, who edits, who signs off, and how every published piece gets attributed.",
         "h1": "Editorial team",
         "subtitle": "Real bylines. Real editors. Real meals.",
         "page_type": "about",
@@ -751,7 +751,7 @@ PAGES = [
     },
     {
         "slug": "editorial-standards",
-        "title": "Editorial standards. how TableJourney works",
+        "title": "Editorial standards. how Cork & Curve works",
         "meta_description": "Our editorial standards in full. No paid placements, comped meals disclosed, affiliate links never influence selection, every claim has a named editor of record.",
         "h1": "Editorial standards",
         "subtitle": "How we decide what to cover, and how we keep it honest.",
@@ -761,8 +761,8 @@ PAGES = [
     },
     {
         "slug": "contact",
-        "title": "Contact TableJourney. corrections, tips, partnerships",
-        "meta_description": "How to reach the TableJourney editorial team. Send a correction, a story tip, a press inquiry, a partnership request, or a recommendation. We read everything.",
+        "title": "Contact Cork & Curve. corrections, tips, partnerships",
+        "meta_description": "How to reach the Cork & Curve editorial team. Send a correction, a story tip, a press inquiry, a partnership request, or a recommendation. We read everything.",
         "h1": "Contact us",
         "subtitle": "Email is the fastest way to reach the desk.",
         "page_type": "contact",
@@ -770,51 +770,11 @@ PAGES = [
         "breadcrumb": crumb(("Home", f"{BASE}/"), ("Contact", None)),
     },
     {
-        "slug": "cities",
-        "title": "Cities. every city covered on TableJourney",
-        "meta_description": "Every city TableJourney covers, in one place. Each city is broken into the same twenty-four consistent food chapters, from fine dining to late-night and street food.",
-        "h1": "Cities",
-        "subtitle": "Eating cities, by editorial point of view.",
-        "page_type": "collection",
-        "body": _cities_html(),
-        "breadcrumb": crumb(("Home", f"{BASE}/"), ("Cities", None)),
-    },
-    {
-        "slug": "cuisines",
-        "title": "Cuisines. the canonical dishes and where to eat them",
-        "meta_description": "Cuisine guides on TableJourney. The canonical dishes of each cuisine, the regional dialects, and the city rooms where the definitive version is served.",
-        "h1": "Cuisines",
-        "subtitle": "What a cuisine actually means, plate by plate.",
-        "page_type": "collection",
-        "body": _cuisines_html(),
-        "breadcrumb": crumb(("Home", f"{BASE}/"), ("Cuisines", None)),
-    },
-    {
-        "slug": "dishes",
-        "title": "Signature dishes. the plates that define a place",
-        "meta_description": "Signature dishes from every city we cover. What the dish is, the room where it belongs, the order to give, and how to spot the canonical version vs the tourist one.",
-        "h1": "Signature dishes",
-        "subtitle": "The plates that define a place, and where to eat them.",
-        "page_type": "collection",
-        "body": _dishes_html(),
-        "breadcrumb": crumb(("Home", f"{BASE}/"), ("Dishes", None)),
-    },
-    {
-        "slug": "neighborhoods",
-        "title": "Neighborhoods. eat by the district you are staying in",
-        "meta_description": "Plan your eating by neighborhood, not by mega-list. Each city is mapped by district so you can walk to dinner instead of crossing town for one wrong reservation.",
-        "h1": "Neighborhoods",
-        "subtitle": "Plan dinner by the door you walk out of.",
-        "page_type": "collection",
-        "body": _neighborhoods_html(),
-        "breadcrumb": crumb(("Home", f"{BASE}/"), ("Neighborhoods", None)),
-    },
-    {
         "slug": "topics",
-        "title": "Food topics. fine dining to late-night, indexed",
-        "meta_description": "Browse TableJourney by food topic. Restaurants, fine dining, cafes, bars, street food, markets, festivals, signature dishes and the rest, indexed across every city.",
+        "title": "Wine topics. vineyards to tasting rooms, indexed",
+        "meta_description": "Browse Cork & Curve by wine topic. Vineyards, tasting rooms, wine bars, wine tours, festivals, signature wines and the rest, indexed across every region.",
         "h1": "Topics",
-        "subtitle": "The twenty-four food chapters, indexed across every city.",
+        "subtitle": "The twenty-four wine chapters, indexed across every region.",
         "page_type": "collection",
         "body": _topics_index_html(),
         "breadcrumb": crumb(("Home", f"{BASE}/"), ("Topics", None)),
@@ -822,7 +782,7 @@ PAGES = [
     {
         "slug": "privacy",
         "title": "Privacy. what we collect and what we do not",
-        "meta_description": "TableJourney's privacy notice. What data we collect, why, what we never do (sell your data, profile you across sites), and how to ask for a copy or a deletion.",
+        "meta_description": "Cork & Curve's privacy notice. What data we collect, why, what we never do (sell your data, profile you across sites), and how to ask for a copy or a deletion.",
         "h1": "Privacy",
         "subtitle": "We try to collect as little as possible. This is what and why.",
         "page_type": "privacy",
@@ -831,8 +791,8 @@ PAGES = [
     },
     {
         "slug": "terms",
-        "title": "Terms of use. the rules for reading TableJourney",
-        "meta_description": "The rules for using tablejourney.com. What you may do with our content, what you may not, how affiliate links work, editorial scope, and which law governs.",
+        "title": "Terms of use. the rules for reading Cork & Curve",
+        "meta_description": "The rules for using corkandcurve.com. What you may do with our content, what you may not, how affiliate links work, editorial scope, and which law governs.",
         "h1": "Terms of use",
         "subtitle": "The short, plain-English version of the rules.",
         "page_type": "terms",
@@ -841,8 +801,8 @@ PAGES = [
     },
     {
         "slug": "cookies",
-        "title": "Cookies. what TableJourney stores in your browser",
-        "meta_description": "What cookies and storage TableJourney uses. The static site does not need cookies to work. Theme, analytics, and advertising are listed in plain language.",
+        "title": "Cookies. what Cork & Curve stores in your browser",
+        "meta_description": "What cookies and storage Cork & Curve uses. The static site does not need cookies to work. Theme, analytics, and advertising are listed in plain language.",
         "h1": "Cookies",
         "subtitle": "Short list. We try to keep it that way.",
         "page_type": "privacy",
@@ -852,7 +812,7 @@ PAGES = [
     {
         "slug": "disclaimer",
         "title": "Disclaimer. confirm before you act on it",
-        "meta_description": "TableJourney is editorial guidance, not a guarantee. Restaurants change, dietary categories need verification, travel advice is not our remit. Full disclaimer here.",
+        "meta_description": "Cork & Curve is editorial guidance, not a guarantee. Restaurants change, dietary categories need verification, travel advice is not our remit. Full disclaimer here.",
         "h1": "Disclaimer",
         "subtitle": "We do our best. Then call ahead.",
         "page_type": "webpage",
@@ -888,8 +848,8 @@ def render_one(renderer, spec):
             "og_description": spec["meta_description"],
             "og_url": canonical,
             "og_type": "website",
-            "og_image": "https://tablejourney.com/og/default.jpg",
-            "og_image_alt": "TableJourney food guide",
+            "og_image": "https://corkandcurve.com/og/default.jpg",
+            "og_image_alt": "Cork & Curve food guide",
             "og_locale": "en_US",
         },
         "twitter": {
@@ -907,7 +867,7 @@ def render_one(renderer, spec):
         seo=seo,
         analytics={"page_type": "chrome", "destination": "global"},
         base_path="",
-        topic_nav=FOOD_TOPIC_NAV,
+        topic_nav=WINE_TOPIC_NAV,
         breadcrumb=spec["breadcrumb"],
         current_year=2026,
     )

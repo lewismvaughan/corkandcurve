@@ -24,7 +24,7 @@ from urllib.parse import urlparse
 
 REPO = Path(__file__).resolve().parent.parent
 CONTENT = REPO / "content"
-BASE_DOMAIN = "tablejourney.com"
+BASE_DOMAIN = "corkandcurve.com"
 
 LINK_RE = re.compile(r'<a\s[^>]*href="([^"]+)"', re.IGNORECASE)
 # Strip nav + header + footer + breadcrumbs (they're global / boilerplate
@@ -44,31 +44,45 @@ def page_type(u: str) -> str:
     if u == "/":
         return "homepage"
     if u.startswith("/topics/"):
-        return "topic (cross-city)"
-    if u.startswith("/cuisine/"):
-        return "cuisine (cross-cut)"
-    if u.startswith("/dish/"):
-        return "dish (cross-cut)"
+        return "topic (cross-region)"
+    if u.startswith("/grape/"):
+        return "grape (cross-cut)"
+    if u.startswith("/style/"):
+        return "style (cross-cut)"
+    if u.startswith("/world/") and len(parts) == 2:
+        return "world (cross-cut)"
     if u.startswith("/neighborhood/"):
         return "neighborhood (cross-cut)"
-    if u.startswith(("/cuisines/", "/dishes/", "/neighborhoods/")):
+    # Cuvée pages: /wine/<producer>/<cuvee>/ — global URL, one per
+    # producer cuvée. Inbound links expected from the cuvée's region
+    # wines topic page + at least one /tag/<slug>/ page + the producer's
+    # vineyards page (sibling-cuvée box).
+    if u.startswith("/wine/") and len(parts) == 3:
+        return "wine (cuvée)"
+    # Tag pages: /tag/<slug>/ (global) + /tag/<slug>/<region>/ (scoped).
+    # Inbound links expected from every cuvée page (tag chips) + the
+    # region's wines topic page (filter chips).
+    if u.startswith("/tag/") and len(parts) == 2:
+        return "tag (global)"
+    if u.startswith("/tag/") and len(parts) == 3:
+        return "tag (region-scoped)"
+    if u.startswith(("/grapes/", "/styles/", "/world/", "/regions/", "/neighborhoods/")):
         return "global-index"
-    if u.startswith(("/about", "/cities/", "/contact", "/privacy", "/terms",
-                     "/cookies", "/disclaimer", "/editorial-standards",
-                     "/search")):
+    if u.startswith(("/about", "/regions/", "/contact", "/privacy", "/terms",
+                     "/cookies", "/disclaimer", "/search")):
         return "chrome"
     if len(parts) == 1:
         return "country"
     if len(parts) == 2:
-        return "city-or-state"
+        return "region-or-state"
     if len(parts) == 3:
         last = parts[-1]
-        if last in {"cuisines", "signature-dishes", "neighborhoods", "dietary"}:
+        if last in {"grapes", "styles", "neighborhoods", "dietary"}:
             return "scoped-index"
-        return "city-topic"
+        return "region-topic"
     if len(parts) == 4:
-        if parts[2] in {"dietary", "cuisine", "dish"}:
-            return f"city × {parts[2]}"
+        if parts[2] in {"dietary", "nightlife", "grape"}:
+            return f"region × {parts[2]}"
         return "entity"
     return f"other ({len(parts)} parts)"
 

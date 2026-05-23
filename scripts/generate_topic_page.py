@@ -25,158 +25,158 @@ from utils.template_renderer import TemplateRenderer, render_page
 # TableJourney v1 has no digital products. Reserved for later.
 TOPIC_PRODUCT_MAPPING: dict = {}
 
-# 20 food topics. Keys are URL slugs and match TOPIC_FILES filenames 1:1.
+# 24 wine topics. Keys are URL slugs and match TOPIC_FILES filenames 1:1.
 # Each entry drives the page H1, subtitle, badge, and which TOC sidebar to show.
 STANDARD_TOPICS = {
-    'restaurants': {
-        'name': 'Restaurants', 'badge': 'Where to Eat', 'icon': '🍽️',
-        'h1_template': 'Best Restaurants in {name}',
-        'subtitle_template': 'The rooms worth a reservation in {name}, from neighbourhood bistros to the new classics.',
-        'meta_description_template': 'The rooms worth a reservation in {name}, from neighbourhood bistros to the new-classics. Editor-picked menus, price ranges and what to order on a first visit.',
+    'vineyards': {
+        'name': 'Vineyards', 'badge': 'Estates & Châteaux', 'icon': '🍇',
+        'h1_template': 'Vineyards in {name}',
+        'subtitle_template': 'The estates, domaines and châteaux worth the drive in {name}, from first growths to grower gems.',
+        'meta_description_template': 'The estates, domaines and châteaux worth visiting in {name}. Classifications, varietals, tasting programs and how to book a cellar visit.',
     },
-    'fine-dining': {
-        'name': 'Fine Dining', 'badge': 'Tasting Menus', 'icon': '⭐',
-        'h1_template': 'Fine Dining in {name}',
-        'subtitle_template': 'Tasting menus, Michelin stars and the chefs redefining {name}.',
-        'meta_description_template': 'Tasting menus, Michelin stars and the chefs redefining {name}. Where to splurge, what each room serves and how to book without losing a month’s rent.',
+    'wines': {
+        'name': 'Wines', 'badge': 'Every Cuvée', 'icon': '🍷',
+        'h1_template': 'Wines of {name}',
+        'subtitle_template': 'Every cuvée worth knowing in {name}: taste, food pairings, history and tags to find your match.',
+        'meta_description_template': 'Every cuvée worth knowing in {name}. Taste profiles, food pairings, history and filter chips so you can find the wine that fits the meal, mood or occasion.',
     },
-    'casual-dining': {
-        'name': 'Casual Dining', 'badge': 'Neighbourhood Tables', 'icon': '🥘',
-        'h1_template': 'Casual Dining in {name}',
-        'subtitle_template': 'Bistros, trattorias and the everyday rooms where {name} actually eats.',
-        'meta_description_template': 'Bistros, trattorias and the everyday rooms where {name} actually eats. Daily menus under €40, fair house wine and the regulars’ tables worth angling for.',
-    },
-    'cafes': {
-        'name': 'Cafés', 'badge': 'Coffee & Bakeries', 'icon': '☕',
-        'h1_template': 'Best Cafés in {name}',
-        'subtitle_template': 'Where to sit, sip and slow down in {name}.',
-        'meta_description_template': 'Where to sit, sip and slow down in {name}. Third-wave roasters, classic morning rooms, the bakeries worth the queue and the cafés that open before sunrise.',
-    },
-    'bakeries': {
-        'name': 'Bakeries', 'badge': 'Bread & Pastry', 'icon': '🥐',
-        'h1_template': 'Best Bakeries in {name}',
-        'subtitle_template': 'The counters in {name} worth queuing for: bread, pastry, and the morning ritual.',
-        'meta_description_template': 'The bakery counters in {name} worth queuing for, picked by TableJourney editors. Levain loaves, laminated pastry and the regional bakes worth crossing town for.',
-    },
-    'coffee-roasters': {
-        'name': 'Coffee Roasters', 'badge': 'Beans & Brew', 'icon': '🫘',
-        'h1_template': 'Best Coffee Roasters in {name}',
-        'subtitle_template': 'The roasters writing the coffee scene in {name}: who they are, where they source from and where to drink it.',
-        'meta_description_template': 'The roasters defining the coffee scene in {name}, picked by TableJourney editors. Where they source from, where to drink it, and which roasters keep a public cafe.',
+    'tasting-rooms': {
+        'name': 'Tasting Rooms', 'badge': 'Where to Taste', 'icon': '🍷',
+        'h1_template': 'Tasting Rooms in {name}',
+        'subtitle_template': 'Urban tasting rooms and at-winery flights in {name}, with what they pour and whether you need an appointment.',
+        'meta_description_template': 'Where to taste in {name}: urban tasting rooms and at-winery flights, what they pour, flight prices and whether you can walk in or need to book.',
     },
     'wine-bars': {
-        'name': 'Wine Bars', 'badge': 'By the Glass', 'icon': '🍷',
+        'name': 'Wine Bars', 'badge': 'By the Glass', 'icon': '🥂',
         'h1_template': 'Best Wine Bars in {name}',
-        'subtitle_template': 'Where to drink well in {name} by the glass and the bottle: natural, classical, and worth the cab fare.',
-        'meta_description_template': 'Where to drink wine in {name} by the glass and the bottle. The natural-wine rooms, classical caves and grower-focused lists worth booking on TableJourney.',
+        'subtitle_template': 'Where to drink by the glass in {name}: natural, classical and grower-focused lists worth the detour.',
+        'meta_description_template': 'Where to drink wine by the glass in {name}. The natural-wine rooms, classical caves and grower-focused lists worth the detour, with what is poured.',
     },
-    'bars': {
-        'name': 'Bars', 'badge': 'Drinking Guide', 'icon': '🍸',
-        'h1_template': 'Best Bars in {name}',
-        'subtitle_template': 'Cocktails, wine bars and dives: drinking in {name} for grown-ups.',
-        'meta_description_template': 'Cocktails, wine bars and dives in {name}, plus the natural-wine rooms and listening bars now defining the scene, with reservations, hours and price ranges.',
+    'wine-restaurants': {
+        'name': 'Wine Restaurants', 'badge': 'Cellar & Plate', 'icon': '🍽️',
+        'h1_template': 'Wine Restaurants in {name}',
+        'subtitle_template': 'Restaurants in {name} with cellars and sommeliers worth the markup.',
+        'meta_description_template': 'Restaurants in {name} known for their wine: deep cellars, award lists and sommeliers worth the markup, with what to order alongside.',
     },
-    'street-food': {
-        'name': 'Street Food', 'badge': 'Vendors & Stalls', 'icon': '🌮',
-        'h1_template': 'Street Food in {name}',
-        'subtitle_template': "The fastest, cheapest, frequently best food on {name}'s streets.",
-        'meta_description_template': 'The fastest, cheapest and frequently best food on {name}’s streets. Vendors worth the queue, the classic snacks every visitor should try and where to find them.',
+    'wine-retailers': {
+        'name': 'Wine Retailers', 'badge': 'Bottles to Buy', 'icon': '🛒',
+        'h1_template': 'Wine Retailers in {name}',
+        'subtitle_template': 'Where to buy bottles to take home in {name}: cavistes, enotecas and specialist merchants.',
+        'meta_description_template': 'Where to buy wine to take home in {name}. Cavistes, enotecas and specialist merchants, what they stock and who ships internationally.',
     },
-    'breweries': {
-        'name': 'Breweries', 'badge': 'Local Beer', 'icon': '🍺',
-        'h1_template': 'Breweries & Taprooms in {name}',
-        'subtitle_template': 'Where {name} drinks local: brewpubs, taprooms and the new wave.',
-        'meta_description_template': 'Where {name} drinks local. Brewpubs, taprooms, new-wave craft and the classic beer halls, with what to drink, what to eat alongside it and which ones to skip.',
+    'wine-schools': {
+        'name': 'Wine Schools', 'badge': 'Learn the Region', 'icon': '🎓',
+        'h1_template': 'Wine Schools and Classes in {name}',
+        'subtitle_template': 'Tastings, courses and structured sessions in {name} that teach you the region in a glass.',
+        'meta_description_template': 'Wine schools and classes in {name}. Guided tastings, certification courses and blending sessions that teach the region in a glass, with prices.',
     },
-    'markets': {
-        'name': 'Markets', 'badge': 'Food Markets', 'icon': '🥬',
-        'h1_template': 'Food Markets in {name}',
-        'subtitle_template': 'Where {name} shops, snacks and lunches: the markets worth your morning.',
-        'meta_description_template': 'Where {name} shops, snacks and lunches. The covered halls, weekly street markets and producer stalls worth your morning, with what to buy and where to eat.',
+    'wine-tours': {
+        'name': 'Wine Tours', 'badge': 'Guided Routes', 'icon': '🚐',
+        'h1_template': 'Wine Tours in {name}',
+        'subtitle_template': 'Guided wine tours in {name} worth booking, by route and theme, with run times and what is poured.',
+        'meta_description_template': 'Guided wine tours in {name} worth your time. Operators we would book, by route and theme, with run times, group size and what is poured.',
     },
-    'food-tours': {
-        'name': 'Food Tours', 'badge': 'Guided Eating', 'icon': '🚶',
-        'h1_template': 'Best Food Tours in {name}',
-        'subtitle_template': 'Guided food tours in {name} worth your time, with operators we’d actually book.',
-        'meta_description_template': 'Guided food tours in {name} worth your time and your euros. Operators we’d actually book, by neighbourhood and theme, with run times, group size and what’s served.',
+    'wine-festivals': {
+        'name': 'Wine Festivals', 'badge': 'Annual Events', 'icon': '🎉',
+        'h1_template': 'Wine Festivals in {name}',
+        'subtitle_template': 'Wine fairs and en primeur weeks in {name} worth planning a trip around, by month.',
+        'meta_description_template': 'Wine festivals in {name} worth planning a trip around. By month, with featured producers, where they happen, tickets and the satellite events worth catching.',
     },
-    'festivals': {
-        'name': 'Food Festivals', 'badge': 'Annual Events', 'icon': '🎉',
-        'h1_template': 'Food Festivals in {name}',
-        'subtitle_template': 'Food festivals in {name} worth planning a trip around, by month.',
-        'meta_description_template': 'Food festivals in {name} worth planning a trip around. By month, with what’s served, where they happen, ticket prices and the satellite events worth catching.',
+    'distilleries': {
+        'name': 'Distilleries', 'badge': 'Spirits Too', 'icon': '🥃',
+        'h1_template': 'Distilleries in {name}',
+        'subtitle_template': 'Where the region overlaps spirits: distilleries and tasting bars in {name}.',
+        'meta_description_template': 'Distilleries in {name} where the region overlaps spirits. What they make, tour and tasting options and where to taste the local pour.',
     },
-    'cooking-classes': {
-        'name': 'Cooking Classes', 'badge': 'Hands-On', 'icon': '👨‍🍳',
-        'h1_template': 'Cooking Classes in {name}',
-        'subtitle_template': 'Hands-on cooking classes in {name} that teach something you’ll cook again at home.',
-        'meta_description_template': 'Hands-on cooking classes in {name} that teach a recipe you’ll cook again at home. Market-to-table sessions, pastry workshops and the chefs worth booking, with prices.',
+    'wine-museums': {
+        'name': 'Wine Museums', 'badge': 'History & Craft', 'icon': '🏛️',
+        'h1_template': 'Wine Museums in {name}',
+        'subtitle_template': "Museums and interpretive centres in {name} that tell the region's wine story.",
+        'meta_description_template': "Museums and interpretive centres in {name} that tell the region's wine story, with what to see, ticket prices and how long to allow.",
     },
-    'dietary': {
-        'name': 'Dietary', 'badge': 'Eat-Your-Way Guide', 'icon': '🌱',
-        'h1_template': 'Vegan, Vegetarian & Dietary Guide to {name}',
-        'subtitle_template': 'Vegan, vegetarian, gluten-free, halal and kosher options across {name}.',
-        'meta_description_template': 'Vegan, vegetarian, gluten-free, halal and kosher eating across {name}. The menus that actually deliver, the dedicated rooms worth a trip and where to shop.',
+    'wine-hotels': {
+        'name': 'Wine Hotels', 'badge': 'Estate Stays', 'icon': '🛏️',
+        'h1_template': 'Wine Hotels in {name}',
+        'subtitle_template': 'Vineyard B&Bs and estate stays in {name} where you sleep among the vines.',
+        'meta_description_template': 'Where to stay among the vines in {name}. Vineyard B&Bs and estate hotels, what they offer guests and how to book a room with a cellar view.',
     },
-    'budget-eating': {
-        'name': 'Budget Eats', 'badge': 'Cheap & Good', 'icon': '💶',
-        'h1_template': 'Cheap Eats in {name}',
-        'subtitle_template': "Eat well in {name} for under €15 a plate: the locals'-budget edition.",
-        'meta_description_template': 'Eat well in {name} for under €15 a plate. The locals’-budget edition: bakery lunches, prix-fixe rooms, market-stall snacks and the chains worth the visit.',
+    'wine-experiences': {
+        'name': 'Wine Experiences', 'badge': 'Beyond the Tasting', 'icon': '✨',
+        'h1_template': 'Wine Experiences in {name}',
+        'subtitle_template': 'Harvest days, blending sessions and vineyard flights in {name}, beyond the standard tasting.',
+        'meta_description_template': 'Wine experiences in {name} beyond the standard tasting. Harvest days, blending sessions, vineyard helicopter flights and how to book them.',
     },
-    'signature-dishes': {
-        'name': 'Signature Dishes', 'badge': 'Must-Try', 'icon': '🥖',
-        'h1_template': 'Signature Dishes of {name}',
-        'subtitle_template': 'The plates that define {name}: what they are, and where to eat the canonical version.',
-        'meta_description_template': 'The plates that define {name}. What they are, where to eat the canonical version, what a fair price looks like and which rooms have become the new reference.',
+    'wine-history': {
+        'name': 'Wine History', 'badge': 'How {name} Drinks', 'icon': '📜',
+        'h1_template': 'Wine History of {name}',
+        'subtitle_template': 'How {name} came to make wine the way it does: the eras, families and rules that shaped the glass.',
+        'meta_description_template': 'How {name} came to make wine the way it does. The viticultural eras, families, classifications and rules that shaped the glass.',
+    },
+    'seasonal-wine': {
+        'name': 'Seasonal', 'badge': 'When to Visit', 'icon': '🍂',
+        'h1_template': 'Seasonal Wine in {name}',
+        'subtitle_template': 'When to visit {name}: harvest, en primeur and the calendar that shapes a cellar visit.',
+        'meta_description_template': 'When to visit {name} for wine. Harvest, en primeur weeks and the season-by-season calendar that shapes a cellar visit.',
+    },
+    'signature-wines': {
+        'name': 'Signature Wines', 'badge': 'Iconic Bottles', 'icon': '🍾',
+        'h1_template': 'Signature Wines of {name}',
+        'subtitle_template': 'The iconic bottles that define {name}: what they are, who makes them and what they cost.',
+        'meta_description_template': 'The iconic bottles that define {name}. What they are, who makes them, the style, typical vintages and what a bottle costs at retail.',
+    },
+    'signature-grapes': {
+        'name': 'Signature Grapes', 'badge': 'Canonical Varietals', 'icon': '🌿',
+        'h1_template': 'Signature Grapes of {name}',
+        'subtitle_template': 'The grapes that define {name}: the canonical varietals and how the region expresses them.',
+        'meta_description_template': 'The grapes that define {name}. The canonical varietals, how the region expresses them and the bottles that show them at their best.',
+    },
+    'budget-wines': {
+        'name': 'Budget Wines', 'badge': 'Under €25', 'icon': '💶',
+        'h1_template': 'Budget Wines in {name}',
+        'subtitle_template': 'Excellent bottles under €25 in {name}: the value finds locals actually drink.',
+        'meta_description_template': 'Excellent wines under €25 in {name}. The value bottles locals actually drink, where to buy them and the producers punching above their price.',
     },
     'hidden-gems': {
         'name': 'Hidden Gems', 'badge': 'Locals-Only', 'icon': '💎',
-        'h1_template': 'Hidden Food Gems in {name}',
-        'subtitle_template': 'The places in {name} the guidebooks miss.',
-        'meta_description_template': 'The {name} rooms the guidebooks miss. Locals’-only addresses, family kitchens, the bars that don’t bother with signage and the producers who skip tourists.',
+        'h1_template': 'Hidden Wine Gems in {name}',
+        'subtitle_template': 'The lesser-known estates and cellars in {name} that the guidebooks miss.',
+        'meta_description_template': 'The lesser-known estates and cellars in {name} that the guidebooks miss. Grower gems, family domaines and the cellars locals keep quiet.',
     },
-    'brunch': {
-        'name': 'Brunch', 'badge': 'Morning & Midday', 'icon': '🥞',
-        'h1_template': 'Best Brunch in {name}',
-        'subtitle_template': 'Where to brunch in {name}: morning rooms worth the queue.',
-        'meta_description_template': 'Where to brunch in {name}. The morning rooms worth the queue, the boozy weekend menus and the bakery counters that have become the better, faster move.',
-    },
-    'late-night': {
-        'name': 'Late-Night Eats', 'badge': 'After Hours', 'icon': '🌙',
-        'h1_template': 'Late-Night Food in {name}',
-        'subtitle_template': 'Where to eat in {name} after midnight, and the classic 2am move.',
-        'meta_description_template': 'Where to eat in {name} after midnight. Bistros holding kitchens open, kebab counters, ramen, late-bar plates and the classic post-2am move every local knows.',
-    },
-    'food-history': {
-        'name': 'Food History', 'badge': 'How {name} Eats', 'icon': '📜',
-        'h1_template': 'Food History of {name}',
-        'subtitle_template': 'How {name} came to eat the way it does: the people, migrations and accidents that shaped the plate.',
-        'meta_description_template': 'How {name} came to eat the way it does. The migrations, markets, regulations and accidents that shaped the plate, plus where you can still taste each chapter today.',
-    },
-    'seasonal-food': {
-        'name': 'Seasonal', 'badge': 'In Season', 'icon': '🍂',
-        'h1_template': 'What’s in Season in {name}',
-        'subtitle_template': 'What’s in season in {name}, and what to order when the market changes.',
-        'meta_description_template': 'What’s in season in {name}, month by month. The vegetables, fruit, game and seafood at their peak, what to order when the market changes and the dishes that follow.',
-    },
-    'day-trips-food': {
-        'name': 'Food Day Trips', 'badge': 'Within Reach', 'icon': '🚆',
-        'h1_template': 'Food Day Trips from {name}',
-        'subtitle_template': 'Food destinations within easy reach of {name}, worth the early start.',
-        'meta_description_template': 'Food destinations within easy reach of {name}. Wine villages, producer towns, coastal stops and market days worth an early start, with travel times and routes.',
+    'day-trips-wine': {
+        'name': 'Day Trips', 'badge': 'Within Reach', 'icon': '🚆',
+        'h1_template': 'Wine Day Trips from {name}',
+        'subtitle_template': 'Neighbouring appellations within easy reach of {name}, worth the early start.',
+        'meta_description_template': 'Wine day trips from {name}. Neighbouring appellations worth the early start, with travel times, what they are known for and where to taste.',
     },
     'itineraries': {
         'name': 'Itineraries', 'badge': 'Day-by-day Plans', 'icon': '🗺️',
-        'h1_template': 'Eating Itineraries for {name}',
-        'subtitle_template': 'Day-by-day eating plans for {name}: weekend, family, vegan, on-a-budget.',
-        'meta_description_template': 'Day-by-day eating plans for {name}, by audience. Weekend classics, family two-day plans, vegan three-day routes and budget editions on TableJourney.',
+        'h1_template': 'Wine Itineraries for {name}',
+        'subtitle_template': 'Day-by-day estate-visit plans for {name}: weekend, first-timer and deep-cellar editions.',
+        'meta_description_template': 'Day-by-day estate-visit plans for {name}, by audience. Weekend routes, first-timer plans and deep-cellar editions on Cork & Curve.',
     },
+    # NOTE: 'neighborhoods' (sub-appellations) is intentionally NOT a topic
+    # page. The region-scoped sub-appellation index at
+    # /<country>/<region>/neighborhoods/ is owned by
+    # generate_scoped_cross_cuts.py (a better grouped index than a generic
+    # card grid). The nav chip for it lives in WINE_TOPIC_NAV and points at
+    # that scoped index.
     'nightlife': {
-        'name': 'Nightlife', 'badge': 'After Hours', 'icon': '🌃',
-        'h1_template': 'Nightlife in {name}',
-        'subtitle_template': 'Dance clubs, live music, rooftop bars, speakeasies, LGBTQ+ venues, listening bars and late-night dives in {name}.',
-        'meta_description_template': 'Where to go out in {name} after dark. Dance clubs, live music venues, rooftop bars, speakeasies, LGBTQ+ nightlife, listening bars and the late-night dives worth the trip, told by TableJourney editors.',
+        'name': 'Nightlife', 'badge': 'After Dark', 'icon': '🌃',
+        'h1_template': 'Wine Nightlife in {name}',
+        'subtitle_template': 'Late wine bars, listening rooms and evening tastings in {name}.',
+        'meta_description_template': 'Where to drink wine after dark in {name}. Late-opening wine bars, listening rooms, fortified specialists and evening tastings worth the trip.',
+    },
+    'dietary': {
+        'name': 'Biodynamic & Natural', 'badge': "How It's Made", 'icon': '🌱',
+        'h1_template': 'Biodynamic, Organic and Natural Wine in {name}',
+        'subtitle_template': 'Biodynamic, organic and natural wine in {name}: the certified estates and low-intervention cellars.',
+        'meta_description_template': 'Biodynamic, organic and natural wine in {name}. The Demeter-certified estates, organic growers and low-intervention cellars, and where to taste them.',
+    },
+    'food-pairing': {
+        'name': 'Food Pairing', 'badge': 'Wine & Table', 'icon': '🧀',
+        'h1_template': 'Food and Wine Pairing in {name}',
+        'subtitle_template': "What to eat with the wines of {name}, and where the region's food and wine meet.",
+        'meta_description_template': "What to eat with the wines of {name}. Classic regional pairings, the local dishes that match the bottles and where food and wine meet.",
     },
 }
 
@@ -267,66 +267,66 @@ def prepare_topic_data(site_data: dict, topic_slug: str) -> dict:
 def _get_toc_items(topic_slug: str) -> list:
     """TOC items for the topic-page sidebar. Section IDs match what each topic template renders."""
     toc_map = {
-        'restaurants':      [('intro','Overview'), ('picks','Our picks'), ('faq','FAQ')],
-        'fine-dining':      [('intro','Overview'), ('top-tables','Top tables'), ('faq','FAQ')],
-        'casual-dining':    [('intro','Overview'), ('picks','Where to eat'), ('faq','FAQ')],
-        'cafes':            [('intro','Overview'), ('picks','Best cafés'), ('faq','FAQ')],
-        'bakeries':         [('intro','Overview'), ('picks','Best bakeries'), ('faq','FAQ')],
-        'coffee-roasters':  [('intro','Overview'), ('picks','Roasters worth knowing'), ('faq','FAQ')],
+        'vineyards':        [('intro','Overview'), ('picks','Estates to visit'), ('faq','FAQ')],
+        'wines':            [('intro','Overview'), ('filter','Filter by tag'), ('cuvees','Every cuvée'), ('faq','FAQ')],
+        'tasting-rooms':    [('intro','Overview'), ('picks','Where to taste'), ('faq','FAQ')],
         'wine-bars':        [('intro','Overview'), ('picks','Best wine bars'), ('faq','FAQ')],
-        'bars':             [('intro','Overview'), ('picks','Where to drink'), ('faq','FAQ')],
-        'street-food':      [('intro','Overview'), ('vendors','Don’t-miss vendors'), ('faq','FAQ')],
-        'breweries':        [('intro','Overview'), ('picks','Drink local'), ('faq','FAQ')],
-        'markets':          [('intro','Overview'), ('picks','Markets'), ('faq','FAQ')],
-        'food-tours':       [('intro','Overview'), ('picks','Tours'), ('faq','FAQ')],
-        'festivals':        [('intro','Overview'), ('picks','Festivals by month'), ('faq','FAQ')],
-        'cooking-classes':  [('intro','Overview'), ('picks','Classes'), ('faq','FAQ')],
-        'dietary':          [('intro','Overview'), ('vegan','Vegan'), ('vegetarian','Vegetarian'), ('gluten_free','Gluten-free'), ('faq','FAQ')],
-        'budget-eating':    [('intro','Overview'), ('cheap-eats','Cheap eats'), ('faq','FAQ')],
-        'signature-dishes': [('intro','Overview'), ('dishes','Must-try'), ('faq','FAQ')],
-        'hidden-gems':      [('intro','Overview'), ('gems','Off the beaten plate'), ('faq','FAQ')],
-        'brunch':           [('intro','Overview'), ('picks','Brunch picks'), ('faq','FAQ')],
-        'late-night':       [('intro','Overview'), ('picks','After-hours'), ('faq','FAQ')],
-        'food-history':     [('intro','Overview'), ('key-eras','Key eras'), ('influences','Influences'), ('innovations','Innovations'), ('faq','FAQ')],
-        'seasonal-food':    [('intro','Overview'), ('spring','Spring'), ('summer','Summer'), ('autumn','Autumn'), ('winter','Winter'), ('faq','FAQ')],
-        'day-trips-food':   [('intro','Overview'), ('trips','Worth the trip'), ('faq','FAQ')],
+        'wine-restaurants': [('intro','Overview'), ('picks','Cellar & plate'), ('faq','FAQ')],
+        'wine-retailers':   [('intro','Overview'), ('picks','Where to buy'), ('faq','FAQ')],
+        'wine-schools':     [('intro','Overview'), ('picks','Classes'), ('faq','FAQ')],
+        'wine-tours':       [('intro','Overview'), ('picks','Tours'), ('faq','FAQ')],
+        'wine-festivals':   [('intro','Overview'), ('picks','Festivals by month'), ('faq','FAQ')],
+        'distilleries':     [('intro','Overview'), ('picks','Distilleries'), ('faq','FAQ')],
+        'wine-museums':     [('intro','Overview'), ('picks','Museums'), ('faq','FAQ')],
+        'wine-hotels':      [('intro','Overview'), ('picks','Estate stays'), ('faq','FAQ')],
+        'wine-experiences': [('intro','Overview'), ('picks','Experiences'), ('faq','FAQ')],
+        'wine-history':     [('intro','Overview'), ('key-eras','Key eras'), ('influences','Influences'), ('innovations','Innovations'), ('faq','FAQ')],
+        'seasonal-wine':    [('intro','Overview'), ('spring','Spring'), ('summer','Summer'), ('autumn','Autumn'), ('winter','Winter'), ('faq','FAQ')],
+        'signature-wines':  [('intro','Overview'), ('wines','Iconic bottles'), ('faq','FAQ')],
+        'signature-grapes': [('intro','Overview'), ('grapes','Canonical grapes'), ('faq','FAQ')],
+        'budget-wines':     [('intro','Overview'), ('picks','Value finds'), ('faq','FAQ')],
+        'hidden-gems':      [('intro','Overview'), ('picks','Off the beaten cellar'), ('faq','FAQ')],
+        'day-trips-wine':   [('intro','Overview'), ('picks','Worth the trip'), ('faq','FAQ')],
         'itineraries':      [('intro','Overview'), ('plans','Day-by-day plans'), ('faq','FAQ')],
-        'nightlife':        [('intro','Overview'), ('dance_clubs','Dance Clubs'), ('live_music','Live Music'), ('rooftop_bars','Rooftop Bars'), ('speakeasies','Speakeasies'), ('lgbtq','LGBTQ+'), ('listening_bars','Listening Bars'), ('late_night_dives','Late-Night Dives'), ('faq','FAQ')],
+        'neighborhoods':    [('intro','Overview'), ('picks','Sub-appellations'), ('faq','FAQ')],
+        'dietary':          [('intro','Overview'), ('biodynamic','Biodynamic'), ('organic','Organic'), ('natural','Natural'), ('faq','FAQ')],
+        'nightlife':        [('intro','Overview'), ('wine_bars_late','Late Wine Bars'), ('listening_bars','Listening Rooms'), ('late_tastings','Late Tastings'), ('faq','FAQ')],
+        'food-pairing':     [('intro','Overview'), ('pairings','Pairings'), ('faq','FAQ')],
     }
-    pairs = toc_map.get(topic_slug, [('intro','Overview'), ('faq','FAQ')])
+    pairs = toc_map.get(topic_slug, [('intro','Overview'), ('picks','Our picks'), ('faq','FAQ')])
     return [{'id': i, 'title': t} for i, t in pairs]
 
 
 def _get_related_topics(current_topic: str, country_slug: str, region_slug: str = None) -> list:
-    """Curated related-topic clusters within the food universe."""
+    """Curated related-topic clusters within the wine universe."""
     relations = {
-        'restaurants':      ['fine-dining', 'casual-dining', 'signature-dishes', 'hidden-gems'],
-        'fine-dining':      ['restaurants', 'signature-dishes', 'cooking-classes', 'food-history'],
-        'casual-dining':    ['restaurants', 'budget-eating', 'brunch', 'hidden-gems'],
-        'cafes':            ['brunch', 'bakeries', 'coffee-roasters', 'hidden-gems'],
-        'bakeries':         ['cafes', 'brunch', 'budget-eating', 'hidden-gems'],
-        'coffee-roasters':  ['cafes', 'bakeries', 'brunch', 'hidden-gems'],
-        'wine-bars':        ['bars', 'casual-dining', 'hidden-gems', 'late-night'],
-        'bars':             ['wine-bars', 'breweries', 'late-night', 'hidden-gems'],
-        'street-food':      ['markets', 'budget-eating', 'hidden-gems', 'signature-dishes'],
-        'breweries':        ['bars', 'food-tours', 'casual-dining', 'late-night'],
-        'markets':          ['street-food', 'signature-dishes', 'food-tours', 'seasonal-food'],
-        'food-tours':       ['markets', 'street-food', 'signature-dishes', 'cooking-classes'],
-        'festivals':        ['seasonal-food', 'signature-dishes', 'markets', 'food-history'],
-        'cooking-classes':  ['signature-dishes', 'markets', 'food-history', 'food-tours'],
-        'dietary':          ['restaurants', 'cafes', 'budget-eating', 'brunch'],
-        'budget-eating':    ['street-food', 'casual-dining', 'markets', 'hidden-gems'],
-        'signature-dishes': ['restaurants', 'food-history', 'street-food', 'cooking-classes'],
-        'hidden-gems':      ['street-food', 'late-night', 'restaurants', 'cafes'],
-        'brunch':           ['cafes', 'casual-dining', 'hidden-gems', 'dietary'],
-        'late-night':       ['bars', 'street-food', 'hidden-gems', 'breweries'],
-        'food-history':     ['signature-dishes', 'food-tours', 'cooking-classes', 'festivals'],
-        'seasonal-food':    ['markets', 'festivals', 'signature-dishes', 'casual-dining'],
-        'day-trips-food':   ['food-tours', 'festivals', 'markets', 'signature-dishes'],
-        'itineraries':      ['restaurants', 'signature-dishes', 'hidden-gems', 'day-trips-food'],
-        'nightlife':        ['bars', 'wine-bars', 'late-night', 'hidden-gems'],
+        'vineyards':        ['wines', 'tasting-rooms', 'signature-wines', 'signature-grapes'],
+        'wines':            ['vineyards', 'signature-wines', 'signature-grapes', 'food-pairing'],
+        'tasting-rooms':    ['vineyards', 'wine-bars', 'distilleries', 'signature-wines'],
+        'wine-bars':        ['wine-restaurants', 'tasting-rooms', 'nightlife', 'hidden-gems'],
+        'wine-restaurants': ['wine-bars', 'food-pairing', 'signature-wines', 'wine-hotels'],
+        'wine-retailers':   ['signature-wines', 'budget-wines', 'tasting-rooms', 'vineyards'],
+        'wine-schools':     ['wine-tours', 'tasting-rooms', 'wine-history', 'signature-grapes'],
+        'wine-tours':       ['vineyards', 'tasting-rooms', 'distilleries', 'wine-experiences'],
+        'wine-festivals':   ['seasonal-wine', 'signature-wines', 'wine-experiences', 'wine-history'],
+        'distilleries':     ['wine-bars', 'wine-tours', 'tasting-rooms', 'hidden-gems'],
+        'wine-museums':     ['wine-history', 'vineyards', 'wine-tours', 'signature-grapes'],
+        'wine-hotels':      ['vineyards', 'wine-experiences', 'itineraries', 'wine-restaurants'],
+        'wine-experiences': ['wine-tours', 'vineyards', 'wine-festivals', 'wine-hotels'],
+        'wine-history':     ['signature-grapes', 'wine-museums', 'signature-wines', 'wine-festivals'],
+        'seasonal-wine':    ['wine-festivals', 'wine-experiences', 'vineyards', 'itineraries'],
+        'signature-wines':  ['signature-grapes', 'vineyards', 'wine-retailers', 'food-pairing'],
+        'signature-grapes': ['signature-wines', 'vineyards', 'wine-history', 'neighborhoods'],
+        'budget-wines':     ['wine-retailers', 'hidden-gems', 'tasting-rooms', 'signature-wines'],
+        'hidden-gems':      ['vineyards', 'tasting-rooms', 'budget-wines', 'wine-bars'],
+        'day-trips-wine':   ['wine-tours', 'itineraries', 'neighborhoods', 'vineyards'],
+        'itineraries':      ['vineyards', 'wine-tours', 'wine-hotels', 'day-trips-wine'],
+        'neighborhoods':    ['vineyards', 'signature-grapes', 'day-trips-wine', 'tasting-rooms'],
+        'nightlife':        ['wine-bars', 'tasting-rooms', 'wine-restaurants', 'hidden-gems'],
+        'dietary':          ['vineyards', 'signature-grapes', 'wine-bars', 'hidden-gems'],
+        'food-pairing':     ['wine-restaurants', 'signature-wines', 'signature-grapes', 'wine-bars'],
     }
-    related_slugs = relations.get(current_topic, ['restaurants', 'signature-dishes', 'street-food', 'hidden-gems'])
+    related_slugs = relations.get(current_topic, ['vineyards', 'tasting-rooms', 'signature-wines', 'hidden-gems'])
     out = []
     for t in related_slugs:
         if t == current_topic:
@@ -393,6 +393,22 @@ def generate_topic_page(country_slug: str, topic_slug: str, region_slug: str = N
     # Prepare topic-specific data
     data = prepare_topic_data(data, topic_slug)
 
+    # Clean navigation: only link to sibling topics that actually have data,
+    # and expose the populated set so the template's sidebar quick-links can
+    # gate themselves (no links to thin/missing chapters).
+    try:
+        from utils.data_loader import load_country_data, populated_topic_slugs
+        _full = load_country_data(country_slug, region_slug=region_slug)
+        _populated = populated_topic_slugs(_full.get("research", {}))
+    except Exception:
+        _populated = set()
+    if _populated:
+        data['populated_topics'] = sorted(_populated)
+        data['related_topic_links'] = [
+            r for r in data.get('related_topic_links', [])
+            if r.get('slug') in _populated
+        ]
+
     # Render the page using topic-specific template
     html = render_page(data, page_type='TOPIC', topic_slug=topic_slug)
 
@@ -457,14 +473,34 @@ def _generate_topics_for_target(country_slug: str, topic_slug: str = None, regio
             traceback.print_exc()
             sys.exit(1)
     else:
-        # All topics
-        print(f"Generating all topic pages for {label}...")
-        for ts in STANDARD_TOPICS.keys():
+        # All topics — but ONLY those with real data, so we never ship a
+        # thin/empty chapter. Editorial topics (wine-history, seasonal-wine,
+        # itineraries, food-pairing) count as data once the agent fills them.
+        from utils.data_loader import load_country_data, populated_topic_slugs
+        try:
+            full = load_country_data(country_slug, region_slug=region_slug)
+            populated = populated_topic_slugs(full.get("research", {}))
+        except Exception as e:
+            print(f"  [WARN] could not compute populated topics for {label}: {e}; generating all")
+            populated = set(STANDARD_TOPICS.keys())
+        targets = [ts for ts in STANDARD_TOPICS.keys() if ts in populated]
+        skipped = [ts for ts in STANDARD_TOPICS.keys() if ts not in populated]
+        print(f"Generating {len(targets)} populated topic pages for {label} (skipping {len(skipped)} empty)...")
+        for ts in targets:
             try:
                 output_file = generate_topic_page(country_slug, ts, region_slug=region_slug)
                 print(f"  [OK] {ts} -> {output_file}")
             except Exception as e:
                 print(f"  [FAIL] {ts}: {e}")
+        # Prune any previously-generated topic page that is now empty (data
+        # dropped) so stale thin pages don't linger.
+        repo_root = Path(__file__).parent.parent
+        import shutil as _shutil
+        for ts in skipped:
+            base = (repo_root / "content" / country_slug / region_slug / ts) if region_slug else (repo_root / "content" / country_slug / ts)
+            if (base / "index.html").exists():
+                _shutil.rmtree(base)
+                print(f"  [PRUNE] removed now-empty {ts}")
 
 
 def main():

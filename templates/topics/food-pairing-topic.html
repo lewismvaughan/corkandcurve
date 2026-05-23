@@ -1,0 +1,32 @@
+{% extends "topics/_topic_base.html" %}
+
+{% block topic_intro %}
+<p class="tj-intro">{{ topic.intro | default('What to eat with the wines of ' ~ destination.name ~ ', and where the region food and wine meet.') }}</p>
+{% endblock %}
+
+{% block topic_sections %}
+{% if research.food_pairing %}
+<section class="tj-section" id="pairings">
+    <h2>Pairings to know in {{ destination.name }}</h2>
+    {% if research.food_pairing is iterable and research.food_pairing is not string %}
+    <div class="tj-card-grid">
+        {% for p in research.food_pairing %}
+        <article class="tj-card" data-name="{{ (p.wine or p.dish or p.name) | default('') }}">
+            <h3>{{ p.name | default((p.dish ~ ' + ' ~ p.wine) if (p.dish and p.wine) else (p.dish or p.wine)) }}</h3>
+            <div class="tj-card-meta">
+                {% if p.dish %}<span class="tj-tag">{{ p.dish }}</span>{% endif %}
+                {% if p.wine %}<span class="tj-tag">{{ p.wine }}</span>{% endif %}
+                {% if p.varietal %}<span>{{ p.varietal }}</span>{% endif %}
+            </div>
+            {% if p.note or p.description %}<p class="tj-card-desc">{{ p.note or p.description }}</p>{% endif %}
+            {% set _tj = p.tablejourney_url or p.tj_url %}
+            {% if _tj %}<p style="margin-top:6px"><a class="tj-card-link" href="{{ _tj }}" rel="noopener">Eat it on TableJourney →</a></p>{% endif %}
+        </article>
+        {% endfor %}
+    </div>
+    {% else %}
+    <p>{{ research.food_pairing }}</p>
+    {% endif %}
+</section>
+{% endif %}
+{% endblock %}

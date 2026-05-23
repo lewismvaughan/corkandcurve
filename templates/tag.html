@@ -1,0 +1,168 @@
+{# Per-tag index page: /tag/<slug>/ (global) and /tag/<slug>/<region>/ (scoped)
+
+   Lists every cuvée that carries this tag. Context expected, set by
+   generate_tag_pages.py:
+     tag_slug          the controlled vocabulary slug (e.g. "pairs-with-lamb")
+     tag_display       human label ("Pairs with lamb")
+     tag_axis          which axis the tag belongs to (pairing / style / ...)
+     tag_axis_label    human axis label
+     scope             "global" | "region"
+     scope_region      {country, region, country_name, region_name, url} when scope=="region"
+     wines             [{name, producer, producer_name, region_name, country_slug,
+                         region_slug, style, price_band, taste_summary, url}]
+                       sorted by region then name
+     related_tags      [{slug, display, count}] siblings in the same axis
+     breadcrumb        [{name, url}]
+     canonical_url     absolute https://corkandcurve.com/...
+#}
+{% extends "base.html" %}
+{% from "topics/_macros.html" import star_strip, price_tier %}
+
+{% block title %}{{ seo.meta.title }}{% endblock %}
+
+{% block hero %}
+<section class="tj-hero tj-container">
+    <a href="/" class="tj-back-hub" aria-label="Back to home">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg>
+        All wines on Cork & Curve
+    </a>
+    <div class="tj-hero-body">
+        <h1 itemprop="headline">{{ tag_display }}{% if scope == 'region' and scope_region %} in {{ scope_region.region_name }}{% endif %}</h1>
+        <p class="tj-hero-tagline">
+            Every cuvée we cover tagged
+            <strong>{{ tag_display | lower }}</strong>{% if scope == 'region' and scope_region %}, narrowed to {{ scope_region.region_name }}{% endif %}.
+            {{ wines | length }} cuvée{{ '' if wines | length == 1 else 's' }}.
+        </p>
+        <div class="tj-byline">
+            <span class="tj-stamp">{{ tag_axis_label }} tag</span>
+            {% if scope == 'global' %}<span>· Global</span>{% else %}<span>· {{ scope_region.country_name }}</span>{% endif %}
+        </div>
+    </div>
+</section>
+{% endblock %}
+
+{% block schema_extra %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "CollectionPage",
+      "@id": "{{ canonical_url }}#collection",
+      "name": {{ (tag_display ~ (' in ' ~ scope_region.region_name if scope == 'region' else '')) | tojson }},
+      "url": {{ canonical_url | tojson }},
+      "isPartOf": { "@type": "WebSite", "name": "Cork & Curve", "url": "https://corkandcurve.com" }
+    },
+    {
+      "@type": "ItemList",
+      "@id": "{{ canonical_url }}#items",
+      "numberOfItems": {{ wines | length }},
+      "itemListElement": [
+        {% for w in wines[:50] %}
+        { "@type": "ListItem", "position": {{ loop.index }}, "url": "https://corkandcurve.com{{ w.url }}", "name": {{ w.name | tojson }} }{% if not loop.last %},{% endif %}
+        {% endfor %}
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {% for c in breadcrumb %}
+        { "@type": "ListItem", "position": {{ loop.index }}, "name": {{ c.name | tojson }}{% if c.url %}, "item": "https://corkandcurve.com{{ c.url }}"{% endif %} }{% if not loop.last %},{% endif %}
+        {% endfor %}
+      ]
+    }
+  ]
+}
+</script>
+{% endblock %}
+
+{% block content %}
+<div class="tj-layout-3">
+    <aside class="tj-toc" aria-label="On this page">
+        <h4>On this page</h4>
+        <ul>
+            <li><a href="#cuvees">Cuvées</a></li>
+            {% if related_tags %}<li><a href="#related">Related tags</a></li>{% endif %}
+        </ul>
+    </aside>
+
+    <div class="tj-main-col">
+        <section class="tj-section" id="cuvees">
+            <h2>Cuvées</h2>
+            {% if wines %}
+            <div class="tj-card-grid">
+                {% for w in wines %}
+                {# Build the descriptor line — same shape as wine.html hero. #}
+                {% set descs = [] %}
+                {% if w.sweetness %}{% set _ = descs.append(w.sweetness | replace('-', ' ') | title) %}{% endif %}
+                {% if w.taste_body %}{% set _ = descs.append(w.taste_body | title ~ '-bodied') %}{% endif %}
+                {% if w.taste_tannin %}{% set _ = descs.append(w.taste_tannin | title ~ ' tannin') %}{% endif %}
+                {% if w.taste_acidity %}{% set _ = descs.append(w.taste_acidity | title ~ ' acidity') %}{% endif %}
+                {% for m in w.mood_descriptors | default([]) %}{% set _ = descs.append(m) %}{% endfor %}
+                <article class="tj-card" data-name="{{ w.name }}">
+                    <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:12px;">
+                        <h3 style="flex:1 1 auto;margin:0;"><a class="tj-card-title-link" href="{{ w.url }}">{{ w.name }}</a></h3>
+                        {% if w.editorial_score is number and w.editorial_score >= 1.0 %}
+                        <div aria-label="Cork & Curve editorial rating {{ '%.1f' | format(w.editorial_score) }} out of 5"
+                             style="flex:0 0 auto;text-align:center;padding:6px 10px;border:1px solid var(--tj-border, #d9d2c8);border-radius:var(--tj-radius, 6px);background:var(--tj-surface, #faf8f4);min-width:60px;">
+                            <div style="font-size:1.1rem;font-weight:700;line-height:1;color:var(--tj-accent, #7a1d2d);">{{ '%.1f' | format(w.editorial_score) }}</div>
+                            <div style="margin-top:3px;">
+                                {{ star_strip(w.editorial_score, size='0.9rem') }}
+                            </div>
+                        </div>
+                        {% endif %}
+                    </div>
+                    {% if descs %}<p style="margin:6px 0 8px;font-size:0.9rem;color:var(--tj-text, #222);">{{ descs | join(' · ') }}</p>{% endif %}
+                    <div class="tj-card-meta">
+                        {% if w.producer_name %}<span class="tj-tag">{{ w.producer_name }}</span>{% endif %}
+                        {% if w.region_name %}<span class="tj-tag">{{ w.region_name }}</span>{% endif %}
+                        {% if w.price_tier %}<span title="{{ w.price_tier.label }}: {{ w.price_tier.range }}">{{ price_tier(w.price_tier) }}</span>{% endif %}
+                        {% if w.style %}<span class="tj-tag">{{ w.style | replace('-', ' ') | title }}</span>{% endif %}
+                    </div>
+                    {% if w.taste_summary %}<p class="tj-card-desc">{{ w.taste_summary }}</p>{% endif %}
+                    <div class="tj-card-foot"><a class="tj-card-link" href="{{ w.url }}">Cuvée page →</a></div>
+                </article>
+                {% endfor %}
+            </div>
+            {% else %}
+            <p>No cuvées carry this tag yet.</p>
+            {% endif %}
+        </section>
+
+        {% if related_tags %}
+        <section class="tj-section" id="related">
+            <h2>Related tags</h2>
+            <div class="tj-tag-chips" style="display:flex;flex-wrap:wrap;gap:6px;">
+                {% for r in related_tags %}
+                <a href="/tag/{{ r.slug }}/" class="tj-tag-chip"
+                   style="padding:6px 12px;border:1px solid var(--tj-border);border-radius:999px;background:var(--tj-surface);text-decoration:none;color:inherit;font-size:0.9rem;">{{ r.display }} <span style="opacity:0.6;">({{ r.count }})</span></a>
+                {% endfor %}
+            </div>
+        </section>
+        {% endif %}
+
+        {% if scope == 'global' and scope_regions_with_tag %}
+        <section class="tj-section" id="by-region">
+            <h2>By region</h2>
+            <ul class="tj-sidebar-list">
+                {% for r in scope_regions_with_tag %}
+                <li><a href="/tag/{{ tag_slug }}/{{ r.region_slug }}/">{{ r.region_name }} ({{ r.count }})</a></li>
+                {% endfor %}
+            </ul>
+        </section>
+        {% endif %}
+    </div>
+
+    <aside class="tj-sidebar" aria-label="Sidebar">
+        <div class="tj-sidebar-box">
+            <h3>Browse</h3>
+            <ul class="tj-sidebar-list">
+                <li><a href="/regions/">All regions</a></li>
+                <li><a href="/grapes/">All grapes</a></li>
+                <li><a href="/styles/">All wine styles</a></li>
+                <li><a href="/search/">Wine search</a></li>
+            </ul>
+        </div>
+    </aside>
+</div>
+{% endblock %}

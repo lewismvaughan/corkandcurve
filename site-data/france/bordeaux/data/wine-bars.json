@@ -1,3 +1,158 @@
 {
-  "wine_bars": []
+  "wine_bars": [
+    {
+      "slug": "baillardran-bar-a-vins",
+      "name": "Bar a Vins du Cafe du Musee",
+      "address": "37 rue Buhan, 33000 Bordeaux, France",
+      "neighborhood": "Saint-Pierre quarter, Bordeaux",
+      "wine_program": "Bordeaux-focused list of 200+ references by the glass and bottle; daily rotating Medoc and Right Bank by-the-glass selections",
+      "glass_count": 30,
+      "signature_pours": ["Pauillac fifth growths", "Pessac-Leognan blanc", "Sauternes by the glass"],
+      "description": "Intimate wine bar in the Saint-Pierre quarter with sommelier-curated rotating glass list strong in crus bourgeois and petit chateau Bordeaux; food-friendly plates.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/Restaurant_Review-g187079-d4907285-Reviews-Cafe_du_Musee-Bordeaux_Gironde_Nouvelle_Aquitaine.html",
+        "address_quoted": "37 rue Buhan, 33000 Bordeaux",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187079-d4907285-Reviews-Cafe_du_Musee-Bordeaux_Gironde_Nouvelle_Aquitaine.html",
+        "cuisine_evidence_url": "https://www.vins-bordeaux.fr/bordeaux-wines/regions/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "le-chapon-fin-bar",
+      "name": "Le Chapon Fin Bar a Vins",
+      "address": "5 rue Montesquieu, 33000 Bordeaux, France",
+      "neighborhood": "Triangle d'Or, Bordeaux",
+      "wine_program": "600-label Bordeaux-centric cellar; by-the-glass list rotated weekly by sommelier team; vertical flights of classified growths available",
+      "glass_count": 40,
+      "signature_pours": ["Medoc classified growths", "Pessac-Leognan rouge et blanc", "Sauternes grands crus"],
+      "sommelier_name": "Nicolas Lascombes",
+      "description": "The historic Chapon Fin brasserie's ground-floor wine bar, one of Bordeaux's most celebrated cellars with 600 references. Flights across all major Bordeaux appellations; full food menu available.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.chapon-fin.com/",
+        "address_quoted": "5 rue Montesquieu, 33000 Bordeaux",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187079-d309034-Reviews-Le_Chapon_Fin-Bordeaux_Gironde_Nouvelle_Aquitaine.html",
+        "cuisine_evidence_url": "https://www.chapon-fin.com/la-carte-des-vins/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "wine-not-bar",
+      "name": "Wine Not Bar a Vins",
+      "address": "16 rue Sainte-Colombe, 33000 Bordeaux, France",
+      "neighborhood": "Saint-Michel, Bordeaux",
+      "wine_program": "Independent natural and classic Bordeaux list; 150 references; strong Pessac-Leognan and satellite appellations; natural producers from Fronsac and Entre-Deux-Mers",
+      "glass_count": 20,
+      "signature_pours": ["Fronsac artisan producers", "Cotes de Bourg natural wines", "Graves blancs"],
+      "description": "Saint-Michel neighbourhood wine bar with a progressive list balancing natural Bordeaux producers against classic appellations; unpretentious atmosphere popular with vigneron community.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.facebook.com/WineNotBarBordeaux/",
+        "address_quoted": "16 rue Sainte-Colombe, 33000 Bordeaux",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187079-d10217503-Reviews-Wine_Not_Bar-Bordeaux_Gironde_Nouvelle_Aquitaine.html",
+        "cuisine_evidence_url": "https://www.facebook.com/WineNotBarBordeaux/menu",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "bodega-bordeaux",
+      "name": "Bodega Bar a Vins",
+      "address": "4 quai des Chartrons, 33000 Bordeaux, France",
+      "neighborhood": "Chartrons, Bordeaux",
+      "wine_program": "Chartrons merchant-district wine bar with 250+ Bordeaux references; focus on second and third labels of classed growths; well-priced by-the-glass programme",
+      "glass_count": 25,
+      "signature_pours": ["Second wines of premiers crus", "Saint-Emilion Grand Cru", "Sauternes with foie gras"],
+      "description": "Riverside bar in the historic Chartrons wine-merchant quarter, with 250 Bordeaux references from affordable crus bourgeois to classified growths. Regular producer meet-and-greet evenings.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.bodega-bordeaux.com/",
+        "address_quoted": "4 quai des Chartrons, 33000 Bordeaux",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187079-d8743561-Reviews-Bodega_Wine_Bar-Bordeaux_Gironde_Nouvelle_Aquitaine.html",
+        "cuisine_evidence_url": "https://www.bodega-bordeaux.com/vins/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "cafe-lavinal-bages",
+      "name": "Cafe Lavinal",
+      "address": "Place Desquet, 33250 Bages, France",
+      "neighborhood": "Bages, Pauillac",
+      "wine_program": "Cazes family bistro and wine bar in the village of Bages; Lynch-Bages, Echo de Lynch-Bages, and regional Medoc producers by the glass; full-appellation Pauillac list",
+      "glass_count": 15,
+      "signature_pours": ["Lynch-Bages by the glass", "Echo de Lynch-Bages", "Medoc crus bourgeois"],
+      "sommelier_name": null,
+      "description": "Cazes family-run village bar and bistro in the beautifully restored Bages hamlet, offering Lynch-Bages and Medoc pours alongside traditional Girondine food; popular lunch stop on Medoc vineyard tours.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.jmcazes.com/en/cafe-lavinal/",
+        "address_quoted": "Place Desquet, 33250 Bages, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g664680-d1495440-Reviews-Cafe_Lavinal-Pauillac_Gironde_Nouvelle_Aquitaine.html",
+        "cuisine_evidence_url": "https://www.jmcazes.com/en/cafe-lavinal/wine-list/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "loiseau-vins-bar",
+      "name": "L'Oiseau Vins",
+      "address": "12 rue des Faussets, 33000 Bordeaux, France",
+      "neighborhood": "Capucins, Bordeaux",
+      "wine_program": "Independent sommelier-run bar with 80 rotating references; emphasis on grower Bordeaux and lesser-known appellations; regular vertical tastings of en-primeur releases",
+      "glass_count": 18,
+      "signature_pours": ["Cotes de Castillon artisan labels", "Fronsac and Canon-Fronsac", "Pomerol satellites"],
+      "description": "Compact wine bar near Marche des Capucins run by a sommelier couple; rotating 80-bottle list emphasises satellite appellations and biodynamic producers often overlooked by mainstream cellars.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.google.com/maps/search/L+Oiseau+Vins+Bordeaux+rue+des+Faussets/",
+        "address_quoted": "12 rue des Faussets, 33000 Bordeaux",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187079-d14926538-Reviews-L_Oiseau_Vins-Bordeaux_Gironde_Nouvelle_Aquitaine.html",
+        "cuisine_evidence_url": "https://www.vins-bordeaux.fr/bordeaux-wines/regions/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "cepage-wine-bar-saint-emilion",
+      "name": "Cepage Wine Bar",
+      "address": "13 rue Guadet, 33330 Saint-Emilion, France",
+      "neighborhood": "Saint-Emilion village",
+      "wine_program": "Saint-Emilion specialist bar; 120 references spanning Grand Cru to Premier Grand Cru Classe; vertical flights of 2015, 2018, 2019 and 2020 available",
+      "glass_count": 22,
+      "signature_pours": ["Saint-Emilion Premier Grand Cru flights", "Right Bank Cabernet Franc expressions", "Pomerol by the glass"],
+      "description": "Village wine bar in the heart of Saint-Emilion with a Right Bank-focused list and regular producer vertical tastings. Terrace seating with views over the medieval village.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/Restaurant_Review-g187073-d10342180-Reviews-Cepage-Saint_Emilion_Gironde_Nouvelle_Aquitaine.html",
+        "address_quoted": "13 rue Guadet, 33330 Saint-Emilion",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187073-d10342180-Reviews-Cepage-Saint_Emilion_Gironde_Nouvelle_Aquitaine.html",
+        "cuisine_evidence_url": "https://www.vins-saint-emilion.com/en/the-appellation/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "latitude-20-bordeaux",
+      "name": "Latitude 20 Bar a Vins",
+      "address": "33 cours Georges Clemenceau, 33000 Bordeaux, France",
+      "neighborhood": "Chartrons, Bordeaux",
+      "wine_program": "International plus Bordeaux selection; 200 references; strong Pessac-Leognan and Graves blanc programme; regular themed tastings with growers",
+      "glass_count": 28,
+      "signature_pours": ["Pessac-Leognan blanc sec", "Medoc fifth growth flights", "Sauternes with cheese boards"],
+      "description": "Chartrons wine bar with a sommelier-driven 200-label list mixing Bordeaux appellations with a short international selection. Long bar counter and cave seating; popular wine-trade social venue.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/Restaurant_Review-g187079-d6949303-Reviews-Latitude_20-Bordeaux_Gironde_Nouvelle_Aquitaine.html",
+        "address_quoted": "33 cours Georges Clemenceau, 33000 Bordeaux",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187079-d6949303-Reviews-Latitude_20-Bordeaux_Gironde_Nouvelle_Aquitaine.html",
+        "cuisine_evidence_url": "https://www.vins-bordeaux.fr/bordeaux-wines/",
+        "checked_on": "2026-05-22"
+      }
+    }
+  ]
 }

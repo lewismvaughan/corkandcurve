@@ -50,28 +50,30 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 SITE_DATA = REPO_ROOT / "site-data"
 TIMEOUT = 15
 WORKERS = 8
-UA = "TableJourney-EvidenceChecker/1.0 (+https://tablejourney.com)"
+UA = "CorkAndCurve-EvidenceChecker/1.0 (+https://corkandcurve.com)"
 
 ENTITY_LIST_KEYS = (
-    "restaurants", "fine_dining", "casual_dining", "cafes", "bakeries",
-    "coffee_roasters", "wine_bars", "bars", "street_food", "breweries",
-    "markets", "food_tours", "food_festivals", "cooking_classes",
-    "budget_eating", "hidden_gems", "brunch", "late_night", "day_trips_food",
+    "vineyards", "tasting_rooms", "wine_bars", "wine_restaurants",
+    "wine_retailers", "wine_schools", "wine_tours", "wine_festivals",
+    "distilleries", "wine_museums", "wine_hotels", "wine_experiences",
+    "budget_wines", "hidden_gems", "day_trips_wine",
 )
 SKIP_FILES = {
-    "itineraries.json", "signature-dishes.json", "region.json",
-    "city.json", "neighborhoods.json", "food-history.json",
-    "seasonal-food.json",
+    "itineraries.json", "signature-wines.json", "signature-grapes.json",
+    "food-pairing.json", "region.json", "neighborhoods.json",
+    "wine-history.json", "seasonal-wine.json",
 }
 
-# Dietary sub-categories and the substrings that count as "page says X".
-# Broad on purpose; better a false positive than a missed defect.
+# Dietary / winemaking sub-categories and the substrings that count as
+# "page says X". Broad on purpose; better a false positive than a missed
+# defect. Keys match the dietary.json sub-categories scaffolded by
+# new_region.py (biodynamic / organic / natural / vegan_winemaking / lowsulfite).
 DIETARY_SYNONYMS: dict[str, tuple[str, ...]] = {
-    "vegan":       ("vegan", "plant-based", "plant based", "100% plant"),
-    "vegetarian":  ("vegetarian", "no meat", "meat-free", "meatless", "shojin", "shojin ryori"),
-    "gluten_free": ("gluten-free", "gluten free", "gluten-friendly", "celiac", "coeliac", "100% gf", "dedicated gluten"),
-    "halal":       ("halal", "halaal", "zabihah", "muslim-friendly"),
-    "kosher":      ("kosher", "casher", "beth din", "orthodox union", "ou-certified", "crc", "cor"),
+    "biodynamic":       ("biodynamic", "demeter", "biodynamie", "biodynamics", "respekt-biodyn"),
+    "organic":          ("organic", "ecocert", "usda organic", "agriculture biologique", "certified ab", "icea", "ccpb"),
+    "natural":          ("natural wine", "low intervention", "low-intervention", "minimal intervention", "vin nature", "vins naturels", "zero zero", "zero-zero"),
+    "vegan_winemaking": ("vegan", "unfined", "plant-based fining", "no animal", "vegan-friendly", "vegan wine"),
+    "lowsulfite":       ("low sulfite", "low-sulfite", "no added sulfites", "no added sulphur", "minimal sulfites", "without sulfites", "low so2"),
 }
 
 # Topic-level claims: we DON'T check these. Venues don't describe

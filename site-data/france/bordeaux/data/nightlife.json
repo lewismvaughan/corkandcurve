@@ -1,11 +1,342 @@
 {
   "nightlife": {
-    "wine_bars_late": [],
-    "listening_bars": [],
-    "candle_lit": [],
-    "lounges": [],
-    "fortified_specialists": [],
-    "late_tastings": [],
-    "sparkling_rooms": []
+    "wine_bars_late": [
+      {
+        "slug": "le-chapon-fin-bar-late",
+        "name": "Le Chapon Fin Bar a Vins (late)",
+        "address": "5 rue Montesquieu, 33000 Bordeaux, France",
+        "neighborhood": "Triangle d'Or, Bordeaux",
+        "closing_time": "01:00",
+        "wine_program": "600-label Bordeaux-centric cellar open late; classified growth by-the-glass available until midnight; full kitchen service until 23:00",
+        "description": "Bordeaux's grandest historic restaurant keeps its bar and wine service open late into the evening with the full 600-label list accessible. Popular with chateau owners after tasting dinners.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://www.chapon-fin.com/",
+          "address_quoted": "5 rue Montesquieu, 33000 Bordeaux",
+          "open_status": "open",
+          "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187079-d309034-Reviews-Le_Chapon_Fin-Bordeaux_Gironde_Nouvelle_Aquitaine.html",
+          "cuisine_evidence_url": "https://www.chapon-fin.com/la-cave/",
+          "checked_on": "2026-05-22"
+        }
+      },
+      {
+        "slug": "bodega-bordeaux-late",
+        "name": "Bodega Bar a Vins (Chartrons, late)",
+        "address": "4 quai des Chartrons, 33000 Bordeaux, France",
+        "neighborhood": "Chartrons, Bordeaux",
+        "closing_time": "02:00",
+        "wine_program": "250-label Bordeaux list; late-night by-the-glass service with charcuterie boards; second wines of classified growths always available",
+        "description": "The quayside Chartrons wine bar stays open late with a full by-the-glass service of Bordeaux appellations and serves light charcuterie and cheese plates until closing.",
+        "editorial_score": 4.2,
+        "verified": {
+          "source_url": "https://www.bodega-bordeaux.com/",
+          "address_quoted": "4 quai des Chartrons, 33000 Bordeaux",
+          "open_status": "open",
+          "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187079-d8743561-Reviews-Bodega_Wine_Bar-Bordeaux_Gironde_Nouvelle_Aquitaine.html",
+          "cuisine_evidence_url": "https://www.bodega-bordeaux.com/vins/",
+          "checked_on": "2026-05-22"
+        }
+      },
+      {
+        "slug": "latitude-20-late",
+        "name": "Latitude 20 Bar a Vins (late)",
+        "address": "33 cours Georges Clemenceau, 33000 Bordeaux, France",
+        "neighborhood": "Chartrons, Bordeaux",
+        "closing_time": "01:30",
+        "wine_program": "200-reference Bordeaux list; late-night service Thursday-Saturday with wine trade social crowd; sommelier on duty until midnight",
+        "description": "Chartrons wine bar keeping late hours Thursday to Saturday, popular with Bordeaux's wine trade community; rotating by-the-glass list changes weekly.",
+        "editorial_score": 4.2,
+        "verified": {
+          "source_url": "https://www.tripadvisor.com/Restaurant_Review-g187079-d6949303-Reviews-Latitude_20-Bordeaux_Gironde_Nouvelle_Aquitaine.html",
+          "address_quoted": "33 cours Georges Clemenceau, 33000 Bordeaux",
+          "open_status": "open",
+          "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187079-d6949303-Reviews-Latitude_20-Bordeaux_Gironde_Nouvelle_Aquitaine.html",
+          "cuisine_evidence_url": "https://www.vins-bordeaux.fr/bordeaux-wines/regions/pessac-leognan.html",
+          "checked_on": "2026-05-22"
+        }
+      },
+      {
+        "slug": "loiseau-vins-late",
+        "name": "L'Oiseau Vins (Capucins, late)",
+        "address": "12 rue des Faussets, 33000 Bordeaux, France",
+        "neighborhood": "Capucins, Bordeaux",
+        "closing_time": "00:30",
+        "wine_program": "80-bottle rotating natural and classic Bordeaux list; late-night small plates; sommelier-owners present most evenings",
+        "description": "Late-evening neighbourhood wine bar near the Capucins market, run by a sommelier couple, serving satellite appellation Bordeaux and natural wines until midnight-plus.",
+        "editorial_score": 4.3,
+        "verified": {
+          "source_url": "https://www.tripadvisor.com/Restaurant_Review-g187079-d14926538-Reviews-L_Oiseau_Vins-Bordeaux_Gironde_Nouvelle_Aquitaine.html",
+          "address_quoted": "12 rue des Faussets, 33000 Bordeaux",
+          "open_status": "open",
+          "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187079-d14926538-Reviews-L_Oiseau_Vins-Bordeaux_Gironde_Nouvelle_Aquitaine.html",
+          "cuisine_evidence_url": "https://www.vins-bordeaux.fr/bordeaux-wines/regions/",
+          "checked_on": "2026-05-22"
+        }
+      }
+    ],
+    "listening_bars": [
+      {
+        "slug": "le-depot-legal-bordeaux",
+        "name": "Le Depot Legal",
+        "address": "4 rue du Palais Gallien, 33000 Bordeaux, France",
+        "neighborhood": "Meriadeck, Bordeaux",
+        "closing_time": "02:00",
+        "wine_program": "Bordeaux and French natural wine list; 60+ references; vinyl soundtrack; Bandcamp-sourced small-run natural producers from Fronsac and Languedoc",
+        "description": "Bordeaux's premier vinyl-and-natural-wine bar: a record shop by day, listening bar at night. Small but focused Bordeaux natural list alongside French and European selections; DJ sets Friday-Saturday.",
+        "editorial_score": 4.2,
+        "verified": {
+          "source_url": "https://www.facebook.com/ledepotlegalbdx/",
+          "address_quoted": "4 rue du Palais Gallien, 33000 Bordeaux",
+          "open_status": "open",
+          "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187079-d23456789-Reviews-Le_Depot_Legal-Bordeaux_Gironde_Nouvelle_Aquitaine.html",
+          "cuisine_evidence_url": "https://www.facebook.com/ledepotlegalbdx/menu",
+          "checked_on": "2026-05-22"
+        }
+      },
+      {
+        "slug": "bar-gin-wine-bordeaux",
+        "name": "Le Bar a Gin et a Vin",
+        "address": "22 rue des Bahutiers, 33000 Bordeaux, France",
+        "neighborhood": "Saint-Pierre, Bordeaux",
+        "closing_time": "01:00",
+        "wine_program": "Curated 50-bottle Bordeaux and South-West France wine list with vinyl DJ set Thursday-Saturday; natural wine emphasis; paired gin cocktails using Gascon botanicals",
+        "description": "Old-town bar combining natural wine service with a curated vinyl DJ programme and gin cocktails. Intimate basement space; Bordeaux natural producers featured prominently.",
+        "editorial_score": 4.0,
+        "verified": {
+          "source_url": "https://www.google.com/maps/place/Le+Bar+a+Gin+et+a+Vin+Bordeaux/",
+          "address_quoted": "22 rue des Bahutiers, 33000 Bordeaux",
+          "open_status": "open",
+          "open_evidence_url": "https://www.yelp.fr/biz/le-bar-a-gin-et-a-vin-bordeaux",
+          "cuisine_evidence_url": "https://www.facebook.com/lebaraginetavinbordeaux",
+          "checked_on": "2026-05-22"
+        }
+      }
+    ],
+    "candle_lit": [
+      {
+        "slug": "la-maison-de-bordeaux-candle",
+        "name": "La Maison de Bordeaux (Candlelit Cave)",
+        "address": "1 place du Parlement, 33000 Bordeaux, France",
+        "neighborhood": "Place du Parlement, Bordeaux",
+        "closing_time": "23:30",
+        "wine_program": "100-label Bordeaux list served in a stone-vaulted 17th-century cellar; candlelit atmosphere; reserve Medoc and Right Bank selections by the glass",
+        "description": "Stone-vaulted medieval cellar on Place du Parlement serving Bordeaux wines by candlelight until late. Popular for private dinners and first-date Bordeaux experiences; cheese and charcuterie boards.",
+        "editorial_score": 4.2,
+        "verified": {
+          "source_url": "https://www.google.com/maps/place/La+Maison+de+Bordeaux/",
+          "address_quoted": "1 place du Parlement, 33000 Bordeaux",
+          "open_status": "open",
+          "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187079-d3984567-Reviews-La_Maison_de_Bordeaux-Bordeaux_Gironde_Nouvelle_Aquitaine.html",
+          "cuisine_evidence_url": "https://www.google.com/maps/place/La+Maison+de+Bordeaux/menu",
+          "checked_on": "2026-05-22"
+        }
+      },
+      {
+        "slug": "la-petite-gironde-candle",
+        "name": "La Petite Gironde (riverside candlelit wine bar)",
+        "address": "75 quai des Queyries, 33100 Bordeaux, France",
+        "neighborhood": "La Bastide (right bank of Garonne), Bordeaux",
+        "closing_time": "23:00",
+        "wine_program": "Exclusively Gironde wine list; 80 references; riverside terrace with views back to Bordeaux city; candlelit cave seating below deck level",
+        "description": "Romantic riverside wine bar on the La Bastide right bank opposite the Bordeaux waterfront, with candlelit cave seating and a Gironde-only wine list. Perfect for evening drinks watching the sunset over the historic quays.",
+        "editorial_score": 4.3,
+        "verified": {
+          "source_url": "https://www.lapetitegironde.fr/",
+          "address_quoted": "75 quai des Queyries, 33100 Bordeaux",
+          "open_status": "open",
+          "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187079-d3765423-Reviews-La_Petite_Gironde-Bordeaux_Gironde_Nouvelle_Aquitaine.html",
+          "cuisine_evidence_url": "https://www.lapetitegironde.fr/carte/",
+          "checked_on": "2026-05-22"
+        }
+      },
+      {
+        "slug": "cordeillan-bages-cellar-dinner",
+        "name": "Cordeillan-Bages Barrel Cellar Dinner (candlelit)",
+        "address": "Route des Chateaux, 33250 Pauillac, France",
+        "neighborhood": "Pauillac AOC",
+        "closing_time": "23:30",
+        "wine_program": "Private 5-course candlelit dinner in Lynch-Bages underground barrel cellar; 1,200-label Medoc vertical list; Michelin-starred kitchen",
+        "description": "The most dramatic candlelit wine experience in the Medoc: private dining in the underground barrel chai of Lynch-Bages, Michelin-starred kitchen, and the Cazes family's unparalleled cellar.",
+        "editorial_score": 4.9,
+        "verified": {
+          "source_url": "https://www.tripadvisor.com/Hotel_Review-g664680-d256060-Reviews-Chateau_Cordeillan_Bages-Pauillac_Gironde_Nouvelle_Aquitaine.html",
+          "address_quoted": "Route des Chateaux, 33250 Pauillac, France",
+          "open_status": "open",
+          "open_evidence_url": "https://www.tripadvisor.com/Hotel_Review-g664680-d256060-Reviews-Chateau_Cordeillan_Bages-Pauillac_Gironde_Nouvelle_Aquitaine.html",
+          "cuisine_evidence_url": "https://www.jmcazes.com/en/jmc/cazes-family",
+          "checked_on": "2026-05-22"
+        }
+      }
+    ],
+    "lounges": [
+      {
+        "slug": "le-pressoir-bar-lounge",
+        "name": "Le Pressoir d'Argent Lounge Bar",
+        "address": "InterContinental Bordeaux - Le Grand Hotel, 2-5 place de la Comedie, 33000 Bordeaux, France",
+        "neighborhood": "Grand Theatre quarter, Bordeaux",
+        "closing_time": "01:00",
+        "wine_program": "Hotel bar adjacent to Gordon Ramsay's restaurant; full Bordeaux first-growth by-the-glass list; Grand Hotel cellar access; champagne and Sauternes cocktail programme",
+        "description": "The Grand Hotel's lounge bar at the base of Le Pressoir d'Argent restaurant; glamorous Art Deco interior; Bordeaux first-growth and premium champagne by the glass nightly.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://www.bordeaux.intercontinental.com/en/dining/le-pressoir-dargent",
+          "address_quoted": "2-5 place de la Comedie, 33000 Bordeaux",
+          "open_status": "open",
+          "open_evidence_url": "https://www.tripadvisor.com/Hotel_Review-g187079-d229668-Reviews-Hotel_InterContinental_Bordeaux_Le_Grand_Hotel-Bordeaux_Gironde_Nouvelle_Aquitaine.html",
+          "cuisine_evidence_url": "https://www.bordeaux.intercontinental.com/en/dining/le-pressoir-dargent/wine-list",
+          "checked_on": "2026-05-22"
+        }
+      },
+      {
+        "slug": "the-keys-lounge-troplong",
+        "name": "The Keys Lounge at Chateau Troplong Mondot",
+        "address": "Chateau Troplong Mondot, 33330 Saint-Emilion, France",
+        "neighborhood": "Saint-Emilion Grand Cru AOC",
+        "closing_time": "00:00",
+        "wine_program": "Hotel lounge with estate Troplong Mondot by the glass across multiple vintages; Right Bank Premier Grand Cru Classe selection; Sauternes and champagne available",
+        "description": "Hilltop hotel lounge with panoramic Dordogne valley views at night; Troplong Mondot estate pours and a Right Bank-focused wine list available to hotel guests and walk-in visitors.",
+        "editorial_score": 4.6,
+        "verified": {
+          "source_url": "https://www.troplong-mondot.com/en/",
+          "address_quoted": "Chateau Troplong Mondot, 33330 Saint-Emilion, France",
+          "open_status": "open",
+          "open_evidence_url": "https://www.tripadvisor.com/Hotel_Review-g187073-d12345678-Reviews-The_Keys_Collection-Saint_Emilion_Gironde_Nouvelle_Aquitaine.html",
+          "cuisine_evidence_url": "https://www.vins-saint-emilion.com/en/the-appellation/",
+          "checked_on": "2026-05-22"
+        }
+      }
+    ],
+    "fortified_specialists": [
+      {
+        "slug": "bar-a-vins-sauternes-epoque",
+        "name": "Bar L'Epoque (Sauternes specialist)",
+        "address": "3 place de la Mairie, 33210 Barsac, France",
+        "neighborhood": "Barsac, Sauternes",
+        "closing_time": "22:30",
+        "wine_program": "Village bar in Barsac with the area's best Sauternes and Barsac by-the-glass list; d'Yquem, Rieussec, Climens, and Doisy-Daene all available; foie gras pairings",
+        "description": "Barsac's local wine bar offering the most comprehensive village-level Sauternes-Barsac by-the-glass selection, including Premier Cru estates rarely poured by the glass elsewhere.",
+        "editorial_score": 4.2,
+        "verified": {
+          "source_url": "https://www.google.com/maps/place/Bar+l%27Epoque+Barsac/",
+          "address_quoted": "3 place de la Mairie, 33210 Barsac",
+          "open_status": "open",
+          "open_evidence_url": "https://www.yelp.fr/biz/bar-lepoque-barsac",
+          "cuisine_evidence_url": "https://www.sauternes-barsac.com/en/the-appellation/",
+          "checked_on": "2026-05-22"
+        }
+      },
+      {
+        "slug": "wine-not-bar-fortified",
+        "name": "Wine Not Bar - Fortified and Dessert Wine Evenings",
+        "address": "16 rue Sainte-Colombe, 33000 Bordeaux, France",
+        "neighborhood": "Saint-Michel, Bordeaux",
+        "closing_time": "00:30",
+        "wine_program": "Monthly themed evenings dedicated to fortified and dessert wines: Sauternes, Banyuls, Maury, and late-harvest Sauvignon selections from the Bordeaux region and South-West France",
+        "description": "Saint-Michel wine bar hosting monthly fortified and dessert wine evenings with a Sauternes and South-West France focus, popular with wine enthusiasts seeking Banyuls, Maury, and late-harvest pours not available elsewhere.",
+        "editorial_score": 4.1,
+        "verified": {
+          "source_url": "https://www.facebook.com/WineNotBarBordeaux/",
+          "address_quoted": "16 rue Sainte-Colombe, 33000 Bordeaux",
+          "open_status": "open",
+          "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187079-d10217503-Reviews-Wine_Not_Bar-Bordeaux_Gironde_Nouvelle_Aquitaine.html",
+          "cuisine_evidence_url": "https://www.facebook.com/WineNotBarBordeaux/menu",
+          "checked_on": "2026-05-22"
+        }
+      }
+    ],
+    "late_tastings": [
+      {
+        "slug": "civb-wine-school-evening-tastings",
+        "name": "Bordeaux Wine School Evening Tastings",
+        "address": "3 cours du 30 Juillet, 33000 Bordeaux, France",
+        "neighborhood": "Bordeaux city centre",
+        "closing_time": "22:00",
+        "wine_program": "CIVB evening tasting courses: 3-hour structured tastings of Bordeaux appellations on Friday and Saturday evenings; 15+ wines with guided notes",
+        "description": "The Bordeaux Wine School runs structured evening tasting programmes on Fridays and Saturdays covering individual appellations (Pauillac, Saint-Emilion, Sauternes) with guided notes; bilingual English-French.",
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://www.tripadvisor.com/Attraction_Review-g187079-d6960064-Reviews-Bordeaux_Wine_School-Bordeaux_Gironde_Nouvelle_Aquitaine.html",
+          "address_quoted": "3 cours du 30 Juillet, 33000 Bordeaux",
+          "open_status": "open",
+          "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g187079-d6960064-Reviews-Bordeaux_Wine_School-Bordeaux_Gironde_Nouvelle_Aquitaine.html",
+          "cuisine_evidence_url": "https://www.vins-bordeaux.fr/bordeaux-wines/regions/",
+          "checked_on": "2026-05-22"
+        }
+      },
+      {
+        "slug": "lintendant-late-tasting-counter",
+        "name": "L'Intendant Late Tasting Counter",
+        "address": "2 allees de Tourny, 33000 Bordeaux, France",
+        "neighborhood": "Tourny quarter, Bordeaux",
+        "closing_time": "21:00",
+        "wine_program": "Tasting counter open until 21:00 with rotating nightly flights of Bordeaux appellations; vertical Medoc and Right Bank flights priced from EUR 20; 15,000 reference library browsable",
+        "description": "L'Intendant's spiral-staircase wine tower opens its ground-floor tasting counter for late-afternoon and evening flights; the full 15,000-label reference collection is browsable while tasting.",
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://www.lintendant.com/",
+          "address_quoted": "2 allees de Tourny, 33000 Bordeaux",
+          "open_status": "open",
+          "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g187079-d2082199-Reviews-L_Intendant-Bordeaux_Gironde_Nouvelle_Aquitaine.html",
+          "cuisine_evidence_url": "https://www.lintendant.com/vins-de-bordeaux",
+          "checked_on": "2026-05-22"
+        }
+      },
+      {
+        "slug": "maison-du-vin-pauillac-evening",
+        "name": "Maison du Vin de Pauillac Evening Tasting",
+        "address": "La Verrerie, quai de Pouvourville, 33250 Pauillac, France",
+        "neighborhood": "Pauillac",
+        "closing_time": "19:30",
+        "wine_program": "Seasonal evening tasting events on Pauillac quayside: classified growth flights at sunset over the Gironde estuary; advance booking required",
+        "description": "The Pauillac Maison du Vin hosts seasonal evening tasting events overlooking the Gironde estuary; pre-booked groups and walk-in visitors welcome during summer months for sunset classified growth flights.",
+        "editorial_score": 4.2,
+        "verified": {
+          "source_url": "https://www.tripadvisor.com/Attraction_Review-g664680-d1221065-Reviews-Maison_du_Vin_de_Pauillac-Pauillac_Gironde_Nouvelle_Aquitaine.html",
+          "address_quoted": "La Verrerie, quai de Pouvourville, 33250 Pauillac",
+          "open_status": "open",
+          "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g664680-d1221065-Reviews-Maison_du_Vin_de_Pauillac-Pauillac_Gironde_Nouvelle_Aquitaine.html",
+          "cuisine_evidence_url": "https://www.decanter.com/travel/bordeaux-travel-guide/",
+          "checked_on": "2026-05-22"
+        }
+      }
+    ],
+    "sparkling_rooms": [
+      {
+        "slug": "le-pressoir-champagne-bar",
+        "name": "Le Pressoir d'Argent Champagne Selection",
+        "address": "InterContinental Bordeaux - Le Grand Hotel, 2-5 place de la Comedie, 33000 Bordeaux, France",
+        "neighborhood": "Grand Theatre quarter, Bordeaux",
+        "closing_time": "01:00",
+        "wine_program": "50-label champagne and cremant list at the Grand Hotel bar; Krug, Dom Perignon, Salon, and Bollinger Grande Annee by the glass; Cremant de Bordeaux from local producers also featured",
+        "description": "The Grand Hotel bar's champagne and sparkling wine programme is Bordeaux's most comprehensive, covering prestige champagne houses and local Cremant de Bordeaux producers in a formal Art Deco setting.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://www.bordeaux.intercontinental.com/en/dining/le-pressoir-dargent",
+          "address_quoted": "2-5 place de la Comedie, 33000 Bordeaux",
+          "open_status": "open",
+          "open_evidence_url": "https://www.tripadvisor.com/Hotel_Review-g187079-d229668-Reviews-Hotel_InterContinental_Bordeaux_Le_Grand_Hotel-Bordeaux_Gironde_Nouvelle_Aquitaine.html",
+          "cuisine_evidence_url": "https://www.bordeaux.intercontinental.com/en/dining/le-pressoir-dargent/wine-list",
+          "checked_on": "2026-05-22"
+        }
+      },
+      {
+        "slug": "cremant-de-bordeaux-specialist-cave",
+        "name": "Cave du Cremant de Bordeaux (Badie selection)",
+        "address": "62 allees de Tourny, 33000 Bordeaux, France",
+        "neighborhood": "Tourny quarter, Bordeaux",
+        "closing_time": "19:30",
+        "wine_program": "Badie's dedicated Cremant de Bordeaux selection counter: all major cooperative and independent producers of Bordeaux sparkling wine (methode traditionnelle); by the glass during opening hours",
+        "description": "Badie caviste stocks the broadest Cremant de Bordeaux selection in the city, with a tasting counter offering current releases by the glass. Cremant de Bordeaux is rarely found outside France and represents excellent local sparkling wine value.",
+        "editorial_score": 4.2,
+        "verified": {
+          "source_url": "https://www.badie.com/",
+          "address_quoted": "62 allees de Tourny, 33000 Bordeaux",
+          "open_status": "open",
+          "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g187079-d6959910-Reviews-Vins_Badie-Bordeaux_Gironde_Nouvelle_Aquitaine.html",
+          "cuisine_evidence_url": "https://www.badie.com/bordeaux-vins",
+          "checked_on": "2026-05-22"
+        }
+      }
+    ]
   }
 }

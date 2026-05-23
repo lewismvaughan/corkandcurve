@@ -15,7 +15,37 @@
 #}
 {% macro editorial_score(score) %}
 {%- if score is number and score >= 1.0 and score <= 5.0 -%}
-<span class="tj-score" aria-label="Cork and Curve editorial score {{ '%.1f'|format(score) }} out of 5">★ {{ '%.1f'|format(score) }}</span>
+<span class="tj-score" aria-label="Cork & Curve editorial score {{ '%.1f'|format(score) }} out of 5">★ {{ '%.1f'|format(score) }}</span>
+{%- endif -%}
+{% endmacro %}
+
+{# Price tier badge. Takes a {tier, symbol, label, range} dict produced
+   by data_loader.compute_price_tier. Renders the filled symbols on top
+   of greyed-out ghosts (same proportional-fill idea as star_strip).
+   Skipped when tier is missing.
+#}
+{% macro price_tier(tier) %}
+{%- if tier and tier.symbol -%}
+<span class="tj-price-tier" aria-label="Price tier: {{ tier.label }} ({{ tier.range }})"
+      title="{{ tier.label }}: {{ tier.range }}"
+      style="position:relative;display:inline-block;font-weight:700;letter-spacing:0.02em;color:#d6d6d6;"
+>{{ '€' * 5 if (tier.symbol[0:1] == '€') else (tier.symbol[0:1] * 5) }}<span style="position:absolute;left:0;top:0;color:var(--tj-accent, #7a1d2d);overflow:hidden;white-space:nowrap;width:{{ (tier.tier * 20) }}%;">{{ tier.symbol }}</span></span>
+{%- endif -%}
+{% endmacro %}
+
+{# Star strip with proportional fill. Renders 5 stars where the
+   colored portion is exactly (score / 5) * 100% wide, so a 4.5 shows
+   a half-filled 5th star, a 4.9 shows a 90%-filled 5th star, etc.
+   No fraction-character fallback (the old `½` glyph looked like a
+   text fraction, not a star). `size` is the font-size of the strip
+   (typical: "1.1rem" for cards, "1.6rem" for hero badges).
+#}
+{% macro star_strip(score, size='1.1rem') %}
+{%- if score is number and score >= 0 and score <= 5.0 -%}
+{%- set pct = (score / 5.0) * 100.0 -%}
+<span class="tj-star-strip"
+      aria-hidden="true"
+      style="position:relative;display:inline-block;font-size:{{ size }};line-height:1;letter-spacing:0.04em;color:#e5dfd3;">★★★★★<span style="position:absolute;left:0;top:0;color:#c8a850;overflow:hidden;width:{{ '%.2f'|format(pct) }}%;white-space:nowrap;">★★★★★</span></span>
 {%- endif -%}
 {% endmacro %}
 
@@ -59,6 +89,21 @@
     data-name="{{ p.name | default('') }}">
     <h3>{{ title_link(p.name, entity_url) }}{% if p.stars %} <span class="tj-inline-tag">{{ p.stars }} ★</span>{% endif %} {{ editorial_score(p.editorial_score) }}</h3>
     <div class="tj-card-meta">
+        {% if p.classification %}<span class="tj-tag">{{ p.classification }}</span>{% endif %}
+        {% if p.varietals %}<span class="tj-tag">{{ p.varietals | join(', ') if p.varietals is iterable and p.varietals is not string else p.varietals }}</span>{% endif %}
+        {% if p.varietals_focus %}<span class="tj-tag">{{ p.varietals_focus | join(', ') if p.varietals_focus is iterable and p.varietals_focus is not string else p.varietals_focus }}</span>{% endif %}
+        {% if p.hectares %}<span>{{ p.hectares }} ha</span>{% endif %}
+        {% if p.founded %}<span>Founded {{ p.founded }}</span>{% endif %}
+        {% if p.owner %}<span>{{ p.owner }}</span>{% endif %}
+        {% if p.winemaker %}<span>Winemaker {{ p.winemaker }}</span>{% endif %}
+        {% if p.glass_count %}<span>{{ p.glass_count }} by the glass</span>{% endif %}
+        {% if p.cellar_size %}<span>{{ p.cellar_size }} bottles</span>{% endif %}
+        {% if p.price_band %}<span>{{ p.price_band }}</span>{% endif %}
+        {% if p.biodynamic_status and p.biodynamic_status != 'none' %}<span class="tj-tag">{{ p.biodynamic_status | replace('_', ' ') | title }}</span>{% endif %}
+        {% if p.organic_status and p.organic_status != 'none' %}<span class="tj-tag">{{ p.organic_status | replace('_', ' ') | upper }}</span>{% endif %}
+        {% if p.natural_wine %}<span class="tj-tag">Natural</span>{% endif %}
+        {% if p.appointment_required %}<span>Appointment only</span>{% endif %}
+        {% if p.walk_in %}<span>Walk-ins welcome</span>{% endif %}
         {% if p.cuisine %}<span class="tj-tag">{{ p.cuisine }}</span>{% endif %}
         {% if p.type %}<span class="tj-tag">{{ p.type }}</span>{% endif %}
         {% if p.style %}<span class="tj-tag">{{ p.style }}</span>{% endif %}
@@ -83,6 +128,13 @@
     {% if p.signature_drink %}<p class="tj-card-desc"><strong>Signature drink:</strong> {{ p.signature_drink }}</p>{% endif %}
     {% if p.signature_pour %}<p class="tj-card-desc"><strong>Signature pour:</strong> {{ p.signature_pour }}</p>{% endif %}
     {% if p.wine_focus %}<p class="tj-card-desc"><strong>Wine focus:</strong> {{ p.wine_focus }}</p>{% endif %}
+    {% if p.tasting_program %}<p class="tj-card-desc"><strong>Tasting:</strong> {{ p.tasting_program }}</p>{% endif %}
+    {% if p.wine_program %}<p class="tj-card-desc"><strong>The list:</strong> {{ p.wine_program }}</p>{% endif %}
+    {% if p.signature_wines %}<p class="tj-card-desc"><strong>Signature wines:</strong> {{ p.signature_wines | join(', ') if p.signature_wines is iterable and p.signature_wines is not string else p.signature_wines }}</p>{% endif %}
+    {% if p.signature_pours %}<p class="tj-card-desc"><strong>Pours:</strong> {{ p.signature_pours | join(', ') if p.signature_pours is iterable and p.signature_pours is not string else p.signature_pours }}</p>{% endif %}
+    {% if p.scores %}<p class="tj-card-desc"><strong>Scores:</strong> {% for s in p.scores[:3] %}{{ s.reviewer }} {{ s.points }}{% if s.vintage %} ({{ s.vintage }}){% endif %}{% if not loop.last %}, {% endif %}{% endfor %}</p>{% endif %}
+    {% if p.awards %}<p class="tj-card-desc"><strong>Awards:</strong> {% for a in p.awards %}{{ a.source }}{% if a.year %} {{ a.year }}{% endif %}{% if not loop.last %}, {% endif %}{% endfor %}</p>{% endif %}
+    {% if p.sommelier_name %}<p class="tj-card-desc"><strong>Sommelier:</strong> {{ p.sommelier_name }}</p>{% endif %}
     {% if p.signature_dishes %}<p class="tj-card-desc"><strong>Signature:</strong> {{ p.signature_dishes | join(', ') if p.signature_dishes is iterable and p.signature_dishes is not string else p.signature_dishes }}</p>{% endif %}
     {% if p.dish %}<p class="tj-card-desc"><strong>Try:</strong> {{ p.dish }}</p>{% endif %}
     {% if p.food_program %}<p class="tj-card-desc"><strong>Food:</strong> {{ p.food_program }}</p>{% endif %}
@@ -143,8 +195,9 @@
         {% if f.neighborhood %}<span>{{ f.neighborhood }}</span>{% endif %}
     </div>
     {% if f.description %}<p class="tj-card-desc">{{ f.description }}</p>{% endif %}
-    {% if f.focus_cuisine %}<p class="tj-card-desc"><strong>Focus:</strong> {{ f.focus_cuisine }}</p>{% endif %}
-    {% if f.must_try or f.signature_dishes %}<p class="tj-card-desc"><strong>Eat at the festival:</strong> {{ f.must_try or (f.signature_dishes | join(', ') if f.signature_dishes is iterable and f.signature_dishes is not string else f.signature_dishes) }}</p>{% endif %}
+    {% if f.host_organization %}<p class="tj-card-desc"><strong>Host:</strong> {{ f.host_organization }}</p>{% endif %}
+    {% if f.featured_producers %}<p class="tj-card-desc"><strong>Featured producers:</strong> {{ f.featured_producers | join(', ') if f.featured_producers is iterable and f.featured_producers is not string else f.featured_producers }}</p>{% endif %}
+    {% if f.signature_pours %}<p class="tj-card-desc"><strong>Pours:</strong> {{ f.signature_pours | join(', ') if f.signature_pours is iterable and f.signature_pours is not string else f.signature_pours }}</p>{% endif %}
     {% if f.tip %}<p class="tj-card-desc"><strong>Tip:</strong> {{ f.tip }}</p>{% endif %}
     <div class="tj-card-foot">
         {{ address_link(f.address or f.meeting_point, city_name) }}
@@ -207,6 +260,8 @@
     {% if t.route %}<p class="tj-card-desc"><strong>Route:</strong> {{ t.route }}</p>{% endif %}
     {% if t.stops_count %}<p class="tj-card-desc"><strong>Stops:</strong> {{ t.stops_count }}</p>{% endif %}
     {% if t.description %}<p class="tj-card-desc">{{ t.description }}</p>{% endif %}
+    {% if t.wineries_visited %}<p class="tj-card-desc"><strong>Estates visited:</strong> {{ t.wineries_visited | join(', ') if t.wineries_visited is iterable and t.wineries_visited is not string else t.wineries_visited }}</p>{% endif %}
+    {% if t.varietals_sampled %}<p class="tj-card-desc"><strong>You'll taste:</strong> {{ t.varietals_sampled | join(', ') if t.varietals_sampled is iterable and t.varietals_sampled is not string else t.varietals_sampled }}</p>{% endif %}
     {% if t.dishes_sampled %}<p class="tj-card-desc"><strong>You'll taste:</strong> {{ t.dishes_sampled | join(', ') if t.dishes_sampled is iterable and t.dishes_sampled is not string else t.dishes_sampled }}</p>{% endif %}
     <div class="tj-card-foot">
         {{ address_link(t.meeting_point or t.address, city_name) }}
@@ -249,6 +304,71 @@
     {% if t.name %}
     <div class="tj-card-foot">{{ address_link(t.name, '') }}</div>
     {% endif %}
+</article>
+{% endmacro %}
+
+{# Contextual cross-link to the sister site TableJourney. `ref` is either a
+   full https:// URL or a site-relative path ("france/bordeaux/restaurants/x").
+   Follow link (rel="noopener", NOT nofollow) so it passes link equity to the
+   geographically-overlapping food page. See docs/CROSS_LINKING.md. Only
+   rendered when the research data carries a cross_site_ref, never bulk.
+#}
+{% macro tj_crosslink(ref, label) %}
+{%- if ref -%}
+{%- set _url = ref if (ref is string and ref.startswith('http')) else ('https://tablejourney.com/' ~ (ref | string).strip('/') ~ '/') -%}
+<a class="tj-card-link tj-crosssite" href="{{ _url }}" rel="noopener">{{ label }} →</a>
+{%- endif -%}
+{% endmacro %}
+
+{# Wine venue cards. Every venue-style wine entity funnels through place_card,
+   which now renders the wine fields (varietals, classification, hectares,
+   owner, winemaker, founded, scores, tasting_program, certifications). The
+   named aliases exist so topic templates read clearly and so a future card
+   can diverge without touching call sites.
+#}
+{% macro vineyard_card(v, region_name='', entity_url=None) %}{{ place_card(v, region_name, entity_url) }}{% endmacro %}
+{% macro tasting_room_card(t, region_name='', entity_url=None) %}{{ place_card(t, region_name, entity_url) }}{% endmacro %}
+{% macro wine_bar_card(w, region_name='', entity_url=None) %}{{ place_card(w, region_name, entity_url) }}{% endmacro %}
+{% macro wine_restaurant_card(r, region_name='', entity_url=None) %}{{ place_card(r, region_name, entity_url) }}{% endmacro %}
+{% macro retailer_card(r, region_name='', entity_url=None) %}{{ place_card(r, region_name, entity_url) }}{% endmacro %}
+{% macro museum_card(m, region_name='', entity_url=None) %}{{ place_card(m, region_name, entity_url) }}{% endmacro %}
+{% macro hotel_card(h, region_name='', entity_url=None) %}{{ place_card(h, region_name, entity_url) }}{% endmacro %}
+{% macro experience_card(e, region_name='', entity_url=None) %}{{ place_card(e, region_name, entity_url) }}{% endmacro %}
+{% macro distillery_card(d, region_name='', entity_url=None) %}{{ place_card(d, region_name, entity_url) }}{% endmacro %}
+
+{# Wine schools reuse the class_card (Course-shaped). #}
+{% macro school_card(c, region_name='', entity_url=None) %}{{ class_card(c, region_name, entity_url) }}{% endmacro %}
+
+{# Signature wine card. A wine is an abstract entity (a bottle, not a venue).
+   Producer links back to the vineyard. No directions link.
+#}
+{% macro signature_wine_card(w, wine_url=None) %}
+<article class="tj-card" {% if w.editorial_score is number %}data-score="{{ '%.2f' | format(w.editorial_score) }}"{% endif %} data-name="{{ w.name | default('') }}">
+    <h3>{{ title_link(w.name, wine_url) }} {{ editorial_score(w.editorial_score) }}</h3>
+    <div class="tj-card-meta">
+        {% if w.producer %}<span class="tj-tag">{{ w.producer }}</span>{% endif %}
+        {% if w.style %}<span class="tj-tag">{{ w.style }}</span>{% endif %}
+        {% if w.varietals %}<span>{{ w.varietals | join(', ') if w.varietals is iterable and w.varietals is not string else w.varietals }}</span>{% endif %}
+        {% if w.vintage_range %}<span>{{ w.vintage_range }}</span>{% endif %}
+        {% if w.price_band %}<span>{{ w.price_band }}</span>{% endif %}
+    </div>
+    {% if w.description %}<p class="tj-card-desc">{{ w.description }}</p>{% endif %}
+    {% if w.tasting_notes %}<p class="tj-card-desc"><strong>Tasting notes:</strong> {{ w.tasting_notes }}</p>{% endif %}
+</article>
+{% endmacro %}
+
+{# Signature grape card. A varietal, not a venue. Links to /grape/<slug>/. #}
+{% macro grape_card(g, grape_url=None) %}
+<article class="tj-card" data-name="{{ g.name | default('') }}">
+    <h3>{{ title_link(g.name, grape_url) }} {{ editorial_score(g.editorial_score) }}</h3>
+    <div class="tj-card-meta">
+        {% if g.color %}<span class="tj-tag">{{ g.color }}</span>{% endif %}
+        {% if g.style %}<span class="tj-tag">{{ g.style }}</span>{% endif %}
+        {% if g.also_known_as %}<span>aka {{ g.also_known_as | join(', ') if g.also_known_as is iterable and g.also_known_as is not string else g.also_known_as }}</span>{% endif %}
+    </div>
+    {% if g.description %}<p class="tj-card-desc">{{ g.description }}</p>{% endif %}
+    {% if g.typical_character %}<p class="tj-card-desc"><strong>In the glass:</strong> {{ g.typical_character }}</p>{% endif %}
+    {% if g.key_wines %}<p class="tj-card-desc"><strong>Shows best in:</strong> {{ g.key_wines | join(', ') if g.key_wines is iterable and g.key_wines is not string else g.key_wines }}</p>{% endif %}
 </article>
 {% endmacro %}
 

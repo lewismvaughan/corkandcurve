@@ -4,13 +4,40 @@
     "name": "Bordeaux",
     "country": "France",
     "country_slug": "france",
-    "hero_image": "",
-    "hero_image_source_url": "",
-    "blurb": "",
-    "type": "wine-region"
+    "hero_image": "https://images.unsplash.com/photo-1676654420746-269a05c5fb37?w=1600&h=900&fit=crop&auto=format",
+    "hero_image_source_url": "https://unsplash.com/photos/a-vineyard-with-a-church-in-the-background-ZjQo8dO6Mwg",
+    "blurb": "The world's most storied fine-wine region, from Medoc first-growths to Pomerol micro-estates and Sauternes liquid gold.",
+    "type": "wine-region",
+    "tagline": "Left Bank gravels, Right Bank clay, one world-class appellation",
+    "overview": "Bordeaux spans 120,000 hectares across 57 appellations, producing reds dominated by Cabernet Sauvignon on the Left Bank and Merlot on the Right, plus legendary Sauternes dessert wines.",
+    "cross_site_ref": "france/bordeaux",
+    "cross_site_name": "Bordeaux",
+    "hero_image_credit": "Photo by Angell Guillén on Unsplash",
+    "hero_image_alt": "Bordeaux vineyard landscape with a church in the background"
   },
   "seo": {
-    "pages": {}
+    "pages": {
+      "index": {
+        "title": "Bordeaux Wine Region Guide | Cork & Curve",
+        "description": "Explore Bordeaux wine estates, appellations, tasting rooms, and iconic cuvees from Medoc first-growths to Pomerol, Saint-Emilion and Sauternes."
+      },
+      "vineyards": {
+        "title": "Bordeaux Vineyards and Chateaux | Cork & Curve",
+        "description": "Discover Bordeaux chateaux from Medoc first-growths to Right Bank estates. Tastings, addresses, and production details for 45 top producers."
+      },
+      "wines": {
+        "title": "Bordeaux Wines Catalog | Cork & Curve",
+        "description": "Browse every Bordeaux cuvee from grand vins to second wines. Taste profiles, food pairings, history and vintage scores across 100+ Bordeaux bottles."
+      },
+      "tasting-rooms": {
+        "title": "Bordeaux Tasting Rooms | Cork & Curve",
+        "description": "The Bordeaux tasting rooms worth booking, from urban CIVB and L'Intendant pours to appointment-only chateau cellars across every appellation."
+      },
+      "wine-bars": {
+        "title": "Bordeaux Wine Bars | Cork & Curve",
+        "description": "Best Bordeaux wine bars with curated by-the-glass lists, natural wine selections, and sommelier-led pours across the city centre, Chartrons and beyond."
+      }
+    }
   },
   "faqs": []
 }

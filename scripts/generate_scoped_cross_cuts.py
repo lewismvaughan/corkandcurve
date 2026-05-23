@@ -1,20 +1,22 @@
 #!/usr/bin/env python3
-"""Generate country-scoped and city-scoped cross-cut index pages.
+"""Generate global, country-scoped and region-scoped cross-cut index pages.
 
-For every live country and city, emit index pages that show only the
-cuisines / signature dishes / neighbourhoods present in that scope:
+Emits the index landings that make the per-grape / per-style / per-world
+cross-cut pages reachable, plus the sub-appellation indexes:
 
-  /<country>/cuisines/
-  /<country>/signature-dishes/
-  /<country>/neighborhoods/
-  /<country>/<city>/cuisines/
-  /<country>/<city>/neighborhoods/
+  /grapes/                          global grape (varietal) index
+  /styles/                          global wine-style index
+  /world/                           Old World / New World index
+  /regions/                         all wine regions, grouped by country
+  /<country>/grapes/                grapes present in that country
+  /<country>/styles/                styles present in that country
+  /<country>/neighborhoods/         sub-appellations grouped by region
+  /<country>/<region>/grapes/       grapes present in that region
+  /<country>/<region>/styles/       styles present in that region
+  /<country>/<region>/neighborhoods/ sub-appellations in that region
 
-(City-level signature-dishes already exists as a topic chapter on the
-city hub, so we don't emit it here.)
-
-Reads the enriched manifests written by generate_cross_cuts.py (cuisine,
-dish, neighborhood). Must be run AFTER generate_cross_cuts.py.
+Reads the manifests written by generate_cross_cuts.py (grape, style, world,
+neighborhood). Must be run AFTER generate_cross_cuts.py.
 
 Usage:
     python scripts/generate_scoped_cross_cuts.py
@@ -23,19 +25,18 @@ Usage:
 from __future__ import annotations
 
 import json
-import re
 import shutil
 import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from utils.template_renderer import TemplateRenderer, FOOD_TOPIC_NAV  # noqa: E402
+from utils.template_renderer import TemplateRenderer, WINE_TOPIC_NAV  # noqa: E402
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 CONTENT = REPO_ROOT / "content"
 SITE_DATA = REPO_ROOT / "site-data"
-BASE = "https://tablejourney.com"
+BASE = "https://corkandcurve.com"
 
 _ALPHA_GROUP_THRESHOLD = 25
 
@@ -45,6 +46,8 @@ def _country_display(slug: str) -> str:
         "usa": "USA",
         "united-states": "United States",
         "united-kingdom": "United Kingdom",
+        "new-zealand": "New Zealand",
+        "south-africa": "South Africa",
     }
     return overrides.get(slug, slug.replace("-", " ").title())
 
@@ -59,16 +62,16 @@ def _load_manifest(parent: Path) -> list[dict]:
         return []
 
 
-def _walk_countries_and_cities() -> tuple[list[tuple[str, str]], list[tuple[str, str, str]]]:
-    """Return (countries, cities).
+def _walk_countries_and_regions() -> tuple[list[tuple[str, str]], list[tuple[str, str, str]]]:
+    """Return (countries, regions).
 
-    countries: list of (country_slug, country_display) for countries that
-               have a country-level region.json.
-    cities:    list of (country_slug, city_slug, city_display) for every
-               shipped city under each country.
+    countries: (country_slug, country_display) for countries with a
+               country-level region.json.
+    regions:   (country_slug, region_slug, region_display) for every shipped
+               region under each country.
     """
     countries: list[tuple[str, str]] = []
-    cities: list[tuple[str, str, str]] = []
+    regions: list[tuple[str, str, str]] = []
 
     for country_dir in sorted(SITE_DATA.iterdir()):
         if not country_dir.is_dir():
@@ -83,37 +86,30 @@ def _walk_countries_and_cities() -> tuple[list[tuple[str, str]], list[tuple[str,
                 c_name = _country_display(c_slug)
             countries.append((c_slug, c_name))
 
-        for city_dir in sorted(country_dir.iterdir()):
-            if not city_dir.is_dir() or city_dir.name == "data":
+        for region_dir in sorted(country_dir.iterdir()):
+            if not region_dir.is_dir() or region_dir.name == "data":
                 continue
-            rj = city_dir / "data" / "region.json"
+            rj = region_dir / "data" / "region.json"
             if not rj.exists():
                 continue
             try:
                 payload = json.loads(rj.read_text(encoding="utf-8"))
+                r_name = payload.get("destination", {}).get("name") or region_dir.name.replace("-", " ").title()
             except (OSError, json.JSONDecodeError):
-                continue
-            meta = payload.get("_metadata", {}) or {}
-            if meta.get("status") == "stub" or meta.get("ready_to_publish") is False:
-                hub = CONTENT / c_slug / city_dir.name / "index.html"
-                if not hub.exists():
-                    continue
-            city_name = payload.get("destination", {}).get("name") or city_dir.name.replace("-", " ").title()
-            cities.append((c_slug, city_dir.name, city_name))
+                r_name = region_dir.name.replace("-", " ").title()
+            regions.append((c_slug, region_dir.name, r_name))
 
-    return countries, cities
+    return countries, regions
 
 
 def _itemlist_jsonld(entries: list[dict], name: str, *, href_fn) -> str:
-    """ItemList schema for a scoped index list. Cap at 50 entries per
-    Google's rich-list rendering limits.
-    """
+    """ItemList schema for a scoped index list. Cap at 50 entries."""
     items = []
     for i, e in enumerate(entries[:50], start=1):
         items.append({
             "@type": "ListItem",
             "position": i,
-            "url": "https://tablejourney.com" + href_fn(e),
+            "url": BASE + href_fn(e),
             "name": e["display"],
         })
     blob = {
@@ -180,7 +176,6 @@ def _render_alpha_grouped(entries: list[dict], *, href_fn) -> str:
             + "</a></li>"
             for e in entries
         )
-        # Filter widget shown when list has >=8 items (small lists don't need it).
         prelude = _FILTER_SEARCH_HTML if len(entries) >= 8 else ""
         return prelude + f'<ul id="tj-scoped-list" class="tj-grid-list">{items}</ul>'
 
@@ -203,8 +198,6 @@ def _render_alpha_grouped(entries: list[dict], *, href_fn) -> str:
             f'<h2 id="alpha-{letter}">{letter}</h2>'
             f'<ul class="tj-grid-list">{rows}</ul>'
         )
-    # Wrap alpha-grouped output in a single container so the filter input
-    # can target every <li> across all letter sections at once.
     return (
         _FILTER_SEARCH_HTML
         + f'<nav class="tj-alpha-jumps" aria-label="Jump to letter">{jumps}</nav>'
@@ -212,94 +205,66 @@ def _render_alpha_grouped(entries: list[dict], *, href_fn) -> str:
     )
 
 
-def _cuisines_filtered(manifest: list[dict], *, country: str | None, city: str | None) -> list[dict]:
-    """Filter the cuisine manifest. Each entry in the result has:
-    {slug, display, sub: '<n cities>' or '<n restaurants>'}.
-    """
-    out = []
-    for e in manifest:
-        present = [
-            c for c in e.get("cities", [])
-            if (country is None or c["country_slug"] == country)
-            and (city is None or c["city_slug"] == city)
-        ]
-        if not present:
-            continue
-        if city is not None:
-            n = sum(c.get("n", 0) for c in present)
-            sub = f"{n} restaurant{'s' if n != 1 else ''}"
-        else:
-            nc = len(present)
-            sub = f"{nc} cit{'ies' if nc != 1 else 'y'}"
-        out.append({"slug": e["slug"], "display": e["display"], "sub": sub})
-    out.sort(key=lambda e: e["display"].lower())
-    return out
+def _present_regions(entry: dict, *, country: str | None, region: str | None) -> list[dict]:
+    return [
+        r for r in entry.get("regions", [])
+        if (country is None or r["country_slug"] == country)
+        and (region is None or r["region_slug"] == region)
+    ]
 
 
-def _dishes_filtered(manifest: list[dict], *, country: str | None, city: str | None) -> list[dict]:
+def _grape_or_style_filtered(manifest: list[dict], *, country: str | None,
+                             region: str | None, unit: str) -> list[dict]:
+    """Filter a grape/style manifest to a scope. `unit` is the noun for the
+    region-scope count (e.g. 'producer'). Each result: {slug, display, sub}."""
     out = []
     for e in manifest:
-        present = [
-            c for c in e.get("cities", [])
-            if (country is None or c["country_slug"] == country)
-            and (city is None or c["city_slug"] == city)
-        ]
+        present = _present_regions(e, country=country, region=region)
         if not present:
             continue
-        if city is not None:
-            n = sum(c.get("n", 0) for c in present)
-            sub = f"{n} room{'s' if n != 1 else ''}"
+        if region is not None:
+            n = sum(r.get("n", 0) for r in present)
+            sub = f"{n} {unit}{'s' if n != 1 else ''}"
         else:
-            nc = len(present)
-            sub = f"{nc} cit{'ies' if nc != 1 else 'y'}"
+            nr = len(present)
+            sub = f"{nr} region{'s' if nr != 1 else ''}"
         out.append({"slug": e["slug"], "display": e["display"], "sub": sub})
     out.sort(key=lambda e: e["display"].lower())
     return out
 
 
 def _neighborhoods_filtered_country(manifest: list[dict], country: str) -> str:
-    """Country-scoped neighborhoods: group by city, list hoods under each."""
-    by_city: dict[tuple[str, str], list[dict]] = {}
+    """Country-scoped sub-appellations: group by region, list under each."""
+    by_region: dict[tuple[str, str], list[dict]] = {}
     for e in manifest:
         if e.get("country_slug") != country:
             continue
-        by_city.setdefault((e["city_slug"], e["city_name"]), []).append(e)
-
-    if not by_city:
+        by_region.setdefault((e["region_slug"], e["region_name"]), []).append(e)
+    if not by_region:
         return ""
-
-    def _nat_key(e: dict):
-        m = re.match(r"^(\d+)", e["slug"])
-        return (0, int(m.group(1))) if m else (1, e["display"].lower())
-
     sections = []
-    for (city_slug, city_name) in sorted(by_city.keys(), key=lambda x: x[1].lower()):
-        hoods = sorted(by_city[(city_slug, city_name)], key=_nat_key)
+    for (region_slug, region_name) in sorted(by_region.keys(), key=lambda x: x[1].lower()):
+        hoods = sorted(by_region[(region_slug, region_name)], key=lambda e: e["display"].lower())
         items = "".join(
-            f'<li><a href="/neighborhood/{city_slug}/{h["slug"]}/">'
+            f'<li><a href="/neighborhood/{region_slug}/{h["slug"]}/">'
             f'<strong>{h["display"]}</strong></a></li>'
             for h in hoods
         )
         sections.append(
-            f'<h2><a href="/{country}/{city_slug}/">{city_name}</a></h2>'
+            f'<h2><a href="/{country}/{region_slug}/">{region_name}</a></h2>'
             f'<ul class="tj-grid-list">{items}</ul>'
         )
     return "".join(sections)
 
 
-def _neighborhoods_filtered_city(manifest: list[dict], city: str) -> str:
-    """City-scoped neighborhoods: flat alpha-ordered list."""
-    hoods = [e for e in manifest if e.get("city_slug") == city]
+def _neighborhoods_filtered_region(manifest: list[dict], region_slug: str) -> str:
+    """Region-scoped sub-appellations: flat alpha-ordered list."""
+    hoods = [e for e in manifest if e.get("region_slug") == region_slug]
     if not hoods:
         return ""
-
-    def _nat_key(e: dict):
-        m = re.match(r"^(\d+)", e["slug"])
-        return (0, int(m.group(1))) if m else (1, e["display"].lower())
-
-    hoods.sort(key=_nat_key)
+    hoods.sort(key=lambda e: e["display"].lower())
     items = "".join(
-        f'<li><a href="/neighborhood/{e["city_slug"]}/{e["slug"]}/">'
+        f'<li><a href="/neighborhood/{e["region_slug"]}/{e["slug"]}/">'
         f'<strong>{e["display"]}</strong></a></li>'
         for e in hoods
     )
@@ -336,8 +301,8 @@ def _render_scoped_page(renderer: TemplateRenderer, spec: dict) -> Path:
             "og_description": spec["meta_description"],
             "og_url": canonical,
             "og_type": "website",
-            "og_image": "https://tablejourney.com/og/default.jpg",
-            "og_image_alt": "TableJourney food guide",
+            "og_image": f"{BASE}/og/default.jpg",
+            "og_image_alt": "Cork & Curve wine guide",
             "og_locale": "en_US",
         },
         "twitter": {
@@ -356,7 +321,7 @@ def _render_scoped_page(renderer: TemplateRenderer, spec: dict) -> Path:
             "destination": spec["slug"],
         },
         base_path="",
-        topic_nav=FOOD_TOPIC_NAV,
+        topic_nav=WINE_TOPIC_NAV,
         breadcrumb=spec["breadcrumb"],
         current_year=2026,
     )
@@ -367,219 +332,297 @@ def _render_scoped_page(renderer: TemplateRenderer, spec: dict) -> Path:
 
 
 def main() -> int:
-    cuisine_manifest = _load_manifest(CONTENT / "cuisine")
-    dish_manifest = _load_manifest(CONTENT / "dish")
+    grape_manifest = _load_manifest(CONTENT / "grape")
+    style_manifest = _load_manifest(CONTENT / "style")
+    world_manifest = _load_manifest(CONTENT / "world")
     nb_manifest = _load_manifest(CONTENT / "neighborhood")
 
-    countries, cities = _walk_countries_and_cities()
+    countries, regions = _walk_countries_and_regions()
     renderer = TemplateRenderer()
     written = 0
     skipped_empty = 0
     written_paths: set[Path] = set()
 
+    # ---- GLOBAL index landings -------------------------------------------
+    # /grapes/
+    if grape_manifest:
+        items = [{"slug": e["slug"], "display": e["display"],
+                  "sub": f"{len(e.get('regions', []))} region{'s' if len(e.get('regions', [])) != 1 else ''}"}
+                 for e in grape_manifest]
+        items.sort(key=lambda e: e["display"].lower())
+        href = lambda e: f"/grape/{e['slug']}/"
+        body = (
+            "<p>Every grape we cover, across every wine region on Cork & Curve. "
+            "Click through to see how each region expresses the varietal.</p>"
+            + _render_alpha_grouped(items, href_fn=href)
+            + _itemlist_jsonld(items, "Grapes on Cork & Curve", href_fn=href)
+        )
+        written_paths.add(_render_scoped_page(renderer, {
+            "slug": "grapes",
+            "title": "Wine Grapes A to Z | Cork & Curve",
+            "meta_description": ("Every grape varietal we cover on Cork & Curve, "
+                                 "from Cabernet to Zinfandel, and the regions that grow each best.")[:165],
+            "h1": "Wine grapes, A to Z",
+            "subtitle": "Every varietal we cover, and where it shines.",
+            "body": body,
+            "breadcrumb": crumb(("Home", f"{BASE}/"), ("Grapes", None)),
+        }))
+        written += 1
+
+    # /styles/
+    if style_manifest:
+        items = [{"slug": e["slug"], "display": e["display"],
+                  "sub": f"{len(e.get('regions', []))} region{'s' if len(e.get('regions', [])) != 1 else ''}"}
+                 for e in style_manifest]
+        items.sort(key=lambda e: e["display"].lower())
+        href = lambda e: f"/style/{e['slug']}/"
+        body = (
+            "<p>Wine by style, from sparkling to fortified, across every region we cover.</p>"
+            + _render_alpha_grouped(items, href_fn=href)
+            + _itemlist_jsonld(items, "Wine styles on Cork & Curve", href_fn=href)
+        )
+        written_paths.add(_render_scoped_page(renderer, {
+            "slug": "styles",
+            "title": "Wine Styles | Cork & Curve",
+            "meta_description": ("Browse wine by style on Cork & Curve: sparkling, still, sweet, "
+                                 "fortified, orange and natural, and the regions known for each.")[:165],
+            "h1": "Wine styles",
+            "subtitle": "Sparkling, still, sweet, fortified, orange, natural.",
+            "body": body,
+            "breadcrumb": crumb(("Home", f"{BASE}/"), ("Styles", None)),
+        }))
+        written += 1
+
+    # /world/
+    if world_manifest:
+        items = [{"slug": e["slug"], "display": e["display"],
+                  "sub": f"{len(e.get('regions', []))} region{'s' if len(e.get('regions', [])) != 1 else ''}"}
+                 for e in world_manifest]
+        items.sort(key=lambda e: e["display"].lower())
+        href = lambda e: f"/world/{e['slug']}/"
+        body = (
+            "<p>The classic split: Old World tradition versus New World expression. "
+            "Browse the regions in each.</p>"
+            + _render_alpha_grouped(items, href_fn=href)
+            + _itemlist_jsonld(items, "Old World and New World", href_fn=href)
+        )
+        written_paths.add(_render_scoped_page(renderer, {
+            "slug": "world",
+            "title": "Old World vs New World Wine | Cork & Curve",
+            "meta_description": ("Old World versus New World wine on Cork & Curve: what divides them "
+                                 "and the regions in each camp.")[:165],
+            "h1": "Old World and New World",
+            "subtitle": "Two ways of thinking about wine.",
+            "body": body,
+            "breadcrumb": crumb(("Home", f"{BASE}/"), ("World", None)),
+        }))
+        written += 1
+
+    # /regions/  (all region hubs, grouped by country)
+    if regions:
+        by_country: dict[str, list[tuple[str, str]]] = {}
+        for c_slug, r_slug, r_name in regions:
+            by_country.setdefault(c_slug, []).append((r_slug, r_name))
+        sections = []
+        for c_slug in sorted(by_country.keys(), key=_country_display):
+            rows = "".join(
+                f'<li><a href="/{c_slug}/{r_slug}/"><strong>{r_name}</strong></a></li>'
+                for r_slug, r_name in sorted(by_country[c_slug], key=lambda x: x[1].lower())
+            )
+            sections.append(
+                f'<h2><a href="/{c_slug}/">{_country_display(c_slug)}</a></h2>'
+                f'<ul class="tj-grid-list">{rows}</ul>'
+            )
+        body = (
+            "<p>Every wine region we cover, grouped by country.</p>" + "".join(sections)
+        )
+        written_paths.add(_render_scoped_page(renderer, {
+            "slug": "regions",
+            "title": "Wine Regions A to Z | Cork & Curve",
+            "meta_description": ("Every wine region we cover on Cork & Curve, grouped by country. "
+                                 "Vineyards, tasting rooms and signature wines for each.")[:165],
+            "h1": "Wine regions",
+            "subtitle": "Every region we cover, grouped by country.",
+            "body": body,
+            "breadcrumb": crumb(("Home", f"{BASE}/"), ("Regions", None)),
+        }))
+        written += 1
+
     def _intro_country(scope_word: str, kind: str, country: str) -> str:
         return (
-            f"<p>{scope_word} found across every {country} city we cover on "
-            f"TableJourney. Click through to see the rooms and what to order "
-            f"in each city. Want the global picture? "
-            f"<a href=\"/{kind}/\">Browse all {kind}</a>.</p>"
+            f"<p>{scope_word} found across every {country} region we cover on "
+            f"Cork & Curve. Click through to see the producers in each. "
+            f"Want the global picture? <a href=\"/{kind}/\">Browse all {kind}</a>.</p>"
         )
 
-    def _intro_city(scope_word: str, kind: str, city: str, country_slug: str) -> str:
+    def _intro_region(scope_word: str, kind: str, region: str, country_slug: str) -> str:
         return (
-            f"<p>{scope_word} represented in our {city} guide. Click through "
-            f"to the entry to see editor-picked rooms, what to order and how "
-            f"to book. Want a wider lens? "
+            f"<p>{scope_word} represented in our {region} guide. Click through "
+            f"to see the estates and what to taste. Want a wider lens? "
             f"<a href=\"/{country_slug}/{kind}/\">All {kind} in this country</a> "
-            f"or <a href=\"/{kind}/\">global {kind} index</a>.</p>"
+            f"or the <a href=\"/{kind}/\">global {kind} index</a>.</p>"
         )
 
-    # COUNTRY scope
+    # ---- COUNTRY scope ----------------------------------------------------
     for country_slug, country_name in countries:
-        # cuisines — link DOWN to /<country>/cuisine/<slug>/ when that page
-        # exists (emitted by generate_country_cuisine.py). Falls back to
-        # global only if the country rollup page doesn't exist for this
-        # cuisine. Same no-orphan + scope-down discipline as the city scope.
-        items = _cuisines_filtered(cuisine_manifest, country=country_slug, city=None)
+        # grapes
+        items = _grape_or_style_filtered(grape_manifest, country=country_slug, region=None, unit="producer")
         if items:
-            def _country_or_global_cuisine_href(e, _cs=country_slug):
-                country_page = CONTENT / _cs / "cuisine" / e["slug"] / "index.html"
-                if country_page.exists():
-                    return f"/{_cs}/cuisine/{e['slug']}/"
-                return f"/cuisine/{e['slug']}/"
-            href = _country_or_global_cuisine_href
-            body = (
-                _intro_country(f"{len(items)} cuisines", "cuisines", country_name)
-                + _render_alpha_grouped(items, href_fn=href)
-                + _itemlist_jsonld(items, f"Cuisines in {country_name}", href_fn=href)
-            )
-            spec = {
-                "slug": f"{country_slug}/cuisines",
-                "title": f"Cuisines in {country_name} | TableJourney",
-                "meta_description": (
-                    f"Every cuisine represented across {country_name} on TableJourney, "
-                    f"with the cities where each is at its best and editor-picked rooms to book."
-                )[:165],
-                "h1": f"Cuisines in {country_name}",
-                "subtitle": f"What {country_name} eats, plate by plate, across every city we cover.",
+            href = lambda e: f"/grape/{e['slug']}/"
+            body = (_intro_country(f"{len(items)} grapes", "grapes", country_name)
+                    + _render_alpha_grouped(items, href_fn=href)
+                    + _itemlist_jsonld(items, f"Grapes in {country_name}", href_fn=href))
+            written_paths.add(_render_scoped_page(renderer, {
+                "slug": f"{country_slug}/grapes",
+                "title": f"Wine Grapes of {country_name} | Cork & Curve",
+                "meta_description": (f"Every grape grown across {country_name} on Cork & Curve, "
+                                     f"with the regions where each is at its best.")[:165],
+                "h1": f"Wine grapes of {country_name}",
+                "subtitle": f"What {country_name} grows, varietal by varietal.",
                 "body": body,
-                "breadcrumb": crumb(
-                    ("Home", f"{BASE}/"),
-                    (country_name, f"{BASE}/{country_slug}/"),
-                    ("Cuisines", None),
-                ),
-            }
-            written_paths.add(_render_scoped_page(renderer, spec))
+                "breadcrumb": crumb(("Home", f"{BASE}/"), (country_name, f"{BASE}/{country_slug}/"), ("Grapes", None)),
+            }))
             written += 1
         else:
             skipped_empty += 1
 
-        # signature dishes — link DOWN to /<country>/dish/<slug>/ when that
-        # page exists (emitted by generate_country_dish.py). Falls back to
-        # global only if no country rollup for this dish.
-        items = _dishes_filtered(dish_manifest, country=country_slug, city=None)
+        # styles
+        items = _grape_or_style_filtered(style_manifest, country=country_slug, region=None, unit="producer")
         if items:
-            def _country_or_global_dish_href(e, _cs=country_slug):
-                country_page = CONTENT / _cs / "dish" / e["slug"] / "index.html"
-                if country_page.exists():
-                    return f"/{_cs}/dish/{e['slug']}/"
-                return f"/dish/{e['slug']}/"
-            href = _country_or_global_dish_href
-            body = (
-                _intro_country(f"{len(items)} signature dishes", "dishes", country_name)
-                + _render_alpha_grouped(items, href_fn=href)
-                + _itemlist_jsonld(items, f"Signature dishes of {country_name}", href_fn=href)
-            )
-            spec = {
-                "slug": f"{country_slug}/signature-dishes",
-                "title": f"Signature dishes of {country_name} | TableJourney",
-                "meta_description": (
-                    f"The plates that define {country_name}: what each dish is, where to eat the canonical "
-                    f"version and which city does it best, indexed across every TableJourney city."
-                )[:165],
-                "h1": f"Signature dishes of {country_name}",
-                "subtitle": f"Order what the place is known for. {country_name}, plate by plate.",
+            href = lambda e: f"/style/{e['slug']}/"
+            body = (_intro_country(f"{len(items)} styles", "styles", country_name)
+                    + _render_alpha_grouped(items, href_fn=href)
+                    + _itemlist_jsonld(items, f"Wine styles in {country_name}", href_fn=href))
+            written_paths.add(_render_scoped_page(renderer, {
+                "slug": f"{country_slug}/styles",
+                "title": f"Wine Styles of {country_name} | Cork & Curve",
+                "meta_description": (f"The wine styles made across {country_name} on Cork & Curve, "
+                                     f"from sparkling to fortified, region by region.")[:165],
+                "h1": f"Wine styles of {country_name}",
+                "subtitle": f"How {country_name} makes wine, style by style.",
                 "body": body,
-                "breadcrumb": crumb(
-                    ("Home", f"{BASE}/"),
-                    (country_name, f"{BASE}/{country_slug}/"),
-                    ("Signature dishes", None),
-                ),
-            }
-            written_paths.add(_render_scoped_page(renderer, spec))
+                "breadcrumb": crumb(("Home", f"{BASE}/"), (country_name, f"{BASE}/{country_slug}/"), ("Styles", None)),
+            }))
             written += 1
         else:
             skipped_empty += 1
 
-        # neighborhoods
+        # sub-appellations
         body_hoods = _neighborhoods_filtered_country(nb_manifest, country_slug)
         if body_hoods:
             n_hoods = sum(1 for e in nb_manifest if e.get("country_slug") == country_slug)
             intro = (
-                f"<p>{n_hoods} neighbourhoods across {country_name}, grouped by city. "
-                f"Plan dinner by the door you walk out of. Want the global view? "
-                f"<a href=\"/neighborhoods/\">Browse every neighbourhood</a>.</p>"
+                f"<p>{n_hoods} sub-appellations across {country_name}, grouped by region. "
+                f"Want the global view? <a href=\"/regions/\">Browse every region</a>.</p>"
             )
-            spec = {
+            written_paths.add(_render_scoped_page(renderer, {
                 "slug": f"{country_slug}/neighborhoods",
-                "title": f"Neighbourhoods of {country_name} | TableJourney",
-                "meta_description": (
-                    f"Every {country_name} neighbourhood we cover on TableJourney, grouped by city. "
-                    f"Plan your eating by the district you're staying in, not by a mega-list."
-                )[:165],
-                "h1": f"Neighbourhoods of {country_name}",
-                "subtitle": "Plan dinner by the door you walk out of.",
+                "title": f"Sub-Appellations of {country_name} | Cork & Curve",
+                "meta_description": (f"Every {country_name} sub-appellation we cover on Cork & Curve, "
+                                     f"grouped by region. Plan a visit cru by cru.")[:165],
+                "h1": f"Sub-appellations of {country_name}",
+                "subtitle": "Inside each region, cru by cru.",
                 "body": intro + body_hoods,
-                "breadcrumb": crumb(
-                    ("Home", f"{BASE}/"),
-                    (country_name, f"{BASE}/{country_slug}/"),
-                    ("Neighbourhoods", None),
-                ),
-            }
-            written_paths.add(_render_scoped_page(renderer, spec))
+                "breadcrumb": crumb(("Home", f"{BASE}/"), (country_name, f"{BASE}/{country_slug}/"), ("Sub-appellations", None)),
+            }))
             written += 1
         else:
             skipped_empty += 1
 
-    # CITY scope
-    for country_slug, city_slug, city_name in cities:
-        # cuisines — link DOWN to the city × cuisine page when it exists
-        # (otherwise the city × cuisine pages become orphans). SEO standard:
-        # when both a city-scoped and global cross-cut exist, scoped pages
-        # link DOWN to the city-specific child, not UP to the global parent.
-        # See docs/STANDARDS.md.
-        items = _cuisines_filtered(cuisine_manifest, country=country_slug, city=city_slug)
+    # ---- REGION scope -----------------------------------------------------
+    for country_slug, region_slug, region_name in regions:
+        # grapes — link DOWN to /<country>/<region>/grape/<slug>/ when present.
+        items = _grape_or_style_filtered(grape_manifest, country=country_slug, region=region_slug, unit="producer")
         if items:
-            def _city_or_global_cuisine_href(e, _cs=country_slug, _cy=city_slug):
-                city_page = CONTENT / _cs / _cy / "cuisine" / e["slug"] / "index.html"
-                if city_page.exists():
-                    return f"/{_cs}/{_cy}/cuisine/{e['slug']}/"
-                return f"/cuisine/{e['slug']}/"
-            href = _city_or_global_cuisine_href
-            body = (
-                _intro_city(f"{len(items)} cuisines", "cuisines", city_name, country_slug)
-                + _render_alpha_grouped(items, href_fn=href)
-                + _itemlist_jsonld(items, f"Cuisines in {city_name}", href_fn=href)
-            )
-            spec = {
-                "slug": f"{country_slug}/{city_slug}/cuisines",
-                "title": f"Cuisines in {city_name} | TableJourney",
-                "meta_description": (
-                    f"Every cuisine represented in our {city_name} guide on TableJourney, "
-                    f"with editor-picked rooms and what each kitchen does best."
-                )[:165],
-                "h1": f"Cuisines in {city_name}",
-                "subtitle": f"What {city_name} cooks, plate by plate.",
+            def _region_or_global_grape_href(e, _cs=country_slug, _rs=region_slug):
+                rg = CONTENT / _cs / _rs / "grape" / e["slug"] / "index.html"
+                return f"/{_cs}/{_rs}/grape/{e['slug']}/" if rg.exists() else f"/grape/{e['slug']}/"
+            href = _region_or_global_grape_href
+            body = (_intro_region(f"{len(items)} grapes", "grapes", region_name, country_slug)
+                    + _render_alpha_grouped(items, href_fn=href)
+                    + _itemlist_jsonld(items, f"Grapes in {region_name}", href_fn=href))
+            written_paths.add(_render_scoped_page(renderer, {
+                "slug": f"{country_slug}/{region_slug}/grapes",
+                "title": f"Wine Grapes of {region_name} | Cork & Curve",
+                "meta_description": (f"Every grape grown in {region_name} on Cork & Curve, "
+                                     f"with the estates that grow each.")[:165],
+                "h1": f"Wine grapes of {region_name}",
+                "subtitle": f"What {region_name} grows, varietal by varietal.",
                 "body": body,
                 "breadcrumb": crumb(
                     ("Home", f"{BASE}/"),
                     (_country_display(country_slug), f"{BASE}/{country_slug}/"),
-                    (city_name, f"{BASE}/{country_slug}/{city_slug}/"),
-                    ("Cuisines", None),
+                    (region_name, f"{BASE}/{country_slug}/{region_slug}/"),
+                    ("Grapes", None),
                 ),
-            }
-            written_paths.add(_render_scoped_page(renderer, spec))
+            }))
             written += 1
         else:
             skipped_empty += 1
 
-        # neighborhoods
-        body_hoods = _neighborhoods_filtered_city(nb_manifest, city_slug)
+        # styles
+        items = _grape_or_style_filtered(style_manifest, country=country_slug, region=region_slug, unit="producer")
+        if items:
+            href = lambda e: f"/style/{e['slug']}/"
+            body = (_intro_region(f"{len(items)} styles", "styles", region_name, country_slug)
+                    + _render_alpha_grouped(items, href_fn=href)
+                    + _itemlist_jsonld(items, f"Wine styles in {region_name}", href_fn=href))
+            written_paths.add(_render_scoped_page(renderer, {
+                "slug": f"{country_slug}/{region_slug}/styles",
+                "title": f"Wine Styles of {region_name} | Cork & Curve",
+                "meta_description": (f"The wine styles made in {region_name} on Cork & Curve, "
+                                     f"from sparkling to fortified.")[:165],
+                "h1": f"Wine styles of {region_name}",
+                "subtitle": f"How {region_name} makes wine, style by style.",
+                "body": body,
+                "breadcrumb": crumb(
+                    ("Home", f"{BASE}/"),
+                    (_country_display(country_slug), f"{BASE}/{country_slug}/"),
+                    (region_name, f"{BASE}/{country_slug}/{region_slug}/"),
+                    ("Styles", None),
+                ),
+            }))
+            written += 1
+        else:
+            skipped_empty += 1
+
+        # sub-appellations
+        body_hoods = _neighborhoods_filtered_region(nb_manifest, region_slug)
         if body_hoods:
-            n_hoods = sum(1 for e in nb_manifest if e.get("city_slug") == city_slug)
+            n_hoods = sum(1 for e in nb_manifest if e.get("region_slug") == region_slug)
             intro = (
-                f"<p>{n_hoods} neighbourhoods in our {city_name} guide. "
-                f"Click a district to see every restaurant, bar, market and bakery we cover there. "
-                f"<a href=\"/{country_slug}/neighborhoods/\">All neighbourhoods in this country</a>.</p>"
+                f"<p>{n_hoods} sub-appellations in our {region_name} guide. "
+                f"Click a cru to see every estate, tasting room and wine bar we cover there. "
+                f"<a href=\"/{country_slug}/neighborhoods/\">All sub-appellations in this country</a>.</p>"
             )
-            spec = {
-                "slug": f"{country_slug}/{city_slug}/neighborhoods",
-                "title": f"Neighbourhoods of {city_name} | TableJourney",
-                "meta_description": (
-                    f"Every {city_name} neighbourhood we cover, with the restaurants, bars, markets and "
-                    f"bakeries inside each. Plan dinner by the district you're staying in."
-                )[:165],
-                "h1": f"Neighbourhoods of {city_name}",
-                "subtitle": "Plan dinner by the door you walk out of.",
+            written_paths.add(_render_scoped_page(renderer, {
+                "slug": f"{country_slug}/{region_slug}/neighborhoods",
+                "title": f"Sub-Appellations of {region_name} | Cork & Curve",
+                "meta_description": (f"Every {region_name} sub-appellation we cover, with the estates, "
+                                     f"tasting rooms and wine bars inside each.")[:165],
+                "h1": f"Sub-appellations of {region_name}",
+                "subtitle": "Inside the region, cru by cru.",
                 "body": intro + body_hoods,
                 "breadcrumb": crumb(
                     ("Home", f"{BASE}/"),
                     (_country_display(country_slug), f"{BASE}/{country_slug}/"),
-                    (city_name, f"{BASE}/{country_slug}/{city_slug}/"),
-                    ("Neighbourhoods", None),
+                    (region_name, f"{BASE}/{country_slug}/{region_slug}/"),
+                    ("Sub-appellations", None),
                 ),
-            }
-            written_paths.add(_render_scoped_page(renderer, spec))
+            }))
             written += 1
         else:
             skipped_empty += 1
 
-    # Prune stale scoped pages we no longer emit (city/country dropped, or
-    # data emptied). Walk content/<country>/cuisines, /signature-dishes,
-    # /neighborhoods, plus city versions, and remove any index.html that
-    # wasn't written this run.
+    # ---- Prune stale scoped pages ----------------------------------------
     pruned = 0
-    scoped_subdirs = ("cuisines", "signature-dishes", "neighborhoods")
+    GLOBAL_SLUGS = ("grapes", "styles", "world", "regions")
+    for g in GLOBAL_SLUGS:
+        p = CONTENT / g / "index.html"
+        if p.exists() and p not in written_paths:
+            shutil.rmtree(p.parent)
+            pruned += 1
+    scoped_subdirs = ("grapes", "styles", "neighborhoods")
     for country_dir in CONTENT.iterdir():
         if not country_dir.is_dir():
             continue
@@ -588,11 +631,11 @@ def main() -> int:
             if p.exists() and p not in written_paths:
                 shutil.rmtree(p.parent)
                 pruned += 1
-        for city_dir in country_dir.iterdir():
-            if not city_dir.is_dir():
+        for region_dir in country_dir.iterdir():
+            if not region_dir.is_dir():
                 continue
-            for sub in ("cuisines", "neighborhoods"):
-                p = city_dir / sub / "index.html"
+            for sub in scoped_subdirs:
+                p = region_dir / sub / "index.html"
                 if p.exists() and p not in written_paths:
                     shutil.rmtree(p.parent)
                     pruned += 1

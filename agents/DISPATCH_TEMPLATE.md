@@ -1,13 +1,13 @@
 # Agent Dispatch Pipeline (CANONICAL)
 
-Per Lewis (2026-05-21) and `docs/FLOW.md`, the per-city pipeline is:
+Per Lewis (2026-05-21) and `docs/FLOW.md`, the per-region pipeline is:
 
 ```
-1. Sonnet research agent       (writes JSON, runs ship_safety)
-2. Sonnet QA1 agent             (judgment pass: cuisine match, addr cross-check)
-3. Sonnet QA2 agent             (judgment pass: specific-fact match, chef names, dishes)
+1. Sonnet wine-research agent  (writes JSON incl. wines.json, runs ship_safety)
+2. Sonnet QA1 agent             (judgment pass: classification, hectarage, score citation, addr cross-check)
+3. Sonnet QA2 agent             (judgment pass: ownership currency, biodynamic certs, taste-note sourcing, tag conformance, TJ refs)
 4. Opus QA agent                (small narrow final read; should find nothing)
-5. Orchestrator: generation     (geocode, build_pins, regen all generators, sitemap, search index)
+5. Orchestrator: generation     (geocode skipping wines, build_pins, regen all generators incl. wine + tag pages, sitemap, search index)
 6. Orchestrator: final pass     (passthrough — AI-tells, score CV, address realism, orphans)
 ```
 
@@ -21,52 +21,89 @@ Per Lewis (2026-05-21) and `docs/FLOW.md`, the per-city pipeline is:
 
 Tool: `Agent` with `subagent_type: general-purpose`. Background.
 
+**SPLIT THE DISPATCH.** A single agent trying to write all 24 topics +
+region.json + neighborhoods.json hits the model's 32k output token cap
+mid-pipeline (observed on Bordeaux 2026-05-22: agent died after 38 min
+having written only `vineyards.json` + `region.json`). Default to a
+parallel split on non-overlapping files. A clean 4-way split:
+
+- **Agent A — foundation**: `region.json` + `neighborhoods.json` +
+  `vineyards.json` + `signature-grapes.json`. Other agents depend on
+  the vineyards slugs, so this one runs first (or together with B
+  if you've pre-seeded vineyards).
+- **Agent B — cuvée vertical** (depends on A's vineyards): `wines.json`
+  + `signature-wines.json` + `food-pairing.json`.
+- **Agent C — venues**: tasting-rooms, wine-bars, wine-restaurants,
+  wine-retailers, wine-schools, wine-tours, distilleries, wine-museums,
+  wine-hotels, wine-experiences.
+- **Agent D — editorial + nested**: wine-history, seasonal-wine,
+  wine-festivals, budget-wines, hidden-gems, day-trips-wine,
+  itineraries, nightlife, dietary.
+
+Each agent's prompt MUST be explicit: "Touch ONLY these files. A
+sibling agent owns the rest." All four can run concurrently except
+B which waits on A. QA1/QA2/Opus do not write much output, so they
+do NOT need splitting — one agent per QA stage is fine.
+
+Memory rule: `feedback-research-output-cap`.
+
 Skeleton prompt:
 
 ```
-You are the research agent for **<City>, <Country>** on TableJourney.
-Empty scaffold at /station/repo/site-data/<country>/<city>/data/.
+You are the wine-research agent for **<Region>, <Country>** on Cork & Curve.
+Empty scaffold at /station/repo/site-data/<country>/<region>/data/.
 
 READ FIRST:
 1. /station/repo/CLAUDE.md
-2. /station/repo/agents/food-research/PROMPT.md
-3. /station/repo/agents/food-research/SCHEMA.md
+2. /station/repo/agents/wine-research/PROMPT.md
+3. /station/repo/agents/wine-research/SCHEMA.md
 4. /station/repo/docs/STANDARDS.md
 5. /station/repo/docs/DATA_TO_PAGES.md
+6. /station/repo/docs/WINE_TAGS.md  (controlled tag vocabulary for wines.json)
 
-TARGETS (median or above):
-<per-topic counts>
+TARGETS (median or above; see PROMPT.md "24 wine topics" table):
+<per-topic counts including wines.json @ 80-200 per region>
 
-CITY-SPECIFIC GUIDANCE:
-<curated bullets — signature dishes, neighborhoods, day-trips, festivals, dietary aggregators>
+REGION-SPECIFIC GUIDANCE:
+<curated bullets — signature wines, sub-appellations, day-trip neighbours, festivals, biodynamic/natural aggregators>
 
-NON-NEGOTIABLE RULES (from agents/food-research/PROMPT.md):
-- Every entity carries a full `verified` block with the 6 keys.
+NON-NEGOTIABLE RULES (from agents/wine-research/PROMPT.md):
+- Every entity carries a full `verified` block.
 - NO em-dashes or en-dashes anywhere — hard ban.
 - Source-domain diversity: 3+ unique domains per topic.
 - address_quoted verbatim from source page.
 - Self-HEAD every URL BEFORE writing it.
+- Wines (wines.json) are vintage-agnostic — slug is `tignanello`, not `tignanello-2019`.
+- Every wines[*].producer MUST resolve in vineyards.json (same region).
+- Every signature_wines[*].slug MUST also exist in wines[*].slug.
+- Every wines[*].tags entry MUST be in docs/WINE_TAGS.md.
+- Researcher emits style/body/tannin/acidity/pairing/occasion/mood/editorial tags only.
+  Do NOT emit price/ageing/production/grape/world/sweetness tags — generators derive those.
+- pairings[*].tablejourney_ref: HEAD-verify before populating. Use `null` if unsure.
 
 WORKFLOW (chain automatically; do not stop to ask):
 1. RESEARCH every topic to target.
-2. WRITE JSONs.
-3. Run `bash /station/repo/scripts/ship_safety.sh <country> <city>`.
+2. WRITE JSONs. wines.json comes AFTER vineyards.json so producer slugs resolve.
+3. Run `bash /station/repo/scripts/ship_safety.sh <country> <region>`.
    0 HARD required — fix and re-run until clean.
-4. Print READY-TO-SHIP <country>/<city>.
+4. Print READY-TO-SHIP <country>/<region>.
 
 DO NOT:
 - Re-fetch URLs you just wrote ("self-QA"). ship_safety did that.
 - "Self-QA1" / "self-QA2" — those are SEPARATE agents in the chain
-  dispatched by the orchestrator. Doing them inside the research run
-  burns tokens and produces uneven coverage.
-- Skip checklist items 1-11 for any entity. Drop instead.
-- Invent venue domains.
+  dispatched by the orchestrator.
+- Skip checklist items 1-19 for any entity. Drop instead.
+- Invent producer domains, TJ paths, or tag slugs.
+- Invent cuvées. If a producer's full lineup isn't documented on
+  their site or in critic coverage, list the cuvées that ARE
+  documented and stop. Better 4 verified cuvées than 8 fabricated.
 
 DELIVERABLES (final message back to orchestrator):
-- Per-topic entry count
+- Per-topic entry count (including wines count)
 - ship_safety outcome (PASS / HARD count + reasons)
 - Deliberate drops + why
 - Top 3 source domains per major topic
+- For wines.json: distribution of style tags, distribution of pairings (e.g. "67% of cuvées have at least 1 TJ-cross-linked pairing")
 ```
 
 ---
@@ -78,15 +115,17 @@ Dispatched **after** the research agent prints READY-TO-SHIP. Background.
 Skeleton prompt:
 
 ```
-You are the QA1 agent for **<country>/<city>** on TableJourney. The
-research agent has finished; ship_safety mechanical gate PASSED. Your
-job is the judgment-pass A and A2 from /station/repo/agents/qa/PROMPT.md
-— catch cuisine-claim content mismatches and independent-directory
-address cross-check failures.
+You are the QA1 agent for **<country>/<region>** on Cork & Curve. The
+wine-research agent has finished; ship_safety mechanical gate PASSED.
+Your job is the QA1 judgment pass from /station/repo/agents/qa/PROMPT.md
+sections A-F + L — catch classification mistakes, hectarage fabrications,
+unsourced scores, ownership staleness, independent-directory address
+cross-check failures, and producer cross-ref breakage in wines.json.
 
 READ FIRST:
 1. /station/repo/agents/qa/PROMPT.md (entire file)
-2. /station/repo/site-data/<country>/<city>/data/*.json (the work-in-progress)
+2. /station/repo/site-data/<country>/<region>/data/*.json (the work-in-progress)
+3. /station/repo/docs/WINE_TAGS.md (for the L/J tag checks)
 
 YOU MUST NOT:
 - Re-HEAD URLs (`source_url`, `open_evidence_url`, etc.) — pass-1 did that.
@@ -94,22 +133,25 @@ YOU MUST NOT:
 - Re-validate JSON shape, em-dashes, description length, internal x-refs.
 
 YOU MUST:
-- Section A: for every entity with a `cuisine` claim, fetch
-  `cuisine_evidence_url` and confirm the page text supports the claim.
-  EXCEPT dietary entries (handled by check_evidence_content.py).
-- Sampled independent-directory address cross-check (10-15 entities,
-  random sample across topics): Google Maps / OSM / Time Out / Eater /
-  Michelin / Tripadvisor / OpenTable. If sample hits >2 fabrications,
-  broaden to 30. Remove fabricated entities.
-- Section A2: validate every SPECIFIC FACT — dish names, press
-  citations, chef names, cooking methods — against operator menu or
-  press URL. Remove or generalize claims that fail.
+- Section A: classification accuracy (DOCG / DOC / IGT / IGP / AOC / AVA /
+  VDP / DOCa / WO). Sample 15-20 vineyards + signature-wines + wines.
+  >2 defects → broaden to 40.
+- Section B: hectarage realism. Confirm every `vineyards[*].hectares`
+  against producer About page or consortium fact sheet.
+- Section C: score citations. Every `scores[*]` has reviewer + points
+  + vintage + year. Remove unattributable scores. Applies to vineyards
+  AND wines.
+- Section F: independent-directory address cross-check, 10-15 random
+  entities across topics. Skip wines.json (no addresses; producer is
+  the location).
+- Section L: every `wines[*].producer` slug resolves in vineyards.json.
+  Every `signature_wines[*].slug` exists in `wines[*].slug`.
 
 DELIVERABLES: write
-/station/repo/agents/qa/reports/<country>_<city>_qa1_<YYYY-MM-DD>.md
+/station/repo/agents/qa/reports/<country>_<region>_qa1_<YYYY-MM-DD>.md
 with a defect list. Remove flagged entities directly from the JSONs.
 Re-run ship_safety.sh after your changes. Print
-QA1-COMPLETE <country>/<city> with a defect count.
+QA1-COMPLETE <country>/<region> with a defect count.
 
 One continuous run, no escape hatches.
 ```
@@ -123,39 +165,46 @@ Dispatched **after** QA1 prints QA1-COMPLETE. Background.
 Skeleton prompt:
 
 ```
-You are the QA2 agent for **<country>/<city>** on TableJourney. QA1
-already cleared the cuisine-match and address cross-check classes.
-Your job is the remaining QA classes in /station/repo/agents/qa/PROMPT.md
-— specifically: tour-route fabrication, festival-prose echoes,
-thin-category fabrication, chef-name URL-slug mining, name + address
-fabrication on dietary entries (since QA1 skipped those by rule).
+You are the QA2 agent for **<country>/<region>** on Cork & Curve. QA1
+already cleared classification, hectarage, scores, address cross-check,
+and producer/cuvée cross-references. Your job is the remaining QA
+classes in /station/repo/agents/qa/PROMPT.md sections D, E, G, H, I, J, K.
 
 READ FIRST:
-1. /station/repo/agents/qa/PROMPT.md (sections C-H or whatever covers
-   tours, festivals, thin-category, voice/echo)
-2. The post-QA1 JSON state
-3. The QA1 report
+1. /station/repo/agents/qa/PROMPT.md
+2. /station/repo/docs/WINE_TAGS.md
+3. The post-QA1 JSON state
+4. The QA1 report
 
 YOU MUST:
-- Section C: for every food-tour entity, verify the route claim is the
-  operator's actual route (fetch operator site, find a "what we visit"
-  page). Remove fabricated routes.
-- Section D: for every festival entity, confirm the festival month +
-  prose echoes (don't repeat language from the source page verbatim
-  in 'description').
-- Section E: identify any topic where the entries are suspiciously
-  uniform (description openers identical, scores tightly clustered,
-  addresses all on same one or two streets). Spot-fix.
-- Section F: scan editorial prose for AI-tells (em/en-dash variants in
-  unicode chars, generic-vibe phrases, "nestled in", "to die for", etc.)
-- Dietary names + addresses: QA1 skipped these per rule because
-  check_evidence_content.py already did content match. YOU spot-check
-  5-10 dietary entries on an independent directory.
+- Section D: ownership currency. Every `vineyards[*].owner` against
+  2024-2026 press / consortium roster. Pre-Constellation Mondavi,
+  pre-LVMH Lambrays etc. are stale-ownership defects.
+- Section E: biodynamic / organic certification — Demeter / Ecocert /
+  ICEA / USDA Organic / CCPB / SQNPI registry checks for 10 entries
+  marked `*_certified`. Promoting practising to certified is hard-fail.
+- Section G: cross-link sanity. Every food-pairing TJ URL HEAD-resolves
+  AND is in the matching TJ city. PLUS every non-null
+  `wines[*].pairings[*].tablejourney_ref` HEAD-resolves AND is in the
+  matching TJ city.
+- Section H: voice + prose — no em/en dashes, no AI-tells, no
+  score-bunching, no description clones within a topic.
+- Section I: cuvée taste-note sourcing. Sample 10 wines with
+  editorial_score >= 4.5. Confirm taste descriptors trace to a
+  producer tech sheet or named critic note at the cited
+  `verified.cuisine_evidence_url`. Watch for "every cuvée opens with
+  'dark cherry, leather'" template-fill.
+- Section J: tag vocabulary conformance. Every tag in `wines[*].tags`
+  must be in docs/WINE_TAGS.md AND must NOT be from a DERIVED axis
+  (price / ageing / production / grape / world / sweetness — generators
+  add those).
+- Section K: vintage-agnostic discipline. No wines slug with a 4-digit
+  year. No wines name like "Tignanello 2019".
 
 DELIVERABLES: write
-/station/repo/agents/qa/reports/<country>_<city>_qa2_<YYYY-MM-DD>.md.
+/station/repo/agents/qa/reports/<country>_<region>_qa2_<YYYY-MM-DD>.md.
 Remove flagged entities directly. Re-run ship_safety.sh.
-Print QA2-COMPLETE <country>/<city>.
+Print QA2-COMPLETE <country>/<region>.
 
 One continuous run, no escape hatches.
 ```
@@ -170,28 +219,33 @@ background.
 Skeleton prompt:
 
 ```
-You are the Opus final QA for **<country>/<city>**. QA1 + QA2 have
-already removed obvious defects. You should ideally find NOTHING.
-If you find anything, it means QA1 or QA2 regressed — flag the class
-of defect so the upstream prompt can be hardened.
+You are the Opus final QA for **<country>/<region>** on Cork & Curve.
+QA1 + QA2 have already removed obvious defects. You should ideally
+find NOTHING. If you find anything, it means QA1 or QA2 regressed —
+flag the class of defect so the upstream prompt can be hardened.
 
 READ:
 1. /station/repo/agents/qa/PROMPT.md
-2. QA1 + QA2 reports under /station/repo/agents/qa/reports/
-3. Final JSON state
+2. /station/repo/docs/WINE_TAGS.md
+3. QA1 + QA2 reports under /station/repo/agents/qa/reports/
+4. Final JSON state
 
 NARROW READ — do NOT re-do QA1 or QA2:
-- Skim 30 random entities across topics. Sample for: fabricated chef
-  names, fabricated press credentials, claim/source mismatch.
+- Skim 30 random entities across topics. Sample for: fabricated
+  winemaker names, fabricated press credentials, claim/source mismatch.
 - Verify one itinerary end-to-end: every `days[*].venues[*]` slug
-  resolves to a verified entity in the same city.
+  resolves to a verified entity in the same region.
 - Verify one festival end-to-end: source page text matches month claim.
+- Verify one cuvée end-to-end: producer slug resolves in vineyards.json,
+  taste descriptors trace to the cited evidence URL, every non-null
+  pairings TJ ref HEAD-resolves, every tag is in docs/WINE_TAGS.md.
 - Spot-check 5 entities with editorial_score >= 4.7 — that score
-  needs to be backed by either Michelin/50best or a strong press cite.
+  needs to be backed by Decanter top-rated / Wine Spectator Top 100 /
+  Wine Advocate 95+ / equivalent.
 
 DELIVERABLES:
-/station/repo/agents/qa/reports/<country>_<city>_opus_<YYYY-MM-DD>.md
-Print OPUS-CLEAR <country>/<city> if nothing found, else OPUS-FOUND-N
+/station/repo/agents/qa/reports/<country>_<region>_opus_<YYYY-MM-DD>.md
+Print OPUS-CLEAR <country>/<region> if nothing found, else OPUS-FOUND-N
 with the defect list. Re-run ship_safety.sh after any removal.
 
 One continuous run.
@@ -206,11 +260,17 @@ fixed in place):
 
 ```bash
 cd /station/repo
-python3 scripts/geocode_entities.py --city <city>
-python3 scripts/build_city_pins.py --city <city>
+# Geocoding skips wines.json automatically (wines aren't a location;
+# their producer is). The pin map reflects producer locations only.
+python3 scripts/geocode_entities.py --city <region>
+python3 scripts/build_city_pins.py --city <region>
 python3 scripts/qa_geo_outliers.py --bugs-only
 
-python3 scripts/generate_city.py <country> <city>
+python3 scripts/generate_city.py <country> <region>
+# Wine cuvée pages: /wine/<producer>/<cuvee>/ — generated from wines.json
+python3 scripts/generate_wine_pages.py
+# Tag indices: /tag/<slug>/ + /tag/<slug>/<region>/
+python3 scripts/generate_tag_pages.py
 for g in city_cuisine city_dietary city_dish city_nightlife_sub city_price_tier \
          city_topic_when country_topic country_cuisine country_dish country_dietary \
          country_nightlife_sub neighborhood_cuisine global_top_topics cross_cuts \

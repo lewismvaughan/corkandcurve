@@ -1,3 +1,182 @@
 {
-  "itineraries": []
+  "itineraries": [
+    {
+      "slug": "left-bank-classics-weekend",
+      "name": "Left Bank Classics Weekend",
+      "length_days": 2,
+      "theme": "Medoc first and second growths; Pauillac, Saint-Julien and Margaux",
+      "days": [
+        {
+          "day": 1,
+          "morning": "Arrive Bordeaux; check in at Chateau Cordeillan-Bages hotel (Pauillac); walk the Pauillac quay and Maison du Vin for a first orientation tasting",
+          "lunch": "Cafe Lavinal in Bages village; Lynch-Bages by the glass with Landaise dishes",
+          "afternoon": "Pre-booked visit to Chateau Lynch-Bages cellar and barrel chai; optional upgrade to visit Chateau Mouton Rothschild museum (book months in advance)",
+          "evening": "Drive south along the Route des Chateaux through Saint-Julien; view Ducru-Beaucaillou and Leoville facades at sunset",
+          "dinner": "Restaurant Cordeillan-Bages (Michelin-starred, Pauillac)",
+          "accommodation": "Chateau Cordeillan-Bages",
+          "venues": ["chateau-lynch-bages", "chateau-mouton-rothschild", "cafe-lavinal-bages", "restaurant-cordeillan-bages", "chateau-cordeillan-bages-hotel"]
+        },
+        {
+          "day": 2,
+          "morning": "Pre-booked appointment at Chateau Palmer (Margaux); 90-min tour of the biodynamic estate with tasting of current and one back vintage",
+          "lunch": "Wine lunch at Le Chapon Fin bar (Bordeaux city); claret and traditional brasserie food",
+          "afternoon": "L'Intendant tower browsing; optional structured tasting at Bordeaux Wine School (walk-in afternoon slots)",
+          "evening": "Return to Bordeaux city; walk the Chartrons quay; visit Musee du Vin et du Negoce",
+          "dinner": "Restaurant Gabriel at Place de la Bourse (Michelin-starred)",
+          "accommodation": "Grand Hotel Bordeaux (Intercontinental)",
+          "venues": ["chateau-palmer", "le-chapon-fin-bar", "l-intendant-tasting-room", "bordeaux-wine-school-tasting-bar", "musee-du-vin-et-du-negoce-chartrons", "gabriel-bordeaux"]
+        }
+      ],
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.vins-medoc.fr/en/plan-your-visit/",
+        "address_quoted": "Medoc Peninsula, Gironde, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.bordeaux-wine-trips.com/our-tours/",
+        "cuisine_evidence_url": "https://www.vins-medoc.fr/en/appellations/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "right-bank-deep-dive",
+      "name": "Saint-Emilion and Pomerol Right Bank Deep Dive",
+      "length_days": 3,
+      "theme": "Right Bank mastery: Saint-Emilion Premier Grand Cru Classe, Pomerol, Fronsac",
+      "days": [
+        {
+          "day": 1,
+          "morning": "Arrive Saint-Emilion village; check in at Hostellerie de Plaisance; walk the village with Maison du Vin orientation tasting",
+          "lunch": "Cepage wine bar (Saint-Emilion village) with Right Bank by-the-glass flight",
+          "afternoon": "Guided visit to Chateau Beau-Sejour Becot (Premier Grand Cru Classe B); underground limestone cellars and current vintage tasting",
+          "evening": "Jurade tower views from the village; evening free in Saint-Emilion",
+          "dinner": "Hostellerie de Plaisance (Michelin-starred)",
+          "accommodation": "Hostellerie de Plaisance or The Keys at Troplong Mondot",
+          "venues": ["maison-du-vin-de-saint-emilion", "cepage-wine-bar-saint-emilion", "chateau-beausejour-becot", "hostellerie-de-plaisance-saint-emilion"]
+        },
+        {
+          "day": 2,
+          "morning": "Drive to Pomerol; private tour at Vieux Chateau Certan (pre-booked months in advance)",
+          "lunch": "Picnic lunch among Pomerol vines or casual lunch in Libourne centre",
+          "afternoon": "Drive to Fronsac; Chateau de la Riviere cave experience tour and tasting",
+          "evening": "Return to Saint-Emilion; sunset walk around the vineyard plateau",
+          "dinner": "Les Belles Perdrix de Troplong Mondot (Michelin-starred)",
+          "accommodation": "The Keys at Chateau Troplong Mondot",
+          "venues": ["vieux-chateau-certan", "chateau-de-la-riviere-cave-experience", "les-belles-perdrix-troplong-mondot", "the-keys-troplong-mondot"]
+        },
+        {
+          "day": 3,
+          "morning": "Chateau Canon visit (Chanel-owned Premier Grand Cru Classe B; appointment required)",
+          "lunch": "Guided tasting lunch at Saint-Emilion Maison du Vin wine school session",
+          "afternoon": "Drive south to Sauternes; Chateau Rieussec tasting appointment",
+          "evening": "Return to Bordeaux city",
+          "dinner": "Le Pressoir d'Argent (Gordon Ramsay, Michelin-starred)",
+          "accommodation": "Grand Hotel Bordeaux (Intercontinental)",
+          "venues": ["chateau-canon", "saint-emilion-wine-experience-school", "chateau-rieussec", "le-pressoir-dargent-gordon-ramsay"]
+        }
+      ],
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.vins-saint-emilion.com/en/the-appellation/",
+        "address_quoted": "Saint-Emilion, 33330 Gironde, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.ophorus.com/bordeaux-wine-tours",
+        "cuisine_evidence_url": "https://www.vins-saint-emilion.com/en/the-appellation/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "premier-cru-and-sauternes-splurge",
+      "name": "Premier Cru and Sauternes Splurge",
+      "length_days": 4,
+      "theme": "First growths, Sauternes Premier Cru Superieur, and luxury estate dining",
+      "days": [
+        {
+          "day": 1,
+          "morning": "Arrive Bordeaux; check in at Les Sources de Caudalie (Martillac); Vinotherapie Barrel Bath spa experience",
+          "lunch": "La Grand'Vigne at Les Sources de Caudalie (Michelin-starred)",
+          "afternoon": "Chateau Smith Haut Lafitte tour and Pessac-Leognan blanc vertical tasting with winemaker Fabien Teitgen",
+          "evening": "Sunset walk in the estate vineyard; Vinotherapie spa",
+          "dinner": "La Grand'Vigne wine-pairing tasting menu",
+          "accommodation": "Les Sources de Caudalie",
+          "venues": ["les-sources-de-caudalie", "chateau-smith-haut-lafitte-vinotherapie", "vinotherapie-spa-caudalie"]
+        },
+        {
+          "day": 2,
+          "morning": "Drive north to Pauillac; pre-booked appointment at Chateau Mouton Rothschild museum and tasting",
+          "lunch": "Cafe Lavinal (Bages village; Cazes family bistro)",
+          "afternoon": "Chateau Pichon-Lalande visit (appointment required); second wine and grand vin comparative tasting",
+          "evening": "Chateau Cordeillan-Bages check-in",
+          "dinner": "Restaurant Cordeillan-Bages (Michelin-starred Pauillac)",
+          "accommodation": "Chateau Cordeillan-Bages",
+          "venues": ["chateau-mouton-rothschild-tasting", "cafe-lavinal-bages", "chateau-pichon-lalande", "restaurant-cordeillan-bages", "chateau-cordeillan-bages-hotel"]
+        },
+        {
+          "day": 3,
+          "morning": "Drive south to Sauternes; check in at Hotel Lalique (Chateau Lafaurie-Peyraguey)",
+          "lunch": "Restaurant Lalique at Lafaurie-Peyraguey (two Michelin stars)",
+          "afternoon": "Chateau d'Yquem tasting appointment (book 6+ weeks in advance)",
+          "evening": "Sauternes village walk; visit producer cooperative cellar",
+          "dinner": "Restaurant Lalique tasting menu with Sauternes vertical pairing",
+          "accommodation": "Hotel Lalique at Chateau Lafaurie-Peyraguey",
+          "venues": ["lalique-restaurant-lafaurie-peyraguey", "chateau-dyquem-tasting", "lalique-hotel-lafaurie-peyraguey"]
+        },
+        {
+          "day": 4,
+          "morning": "Morning at leisure; Chateau Rieussec tasting (Sauternes Premier Cru, Rothschild-owned)",
+          "lunch": "Return to Bordeaux city; La Grande Maison de Bernard Magrez (Michelin-starred, wine-cellar lunch)",
+          "afternoon": "Cite du Vin museum and Belvedere tasting bar; closing the loop on Bordeaux wine history",
+          "evening": "Depart Bordeaux",
+          "dinner": "La Grande Maison de Bernard Magrez",
+          "accommodation": "Depart",
+          "venues": ["chateau-rieussec", "la-grande-maison-de-bernard-magrez", "cite-du-vin-tasting-bar"]
+        }
+      ],
+      "editorial_score": 5.0,
+      "verified": {
+        "source_url": "https://www.sources-caudalie.com/en/",
+        "address_quoted": "Chemin de Smith Haut-Lafitte, 33650 Martillac, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.yquem.fr/en/visit-us",
+        "cuisine_evidence_url": "https://www.sources-caudalie.com/en/wine-and-health/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "biodynamic-bordeaux-weekend",
+      "name": "Biodynamic Bordeaux Weekend",
+      "length_days": 2,
+      "theme": "Bordeaux's biodynamic and organic estate pioneers from Pauillac to Margaux",
+      "days": [
+        {
+          "day": 1,
+          "morning": "Arrive Pauillac; Chateau Pontet-Canet visit (Demeter-certified, 81 hectares); blending workshop experience",
+          "lunch": "Picnic in the Pontet-Canet biodynamic vineyard; hamper from Cafe Lavinal (Bages)",
+          "afternoon": "Chateau Lynch-Bages visit (for contrast with conventional Pauillac); afternoon tasting",
+          "evening": "Drive to Cantenac (Margaux appellation)",
+          "dinner": "Dinner at Cafe Lavinal or local brasserie in Pauillac",
+          "accommodation": "Chateau Cordeillan-Bages or gite near Pauillac",
+          "venues": ["chateau-pontet-canet", "blending-workshop-chateau-pontet-canet", "chateau-lynch-bages", "cafe-lavinal-bages"]
+        },
+        {
+          "day": 2,
+          "morning": "Chateau Palmer visit (Demeter-certified since 2017; 66 hectares); full biodynamic cellar tour and current vintage tasting",
+          "lunch": "Wine lunch in Bordeaux city at Le Chapon Fin bar",
+          "afternoon": "Visit Max Bordeaux (Chartrons) for natural Bordeaux selections; Bordeaux natural wine route self-guided",
+          "evening": "Cite du Vin for wine-culture context",
+          "dinner": "Wine Not Bar (Saint-Michel district; natural Bordeaux list)",
+          "accommodation": "Depart or Bordeaux city hotel",
+          "venues": ["chateau-palmer", "le-chapon-fin-bar", "max-bordeaux", "cite-du-vin-tasting-bar", "wine-not-bar"]
+        }
+      ],
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.biodyvin.com/en/our-members/",
+        "address_quoted": "Bordeaux region, Gironde, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.pontet-canet.com/en/visit/",
+        "cuisine_evidence_url": "https://winespecific.com/2024/07/23/full-force-biodynamics-at-chateau-pontet-canet-and-the-meaning-of-local/",
+        "checked_on": "2026-05-22"
+      }
+    }
+  ]
 }

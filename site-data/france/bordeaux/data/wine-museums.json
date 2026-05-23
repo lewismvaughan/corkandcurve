@@ -1,3 +1,84 @@
 {
-  "wine_museums": []
+  "wine_museums": [
+    {
+      "slug": "cite-du-vin-bordeaux",
+      "name": "La Cite du Vin",
+      "address": "134-150 quai de Bacalan, 33300 Bordeaux, France",
+      "neighborhood": "Bacalan, Bordeaux",
+      "description": "The world's premier wine-culture museum, opened 2016 in a striking wave-form building on the Garonne. Permanent interactive exhibition covers 20 wine civilisations across 3,000 square metres; Belvedere tasting bar on the 8th floor with Garonne panorama and rotating global wine flights.",
+      "admission": "Adults EUR 21; reduced EUR 17.50; included Belvedere tasting credit",
+      "permanent_collection": true,
+      "temporary_exhibitions": true,
+      "tasting_bar": true,
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.laciteduvin.com/en/visit/",
+        "address_quoted": "134-150 quai de Bacalan, 33300 Bordeaux",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g187079-d8728278-Reviews-La_Cite_du_Vin-Bordeaux_Gironde_Nouvelle_Aquitaine.html",
+        "cuisine_evidence_url": "https://www.laciteduvin.com/en/visit/the-permanent-exhibition/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "chateau-mouton-rothschild-museum",
+      "name": "Museum of Wine in Art - Chateau Mouton Rothschild",
+      "address": "Chateau Mouton Rothschild, 33250 Pauillac, France",
+      "neighborhood": "Pauillac AOC",
+      "description": "The world's foremost museum of wine-related art inside a working first-growth estate. Five millennia of wine culture: Babylonian ewers, Roman glass, medieval tapestries, Picasso label art, 20th-century commissions.",
+      "admission": "EUR 12 museum entry; combined with tasting programme from EUR 35",
+      "permanent_collection": true,
+      "temporary_exhibitions": false,
+      "tasting_bar": true,
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.chateau-mouton-rothschild.com/en/visit/museum",
+        "address_quoted": "Chateau Mouton Rothschild, 33250 Pauillac, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g664680-d1072895-Reviews-Chateau_Mouton_Rothschild-Pauillac_Gironde_Nouvelle_Aquitaine.html",
+        "cuisine_evidence_url": "https://www.chateau-mouton-rothschild.com/en/wines",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "chateau-lanessan-musee-de-la-vigne",
+      "name": "Musee du Cheval et de la Vigne - Chateau Lanessan",
+      "address": "Chateau Lanessan, 33460 Cussac-Fort-Medoc, France",
+      "neighborhood": "Haut-Medoc AOC",
+      "description": "A unique double museum at Chateau Lanessan in Haut-Medoc: the Musee de la Vigne et du Vin traces 19th-century Medoc winemaking with original equipment, and the Musee du Cheval displays an exceptional collection of horse-drawn carriages used on the estate.",
+      "admission": "EUR 6 adults; combined tour and tasting from EUR 15",
+      "permanent_collection": true,
+      "temporary_exhibitions": false,
+      "tasting_bar": true,
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.lanessan.com/en/visit/museum/",
+        "address_quoted": "Chateau Lanessan, 33460 Cussac-Fort-Medoc, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g1197282-d3564282-Reviews-Chateau_Lanessan-Cussac_Fort_Medoc_Gironde_Nouvelle_Aquitaine.html",
+        "cuisine_evidence_url": "https://www.lanessan.com/en/wines/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "musee-du-vin-et-du-negoce-chartrons",
+      "name": "Musee du Vin et du Negoce de Bordeaux",
+      "address": "41 rue Borie, 33300 Bordeaux, France",
+      "neighborhood": "Chartrons, Bordeaux",
+      "description": "Housed in a 17th-century wine merchant cellar in the Chartrons district, the Museum of Wine and Trade traces Bordeaux's role as the world's most influential wine merchant city. Permanent collections cover the Dutch-influenced Chartrons merchants, the 1855 classification genesis, and the global trade of Bordeaux bottles.",
+      "admission": "EUR 6 adults; includes a tasting of Bordeaux wine",
+      "permanent_collection": true,
+      "temporary_exhibitions": true,
+      "tasting_bar": true,
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.museeduvin-bordeaux.com/en/",
+        "address_quoted": "41 rue Borie, 33300 Bordeaux",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g187079-d1547649-Reviews-Musee_du_Vin_et_du_Negoce-Bordeaux_Gironde_Nouvelle_Aquitaine.html",
+        "cuisine_evidence_url": "https://www.museeduvin-bordeaux.com/en/collections/",
+        "checked_on": "2026-05-22"
+      }
+    }
+  ]
 }

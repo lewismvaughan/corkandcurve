@@ -1,3 +1,254 @@
 {
-  "signature_wines": []
+  "signature_wines": [
+    {
+      "slug": "chateau-margaux-grand-vin",
+      "name": "Chateau Margaux",
+      "producer": "chateau-margaux",
+      "varietals": [
+        "Cabernet Sauvignon",
+        "Merlot",
+        "Cabernet Franc",
+        "Petit Verdot"
+      ],
+      "style": "still red Bordeaux blend",
+      "vintage_range": "approachable from 15-20 years; cellar 30-50",
+      "price_band": "EUR 700-2000 at retail",
+      "tasting_notes": "The most perfumed Medoc first growth: haunting floral aromatics of roses and violets above concentrated cassis, saline minerality, and tannins demanding decades of patience. (Source: chateau-margaux.com / Wine Advocate 100pts 2019)",
+      "editorial_score": 4.9,
+      "description": "The sole Margaux AOC Premier Cru Classe, Chateau Margaux produces Bordeaux's most floral and ethereal grand vin. Cabernet Sauvignon dominant at roughly 90 percent, it defines the feminine pole of Medoc style.",
+      "verified": {
+        "source_url": "https://www.chateau-margaux.com/en/contact",
+        "open_status": "open",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "lafite-rothschild",
+      "name": "Chateau Lafite Rothschild",
+      "producer": "chateau-lafite-rothschild",
+      "varietals": [
+        "Cabernet Sauvignon",
+        "Merlot",
+        "Cabernet Franc",
+        "Petit Verdot"
+      ],
+      "style": "still red Bordeaux blend",
+      "vintage_range": "approachable from 10-15 years; cellar 30-50",
+      "price_band": "USD 700-1200 at retail",
+      "tasting_notes": "The archetype of Pauillac first-growth: Cabernet-dominant with penetrating lead pencil and cassis aromatics, precise fine-grained tannins, and a finish that evolves over decades. (Source: lafite.com / Wine Advocate 100pts 2019)",
+      "editorial_score": 4.9,
+      "description": "Pauillac Premier Cru Classe, Chateau Lafite Rothschild is the definitive expression of Pauillac restraint: pencil-mineral aromatics, an aristocratic structure, and extraordinary capacity to age.",
+      "verified": {
+        "source_url": "https://www.lafite.com/domaines/chateau-lafite-rothschild/contact/",
+        "open_status": "open",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "latour-grand-vin",
+      "name": "Chateau Latour",
+      "producer": "chateau-latour",
+      "varietals": [
+        "Cabernet Sauvignon",
+        "Merlot",
+        "Cabernet Franc",
+        "Petit Verdot"
+      ],
+      "style": "still red Bordeaux blend",
+      "vintage_range": "approachable from 15-20 years; cellar 40-60",
+      "price_band": "USD 600-1000 at retail",
+      "tasting_notes": "The most structured and austere Pauillac first growth. Old-vine Cabernet Sauvignon from the L'Enclos parcel delivers extraordinary concentration and mineral tension; legendary longevity demands decades of patience. (Source: chateau-latour.com / Wine Advocate 100pts 2010)",
+      "editorial_score": 4.9,
+      "description": "Pauillac Premier Cru Classe and the most tannic of Bordeaux's first growths, Chateau Latour is built for the long haul. The L'Enclos monopole parcel at the heart of Pauillac gives the wine its iron-and-mineral backbone.",
+      "verified": {
+        "source_url": "https://www.chateau-latour.com/en/visit",
+        "open_status": "open",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "mouton-rothschild",
+      "name": "Chateau Mouton Rothschild",
+      "producer": "chateau-mouton-rothschild",
+      "varietals": [
+        "Cabernet Sauvignon",
+        "Merlot",
+        "Cabernet Franc",
+        "Petit Verdot"
+      ],
+      "style": "still red Bordeaux blend",
+      "vintage_range": "approachable from 10-15 years; cellar 30-50",
+      "price_band": "USD 600-1100 at retail",
+      "tasting_notes": "The most opulent Pauillac first growth: dense blackcurrant concentration, dark chocolate, and extrovert aromatic generosity that sets it apart from the pencil-mineral restraint of its neighbours. (Source: chateau-mouton-rothschild.com / James Suckling 100pts 2016)",
+      "editorial_score": 4.9,
+      "description": "The only Bordeaux estate to have been reclassified upward in the 1855 system, elevated from Deuxieme to Premier Cru Classe in 1973. Known for opulence, annual artist-label commissions, and the greatest 1982 vintage in Pauillac.",
+      "verified": {
+        "source_url": "https://www.chateau-mouton-rothschild.com/",
+        "open_status": "open",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "chateau-haut-brion-rouge",
+      "name": "Chateau Haut-Brion",
+      "producer": "chateau-haut-brion",
+      "varietals": [
+        "Merlot",
+        "Cabernet Sauvignon",
+        "Cabernet Franc",
+        "Petit Verdot"
+      ],
+      "style": "still red Bordeaux blend",
+      "vintage_range": "approachable from 10-15 years; cellar 30-40",
+      "price_band": "EUR 550-900 at retail",
+      "tasting_notes": "Merlot-led first-growth Pessac-Leognan combining cassis and graphite with earthy tobacco and cedar. Velvety tannins and exceptional length distinguish it from Medoc peers. (Source: haut-brion.com / James Suckling 100pts 2019)",
+      "editorial_score": 4.9,
+      "description": "The only Graves estate in the 1855 classification and Bordeaux's oldest named first growth, with records from 1533. Unusually Merlot-dominant for a first growth, giving a rounder, earthier profile than the Medoc peers.",
+      "verified": {
+        "source_url": "https://www.haut-brion.com/en/the-wines/chateau-haut-brion-rouge/chateau-haut-brion-rouge-2020/",
+        "open_status": "open",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "chateau-cheval-blanc",
+      "name": "Chateau Cheval Blanc",
+      "producer": "chateau-cheval-blanc",
+      "varietals": [
+        "Cabernet Franc",
+        "Merlot",
+        "Cabernet Sauvignon"
+      ],
+      "style": "still red Bordeaux blend",
+      "vintage_range": "approachable from 10-15 years; cellar 30-40",
+      "price_band": "EUR 600-1200 at retail",
+      "tasting_notes": "Cabernet Franc-dominant Saint-Emilion of breathtaking silkiness: violets and graphite on the nose, an opulent yet precise palate of black cherry and tobacco, seamless tannin structure and a finish of uncommon length. (Source: chateau-cheval-blanc.com / Wine Advocate 100pts 2019)",
+      "editorial_score": 4.9,
+      "description": "Saint-Emilion's most iconic estate and the spiritual home of Cabernet Franc on the Right Bank. The legendary 1947 vintage remains one of the greatest wines ever produced in Bordeaux.",
+      "verified": {
+        "source_url": "https://www.chateau-cheval-blanc.com/en/contact-details-how-to-find-us/",
+        "open_status": "open",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "chateau-ausone",
+      "name": "Chateau Ausone",
+      "producer": "chateau-ausone",
+      "varietals": [
+        "Cabernet Franc",
+        "Merlot"
+      ],
+      "style": "still red Bordeaux blend",
+      "vintage_range": "approachable from 15-20 years; cellar 30-50",
+      "price_band": "EUR 700-1100 at retail",
+      "tasting_notes": "From just 7 hectares of steep limestone slopes, Ausone delivers concentration, precision and mineral tension. Cabernet Franc dominates, giving iron-rich structure, dried-flower fragrance and an extraordinary seamless finish. (Source: chateau-ausone.fr / Wine Cellar Insider 100pts multiple vintages)",
+      "editorial_score": 4.9,
+      "description": "Saint-Emilion's smallest grand cru estate at 7 hectares, planted on a singular south-facing limestone escarpment overlooking the Dordogne valley. One of Bordeaux's rarest and most cellar-worthy wines.",
+      "verified": {
+        "source_url": "https://www.chateau-ausone.fr/en/",
+        "open_status": "open",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "chateau-dyquem",
+      "name": "Chateau d'Yquem",
+      "producer": "chateau-dyquem",
+      "varietals": [
+        "Semillon",
+        "Sauvignon Blanc"
+      ],
+      "style": "dessert Sauternes noble rot",
+      "vintage_range": "approachable from 10-20 years; cellar 50 or more",
+      "price_band": "EUR 380-600 at retail",
+      "tasting_notes": "The world's most celebrated botrytised wine: beeswax, saffron, apricot and honey balanced by electric acidity. Ages for decades and improves for 50 or more years in great vintages. (Source: yquem.fr / James Suckling 100pts 2022)",
+      "editorial_score": 5.0,
+      "description": "The sole Premier Cru Superieur in the 1855 Sauternes classification, Chateau d'Yquem produces a wine without equal in the sweet-wine world. Harvested berry by berry in repeated tries, with one glass of wine per vine per year in the greatest years.",
+      "verified": {
+        "source_url": "https://yquem.fr/int-en/y-the-other-exception",
+        "open_status": "open",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "petrus-pomerol",
+      "name": "Petrus",
+      "producer": "petrus",
+      "varietals": [
+        "Merlot"
+      ],
+      "style": "still red Pomerol",
+      "vintage_range": "approachable from 10-15 years; cellar 25-40",
+      "price_band": "EUR 6000-8500 at retail",
+      "tasting_notes": "100% Merlot from 11.4 ha of blue clay at Pomerol's centre. Silk-and-velvet texture with truffle, chocolate and dark cherry at its core; structurally imposing yet hedonistic, with a finish that stretches for minutes. (Source: thewinecellarinsider.com / Wine Advocate 100pts 1998, 2000, 2010)",
+      "editorial_score": 5.0,
+      "description": "Bordeaux's most expensive consistently produced wine and one of the world's great cult bottles. Petrus is unclassified yet universally acknowledged as Pomerol's pinnacle: 100% Merlot on a unique blue-clay outcrop at the plateau's highest point.",
+      "verified": {
+        "source_url": "https://www.thewinecellarinsider.com/bordeaux-wine-producer-profiles/bordeaux/pomerol/petrus/",
+        "open_status": "open",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "le-pin-pomerol",
+      "name": "Le Pin",
+      "producer": "le-pin",
+      "varietals": [
+        "Merlot"
+      ],
+      "style": "still red Pomerol",
+      "vintage_range": "approachable from 10-12 years; cellar 20-30",
+      "price_band": "EUR 3500-6000 at retail",
+      "tasting_notes": "Micro-estate garagiste Pomerol with supremely hedonistic Merlot character: mocha-laced plum and violet aromatics, a voluptuous fleshy palate, and remarkable concentration from just 400-600 cases per year. (Source: thewinecellarinsider.com / Decanter 100pts 1982, Wine Advocate 100pts 2000)",
+      "editorial_score": 4.9,
+      "description": "The original garagiste wine and Bordeaux's rarest cult bottle: roughly 500 cases produced annually from just 2.7 hectares. Le Pin's hedonistic richness and microscopic production drive prices that rival or exceed Petrus.",
+      "verified": {
+        "source_url": "https://www.thewinecellarinsider.com/bordeaux-wine-producer-profiles/bordeaux/pomerol/le-pin/",
+        "open_status": "open",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "chateau-figeac",
+      "name": "Chateau Figeac",
+      "producer": "chateau-figeac",
+      "varietals": [
+        "Cabernet Franc",
+        "Cabernet Sauvignon",
+        "Merlot"
+      ],
+      "style": "still red Bordeaux blend",
+      "vintage_range": "approachable from 10-12 years; cellar 25-35",
+      "price_band": "EUR 220-400 at retail",
+      "tasting_notes": "The most Cabernet-dominant Right Bank premier cru: near-equal thirds of each variety. Promoted to Premier Grand Cru Classe A in 2022. Combines peony and iris fragrance with electric energy, grainy Cabernet tannin and remarkable mineral length. (Source: chateau-figeac.com / Wine Advocate 99pts 2019)",
+      "editorial_score": 4.8,
+      "description": "Saint-Emilion's most unusual premier cru: planted on deep gravel rather than limestone, with a Cabernet-heavy blend that would not look out of place in the Medoc. Elevated to the top tier of Saint-Emilion classification in 2022.",
+      "verified": {
+        "source_url": "https://www.chateau-figeac.com/en/the-wine/",
+        "open_status": "open",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "lafleur-pomerol",
+      "name": "Chateau Lafleur",
+      "producer": "chateau-lafleur",
+      "varietals": [
+        "Cabernet Franc",
+        "Merlot"
+      ],
+      "style": "still red Pomerol",
+      "vintage_range": "approachable from 10-15 years; cellar 25-40",
+      "price_band": "EUR 800-1500 at retail",
+      "tasting_notes": "Unique Pomerol with equal Cabernet Franc-Merlot split giving perfumed floral lift and structural precision rarely seen in the appellation. Biodynamic since 2014; produced from just 4.5 hectares on the Pomerol plateau. (Source: chateau-lafleur.fr / Wine Advocate 99pts 2015, 2022)",
+      "editorial_score": 4.9,
+      "description": "A tiny 4.5-hectare estate producing one of Bordeaux's most distinctive wines. The 50-50 Cabernet Franc-Merlot split and biodynamic farming give Lafleur a precision and floral lift that makes it immediately recognisable among Pomerol peers.",
+      "verified": {
+        "source_url": "https://www.chateau-lafleur.fr/",
+        "open_status": "open",
+        "checked_on": "2026-05-22"
+      }
+    }
+  ]
 }

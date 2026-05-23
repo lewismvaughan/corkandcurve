@@ -1,0 +1,17 @@
+{% extends "topics/_topic_base.html" %}
+{% from "topics/_macros.html" import grape_card %}
+
+{% block topic_intro %}
+<p class="tj-intro">{{ topic.intro | default('The grapes that define ' ~ destination.name ~ ': the canonical varietals and how the region expresses them.') }}</p>
+{% endblock %}
+
+{% block topic_sections %}
+{% if research.signature_grapes %}
+<section class="tj-section" id="grapes">
+    <h2>Canonical grapes of {{ destination.name }}</h2>
+    <div class="tj-card-grid">
+        {% for g in research.signature_grapes %}{{ grape_card(g, g._url) }}{% endfor %}
+    </div>
+</section>
+{% endif %}
+{% endblock %}

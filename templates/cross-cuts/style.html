@@ -1,0 +1,70 @@
+{# Cross-cut: wine style landing page (global).
+   /style/<style-slug>/  (sparkling | still | sweet | fortified | orange | natural)
+
+   Context:
+     style              "Sparkling" (display name)
+     style_slug         "sparkling"
+     regions            [{region_name, region_slug, country_slug, vineyards:[entity,...]}]
+     total_entities     int
+     breadcrumb         standard breadcrumb list
+#}
+{% extends "base.html" %}
+{% from "partials/_ad_slot.html" import ad_slot %}
+{% from "topics/_macros.html" import vineyard_card %}
+
+{% block hero %}
+<section class="tj-hero tj-container">
+    <div class="tj-hero-body">
+        <h1 itemprop="headline">{{ style }} wine around the world</h1>
+        <p class="tj-hero-tagline">{{ total_entities }} editor-picked {{ style | lower }} {% if total_entities == 1 %}producer{% else %}producers{% endif %} across {{ regions | length }} {% if regions | length == 1 %}region{% else %}regions{% endif %}.</p>
+    </div>
+</section>
+{% endblock %}
+
+{% block schema_extra %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "CollectionPage",
+      "@id": "{{ seo.meta.canonical_url }}#collection",
+      "name": {{ (style ~ " wine on Cork & Curve") | tojson }},
+      "description": {{ seo.meta.description | tojson }},
+      "url": {{ seo.meta.canonical_url | tojson }}
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {% for crumb in breadcrumb %}
+        { "@type": "ListItem", "position": {{ loop.index }}, "name": {{ crumb.name | tojson }}{% if crumb.url %}, "item": "https://corkandcurve.com{{ crumb.url }}"{% endif %} }{% if not loop.last %},{% endif %}
+        {% endfor %}
+      ]
+    }
+  ]
+}
+</script>
+{% endblock %}
+
+{% block content %}
+<div class="tj-container">
+    <section class="tj-section">
+        <p class="tj-intro">A guide to {{ style | lower }} wine worth seeking out, by region.</p>
+    </section>
+
+    {{ ad_slot('cross-cut-top', size='leaderboard') }}
+
+    {% for region in regions %}
+    <section class="tj-section" id="region-{{ region.region_slug }}">
+        <h2><a href="/{{ region.country_slug }}/{{ region.region_slug }}/">{{ style }} wine in {{ region.region_name }}</a></h2>
+        <div class="tj-card-grid">
+            {% for v in region.vineyards %}{{ vineyard_card(v, region.region_name, v._url) }}{% endfor %}
+        </div>
+    </section>
+    {% endfor %}
+
+    <section class="tj-section">
+        <p style="margin-top:18px"><a class="tj-card-link" href="/styles/">Browse all wine styles →</a></p>
+    </section>
+</div>
+{% endblock %}

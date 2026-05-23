@@ -19,7 +19,7 @@
 #}
 {% extends "base.html" %}
 {% from "partials/_ad_slot.html" import ad_slot %}
-{% from "topics/_macros.html" import place_card, dish_card, editorial_score %}
+{% from "topics/_macros.html" import place_card, dish_card, editorial_score, tj_crosslink %}
 
 {% block hero %}
 <section class="tj-hero tj-container">
@@ -34,10 +34,12 @@
         <div class="tj-byline">
             <span class="tj-stamp">{{ entity_type }} in {{ destination.name }}</span>
             {% if entity.neighborhood %}<span>· {{ entity.neighborhood }}</span>{% endif %}
+            {% if entity.classification %}<span>· {{ entity.classification }}</span>{% endif %}
+            {% if entity.hectares %}<span>· {{ entity.hectares }} ha</span>{% endif %}
             {% if entity.cuisine %}<span>· {{ entity.cuisine }}</span>{% endif %}
             {% if entity.price_tier %}<span>· {{ entity.price_tier }}</span>{% endif %}
             {% if verified_display %}
-            <span class="tj-verified-badge" title="Cork and Curve editors verified this venue's address, hours and current operation on this date."
+            <span class="tj-verified-badge" title="Cork & Curve editors verified this venue's address, hours and current operation on this date."
                   style="margin-left:auto; display:inline-flex; align-items:center; gap:4px; font-size:.85em; color:var(--tj-muted, #6b6b6b);">
                 <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>
                 {% if verified_source_url %}<a href="{{ verified_source_url }}" rel="nofollow" target="_blank" style="color:inherit;">Verified {{ verified_display }}</a>{% else %}Verified {{ verified_display }}{% endif %}
@@ -58,13 +60,15 @@
       "@id": "{{ seo.meta.canonical_url }}#entity",
       "name": {{ entity.name | tojson }},
       {% if entity.description %}"description": {{ entity.description | tojson }},{% endif %}
-      {% if topic.slug in ("festivals", "cooking-classes") and entity.address %}
+      {% if topic.slug in ("wine-festivals", "wine-schools") %}
+      {# Event subtypes require `location`. Emit a Place even when we
+         don't have a street address. GSC 2026-05-23: critical issue. #}
       "location": {
         "@type": "Place",
-        "name": {{ (entity.name if topic.slug == "cooking-classes" else entity.address.split(',')[0]) | tojson }},
+        "name": {{ (entity.name if topic.slug == "wine-schools" else (entity.address.split(',')[0] if entity.address else destination.name)) | tojson }},
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": {{ entity.address | tojson }},
+          {% if entity.address %}"streetAddress": {{ entity.address | tojson }},{% endif %}
           "addressLocality": {{ destination.name | tojson }}{% if seo.geo and seo.geo.country_code %},
           "addressCountry": {{ seo.geo.country_code | tojson }}{% endif %}
         }
@@ -81,18 +85,38 @@
         "latitude": {{ entity.geo.lat | tojson }},
         "longitude": {{ entity.geo.lon | tojson }}
       },{% endif %}{% endif %}
-      {% if topic.slug == "festivals" and entity.start_date_iso %}
-      "startDate": {{ entity.start_date_iso | tojson }},
-      "endDate": {{ entity.end_date_iso | tojson }},
-      "eventStatus": {{ entity.event_status_url | tojson }},
+      {% if topic.slug == "wine-festivals" %}
+      {# Festival required field: startDate. Fall back to current_date_iso
+         when next occurrence isn't announced. GSC 2026-05-23: critical. #}
+      "startDate": {{ (entity.start_date_iso or current_date_iso) | tojson }},
+      "endDate": {{ (entity.end_date_iso or entity.start_date_iso or current_date_iso) | tojson }},
+      "eventStatus": {{ (entity.event_status_url or "https://schema.org/EventScheduled") | tojson }},
       "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-      "isAccessibleForFree": {{ (not entity.ticket_required) | tojson }},
+      {% if entity.organizer %}"organizer": { "@type": "Organization", "name": {{ entity.organizer | tojson }} },{% endif %}
+      {% if entity.performer %}"performer": { "@type": "PerformingGroup", "name": {{ entity.performer | tojson }} },{% endif %}
+      {% if entity.ticket_required is defined %}"isAccessibleForFree": {{ (not entity.ticket_required) | tojson }},{% endif %}
+      {% if entity.ticket_url or entity.booking_url or entity.price or entity.ticket_required == false %}
+      "offers": {
+        "@type": "Offer",
+        {% if entity.ticket_url or entity.booking_url %}"url": {{ (entity.ticket_url or entity.booking_url) | tojson }},{% endif %}
+        "availability": "https://schema.org/InStock",
+        {% if entity.price %}"price": {{ entity.price | tojson }}, "priceCurrency": {{ (entity.price_currency or "EUR") | tojson }},
+        {% elif entity.ticket_required == false %}"price": "0", "priceCurrency": {{ (entity.price_currency or "EUR") | tojson }},
+        {% endif %}
+        "validFrom": {{ ((entity.verified.checked_on if entity.verified else None) or current_date_iso) | tojson }}
+      },
+      {% endif %}
       "image": {{ seo.open_graph.og_image | tojson }},
       {% endif %}
-      {% if topic.slug == "cooking-classes" %}
-      "eventStatus": {{ entity.event_status_url | tojson }},
-      "eventAttendanceMode": {{ entity.event_attendance_mode_url | tojson }},
-      {% if entity.cuisine_taught %}"about": {{ entity.cuisine_taught | tojson }},{% endif %}
+      {% if topic.slug == "wine-schools" %}
+      {# EducationEvent inherits Event → startDate CRITICAL. Wine schools
+         are ongoing offerings; fall back to today + 1y window. #}
+      "startDate": {{ (entity.start_date_iso or current_date_iso) | tojson }},
+      "endDate": {{ (entity.end_date_iso or next_year_iso) | tojson }},
+      "eventStatus": {{ (entity.event_status_url or "https://schema.org/EventScheduled") | tojson }},
+      "eventAttendanceMode": {{ (entity.event_attendance_mode_url or "https://schema.org/OfflineEventAttendanceMode") | tojson }},
+      {% if entity.focus %}"about": {{ entity.focus | tojson }},{% endif %}
+      {% if entity.organizer %}"organizer": { "@type": "Organization", "name": {{ entity.organizer | tojson }} },{% endif %}
       {% if entity.offer_dict %}"offers": {{ entity.offer_dict | tojson }},{% endif %}
       "image": {{ seo.open_graph.og_image | tojson }},
       {% endif %}
@@ -115,16 +139,18 @@
         "@id": "{{ seo.meta.canonical_url }}#review",
         "author": {
           "@type": "Person",
-          "name": "Cork and Curve Editorial",
+          "name": "Cork & Curve Editorial",
           "url": "https://corkandcurve.com/about/editorial/",
           "jobTitle": "Editorial Desk",
-          "worksFor": { "@type": "Organization", "name": "Cork and Curve", "url": "https://corkandcurve.com/" }
+          "worksFor": { "@type": "Organization", "name": "Cork & Curve", "url": "https://corkandcurve.com/" }
         },
-        "publisher": { "@type": "Organization", "name": "Cork and Curve", "url": "https://corkandcurve.com/" },
+        "publisher": { "@type": "Organization", "name": "Cork & Curve", "url": "https://corkandcurve.com/" },
         "datePublished": {{ (seo.article.published_time or '2026-01-01T00:00:00Z') | tojson }},
-        "reviewRating": { "@type": "Rating", "ratingValue": {{ entity.editorial_score | tojson }}, "bestRating": "5", "worstRating": "1" },
-        {% if entity.description %}"reviewBody": {{ entity.description | tojson }},{% endif %}
-        "itemReviewed": { "@type": {{ entity_schema | tojson }}, "name": {{ entity.name | tojson }} }
+        "reviewRating": { "@type": "Rating", "ratingValue": {{ entity.editorial_score | tojson }}, "bestRating": "5", "worstRating": "1" }
+        {% if entity.description %}, "reviewBody": {{ entity.description | tojson }}{% endif %}
+        {# itemReviewed removed 2026-05-23 — Review is nested inside the
+           entity, so the parent IS the reviewed thing. Keeping itemReviewed
+           causes Google's "directional conflict" error. #}
       },{% endif %}
       "url": {{ seo.meta.canonical_url | tojson }}
     },
@@ -156,6 +182,19 @@
     <div class="tj-main-col">
         <section class="tj-section" id="details">
             <div class="tj-detail-grid">
+                {% if entity.classification %}<div><strong>Classification</strong><span>{{ entity.classification }}</span></div>{% endif %}
+                {% if entity.varietals %}<div><strong>Varietals</strong><span>{{ entity.varietals | join(', ') if entity.varietals is iterable and entity.varietals is not string else entity.varietals }}</span></div>{% endif %}
+                {% if entity.varietals_focus %}<div><strong>Pours</strong><span>{{ entity.varietals_focus | join(', ') if entity.varietals_focus is iterable and entity.varietals_focus is not string else entity.varietals_focus }}</span></div>{% endif %}
+                {% if entity.hectares %}<div><strong>Hectares</strong><span>{{ entity.hectares }} ha</span></div>{% endif %}
+                {% if entity.owner %}<div><strong>Owner</strong><span>{{ entity.owner }}</span></div>{% endif %}
+                {% if entity.winemaker %}<div><strong>Winemaker</strong><span>{{ entity.winemaker }}</span></div>{% endif %}
+                {% if entity.founded %}<div><strong>Founded</strong><span>{{ entity.founded }}</span></div>{% endif %}
+                {% if entity.tasting_program %}<div><strong>Tasting</strong><span>{{ entity.tasting_program }}</span></div>{% endif %}
+                {% if entity.glass_count %}<div><strong>By the glass</strong><span>{{ entity.glass_count }}</span></div>{% endif %}
+                {% if entity.cellar_size %}<div><strong>Cellar</strong><span>{{ entity.cellar_size }} bottles</span></div>{% endif %}
+                {% if entity.biodynamic_status and entity.biodynamic_status != 'none' %}<div><strong>Biodynamic</strong><span>{{ entity.biodynamic_status | replace('_', ' ') | title }}</span></div>{% endif %}
+                {% if entity.organic_status and entity.organic_status != 'none' %}<div><strong>Organic</strong><span>{{ entity.organic_status | replace('_', ' ') | upper }}</span></div>{% endif %}
+                {% if entity.natural_wine %}<div><strong>Natural wine</strong><span>Yes</span></div>{% endif %}
                 {% if entity.cuisine %}<div><strong>Cuisine</strong><span>{{ entity.cuisine }}</span></div>{% endif %}
                 {% if entity.style %}<div><strong>Style</strong><span>{{ entity.style }}</span></div>{% endif %}
                 {% if entity.type %}<div><strong>Type</strong><span>{{ entity.type }}</span></div>{% endif %}
@@ -182,6 +221,10 @@
             </p>
             {% endif %}
 
+            {% if entity.signature_wines %}<p class="tj-detail-line"><strong>Signature wines:</strong> {{ entity.signature_wines | join(', ') if entity.signature_wines is iterable and entity.signature_wines is not string else entity.signature_wines }}</p>{% endif %}
+            {% if entity.scores %}<p class="tj-detail-line"><strong>Scores:</strong> {% for s in entity.scores %}{{ s.reviewer }} {{ s.points }}{% if s.vintage %} ({{ s.vintage }}){% endif %}{% if not loop.last %}, {% endif %}{% endfor %}</p>{% endif %}
+            {% if entity.wine_program %}<p class="tj-detail-line"><strong>The list:</strong> {{ entity.wine_program }}</p>{% endif %}
+            {% if entity.awards %}<p class="tj-detail-line"><strong>Awards:</strong> {% for a in entity.awards %}{{ a.source }}{% if a.year %} {{ a.year }}{% endif %}{% if not loop.last %}, {% endif %}{% endfor %}</p>{% endif %}
             {% if entity.must_order %}<p class="tj-detail-line"><strong>Must order:</strong> {{ entity.must_order }}</p>{% endif %}
             {% if entity.food_program %}<p class="tj-detail-line"><strong>Food program:</strong> {{ entity.food_program }}</p>{% endif %}
             {% if entity.route %}<p class="tj-detail-line"><strong>Route:</strong> {{ entity.route }}</p>{% endif %}
@@ -192,6 +235,10 @@
                 {% if entity.booking_url %}<a class="tj-btn tj-btn-primary" href="{{ entity.booking_url }}" rel="nofollow" target="_blank">Book at {{ entity.name }}</a>{% endif %}
                 {% if entity.affiliate_url and not entity.booking_url %}<a class="tj-btn tj-btn-primary" href="{{ entity.affiliate_url }}" rel="nofollow sponsored" target="_blank">Book tour</a>{% endif %}
             </div>
+
+            {% if entity.cross_site_ref %}
+            <p class="tj-detail-line tj-crosssite-line">{{ tj_crosslink(entity.cross_site_ref, (entity.cross_site_label or ('Dine at ' ~ entity.name)) ~ ' on TableJourney') }}</p>
+            {% endif %}
         </section>
 
         {{ ad_slot('entity-mid', size='in-article-native') }}
@@ -238,7 +285,7 @@
 
         <div style="margin-top:32px">
             <a href="{{ topic_url }}" class="tj-btn tj-btn-secondary">← Back to {{ topic.name }} in {{ destination.name }}</a>
-            <a href="{{ city_url }}" class="tj-btn tj-btn-secondary" style="margin-left:8px">← {{ destination.name }} food guide</a>
+            <a href="{{ city_url }}" class="tj-btn tj-btn-secondary" style="margin-left:8px">← {{ destination.name }} wine guide</a>
         </div>
     </div>
 
@@ -247,25 +294,28 @@
             <h3>About this place</h3>
             <ul class="tj-sidebar-list">
                 {% if entity.cuisine and cuisine_url %}<li><a href="{{ cuisine_url }}">{{ entity.cuisine }} in {{ destination.name }}</a></li>{% endif %}
-                {% if entity.neighborhood and neighborhood_url %}<li><a href="{{ neighborhood_url }}">{{ entity.neighborhood }} food guide</a></li>{% endif %}
+                {% if entity.neighborhood and neighborhood_url %}<li><a href="{{ neighborhood_url }}">{{ entity.neighborhood }} wine guide</a></li>{% endif %}
                 <li><a href="{{ topic_url }}">All {{ topic.name | lower }} in {{ destination.name }}</a></li>
-                {% if topic.slug %}<li><a href="/topics/{{ topic.slug }}/">All {{ topic.name | lower }} on Cork and Curve</a></li>{% endif %}
+                {% if topic.slug %}<li><a href="/topics/{{ topic.slug }}/">All {{ topic.name | lower }} on Cork & Curve</a></li>{% endif %}
                 <li><a href="{{ city_url }}">{{ destination.name }} food guide</a></li>
             </ul>
         </div>
 
         {{ ad_slot('entity-sidebar-1', size='rectangle') }}
 
+        {% set pt = populated_topics | default([]) %}
+        {% if ('itineraries' in pt or 'wine-tours' in pt or 'tasting-rooms' in pt or 'signature-wines' in pt or 'wine-history' in pt) %}
         <div class="tj-sidebar-box">
             <h3>Plan your visit</h3>
             <ul class="tj-sidebar-list">
-                <li><a href="{{ city_url }}itineraries/">Eating itineraries</a></li>
-                <li><a href="{{ city_url }}food-tours/">Guided food tours</a></li>
-                <li><a href="{{ city_url }}markets/">Food markets</a></li>
-                <li><a href="{{ city_url }}signature-dishes/">Must-try dishes</a></li>
-                <li><a href="{{ city_url }}food-history/">Food history</a></li>
+                {% if 'itineraries' in pt %}<li><a href="{{ city_url }}itineraries/">Wine itineraries</a></li>{% endif %}
+                {% if 'wine-tours' in pt %}<li><a href="{{ city_url }}wine-tours/">Guided wine tours</a></li>{% endif %}
+                {% if 'tasting-rooms' in pt %}<li><a href="{{ city_url }}tasting-rooms/">Tasting rooms</a></li>{% endif %}
+                {% if 'signature-wines' in pt %}<li><a href="{{ city_url }}signature-wines/">Signature wines</a></li>{% endif %}
+                {% if 'wine-history' in pt %}<li><a href="{{ city_url }}wine-history/">Wine history</a></li>{% endif %}
             </ul>
         </div>
+        {% endif %}
 
         {{ ad_slot('entity-sidebar-2', size='half-page', sticky=True, desktop_only=True) }}
     </aside>

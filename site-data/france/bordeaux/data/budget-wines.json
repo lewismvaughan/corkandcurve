@@ -1,3 +1,250 @@
 {
-  "budget_wines": []
+  "budget_wines": [
+    {
+      "slug": "larose-trintaudon-haut-medoc",
+      "name": "Chateau Larose Trintaudon Haut-Medoc",
+      "producer": "chateau-larose-trintaudon",
+      "appellation": "Haut-Medoc AOC",
+      "style": "Red Bordeaux blend",
+      "typical_price": "EUR 12-16 at retail",
+      "varietals": [
+        "Cabernet Sauvignon",
+        "Merlot"
+      ],
+      "description": "The largest Cru Bourgeois in the Medoc at 170 hectares; reliable, fruit-forward Cabernet-dominant style with Medoc typicity at an accessible price. Good with lamb and hard cheeses.",
+      "retail_outlet": "Millesima, Badie, supermarkets across France",
+      "editorial_score": 3.9,
+      "verified": {
+        "source_url": "https://www.larosetrintaudon.com/en/",
+        "address_quoted": "33112 Saint-Laurent-Medoc, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wineinvestment.com/us/learn/wine/bordeaux/haut-medoc/chateau-larose-trintaudon/",
+        "cuisine_evidence_url": "https://www.thewinecellarinsider.com/bordeaux-wine-producer-profiles/bordeaux/haut-medoc/larose-trintaudon/",
+        "checked_on": "2026-05-22"
+      },
+      "address": "33112 Saint-Laurent-Medoc, France"
+    },
+    {
+      "slug": "chateau-camensac-haut-medoc-budget",
+      "name": "Chateau Camensac Haut-Medoc",
+      "producer": "chateau-camensac",
+      "appellation": "Haut-Medoc AOC",
+      "style": "Red Bordeaux blend",
+      "typical_price": "EUR 18-24 at retail",
+      "varietals": [
+        "Cabernet Sauvignon",
+        "Merlot"
+      ],
+      "description": "A fifth-growth Haut-Medoc at a fraction of commune-appellation classified growth prices. Merlaut family management has brought steady quality improvements; dark fruit with classic Medoc cedar notes.",
+      "retail_outlet": "Badie Bordeaux, Millesima, UK independents",
+      "editorial_score": 4.1,
+      "verified": {
+        "source_url": "https://www.chateaucamensac.com/en/",
+        "address_quoted": "33112 Saint-Laurent-Medoc, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.ugcb.net/en/chateaux/chateau-camensac-2/",
+        "cuisine_evidence_url": "https://www.thewinecellarinsider.com/bordeaux-wine-producer-profiles/bordeaux/haut-medoc/camensac/",
+        "checked_on": "2026-05-22"
+      },
+      "address": "33112 Saint-Laurent-Medoc, France"
+    },
+    {
+      "slug": "meyney-saint-estephe-budget",
+      "name": "Chateau Meyney Saint-Estephe",
+      "producer": "chateau-meyney",
+      "appellation": "Saint-Estephe AOC",
+      "style": "Red Bordeaux blend",
+      "typical_price": "EUR 20-25 at retail",
+      "varietals": [
+        "Cabernet Sauvignon",
+        "Merlot",
+        "Petit Verdot"
+      ],
+      "description": "Cru Bourgeois Exceptionnel from a former Celestine priory estate; 51 hectares of typical Saint-Estephe clay soils produce robust, age-worthy Cabernet-dominant reds at under EUR 25. Decanter rates the 2018 at 93 points.",
+      "retail_outlet": "Millesima, Badie, Nicolas France",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.chateau-meyney.com/en/",
+        "address_quoted": "33180 Saint-Estephe, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wineinvestment.com/us/learn/wine/bordeaux/saint-estephe/chateau-meyney/",
+        "cuisine_evidence_url": "https://www.thewinecellarinsider.com/bordeaux-wine-producer-profiles/bordeaux/st-estephe/meyney/",
+        "checked_on": "2026-05-22"
+      },
+      "address": "33180 Saint-Estephe, France"
+    },
+    {
+      "slug": "bauduc-blanc-sec-entre-deux-mers",
+      "name": "Chateau Bauduc Blanc Sec",
+      "producer": "chateau-bauduc",
+      "appellation": "Entre-Deux-Mers AOC",
+      "style": "White Bordeaux blend",
+      "typical_price": "EUR 10-14 at retail",
+      "varietals": [
+        "Sauvignon Blanc",
+        "Semillon",
+        "Muscadelle"
+      ],
+      "description": "English-owned Gavin Quinney's benchmark Entre-Deux-Mers blanc: citrussy, grassy Sauvignon Blanc-led with a Semillon mid-palate weight. Decanter 91 points 2020. Excellent value for classic Bordeaux blanc.",
+      "retail_outlet": "Bauduc direct, Berry Bros and Rudd (UK), Millesima",
+      "editorial_score": 4.0,
+      "verified": {
+        "source_url": "https://www.bauduc.com/wines/",
+        "address_quoted": "33670 Creon, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.winespectator.com/articles/bordeaux-whites-value",
+        "cuisine_evidence_url": "https://www.thewinecellarinsider.com/bordeaux-wine-producer-profiles/bordeaux/entre-deux-mers/bauduc/",
+        "checked_on": "2026-05-22"
+      },
+      "address": "33670 Creon, France"
+    },
+    {
+      "slug": "chasse-spleen-moulis-budget",
+      "name": "L'Hermitage de Chasse-Spleen (second wine)",
+      "producer": "chateau-chasse-spleen",
+      "appellation": "Moulis-en-Medoc AOC",
+      "style": "Red Bordeaux blend",
+      "typical_price": "EUR 14-18 at retail",
+      "varietals": [
+        "Cabernet Sauvignon",
+        "Merlot",
+        "Petit Verdot"
+      ],
+      "description": "The second wine of Cru Bourgeois Exceptionnel Chasse-Spleen; classic Moulis typicity with dark fruit and structured tannins at well under EUR 20. An intelligent entry point to the Medoc for value seekers.",
+      "retail_outlet": "Badie Bordeaux, Nicolas, Majestic UK",
+      "editorial_score": 4.0,
+      "verified": {
+        "source_url": "https://www.chasse-spleen.com/en/wines/",
+        "address_quoted": "33480 Moulis-en-Medoc, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.ugcb.net/en/chateaux/chateau-chasse-spleen-2/",
+        "cuisine_evidence_url": "https://www.thewinecellarinsider.com/bordeaux-wine-producer-profiles/bordeaux/moulis/chasse-spleen/",
+        "checked_on": "2026-05-22"
+      },
+      "address": "33480 Moulis-en-Medoc, France"
+    },
+    {
+      "slug": "union-producteurs-saint-emilion-coop",
+      "name": "L'Union de Producteurs de Saint-Emilion Grand Cru",
+      "producer": "saint-emilion-cave-cooperative",
+      "appellation": "Saint-Emilion Grand Cru AOC",
+      "style": "Red Bordeaux blend",
+      "typical_price": "EUR 14-20 at retail",
+      "varietals": [
+        "Merlot",
+        "Cabernet Franc"
+      ],
+      "description": "The cooperative of 230 Saint-Emilion growers produces Grand Cru-level quality from a wide range of limestone and clay parcels. Their Gallus cuvee and L'Excellence range regularly score 88-91 points at accessible prices.",
+      "retail_outlet": "Cooperative cellar door (Haut-Gravet), French supermarkets, udpse.com online",
+      "editorial_score": 4.0,
+      "verified": {
+        "source_url": "https://www.udpse.com/en/our-wines/",
+        "address_quoted": "Haut-Gravet, 33330 Saint-Emilion, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g187073-d1076063-Reviews-L_Union_de_Producteurs_de_Saint_Emilion-Saint_Emilion_Gironde_Nouvelle_Aquitaine.html",
+        "cuisine_evidence_url": "https://www.udpse.com/en/our-wines/",
+        "checked_on": "2026-05-22"
+      },
+      "address": "Haut-Gravet, 33330 Saint-Emilion, France"
+    },
+    {
+      "slug": "chateau-de-la-riviere-fronsac-budget",
+      "name": "Chateau de la Riviere Fronsac",
+      "producer": "chateau-de-la-riviere",
+      "appellation": "Fronsac AOC",
+      "style": "Red Bordeaux blend",
+      "typical_price": "EUR 18-25 at retail",
+      "varietals": [
+        "Merlot",
+        "Cabernet Franc",
+        "Cabernet Sauvignon"
+      ],
+      "description": "Fronsac's flagship estate at 60 hectares; structured, ageworthy Merlot-Cabernet Franc blends from limestone terraces. Decanter 93 points 2018; remarkable quality-to-price proposition versus comparable Right Bank peers.",
+      "retail_outlet": "Direct cellar door, Millesima, specialist UK merchants",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.chateau-de-la-riviere.com/en/wines/",
+        "address_quoted": "33126 La Riviere, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.thewinecellarinsider.com/bordeaux-wine-producer-profiles/bordeaux/fronsac/de-la-riviere/",
+        "cuisine_evidence_url": "https://www.wineinvestment.com/us/learn/wine/bordeaux/fronsac/chateau-de-la-riviere/",
+        "checked_on": "2026-05-22"
+      },
+      "address": "33126 La Riviere, France"
+    },
+    {
+      "slug": "echo-de-lynch-bages",
+      "name": "Echo de Lynch-Bages (second wine)",
+      "producer": "chateau-lynch-bages",
+      "appellation": "Pauillac AOC",
+      "style": "Red Bordeaux blend",
+      "typical_price": "EUR 22-28 at retail",
+      "varietals": [
+        "Cabernet Sauvignon",
+        "Merlot",
+        "Cabernet Franc"
+      ],
+      "description": "The second wine of Lynch-Bages carries true Pauillac terroir: dark cassis, cedar, and structure. Accessible within the EUR 25 ceiling in many vintages; far better than most second wines at this price tier.",
+      "retail_outlet": "Millesima, Badie, Berry Bros and Rudd UK, Wine.com US",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.jmcazes.com/en/jmc/wines",
+        "address_quoted": "33250 Pauillac, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.ugcb.net/en/chateaux/chateau-lynch-bages-2/",
+        "cuisine_evidence_url": "https://www.thewinecellarinsider.com/bordeaux-wine-producer-profiles/bordeaux/pauillac/lynch-bages/",
+        "checked_on": "2026-05-22"
+      },
+      "address": "33250 Pauillac, France"
+    },
+    {
+      "slug": "moulin-pey-labrie-canon-fronsac",
+      "name": "Chateau Moulin Pey-Labrie Canon-Fronsac",
+      "producer": "chateau-moulin-pey-labrie",
+      "appellation": "Canon-Fronsac AOC",
+      "style": "Red Bordeaux blend",
+      "typical_price": "EUR 15-20 at retail",
+      "varietals": [
+        "Merlot",
+        "Cabernet Franc"
+      ],
+      "description": "Organic 7-hectare Canon-Fronsac estate producing benchmark clay-limestone Merlot-Cabernet Franc at under EUR 20. Wine Advocate 92 points 2019; Decanter 91 points 2018. Superb local grape character at a price well below equivalent Right Bank.",
+      "retail_outlet": "Direct cellar door (Saillans), Millesima, specialist French independents",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.moulinpeylabrie.fr/",
+        "address_quoted": "33141 Saillans, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.thewinecellarinsider.com/bordeaux-wine-producer-profiles/bordeaux/canon-fronsac/moulin-pey-labrie/",
+        "cuisine_evidence_url": "https://www.wineinvestment.com/us/learn/wine/bordeaux/canon-fronsac/",
+        "checked_on": "2026-05-22"
+      },
+      "address": "33141 Saillans, France"
+    },
+    {
+      "slug": "sociando-mallet-second-wine",
+      "name": "La Demoiselle de Sociando-Mallet",
+      "producer": "chateau-sociando-mallet",
+      "appellation": "Haut-Medoc AOC",
+      "style": "Red Bordeaux blend",
+      "typical_price": "EUR 16-22 at retail",
+      "varietals": [
+        "Cabernet Sauvignon",
+        "Merlot",
+        "Cabernet Franc"
+      ],
+      "description": "Second wine of Sociando-Mallet, a Cru Bourgeois that many critics rank above many classified growths in quality. La Demoiselle carries genuine Haut-Medoc character and Gautreau's uncompromising extraction approach at a fraction of the grand vin price.",
+      "retail_outlet": "Badie Bordeaux, Millesima, independent UK merchants",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.sociando-mallet.com/en/wines/",
+        "address_quoted": "33180 Saint-Seurin-de-Cadourne, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wineinvestment.com/us/learn/wine/bordeaux/haut-medoc/sociando-mallet/",
+        "cuisine_evidence_url": "https://www.thewinecellarinsider.com/bordeaux-wine-producer-profiles/bordeaux/haut-medoc/sociando-mallet/",
+        "checked_on": "2026-05-22"
+      },
+      "address": "33180 Saint-Seurin-de-Cadourne, France"
+    }
+  ]
 }

@@ -1,0 +1,40 @@
+{% extends "topics/_topic_base.html" %}
+{% from "topics/_macros.html" import school_card %}
+
+{% block topic_intro %}
+<p class="tj-intro">{{ topic.intro | default('Tastings, courses and structured sessions in ' ~ destination.name ~ ' that teach you the region in a glass.') }}</p>
+{% endblock %}
+
+{% block topic_sections %}
+{% if research.wine_schools %}
+<section class="tj-section" id="picks">
+    <h2>Classes worth booking</h2>
+    <div class="tj-card-grid">
+        {% for c in research.wine_schools %}{{ school_card(c, destination.name, c._url) }}{% endfor %}
+    </div>
+</section>
+{% endif %}
+{% endblock %}
+
+{% block topic_schema_extra %}
+{% set _cs = research.wine_schools | default([]) %}
+{% if _cs %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {% for c in _cs %}
+    {
+      "@type": "Course",
+      "@id": "{{ seo.meta.canonical_url }}#class-{{ loop.index }}",
+      "name": {{ c.name | tojson }}{% if c.description %},
+      "description": {{ c.description | tojson }}{% endif %},
+      "provider": { "@type": "Organization", "name": {{ (c.instructor or c.name) | tojson }} }{% if c.duration %},
+      "timeRequired": {{ c.duration | tojson }}{% endif %}
+    }{% if not loop.last %},{% endif %}
+    {% endfor %}
+  ]
+}
+</script>
+{% endif %}
+{% endblock %}

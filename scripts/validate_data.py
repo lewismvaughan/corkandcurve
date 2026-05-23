@@ -25,61 +25,69 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 SITE_DATA = REPO_ROOT / "site-data"
 
-REQUIRED_FILES = ["region.json", "city.json", "neighborhoods.json"]
+REQUIRED_FILES = ["region.json", "neighborhoods.json"]
 TOPIC_FILES_TO_KEY = {
-    "restaurants.json":      "restaurants",
-    "fine-dining.json":      "fine_dining",
-    "casual-dining.json":    "casual_dining",
-    "cafes.json":            "cafes",
-    "bakeries.json":         "bakeries",
-    "coffee-roasters.json":  "coffee_roasters",
-    "wine-bars.json":        "wine_bars",
-    "bars.json":             "bars",
-    "street-food.json":      "street_food",
-    "breweries.json":        "breweries",
-    "markets.json":          "markets",
-    "food-tours.json":       "food_tours",
-    "festivals.json":        "food_festivals",
-    "cooking-classes.json":  "cooking_classes",
-    "dietary.json":          "dietary",
-    "budget-eating.json":    "budget_eating",
-    "signature-dishes.json": "signature_dishes",
-    "hidden-gems.json":      "hidden_gems",
-    "brunch.json":           "brunch",
-    "late-night.json":       "late_night",
-    "food-history.json":     "food_history",
-    "seasonal-food.json":    "seasonal_food",
-    "day-trips-food.json":   "day_trips_food",
-    "itineraries.json":      "itineraries",
+    "vineyards.json":         "vineyards",
+    "wines.json":             "wines",
+    "tasting-rooms.json":     "tasting_rooms",
+    "wine-bars.json":         "wine_bars",
+    "wine-restaurants.json":  "wine_restaurants",
+    "wine-retailers.json":    "wine_retailers",
+    "wine-schools.json":      "wine_schools",
+    "wine-tours.json":        "wine_tours",
+    "wine-festivals.json":    "wine_festivals",
+    "distilleries.json":      "distilleries",
+    "wine-museums.json":      "wine_museums",
+    "wine-hotels.json":       "wine_hotels",
+    "wine-experiences.json":  "wine_experiences",
+    "wine-history.json":      "wine_history",
+    "seasonal-wine.json":     "seasonal_wine",
+    "signature-wines.json":   "signature_wines",
+    "signature-grapes.json":  "signature_grapes",
+    "budget-wines.json":      "budget_wines",
+    "hidden-gems.json":       "hidden_gems",
+    "day-trips-wine.json":    "day_trips_wine",
+    "itineraries.json":       "itineraries",
+    "food-pairing.json":      "food_pairing",
+    "dietary.json":           "dietary",
+    "nightlife.json":         "nightlife",
 }
-DICT_TOPICS = {"dietary.json", "food-history.json", "seasonal-food.json"}
+DICT_TOPICS = {"dietary.json", "nightlife.json", "wine-history.json", "seasonal-wine.json"}
 
 # Topics where every entry is a fixed venue and MUST have slug+name+address.
 VENUE_TOPICS = {
-    "restaurants.json", "fine-dining.json", "casual-dining.json",
-    "cafes.json", "bakeries.json", "coffee-roasters.json", "wine-bars.json",
-    "bars.json", "street-food.json", "breweries.json",
-    "markets.json", "budget-eating.json", "hidden-gems.json",
-    "brunch.json", "late-night.json",
+    "vineyards.json", "tasting-rooms.json", "wine-bars.json",
+    "wine-restaurants.json", "wine-retailers.json", "wine-museums.json",
+    "wine-hotels.json", "distilleries.json", "budget-wines.json",
+    "hidden-gems.json",
 }
 # Topics where every entry needs slug+name and SHOULD have address or
-# meeting_point (WARN if both missing). Tours/festivals roam locations.
+# meeting_point (WARN if both missing). Tours/festivals/schools roam.
 SOFT_ADDRESS_TOPICS = {
-    "food-tours.json", "festivals.json", "cooking-classes.json",
+    "wine-tours.json", "wine-festivals.json", "wine-schools.json",
+    "wine-experiences.json",
 }
 # Topics where every entry needs slug+name only (day-trips are regions,
-# itineraries are content).
+# itineraries/signature wines+grapes/pairings are abstract content,
+# wines are cuvées tied to a producer rather than a venue).
 ENTITY_NO_ADDRESS_TOPICS = {
-    "day-trips-food.json",
+    "day-trips-wine.json",
     "itineraries.json",
+    "signature-wines.json",
+    "signature-grapes.json",
+    "food-pairing.json",
+    "wines.json",
 }
 ENTITY_LIST_TOPICS = VENUE_TOPICS | SOFT_ADDRESS_TOPICS | ENTITY_NO_ADDRESS_TOPICS
 # Topics where the per-entity `verified` provenance block is OPTIONAL.
-# Itineraries reference other entities; signature dishes are abstract; both
-# get their truth from the venues they reference. Everything else must
-# carry its own provenance. See SCHEMA.md 'Provenance block (`verified`)'.
+# Itineraries reference other entities; signature wines/grapes and food
+# pairings are abstract; all get their truth from the venues they reference.
+# Everything else must carry its own provenance. See SCHEMA.md.
+# wines.json is NOT optional — every cuvée has its own source URL
+# (producer tech sheet or critic page) and carries its own verified block.
 VERIFIED_OPTIONAL_TOPICS = {
-    "itineraries.json", "signature-dishes.json",
+    "itineraries.json", "signature-wines.json", "signature-grapes.json",
+    "food-pairing.json",
 }
 
 PLACEHOLDER_RE = re.compile(r"\b(TODO|TBD|FIXME|XXX|Lorem ipsum|placeholder)\b", re.IGNORECASE)
@@ -199,6 +207,67 @@ def _check_editorial_score(fname: str, entry: dict, label: str, issues: list) ->
 _VERIFIED_REQUIRED_FIELDS = ("source_url", "open_status", "checked_on")
 _VERIFIED_OPEN_STATUSES = {"open", "permanently_closed", "seasonal", "unknown"}
 _ISO_DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+
+# ─── Wine cuvée vocabularies ────────────────────────────────────────────────
+# Single source of truth for these controlled values lives in
+# docs/WINE_TAGS.md. The validator parses the tag list from there at startup
+# but the small enumerations below (sweetness / body / tannin / acidity /
+# style) are duplicated here so the validator stays self-contained when run
+# without docs/WINE_TAGS.md (e.g. on a stripped CI image).
+WINE_SWEETNESS = {"dry", "off-dry", "medium-sweet", "sweet", "dessert"}
+WINE_BODY = {"light", "medium", "full"}
+WINE_TANNIN = {"low", "medium", "firm", "high"}
+WINE_ACIDITY = {"low", "medium", "high", "racy"}
+WINE_STYLES = {
+    "still-red", "still-white", "still-rose",
+    "sparkling-traditional", "sparkling-tank", "sparkling-ancestral",
+    "orange",
+    "dessert-late-harvest", "dessert-noble-rot", "dessert-ice-wine",
+    "dessert-passito",
+    "fortified-port", "fortified-sherry", "fortified-madeira",
+    "fortified-marsala", "fortified-vdn",
+    "vermouth",
+}
+# Tag axes the RESEARCHER is allowed to emit. The other axes
+# (price, ageing, production, grape, world, sweetness) are derived by the
+# page generators from other fields; emitting them in wines[*].tags is a
+# regression that QA2 should have caught.
+WINE_DERIVED_TAG_PREFIXES = ("price-", "drink-young", "medium-term", "cellar-worthy")
+WINE_DERIVED_TAGS = {
+    "dry", "off-dry", "medium-sweet", "sweet", "dessert",
+    "biodynamic", "biodynamic-certified", "organic", "natural", "vegan",
+    "low-sulfite", "old-world", "new-world",
+}
+
+_WINE_TAGS_DOC = REPO_ROOT / "docs" / "WINE_TAGS.md"
+_WINE_TAG_TABLE_ROW = re.compile(r"^\|\s*`([a-z0-9-]+)`\s*\|", re.MULTILINE)
+
+
+def _load_wine_tag_vocabulary() -> set[str]:
+    """Parse the controlled vocabulary out of docs/WINE_TAGS.md.
+
+    Tags in that doc are rendered in markdown tables, one slug per row,
+    formatted as `| `<slug>` | <display> | ... |`. We pick the first
+    backticked token from each row. Returns an empty set if the doc is
+    missing — validator falls back to a WARN-only tag check in that case.
+    """
+    if not _WINE_TAGS_DOC.exists():
+        return set()
+    try:
+        text = _WINE_TAGS_DOC.read_text(encoding="utf-8")
+    except OSError:
+        return set()
+    return set(_WINE_TAG_TABLE_ROW.findall(text))
+
+
+_WINE_TAGS_CACHED: set[str] | None = None
+
+
+def _wine_tags() -> set[str]:
+    global _WINE_TAGS_CACHED
+    if _WINE_TAGS_CACHED is None:
+        _WINE_TAGS_CACHED = _load_wine_tag_vocabulary()
+    return _WINE_TAGS_CACHED
 
 
 def _check_verified_block(fname: str, entry: dict, label: str, issues: list) -> None:
@@ -406,6 +475,262 @@ def looks_truncated(value: str) -> bool:
     return False
 
 
+def _topic_slug_set(data_dir: Path, fname: str, key: str) -> set[str]:
+    """Read a topic file, return the set of `slug` values it contains.
+    Used for cross-reference validation across topic files. Returns an
+    empty set if the file is missing or unreadable so callers can degrade
+    gracefully (cross-ref check becomes a no-op rather than a crash)."""
+    p = data_dir / fname
+    if not p.exists():
+        return set()
+    try:
+        d = json.loads(p.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return set()
+    items = d.get(key) or []
+    return {x["slug"] for x in items if isinstance(x, dict) and x.get("slug")}
+
+
+_VINTAGE_IN_SLUG_RE = re.compile(r"(?:19|20)\d{2}")
+
+
+def _check_wine_entries(fname: str, entries: list, vineyard_slugs: set[str], issues: list) -> None:
+    """Cuvée-specific validation for wines.json (per-producer cuvée catalog).
+
+    Enforces the contract from agents/wine-research/SCHEMA.md "wines" section
+    and the controlled vocabulary in docs/WINE_TAGS.md:
+
+      - vintage-agnostic discipline: no year in slug, no year in name
+      - producer cross-ref resolves in same region's vineyards.json
+      - style / sweetness / body / tannin / acidity from controlled sets
+      - tags ⊆ docs/WINE_TAGS.md AND no DERIVED-axis tags
+        (price / ageing / production / grape / world / sweetness — those
+         are generator-derived; researcher emitting them is a regression)
+      - taste block shape: aroma + palate are arrays, summary present
+      - varietals[] each carry a `grape` key
+      - pairings[] each carry both `dish` and `why`
+      - tablejourney_ref is null or a path (not a full URL)
+      - first_vintage / history.origin_year are 4-digit years
+
+    The slug+name+address+verified+editorial_score+truncation checks are
+    handled by the existing _check_entity_entries pass.
+    """
+    tag_vocab = _wine_tags()
+    for i, e in enumerate(entries):
+        if not isinstance(e, dict):
+            continue
+        label = e.get("name") or e.get("slug") or f"index {i}"
+        slug = e.get("slug") or ""
+        if _VINTAGE_IN_SLUG_RE.search(slug):
+            issues.append((
+                "ERR",
+                f"wines.json entry '{label}' slug={slug!r} contains a year — "
+                f"cuvée slugs are vintage-agnostic (e.g. 'tignanello', not "
+                f"'tignanello-2019'). See SCHEMA.md 'wines'.",
+            ))
+        name = e.get("name") or ""
+        if _VINTAGE_IN_SLUG_RE.search(name):
+            issues.append((
+                "ERR",
+                f"wines.json entry '{label}' name={name!r} contains a year — "
+                f"cuvée pages aggregate across vintages. Vintage belongs in "
+                f"scores[*] and prose, not in name.",
+            ))
+        for req in ("producer", "producer_name"):
+            if not e.get(req):
+                issues.append((
+                    "ERR",
+                    f"wines.json entry '{label}' missing required '{req}'",
+                ))
+        prod = e.get("producer")
+        if prod and vineyard_slugs and prod not in vineyard_slugs:
+            issues.append((
+                "ERR",
+                f"wines.json entry '{label}' producer={prod!r} does not resolve "
+                f"to any vineyards.json slug in this region. Every cuvée must "
+                f"belong to a verified producer.",
+            ))
+        style = e.get("style")
+        if style and style not in WINE_STYLES:
+            issues.append((
+                "ERR",
+                f"wines.json entry '{label}' style={style!r} not in controlled "
+                f"vocabulary (docs/WINE_TAGS.md style axis). Valid: "
+                f"{sorted(WINE_STYLES)}",
+            ))
+        sw = e.get("sweetness")
+        if sw and sw not in WINE_SWEETNESS:
+            issues.append((
+                "ERR",
+                f"wines.json entry '{label}' sweetness={sw!r} not in "
+                f"{sorted(WINE_SWEETNESS)}",
+            ))
+        taste = e.get("taste")
+        if taste is None:
+            issues.append((
+                "WARN",
+                f"wines.json entry '{label}' missing 'taste' object — page "
+                f"hero will be bare without aroma/palate/body/tannin/acidity",
+            ))
+        elif not isinstance(taste, dict):
+            issues.append((
+                "ERR",
+                f"wines.json entry '{label}' taste must be an object",
+            ))
+        else:
+            for axis_key, vocab in (("body", WINE_BODY),
+                                    ("tannin", WINE_TANNIN),
+                                    ("acidity", WINE_ACIDITY)):
+                val = taste.get(axis_key)
+                if val and val not in vocab:
+                    issues.append((
+                        "ERR",
+                        f"wines.json entry '{label}' taste.{axis_key}={val!r} "
+                        f"not in {sorted(vocab)}",
+                    ))
+            for arr_key in ("aroma", "palate"):
+                arr = taste.get(arr_key)
+                if arr is not None and not isinstance(arr, list):
+                    issues.append((
+                        "ERR",
+                        f"wines.json entry '{label}' taste.{arr_key} must be "
+                        f"an array of descriptor strings",
+                    ))
+            if not taste.get("summary"):
+                issues.append((
+                    "WARN",
+                    f"wines.json entry '{label}' taste.summary missing — "
+                    f"renders as cuvée page hero",
+                ))
+        var = e.get("varietals")
+        if var is None:
+            issues.append((
+                "ERR",
+                f"wines.json entry '{label}' varietals missing — every cuvée "
+                f"declares at least one grape",
+            ))
+        elif not isinstance(var, list) or not var:
+            issues.append((
+                "ERR",
+                f"wines.json entry '{label}' varietals must be a non-empty "
+                f"array of {{grape, pct?}} objects",
+            ))
+        else:
+            for j, v in enumerate(var):
+                if not isinstance(v, dict) or not v.get("grape"):
+                    issues.append((
+                        "ERR",
+                        f"wines.json entry '{label}' varietals[{j}] must be "
+                        f"an object with 'grape' key (pct optional)",
+                    ))
+        pairings = e.get("pairings")
+        if not pairings:
+            issues.append((
+                "WARN",
+                f"wines.json entry '{label}' pairings empty — the food-and-wine "
+                f"section is the cuvée page's strongest TJ cross-link surface",
+            ))
+        elif not isinstance(pairings, list):
+            issues.append((
+                "ERR",
+                f"wines.json entry '{label}' pairings must be an array",
+            ))
+        else:
+            for j, p in enumerate(pairings):
+                if not isinstance(p, dict):
+                    issues.append((
+                        "ERR",
+                        f"wines.json entry '{label}' pairings[{j}] must be an "
+                        f"object {{dish, why, tablejourney_ref}}",
+                    ))
+                    continue
+                if not p.get("dish") or not p.get("why"):
+                    issues.append((
+                        "ERR",
+                        f"wines.json entry '{label}' pairings[{j}] requires "
+                        f"both 'dish' and 'why'",
+                    ))
+                tjref = p.get("tablejourney_ref")
+                if tjref is None:
+                    continue
+                if not isinstance(tjref, str):
+                    issues.append((
+                        "ERR",
+                        f"wines.json entry '{label}' pairings[{j}].tablejourney_ref "
+                        f"must be a path string or null",
+                    ))
+                elif tjref.startswith("http") or tjref.startswith("/"):
+                    issues.append((
+                        "WARN",
+                        f"wines.json entry '{label}' pairings[{j}].tablejourney_ref"
+                        f"={tjref!r} should be a path like "
+                        f"'italy/florence/restaurants/trattoria-mario', not a URL "
+                        f"or leading-slash path",
+                    ))
+        tags = e.get("tags")
+        if not tags:
+            issues.append((
+                "WARN",
+                f"wines.json entry '{label}' tags empty — cuvée will not appear "
+                f"in any /tag/<slug>/ filter index (target 10-20 tags)",
+            ))
+        elif not isinstance(tags, list):
+            issues.append((
+                "ERR",
+                f"wines.json entry '{label}' tags must be an array of strings",
+            ))
+        else:
+            for t in tags:
+                if not isinstance(t, str):
+                    issues.append((
+                        "ERR",
+                        f"wines.json entry '{label}' tags contains non-string "
+                        f"value {t!r}",
+                    ))
+                    continue
+                is_derived = (
+                    t in WINE_DERIVED_TAGS
+                    or any(t.startswith(p) for p in WINE_DERIVED_TAG_PREFIXES)
+                )
+                if is_derived:
+                    issues.append((
+                        "ERR",
+                        f"wines.json entry '{label}' has DERIVED tag {t!r} — "
+                        f"price / ageing / production / grape / world / "
+                        f"sweetness tags are added by generators automatically "
+                        f"from other fields. See docs/WINE_TAGS.md.",
+                    ))
+                    continue
+                if tag_vocab and t not in tag_vocab:
+                    issues.append((
+                        "ERR",
+                        f"wines.json entry '{label}' has unknown tag {t!r} — "
+                        f"not defined in docs/WINE_TAGS.md",
+                    ))
+        hist = e.get("history")
+        if hist is not None:
+            if not isinstance(hist, dict):
+                issues.append((
+                    "ERR",
+                    f"wines.json entry '{label}' history must be an object",
+                ))
+            else:
+                yr = hist.get("origin_year")
+                if yr is not None and not (isinstance(yr, int) and 1100 <= yr <= 2100):
+                    issues.append((
+                        "ERR",
+                        f"wines.json entry '{label}' history.origin_year="
+                        f"{yr!r} must be a 4-digit year between 1100 and 2100",
+                    ))
+        fv = e.get("first_vintage")
+        if fv is not None and not (isinstance(fv, int) and 1100 <= fv <= 2100):
+            issues.append((
+                "ERR",
+                f"wines.json entry '{label}' first_vintage={fv!r} must be a "
+                f"4-digit year between 1100 and 2100",
+            ))
+
+
 def _check_entity_entries(fname: str, entries: list, issues: list) -> None:
     """Every entry must have slug+name; address requirement depends on topic class."""
     seen_slugs: set[str] = set()
@@ -448,13 +773,20 @@ def _check_entity_entries(fname: str, entries: list, issues: list) -> None:
             _check_verified_block(fname, e, ent_label, issues)
         # Truncation detector on prose fields. Sonnet has been observed
         # truncating to hit length caps, ending fields with stop-word+period.
-        for prose_field in ("description", "why_hidden", "tip", "must_order"):
-            v = e.get(prose_field)
-            if v and looks_truncated(v):
-                issues.append((
-                    "ERR",
-                    f"{fname} entry '{ent_label}' {prose_field} ends mid-sentence (truncation): {v!r}"
-                ))
+        # SKIPPED for wines.json — cuvée descriptions legitimately end in
+        # flavor descriptors ("vivid, textured, and tropical."), drinking
+        # windows ("...and extraordinary longevity."), and other terse
+        # closers that trip the venue-tuned patterns. QA1's taste-note
+        # sourcing check (section I) is the right line of defence for
+        # wine prose quality.
+        if fname != "wines.json":
+            for prose_field in ("description", "why_hidden", "tip", "must_order"):
+                v = e.get(prose_field)
+                if v and looks_truncated(v):
+                    issues.append((
+                        "ERR",
+                        f"{fname} entry '{ent_label}' {prose_field} ends mid-sentence (truncation): {v!r}"
+                    ))
         # URL-shape check on booking/affiliate links. We can't verify the URL
         # is reachable, but we can catch the common subagent failure of
         # writing the restaurant homepage WITHOUT the scheme.
@@ -487,8 +819,19 @@ def validate_city(country: str, city: str | None, data_dir: Path, errors_only: b
     label = f"{country}/{city}" if city else country
     issues = []  # list of (level, message)
 
+    # Country-level data dir (city=None) only carries destination + seo +
+    # optional rollups. It doesn't ship the 24 topic files — those live
+    # under each region's data dir. Skip the topic-file required-set in
+    # this case.
+    is_country_level = city is None
+
     # 1. required files exist
-    for fname in REQUIRED_FILES + list(TOPIC_FILES_TO_KEY):
+    if is_country_level:
+        # Country needs only region.json. neighborhoods + 24 topics belong to regions.
+        required_files = ["region.json"]
+    else:
+        required_files = REQUIRED_FILES + list(TOPIC_FILES_TO_KEY)
+    for fname in required_files:
         if not (data_dir / fname).exists():
             issues.append(("ERR", f"missing {fname}"))
 
@@ -507,7 +850,15 @@ def validate_city(country: str, city: str | None, data_dir: Path, errors_only: b
         if not dest.get("country"):
             issues.append(("WARN", "destination.country is empty"))
         if not dest.get("hero_image"):
-            issues.append(("WARN", "destination.hero_image is empty (will fall back to generic image)"))
+            # Required for ship. Without a hero_image the homepage marquee,
+            # the /<country>/ country stub, and the region hub all render
+            # a bare letter placeholder. Bumped from WARN -> ERR on
+            # 2026-05-23: agent prompt now mandates image sourcing per
+            # docs/IMAGE_SOURCES.md.
+            issues.append((
+                "ERR",
+                "destination.hero_image is empty (required; see docs/IMAGE_SOURCES.md — Unsplash first, then Wikimedia Commons)"
+            ))
         else:
             # If the hero_image is set, it's hosted somewhere; we must record
             # provenance to defend against takedown / DMCA. WARN-level so a
@@ -578,6 +929,35 @@ def validate_city(country: str, city: str | None, data_dir: Path, errors_only: b
         # 3a. per-entry shape checks on entity-list topics
         if fname in ENTITY_LIST_TOPICS and isinstance(payload, list):
             _check_entity_entries(fname, payload, issues)
+
+        # 3a'. wines.json: cuvée-specific shape + cross-ref checks.
+        # Requires vineyards.json so the producer cross-reference can
+        # validate. If vineyards.json is missing the cross-ref check
+        # becomes a no-op (other layers complain about the missing file).
+        if fname == "wines.json" and isinstance(payload, list):
+            vineyard_slugs = _topic_slug_set(data_dir, "vineyards.json", "vineyards")
+            _check_wine_entries(fname, payload, vineyard_slugs, issues)
+
+        # 3a''. signature-wines.json: every slug must also appear in
+        # wines.json (signature-wines is a curated subset, NOT parallel
+        # data). The full page lives at /wine/<producer>/<slug>/ from
+        # wines.json; signature-wines drives the region's "iconic bottles"
+        # carousel only.
+        if fname == "signature-wines.json" and isinstance(payload, list):
+            wines_slugs = _topic_slug_set(data_dir, "wines.json", "wines")
+            if wines_slugs:  # only enforce once wines.json exists
+                for e in payload:
+                    if not isinstance(e, dict) or not e.get("slug"):
+                        continue
+                    if e["slug"] not in wines_slugs:
+                        sw_label = e.get("name") or e["slug"]
+                        issues.append((
+                            "ERR",
+                            f"signature-wines.json '{sw_label}' slug={e['slug']!r} "
+                            f"not in wines.json. signature-wines is a curated "
+                            f"subset of wines.json — every slug must reference "
+                            f"a real cuvée page. See SCHEMA.md 'wines'.",
+                        ))
 
         # 3b. dietary is a dict-of-lists; check each leaf list
         if fname == "dietary.json" and isinstance(payload, dict):

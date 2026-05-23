@@ -1,0 +1,41 @@
+{% extends "topics/_topic_base.html" %}
+{% from "topics/_macros.html" import vineyard_card %}
+
+{% block topic_intro %}
+<p class="tj-intro">{{ topic.intro | default('The estates, domaines and châteaux worth the drive in ' ~ destination.name ~ ', from classified growths to grower gems.') }}</p>
+{% endblock %}
+
+{% block topic_sections %}
+{% if research.vineyards %}
+<section class="tj-section" id="picks">
+    <h2>Estates to visit in {{ destination.name }}</h2>
+    <div class="tj-card-grid">
+        {% for v in research.vineyards %}{{ vineyard_card(v, destination.name, v._url) }}{% endfor %}
+    </div>
+</section>
+{% endif %}
+{% endblock %}
+
+{% block topic_schema_extra %}
+{% set _vs = research.vineyards | default([]) %}
+{% if _vs %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {% for v in _vs %}
+    {
+      "@type": "Winery",
+      "@id": "{{ seo.meta.canonical_url }}#winery-{{ loop.index }}",
+      "name": {{ v.name | tojson }}{% if v.description %},
+      "description": {{ v.description | tojson }}{% endif %}{% if v.address %},
+      "address": { "@type": "PostalAddress", "streetAddress": {{ v.address | tojson }}, "addressLocality": {{ destination.name | tojson }} }{% endif %}{% if v.founded %},
+      "foundingDate": {{ (v.founded | string) | tojson }}{% endif %}{% if v.booking_url %},
+      "url": {{ v.booking_url | tojson }}{% endif %}
+    }{% if not loop.last %},{% endif %}
+    {% endfor %}
+  ]
+}
+</script>
+{% endif %}
+{% endblock %}

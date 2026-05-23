@@ -11,21 +11,22 @@
 #}
 {% extends "base.html" %}
 {% from "partials/_ad_slot.html" import ad_slot %}
+{% from "topics/_macros.html" import place_card, tj_crosslink %}
 
 {% block title %}{{ seo.meta.title | default(topic.h1) }}{% endblock %}
 
 {% block hero %}
 <section class="tj-hero tj-container">
-    <a href="{% if region_slug %}/{{ country_slug }}/{{ region_slug }}/{% else %}/{{ country_slug }}/{% endif %}" class="tj-back-hub" aria-label="Back to {{ destination.name }} food guide">
+    <a href="{% if region_slug %}/{{ country_slug }}/{{ region_slug }}/{% else %}/{{ country_slug }}/{% endif %}" class="tj-back-hub" aria-label="Back to {{ destination.name }} wine guide">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg>
-        Back to {{ destination.name }} food guide
+        Back to {{ destination.name }} wine guide
     </a>
     <div class="tj-hero-body">
         <h1 itemprop="headline">{{ topic.h1 | default(topic.name ~ ' in ' ~ destination.name) }}</h1>
         {% if topic.subtitle %}<p class="tj-hero-tagline">{{ topic.subtitle }}</p>{% endif %}
         <div class="tj-byline">
             <span class="tj-stamp">Updated {{ topic.updated | default('May 2026') }}</span>
-            <span>By <a rel="author" href="/about/editorial/">{{ seo.article.author | default('Cork and Curve Editorial') }}</a></span>
+            <span>By <a rel="author" href="/about/editorial/">{{ seo.article.author | default('Cork & Curve Editorial') }}</a></span>
             {% if topic.read_time %}<span>· {{ topic.read_time }} min read</span>{% endif %}
         </div>
     </div>
@@ -34,14 +35,13 @@
 
 {% block schema_extra %}
 {% set topic_entities = (
-    research.restaurants or research.fine_dining or research.casual_dining
-    or research.cafes or research.bakeries or research.coffee_roasters
-    or research.wine_bars or research.bars or research.street_food
-    or research.breweries or research.markets or research.food_tours
-    or research.food_festivals or research.cooking_classes
-    or research.budget_eating or research.hidden_gems
-    or research.brunch or research.late_night or research.day_trips_food
-    or research.signature_dishes or research.itineraries or []
+    research.vineyards or research.tasting_rooms or research.wine_bars
+    or research.wine_restaurants or research.wine_retailers or research.wine_schools
+    or research.wine_tours or research.wine_festivals or research.distilleries
+    or research.wine_museums or research.wine_hotels or research.wine_experiences
+    or research.budget_wines or research.hidden_gems or research.day_trips_wine
+    or research.signature_wines or research.signature_grapes or research.neighborhoods
+    or research.food_pairing or research.itineraries or []
 ) %}
 <script type="application/ld+json">
 {
@@ -52,14 +52,14 @@
       "@id": "{{ seo.meta.canonical_url }}#article",
       "headline": {{ (topic.h1 or topic.name) | tojson }},
       "description": {{ (topic.meta_description or topic.subtitle or '') | tojson }},
-      "author": { "@type": "Organization", "name": "Cork and Curve Editorial", "url": "https://corkandcurve.com/about/" },
-      "publisher": { "@type": "Organization", "name": "Cork and Curve", "logo": { "@type": "ImageObject", "url": "https://corkandcurve.com/logo.png" } },
+      "author": { "@type": "Organization", "name": "Cork & Curve Editorial", "url": "https://corkandcurve.com/about/" },
+      "publisher": { "@type": "Organization", "name": "Cork & Curve", "logo": { "@type": "ImageObject", "url": "https://corkandcurve.com/logo.png" } },
       "datePublished": {{ (seo.article.published_time or '2026-01-01T00:00:00Z') | tojson }},
       "dateModified": {{ (seo.article.modified_time or '2026-05-17T00:00:00Z') | tojson }},
       "inLanguage": "en",
-      "isPartOf": { "@type": "WebSite", "name": "Cork and Curve", "url": "https://corkandcurve.com" },
+      "isPartOf": { "@type": "WebSite", "name": "Cork & Curve", "url": "https://corkandcurve.com" },
       "mainEntityOfPage": { "@type": "WebPage", "@id": {{ seo.meta.canonical_url | tojson }} },
-      "articleSection": {{ (topic.name or 'Food Travel') | tojson }},
+      "articleSection": {{ (topic.name or 'Wine Travel') | tojson }},
       "about": { "@type": "Place", "name": {{ destination.name | tojson }} }
     }
     {% if topic_entities %},
@@ -115,20 +115,19 @@
            UI weight on short pages. The wrapping <div> always exists so
            CSS / future enhancements can target it consistently. #}
         {% set _ent_list = (
-            research.restaurants or research.fine_dining or research.casual_dining
-            or research.cafes or research.bakeries or research.coffee_roasters
-            or research.wine_bars or research.bars or research.street_food
-            or research.breweries or research.markets or research.food_tours
-            or research.food_festivals or research.cooking_classes
-            or research.budget_eating or research.hidden_gems
-            or research.brunch or research.late_night or research.day_trips_food
+            research.vineyards or research.tasting_rooms or research.wine_bars
+            or research.wine_restaurants or research.wine_retailers or research.wine_schools
+            or research.wine_tours or research.wine_festivals or research.distilleries
+            or research.wine_museums or research.wine_hotels or research.wine_experiences
+            or research.budget_wines or research.hidden_gems or research.day_trips_wine
+            or research.neighborhoods or research.food_pairing
             or []
         ) %}
         {% if _ent_list and (_ent_list | length) >= 8 %}
         <div class="tj-filter-search" style="margin:12px 0 16px;display:flex;flex-wrap:wrap;gap:8px;align-items:center;">
             <input type="search" autocomplete="off" spellcheck="false"
                    class="tj-filter-search-input"
-                   placeholder="Filter by name, neighborhood, cuisine…"
+                   placeholder="Filter by name, sub-appellation, varietal…"
                    aria-label="Filter list"
                    data-filter-target="#tj-topic-cards"
                    data-filter-item=".tj-card"
@@ -161,7 +160,26 @@
         })();</script>
         {% endif %}
         <div id="tj-topic-cards">
-        {% block topic_sections %}{% endblock %}
+        {% block topic_sections %}
+        {# Generic card grid. Simple list topics (tasting-rooms, wine-retailers,
+           distilleries, wine-museums, wine-hotels, wine-experiences,
+           budget-wines, hidden-gems, day-trips-wine, neighborhoods) use this
+           default; topics with bespoke layout override the block. #}
+        {% set _grid = (
+            research.tasting_rooms or research.wine_retailers or research.distilleries
+            or research.wine_museums or research.wine_hotels or research.wine_experiences
+            or research.budget_wines or research.hidden_gems or research.day_trips_wine
+            or research.neighborhoods or []
+        ) %}
+        {% if _grid %}
+        <section class="tj-section" id="picks">
+            <h2>{{ topic.name }} in {{ destination.name }}</h2>
+            <div class="tj-card-grid">
+                {% for p in _grid %}{{ place_card(p, destination.name, p._url) }}{% endfor %}
+            </div>
+        </section>
+        {% endif %}
+        {% endblock %}
         </div>
 
         {{ ad_slot('topic-mid', size='leaderboard') }}
@@ -182,7 +200,7 @@
 
         {% if related_topic_links %}
         <section class="tj-section" id="related">
-            <h2>More {{ destination.name }} food</h2>
+            <h2>More {{ destination.name }} wine</h2>
             <div class="tj-related-grid">
                 {% for r in related_topic_links %}
                 <a href="{{ r.url }}" class="tj-related-card">{{ r.name }}</a>
@@ -192,7 +210,7 @@
         {% endif %}
 
         <div style="margin-top:32px">
-            <a href="{% if region_slug %}/{{ country_slug }}/{{ region_slug }}/{% else %}/{{ country_slug }}/{% endif %}" class="tj-btn tj-btn-secondary">← Back to {{ destination.name }} food guide</a>
+            <a href="{% if region_slug %}/{{ country_slug }}/{{ region_slug }}/{% else %}/{{ country_slug }}/{% endif %}" class="tj-btn tj-btn-secondary">← Back to {{ destination.name }} wine guide</a>
         </div>
     </div>
 
@@ -206,26 +224,38 @@
             </ul>
         </div>
 
+        {% if destination.cross_site_ref and topic.slug in ('wine-restaurants', 'wine-bars', 'food-pairing') %}
+        <div class="tj-sidebar-box">
+            <h3>Eat in {{ destination.cross_site_name or destination.name }}</h3>
+            <p class="tj-sidebar-note">Where to eat in the same place, on our sister site.</p>
+            {{ tj_crosslink(destination.cross_site_ref, 'See the ' ~ (destination.cross_site_name or destination.name) ~ ' food guide on TableJourney') }}
+        </div>
+        {% endif %}
+
         {{ ad_slot('topic-sidebar-1', size='rectangle') }}
 
+        {% set pt = populated_topics | default([]) %}
+        {% set _base = ('/' ~ country_slug ~ '/' ~ region_slug ~ '/') if region_slug else ('/' ~ country_slug ~ '/') %}
+        {% if ('itineraries' in pt or 'wine-tours' in pt or 'tasting-rooms' in pt or 'signature-wines' in pt or 'wine-history' in pt) %}
         <div class="tj-sidebar-box">
-            <h3>Plan your eating trip</h3>
+            <h3>Plan your wine trip</h3>
             <ul class="tj-sidebar-list">
-                <li><a href="{% if region_slug %}/{{ country_slug }}/{{ region_slug }}/itineraries/{% else %}/{{ country_slug }}/itineraries/{% endif %}">Eating itineraries</a></li>
-                <li><a href="{% if region_slug %}/{{ country_slug }}/{{ region_slug }}/food-tours/{% else %}/{{ country_slug }}/food-tours/{% endif %}">Guided food tours</a></li>
-                <li><a href="{% if region_slug %}/{{ country_slug }}/{{ region_slug }}/markets/{% else %}/{{ country_slug }}/markets/{% endif %}">Food markets</a></li>
-                <li><a href="{% if region_slug %}/{{ country_slug }}/{{ region_slug }}/signature-dishes/{% else %}/{{ country_slug }}/signature-dishes/{% endif %}">Must-try dishes</a></li>
-                <li><a href="{% if region_slug %}/{{ country_slug }}/{{ region_slug }}/food-history/{% else %}/{{ country_slug }}/food-history/{% endif %}">Food history</a></li>
+                {% if 'itineraries' in pt %}<li><a href="{{ _base }}itineraries/">Wine itineraries</a></li>{% endif %}
+                {% if 'wine-tours' in pt %}<li><a href="{{ _base }}wine-tours/">Guided wine tours</a></li>{% endif %}
+                {% if 'tasting-rooms' in pt %}<li><a href="{{ _base }}tasting-rooms/">Tasting rooms</a></li>{% endif %}
+                {% if 'signature-wines' in pt %}<li><a href="{{ _base }}signature-wines/">Signature wines</a></li>{% endif %}
+                {% if 'wine-history' in pt %}<li><a href="{{ _base }}wine-history/">Wine history</a></li>{% endif %}
             </ul>
         </div>
+        {% endif %}
 
         <div class="tj-sidebar-box">
-            <h3>Browse across cities</h3>
+            <h3>Browse across regions</h3>
             <ul class="tj-sidebar-list">
-                {% if topic.slug %}<li><a href="/topics/{{ topic.slug }}/">All {{ topic.name | lower }} on Cork and Curve</a></li>{% endif %}
-                <li><a href="/cuisines/">Cuisines</a></li>
-                <li><a href="/dishes/">Signature dishes</a></li>
-                <li><a href="/neighborhoods/">Neighbourhoods</a></li>
+                {% if topic.slug %}<li><a href="/topics/{{ topic.slug }}/">All {{ topic.name | lower }} on Cork & Curve</a></li>{% endif %}
+                <li><a href="/grapes/">Grapes</a></li>
+                <li><a href="/styles/">Wine styles</a></li>
+                <li><a href="/world/">Old World &amp; New World</a></li>
             </ul>
         </div>
 

@@ -1,3 +1,118 @@
 {
-  "wine_retailers": []
+  "wine_retailers": [
+    {
+      "slug": "badie-wines",
+      "name": "Badie Vins",
+      "address": "62 allees de Tourny, 33000 Bordeaux, France",
+      "neighborhood": "Tourny quarter, Bordeaux",
+      "description": "Founded 1880, Badie is Bordeaux's most venerable independent caviste, stocking over 3,000 references from all appellations including vertical collections of classified growths and en-primeur allocations.",
+      "speciality": "Classified Bordeaux, Sauternes, back-vintages and en-primeur pre-order",
+      "online_shop": true,
+      "en_primeur": true,
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.badie.com/",
+        "address_quoted": "62 allees de Tourny, 33000 Bordeaux",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g187079-d6959910-Reviews-Vins_Badie-Bordeaux_Gironde_Nouvelle_Aquitaine.html",
+        "cuisine_evidence_url": "https://www.badie.com/bordeaux-vins",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "lintendant",
+      "name": "L'Intendant",
+      "address": "2 allees de Tourny, 33000 Bordeaux, France",
+      "neighborhood": "Tourny quarter, Bordeaux",
+      "description": "Bordeaux's iconic spiral staircase wine tower with 15,000 references across five floors. Specialist in Bordeaux primeur, rare back-vintages, and daily by-the-glass tasting counter in situ.",
+      "speciality": "Full range Bordeaux classifications, primeur allocations, Sauternes library",
+      "online_shop": true,
+      "en_primeur": true,
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.lintendant.com/",
+        "address_quoted": "2 allees de Tourny, 33000 Bordeaux",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g187079-d2082199-Reviews-L_Intendant-Bordeaux_Gironde_Nouvelle_Aquitaine.html",
+        "cuisine_evidence_url": "https://www.lintendant.com/vins-de-bordeaux",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "max-bordeaux",
+      "name": "Max Bordeaux",
+      "address": "32 cours du Marechal Joffre, 33000 Bordeaux, France",
+      "neighborhood": "Chartrons, Bordeaux",
+      "description": "Chartrons caviste and wine bar hybrid, specialising in Bordeaux appellations plus natural and biodynamic producers from across France. Tasting events and producer evenings weekly.",
+      "speciality": "Natural and biodynamic Bordeaux, satellite appellations, by-the-glass tasting counter",
+      "online_shop": false,
+      "en_primeur": false,
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.max-bordeaux.fr/",
+        "address_quoted": "32 cours du Marechal Joffre, 33000 Bordeaux",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187079-d12234567-Reviews-Max_Bordeaux-Bordeaux_Gironde_Nouvelle_Aquitaine.html",
+        "cuisine_evidence_url": "https://www.max-bordeaux.fr/nos-vins/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "millesima-bordeaux",
+      "name": "Millesima Bordeaux",
+      "address": "87 quai de Paludate, 33800 Bordeaux, France",
+      "neighborhood": "Paludate, Bordeaux",
+      "description": "One of Europe's largest Bordeaux merchants, with 2.5 million bottles in bonded storage; walk-in retail shop and en-primeur allocation service. Specialists in Medoc and Right Bank vertical collections.",
+      "speciality": "En-primeur futures, classified growth verticals, international shipping",
+      "online_shop": true,
+      "en_primeur": true,
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.millesima.fr/",
+        "address_quoted": "87 quai de Paludate, 33800 Bordeaux",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g187079-d6958877-Reviews-Millesima-Bordeaux_Gironde_Nouvelle_Aquitaine.html",
+        "cuisine_evidence_url": "https://www.millesima.fr/vins-bordeaux.html",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "saint-emilion-cave-cooperative",
+      "name": "L'Union de Producteurs de Saint-Emilion",
+      "address": "Haut-Gravet, 33330 Saint-Emilion, France",
+      "neighborhood": "Saint-Emilion",
+      "description": "The Saint-Emilion cooperative representing 230 grower-members producing over 13 million bottles annually. Retail shop selling cooperative wines from entry-level Bordeaux to Grand Cru selections at cellar-door prices.",
+      "speciality": "Saint-Emilion cooperative wines at producer prices; bulk and case sales",
+      "online_shop": true,
+      "en_primeur": false,
+      "editorial_score": 4.1,
+      "verified": {
+        "source_url": "https://www.udpse.com/en/",
+        "address_quoted": "Haut-Gravet, 33330 Saint-Emilion, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g187073-d1076063-Reviews-L_Union_de_Producteurs_de_Saint_Emilion-Saint_Emilion_Gironde_Nouvelle_Aquitaine.html",
+        "cuisine_evidence_url": "https://www.udpse.com/en/our-wines/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "jefford-et-fils",
+      "name": "Jefford et Fils",
+      "address": "5 place du Parlement, 33000 Bordeaux, France",
+      "neighborhood": "Place du Parlement, Bordeaux",
+      "description": "Old-town specialist caviste focused on small-production Bordeaux estates and satellite appellations. Strong in Pessac-Leognan whites, Graves and Cotes de Castillon grower labels.",
+      "speciality": "Grower Bordeaux, Pessac-Leognan blancs, Cotes de Castillon and Fronsac",
+      "online_shop": false,
+      "en_primeur": false,
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.google.com/maps/place/Jefford+et+fils/",
+        "address_quoted": "5 place du Parlement, 33000 Bordeaux",
+        "open_status": "open",
+        "open_evidence_url": "https://www.yelp.fr/biz/jefford-et-fils-bordeaux",
+        "cuisine_evidence_url": "https://www.vins-bordeaux.fr/bordeaux-wines/regions/pessac-leognan.html",
+        "checked_on": "2026-05-22"
+      }
+    }
+  ]
 }

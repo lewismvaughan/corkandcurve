@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
-"""Generate cross-cut landing pages by aggregating entities across all cities.
+"""Generate cross-cut landing pages by aggregating entities across all regions.
 
 Emits:
-    /cuisine/<cuisine-slug>/               cuisine landing (global)
-    /dish/<dish-slug>/                     signature-dish landing (global)
-    /neighborhood/<city-slug>/<hood>/      neighborhood landing (city-scoped)
+    /grape/<grape-slug>/                   grape (varietal) landing (global)
+    /style/<style-slug>/                   wine-style landing (global)
+    /world/<world-slug>/                   Old World / New World landing (global)
+    /neighborhood/<region-slug>/<sub>/     sub-appellation landing (region-scoped)
 
-Re-runnable; rewrites pages every run.
+Re-runnable; rewrites pages every run and prunes orphans.
 
 Usage:
     python scripts/generate_cross_cuts.py
@@ -20,12 +21,9 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
 
-from utils.cuisine import canonicalise as _canon_cuisine
 from utils.data_loader import (
     SITE_DATA,
     load_country_data,
-    get_all_countries,
-    get_all_regions,
 )
 from utils.seo import meta_desc as _meta_desc
 from utils.slug import slugify
@@ -33,52 +31,98 @@ from utils.template_renderer import TemplateRenderer
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 CONTENT_DIR = REPO_ROOT / "content"
-BASE = "https://tablejourney.com"
+BASE = "https://corkandcurve.com"
 
 TOPIC_DISPLAY = {
-    "restaurants": "Restaurants",
-    "fine-dining": "Fine Dining",
-    "casual-dining": "Casual Dining",
-    "cafes": "Cafés",
-    "bakeries": "Bakeries",
-    "coffee-roasters": "Coffee Roasters",
+    "vineyards": "Vineyards",
+    "tasting-rooms": "Tasting Rooms",
     "wine-bars": "Wine Bars",
-    "bars": "Bars",
-    "street-food": "Street Food",
-    "breweries": "Breweries",
-    "markets": "Markets",
-    "food-tours": "Food Tours",
-    "festivals": "Food Festivals",
-    "cooking-classes": "Cooking Classes",
-    "budget-eating": "Budget Eats",
+    "wine-restaurants": "Wine Restaurants",
+    "wine-retailers": "Wine Retailers",
+    "wine-schools": "Wine Schools",
+    "wine-tours": "Wine Tours",
+    "wine-festivals": "Wine Festivals",
+    "distilleries": "Distilleries",
+    "wine-museums": "Wine Museums",
+    "wine-hotels": "Wine Hotels",
+    "wine-experiences": "Wine Experiences",
+    "budget-wines": "Budget Wines",
     "hidden-gems": "Hidden Gems",
-    "brunch": "Brunch",
-    "late-night": "Late-Night Eats",
-    "day-trips-food": "Food Day Trips",
+    "day-trips-wine": "Wine Day Trips",
 }
 
-# research-key -> topic-slug (only entity-bearing list topics)
+# research-key -> topic-slug (entity-bearing list topics that carry a
+# `neighborhood` / sub-appellation worth aggregating).
 RESEARCH_KEY_TO_TOPIC = {
-    "restaurants": "restaurants",
-    "fine_dining": "fine-dining",
-    "casual_dining": "casual-dining",
-    "cafes": "cafes",
-    "bakeries": "bakeries",
-    "coffee_roasters": "coffee-roasters",
+    "vineyards": "vineyards",
+    "tasting_rooms": "tasting-rooms",
     "wine_bars": "wine-bars",
-    "bars": "bars",
-    "street_food": "street-food",
-    "breweries": "breweries",
-    "markets": "markets",
-    "food_tours": "food-tours",
-    "food_festivals": "festivals",
-    "cooking_classes": "cooking-classes",
-    "budget_eating": "budget-eating",
+    "wine_restaurants": "wine-restaurants",
+    "wine_retailers": "wine-retailers",
+    "wine_schools": "wine-schools",
+    "wine_tours": "wine-tours",
+    "wine_festivals": "wine-festivals",
+    "distilleries": "distilleries",
+    "wine_museums": "wine-museums",
+    "wine_hotels": "wine-hotels",
+    "wine_experiences": "wine-experiences",
+    "budget_wines": "budget-wines",
     "hidden_gems": "hidden-gems",
-    "brunch": "brunch",
-    "late_night": "late-night",
-    "day_trips_food": "day-trips-food",
+    "day_trips_wine": "day-trips-wine",
 }
+
+# Country -> world category. A region.json may override via
+# destination.world ("old-world" / "new-world").
+COUNTRY_WORLD = {
+    "france": "old-world", "italy": "old-world", "spain": "old-world",
+    "portugal": "old-world", "germany": "old-world", "austria": "old-world",
+    "hungary": "old-world", "greece": "old-world", "georgia": "old-world",
+    "croatia": "old-world", "slovenia": "old-world", "romania": "old-world",
+    "switzerland": "old-world", "bulgaria": "old-world", "moldova": "old-world",
+    "lebanon": "old-world", "israel": "old-world", "turkey": "old-world",
+    "czech-republic": "old-world", "slovakia": "old-world", "england": "old-world",
+    "united-kingdom": "old-world",
+    "united-states": "new-world", "usa": "new-world", "argentina": "new-world",
+    "chile": "new-world", "australia": "new-world", "new-zealand": "new-world",
+    "south-africa": "new-world", "canada": "new-world", "brazil": "new-world",
+    "uruguay": "new-world", "mexico": "new-world", "china": "new-world",
+    "india": "new-world", "japan": "new-world",
+}
+WORLD_DISPLAY = {"old-world": "Old World", "new-world": "New World"}
+
+# Wine-style controlled vocabulary. A free-form style string ("still red
+# Bordeaux blend", "vintage Champagne") is classified to one canonical
+# style by keyword. Order matters: the first match wins, "still" is the
+# catch-all and must stay last.
+STYLE_KEYWORDS = [
+    ("sparkling", ["sparkling", "champagne", "cremant", "crémant", "cava",
+                   "prosecco", "spumante", "franciacorta", "sekt", "pet-nat",
+                   "pét-nat", "petnat", "metodo classico", "traditional method"]),
+    ("sweet", ["sweet", "dessert", "late harvest", "late-harvest", "noble rot",
+               "botrytis", "sauternes", "ice wine", "icewine", "eiswein",
+               "tokaji", "passito", "vin doux", "moelleux", "auslese",
+               "beerenauslese", "trockenbeerenauslese"]),
+    ("fortified", ["fortified", "port", "sherry", "madeira", "marsala",
+                   "vermouth", "vin doux naturel", "vdn"]),
+    ("orange", ["orange", "skin-contact", "skin contact", "amber"]),
+    ("natural", ["natural", "low-intervention", "low intervention",
+                 "zero-zero", "zero zero", "minimal intervention"]),
+    ("still", ["still", "red", "white", "rose", "rosé", "blend", "dry"]),
+]
+STYLE_DISPLAY = {
+    "sparkling": "Sparkling", "still": "Still", "sweet": "Sweet",
+    "fortified": "Fortified", "orange": "Orange", "natural": "Natural",
+}
+
+
+def _classify_style(style_str: str) -> str | None:
+    if not style_str:
+        return None
+    s = style_str.lower()
+    for slug, keywords in STYLE_KEYWORDS:
+        if any(kw in s for kw in keywords):
+            return slug
+    return None
 
 
 def _seo_block(canonical: str, title: str, description: str) -> dict:
@@ -95,7 +139,7 @@ def _seo_block(canonical: str, title: str, description: str) -> dict:
             "og_title": title,
             "og_description": description,
             "og_image": f"{BASE}/og/default.jpg",
-            "og_image_alt": "TableJourney food guide",
+            "og_image_alt": "Cork & Curve wine guide",
             "og_url": canonical,
             "og_type": "article",
             "og_locale": "en_US",
@@ -116,8 +160,7 @@ def _analytics(page_type: str, slug: str) -> dict:
 
 def _all_country_region_pairs() -> list:
     """Walk site-data/ and return (country_slug, region_slug) for every
-    city with a region.json. Includes country-level cities (region_slug=None).
-    Doesn't require a country-level region.json to recurse into regions.
+    region with a region.json. Includes country-level hubs (region_slug=None).
     """
     pairs = []
     for country_dir in sorted(SITE_DATA.iterdir()):
@@ -133,98 +176,114 @@ def _all_country_region_pairs() -> list:
 
 
 def collect_all() -> dict:
-    """Walk every city, return aggregated structures.
+    """Walk every region, return aggregated cross-cut structures.
 
-    Resilient to per-city failures: a single bad city (malformed JSON,
-    missing file, broken encoding) is logged and skipped, the rest of the
-    aggregation still produces a complete cross-cut set. Without this, one
-    subagent's bad output would break /cuisine/, /dish/, and
-    /neighborhood/ for every city.
+    Resilient to per-region failures: a single bad region (malformed JSON,
+    missing file) is logged and skipped; the rest still aggregate.
     """
-    cities_data = []
+    regions_data = []
     for country, region in _all_country_region_pairs():
         try:
             data = load_country_data(country, region_slug=region)
         except (FileNotFoundError, ValueError, OSError) as exc:
             print(f"  [WARN] skipping {country}/{region or '-'}: {exc}")
             continue
-        except Exception as exc:  # noqa: BLE001 - log + skip, don't poison the whole run
+        except Exception as exc:  # noqa: BLE001 - log + skip, don't poison the run
             print(f"  [WARN] skipping {country}/{region or '-'}: unexpected error: {exc}")
             continue
-        cities_data.append({
+        dest = data.get("destination", {})
+        regions_data.append({
             "country_slug": country,
-            "city_slug": region or country,
-            "city_name": data.get("destination", {}).get("name", (region or country).title()),
+            "region_slug": region or country,
+            "is_country": region is None,
+            "region_name": dest.get("name", (region or country).title()),
+            "world": dest.get("world"),
+            "blurb": dest.get("blurb", ""),
             "data": data,
         })
 
-    by_cuisine: dict[str, dict] = defaultdict(lambda: {"display": "", "cities": defaultdict(list)})
-    by_dish: dict[str, dict] = defaultdict(lambda: {
-        "display": "", "description": "", "history": "",
-        "allergens": [], "where_to_eat": defaultdict(list),
-        "make_it_yourself": None,
-    })
+    by_grape: dict[str, dict] = defaultdict(lambda: {"display": "", "regions": defaultdict(list)})
+    by_style: dict[str, dict] = defaultdict(lambda: {"display": "", "regions": defaultdict(list)})
+    by_world: dict[str, dict] = defaultdict(lambda: {"display": "", "regions": []})
     by_neighborhood: dict[tuple, dict] = defaultdict(lambda: {
-        "display": "", "vibe": "", "city_name": "", "city_slug": "", "country_slug": "",
+        "display": "", "vibe": "", "region_name": "", "region_slug": "", "country_slug": "",
         "entities_by_topic": defaultdict(list),
     })
 
-    unmapped_cuisines: dict[str, list[str]] = {}
-    for city in cities_data:
-        research = city["data"].get("research", {})
-        # cuisine: from restaurants[].cuisine + casual_dining[].cuisine
-        # All raw cuisine strings go through the controlled vocab; unknown
-        # values are logged (not silently slug-fragmented into their own page).
-        for rk in ("restaurants", "casual_dining", "fine_dining"):
-            for r in research.get(rk, []) or []:
-                if not isinstance(r, dict) or not r.get("cuisine"):
-                    continue
-                cc = _canon_cuisine(r["cuisine"])
-                if cc is None:
-                    unmapped_cuisines.setdefault(r["cuisine"], []).append(
-                        f"{city['country_slug']}/{city['city_slug']}:{r.get('slug') or r.get('name', '?')}"
-                    )
-                    continue
-                cb = by_cuisine[cc.slug]
-                cb["display"] = cc.display
-                cb["cities"][(city["country_slug"], city["city_slug"], city["city_name"])].append(r)
+    for region in regions_data:
+        research = region["data"].get("research", {})
+        rkey = (region["country_slug"], region["region_slug"], region["region_name"])
 
-        # dishes: from signature_dishes[]
-        for d in research.get("signature_dishes", []) or []:
-            if not isinstance(d, dict) or not d.get("slug"):
+        # Prefer canonical display names for grapes from signature-grapes.json.
+        grape_display = {}
+        for g in research.get("signature_grapes", []) or []:
+            if isinstance(g, dict) and g.get("name"):
+                grape_display[slugify(g["name"])] = g["name"]
+
+        # grape: from vineyard.varietals (every venue that lists varietals).
+        for vk in ("vineyards", "tasting_rooms", "hidden_gems", "budget_wines"):
+            for v in research.get(vk, []) or []:
+                if not isinstance(v, dict):
+                    continue
+                varietals = v.get("varietals") or v.get("varietals_focus") or []
+                if isinstance(varietals, str):
+                    varietals = [varietals]
+                for varietal in varietals:
+                    gslug = slugify(varietal)
+                    if not gslug:
+                        continue
+                    gb = by_grape[gslug]
+                    gb["display"] = grape_display.get(gslug) or gb["display"] or varietal
+                    # de-dupe vineyards per region by slug/name
+                    bucket = gb["regions"][rkey]
+                    ident = v.get("slug") or v.get("name")
+                    if ident and not any((e.get("slug") or e.get("name")) == ident for e in bucket):
+                        bucket.append(v)
+
+        # style: classify signature_wines, attach the producer vineyard when
+        # we can resolve it; plus natural-wine vineyards into the natural style.
+        vineyard_by_name = {}
+        for v in research.get("vineyards", []) or []:
+            if isinstance(v, dict) and v.get("name"):
+                vineyard_by_name[v["name"]] = v
+                if v.get("natural_wine"):
+                    sb = by_style["natural"]
+                    sb["display"] = STYLE_DISPLAY["natural"]
+                    bucket = sb["regions"][rkey]
+                    ident = v.get("slug") or v.get("name")
+                    if not any((e.get("slug") or e.get("name")) == ident for e in bucket):
+                        bucket.append(v)
+        for w in research.get("signature_wines", []) or []:
+            if not isinstance(w, dict):
                 continue
-            ds = d["slug"]
-            slot = by_dish[ds]
-            slot["display"] = d.get("name", ds)
-            slot["description"] = slot["description"] or d.get("description", "")
-            slot["history"] = slot["history"] or d.get("history", "")
-            if d.get("allergens") and not slot["allergens"]:
-                slot["allergens"] = d["allergens"]
-            if d.get("make_it_yourself") and not slot["make_it_yourself"]:
-                slot["make_it_yourself"] = d["make_it_yourself"]
-            # where_to_eat references restaurant/venue names. The dish
-            # might be made famous by a bistro (restaurants), a street stall
-            # (street_food), a bakery (cafes), a budget bouillon
-            # (budget_eating), etc. Resolve names across every venue-style
-            # topic in the city so a falafel-sandwich reference to
-            # "L'As du Fallafel" (in street_food.json) lands on the dish
-            # card. Index is keyed by (city_slug, name) so name collisions
-            # across cities don't shadow each other at multi-city scale.
-            venue_index = {}
-            for venue_key in (
-                "restaurants", "casual_dining", "fine_dining",
-                "cafes", "bakeries", "coffee_roasters", "wine_bars",
-                "bars", "street_food", "breweries",
-                "markets", "budget_eating", "hidden_gems",
-                "brunch", "late_night",
-            ):
-                for r in research.get(venue_key) or []:
-                    if isinstance(r, dict) and r.get("name"):
-                        venue_index[r["name"]] = r
-            resolved = [venue_index[name] for name in (d.get("where_to_eat") or []) if name in venue_index]
-            slot["where_to_eat"][(city["country_slug"], city["city_slug"], city["city_name"])].extend(resolved)
+            sslug = _classify_style(w.get("style", ""))
+            if not sslug:
+                continue
+            producer = w.get("producer")
+            vyd = vineyard_by_name.get(producer) if producer else None
+            if vyd is None:
+                continue
+            sb = by_style[sslug]
+            sb["display"] = STYLE_DISPLAY[sslug]
+            bucket = sb["regions"][rkey]
+            ident = vyd.get("slug") or vyd.get("name")
+            if not any((e.get("slug") or e.get("name")) == ident for e in bucket):
+                bucket.append(vyd)
 
-        # neighborhoods: walk every entity-bearing topic, group by entity.neighborhood
+        # world: regions (not country hubs) classified Old / New World.
+        if not region["is_country"]:
+            wslug = region["world"] or COUNTRY_WORLD.get(region["country_slug"])
+            if wslug in WORLD_DISPLAY:
+                wb = by_world[wslug]
+                wb["display"] = WORLD_DISPLAY[wslug]
+                wb["regions"].append({
+                    "region_name": region["region_name"],
+                    "region_slug": region["region_slug"],
+                    "country_slug": region["country_slug"],
+                    "blurb": region["blurb"],
+                })
+
+        # neighborhoods (sub-appellations): walk every entity-bearing topic.
         for rk, topic_slug in RESEARCH_KEY_TO_TOPIC.items():
             for e in research.get(rk, []) or []:
                 if not isinstance(e, dict) or not e.get("neighborhood"):
@@ -232,171 +291,167 @@ def collect_all() -> dict:
                 nslug = slugify(e["neighborhood"])
                 if not nslug:
                     continue
-                key = (city["city_slug"], nslug)
+                key = (region["region_slug"], nslug)
                 slot = by_neighborhood[key]
                 slot["display"] = e["neighborhood"].split("(")[0].strip()
-                slot["city_name"] = city["city_name"]
-                slot["city_slug"] = city["city_slug"]
-                slot["country_slug"] = city["country_slug"]
+                slot["region_name"] = region["region_name"]
+                slot["region_slug"] = region["region_slug"]
+                slot["country_slug"] = region["country_slug"]
                 slot["entities_by_topic"][topic_slug].append(e)
 
-        # Attach vibe + editorial display name from neighborhoods.json. Each
-        # editorial entry may list `aliases` (entity.neighborhood values that
-        # belong to it). When an alias matches an arr-code cross-cut, the
-        # cross-cut adopts the editorial name (e.g. "3e" -> "Le Marais (3e)").
+        # Attach vibe + editorial display from neighborhoods.json.
         for n in research.get("neighborhoods", []) or []:
             if not isinstance(n, dict) or not n.get("name"):
                 continue
             aliases = n.get("aliases") or []
             for alias in aliases:
-                key = (city["city_slug"], alias)
+                key = (region["region_slug"], alias)
                 if key not in by_neighborhood:
                     continue
                 if n.get("vibe"):
                     by_neighborhood[key]["vibe"] = n["vibe"]
                 by_neighborhood[key]["display"] = f"{n['name']} ({alias})"
-            # Fallback for cities that haven't adopted aliases yet: match by slug.
             if not aliases:
                 ns = slugify(n["name"])
-                key = (city["city_slug"], ns)
+                key = (region["region_slug"], ns)
                 if key in by_neighborhood and n.get("vibe"):
                     by_neighborhood[key]["vibe"] = n["vibe"]
 
     return {
-        "cuisine": by_cuisine,
-        "dish": by_dish,
+        "grape": by_grape,
+        "style": by_style,
+        "world": by_world,
         "neighborhood": by_neighborhood,
-        "unmapped_cuisines": unmapped_cuisines,
     }
 
 
-def write_cuisine_pages(renderer: TemplateRenderer, by_cuisine: dict) -> int:
-    template = renderer.env.get_template("cross-cuts/cuisine.html")
+def _regions_list(regions_dict: dict) -> tuple[list, int]:
+    """Turn a {(country,region_slug,region_name): [vineyards]} dict into the
+    sorted `regions` list the templates expect, and the total entity count."""
+    out = []
+    total = 0
+    for (country, region_slug, region_name), vineyards in regions_dict.items():
+        out.append({
+            "country_slug": country,
+            "region_slug": region_slug,
+            "region_name": region_name,
+            "vineyards": vineyards,
+        })
+        total += len(vineyards)
+    out.sort(key=lambda r: r["region_name"].lower())
+    return out, total
+
+
+def write_grape_pages(renderer: TemplateRenderer, by_grape: dict) -> int:
+    template = renderer.env.get_template("cross-cuts/grape.html")
     count = 0
-    for slug, blob in by_cuisine.items():
-        cities_list = []
-        total = 0
-        for (country, city_slug, city_name), restaurants in blob["cities"].items():
-            cities_list.append({
-                "country_slug": country,
-                "city_slug": city_slug,
-                "city_name": city_name,
-                "restaurants": restaurants,
-            })
-            total += len(restaurants)
-        cities_list.sort(key=lambda c: c["city_name"])
-        cuisine_display = blob["display"]
-
-        canonical = f"{BASE}/cuisine/{slug}/"
-        title = f"{cuisine_display} Restaurants Around the World | TableJourney"
-        n_cities = len(cities_list)
-        city_phrase = "1 city" if n_cities == 1 else f"{n_cities} cities"
-        cl = cuisine_display.lower()
+    for slug, blob in by_grape.items():
+        regions, total = _regions_list(blob["regions"])
+        if not regions:
+            continue
+        display = blob["display"]
+        canonical = f"{BASE}/grape/{slug}/"
+        title = f"{display} Around the World | Cork & Curve"
+        n = len(regions)
+        region_phrase = "1 region" if n == 1 else f"{n} regions"
+        dl = display.lower()
         desc = _meta_desc(
-            f"Editor-picked {cl} rooms across {city_phrase} on TableJourney. Where to sit, what to order, what each kitchen does best and how to book without losing the meal.",
-            f"Editor-picked {cl} rooms across {city_phrase} on TableJourney. Where to sit, what to order, what each kitchen does best and how to book.",
-            f"Editor-picked {cl} rooms across {city_phrase} on TableJourney. Where to sit, what to order and how to book without losing the meal.",
-            f"Editor-picked {cl} rooms across {city_phrase} on TableJourney. Where to sit, what to order and how to book.",
+            f"Editor-picked {dl} producers across {region_phrase} on Cork & Curve. How each region expresses the grape, the estates to visit and the bottles that show it best.",
+            f"Editor-picked {dl} producers across {region_phrase} on Cork & Curve. How each region expresses the grape and the estates worth a visit.",
+            f"Editor-picked {dl} producers across {region_phrase} on Cork & Curve.",
         )
-
         ctx = {
-            "cuisine": cuisine_display,
-            "cuisine_slug": slug,
-            "cities": cities_list,
+            "grape": display,
+            "grape_slug": slug,
+            "regions": regions,
             "total_entities": total,
             "breadcrumb": [
                 {"name": "Home", "url": "/"},
-                {"name": "Cuisines", "url": "/cuisines/"},
-                {"name": cuisine_display, "url": None},
-            ],
-            "seo": _seo_block(canonical, title, desc),
-            "destination": {"name": cuisine_display, "country": ""},
-            "analytics": _analytics("cuisine", slug),
-            "base_path": "../..",
-        }
-        html = template.render(**ctx)
-        out = CONTENT_DIR / "cuisine" / slug / "index.html"
-        out.parent.mkdir(parents=True, exist_ok=True)
-        out.write_text(html, encoding="utf-8")
-        count += 1
-    return count
-
-
-def write_dish_pages(renderer: TemplateRenderer, by_dish: dict) -> int:
-    template = renderer.env.get_template("cross-cuts/dish.html")
-    count = 0
-    for slug, blob in by_dish.items():
-        where_list = []
-        total_r = 0
-        for (country, city_slug, city_name), restaurants in blob["where_to_eat"].items():
-            where_list.append({
-                "country_slug": country,
-                "city_slug": city_slug,
-                "city_name": city_name,
-                "restaurants": restaurants,
-            })
-            total_r += len(restaurants)
-        where_list.sort(key=lambda c: c["city_name"])
-        display = blob["display"]
-
-        canonical = f"{BASE}/dish/{slug}/"
-        title = f"{display}: where to eat it | TableJourney"
-        n_cities = len(where_list)
-        city_phrase = "1 city" if n_cities == 1 else f"{n_cities} cities"
-        dl = display.lower()
-        base = (blob["description"] or "").strip().rstrip(".")
-        if base:
-            stem = f"{base}."
-            desc = _meta_desc(
-                f"{stem} Where to eat the canonical {dl} in {city_phrase} we cover on TableJourney, with editor-picked rooms, how to order and what to skip.",
-                f"{stem} Where to eat the canonical {dl} in {city_phrase} we cover, with editor-picked rooms and how to order on TableJourney.",
-                f"{stem} Where to eat the canonical {dl} in {city_phrase} we cover on TableJourney, room by room.",
-                f"{stem} Where to eat the canonical {dl} in {city_phrase} we cover on TableJourney.",
-                f"{stem} Where to eat the canonical version in {city_phrase} we cover on TableJourney.",
-                f"{stem} Where to eat the canonical version on TableJourney, room by room.",
-                f"{stem} Where to eat the canonical version on TableJourney.",
-                f"{stem} Where to eat it on TableJourney, room by room.",
-                f"{stem} Where to eat it on TableJourney.",
-                # Short tails for the case where the base description alone is
-                # already ~130 chars: any longer suffix blows past 165, but
-                # the bare stem under-shoots the 140 floor. These two land
-                # in band for stems in the 110-145 char range.
-                f"{stem} Editor pick on TableJourney with where to eat it.",
-                f"{stem} On TableJourney, room by room.",
-                f"{stem} On TableJourney.",
-                f"{stem}",
-            )
-        else:
-            desc = _meta_desc(
-                f"{display}: what the dish is, where it comes from, and where to eat the canonical version in {city_phrase} we cover on TableJourney, room by room.",
-                f"{display}: what the dish is, where it comes from, and where to eat the canonical version in {city_phrase} we cover on TableJourney.",
-                f"{display}: what the dish is, where it comes from and where to eat the canonical version on TableJourney.",
-                f"{display}: what the dish is and where to eat the canonical version in {city_phrase} we cover on TableJourney.",
-            )
-
-        ctx = {
-            "dish": display,
-            "dish_slug": slug,
-            "description": blob["description"],
-            "history": blob["history"],
-            "allergens": blob["allergens"],
-            "make_it_yourself": blob["make_it_yourself"],
-            "where_to_eat": where_list,
-            "total_restaurants": total_r,
-            "breadcrumb": [
-                {"name": "Home", "url": "/"},
-                {"name": "Dishes", "url": "/dishes/"},
+                {"name": "Grapes", "url": "/grapes/"},
                 {"name": display, "url": None},
             ],
             "seo": _seo_block(canonical, title, desc),
             "destination": {"name": display, "country": ""},
-            "analytics": _analytics("dish", slug),
+            "analytics": _analytics("grape", slug),
             "base_path": "../..",
         }
-        html = template.render(**ctx)
-        out = CONTENT_DIR / "dish" / slug / "index.html"
+        out = CONTENT_DIR / "grape" / slug / "index.html"
         out.parent.mkdir(parents=True, exist_ok=True)
-        out.write_text(html, encoding="utf-8")
+        out.write_text(template.render(**ctx), encoding="utf-8")
+        count += 1
+    return count
+
+
+def write_style_pages(renderer: TemplateRenderer, by_style: dict) -> int:
+    template = renderer.env.get_template("cross-cuts/style.html")
+    count = 0
+    for slug, blob in by_style.items():
+        regions, total = _regions_list(blob["regions"])
+        if not regions:
+            continue
+        display = blob["display"]
+        canonical = f"{BASE}/style/{slug}/"
+        title = f"{display} Wine Around the World | Cork & Curve"
+        n = len(regions)
+        region_phrase = "1 region" if n == 1 else f"{n} regions"
+        dl = display.lower()
+        desc = _meta_desc(
+            f"Editor-picked {dl} wine across {region_phrase} on Cork & Curve. The producers, the regions and what to look for in the glass.",
+            f"Editor-picked {dl} wine across {region_phrase} on Cork & Curve.",
+        )
+        ctx = {
+            "style": display,
+            "style_slug": slug,
+            "regions": regions,
+            "total_entities": total,
+            "breadcrumb": [
+                {"name": "Home", "url": "/"},
+                {"name": "Styles", "url": "/styles/"},
+                {"name": display, "url": None},
+            ],
+            "seo": _seo_block(canonical, title, desc),
+            "destination": {"name": display, "country": ""},
+            "analytics": _analytics("style", slug),
+            "base_path": "../..",
+        }
+        out = CONTENT_DIR / "style" / slug / "index.html"
+        out.parent.mkdir(parents=True, exist_ok=True)
+        out.write_text(template.render(**ctx), encoding="utf-8")
+        count += 1
+    return count
+
+
+def write_world_pages(renderer: TemplateRenderer, by_world: dict) -> int:
+    template = renderer.env.get_template("cross-cuts/world.html")
+    count = 0
+    for slug, blob in by_world.items():
+        regions = sorted(blob["regions"], key=lambda r: r["region_name"].lower())
+        if not regions:
+            continue
+        display = blob["display"]
+        canonical = f"{BASE}/world/{slug}/"
+        title = f"{display} Wine Regions | Cork & Curve"
+        desc = _meta_desc(
+            f"The {display} wine regions we cover on Cork & Curve, and what defines each. Vineyards, signature wines and how to plan a visit.",
+            f"The {display} wine regions we cover on Cork & Curve, and what defines each.",
+        )
+        ctx = {
+            "world": display,
+            "world_slug": slug,
+            "regions": regions,
+            "breadcrumb": [
+                {"name": "Home", "url": "/"},
+                {"name": "World", "url": "/world/"},
+                {"name": display, "url": None},
+            ],
+            "seo": _seo_block(canonical, title, desc),
+            "destination": {"name": display, "country": ""},
+            "analytics": _analytics("world", slug),
+            "base_path": "../..",
+        }
+        out = CONTENT_DIR / "world" / slug / "index.html"
+        out.parent.mkdir(parents=True, exist_ok=True)
+        out.write_text(template.render(**ctx), encoding="utf-8")
         count += 1
     return count
 
@@ -404,34 +459,29 @@ def write_dish_pages(renderer: TemplateRenderer, by_dish: dict) -> int:
 def write_neighborhood_pages(renderer: TemplateRenderer, by_neighborhood: dict) -> int:
     template = renderer.env.get_template("cross-cuts/neighborhood.html")
     count = 0
-    for (city_slug, hood_slug), blob in by_neighborhood.items():
+    for (region_slug, hood_slug), blob in by_neighborhood.items():
         total = sum(len(v) for v in blob["entities_by_topic"].values())
-        canonical = f"{BASE}/neighborhood/{city_slug}/{hood_slug}/"
+        canonical = f"{BASE}/neighborhood/{region_slug}/{hood_slug}/"
         display = blob["display"]
-        city_name = blob["city_name"]
-        title = f"Eat in {display}, {city_name} | TableJourney"
+        region_name = blob["region_name"]
+        title = f"Wine in {display}, {region_name} | Cork & Curve"
         vibe = (blob["vibe"] or "").strip().rstrip(".")
         if vibe:
             desc = _meta_desc(
-                f"{vibe}. The restaurants, cafes, bars and markets in {display}, {city_name}, editor-picked by TableJourney with what to order and how to book.",
-                f"{vibe}. The restaurants, cafes, bars and markets in {display}, {city_name}, editor-picked by TableJourney.",
-                f"{vibe}. The restaurants, cafes, bars and markets in {display}, {city_name}, on TableJourney.",
-                f"{vibe}. Editor-picked rooms in {display}, {city_name}, on TableJourney.",
+                f"{vibe}. The vineyards, tasting rooms and wine bars in {display}, {region_name}, editor-picked by Cork & Curve.",
+                f"{vibe}. Editor-picked wine in {display}, {region_name}, on Cork & Curve.",
                 f"{vibe}.",
             )
         else:
             desc = _meta_desc(
-                f"Where to eat in {display}, {city_name}: the restaurants, cafes, bars, markets and bakeries editor-picked by TableJourney with what to order and how to book.",
-                f"Where to eat in {display}, {city_name}: the restaurants, cafes, bars and markets editor-picked by TableJourney, with what to order and how to book.",
-                f"Where to eat in {display}, {city_name}: restaurants, cafes, bars and markets editor-picked by TableJourney with what to order.",
-                f"Where to eat in {display}, {city_name}: restaurants, cafes, bars and markets editor-picked by TableJourney.",
+                f"Where to drink in {display}, {region_name}: the vineyards, tasting rooms and wine bars editor-picked by Cork & Curve, with what to taste and how to book.",
+                f"Where to drink in {display}, {region_name}: vineyards, tasting rooms and wine bars editor-picked by Cork & Curve.",
             )
-
         ctx = {
             "neighborhood": display,
             "neighborhood_slug": hood_slug,
-            "city_name": city_name,
-            "city_slug": city_slug,
+            "region_name": region_name,
+            "region_slug": region_slug,
             "country_slug": blob["country_slug"],
             "vibe": blob["vibe"],
             "entities_by_topic": dict(blob["entities_by_topic"]),
@@ -439,160 +489,132 @@ def write_neighborhood_pages(renderer: TemplateRenderer, by_neighborhood: dict) 
             "total_entities": total,
             "breadcrumb": [
                 {"name": "Home", "url": "/"},
-                {"name": "Neighbourhoods", "url": "/neighborhoods/"},
-                {"name": city_name, "url": f"/{blob['country_slug']}/{city_slug}/"},
+                {"name": "Sub-Appellations", "url": "/neighborhoods/"},
+                {"name": region_name, "url": f"/{blob['country_slug']}/{region_slug}/"},
                 {"name": display, "url": None},
             ],
             "seo": _seo_block(canonical, title, desc),
-            "destination": {"name": city_name, "country": ""},
-            "analytics": _analytics("neighborhood", f"{city_slug}-{hood_slug}"),
+            "destination": {"name": region_name, "country": ""},
+            "analytics": _analytics("neighborhood", f"{region_slug}-{hood_slug}"),
             "base_path": "../../..",
         }
-        html = template.render(**ctx)
-        out = CONTENT_DIR / "neighborhood" / city_slug / hood_slug / "index.html"
+        out = CONTENT_DIR / "neighborhood" / region_slug / hood_slug / "index.html"
         out.parent.mkdir(parents=True, exist_ok=True)
-        out.write_text(html, encoding="utf-8")
+        out.write_text(template.render(**ctx), encoding="utf-8")
         count += 1
     return count
 
 
 def _write_manifest(parent_dir: Path, entries: list[dict]) -> None:
-    """Drop a flat JSON manifest of every cross-cut page under `parent_dir`.
-
-    Read by generate_chrome_pages.py to build the /cuisines/, /dishes/,
-    /neighborhoods/ index pages without having to open and regex every
-    individual cross-cut HTML. At 100k cross-cuts that file-open loop is
-    the difference between a multi-minute chrome regen and a one-second one.
-
-    Schema: { "entries": [{"slug": ..., "display": ..., ... per-type extras}] }
-    """
+    """Drop a flat JSON manifest of every cross-cut page under `parent_dir`,
+    read by the chrome + scoped cross-cut generators to build index pages
+    without re-opening every HTML file."""
     import json as _json
     parent_dir.mkdir(parents=True, exist_ok=True)
-    payload = {"entries": entries}
     (parent_dir / "_manifest.json").write_text(
-        _json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8"
+        _json.dumps({"entries": entries}, ensure_ascii=False, indent=2), encoding="utf-8"
     )
 
 
 def _prune_stale(parent: Path, keep_slugs: set[str], *, two_level: bool = False) -> int:
     """Delete cross-cut directories under `parent` whose slug is not in
-    `keep_slugs`. Used to drop orphans when a cuisine/dish/neighborhood
-    stops appearing (e.g. canonicalisation collapsed two slugs into one,
-    or a city removed an entry).
-
-    `two_level=True` for neighborhood, where the dir layout is
-    content/neighborhood/<city>/<hood>/ and the slug key is "<city>/<hood>".
-
-    Returns number of pruned dirs.
-    """
+    `keep_slugs`. `two_level=True` for neighborhood
+    (content/neighborhood/<region>/<sub>/, key "<region>/<sub>")."""
     import shutil as _shutil
     if not parent.exists():
         return 0
     pruned = 0
     if two_level:
-        for city_dir in parent.iterdir():
-            if not city_dir.is_dir():
+        for region_dir in list(parent.iterdir()):
+            if not region_dir.is_dir():
                 continue
-            for hood_dir in list(city_dir.iterdir()):
+            for hood_dir in list(region_dir.iterdir()):
                 if not hood_dir.is_dir():
                     continue
-                key = f"{city_dir.name}/{hood_dir.name}"
-                if key not in keep_slugs:
+                if f"{region_dir.name}/{hood_dir.name}" not in keep_slugs:
                     _shutil.rmtree(hood_dir)
                     pruned += 1
-            # If the city dir is empty after pruning, drop it too.
-            if not any(city_dir.iterdir()):
-                city_dir.rmdir()
+            if region_dir.is_dir() and not any(region_dir.iterdir()):
+                region_dir.rmdir()
         return pruned
     for sub in list(parent.iterdir()):
-        if sub.is_dir() and sub.name not in keep_slugs:
+        if sub.is_dir() and sub.name not in keep_slugs and sub.name != "_manifest.json":
             _shutil.rmtree(sub)
             pruned += 1
     return pruned
 
 
 def main() -> int:
-    print("Collecting cross-cut data from all cities...")
+    print("Collecting cross-cut data from all regions...")
     agg = collect_all()
     renderer = TemplateRenderer()
 
-    n_c = write_cuisine_pages(renderer, agg["cuisine"])
-    n_d = write_dish_pages(renderer, agg["dish"])
+    n_g = write_grape_pages(renderer, agg["grape"])
+    n_s = write_style_pages(renderer, agg["style"])
+    n_w = write_world_pages(renderer, agg["world"])
     n_n = write_neighborhood_pages(renderer, agg["neighborhood"])
 
-    # Prune stale cross-cut directories (orphans from removed entries or
-    # canonicalisation collapses). Critical for SEO: leaving orphaned
-    # URLs serving 200 creates duplicate-content liability.
-    pruned_c = _prune_stale(CONTENT_DIR / "cuisine", set(agg["cuisine"].keys()))
-    pruned_d = _prune_stale(CONTENT_DIR / "dish", set(agg["dish"].keys()))
+    # Prune orphans (entries that stopped appearing). Only keep slugs that
+    # actually produced a page (non-empty regions).
+    keep_grape = {s for s, b in agg["grape"].items() if any(b["regions"].values())}
+    keep_style = {s for s, b in agg["style"].items() if any(b["regions"].values())}
+    keep_world = {s for s, b in agg["world"].items() if b["regions"]}
+    pruned_g = _prune_stale(CONTENT_DIR / "grape", keep_grape)
+    pruned_s = _prune_stale(CONTENT_DIR / "style", keep_style)
+    pruned_w = _prune_stale(CONTENT_DIR / "world", keep_world)
     pruned_n = _prune_stale(
         CONTENT_DIR / "neighborhood",
-        {f"{c}/{h}" for (c, h) in agg["neighborhood"].keys()},
+        {f"{r}/{h}" for (r, h) in agg["neighborhood"].keys()},
         two_level=True,
     )
 
-    # Write manifests so chrome-page indexes can be assembled cheaply.
-    # Each entry carries a `cities` list so country-scoped + city-scoped
-    # indexes can be built by filtering the same manifest. `n` is the
-    # entity count in that city (for sort-by-coverage display).
-    cuisine_entries = []
-    for s, b in sorted(agg["cuisine"].items()):
-        cities = [
-            {
-                "country_slug": country,
-                "city_slug": city_slug,
-                "city_name": city_name,
-                "n": len(restaurants),
-            }
-            for (country, city_slug, city_name), restaurants in b["cities"].items()
-        ]
-        cities.sort(key=lambda c: c["city_name"].lower())
-        cuisine_entries.append({"slug": s, "display": b["display"], "cities": cities})
-    _write_manifest(CONTENT_DIR / "cuisine", cuisine_entries)
+    # Manifests for the chrome + scoped index generators.
+    grape_entries = []
+    for s, b in sorted(agg["grape"].items()):
+        regions, _ = _regions_list(b["regions"])
+        if not regions:
+            continue
+        grape_entries.append({
+            "slug": s, "display": b["display"],
+            "regions": [{"country_slug": r["country_slug"], "region_slug": r["region_slug"],
+                         "region_name": r["region_name"], "n": len(r["vineyards"])} for r in regions],
+        })
+    _write_manifest(CONTENT_DIR / "grape", grape_entries)
 
-    dish_entries = []
-    for s, b in sorted(agg["dish"].items()):
-        cities = [
-            {
-                "country_slug": country,
-                "city_slug": city_slug,
-                "city_name": city_name,
-                "n": len(restaurants),
-            }
-            for (country, city_slug, city_name), restaurants in b["where_to_eat"].items()
-            if restaurants
-        ]
-        cities.sort(key=lambda c: c["city_name"].lower())
-        dish_entries.append({"slug": s, "display": b["display"], "cities": cities})
-    _write_manifest(CONTENT_DIR / "dish", dish_entries)
-    # Neighborhood manifest groups by city for the chrome index.
+    style_entries = []
+    for s, b in sorted(agg["style"].items()):
+        regions, _ = _regions_list(b["regions"])
+        if not regions:
+            continue
+        style_entries.append({
+            "slug": s, "display": b["display"],
+            "regions": [{"country_slug": r["country_slug"], "region_slug": r["region_slug"],
+                         "region_name": r["region_name"], "n": len(r["vineyards"])} for r in regions],
+        })
+    _write_manifest(CONTENT_DIR / "style", style_entries)
+
+    world_entries = []
+    for s, b in sorted(agg["world"].items()):
+        if not b["regions"]:
+            continue
+        world_entries.append({"slug": s, "display": b["display"],
+                              "regions": sorted(b["regions"], key=lambda r: r["region_name"].lower())})
+    _write_manifest(CONTENT_DIR / "world", world_entries)
+
     nb_entries = []
-    for (city_slug, hood_slug), b in sorted(agg["neighborhood"].items()):
+    for (region_slug, hood_slug), b in sorted(agg["neighborhood"].items()):
         nb_entries.append({
-            "slug": hood_slug,
-            "display": b["display"],
-            "city_slug": city_slug,
-            "city_name": b["city_name"],
+            "slug": hood_slug, "display": b["display"],
+            "region_slug": region_slug, "region_name": b["region_name"],
             "country_slug": b["country_slug"],
         })
     _write_manifest(CONTENT_DIR / "neighborhood", nb_entries)
 
-    print(f"  cuisine pages:       {n_c}  (pruned {pruned_c} stale)")
-    print(f"  dish pages:          {n_d}  (pruned {pruned_d} stale)")
+    print(f"  grape pages:         {n_g}  (pruned {pruned_g} stale)")
+    print(f"  style pages:         {n_s}  (pruned {pruned_s} stale)")
+    print(f"  world pages:         {n_w}  (pruned {pruned_w} stale)")
     print(f"  neighborhood pages:  {n_n}  (pruned {pruned_n} stale)")
-
-    # Surface unmapped cuisines so an editor can either add to data/cuisines.json
-    # or correct the offending entry. Unmapped cuisines do NOT get a cross-cut.
-    unmapped = agg.get("unmapped_cuisines") or {}
-    if unmapped:
-        print(f"\n[WARN] {len(unmapped)} cuisine value(s) not in data/cuisines.json:")
-        for raw, refs in sorted(unmapped.items()):
-            sample = refs[0] if refs else ""
-            extra = f" (+{len(refs) - 1} more)" if len(refs) > 1 else ""
-            print(f"  - {raw!r}: {sample}{extra}")
-        print("  Fix: add an alias under the matching canonical in data/cuisines.json, then re-run.")
-
-    print(f"DONE: {n_c + n_d + n_n} cross-cut pages written.")
+    print(f"DONE: {n_g + n_s + n_w + n_n} cross-cut pages written.")
     return 0
 
 

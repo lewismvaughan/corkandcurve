@@ -19,7 +19,7 @@ from xml.sax.saxutils import escape
 REPO_ROOT = Path(__file__).resolve().parent.parent
 SITE_DATA = REPO_ROOT / "site-data"
 OUT_DIR = REPO_ROOT / "content"
-BASE = "https://tablejourney.com"
+BASE = "https://corkandcurve.com"
 
 
 # Section-based sitemap shards. Search Console reports indexing stats per
@@ -50,12 +50,12 @@ def _mtime_iso(url: str) -> str:
     return date.today().isoformat()
 
 TOPIC_SLUGS = [
-    "restaurants", "fine-dining", "casual-dining", "cafes",
-    "bakeries", "coffee-roasters", "wine-bars", "bars",
-    "street-food", "breweries", "markets", "food-tours", "festivals",
-    "cooking-classes", "dietary", "budget-eating", "signature-dishes",
-    "hidden-gems", "brunch", "late-night", "food-history", "seasonal-food",
-    "day-trips-food", "itineraries", "nightlife",
+    "vineyards", "wines", "tasting-rooms", "wine-bars", "wine-restaurants",
+    "wine-retailers", "wine-schools", "wine-tours", "wine-festivals",
+    "distilleries", "wine-museums", "wine-hotels", "wine-experiences",
+    "wine-history", "seasonal-wine", "signature-wines", "signature-grapes",
+    "budget-wines", "hidden-gems", "day-trips-wine", "itineraries",
+    "neighborhoods", "nightlife", "dietary", "food-pairing",
 ]
 
 
@@ -83,10 +83,10 @@ CHROME_PAGES = [
     ("about/editorial", "monthly", "0.5"),
     ("editorial-standards", "yearly", "0.5"),
     ("contact", "yearly", "0.5"),
-    ("cities", "weekly", "0.8"),
-    ("cuisines", "monthly", "0.6"),
-    ("dishes", "monthly", "0.6"),
-    ("neighborhoods", "monthly", "0.6"),
+    ("regions", "weekly", "0.8"),
+    ("grapes", "monthly", "0.6"),
+    ("styles", "monthly", "0.6"),
+    ("world", "monthly", "0.6"),
     ("topics", "weekly", "0.8"),
     ("privacy", "yearly", "0.3"),
     ("terms", "yearly", "0.3"),
@@ -332,6 +332,37 @@ def collect_urls() -> list:
     # Cross-cut landings (global /cuisine/<slug>/, /dish/, /neighborhood/)
     for url in _walk_cross_cuts():
         _add(urls, f"{BASE}{url}", "weekly", "0.7", "crosscuts")
+
+    # Per-cuvée wine pages: /wine/<producer>/<cuvee>/
+    # Emitted by generate_wine_pages.py from wines.json. The cuvée page is
+    # the canonical entry for each producer cuvée; we index every one we
+    # rendered so Google can discover them off the sitemap rather than
+    # having to crawl through region hubs.
+    wine_root = OUT_DIR / "wine"
+    if wine_root.is_dir():
+        for producer_dir in sorted(wine_root.iterdir()):
+            if not producer_dir.is_dir():
+                continue
+            for cuvee_dir in sorted(producer_dir.iterdir()):
+                if cuvee_dir.is_dir() and (cuvee_dir / "index.html").exists():
+                    _add(urls, f"{BASE}/wine/{producer_dir.name}/{cuvee_dir.name}/",
+                         "monthly", "0.7", "wines")
+
+    # Tag pages: /tag/<slug>/ (global) + /tag/<slug>/<region>/ (scoped).
+    # Emitted by generate_tag_pages.py from wines.json across all regions.
+    # Filter-style landing pages with a known intent (pairs-with-lamb,
+    # cellar-worthy, biodynamic, etc.) — surface them so Search can serve
+    # the "best <X> wines" intent without us hand-curating a top-10 list.
+    tag_root = OUT_DIR / "tag"
+    if tag_root.is_dir():
+        for tag_dir in sorted(tag_root.iterdir()):
+            if not tag_dir.is_dir() or not (tag_dir / "index.html").exists():
+                continue
+            _add(urls, f"{BASE}/tag/{tag_dir.name}/", "weekly", "0.7", "tags")
+            for region_dir in sorted(tag_dir.iterdir()):
+                if region_dir.is_dir() and (region_dir / "index.html").exists():
+                    _add(urls, f"{BASE}/tag/{tag_dir.name}/{region_dir.name}/",
+                         "monthly", "0.6", "tags")
 
     # Neighborhood × cuisine deep pages
     # /neighborhood/<city>/<nbhd>/<cuisine>/

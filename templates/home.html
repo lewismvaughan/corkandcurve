@@ -1,9 +1,9 @@
 {% extends "base.html" %}
 {% from "partials/_ad_slot.html" import ad_slot %}
-{% from "topics/_macros.html" import editorial_score %}
+{% from "topics/_macros.html" import editorial_score, star_strip, price_tier %}
 
-{% block title %}Cork and Curve, where the world eats{% endblock %}
-{% block meta_description %}Food travel guides for the world's great eating cities. Restaurants, street food, signature dishes, hidden gems and food culture, written for hungry travellers.{% endblock %}
+{% block title %}Cork & Curve, where the world drinks{% endblock %}
+{% block meta_description %}Wine and spirits travel guides to the world's great wine regions. Vineyards, tasting rooms, signature wines, hidden cellars and wine culture, written for travellers who drink well.{% endblock %}
 
 {% block schema_extra %}
 <script type="application/ld+json">
@@ -14,25 +14,25 @@
       "@type": "WebSite",
       "@id": "https://corkandcurve.com/#website",
       "url": "https://corkandcurve.com/",
-      "name": "Cork and Curve",
-      "description": "Food travel guides to the cities where eating is the reason to go.",
+      "name": "Cork & Curve",
+      "description": "Wine travel guides to the regions where the bottle is the reason to go.",
       "inLanguage": "en",
-      "publisher": { "@type": "Organization", "name": "Cork and Curve" },
+      "publisher": { "@type": "Organization", "name": "Cork & Curve" },
       "potentialAction": {
         "@type": "SearchAction",
         "target": { "@type": "EntryPoint", "urlTemplate": "https://corkandcurve.com/search/?q={search_term_string}" },
         "query-input": "required name=search_term_string"
       }
     }
-    {% set _live_cities = home.featured_cities | rejectattr('status','equalto','coming-soon') | list %}
-    {% if _live_cities %},
+    {% set _live_regions = home.featured_regions | rejectattr('status','equalto','coming-soon') | list %}
+    {% if _live_regions %},
     {
       "@type": "ItemList",
-      "@id": "https://corkandcurve.com/#featured-cities",
-      "name": "Featured food cities on Cork and Curve",
-      "numberOfItems": {{ _live_cities | length }},
+      "@id": "https://corkandcurve.com/#featured-regions",
+      "name": "Featured wine regions on Cork & Curve",
+      "numberOfItems": {{ _live_regions | length }},
       "itemListElement": [
-        {% for c in _live_cities %}
+        {% for c in _live_regions %}
         { "@type": "ListItem", "position": {{ loop.index }}, "url": {{ c.url | tojson }}, "name": {{ c.name | tojson }} }{% if not loop.last %},{% endif %}
         {% endfor %}
       ]
@@ -45,40 +45,45 @@
 
 {% block hero %}
 <section class="tj-home-hero">
-    <h1>Where the world eats</h1>
-    <p>Editorial food travel guides to the cities where eating is the reason to go.</p>
+    <h1>Where the world drinks</h1>
+    <p>Editorial wine travel guides to the regions where the bottle is the reason to go.</p>
     <form class="tj-home-search" role="search" action="/search/" method="get">
-        <label class="tj-sr-only" for="tj-home-search-input">Search a city, cuisine, or dish</label>
-        <input id="tj-home-search-input" type="search" name="q" placeholder="Search a city, cuisine, or dish" autocomplete="off" enterkeyhint="search">
+        <label class="tj-sr-only" for="tj-home-search-input">Search a region, grape, or wine</label>
+        <input id="tj-home-search-input" type="search" name="q" placeholder="Search a region, grape, or wine" autocomplete="off" enterkeyhint="search">
     </form>
 </section>
 {% endblock %}
 
 {% block content %}
-    <section class="tj-section" id="featured-cities">
-        <h2>Featured cities</h2>
-        <p class="tj-intro">Start with the cities our editors are eating their way through right now.</p>
-        <div class="tj-marquee" aria-label="Featured cities">
+    <section class="tj-section" id="featured-regions">
+        <h2>Featured regions</h2>
+        <p class="tj-intro">Start with the regions our editors are drinking their way through right now.</p>
+        {# Suppress the dup group when there are fewer than 3 unique regions —
+           otherwise users see e.g. "Bordeaux, Bordeaux" stacked side-by-side
+           which looks broken even when the animation is paused on hover or
+           off-screen. With >=3 items the dup is required for seamless loop. #}
+        {% set _region_dups = [false, true] if (home.featured_regions | default([]) | length) >= 3 else [false] %}
+        <div class="tj-marquee" aria-label="Featured regions">
             <div class="tj-marquee-track">
-                {% for _dup in [false, true] %}
+                {% for _dup in _region_dups %}
                 <div class="tj-marquee-group"{% if _dup %} aria-hidden="true"{% endif %}>
-                    {% for city in home.featured_cities | default([]) %}
+                    {% for region in home.featured_regions | default([]) %}
                         {% set _is_lcp = loop.first and not _dup %}
-                        {% if city.status == 'coming-soon' %}
-                        <div class="tj-city-card is-coming-soon" title="{{ city.name }} guide launching soon">
+                        {% if region.status == 'coming-soon' %}
+                        <div class="tj-city-card is-coming-soon" title="{{ region.name }} guide launching soon">
                             <span class="tj-city-card-badge">Launching soon</span>
-                            <img class="tj-city-card-img" src="{{ city.image }}" alt="{{ city.name }} food scene" {% if _is_lcp %}fetchpriority="high" loading="eager"{% else %}loading="lazy"{% endif %} decoding="async" width="600" height="450">
+                            {% if region.image %}<img class="tj-city-card-img" src="{{ region.image }}" alt="{{ region.name }} wine country" {% if _is_lcp %}fetchpriority="high" loading="eager"{% else %}loading="lazy"{% endif %} decoding="async" width="600" height="450">{% else %}<div class="tj-city-card-img tj-city-card-ph" aria-hidden="true"><span>{{ region.name[:1] }}</span></div>{% endif %}
                             <div class="tj-city-card-body">
-                                <h3 class="tj-city-card-name">{{ city.name }}</h3>
-                                <p class="tj-city-card-tagline">{{ city.tagline }}</p>
+                                <h3 class="tj-city-card-name">{{ region.name }}</h3>
+                                <p class="tj-city-card-tagline">{{ region.tagline }}</p>
                             </div>
                         </div>
                         {% else %}
-                        <a href="{{ city.url }}" class="tj-city-card" title="{{ city.name }} food guide"{% if _dup %} tabindex="-1" aria-hidden="true"{% endif %}>
-                            <img class="tj-city-card-img" src="{{ city.image }}" alt="{{ city.name }} food scene" {% if _is_lcp %}fetchpriority="high" loading="eager"{% else %}loading="lazy"{% endif %} decoding="async" width="600" height="450">
+                        <a href="{{ region.url }}" class="tj-city-card" title="{{ region.name }} wine guide"{% if _dup %} tabindex="-1" aria-hidden="true"{% endif %}>
+                            {% if region.image %}<img class="tj-city-card-img" src="{{ region.image }}" alt="{{ region.name }} wine country" {% if _is_lcp %}fetchpriority="high" loading="eager"{% else %}loading="lazy"{% endif %} decoding="async" width="600" height="450">{% else %}<div class="tj-city-card-img tj-city-card-ph" aria-hidden="true"><span>{{ region.name[:1] }}</span></div>{% endif %}
                             <div class="tj-city-card-body">
-                                <h3 class="tj-city-card-name">{{ city.name }}</h3>
-                                <p class="tj-city-card-tagline">{{ city.tagline }}</p>
+                                <h3 class="tj-city-card-name">{{ region.name }}</h3>
+                                <p class="tj-city-card-tagline">{{ region.tagline }}</p>
                             </div>
                         </a>
                         {% endif %}
@@ -91,37 +96,56 @@
 
     {{ ad_slot('home-mid', size='leaderboard') }}
 
-    <section class="tj-section" id="trending-dishes">
-        <h2>Trending dishes</h2>
-        <p class="tj-intro">Iconic plates worth booking a flight for.</p>
-        <div class="tj-marquee" aria-label="Trending dishes">
+    {% if home.trending_wines %}
+    <section class="tj-section" id="trending-wines">
+        <h2>Featured wines</h2>
+        <p class="tj-intro">
+            Editor's-rating top of our cellar, rotated every {{ home.trending_wines_window_days | default(3) }} days.
+            {% if home.trending_wines_window_started %}
+            <span style="font-size:0.85em;color:var(--tj-muted, #6b6b6b);">This selection live since {{ home.trending_wines_window_started }}.</span>
+            {% endif %}
+        </p>
+        {% set _wine_dups = [false, true] if (home.trending_wines | default([]) | length) >= 3 else [false] %}
+        <div class="tj-marquee" aria-label="Featured wines">
             <div class="tj-marquee-track">
-                {% for _dup in [false, true] %}
+                {% for _dup in _wine_dups %}
                 <div class="tj-marquee-group"{% if _dup %} aria-hidden="true"{% endif %}>
-                    {% for dish in home.trending_dishes | default([]) %}
-                    {% if dish.url %}
-                    <a class="tj-dish" href="{{ dish.url }}"{% if _dup %} tabindex="-1" aria-hidden="true"{% endif %}>
+                    {% for wine in home.trending_wines | default([]) %}
+                    {% if wine.url %}
+                    <a class="tj-dish" href="{{ wine.url }}"{% if _dup %} tabindex="-1" aria-hidden="true"{% endif %}>
                     {% else %}
                     <article class="tj-dish">
                     {% endif %}
-                        <h3 class="tj-dish-name">{{ dish.name }} {{ editorial_score(dish.editorial_score) }}</h3>
-                        <p class="tj-dish-desc">{{ dish.description }}</p>
-                        {% if dish.city %}
-                        <p class="tj-dish-where"><strong>{{ dish.city }}</strong>{% if dish.where %} · {{ dish.where }}{% endif %}</p>
+                        <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:10px;">
+                            <h3 class="tj-dish-name" style="flex:1 1 auto;margin:0;">{{ wine.name }}</h3>
+                            {% if wine.editorial_score is number and wine.editorial_score >= 1.0 %}
+                            <div aria-label="Cork & Curve editorial rating {{ '%.1f' | format(wine.editorial_score) }} out of 5"
+                                 style="flex:0 0 auto;text-align:center;padding:5px 9px;border:1px solid var(--tj-border, #d9d2c8);border-radius:var(--tj-radius, 6px);background:var(--tj-surface, #faf8f4);min-width:54px;">
+                                <div style="font-size:1.05rem;font-weight:700;line-height:1;color:var(--tj-accent, #7a1d2d);">{{ '%.1f' | format(wine.editorial_score) }}</div>
+                                <div style="margin-top:3px;">
+                                    {{ star_strip(wine.editorial_score, size='0.85rem') }}
+                                </div>
+                            </div>
+                            {% endif %}
+                        </div>
+                        <p class="tj-dish-desc" style="margin-top:8px;">{{ wine.description }}</p>
+                        {% if wine.region %}
+                        <p class="tj-dish-where"><strong>{{ wine.region }}</strong>{% if wine.producer %} · {{ wine.producer }}{% endif %}{% if wine.price_tier %} · {{ price_tier(wine.price_tier) }}{% endif %}</p>
                         {% endif %}
-                    {% if dish.url %}</a>{% else %}</article>{% endif %}
+                    {% if wine.url %}</a>{% else %}</article>{% endif %}
                     {% endfor %}
                 </div>
                 {% endfor %}
             </div>
         </div>
     </section>
+    {% endif %}
 
     {% if home.featured_countries %}
     <section class="tj-section" id="browse-countries">
         <h2>Browse by country</h2>
         <p class="tj-intro">Skip to a country hub when you already know where you are going.</p>
-        <nav class="tj-country-grid" aria-label="Countries on Cork and Curve">
+        <nav class="tj-country-grid" aria-label="Countries on Cork & Curve">
             {% for c in home.featured_countries %}
             <a href="{{ c.url }}" class="tj-country-chip">
                 <span class="tj-country-chip-flag" aria-hidden="true">{{ c.flag }}</span>
@@ -132,10 +156,11 @@
     </section>
     {% endif %}
 
+    {% if home.topics %}
     <section class="tj-section" id="explore-topics">
-        <h2>Browse by what you are hungry for</h2>
-        <nav class="tj-topic-grid" aria-label="Topics across Cork and Curve">
-            {% for topic in home.topics | default(topic_nav) | default([]) %}
+        <h2>Browse by what you want to drink</h2>
+        <nav class="tj-topic-grid" aria-label="Topics across Cork & Curve">
+            {% for topic in home.topics %}
             <a href="/topics/{{ topic.slug }}/" class="tj-topic-chip">
                 <span class="tj-topic-chip-icon" aria-hidden="true">{{ topic.icon }}</span>
                 <span class="tj-topic-chip-name">{{ topic.name }}</span>
@@ -143,18 +168,19 @@
             {% endfor %}
         </nav>
     </section>
+    {% endif %}
 
     {{ ad_slot('home-bottom', size='in-article-native') }}
 
-    <section class="tj-section" id="more-from-tj">
-        <h2>More from Cork and Curve</h2>
+    <section class="tj-section" id="more-from-cc">
+        <h2>More from Cork & Curve</h2>
         <p class="tj-intro">
             Looking for something specific? Try the <a href="/search/">site search</a>,
-            browse <a href="/cities/">every city we cover</a>,
-            see <a href="/topics/">every food topic</a>,
-            or skim the <a href="/cuisine/">global cuisines index</a>
-            and <a href="/dishes/">signature dishes index</a>.
-            Curious who we are? Read <a href="/about/">about Cork and Curve</a> and our <a href="/editorial-standards/">editorial standards</a>.
+            browse <a href="/regions/">every region we cover</a>,
+            see <a href="/topics/">every wine topic</a>,
+            or skim the <a href="/grapes/">global grapes index</a>
+            and <a href="/styles/">wine styles index</a>.
+            Curious who we are? Read <a href="/about/">about Cork & Curve</a> and our <a href="/about/editorial/">editorial standards</a>.
         </p>
         <p class="tj-note" style="font-size:.9em; opacity:.75;">
             <a href="/privacy/">Privacy</a> &middot;

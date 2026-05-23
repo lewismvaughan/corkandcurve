@@ -32,49 +32,49 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from utils.template_renderer import TemplateRenderer, FOOD_TOPIC_NAV  # noqa: E402
+from utils.template_renderer import TemplateRenderer, WINE_TOPIC_NAV  # noqa: E402
 from utils.filter_search import filter_search_widget  # noqa: E402
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 SITE_DATA = REPO_ROOT / "site-data"
 CONTENT = REPO_ROOT / "content"
-BASE = "https://tablejourney.com"
+BASE = "https://corkandcurve.com"
 
 # Below MIN_ENTITIES we skip the page entirely (and prune any existing
-# stale page) — a "1 vegan spot in <city>" listing is thin SEO and worse
-# UX than just not having the page.
+# stale page) — a "1 biodynamic estate in <region>" listing is thin SEO and
+# worse UX than just not having the page.
 MIN_ENTITIES = 1
 
 DIET_META: dict[str, dict] = {
-    "vegan": {
-        "slug": "vegan",
-        "display": "Vegan",
-        "blurb": "fully plant-based rooms",
-        "h1_suffix": "Vegan in {city}",
+    "biodynamic": {
+        "slug": "biodynamic",
+        "display": "Biodynamic",
+        "blurb": "Demeter-certified and biodynamic-practicing estates",
+        "h1_suffix": "Biodynamic wine in {city}",
     },
-    "vegetarian": {
-        "slug": "vegetarian",
-        "display": "Vegetarian",
-        "blurb": "kitchens with strong meatless menus",
-        "h1_suffix": "Vegetarian in {city}",
+    "organic": {
+        "slug": "organic",
+        "display": "Organic",
+        "blurb": "certified-organic growers",
+        "h1_suffix": "Organic wine in {city}",
     },
-    "gluten_free": {
-        "slug": "gluten-free",
-        "display": "Gluten-free",
-        "blurb": "rooms where coeliacs can eat without the interrogation",
-        "h1_suffix": "Gluten-free in {city}",
+    "natural": {
+        "slug": "natural",
+        "display": "Natural",
+        "blurb": "low-intervention, natural-wine cellars",
+        "h1_suffix": "Natural wine in {city}",
     },
-    "halal": {
-        "slug": "halal",
-        "display": "Halal",
-        "blurb": "halal-certified kitchens and halal-friendly rooms",
-        "h1_suffix": "Halal in {city}",
+    "vegan_winemaking": {
+        "slug": "vegan-winemaking",
+        "display": "Vegan winemaking",
+        "blurb": "estates that fine without animal products",
+        "h1_suffix": "Vegan wine in {city}",
     },
-    "kosher": {
-        "slug": "kosher",
-        "display": "Kosher",
-        "blurb": "kosher-certified rooms and kosher-style kitchens",
-        "h1_suffix": "Kosher in {city}",
+    "lowsulfite": {
+        "slug": "lowsulfite",
+        "display": "Low sulfite",
+        "blurb": "cellars working with little or no added sulfur",
+        "h1_suffix": "Low-sulfite wine in {city}",
     },
 }
 
@@ -118,7 +118,7 @@ def _entity_card(e: dict, country_slug: str, city_slug: str) -> str:
     if isinstance(score, (int, float)) and 1.0 <= score <= 5.0:
         score_html = (
             f' <span class="tj-entity-score" '
-            f'aria-label="TableJourney editorial score {score:.1f} out of 5">'
+            f'aria-label="Cork & Curve editorial score {score:.1f} out of 5">'
             f'★ {score:.1f}</span>'
         )
     slug = e.get("slug") or ""
@@ -190,11 +190,11 @@ def _render_page(renderer: TemplateRenderer, *, country_slug: str, country_name:
     n = len(entities)
 
     canonical = f"{BASE}/{country_slug}/{city_slug}/dietary/{diet_slug}/"
-    title = f"{diet_display} in {city_name}: {n} rooms worth booking | TableJourney"
+    title = f"{diet_display} in {city_name}: {n} rooms worth booking | Cork & Curve"
     description = (
         f"{n} {diet_display.lower()} spots in {city_name} worth the trip, with "
         f"editor-picked rooms, what to order and how to find them. "
-        f"{meta['blurb'].capitalize()}, by TableJourney editors."
+        f"{meta['blurb'].capitalize()}, by Cork & Curve editors."
     )
     # Trim to OG-safe length (~160 chars)
     if len(description) > 165:
@@ -213,7 +213,7 @@ def _render_page(renderer: TemplateRenderer, *, country_slug: str, country_name:
             {
                 "@type": "ListItem",
                 "position": i,
-                "url": f"https://tablejourney.com/{country_slug}/{city_slug}/dietary/{e.get('slug', '')}/",
+                "url": f"https://corkandcurve.com/{country_slug}/{city_slug}/dietary/{e.get('slug', '')}/",
                 "name": e.get("name", ""),
             }
             for i, e in enumerate(entities, start=1)
@@ -258,7 +258,7 @@ def _render_page(renderer: TemplateRenderer, *, country_slug: str, country_name:
     body_html = (
         f'<p class="tj-topic-headline">'
         f'<strong>{n}</strong> {diet_display.lower()} spots in {city_name}, '
-        f'editor-picked by TableJourney. '
+        f'editor-picked by Cork & Curve. '
         f'<a href="/{country_slug}/{city_slug}/dietary/">All dietary guides in {city_name}</a>.'
         f'</p>'
         + map_section
@@ -299,8 +299,8 @@ def _render_page(renderer: TemplateRenderer, *, country_slug: str, country_name:
             "og_description": description,
             "og_url": canonical,
             "og_type": "website",
-            "og_image": "https://tablejourney.com/og/default.jpg",
-            "og_image_alt": "TableJourney food guide",
+            "og_image": "https://corkandcurve.com/og/default.jpg",
+            "og_image_alt": "Cork & Curve wine guide",
             "og_locale": "en_US",
         },
         "twitter": {"twitter_title": title, "twitter_description": description},
@@ -319,7 +319,7 @@ def _render_page(renderer: TemplateRenderer, *, country_slug: str, country_name:
                 "destination": f"{city_slug}-{diet_slug}",
             },
             base_path="",
-            topic_nav=FOOD_TOPIC_NAV,
+            topic_nav=WINE_TOPIC_NAV,
             breadcrumb=breadcrumb,
             current_year=2026,
         ),

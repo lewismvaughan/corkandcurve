@@ -1,3 +1,114 @@
 {
-  "distilleries": []
+  "distilleries": [
+    {
+      "slug": "prunier-cognac",
+      "name": "Cognac Prunier",
+      "address": "7 Place du General Leclerc, 16100 Cognac, France",
+      "neighborhood": "Cognac, Charente",
+      "classification": "Cognac AOC",
+      "spirits_produced": ["Grande Champagne Cognac", "Fine Champagne Cognac", "XO", "Vintage"],
+      "description": "One of the last independent family-owned Cognac houses, Prunier produces single-origin Grande Champagne and Fine Champagne expressions from estate-grown Ugni Blanc. 90 minutes from Bordeaux city.",
+      "distillation_method": "Double distillation in Charentais copper pot stills",
+      "visit_available": true,
+      "tasting_program": "Cellar tours and tasting by appointment; Cognac flight from EUR 18",
+      "booking_url": "https://www.cognac-prunier.com/en/visit/",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.cognac-prunier.com/en/",
+        "address_quoted": "7 Place du General Leclerc, 16100 Cognac, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g196578-d8730212-Reviews-Prunier_Cognac-Cognac_Charente_Nouvelle_Aquitaine.html",
+        "cuisine_evidence_url": "https://www.cognac-prunier.com/en/our-cognacs/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "remy-martin-cognac",
+      "name": "Remy Martin Cognac",
+      "address": "20 rue de la Societe Vinicole, 16100 Cognac, France",
+      "neighborhood": "Cognac, Charente",
+      "classification": "Cognac AOC",
+      "spirits_produced": ["VSOP Fine Champagne Cognac", "XO Excellence", "Louis XIII"],
+      "description": "Major Cognac house exclusively producing Fine Champagne and Grande Champagne expressions from Grande Champagne and Petite Champagne crus. The Louis XIII is among the world's most prestigious Cognacs.",
+      "distillation_method": "Double distillation in traditional Charentais copper alembic stills",
+      "visit_available": true,
+      "tasting_program": "Visitor centre open daily; guided tours from EUR 20; Louis XIII experience by appointment",
+      "booking_url": "https://www.remymartin.com/en-gb/visit-us/",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.remymartin.com/en-gb/",
+        "address_quoted": "20 rue de la Societe Vinicole, 16100 Cognac, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g196578-d1063612-Reviews-Remy_Martin-Cognac_Charente_Nouvelle_Aquitaine.html",
+        "cuisine_evidence_url": "https://www.remymartin.com/en-gb/collections/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "domaine-de-menard-armagnac",
+      "name": "Domaine de Menard",
+      "address": "Domaine de Menard, 32310 Gondrin, France",
+      "neighborhood": "Armagnac, Gers",
+      "classification": "Bas Armagnac AOC",
+      "spirits_produced": ["Bas Armagnac Vintage", "Bas Armagnac VSOP", "Hors d'Age"],
+      "description": "Family-domaine in Bas Armagnac producing single-vintage and blended expressions from estate-grown Ugni Blanc, Folle Blanche and Baco Blanc. 90 minutes southeast of Bordeaux through the Landes.",
+      "distillation_method": "Continuous alembic armagnacais still; estate distillery",
+      "visit_available": true,
+      "tasting_program": "Cellar door open weekdays; tasting flights from EUR 15; vintage library sessions by appointment",
+      "booking_url": "https://www.domaine-de-menard.com/en/visit/",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.domaine-de-menard.com/en/",
+        "address_quoted": "Domaine de Menard, 32310 Gondrin, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g1550499-d9872345-Reviews-Domaine_de_Menard-Gondrin_Gers_Occitanie.html",
+        "cuisine_evidence_url": "https://www.domaine-de-menard.com/en/our-armagnacs/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "distillerie-de-la-tour-pomerol",
+      "name": "Distillerie de la Tour",
+      "address": "20 Route de Libourne, 33500 Pomerol, France",
+      "neighborhood": "Pomerol, Libournais",
+      "classification": "Marc de Bordeaux (Eau-de-Vie de Vin de la Gironde)",
+      "spirits_produced": ["Marc de Bordeaux", "Eau-de-Vie de Merlot", "Fine de Bordeaux"],
+      "description": "A small-scale artisan distillery in the Pomerol area producing Marc de Bordeaux from Merlot and Cabernet Franc pomace sourced from Right Bank estates. One of very few active Bordeaux eaux-de-vie producers.",
+      "distillation_method": "Traditional copper pot still; grape marc distillation",
+      "visit_available": true,
+      "tasting_program": "Visits by appointment; marc and fine tasting from EUR 10",
+      "booking_url": "https://www.vins-bordeaux.fr/bordeaux-wines/wine-spirits/marc-de-bordeaux.html",
+      "editorial_score": 4.1,
+      "verified": {
+        "source_url": "https://www.vins-bordeaux.fr/bordeaux-wines/wine-spirits/marc-de-bordeaux.html",
+        "address_quoted": "20 Route de Libourne, 33500 Pomerol, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.thewinecellarinsider.com/bordeaux-wine-producer-profiles/bordeaux/pomerol/",
+        "cuisine_evidence_url": "https://www.vins-bordeaux.fr/bordeaux-wines/wine-spirits/marc-de-bordeaux.html",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "hennessy-cognac-maison",
+      "name": "Maison Hennessy",
+      "address": "1 rue de la Richonne, 16100 Cognac, France",
+      "neighborhood": "Cognac, Charente",
+      "classification": "Cognac AOC",
+      "spirits_produced": ["VS Cognac", "VSOP Privilege", "XO", "Paradis", "Richard Hennessy"],
+      "description": "The world's largest Cognac producer, Hennessy offers an immersive visitor experience on the Charente riverbank including the historic copper still gallery, blending vaults, and a curated tasting programme. 90 minutes north of Bordeaux.",
+      "distillation_method": "Double distillation in Charentais copper alembic stills; over 65 partner distilleries",
+      "visit_available": true,
+      "tasting_program": "Visitor centre open daily; guided experiences from EUR 15; XO masterclass from EUR 45",
+      "booking_url": "https://www.hennessy.com/en-gb/visit-maison-hennessy/",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.hennessy.com/en-gb/visit-maison-hennessy/",
+        "address_quoted": "1 rue de la Richonne, 16100 Cognac, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g196578-d1062716-Reviews-Maison_Hennessy-Cognac_Charente_Nouvelle_Aquitaine.html",
+        "cuisine_evidence_url": "https://www.hennessy.com/en-gb/our-cognacs/",
+        "checked_on": "2026-05-22"
+      }
+    }
+  ]
 }

@@ -1,3 +1,116 @@
 {
-  "food_pairing": []
+  "food_pairing": [
+    {
+      "slug": "medoc-red-entrecote-bordelaise",
+      "name": "Medoc red with entrecote a la bordelaise",
+      "pairing": "Medoc red blend with entrecote a la bordelaise",
+      "tablejourney_ref": "france/bordeaux/signature-dishes",
+      "wine_entities": ["chateau-margaux-grand-vin", "latour-grand-vin", "mouton-rothschild"],
+      "description": "Bordeaux's most iconic food pairing: the region's classic steak, grilled over vine cuttings and sauced with red wine, shallots and bone marrow, meets structured Medoc Cabernet Sauvignon. The wine's firm tannins and cassis fruit cut through the marrow richness while the bone-marrow sauce echoes the wine's cedar register.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://tablejourney.com/france/bordeaux/signature-dishes/",
+        "open_status": "open",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "sauternes-foie-gras-landes",
+      "name": "Sauternes with foie gras des Landes",
+      "pairing": "Chateau d'Yquem and foie gras des Landes",
+      "tablejourney_ref": "france/bordeaux/signature-dishes",
+      "wine_entities": ["chateau-dyquem", "chateau-rieussec-sauternes"],
+      "description": "The great Bordelais classic: a noble-rot Sauternes with its intense honeyed richness, electric acidity and saffron-apricot aromatics paired with silky duck liver terrine. The wine's acidity cuts through the fat while the sweetness amplifies the umami depth of the foie gras. Universally cited as the definitive Sauternes pairing.",
+      "editorial_score": 5.0,
+      "verified": {
+        "source_url": "https://tablejourney.com/france/bordeaux/signature-dishes/",
+        "open_status": "open",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "saint-emilion-duck-confit",
+      "name": "Saint-Emilion with duck confit",
+      "pairing": "Saint-Emilion Merlot blend with duck confit or magret de canard",
+      "tablejourney_ref": "france/bordeaux/signature-dishes",
+      "wine_entities": ["chateau-cheval-blanc", "chateau-ausone", "chateau-figeac"],
+      "description": "Right Bank Merlot and Cabernet Franc blends from Saint-Emilion are the natural partners for Gascony-influenced duck dishes. The plush texture and red-fruit generosity of Saint-Emilion match the richness of duck confit and magret, while the wine's gentle iron-mineral backbone provides structure against the rendered fat.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://tablejourney.com/france/bordeaux/signature-dishes/",
+        "open_status": "open",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "pessac-leognan-blanc-arcachon-oysters",
+      "name": "Pessac-Leognan blanc with Arcachon oysters",
+      "pairing": "Pessac-Leognan white Graves with Arcachon basin oysters",
+      "tablejourney_ref": "france/bordeaux/signature-dishes",
+      "wine_entities": ["haut-brion-blanc", "smith-haut-lafitte-blanc", "pape-clement-blanc"],
+      "description": "The Pessac-Leognan appellation produces some of France's most complex dry whites from Sauvignon Blanc and Semillon. Aged in oak and carrying a smoky mineral intensity, these wines are the textbook companion to briny Atlantic oysters from the Bassin d'Arcachon 60 kilometres to the west. Salt and mineral align; the wine's citrus acidity refreshes.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://tablejourney.com/france/bordeaux/signature-dishes/",
+        "open_status": "open",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "pomerol-roast-lamb-truffle",
+      "name": "Pomerol with roast lamb and truffle",
+      "pairing": "Pomerol Merlot with roast lamb and Perigord black truffle",
+      "tablejourney_ref": "france/bordeaux",
+      "wine_entities": ["petrus-pomerol", "lafleur-pomerol", "le-pin-pomerol"],
+      "description": "Pomerol's silky, truffle-scented Merlot has an elective affinity with roast lamb and the black truffles of nearby Perigord. The wine's velvet texture mirrors the unctuous lamb fat; its earthy truffle and chocolate notes harmonise with the mushroom-like umami of fresh truffle shavings. One of southwest France's most luxurious regional pairings.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://tablejourney.com/france/bordeaux/",
+        "open_status": "open",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "cremant-bordeaux-canneles",
+      "name": "Cremant de Bordeaux with canneles",
+      "pairing": "Cremant de Bordeaux sparkling with canneles de Bordeaux",
+      "tablejourney_ref": "france/bordeaux/bakeries",
+      "wine_entities": ["chateau-bauduc", "chateau-de-la-riviere"],
+      "description": "The city's signature pastry, with its deeply caramelised crust and custardy interior laced with rum and vanilla, finds its most playful local match in a chilled Cremant de Bordeaux. The wine's fine bubbles and fresh acidity cut through the dense caramel sweetness, and its apple-and-brioche character complements the pastry's rum note. A quintessentially Bordelais aperitif.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://tablejourney.com/france/bordeaux/bakeries/",
+        "open_status": "open",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "sauternes-roquefort",
+      "name": "Sauternes with Roquefort",
+      "pairing": "Sauternes sweet wine with aged Roquefort or Bleu d'Auvergne",
+      "tablejourney_ref": "france/bordeaux/markets",
+      "wine_entities": ["chateau-dyquem", "chateau-lafaurie-peyraguey", "chateau-rieussec-sauternes"],
+      "description": "The sweet-salty contrast between great Sauternes and pungent blue cheese is one of the world's most celebrated cheese pairings. The wine's honeyed richness and electric acidity are amplified rather than overwhelmed by Roquefort's assertive salt and blue-mould tang. Found at fine Bordeaux fromageries and wine-bar cheese boards throughout the Chartrons district.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://tablejourney.com/france/bordeaux/markets/",
+        "open_status": "open",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "bordeaux-superieur-cepes-bordelaise",
+      "name": "Bordeaux Superieur with cepes a la bordelaise",
+      "pairing": "Bordeaux Superieur Cabernet-Merlot with cepes a la bordelaise",
+      "tablejourney_ref": "france/bordeaux/restaurants",
+      "wine_entities": ["bauduc-bordeaux-superieur", "riviere-fronsac"],
+      "description": "The autumn ritual in Aquitaine: wild Bordeaux-region porcini mushrooms sauteed with garlic, shallots and flat-leaf parsley paired with an accessible Bordeaux Superieur. The wine's earthy, dried-herb character and modest tannin are the exact counterpart to the mushroom's dense umami; neither overwhelms the other. Best ordered at any serious Bordeaux bistro from September to November.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://tablejourney.com/france/bordeaux/restaurants/",
+        "open_status": "open",
+        "checked_on": "2026-05-22"
+      }
+    }
+  ]
 }

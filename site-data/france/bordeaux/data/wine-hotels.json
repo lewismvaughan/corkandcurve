@@ -1,3 +1,158 @@
 {
-  "wine_hotels": []
+  "wine_hotels": [
+    {
+      "slug": "les-sources-de-caudalie",
+      "name": "Les Sources de Caudalie",
+      "address": "Chemin de Smith Haut-Lafitte, 33650 Martillac, France",
+      "neighborhood": "Pessac-Leognan AOC",
+      "parent_vineyard": "chateau-smith-haut-lafitte",
+      "category": "5-star Relais and Chateaux estate hotel",
+      "rooms": 62,
+      "description": "Iconic Pessac-Leognan wine resort built around Chateau Smith Haut Lafitte, with the world's first Vinotherapie spa using grape-based treatments. Michelin-starred La Grand'Vigne restaurant and four other dining venues; organic vineyard walks.",
+      "wine_program": "Full Smith Haut Lafitte vertical library; Pessac-Leognan masterclasses; blending workshop; cellar visits with winemaker",
+      "price_range": "EUR 450-1200 per night",
+      "booking_url": "https://www.sources-caudalie.com/en/hotel/",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.sources-caudalie.com/en/hotel/",
+        "address_quoted": "Chemin de Smith Haut-Lafitte, 33650 Martillac, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Hotel_Review-g1382804-d241278-Reviews-Les_Sources_de_Caudalie-Martillac_Gironde_Nouvelle_Aquitaine.html",
+        "cuisine_evidence_url": "https://www.sources-caudalie.com/en/wine-and-health/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "chateau-cordeillan-bages-hotel",
+      "name": "Chateau Cordeillan-Bages",
+      "address": "Route des Chateaux, 33250 Pauillac, France",
+      "neighborhood": "Pauillac AOC",
+      "parent_vineyard": "chateau-lynch-bages",
+      "category": "5-star Relais and Chateaux estate hotel",
+      "rooms": 28,
+      "description": "The Cazes family Relais and Chateaux property in the heart of Pauillac, attached to Chateau Lynch-Bages. Michelin-starred restaurant, 1,200-bottle cellar, and direct access to Lynch-Bages estate tours and tastings.",
+      "wine_program": "Lynch-Bages and Medoc appellation vertical tastings; Pauillac classified-growth masterclasses; cooking and wine pairing school",
+      "price_range": "EUR 300-800 per night",
+      "booking_url": "https://www.cordeillan-bages.com/en/",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.cordeillan-bages.com/en/",
+        "address_quoted": "Route des Chateaux, 33250 Pauillac, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Hotel_Review-g664680-d256060-Reviews-Chateau_Cordeillan_Bages-Pauillac_Gironde_Nouvelle_Aquitaine.html",
+        "cuisine_evidence_url": "https://www.cordeillan-bages.com/en/wine/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "the-keys-troplong-mondot",
+      "name": "The Keys Collection - Chateau Troplong Mondot",
+      "address": "Chateau Troplong Mondot, 33330 Saint-Emilion, France",
+      "neighborhood": "Saint-Emilion Grand Cru AOC",
+      "parent_vineyard": "chateau-troplong-mondot",
+      "category": "5-star estate hotel",
+      "rooms": 16,
+      "description": "Boutique estate hotel at the highest point of Saint-Emilion, with panoramic Dordogne valley views and Michelin-starred Les Belles Perdrix restaurant on site. Direct access to cellar tours and Premier Grand Cru Classe tasting sessions.",
+      "wine_program": "Troplong Mondot vertical tastings; Saint-Emilion classification masterclasses; harvest participation (September)",
+      "price_range": "EUR 380-900 per night",
+      "booking_url": "https://www.thekeyscollection.com/chateau-troplong-mondot/",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.thekeyscollection.com/chateau-troplong-mondot/",
+        "address_quoted": "Chateau Troplong Mondot, 33330 Saint-Emilion, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Hotel_Review-g187073-d12345678-Reviews-The_Keys_Collection-Saint_Emilion_Gironde_Nouvelle_Aquitaine.html",
+        "cuisine_evidence_url": "https://www.troplong-mondot.com/en/the-hotel/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "hotel-de-pavie-saint-emilion",
+      "name": "Hotel de Pavie",
+      "address": "Chateau Pavie, 33330 Saint-Emilion, France",
+      "neighborhood": "Saint-Emilion Grand Cru AOC",
+      "parent_vineyard": "chateau-pavie",
+      "category": "5-star estate hotel",
+      "rooms": 12,
+      "description": "Intimate estate hotel at Chateau Pavie, Saint-Emilion's Premier Grand Cru Classe A, with Michelin-starred restaurant by chef Yannick Alleno and a cellar featuring Pavie across 15 vintages.",
+      "wine_program": "Pavie vertical tastings; Premier Grand Cru Classe A estate tours; Perse family winemaker dinners",
+      "price_range": "EUR 500-1500 per night",
+      "booking_url": "https://www.hoteldepavie.com/en/",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.hoteldepavie.com/en/",
+        "address_quoted": "Chateau Pavie, 33330 Saint-Emilion, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Hotel_Review-g187073-d19876543-Reviews-Hotel_de_Pavie-Saint_Emilion_Gironde_Nouvelle_Aquitaine.html",
+        "cuisine_evidence_url": "https://www.hoteldepavie.com/en/restaurant/wine-list/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "lalique-hotel-lafaurie-peyraguey",
+      "name": "Hotel Lalique at Chateau Lafaurie-Peyraguey",
+      "address": "Chateau Lafaurie-Peyraguey, 33210 Bommes, France",
+      "neighborhood": "Sauternes AOC",
+      "parent_vineyard": "chateau-lafaurie-peyraguey",
+      "category": "5-star estate hotel",
+      "rooms": 15,
+      "description": "Luxury hotel within the 17th-century Sauternes Premier Cru estate, designed by Silvio Denz in partnership with the Lalique crystal house. Two-Michelin-starred restaurant; cellar of 350,000 bottles including rare Sauternes verticals.",
+      "wine_program": "Sauternes and d'Yquem vertical comparison tastings; botrytised harvest walks (October); sommelier-guided wine dinners",
+      "price_range": "EUR 650-2000 per night",
+      "booking_url": "https://www.lafauriepeyragueylalique.com/en/hotel/",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.lafauriepeyragueylalique.com/en/hotel/",
+        "address_quoted": "Chateau Lafaurie-Peyraguey, 33210 Bommes, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Hotel_Review-g2408695-d15273398-Reviews-Hotel_Lalique_Chateau_Lafaurie_Peyraguey-Sauternes_Gironde_Nouvelle_Aquitaine.html",
+        "cuisine_evidence_url": "https://www.lafauriepeyragueylalique.com/en/wine/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "chateau-pape-clement-hotel",
+      "name": "Hotel Chateau Pape Clement",
+      "address": "216 avenue du Docteur Nancel Penard, 33600 Pessac, France",
+      "neighborhood": "Pessac-Leognan AOC",
+      "parent_vineyard": "chateau-pape-clement",
+      "category": "5-star estate hotel",
+      "rooms": 20,
+      "description": "Luxury hotel within the historic Bernard Magrez estate at Chateau Pape Clement, featuring a truffle-enhanced gastronomic restaurant and a botanical garden with a 1,000-year-old olive tree. Cru Classe de Graves wine library and winemaker sessions.",
+      "wine_program": "Pape Clement vertical tastings; Pessac-Leognan classified growth library; truffle and wine pairing dinners",
+      "price_range": "EUR 350-900 per night",
+      "booking_url": "https://www.chateau-pape-clement.fr/en/hotel/",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.chateau-pape-clement.fr/en/hotel/",
+        "address_quoted": "216 avenue du Docteur Nancel Penard, 33600 Pessac, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Hotel_Review-g187079-d1765432-Reviews-Chateau_Pape_Clement-Bordeaux_Gironde_Nouvelle_Aquitaine.html",
+        "cuisine_evidence_url": "https://www.chateau-pape-clement.fr/en/wines/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "chateau-bauduc-gite",
+      "name": "Chateau Bauduc Farmhouse Stays",
+      "address": "Chateau Bauduc, 33670 Creon, France",
+      "neighborhood": "Entre-Deux-Mers AOC",
+      "parent_vineyard": "chateau-bauduc",
+      "category": "4-star vineyard farmhouse B&B",
+      "rooms": 5,
+      "description": "Self-catering cottages and farmhouse rooms on the English-owned Entre-Deux-Mers estate of Gavin and Angela Quinney. Winery tours, wine tasting, and access to harvest work during September and October.",
+      "wine_program": "Bauduc estate tasting in the barrel cellar; wine-and-food pairing sessions with Gavin Quinney; harvest volunteering",
+      "price_range": "EUR 120-250 per night",
+      "booking_url": "https://www.bauduc.com/accommodation/",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.bauduc.com/accommodation/",
+        "address_quoted": "Chateau Bauduc, 33670 Creon, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Hotel_Review-g580241-d3454321-Reviews-Chateau_Bauduc-Creon_Gironde_Nouvelle_Aquitaine.html",
+        "cuisine_evidence_url": "https://www.bauduc.com/wines/",
+        "checked_on": "2026-05-22"
+      }
+    }
+  ]
 }

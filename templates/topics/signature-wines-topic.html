@@ -1,0 +1,40 @@
+{% extends "topics/_topic_base.html" %}
+{% from "topics/_macros.html" import signature_wine_card %}
+
+{% block topic_intro %}
+<p class="tj-intro">{{ topic.intro | default('The iconic bottles that define ' ~ destination.name ~ ': what they are, who makes them and what they cost.') }}</p>
+{% endblock %}
+
+{% block topic_sections %}
+{% if research.signature_wines %}
+<section class="tj-section" id="wines">
+    <h2>Iconic bottles of {{ destination.name }}</h2>
+    <div class="tj-card-grid">
+        {% for w in research.signature_wines %}{{ signature_wine_card(w, ('#' ~ w.slug) if w.slug else None) }}{% endfor %}
+    </div>
+</section>
+{% endif %}
+{% endblock %}
+
+{% block topic_schema_extra %}
+{% set _ws = research.signature_wines | default([]) %}
+{% if _ws %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {% for w in _ws %}
+    {
+      "@type": "Product",
+      "@id": "{{ seo.meta.canonical_url }}#wine-{{ loop.index }}",
+      "name": {{ w.name | tojson }}{% if w.description %},
+      "description": {{ w.description | tojson }}{% endif %}{% if w.producer %},
+      "brand": { "@type": "Brand", "name": {{ w.producer | tojson }} }{% endif %}{% if w.style %},
+      "category": {{ w.style | tojson }}{% endif %}
+    }{% if not loop.last %},{% endif %}
+    {% endfor %}
+  ]
+}
+</script>
+{% endif %}
+{% endblock %}

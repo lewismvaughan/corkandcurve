@@ -1,0 +1,1200 @@
+{
+  "entries": [
+    {
+      "slug": "old-world",
+      "display": "Old World",
+      "axis": "world",
+      "count": 100,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 100
+        }
+      ]
+    },
+    {
+      "slug": "dry",
+      "display": "Dry",
+      "axis": "sweetness",
+      "count": 95,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 95
+        }
+      ]
+    },
+    {
+      "slug": "still-red",
+      "display": "Still red",
+      "axis": "style",
+      "count": 79,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 79
+        }
+      ]
+    },
+    {
+      "slug": "merlot",
+      "display": "Merlot",
+      "axis": "grape",
+      "count": 78,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 78
+        }
+      ]
+    },
+    {
+      "slug": "pairs-with-red-meat",
+      "display": "Red meat",
+      "axis": "pairing",
+      "count": 69,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 69
+        }
+      ]
+    },
+    {
+      "slug": "cabernet-sauvignon",
+      "display": "Cabernet Sauvignon",
+      "axis": "grape",
+      "count": 63,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 63
+        }
+      ]
+    },
+    {
+      "slug": "cellar-worthy",
+      "display": "Cellar-worthy",
+      "axis": "ageing",
+      "count": 59,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 59
+        }
+      ]
+    },
+    {
+      "slug": "mood-elegant",
+      "display": "Elegant",
+      "axis": "mood",
+      "count": 57,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 57
+        }
+      ]
+    },
+    {
+      "slug": "occasion-special",
+      "display": "Special occasion",
+      "axis": "occasion",
+      "count": 57,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 57
+        }
+      ]
+    },
+    {
+      "slug": "cabernet-franc",
+      "display": "Cabernet Franc",
+      "axis": "grape",
+      "count": 56,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 56
+        }
+      ]
+    },
+    {
+      "slug": "full-body",
+      "display": "Full-bodied",
+      "axis": "body",
+      "count": 55,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 55
+        }
+      ]
+    },
+    {
+      "slug": "high-acid",
+      "display": "High acidity",
+      "axis": "acidity",
+      "count": 53,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 53
+        }
+      ]
+    },
+    {
+      "slug": "occasion-dinner-party",
+      "display": "Dinner party",
+      "axis": "occasion",
+      "count": 52,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 52
+        }
+      ]
+    },
+    {
+      "slug": "medium-acid",
+      "display": "Medium acidity",
+      "axis": "acidity",
+      "count": 45,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 45
+        }
+      ]
+    },
+    {
+      "slug": "medium-body",
+      "display": "Medium-bodied",
+      "axis": "body",
+      "count": 44,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 44
+        }
+      ]
+    },
+    {
+      "slug": "pairs-with-game",
+      "display": "Game",
+      "axis": "pairing",
+      "count": 44,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 44
+        }
+      ]
+    },
+    {
+      "slug": "occasion-cellar",
+      "display": "Cellar candidate",
+      "axis": "occasion",
+      "count": 42,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 42
+        }
+      ]
+    },
+    {
+      "slug": "firm-tannin",
+      "display": "Firm tannin",
+      "axis": "tannin",
+      "count": 41,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 41
+        }
+      ]
+    },
+    {
+      "slug": "medium-term",
+      "display": "Medium-term ageing",
+      "axis": "ageing",
+      "count": 39,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 39
+        }
+      ]
+    },
+    {
+      "slug": "mood-contemplative",
+      "display": "Contemplative",
+      "axis": "mood",
+      "count": 38,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 38
+        }
+      ]
+    },
+    {
+      "slug": "occasion-weeknight",
+      "display": "Weeknight",
+      "axis": "occasion",
+      "count": 38,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 38
+        }
+      ]
+    },
+    {
+      "slug": "pairs-with-poultry",
+      "display": "Poultry",
+      "axis": "pairing",
+      "count": 38,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 38
+        }
+      ]
+    },
+    {
+      "slug": "iconic",
+      "display": "Iconic",
+      "axis": "editorial",
+      "count": 35,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 35
+        }
+      ]
+    },
+    {
+      "slug": "mood-easygoing",
+      "display": "Easygoing",
+      "axis": "mood",
+      "count": 35,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 35
+        }
+      ]
+    },
+    {
+      "slug": "occasion-gift",
+      "display": "Gift",
+      "axis": "occasion",
+      "count": 31,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 31
+        }
+      ]
+    },
+    {
+      "slug": "medium-tannin",
+      "display": "Medium tannin",
+      "axis": "tannin",
+      "count": 30,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 30
+        }
+      ]
+    },
+    {
+      "slug": "pairs-with-charcuterie",
+      "display": "Charcuterie",
+      "axis": "pairing",
+      "count": 28,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 28
+        }
+      ]
+    },
+    {
+      "slug": "pairs-with-truffles",
+      "display": "Truffles",
+      "axis": "pairing",
+      "count": 28,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 28
+        }
+      ]
+    },
+    {
+      "slug": "petit-verdot",
+      "display": "Petit Verdot",
+      "axis": "grape",
+      "count": 28,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 28
+        }
+      ]
+    },
+    {
+      "slug": "price-premium",
+      "display": "Premium (€30-75)",
+      "axis": "price",
+      "count": 28,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 28
+        }
+      ]
+    },
+    {
+      "slug": "price-fine",
+      "display": "Fine (€75-200)",
+      "axis": "price",
+      "count": 25,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 25
+        }
+      ]
+    },
+    {
+      "slug": "organic",
+      "display": "Organic",
+      "axis": "production",
+      "count": 23,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 23
+        }
+      ]
+    },
+    {
+      "slug": "pairs-with-mushroom",
+      "display": "Mushroom dishes",
+      "axis": "pairing",
+      "count": 23,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 23
+        }
+      ]
+    },
+    {
+      "slug": "pairs-with-aged-cheese",
+      "display": "Aged cheese",
+      "axis": "pairing",
+      "count": 22,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 22
+        }
+      ]
+    },
+    {
+      "slug": "value-pick",
+      "display": "Value pick",
+      "axis": "editorial",
+      "count": 22,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 22
+        }
+      ]
+    },
+    {
+      "slug": "mood-bold",
+      "display": "Bold",
+      "axis": "mood",
+      "count": 21,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 21
+        }
+      ]
+    },
+    {
+      "slug": "sauvignon-blanc",
+      "display": "Sauvignon Blanc",
+      "axis": "grape",
+      "count": 21,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 21
+        }
+      ]
+    },
+    {
+      "slug": "grand-cru",
+      "display": "Grand cru",
+      "axis": "editorial",
+      "count": 20,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 20
+        }
+      ]
+    },
+    {
+      "slug": "pairs-with-pork",
+      "display": "Pork",
+      "axis": "pairing",
+      "count": 19,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 19
+        }
+      ]
+    },
+    {
+      "slug": "mood-rustic",
+      "display": "Rustic",
+      "axis": "mood",
+      "count": 18,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 18
+        }
+      ]
+    },
+    {
+      "slug": "semillon",
+      "display": "Semillon",
+      "axis": "grape",
+      "count": 18,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 18
+        }
+      ]
+    },
+    {
+      "slug": "pairs-with-shellfish",
+      "display": "Shellfish",
+      "axis": "pairing",
+      "count": 16,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 16
+        }
+      ]
+    },
+    {
+      "slug": "pairs-with-white-fish",
+      "display": "White fish",
+      "axis": "pairing",
+      "count": 16,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 16
+        }
+      ]
+    },
+    {
+      "slug": "price-trade-up",
+      "display": "Trade-up (€15-30)",
+      "axis": "price",
+      "count": 16,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 16
+        }
+      ]
+    },
+    {
+      "slug": "still-white",
+      "display": "Still white",
+      "axis": "style",
+      "count": 16,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 16
+        }
+      ]
+    },
+    {
+      "slug": "biodynamic",
+      "display": "Biodynamic",
+      "axis": "production",
+      "count": 14,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 14
+        }
+      ]
+    },
+    {
+      "slug": "mood-refreshing",
+      "display": "Refreshing",
+      "axis": "mood",
+      "count": 13,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 13
+        }
+      ]
+    },
+    {
+      "slug": "pairs-with-soft-cheese",
+      "display": "Soft cheese",
+      "axis": "pairing",
+      "count": 13,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 13
+        }
+      ]
+    },
+    {
+      "slug": "price-collector",
+      "display": "Collector (€500+)",
+      "axis": "price",
+      "count": 13,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 13
+        }
+      ]
+    },
+    {
+      "slug": "cult-wine",
+      "display": "Cult wine",
+      "axis": "editorial",
+      "count": 12,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "slug": "price-luxury",
+      "display": "Luxury (€200-500)",
+      "axis": "price",
+      "count": 12,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "slug": "mood-savoury",
+      "display": "Savoury",
+      "axis": "mood",
+      "count": 11,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 11
+        }
+      ]
+    },
+    {
+      "slug": "pairs-with-foie-gras",
+      "display": "Foie gras",
+      "axis": "pairing",
+      "count": 9,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "slug": "single-vineyard",
+      "display": "Single-vineyard",
+      "axis": "editorial",
+      "count": 9,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "slug": "pairs-with-oysters",
+      "display": "Oysters",
+      "axis": "pairing",
+      "count": 8,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "slug": "hidden-gem",
+      "display": "Hidden gem",
+      "axis": "editorial",
+      "count": 7,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "slug": "old-vines",
+      "display": "Old vines",
+      "axis": "editorial",
+      "count": 7,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "slug": "mood-fruity",
+      "display": "Fruity",
+      "axis": "mood",
+      "count": 6,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "slug": "muscadelle",
+      "display": "Muscadelle",
+      "axis": "grape",
+      "count": 6,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "slug": "occasion-aperitivo",
+      "display": "Aperitivo",
+      "axis": "occasion",
+      "count": 6,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "slug": "occasion-summer",
+      "display": "Summer drinking",
+      "axis": "occasion",
+      "count": 6,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "slug": "pairs-with-blue-cheese",
+      "display": "Blue cheese",
+      "axis": "pairing",
+      "count": 6,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "slug": "pairs-with-pasta-red-sauce",
+      "display": "Pasta with red sauce",
+      "axis": "pairing",
+      "count": 6,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "slug": "price-everyday",
+      "display": "Everyday (under €15)",
+      "axis": "price",
+      "count": 6,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "slug": "dessert",
+      "display": "Dessert",
+      "axis": "sweetness",
+      "count": 5,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "slug": "dessert-noble-rot",
+      "display": "Botrytised (Sauternes / Tokaji / Trockenbeerenauslese)",
+      "axis": "style",
+      "count": 5,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "slug": "first-growth",
+      "display": "First growth",
+      "axis": "editorial",
+      "count": 5,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "slug": "low-tannin",
+      "display": "Low tannin",
+      "axis": "tannin",
+      "count": 5,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "slug": "pairs-with-fruit-desserts",
+      "display": "Fruit desserts",
+      "axis": "pairing",
+      "count": 5,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "slug": "biodynamic-certified",
+      "display": "Biodynamic (Demeter-certified)",
+      "axis": "production",
+      "count": 4,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "slug": "malbec",
+      "display": "Malbec",
+      "axis": "grape",
+      "count": 4,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "slug": "pairs-with-creme-brulee",
+      "display": "Crème brûlée / custards",
+      "axis": "pairing",
+      "count": 4,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "slug": "sauvignon-gris",
+      "display": "Sauvignon Gris",
+      "axis": "grape",
+      "count": 4,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "slug": "high-tannin",
+      "display": "High tannin",
+      "axis": "tannin",
+      "count": 3,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "slug": "mood-festive",
+      "display": "Festive",
+      "axis": "mood",
+      "count": 3,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "slug": "mood-romantic",
+      "display": "Romantic",
+      "axis": "mood",
+      "count": 3,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "slug": "occasion-bbq",
+      "display": "BBQ",
+      "axis": "occasion",
+      "count": 3,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "slug": "pairs-with-vegetable-forward",
+      "display": "Vegetable-forward",
+      "axis": "pairing",
+      "count": 3,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "slug": "drink-young",
+      "display": "Drink young",
+      "axis": "ageing",
+      "count": 2,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "slug": "occasion-picnic",
+      "display": "Picnic",
+      "axis": "occasion",
+      "count": 2,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "slug": "pairs-with-aperitif",
+      "display": "Aperitif (no food)",
+      "axis": "pairing",
+      "count": 2,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "slug": "pairs-with-bbq",
+      "display": "BBQ",
+      "axis": "pairing",
+      "count": 2,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "slug": "pairs-with-burgers",
+      "display": "Burgers",
+      "axis": "pairing",
+      "count": 2,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "slug": "pairs-with-salad",
+      "display": "Salads",
+      "axis": "pairing",
+      "count": 2,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "slug": "pairs-with-spicy-food",
+      "display": "Spicy food",
+      "axis": "pairing",
+      "count": 2,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "slug": "racy-acid",
+      "display": "Racy acidity",
+      "axis": "acidity",
+      "count": 2,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "slug": "vegan",
+      "display": "Vegan",
+      "axis": "production",
+      "count": 2,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "slug": "garagiste",
+      "display": "Garagiste",
+      "axis": "editorial",
+      "count": 1,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "slug": "light-body",
+      "display": "Light-bodied",
+      "axis": "body",
+      "count": 1,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "slug": "pairs-with-chocolate",
+      "display": "Chocolate",
+      "axis": "pairing",
+      "count": 1,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "slug": "pairs-with-oily-fish",
+      "display": "Oily fish",
+      "axis": "pairing",
+      "count": 1,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "slug": "pairs-with-pizza",
+      "display": "Pizza",
+      "axis": "pairing",
+      "count": 1,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

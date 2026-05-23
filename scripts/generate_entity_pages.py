@@ -33,7 +33,7 @@ from utils.template_renderer import TemplateRenderer
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 CONTENT_DIR = REPO_ROOT / "content"
-BASE = "https://tablejourney.com"
+BASE = "https://corkandcurve.com"
 
 MONTH_MAP = {
     "January": 1, "February": 2, "March": 3, "April": 4,
@@ -125,48 +125,40 @@ def _next_festival_occurrence(start_month, start_day, end_month=None, end_day=No
 
 # topic-slug -> (research-key, single-entity label, schema.org @type)
 ENTITY_TOPICS = {
-    "restaurants":     ("restaurants",     "Restaurant",        "Restaurant"),
-    "fine-dining":     ("fine_dining",     "Fine-dining table", "Restaurant"),
-    "casual-dining":   ("casual_dining",   "Casual restaurant", "Restaurant"),
-    "cafes":           ("cafes",           "Cafe",              "CafeOrCoffeeShop"),
-    "bakeries":        ("bakeries",        "Bakery",            "Bakery"),
-    "coffee-roasters": ("coffee_roasters", "Coffee roaster",    "FoodEstablishment"),
-    "wine-bars":       ("wine_bars",       "Wine bar",          "BarOrPub"),
-    "bars":            ("bars",            "Bar",               "BarOrPub"),
-    "street-food":     ("street_food",     "Street-food stop",  "FoodEstablishment"),
-    "breweries":       ("breweries",       "Brewery",           "Brewery"),
-    "markets":         ("markets",         "Food market",       "FoodEstablishment"),
-    "food-tours":      ("food_tours",      "Food tour",         "TouristTrip"),
-    "festivals":       ("food_festivals",  "Food festival",     "Festival"),
-    "cooking-classes": ("cooking_classes", "Cooking class",     "EducationEvent"),
-    "budget-eating":   ("budget_eating",   "Cheap eat",         "FoodEstablishment"),
-    "hidden-gems":     ("hidden_gems",     "Hidden gem",        "FoodEstablishment"),
-    "brunch":          ("brunch",          "Brunch spot",       "Restaurant"),
-    "late-night":      ("late_night",      "Late-night spot",   "Restaurant"),
-    "day-trips-food":  ("day_trips_food",  "Food day trip",     "TouristDestination"),
+    "vineyards":        ("vineyards",        "Vineyard",        "Winery"),
+    "tasting-rooms":    ("tasting_rooms",    "Tasting room",    "Winery"),
+    "wine-bars":        ("wine_bars",        "Wine bar",        "BarOrPub"),
+    "wine-restaurants": ("wine_restaurants", "Wine restaurant", "Restaurant"),
+    "wine-retailers":   ("wine_retailers",   "Wine retailer",   "Store"),
+    "wine-schools":     ("wine_schools",     "Wine school",     "EducationEvent"),
+    "wine-tours":       ("wine_tours",       "Wine tour",       "TouristTrip"),
+    "wine-festivals":   ("wine_festivals",   "Wine festival",   "Festival"),
+    "distilleries":     ("distilleries",     "Distillery",      "Distillery"),
+    "wine-museums":     ("wine_museums",     "Wine museum",     "Museum"),
+    "wine-hotels":      ("wine_hotels",      "Wine hotel",      "LodgingBusiness"),
+    "wine-experiences": ("wine_experiences", "Wine experience", "TouristAttraction"),
+    "budget-wines":     ("budget_wines",     "Budget wine pick", "Winery"),
+    "hidden-gems":      ("hidden_gems",      "Hidden gem",      "Winery"),
+    "day-trips-wine":   ("day_trips_wine",   "Wine day trip",   "TouristDestination"),
 }
 
 # Topic display names. Keep in sync with STANDARD_TOPICS in generate_topic_page.
 TOPIC_DISPLAY_NAMES = {
-    "restaurants": "Restaurants",
-    "fine-dining": "Fine Dining",
-    "casual-dining": "Casual Dining",
-    "cafes": "Cafés",
-    "bakeries": "Bakeries",
-    "coffee-roasters": "Coffee Roasters",
+    "vineyards": "Vineyards",
+    "tasting-rooms": "Tasting Rooms",
     "wine-bars": "Wine Bars",
-    "bars": "Bars",
-    "street-food": "Street Food",
-    "breweries": "Breweries",
-    "markets": "Markets",
-    "food-tours": "Food Tours",
-    "festivals": "Food Festivals",
-    "cooking-classes": "Cooking Classes",
-    "budget-eating": "Budget Eats",
+    "wine-restaurants": "Wine Restaurants",
+    "wine-retailers": "Wine Retailers",
+    "wine-schools": "Wine Schools",
+    "wine-tours": "Wine Tours",
+    "wine-festivals": "Wine Festivals",
+    "distilleries": "Distilleries",
+    "wine-museums": "Wine Museums",
+    "wine-hotels": "Wine Hotels",
+    "wine-experiences": "Wine Experiences",
+    "budget-wines": "Budget Wines",
     "hidden-gems": "Hidden Gems",
-    "brunch": "Brunch",
-    "late-night": "Late-Night Eats",
-    "day-trips-food": "Food Day Trips",
+    "day-trips-wine": "Wine Day Trips",
 }
 
 
@@ -310,12 +302,18 @@ def build_entity_context(
     # address (Event-canonical), Offer parsed from `price`, eventStatus,
     # eventAttendanceMode. When schedule data lands later, the template's
     # date branch lights up the same way festivals do.
-    if topic_slug == "cooking-classes":
+    if topic_slug == "wine-schools":
         offer = _parse_price_to_offer(entity.get("price"), country_slug=country_slug)
         if offer:
             offer = {"@type": "Offer", **offer, "availability": "https://schema.org/InStock"}
             if entity.get("booking_url"):
                 offer["url"] = entity["booking_url"]
+            # validFrom is required by Google for nested Offer (GSC 2026-05-23).
+            verified = entity.get("verified") or {}
+            checked_on = verified.get("checked_on") if isinstance(verified, dict) else None
+            if not offer.get("validFrom"):
+                import datetime as _dt_local
+                offer["validFrom"] = checked_on or _dt_local.date.today().isoformat()
             entity["offer_dict"] = offer
         entity["event_status_url"] = EVENT_STATUS_MAP["scheduled"]
         entity["event_attendance_mode_url"] = "https://schema.org/OfflineEventAttendanceMode"
@@ -324,7 +322,7 @@ def build_entity_context(
     # festivals with an explicit start_day get Event-shaped schema; the
     # template gates emission on entity.start_date_iso so non-recurring
     # one-offs render the bare Festival type with no fabricated dates.
-    if topic_slug == "festivals" and entity.get("annual"):
+    if topic_slug == "wine-festivals" and entity.get("annual"):
         start_iso, end_iso = _next_festival_occurrence(
             entity.get("start_month") or entity.get("month"),
             entity.get("start_day"),
@@ -340,9 +338,9 @@ def build_entity_context(
             )
 
     # Title + meta description (kept in 140-165 sweet spot when we have signal).
-    # Drop the " | TableJourney" suffix when it would push the title past
+    # Drop the " | Cork & Curve" suffix when it would push the title past
     # Google's ~70-char SERP truncation cap.
-    _full_title = f"{display_name}, {topic_name} in {destination.get('name', '')} | TableJourney"
+    _full_title = f"{display_name}, {topic_name} in {destination.get('name', '')} | Cork & Curve"
     _bare_title = f"{display_name}, {topic_name} in {destination.get('name', '')}"
     page_title = _full_title if len(_full_title) <= 70 else _bare_title
     base_desc = (entity.get("description") or "").strip().rstrip(".")
@@ -351,6 +349,11 @@ def build_entity_context(
 
     # Extension fragments (added when base_desc is short, to land in 140-165).
     facts = []
+    if entity.get("classification"):
+        facts.append(entity["classification"])
+    if entity.get("varietals"):
+        _v = entity["varietals"]
+        facts.append(", ".join(_v) if isinstance(_v, list) else str(_v))
     if entity.get("cuisine"):
         facts.append(entity["cuisine"])
     if entity.get("neighborhood"):
@@ -369,44 +372,44 @@ def build_entity_context(
         # Place-and-context suffixes (when we have facts).
         if facts_str:
             variants += [
-                f"{base} {display_name} in {city}, {facts_str}. Editor pick on TableJourney with address, hours, what to order and how to book.",
-                f"{base} {display_name} in {city}, {facts_str}. Editor pick on TableJourney with address, hours and what to order.",
-                f"{base} {display_name} in {city}, {facts_str}. Editor pick on TableJourney.",
+                f"{base} {display_name} in {city}, {facts_str}. Editor pick on Cork & Curve with address, hours, what to order and how to book.",
+                f"{base} {display_name} in {city}, {facts_str}. Editor pick on Cork & Curve with address, hours and what to order.",
+                f"{base} {display_name} in {city}, {facts_str}. Editor pick on Cork & Curve.",
                 f"{base} {display_name} in {city}, {facts_str}.",
             ]
         variants += [
-            f"{base} {display_name} in {city}, {topic_l}. Editor pick on TableJourney with address, hours, what to order, what to skip and how to book.",
-            f"{base} {display_name} in {city}, {topic_l}. Editor pick on TableJourney with address, hours, what to order and how to book.",
-            f"{base} {display_name} in {city}, {topic_l}. Editor pick on TableJourney with address, hours and what to order.",
-            f"{base} {display_name} in {city}, {topic_l}. Editor pick on TableJourney.",
+            f"{base} {display_name} in {city}, {topic_l}. Editor pick on Cork & Curve with address, hours, what to order, what to skip and how to book.",
+            f"{base} {display_name} in {city}, {topic_l}. Editor pick on Cork & Curve with address, hours, what to order and how to book.",
+            f"{base} {display_name} in {city}, {topic_l}. Editor pick on Cork & Curve with address, hours and what to order.",
+            f"{base} {display_name} in {city}, {topic_l}. Editor pick on Cork & Curve.",
             # Tails for short bases: when {base} is 50-90 chars, these land
             # in 140-165 without the display_name+city repetition above.
-            f"{base} Editor pick on TableJourney with address, hours, what to order, what to skip and how to book without queuing.",
-            f"{base} Editor pick on TableJourney with address, opening hours, what to order, what to skip and how to book.",
-            f"{base} Editor pick on TableJourney with address, hours, what to order and how to book without queuing.",
-            f"{base} Editor pick on TableJourney with address, hours, what to order and how to book.",
-            f"{base} Editor pick on TableJourney with address, hours and what to order.",
-            f"{base} Editor pick on TableJourney with address and hours.",
-            f"{base} Editor pick on TableJourney.",
+            f"{base} Editor pick on Cork & Curve with address, hours, what to order, what to skip and how to book without queuing.",
+            f"{base} Editor pick on Cork & Curve with address, opening hours, what to order, what to skip and how to book.",
+            f"{base} Editor pick on Cork & Curve with address, hours, what to order and how to book without queuing.",
+            f"{base} Editor pick on Cork & Curve with address, hours, what to order and how to book.",
+            f"{base} Editor pick on Cork & Curve with address, hours and what to order.",
+            f"{base} Editor pick on Cork & Curve with address and hours.",
+            f"{base} Editor pick on Cork & Curve.",
             f"{base}",
         ]
     else:
         if facts_str:
             variants += [
-                f"{display_name} in {city}, {topic_l}. {facts_str}. Editor pick on TableJourney with address, hours, what to order and how to book without queuing.",
-                f"{display_name} in {city}, {topic_l}. {facts_str}. Editor pick on TableJourney with address, hours, what to order and how to book.",
-                f"{display_name} in {city}, {topic_l}. {facts_str}. Address, hours, what to order and how to book on TableJourney.",
-                f"{display_name} in {city}, {topic_l}. {facts_str}. Editor pick on TableJourney.",
+                f"{display_name} in {city}, {topic_l}. {facts_str}. Editor pick on Cork & Curve with address, hours, what to order and how to book without queuing.",
+                f"{display_name} in {city}, {topic_l}. {facts_str}. Editor pick on Cork & Curve with address, hours, what to order and how to book.",
+                f"{display_name} in {city}, {topic_l}. {facts_str}. Address, hours, what to order and how to book on Cork & Curve.",
+                f"{display_name} in {city}, {topic_l}. {facts_str}. Editor pick on Cork & Curve.",
             ]
         # Generic fallbacks for entities with no description and no facts.
         # The longer "review and tips" form lands in band when display_name +
         # city + topic_l combine to leave roughly 60-80 chars of headroom.
         variants += [
-            f"{display_name} in {city}, {topic_l}: editor review on TableJourney with address, opening hours, what to order, what to skip and how to book without queuing.",
-            f"{display_name} in {city}, {topic_l}: editor pick on TableJourney with address, opening hours, what to order, what to skip and tips on the best time to go.",
-            f"{display_name} in {city}, {topic_l}: editor pick on TableJourney with address, opening hours, what to order and how to book without queuing.",
-            f"{display_name} in {city}, {topic_l}: address, opening hours, what to order and how to book, plus editor notes on the night, on TableJourney.",
-            f"{display_name} in {city}, {topic_l}. Address, opening hours, what to order and how to book on TableJourney.",
+            f"{display_name} in {city}, {topic_l}: editor review on Cork & Curve with address, opening hours, what to order, what to skip and how to book without queuing.",
+            f"{display_name} in {city}, {topic_l}: editor pick on Cork & Curve with address, opening hours, what to order, what to skip and tips on the best time to go.",
+            f"{display_name} in {city}, {topic_l}: editor pick on Cork & Curve with address, opening hours, what to order and how to book without queuing.",
+            f"{display_name} in {city}, {topic_l}: address, opening hours, what to order and how to book, plus editor notes on the night, on Cork & Curve.",
+            f"{display_name} in {city}, {topic_l}. Address, opening hours, what to order and how to book on Cork & Curve.",
         ]
 
     desc = _meta_desc(*variants)
@@ -497,7 +500,7 @@ def build_entity_context(
                 or (region_seo.get("shared", {}) or {}).get("og_image")
                 or f"{BASE}/og/default.jpg"
             ),
-            "og_image_alt": f"{entity['name']} on TableJourney",
+            "og_image_alt": f"{entity['name']} on Cork & Curve",
             "og_url": canonical,
             "og_type": "article",
             "og_locale": "en_US",
@@ -506,7 +509,7 @@ def build_entity_context(
         "alternates": [],
         "geo": region_seo.get("geo", {}),
         "article": {
-            "author": "TableJourney Editorial",
+            "author": "Cork & Curve Editorial",
             "section": topic_name,
         },
     }
@@ -539,6 +542,9 @@ def build_entity_context(
             "region": region_slug,
             "context": f"{country_slug}:{region_slug or ''}:{topic_slug}:{entity['slug']}",
         },
+        # Date helpers for Event-shaped JSON-LD fallbacks (GSC 2026-05-23).
+        "current_date_iso": _date.today().isoformat(),
+        "next_year_iso": _date.today().replace(year=_date.today().year + 1).isoformat(),
     }
 
 
@@ -595,6 +601,14 @@ def generate_for_city(country_slug: str, region_slug: str | None) -> dict:
     destination = region_payload.get("destination", {})
     region_seo = region_payload.get("seo", {})
 
+    # Which topics actually have data — so the entity-page "Plan your visit"
+    # sidebar only links to chapters that exist (no links to empty pages).
+    from utils.data_loader import load_country_data as _lcd, populated_topic_slugs as _pts
+    try:
+        _populated_topics = sorted(_pts(_lcd(country_slug, region_slug=region_slug).get("research", {})))
+    except Exception:
+        _populated_topics = []
+
     # Build the valid /dish/<slug>/ set from this city's signature-dishes.json.
     # Used by build_entity_context to gate anchor emission so we never link
     # to a /dish/ page that the cross-cut generator hasn't written.
@@ -617,8 +631,9 @@ def generate_for_city(country_slug: str, region_slug: str | None) -> dict:
     # The merge runs in build_entity_context (per-entity) so all the
     # downstream context (facts string, schema, breadcrumbs) consume the
     # enriched record uniformly.
-    PRIMARY_TOPICS = ("restaurants", "fine-dining", "casual-dining", "cafes", "bars", "bakeries")
-    PROMOTE_FIELDS = ("description", "neighborhood", "cuisine", "price_tier")
+    PRIMARY_TOPICS = ("vineyards", "tasting-rooms", "wine-bars", "wine-restaurants")
+    PROMOTE_FIELDS = ("description", "neighborhood", "classification", "varietals",
+                      "owner", "winemaker", "hectares")
 
     def _norm_name(s: str) -> str:
         return (s or "").strip().lower()
@@ -658,15 +673,15 @@ def generate_for_city(country_slug: str, region_slug: str | None) -> dict:
         research = data.get("research", {})
 
         if topic_slug == "dietary":
-            topic_display = "Dietary"
+            topic_display = "Biodynamic & Natural"
             research_key = "dietary"
-            entity_label = "Dietary venue"
-            entity_schema = "FoodEstablishment"
+            entity_label = "Estate"
+            entity_schema = "Winery"
         elif topic_slug == "nightlife":
             topic_display = "Nightlife"
             research_key = "nightlife"
-            entity_label = "Nightlife venue"
-            entity_schema = "NightClub"
+            entity_label = "Wine bar"
+            entity_schema = "BarOrPub"
         else:
             research_key, entity_label, entity_schema = ENTITY_TOPICS[topic_slug]
             topic_display = TOPIC_DISPLAY_NAMES[topic_slug]
@@ -692,6 +707,7 @@ def generate_for_city(country_slug: str, region_slug: str | None) -> dict:
             topic_had_entries = True
 
             enriched = _enrich_from_primary(entry, topic_slug)
+            _ctx_populated = _populated_topics
             ctx = build_entity_context(
                 entity=enriched,
                 topic_slug=topic_slug,
@@ -707,6 +723,7 @@ def generate_for_city(country_slug: str, region_slug: str | None) -> dict:
                 valid_dish_slugs=valid_dish_slugs,
             )
 
+            ctx["populated_topics"] = _ctx_populated
             html = template.render(**ctx)
 
             # Output path

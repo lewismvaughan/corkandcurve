@@ -109,13 +109,142 @@ Required: `slug`, `name`, `recurrence_pattern` (e.g. "annual, late October",
 
 ### signature-wines
 
-Iconic bottles of the region. Each is a wine, not a venue.
+Iconic bottles of the region — the editorial top 8-15 per region. Each is a wine, not a venue.
 
 Required: `slug`, `name`, `producer` (links to vineyard slug),
 `varietals`, `style` (e.g. "still red Bordeaux blend"), `vintage_range`
 (typical years), `price_band` (e.g. "€400-1500 at retail"), `tasting_notes`
 (brief, source-cited), `verified` (source_url confirms the wine exists
 + is the iconic bottle of the producer).
+
+Each `signature_wines[*].slug` MUST also exist as an entry in the same
+region's `wines.json`. Signature-wines is a curated subset; the full
+cuvée page (taste profile, pairings, history, tags) lives in
+`wines.json` and is what the page at `/wine/<producer>/<slug>/` renders.
+
+### wines (per-cuvée catalog) — the wine-page topic
+
+Full cuvée catalog. One entry per producer cuvée, **vintage-agnostic**
+(e.g. "Antinori Tignanello" not "Tignanello 2019"). Drives
+`/wine/<producer-slug>/<cuvee-slug>/` pages and the global wine search.
+
+Region scope: every wine in this file is made by a producer in the
+parent region (i.e. `producer` slug resolves to a `vineyards[*].slug`
+in the same region's `vineyards.json`). A cuvée appears in exactly one
+region's `wines.json` — the region of its producer.
+
+```json
+{
+  "slug": "tignanello",
+  "name": "Tignanello",
+  "producer": "marchesi-antinori",
+  "producer_name": "Marchesi Antinori",
+  "first_vintage": 1971,
+  "varietals": [
+    { "grape": "Sangiovese", "pct": 80 },
+    { "grape": "Cabernet Sauvignon", "pct": 15 },
+    { "grape": "Cabernet Franc", "pct": 5 }
+  ],
+  "style": "still-red",
+  "classification": "Toscana IGT",
+  "oak_regime": "14 months in French and Hungarian oak barriques, 50% new",
+  "abv_typical": 14.0,
+  "sweetness": "dry",
+  "production_bottles_typical": 350000,
+  "price_band": "€90-130 at retail",
+  "drinking_window_years": "5-25 from vintage",
+
+  "taste": {
+    "aroma": ["dark cherry", "leather", "tobacco", "violets"],
+    "palate": ["black plum", "dried herbs", "espresso", "cedar"],
+    "body": "full",
+    "tannin": "firm",
+    "acidity": "high",
+    "finish": "long",
+    "summary": "Sangiovese-led Super Tuscan with Bordeaux structure: firm tannins, savoury herb-and-leather core, long graphite finish."
+  },
+
+  "pairings": [
+    {
+      "dish": "Bistecca alla fiorentina",
+      "why": "The wine's grippy tannins cut through the marbling; charred crust echoes the cedar notes.",
+      "tablejourney_ref": "italy/florence/restaurants/trattoria-mario"
+    },
+    {
+      "dish": "Aged pecorino toscano",
+      "why": "Crystalline sheep's-milk salt sharpens Sangiovese's red-cherry lift.",
+      "tablejourney_ref": null
+    },
+    {
+      "dish": "Wild boar pappardelle",
+      "why": "Gamey ragu finds a peer in the wine's leather and dried-herb register.",
+      "tablejourney_ref": "italy/florence/dishes/pappardelle-al-cinghiale"
+    }
+  ],
+
+  "history": {
+    "origin_year": 1971,
+    "summary": "Created by Piero Antinori and Giacomo Tachis as a deliberate break from Chianti Classico DOCG rules — Sangiovese blended with Cabernet, aged in barrique. Declassified to vino da tavola at launch; the regulatory revolt birthed the Super Tuscan category and ultimately the Toscana IGT classification.",
+    "milestones": [
+      { "year": 1971, "event": "First vintage released as vino da tavola" },
+      { "year": 1978, "event": "Cabernet Sauvignon added to the blend" },
+      { "year": 1992, "event": "Toscana IGT classification created, partly in response to wines like Tignanello" }
+    ]
+  },
+
+  "tags": [
+    "still-red", "full-body", "high-tannin", "dry",
+    "pairs-with-red-meat", "pairs-with-aged-cheese", "pairs-with-game",
+    "cellar-worthy", "iconic", "super-tuscan",
+    "price-luxury",
+    "occasion-special", "mood-contemplative",
+    "sangiovese", "cabernet-sauvignon",
+    "old-world", "italy", "tuscany"
+  ],
+
+  "scores": [
+    { "reviewer": "Wine Advocate", "points": 97, "vintage": 2019, "year": 2022 },
+    { "reviewer": "Vinous", "points": 96, "vintage": 2019, "year": 2022 }
+  ],
+
+  "biodynamic_status": "none",
+  "organic_status": "none",
+  "vegan": true,
+
+  "description": "Sangiovese-led Super Tuscan from Marchesi Antinori, first released in 1971. Bordeaux-style barrique ageing on a Tuscan backbone.",
+  "editorial_score": 4.7,
+  "verified": { /* required — source_url is producer or critic page that names this exact cuvée */ }
+}
+```
+
+**Field rules:**
+
+- `slug`: kebab-case; unique within the producer (not the region). Combined `producer/slug` is globally unique and drives the URL.
+- `producer`: MUST resolve to a `vineyards[*].slug` in the same region.
+- `varietals`: array of `{grape, pct}`. `pct` is omitted when the producer does not publicly disclose the blend (do not invent — leave the percentage off, keep the grape).
+- `style`: one of the controlled `style` tag values in [docs/WINE_TAGS.md](../../docs/WINE_TAGS.md). The single style tag is mirrored into `tags[]`.
+- `sweetness`: one of `dry | off-dry | medium-sweet | sweet | dessert`.
+- `classification`: exact label (DOCG / DOC / IGT / AOC / AVA / etc.). Promoting IGT to DOCG is a deal-breaker QA finding.
+- `oak_regime`: free text but must be sourceable to producer technical sheet.
+- `abv_typical`: float; the typical vintage. Vintage-specific ABVs are NOT recorded here — this page is vintage-agnostic.
+- `production_bottles_typical`: integer; only when producer publishes it. Omit otherwise.
+- `price_band`: range string; retail at primary market (€ in EU, $ in US, £ in UK, AU$ in Australia). Used to derive the `price-*` tag.
+- `drinking_window_years`: string like `"3-10 from vintage"`; used to derive `cellar-worthy` vs `drink-young` tags.
+- `taste.aroma` / `taste.palate`: arrays of short descriptors. Each descriptor must come from a published tasting note (producer, critic, or consortium) — `verified.cuisine_evidence_url` covers this.
+- `taste.body` / `taste.tannin` / `taste.acidity`: controlled values from WINE_TAGS.md.
+- `pairings`: 3-8 dish recommendations. `tablejourney_ref` is a TJ path (e.g. `italy/florence/restaurants/trattoria-mario`) when a matching TJ entity exists; `null` otherwise. The renderer turns non-null refs into outbound links to tablejourney.com per [docs/CROSS_LINKING.md](../../docs/CROSS_LINKING.md). NEVER invent TJ paths — verified at ship-time by `check_external_urls.py`.
+- `history.origin_year`: 4-digit year of the first vintage of THIS cuvée (may differ from the producer's founding year).
+- `history.milestones`: 1-5 dated facts. Each must be sourceable.
+- `tags`: controlled vocabulary from [docs/WINE_TAGS.md](../../docs/WINE_TAGS.md). Generators reject unknown tags. Tag taxonomy covers style / body / tannin / acidity / sweetness / pairing / occasion / mood / price / grape / world. A cuvée typically carries 10-20 tags.
+- `scores`: same shape as the vineyards `scores` block. Reviewer + points + vintage + year of review are all required per entry — score without provenance is removed.
+- `vegan`: boolean. True iff the producer documents no animal-derived fining agents (or it is independently certified). Default to omitting the field if unknown — do NOT default to `true`.
+
+**Cross-reference rules:**
+
+- Every `wines[*].producer` MUST resolve to a `vineyards[*].slug` in the same region's `vineyards.json`.
+- Every `signature_wines[*].slug` MUST also exist as a `wines[*].slug` in the same region.
+- Every `pairings[*].tablejourney_ref` (when non-null) must HEAD-resolve at `tablejourney.com/<ref>/` at ship-time.
+- Every tag in `wines[*].tags` MUST be defined in [docs/WINE_TAGS.md](../../docs/WINE_TAGS.md).
 
 ### signature-grapes
 
@@ -202,3 +331,20 @@ Required: `slug`, `pairing` (e.g. "Bordeaux red + entrecôte"),
   entities in the same region's other topic JSONs.
 - `food_pairing[*].tablejourney_url` must be a real TJ URL (will be
   validated by `check_external_urls.py` at ship-time).
+
+## Sister-site cross-links (TableJourney) — see docs/CROSS_LINKING.md
+
+Contextual, follow-link cross-references to matching TableJourney food
+content. Only populate when a real geographic overlap exists. NEVER bulk.
+
+- **`region.json` → `destination.cross_site_ref`**: path (or full URL) of the
+  matching TJ food city, e.g. `"france/bordeaux"`. `destination.cross_site_name`
+  is that city's display name (e.g. `"Bordeaux"`). Renders an "Eat in <city> on
+  TableJourney" CTA on the region hub and on the wine-restaurants / wine-bars /
+  food-pairing topic pages. Leave both empty when there is no overlapping TJ
+  city (most regions). Overlap matrix is in docs/CROSS_LINKING.md.
+- **Venue entity (vineyard etc.) → `cross_site_ref`**: path or full URL of the
+  entity's TableJourney listing, set ONLY when the estate has a restaurant (or
+  other food entity) actually covered on TJ. Optional `cross_site_label`
+  overrides the default "Dine at <name>" CTA text. Renders a "Dine at <name> on
+  TableJourney" link on the entity page. Omit entirely otherwise.

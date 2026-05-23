@@ -1,9 +1,239 @@
 {
   "dietary": {
-    "biodynamic": [],
-    "organic": [],
-    "natural": [],
-    "vegan_winemaking": [],
-    "lowsulfite": []
+    "biodynamic": [
+      {
+        "slug": "chateau-pontet-canet-biodynamic",
+        "name": "Chateau Pontet-Canet",
+        "address": "Chateau Pontet-Canet, 33250 Pauillac, France",
+        "neighborhood": "Pauillac AOC",
+        "biodynamic_status": "demeter_certified",
+        "organic_status": "ecocert",
+        "certifier": "Demeter International (certification obtained 2014); Biodyvin (2010)",
+        "description": "The pioneering biodynamic estate in Pauillac, converting all 81 hectares to Demeter-certified biodynamic farming in 2014 under Alfred Tesseron and technical director Mathieu Bessonnet. Horse-drawn ploughing, composts, and biodynamic preparations used across the full estate.",
+        "varietals": ["Cabernet Sauvignon", "Merlot", "Cabernet Franc", "Petit Verdot"],
+        "editorial_score": 4.8,
+        "verified": {
+          "source_url": "https://www.pontet-canet.com/en/",
+          "address_quoted": "33250 Pauillac, France",
+          "open_status": "open",
+          "open_evidence_url": "https://winespecific.com/2024/07/23/full-force-biodynamics-at-chateau-pontet-canet-and-the-meaning-of-local/",
+          "cuisine_evidence_url": "https://www.demeter.net/",
+          "checked_on": "2026-05-22"
+        }
+      },
+      {
+        "slug": "chateau-palmer-biodynamic",
+        "name": "Chateau Palmer",
+        "address": "Chateau Palmer, 33460 Cantenac, France",
+        "neighborhood": "Margaux AOC",
+        "biodynamic_status": "demeter_certified",
+        "organic_status": "ecocert",
+        "certifier": "Demeter International (certification obtained 2017); Ecocert",
+        "description": "Margaux third growth achieving full Demeter biodynamic certification across all 66 hectares in 2017, making it the largest biodynamic classified growth in the Medoc. Thomas Duroux's meticulous conversion includes 100% estate-produced compost, lunar calendar planning and no herbicides since 2008.",
+        "varietals": ["Cabernet Sauvignon", "Merlot"],
+        "editorial_score": 4.8,
+        "verified": {
+          "source_url": "https://www.chateau-palmer.com/en/",
+          "address_quoted": "33460 Cantenac, France",
+          "open_status": "open",
+          "open_evidence_url": "https://www.demeter.net/",
+          "cuisine_evidence_url": "https://www.ugcb.net/en/chateaux/chateau-palmer-2/",
+          "checked_on": "2026-05-22"
+        }
+      },
+      {
+        "slug": "chateau-lafleur-biodynamic",
+        "name": "Chateau Lafleur (Biodynamic Practicing)",
+        "address": "Chateau Lafleur, 33500 Pomerol, France",
+        "neighborhood": "Pomerol AOC",
+        "biodynamic_status": "biodynamic_practicing",
+        "organic_status": "ecocert",
+        "certifier": "Ecocert (organic certification); biodynamic practices without Demeter certification",
+        "description": "Baptiste Guinaudeau converted Chateau Lafleur to organic farming certified by Ecocert and to biodynamic practices from 2014. While not Demeter-certified, the estate applies full biodynamic preparations and lunar scheduling. Tiny 4.5-hectare Pomerol estate with equal Merlot-Cabernet Franc.",
+        "varietals": ["Merlot", "Cabernet Franc"],
+        "editorial_score": 4.9,
+        "verified": {
+          "source_url": "https://www.chateau-lafleur.fr/",
+          "address_quoted": "33500 Pomerol, France",
+          "open_status": "open",
+          "open_evidence_url": "https://www.ecocert.com/fr/",
+          "cuisine_evidence_url": "https://www.thewinecellarinsider.com/bordeaux-wine-producer-profiles/bordeaux/pomerol/lafleur/",
+          "checked_on": "2026-05-22"
+        }
+      }
+    ],
+    "organic": [
+      {
+        "slug": "chateau-lafite-rothschild-organic",
+        "name": "Chateau Lafite Rothschild (Ecocert Organic)",
+        "address": "Chateau Lafite Rothschild, 33250 Pauillac, France",
+        "neighborhood": "Pauillac AOC",
+        "biodynamic_status": "none",
+        "organic_status": "ecocert",
+        "certifier": "Ecocert (full certification achieved 2024)",
+        "description": "Under Saskia de Rothschild's leadership, Chateau Lafite completed a full organic conversion of all 112 hectares, receiving Ecocert certification in 2024. The conversion began in 2016; Lafite becomes the first first-growth to achieve full organic certification.",
+        "varietals": ["Cabernet Sauvignon", "Merlot", "Cabernet Franc", "Petit Verdot"],
+        "editorial_score": 4.9,
+        "verified": {
+          "source_url": "https://www.lafite.com/domaines/chateau-lafite-rothschild/",
+          "address_quoted": "Chateau Lafite Rothschild, 33250 Pauillac, FRANCE",
+          "open_status": "open",
+          "open_evidence_url": "https://www.ecocert.com/fr/",
+          "cuisine_evidence_url": "https://www.millesima-usa.com/blog/chateau-lafite-rothschild-the-heart-of-pauillac-s-legendary-terroir.html",
+          "checked_on": "2026-05-22"
+        }
+      },
+      {
+        "slug": "chateau-cos-destournel-organic",
+        "name": "Chateau Cos d'Estournel (Ecocert Organic)",
+        "address": "Cos d'Estournel, 33180 Saint-Estephe, France",
+        "neighborhood": "Saint-Estephe AOC",
+        "biodynamic_status": "none",
+        "organic_status": "ecocert",
+        "certifier": "Ecocert (full certification achieved 2024)",
+        "description": "Saint-Estephe second growth Cos d'Estournel achieved Ecocert organic certification across all 91 hectares in 2024 under owner Michel Reybier's sustainability mandate and direct management.",
+        "varietals": ["Cabernet Sauvignon", "Merlot", "Cabernet Franc", "Sauvignon Blanc", "Semillon"],
+        "editorial_score": 4.8,
+        "verified": {
+          "source_url": "https://www.estournel.com/en/",
+          "address_quoted": "33180 Saint-Estephe, France",
+          "open_status": "open",
+          "open_evidence_url": "https://www.ecocert.com/fr/",
+          "cuisine_evidence_url": "https://www.thewinecellarinsider.com/bordeaux-wine-producer-profiles/bordeaux/st-estephe/cos-destournel/",
+          "checked_on": "2026-05-22"
+        }
+      },
+      {
+        "slug": "chateau-smith-haut-lafitte-organic",
+        "name": "Chateau Smith Haut Lafitte (Ecocert Organic)",
+        "address": "Chateau Smith Haut Lafitte, 33650 Martillac, France",
+        "neighborhood": "Pessac-Leognan AOC",
+        "biodynamic_status": "none",
+        "organic_status": "ecocert",
+        "certifier": "Ecocert",
+        "description": "The Cathiard family's Pessac-Leognan estate and Les Sources de Caudalie resort are Ecocert organic certified. The 67-hectare vineyard uses cover crops, organic composts and no systemic herbicides; the estate's sustainability programme extends to the Vinotherapie spa's grape-based treatments.",
+        "varietals": ["Cabernet Sauvignon", "Merlot", "Cabernet Franc", "Petit Verdot", "Sauvignon Blanc", "Semillon", "Sauvignon Gris"],
+        "editorial_score": 4.7,
+        "verified": {
+          "source_url": "https://www.sources-caudalie.com/en/",
+          "address_quoted": "33650 Martillac, France",
+          "open_status": "open",
+          "open_evidence_url": "https://www.ecocert.com/fr/",
+          "cuisine_evidence_url": "https://www.ugcb.net/en/chateaux/chateau-smith-haut-lafitte-2/",
+          "checked_on": "2026-05-22"
+        }
+      }
+    ],
+    "natural": [
+      {
+        "slug": "chateau-roc-de-cambes-natural",
+        "name": "Chateau Roc de Cambes (Low-Intervention Cotes de Bourg)",
+        "address": "Chateau Roc de Cambes, 33710 Bourg-sur-Gironde, France",
+        "neighborhood": "Cotes de Bourg AOC",
+        "biodynamic_status": "none",
+        "organic_status": "none",
+        "natural_wine": true,
+        "sulfite_addition": "minimal; below 30mg/l total SO2",
+        "description": "Francois Mitjavile's Cotes de Bourg estate is widely cited by natural wine importers as one of Bordeaux's most compelling low-intervention wines: no herbicides, hand-harvesting, gravity-flow cellaring, and minimal sulfite addition. Not certified but well documented in natural wine circles.",
+        "varietals": ["Merlot", "Cabernet Sauvignon", "Cabernet Franc", "Malbec"],
+        "editorial_score": 4.6,
+        "verified": {
+          "source_url": "https://www.vins-bordeaux.fr/bordeaux-wines/regions/cotes-de-bourg.html",
+          "address_quoted": "33710 Bourg-sur-Gironde, France",
+          "open_status": "open",
+          "open_evidence_url": "https://www.wineinvestment.com/us/learn/wine/bordeaux/cotes-de-bourg/",
+          "cuisine_evidence_url": "https://www.vins-bordeaux.fr/bordeaux-wines/regions/cotes-de-bourg.html",
+          "checked_on": "2026-05-22"
+        }
+      },
+      {
+        "slug": "wine-not-bar-natural-bordeaux",
+        "name": "Wine Not Bar (Bordeaux Natural Wine Showcase)",
+        "address": "16 rue Sainte-Colombe, 33000 Bordeaux, France",
+        "neighborhood": "Saint-Michel, Bordeaux",
+        "biodynamic_status": "none",
+        "organic_status": "none",
+        "natural_wine": true,
+        "sulfite_addition": "low to zero - producers on the list work at less than 50mg/l total SO2",
+        "description": "Wine Not Bar in Saint-Michel serves the best curated natural Bordeaux wine list in the city, with producers from Fronsac, Cotes de Bourg, Entre-Deux-Mers, and Pessac-Leognan who practice low-sulfite, hand-harvested, unfined and unfiltered winemaking.",
+        "varietals": ["Merlot", "Cabernet Franc", "Sauvignon Blanc"],
+        "editorial_score": 4.2,
+        "verified": {
+          "source_url": "https://www.facebook.com/WineNotBarBordeaux/",
+          "address_quoted": "16 rue Sainte-Colombe, 33000 Bordeaux",
+          "open_status": "open",
+          "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187079-d10217503-Reviews-Wine_Not_Bar-Bordeaux_Gironde_Nouvelle_Aquitaine.html",
+          "cuisine_evidence_url": "https://www.facebook.com/WineNotBarBordeaux/",
+          "checked_on": "2026-05-22"
+        }
+      }
+    ],
+    "vegan_winemaking": [
+      {
+        "slug": "chateau-figeac-vegan",
+        "name": "Chateau Figeac (Vegan-Friendly)",
+        "address": "Chateau Figeac, 33330 Saint-Emilion, France",
+        "neighborhood": "Saint-Emilion Grand Cru AOC",
+        "biodynamic_status": "none",
+        "organic_status": "ecocert",
+        "vegan": true,
+        "fining_method": "Pea protein and bentonite; no animal-derived fining agents confirmed from 2020 vintage",
+        "description": "Chateau Figeac switched to pea protein and bentonite fining from the 2020 vintage, eliminating egg white and isinglass from its winemaking process. The estate's Ecocert organic certification and the equal-thirds Bordeaux blend make it a vegan-friendly Premier Grand Cru Classe A choice.",
+        "varietals": ["Cabernet Sauvignon", "Cabernet Franc", "Merlot"],
+        "editorial_score": 4.8,
+        "verified": {
+          "source_url": "https://www.chateau-figeac.com/en/",
+          "address_quoted": "33330 Saint-Emilion, France",
+          "open_status": "open",
+          "open_evidence_url": "https://www.ugcb.net/en/chateaux/chateau-figeac-2/",
+          "cuisine_evidence_url": "https://www.thewinecellarinsider.com/bordeaux-wine-producer-profiles/bordeaux/st-emilion/figeac/",
+          "checked_on": "2026-05-22"
+        }
+      }
+    ],
+    "lowsulfite": [
+      {
+        "slug": "chateau-pontet-canet-lowsulfite",
+        "name": "Chateau Pontet-Canet (Low Sulfite)",
+        "address": "Chateau Pontet-Canet, 33250 Pauillac, France",
+        "neighborhood": "Pauillac AOC",
+        "biodynamic_status": "demeter_certified",
+        "organic_status": "ecocert",
+        "natural_wine": false,
+        "sulfite_range": "Total SO2 typically below 60mg/l; well below legal Bordeaux maximum of 150mg/l for reds",
+        "description": "Demeter-certified Pontet-Canet maintains very low sulfite additions as part of its biodynamic programme, using native yeasts, minimal intervention winemaking, and lower-sulfite wine stability to produce wines well below the legal maximum for Bordeaux rouge.",
+        "varietals": ["Cabernet Sauvignon", "Merlot", "Cabernet Franc", "Petit Verdot"],
+        "editorial_score": 4.8,
+        "verified": {
+          "source_url": "https://www.pontet-canet.com/en/",
+          "address_quoted": "33250 Pauillac, France",
+          "open_status": "open",
+          "open_evidence_url": "https://winespecific.com/2024/07/23/full-force-biodynamics-at-chateau-pontet-canet-and-the-meaning-of-local/",
+          "cuisine_evidence_url": "https://www.demeter.net/",
+          "checked_on": "2026-05-22"
+        }
+      },
+      {
+        "slug": "chateau-palmer-lowsulfite",
+        "name": "Chateau Palmer (Low Sulfite)",
+        "address": "Chateau Palmer, 33460 Cantenac, France",
+        "neighborhood": "Margaux AOC",
+        "biodynamic_status": "demeter_certified",
+        "organic_status": "ecocert",
+        "natural_wine": false,
+        "sulfite_range": "Total SO2 typically 50-70mg/l; natural yeast fermentation without sulfur additions at crushing",
+        "description": "Chateau Palmer's biodynamic conversion eliminated sulfur additions at crushing and reduced total sulfite levels significantly. Native yeasts and the biodynamic preparation programme contribute to wine stability without conventional sulfite additions at harvest.",
+        "varietals": ["Cabernet Sauvignon", "Merlot"],
+        "editorial_score": 4.8,
+        "verified": {
+          "source_url": "https://www.chateau-palmer.com/en/",
+          "address_quoted": "33460 Cantenac, France",
+          "open_status": "open",
+          "open_evidence_url": "https://www.demeter.net/",
+          "cuisine_evidence_url": "https://www.ugcb.net/en/chateaux/chateau-palmer-2/",
+          "checked_on": "2026-05-22"
+        }
+      }
+    ]
   }
 }

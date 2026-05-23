@@ -1,0 +1,282 @@
+{# Per-region wines topic page: /<country>/<region>/wines/
+
+   Lists every cuvée from this region's wines.json with tag-based filter
+   chips. Each card links to the full cuvée page at /wine/<producer>/<slug>/.
+   The cuvée page itself (taste / pairings / history / tags) is rendered
+   by generate_wine_pages.py using templates/wine.html. See SCHEMA.md and
+   docs/WINE_TAGS.md for the data contract.
+#}
+{% extends "topics/_topic_base.html" %}
+{% from "topics/_macros.html" import star_strip, price_tier %}
+
+{% block topic_intro %}
+<p class="tj-intro">{{ topic.intro | default('Every cuvée worth knowing in ' ~ destination.name ~ '. Each page covers taste, food pairings, history and tags so you can filter by what you want, what you are eating or what mood you are in.') }}</p>
+{% endblock %}
+
+{% block topic_sections %}
+{% set _wines = research.wines | default([]) %}
+{% if _wines %}
+
+{# Inline-dropdown filter — one native <select> per axis. Selections AND
+   across axes (pairing=lamb AND mood=elegant). The empty-string default
+   on each select means "any" — only non-empty selections constrain.
+   No popovers, no modal, no client-side framework — minimal JS just
+   re-applies the filter set on every change. #}
+{% set _axis_for = {
+    'still-red': 'style', 'still-white': 'style', 'still-rose': 'style',
+    'sparkling-traditional': 'style', 'sparkling-tank': 'style', 'sparkling-ancestral': 'style',
+    'orange': 'style',
+    'dessert-late-harvest': 'style', 'dessert-noble-rot': 'style', 'dessert-ice-wine': 'style', 'dessert-passito': 'style',
+    'fortified-port': 'style', 'fortified-sherry': 'style', 'fortified-madeira': 'style', 'fortified-marsala': 'style', 'fortified-vdn': 'style',
+    'vermouth': 'style',
+    'light-body': 'body', 'medium-body': 'body', 'full-body': 'body',
+    'low-tannin': 'tannin', 'medium-tannin': 'tannin', 'firm-tannin': 'tannin', 'high-tannin': 'tannin',
+    'low-acid': 'acidity', 'medium-acid': 'acidity', 'high-acid': 'acidity', 'racy-acid': 'acidity',
+} %}
+{# Axis order = order the user reads. Pairing/Mood/Occasion first (high-
+   intent "what should I drink"), then sensory (Style/Body/Tannin/
+   Acidity), then editorial. Each tuple: (slug, label, stripped-prefix). #}
+{% set _axis_meta = [
+    ('pairing',   'Pairing',   'pairs-with-'),
+    ('mood',      'Mood',      'mood-'),
+    ('occasion',  'Occasion',  'occasion-'),
+    ('style',     'Style',     None),
+    ('body',      'Body',      None),
+    ('tannin',    'Tannin',    None),
+    ('acidity',   'Acidity',   None),
+    ('editorial', 'Tag',       None),
+] %}
+
+{% set _tags_by_axis = {'pairing': [], 'occasion': [], 'mood': [], 'style': [], 'body': [], 'tannin': [], 'acidity': [], 'editorial': []} %}
+{% set _seen = [] %}
+{% for w in _wines %}
+  {% for t in w.tags | default([]) %}
+    {% if t not in _seen %}
+      {% set _ = _seen.append(t) %}
+      {% if t.startswith('pairs-with-') %}{% set _ = _tags_by_axis['pairing'].append(t) %}
+      {% elif t.startswith('occasion-') %}{% set _ = _tags_by_axis['occasion'].append(t) %}
+      {% elif t.startswith('mood-') %}{% set _ = _tags_by_axis['mood'].append(t) %}
+      {% elif t in _axis_for %}{% set _ = _tags_by_axis[_axis_for[t]].append(t) %}
+      {% else %}{% set _ = _tags_by_axis['editorial'].append(t) %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+
+<section class="tj-section" id="filter">
+    <h2>Filter the cellar</h2>
+    {% if _seen %}
+    <p class="tj-intro" style="margin-bottom:10px;">Combine filters to drill in. Each dropdown narrows the list further.</p>
+
+    {# Price tiers + currencies actually represented in this region's
+       wines.json, so a region with only EUR premium cuvées doesn't
+       show JPY or "Everyday" options that yield zero results. #}
+    {% set _price_tiers_present = [] %}
+    {% set _currencies_present = [] %}
+    {% for w in _wines %}
+      {% if w._price_tier %}
+        {% if w._price_tier.tier not in _price_tiers_present %}{% set _ = _price_tiers_present.append(w._price_tier.tier) %}{% endif %}
+        {% if w._price_tier.currency not in _currencies_present %}{% set _ = _currencies_present.append(w._price_tier.currency) %}{% endif %}
+      {% endif %}
+    {% endfor %}
+    {% set _price_labels = {1: ('€', 'Everyday — Under €15'), 2: ('€€', 'Trade-up — €15-30'), 3: ('€€€', 'Premium — €30-75'), 4: ('€€€€', 'Fine — €75-200'), 5: ('€€€€€', 'Luxury — €200+')} %}
+    {% set _currency_labels = {'€': 'Euro (€)', '$': 'US Dollar ($)', '£': 'Pound (£)', '¥': 'Yen (¥)'} %}
+
+    <div class="tj-wine-filters"
+         style="display:flex;flex-wrap:wrap;gap:8px;align-items:flex-end;margin:12px 0 18px;">
+        {% if _price_tiers_present %}
+        <label style="display:flex;flex-direction:column;font-size:0.75rem;text-transform:uppercase;letter-spacing:0.06em;color:var(--tj-muted, #6b6b6b);">
+            Price
+            <select class="tj-wine-filter" data-axis="price"
+                    style="margin-top:3px;padding:8px 28px 8px 12px;border:1px solid var(--tj-border);border-radius:6px;background:var(--tj-surface);color:var(--tj-text, #222);font-size:0.95rem;font-family:inherit;letter-spacing:normal;text-transform:none;min-width:160px;cursor:pointer;appearance:auto;">
+                <option value="">Any price</option>
+                {% for t in _price_tiers_present | sort %}
+                <option value="{{ t }}">{{ _price_labels[t][0] }} &nbsp; {{ _price_labels[t][1] }}</option>
+                {% endfor %}
+            </select>
+        </label>
+        {% endif %}
+        {# Currency dropdown — only renders when >=2 currencies are
+           present in the region's catalog (mostly relevant once we
+           cover multi-currency regions like the US + Canada or the
+           UK + Eurozone). For Bordeaux only €, so this is hidden. #}
+        {% if _currencies_present | length > 1 %}
+        <label style="display:flex;flex-direction:column;font-size:0.75rem;text-transform:uppercase;letter-spacing:0.06em;color:var(--tj-muted, #6b6b6b);">
+            Currency
+            <select class="tj-wine-filter" data-axis="currency"
+                    style="margin-top:3px;padding:8px 28px 8px 12px;border:1px solid var(--tj-border);border-radius:6px;background:var(--tj-surface);color:var(--tj-text, #222);font-size:0.95rem;font-family:inherit;letter-spacing:normal;text-transform:none;min-width:160px;cursor:pointer;appearance:auto;">
+                <option value="">Any currency</option>
+                {% for c in _currencies_present | sort %}
+                <option value="{{ c }}">{{ _currency_labels[c] | default(c) }}</option>
+                {% endfor %}
+            </select>
+        </label>
+        {% endif %}
+        {% for axis_slug, axis_label, prefix in _axis_meta %}
+        {% if _tags_by_axis[axis_slug] %}
+        <label style="display:flex;flex-direction:column;font-size:0.75rem;text-transform:uppercase;letter-spacing:0.06em;color:var(--tj-muted, #6b6b6b);">
+            {{ axis_label }}
+            <select class="tj-wine-filter" data-axis="{{ axis_slug }}"
+                    style="margin-top:3px;padding:8px 28px 8px 12px;border:1px solid var(--tj-border);border-radius:6px;background:var(--tj-surface);color:var(--tj-text, #222);font-size:0.95rem;font-family:inherit;letter-spacing:normal;text-transform:none;min-width:160px;cursor:pointer;appearance:auto;">
+                <option value="">Any {{ axis_label | lower }}</option>
+                {% for t in _tags_by_axis[axis_slug] | sort %}
+                <option value="{{ t }}">
+                    {% if prefix and t.startswith(prefix) %}{{ t[prefix | length:] | replace('-', ' ') | title }}{% else %}{{ t | replace('-', ' ') | title }}{% endif %}
+                </option>
+                {% endfor %}
+            </select>
+        </label>
+        {% endif %}
+        {% endfor %}
+        <button type="button" class="tj-wine-filter-clear"
+                style="padding:9px 16px;border:1px solid var(--tj-border);border-radius:6px;background:transparent;color:var(--tj-muted, #6b6b6b);font-size:0.85rem;font-weight:500;cursor:pointer;letter-spacing:0.02em;">Clear all</button>
+    </div>
+
+    <div class="tj-wine-filter-status"
+         style="font-size:0.9rem;color:var(--tj-muted, #6b6b6b);margin:0 0 14px;">
+        Showing <strong class="tj-wine-filter-count" style="color:var(--tj-text, #222);">{{ _wines | length }}</strong> of {{ _wines | length }} cuv&eacute;es.
+        <span class="tj-wine-filter-active" hidden style="margin-left:8px;color:var(--tj-text, #222);"></span>
+    </div>
+
+    <script>(function(){
+        function wire(){
+            var selects = document.querySelectorAll(".tj-wine-filter");
+            var clear   = document.querySelector(".tj-wine-filter-clear");
+            var cards   = document.querySelectorAll("#tj-cuvee-cards .tj-cuvee-card");
+            var count   = document.querySelector(".tj-wine-filter-count");
+            var active  = document.querySelector(".tj-wine-filter-active");
+            if (!cards.length) return;
+
+            function apply(){
+                var picks = [];
+                selects.forEach(function(s){
+                    if (s.value) picks.push({axis: s.getAttribute("data-axis"), value: s.value, label: s.options[s.selectedIndex].text.trim()});
+                });
+                var shown = 0;
+                cards.forEach(function(card){
+                    var tags = (card.getAttribute("data-tags") || "").split(" ");
+                    var priceTier = card.getAttribute("data-price-tier") || "";
+                    // AND across axes: price matches when the card's tier
+                    // equals the picked tier; other axes match when the
+                    // card's tag list contains the picked tag.
+                    var priceCurrency = card.getAttribute("data-price-currency") || "";
+                    var match = picks.every(function(p){
+                        if (p.axis === "price")    return priceTier === p.value;
+                        if (p.axis === "currency") return priceCurrency === p.value;
+                        return tags.indexOf(p.value) !== -1;
+                    });
+                    card.style.display = match ? "" : "none";
+                    if (match) shown++;
+                });
+                if (count) count.textContent = shown;
+                if (active) {
+                    if (picks.length) {
+                        active.hidden = false;
+                        active.textContent = "(" + picks.map(function(p){ return p.label; }).join(" · ") + ")";
+                    } else {
+                        active.hidden = true;
+                        active.textContent = "";
+                    }
+                }
+            }
+
+            selects.forEach(function(s){ s.addEventListener("change", apply); });
+            if (clear) clear.addEventListener("click", function(){
+                selects.forEach(function(s){ s.value = ""; });
+                apply();
+            });
+        }
+        if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", wire);
+        else wire();
+    })();</script>
+    {% endif %}
+</section>
+
+<section class="tj-section" id="cuvees">
+    <h2>Every cuvée from {{ destination.name }}</h2>
+    <div id="tj-cuvee-cards" class="tj-card-grid">
+        {% for w in _wines %}
+        {# Inline descriptor builder — same logic as wine.html hero. #}
+        {% set descs = [] %}
+        {% if w.sweetness %}{% set _ = descs.append(w.sweetness | replace('-', ' ') | title) %}{% endif %}
+        {% if w.taste and w.taste.body %}{% set _ = descs.append(w.taste.body | title ~ '-bodied') %}{% endif %}
+        {% if w.taste and w.taste.tannin %}{% set _ = descs.append(w.taste.tannin | title ~ ' tannin') %}{% endif %}
+        {% if w.taste and w.taste.acidity %}{% set _ = descs.append(w.taste.acidity | title ~ ' acidity') %}{% endif %}
+        {% for t in w.tags | default([]) %}{% if t.startswith('mood-') and descs | length < 5 %}{% set _ = descs.append(t[5:] | replace('-', ' ') | title) %}{% endif %}{% endfor %}
+        <article class="tj-card tj-cuvee-card"
+                 data-name="{{ w.name | default('') }}"
+                 data-tags="{{ (w.tags or []) | join(' ') }}"
+                 {% if w._price_tier %}data-price-tier="{{ w._price_tier.tier }}" data-price-currency="{{ w._price_tier.currency }}"{% endif %}
+                 {% if w.editorial_score is number %}data-score="{{ '%.2f' | format(w.editorial_score) }}"{% endif %}>
+            <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:12px;">
+                <h3 style="flex:1 1 auto;margin:0;">
+                    {% if w._url %}<a class="tj-card-title-link" href="{{ w._url }}">{{ w.name }}</a>{% else %}{{ w.name }}{% endif %}
+                </h3>
+                {% if w.editorial_score is number and w.editorial_score >= 1.0 %}
+                <div class="tj-card-rating"
+                     aria-label="Cork & Curve editorial rating {{ '%.1f' | format(w.editorial_score) }} out of 5"
+                     style="flex:0 0 auto;text-align:center;padding:6px 10px;border:1px solid var(--tj-border, #d9d2c8);border-radius:var(--tj-radius, 6px);background:var(--tj-surface, #faf8f4);min-width:60px;">
+                    <div style="font-size:1.1rem;font-weight:700;line-height:1;color:var(--tj-accent, #7a1d2d);">{{ '%.1f' | format(w.editorial_score) }}</div>
+                    <div style="margin-top:3px;">
+                        {{ star_strip(w.editorial_score, size='0.9rem') }}
+                    </div>
+                </div>
+                {% endif %}
+            </div>
+            {% if descs %}
+            <p style="margin:6px 0 8px;font-size:0.9rem;color:var(--tj-text, #222);">{{ descs | join(' · ') }}</p>
+            {% endif %}
+            <div class="tj-card-meta">
+                {% if w.producer_name %}<span class="tj-tag">{{ w.producer_name }}</span>{% endif %}
+                {% if w._price_tier %}<span title="{{ w._price_tier.label }}: {{ w._price_tier.range }}">{{ price_tier(w._price_tier) }}</span>{% endif %}
+                {% if w.style %}<span class="tj-tag">{{ w.style | replace('-', ' ') | title }}</span>{% endif %}
+                {% if w.classification %}<span class="tj-tag">{{ w.classification }}</span>{% endif %}
+                {% if w.varietals %}<span>{% for v in w.varietals[:3] %}{{ v.grape }}{% if v.pct %} {{ v.pct }}%{% endif %}{% if not loop.last %}, {% endif %}{% endfor %}</span>{% endif %}
+            </div>
+            {% if w.taste and w.taste.summary %}
+            <p class="tj-card-desc">{{ w.taste.summary }}</p>
+            {% elif w.description %}
+            <p class="tj-card-desc">{{ w.description }}</p>
+            {% endif %}
+            {% if w.pairings %}
+            <p class="tj-card-desc"><strong>Pairs with:</strong>
+            {% for p in w.pairings[:3] %}{{ p.dish }}{% if not loop.last %}, {% endif %}{% endfor %}
+            </p>
+            {% endif %}
+            <div class="tj-card-foot">
+                {% if w._url %}<a class="tj-card-link" href="{{ w._url }}">Cuvée page →</a>{% endif %}
+            </div>
+        </article>
+        {% endfor %}
+    </div>
+</section>
+{% else %}
+<section class="tj-section" id="cuvees">
+    <p class="tj-intro">No cuvées are catalogued for {{ destination.name }} yet. The research agent will fill this in the next pipeline run.</p>
+</section>
+{% endif %}
+{% endblock %}
+
+{% block topic_schema_extra %}
+{% set _wines = research.wines | default([]) %}
+{% if _wines %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {% for w in _wines %}
+    {
+      "@type": "Product",
+      "@id": "https://corkandcurve.com/wine/{{ w.producer }}/{{ w.slug }}/#cuvee",
+      "name": {{ w.name | tojson }},
+      "url": "https://corkandcurve.com/wine/{{ w.producer }}/{{ w.slug }}/"{% if w.description %},
+      "description": {{ w.description | tojson }}{% endif %}{% if w.producer_name %},
+      "brand": { "@type": "Brand", "name": {{ w.producer_name | tojson }} }{% endif %}{% if w.style %},
+      "category": {{ (w.style | replace('-', ' ')) | tojson }}{% endif %}
+    }{% if not loop.last %},{% endif %}
+    {% endfor %}
+  ]
+}
+</script>
+{% endif %}
+{% endblock %}

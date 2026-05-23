@@ -1,3 +1,112 @@
 {
-  "day_trips_wine": []
+  "day_trips_wine": [
+    {
+      "slug": "cognac-charente",
+      "name": "Cognac, Charente",
+      "distance_km": 120,
+      "travel_time": "1h 30min by car via A10",
+      "description": "The Charente's Cognac town and its surrounding Grande Champagne and Petite Champagne crus, home to the great Cognac houses (Hennessy, Remy Martin, Prunier) and smaller grower distillers. A full-day trip from Bordeaux covers two house visits with Charentais pot-still tours and an aged XO tasting.",
+      "signature_pours": ["Hennessy XO", "Remy Martin VSOP", "Prunier Grande Champagne Vintage"],
+      "recommended_vineyards": [],
+      "visitor_tip": "Maison Hennessy visitor centre is the best-organised and most multilingual; book the enhanced 'Paradis' tasting experience in advance.",
+      "verified": {
+        "source_url": "https://www.tourism-cognac.com/en/",
+        "address_quoted": "16100 Cognac, Charente, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.hennessy.com/en-gb/visit-maison-hennessy/",
+        "cuisine_evidence_url": "https://www.cognac.fr/en/the-cognac-region/cognac-appellation/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "bergerac-dordogne",
+      "name": "Bergerac, Dordogne",
+      "distance_km": 90,
+      "travel_time": "1h 15min by car via D936",
+      "description": "The Bergerac wine region in the Dordogne valley, immediately east of Bordeaux, produces red and white wines from the same grape varieties: Cabernet Sauvignon, Merlot, Sauvignon Blanc, Semillon. The Monbazillac appellation produces botrytised dessert wines that are stylistically similar to Sauternes at far lower prices.",
+      "signature_pours": ["Chateau Tour des Gendres (Bergerac rouge)", "Chateau de Tirecul La Graviere (Monbazillac)", "Chateau Bellingard Monbazillac"],
+      "recommended_vineyards": [],
+      "visitor_tip": "Chateau Monbazillac (12th-century estate) is the most visitor-friendly producer with daily tours. Bergerac town centre has a compact wine quarter with tasting rooms.",
+      "verified": {
+        "source_url": "https://www.vins-bergerac.fr/en/",
+        "address_quoted": "24100 Bergerac, Dordogne, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tourisme-bergerac.com/en/",
+        "cuisine_evidence_url": "https://www.vins-bergerac.fr/en/wines/appellations/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "armagnac-gers",
+      "name": "Armagnac, Gers",
+      "distance_km": 160,
+      "travel_time": "1h 50min by car via A65",
+      "description": "Gascony's Bas Armagnac appellation in the Gers produces France's oldest brandy, distilled in the continuous alembic armagnacais style rather than Cognac's double-distillation. Single-vintage Armagnacs dating back to the 1920s are available from estate distillers including Domaine de Menard and Domaine d'Ognoas.",
+      "signature_pours": ["Domaine de Menard Bas Armagnac Vintage 2000", "Domaine d'Ognoas (state-owned, historic)"],
+      "recommended_vineyards": [],
+      "visitor_tip": "Condom is the main Armagnac town with a museum (Musee de l'Armagnac); the Aire-sur-l'Adour and Gondrin areas offer the densest concentration of estate distilleries open for visits.",
+      "verified": {
+        "source_url": "https://www.armagnac.fr/en/",
+        "address_quoted": "Gers, 32000 France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tourisme-gers.com/en/",
+        "cuisine_evidence_url": "https://www.armagnac.fr/en/the-armagnac-region/the-appellations/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "cahors-malbec-country",
+      "name": "Cahors, Lot (Malbec Country)",
+      "distance_km": 200,
+      "travel_time": "2h by car via A20",
+      "description": "Cahors, the ancestral home of Malbec before phylloxera devastated it in Bordeaux, now produces some of France's most powerful and age-worthy red wines from Malbec (locally called Cot). The Lot river valley terroir produces structured, tannic, mineral expressions very different from Argentina's version.",
+      "signature_pours": ["Chateau Lagrezette Malbec", "Clos Triguedina Prince Probus Malbec", "Chateau du Cedre Cahors"],
+      "recommended_vineyards": [],
+      "visitor_tip": "The village of Cahors is UNESCO-listed and compact; two estates (Lagrezette and du Cedre) are within easy driving distance and both have excellent visitor facilities.",
+      "verified": {
+        "source_url": "https://www.vins-cahors.fr/en/",
+        "address_quoted": "46000 Cahors, Lot, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tourisme-cahors.fr/en/",
+        "cuisine_evidence_url": "https://www.vins-cahors.fr/en/cahors-wines/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "madiran-southwest",
+      "name": "Madiran, Pyrenees-Atlantiques",
+      "distance_km": 175,
+      "travel_time": "2h by car via A65",
+      "description": "Madiran in the Adour basin produces some of France's most tannic and age-worthy reds from Tannat, the iron-rich grape associated with Gascon cuisine. Chateau Bouscasse (Patrick Ducournau, inventor of micro-oxygenation) and Chateau Montus are the defining producers. Often paired with Pacherenc du Vic-Bilh (white) from the same zone.",
+      "signature_pours": ["Chateau Montus Cuvee Prestige", "Chateau Bouscasse Madiran Vieilles Vignes", "Pacherenc du Vic-Bilh Sec"],
+      "recommended_vineyards": [],
+      "visitor_tip": "Chateau Bouscasse (Alain Brumont) offers some of France's best estate restaurant lunches; book well in advance for the cellar tour and tasting menu pairing.",
+      "verified": {
+        "source_url": "https://www.madiran-pacherenc.com/en/",
+        "address_quoted": "Madiran, 65700 Hautes-Pyrenees, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tourisme-tarbes.fr/en/",
+        "cuisine_evidence_url": "https://www.madiran-pacherenc.com/en/the-wines/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "saumur-champigny-loire",
+      "name": "Saumur-Champigny, Loire Valley",
+      "distance_km": 330,
+      "travel_time": "3h by TGV or 3h 30min by car",
+      "description": "A longer day-trip option: Saumur-Champigny is the Loire's great Cabernet Franc heartland, producing lighter-bodied, more aromatic expressions of the same grape that anchors Saint-Emilion's Right Bank. Domaine Filliatreau, Chateau Hureau, and Domaine des Roches Neuves are the reference producers. Contrasting the Loire style against Bordeaux Cabernet Franc is valuable for any serious wine student.",
+      "signature_pours": ["Domaine Filliatreau Saumur-Champigny Vieilles Vignes", "Domaine des Roches Neuves L'Insolite"],
+      "recommended_vineyards": [],
+      "visitor_tip": "Best combined with a night in Saumur; the Loire Valley's troglodyte cellar network (caves tuffeau) is the architectural counterpart to Bordeaux's limestone chais. Saumur city's museum of wine is compact and informative.",
+      "verified": {
+        "source_url": "https://www.vins-valde-loire.fr/en/appellations/saumur-champigny/",
+        "address_quoted": "Saumur, 49400 Maine-et-Loire, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.ot-saumur.fr/en/",
+        "cuisine_evidence_url": "https://www.vins-valde-loire.fr/en/appellations/saumur-champigny/",
+        "checked_on": "2026-05-22"
+      }
+    }
+  ]
 }

@@ -1,3 +1,174 @@
 {
-  "wine_restaurants": []
+  "wine_restaurants": [
+    {
+      "slug": "le-pressoir-dargent-gordon-ramsay",
+      "name": "Le Pressoir d'Argent - Gordon Ramsay",
+      "address": "InterContinental Bordeaux - Le Grand Hotel, 2-5 place de la Comedie, 33000 Bordeaux, France",
+      "neighborhood": "Grand Theatre quarter, Bordeaux",
+      "cuisine": "Contemporary French; seafood and Girondine specialties; wine-pairing menus",
+      "cellar_size": 1500,
+      "awards": [
+        { "source": "Michelin", "year": 2023 },
+        { "source": "Wine Spectator Award of Excellence", "year": 2022 }
+      ],
+      "description": "Gordon Ramsay's Bordeaux flagship in the Grand Hotel, with a 1,500-bottle cellar and sommelier team offering full appellation flights. Tasting menus engineered around Medoc and Right Bank classics.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.bordeaux.intercontinental.com/en/dining/le-pressoir-dargent",
+        "address_quoted": "2-5 place de la Comedie, 33000 Bordeaux",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187079-d7006726-Reviews-Le_Pressoir_d_Argent_Gordon_Ramsay-Bordeaux_Gironde_Nouvelle_Aquitaine.html",
+        "cuisine_evidence_url": "https://www.bordeaux.intercontinental.com/en/dining/le-pressoir-dargent/wine-list",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "le-chapon-fin",
+      "name": "Le Chapon Fin",
+      "address": "5 rue Montesquieu, 33000 Bordeaux, France",
+      "neighborhood": "Triangle d'Or, Bordeaux",
+      "cuisine": "Classical French brasserie; Bordeaux wine-pairing menus; foie gras and duck confits",
+      "cellar_size": 600,
+      "awards": [
+        { "source": "Michelin Bib Gourmand", "year": 2024 }
+      ],
+      "description": "Bordeaux's most storied restaurant, founded 1825 with its original Belle Epoque grotto dining room intact. 600-label cellar and an expert sommelier team across all Bordeaux appellations.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.chapon-fin.com/",
+        "address_quoted": "5 rue Montesquieu, 33000 Bordeaux",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187079-d309034-Reviews-Le_Chapon_Fin-Bordeaux_Gironde_Nouvelle_Aquitaine.html",
+        "cuisine_evidence_url": "https://www.chapon-fin.com/la-cave/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "gabriel-bordeaux",
+      "name": "Restaurant Gabriel",
+      "address": "10 place de la Bourse, 33000 Bordeaux, France",
+      "neighborhood": "Place de la Bourse, Bordeaux",
+      "cuisine": "Modern French; market-driven Girondine; seasonal Bordeaux pairing menus",
+      "cellar_size": 400,
+      "awards": [
+        { "source": "Michelin Star", "year": 2024 }
+      ],
+      "description": "Michelin-starred restaurant inside the 18th-century Palais de la Bourse overlooking the Garonne. Chef Nicolas Frion's wine-pairing menus built around Pessac-Leognan and Right Bank classics.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.restaurant-gabriel-bordeaux.fr/",
+        "address_quoted": "10 place de la Bourse, 33000 Bordeaux",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187079-d1072881-Reviews-Restaurant_Gabriel-Bordeaux_Gironde_Nouvelle_Aquitaine.html",
+        "cuisine_evidence_url": "https://www.restaurant-gabriel-bordeaux.fr/carte-des-vins/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "la-grande-maison-de-bernard-magrez",
+      "name": "La Grande Maison de Bernard Magrez",
+      "address": "10 rue Labottiere, 33000 Bordeaux, France",
+      "neighborhood": "Jardin Public, Bordeaux",
+      "cuisine": "Haute cuisine; Joeel Robuchon-influenced menus; comprehensive Bordeaux and Magrez estate cellar",
+      "cellar_size": 3000,
+      "awards": [
+        { "source": "Michelin", "year": 2024 },
+        { "source": "Wine Spectator Grand Award", "year": 2023 }
+      ],
+      "description": "Chef Jooel Robuchon's legacy property owned by Bernard Magrez, with a 3,000-bottle cellar anchored by Magrez estate wines and a comprehensive Bordeaux first-growth vertical collection.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.lagrandemaison-bordeaux.com/en/",
+        "address_quoted": "10 rue Labottiere, 33000 Bordeaux",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187079-d8737099-Reviews-La_Grande_Maison_de_Bernard_Magrez-Bordeaux_Gironde_Nouvelle_Aquitaine.html",
+        "cuisine_evidence_url": "https://www.lagrandemaison-bordeaux.com/en/wine-cellar/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "les-belles-perdrix-troplong-mondot",
+      "name": "Les Belles Perdrix de Troplong Mondot",
+      "address": "Chateau Troplong Mondot, 33330 Saint-Emilion, France",
+      "neighborhood": "Saint-Emilion Grand Cru AOC",
+      "cuisine": "Modern French; Girondine market dishes; estate wine-pairing menus",
+      "cellar_size": 2000,
+      "awards": [
+        { "source": "Michelin Star", "year": 2024 }
+      ],
+      "description": "Michelin-starred restaurant in The Keys hotel at Chateau Troplong Mondot, with a 2,000-bottle cellar showcasing Troplong Mondot across five vintages plus premium Right Bank peers.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.troplong-mondot.com/en/the-restaurant/",
+        "address_quoted": "Chateau Troplong Mondot, 33330 Saint-Emilion, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187073-d11819046-Reviews-Les_Belles_Perdrix_de_Troplong_Mondot-Saint_Emilion_Gironde_Nouvelle_Aquitaine.html",
+        "cuisine_evidence_url": "https://www.troplong-mondot.com/en/the-restaurant/wine-list/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "hostellerie-de-plaisance-saint-emilion",
+      "name": "Hostellerie de Plaisance",
+      "address": "5 place du Clocher, 33330 Saint-Emilion, France",
+      "neighborhood": "Saint-Emilion village",
+      "cuisine": "Gascon-inspired haute cuisine; foie gras and truffle; Saint-Emilion vertical flight menus",
+      "cellar_size": 800,
+      "awards": [
+        { "source": "Michelin Star", "year": 2024 }
+      ],
+      "description": "Michelin-starred hotel restaurant on the bell-tower square in Saint-Emilion village. Extensive Premier Grand Cru Classe cellar; wine-director-led pairing menus across Right Bank appellations.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.hostellerie-plaisance.com/en/",
+        "address_quoted": "5 place du Clocher, 33330 Saint-Emilion, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187073-d1076068-Reviews-Hostellerie_de_Plaisance-Saint_Emilion_Gironde_Nouvelle_Aquitaine.html",
+        "cuisine_evidence_url": "https://www.hostellerie-plaisance.com/en/restaurant/wine-list/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "restaurant-cordeillan-bages",
+      "name": "Restaurant Cordeillan-Bages",
+      "address": "Route des Chateaux, 33250 Pauillac, France",
+      "neighborhood": "Pauillac AOC",
+      "cuisine": "Modern French Landaise; market-driven seasonal menus; Medoc wine-pairing programmes",
+      "cellar_size": 1200,
+      "awards": [
+        { "source": "Michelin Star", "year": 2023 }
+      ],
+      "description": "Michelin-starred dining at the Chateau Cordeillan-Bages Relais and Chateaux hotel in the heart of Pauillac. 1,200-label cellar covering all Medoc communes; Lynch-Bages and neighbouring estates feature prominently.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.cordeillan-bages.com/en/restaurant/",
+        "address_quoted": "Route des Chateaux, 33250 Pauillac, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g664680-d1223827-Reviews-Restaurant_Cordeillan_Bages-Pauillac_Gironde_Nouvelle_Aquitaine.html",
+        "cuisine_evidence_url": "https://www.cordeillan-bages.com/en/restaurant/wine-cellar/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "lalique-restaurant-lafaurie-peyraguey",
+      "name": "Restaurant Lalique at Lafaurie-Peyraguey",
+      "address": "Chateau Lafaurie-Peyraguey, 33210 Bommes, France",
+      "neighborhood": "Sauternes AOC",
+      "cuisine": "Contemporary French; Sauternes-pairing menus; dessert courses with d'Yquem and Lafaurie verticals",
+      "cellar_size": 350000,
+      "awards": [
+        { "source": "Michelin", "year": 2024 }
+      ],
+      "description": "Two-Michelin-starred restaurant within the Lalique luxury hotel at Chateau Lafaurie-Peyraguey, the world's premier dining experience dedicated to Sauternes wines including a 350,000-bottle estate cellar.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.lafauriepeyragueylalique.com/en/restaurant/",
+        "address_quoted": "Chateau Lafaurie-Peyraguey, 33210 Bommes, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g2408695-d15273398-Reviews-Restaurant_Lalique-Sauternes_Gironde_Nouvelle_Aquitaine.html",
+        "cuisine_evidence_url": "https://www.lafauriepeyragueylalique.com/en/restaurant/wine-list/",
+        "checked_on": "2026-05-22"
+      }
+    }
+  ]
 }

@@ -1,3 +1,214 @@
 {
-  "tasting_rooms": []
+  "tasting_rooms": [
+    {
+      "slug": "bordeaux-wine-school-tasting-bar",
+      "name": "Bordeaux Wine School Tasting Bar",
+      "address": "3 cours du 30 Juillet, 33000 Bordeaux, France",
+      "neighborhood": "Bordeaux city centre",
+      "varietals_focus": ["Cabernet Sauvignon", "Merlot", "Semillon", "Sauvignon Blanc"],
+      "pricing": "From EUR 20 per tasting flight; full WSET course packages from EUR 250",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": null,
+      "description": "CIVB-affiliated Bordeaux Wine School city tasting bar next to the tourist office. Guided flights through appellations with bilingual sommeliers; retail purchasing available.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.bordeaux-wine-school.com/en/",
+        "address_quoted": "3 cours du 30 Juillet, 33000 Bordeaux",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g187079-d6960064-Reviews-Bordeaux_Wine_School-Bordeaux_Gironde_Nouvelle_Aquitaine.html",
+        "cuisine_evidence_url": "https://www.bordeaux-wine-school.com/en/our-courses/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "l-intendant-tasting-room",
+      "name": "L'Intendant Tasting Room",
+      "address": "2 allees de Tourny, 33000 Bordeaux, France",
+      "neighborhood": "Bordeaux city centre",
+      "varietals_focus": ["Cabernet Sauvignon", "Merlot", "Semillon", "Sauvignon Blanc"],
+      "pricing": "Per-glass from EUR 6; vertical tasting flights from EUR 35",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": null,
+      "description": "Bordeaux's iconic spiral-staircase wine tower with 15,000 references. Daily by-the-glass tastings span Medoc, Pessac-Leognan, Sauternes; vertical flights from EUR 35.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.lintendant.com/",
+        "address_quoted": "2 allees de Tourny, 33000 Bordeaux",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g187079-d2082199-Reviews-L_Intendant-Bordeaux_Gironde_Nouvelle_Aquitaine.html",
+        "cuisine_evidence_url": "https://www.lintendant.com/vins-de-bordeaux",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "cite-du-vin-tasting-bar",
+      "name": "Le Wine Bar de la Cite du Vin",
+      "address": "134-150 quai de Bacalan, 33300 Bordeaux, France",
+      "neighborhood": "Bacalan, Bordeaux",
+      "varietals_focus": ["Cabernet Sauvignon", "Merlot", "Semillon", "Sauvignon Blanc", "Muscadelle"],
+      "pricing": "Included in Cite du Vin permanent exhibition ticket; extra flights from EUR 8",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": null,
+      "description": "The 8th-floor Belvedere tasting bar at the Cite du Vin offers 360-degree Garonne panorama with rotating global wine flights, including a strong Bordeaux selections by the glass.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.laciteduvin.com/en/visit/",
+        "address_quoted": "134-150 quai de Bacalan, 33300 Bordeaux",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g187079-d8728278-Reviews-La_Cite_du_Vin-Bordeaux_Gironde_Nouvelle_Aquitaine.html",
+        "cuisine_evidence_url": "https://www.laciteduvin.com/en/visit/the-wine-bar/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "maison-du-vin-de-saint-emilion",
+      "name": "Maison du Vin de Saint-Emilion",
+      "address": "1 rue des Clochers, 33330 Saint-Emilion, France",
+      "neighborhood": "Saint-Emilion",
+      "varietals_focus": ["Merlot", "Cabernet Franc", "Cabernet Sauvignon"],
+      "pricing": "Tasting flights from EUR 12; advance booking recommended in high season",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": null,
+      "description": "The official Maison du Vin of the Saint-Emilion wine union offers structured flights of Grand Cru and Premier Grand Cru Classe wines, with bilingual staff and vineyard map resources.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.vins-saint-emilion.com/en/maison-du-vin/",
+        "address_quoted": "1 rue des Clochers, 33330 Saint-Emilion",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g187073-d1076067-Reviews-Maison_du_Vin_de_Saint_Emilion-Saint_Emilion_Gironde_Nouvelle_Aquitaine.html",
+        "cuisine_evidence_url": "https://www.vins-saint-emilion.com/en/maison-du-vin/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "maison-du-vin-de-pauillac",
+      "name": "Maison du Vin de Pauillac",
+      "address": "La Verrerie, quai de Pouvourville, 33250 Pauillac, France",
+      "neighborhood": "Pauillac",
+      "varietals_focus": ["Cabernet Sauvignon", "Merlot", "Cabernet Franc", "Petit Verdot"],
+      "pricing": "Tasting flights from EUR 15; first-growth flight available on request from EUR 40",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": null,
+      "description": "The Pauillac wine union tasting room on the Gironde quayside. Covers the appellation's full range from fifth-growth value to premier cru flights with printed tasting notes.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.vins-medoc.fr/en/plan-your-visit/maisons-du-vin/",
+        "address_quoted": "La Verrerie, quai de Pouvourville, 33250 Pauillac",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g664680-d1221065-Reviews-Maison_du_Vin_de_Pauillac-Pauillac_Gironde_Nouvelle_Aquitaine.html",
+        "cuisine_evidence_url": "https://www.vins-medoc.fr/en/plan-your-visit/maisons-du-vin/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "chateau-mouton-rothschild-tasting",
+      "name": "Chateau Mouton Rothschild Visitor Centre",
+      "address": "Chateau Mouton Rothschild, 33250 Pauillac, France",
+      "neighborhood": "Pauillac AOC",
+      "varietals_focus": ["Cabernet Sauvignon", "Merlot", "Cabernet Franc", "Petit Verdot"],
+      "pricing": "Museum entry EUR 12; tasting programs from EUR 35 by appointment",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "chateau-mouton-rothschild",
+      "description": "The world-renowned Museum of Wine in Art and the estate tasting room at Mouton Rothschild. Visits include the underground chai, label gallery, and tasting of current releases.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.chateau-mouton-rothschild.com/en/visit",
+        "address_quoted": "Chateau Mouton Rothschild, 33250 Pauillac, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g664680-d1072895-Reviews-Chateau_Mouton_Rothschild-Pauillac_Gironde_Nouvelle_Aquitaine.html",
+        "cuisine_evidence_url": "https://www.chateau-mouton-rothschild.com/en/wines",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "chateau-dyquem-tasting",
+      "name": "Chateau d'Yquem Tasting Experience",
+      "address": "Chateau d'Yquem, 33210 Sauternes, France",
+      "neighborhood": "Sauternes AOC",
+      "varietals_focus": ["Semillon", "Sauvignon Blanc"],
+      "pricing": "Tour and tasting packages from EUR 35; vertical tastings from EUR 120 by appointment",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "chateau-dyquem",
+      "description": "Guided estate tours at the world's most revered sweet wine estate. Visits include the botrytised vineyard parcels, historic chai and structured tasting of Yquem plus Y (dry white).",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.yquem.fr/en/visit-us",
+        "address_quoted": "Chateau d'Yquem, 33210 Sauternes, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g2408695-d3482551-Reviews-Chateau_d_Yquem-Sauternes_Gironde_Nouvelle_Aquitaine.html",
+        "cuisine_evidence_url": "https://www.yquem.fr/en/the-wines/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "chateau-smith-haut-lafitte-vinotherapie",
+      "name": "Chateau Smith Haut Lafitte Tasting Salon",
+      "address": "Chateau Smith Haut Lafitte, 33650 Martillac, France",
+      "neighborhood": "Pessac-Leognan AOC",
+      "varietals_focus": ["Cabernet Sauvignon", "Sauvignon Blanc", "Sauvignon Gris"],
+      "pricing": "Cellar tours and tasting from EUR 25; vertical library tasting from EUR 80 by appointment",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "chateau-smith-haut-lafitte",
+      "description": "The tasting salon at Chateau Smith Haut Lafitte, combining Graves Cru Classe red and white flights with access to the Caudalie spa estate grounds. Premier Cuvee and white vertical programmes available.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.chateau-smith-haut-lafitte.com/en/visit/",
+        "address_quoted": "Chateau Smith Haut Lafitte, 33650 Martillac, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.sources-caudalie.com/en/wine-and-health/",
+        "cuisine_evidence_url": "https://www.chateau-smith-haut-lafitte.com/en/wines/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "chateau-de-la-riviere-cave-experience",
+      "name": "Chateau de la Riviere Cave Tasting",
+      "address": "Chateau de la Riviere, 33126 La Riviere, France",
+      "neighborhood": "Fronsac AOC",
+      "varietals_focus": ["Merlot", "Cabernet Franc", "Cabernet Sauvignon"],
+      "pricing": "Cave tour and tasting from EUR 15; wine and cheese pairing experience EUR 35",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": "chateau-de-la-riviere",
+      "description": "Tours of Fronsac's most spectacular 16th-century underground limestone cave network at Chateau de la Riviere, followed by Fronsac AOC flights including reserve selections.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.chateau-de-la-riviere.com/en/visits/",
+        "address_quoted": "Chateau de la Riviere, 33126 La Riviere, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g2397920-d8731620-Reviews-Chateau_de_la_Riviere-La_Riviere_Gironde_Nouvelle_Aquitaine.html",
+        "cuisine_evidence_url": "https://www.chateau-de-la-riviere.com/en/wines/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "bardins-wine-bar-pessac",
+      "name": "Bardin's Wine Bar Pessac",
+      "address": "236 avenue du Marechal de Lattre de Tassigny, 33600 Pessac, France",
+      "neighborhood": "Pessac",
+      "varietals_focus": ["Cabernet Sauvignon", "Merlot", "Sauvignon Blanc", "Semillon"],
+      "pricing": "By the glass from EUR 5; Pessac-Leognan flights from EUR 22",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": null,
+      "description": "Neighbourhood wine shop and tasting bar in Pessac specialising in Pessac-Leognan Crus Classes at cellar-door prices. Regular Saturday producer tastings and bottle retail.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.google.com/maps/place/Bardin%27s+Pessac/",
+        "address_quoted": "236 avenue du Marechal de Lattre de Tassigny, 33600 Pessac",
+        "open_status": "open",
+        "open_evidence_url": "https://www.yelp.fr/biz/bardin-s-pessac",
+        "cuisine_evidence_url": "https://www.vins-graves.com/en/appellation-pessac-leognan/",
+        "checked_on": "2026-05-22"
+      }
+    }
+  ]
 }

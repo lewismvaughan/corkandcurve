@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Local JSON-LD validator for tablejourney.com.
+"""Local JSON-LD validator for corkandcurve.com.
 
 Walks every HTML page under content/, extracts every <script type="application/ld+json">
 block, and checks:
@@ -60,10 +60,23 @@ REQUIRED_BY_TYPE = {
     "BarOrPub":           ("name", "address"),
     "Brewery":            ("name", "address"),
     "FoodEstablishment":  ("name",),
+    "Winery":             ("name",),
+    "Distillery":         ("name",),
+    "Museum":             ("name",),
+    "Store":              ("name",),
+    "LodgingBusiness":    ("name",),
+    "TouristAttraction":  ("name",),
     "TouristDestination": ("name",),
     "TouristTrip":        ("name",),
     "Festival":           ("name",),
     "EducationEvent":     ("name",),
+    "Course":             ("name",),
+    "Product":            ("name",),
+    "Brand":              ("name",),
+    "CollectionPage":     ("name",),
+    "HowTo":              ("name",),
+    "AboutPage":          (),
+    "ContactPage":        (),
     "ItemList":           ("itemListElement",),
     "BreadcrumbList":     ("itemListElement",),
     "FAQPage":            ("mainEntity",),

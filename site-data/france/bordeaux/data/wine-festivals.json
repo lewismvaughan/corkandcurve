@@ -1,3 +1,136 @@
 {
-  "wine_festivals": []
+  "wine_festivals": [
+    {
+      "slug": "bordeaux-fete-le-vin",
+      "name": "Bordeaux Fete le Vin",
+      "address": "Quais de Bordeaux, Quai des Chartrons, 33000 Bordeaux, France",
+      "neighborhood": "Bordeaux quays",
+      "recurrence_pattern": "Biennial, even years, late June",
+      "start_month": "June",
+      "duration": "4 days",
+      "host_organization": "CIVB (Conseil Interprofessionnel du Vin de Bordeaux) and Bordeaux City Council",
+      "featured_producers": ["chateau-margaux", "chateau-lafite-rothschild", "chateau-mouton-rothschild", "chateau-latour", "chateau-haut-brion", "chateau-cheval-blanc", "petrus"],
+      "ticket_required": true,
+      "description": "Europe's largest wine festival, held biennially on the Bordeaux quays. 70+ wine pavilions, 35,000 tasting tokens sold, world-class chateaux pouring current releases and select back vintages.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.bordeaux-fete-le-vin.com/",
+        "address_quoted": "Quai des Chartrons, 33000 Bordeaux",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g187079-d11810783-Reviews-Bordeaux_Fete_le_Vin-Bordeaux_Gironde_Nouvelle_Aquitaine.html",
+        "cuisine_evidence_url": "https://www.bordeaux-fete-le-vin.com/les-chateaux/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "bordeaux-tasting",
+      "name": "Bordeaux Tasting",
+      "address": "Hangar 14, Quai des Chartrons, 33000 Bordeaux, France",
+      "neighborhood": "Chartrons, Bordeaux",
+      "recurrence_pattern": "Annual, early December",
+      "start_month": "December",
+      "duration": "3 days",
+      "host_organization": "Editions Bettane et Desseauve",
+      "featured_producers": ["chateau-pontet-canet", "chateau-palmer", "chateau-cos-destournel", "chateau-ducru-beaucaillou", "chateau-figeac"],
+      "ticket_required": true,
+      "description": "Annual consumer and trade grand tasting organised by the Bettane et Desseauve wine guide, held in Hangar 14 on the Chartrons quay. 250+ Bordeaux producers presenting current releases and en-primeur samples.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.bordeaux-tasting.com/",
+        "address_quoted": "Hangar 14, Quai des Chartrons, 33000 Bordeaux",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g187079-d13476592-Reviews-Bordeaux_Tasting-Bordeaux_Gironde_Nouvelle_Aquitaine.html",
+        "cuisine_evidence_url": "https://www.bordeaux-tasting.com/exposants/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "vinexpo-bordeaux",
+      "name": "Vinexpo Bordeaux",
+      "address": "Parc des Expositions de Bordeaux, Avenue Jean Gabriel Domergue, 33300 Bordeaux, France",
+      "neighborhood": "Lac district, Bordeaux",
+      "recurrence_pattern": "Biennial, odd years, June",
+      "start_month": "June",
+      "duration": "4 days",
+      "host_organization": "Vinexpo (Reed Exhibitions / GL Events)",
+      "featured_producers": ["chateau-margaux", "chateau-latour", "chateau-mouton-rothschild", "chateau-haut-brion"],
+      "ticket_required": true,
+      "description": "The world's leading international wine and spirits trade fair, held biennially at the Bordeaux exhibition centre. 2,400+ exhibitors from 40+ countries; Bordeaux first growths always prominently represented.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.vinexpo.com/bordeaux/",
+        "address_quoted": "Parc des Expositions de Bordeaux, Avenue Jean Gabriel Domergue, 33300 Bordeaux",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g187079-d8725678-Reviews-Vinexpo-Bordeaux_Gironde_Nouvelle_Aquitaine.html",
+        "cuisine_evidence_url": "https://www.vinexpo.com/bordeaux/exhibitors/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "en-primeur-semaine",
+      "name": "Bordeaux En Primeur Week",
+      "address": "Chateaux across the Medoc, Pessac-Leognan, Saint-Emilion and Pomerol, Bordeaux region, France",
+      "neighborhood": "Bordeaux region-wide",
+      "recurrence_pattern": "Annual, early April (typically first week)",
+      "start_month": "April",
+      "duration": "5-7 days",
+      "host_organization": "Union des Grands Crus de Bordeaux (UGCB)",
+      "featured_producers": ["chateau-margaux", "chateau-lafite-rothschild", "chateau-latour", "chateau-mouton-rothschild", "chateau-haut-brion", "chateau-cheval-blanc", "petrus"],
+      "ticket_required": true,
+      "description": "The annual en-primeur tasting week when the world's trade and press taste barrel samples of the new vintage at the chateaux before release. Prices set and allocations agreed; the financial heartbeat of Bordeaux.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.ugcb.net/en/en-primeur/",
+        "address_quoted": "Bordeaux region, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.decanter.com/bordeaux-en-primeur/",
+        "cuisine_evidence_url": "https://www.ugcb.net/en/en-primeur/the-tasting-week/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "marathon-du-medoc",
+      "name": "Marathon du Medoc",
+      "address": "Pauillac, 33250 Gironde, France",
+      "neighborhood": "Pauillac and Medoc communes",
+      "recurrence_pattern": "Annual, second Saturday of September",
+      "start_month": "September",
+      "duration": "1 day",
+      "host_organization": "Association Marathon du Medoc",
+      "featured_producers": ["chateau-lafite-rothschild", "chateau-latour", "chateau-mouton-rothschild", "chateau-lynch-bages", "chateau-pichon-baron"],
+      "ticket_required": true,
+      "description": "The world's most celebrated wine-marathon, 42.2km through the Pauillac and Saint-Julien vineyards with 23 chateau wine stops en route. Costumed participants; oysters and Medoc wines at each station.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.marathondumedoc.com/",
+        "address_quoted": "33250 Pauillac, Gironde, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g664680-d8738921-Reviews-Marathon_du_Medoc-Pauillac_Gironde_Nouvelle_Aquitaine.html",
+        "cuisine_evidence_url": "https://www.marathondumedoc.com/le-parcours/les-chateaux/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "saint-emilion-jurade",
+      "name": "La Jurade de Saint-Emilion",
+      "address": "Tour du Roi, Place du Marche, 33330 Saint-Emilion, France",
+      "neighborhood": "Saint-Emilion village",
+      "recurrence_pattern": "Biannual: third Sunday of June (new harvest proclamation) and third Sunday of September (harvest ban lifting)",
+      "start_month": "June",
+      "duration": "1 day per ceremony",
+      "host_organization": "La Jurade de Saint-Emilion",
+      "featured_producers": ["chateau-angelus", "chateau-cheval-blanc", "chateau-pavie", "chateau-figeac", "chateau-canon"],
+      "ticket_required": false,
+      "description": "The ancient Jurade brotherhood's medieval ceremonies held twice yearly in Saint-Emilion village: the June ban on harvesting and the September proclamation of the vintage from atop the Tour du Roi. Street processions and open tastings.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.jurade-saint-emilion.com/en/",
+        "address_quoted": "Tour du Roi, Place du Marche, 33330 Saint-Emilion",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g187073-d6961235-Reviews-La_Jurade_de_Saint_Emilion-Saint_Emilion_Gironde_Nouvelle_Aquitaine.html",
+        "cuisine_evidence_url": "https://www.jurade-saint-emilion.com/en/ceremonies/",
+        "checked_on": "2026-05-22"
+      }
+    }
+  ]
 }

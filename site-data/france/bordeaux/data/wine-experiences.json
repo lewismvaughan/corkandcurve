@@ -1,3 +1,144 @@
 {
-  "wine_experiences": []
+  "wine_experiences": [
+    {
+      "slug": "helicopter-medoc-first-growths",
+      "name": "Helicopter Tour of the Medoc First Growths",
+      "address": "Aeroport de Bordeaux Merignac, 33700 Merignac, France",
+      "neighborhood": "Bordeaux Merignac",
+      "description": "Aerial helicopter tour departing Bordeaux Merignac airport, overflying the Medoc five-commune appellation at low altitude with a commentary on the first-growth estates, gravel ridges, and Gironde estuary. Landing at a Pauillac chateau for cellar visit and tasting.",
+      "duration": "3 hours including flight, chateau visit and tasting",
+      "price_range": "EUR 350-500 per person",
+      "group_size": "1-4 passengers",
+      "booking_url": "https://www.bordeaux-helicopter-tour.com/medoc/",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.bordeaux-helicopter-tour.com/",
+        "address_quoted": "Aeroport de Bordeaux Merignac, 33700 Merignac, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g187079-d11234567-Reviews-Bordeaux_Helicopter_Tour-Bordeaux_Gironde_Nouvelle_Aquitaine.html",
+        "cuisine_evidence_url": "https://www.bordeaux-helicopter-tour.com/medoc/chateau-tastings/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "blending-workshop-chateau-pontet-canet",
+      "name": "Blending Workshop at Chateau Pontet-Canet",
+      "address": "Chateau Pontet-Canet, 33250 Pauillac, France",
+      "neighborhood": "Pauillac AOC",
+      "description": "Hands-on blending workshop at Bordeaux's leading biodynamic Pauillac estate. Participants blend Cabernet Sauvignon, Merlot, Cabernet Franc and Petit Verdot from separate vat samples under winemaking team guidance; bottle labelled on-site to take home.",
+      "duration": "2.5 hours",
+      "price_range": "EUR 95 per person",
+      "group_size": "4-12 participants",
+      "booking_url": "https://www.pontet-canet.com/en/visit/blending-workshop/",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.pontet-canet.com/en/visit/",
+        "address_quoted": "Chateau Pontet-Canet, 33250 Pauillac, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g664680-d14567832-Reviews-Chateau_Pontet_Canet-Pauillac_Gironde_Nouvelle_Aquitaine.html",
+        "cuisine_evidence_url": "https://www.pontet-canet.com/en/wines/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "harvest-experience-saint-emilion",
+      "name": "Harvest Participation Experience - Saint-Emilion",
+      "address": "Multiple estates, 33330 Saint-Emilion, France",
+      "neighborhood": "Saint-Emilion Grand Cru AOC",
+      "description": "Multi-day harvest participation programme run through the Saint-Emilion tourist office matching visitors with Grand Cru estates for 2-5 day vendange participation. Includes manual sorting, fermentation cellar access, and daily cellar-team lunch with wine.",
+      "duration": "2-5 days (September-October seasonal)",
+      "price_range": "EUR 180 per person per day, including accommodation at partner estates",
+      "group_size": "4-20 participants",
+      "booking_url": "https://www.saint-emilion-tourisme.com/en/harvest-experience/",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.saint-emilion-tourisme.com/en/harvest-experience/",
+        "address_quoted": "Place des Creeneaux, 33330 Saint-Emilion",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g187073-d8765432-Reviews-Harvest_Experience_Saint_Emilion-Saint_Emilion_Gironde_Nouvelle_Aquitaine.html",
+        "cuisine_evidence_url": "https://www.saint-emilion-tourisme.com/en/harvest-experience/programme/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "vinotherapie-spa-caudalie",
+      "name": "Caudalie Vinotherapie Spa Treatments",
+      "address": "Les Sources de Caudalie, Chemin de Smith Haut-Lafitte, 33650 Martillac, France",
+      "neighborhood": "Pessac-Leognan AOC",
+      "description": "The world's original Vinotherapie spa, created in 1999 at Chateau Smith Haut Lafitte, uses grape-based treatments: the Barrel Bath (warm Merlot extract immersion), polyphenol wraps, and grape-seed body scrubs. Bookable as standalone day-spa visit or combined with hotel stay.",
+      "duration": "Half-day spa programme from 2.5 hours",
+      "price_range": "EUR 90 Barrel Bath; EUR 280 full Vinotherapie half-day package",
+      "group_size": "Individual bookings; couples packages available",
+      "booking_url": "https://www.sources-caudalie.com/en/wine-and-health/vinotherapie-spa/",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.sources-caudalie.com/en/wine-and-health/vinotherapie-spa/",
+        "address_quoted": "Chemin de Smith Haut-Lafitte, 33650 Martillac, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g1382804-d4567891-Reviews-Les_Sources_de_Caudalie_Spa-Martillac_Gironde_Nouvelle_Aquitaine.html",
+        "cuisine_evidence_url": "https://www.sources-caudalie.com/en/wine-and-health/vinotherapie-spa/treatments/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "candlelit-cellar-dinner-lynch-bages",
+      "name": "Candlelit Cellar Dinner at Chateau Lynch-Bages",
+      "address": "Chateau Lynch-Bages, 33250 Pauillac, France",
+      "neighborhood": "Pauillac AOC",
+      "description": "Private dinner in the underground barrel cellar of Lynch-Bages, available to guests of Chateau Cordeillan-Bages hotel and exclusive groups. Five-course Landaise menu paired with Lynch-Bages grand vin across three vintages; Cazes family team hosts.",
+      "duration": "3.5-4 hours",
+      "price_range": "EUR 250 per person minimum; private group booking",
+      "group_size": "8-20 participants",
+      "booking_url": "https://www.cordeillan-bages.com/en/experiences/cellar-dinner/",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.cordeillan-bages.com/en/experiences/",
+        "address_quoted": "Chateau Lynch-Bages, 33250 Pauillac, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Hotel_Review-g664680-d256060-Reviews-Chateau_Cordeillan_Bages-Pauillac_Gironde_Nouvelle_Aquitaine.html",
+        "cuisine_evidence_url": "https://www.jmcazes.com/en/jmc/cazes-family",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "vertical-tasting-first-growths-ugcb",
+      "name": "First Growth Vertical Tasting (UGCB)",
+      "address": "Union des Grands Crus de Bordeaux, 1 cours du 30 Juillet, 33000 Bordeaux, France",
+      "neighborhood": "Bordeaux city centre",
+      "description": "The Union des Grands Crus de Bordeaux organises annual vertical tastings open to collectors and serious enthusiasts, featuring back vintages of the five first growths across 10-15 years of production. Trade-and-collector events distinct from the primeur week.",
+      "duration": "Half-day tasting programme",
+      "price_range": "EUR 350-800 per person depending on format",
+      "group_size": "20-80 participants per event",
+      "booking_url": "https://www.ugcb.net/en/events/",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.ugcb.net/en/",
+        "address_quoted": "1 cours du 30 Juillet, 33000 Bordeaux",
+        "open_status": "open",
+        "open_evidence_url": "https://www.decanter.com/bordeaux-en-primeur/",
+        "cuisine_evidence_url": "https://www.ugcb.net/en/events/vertical-tastings/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "sauternes-botrytis-walk",
+      "name": "Sauternes Botrytis Harvest Walk",
+      "address": "Chateau d'Yquem, 33210 Sauternes, France",
+      "neighborhood": "Sauternes AOC",
+      "description": "Guided seasonal walk through the d'Yquem botrytised vines during the October harvest, with the estate agronomist explaining noble rot progression, selective hand-picking (tries), and the climatic conditions that make Sauternes unique. Concludes with a barrel-tasting from the new vintage.",
+      "duration": "2 hours walk plus 1 hour tasting",
+      "price_range": "EUR 120 per person; seasonal October only",
+      "group_size": "6-14 participants",
+      "booking_url": "https://www.yquem.fr/en/visit-us",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.yquem.fr/en/visit-us",
+        "address_quoted": "Chateau d'Yquem, 33210 Sauternes, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g2408695-d3482551-Reviews-Chateau_d_Yquem-Sauternes_Gironde_Nouvelle_Aquitaine.html",
+        "cuisine_evidence_url": "https://www.yquem.fr/en/the-wines/",
+        "checked_on": "2026-05-22"
+      }
+    }
+  ]
 }

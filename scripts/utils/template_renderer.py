@@ -50,34 +50,37 @@ def _compute_css_version() -> str:
     return hasher.hexdigest()[:10]
 
 
-# 24 food topics. shared across renderer, generator and templates.
-FOOD_TOPIC_NAV = [
-    {'slug': 'restaurants',      'name': 'Restaurants',      'icon': '🍽️'},
-    {'slug': 'fine-dining',      'name': 'Fine Dining',      'icon': '⭐'},
-    {'slug': 'casual-dining',    'name': 'Casual Dining',    'icon': '🥘'},
-    {'slug': 'cafes',            'name': 'Cafés',            'icon': '☕'},
-    {'slug': 'bakeries',         'name': 'Bakeries',         'icon': '🥐'},
-    {'slug': 'coffee-roasters',  'name': 'Coffee Roasters',  'icon': '🫘'},
-    {'slug': 'wine-bars',        'name': 'Wine Bars',        'icon': '🍷'},
-    {'slug': 'bars',             'name': 'Bars',             'icon': '🍸'},
-    {'slug': 'street-food',      'name': 'Street Food',      'icon': '🌮'},
-    {'slug': 'breweries',        'name': 'Breweries',        'icon': '🍺'},
-    {'slug': 'markets',          'name': 'Markets',          'icon': '🥬'},
-    {'slug': 'food-tours',       'name': 'Food Tours',       'icon': '🚶'},
-    {'slug': 'festivals',        'name': 'Festivals',        'icon': '🎉'},
-    {'slug': 'cooking-classes',  'name': 'Cooking Classes',  'icon': '👨‍🍳'},
-    {'slug': 'dietary',          'name': 'Dietary',          'icon': '🌱'},
-    {'slug': 'budget-eating',    'name': 'Budget Eats',      'icon': '💶'},
-    {'slug': 'signature-dishes', 'name': 'Signature Dishes', 'icon': '🥖'},
+# 24 wine topics. shared across renderer, generator and templates.
+WINE_TOPIC_NAV = [
+    {'slug': 'vineyards',        'name': 'Vineyards',        'icon': '🍇'},
+    {'slug': 'wines',            'name': 'Wines',            'icon': '🍷'},
+    {'slug': 'tasting-rooms',    'name': 'Tasting Rooms',    'icon': '🍷'},
+    {'slug': 'wine-bars',        'name': 'Wine Bars',        'icon': '🥂'},
+    {'slug': 'wine-restaurants', 'name': 'Wine Restaurants', 'icon': '🍽️'},
+    {'slug': 'wine-retailers',   'name': 'Wine Retailers',   'icon': '🛒'},
+    {'slug': 'wine-schools',     'name': 'Wine Schools',     'icon': '🎓'},
+    {'slug': 'wine-tours',       'name': 'Wine Tours',       'icon': '🚐'},
+    {'slug': 'wine-festivals',   'name': 'Wine Festivals',   'icon': '🎉'},
+    {'slug': 'distilleries',     'name': 'Distilleries',     'icon': '🥃'},
+    {'slug': 'wine-museums',     'name': 'Wine Museums',     'icon': '🏛️'},
+    {'slug': 'wine-hotels',      'name': 'Wine Hotels',      'icon': '🛏️'},
+    {'slug': 'wine-experiences', 'name': 'Experiences',      'icon': '✨'},
+    {'slug': 'signature-wines',  'name': 'Signature Wines',  'icon': '🍾'},
+    {'slug': 'signature-grapes', 'name': 'Signature Grapes', 'icon': '🌿'},
+    {'slug': 'budget-wines',     'name': 'Budget Wines',     'icon': '💶'},
     {'slug': 'hidden-gems',      'name': 'Hidden Gems',      'icon': '💎'},
-    {'slug': 'brunch',           'name': 'Brunch',           'icon': '🥞'},
-    {'slug': 'late-night',       'name': 'Late Night',       'icon': '🌙'},
-    {'slug': 'food-history',     'name': 'Food History',     'icon': '📜'},
-    {'slug': 'seasonal-food',    'name': 'Seasonal',         'icon': '🍂'},
-    {'slug': 'day-trips-food',   'name': 'Food Day Trips',   'icon': '🚆'},
+    {'slug': 'day-trips-wine',   'name': 'Day Trips',        'icon': '🚆'},
     {'slug': 'itineraries',      'name': 'Itineraries',      'icon': '🗺️'},
+    {'slug': 'wine-history',     'name': 'Wine History',     'icon': '📜'},
+    {'slug': 'seasonal-wine',    'name': 'Seasonal',         'icon': '🍂'},
+    {'slug': 'neighborhoods',    'name': 'Sub-Appellations', 'icon': '📍'},
     {'slug': 'nightlife',        'name': 'Nightlife',        'icon': '🌃'},
+    {'slug': 'dietary',          'name': 'Biodynamic',       'icon': '🌱'},
+    {'slug': 'food-pairing',     'name': 'Food Pairing',     'icon': '🧀'},
 ]
+
+# Back-compat alias for any external import expecting the old name.
+FOOD_TOPIC_NAV = WINE_TOPIC_NAV
 
 
 class TemplateRenderer:
@@ -90,33 +93,26 @@ class TemplateRenderer:
         'HOME':   'home.html',
     }
 
-    # Topic-specific templates. 24 food topics, slug ↔ template file 1:1.
+    # Topic-specific templates. Only topics whose layout differs from the
+    # generic card grid get an explicit template; the rest fall back to
+    # topics/_topic_base.html, which renders a place_card grid over the
+    # single topic list loaded for the page.
     TOPIC_TEMPLATE_MAP = {
-        'restaurants':      'topics/restaurants-topic.html',
-        'fine-dining':      'topics/fine-dining-topic.html',
-        'casual-dining':    'topics/casual-dining-topic.html',
-        'cafes':            'topics/cafes-topic.html',
-        'bakeries':         'topics/bakeries-topic.html',
-        'coffee-roasters':  'topics/coffee-roasters-topic.html',
+        'vineyards':        'topics/vineyards-topic.html',
+        'wines':            'topics/wines-topic.html',
         'wine-bars':        'topics/wine-bars-topic.html',
-        'bars':             'topics/bars-topic.html',
-        'street-food':      'topics/street-food-topic.html',
-        'breweries':        'topics/breweries-topic.html',
-        'markets':          'topics/markets-topic.html',
-        'food-tours':       'topics/food-tours-topic.html',
-        'festivals':        'topics/festivals-topic.html',
-        'cooking-classes':  'topics/cooking-classes-topic.html',
-        'dietary':          'topics/dietary-topic.html',
-        'budget-eating':    'topics/budget-eating-topic.html',
-        'signature-dishes': 'topics/signature-dishes-topic.html',
-        'hidden-gems':      'topics/hidden-gems-topic.html',
-        'brunch':           'topics/brunch-topic.html',
-        'late-night':       'topics/late-night-topic.html',
-        'food-history':     'topics/food-history-topic.html',
-        'seasonal-food':    'topics/seasonal-food-topic.html',
-        'day-trips-food':   'topics/day-trips-food-topic.html',
+        'wine-restaurants': 'topics/wine-restaurants-topic.html',
+        'wine-schools':     'topics/wine-schools-topic.html',
+        'wine-tours':       'topics/wine-tours-topic.html',
+        'wine-festivals':   'topics/wine-festivals-topic.html',
+        'signature-wines':  'topics/signature-wines-topic.html',
+        'signature-grapes': 'topics/signature-grapes-topic.html',
+        'wine-history':     'topics/wine-history-topic.html',
+        'seasonal-wine':    'topics/seasonal-wine-topic.html',
         'itineraries':      'topics/itineraries-topic.html',
+        'dietary':          'topics/dietary-topic.html',
         'nightlife':        'topics/nightlife-topic.html',
+        'food-pairing':     'topics/food-pairing-topic.html',
     }
 
     def __init__(self, templates_dir: str = None):
@@ -345,6 +341,17 @@ class TemplateRenderer:
                             .replace('h=900', 'h=675'))
                 context['hero_image_url'] = _preload
 
+        # Date helpers used as fallbacks in Event-type JSON-LD: schema.org
+        # requires startDate on every Festival / EducationEvent subtype,
+        # and Offer wants validFrom. Today / today+365 are stable defaults
+        # for ongoing offerings without scheduled dates.
+        import datetime as _dt_local
+        _today = _dt_local.date.today()
+        if 'current_date_iso' not in context:
+            context['current_date_iso'] = _today.isoformat()
+        if 'next_year_iso' not in context:
+            context['next_year_iso'] = (_today + _dt_local.timedelta(days=365)).isoformat()
+
         # Ensure hub_page has all required fields
         if 'hub_page' not in context:
             context['hub_page'] = {}
@@ -454,7 +461,7 @@ class TemplateRenderer:
         # Topic pages: use topic-specific title/desc if data didn't override per-page SEO.
         if topic_slug and topic_slug != 'index':
             topic_page_default = {
-                'title': f"{topic_obj.get('h1') or topic_obj.get('name') or topic_slug} | TableJourney",
+                'title': f"{topic_obj.get('h1') or topic_obj.get('name') or topic_slug} | Cork & Curve",
                 'description': topic_obj.get('meta_description') or topic_obj.get('subtitle') or '',
             }
             page_seo = pages_seo.get(topic_slug, topic_page_default)
@@ -462,7 +469,7 @@ class TemplateRenderer:
             page_seo = pages_seo.get('index', {})
         shared = site_seo.get('shared', {})
         geo = site_seo.get('geo', {})
-        base_url = site_seo.get('base_url', 'https://tablejourney.com')
+        base_url = site_seo.get('base_url') or (_load_site_config().get('base_url')) or 'https://corkandcurve.com'
 
         # URL path: /<country>/[<region>/][<topic>/]
         path_parts = [country_slug]
@@ -487,7 +494,7 @@ class TemplateRenderer:
         city_slug = region_slug if region_slug else country_slug
         branded_og = REPO_ROOT / 'content' / 'og' / f'{city_slug}.jpg'
         if branded_og.exists():
-            chosen_og = f'https://tablejourney.com/og/{city_slug}.jpg'
+            chosen_og = f'{base_url}/og/{city_slug}.jpg'
         else:
             hero_src = (context.get('destination', {}).get('hero_image')
                         or context.get('research', {}).get('hero_image'))
@@ -498,36 +505,36 @@ class TemplateRenderer:
                              .replace('h=1067', 'h=630'))
             else:
                 chosen_og = shared.get('og_image',
-                                       'https://tablejourney.com/og/default.jpg')
+                                       f'{base_url}/og/default.jpg')
 
         full_seo = {
             'meta': {
-                'title': page_seo.get('title', f'{dest_name} Food Guide | TableJourney'),
-                'description': page_seo.get('description', f'Where to eat in {dest_name}: restaurants, dishes, markets and food culture, told by TableJourney editors.'),
+                'title': page_seo.get('title', f'{dest_name} Wine Guide | Cork & Curve'),
+                'description': page_seo.get('description', f'Where to drink in {dest_name}: vineyards, tasting rooms, signature wines and wine culture, told by Cork & Curve editors.'),
                 'canonical_url': canonical_url,
                 'robots': shared.get('robots', 'index, follow, max-image-preview:large'),
-                'author': 'TableJourney Editorial',
+                'author': 'Cork & Curve Editorial',
             },
             'open_graph': {
-                'og_title': page_seo.get('title', f'{dest_name} Food Guide'),
-                'og_description': page_seo.get('description', f'Where to eat in {dest_name}.'),
+                'og_title': page_seo.get('title', f'{dest_name} Wine Guide'),
+                'og_description': page_seo.get('description', f'Where to drink wine in {dest_name}.'),
                 'og_image': chosen_og,
                 'og_image_width': '1200', 'og_image_height': '630',
-                'og_image_alt': shared.get('og_image_alt', f'{dest_name} food guide'),
+                'og_image_alt': shared.get('og_image_alt', f'{dest_name} wine guide'),
                 'og_url': canonical_url, 'og_type': 'article',
-                'og_site_name': 'TableJourney', 'og_locale': 'en_US',
+                'og_site_name': 'Cork & Curve', 'og_locale': 'en_US',
             },
             'twitter': {
                 'twitter_card': 'summary_large_image',
-                'twitter_title': page_seo.get('title', f'{dest_name} Food Guide'),
-                'twitter_description': page_seo.get('description', f'Where to eat in {dest_name}.'),
+                'twitter_title': page_seo.get('title', f'{dest_name} Wine Guide'),
+                'twitter_description': page_seo.get('description', f'Where to drink wine in {dest_name}.'),
                 'twitter_image': shared.get('twitter_image', chosen_og),
-                'twitter_image_alt': shared.get('og_image_alt', f'{dest_name} food guide'),
+                'twitter_image_alt': shared.get('og_image_alt', f'{dest_name} wine guide'),
             },
             'article': {
                 'published_time': '2026-01-01T00:00:00Z',
                 'modified_time': '2026-05-17T00:00:00Z',
-                'author': 'TableJourney Editorial', 'section': 'Food Travel',
+                'author': 'Cork & Curve Editorial', 'section': 'Wine Travel',
             },
             'geo': {
                 'place_name': geo.get('place_name', dest_name),
@@ -540,7 +547,7 @@ class TemplateRenderer:
         context['seo'] = full_seo
         return context
 
-    def _build_breadcrumb_items(self, context: Dict[str, Any], base_url: str = 'https://tablejourney.com') -> List[Dict]:
+    def _build_breadcrumb_items(self, context: Dict[str, Any], base_url: str = 'https://corkandcurve.com') -> List[Dict]:
         """Build breadcrumb items for structured data."""
         country_slug = context.get('country_slug', 'unknown')
         region_slug = context.get('region_slug')
@@ -582,17 +589,23 @@ class TemplateRenderer:
 
         # Calculate stats
         context['stats'] = {
-            'place_count': len(context['research'].get('top_attractions', [])),
-            'hotel_count': len(context['research'].get('hotels', [])),
-            'restaurant_count': len(context['research'].get('restaurants', [])),
+            'vineyard_count': len(context['research'].get('vineyards', [])),
+            'tasting_room_count': len(context['research'].get('tasting_rooms', [])),
+            'wine_bar_count': len(context['research'].get('wine_bars', [])),
         }
 
         # Ensure products array exists for digital product ads
         if 'products' not in context:
             context['products'] = []
 
-        # 20 food topics, mobile-friendly icons + tight labels.
-        context['topic_nav'] = FOOD_TOPIC_NAV
+        # 24 wine topics, mobile-friendly icons + tight labels. Show ONLY the
+        # topics that have real data so the hub never links to a thin/empty
+        # chapter (clean nav + no thin pages). Falls back to the full nav if
+        # the populated set can't be computed.
+        from utils.data_loader import populated_topic_slugs as _pts
+        _populated = _pts(context.get('research', {}))
+        context['populated_topics'] = sorted(_populated)
+        context['topic_nav'] = [t for t in WINE_TOPIC_NAV if t['slug'] in _populated] or WINE_TOPIC_NAV
 
         # Country-scope topic rollups: when this is a country index (no
         # region_slug), surface links to every /<country>/<topic|cuisine|
@@ -831,38 +844,63 @@ class TemplateRenderer:
         ]
 
     def _generate_default_faqs(self, context: Dict[str, Any]) -> List[Dict]:
-        """Food-travel default FAQs. Override per-page by providing `faqs` in data."""
+        """Wine-travel default FAQs. Override per-page by providing `faqs` in data.
+        Replaces the TJ food-focused defaults — wine readers want to know about
+        visiting cellars, harvest cadence, tasting fees and appointment policy."""
         dest_name = context['destination']['name']
         research = context.get('research', {})
-        peak = research.get('peak_food_season', 'year-round')
-        hours = research.get('local_dining_hours', 'lunch around 12:30, dinner from 19:30')
-        tipping = research.get('tipping_norm', 'service is typically included; small extra is welcome but not expected')
+        # Wine-vertical fields the agent may populate per region. Fallbacks
+        # match the most common European-AOC norms; agents that fill these
+        # fields per-region override the defaults.
+        season = research.get('peak_wine_season',
+                              'spring through autumn, with harvest the standout window')
+        hours = research.get('cellar_visit_hours',
+                             'most estates open 10:00 to 17:00 by appointment, often closed Sunday and Monday')
+        booking_norm = research.get('booking_norm',
+                                    'classified-growth and grand-cru estates require booking days to weeks ahead; smaller family domaines often take walk-ins midweek')
+        tipping = research.get('tipping_norm',
+                               'tipping is not expected at tastings; buying a bottle from the cellar door is the customary thank-you')
 
         def _strip_dot(s: str) -> str:
             return s[:-1] if isinstance(s, str) and s.endswith('.') else s
 
         return [
             {
-                'question': f'When is the best time to eat in {dest_name}?',
-                'answer': f'Peak food season in {dest_name} is {_strip_dot(peak)}.',
+                'question': f'When is the best time to visit {dest_name} for wine?',
+                'answer': f'Peak wine-travel season in {dest_name} is {_strip_dot(season)}.',
             },
             {
-                'question': f'What time do people eat in {dest_name}?',
-                'answer': f'Local dining hours: {_strip_dot(hours)}.',
+                'question': f'Do I need an appointment to taste at {dest_name} estates?',
+                'answer': f'{_strip_dot(booking_norm)}.',
             },
             {
-                'question': f'How does tipping work in {dest_name}?',
+                'question': f'What hours do {dest_name} cellars and tasting rooms keep?',
+                'answer': f'{_strip_dot(hours)}.',
+            },
+            {
+                'question': f'How does tipping work at {dest_name} tastings?',
                 'answer': f'{_strip_dot(tipping)}.',
             },
             {
-                'question': f'What is the one dish to try in {dest_name}?',
+                'question': f'What is the one wine to try in {dest_name}?',
                 'answer': self._default_must_try(context, dest_name),
             },
         ]
 
     @staticmethod
     def _default_must_try(context: Dict[str, Any], dest_name: str) -> str:
-        sd = context.get('research', {}).get('signature_dishes')
+        # Wine-vertical: surface signature_wines first, then fall back to
+        # signature_dishes (legacy from TJ) so the FAQ still reads sensibly
+        # if a region happens to ship dishes but not wines yet.
+        research = context.get('research', {})
+        sw = research.get('signature_wines')
+        if sw and isinstance(sw, list) and sw:
+            first = sw[0]
+            name = first.get('name') if isinstance(first, dict) else str(first)
+            producer = first.get('producer_name') or first.get('producer') if isinstance(first, dict) else None
+            tail = f' by {producer}' if producer else ''
+            return f'If you only open one bottle, open {name}{tail}. It is the wine most associated with {dest_name}.'
+        sd = research.get('signature_dishes')
         if sd and isinstance(sd, list) and sd:
             first = sd[0]
             name = first.get('name') if isinstance(first, dict) else str(first)

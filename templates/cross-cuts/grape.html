@@ -1,0 +1,82 @@
+{# Cross-cut: grape (varietal) landing page (global).
+   /grape/<grape-slug>/
+
+   Context:
+     grape              "Sangiovese" (display name)
+     grape_slug         "sangiovese"
+     regions            [{region_name, region_slug, country_slug, vineyards:[entity,...]}]
+     total_entities     int
+     breadcrumb         standard breadcrumb list
+#}
+{% extends "base.html" %}
+{% from "partials/_ad_slot.html" import ad_slot %}
+{% from "topics/_macros.html" import vineyard_card %}
+
+{% block hero %}
+<section class="tj-hero tj-container">
+    <div class="tj-hero-body">
+        <h1 itemprop="headline">{{ grape }} around the world</h1>
+        <p class="tj-hero-tagline">{{ total_entities }} editor-picked {{ grape }} {% if total_entities == 1 %}producer{% else %}producers{% endif %} across {{ regions | length }} {% if regions | length == 1 %}region{% else %}regions{% endif %}.</p>
+    </div>
+</section>
+{% endblock %}
+
+{% block schema_extra %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "CollectionPage",
+      "@id": "{{ seo.meta.canonical_url }}#collection",
+      "name": {{ (grape ~ " on Cork & Curve") | tojson }},
+      "description": {{ seo.meta.description | tojson }},
+      "url": {{ seo.meta.canonical_url | tojson }}
+    },
+    {
+      "@type": "ItemList",
+      "numberOfItems": {{ total_entities }},
+      "itemListElement": [
+        {% set ns = namespace(i=0) %}
+        {% for region in regions %}{% for v in region.vineyards %}{% if ns.i > 0 %},{% endif %}{% set ns.i = ns.i + 1 %}
+        { "@type": "ListItem", "position": {{ ns.i }}, "url": "https://corkandcurve.com{{ v._url }}", "name": {{ v.name | tojson }} }
+        {% endfor %}{% endfor %}
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {% for crumb in breadcrumb %}
+        { "@type": "ListItem", "position": {{ loop.index }}, "name": {{ crumb.name | tojson }}{% if crumb.url %}, "item": "https://corkandcurve.com{{ crumb.url }}"{% endif %} }{% if not loop.last %},{% endif %}
+        {% endfor %}
+      ]
+    }
+  ]
+}
+</script>
+{% endblock %}
+
+{% block content %}
+<div class="tj-container">
+    <section class="tj-section">
+        <p class="tj-intro">A guide to {{ grape }} worth seeking out, by region. We list the estates, how each region expresses the grape, and the bottles that show it best.</p>
+    </section>
+
+    {{ ad_slot('cross-cut-top', size='leaderboard') }}
+
+    {% for region in regions %}
+    <section class="tj-section" id="region-{{ region.region_slug }}">
+        <h2><a href="/{{ region.country_slug }}/{{ region.region_slug }}/">{{ grape }} in {{ region.region_name }}</a></h2>
+        <div class="tj-card-grid">
+            {% for v in region.vineyards %}{{ vineyard_card(v, region.region_name, v._url) }}{% endfor %}
+        </div>
+        <p style="margin-top:12px"><a class="tj-card-link" href="/{{ region.country_slug }}/{{ region.region_slug }}/vineyards/">All {{ region.region_name }} vineyards →</a></p>
+    </section>
+    {% endfor %}
+
+    <section class="tj-section">
+        <p class="tj-note">More regions are in research. Want {{ grape }} covered somewhere specific? <a href="/contact/">Tell us where you want to drink.</a></p>
+        <p style="margin-top:18px"><a class="tj-card-link" href="/grapes/">Browse all grapes →</a></p>
+    </section>
+</div>
+{% endblock %}

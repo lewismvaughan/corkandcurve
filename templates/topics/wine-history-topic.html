@@ -1,0 +1,44 @@
+{% extends "topics/_topic_base.html" %}
+
+{% block topic_intro %}
+<p class="tj-intro">{{ topic.intro | default('How ' ~ destination.name ~ ' came to make wine the way it does: the eras, families and rules that shaped the glass.') }}</p>
+{% endblock %}
+
+{% block topic_sections %}
+{% set wh = research.wine_history %}
+{% if wh and wh is mapping %}
+{% if wh.key_eras %}
+<section class="tj-section" id="key-eras">
+    <h2>Key eras</h2>
+    {% for era in wh.key_eras %}
+    <h3>{{ era.name | default(era.period) }}</h3>
+    <p>{{ era.summary | default(era.description) | default(era) }}</p>
+    {% endfor %}
+</section>
+{% endif %}
+
+{% if wh.influences %}
+<section class="tj-section" id="influences">
+    <h2>Influences</h2>
+    {% if wh.influences is iterable and wh.influences is not string %}
+    <ul>
+        {% for inf in wh.influences %}
+        <li>{% if inf.source %}<strong>{{ inf.source }}:</strong> {% endif %}{{ inf.contribution | default(inf) }}</li>
+        {% endfor %}
+    </ul>
+    {% else %}
+    <p>{{ wh.influences }}</p>
+    {% endif %}
+</section>
+{% endif %}
+
+{% if wh.innovations %}
+<section class="tj-section" id="innovations">
+    <h2>Signature innovations</h2>
+    <ul>
+        {% for inn in wh.innovations %}<li>{{ inn }}</li>{% endfor %}
+    </ul>
+</section>
+{% endif %}
+{% endif %}
+{% endblock %}

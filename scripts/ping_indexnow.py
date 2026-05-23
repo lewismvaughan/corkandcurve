@@ -32,8 +32,8 @@ from xml.etree import ElementTree as ET
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 CONTENT = REPO_ROOT / "content"
-HOST = "tablejourney.com"
-INDEXNOW_KEY = "5dbedeb25ac84e5fa160521e5b309b1d"
+HOST = "corkandcurve.com"
+INDEXNOW_KEY = "faf322689b7e468f8cb40d51f9ef4f40"
 KEY_LOCATION = f"https://{HOST}/{INDEXNOW_KEY}.txt"
 ENDPOINT = "https://api.indexnow.org/IndexNow"
 

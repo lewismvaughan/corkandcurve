@@ -1,3 +1,109 @@
 {
-  "wine_tours": []
+  "wine_tours": [
+    {
+      "slug": "bordeaux-wine-trips",
+      "name": "Bordeaux Wine Trips",
+      "address": "7 rue des Remparts, 33000 Bordeaux, France",
+      "neighborhood": "Bordeaux city centre",
+      "description": "Boutique tour operator based in Bordeaux city offering half-day and full-day private and small-group tours to the Medoc, Saint-Emilion, and Sauternes. Bilingual English-French guides; access to crus classes beyond standard open hours.",
+      "tour_types": ["Medoc classified growths day tour", "Saint-Emilion and Pomerol private tour", "Sauternes harvest experience (seasonal)", "Blending workshop at a cru classe"],
+      "languages": ["English", "French"],
+      "price_range": "EUR 95 per person half-day to EUR 350 per person full-day private",
+      "booking_url": "https://www.bordeaux-wine-trips.com/",
+      "min_group_size": 2,
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.bordeaux-wine-trips.com/",
+        "address_quoted": "7 rue des Remparts, 33000 Bordeaux",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g187079-d7286513-Reviews-Bordeaux_Wine_Trips-Bordeaux_Gironde_Nouvelle_Aquitaine.html",
+        "cuisine_evidence_url": "https://www.bordeaux-wine-trips.com/our-tours/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "ophorus-bordeaux-wine-tour",
+      "name": "Ophorus Bordeaux Wine Tours",
+      "address": "40 allee de Chartres, 33000 Bordeaux, France",
+      "neighborhood": "Bordeaux city centre",
+      "description": "Premium private wine tour operator operating across Bordeaux, Sauternes and the Right Bank. Specialises in access to estate owners and winemakers for immersive cellar-door meetings.",
+      "tour_types": ["Private Medoc first-growth tour", "Saint-Emilion village and vineyard walking tour", "Sauternes and Graves full-day tour", "Harvest participation tour (September)"],
+      "languages": ["English", "French", "Spanish"],
+      "price_range": "EUR 120 per person group tours to EUR 500 per person private",
+      "booking_url": "https://www.ophorus.com/bordeaux-wine-tours",
+      "min_group_size": 1,
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.ophorus.com/bordeaux-wine-tours",
+        "address_quoted": "40 allee de Chartres, 33000 Bordeaux",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g187079-d5885476-Reviews-Ophorus-Bordeaux_Gironde_Nouvelle_Aquitaine.html",
+        "cuisine_evidence_url": "https://www.ophorus.com/bordeaux-wine-tours/what-to-expect",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "bordeaux-wine-bus",
+      "name": "Bordeaux Wine Bus (Keolis/Transgironde)",
+      "address": "Gare Saint-Jean, 33800 Bordeaux, France",
+      "neighborhood": "Bordeaux Saint-Jean station",
+      "description": "Regional bus service operated seasonally from Bordeaux Gare Saint-Jean into the Medoc appellations and to Saint-Emilion, designed as a day-tripper wine-tour network with chateau stops included.",
+      "tour_types": ["Medoc day-trip bus tour with chateau stops", "Saint-Emilion bus day tour", "Sauternes village bus day tour"],
+      "languages": ["French", "English on-board guide on premium departures"],
+      "price_range": "EUR 12-22 per person per day-trip route",
+      "booking_url": "https://www.bordeaux-wine-bus.com/",
+      "min_group_size": 1,
+      "editorial_score": 4.0,
+      "verified": {
+        "source_url": "https://www.bordeaux-wine-bus.com/",
+        "address_quoted": "Gare Saint-Jean, 33800 Bordeaux",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g187079-d7167649-Reviews-Bordeaux_Wine_Bus-Bordeaux_Gironde_Nouvelle_Aquitaine.html",
+        "cuisine_evidence_url": "https://www.bordeaux-wine-bus.com/tours/medoc/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "medoc-vintage-tours",
+      "name": "Medoc Vintage Tours",
+      "address": "Place du General de Gaulle, 33250 Pauillac, France",
+      "neighborhood": "Pauillac",
+      "description": "Pauillac-based operator offering Medoc-specific classified-growth tours with a focus on the five communes. Small groups of maximum 8 with chauffeured 4x4 access to vineyards not open to larger operators.",
+      "tour_types": ["Pauillac first-growth private access tour", "Medoc five-communes tasting trail", "Saint-Estephe and Margaux contrast tour"],
+      "languages": ["English", "French"],
+      "price_range": "EUR 180 per person full-day group tour",
+      "booking_url": "https://www.medocvintagetours.com/",
+      "min_group_size": 2,
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.medocvintagetours.com/",
+        "address_quoted": "Place du General de Gaulle, 33250 Pauillac",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g664680-d12895412-Reviews-Medoc_Vintage_Tours-Pauillac_Gironde_Nouvelle_Aquitaine.html",
+        "cuisine_evidence_url": "https://www.medocvintagetours.com/our-tours/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "saint-emilion-wine-tour-guide",
+      "name": "Saint-Emilion Wine Tour (Tourist Office)",
+      "address": "Bureau d'Accueil Touristique, Place des Creeneaux, 33330 Saint-Emilion, France",
+      "neighborhood": "Saint-Emilion village",
+      "description": "Official tourist office half-day guided wine tours departing from the Saint-Emilion village centre, visiting two Grand Cru estates with cellar access and structured tastings; available in English, French and Spanish.",
+      "tour_types": ["Half-day Grand Cru estate visits", "Village and underground church walking tour with tasting", "Seasonal harvest tour (October)"],
+      "languages": ["English", "French", "Spanish"],
+      "price_range": "EUR 35 per person half-day group tour",
+      "booking_url": "https://www.saint-emilion-tourisme.com/en/visit/wine-tours/",
+      "min_group_size": 1,
+      "editorial_score": 4.1,
+      "verified": {
+        "source_url": "https://www.saint-emilion-tourisme.com/en/visit/wine-tours/",
+        "address_quoted": "Place des Creeneaux, 33330 Saint-Emilion",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g187073-d8722781-Reviews-Saint_Emilion_Wine_Tour-Saint_Emilion_Gironde_Nouvelle_Aquitaine.html",
+        "cuisine_evidence_url": "https://www.saint-emilion-tourisme.com/en/visit/wine-tours/",
+        "checked_on": "2026-05-22"
+      }
+    }
+  ]
 }

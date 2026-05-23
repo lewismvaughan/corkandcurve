@@ -11,10 +11,9 @@
     {
       "@type": "HowTo",
       "@id": "{{ seo.meta.canonical_url }}#{{ it.slug }}",
-      "name": {{ it.name | tojson }},
-      {% if it.summary %}"description": {{ it.summary | tojson }},{% endif %}
-      {% if it.duration %}"totalTime": {{ it.duration | tojson }},{% endif %}
-      "supply": [{ "@type": "HowToSupply", "name": "Appetite" }],
+      "name": {{ it.name | tojson }}{% if it.summary %},
+      "description": {{ it.summary | tojson }}{% endif %}{% if it.duration %},
+      "totalTime": {{ it.duration | tojson }}{% endif %},
       "step": [
         {% for day in (it.days or []) %}
         {
@@ -41,7 +40,7 @@
 {% endblock %}
 
 {% block topic_intro %}
-<p class="tj-intro">{{ topic.intro | default('Day-by-day eating plans for ' ~ destination.name ~ '. weekend classics, family routes, vegan plans, on-a-budget editions.') }}</p>
+<p class="tj-intro">{{ topic.intro | default('Day-by-day estate-visit plans for ' ~ destination.name ~ ': weekend, first-timer and deep-cellar editions.') }}</p>
 {% endblock %}
 
 {% block topic_sections %}

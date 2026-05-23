@@ -17,6 +17,7 @@ Usage:
 """
 
 import json
+import re
 from pathlib import Path
 from typing import Dict, Any, Optional
 
@@ -24,17 +25,16 @@ from typing import Dict, Any, Optional
 REPO_ROOT = Path(__file__).parent.parent.parent
 SITE_DATA = REPO_ROOT / 'site-data'
 
-# 24 food topic file names, matched 1:1 to topic slugs.
+# 24 wine topic file names, matched 1:1 to topic slugs.
 TOPIC_FILES = [
-    'restaurants.json', 'fine-dining.json', 'casual-dining.json',
-    'cafes.json', 'bakeries.json', 'coffee-roasters.json',
-    'wine-bars.json', 'bars.json', 'street-food.json',
-    'breweries.json', 'markets.json', 'food-tours.json',
-    'festivals.json', 'cooking-classes.json', 'dietary.json',
-    'budget-eating.json', 'signature-dishes.json', 'hidden-gems.json',
-    'brunch.json', 'late-night.json', 'food-history.json',
-    'seasonal-food.json', 'day-trips-food.json', 'itineraries.json',
-    'nightlife.json',
+    'vineyards.json', 'wines.json', 'tasting-rooms.json', 'wine-bars.json',
+    'wine-restaurants.json', 'wine-retailers.json', 'wine-schools.json',
+    'wine-tours.json', 'wine-festivals.json', 'distilleries.json',
+    'wine-museums.json', 'wine-hotels.json', 'wine-experiences.json',
+    'wine-history.json', 'seasonal-wine.json', 'signature-wines.json',
+    'signature-grapes.json', 'budget-wines.json', 'hidden-gems.json',
+    'day-trips-wine.json', 'itineraries.json', 'food-pairing.json',
+    'dietary.json', 'nightlife.json',
 ]
 
 # City-level metadata files merged into research dict on city-hub renders.
@@ -73,29 +73,138 @@ def load_file(country_slug: str, filename: str, region_slug: Optional[str] = Non
 # Topics absent from this map (e.g. signature_dishes, food_history, seasonal_food)
 # do NOT get city-scoped per-entity pages.
 RESEARCH_KEY_TO_TOPIC_SLUG = {
-    "restaurants": "restaurants",
-    "fine_dining": "fine-dining",
-    "casual_dining": "casual-dining",
-    "cafes": "cafes",
-    "bakeries": "bakeries",
-    "coffee_roasters": "coffee-roasters",
+    "vineyards": "vineyards",
+    "tasting_rooms": "tasting-rooms",
     "wine_bars": "wine-bars",
-    "bars": "bars",
-    "street_food": "street-food",
-    "breweries": "breweries",
-    "markets": "markets",
-    "food_tours": "food-tours",
-    "food_festivals": "festivals",
-    "cooking_classes": "cooking-classes",
-    "budget_eating": "budget-eating",
+    "wine_restaurants": "wine-restaurants",
+    "wine_retailers": "wine-retailers",
+    "wine_schools": "wine-schools",
+    "wine_tours": "wine-tours",
+    "wine_festivals": "wine-festivals",
+    "distilleries": "distilleries",
+    "wine_museums": "wine-museums",
+    "wine_hotels": "wine-hotels",
+    "wine_experiences": "wine-experiences",
+    "budget_wines": "budget-wines",
     "hidden_gems": "hidden-gems",
-    "brunch": "brunch",
-    "late_night": "late-night",
-    "day_trips_food": "day-trips-food",
-    # itineraries are NOT entered here: they are editorial content (not
-    # venues), render inline on /<country>/<city>/itineraries/ with anchor
-    # links (#<slug>), and have no city-scoped per-entity page in v1.
+    "day_trips_wine": "day-trips-wine",
+    # itineraries, signature_wines, signature_grapes, wine_history,
+    # seasonal_wine and food_pairing are NOT entered here: they are
+    # editorial / abstract content (not venues), render inline on their
+    # topic page, and have no region-scoped per-entity page in v1.
 }
+
+
+# Every navigable topic slug -> the research key it reads. Used to decide
+# which topic pages/nav chips to render (only those with real data) so the
+# site never ships thin/empty chapters or links to a 404.
+TOPIC_SLUG_TO_KEY = {
+    "vineyards": "vineyards",
+    "wines": "wines",
+    "tasting-rooms": "tasting_rooms",
+    "wine-bars": "wine_bars",
+    "wine-restaurants": "wine_restaurants",
+    "wine-retailers": "wine_retailers",
+    "wine-schools": "wine_schools",
+    "wine-tours": "wine_tours",
+    "wine-festivals": "wine_festivals",
+    "distilleries": "distilleries",
+    "wine-museums": "wine_museums",
+    "wine-hotels": "wine_hotels",
+    "wine-experiences": "wine_experiences",
+    "wine-history": "wine_history",
+    "seasonal-wine": "seasonal_wine",
+    "signature-wines": "signature_wines",
+    "signature-grapes": "signature_grapes",
+    "budget-wines": "budget_wines",
+    "hidden-gems": "hidden_gems",
+    "day-trips-wine": "day_trips_wine",
+    "itineraries": "itineraries",
+    "neighborhoods": "neighborhoods",
+    "nightlife": "nightlife",
+    "dietary": "dietary",
+    "food-pairing": "food_pairing",
+}
+
+
+_PRICE_NUM_RE = re.compile(r"\d+(?:[\.,]\d+)?")
+_PRICE_CURRENCY_DEFAULT = "€"
+_PRICE_TIERS = (
+    (15,    1, "Everyday",  "Under {sym}15"),
+    (30,    2, "Trade-up",  "{sym}15 to 30"),
+    (75,    3, "Premium",   "{sym}30 to 75"),
+    (200,   4, "Fine",      "{sym}75 to 200"),
+    (500,   5, "Luxury",    "{sym}200 to 500"),
+    (float("inf"), 5, "Collector", "{sym}500+"),
+)
+
+
+def compute_price_tier(price_band: Any) -> dict | None:
+    """Map a free-form price_band string to a tier indicator.
+
+    Mirrors the price-axis derivation in docs/WINE_TAGS.md so the visual
+    tier and the /tag/price-*/ pages stay in sync. Returns a dict with:
+      - tier:   integer 1..5
+      - symbol: that many currency symbols (€ to €€€€€)
+      - label:  "Everyday" / "Trade-up" / "Premium" / "Fine" / "Luxury"
+      - range:  display range like "€30 to 75"
+    Currency is auto-detected from price_band ($, €, £, ¥), defaults to €.
+
+    Returns None when no numeric value can be parsed from price_band.
+    Used in templates as `{{ wine._price_tier.symbol }}` etc.
+    """
+    if not isinstance(price_band, str) or not price_band.strip():
+        return None
+    nums = _PRICE_NUM_RE.findall(price_band.replace(",", ""))
+    if not nums:
+        return None
+    try:
+        lower = float(nums[0])
+    except ValueError:
+        return None
+    sym = _PRICE_CURRENCY_DEFAULT
+    for candidate in ("$", "€", "£", "¥"):
+        if candidate in price_band:
+            sym = candidate
+            break
+    for ceiling, tier_n, label, range_tmpl in _PRICE_TIERS:
+        if lower < ceiling:
+            # Cap at 5 symbols so very-expensive cuvées don't overflow card layout.
+            return {
+                "tier":     tier_n,
+                "symbol":   sym * tier_n,
+                "currency": sym,    # for filter dropdowns / per-region currency split
+                "label":    label,
+                "range":    range_tmpl.format(sym=sym),
+            }
+    return None
+
+
+def _nonempty(value: Any) -> bool:
+    """True if a research value carries real content. Handles list topics,
+    dict-of-lists topics (dietary/nightlife) and object topics
+    (wine_history/seasonal_wine) uniformly."""
+    if isinstance(value, list):
+        return len(value) > 0
+    if isinstance(value, dict):
+        return any(
+            _nonempty(v) if isinstance(v, (list, dict)) else bool(v)
+            for v in value.values()
+        )
+    return bool(value)
+
+
+def topic_has_data(research: Dict[str, Any], topic_slug: str) -> bool:
+    """Does this region have real content for the given topic slug?"""
+    key = TOPIC_SLUG_TO_KEY.get(topic_slug)
+    if not key:
+        return False
+    return _nonempty(research.get(key))
+
+
+def populated_topic_slugs(research: Dict[str, Any]) -> set:
+    """Set of topic slugs that have real data in this region's research."""
+    return {s for s in TOPIC_SLUG_TO_KEY if topic_has_data(research, s)}
 
 
 def _inject_entity_urls(research: Dict[str, Any], country_slug: str, region_slug: Optional[str]) -> None:
@@ -125,23 +234,54 @@ def _inject_entity_urls(research: Dict[str, Any], country_slug: str, region_slug
                     if isinstance(e, dict) and e.get("slug"):
                         e["_url"] = f"{base}dietary/{e['slug']}/"
 
-    # Signature dishes: prefer the city × dish page if it exists, else
-    # fall back to the global cross-cut. SEO standard: when both exist,
-    # link the user DOWN to the city-scoped page (more specific intent,
-    # captures long-tail "where to eat <dish> in <city>" queries).
-    # See docs/STANDARDS.md.
-    from pathlib import Path as _Path
-    _content_dir = _Path(__file__).resolve().parent.parent.parent / "content"
-    dishes = research.get("signature_dishes")
-    if isinstance(dishes, list):
-        for d in dishes:
-            if isinstance(d, dict) and d.get("slug"):
-                city_dish_url = None
-                if region_slug:
-                    p = _content_dir / country_slug / region_slug / "dish" / d["slug"] / "index.html"
-                    if p.exists():
-                        city_dish_url = f"/{country_slug}/{region_slug}/dish/{d['slug']}/"
-                d["_url"] = city_dish_url or f"/dish/{d['slug']}/"
+    # Signature wines and grapes are abstract (a bottle / a varietal, not a
+    # venue). They render inline on their topic page with #<slug> anchors and
+    # also surface as global cross-cuts at /grape/<slug>/. Point each at the
+    # grape cross-cut when a slug is present; the signature-wines page links
+    # in-page via anchors.
+    grapes = research.get("signature_grapes")
+    if isinstance(grapes, list):
+        for g in grapes:
+            if isinstance(g, dict) and g.get("slug"):
+                g["_url"] = f"/grape/{g['slug']}/"
+
+    # Cuvée pages use a GLOBAL URL scheme keyed on the producer slug
+    # rather than the region's path, so they're shareable across the
+    # whole catalog. wines.json lives under each region's data dir
+    # (1:1 with the producer's region) but the rendered page lives at
+    # /wine/<producer-slug>/<cuvee-slug>/ and is the same URL no
+    # matter which region's hub a visitor reaches it from.
+    # signature_wines[*] reference these cuvée pages; in
+    # _enrich_signature_wine_urls below we set _url for signature wines
+    # to the matching cuvée page when a producer slug is present.
+    wines = research.get("wines")
+    if isinstance(wines, list):
+        for w in wines:
+            if isinstance(w, dict) and w.get("slug") and w.get("producer"):
+                w["_url"] = f"/wine/{w['producer']}/{w['slug']}/"
+                # Visual price tier (€ to €€€€€). Computed once here so
+                # every template that iterates wines (cuvée page,
+                # wines-topic, tag-page card, homepage featured) reads
+                # the same value without re-parsing price_band.
+                tier = compute_price_tier(w.get("price_band"))
+                if tier:
+                    w["_price_tier"] = tier
+
+    sigwines = research.get("signature_wines")
+    if isinstance(sigwines, list) and isinstance(wines, list):
+        # Build a producer lookup so signature_wines (curated subset with
+        # only `slug`+`producer`) can resolve to the same /wine/.../...
+        # URL as the full cuvée entry.
+        wines_by_slug = {
+            w["slug"]: w for w in wines
+            if isinstance(w, dict) and w.get("slug")
+        }
+        for s in sigwines:
+            if not isinstance(s, dict) or not s.get("slug"):
+                continue
+            prod = s.get("producer") or (wines_by_slug.get(s["slug"]) or {}).get("producer")
+            if prod:
+                s["_url"] = f"/wine/{prod}/{s['slug']}/"
 
 
 def _enrich_neighborhoods(research: Dict[str, Any], country_slug: str, region_slug: Optional[str]) -> None:

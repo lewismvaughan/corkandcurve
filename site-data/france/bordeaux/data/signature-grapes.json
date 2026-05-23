@@ -1,3 +1,132 @@
 {
-  "signature_grapes": []
+  "signature_grapes": [
+    {
+      "slug": "cabernet-sauvignon",
+      "name": "Cabernet Sauvignon",
+      "style_focus": "red",
+      "regions_grown": ["pauillac", "saint-julien", "saint-estephe", "margaux", "pessac-leognan"],
+      "description": "The dominant grape of the Left Bank Medoc, responsible for Bordeaux's legendary structure and longevity. High in tannin and cassis-driven fruit, it excels on well-drained gravel over clay subsoil. First growths Lafite, Latour, Mouton and Margaux each plant 60-80% Cabernet Sauvignon in their grand enclos. Ripens later than Merlot, giving harvest between late September and mid-October in classic years.",
+      "key_producers": ["chateau-margaux", "chateau-latour", "chateau-mouton-rothschild", "chateau-lafite-rothschild", "chateau-lynch-bages", "chateau-pichon-baron", "chateau-ducru-beaucaillou"],
+      "verified": {
+        "source_url": "https://www.vins-medoc.fr/en/wine/grape-varieties/",
+        "address_quoted": "Medoc Peninsula, Gironde, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vins-bordeaux.fr/bordeaux-wines/grapes/cabernet-sauvignon.html",
+        "cuisine_evidence_url": "https://www.vins-medoc.fr/en/wine/grape-varieties/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "merlot",
+      "name": "Merlot",
+      "style_focus": "red",
+      "regions_grown": ["pomerol", "saint-emilion", "fronsac", "entre-deux-mers", "graves"],
+      "description": "The dominant grape of the Right Bank and the most widely planted variety across all of Bordeaux. In Pomerol on the blue clay plateau it produces Petrus and Le Pin; in Saint-Emilion on limestone and clay-limestone it gives wines of opulence and structural complexity. Ripens earlier than Cabernet, making it more reliable in cooler vintages. Plummy, velvety fruit with lower tannin than Cabernet Sauvignon.",
+      "key_producers": ["petrus", "le-pin", "vieux-chateau-certan", "chateau-lafleur", "chateau-clinet", "chateau-angelus"],
+      "verified": {
+        "source_url": "https://www.vins-saint-emilion.com/en/the-appellation/grape-varieties/",
+        "address_quoted": "Saint-Emilion, 33330 Gironde, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vins-bordeaux.fr/bordeaux-wines/grapes/merlot.html",
+        "cuisine_evidence_url": "https://www.vins-saint-emilion.com/en/the-appellation/grape-varieties/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "cabernet-franc",
+      "name": "Cabernet Franc",
+      "style_focus": "red",
+      "regions_grown": ["saint-emilion", "pomerol", "pessac-leognan", "fronsac"],
+      "description": "The parent grape of Cabernet Sauvignon, Cabernet Franc comes into its own on the Right Bank and in Pessac-Leognan. Cheval Blanc is 52% Cabernet Franc, Ausone 55%; Lafleur splits equally between Merlot and Cabernet Franc. Earlier ripening than Cabernet Sauvignon, with characteristic graphite, red fruit and violet aromas and silkier tannins. Essential blending component across all Bordeaux appellations.",
+      "key_producers": ["chateau-cheval-blanc", "chateau-ausone", "chateau-lafleur", "chateau-figeac", "chateau-moulin-pey-labrie"],
+      "verified": {
+        "source_url": "https://www.vins-saint-emilion.com/en/the-appellation/grape-varieties/",
+        "address_quoted": "Saint-Emilion, 33330 Gironde, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vins-bordeaux.fr/bordeaux-wines/grapes/cabernet-franc.html",
+        "cuisine_evidence_url": "https://www.vins-saint-emilion.com/en/the-appellation/grape-varieties/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "petit-verdot",
+      "name": "Petit Verdot",
+      "style_focus": "red",
+      "regions_grown": ["margaux", "pauillac", "saint-julien"],
+      "description": "A late-ripening blending grape used in small percentages across the Left Bank for its deep colour, violet aromas and firm tannins. Rarely bottled as a varietal wine in Bordeaux. Contributes structural backbone and spice notes to grand vin blends. Typically 2-8% in top Medoc crus classes blends, rising in hot vintages when it achieves full ripeness.",
+      "key_producers": ["chateau-margaux", "chateau-lynch-bages", "chateau-pichon-baron"],
+      "verified": {
+        "source_url": "https://www.vins-medoc.fr/en/wine/grape-varieties/",
+        "address_quoted": "Medoc Peninsula, Gironde, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vins-bordeaux.fr/bordeaux-wines/grapes/petit-verdot.html",
+        "cuisine_evidence_url": "https://www.vins-medoc.fr/en/wine/grape-varieties/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "semillon",
+      "name": "Semillon",
+      "style_focus": "white",
+      "regions_grown": ["sauternes", "pessac-leognan", "graves", "entre-deux-mers"],
+      "description": "The noble white grape of Bordeaux, central to both Sauternes botrytised dessert wines and dry white blends of Pessac-Leognan. Its thin skin makes it susceptible to botrytis cinerea noble rot, concentrating sugar, glycerol and honeyed complexity. In dry white blends it contributes weight, waxy texture and lanolin; Sauvignon Blanc provides the aromatic lift. Chateau d'Yquem produces around 80% Semillon.",
+      "key_producers": ["chateau-dyquem", "chateau-rieussec", "chateau-lafaurie-peyraguey", "chateau-haut-brion", "chateau-smith-haut-lafitte"],
+      "verified": {
+        "source_url": "https://www.sauternes-barsac.com/en/the-appellation/grape-varieties/",
+        "address_quoted": "Sauternes, 33210 Gironde, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vins-bordeaux.fr/bordeaux-wines/grapes/semillon.html",
+        "cuisine_evidence_url": "https://www.sauternes-barsac.com/en/the-appellation/grape-varieties/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "sauvignon-blanc",
+      "name": "Sauvignon Blanc",
+      "style_focus": "white",
+      "regions_grown": ["pessac-leognan", "graves", "entre-deux-mers", "sauternes"],
+      "description": "A key aromatic variety in Bordeaux blanc blends, providing citrus, grass and gooseberry lift alongside the richer, more textured Semillon. Pavillon Blanc du Chateau Margaux is a rare 100% Sauvignon Blanc from the Medoc. In Pessac-Leognan it is blended with Semillon in dry whites; in Sauternes it adds acidity to balance the sweetness of botrytised Semillon.",
+      "key_producers": ["chateau-margaux", "chateau-haut-brion", "chateau-smith-haut-lafitte", "chateau-cos-destournel", "chateau-bauduc"],
+      "verified": {
+        "source_url": "https://www.vins-graves.com/en/the-wines/white-wines/",
+        "address_quoted": "Pessac-Leognan, 33140 Gironde, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vins-bordeaux.fr/bordeaux-wines/grapes/sauvignon-blanc.html",
+        "cuisine_evidence_url": "https://www.vins-graves.com/en/the-wines/white-wines/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "muscadelle",
+      "name": "Muscadelle",
+      "style_focus": "white",
+      "regions_grown": ["sauternes", "entre-deux-mers", "graves"],
+      "description": "A minor but aromatic blending grape used in small quantities in both Sauternes sweet wines and dry white Bordeaux blends. Adds floral, muscat-like notes and aromatic complexity. Typically 3-5% in Sauternes blends; rarely more. Susceptible to botrytis and other mildews, limiting its cultivation. Chateau d'Yquem carries up to 5% Muscadelle in its blend.",
+      "key_producers": ["chateau-dyquem", "chateau-rieussec", "chateau-bauduc"],
+      "verified": {
+        "source_url": "https://www.sauternes-barsac.com/en/the-appellation/grape-varieties/",
+        "address_quoted": "Sauternes, 33210 Gironde, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vins-bordeaux.fr/bordeaux-wines/grapes/muscadelle.html",
+        "cuisine_evidence_url": "https://www.sauternes-barsac.com/en/the-appellation/grape-varieties/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "malbec",
+      "name": "Malbec",
+      "style_focus": "red",
+      "regions_grown": ["cotes-de-bourg", "entre-deux-mers"],
+      "description": "Once widely planted in Bordeaux under the name Cot, Malbec is now a minority blending grape appearing in Cotes de Bourg and some satellite appellations. Before the 1956 frost it was more prevalent on the Right Bank. Today it contributes dark colour, plum fruit and supple tannins; Roc de Cambes retains a small percentage in its Cotes de Bourg blend. Its global fame now comes from Mendoza, Argentina.",
+      "key_producers": ["chateau-roc-de-cambes"],
+      "verified": {
+        "source_url": "https://www.vins-bordeaux.fr/bordeaux-wines/grapes/malbec.html",
+        "address_quoted": "Bordeaux, 33000 Gironde, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tertre-roteboeuf.com/roc-de-cambes",
+        "cuisine_evidence_url": "https://www.vins-bordeaux.fr/bordeaux-wines/grapes/malbec.html",
+        "checked_on": "2026-05-22"
+      }
+    }
+  ]
 }

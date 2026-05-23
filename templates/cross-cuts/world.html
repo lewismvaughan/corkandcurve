@@ -1,0 +1,70 @@
+{# Cross-cut: Old World / New World landing page (global).
+   /world/<world-slug>/  (old-world | new-world)
+
+   Context:
+     world              "Old World" (display name)
+     world_slug         "old-world"
+     regions            [{region_name, region_slug, country_slug, blurb}]
+     breadcrumb         standard breadcrumb list
+#}
+{% extends "base.html" %}
+{% from "partials/_ad_slot.html" import ad_slot %}
+
+{% block hero %}
+<section class="tj-hero tj-container">
+    <div class="tj-hero-body">
+        <h1 itemprop="headline">{{ world }} wine regions</h1>
+        <p class="tj-hero-tagline">{{ regions | length }} {{ world | lower }} wine {% if regions | length == 1 %}region{% else %}regions{% endif %} on Cork & Curve.</p>
+    </div>
+</section>
+{% endblock %}
+
+{% block schema_extra %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "CollectionPage",
+      "@id": "{{ seo.meta.canonical_url }}#collection",
+      "name": {{ (world ~ " wine regions on Cork & Curve") | tojson }},
+      "description": {{ seo.meta.description | tojson }},
+      "url": {{ seo.meta.canonical_url | tojson }}
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {% for crumb in breadcrumb %}
+        { "@type": "ListItem", "position": {{ loop.index }}, "name": {{ crumb.name | tojson }}{% if crumb.url %}, "item": "https://corkandcurve.com{{ crumb.url }}"{% endif %} }{% if not loop.last %},{% endif %}
+        {% endfor %}
+      ]
+    }
+  ]
+}
+</script>
+{% endblock %}
+
+{% block content %}
+<div class="tj-container">
+    <section class="tj-section">
+        <p class="tj-intro">The {{ world | lower }} wine regions we cover, and what defines each.</p>
+    </section>
+
+    {{ ad_slot('cross-cut-top', size='leaderboard') }}
+
+    <section class="tj-section">
+        <div class="tj-card-grid">
+            {% for region in regions %}
+            <article class="tj-card">
+                <h3><a class="tj-card-link" href="/{{ region.country_slug }}/{{ region.region_slug }}/">{{ region.region_name }}</a></h3>
+                {% if region.blurb %}<p class="tj-card-desc">{{ region.blurb }}</p>{% endif %}
+            </article>
+            {% endfor %}
+        </div>
+    </section>
+
+    <section class="tj-section">
+        <p style="margin-top:18px"><a class="tj-card-link" href="/world/">Old World and New World →</a></p>
+    </section>
+</div>
+{% endblock %}

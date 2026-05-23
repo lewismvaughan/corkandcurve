@@ -36,34 +36,30 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from utils.cuisine import canonicalise as _canon_cuisine  # noqa: E402
+from utils.slug import slugify  # noqa: E402
 
 REPO = Path(__file__).resolve().parent.parent
 SITE_DATA = REPO / "site-data"
 CONTENT = REPO / "content"
 GEOCODE_CACHE = REPO / "data" / "geocode-cache.json"
 
-# topic-slug -> research-key in city JSON
+# topic-slug -> research-key in region JSON
 ENTITY_TOPICS = {
-    "restaurants": "restaurants",
-    "fine-dining": "fine_dining",
-    "casual-dining": "casual_dining",
-    "cafes": "cafes",
-    "bakeries": "bakeries",
-    "coffee-roasters": "coffee_roasters",
+    "vineyards": "vineyards",
+    "tasting-rooms": "tasting_rooms",
     "wine-bars": "wine_bars",
-    "bars": "bars",
-    "street-food": "street_food",
-    "breweries": "breweries",
-    "markets": "markets",
-    "food-tours": "food_tours",
-    "festivals": "food_festivals",
-    "cooking-classes": "cooking_classes",
-    "budget-eating": "budget_eating",
+    "wine-restaurants": "wine_restaurants",
+    "wine-retailers": "wine_retailers",
+    "wine-schools": "wine_schools",
+    "wine-tours": "wine_tours",
+    "wine-festivals": "wine_festivals",
+    "distilleries": "distilleries",
+    "wine-museums": "wine_museums",
+    "wine-hotels": "wine_hotels",
+    "wine-experiences": "wine_experiences",
+    "budget-wines": "budget_wines",
     "hidden-gems": "hidden_gems",
-    "brunch": "brunch",
-    "late-night": "late_night",
-    "day-trips-food": "day_trips_food",
+    "day-trips-wine": "day_trips_wine",
 }
 
 
@@ -115,11 +111,14 @@ def _walk_city(country: str, city: str, city_name: str, geocache: dict) -> list[
             }
             if isinstance(e.get("editorial_score"), (int, float)):
                 pin["score"] = round(float(e["editorial_score"]), 1)
-            if e.get("cuisine"):
-                pin["cuisine"] = e["cuisine"]
-                cc = _canon_cuisine(e["cuisine"])
-                if cc:
-                    pin["cuisine_slug"] = cc.slug  # filterable by city × cuisine pages
+            if e.get("classification"):
+                pin["classification"] = e["classification"]
+            varietals = e.get("varietals") or e.get("varietals_focus")
+            if varietals:
+                first = varietals[0] if isinstance(varietals, list) and varietals else varietals
+                if isinstance(first, str):
+                    pin["grape"] = first
+                    pin["grape_slug"] = slugify(first)  # filterable by region × grape pages
             if e.get("neighborhood"):
                 pin["hood"] = e["neighborhood"]
             pins.append(pin)

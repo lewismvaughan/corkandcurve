@@ -14,11 +14,28 @@ see `agents/DISPATCH_TEMPLATE.md` for the full prompt skeletons.
 
 ## Stage detail
 
-### 1. Research (Sonnet)
+### 1. Research (Sonnet) — SPLIT INTO PARALLEL AGENTS
 
 Dispatch: see `agents/DISPATCH_TEMPLATE.md` Stage 1 skeleton.
 
-Run in background. Token cost: 250-500k per region. Time: 30-50 min.
+**Split the dispatch.** One agent trying to fill the whole region in
+one go hits the 32k model output token cap (Bordeaux 2026-05-22: died
+at 38 min having written only `vineyards.json` + `region.json`).
+Default split into 4 parallel agents on non-overlapping files:
+
+1. **Agent A — foundation**: `region.json` + `neighborhoods.json` +
+   `vineyards.json` + `signature-grapes.json`.
+2. **Agent B — cuvée vertical** (waits on A's vineyards): `wines.json`
+   + `signature-wines.json` + `food-pairing.json`.
+3. **Agent C — venue topics**: tasting-rooms, wine-bars,
+   wine-restaurants, wine-retailers, wine-schools, wine-tours,
+   distilleries, wine-museums, wine-hotels, wine-experiences.
+4. **Agent D — editorial + nested**: wine-history, seasonal-wine,
+   wine-festivals, budget-wines, hidden-gems, day-trips-wine,
+   itineraries, nightlife, dietary.
+
+Run in background. Token cost: 250-500k aggregate per region. Time:
+30-50 min wallclock per agent; A/C/D run concurrently, B waits on A.
 
 Outputs: 24 wine topic JSONs + region.json + neighborhoods.json under
 `site-data/<country>/<region>/data/`. ship_safety.sh PASS at end.

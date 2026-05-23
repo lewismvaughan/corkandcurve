@@ -1,3 +1,2028 @@
 {
-  "vineyards": []
+  "vineyards": [
+    {
+      "slug": "chateau-margaux",
+      "name": "Chateau Margaux",
+      "address": "Chateau Margaux, 33460 Margaux, France",
+      "neighborhood": "Margaux AOC",
+      "varietals": [
+        "Cabernet Sauvignon",
+        "Merlot",
+        "Cabernet Franc",
+        "Petit Verdot",
+        "Sauvignon Blanc"
+      ],
+      "classification": "Premier Cru Classe (1855 classification)",
+      "hectares": 80,
+      "owner": "Mentzelopoulos family",
+      "winemaker": "Philippe Bascaules",
+      "founded": 1572,
+      "tasting_program": "By appointment only, Monday to Friday; closed weekends, August, public holidays and harvest. Tasting for professionals only.",
+      "booking_url": "https://www.chateau-margaux.com/en/contact",
+      "signature_wines": [
+        "chateau-margaux-grand-vin",
+        "pavillon-rouge-du-chateau-margaux",
+        "pavillon-blanc-du-chateau-margaux"
+      ],
+      "scores": [
+        {
+          "reviewer": "Wine Advocate",
+          "points": 100,
+          "vintage": 2016,
+          "year": 2019
+        },
+        {
+          "reviewer": "Wine Advocate",
+          "points": 100,
+          "vintage": 2015,
+          "year": 2018
+        }
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Premier Cru Classe Bordeaux at Margaux AOC, estate founded 1572, now owned by the Mentzelopoulos family. Cabernet-dominant blends with 18 to 24 months in new oak barrel ageing.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.chateau-margaux.com/en/contact",
+        "address_quoted": "Chateau Margaux, 33460 Margaux, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.ugcb.net/en/chateaux/chateau-margaux/",
+        "cuisine_evidence_url": "https://www.chateau-margaux.com/en/fiche-technique",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "chateau-lafite-rothschild",
+      "name": "Chateau Lafite Rothschild",
+      "address": "Chateau Lafite Rothschild, 33250 Pauillac, France",
+      "neighborhood": "Pauillac AOC",
+      "varietals": [
+        "Cabernet Sauvignon",
+        "Merlot",
+        "Cabernet Franc",
+        "Petit Verdot"
+      ],
+      "classification": "Premier Cru Classe (1855 classification)",
+      "hectares": 112,
+      "owner": "Domaines Barons de Rothschild (Lafite); Saskia de Rothschild, chair",
+      "winemaker": "Eric Kohler",
+      "founded": 1234,
+      "tasting_program": "Currently closed for renovations until 2026. Alternative visits at Chateau Duhart-Milon.",
+      "booking_url": "https://www.lafite.com/domaines/chateau-lafite-rothschild/contact/",
+      "signature_wines": [
+        "lafite-rothschild",
+        "carruades-de-lafite"
+      ],
+      "scores": [
+        {
+          "reviewer": "Wine Advocate",
+          "points": 100,
+          "vintage": 2003,
+          "year": 2006
+        },
+        {
+          "reviewer": "Wine Spectator",
+          "points": 100,
+          "vintage": 1996,
+          "year": 1999
+        }
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "ecocert",
+      "description": "First-growth Pauillac estate with 112 hectares of Cabernet-dominant vines. Owned by the Rothschild family; fully organic since 2024 with Saskia de Rothschild at the helm.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.lafite.com/domaines/chateau-lafite-rothschild/contact/",
+        "address_quoted": "Chateau Lafite Rothschild, 33250 Pauillac, FRANCE",
+        "open_status": "open",
+        "open_evidence_url": "https://www.ugcb.net/en/chateaux/chateau-lafite-rothschild-2/",
+        "cuisine_evidence_url": "https://www.millesima-usa.com/blog/chateau-lafite-rothschild-the-heart-of-pauillac-s-legendary-terroir.html",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "chateau-latour",
+      "name": "Chateau Latour",
+      "address": "Saint-Lambert, 33250 Pauillac, France",
+      "neighborhood": "Pauillac AOC",
+      "varietals": [
+        "Cabernet Sauvignon",
+        "Merlot",
+        "Cabernet Franc",
+        "Petit Verdot"
+      ],
+      "classification": "Premier Cru Classe (1855 classification)",
+      "hectares": 78,
+      "owner": "Groupe Artemis (Francois Pinault)",
+      "winemaker": "Helene Genin",
+      "founded": 1331,
+      "tasting_program": "By appointment only for professionals; visiting restricted.",
+      "booking_url": "https://www.chateau-latour.com/en/visit",
+      "signature_wines": [
+        "latour-grand-vin",
+        "les-forts-de-latour",
+        "pauillac-de-latour"
+      ],
+      "scores": [
+        {
+          "reviewer": "Wine Advocate",
+          "points": 100,
+          "vintage": 2010,
+          "year": 2013
+        },
+        {
+          "reviewer": "Wine Advocate",
+          "points": 100,
+          "vintage": 2003,
+          "year": 2006
+        }
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "First-growth Pauillac estate with 78 hectares at the southeastern tip of Pauillac commune. Owned by Groupe Artemis since 1993; withdrew from en primeur system in 2012.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://tasteandterroir.com/chateau-latour-pauillac/",
+        "address_quoted": "Saint-Lambert 33250 Pauillac France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.ugcb.net/en/chateaux/chateau-latour-2/",
+        "cuisine_evidence_url": "https://www.wineinvestment.com/us/learn/wine/bordeaux/pauillac/chateau-latour/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "chateau-mouton-rothschild",
+      "name": "Chateau Mouton Rothschild",
+      "address": "Chateau Mouton Rothschild, 33250 Pauillac, France",
+      "neighborhood": "Pauillac AOC",
+      "varietals": [
+        "Cabernet Sauvignon",
+        "Merlot",
+        "Cabernet Franc",
+        "Petit Verdot"
+      ],
+      "classification": "Premier Cru Classe (1855 classification; elevated from 2nd growth in 1973)",
+      "hectares": 83,
+      "owner": "Rothschild family (Camille, Philippe, and Julien Sereys de Rothschild)",
+      "winemaker": "Jean-Emmanuel Danjoy",
+      "founded": 1853,
+      "tasting_program": "Visits by appointment; museum of wine in art open to visitors.",
+      "booking_url": "https://www.chateau-mouton-rothschild.com/",
+      "signature_wines": [
+        "mouton-rothschild",
+        "le-petit-mouton",
+        "aile-dargent"
+      ],
+      "scores": [
+        {
+          "reviewer": "Wine Advocate",
+          "points": 100,
+          "vintage": 1982,
+          "year": 1985
+        },
+        {
+          "reviewer": "Wine Advocate",
+          "points": 98,
+          "vintage": 2016,
+          "year": 2019
+        }
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Pauillac first-growth elevated from second in 1973, famous for its artist-label series. 83 hectares planted 81% Cabernet Sauvignon; Jean-Emmanuel Danjoy is technical director since 2020.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.bpdr.com/en/chateau-mouton-rothschild-2",
+        "address_quoted": "Chateau Mouton Rothschild, 33250 Pauillac, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.ugcb.net/en/chateaux/chateau-mouton-rothschild-2/",
+        "cuisine_evidence_url": "https://www.millesima-usa.com/blog/chateau-mouton-rothschild-legendary-first-growth-of-pauillac.html",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "chateau-haut-brion",
+      "name": "Chateau Haut-Brion",
+      "address": "135 avenue Jean Jaurès, 33608 Pessac, France",
+      "neighborhood": "Pessac-Léognan AOC",
+      "varietals": [
+        "Cabernet Sauvignon",
+        "Merlot",
+        "Cabernet Franc",
+        "Petit Verdot",
+        "Semillon",
+        "Sauvignon Blanc"
+      ],
+      "classification": "Premier Cru Classe (1855 classification); Cru Classe de Graves",
+      "hectares": 51,
+      "owner": "Domaine Clarence Dillon",
+      "winemaker": "Jean-Philippe Delmas",
+      "founded": 1521,
+      "tasting_program": "Visits by appointment only for professionals.",
+      "booking_url": "https://www.haut-brion.com/en/",
+      "signature_wines": [
+        "chateau-haut-brion-rouge",
+        "haut-brion-blanc",
+        "le-clarence-de-haut-brion"
+      ],
+      "scores": [
+        {
+          "reviewer": "Wine Advocate",
+          "points": 100,
+          "vintage": 2009,
+          "year": 2012
+        },
+        {
+          "reviewer": "Wine Advocate",
+          "points": 100,
+          "vintage": 1989,
+          "year": 1990
+        }
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "The only non-Medoc first-growth in the 1855 classification, estate since 1521 in Pessac. Merlot-driven blends from iron-rich gravelly soils; Domaine Clarence Dillon owner.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.haut-brion.com/en/",
+        "address_quoted": "33608 PESSAC",
+        "open_status": "open",
+        "open_evidence_url": "https://www.ugcb.net/en/chateaux/chateau-haut-brion-2/",
+        "cuisine_evidence_url": "https://www.thewinecellarinsider.com/bordeaux-wine-producer-profiles/bordeaux/graves-pessac/haut-brion/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "chateau-cheval-blanc",
+      "name": "Chateau Cheval Blanc",
+      "address": "Chateau Cheval Blanc, 33330 Saint-Emilion, France",
+      "neighborhood": "Saint-Emilion Grand Cru AOC",
+      "varietals": [
+        "Cabernet Franc",
+        "Merlot",
+        "Cabernet Sauvignon"
+      ],
+      "classification": "Saint-Emilion Grand Cru (withdrew from Premier Grand Cru Classe A classification as of 2022)",
+      "hectares": 39,
+      "owner": "Bernard Arnault (LVMH) and Albert Frère family",
+      "winemaker": "Pierre Lurton (estate manager)",
+      "founded": 1832,
+      "tasting_program": "Visits by appointment; contact through official site.",
+      "booking_url": "https://www.chateau-cheval-blanc.com/en/",
+      "signature_wines": [
+        "chateau-cheval-blanc",
+        "le-petit-cheval",
+        "le-petit-cheval-blanc"
+      ],
+      "scores": [
+        {
+          "reviewer": "Wine Advocate",
+          "points": 100,
+          "vintage": 1990,
+          "year": 1993
+        },
+        {
+          "reviewer": "Wine Spectator",
+          "points": 100,
+          "vintage": 1947,
+          "year": 1997
+        }
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Iconic Saint-Emilion estate on 39 hectares with an unusual 52% Cabernet Franc dominant blend. Withdrew from the Saint-Emilion classification in 2022; co-owned by LVMH.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.chateau-cheval-blanc.com/en/",
+        "address_quoted": "Chateau Cheval Blanc, 33330 Saint-Emilion, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wineinvestment.com/us/learn/wine/bordeaux/saint-emilion/chateau-cheval-blanc/",
+        "cuisine_evidence_url": "https://www.millesima-usa.com/blog/chateau-cheval-blanc-exploring-saint-emilions-iconic-estate.html",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "petrus",
+      "name": "Petrus",
+      "address": "3 Route de Lussac, 33500 Pomerol, France",
+      "neighborhood": "Pomerol AOC",
+      "varietals": [
+        "Merlot"
+      ],
+      "classification": "Pomerol AOC (unclassified; Pomerol has no official classification)",
+      "hectares": 11.4,
+      "owner": "Jean-Francois Moueix and family",
+      "winemaker": "Olivier Berrouet",
+      "founded": 1878,
+      "tasting_program": "Not open to the public. No visits or tastings accepted.",
+      "booking_url": "",
+      "signature_wines": [
+        "petrus-pomerol"
+      ],
+      "scores": [
+        {
+          "reviewer": "Wine Advocate",
+          "points": 100,
+          "vintage": 2000,
+          "year": 2003
+        },
+        {
+          "reviewer": "Wine Advocate",
+          "points": 100,
+          "vintage": 1998,
+          "year": 2001
+        }
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "The world's most prestigious Pomerol, just 11.4 hectares of 100% Merlot on blue clay. Production of 30,000 bottles per year; Olivier Berrouet winemaker since 2008.",
+      "editorial_score": 5.0,
+      "verified": {
+        "source_url": "https://www.thewinecellarinsider.com/bordeaux-wine-producer-profiles/bordeaux/pomerol/petrus/",
+        "address_quoted": "3 Route de Lussac 33500 Pomerol France",
+        "open_status": "open",
+        "open_evidence_url": "https://tasteandterroir.com/chateau-petrus-pomerol/",
+        "cuisine_evidence_url": "https://www.wineinvestment.com/us/learn/wine/bordeaux/pomerol/petrus/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "le-pin",
+      "name": "Le Pin",
+      "address": "11 Rue la Fontaine, 33500 Pomerol, France",
+      "neighborhood": "Pomerol AOC",
+      "varietals": [
+        "Merlot"
+      ],
+      "classification": "Pomerol AOC",
+      "hectares": 2.7,
+      "owner": "Jacques Thienpont and family",
+      "winemaker": "Diana Garcia Berrouet",
+      "founded": 1979,
+      "tasting_program": "Not open to the public.",
+      "booking_url": "",
+      "signature_wines": [
+        "le-pin-pomerol"
+      ],
+      "scores": [
+        {
+          "reviewer": "Wine Advocate",
+          "points": 100,
+          "vintage": 2000,
+          "year": 2003
+        },
+        {
+          "reviewer": "Decanter",
+          "points": 100,
+          "vintage": 1982,
+          "year": 2019
+        }
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Ultra-micro Pomerol estate of just 2.7 hectares producing 400 to 600 cases of 100% Merlot per year. One of the most expensive wines in Bordeaux; first vintage 1979.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.thewinecellarinsider.com/bordeaux-wine-producer-profiles/bordeaux/pomerol/le-pin/",
+        "address_quoted": "11 Rue la Fontaine 33500 Pomerol France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.sothebys.com/en/articles/le-pin-is-bordeauxs-own-cult-wine",
+        "cuisine_evidence_url": "https://www.belgiumwinewatchers.com/en/journal/118/chateau-le-pin-pomerols-elite-wine",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "vieux-chateau-certan",
+      "name": "Vieux Chateau Certan",
+      "address": "Vieux Chateau Certan, 33500 Pomerol, France",
+      "neighborhood": "Pomerol AOC",
+      "varietals": [
+        "Merlot",
+        "Cabernet Franc",
+        "Cabernet Sauvignon"
+      ],
+      "classification": "Pomerol AOC",
+      "hectares": 14,
+      "owner": "Thienpont family (Alexandre and Guillaume Thienpont)",
+      "winemaker": "Guillaume Thienpont",
+      "founded": 1924,
+      "tasting_program": "Visits by appointment.",
+      "booking_url": "https://www.thienpontwine.com/en/vieux-chateau-certan-2017002-00750",
+      "signature_wines": [
+        "vieux-chateau-certan",
+        "gravette-de-certan"
+      ],
+      "scores": [
+        {
+          "reviewer": "Wine Advocate",
+          "points": 100,
+          "vintage": 2015,
+          "year": 2018
+        },
+        {
+          "reviewer": "Vinous",
+          "points": 98,
+          "vintage": 2018,
+          "year": 2021
+        }
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Pomerol's counterpart to Petrus, owned by the Thienpont family since 1924. 14-hectare contiguous plot planted 60% Merlot, 30% Cabernet Franc; 100th anniversary celebrated in 2024.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.thienpontwine.com/en/vieux-chateau-certan-2017002-00750",
+        "address_quoted": "33500 Pomerol, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.millesima-usa.com/vieux-chateau-certan-2021.html",
+        "cuisine_evidence_url": "https://www.premiumgrandscrus.com/en/298_vieux-chateau-certan",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "chateau-dyquem",
+      "name": "Chateau d'Yquem",
+      "address": "Chateau d'Yquem, 33210 Sauternes, France",
+      "neighborhood": "Sauternes AOC",
+      "varietals": [
+        "Semillon",
+        "Sauvignon Blanc"
+      ],
+      "classification": "Premier Cru Superieur (1855 Sauternes classification)",
+      "hectares": 100,
+      "owner": "LVMH (Moet Hennessy Louis Vuitton)",
+      "winemaker": "Sandrine Garbay",
+      "founded": 1593,
+      "tasting_program": "Tours and tastings available by appointment; booking through official site.",
+      "booking_url": "https://www.yquem.fr/en/visit-us",
+      "signature_wines": [
+        "chateau-dyquem",
+        "y-de-yquem"
+      ],
+      "scores": [
+        {
+          "reviewer": "Wine Advocate",
+          "points": 100,
+          "vintage": 2001,
+          "year": 2004
+        },
+        {
+          "reviewer": "Wine Spectator",
+          "points": 100,
+          "vintage": 2001,
+          "year": 2004
+        }
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "The only Sauternes Premier Cru Superieur, producing botrytised Semillon-Sauvignon Blanc of extraordinary longevity. LVMH-owned; Sandrine Garbay winemaker; average 10 hl/ha yield.",
+      "editorial_score": 5.0,
+      "verified": {
+        "source_url": "https://www.lvmh.com/en/our-maisons/wines-spirits/chateau-dyquem",
+        "address_quoted": "Chateau d'Yquem, 33210 Sauternes, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.thewinecellarinsider.com/bordeaux-wine-producer-profiles/bordeaux/sauternesbarsac/dyquem/",
+        "cuisine_evidence_url": "https://bestofwines.com/blog/10-things-to-know-about-chateau-dyquem/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "chateau-ausone",
+      "name": "Chateau Ausone",
+      "address": "Chateau Ausone, 33330 Saint-Emilion, France",
+      "neighborhood": "Saint-Emilion Grand Cru AOC",
+      "varietals": [
+        "Cabernet Franc",
+        "Merlot"
+      ],
+      "classification": "Saint-Emilion Grand Cru (withdrew from Premier Grand Cru Classe A classification as of 2022)",
+      "hectares": 7,
+      "owner": "Vauthier family (Alain and Pauline Vauthier)",
+      "winemaker": "Pauline Vauthier",
+      "founded": 1853,
+      "tasting_program": "By appointment only.",
+      "booking_url": "https://bordeauxwinepilgrim.com/blogs/chateau-ausone",
+      "signature_wines": [
+        "chateau-ausone",
+        "chapelle-dausone"
+      ],
+      "scores": [
+        {
+          "reviewer": "Wine Advocate",
+          "points": 100,
+          "vintage": 2000,
+          "year": 2003
+        },
+        {
+          "reviewer": "Wine Advocate",
+          "points": 100,
+          "vintage": 2015,
+          "year": 2018
+        }
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Historic Saint-Emilion estate of 7 hectares planted 55% Cabernet Franc on limestone plateau; family-owned Vauthier; ultra-limited annual production of around 1,500 cases.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://bordeauxwinepilgrim.com/blogs/chateau-ausone",
+        "address_quoted": "Chateau Ausone, 33330 Saint-Emilion, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.thewinecellarinsider.com/bordeaux-wine-producer-profiles/bordeaux/st-emilion/ausone/",
+        "cuisine_evidence_url": "https://www.wineinvestment.com/us/learn/wine/bordeaux/saint-emilion/chateau-ausone/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "chateau-cos-destournel",
+      "name": "Chateau Cos d'Estournel",
+      "address": "Cos d'Estournel, 33180 Saint-Estephe, France",
+      "neighborhood": "Saint-Estephe AOC",
+      "varietals": [
+        "Cabernet Sauvignon",
+        "Merlot",
+        "Cabernet Franc",
+        "Sauvignon Blanc",
+        "Semillon"
+      ],
+      "classification": "Deuxieme Cru Classe (1855 classification)",
+      "hectares": 91,
+      "owner": "Michel Reybier",
+      "winemaker": "Michel Reybier (owner-managed since 2017)",
+      "founded": 1810,
+      "tasting_program": "Visits and tastings available through La Maison d'Estournel hotel.",
+      "booking_url": "https://www.estournel.com/en/maison-destournel/",
+      "signature_wines": [
+        "cos-destournel-rouge",
+        "les-pagodes-de-cos",
+        "cos-destournel-blanc"
+      ],
+      "scores": [
+        {
+          "reviewer": "Wine Advocate",
+          "points": 100,
+          "vintage": 2003,
+          "year": 2006
+        },
+        {
+          "reviewer": "James Suckling",
+          "points": 100,
+          "vintage": 2016,
+          "year": 2019
+        }
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "ecocert",
+      "description": "Saint-Estephe second growth with 91 hectares, famous for pagoda-adorned winery. Fully organic since 2024; Michel Reybier owner; produces red, second wine, and a white Sauvignon-Semillon blend.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.estournel.com/en/",
+        "address_quoted": "33180 Saint-Estephe, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.ugcb.net/en/chateaux/chateau-cos-destournel-2/",
+        "cuisine_evidence_url": "https://www.thewinecellarinsider.com/bordeaux-wine-producer-profiles/bordeaux/st-estephe/cos-destournel/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "chateau-ducru-beaucaillou",
+      "name": "Chateau Ducru-Beaucaillou",
+      "address": "Chateau Ducru-Beaucaillou, 33250 Saint-Julien-Beychevelle, France",
+      "neighborhood": "Saint-Julien AOC",
+      "varietals": [
+        "Cabernet Sauvignon",
+        "Merlot"
+      ],
+      "classification": "Deuxieme Cru Classe (1855 classification)",
+      "hectares": 75,
+      "owner": "Bruno Borie",
+      "winemaker": "Bruno Borie (with consultants Eric and Jacques Boissenot)",
+      "founded": 1720,
+      "tasting_program": "By appointment only.",
+      "booking_url": "https://www.millesima-usa.com/blog/chateau-ducru-beaucaillou-iconic-saint-julien-second-growth.html",
+      "signature_wines": [
+        "ducru-beaucaillou",
+        "la-croix-ducru-beaucaillou"
+      ],
+      "scores": [
+        {
+          "reviewer": "Wine Advocate",
+          "points": 100,
+          "vintage": 2010,
+          "year": 2013
+        },
+        {
+          "reviewer": "James Suckling",
+          "points": 100,
+          "vintage": 2016,
+          "year": 2019
+        }
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Saint-Julien second growth with 75 hectares on the Gironde riverside. Bruno Borie owner and manager; 70% Cabernet Sauvignon blend with 18 months in oak barrels.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.millesima-usa.com/blog/chateau-ducru-beaucaillou-iconic-saint-julien-second-growth.html",
+        "address_quoted": "33250 Saint-Julien-Beychevelle, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.ugcb.net/en/chateaux/chateau-ducru-beaucaillou-2/",
+        "cuisine_evidence_url": "https://www.thewinecellarinsider.com/bordeaux-wine-producer-profiles/bordeaux/st-julien/ducru-beaucaillou/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "chateau-lynch-bages",
+      "name": "Chateau Lynch-Bages",
+      "address": "Chateau Lynch-Bages, 33250 Pauillac, France",
+      "neighborhood": "Pauillac AOC",
+      "varietals": [
+        "Cabernet Sauvignon",
+        "Merlot",
+        "Cabernet Franc",
+        "Petit Verdot"
+      ],
+      "classification": "Cinquieme Cru Classe (1855 classification)",
+      "hectares": 90,
+      "owner": "Cazes family (Jean-Charles Cazes)",
+      "winemaker": "Jean-Charles Cazes",
+      "founded": 1939,
+      "tasting_program": "Visits, tastings and accommodation at Chateau Cordeillan-Bages; village dining at Cafe Lavinal in Bages.",
+      "booking_url": "https://www.jmcazes.com/en/jmc/cazes-family",
+      "signature_wines": [
+        "lynch-bages",
+        "echo-de-lynch-bages"
+      ],
+      "scores": [
+        {
+          "reviewer": "Wine Advocate",
+          "points": 97,
+          "vintage": 2010,
+          "year": 2013
+        },
+        {
+          "reviewer": "Wine Advocate",
+          "points": 97,
+          "vintage": 2016,
+          "year": 2019
+        }
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Pauillac fifth growth that consistently overdelivers, with 90 hectares planted 67% Cabernet Sauvignon. Cazes-family owned since 1939; 18 months in 75% new oak barrels.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.jmcazes.com/en/jmc/cazes-family",
+        "address_quoted": "33250 Pauillac, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.ugcb.net/en/chateaux/chateau-lynch-bages-2/",
+        "cuisine_evidence_url": "https://www.thewinecellarinsider.com/bordeaux-wine-producer-profiles/bordeaux/pauillac/lynch-bages/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "chateau-pichon-baron",
+      "name": "Chateau Pichon-Longueville Baron",
+      "address": "Chateau Pichon-Longueville Baron, 33250 Pauillac, France",
+      "neighborhood": "Pauillac AOC",
+      "varietals": [
+        "Cabernet Sauvignon",
+        "Merlot",
+        "Cabernet Franc",
+        "Petit Verdot"
+      ],
+      "classification": "Deuxieme Cru Classe (1855 classification)",
+      "hectares": 73,
+      "owner": "AXA Millesimes",
+      "winemaker": "Alexandra Lebossé",
+      "founded": 1694,
+      "tasting_program": "Visits available; contact chateau for details.",
+      "booking_url": "https://www.pichonbaron.com/en/",
+      "signature_wines": [
+        "pichon-baron",
+        "les-griffons-de-pichon-baron"
+      ],
+      "scores": [
+        {
+          "reviewer": "Wine Advocate",
+          "points": 98,
+          "vintage": 2016,
+          "year": 2019
+        }
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Pauillac second growth of 73 hectares owned by AXA Millesimes. Alexandra Lebossé winemaker since 2017; produces grand vin, Les Griffons second wine, and a white from 2022.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.pichonbaron.com/en/",
+        "address_quoted": "33250 Pauillac, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.ugcb.net/en/chateaux/chateau-pichon-longueville-baron-2/",
+        "cuisine_evidence_url": "https://www.thewinecellarinsider.com/bordeaux-wine-producer-profiles/bordeaux/pauillac/pichon-longueville-baron/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "chateau-pichon-lalande",
+      "name": "Chateau Pichon Longueville Comtesse de Lalande",
+      "address": "Chateau Pichon Lalande, 33250 Pauillac, France",
+      "neighborhood": "Pauillac AOC",
+      "varietals": [
+        "Cabernet Sauvignon",
+        "Merlot",
+        "Cabernet Franc",
+        "Petit Verdot"
+      ],
+      "classification": "Deuxieme Cru Classe (1855 classification)",
+      "hectares": 89,
+      "owner": "Louis Roederer Champagne",
+      "winemaker": "Nicolas Glumineau (CEO and winemaker since 2012)",
+      "founded": 1694,
+      "tasting_program": "Visits available by appointment.",
+      "booking_url": "https://pichon-lalande.com/en/",
+      "signature_wines": [
+        "pichon-lalande",
+        "reserve-de-la-comtesse"
+      ],
+      "scores": [
+        {
+          "reviewer": "Wine Advocate",
+          "points": 98,
+          "vintage": 2019,
+          "year": 2022
+        },
+        {
+          "reviewer": "Decanter",
+          "points": 97,
+          "vintage": 2020,
+          "year": 2023
+        }
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Pauillac second growth adjacent to Chateau Latour. 89 hectares with unusually high 32% Merlot for Left Bank; Louis Roederer Champagne owner since 2006.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://pichon-lalande.com/en/",
+        "address_quoted": "33250 Pauillac, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.ugcb.net/en/chateaux/chateau-pichon-longueville-comtesse-de-lalande-2/",
+        "cuisine_evidence_url": "https://www.thewinecellarinsider.com/bordeaux-wine-producer-profiles/bordeaux/pauillac/pichon-comtesse-de-lalande/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "chateau-pontet-canet",
+      "name": "Chateau Pontet-Canet",
+      "address": "Chateau Pontet-Canet, 33250 Pauillac, France",
+      "neighborhood": "Pauillac AOC",
+      "varietals": [
+        "Cabernet Sauvignon",
+        "Merlot",
+        "Cabernet Franc",
+        "Petit Verdot"
+      ],
+      "classification": "Cinquieme Cru Classe (1855 classification)",
+      "hectares": 81,
+      "owner": "Alfred Tesseron",
+      "winemaker": "Mathieu Bessonnet",
+      "founded": 1975,
+      "tasting_program": "Visits and tastings available by appointment.",
+      "booking_url": "https://www.pontet-canet.com/en/",
+      "signature_wines": [
+        "pontet-canet"
+      ],
+      "scores": [
+        {
+          "reviewer": "Wine Advocate",
+          "points": 100,
+          "vintage": 2010,
+          "year": 2013
+        },
+        {
+          "reviewer": "Wine Advocate",
+          "points": 100,
+          "vintage": 2012,
+          "year": 2015
+        }
+      ],
+      "biodynamic_status": "demeter_certified",
+      "organic_status": "ecocert",
+      "description": "Pauillac fifth growth leading Bordeaux biodynamics; 81 hectares certified Demeter since 2014 and Biodyvin since 2010. Tesseron family owners; Mathieu Bessonnet technical director since 2020.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.pontet-canet.com/en/",
+        "address_quoted": "33250 Pauillac, France",
+        "open_status": "open",
+        "open_evidence_url": "https://winespecific.com/2024/07/23/full-force-biodynamics-at-chateau-pontet-canet-and-the-meaning-of-local/",
+        "cuisine_evidence_url": "https://www.thewinecellarinsider.com/bordeaux-wine-producer-profiles/bordeaux/pauillac/pontet-canet/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "chateau-palmer",
+      "name": "Chateau Palmer",
+      "address": "Chateau Palmer, 33460 Cantenac, France",
+      "neighborhood": "Margaux AOC",
+      "varietals": [
+        "Cabernet Sauvignon",
+        "Merlot"
+      ],
+      "classification": "Troisieme Cru Classe (1855 classification)",
+      "hectares": 66,
+      "owner": "Sichel and Mahler-Besse families",
+      "winemaker": "Thomas Duroux",
+      "founded": 1814,
+      "tasting_program": "Visits by appointment.",
+      "booking_url": "https://www.chateau-palmer.com/en/",
+      "signature_wines": [
+        "chateau-palmer",
+        "alter-ego-de-palmer"
+      ],
+      "scores": [
+        {
+          "reviewer": "Wine Advocate",
+          "points": 100,
+          "vintage": 2009,
+          "year": 2012
+        },
+        {
+          "reviewer": "Wine Advocate",
+          "points": 100,
+          "vintage": 1961,
+          "year": 2021
+        }
+      ],
+      "biodynamic_status": "demeter_certified",
+      "organic_status": "ecocert",
+      "description": "Margaux third growth frequently outperforming its classification; 66 hectares certified 100% biodynamic since 2017. Thomas Duroux managing director since 2004.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.chateau-palmer.com/en/",
+        "address_quoted": "33460 Cantenac, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.ugcb.net/en/chateaux/chateau-palmer-2/",
+        "cuisine_evidence_url": "https://www.thewinecellarinsider.com/bordeaux-wine-producer-profiles/bordeaux/margaux/palmer/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "chateau-la-mission-haut-brion",
+      "name": "Chateau La Mission Haut-Brion",
+      "address": "67 rue Peybouquey, 33400 Talence, France",
+      "neighborhood": "Pessac-Léognan AOC",
+      "varietals": [
+        "Cabernet Sauvignon",
+        "Merlot",
+        "Cabernet Franc"
+      ],
+      "classification": "Cru Classe de Graves",
+      "hectares": 23,
+      "owner": "Domaine Clarence Dillon",
+      "winemaker": "Jean-Philippe Delmas",
+      "founded": 1682,
+      "tasting_program": "Visits by appointment only.",
+      "booking_url": "https://www.mission-haut-brion.com/en/",
+      "signature_wines": [
+        "la-mission-haut-brion-rouge",
+        "la-mission-haut-brion-blanc",
+        "la-chapelle-de-la-mission"
+      ],
+      "scores": [
+        {
+          "reviewer": "Wine Advocate",
+          "points": 100,
+          "vintage": 2009,
+          "year": 2012
+        },
+        {
+          "reviewer": "Wine Advocate",
+          "points": 100,
+          "vintage": 1989,
+          "year": 1990
+        }
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Graves Cru Classe adjacent to Haut-Brion in Talence, sharing the same Domaine Clarence Dillon ownership. 23 hectares producing powerful, structured Cabernet-Merlot blends.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.mission-haut-brion.com/en/",
+        "address_quoted": "67 rue Peybouquey, 33400 Talence, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.ugcb.net/en/chateaux/chateau-la-mission-haut-brion-2/",
+        "cuisine_evidence_url": "https://www.thewinecellarinsider.com/bordeaux-wine-producer-profiles/bordeaux/graves-pessac/chateau-la-mission-haut-brion/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "chateau-leoville-barton",
+      "name": "Chateau Leoville-Barton",
+      "address": "Chateau Leoville-Barton, 33250 Saint-Julien-Beychevelle, France",
+      "neighborhood": "Saint-Julien AOC",
+      "varietals": [
+        "Cabernet Sauvignon",
+        "Merlot",
+        "Cabernet Franc"
+      ],
+      "classification": "Deuxieme Cru Classe (1855 classification)",
+      "hectares": 48,
+      "owner": "Barton family (Lilian and Melanie Barton)",
+      "winemaker": "Melanie Barton",
+      "founded": 1826,
+      "tasting_program": "By appointment for professionals and private visits.",
+      "booking_url": "https://www.leoville-barton.com/en/",
+      "signature_wines": [
+        "leoville-barton",
+        "la-reserve-de-leoville-barton"
+      ],
+      "scores": [
+        {
+          "reviewer": "Wine Advocate",
+          "points": 99,
+          "vintage": 2016,
+          "year": 2019
+        },
+        {
+          "reviewer": "James Suckling",
+          "points": 99,
+          "vintage": 2018,
+          "year": 2021
+        }
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Saint-Julien second growth family-owned without interruption since 1826. 48 hectares planted predominantly Cabernet Sauvignon; known for exceptional value among classed growths.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.leoville-barton.com/en/",
+        "address_quoted": "33250 Saint-Julien-Beychevelle, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.ugcb.net/en/chateaux/chateau-leoville-barton-2/",
+        "cuisine_evidence_url": "https://www.thewinecellarinsider.com/bordeaux-wine-producer-profiles/bordeaux/st-julien/leoville-barton/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "chateau-leoville-las-cases",
+      "name": "Chateau Leoville-Las Cases",
+      "address": "Chateau Leoville-Las Cases, 33250 Saint-Julien-Beychevelle, France",
+      "neighborhood": "Saint-Julien AOC",
+      "varietals": [
+        "Cabernet Sauvignon",
+        "Merlot",
+        "Cabernet Franc",
+        "Petit Verdot"
+      ],
+      "classification": "Deuxieme Cru Classe (1855 classification)",
+      "hectares": 97,
+      "owner": "Delon family",
+      "winemaker": "Dominique Depond",
+      "founded": 1826,
+      "tasting_program": "By appointment for professionals.",
+      "booking_url": "https://www.leoville-las-cases.com/en/",
+      "signature_wines": [
+        "grand-vin-de-leoville-du-marquis-de-las-cases",
+        "clos-du-marquis",
+        "le-petit-lion-du-marquis-de-las-cases"
+      ],
+      "scores": [
+        {
+          "reviewer": "Wine Advocate",
+          "points": 100,
+          "vintage": 2010,
+          "year": 2013
+        },
+        {
+          "reviewer": "Wine Spectator",
+          "points": 99,
+          "vintage": 2016,
+          "year": 2019
+        }
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Saint-Julien second growth known as the 'super second' of the appellation. 97 hectares with the famous walled Grand Clos enclos; Delon family ownership.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.leoville-las-cases.com/en/",
+        "address_quoted": "33250 Saint-Julien-Beychevelle, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.ugcb.net/en/chateaux/chateau-leoville-las-cases-2/",
+        "cuisine_evidence_url": "https://www.thewinecellarinsider.com/bordeaux-wine-producer-profiles/bordeaux/st-julien/leoville-las-cases/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "chateau-angélus",
+      "name": "Chateau Angelus",
+      "address": "Chateau Angelus, 33330 Saint-Emilion, France",
+      "neighborhood": "Saint-Emilion Grand Cru AOC",
+      "varietals": [
+        "Merlot",
+        "Cabernet Franc"
+      ],
+      "classification": "Saint-Emilion Grand Cru (withdrew from Premier Grand Cru Classe A in 2022)",
+      "hectares": 27,
+      "owner": "Bouard de Laforest family (Stephanie de Bouard-Rivoal)",
+      "winemaker": "Stephanie de Bouard-Rivoal",
+      "founded": 1782,
+      "tasting_program": "Visits available by appointment.",
+      "booking_url": "https://www.angelus.com/en/",
+      "signature_wines": [
+        "chateau-angelus",
+        "le-carillon-de-langelus"
+      ],
+      "scores": [
+        {
+          "reviewer": "Wine Advocate",
+          "points": 100,
+          "vintage": 2012,
+          "year": 2015
+        },
+        {
+          "reviewer": "James Suckling",
+          "points": 100,
+          "vintage": 2016,
+          "year": 2019
+        }
+      ],
+      "biodynamic_status": "biodynamic_practicing",
+      "organic_status": "ecocert",
+      "description": "Iconic Saint-Emilion estate known for its bell-tower icon. 27 hectares of Merlot-Cabernet Franc; organic certified; withdrew from 2022 classification; Stephanie de Bouard-Rivoal leads.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.angelus.com/en/",
+        "address_quoted": "33330 Saint-Emilion, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.thewinecellarinsider.com/bordeaux-wine-producer-profiles/bordeaux/st-emilion/angelus/",
+        "cuisine_evidence_url": "https://www.millesima-usa.com/blog/chateau-angelus-discover-a-saint-emilion-icon.html",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "chateau-pavie",
+      "name": "Chateau Pavie",
+      "address": "Chateau Pavie, 33330 Saint-Emilion, France",
+      "neighborhood": "Saint-Emilion Grand Cru AOC",
+      "varietals": [
+        "Merlot",
+        "Cabernet Franc",
+        "Cabernet Sauvignon"
+      ],
+      "classification": "Saint-Emilion Premier Grand Cru Classe A (2022 classification)",
+      "hectares": 37,
+      "owner": "Gerard and Chantal Perse",
+      "winemaker": "Nicolas Labenne",
+      "founded": 1998,
+      "tasting_program": "Hotel de Pavie on-site with two Michelin-starred restaurant.",
+      "booking_url": "https://www.hoteldepavie.com/en/",
+      "signature_wines": [
+        "chateau-pavie",
+        "aromes-de-pavie"
+      ],
+      "scores": [
+        {
+          "reviewer": "Wine Advocate",
+          "points": 100,
+          "vintage": 2000,
+          "year": 2003
+        },
+        {
+          "reviewer": "James Suckling",
+          "points": 100,
+          "vintage": 2015,
+          "year": 2018
+        }
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Saint-Emilion Premier Grand Cru Classe A, 37 hectares on the famous Pavie hill. Gerard Perse owner; Hotel de Pavie on-site features chef Yannick Alleno Michelin-starred restaurant.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.hoteldepavie.com/en/",
+        "address_quoted": "33330 Saint-Emilion, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.ugcb.net/en/chateaux/chateau-pavie-2/",
+        "cuisine_evidence_url": "https://www.thewinecellarinsider.com/bordeaux-wine-producer-profiles/bordeaux/st-emilion/pavie/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "chateau-troplong-mondot",
+      "name": "Chateau Troplong Mondot",
+      "address": "Chateau Troplong Mondot, 33330 Saint-Emilion, France",
+      "neighborhood": "Saint-Emilion Grand Cru AOC",
+      "varietals": [
+        "Merlot",
+        "Cabernet Franc",
+        "Cabernet Sauvignon"
+      ],
+      "classification": "Saint-Emilion Premier Grand Cru Classe B (2022 classification)",
+      "hectares": 33,
+      "owner": "SCOR (French reinsurance group; acquired July 2017)",
+      "winemaker": "Aymeric de Gironde (estate director since 2018)",
+      "founded": 1820,
+      "tasting_program": "The Keys hotel with Michelin-starred restaurant Les Belles Perdrix on-site.",
+      "booking_url": "https://www.troplong-mondot.com/en/",
+      "signature_wines": [
+        "chateau-troplong-mondot",
+        "mondot"
+      ],
+      "scores": [
+        {
+          "reviewer": "Wine Advocate",
+          "points": 98,
+          "vintage": 2015,
+          "year": 2018
+        },
+        {
+          "reviewer": "James Suckling",
+          "points": 99,
+          "vintage": 2016,
+          "year": 2019
+        }
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "ecocert",
+      "description": "Saint-Emilion Premier Grand Cru Classe B on the highest hill of the appellation. 33 hectares, organic certified; The Keys boutique hotel with Michelin restaurant Les Belles Perdrix on-site.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.troplong-mondot.com/en/",
+        "address_quoted": "33330 Saint-Emilion, France",
+        "open_status": "open",
+        "open_evidence_url": "https://cluboenologique.com/story/best-bordeaux-chateaux-wine-hotels/",
+        "cuisine_evidence_url": "https://www.thewinecellarinsider.com/bordeaux-wine-producer-profiles/bordeaux/st-emilion/troplong-mondot/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "chateau-canon",
+      "name": "Chateau Canon",
+      "address": "Chateau Canon, 33330 Saint-Emilion, France",
+      "neighborhood": "Saint-Emilion Grand Cru AOC",
+      "varietals": [
+        "Merlot",
+        "Cabernet Franc"
+      ],
+      "classification": "Saint-Emilion Premier Grand Cru Classe B (2022 classification)",
+      "hectares": 22,
+      "owner": "Chanel SAS (Wertheimer family)",
+      "winemaker": "Nicolas Audebert",
+      "founded": 1760,
+      "tasting_program": "By appointment only.",
+      "booking_url": "https://www.chateau-canon.com/en/",
+      "signature_wines": [
+        "chateau-canon",
+        "croix-canon"
+      ],
+      "scores": [
+        {
+          "reviewer": "Wine Advocate",
+          "points": 98,
+          "vintage": 2016,
+          "year": 2019
+        },
+        {
+          "reviewer": "James Suckling",
+          "points": 98,
+          "vintage": 2019,
+          "year": 2022
+        }
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "ecocert",
+      "description": "Saint-Emilion Premier Grand Cru Classe B owned by Chanel SAS since 1996. 22 hectares with limestone plateau parcels; organic certified; Nicolas Audebert director.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.chateau-canon.com/en/",
+        "address_quoted": "33330 Saint-Emilion, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.ugcb.net/en/chateaux/chateau-canon-2/",
+        "cuisine_evidence_url": "https://www.thewinecellarinsider.com/bordeaux-wine-producer-profiles/bordeaux/st-emilion/canon/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "chateau-pape-clement",
+      "name": "Chateau Pape Clement",
+      "address": "216 avenue du Docteur Nancel Penard, 33600 Pessac, France",
+      "neighborhood": "Pessac-Léognan AOC",
+      "varietals": [
+        "Cabernet Sauvignon",
+        "Merlot",
+        "Cabernet Franc",
+        "Petit Verdot",
+        "Semillon",
+        "Sauvignon Blanc"
+      ],
+      "classification": "Cru Classe de Graves (1953 classification)",
+      "hectares": 32,
+      "owner": "Bernard Magrez",
+      "winemaker": "Frederic Bonnet",
+      "founded": 1300,
+      "tasting_program": "Hotel and restaurant on-site; visits and tastings available.",
+      "booking_url": "https://www.chateau-pape-clement.fr/en/",
+      "signature_wines": [
+        "pape-clement-rouge",
+        "pape-clement-blanc"
+      ],
+      "scores": [
+        {
+          "reviewer": "Wine Advocate",
+          "points": 96,
+          "vintage": 2016,
+          "year": 2019
+        },
+        {
+          "reviewer": "James Suckling",
+          "points": 97,
+          "vintage": 2018,
+          "year": 2021
+        }
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Pessac-Leognan Cru Classe de Graves with origins traced to 1300. 32 hectares; Bernard Magrez owner; truffle-enhanced restaurant and botanical gardens featuring a 1,000-year-old olive tree.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.chateau-pape-clement.fr/en/",
+        "address_quoted": "216 avenue du Docteur Nancel Penard, 33600 Pessac, France",
+        "open_status": "open",
+        "open_evidence_url": "https://cluboenologique.com/story/best-bordeaux-chateaux-wine-hotels/",
+        "cuisine_evidence_url": "https://www.thewinecellarinsider.com/bordeaux-wine-producer-profiles/bordeaux/graves-pessac/pape-clement/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "chateau-smith-haut-lafitte",
+      "name": "Chateau Smith Haut Lafitte",
+      "address": "Chateau Smith Haut Lafitte, 33650 Martillac, France",
+      "neighborhood": "Pessac-Léognan AOC",
+      "varietals": [
+        "Cabernet Sauvignon",
+        "Merlot",
+        "Cabernet Franc",
+        "Petit Verdot",
+        "Sauvignon Blanc",
+        "Semillon",
+        "Sauvignon Gris"
+      ],
+      "classification": "Cru Classe de Graves (1953 classification)",
+      "hectares": 67,
+      "owner": "Daniel and Florence Cathiard",
+      "winemaker": "Fabien Teitgen",
+      "founded": 1365,
+      "tasting_program": "Les Sources de Caudalie hotel with Vinothérapie Spa and Michelin-starred restaurant; open to hotel guests and visitors.",
+      "booking_url": "https://www.sources-caudalie.com/en/",
+      "signature_wines": [
+        "smith-haut-lafitte-rouge",
+        "smith-haut-lafitte-blanc"
+      ],
+      "scores": [
+        {
+          "reviewer": "Wine Advocate",
+          "points": 97,
+          "vintage": 2018,
+          "year": 2021
+        },
+        {
+          "reviewer": "James Suckling",
+          "points": 98,
+          "vintage": 2019,
+          "year": 2022
+        }
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "ecocert",
+      "description": "Pessac-Leognan Cru Classe de Graves owned by the Cathiards since 1990. 67 hectares including white wine production; Les Sources de Caudalie luxury spa resort on-site.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.chateau-smith-haut-lafitte.com/en/",
+        "address_quoted": "33650 Martillac, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.sources-caudalie.com/en/",
+        "cuisine_evidence_url": "https://www.thewinecellarinsider.com/bordeaux-wine-producer-profiles/bordeaux/graves-pessac/smith-haut-lafitte/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "chateau-rieussec",
+      "name": "Chateau Rieussec",
+      "address": "Chateau Rieussec, 33210 Fargues-de-Langon, France",
+      "neighborhood": "Sauternes AOC",
+      "varietals": [
+        "Semillon",
+        "Sauvignon Blanc",
+        "Muscadelle"
+      ],
+      "classification": "Premier Cru Classe (1855 Sauternes classification)",
+      "hectares": 93,
+      "owner": "Domaines Barons de Rothschild (Lafite)",
+      "winemaker": "Stephane Biarnès",
+      "founded": 1790,
+      "tasting_program": "Visits and tastings available by appointment.",
+      "booking_url": "https://www.lafite.com/domaines/chateau-rieussec/",
+      "signature_wines": [
+        "chateau-rieussec-sauternes",
+        "r-de-rieussec"
+      ],
+      "scores": [
+        {
+          "reviewer": "Wine Advocate",
+          "points": 98,
+          "vintage": 2001,
+          "year": 2004
+        },
+        {
+          "reviewer": "Wine Spectator",
+          "points": 98,
+          "vintage": 2009,
+          "year": 2012
+        }
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Sauternes Premier Cru adjacent to d'Yquem, owned by Domaines Barons de Rothschild since 1984. 93 hectares of Semillon-dominant botrytised dessert wine production.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.lafite.com/domaines/chateau-rieussec/",
+        "address_quoted": "33210 Fargues-de-Langon, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.thewinecellarinsider.com/bordeaux-wine-producer-profiles/bordeaux/sauternesbarsac/rieussec/",
+        "cuisine_evidence_url": "https://www.premiumgrandscrus.com/en/289_chateau-rieussec",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "chateau-lafaurie-peyraguey",
+      "name": "Chateau Lafaurie-Peyraguey",
+      "address": "Chateau Lafaurie-Peyraguey, 33210 Bommes, France",
+      "neighborhood": "Sauternes AOC",
+      "varietals": [
+        "Semillon",
+        "Sauvignon Blanc",
+        "Muscadelle"
+      ],
+      "classification": "Premier Cru Classe (1855 Sauternes classification)",
+      "hectares": 18,
+      "owner": "Silvio Denz (Lalique)",
+      "winemaker": "Mathieu Chardon",
+      "founded": 1618,
+      "tasting_program": "Lalique hotel with two Michelin-starred restaurant; open to hotel guests.",
+      "booking_url": "https://www.lafauriepeyragueylalique.com/en/",
+      "signature_wines": [
+        "chateau-lafaurie-peyraguey",
+        "la-chapelle-de-lafaurie-peyraguey"
+      ],
+      "scores": [
+        {
+          "reviewer": "Wine Advocate",
+          "points": 98,
+          "vintage": 2017,
+          "year": 2020
+        },
+        {
+          "reviewer": "Decanter",
+          "points": 97,
+          "vintage": 2019,
+          "year": 2022
+        }
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Sauternes Premier Cru within a fairytale 1618 castle; 18 hectares of enclosed vineyard. Lalique luxury hotel with two-Michelin-starred restaurant and 350,000-bottle cellar.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.lafauriepeyragueylalique.com/en/",
+        "address_quoted": "33210 Bommes, France",
+        "open_status": "open",
+        "open_evidence_url": "https://cluboenologique.com/story/best-bordeaux-chateaux-wine-hotels/",
+        "cuisine_evidence_url": "https://www.thewinecellarinsider.com/bordeaux-wine-producer-profiles/bordeaux/sauternesbarsac/lafaurie-peyraguey/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "chateau-meyney",
+      "name": "Chateau Meyney",
+      "address": "Chateau Meyney, 33180 Saint-Estephe, France",
+      "neighborhood": "Saint-Estephe AOC",
+      "varietals": [
+        "Cabernet Sauvignon",
+        "Merlot",
+        "Petit Verdot"
+      ],
+      "classification": "Cru Bourgeois Exceptionnel",
+      "hectares": 51,
+      "owner": "Credit Agricole Assurances (Predica)",
+      "winemaker": "Sylvain Boivert",
+      "founded": 1666,
+      "tasting_program": "Visits by appointment.",
+      "booking_url": "https://www.chateau-meyney.com/en/",
+      "signature_wines": [
+        "chateau-meyney",
+        "prieur-de-meyney"
+      ],
+      "scores": [
+        {
+          "reviewer": "Wine Advocate",
+          "points": 92,
+          "vintage": 2016,
+          "year": 2019
+        },
+        {
+          "reviewer": "Decanter",
+          "points": 93,
+          "vintage": 2018,
+          "year": 2021
+        }
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Saint-Estephe Cru Bourgeois Exceptionnel with 51 hectares and a former Celestine priory. Reliable, full-bodied Cabernet-dominant style representing excellent appellation value.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.chateau-meyney.com/en/",
+        "address_quoted": "33180 Saint-Estephe, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wineinvestment.com/us/learn/wine/bordeaux/saint-estephe/chateau-meyney/",
+        "cuisine_evidence_url": "https://www.thewinecellarinsider.com/bordeaux-wine-producer-profiles/bordeaux/st-estephe/meyney/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "chateau-clinet",
+      "name": "Chateau Clinet",
+      "address": "Chateau Clinet, 33500 Pomerol, France",
+      "neighborhood": "Pomerol AOC",
+      "varietals": [
+        "Merlot",
+        "Cabernet Sauvignon",
+        "Cabernet Franc"
+      ],
+      "classification": "Pomerol AOC",
+      "hectares": 9,
+      "owner": "Ronan Laborde",
+      "winemaker": "Ronan Laborde",
+      "founded": 1892,
+      "tasting_program": "By appointment only.",
+      "booking_url": "https://www.chateauclinet.com/en/",
+      "signature_wines": [
+        "clinet"
+      ],
+      "scores": [
+        {
+          "reviewer": "Wine Advocate",
+          "points": 100,
+          "vintage": 1998,
+          "year": 2001
+        },
+        {
+          "reviewer": "Wine Advocate",
+          "points": 98,
+          "vintage": 2000,
+          "year": 2003
+        }
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Pomerol estate of 9 hectares dominated by old-vine Merlot. Ronan Laborde family-owned; 1998 vintage scored 100 points from Wine Advocate; old-vine character a distinguishing feature.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.chateauclinet.com/en/",
+        "address_quoted": "33500 Pomerol, France",
+        "open_status": "open",
+        "open_evidence_url": "https://tasteandterroir.com/chateau-clinet-pomerol/",
+        "cuisine_evidence_url": "https://www.thewinecellarinsider.com/bordeaux-wine-producer-profiles/bordeaux/pomerol/clinet/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "chateau-lafleur",
+      "name": "Chateau Lafleur",
+      "address": "Chateau Lafleur, 33500 Pomerol, France",
+      "neighborhood": "Pomerol AOC",
+      "varietals": [
+        "Merlot",
+        "Cabernet Franc"
+      ],
+      "classification": "Pomerol AOC",
+      "hectares": 4.5,
+      "owner": "Guinaudeau family (Baptiste and Julie Guinaudeau)",
+      "winemaker": "Baptiste Guinaudeau",
+      "founded": 1872,
+      "tasting_program": "By appointment only.",
+      "booking_url": "https://www.chateau-lafleur.fr/",
+      "signature_wines": [
+        "lafleur-pomerol",
+        "pensees-de-lafleur"
+      ],
+      "scores": [
+        {
+          "reviewer": "Wine Advocate",
+          "points": 100,
+          "vintage": 1947,
+          "year": 2014
+        },
+        {
+          "reviewer": "Wine Advocate",
+          "points": 99,
+          "vintage": 2015,
+          "year": 2018
+        }
+      ],
+      "biodynamic_status": "biodynamic_practicing",
+      "organic_status": "ecocert",
+      "description": "Tiny 4.5-hectare Pomerol estate considered peer to Petrus. Unusual equal split of Merlot and Cabernet Franc; Guinaudeau family owners; biodynamic farming since 2014.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.chateau-lafleur.fr/",
+        "address_quoted": "33500 Pomerol, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.thewinecellarinsider.com/bordeaux-wine-producer-profiles/bordeaux/pomerol/lafleur/",
+        "cuisine_evidence_url": "https://www.wineinvestment.com/us/learn/wine/bordeaux/pomerol/chateau-lafleur/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "chateau-beausejour-becot",
+      "name": "Chateau Beau-Sejour Becot",
+      "address": "Chateau Beau-Sejour Becot, 33330 Saint-Emilion, France",
+      "neighborhood": "Saint-Emilion Grand Cru AOC",
+      "varietals": [
+        "Merlot",
+        "Cabernet Franc",
+        "Cabernet Sauvignon"
+      ],
+      "classification": "Saint-Emilion Premier Grand Cru Classe B (2022 classification)",
+      "hectares": 16.5,
+      "owner": "Becot family (Juliette and Sebastien Becot)",
+      "winemaker": "Juliette Becot",
+      "founded": 1969,
+      "tasting_program": "Visits and tastings available; contact chateau.",
+      "booking_url": "https://www.beausejour-becot.com/en/",
+      "signature_wines": [
+        "chateau-beausejour-becot",
+        "petit-becot"
+      ],
+      "scores": [
+        {
+          "reviewer": "Wine Advocate",
+          "points": 98,
+          "vintage": 2015,
+          "year": 2018
+        },
+        {
+          "reviewer": "Decanter",
+          "points": 96,
+          "vintage": 2018,
+          "year": 2021
+        }
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "ecocert",
+      "description": "Saint-Emilion Premier Grand Cru Classe B on 16.5 hectares including ancient underground cellars carved from limestone. Becot family-managed; organic certified.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.beausejour-becot.com/en/",
+        "address_quoted": "33330 Saint-Emilion, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.ugcb.net/en/chateaux/chateau-beau-sejour-becot-2/",
+        "cuisine_evidence_url": "https://www.thewinecellarinsider.com/bordeaux-wine-producer-profiles/bordeaux/st-emilion/beau-sejour-becot/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "chateau-figeac",
+      "name": "Chateau Figeac",
+      "address": "Chateau Figeac, 33330 Saint-Emilion, France",
+      "neighborhood": "Saint-Emilion Grand Cru AOC",
+      "varietals": [
+        "Cabernet Sauvignon",
+        "Cabernet Franc",
+        "Merlot"
+      ],
+      "classification": "Saint-Emilion Premier Grand Cru Classe A (2022 classification)",
+      "hectares": 40,
+      "owner": "Manoncourt family (Eric and Marie-France d'Aramon)",
+      "winemaker": "Frederic Faye",
+      "founded": 1892,
+      "tasting_program": "Visits by appointment.",
+      "booking_url": "https://www.chateau-figeac.com/en/",
+      "signature_wines": [
+        "chateau-figeac",
+        "petit-figeac"
+      ],
+      "scores": [
+        {
+          "reviewer": "Wine Advocate",
+          "points": 99,
+          "vintage": 2022,
+          "year": 2025
+        },
+        {
+          "reviewer": "Decanter",
+          "points": 97,
+          "vintage": 2020,
+          "year": 2023
+        }
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "ecocert",
+      "description": "Saint-Emilion Premier Grand Cru Classe A elevated in 2022 reclassification. Unusual for Right Bank with an equal-thirds Cabernet Sauvignon, Cabernet Franc, Merlot blend on 40 hectares of gravelly soils.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.chateau-figeac.com/en/",
+        "address_quoted": "33330 Saint-Emilion, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.ugcb.net/en/chateaux/chateau-figeac-2/",
+        "cuisine_evidence_url": "https://www.thewinecellarinsider.com/bordeaux-wine-producer-profiles/bordeaux/st-emilion/figeac/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "chateau-larose-trintaudon",
+      "name": "Chateau Larose Trintaudon",
+      "address": "Chateau Larose Trintaudon, 33112 Saint-Laurent-Medoc, France",
+      "neighborhood": "Haut-Médoc AOC",
+      "varietals": [
+        "Cabernet Sauvignon",
+        "Merlot"
+      ],
+      "classification": "Cru Bourgeois (Haut-Medoc AOC)",
+      "hectares": 170,
+      "owner": "Allianz Real Estate",
+      "winemaker": "Bastien Lagrave",
+      "founded": 1730,
+      "tasting_program": "Cellar door open Monday to Friday with tastings.",
+      "booking_url": "https://www.larosetrintaudon.com/en/",
+      "signature_wines": [
+        "chateau-larose-trintaudon",
+        "les-hauts-de-trintaudon"
+      ],
+      "scores": [
+        {
+          "reviewer": "Decanter",
+          "points": 90,
+          "vintage": 2019,
+          "year": 2022
+        },
+        {
+          "reviewer": "Wine Spectator",
+          "points": 89,
+          "vintage": 2018,
+          "year": 2021
+        }
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "The largest Cru Bourgeois in the Medoc at 170 hectares. Reliable Cabernet-Merlot blends from Haut-Medoc with good fruit and structure at accessible price points.",
+      "editorial_score": 4.1,
+      "verified": {
+        "source_url": "https://www.larosetrintaudon.com/en/",
+        "address_quoted": "33112 Saint-Laurent-Medoc, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wineinvestment.com/us/learn/wine/bordeaux/haut-medoc/chateau-larose-trintaudon/",
+        "cuisine_evidence_url": "https://www.thewinecellarinsider.com/bordeaux-wine-producer-profiles/bordeaux/haut-medoc/larose-trintaudon/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "chateau-camensac",
+      "name": "Chateau Camensac",
+      "address": "Chateau Camensac, 33112 Saint-Laurent-Medoc, France",
+      "neighborhood": "Haut-Médoc AOC",
+      "varietals": [
+        "Cabernet Sauvignon",
+        "Merlot"
+      ],
+      "classification": "Cinquieme Cru Classe (1855 classification)",
+      "hectares": 65,
+      "owner": "Merlaut family (Olivier Merlaut)",
+      "winemaker": "Olivier Merlaut",
+      "founded": 1964,
+      "tasting_program": "Visits by appointment.",
+      "booking_url": "https://www.chateaucamensac.com/en/",
+      "signature_wines": [
+        "chateau-de-camensac",
+        "la-closerie-de-camensac"
+      ],
+      "scores": [
+        {
+          "reviewer": "Wine Advocate",
+          "points": 92,
+          "vintage": 2019,
+          "year": 2022
+        },
+        {
+          "reviewer": "Decanter",
+          "points": 91,
+          "vintage": 2018,
+          "year": 2021
+        }
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Haut-Medoc fifth growth of 65 hectares, offering classed-growth quality at accessible prices. Merlaut family management bringing consistent improvement since 2005.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.chateaucamensac.com/en/",
+        "address_quoted": "33112 Saint-Laurent-Medoc, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.ugcb.net/en/chateaux/chateau-camensac-2/",
+        "cuisine_evidence_url": "https://www.thewinecellarinsider.com/bordeaux-wine-producer-profiles/bordeaux/haut-medoc/camensac/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "chateau-bauduc",
+      "name": "Chateau Bauduc",
+      "address": "Chateau Bauduc, 33670 Créon, France",
+      "neighborhood": "Entre-Deux-Mers AOC",
+      "varietals": [
+        "Semillon",
+        "Sauvignon Blanc",
+        "Muscadelle",
+        "Cabernet Sauvignon",
+        "Merlot"
+      ],
+      "classification": "Bordeaux AOC and Entre-Deux-Mers AOC",
+      "hectares": 40,
+      "owner": "Gavin and Angela Quinney",
+      "winemaker": "Gavin Quinney",
+      "founded": 1999,
+      "tasting_program": "Farmhouse accommodation; vineyard visits; winery tours by arrangement.",
+      "booking_url": "https://www.bauduc.com/",
+      "signature_wines": [
+        "bauduc-bordeaux-superieur",
+        "bauduc-les-trois-hectares-rouge",
+        "bauduc-les-trois-hectares-blanc",
+        "bauduc-sauvignon-blanc"
+      ],
+      "scores": [
+        {
+          "reviewer": "Decanter",
+          "points": 91,
+          "vintage": 2020,
+          "year": 2022
+        },
+        {
+          "reviewer": "Wine Spectator",
+          "points": 89,
+          "vintage": 2021,
+          "year": 2023
+        }
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "English-owned Entre-Deux-Mers estate known for crisp whites and reliable Bordeaux reds. 40 hectares; farmhouse accommodation; award-winning wines at accessible price points.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.bauduc.com/",
+        "address_quoted": "33670 Créon, France",
+        "open_status": "open",
+        "open_evidence_url": "https://cluboenologique.com/story/best-bordeaux-chateaux-wine-hotels/",
+        "cuisine_evidence_url": "https://www.thewinecellarinsider.com/bordeaux-wine-producer-profiles/bordeaux/entre-deux-mers/bauduc/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "chateau-de-la-riviere",
+      "name": "Chateau de la Riviere",
+      "address": "Chateau de la Riviere, 33126 La Rivière, France",
+      "neighborhood": "Fronsac AOC",
+      "varietals": [
+        "Merlot",
+        "Cabernet Franc",
+        "Cabernet Sauvignon"
+      ],
+      "classification": "Fronsac AOC",
+      "hectares": 60,
+      "owner": "Xavier Buffo",
+      "winemaker": "Xavier Buffo",
+      "founded": 1530,
+      "tasting_program": "Visits, wine-and-cheese tastings, and cave-tour experiences available.",
+      "booking_url": "https://www.chateau-de-la-riviere.com/en/",
+      "signature_wines": [
+        "riviere-fronsac"
+      ],
+      "scores": [
+        {
+          "reviewer": "Decanter",
+          "points": 93,
+          "vintage": 2018,
+          "year": 2021
+        },
+        {
+          "reviewer": "Wine Advocate",
+          "points": 92,
+          "vintage": 2019,
+          "year": 2022
+        }
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Fronsac's flagship estate with 60 hectares and a spectacular 16th-century underground cave network. Known for structured, Merlot-dominant wines with Right Bank elegance.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.chateau-de-la-riviere.com/en/",
+        "address_quoted": "33126 La Rivière, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.thewinecellarinsider.com/bordeaux-wine-producer-profiles/bordeaux/fronsac/de-la-riviere/",
+        "cuisine_evidence_url": "https://www.wineinvestment.com/us/learn/wine/bordeaux/fronsac/chateau-de-la-riviere/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "chateau-roc-de-cambes",
+      "name": "Chateau Roc de Cambes",
+      "address": "Chateau Roc de Cambes, 33710 Bourg-sur-Gironde, France",
+      "neighborhood": "Cotes de Bourg AOC",
+      "varietals": [
+        "Merlot",
+        "Cabernet Sauvignon",
+        "Cabernet Franc",
+        "Malbec"
+      ],
+      "classification": "Cotes de Bourg AOC",
+      "hectares": 10,
+      "owner": "Francois Mitjavile",
+      "winemaker": "Francois Mitjavile",
+      "founded": 1988,
+      "tasting_program": "By appointment only.",
+      "booking_url": "https://www.tertre-roteboeuf.com/roc-de-cambes",
+      "signature_wines": [
+        "roc-de-cambes"
+      ],
+      "scores": [
+        {
+          "reviewer": "Wine Advocate",
+          "points": 95,
+          "vintage": 2005,
+          "year": 2008
+        },
+        {
+          "reviewer": "Decanter",
+          "points": 95,
+          "vintage": 2018,
+          "year": 2021
+        }
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Cotes de Bourg cult wine from Francois Mitjavile, creator of Le Tertre-Roteboeuf. 10 hectares on limestone slopes; Merlot-led blends with remarkable concentration and minerality.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.tertre-roteboeuf.com/roc-de-cambes",
+        "address_quoted": "33710 Bourg-sur-Gironde, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.thewinecellarinsider.com/bordeaux-wine-producer-profiles/bordeaux/cotes-de-bourg/roc-de-cambes/",
+        "cuisine_evidence_url": "https://www.wineinvestment.com/us/learn/wine/bordeaux/cotes-de-bourg/chateau-roc-de-cambes/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "chateau-moulin-pey-labrie",
+      "name": "Chateau Moulin Pey-Labrie",
+      "address": "Chateau Moulin Pey-Labrie, 33141 Saillans, France",
+      "neighborhood": "Canon-Fronsac AOC",
+      "varietals": [
+        "Merlot",
+        "Cabernet Franc"
+      ],
+      "classification": "Canon-Fronsac AOC",
+      "hectares": 7,
+      "owner": "Gregoire and Chantal Hubau",
+      "winemaker": "Gregoire Hubau",
+      "founded": 1988,
+      "tasting_program": "Visits and tastings available by appointment.",
+      "booking_url": "https://www.moulinpeylabrie.fr/",
+      "signature_wines": [
+        "moulin-pey-labrie"
+      ],
+      "scores": [
+        {
+          "reviewer": "Wine Advocate",
+          "points": 92,
+          "vintage": 2019,
+          "year": 2022
+        },
+        {
+          "reviewer": "Decanter",
+          "points": 91,
+          "vintage": 2018,
+          "year": 2021
+        }
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "ecocert",
+      "description": "Canon-Fronsac producer representing the best of this underrated Right Bank appellation. 7 hectares of organic Merlot-Cabernet Franc on clay-limestone soils.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.moulinpeylabrie.fr/",
+        "address_quoted": "33141 Saillans, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.thewinecellarinsider.com/bordeaux-wine-producer-profiles/bordeaux/canon-fronsac/moulin-pey-labrie/",
+        "cuisine_evidence_url": "https://www.wineinvestment.com/us/learn/wine/bordeaux/canon-fronsac/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "chateau-chasse-spleen",
+      "name": "Chateau Chasse-Spleen",
+      "address": "Chateau Chasse-Spleen, 33480 Moulis-en-Medoc, France",
+      "neighborhood": "Moulis-en-Médoc AOC",
+      "varietals": [
+        "Cabernet Sauvignon",
+        "Merlot",
+        "Petit Verdot"
+      ],
+      "classification": "Cru Bourgeois Exceptionnel (Moulis-en-Medoc AOC)",
+      "hectares": 100,
+      "owner": "Celine Villars-Foubet",
+      "winemaker": "Jean-Pierre Foubet",
+      "founded": 1863,
+      "tasting_program": "Visits and tastings available.",
+      "booking_url": "https://www.chasse-spleen.com/en/",
+      "signature_wines": [
+        "chateau-chasse-spleen",
+        "l-heritage-de-chasse-spleen"
+      ],
+      "scores": [
+        {
+          "reviewer": "Wine Advocate",
+          "points": 93,
+          "vintage": 2016,
+          "year": 2019
+        },
+        {
+          "reviewer": "Decanter",
+          "points": 93,
+          "vintage": 2019,
+          "year": 2022
+        }
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Moulis-en-Medoc Cru Bourgeois Exceptionnel with 100 hectares. Named for Baudelaire's 'chase away the blues'; Cabernet-dominant with excellent value-to-quality ratio.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.chasse-spleen.com/en/",
+        "address_quoted": "33480 Moulis-en-Medoc, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.ugcb.net/en/chateaux/chateau-chasse-spleen-2/",
+        "cuisine_evidence_url": "https://www.thewinecellarinsider.com/bordeaux-wine-producer-profiles/bordeaux/moulis/chasse-spleen/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "chateau-sociando-mallet",
+      "name": "Chateau Sociando-Mallet",
+      "address": "Chateau Sociando-Mallet, 33180 Saint-Seurin-de-Cadourne, France",
+      "neighborhood": "Haut-Médoc AOC",
+      "varietals": [
+        "Cabernet Sauvignon",
+        "Merlot",
+        "Cabernet Franc"
+      ],
+      "classification": "Cru Bourgeois (Haut-Medoc AOC)",
+      "hectares": 85,
+      "owner": "Gautreau family",
+      "winemaker": "Jean Gautreau",
+      "founded": 1969,
+      "tasting_program": "Cellar visits available by appointment.",
+      "booking_url": "https://www.sociando-mallet.com/en/",
+      "signature_wines": [
+        "chateau-sociando-mallet",
+        "la-demoiselle-de-sociando-mallet"
+      ],
+      "scores": [
+        {
+          "reviewer": "Wine Advocate",
+          "points": 95,
+          "vintage": 2016,
+          "year": 2019
+        },
+        {
+          "reviewer": "Decanter",
+          "points": 94,
+          "vintage": 2018,
+          "year": 2021
+        }
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Haut-Medoc Cru Bourgeois that many consider above its classification. 85 hectares of Cabernet-dominant vines; Jean Gautreau's uncompromising quality standard since 1969.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.sociando-mallet.com/en/",
+        "address_quoted": "33180 Saint-Seurin-de-Cadourne, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wineinvestment.com/us/learn/wine/bordeaux/haut-medoc/sociando-mallet/",
+        "cuisine_evidence_url": "https://www.thewinecellarinsider.com/bordeaux-wine-producer-profiles/bordeaux/haut-medoc/sociando-mallet/",
+        "checked_on": "2026-05-22"
+      }
+    }
+  ]
 }

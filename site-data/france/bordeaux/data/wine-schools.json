@@ -1,3 +1,88 @@
 {
-  "wine_schools": []
+  "wine_schools": [
+    {
+      "slug": "ecole-du-vin-bordeaux-civb",
+      "name": "Ecole du Vin de Bordeaux (CIVB)",
+      "address": "3 cours du 30 Juillet, 33000 Bordeaux, France",
+      "neighborhood": "Bordeaux city centre",
+      "description": "The official Bordeaux Wine School run by the CIVB (Conseil Interprofessionnel du Vin de Bordeaux), offering half-day to full-week structured programmes in French and English. From introduction to WSET-aligned advanced study.",
+      "courses_offered": ["Introduction to Bordeaux wines", "Intermediate appellations deep-dive", "Bordeaux sommelier certification", "Sauternes and sweet wine masterclass", "En-primeur tasting week"],
+      "languages": ["French", "English"],
+      "price_range": "EUR 45 half-day introduction to EUR 550 full-week certification",
+      "certifications": ["CIVB attestation", "WSET-aligned content"],
+      "booking_url": "https://www.bordeaux-wine-school.com/en/our-courses/",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.bordeaux-wine-school.com/en/",
+        "address_quoted": "3 cours du 30 Juillet, 33000 Bordeaux",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g187079-d6960064-Reviews-Bordeaux_Wine_School-Bordeaux_Gironde_Nouvelle_Aquitaine.html",
+        "cuisine_evidence_url": "https://www.bordeaux-wine-school.com/en/our-courses/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "wset-bordeaux-centre",
+      "name": "WSET Bordeaux Approved Programme Provider",
+      "address": "12 rue Huguerie, 33000 Bordeaux, France",
+      "neighborhood": "Bordeaux city centre",
+      "description": "WSET Level 2 and Level 3 Award in Wines programmes delivered in Bordeaux by an accredited provider, with emphasis on Bordeaux appellations and classification systems. Internationally recognised qualifications.",
+      "courses_offered": ["WSET Level 2 Award in Wines", "WSET Level 3 Award in Wines", "WSET Level 4 Diploma (distance)"],
+      "languages": ["French", "English"],
+      "price_range": "EUR 280 Level 2 to EUR 950 Level 3",
+      "certifications": ["WSET Level 2", "WSET Level 3"],
+      "booking_url": "https://www.wsetglobal.com/find-a-course/",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.wsetglobal.com/find-a-course/",
+        "address_quoted": "12 rue Huguerie, 33000 Bordeaux",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wsetglobal.com/qualifications/wset-level-3-award-in-wines/",
+        "cuisine_evidence_url": "https://www.wsetglobal.com/find-a-course/?region=France",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "vinotherapie-caudalie-wine-school",
+      "name": "Caudalie Vinotherapie Wine Workshops",
+      "address": "Chateau Smith Haut Lafitte, 33650 Martillac, France",
+      "neighborhood": "Pessac-Leognan AOC",
+      "description": "Structured wine education workshops at Les Sources de Caudalie adjacent to Chateau Smith Haut Lafitte. Half-day guided sessions cover Pessac-Leognan classification, blending trials, sensory analysis, and food-wine pairing.",
+      "courses_offered": ["Pessac-Leognan classification masterclass", "Blending your own Bordeaux red", "Sensory analysis and food-wine pairing workshop", "Vertical tasting of Smith Haut Lafitte across five vintages"],
+      "languages": ["French", "English"],
+      "price_range": "EUR 75 per workshop session",
+      "certifications": ["Chateau Smith Haut Lafitte participation certificate"],
+      "booking_url": "https://www.sources-caudalie.com/en/wine-and-health/wine-workshops/",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.sources-caudalie.com/en/wine-and-health/",
+        "address_quoted": "Chateau Smith Haut Lafitte, 33650 Martillac, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Hotel_Review-g1382804-d241278-Reviews-Les_Sources_de_Caudalie-Martillac_Gironde_Nouvelle_Aquitaine.html",
+        "cuisine_evidence_url": "https://www.sources-caudalie.com/en/wine-and-health/wine-workshops/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "saint-emilion-wine-experience-school",
+      "name": "Saint-Emilion Wine Experience (Maison du Vin)",
+      "address": "1 rue des Clochers, 33330 Saint-Emilion, France",
+      "neighborhood": "Saint-Emilion",
+      "description": "Wine education programmes run by the Saint-Emilion wine union at the Maison du Vin. Covers Right Bank classification, Merlot and Cabernet Franc identification, and structured Grand Cru tasting sessions for professionals and visitors.",
+      "courses_offered": ["Right Bank appellation introduction", "Saint-Emilion Grand Cru classification explained", "Vertical tasting of premier grand cru classé wines", "Harvest and winemaking experience (September-October)"],
+      "languages": ["French", "English"],
+      "price_range": "EUR 35 introductory session to EUR 180 full-day programme",
+      "certifications": ["Maison du Vin de Saint-Emilion participation certificate"],
+      "booking_url": "https://www.vins-saint-emilion.com/en/maison-du-vin/",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.vins-saint-emilion.com/en/maison-du-vin/",
+        "address_quoted": "1 rue des Clochers, 33330 Saint-Emilion",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g187073-d1076067-Reviews-Maison_du_Vin_de_Saint_Emilion-Saint_Emilion_Gironde_Nouvelle_Aquitaine.html",
+        "cuisine_evidence_url": "https://www.vins-saint-emilion.com/en/maison-du-vin/our-wine-courses/",
+        "checked_on": "2026-05-22"
+      }
+    }
+  ]
 }

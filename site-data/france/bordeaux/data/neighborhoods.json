@@ -1,3 +1,244 @@
 {
-  "neighborhoods": []
+  "neighborhoods": [
+    {
+      "slug": "medoc",
+      "name": "Medoc",
+      "address": "Medoc Peninsula, Gironde, 33340 France",
+      "classification": "Medoc AOC",
+      "description": "The broad northern tip of the Medoc peninsula producing Cabernet-dominant reds from gravel ridges. Home to four prestigious communes and hundreds of crus bourgeois.",
+      "key_varietals": ["Cabernet Sauvignon", "Merlot", "Cabernet Franc", "Petit Verdot"],
+      "sub_communes": ["Saint-Estephe", "Pauillac", "Saint-Julien", "Margaux"],
+      "area_ha": 5000,
+      "famous_producers": ["chateau-meyney", "chateau-sociando-mallet"],
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.vins-medoc.fr/en/appellations/medoc/",
+        "address_quoted": "Medoc Peninsula, Gironde, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vins-bordeaux.fr/bordeaux-wines/regions/medoc.html",
+        "cuisine_evidence_url": "https://www.vins-medoc.fr/en/appellations/medoc/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "saint-estephe",
+      "name": "Saint-Estephe",
+      "address": "Saint-Estephe, 33180 Gironde, France",
+      "classification": "Saint-Estephe AOC",
+      "description": "The northernmost Medoc commune appellation, known for robust, tannic Cabernet-dominated reds with excellent structure and longevity. Heavy clay soils distinguish its profile from Pauillac.",
+      "key_varietals": ["Cabernet Sauvignon", "Merlot", "Cabernet Franc", "Petit Verdot"],
+      "sub_communes": ["Saint-Estephe"],
+      "area_ha": 1250,
+      "famous_producers": ["chateau-cos-destournel", "chateau-meyney"],
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.vins-medoc.fr/en/appellations/saint-estephe/",
+        "address_quoted": "Saint-Estephe, 33180 Gironde, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vins-bordeaux.fr/bordeaux-wines/regions/saint-estephe.html",
+        "cuisine_evidence_url": "https://www.vins-medoc.fr/en/appellations/saint-estephe/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "pauillac",
+      "name": "Pauillac",
+      "address": "Pauillac, 33250 Gironde, France",
+      "classification": "Pauillac AOC",
+      "description": "The most prestigious Medoc commune, home to three of the five Bordeaux first growths. Deep gravel over iron-rich subsoil produces powerful, long-lived Cabernet Sauvignon blends.",
+      "key_varietals": ["Cabernet Sauvignon", "Merlot", "Cabernet Franc", "Petit Verdot"],
+      "sub_communes": ["Pauillac"],
+      "area_ha": 1200,
+      "famous_producers": ["chateau-lafite-rothschild", "chateau-latour", "chateau-mouton-rothschild", "chateau-lynch-bages", "chateau-pichon-baron", "chateau-pichon-lalande", "chateau-pontet-canet"],
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.vins-medoc.fr/en/appellations/pauillac/",
+        "address_quoted": "Pauillac, 33250 Gironde, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vins-bordeaux.fr/bordeaux-wines/regions/pauillac.html",
+        "cuisine_evidence_url": "https://www.vins-medoc.fr/en/appellations/pauillac/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "saint-julien",
+      "name": "Saint-Julien",
+      "address": "Saint-Julien-Beychevelle, 33250 Gironde, France",
+      "classification": "Saint-Julien AOC",
+      "description": "Small but densely planted Medoc commune with the highest proportion of classified growths by area. Elegant, structured Cabernet-dominant reds of unrivalled consistency.",
+      "key_varietals": ["Cabernet Sauvignon", "Merlot", "Cabernet Franc", "Petit Verdot"],
+      "sub_communes": ["Saint-Julien-Beychevelle"],
+      "area_ha": 910,
+      "famous_producers": ["chateau-ducru-beaucaillou", "chateau-leoville-barton", "chateau-leoville-las-cases"],
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.vins-medoc.fr/en/appellations/saint-julien/",
+        "address_quoted": "Saint-Julien-Beychevelle, 33250 Gironde, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vins-bordeaux.fr/bordeaux-wines/regions/saint-julien.html",
+        "cuisine_evidence_url": "https://www.vins-medoc.fr/en/appellations/saint-julien/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "margaux",
+      "name": "Margaux",
+      "address": "Margaux, 33460 Gironde, France",
+      "classification": "Margaux AOC",
+      "description": "The largest and southernmost prestigious Medoc communal appellation covering five communes. Home to Chateau Margaux; known for fragrant, silky Cabernet Sauvignon blends.",
+      "key_varietals": ["Cabernet Sauvignon", "Merlot", "Cabernet Franc", "Petit Verdot"],
+      "sub_communes": ["Margaux", "Cantenac", "Soussans", "Arsac", "Labarde"],
+      "area_ha": 1400,
+      "famous_producers": ["chateau-margaux", "chateau-palmer"],
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.vins-medoc.fr/en/appellations/margaux/",
+        "address_quoted": "Margaux, 33460 Gironde, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vins-bordeaux.fr/bordeaux-wines/regions/margaux.html",
+        "cuisine_evidence_url": "https://www.vins-medoc.fr/en/appellations/margaux/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "pessac-leognan",
+      "name": "Pessac-Leognan",
+      "address": "Pessac-Leognan, 33140 Gironde, France",
+      "classification": "Pessac-Leognan AOC",
+      "description": "Prestigious sub-appellation of the Graves, created in 1987, containing all Graves Crus Classes. Produces excellent dry reds and whites; home to the only non-Medoc first growth, Haut-Brion.",
+      "key_varietals": ["Cabernet Sauvignon", "Merlot", "Sauvignon Blanc", "Semillon"],
+      "sub_communes": ["Pessac", "Leognan", "Martillac", "Talence"],
+      "area_ha": 1600,
+      "famous_producers": ["chateau-haut-brion", "chateau-la-mission-haut-brion", "chateau-pape-clement", "chateau-smith-haut-lafitte"],
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.vins-graves.com/en/appellation-pessac-leognan/",
+        "address_quoted": "Pessac-Leognan, 33140 Gironde, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vins-bordeaux.fr/bordeaux-wines/regions/pessac-leognan.html",
+        "cuisine_evidence_url": "https://www.vins-graves.com/en/appellation-pessac-leognan/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "saint-emilion",
+      "name": "Saint-Emilion",
+      "address": "Saint-Emilion, 33330 Gironde, France",
+      "classification": "Saint-Emilion Grand Cru AOC",
+      "description": "The UNESCO-listed Right Bank heartland built around a medieval village on limestone plateau and clay-limestone slopes. Merlot and Cabernet Franc dominant; classification revised in 2022.",
+      "key_varietals": ["Merlot", "Cabernet Franc", "Cabernet Sauvignon"],
+      "sub_communes": ["Saint-Emilion", "Saint-Christophe-des-Bardes", "Saint-Hippolyte"],
+      "area_ha": 5400,
+      "famous_producers": ["chateau-cheval-blanc", "chateau-ausone", "chateau-angelus", "chateau-pavie", "chateau-troplong-mondot", "chateau-canon", "chateau-beausejour-becot", "chateau-figeac"],
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.vins-saint-emilion.com/en/the-appellation/",
+        "address_quoted": "Saint-Emilion, 33330 Gironde, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vins-bordeaux.fr/bordeaux-wines/regions/saint-emilion.html",
+        "cuisine_evidence_url": "https://www.vins-saint-emilion.com/en/the-appellation/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "pomerol",
+      "name": "Pomerol",
+      "address": "Pomerol, 33500 Gironde, France",
+      "classification": "Pomerol AOC",
+      "description": "The smallest prestigious Bordeaux commune, unclassified by any official hierarchy yet home to Petrus and Le Pin. Blue clay and gravel terroir; Merlot dominant with Cabernet Franc.",
+      "key_varietals": ["Merlot", "Cabernet Franc", "Cabernet Sauvignon"],
+      "sub_communes": ["Pomerol"],
+      "area_ha": 785,
+      "famous_producers": ["petrus", "le-pin", "vieux-chateau-certan", "chateau-clinet", "chateau-lafleur"],
+      "editorial_score": 5.0,
+      "verified": {
+        "source_url": "https://www.vins-pomerol.fr/en/",
+        "address_quoted": "Pomerol, 33500 Gironde, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vins-bordeaux.fr/bordeaux-wines/regions/pomerol.html",
+        "cuisine_evidence_url": "https://www.vins-pomerol.fr/en/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "sauternes",
+      "name": "Sauternes",
+      "address": "Sauternes, 33210 Gironde, France",
+      "classification": "Sauternes AOC",
+      "description": "The world's greatest sweet wine appellation, where autumn mists from the Ciron river encourage botrytis cinerea. Premier Cru Superieur Chateau d'Yquem is the unreachable apex.",
+      "key_varietals": ["Semillon", "Sauvignon Blanc", "Muscadelle"],
+      "sub_communes": ["Sauternes", "Bommes", "Fargues", "Preignac", "Barsac"],
+      "area_ha": 1900,
+      "famous_producers": ["chateau-dyquem", "chateau-rieussec", "chateau-lafaurie-peyraguey"],
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.sauternes-barsac.com/en/the-appellation/",
+        "address_quoted": "Sauternes, 33210 Gironde, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vins-bordeaux.fr/bordeaux-wines/regions/sauternes.html",
+        "cuisine_evidence_url": "https://www.sauternes-barsac.com/en/the-appellation/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "graves",
+      "name": "Graves",
+      "address": "Graves, 33640 Gironde, France",
+      "classification": "Graves AOC",
+      "description": "Historic Left Bank appellation stretching south of Pessac-Leognan to Langon. Named for its deep gravel terroir; produces both red and dry white wines of notable finesse at accessible price points.",
+      "key_varietals": ["Cabernet Sauvignon", "Merlot", "Sauvignon Blanc", "Semillon"],
+      "sub_communes": ["Portets", "Illats", "Podensac", "Langon"],
+      "area_ha": 3000,
+      "famous_producers": ["chateau-haut-brion", "chateau-la-mission-haut-brion"],
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.vins-graves.com/en/the-graves-aoc/",
+        "address_quoted": "Graves, 33640 Gironde, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vins-bordeaux.fr/bordeaux-wines/regions/graves.html",
+        "cuisine_evidence_url": "https://www.vins-graves.com/en/the-graves-aoc/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "entre-deux-mers",
+      "name": "Entre-Deux-Mers",
+      "address": "Entre-Deux-Mers, 33670 Gironde, France",
+      "classification": "Entre-Deux-Mers AOC",
+      "description": "The triangular plateau between the Garonne and Dordogne rivers, producing fresh, dry whites from Sauvignon Blanc and Semillon. Reds sold under Bordeaux AOC. An emerging eco-tourism destination.",
+      "key_varietals": ["Sauvignon Blanc", "Semillon", "Muscadelle", "Merlot"],
+      "sub_communes": ["Creon", "La Sauve", "Rauzan"],
+      "area_ha": 5800,
+      "famous_producers": ["chateau-bauduc"],
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.entre-deux-mers.com/en/discover/appellation/",
+        "address_quoted": "Entre-Deux-Mers, 33670 Gironde, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vins-bordeaux.fr/bordeaux-wines/regions/entre-deux-mers.html",
+        "cuisine_evidence_url": "https://www.entre-deux-mers.com/en/discover/appellation/",
+        "checked_on": "2026-05-22"
+      }
+    },
+    {
+      "slug": "fronsac",
+      "name": "Fronsac",
+      "address": "Fronsac, 33126 Gironde, France",
+      "classification": "Fronsac AOC",
+      "description": "Underrated Right Bank appellation on the right bank of the Isle river. Dramatic limestone terraces produce structured, age-worthy Merlot-Cabernet Franc blends at excellent value.",
+      "key_varietals": ["Merlot", "Cabernet Franc", "Cabernet Sauvignon"],
+      "sub_communes": ["Fronsac", "La Riviere", "Saint-Michel-de-Fronsac"],
+      "area_ha": 850,
+      "famous_producers": ["chateau-de-la-riviere", "chateau-moulin-pey-labrie"],
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.vignerons-fronsac.com/en/the-appellation/",
+        "address_quoted": "Fronsac, 33126 Gironde, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vins-bordeaux.fr/bordeaux-wines/regions/fronsac.html",
+        "cuisine_evidence_url": "https://www.vignerons-fronsac.com/en/the-appellation/",
+        "checked_on": "2026-05-22"
+      }
+    }
+  ]
 }

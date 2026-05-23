@@ -1,0 +1,27 @@
+{% extends "topics/_topic_base.html" %}
+
+{% block topic_intro %}
+<p class="tj-intro">{{ topic.intro | default('When to visit ' ~ destination.name ~ ': harvest, en primeur and the calendar that shapes a cellar visit.') }}</p>
+{% endblock %}
+
+{% block topic_sections %}
+{% set sw = research.seasonal_wine %}
+{% if sw and sw is mapping %}
+{% for season in ['spring', 'summer', 'autumn', 'winter'] %}
+{% if sw[season] %}
+<section class="tj-section" id="{{ season }}">
+    <h2>{{ season | title }}</h2>
+    {% if sw[season] is iterable and sw[season] is not string %}
+    <ul>
+        {% for item in sw[season] %}
+        <li>{% if item.name %}<strong>{{ item.name }}:</strong> {{ item.note | default(item.description) | default('') }}{% else %}{{ item }}{% endif %}</li>
+        {% endfor %}
+    </ul>
+    {% else %}
+    <p>{{ sw[season] }}</p>
+    {% endif %}
+</section>
+{% endif %}
+{% endfor %}
+{% endif %}
+{% endblock %}

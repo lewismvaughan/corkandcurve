@@ -80,6 +80,39 @@ Common defects:
 Spot-check 10 score entries. Remove unattributable scores entirely
 (better than a fake citation).
 
+**C2 — NUMERIC verification on top scores (added 2026-05-22).**
+For every score with `points >= 99`, you must verify the
+`(reviewer, points, vintage, year)` tuple against a real, citeable
+source. Liv-ex score-report digests, the publication's own archive
+when accessible, or a retailer/merchant page that quotes the review
+verbatim are all acceptable. The fingerprint that QA1/QA2 missed on
+the Bordeaux pilot (Opus had to catch them): 100-point claims for
+wines where the published score was actually 98, year mismatches
+where the in-bottle review fell in a different year than the
+en-primeur review, and points migrating between en-primeur and
+in-bottle reviews of the same vintage. **Do not ship `points >= 99`
+without source-verifying the tuple.** Lower scores are still subject
+to C above (structural completeness); only 99+ gets the extra step.
+
+**C3 — Split-estate disambiguation (added 2026-05-22).**
+Bordeaux + Saint-Émilion have historically-divided estates whose
+"sibling" properties share part of a name. A 100-point claim for one
+sibling MUST NEVER flow into the other's record. Confirm at the
+producer slug level:
+- Pichon-Longueville Baron ≠ Pichon-Longueville Comtesse de Lalande
+  (slugs: `chateau-pichon-baron`, `chateau-pichon-lalande`).
+- Léoville Las-Cases ≠ Léoville Poyferré ≠ Léoville Barton
+  (slugs: `chateau-leoville-las-cases`, `chateau-leoville-poyferre`,
+  `chateau-leoville-barton`).
+- Beauséjour Bécot ≠ Beauséjour Duffau-Lagarrosse
+  (slugs: `chateau-beausejour-becot`, `chateau-beausejour-duffau`).
+- Cos d'Estournel ≠ Cos Labory
+  (slugs: `chateau-cos-destournel`, `chateau-cos-labory`).
+For each sibling pair represented in vineyards.json or wines.json,
+sample 1 score entry per sibling and confirm the score attaches to
+the correct sibling (Liv-ex / Wine-Searcher / wineterminus.com are
+helpful disambiguators since they keep the siblings on separate pages).
+
 ### D. Ownership currency
 
 Wine estates change hands. A 2018 article saying "owned by the Smith
@@ -112,11 +145,73 @@ Wine-Searcher OR Vinous OR a regional consortium roster — confirm
 venue exists at the claimed address. If sample hits >2 fabrications,
 broaden to 30 — structural regression signal.
 
-### G. Cross-link sanity (food-pairing topic)
+### G. Cross-link sanity (food-pairing topic + wines.pairings)
 
 Every `food_pairing[*].tablejourney_url` must HEAD-resolve AND the
 linked TJ entity/page must actually be in the matching TJ city. A
 Bordeaux food-pairing pointing at a TJ Paris entity is a defect.
+
+For the **wines topic** (`wines.json`), every non-null
+`wines[*].pairings[*].tablejourney_ref` must:
+- HEAD-resolve at `tablejourney.com/<ref>/`
+- Be a path in the matching TJ city (Cork & Curve Tuscany cuvées
+  cross-link to TJ Florence; pointing a Tuscan cuvée at TJ Tokyo is a
+  defect).
+If sample hits >2 broken TJ refs, broaden to 50% of cuvées — research
+agent likely fabricated TJ paths.
+
+### I. Cuvée taste-note sourcing (wines topic)
+
+Every `wines[*].taste.aroma` and `wines[*].taste.palate` descriptor
+must trace to a producer technical sheet OR a named critic note
+(Decanter, Wine Advocate, Vinous, James Suckling, Jancis Robinson,
+Decanter, Wine Spectator, World of Fine Wine).
+
+The fingerprint of fabricated taste notes: every cuvée's aroma array
+opens with the same 1-2 descriptors ("dark cherry, leather" repeated
+30 times = template fill). Diversity of descriptors across the
+catalog is a signal. Sample 10 cuvées with `editorial_score >= 4.5`
+and confirm:
+- `verified.cuisine_evidence_url` is a producer tech sheet OR critic
+  page that actually contains the descriptors used.
+- The descriptors aren't all generic mass-market vocabulary ("notes
+  of red fruit" with no specificity).
+
+Remove unsourceable taste blocks rather than ship invented sensory copy.
+
+### J. Tag vocabulary conformance (wines topic)
+
+Every tag in `wines[*].tags` must appear in
+[docs/WINE_TAGS.md](../../docs/WINE_TAGS.md). Generators reject unknown
+tags and the build fails, so this check is the last line of defence
+before generation breaks the build.
+
+Also: the researcher must NOT emit tags from the DERIVED axes (price,
+ageing, production, grape, world, sweetness). The generator computes
+those from `price_band`, `drinking_window_years`, producer fields,
+`varietals`, country, `sweetness`. If `wines[*].tags` contains entries
+like `price-luxury` or `pinot-noir`, that's a regression: strip them.
+
+### K. Vintage-agnostic discipline (wines topic)
+
+Cuvée slugs MUST be vintage-agnostic. Reject any `wines[*].slug` that
+contains a 4-digit year (e.g. `tignanello-2019`). Vintage information
+belongs in `scores[*]` (with reviewer + points + year of review) and
+in prose, NEVER in the URL.
+
+Also reject any cuvée whose `name` is "Tignanello 2019" rather than
+"Tignanello" — the page is meant to summarise the cuvée across
+vintages.
+
+### L. Cuvée → producer cross-reference
+
+Every `wines[*].producer` MUST resolve to a `vineyards[*].slug` in
+the same region's `vineyards.json`. Mechanically checked at ship_safety
+gate but worth eyeballing during QA — when an agent invents a cuvée,
+the producer is often a real-sounding-but-fictional name.
+
+Also: every `signature_wines[*].slug` must appear in `wines[*].slug`.
+Curated subset, not parallel data.
 
 ### H. Voice + prose defects
 

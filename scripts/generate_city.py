@@ -55,10 +55,9 @@ def main() -> int:
     # downstream index step hiccups.
     for step in (
         "generate_cross_cuts.py",
+        "generate_region_grape.py",
         "generate_scoped_cross_cuts.py",
         "generate_city_dietary.py",
-        "generate_city_cuisine.py",
-        "generate_city_dish.py",
         "build_og_cities.py",
         "build_entity_maps.py",
         "build_city_pins.py",

@@ -716,7 +716,7 @@ SITE_DATA = REPO / "site-data"
 CACHE_PATH = REPO / "data" / "geocode-cache.json"
 
 NOMINATIM_URL = "https://nominatim.openstreetmap.org/search"
-USER_AGENT = "TableJourney/1.0 (lewis@tablejourney.com)"
+USER_AGENT = "CorkAndCurve/1.0 (lewis@corkandcurve.com)"
 SLEEP_SECONDS = 1.05  # Nominatim policy is 1/sec; small buffer to be safe.
 
 

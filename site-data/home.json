@@ -1,0 +1,4 @@
+{
+  "_note": "featured_regions and trending_wines are auto-discovered by generate_homepage.py (filesystem walk over site-data/<country>/<region>/data/). This file only carries hand-curated extras (topics chips, hero overrides). Anything you set under featured_regions or trending_wines here will be OVERWRITTEN by the generator.",
+  "topics": []
+}

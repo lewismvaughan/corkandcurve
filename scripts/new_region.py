@@ -23,6 +23,7 @@ SITE_DATA = REPO_ROOT / "site-data"
 # 24 wine topic slugs <-> template-facing research keys
 TOPIC_KEYS = {
     "vineyards":          "vineyards",
+    "wines":              "wines",
     "tasting-rooms":      "tasting_rooms",
     "wine-bars":          "wine_bars",
     "wine-restaurants":   "wine_restaurants",
@@ -90,6 +91,13 @@ def main() -> int:
             "hero_image_source_url": "",
             "blurb": "",
             "type": "wine-region",
+            # Sister-site cross-link to the matching TableJourney city, when
+            # one exists (geographic overlap, e.g. this wine region ↔ a TJ
+            # food city). Path or full URL; cross_site_name is the TJ city's
+            # display name. Leave empty when there is no overlapping TJ city.
+            # See docs/CROSS_LINKING.md.
+            "cross_site_ref": "",
+            "cross_site_name": "",
         },
         "seo": {"pages": {}},
         "faqs": [],
