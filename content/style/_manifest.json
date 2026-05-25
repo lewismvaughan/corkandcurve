@@ -8,7 +8,19 @@
           "country_slug": "portugal",
           "region_slug": "douro",
           "region_name": "Douro Valley",
-          "n": 6
+          "n": 28
+        }
+      ]
+    },
+    {
+      "slug": "sparkling",
+      "display": "Sparkling",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "piedmont",
+          "region_name": "Piedmont",
+          "n": 2
         }
       ]
     },
@@ -20,31 +32,37 @@
           "country_slug": "france",
           "region_slug": "bordeaux",
           "region_name": "Bordeaux",
-          "n": 11
+          "n": 42
         },
         {
           "country_slug": "france",
           "region_slug": "burgundy",
           "region_name": "Burgundy",
-          "n": 10
+          "n": 38
         },
         {
           "country_slug": "portugal",
           "region_slug": "douro",
           "region_name": "Douro Valley",
-          "n": 6
+          "n": 17
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "piedmont",
+          "region_name": "Piedmont",
+          "n": 18
         },
         {
           "country_slug": "spain",
           "region_slug": "rioja",
           "region_name": "Rioja",
-          "n": 10
+          "n": 40
         },
         {
           "country_slug": "italy",
           "region_slug": "tuscany",
           "region_name": "Tuscany",
-          "n": 13
+          "n": 49
         }
       ]
     },
@@ -56,13 +74,13 @@
           "country_slug": "france",
           "region_slug": "bordeaux",
           "region_name": "Bordeaux",
-          "n": 1
+          "n": 3
         },
         {
           "country_slug": "italy",
           "region_slug": "tuscany",
           "region_name": "Tuscany",
-          "n": 1
+          "n": 3
         }
       ]
     }

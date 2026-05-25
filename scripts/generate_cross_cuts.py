@@ -271,7 +271,14 @@ def collect_all() -> dict:
                 ident = v.get("slug") or v.get("name")
                 if not any((e.get("slug") or e.get("name")) == ident for e in bucket):
                     bucket.append(v)
-        for w in research.get("signature_wines", []) or []:
+        # Classify the FULL cuvée catalog (wines.json), not just the ~12
+        # curated signature_wines. The signatures are a region's iconic
+        # flagships (overwhelmingly still reds), so building styles from them
+        # alone left sparkling/orange/natural empty even when the catalog had
+        # them (e.g. Asti/Alta Langa, Cremant). Fall back to signature_wines
+        # only if a region has no wines.json yet.
+        style_source = research.get("wines") or research.get("signature_wines") or []
+        for w in style_source:
             if not isinstance(w, dict):
                 continue
             sslug = _classify_style(w.get("style", ""))

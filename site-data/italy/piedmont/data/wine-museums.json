@@ -1,0 +1,84 @@
+{
+  "wine_museums": [
+    {
+      "slug": "wimu-museo-del-vino-barolo",
+      "name": "WiMu Museo del Vino a Barolo",
+      "address": "Piazza Falletti 1, 12060 Barolo CN, Italy",
+      "neighborhood": "Barolo",
+      "description": "The WiMu wine museum inside the Castello Falletti di Barolo, opened 2010 and designed by Francois Confino. Twenty-five rooms over five floors trace wine in culture, history and the senses above the Barolo cellars.",
+      "admission": "Full ticket around EUR 9; combined ticket with the Enoteca Regionale del Barolo available",
+      "permanent_collection": true,
+      "temporary_exhibitions": true,
+      "tasting_bar": true,
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.wimubarolo.it/en/",
+        "address_quoted": "Piazza Falletti 1 - 12060, Barolo",
+        "open_status": "open",
+        "open_evidence_url": "https://us.trip.com/travel-guide/attraction/barolo/wimu-museo-del-vino-a-barolo-23510907/",
+        "cuisine_evidence_url": "https://www.barolofoundation.it/en/castle/castle-of-barolo/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "casa-martini-museum-pessione",
+      "name": "Casa Martini Museum",
+      "address": "Piazza Luigi Rossi 2, Frazione Pessione, 10023 Chieri TO, Italy",
+      "neighborhood": "Pessione, Chieri",
+      "description": "The museum galleries at Casa Martini in Pessione tell the story of Martini & Rossi vermouth since 1864, including a museum of the history of oenology in the cellars beneath the historic plant.",
+      "admission": "Guided tour with tasting from around EUR 25; museum access included in the visit",
+      "permanent_collection": true,
+      "temporary_exhibitions": false,
+      "tasting_bar": true,
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.martini.com/casa-martini/",
+        "address_quoted": "Piazza Luigi Rossi, 2 - Frazione Pessione - 10023, Chieri",
+        "open_status": "open",
+        "open_evidence_url": "https://turismotorino.org/en/visit/things-to-do-and-things-to-see/museums-and-heritage/casa-martini-martini-rossi",
+        "cuisine_evidence_url": "https://www.martini.com/it/it/casa-martini/plan-a-visit/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "museo-carpano-eataly-lingotto",
+      "name": "Museo Carpano",
+      "address": "Via Nizza 230/14, 10126 Torino TO, Italy",
+      "neighborhood": "Lingotto, Turin",
+      "description": "The Carpano vermouth museum on the first floor of Eataly Torino Lingotto, in the brand's former factory. It traces vermouth from Benedetto Carpano's 1786 Turin recipe through the Punt e Mes and Antica Formula era.",
+      "admission": "Museum visit free; guided tours and tastings by reservation",
+      "permanent_collection": true,
+      "temporary_exhibitions": false,
+      "tasting_bar": true,
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.eataly.net/it_it/negozi/torino-lingotto/news/il-museo-carpano",
+        "address_quoted": "Via Nizza, 230 int. 14, 10126 Torino (TO)",
+        "open_status": "open",
+        "open_evidence_url": "https://www.turismotorino.org/en/experiences/culture/museums-and-foundations/museo-carpano",
+        "cuisine_evidence_url": "https://www.eataly.net/eu_en/stores/turin-lingotto",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "castello-grinzane-cavour-langhe-museum",
+      "name": "Castello di Grinzane Cavour and Langhe Museum",
+      "address": "Via Castello 5, 12060 Grinzane Cavour CN, Italy",
+      "neighborhood": "Grinzane Cavour",
+      "description": "The 11th-century castle above the Langhe vineyards houses the Langhe ethnographic museum, Cavour family heirlooms and the Enoteca Regionale Piemontese Cavour, the first regional wine shop in Piedmont, set up 1967.",
+      "admission": "Castle and museum ticket around EUR 7; the regional enoteca can be visited free of charge",
+      "permanent_collection": true,
+      "temporary_exhibitions": true,
+      "tasting_bar": true,
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.castellogrinzane.com/en/enoteca-regionale-piemontese-cavour/",
+        "address_quoted": "Via Castello, 5, 12060 Grinzane Cavour (Cn)",
+        "open_status": "open",
+        "open_evidence_url": "https://www.italia.it/en/piedmont/cuneo/castello-di-grinzane-cavour",
+        "cuisine_evidence_url": "https://www.castellogrinzane.com/en/langhe-museum/the-cavour-relics/",
+        "checked_on": "2026-05-25"
+      }
+    }
+  ]
+}

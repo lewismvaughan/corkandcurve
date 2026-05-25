@@ -1,0 +1,81 @@
+{
+  "wine_schools": [
+    {
+      "slug": "alba-accademia-alberghiera-wset",
+      "name": "Alba Accademia Alberghiera",
+      "address": "Corso Barolo 8, 12051 Alba CN, Italy",
+      "neighborhood": "Alba",
+      "description": "Food, wine and tourism training academy in Alba and an official WSET Approved Programme Provider. Delivers the WSET Award in Wines at Levels 1 to 3 in the heart of the Langhe.",
+      "courses_offered": [
+        "WSET Level 1 Award in Wines",
+        "WSET Level 2 Award in Wines",
+        "WSET Level 3 Award in Wines",
+        "Tailor-made wine experiences"
+      ],
+      "languages": ["Italian", "English"],
+      "price_range": "WSET Level 1 from around EUR 200 to Level 3 around EUR 1100",
+      "certifications": ["WSET Level 1", "WSET Level 2", "WSET Level 3"],
+      "booking_url": "https://albaaccademia.it/en/wset",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://albaaccademia.it/it/wset",
+        "address_quoted": "Corso Barolo, 8 - 12051 Alba (CN)",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wsetglobal.com/where-to-study",
+        "cuisine_evidence_url": "https://albaaccademia.it/en/wset",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "ais-piemonte-torino",
+      "name": "AIS Piemonte Sommelier School",
+      "address": "Via Modena 23, 10152 Torino TO, Italy",
+      "neighborhood": "Turin",
+      "description": "The Piedmont regional arm of the Associazione Italiana Sommelier, running the three-level professional sommelier course from its Turin headquarters with delegations across the region.",
+      "courses_offered": [
+        "AIS Sommelier Level 1",
+        "AIS Sommelier Level 2",
+        "AIS Sommelier Level 3",
+        "Tasting masterclasses"
+      ],
+      "languages": ["Italian"],
+      "price_range": "Per-level course fees set by AIS, typically several hundred euros each",
+      "certifications": ["AIS Sommelier Qualification"],
+      "booking_url": "https://aispiemonte.it/corso-sommelier-primo-livello-torino-piemonte/",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://aispiemonte.it/",
+        "address_quoted": "Via Modena 23, 10152 Torino",
+        "open_status": "open",
+        "open_evidence_url": "https://aisitalia.it/le-sedi-regionali-ais-in-italia/ais-piemonte/",
+        "cuisine_evidence_url": "https://aispiemonte.it/corso-sommelier-primo-livello-torino-piemonte/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "banca-del-vino-pollenzo",
+      "name": "Banca del Vino Tasting Laboratories",
+      "address": "Piazza Vittorio Emanuele II 13, 12042 Pollenzo, Bra CN, Italy",
+      "neighborhood": "Pollenzo, Bra",
+      "description": "The national wine bank in the Savoy cellars at Pollenzo, holding more than 100,000 bottles. Runs guided tastings and region-by-region discovery laboratories alongside the University of Gastronomic Sciences.",
+      "courses_offered": [
+        "Guided regional tasting laboratories",
+        "Italian-wine discovery workshops",
+        "Card-based self-guided tastings"
+      ],
+      "languages": ["Italian", "English"],
+      "price_range": "Visit free; tastings from EUR 2 to EUR 6 per glass via prepaid card",
+      "certifications": [],
+      "booking_url": "https://www.bancadelvino.it/en/",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.bancadelvino.it/en/",
+        "address_quoted": "Piazza Vittorio Emanuele II, 13, Pollenzo",
+        "open_status": "open",
+        "open_evidence_url": "https://www.visitlmr.it/en/pois/wine-places/banca-del-vino-in-pollenzo",
+        "cuisine_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g1096051-d2328081-Reviews-Banca_del_Vino-Pollenzo_Province_of_Cuneo_Piedmont.html",
+        "checked_on": "2026-05-25"
+      }
+    }
+  ]
+}

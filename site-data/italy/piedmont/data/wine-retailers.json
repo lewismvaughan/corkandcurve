@@ -1,0 +1,99 @@
+{
+  "wine_retailers": [
+    {
+      "slug": "produttori-del-barbaresco-shop",
+      "name": "Produttori del Barbaresco Wine Shop",
+      "address": "Via Torino 54, 12050 Barbaresco CN, Italy",
+      "neighborhood": "Barbaresco",
+      "description": "The shop of the historic Barbaresco growers' cooperative, beneath the village tower. Sells the cooperative's Barbaresco and single-vineyard Riserva alongside Langhe Nebbiolo, with a short tasting at the counter.",
+      "speciality": "Barbaresco DOCG and single-vineyard Riserva from the Produttori cooperative",
+      "online_shop": false,
+      "en_primeur": false,
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.produttoridelbarbaresco.com/en/the-winery/wine-shop/",
+        "address_quoted": "Via Torino, 54, 12050 Barbaresco CN",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g1511483-d4353298-Reviews-Cantina_Sociale_dei_Produttori_del_Barbaresco-Barbaresco_Province_of_Cuneo_Piedm.html",
+        "cuisine_evidence_url": "https://www.produttoridelbarbaresco.com/en/contacts/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "enoteca-fracchia-berchialla-alba",
+      "name": "Enoteca Fracchia and Berchialla",
+      "address": "Via Vernazza 9, 12051 Alba CN, Italy",
+      "neighborhood": "Alba",
+      "description": "Historic wine shop in central Alba with a deep collection of Barolo, Barbaresco and Nebbiolo d'Alba plus Langhe sparkling and back-vintages. A go-to for hard-to-find Langhe grower bottlings.",
+      "speciality": "Barolo and Barbaresco back-vintages, small-grower Langhe wines",
+      "online_shop": true,
+      "en_primeur": false,
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.fracchiaeberchialla.com/en/",
+        "address_quoted": "V. Vernazza, 9, 12051 Alba CN",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g194664-d9465517-Reviews-Enoteca_Fracchia_Berchialla-Alba_Province_of_Cuneo_Piedmont.html",
+        "cuisine_evidence_url": "https://www.falstaff.com/en/vinotheques/fracchia-berchialla",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "carosso-enoteca-alba",
+      "name": "Carosso Enoteca Drogheria",
+      "address": "Via Vittorio Emanuele II 23, 12051 Alba CN, Italy",
+      "neighborhood": "Alba",
+      "description": "Nearly century-old enoteca and grocery in central Alba with a wide Langhe assortment weighted to DOC and DOCG wines, alongside spirits, liqueurs and Piedmont specialities. Family-run with hands-on advice.",
+      "speciality": "Langhe DOC and DOCG wines, Piedmont spirits and confectionery",
+      "online_shop": false,
+      "en_primeur": false,
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.carosso.it/",
+        "address_quoted": "via Vittorio Emanuele, 23",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g194664-d10756005-Reviews-Enoteca_Confetteria_Carosso-Alba_Province_of_Cuneo_Piedmont.html",
+        "cuisine_evidence_url": "https://wanderlog.com/place/details/8081362/carosso-enoteca-drogheria",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "enoteca-grandi-vini-alba-shop",
+      "name": "Enoteca Grandi Vini",
+      "address": "Via Vittorio Emanuele II 17, 12051 Alba CN, Italy",
+      "neighborhood": "Alba",
+      "description": "Alba wine shop with online sales focused on Langhe and Roero producers, strong in Barolo and Barbaresco with typical local products alongside. Ships across Italy and abroad.",
+      "speciality": "Barolo, Barbaresco and Roero with online shipping",
+      "online_shop": true,
+      "en_primeur": false,
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.grandivinialba.com/en/enoteca/",
+        "address_quoted": "Via Vittorio Emanuele II, 17, Alba",
+        "open_status": "open",
+        "open_evidence_url": "https://evendo.com/locations/italy/langhe/shop/enoteca-grandi-vini",
+        "cuisine_evidence_url": "https://www.grandivinialba.com/en/i-vini/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "casa-del-barolo-torino",
+      "name": "Casa del Barolo",
+      "address": "Via Andrea Doria 7, 10123 Torino TO, Italy",
+      "neighborhood": "Turin",
+      "description": "Central Turin enoteca specialised in Piedmontese wine for more than thirty years, with over 1,000 wines and spirits across two floors. A deep Barolo and Barbaresco selection in the city.",
+      "speciality": "Barolo, Barbaresco and Piedmont wines plus spirits",
+      "online_shop": true,
+      "en_primeur": false,
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.casadelbarolo.com/en/",
+        "address_quoted": "Via Andrea Doria 7, 10123 Torino",
+        "open_status": "open",
+        "open_evidence_url": "https://www.maestridelgustotorino.com/en/master-of-taste/casa-del-barolo/",
+        "cuisine_evidence_url": "https://www.falstaff.com/en/vinotheques/casa-del-barolo",
+        "checked_on": "2026-05-25"
+      }
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "dietary": {
+    "biodynamic": [
+      {
+        "slug": "rivetto-biodynamic",
+        "name": "Rivetto",
+        "vineyard_ref": "rivetto",
+        "address": "Via Valdicroce 32, 12050 Sinio, Italy",
+        "neighborhood": "Barolo (Sinio / Serralunga d'Alba)",
+        "biodynamic_status": "demeter_certified",
+        "biodynamic_certifier": "Demeter",
+        "organic_status": "icea",
+        "certified_year": 2016,
+        "description": "Enrico Rivetto farms the Lirano hill biodynamically, fully organic from 2009 and Demeter-certified in 2016, the first estate in the Barolo and Barbaresco zones to gain Demeter status.",
+        "tip": "The Lirano biodynamic garden is the only Demeter-certified estate in the Barolo zone; ask to walk the polyculture plots between the vines.",
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://www.rivetto.it/en/",
+          "address_quoted": "Via Valdicroce 32, 12050 Sinio",
+          "open_status": "open",
+          "open_evidence_url": "https://magazine.wein.plus/news/first-winery-in-barolo-and-barbaresco-with-demeter-certification-azienda-agricola-rivetto-now-with-biodynamic-production",
+          "cuisine_evidence_url": "https://www.decanter.com/wine-news/rivetto-biodynamic-barolo-429986/",
+          "checked_on": "2026-05-25"
+        }
+      },
+      {
+        "slug": "ferdinando-principiano-biodynamic",
+        "name": "Ferdinando Principiano",
+        "vineyard_ref": "ferdinando-principiano",
+        "address": "Via Alba 47, 12065 Monforte d'Alba, Italy",
+        "neighborhood": "Barolo (Monforte d'Alba)",
+        "biodynamic_status": "biodynamic_practicing",
+        "biodynamic_certifier": "none (practising, uncertified)",
+        "organic_status": "none",
+        "certified_year": null,
+        "description": "Ferdinando Principiano has farmed organically and biodynamically without certification since 2004, using natural preparations and avoiding synthetic chemicals across his Monforte vineyards.",
+        "tip": "This is practising biodynamics, not Demeter-certified; the whole-cluster, low-sulfite Barolo Ravera shows the savoury house style.",
+        "editorial_score": 4.3,
+        "verified": {
+          "source_url": "https://www.ferdinandoprincipiano.it/",
+          "address_quoted": "Via Alba, 47 - Monforte d'Alba",
+          "open_status": "open",
+          "open_evidence_url": "https://www.corevino.com/producers/ferdinando-principiano",
+          "cuisine_evidence_url": "https://uncorkedinitaly.com/ferdinando-principiano-a-natural-bond-with-the-land-and-the-past/",
+          "checked_on": "2026-05-25"
+        }
+      }
+    ],
+    "organic": [
+      {
+        "slug": "gd-vajra-organic",
+        "name": "G.D. Vajra",
+        "vineyard_ref": "gd-vajra",
+        "address": "Piazza della Vite e del Vino 1, frazione Vergne, 12060 Barolo, Italy",
+        "neighborhood": "Barolo (Vergne)",
+        "biodynamic_status": "none",
+        "organic_status": "icea",
+        "organic_certifier": "EU organic (body not publicly named)",
+        "certified_year": 2019,
+        "description": "Pioneers of organic farming since 1971, the Vajra family has had all its Barolo-zone vineyards certified organic since 2019, plus SQNPI and Equalitas accreditations.",
+        "tip": "The certified-organic Barolo Albe is the house benchmark; the estate sits at Vergne, the highest hamlet of Barolo.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://www.gdvajra.it/en/visit-our-winery",
+          "address_quoted": "Piazza della Vite e del Vino, 1 - Fraz. Vergne 12060 Barolo",
+          "open_status": "open",
+          "open_evidence_url": "https://www.libertywines.co.uk/our-producers/GVA02IT-g.d.-vajra",
+          "cuisine_evidence_url": "https://www.gdvajra.it/en/wines",
+          "checked_on": "2026-05-25"
+        }
+      },
+      {
+        "slug": "punset-organic",
+        "name": "Punset",
+        "vineyard_ref": "punset",
+        "address": "Via Zocco 2, 12057 Neive, Italy",
+        "neighborhood": "Barbaresco (Neive)",
+        "biodynamic_status": "none",
+        "organic_status": "icea",
+        "organic_certifier": "certified organic (Italy)",
+        "certified_year": 1982,
+        "description": "Marina Marcarino converted Punset to organic farming in the early 1980s, making it the first certified-organic Barbaresco estate in Italy, with a vegan-friendly, no-animal-products cycle.",
+        "tip": "A forerunner of certified-organic Barbaresco; the Basarin cru is the estate's reference bottling.",
+        "editorial_score": 4.3,
+        "verified": {
+          "source_url": "https://en.punset.com/",
+          "address_quoted": "Via Zocco 2, Neive",
+          "open_status": "open",
+          "open_evidence_url": "https://www.regalwine.com/producer/punset/",
+          "cuisine_evidence_url": "https://www.npwines.com/collections/punset",
+          "checked_on": "2026-05-25"
+        }
+      },
+      {
+        "slug": "trediberri-organic",
+        "name": "Trediberri",
+        "vineyard_ref": "trediberri",
+        "address": "Borgata Torriglione 4, 12064 La Morra, Italy",
+        "neighborhood": "Barolo (La Morra)",
+        "biodynamic_status": "none",
+        "organic_status": "icea",
+        "organic_certifier": "certified organic (Italy)",
+        "certified_year": null,
+        "description": "The Oberto family farms its Berri and Rocche dell'Annunziata vineyards organically, with traditional extended-maceration, large-cask ageing. The wines are certified organic.",
+        "tip": "An organic La Morra estate that keeps prices fair; the Barolo del Comune di La Morra is the value entry.",
+        "editorial_score": 4.3,
+        "verified": {
+          "source_url": "https://www.trediberri.com/en/about-us/",
+          "address_quoted": "Borgata Torriglione 4, 12064 La Morra",
+          "open_status": "open",
+          "open_evidence_url": "https://www.polanerselections.com/producers/trediberri/",
+          "cuisine_evidence_url": "https://naturalwine.com/trediberri-barolo-del-comune-di-la-morra/",
+          "checked_on": "2026-05-25"
+        }
+      }
+    ],
+    "natural": [
+      {
+        "slug": "cascina-delle-rose-natural",
+        "name": "Cascina delle Rose",
+        "vineyard_ref": "cascina-delle-rose",
+        "address": "Strada Rio Sordo 58, loc. Tre Stelle, 12050 Barbaresco, Italy",
+        "neighborhood": "Barbaresco",
+        "biodynamic_status": "none",
+        "organic_status": "none",
+        "natural_wine": true,
+        "description": "Atop the Tre Stelle cru, the Sobrino brothers farm organically (uncertified), ferment with native yeasts and add sulfites sparingly for a low-intervention, natural Barbaresco.",
+        "tip": "Native-yeast Barbaresco made with the lightest hand; ask the family to compare Tre Stelle and Rio Sordo at the cellar.",
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://www.cascinadellerose.it/en/",
+          "address_quoted": "Str. Rio Sordo, 58, loc. Tre Stelle, 12050 Barbaresco",
+          "open_status": "open",
+          "open_evidence_url": "https://www.polanerselections.com/producers/cascina-delle-rose/",
+          "cuisine_evidence_url": "https://www.raisin.digital/en/cascina-delle-rose-2440/",
+          "checked_on": "2026-05-25"
+        }
+      },
+      {
+        "slug": "cascina-tavijn-natural",
+        "name": "Cascina Tavijn",
+        "vineyard_ref": "cascina-tavijn",
+        "address": "Frazione Monterovere 10, 14030 Scurzolengo, Italy",
+        "neighborhood": "Monferrato (Asti)",
+        "biodynamic_status": "none",
+        "organic_status": "none",
+        "natural_wine": true,
+        "description": "Nadia Verrua makes nothing-added natural wine from old-vine Grignolino, Barbera and the rare Ruche, fermenting with wild yeasts in a low-intervention style.",
+        "tip": "Among Piedmont's purest natural-wine addresses; the old-vine Grignolino is the cult bottle to seek out.",
+        "editorial_score": 4.2,
+        "verified": {
+          "source_url": "https://www.laterratrema.org/vignaioli-e-agricoltori/piemonte/cascina-tavijn/",
+          "address_quoted": "Frazione Monterovere 10",
+          "open_status": "open",
+          "open_evidence_url": "https://tuttowines.com/journal/a-conversation-with-nadia-of-cascina-tavijn/",
+          "cuisine_evidence_url": "https://www.raisin.digital/en/explore/italy/piedmont/natural-winemakers/",
+          "checked_on": "2026-05-25"
+        }
+      }
+    ],
+    "vegan_winemaking": [
+      {
+        "slug": "punset-vegan",
+        "name": "Punset",
+        "vineyard_ref": "punset",
+        "address": "Via Zocco 2, 12057 Neive, Italy",
+        "neighborhood": "Barbaresco (Neive)",
+        "biodynamic_status": "none",
+        "organic_status": "icea",
+        "vegan": true,
+        "description": "Punset uses no animal-derived products anywhere in its growing or cellar cycle, so its certified-organic Barbaresco, Barbera and Arneis are vegan-friendly throughout the range.",
+        "tip": "The whole Punset range is vegan-friendly; the Neh! Langhe Rosso is the easy everyday introduction.",
+        "editorial_score": 4.2,
+        "verified": {
+          "source_url": "https://en.punset.com/",
+          "address_quoted": "Via Zocco 2, Neive",
+          "open_status": "open",
+          "open_evidence_url": "https://www.regalwine.com/producer/punset/",
+          "cuisine_evidence_url": "https://www.npwines.com/collections/punset",
+          "checked_on": "2026-05-25"
+        }
+      }
+    ],
+    "lowsulfite": [
+      {
+        "slug": "gd-vajra-lowsulfite",
+        "name": "G.D. Vajra Claré J.C.",
+        "vineyard_ref": "gd-vajra",
+        "address": "Piazza della Vite e del Vino 1, frazione Vergne, 12060 Barolo, Italy",
+        "neighborhood": "Barolo (Vergne)",
+        "biodynamic_status": "none",
+        "organic_status": "icea",
+        "natural_wine": true,
+        "low_sulfite": true,
+        "description": "From the certified-organic Vajra estate, the ancestral-method Claré J.C. Nebbiolo is a low-sulfite, lightly frizzante red revived from a 1606 recipe, fermented spontaneously with minimal added sulfur.",
+        "tip": "The Claré J.C. is a barely-sparkling, low-sulfite Nebbiolo; serve it cold like a chillable light red.",
+        "editorial_score": 4.2,
+        "verified": {
+          "source_url": "https://www.gdvajra.it/en/wines",
+          "address_quoted": "Piazza della Vite e del Vino, 1 - Fraz. Vergne 12060 Barolo",
+          "open_status": "open",
+          "open_evidence_url": "https://www.thewinesociety.com/producer/gd-vajra/",
+          "cuisine_evidence_url": "https://primalwine.com/products/langhe-nebbiolo-doc-vajra-natural-wine",
+          "checked_on": "2026-05-25"
+        }
+      },
+      {
+        "slug": "ferdinando-principiano-lowsulfite",
+        "name": "Ferdinando Principiano",
+        "vineyard_ref": "ferdinando-principiano",
+        "address": "Via Alba 47, 12065 Monforte d'Alba, Italy",
+        "neighborhood": "Barolo (Monforte d'Alba)",
+        "biodynamic_status": "biodynamic_practicing",
+        "organic_status": "none",
+        "natural_wine": true,
+        "low_sulfite": true,
+        "description": "Principiano works in a low-intervention, low-sulfite natural style, with whole-cluster ferments and minimal added sulfur across his Dolcetto, Barbera and Barolo range.",
+        "tip": "The Dolcetto Sant'Anna is bottled with no added sulfites; ask for it to taste the no-added-sulfur end of the range.",
+        "editorial_score": 4.2,
+        "verified": {
+          "source_url": "https://www.ferdinandoprincipiano.it/",
+          "address_quoted": "Via Alba, 47 - Monforte d'Alba",
+          "open_status": "open",
+          "open_evidence_url": "https://www.corevino.com/producers/ferdinando-principiano",
+          "cuisine_evidence_url": "https://uncorkedinitaly.com/ferdinando-principiano-a-natural-bond-with-the-land-and-the-past/",
+          "checked_on": "2026-05-25"
+        }
+      }
+    ]
+  }
+}

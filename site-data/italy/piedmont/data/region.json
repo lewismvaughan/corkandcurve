@@ -1,0 +1,81 @@
+{
+  "destination": {
+    "slug": "piedmont",
+    "name": "Piedmont",
+    "country": "Italy",
+    "country_slug": "italy",
+    "hero_image": "https://images.unsplash.com/photo-1749217326708-a8613047c608?w=1600&h=900&fit=crop&auto=format",
+    "hero_image_source_url": "https://unsplash.com/photos/jvJ9f5THmyo",
+    "hero_image_credit": "Photo by David Salamanca on Unsplash",
+    "hero_image_alt": "Langhe vineyards rolling above the rooftops of Barolo village in Piedmont",
+    "hero_image_source": "Unsplash",
+    "hero_image_photographer": "David Salamanca",
+    "hero_image_license": "Unsplash License",
+    "blurb": "Nebbiolo country at the foot of the Alps, where Barolo and Barbaresco anchor Italy's deepest roster of DOCG appellations alongside Barbera, Moscato and Gavi.",
+    "type": "wine-region",
+    "tagline": "Nebbiolo kings, Barbera workhorses, fog over the Langhe hills",
+    "overview": "Piedmont holds more DOCGs than any Italian region, led by Barolo and Barbaresco from Nebbiolo in the Langhe, with Barbera and Moscato across Monferrato and Asti, Cortese in Gavi and Arneis in the Roero.",
+    "lat": 44.62,
+    "lng": 7.99,
+    "cross_site_ref": "",
+    "cross_site_name": ""
+  },
+  "seo": {
+    "pages": {
+      "index": {
+        "title": "Piedmont Wine Region Guide | Cork & Curve",
+        "description": "Explore Piedmont wine estates and appellations, from Barolo and Barbaresco Nebbiolo to Barbera d'Asti, Moscato d'Asti, Gavi and Roero Arneis across the Langhe."
+      },
+      "vineyards": {
+        "title": "Piedmont Vineyards and Estates | Cork & Curve",
+        "description": "Discover Piedmont estates from Gaja and Giacomo Conterno to Vietti, Ceretto and Produttori del Barbaresco, with tasting programmes and addresses for 40 plus producers."
+      },
+      "wines": {
+        "title": "Piedmont Wines Catalog | Cork & Curve",
+        "description": "Browse Piedmont cuvees from Barolo and Barbaresco crus to Barbera d'Asti, Moscato d'Asti and Gavi, with taste profiles, food pairings and critic scores."
+      },
+      "tasting-rooms": {
+        "title": "Piedmont Tasting Rooms | Cork & Curve",
+        "description": "Best Piedmont tasting rooms worth booking, from Langhe cellar doors in Barolo and Barbaresco villages to Asti sparkling houses and Gavi white-wine estates."
+      },
+      "wine-bars": {
+        "title": "Piedmont Wine Bars and Enoteche | Cork & Curve",
+        "description": "Sommelier-led Piedmont wine bars and enoteche pouring Barolo, Barbaresco, Barbera and Moscato across Alba, Asti, Bra and the Langhe wine villages."
+      },
+      "wine-restaurants": {
+        "title": "Piedmont Wine Restaurants | Cork & Curve",
+        "description": "Piedmont restaurants with serious cellars, from Michelin-rated Langhe kitchens to Alba trattorias pairing white truffle and Nebbiolo through truffle season."
+      },
+      "signature-wines": {
+        "title": "Iconic Piedmont Wines | Cork & Curve",
+        "description": "The iconic bottles that define Piedmont, from Barolo Monfortino and Barbaresco crus to Bricco dell'Uccellone Barbera and Gavi dei Gavi across the region."
+      },
+      "signature-grapes": {
+        "title": "Piedmont Signature Grapes | Cork & Curve",
+        "description": "Piedmont grape varieties from Nebbiolo in Barolo and Barbaresco to Barbera, Dolcetto, Moscato Bianco, Cortese, Arneis and Timorasso across the Langhe and Monferrato."
+      },
+      "neighborhoods": {
+        "title": "Piedmont Sub-Appellations and Wine Areas | Cork & Curve",
+        "description": "Piedmont wine zones, from the Barolo and Barbaresco villages of the Langhe to Roero, Monferrato, Asti and Gavi, with the communes and crus that define each."
+      }
+    }
+  },
+  "faqs": [
+    {
+      "question": "What is the difference between Barolo and Barbaresco?",
+      "answer": "Both are made from 100% Nebbiolo in the Langhe hills around Alba, but Barolo comes from villages south-west of Alba (La Morra, Serralunga d'Alba, Castiglione Falletto, Monforte d'Alba and Barolo) and requires longer ageing, giving more structure and power. Barbaresco, from Barbaresco, Neive and Treiso, ages slightly less and is often a touch more perfumed and approachable."
+    },
+    {
+      "question": "When is the best time to visit Piedmont wine country?",
+      "answer": "September and October bring the Nebbiolo harvest and the start of white truffle season around Alba, when the Fiera Internazionale del Tartufo Bianco runs. Spring offers quieter cellar visits and green vineyards. Most Langhe estates require booking ahead for tastings year-round."
+    },
+    {
+      "question": "Which grape is Piedmont most famous for?",
+      "answer": "Nebbiolo, the late-ripening red behind Barolo and Barbaresco, is Piedmont's flagship. Barbera is the most widely planted and the everyday red of Asti and Alba, while Dolcetto, Moscato Bianco, Cortese (Gavi) and Arneis (Roero) round out the region's deep varietal palette."
+    },
+    {
+      "question": "Does Piedmont have more wine appellations than other Italian regions?",
+      "answer": "Yes. Piedmont has the most DOCGs of any Italian region, including Barolo, Barbaresco, Roero, Asti and Moscato d'Asti, Gavi, Barbera d'Asti, Dogliani, Brachetto d'Acqui, Alta Langa and Ruche di Castagnole Monferrato, alongside many DOCs."
+    }
+  ]
+}

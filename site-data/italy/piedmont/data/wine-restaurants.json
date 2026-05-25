@@ -1,0 +1,167 @@
+{
+  "wine_restaurants": [
+    {
+      "slug": "piazza-duomo-alba",
+      "name": "Piazza Duomo",
+      "address": "Piazza Risorgimento 4, 12051 Alba CN, Italy",
+      "neighborhood": "Alba",
+      "cuisine": "Modern Piedmontese haute cuisine by Enrico Crippa; vegetable-forward tasting menus engineered around Langhe terroir with a deep Nebbiolo-led cellar",
+      "cellar_size": 35000,
+      "awards": [
+        { "source": "Michelin", "year": 2024 },
+        { "source": "World's 50 Best Restaurants", "year": 2024 }
+      ],
+      "description": "Enrico Crippa's three-Michelin-starred dining room above Piazza Risorgimento in Alba, opened 2005 under the Ceretto family. Vegetable-driven tasting menus with a Barolo and Barbaresco-anchored cellar.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.piazzaduomoalba.it/en/contatti/",
+        "address_quoted": "Piazza Risorgimento, 4 - 12051 - Alba (CN)",
+        "open_status": "open",
+        "open_evidence_url": "https://guide.michelin.com/us/en/piemonte/alba/restaurant/piazza-duomo",
+        "cuisine_evidence_url": "https://www.piazzaduomoalba.it/en/ristorante/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "all-enoteca-canale",
+      "name": "All'Enoteca",
+      "address": "Via Roma 57, 12043 Canale CN, Italy",
+      "neighborhood": "Canale, Roero",
+      "cuisine": "Refined Piedmontese and Roero cooking by Davide Palluda; menus built around Roero Arneis and Nebbiolo with a regional cellar",
+      "cellar_size": null,
+      "awards": [
+        { "source": "Michelin", "year": 2024 }
+      ],
+      "description": "Davide Palluda's Michelin-starred restaurant above the Enoteca Regionale del Roero in Canale, open since 1995 and starred since 2000. Roero-centred wine list with Arneis whites and Nebbiolo reds.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.davidepalluda.it/en/ristorante-all-enoteca/the-ristorante/",
+        "address_quoted": "Via Roma, 57, 12043 Canale CN",
+        "open_status": "open",
+        "open_evidence_url": "https://guide.michelin.com/us/en/piemonte/canale/restaurant/all-enoteca",
+        "cuisine_evidence_url": "https://www.davidepalluda.it/en/ristorante-all-enoteca/the-ristorante/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "la-ciau-del-tornavento-treiso",
+      "name": "La Ciau del Tornavento",
+      "address": "Piazza Leopoldo Baracco 7, 12050 Treiso CN, Italy",
+      "neighborhood": "Treiso, Barbaresco",
+      "cuisine": "Piedmontese and contemporary Italian cooking in the Barbaresco hills; one of Italy's most complete wine lists across a tuff-carved cellar",
+      "cellar_size": 60000,
+      "awards": [
+        { "source": "Michelin", "year": 2024 }
+      ],
+      "description": "Michelin-starred restaurant in a 1931 building above the Barbaresco vineyards in Treiso. The tuff-hill cellar holds about 60,000 bottles from 450 winemakers and roughly 1,800 labels.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.laciaudeltornavento.it/en/",
+        "address_quoted": "Piazza Baracco, 7, 12050 Treiso",
+        "open_status": "open",
+        "open_evidence_url": "https://guide.michelin.com/en/piemonte/treiso/restaurant/la-ciau-del-tornavento",
+        "cuisine_evidence_url": "https://www.yelp.com/biz/la-ciau-del-tornavento-treiso",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "guido-ristorante-serralunga",
+      "name": "Guido Ristorante",
+      "address": "Via Alba 15, 12050 Serralunga d'Alba CN, Italy",
+      "neighborhood": "Serralunga d'Alba",
+      "cuisine": "Classic Langhe cooking by the Alciati family inside the Fontanafredda estate; cellar built on Barolo and the wider Fontanafredda range",
+      "cellar_size": null,
+      "awards": [
+        { "source": "Michelin", "year": 2024 }
+      ],
+      "description": "Michelin-starred restaurant in the royal Fontanafredda estate at Serralunga d'Alba, run by the Alciati family. Memory-driven Piedmontese cooking with a Barolo-anchored cellar drawn from the estate.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.guidoristorante.it/",
+        "address_quoted": "Via Alba 15, Serralunga d'Alba",
+        "open_status": "open",
+        "open_evidence_url": "https://guide.michelin.com/us/en/piemonte/serralunga-d-alba/restaurant/guido361561",
+        "cuisine_evidence_url": "https://www.villaggionarrante.it/en/location/guidoristorante/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "locanda-del-pilone-alba",
+      "name": "Locanda del Pilone",
+      "address": "Frazione Madonna di Como 34, 12051 Alba CN, Italy",
+      "neighborhood": "Alba",
+      "cuisine": "Piedmontese and Mediterranean cooking by chef Federico Gallo; a 1,400-label list strong in Barolo, Barbaresco and French crus",
+      "cellar_size": null,
+      "awards": [
+        { "source": "Michelin", "year": 2024 }
+      ],
+      "description": "Michelin-starred restaurant and resort on the Madonna di Como hill above Alba, with 360-degree vineyard views. Chef Federico Gallo cooks the Langhe; the list runs to more than 1,400 labels.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.locandadelpilone.com/en/restaurant/",
+        "address_quoted": "frazione Madonna di Como 34, Alba, 12051",
+        "open_status": "open",
+        "open_evidence_url": "https://guide.michelin.com/en/piemonte/alba/restaurant/locanda-del-pilone",
+        "cuisine_evidence_url": "https://www.locandadelpilone.com/en/restaurant/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "bovio-la-morra",
+      "name": "Ristorante Bovio",
+      "address": "Via Alba 17/Bis, 12064 La Morra CN, Italy",
+      "neighborhood": "La Morra, Barolo",
+      "cuisine": "Traditional Langhe cooking above the family vineyard; a Barolo-led list anchored on the Bovio estate wines and La Morra producers",
+      "cellar_size": null,
+      "awards": [],
+      "description": "Family restaurant in La Morra perched above the Bovio vineyard, run by Alessandra Bovio. Classic Piedmontese plates and a terrace looking across the Barolo cru toward the Alps; the list leans on local Barolo.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.cantinabovio.it/",
+        "address_quoted": "Via Alba, 17",
+        "open_status": "open",
+        "open_evidence_url": "https://www.yelp.com/biz/bovio-la-morra",
+        "cuisine_evidence_url": "https://www.andyhayler.com/restaurant/bovio",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "vincafe-alba",
+      "name": "Vincafe",
+      "address": "Via Vittorio Emanuele 12, 12051 Alba CN, Italy",
+      "neighborhood": "Alba",
+      "cuisine": "Piedmontese wine-bar dining in central Alba; tajarin and truffle plates paired from a deep Langhe by-the-glass and bottle list",
+      "cellar_size": null,
+      "awards": [],
+      "description": "Vineria and restaurant on Alba's main pedestrian street, pairing Piedmontese plates such as tagliolino with white truffle to a broad Langhe wine list. Casual counter and table service in the heart of the city.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.vincafe.com/",
+        "address_quoted": "Via Vittorio Emanuele, 12, Alba",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g194664-d1754289-Reviews-Vincafe-Alba_Province_of_Cuneo_Piedmont.html",
+        "cuisine_evidence_url": "https://www.vincafe.com/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "osteria-dell-enoteca-canale",
+      "name": "Osteria dell'Enoteca",
+      "address": "Via Roma 57, 12043 Canale CN, Italy",
+      "neighborhood": "Canale, Roero",
+      "cuisine": "Roero osteria cooking on the first floor of the Enoteca Regionale del Roero; informal Palluda plates with a Roero Arneis and Nebbiolo list",
+      "cellar_size": null,
+      "awards": [],
+      "description": "Davide Palluda's informal osteria opened 2013 below his starred All'Enoteca, inside the Enoteca Regionale del Roero in Canale. Roero classics on the plate with the consortium's Arneis and Nebbiolo wines.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.davidepalluda.it/en/ristorante-all-enoteca/the-ristorante/",
+        "address_quoted": "Via Roma, 57, 12043 Canale CN",
+        "open_status": "open",
+        "open_evidence_url": "https://www.langhe-experience.it/en/where-to-eat-langhe-monferrato-roero/345-all-enoteca.html",
+        "cuisine_evidence_url": "https://www.davidepalluda.it/en/ristorante-all-enoteca/the-ristorante/",
+        "checked_on": "2026-05-25"
+      }
+    }
+  ]
+}

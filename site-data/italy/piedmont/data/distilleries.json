@@ -1,0 +1,92 @@
+{
+  "distilleries": [
+    {
+      "slug": "casa-martini-pessione",
+      "name": "Casa Martini",
+      "address": "Piazza Luigi Rossi 2, Frazione Pessione, 10023 Chieri TO, Italy",
+      "neighborhood": "Pessione, Chieri",
+      "classification": "Vermouth di Torino",
+      "spirits_produced": ["Vermouth di Torino", "Sparkling wines", "Aperitivo bitters"],
+      "description": "The historic Martini & Rossi home at Pessione, where the brand has made vermouth since 1864. Casa Martini pairs a working plant with museum galleries and guided tastings of its vermouth and sparkling range.",
+      "distillation_method": "Aromatised and fortified wine production; botanical maceration and blending of Vermouth di Torino",
+      "visit_available": true,
+      "tasting_program": "Discovery tour with guided vermouth tasting; cocktail experience and vermouth-blending class by reservation",
+      "booking_url": "https://www.martini.com/it/it/casa-martini/plan-a-visit/",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.martini.com/casa-martini/",
+        "address_quoted": "Piazza Luigi Rossi, 2 - Frazione Pessione - 10023, Chieri",
+        "open_status": "open",
+        "open_evidence_url": "https://turismotorino.org/en/visit/things-to-do-and-things-to-see/museums-and-heritage/casa-martini-martini-rossi",
+        "cuisine_evidence_url": "https://www.martini.com/it/it/casa-martini/plan-a-visit/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "giulio-cocchi-cocconato",
+      "name": "Giulio Cocchi",
+      "address": "Via Liprandi 21, 14023 Cocconato AT, Italy",
+      "neighborhood": "Cocconato, Monferrato",
+      "classification": "Storico Vermouth di Torino",
+      "spirits_produced": ["Storico Vermouth di Torino", "Barolo Chinato", "Aperitivo Americano", "Sparkling wines"],
+      "description": "Vermouth and sparkling house founded 1891 in Asti, run since 1978 by the Bava family at Cocconato in the Monferrato hills. Maker of the Storico Vermouth di Torino and a Barolo Chinato.",
+      "distillation_method": "Aromatised wine production; herb and spice maceration to the original Giulio Cocchi recipe",
+      "visit_available": true,
+      "tasting_program": "Guided visits and tastings at the Cocconato cellar, weekday slots with weekend by reservation",
+      "booking_url": "https://www.cocchi.it/",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.cocchi.it/vini/storico-vermouth-di-torino/",
+        "address_quoted": "via Liprandi, 21 - 14023 Cocconato (AT)",
+        "open_status": "open",
+        "open_evidence_url": "https://www.alcademics.com/2019/02/a-visit-to-the-cocchi-vermouthery-in-asti-italy.html",
+        "cuisine_evidence_url": "https://www.cocchi.it/tipologia/storico-vermouth-di-torino/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "distilleria-marolo-alba",
+      "name": "Distilleria Marolo (Santa Teresa)",
+      "address": "Corso Canale 105/1, 12051 Alba CN, Italy",
+      "neighborhood": "Alba",
+      "classification": "Grappa del Piemonte",
+      "spirits_produced": ["Grappa di Barolo", "Grappa di Moscato", "Grappa di Nebbiolo", "Brandy", "Gin"],
+      "description": "Alba grappa house whose first grappas were distilled in 1977, working the pomace of noble Piedmont varieties. Cru grappa from single varietals such as Barolo and Moscato, with brandy and gin alongside.",
+      "distillation_method": "Discontinuous bain-marie copper alembic stills; pomace distilled fresh",
+      "visit_available": true,
+      "tasting_program": "Weekend distillery visits and grappa tastings by appointment with at least three working days notice",
+      "booking_url": "https://visit.marolo.com/it/",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.marolo.com/us/distillery",
+        "address_quoted": "Corso Canale 105/1, 12051 Alba",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g194664-d8667151-Reviews-Distilleria_Santa_Teresa_dei_Fratelli_Marolo-Alba_Province_of_Cuneo_Piedmont.html",
+        "cuisine_evidence_url": "https://visit.marolo.com/it/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "distillerie-berta-mombaruzzo",
+      "name": "Distillerie Berta",
+      "address": "Via Guasti 34/36, Frazione Casalotto, 14056 Mombaruzzo AT, Italy",
+      "neighborhood": "Casalotto, Mombaruzzo",
+      "classification": "Grappa del Piemonte",
+      "spirits_produced": ["Grappa di Nebbiolo", "Grappa di Moscato", "Aged grappa riserva", "Liqueurs"],
+      "description": "Grappa distillery founded 1947 by Paolo Berta, set in the Monferrato countryside at Casalotto di Mombaruzzo. Known for long-aged grappa riserva; its Riserva del Fondatore won Bibenda's best Italian grappa 2023.",
+      "distillation_method": "Pomace distillation followed by extended barrel ageing in the estate cellars",
+      "visit_available": true,
+      "tasting_program": "Daily distillery tour with tasting of three grappas or liqueurs by reservation; Bertanic picnic experience May to September",
+      "booking_url": "https://www.distillerieberta.it/en/prodotto/berta-tour-and-purchase/",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.distillerieberta.it/",
+        "address_quoted": "Via Guasti, 34/36 - Frazione Casalotto, 14056 Mombaruzzo (AT)",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g1057042-d2221278-Reviews-Distillerie_Berta-Mombaruzzo_Province_of_Asti_Piedmont.html",
+        "cuisine_evidence_url": "https://www.distillerieberta.it/en/prodotto/berta-tour-and-purchase/",
+        "checked_on": "2026-05-25"
+      }
+    }
+  ]
+}

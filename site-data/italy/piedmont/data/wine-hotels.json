@@ -1,0 +1,180 @@
+{
+  "wine_hotels": [
+    {
+      "slug": "casa-di-langa-cerretto-langhe",
+      "name": "Casa di Langa",
+      "address": "Localita Talloria 1, 12050 Cerretto Langhe CN, Italy",
+      "neighborhood": "Alta Langa",
+      "parent_vineyard": null,
+      "category": "5-star sustainable wine resort",
+      "rooms": 39,
+      "description": "Sustainable 5-star resort on a 42-hectare Alta Langa estate of vineyards and hazelnut groves near Barolo and Barbaresco. Wine Academy tastings, vineyard walks and the Faula restaurant on site.",
+      "wine_program": "Wine Academy tastings of Langhe wines; vineyard and cellar experiences, Vespa and bike tours, truffle hunts in season",
+      "price_range": "EUR 450-1200 per night",
+      "booking_url": "https://www.casadilanga.com/contact/",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.casadilanga.com/contact/",
+        "address_quoted": "Localita Talloria, 1, 12050 Cerretto Langhe (CN)",
+        "open_status": "open",
+        "open_evidence_url": "https://guide.michelin.com/us/en/hotels-stays/cerretto-langhe/casa-di-langa-piedmont-12612",
+        "cuisine_evidence_url": "https://www.casadilanga.com/experiences/vespa/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "relais-san-maurizio-santo-stefano-belbo",
+      "name": "Relais San Maurizio",
+      "address": "Localita San Maurizio 39, 12058 Santo Stefano Belbo CN, Italy",
+      "neighborhood": "Santo Stefano Belbo, Alta Langa",
+      "parent_vineyard": null,
+      "category": "5-star Relais and Chateaux monastery hotel",
+      "rooms": 34,
+      "description": "A 17th-century former monastery turned 5-star Relais and Chateaux hotel above the Moscato hills of Santo Stefano Belbo. A 1,000-square-metre spa, vineyard views and a cellar restaurant carved into the rock.",
+      "wine_program": "Moscato d'Asti and Langhe tastings; cellar dining and guided visits to neighbouring estates",
+      "price_range": "EUR 350-900 per night",
+      "booking_url": "https://www.relaissanmaurizio.it/en/pages/contattaci",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.relaissanmaurizio.it/en",
+        "address_quoted": "Localita San Maurizio, 39, 12058, Santo Stefano Belbo",
+        "open_status": "open",
+        "open_evidence_url": "https://guide.michelin.com/us/en/hotels-stays/santo-stefano-belbo/relais-san-maurizio-9553",
+        "cuisine_evidence_url": "https://www.relaissanmaurizio.it/en/pages/howtoreach",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "hotel-castello-di-sinio",
+      "name": "Hotel Castello di Sinio",
+      "address": "Vicolo del Castello 1, 12050 Sinio CN, Italy",
+      "neighborhood": "Sinio, Barolo",
+      "parent_vineyard": null,
+      "category": "Boutique castle relais",
+      "rooms": 18,
+      "description": "Boutique hotel in a restored 12th-century castle in Sinio, between the Barolo and Barbaresco zones. Antique-furnished rooms with vineyard views, a pool and a kitchen built around Langhe cooking and wine.",
+      "wine_program": "Curated Barolo and Barbaresco tastings; winery introductions and cooking classes for guests",
+      "price_range": "EUR 250-550 per night",
+      "booking_url": "https://www.hotelcastellodisinio.com/en/contact.php",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.hotelcastellodisinio.com/en/",
+        "address_quoted": "Vicolo del Castello, no. 1, 12050 Sinio (CN)",
+        "open_status": "open",
+        "open_evidence_url": "https://www.histouring.com/en/historical-places/castello-di-sinio/",
+        "cuisine_evidence_url": "https://www.hotelcastellodisinio.com/en/hotel.php",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "uve-rooms-la-morra",
+      "name": "Uve Rooms and Wine Bar",
+      "address": "Via Umberto I 13, 12064 La Morra CN, Italy",
+      "neighborhood": "La Morra, Barolo",
+      "parent_vineyard": null,
+      "category": "Design boutique B&B with wine bar",
+      "rooms": 12,
+      "description": "Design boutique rooms in the former 18th-century San Sebastiano convent in La Morra, paired with a Barolo-focused wine bar. A walkable base in the cru village with cellar-door producers on the doorstep.",
+      "wine_program": "In-house wine bar with La Morra cru Barolo by the glass; winery visit planning for guests",
+      "price_range": "EUR 160-320 per night",
+      "booking_url": "https://www.uvelanghe.it/en/",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.uvelanghe.it/en/",
+        "address_quoted": "Via Umberto I, 13, 12064 La Morra",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Hotel_Review-g815384-d1818335-Reviews-UVE_Rooms_Wine_Bar-La_Morra_Province_of_Cuneo_Piedmont.html",
+        "cuisine_evidence_url": "https://www.uvelanghe.it/en/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "villa-tiboldi-canale",
+      "name": "Villa Tiboldi",
+      "address": "Localita Tiboldi 127, 12043 Canale CN, Italy",
+      "neighborhood": "Canale, Roero",
+      "parent_vineyard": null,
+      "category": "4-star agriturismo relais",
+      "rooms": 13,
+      "description": "Hillside farmhouse relais in the Roero vineyards above Canale, run alongside the Malabaila wine estate. Rooms with vineyard views, a pool and a restaurant matching Roero Arneis and Nebbiolo to the kitchen.",
+      "wine_program": "Roero Arneis and Nebbiolo tastings from the Malabaila estate; degustation dinners and vineyard walks",
+      "price_range": "EUR 150-300 per night",
+      "booking_url": "https://www.villatiboldi.com/en/",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.villatiboldi.com/en/agriturismo-relais-roero-piedmont/villa-tiboldi-canale/",
+        "address_quoted": "Localita Tiboldi, 127, 12043 Canale",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Hotel_Review-g1123275-d599057-Reviews-Villa_Tiboldi_hotel-Canale_Province_of_Cuneo_Piedmont.html",
+        "cuisine_evidence_url": "https://www.villatiboldi.com/en/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "relais-villa-damelia-benevello",
+      "name": "Relais Villa d'Amelia",
+      "address": "Localita Manera 1, 12050 Benevello CN, Italy",
+      "neighborhood": "Benevello, Alta Langa",
+      "parent_vineyard": null,
+      "category": "5-star country relais (Small Luxury Hotels)",
+      "rooms": 38,
+      "description": "Restored Langhe farmhouse turned 5-star relais at Benevello, fifteen minutes from Alba between the Alps and the Barolo hills. Gourmet restaurant, garden pool and wellness centre, with local Barolo on the list.",
+      "wine_program": "Barolo and Langhe tastings with the restaurant; winery visit arrangements for guests",
+      "price_range": "EUR 250-650 per night",
+      "booking_url": "https://www.villadamelia.com/en/index",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.villadamelia.com/en/relais-near-alba-piedmont",
+        "address_quoted": "Localita Manera, 1, 12050 Benevello",
+        "open_status": "open",
+        "open_evidence_url": "https://guide.michelin.com/us/en/hotels-stays/benevello/villa-damelia-10227",
+        "cuisine_evidence_url": "https://www.villadamelia.com/en/index",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "foresteria-delle-vigne-fontanafredda",
+      "name": "Foresteria delle Vigne (Villaggio Narrante)",
+      "address": "Via Alba 15, 12050 Serralunga d'Alba CN, Italy",
+      "neighborhood": "Serralunga d'Alba",
+      "parent_vineyard": "fontanafredda",
+      "category": "4-star estate hotel",
+      "rooms": 11,
+      "description": "Four-star estate hotel within the Fontanafredda wine village at Serralunga d'Alba, with each room named for a Fontanafredda wine. Vineyard and woodland views, gourmet breakfast and direct estate cellar access.",
+      "wine_program": "Fontanafredda cellar tours and tastings; Barolo and Alta Langa experiences across the wine village",
+      "price_range": "EUR 160-380 per night",
+      "booking_url": "https://www.villaggionarrante.it/en/location/foresteria-delle-vigne/",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.villaggionarrante.it/en/location/foresteria-delle-vigne/",
+        "address_quoted": "Via Alba 15, 12050, Serralunga d'Alba (CN)",
+        "open_status": "open",
+        "open_evidence_url": "https://www.booking.com/hotel/it/foresteria-delle-vigne.html",
+        "cuisine_evidence_url": "https://www.villaggionarrante.it/en/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "locanda-del-pilone-resort",
+      "name": "Locanda del Pilone Resort",
+      "address": "Frazione Madonna di Como 34, 12051 Alba CN, Italy",
+      "neighborhood": "Alba",
+      "parent_vineyard": null,
+      "category": "Boutique resort and Michelin restaurant",
+      "rooms": 8,
+      "description": "Boutique hilltop resort on Madonna di Como above Alba, wrapped in vineyards with 360-degree Langhe views. Home to its Michelin-starred restaurant and a 1,400-label cellar built around Barolo and Barbaresco.",
+      "wine_program": "Cellar dinners from a 1,400-label list; Langhe winery visit planning for guests",
+      "price_range": "EUR 220-450 per night",
+      "booking_url": "https://www.locandadelpilone.com/en/",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.locandadelpilone.com/en/",
+        "address_quoted": "frazione Madonna di Como 34, Alba, 12051",
+        "open_status": "open",
+        "open_evidence_url": "https://www.langhe-experience.it/en/where-to-sleep-langhe-monferrato-roero/476-locanda-del-pilone.html",
+        "cuisine_evidence_url": "https://www.locandadelpilone.com/en/restaurant/",
+        "checked_on": "2026-05-25"
+      }
+    }
+  ]
+}

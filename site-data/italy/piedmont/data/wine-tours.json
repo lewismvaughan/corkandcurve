@@ -1,0 +1,161 @@
+{
+  "wine_tours": [
+    {
+      "slug": "alba-wine-tours",
+      "name": "Alba Wine Tours",
+      "address": "Via Giulia Colbert Falletti 9, 12051 Alba CN, Italy",
+      "neighborhood": "Alba",
+      "description": "Alba-based private and small-group wine tour operator working the Barolo, Barbaresco and Roero zones since 2016. Founder-direct estate visits with pickup in Alba or Turin.",
+      "tour_types": [
+        "Barolo full-day",
+        "Barbaresco full-day",
+        "Barolo and Barbaresco two-day",
+        "Roero Arneis half-day",
+        "Truffle and wine combined day"
+      ],
+      "languages": ["English", "Italian"],
+      "price_range": "EUR 150 per person small-group to EUR 650 per person private full-day",
+      "booking_url": "https://www.albawinetours.com/",
+      "min_group_size": 1,
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.albawinetours.com/contact-us/",
+        "address_quoted": "Via Giulia Colbert Falletti, 9, 12051 Alba CN",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g194664-d14837904-Reviews-Alba_Wine_Tours-Alba_Province_of_Cuneo_Piedmont.html",
+        "cuisine_evidence_url": "https://www.albawinetours.com/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "travel-langhe-wine-tours",
+      "name": "Travel Langhe Wine Tours",
+      "address": "Piazza Vittorio Veneto 11, 12057 Neive CN, Italy",
+      "neighborhood": "Neive, Barbaresco",
+      "description": "Custom wine, wine-education and food tours of the Langhe, Roero and Monferrato based in Neive. Private itineraries built around Barolo, Barbaresco and the lesser-known sub-zones.",
+      "tour_types": [
+        "Barbaresco grand cru day",
+        "Barolo eleven-village day",
+        "Wine-education private tour",
+        "Monferrato and Asti spumante day",
+        "Multi-day Piedmont itinerary"
+      ],
+      "languages": ["English", "Italian"],
+      "price_range": "Private full-day tours from around EUR 500 per group",
+      "booking_url": "https://travellanghe.com/",
+      "min_group_size": 1,
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.travellanghe.com/whoweare.html",
+        "address_quoted": "Piazza Vittorio Veneto, 11, Neive",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g1057212-d2181491-Reviews-Travel_Langhe_Wine_Tours-Neive_Province_of_Cuneo_Piedmont.html",
+        "cuisine_evidence_url": "https://www.travellanghe.com/pages/tours.html",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "oneonthehill-langhe-tours",
+      "name": "OneontheHill Wine Tours",
+      "address": "Via Alba 17, 12064 La Morra CN, Italy",
+      "neighborhood": "La Morra, Barolo",
+      "description": "Private Langhe wine tours led by certified sommeliers, with transport and estate access included within the Barolo and Barbaresco zones. Personalised cru-focused itineraries from La Morra.",
+      "tour_types": [
+        "Barolo cru sommelier day",
+        "Barbaresco sommelier day",
+        "Langhe and Roero combined",
+        "Wine and food pairing day"
+      ],
+      "languages": ["English", "Italian"],
+      "price_range": "Private day tours from around EUR 400 per group",
+      "booking_url": "https://www.oneonthehill.com/wine-experience-in-langhe/wine-tour-in-langhe/",
+      "min_group_size": 1,
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.oneonthehill.com/wine-experience-in-langhe/wine-tour-in-langhe/",
+        "address_quoted": "Via Alba 17, La Morra",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g194664-d14950656-Reviews-Oneonthehill_Your_Sommelier_and_Wine_Country_experts-Alba_Province_of_Cuneo_Pied.html",
+        "cuisine_evidence_url": "https://www.viator.com/tours/Langhe-Roero-and-Monferrato/Langhe-Wine-Tour-and-Tasting-One-day-with-a-Somm/d25960-74981P5",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "tour-in-vespa-langhe",
+      "name": "Tour in Vespa Langhe",
+      "address": "Piazza Municipio 9, 12060 Barolo CN, Italy",
+      "neighborhood": "Barolo",
+      "description": "Guided Vespa tours through the Barolo hills departing from villages such as Barolo, La Morra and Monforte. Vineyard loops paired with winery visits and tastings in the UNESCO Langhe landscape.",
+      "tour_types": [
+        "Barolo by Vespa half-day",
+        "Langhe by electric Vespa",
+        "Weekend Vespa tour with stays",
+        "Vespa and winery lunch"
+      ],
+      "languages": ["English", "Italian"],
+      "price_range": "From around EUR 150 per person including winery visit",
+      "booking_url": "https://www.tourinvespa.com/en/tour/langhe-barolo-by-vespa/",
+      "min_group_size": 2,
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.tourinvespa.com/en/tour/langhe-barolo-by-vespa/",
+        "address_quoted": "Barolo",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://veronikasadventure.com/langhe-guided-vespa-tour-in-the-barolo-hills/",
+        "cuisine_evidence_url": "https://www.tourinvespa.com/en/tour/langhe-by-vespa-elettrica/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "ebike-barolo-tours",
+      "name": "E-Bike Barolo",
+      "address": "Via Aie Sottane 4, 12060 Barolo CN, Italy",
+      "neighborhood": "Barolo",
+      "description": "Guided e-bike tours through the heart of the Langhe from Barolo, combining cru rides with winery visits and wine-and-food tastings. Sustainable way to cover the Barolo amphitheatre of vineyards.",
+      "tour_types": [
+        "Barolo cru e-bike half-day",
+        "Langhe e-bike full-day with lunch",
+        "E-bike and winery tasting"
+      ],
+      "languages": ["English", "Italian"],
+      "price_range": "Half-day e-bike tours from around EUR 90 per person",
+      "booking_url": "https://ebikebarolo.com/en/home/",
+      "min_group_size": 2,
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://ebikebarolo.com/en/home/",
+        "address_quoted": "Via Aie Sottane 4, 12060 Barolo (CN)",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.winetourism.com/book-a-local-wine-guide/gabriele-f/intermediate-level-private-e-bike-tour-langhe-del-barolo/",
+        "cuisine_evidence_url": "https://ebikebarolo.com/en/home/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "meet-piemonte-tours",
+      "name": "Meet Piemonte",
+      "address": "Via Sacchi 8, 10128 Torino TO, Italy",
+      "neighborhood": "Turin",
+      "description": "Turin and Langhe tour operator running truffle hunts, Barolo tastings and Piedmont wine days. Hotel pickups around Alba and a Turin meeting point for departures from the city.",
+      "tour_types": [
+        "Truffle hunt and Barolo tasting",
+        "Barolo and Barbaresco wine day",
+        "Truffle hunt from Turin with lunch",
+        "Asti and Monferrato wine day"
+      ],
+      "languages": ["English", "Italian"],
+      "price_range": "From around EUR 130 per person for combined truffle and wine days",
+      "booking_url": "https://meetpiemonte.com/en/tour/truffle-hunting-tours/truffle-hunt-barolo-wine-tasting",
+      "min_group_size": 1,
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://meetpiemonte.com/en/tour/truffle-hunting-tours/truffle-hunt-barolo-wine-tasting",
+        "address_quoted": "Via Sacchi 8, Torino",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g194664-d15061175-Reviews-Truffle_hunting_tours_Alba-Alba_Province_of_Cuneo_Piedmont.html",
+        "cuisine_evidence_url": "https://www.meetpiemonte.com/the-ultimate-guide-to-truffle-hunting-in-alba/",
+        "checked_on": "2026-05-25"
+      }
+    }
+  ]
+}

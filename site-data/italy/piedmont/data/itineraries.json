@@ -1,0 +1,204 @@
+{
+  "itineraries": [
+    {
+      "slug": "barolo-villages-two-day-weekend",
+      "name": "Barolo villages two-day weekend",
+      "length_days": 2,
+      "theme": "First-time Barolo: La Morra, Barolo, Castiglione Falletto and Serralunga",
+      "base": "La Morra",
+      "days": [
+        {
+          "day": 1,
+          "morning": "Start in La Morra with a 10:00 tasting at Trediberri in Borgata Torriglione, focused on organic La Morra Barolo from Berri and Rocche dell'Annunziata.",
+          "lunch": "Lunch in La Morra village with a panorama over the Annunziata bowl and the Cannubi ridge beyond.",
+          "afternoon": "Drive to Barolo for a 15:30 visit at Marchesi di Barolo, the estate at the heart of dry Barolo's 19th-century invention, then the village wine museum.",
+          "evening": "Aperitivo and dinner in Barolo village; taste a flight across La Morra and Barolo communes.",
+          "accommodation": "Boutique stay in La Morra or Barolo.",
+          "venues": ["trediberri", "marchesi-di-barolo"],
+          "activities": "Two contrasting La Morra and Barolo cellars plus the Barolo wine museum, a gentle first day pairing an organic grower with the historic house that helped invent dry Barolo."
+        },
+        {
+          "day": 2,
+          "morning": "Drive east to Castiglione Falletto for a 10:00 visit at Cavallotto Tenuta Bricco Boschis, tasting late-released traditional Barolo from their single organic block.",
+          "lunch": "Lunch in Castiglione Falletto or Serralunga with views of the castle ridge.",
+          "afternoon": "Continue to Serralunga d'Alba for a 15:00 visit at Massolino, comparing Serralunga crus such as Vigna Rionda and Margheria.",
+          "evening": "Late candlelit flight at Vinoteca Centro Storico beneath the Serralunga castle before driving back.",
+          "accommodation": "Second night in La Morra or onward to Alba.",
+          "venues": ["cavallotto", "massolino"],
+          "activities": "Castiglione Falletto and Serralunga crus side by side, finishing with a candlelit Barolo flight under the castle to read how commune shapes the wine."
+        }
+      ],
+      "description": "Two-day introduction to Barolo across its four core villages, pairing an organic La Morra grower, the historic Marchesi di Barolo, traditional Cavallotto and Serralunga's Massolino.",
+      "tip": "Book Cavallotto and Massolino at least two weeks ahead; October weekends sell out across the Barolo zone.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.langhevini.it/en/",
+        "address_quoted": "Barolo",
+        "open_status": "open",
+        "open_evidence_url": "https://www.barolomga360.it/en/",
+        "cuisine_evidence_url": "https://www.paesaggivitivinicoliunesco.it/en",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "barbaresco-and-alba-three-day-loop",
+      "name": "Barbaresco and Alba three-day loop",
+      "length_days": 3,
+      "theme": "Barbaresco crus, the Alba truffle town and a Roero detour",
+      "base": "Alba",
+      "days": [
+        {
+          "day": 1,
+          "morning": "Begin in Barbaresco with a 10:00 visit at the Produttori del Barbaresco cooperative, tasting its grower single-cru bottlings.",
+          "lunch": "Lunch in Barbaresco village beneath the medieval tower with views over the Tanaro.",
+          "afternoon": "Afternoon at Gaja for the estate that reinvented Barbaresco from 1961, then a stop at Cascina delle Rose on the Tre Stelle cru.",
+          "evening": "Return to Alba for dinner and a late Barolo flight at Vincafe on the main street.",
+          "accommodation": "Stay in central Alba.",
+          "venues": ["produttori-del-barbaresco", "gaja", "cascina-delle-rose"],
+          "activities": "Barbaresco from three angles, the grower cooperative, the house that modernised it and a low-intervention Tre Stelle estate, ending with a late flight in Alba."
+        },
+        {
+          "day": 2,
+          "morning": "Spend the morning in Alba, browsing the truffle market and the Enoteca Fracchia & Berchialla for a cru Barolo tasting.",
+          "lunch": "Lunch in Alba with tajarin and, in season, shaved white truffle.",
+          "afternoon": "Drive south for a 15:30 visit at Vietti in Castiglione Falletto, comparing Barbera, Nebbiolo and single-cru Barolo.",
+          "evening": "Dinner back in Alba; optional late tasting at Vincafe.",
+          "accommodation": "Second night in central Alba.",
+          "venues": ["vietti"],
+          "activities": "An Alba day built around the truffle town and its enoteche, then a Castiglione Falletto cellar to taste Vietti's full Piedmontese range."
+        },
+        {
+          "day": 3,
+          "morning": "Cross the Tanaro into the Roero for a 10:00 visit at Matteo Correggia in Canale, tasting Roero Arneis whites and Roero Nebbiolo reds.",
+          "lunch": "Lunch in Canale, the unofficial capital of the Roero.",
+          "afternoon": "Visit the Enoteca Regionale del Roero, then a relaxed Arneis tasting before the drive home.",
+          "evening": "Optional farewell dinner in Alba or onward travel.",
+          "accommodation": "Check out; onward travel.",
+          "venues": ["matteo-correggia"],
+          "activities": "A Roero finale across the river, contrasting the sandy-soil Arneis whites and lighter Nebbiolo reds with the Langhe wines of the first two days."
+        }
+      ],
+      "description": "Three days linking Barbaresco's great crus, the Alba truffle town and a Roero Arneis detour, with the Produttori cooperative, Gaja, Vietti and Matteo Correggia.",
+      "tip": "Gaja visits are limited and must be arranged well in advance through the trade; have a Produttori or Vietti booking as your anchor.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.langhevini.it/en/",
+        "address_quoted": "Barbaresco",
+        "open_status": "open",
+        "open_evidence_url": "https://www.produttoridelbarbaresco.com/en/",
+        "cuisine_evidence_url": "https://www.fieradeltartufo.org/en/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "turin-vermouth-and-langhe-four-day",
+      "name": "Turin vermouth and Langhe four-day",
+      "length_days": 4,
+      "theme": "From Turin aperitivo culture to the Barolo hills and Alta Langa sparkling",
+      "base": "Turin then Alba",
+      "days": [
+        {
+          "day": 1,
+          "morning": "Arrive in Turin and walk Piazza Castello, stopping at Caffe Mulassano for the house vermouth bianco at the marble counter.",
+          "lunch": "Lunch in the Quadrilatero Romano near Piazza della Consolata.",
+          "afternoon": "Afternoon at Caffe Al Bicerin and the historic cafe trail, learning the 1786 Carpano vermouth story.",
+          "evening": "Evening vermouth flight at Affini in San Salvario, the city's deepest vermouth list.",
+          "accommodation": "Stay in central Turin.",
+          "venues": ["gaja", "produttori-del-barbaresco"],
+          "activities": "A Turin aperitivo day tracing vermouth from its 1786 birthplace through the historic cafes to a modern San Salvario vermouth bar, framing the Langhe wines to come."
+        },
+        {
+          "day": 2,
+          "morning": "Day trip east to Pessione for a 11:00 vermouth tasting at Casa Martini, the Martini & Rossi cellars and aperitivo museum.",
+          "lunch": "Lunch near Chieri before driving south to the Langhe.",
+          "afternoon": "Drive to Serralunga d'Alba and visit Fontanafredda, the former royal Savoy estate, for a Barolo tasting.",
+          "evening": "Dinner in Serralunga or Alba; settle into the Langhe base.",
+          "accommodation": "Move to a stay in or near Alba.",
+          "venues": ["fontanafredda"],
+          "activities": "Bridging Turin and the Langhe with the Martini vermouth cellars and the royal Fontanafredda estate, linking the city's aperitivo to Barolo's Savoy history."
+        },
+        {
+          "day": 3,
+          "morning": "Morning at Ceretto near Alba for a Barolo and Barbaresco overview, then the Bricco Rocche cellar.",
+          "lunch": "Lunch in Alba with a cru Barolo flight at Enoteca Fracchia & Berchialla.",
+          "afternoon": "Afternoon visit at G.D. Vajra in Vergne, the certified-organic estate at Barolo's highest hamlet.",
+          "evening": "Dinner in Alba and a late Barolo flight at Vincafe.",
+          "accommodation": "Second night near Alba.",
+          "venues": ["ceretto", "g-d-vajra"],
+          "activities": "A full Langhe day pairing Ceretto's broad range with the organic Vajra estate at Vergne, bracketed by Alba enoteca tastings."
+        },
+        {
+          "day": 4,
+          "morning": "Drive to Canale in the Roero for a 10:30 visit at Enrico Serafino's underground cellars to taste Alta Langa traditional-method sparkling.",
+          "lunch": "Lunch in Canale before the journey home.",
+          "afternoon": "Optional stop at the Enoteca Regionale del Roero for a last Arneis, then depart.",
+          "evening": "Onward travel.",
+          "accommodation": "Check out; onward travel.",
+          "venues": ["produttori-del-barbaresco"],
+          "activities": "A sparkling finale in the Roero, tasting Alta Langa in the historic Enrico Serafino cellars as a contrast to the still reds of the trip."
+        }
+      ],
+      "description": "Four days from Turin's vermouth and cafe culture through the Barolo hills to Alta Langa sparkling, taking in Casa Martini, Fontanafredda, Ceretto, Vajra and Enrico Serafino.",
+      "tip": "Casa Martini is weekends-only without a booking; reserve a weekday slot if your Langhe transfer falls midweek.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.vermouthditorino.org/en/",
+        "address_quoted": "Torino",
+        "open_status": "open",
+        "open_evidence_url": "https://www.martini.com/casa-martini/",
+        "cuisine_evidence_url": "https://www.altalangadocg.com/en/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "traditional-barolo-deep-dive-three-day",
+      "name": "Traditional Barolo deep-dive three-day",
+      "length_days": 3,
+      "theme": "Long-maceration, large-cask Barolo across Verduno, Barolo and Monforte",
+      "base": "Barolo",
+      "days": [
+        {
+          "day": 1,
+          "morning": "Begin in Verduno with a 10:00 visit at Comm. G.B. Burlotto, tasting foot-trodden Barolo Monvigliero and the rare Verduno Pelaverga.",
+          "lunch": "Lunch in Verduno overlooking the Monvigliero amphitheatre.",
+          "afternoon": "Drive to Barolo village for an afternoon with Bartolo Mascarello, the traditionalist house of blended Barolo.",
+          "evening": "Dinner in Barolo village; compare a Verduno and a Barolo-commune bottle.",
+          "accommodation": "Stay in Barolo village.",
+          "venues": ["comm-gb-burlotto", "bartolo-mascarello"],
+          "activities": "Two icons of the traditional school on day one, Burlotto's foot-trodden Monvigliero and Bartolo Mascarello's resolutely blended Barolo."
+        },
+        {
+          "day": 2,
+          "morning": "Visit Brovia in Castiglione Falletto for four single crus farmed organically and aged in large botti.",
+          "lunch": "Lunch in Castiglione Falletto beneath the castle.",
+          "afternoon": "Afternoon at Giacomo Conterno in Monforte, the benchmark of long-aged traditional Barolo from Cascina Francia.",
+          "evening": "Dinner in Monforte d'Alba's old town.",
+          "accommodation": "Second night in Barolo or Monforte.",
+          "venues": ["brovia", "giacomo-conterno"],
+          "activities": "Castiglione Falletto and Monforte crus from two traditional houses, ending on Giacomo Conterno's long-aged Cascina Francia benchmark."
+        },
+        {
+          "day": 3,
+          "morning": "Morning at Ettore Germano in Serralunga for high-site traditional Barolo and a sparkling Metodo Classico surprise.",
+          "lunch": "Lunch in Serralunga d'Alba.",
+          "afternoon": "Finish with a candlelit flight at Vinoteca Centro Storico under the Serralunga castle before departing.",
+          "evening": "Onward travel.",
+          "accommodation": "Check out; onward travel.",
+          "venues": ["ettore-germano"],
+          "activities": "A Serralunga close pairing Ettore Germano's high-site Barolo with a candlelit village flight, rounding off the traditional-style tour."
+        }
+      ],
+      "description": "Three days through the traditional Barolo school across Verduno, Barolo, Castiglione Falletto, Monforte and Serralunga, from Burlotto and Bartolo Mascarello to Giacomo Conterno.",
+      "tip": "Bartolo Mascarello and Giacomo Conterno are tiny and book out far ahead; secure these two first and build the rest of the route around them.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.langhevini.it/en/",
+        "address_quoted": "Barolo",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Barolo",
+        "cuisine_evidence_url": "https://www.barolomga360.it/en/",
+        "checked_on": "2026-05-25"
+      }
+    }
+  ]
+}

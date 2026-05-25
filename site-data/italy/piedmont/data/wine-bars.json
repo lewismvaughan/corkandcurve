@@ -1,0 +1,156 @@
+{
+  "wine_bars": [
+    {
+      "slug": "vincafe-wine-bar-alba",
+      "name": "Vincafe",
+      "address": "Via Vittorio Emanuele 12, 12051 Alba CN, Italy",
+      "neighborhood": "Alba",
+      "wine_program": "Langhe-anchored by-the-glass programme rotating Barolo, Barbaresco, Nebbiolo d'Alba and Roero Arneis, with a broader bottle list of Piedmont producers and a coffee-and-vermouth counter",
+      "glass_count": 20,
+      "signature_pours": ["Barolo DOCG", "Barbaresco DOCG", "Roero Arneis DOCG"],
+      "description": "Wine bar and cafe on Alba's main pedestrian street pouring a rotating Langhe selection by the glass. Counter seating with truffle and cheese plates designed to anchor the Nebbiolo-led list.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.vincafe.com/",
+        "address_quoted": "Via Vittorio Emanuele, 12, Alba",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g194664-d1754289-Reviews-Vincafe-Alba_Province_of_Cuneo_Piedmont.html",
+        "cuisine_evidence_url": "https://www.vincafe.com/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "vineria-verso-torino",
+      "name": "Vineria Verso",
+      "address": "Via San Paolo 20, 10138 Torino TO, Italy",
+      "neighborhood": "San Paolo, Turin",
+      "wine_program": "Around 200 Italian and international labels with a natural and small-grower leaning, plus vermouth, amari and gin; rotating by-the-glass list with kitchen plates for dinner",
+      "glass_count": 18,
+      "signature_pours": ["Nebbiolo d'Alba", "Piedmont natural wines", "Vermouth di Torino"],
+      "description": "Neighbourhood vineria in Turin's Cenisia and San Paolo districts with roughly 200 labels leaning natural and small-grower. By-the-glass rotation alongside vermouth and amari with a short bistro menu.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://versotorino.it/",
+        "address_quoted": "Via San Paolo 20, Torino",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187855-d26454258-Reviews-Vineria_Verso-Turin_Province_of_Turin_Piedmont.html",
+        "cuisine_evidence_url": "https://versotorino.it/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "antica-torino-bar-torino",
+      "name": "Antica Torino",
+      "address": "Piazza Vittorio Veneto 12, 10123 Torino TO, Italy",
+      "neighborhood": "Piazza Vittorio Veneto, Turin",
+      "wine_program": "Vermouth-led aperitivo programme built on house Vermouth di Torino rosso and dry plus a Piedmont wine selection; the bar doubles as the producer's own Turin tasting room",
+      "glass_count": 15,
+      "signature_pours": ["Vermouth di Torino Rosso", "Vermouth di Torino Dry", "Piedmont still wines"],
+      "description": "Aperitivo bar on Piazza Vittorio Veneto from the Antica Torino vermouth house, serving its own Vermouth di Torino alongside a Piedmont wine list. A working showcase for the brand's revived recipes.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.anticatorino.com/en/contacts/",
+        "address_quoted": "Piazza Vittorio Veneto, 12. 10123 Torino. Italy",
+        "open_status": "open",
+        "open_evidence_url": "https://www.nationalgeographic.com/travel/article/italys-aperitivo-capital-turin-vermouth-torino",
+        "cuisine_evidence_url": "https://www.anticatorino.com/en/torino-red-vermouth/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "bar-cavour-torino",
+      "name": "Bar Cavour",
+      "address": "Piazza Carignano 2, 10123 Torino TO, Italy",
+      "neighborhood": "Piazza Carignano, Turin",
+      "wine_program": "Cellar bar of the Del Cambio restaurant with a deep Piedmont and international wine list; vermouth-forward aperitivo and cocktail programme in an intimate first-floor room",
+      "glass_count": 16,
+      "signature_pours": ["Barolo DOCG", "Vermouth di Torino", "Alta Langa DOCG sparkling"],
+      "description": "The evening bar of the historic Del Cambio restaurant, set above Piazza Carignano. Vermouth-driven aperitivo and a Piedmont-strong wine list in a sophisticated, dimly-lit room.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://barcavour.com/en/cocktail/",
+        "address_quoted": "Piazza Carignano, 2, 10123 Torino",
+        "open_status": "open",
+        "open_evidence_url": "https://www.theworlds50best.com/discovery/Establishments/Italy/Turin/Bar-Cavour.html",
+        "cuisine_evidence_url": "https://barcavour.com/en/cocktail/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "caffe-mulassano-torino",
+      "name": "Caffe Mulassano",
+      "address": "Piazza Castello 15, 10123 Torino TO, Italy",
+      "neighborhood": "Piazza Castello, Turin",
+      "wine_program": "Historic cafe aperitivo built on its own house Liquore delle Alpi vermouth and a short Piedmont wine list, served under the Piazza Castello porticoes with tramezzini",
+      "glass_count": 10,
+      "signature_pours": ["House Liquore delle Alpi vermouth", "Vermouth di Torino", "Piedmont sparkling"],
+      "description": "Art Nouveau cafe under the Piazza Castello arcades, operating on this site since 1907 and a cradle of Turin aperitivo. Its house vermouth dates to an 1879 recipe; served with the cafe's signature tramezzini.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.caffemulassano.com/en/",
+        "address_quoted": "Piazza Castello, 15, 10123 Torino",
+        "open_status": "open",
+        "open_evidence_url": "https://turismotorino.org/en/visit/things-to-do-and-things-to-see/food-and-wine/historical-cafes/caffe-mulassano",
+        "cuisine_evidence_url": "https://historiccafesroute.com/mulassano/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "il-vermuttino-torino",
+      "name": "Il Vermuttino",
+      "address": "Via Franco Bonelli 16/C, 10122 Torino TO, Italy",
+      "neighborhood": "Quadrilatero Romano, Turin",
+      "wine_program": "Vermouth specialist in the Quadrilatero pouring a curated list of Vermouth di Torino brands including Cocchi and Antica Torino, plus Piedmont wines by the glass for aperitivo",
+      "glass_count": 14,
+      "signature_pours": ["Cocchi Vermouth di Torino", "Antica Torino Vermouth", "Piedmont still wines"],
+      "description": "Small Quadrilatero Romano bar built as a tribute to Turin's vermouth tradition, lining up the city's leading Vermouth di Torino brands. Aperitivo-focused with a tight Piedmont wine selection.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://flawless.life/it/italia/torino/il-vermuttino/",
+        "address_quoted": "Via Franco Bonelli 16/c",
+        "open_status": "open",
+        "open_evidence_url": "https://www.identitagolose.it/sito/it/462/38004/locali/vermuttino.html",
+        "cuisine_evidence_url": "https://flawless.life/it/italia/torino/il-vermuttino/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "enoteca-grandi-vini-alba",
+      "name": "Enoteca Grandi Vini",
+      "address": "Via Vittorio Emanuele II 17, 12051 Alba CN, Italy",
+      "neighborhood": "Alba",
+      "wine_program": "Langhe and Roero specialist with a strong Barolo and Barbaresco bottle list and a tasting counter; by-the-glass selections of Nebbiolo, Barbera and Arneis with local food pairings",
+      "glass_count": 16,
+      "signature_pours": ["Barolo DOCG", "Barbera d'Alba DOC", "Roero Arneis DOCG"],
+      "description": "Central Alba enoteca and tasting counter focused on Langhe and Roero producers, with a deep Barolo and Barbaresco shelf. Glass pours of local Nebbiolo, Barbera and Arneis matched to regional plates.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.grandivinialba.com/en/enoteca/",
+        "address_quoted": "Via Vittorio Emanuele II, 17, Alba",
+        "open_status": "open",
+        "open_evidence_url": "https://evendo.com/locations/italy/langhe/shop/enoteca-grandi-vini",
+        "cuisine_evidence_url": "https://www.grandivinialba.com/en/i-vini/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "uve-wine-bar-la-morra",
+      "name": "Uve Rooms and Wine Bar",
+      "address": "Via Umberto I 13, 12064 La Morra CN, Italy",
+      "neighborhood": "La Morra, Barolo",
+      "wine_program": "La Morra wine bar inside a former convent, pouring a Barolo-focused list of local cru producers by the glass with a kitchen built around Langhe pairings",
+      "glass_count": 18,
+      "signature_pours": ["Barolo La Morra cru", "Dolcetto d'Alba", "Langhe Nebbiolo"],
+      "description": "Wine bar in the former 18th-century San Sebastiano convent in La Morra, with a Barolo-led by-the-glass list drawn from local cru producers. Pairing plates of Langhe classics in a vaulted room.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.uvelanghe.it/en/",
+        "address_quoted": "Via Umberto I, 13, 12064 La Morra",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Hotel_Review-g815384-d1818335-Reviews-UVE_Rooms_Wine_Bar-La_Morra_Province_of_Cuneo_Piedmont.html",
+        "cuisine_evidence_url": "https://www.uvelanghe.it/en/",
+        "checked_on": "2026-05-25"
+      }
+    }
+  ]
+}

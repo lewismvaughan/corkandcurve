@@ -1,0 +1,172 @@
+{
+  "tasting_rooms": [
+    {
+      "slug": "enoteca-regionale-del-barolo",
+      "name": "Enoteca Regionale del Barolo",
+      "address": "Piazza Falletti 1, 12060 Barolo CN, Italy",
+      "neighborhood": "Barolo",
+      "varietals_focus": ["Nebbiolo"],
+      "pricing": "Three-Barolo rotation tasting from EUR 9; the Giro del Barolo flight of up to 32 labels at tiered prices",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": null,
+      "description": "The regional enoteca in the cellars of Barolo's Castello Falletti, pouring more than 120 Barolo labels across vintages and producers. The Giro del Barolo flight lets visitors compare crus side by side.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.enotecadelbarolo.it/contatti/",
+        "address_quoted": "Piazza Falletti, 1, Barolo",
+        "open_status": "open",
+        "open_evidence_url": "https://www.visitlmr.it/it/pois/luoghi-del-vino/enoteca-regionale-del-barolo",
+        "cuisine_evidence_url": "https://www.enotecadelbarolo.it/contatti/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "enoteca-regionale-del-barbaresco",
+      "name": "Enoteca Regionale del Barbaresco",
+      "address": "Via Torino 5, 12050 Barbaresco CN, Italy",
+      "neighborhood": "Barbaresco",
+      "varietals_focus": ["Nebbiolo"],
+      "pricing": "By-the-glass Barbaresco pours from EUR 6; producer flights by request",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": null,
+      "description": "Set inside the deconsecrated San Donato church beside Barbaresco's medieval tower, the regional enoteca represents Barbaresco from 142 producers. Walk-in pours and bottle sales of the appellation.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.enotecadelbarbaresco.it/en",
+        "address_quoted": "Via Torino, 5",
+        "open_status": "open",
+        "open_evidence_url": "https://www.visitpiemonte.com/en/places/regional-enoteca-of-barbaresco",
+        "cuisine_evidence_url": "https://www.enotecadelbarbaresco.it/en",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "cantina-comunale-la-morra",
+      "name": "Cantina Comunale di La Morra",
+      "address": "Via Carlo Alberto 2, 12064 La Morra CN, Italy",
+      "neighborhood": "La Morra, Barolo",
+      "varietals_focus": ["Nebbiolo", "Dolcetto", "Barbera"],
+      "pricing": "Walk-in tastings of La Morra Barolo from EUR 5 per pour; bottle sales at cellar prices",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": null,
+      "description": "Communal tasting room since 1973 in the 18th-century Marchesi Falletti stables in La Morra, representing more than 60 local producers. A practical first stop to compare La Morra cru Barolo in one place.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://en.cantinalamorra.com/contatti-orari",
+        "address_quoted": "Via C. Alberto, 2, La Morra",
+        "open_status": "open",
+        "open_evidence_url": "https://www.visitlmr.it/en/pois/wine-places/cantina-comunale-di-la-morra",
+        "cuisine_evidence_url": "https://en.cantinalamorra.com/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "enoteca-regionale-del-roero",
+      "name": "Enoteca Regionale del Roero",
+      "address": "Via Roma 57, 12043 Canale CN, Italy",
+      "neighborhood": "Canale, Roero",
+      "varietals_focus": ["Arneis", "Nebbiolo", "Favorita"],
+      "pricing": "Walk-in Roero and Roero Arneis pours from EUR 5; producer flights by request",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": null,
+      "description": "The Roero regional enoteca in a restored historic palazzo in Canale, showing wines from more than 100 Roero producers. Tastings centre on Roero Arneis DOCG whites and Roero Nebbiolo reds.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.enotecadelroero.it/",
+        "address_quoted": "Via Roma, 57, Canale",
+        "open_status": "open",
+        "open_evidence_url": "https://www.visitlmr.it/en/pois/wine-places/regional-enoteca-of-roero-2-0",
+        "cuisine_evidence_url": "https://www.enotecadelroero.it/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "vietti-castiglione-falletto-tasting",
+      "name": "Vietti Tasting Room",
+      "address": "Piazza Vittorio Veneto 5, 12060 Castiglione Falletto CN, Italy",
+      "neighborhood": "Castiglione Falletto, Barolo",
+      "varietals_focus": ["Nebbiolo", "Barbera", "Arneis", "Moscato"],
+      "pricing": "Guided cellar visit with tasting by appointment; tours at fixed daily slots",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "vietti",
+      "description": "Tasting room of the historic Vietti estate on the central piazza of Castiglione Falletto, in the heart of the Barolo zone. Cellar visits with tastings of the single-vineyard Barolo and the estate range by appointment.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.vietti.com/en/contacts",
+        "address_quoted": "Piazza Vittorio Veneto, 5, 12060 Castiglione Falletto",
+        "open_status": "open",
+        "open_evidence_url": "https://www.yelp.com/biz/vietti-castiglione-falletto",
+        "cuisine_evidence_url": "https://www.vietti.com/en/winery-location/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "pio-cesare-alba-tasting",
+      "name": "Pio Cesare Tasting Cellars",
+      "address": "Via Cesare Balbo 4, 12051 Alba CN, Italy",
+      "neighborhood": "Alba",
+      "varietals_focus": ["Nebbiolo", "Barbera", "Arneis", "Chardonnay"],
+      "pricing": "Historical cellar tour with tasting by appointment, Monday to Saturday morning",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "pio-cesare",
+      "description": "Tasting cellars of Pio Cesare inside the old town of Alba, the family house since 1881 built against the Roman walls. Tours of the historic cellars end in tastings of the estate Barolo, Barbaresco and Arneis.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.piocesare.it/en/contacts/",
+        "address_quoted": "Via Cesare Balbo, 4",
+        "open_status": "open",
+        "open_evidence_url": "https://www.falstaff.com/en/wineries/pio-cesare",
+        "cuisine_evidence_url": "https://www.piocesare.it/en/visit-the-winery/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "ceretto-bricco-rocche-tasting",
+      "name": "Ceretto Bricco Rocche Tasting Room",
+      "address": "Localita San Cassiano 34, 12051 Alba CN, Italy",
+      "neighborhood": "Castiglione Falletto, Barolo",
+      "varietals_focus": ["Nebbiolo", "Arneis", "Barbera"],
+      "pricing": "Guided visit and tasting by appointment; tasting in the glass Cube overlooking the cru",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "ceretto",
+      "description": "Ceretto's Bricco Rocche winery near Castiglione Falletto, with its glass Cube cantilevered over the Barolo cru. Appointment tastings cover the single-vineyard Barolo and the Blange Arneis.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://visit.ceretto.com/en/",
+        "address_quoted": "Localita San Cassiano, 34 | 12051 Alba (CN)",
+        "open_status": "open",
+        "open_evidence_url": "https://www.yelp.com/biz/ceretto-aziende-vitivinicole-alba",
+        "cuisine_evidence_url": "https://www.ceretto.com/en/cantina-bricco-rocche",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "fontanafredda-serralunga-tasting",
+      "name": "Fontanafredda Tasting Cellars",
+      "address": "Via Alba 15, 12050 Serralunga d'Alba CN, Italy",
+      "neighborhood": "Serralunga d'Alba",
+      "varietals_focus": ["Nebbiolo", "Pinot Nero", "Chardonnay", "Barbera"],
+      "pricing": "Historical cellar tour with a three-wine tasting daily; longer Barolo flights by reservation",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": "fontanafredda",
+      "description": "Tasting cellars in the royal Fontanafredda estate at Serralunga d'Alba, founded 1858 on land of Vittorio Emanuele II. Daily cellar tours close with tastings of Alta Langa, Nebbiolo d'Alba and Barolo.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.fontanafredda.it/en/contacts/",
+        "address_quoted": "Via Alba 15, 12050 Serralunga d'Alba",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g1410632-d2329219-Reviews-Fontanafredda-Serralunga_d_Alba_Province_of_Cuneo_Piedmont.html",
+        "cuisine_evidence_url": "https://www.villaggionarrante.it/en/experience/discover-fontanafredda/",
+        "checked_on": "2026-05-25"
+      }
+    }
+  ]
+}

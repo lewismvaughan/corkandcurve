@@ -61,6 +61,30 @@
       ]
     },
     {
+      "slug": "arneis",
+      "display": "Arneis",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "piedmont",
+          "region_name": "Piedmont",
+          "n": 11
+        }
+      ]
+    },
+    {
+      "slug": "barbera",
+      "display": "Barbera",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "piedmont",
+          "region_name": "Piedmont",
+          "n": 56
+        }
+      ]
+    },
+    {
       "slug": "cabernet-franc",
       "display": "Cabernet Franc",
       "regions": [
@@ -87,6 +111,12 @@
           "region_slug": "bordeaux",
           "region_name": "Bordeaux",
           "n": 53
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "piedmont",
+          "region_name": "Piedmont",
+          "n": 1
         },
         {
           "country_slug": "italy",
@@ -144,6 +174,12 @@
         },
         {
           "country_slug": "italy",
+          "region_slug": "piedmont",
+          "region_name": "Piedmont",
+          "n": 14
+        },
+        {
+          "country_slug": "italy",
           "region_slug": "tuscany",
           "region_name": "Tuscany",
           "n": 7
@@ -175,6 +211,42 @@
       ]
     },
     {
+      "slug": "cortese",
+      "display": "Cortese",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "piedmont",
+          "region_name": "Piedmont",
+          "n": 6
+        }
+      ]
+    },
+    {
+      "slug": "dolcetto",
+      "display": "Dolcetto",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "piedmont",
+          "region_name": "Piedmont",
+          "n": 40
+        }
+      ]
+    },
+    {
+      "slug": "favorita",
+      "display": "Favorita",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "piedmont",
+          "region_name": "Piedmont",
+          "n": 1
+        }
+      ]
+    },
+    {
       "slug": "field-blend-old-vines",
       "display": "field blend old vines",
       "regions": [
@@ -195,6 +267,18 @@
           "region_slug": "tuscany",
           "region_name": "Tuscany",
           "n": 1
+        }
+      ]
+    },
+    {
+      "slug": "freisa",
+      "display": "Freisa",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "piedmont",
+          "region_name": "Piedmont",
+          "n": 7
         }
       ]
     },
@@ -255,6 +339,18 @@
           "region_slug": "rioja",
           "region_name": "Rioja",
           "n": 46
+        }
+      ]
+    },
+    {
+      "slug": "grignolino",
+      "display": "Grignolino",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "piedmont",
+          "region_name": "Piedmont",
+          "n": 4
         }
       ]
     },
@@ -414,6 +510,12 @@
         },
         {
           "country_slug": "italy",
+          "region_slug": "piedmont",
+          "region_name": "Piedmont",
+          "n": 1
+        },
+        {
+          "country_slug": "italy",
           "region_slug": "tuscany",
           "region_name": "Tuscany",
           "n": 42
@@ -433,6 +535,30 @@
       ]
     },
     {
+      "slug": "moscato",
+      "display": "Moscato",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "piedmont",
+          "region_name": "Piedmont",
+          "n": 1
+        }
+      ]
+    },
+    {
+      "slug": "moscato-bianco",
+      "display": "Moscato Bianco",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "piedmont",
+          "region_name": "Piedmont",
+          "n": 12
+        }
+      ]
+    },
+    {
       "slug": "muscadelle",
       "display": "Muscadelle",
       "regions": [
@@ -441,6 +567,42 @@
           "region_slug": "bordeaux",
           "region_name": "Bordeaux",
           "n": 5
+        }
+      ]
+    },
+    {
+      "slug": "nascetta",
+      "display": "Nascetta",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "piedmont",
+          "region_name": "Piedmont",
+          "n": 1
+        }
+      ]
+    },
+    {
+      "slug": "nebbiolo",
+      "display": "Nebbiolo",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "piedmont",
+          "region_name": "Piedmont",
+          "n": 58
+        }
+      ]
+    },
+    {
+      "slug": "pelaverga",
+      "display": "Pelaverga",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "piedmont",
+          "region_name": "Piedmont",
+          "n": 1
         }
       ]
     },
@@ -504,6 +666,12 @@
       "regions": [
         {
           "country_slug": "italy",
+          "region_slug": "piedmont",
+          "region_name": "Piedmont",
+          "n": 5
+        },
+        {
+          "country_slug": "italy",
           "region_slug": "tuscany",
           "region_name": "Tuscany",
           "n": 3
@@ -543,6 +711,30 @@
           "region_slug": "douro",
           "region_name": "Douro Valley",
           "n": 5
+        }
+      ]
+    },
+    {
+      "slug": "riesling",
+      "display": "Riesling",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "piedmont",
+          "region_name": "Piedmont",
+          "n": 3
+        }
+      ]
+    },
+    {
+      "slug": "ruche",
+      "display": "Ruche",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "piedmont",
+          "region_name": "Piedmont",
+          "n": 1
         }
       ]
     },
@@ -621,6 +813,12 @@
           "region_slug": "burgundy",
           "region_name": "Burgundy",
           "n": 1
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "piedmont",
+          "region_name": "Piedmont",
+          "n": 3
         },
         {
           "country_slug": "italy",

@@ -1,0 +1,440 @@
+{
+  "neighborhoods": [
+    {
+      "slug": "barolo",
+      "name": "Barolo",
+      "address": "Barolo, 12060 Province of Cuneo, Piedmont, Italy",
+      "classification": "Barolo DOCG",
+      "description": "The flagship Nebbiolo appellation south-west of Alba, spread across eleven communes led by La Morra, Serralunga d'Alba, Castiglione Falletto, Monforte d'Alba and Barolo village. Minimum 38 months ageing, 62 for Riserva, on calcareous-clay Tortonian and Serravallian marls.",
+      "key_varietals": [
+        "Nebbiolo"
+      ],
+      "sub_communes": [
+        "La Morra",
+        "Serralunga d'Alba",
+        "Castiglione Falletto",
+        "Monforte d'Alba",
+        "Barolo",
+        "Novello",
+        "Verduno"
+      ],
+      "area_ha": 2200,
+      "famous_producers": [
+        "giacomo-conterno",
+        "vietti",
+        "bartolo-mascarello",
+        "luciano-sandrone",
+        "g-d-vajra",
+        "marchesi-di-barolo"
+      ],
+      "aliases": [
+        "Barolo",
+        "Barolo DOCG",
+        "Langhe"
+      ],
+      "vibe": "Fog-wreathed Nebbiolo amphitheatres around hilltop villages and castles; the most powerful, age-worthy red in Italy and the beating heart of the Langhe.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.langhevini.it/en/",
+        "address_quoted": "Barolo, Province of Cuneo, Piedmont, Italy",
+        "open_status": "open",
+        "open_evidence_url": "https://www.visitlmr.it/en/",
+        "cuisine_evidence_url": "https://www.langhevini.it/en/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "barbaresco",
+      "name": "Barbaresco",
+      "address": "Barbaresco, 12050 Province of Cuneo, Piedmont, Italy",
+      "classification": "Barbaresco DOCG",
+      "description": "The second great Nebbiolo DOCG north-east of Alba across Barbaresco, Neive and Treiso. Slightly shorter ageing than Barolo (26 months, 50 for Riserva) on Tortonian marls, giving aromatic, often more approachable Nebbiolo from crus like Asili, Rabaja and Martinenga.",
+      "key_varietals": [
+        "Nebbiolo"
+      ],
+      "sub_communes": [
+        "Barbaresco",
+        "Neive",
+        "Treiso"
+      ],
+      "area_ha": 760,
+      "famous_producers": [
+        "gaja",
+        "produttori-del-barbaresco",
+        "bruno-rocca",
+        "albino-rocca",
+        "marchesi-di-gresy",
+        "sottimano"
+      ],
+      "aliases": [
+        "Barbaresco",
+        "Barbaresco DOCG"
+      ],
+      "vibe": "A tighter cluster of Nebbiolo crus around a medieval tower; perfumed, silkier reds that Angelo Gaja pushed onto the world stage from the 1960s.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.langhevini.it/en/",
+        "address_quoted": "Barbaresco, Province of Cuneo, Piedmont, Italy",
+        "open_status": "open",
+        "open_evidence_url": "https://www.produttoridelbarbaresco.com/en/the-winery/",
+        "cuisine_evidence_url": "https://www.langhevini.it/en/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "la-morra",
+      "name": "La Morra",
+      "address": "La Morra, 12064 Province of Cuneo, Piedmont, Italy",
+      "classification": "Barolo DOCG",
+      "description": "The largest Barolo commune by vineyard area, on the western Tortonian marls that yield the most perfumed, earlier-approachable style of Barolo. Home to celebrated crus Brunate, Rocche dell'Annunziata and Cerequio and to the Cappella delle Brunate art chapel.",
+      "key_varietals": [
+        "Nebbiolo",
+        "Barbera",
+        "Dolcetto"
+      ],
+      "sub_communes": [
+        "La Morra",
+        "Annunziata",
+        "Santa Maria"
+      ],
+      "area_ha": 600,
+      "famous_producers": [
+        "renato-ratti",
+        "elio-altare",
+        "roberto-voerzio",
+        "cordero-di-montezemolo",
+        "oddero",
+        "trediberri",
+        "mauro-veglio"
+      ],
+      "aliases": [
+        "La Morra",
+        "Annunziata"
+      ],
+      "vibe": "Panoramic balcony over the Barolo zone with a painted chapel among the vines; the softest, most fragrant face of Nebbiolo on western marls.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.visitlmr.it/en/",
+        "address_quoted": "La Morra, Province of Cuneo, Piedmont, Italy",
+        "open_status": "open",
+        "open_evidence_url": "https://www.langhevini.it/en/",
+        "cuisine_evidence_url": "https://www.visitlmr.it/en/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "serralunga-dalba",
+      "name": "Serralunga d'Alba",
+      "address": "Serralunga d'Alba, 12050 Province of Cuneo, Piedmont, Italy",
+      "classification": "Barolo DOCG",
+      "description": "The eastern Barolo commune on iron-rich Serravallian soils that give the most structured, tannic and long-lived Barolo of all, with crus Vigna Rionda, Falletto, Lazzarito and Cerretta. Crowned by a 14th-century Falletti castle.",
+      "key_varietals": [
+        "Nebbiolo"
+      ],
+      "sub_communes": [
+        "Serralunga d'Alba"
+      ],
+      "area_ha": 320,
+      "famous_producers": [
+        "massolino",
+        "fontanafredda",
+        "ettore-germano"
+      ],
+      "aliases": [
+        "Serralunga d'Alba",
+        "Serralunga"
+      ],
+      "vibe": "A narrow ridge of austere, iron-soil Nebbiolo under a fairy-tale castle; the most powerful and slow-evolving Barolo commune.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.langhevini.it/en/",
+        "address_quoted": "Serralunga d'Alba, Province of Cuneo, Piedmont, Italy",
+        "open_status": "open",
+        "open_evidence_url": "https://www.fontanafredda.it/en/",
+        "cuisine_evidence_url": "https://www.langhevini.it/en/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "castiglione-falletto",
+      "name": "Castiglione Falletto",
+      "address": "Castiglione Falletto, 12060 Province of Cuneo, Piedmont, Italy",
+      "classification": "Barolo DOCG",
+      "description": "A small central Barolo commune straddling the Tortonian-Serravallian divide, blending the perfume of La Morra with the structure of Serralunga. Holds prized crus Villero, Rocche di Castiglione, Monprivato and Bricco Boschis around a cylindrical-towered castle.",
+      "key_varietals": [
+        "Nebbiolo"
+      ],
+      "sub_communes": [
+        "Castiglione Falletto"
+      ],
+      "area_ha": 260,
+      "famous_producers": [
+        "vietti",
+        "paolo-scavino",
+        "cavallotto"
+      ],
+      "aliases": [
+        "Castiglione Falletto",
+        "Castiglione"
+      ],
+      "vibe": "A ridge-top village balanced between power and perfume; central Barolo crus that bridge the zone's two soil types.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.langhevini.it/en/",
+        "address_quoted": "Castiglione Falletto, Province of Cuneo, Piedmont, Italy",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vietti.com/en/",
+        "cuisine_evidence_url": "https://www.langhevini.it/en/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "monforte-dalba",
+      "name": "Monforte d'Alba",
+      "address": "Monforte d'Alba, 12065 Province of Cuneo, Piedmont, Italy",
+      "classification": "Barolo DOCG",
+      "description": "The southernmost major Barolo commune, with the highest-elevation vineyards and powerful, dense Nebbiolo from the Bussia and Ginestra crus. The Bussia hamlet alone shelters some of the zone's most coveted single-vineyard sites.",
+      "key_varietals": [
+        "Nebbiolo"
+      ],
+      "sub_communes": [
+        "Monforte d'Alba",
+        "Bussia"
+      ],
+      "area_ha": 500,
+      "famous_producers": [
+        "giacomo-conterno",
+        "poderi-aldo-conterno",
+        "domenico-clerico",
+        "conterno-fantino"
+      ],
+      "aliases": [
+        "Monforte d'Alba",
+        "Monforte",
+        "Bussia"
+      ],
+      "vibe": "High, amphitheatre vineyards above a stepped medieval village famous for its summer jazz; dense, brooding Barolo from Bussia and Ginestra.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.langhevini.it/en/",
+        "address_quoted": "Monforte d'Alba, Province of Cuneo, Piedmont, Italy",
+        "open_status": "open",
+        "open_evidence_url": "https://www.poderialdoconterno.com/en",
+        "cuisine_evidence_url": "https://www.langhevini.it/en/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "alba",
+      "name": "Alba",
+      "address": "Alba, 12051 Province of Cuneo, Piedmont, Italy",
+      "classification": "Langhe DOC and Barbera d'Alba DOC",
+      "description": "The Roman-walled market town at the centre of the Langhe and capital of the white truffle, home to the autumn Fiera Internazionale del Tartufo Bianco. Several historic houses cellar in the town, which gives its name to Barbera d'Alba, Dolcetto d'Alba and Nebbiolo d'Alba.",
+      "key_varietals": [
+        "Nebbiolo",
+        "Barbera",
+        "Dolcetto"
+      ],
+      "sub_communes": [
+        "Alba"
+      ],
+      "area_ha": 1200,
+      "famous_producers": [
+        "pio-cesare",
+        "ceretto",
+        "prunotto"
+      ],
+      "aliases": [
+        "Alba",
+        "Langhe",
+        "white truffle"
+      ],
+      "vibe": "A walled Roman town of red-brick towers and truffle markets; the commercial and gastronomic hub where the Langhe's wine houses keep their cellars.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.langhevini.it/en/",
+        "address_quoted": "Alba, Province of Cuneo, Piedmont, Italy",
+        "open_status": "open",
+        "open_evidence_url": "https://www.piocesare.it/en/contacts/",
+        "cuisine_evidence_url": "https://www.langhevini.it/en/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "roero",
+      "name": "Roero",
+      "address": "Canale, 12043 Province of Cuneo, Piedmont, Italy",
+      "classification": "Roero DOCG and Roero Arneis DOCG",
+      "description": "The sandy hills on the left bank of the Tanaro opposite the Langhe, made DOCG in 2004. Roero is Nebbiolo-based red; Roero Arneis is the aromatic white that rescued the near-extinct Arneis grape. Lighter, sandier soils than the Langhe marls.",
+      "key_varietals": [
+        "Nebbiolo",
+        "Arneis"
+      ],
+      "sub_communes": [
+        "Canale",
+        "Vezza d'Alba",
+        "Monta",
+        "Santo Stefano Roero"
+      ],
+      "area_ha": 1100,
+      "famous_producers": [
+        "matteo-correggia"
+      ],
+      "aliases": [
+        "Roero",
+        "Roero Arneis",
+        "Canale"
+      ],
+      "vibe": "Sandy badland gorges and orchard-fringed vineyards across the Tanaro from the Langhe; home of perfumed Arneis whites and lighter Nebbiolo reds.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.consorziodelroero.it/en/",
+        "address_quoted": "Canale, Province of Cuneo, Piedmont, Italy",
+        "open_status": "open",
+        "open_evidence_url": "https://www.matteocorreggia.com/en/",
+        "cuisine_evidence_url": "https://www.consorziodelroero.it/en/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "asti",
+      "name": "Asti and Monferrato",
+      "address": "Asti, 14100 Province of Asti, Piedmont, Italy",
+      "classification": "Barbera d'Asti DOCG, Asti DOCG and Nizza DOCG",
+      "description": "The rolling Monferrato hills around Asti, a UNESCO World Heritage vineyard landscape and the engine of Piedmont's Barbera and Moscato. Barbera d'Asti DOCG and its Nizza DOCG sub-zone deliver the region's deepest Barbera; Asti and Moscato d'Asti DOCG cover the sweet sparkling and frizzante styles.",
+      "key_varietals": [
+        "Barbera",
+        "Moscato Bianco",
+        "Grignolino"
+      ],
+      "sub_communes": [
+        "Asti",
+        "Nizza Monferrato",
+        "Canelli",
+        "Rocchetta Tanaro",
+        "Calamandrana"
+      ],
+      "area_ha": 12000,
+      "famous_producers": [
+        "braida",
+        "michele-chiarlo",
+        "coppo"
+      ],
+      "aliases": [
+        "Asti",
+        "Monferrato",
+        "Barbera d'Asti",
+        "Nizza"
+      ],
+      "vibe": "UNESCO-listed Monferrato hills of Barbera and Moscato around a Palio town; the broad, generous heart of Piedmont's everyday and sparkling wines.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.viniastimonferrato.it/en/",
+        "address_quoted": "Asti, Province of Asti, Piedmont, Italy",
+        "open_status": "open",
+        "open_evidence_url": "https://www.braida.it/en/faq/",
+        "cuisine_evidence_url": "https://www.viniastimonferrato.it/en/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "canelli",
+      "name": "Canelli",
+      "address": "Canelli, 14053 Province of Asti, Piedmont, Italy",
+      "classification": "Canelli DOCG and Asti DOCG",
+      "description": "The historic capital of Italian sparkling wine in the southern Monferrato, where the deep tufa cellars known as the Cattedrali Sotterranee are UNESCO-listed. Canelli DOCG covers the finest dry-leaning Moscato; the town is the home of the Charmat-method Asti and Moscato traditions.",
+      "key_varietals": [
+        "Moscato Bianco",
+        "Barbera"
+      ],
+      "sub_communes": [
+        "Canelli"
+      ],
+      "area_ha": 1000,
+      "famous_producers": [
+        "coppo"
+      ],
+      "aliases": [
+        "Canelli",
+        "Canelli DOCG",
+        "Cattedrali Sotterranee"
+      ],
+      "vibe": "A sparkling-wine town honeycombed with UNESCO-listed tufa underground cathedrals; the birthplace of Italian Moscato spumante.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.viniastimonferrato.it/en/",
+        "address_quoted": "Canelli, Province of Asti, Piedmont, Italy",
+        "open_status": "open",
+        "open_evidence_url": "https://www.coppo.com/en/contact-us/",
+        "cuisine_evidence_url": "https://www.viniastimonferrato.it/en/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "gavi",
+      "name": "Gavi",
+      "address": "Gavi, 15066 Province of Alessandria, Piedmont, Italy",
+      "classification": "Gavi DOCG (Cortese di Gavi)",
+      "description": "Piedmont's flagship dry-white DOCG in the south-eastern hills near the Ligurian border, made from 100% Cortese. Crisp, citrus-and-mineral whites that pair with the coast's seafood; the village of Gavi gives the wine its name and a hilltop fortress.",
+      "key_varietals": [
+        "Cortese"
+      ],
+      "sub_communes": [
+        "Gavi",
+        "Rovereto",
+        "Novi Ligure"
+      ],
+      "area_ha": 1500,
+      "famous_producers": [
+        "la-scolca"
+      ],
+      "aliases": [
+        "Gavi",
+        "Gavi DOCG",
+        "Cortese"
+      ],
+      "vibe": "Cooler, sea-facing hills near Liguria producing Piedmont's signature dry white; crisp Cortese under a clifftop fortress.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.consorziogavi.com/en/",
+        "address_quoted": "Gavi, Province of Alessandria, Piedmont, Italy",
+        "open_status": "open",
+        "open_evidence_url": "https://www.lascolca.net/en/contacts/",
+        "cuisine_evidence_url": "https://www.consorziogavi.com/en/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "dogliani",
+      "name": "Dogliani",
+      "address": "Dogliani, 12063 Province of Cuneo, Piedmont, Italy",
+      "classification": "Dogliani DOCG",
+      "description": "The southern Langhe town that made Dolcetto its own DOCG in 2005, the grape's most serious expression. Deep-coloured, low-acid, almond-edged reds from the hills around Dogliani, distinct from the lighter Dolcetto d'Alba and Dolcetto di Diano d'Alba.",
+      "key_varietals": [
+        "Dolcetto"
+      ],
+      "sub_communes": [
+        "Dogliani"
+      ],
+      "area_ha": 1000,
+      "famous_producers": [
+        "pecchenino"
+      ],
+      "aliases": [
+        "Dogliani",
+        "Dogliani DOCG",
+        "Dolcetto"
+      ],
+      "vibe": "The serious home of Dolcetto in the southern Langhe; deep, plummy, almond-tinged reds built for the everyday Piedmontese table.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.langhevini.it/en/",
+        "address_quoted": "Dogliani, Province of Cuneo, Piedmont, Italy",
+        "open_status": "open",
+        "open_evidence_url": "https://www.pecchenino.it/en/",
+        "cuisine_evidence_url": "https://www.langhevini.it/en/",
+        "checked_on": "2026-05-25"
+      }
+    }
+  ]
+}
