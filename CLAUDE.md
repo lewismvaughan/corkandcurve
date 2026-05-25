@@ -144,16 +144,22 @@ pass. Full command list in `docs/FLOW.md`. Headlines:
    search-index, sitemap, llms.txt
 7. `python3 scripts/generate_chrome_pages.py` — refreshes `/regions/`,
    `/topics/`, `/grapes/`, `/styles/` so the new region appears
-8. `orphan_audit.py` — no new orphans for the region slug
-9. FAQ check — `id="faq"` + `FAQPage` schema both ≥1 on region hub
-10. `check_jsonld.py <country> <region>` — JSON-LD parses clean
-11. Live smoke test — 6+ URLs return 200 (hub, entities, cross-cuts, OG card)
-12. `/regions/` chrome page lists the new region display name
-13. chmod `a+rX` on `content/`
+8. `python3 scripts/generate_homepage.py` — refreshes `/` featured-regions
+   + featured-wines rotation. Auto-discovers regions with ≥1 vineyard,
+   but is NOT in generate_city's chain, so a shipped region stays off the
+   homepage until this runs (Burgundy 2026-05-25 shipped fully but was
+   absent from the homepage featured list because this step was skipped).
+9. `orphan_audit.py` — no new orphans for the region slug
+10. FAQ check — `id="faq"` + `FAQPage` schema both ≥1 on region hub
+11. `check_jsonld.py <country> <region>` — JSON-LD parses clean
+12. Live smoke test — 6+ URLs return 200 (hub, entities, cross-cuts, OG card)
+13. `/regions/` chrome page lists the new region display name
+14. Homepage featured list includes the new region (`grep <slug> content/index.html`)
+15. chmod `a+rX` on `content/`
 
-`generate_city.py` does NOT auto-run #7 (`generate_chrome_pages.py`)
-or #2-5 (geocode + maps + pins). Those are explicit-only. Most ship
-failures come from forgetting them.
+`generate_city.py` does NOT auto-run #7 (`generate_chrome_pages.py`),
+#8 (`generate_homepage.py`), or #2-5 (geocode + maps + pins). Those are
+explicit-only. Most ship failures come from forgetting them.
 
 ## Claude Code prompt: `/usage-credits`
 

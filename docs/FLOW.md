@@ -169,20 +169,25 @@ is missing maps, pins, and inbound chrome links.
 # Render
 6. python3 scripts/generate_city.py <country> <region>
 
-# Chrome integration — NOT in generate_city.py's chain
+# Chrome + homepage integration — NOT in generate_city.py's chain
 7. python3 scripts/generate_chrome_pages.py
    (refreshes /regions/, /topics/, /grapes/, /styles/)
+8. python3 scripts/generate_homepage.py
+   (refreshes / featured-regions + featured-wines; auto-discovers regions
+   with >= 1 vineyard, but a shipped region stays off the homepage until
+   this runs — the Burgundy 2026-05-25 miss)
 
 # Verification gates
-8. orphan_audit.py: orphan count for the new region ≤ 0
-9. FAQ presence on region hub (id="faq" + FAQPage schema)
-10. check_jsonld.py — no JSON parse errors
-11. Sitemap-vs-disk reconcile
-12. Live smoke test — 6+ URLs return 200
-13. Chrome regions listing — region appears in /regions/
+9.  orphan_audit.py: orphan count for the new region ≤ 0
+10. FAQ presence on region hub (id="faq" + FAQPage schema)
+11. check_jsonld.py — no JSON parse errors
+12. Sitemap-vs-disk reconcile
+13. Live smoke test — 6+ URLs return 200
+14. Chrome regions listing — region appears in /regions/
+15. Homepage featured list — region appears in content/index.html
 
 # Permissions
-14. chmod a+rX on content/
+16. chmod a+rX on content/
 ```
 
 If ANY of these fail, the region is NOT ship-done.
