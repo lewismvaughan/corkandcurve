@@ -29,7 +29,9 @@ SECTION_FILES = {
     "core":       "sitemap-core.xml",        # homepage + chrome + /topics/
     "cities":     "sitemap-cities.xml",      # country/state/city hubs + per-city topic pages
     "entities":   "sitemap-entities.xml",    # /<country>/<city>/<topic>/<slug>/ leaves
-    "crosscuts":  "sitemap-crosscuts.xml",   # /cuisine/<slug>/, /dish/, /neighborhood/, scoped, city × dietary
+    "crosscuts":  "sitemap-crosscuts.xml",   # /grape/, /style/, /world/, /neighborhood/, scoped, city × dietary
+    "wines":      "sitemap-wines.xml",       # /wine/<producer>/<cuvee>/ per-cuvée pages (primary content)
+    "tags":       "sitemap-tags.xml",        # /tag/<slug>/ + /tag/<slug>/<region>/ filter landings
 }
 
 
@@ -135,13 +137,15 @@ def _walk_entity_pages(country: str, city: str | None) -> list:
 
 
 def _walk_cross_cuts() -> list:
-    """Return URLs for cross-cut landing pages."""
+    """Return URLs for global wine cross-cut landing pages (/grape/<slug>/,
+    /style/<slug>/, /world/<slug>/) plus /neighborhood/ deep pages. The
+    parent index landings (/grapes/, /styles/) are chrome pages emitted in
+    the core shard, not here."""
     out = []
-    for kind in ("cuisine", "dish"):
+    for kind in ("grape", "style", "world"):
         kdir = OUT_DIR / kind
         if not kdir.is_dir():
             continue
-        # Include the parent index page (/cuisine/, /dish/) when it exists.
         if (kdir / "index.html").exists():
             out.append(f"/{kind}/")
         for slug_dir in sorted(kdir.iterdir()):
@@ -204,8 +208,8 @@ def collect_urls() -> list:
                     _add(urls, f"{BASE}/{country}/{topic}/", "monthly", "0.7", "cities")
             for url in _walk_entity_pages(country, None):
                 _add(urls, f"{BASE}{url}", "monthly", "0.6", "entities")
-            # Country-scoped cross-cuts (cuisines, signature-dishes, neighborhoods).
-            for sub in ("cuisines", "signature-dishes", "neighborhoods"):
+            # Country-scoped cross-cut index landings (wine vertical).
+            for sub in ("grapes", "styles", "neighborhoods"):
                 if (OUT_DIR / country / sub / "index.html").exists():
                     _add(urls, f"{BASE}/{country}/{sub}/", "weekly", "0.75", "crosscuts")
 
@@ -244,11 +248,17 @@ def collect_urls() -> list:
                     _add(urls, f"{BASE}/{country}/{city}/{topic}/", "monthly", "0.8", "cities")
             for url in _walk_entity_pages(country, city):
                 _add(urls, f"{BASE}{url}", "monthly", "0.6", "entities")
-            # City-scoped cross-cuts (cuisines + neighborhoods only; the city
-            # signature-dishes URL is already emitted above as a topic page).
-            for sub in ("cuisines", "neighborhoods"):
+            # Region-scoped cross-cut index landings (wine vertical).
+            for sub in ("grapes", "styles", "neighborhoods"):
                 if (OUT_DIR / country / city / sub / "index.html").exists():
                     _add(urls, f"{BASE}/{country}/{city}/{sub}/", "weekly", "0.75", "crosscuts")
+            # Region x grape pages: /<country>/<region>/grape/<slug>/.
+            rg_dir = OUT_DIR / country / city / "grape"
+            if rg_dir.is_dir():
+                for slug_dir in sorted(rg_dir.iterdir()):
+                    if slug_dir.is_dir() and (slug_dir / "index.html").exists():
+                        _add(urls, f"{BASE}/{country}/{city}/grape/{slug_dir.name}/",
+                             "monthly", "0.6", "crosscuts")
             # City × dietary sub-pages (vegan/vegetarian/gluten-free/halal/kosher).
             dietary_dir = OUT_DIR / country / city / "dietary"
             if dietary_dir.is_dir():
