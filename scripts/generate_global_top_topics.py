@@ -47,7 +47,7 @@ from utils.filter_search import filter_search_widget  # noqa: E402
 REPO_ROOT = Path(__file__).resolve().parent.parent
 SITE_DATA = REPO_ROOT / "site-data"
 CONTENT = REPO_ROOT / "content"
-BASE = "https://tablejourney.com"
+BASE = "https://corkandcurve.com"
 
 MIN_ENTITIES = 3
 TOP_N = 50  # global pages get a longer top-list since the catchment is huge
@@ -184,7 +184,7 @@ def _render(renderer: TemplateRenderer, *, spec: dict, entries: list[tuple[dict,
     blurb = spec["blurb"]
     n = len(entries)
     canonical = f"{BASE}/{url_slug}/"
-    title = f"{display} Worldwide: {n} editor picks | TableJourney"
+    title = f"{display} Worldwide: {n} editor picks | Cork & Curve"
     description = f"The best {n} {display.lower()} across every city we cover. {blurb}"
     if len(description) > 165:
         description = description[:162].rsplit(" ", 1)[0] + "..."
@@ -200,7 +200,7 @@ def _render(renderer: TemplateRenderer, *, spec: dict, entries: list[tuple[dict,
         "itemListOrder": "https://schema.org/ItemListOrderDescending",
         "itemListElement": [
             {"@type": "ListItem", "position": i,
-             "url": f"https://tablejourney.com/{cs}/{cy}/{topic_path}/{e.get('slug','')}/",
+             "url": f"https://corkandcurve.com/{cs}/{cy}/{topic_path}/{e.get('slug','')}/",
              "name": e.get("name", "")}
             for i, (e, cs, cy, _) in enumerate(entries, start=1) if e.get("slug")
         ],
@@ -224,7 +224,7 @@ def _render(renderer: TemplateRenderer, *, spec: dict, entries: list[tuple[dict,
 
     body_html = (
         f'<p class="tj-topic-headline">'
-        f'<strong>{n}</strong> {display.lower()} worth the trip across every TableJourney city. '
+        f'<strong>{n}</strong> {display.lower()} worth the trip across every Cork & Curve region. '
         f'Editor-ranked. {blurb}'
         f'</p>'
         + filter_search_widget(target_id="tj-entity-list", item_selector=".tj-entity-card",
@@ -241,7 +241,7 @@ def _render(renderer: TemplateRenderer, *, spec: dict, entries: list[tuple[dict,
     page_ctx = {
         "title": title, "meta_description": description,
         "h1": f"{display} Worldwide",
-        "subtitle": f"{n} editor-picked rooms across every TableJourney city.",
+        "subtitle": f"{n} editor-picked rooms across every Cork & Curve region.",
         "canonical_url": canonical, "body_html": body_html,
         "breadcrumb_items": breadcrumb, "page_type": "collection",
         "updated": "May 2026", "modified": "2026-05-20",
@@ -250,8 +250,8 @@ def _render(renderer: TemplateRenderer, *, spec: dict, entries: list[tuple[dict,
         "meta": {"title": title, "description": description, "canonical_url": canonical,
                  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"},
         "open_graph": {"og_title": title, "og_description": description, "og_url": canonical,
-                       "og_type": "website", "og_image": "https://tablejourney.com/og/default.jpg",
-                       "og_image_alt": "TableJourney food guide", "og_locale": "en_US"},
+                       "og_type": "website", "og_image": "https://corkandcurve.com/og/default.jpg",
+                       "og_image_alt": "Cork & Curve wine guide", "og_locale": "en_US"},
         "twitter": {"twitter_title": title, "twitter_description": description},
         "structured_data": {"breadcrumb_items": breadcrumb}, "alternates": [],
     }

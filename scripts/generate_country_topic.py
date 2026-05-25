@@ -44,7 +44,7 @@ from utils.filter_search import filter_search_widget  # noqa: E402
 REPO_ROOT = Path(__file__).resolve().parent.parent
 SITE_DATA = REPO_ROOT / "site-data"
 CONTENT = REPO_ROOT / "content"
-BASE = "https://tablejourney.com"
+BASE = "https://corkandcurve.com"
 
 # Minimum entities to ship the page. Three is the bar to avoid one-city
 # pages masquerading as country rollups.
@@ -117,7 +117,7 @@ def _entity_card(e: dict, country_slug: str, city_slug: str, topic_slug: str, ci
     if isinstance(score, (int, float)) and 1.0 <= score <= 5.0:
         score_html = (
             f' <span class="tj-entity-score" '
-            f'aria-label="TableJourney editorial score {score:.1f} out of 5">'
+            f'aria-label="Cork & Curve editorial score {score:.1f} out of 5">'
             f'★ {score:.1f}</span>'
         )
     slug = e.get("slug") or ""
@@ -174,11 +174,11 @@ def _render_page(renderer: TemplateRenderer, *, country_slug: str, country_name:
     n = len(entities)
 
     canonical = f"{BASE}/{country_slug}/{topic_slug}/"
-    title = f"Top {topic_display} in {country_name}: {n} editor-picked rooms | TableJourney"
+    title = f"Top {topic_display} in {country_name}: {n} editor-picked rooms | Cork & Curve"
     description = (
         f"The best {n} {topic_display.lower()} across {country_name}, "
         f"editor-ranked with what to order, where and why. "
-        f"{topic_meta['blurb'].capitalize()}, by TableJourney."
+        f"{topic_meta['blurb'].capitalize()}, by Cork & Curve."
     )
     if len(description) > 165:
         description = description[:162].rsplit(" ", 1)[0] + "..."
@@ -198,7 +198,7 @@ def _render_page(renderer: TemplateRenderer, *, country_slug: str, country_name:
             {
                 "@type": "ListItem",
                 "position": i,
-                "url": f"https://tablejourney.com/{country_slug}/{city_slug}/{topic_slug}/{e.get('slug', '')}/",
+                "url": f"https://corkandcurve.com/{country_slug}/{city_slug}/{topic_slug}/{e.get('slug', '')}/",
                 "name": e.get("name", ""),
             }
             for i, (e, city_slug, _) in enumerate(entities, start=1)
@@ -230,7 +230,7 @@ def _render_page(renderer: TemplateRenderer, *, country_slug: str, country_name:
     body_html = (
         f'<p class="tj-topic-headline">'
         f'<strong>{n}</strong> {topic_display.lower()} worth the trip across {country_name}, '
-        f'editor-ranked by TableJourney. '
+        f'editor-ranked by Cork & Curve. '
         f'<a href="/{country_slug}/">All {country_name} guides</a>.'
         f'</p>'
         + filter_search_widget(target_id="tj-entity-list", item_selector=".tj-entity-card", placeholder="Filter by name, neighborhood…", aria_label="Filter list") + f'<div id="tj-entity-list" class="tj-entity-grid">{cards_html}</div>'
@@ -268,8 +268,8 @@ def _render_page(renderer: TemplateRenderer, *, country_slug: str, country_name:
             "og_description": description,
             "og_url": canonical,
             "og_type": "website",
-            "og_image": "https://tablejourney.com/og/default.jpg",
-            "og_image_alt": "TableJourney food guide",
+            "og_image": "https://corkandcurve.com/og/default.jpg",
+            "og_image_alt": "Cork & Curve wine guide",
             "og_locale": "en_US",
         },
         "twitter": {"twitter_title": title, "twitter_description": description},
@@ -382,6 +382,12 @@ def main() -> int:
     known_slugs = {m["slug"] for m in TOPIC_META}
     for country_dir in CONTENT.iterdir():
         if not country_dir.is_dir():
+            continue
+        # Only prune inside REAL country dirs. Without this guard the loop
+        # also walks chrome/cross-cut dirs (/topics/, /grape/, /tag/, ...)
+        # and deletes e.g. /topics/wine-bars/ (owned by generate_chrome_pages)
+        # because its name matches a topic slug. (Bug found 2026-05-25.)
+        if not (SITE_DATA / country_dir.name / "data" / "region.json").exists():
             continue
         for child in country_dir.iterdir():
             if not child.is_dir() or child.name not in known_slugs:

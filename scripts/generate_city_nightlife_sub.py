@@ -40,7 +40,7 @@ from utils.filter_search import filter_search_widget  # noqa: E402
 REPO_ROOT = Path(__file__).resolve().parent.parent
 SITE_DATA = REPO_ROOT / "site-data"
 CONTENT = REPO_ROOT / "content"
-BASE = "https://tablejourney.com"
+BASE = "https://corkandcurve.com"
 
 MIN_ENTITIES = 1
 
@@ -129,7 +129,7 @@ def _entity_card(e: dict, country_slug: str, city_slug: str) -> str:
     if isinstance(score, (int, float)) and 1.0 <= score <= 5.0:
         score_html = (
             f' <span class="tj-entity-score" '
-            f'aria-label="TableJourney editorial score {score:.1f} out of 5">'
+            f'aria-label="Cork & Curve editorial score {score:.1f} out of 5">'
             f'★ {score:.1f}</span>'
         )
     slug = e.get("slug") or ""
@@ -200,11 +200,11 @@ def _render_page(renderer: TemplateRenderer, *, country_slug: str, country_name:
     n = len(entities)
 
     canonical = f"{BASE}/{country_slug}/{city_slug}/nightlife/{subcat_slug}/"
-    title = f"{subcat_display} in {city_name}: {n} rooms worth the night | TableJourney"
+    title = f"{subcat_display} in {city_name}: {n} rooms worth the night | Cork & Curve"
     description = (
         f"{n} {subcat_display.lower()} in {city_name}, editor-picked rooms with "
         f"door policy, hours and what to order. "
-        f"{meta['blurb'].capitalize()}, by TableJourney editors."
+        f"{meta['blurb'].capitalize()}, by Cork & Curve editors."
     )
     if len(description) > 165:
         description = description[:162].rsplit(" ", 1)[0] + "..."
@@ -221,7 +221,7 @@ def _render_page(renderer: TemplateRenderer, *, country_slug: str, country_name:
             {
                 "@type": "ListItem",
                 "position": i,
-                "url": f"https://tablejourney.com/{country_slug}/{city_slug}/nightlife/{e.get('slug', '')}/",
+                "url": f"https://corkandcurve.com/{country_slug}/{city_slug}/nightlife/{e.get('slug', '')}/",
                 "name": e.get("name", ""),
             }
             for i, e in enumerate(entities, start=1)
@@ -264,7 +264,7 @@ def _render_page(renderer: TemplateRenderer, *, country_slug: str, country_name:
     body_html = (
         f'<p class="tj-topic-headline">'
         f'<strong>{n}</strong> {subcat_display.lower()} in {city_name}, '
-        f'editor-picked by TableJourney. '
+        f'editor-picked by Cork & Curve. '
         f'<a href="/{country_slug}/{city_slug}/nightlife/">All {city_name} nightlife</a>.'
         f'</p>'
         + map_section
@@ -305,8 +305,8 @@ def _render_page(renderer: TemplateRenderer, *, country_slug: str, country_name:
             "og_description": description,
             "og_url": canonical,
             "og_type": "website",
-            "og_image": "https://tablejourney.com/og/default.jpg",
-            "og_image_alt": "TableJourney food guide",
+            "og_image": "https://corkandcurve.com/og/default.jpg",
+            "og_image_alt": "Cork & Curve wine guide",
             "og_locale": "en_US",
         },
         "twitter": {"twitter_title": title, "twitter_description": description},
