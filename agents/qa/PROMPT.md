@@ -145,6 +145,16 @@ Wine-Searcher OR Vinous OR a regional consortium roster — confirm
 venue exists at the claimed address. If sample hits >2 fabrications,
 broaden to 30 — structural regression signal.
 
+Also flag **vague `address_quoted`** (a recurring class found 2026-05-25
+across Bordeaux/Burgundy/Tuscany): `address_quoted` must be a
+street-level address that fuzzy-matches `entity.address`. A bare town,
+appellation, or region name ("Cote de Beaune", "Florence, Tuscany",
+"Val d'Orcia", "Vougeot", "Multiple estates, 33330 Saint-Emilion") is a
+hard defect (verify_entities `addr_mismatch`). Fix the quote to the real
+verbatim street address, or drop the entity if no street address is
+verifiable. Also confirm `open_status` is exactly one of
+{open, seasonal, unknown, permanently_closed}.
+
 ### G. Cross-link sanity (food-pairing topic + wines.pairings)
 
 Every `food_pairing[*].tablejourney_url` must HEAD-resolve AND the
@@ -173,7 +183,15 @@ opens with the same 1-2 descriptors ("dark cherry, leather" repeated
 catalog is a signal. Sample 10 cuvées with `editorial_score >= 4.5`
 and confirm:
 - `verified.cuisine_evidence_url` is a producer tech sheet OR critic
-  page that actually contains the descriptors used.
+  page that actually contains the descriptors used. It must be the
+  SPECIFIC per-cuvée page — a producer HOMEPAGE or a consortium/
+  appellation DIRECTORY/listing page does NOT substantiate the
+  descriptors and is a defect (Rioja 2026-05-25: 116/120 cuvées cited
+  homepages/directories; QA2 had "repaired" them to producer homepages
+  which still carried no per-wine notes — Opus caught it). When you find
+  this, the fix is to locate the real per-wine page; only if none exists
+  do you remove the taste block. Verify by actually opening 2-3 of the
+  cited URLs and confirming the descriptor text is on the page.
 - The descriptors aren't all generic mass-market vocabulary ("notes
   of red fruit" with no specificity).
 

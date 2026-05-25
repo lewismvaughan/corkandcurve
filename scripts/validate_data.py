@@ -303,6 +303,16 @@ def _check_verified_block(fname: str, entry: dict, label: str, issues: list) -> 
     checked = v.get("checked_on")
     if checked and not _ISO_DATE_RE.match(str(checked)):
         issues.append(("ERR", f"{fname} entry '{label}' verified.checked_on={checked!r} must be YYYY-MM-DD"))
+    # Cuvée taste-evidence must point at a SPECIFIC per-wine page, not a
+    # producer homepage / appellation directory landing (Rioja 2026-05-25:
+    # 116/120 cuvées cited homepages that substantiate no tasting note).
+    # WARN, not ERR, so already-shipped regions aren't retro-broken; the
+    # research PROMPT now bans it and QA Section I catches it.
+    if fname == "wines.json":
+        cev = str(v.get("cuisine_evidence_url") or "")
+        path = re.sub(r"^https?://[^/]+", "", cev)
+        if cev and path.strip("/") == "":
+            issues.append(("WARN", f"{fname} entry '{label}' verified.cuisine_evidence_url={cev!r} is a bare homepage; cuvée taste evidence must be the specific per-wine page (PROMPT P0 #15)"))
 
 
 def _entry_name(entry: dict) -> str:

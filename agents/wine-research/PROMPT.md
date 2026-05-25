@@ -35,7 +35,17 @@ regions ship with 30-40% defect rates.
        consortium page that lists the venue. NOT a Wikipedia article
        (Wikipedia is often outdated for ownership/hectarage).
 4. [ ] **`address_quoted` is verbatim** from the `source_url` page.
-       Do NOT paraphrase. Diacritics literal.
+       Do NOT paraphrase. Diacritics literal. It MUST be a street-level
+       address (street name + number where the source gives one), and it
+       MUST share the same street/locality as `entity.address` so the two
+       fuzzy-match. A bare town, appellation, or region name
+       ("Cote de Beaune", "Florence, Tuscany", "Val d'Orcia", "Vougeot")
+       is NOT an acceptable `address_quoted` and is a hard QA defect
+       (verify_entities addr_mismatch). If the source only gives a
+       town/region and no street address can be verified anywhere, DROP
+       the entity rather than ship a locality-only address. Keep
+       formatting consistent between the two fields ("6/R" vs "6R" must
+       not differ).
 5. [ ] **`open_evidence_url`**: a separate URL (different domain) that
        confirms the venue is currently open / accepting visitors.
 6. [ ] **`cuisine_evidence_url`**: for wine entities this is the
@@ -174,8 +184,17 @@ can be folded into the prose of the closest sibling cuvée. Aim for
 15. [ ] **`taste` descriptors**: every aroma + palate descriptor is
         traceable to producer tech sheet OR a named critic note
         (Decanter / Wine Advocate / Vinous / James Suckling / Jancis
-        Robinson). Do NOT generate taste notes from a tasting note
-        template. If you can't source a descriptor, drop it.
+        Robinson / Tim Atkin). Do NOT generate taste notes from a tasting
+        note template. If you can't source a descriptor, drop it.
+        **`cuisine_evidence_url` MUST be the SPECIFIC per-cuvée page that
+        actually contains the tasting note** (the producer's individual
+        wine/tech-sheet page, or the critic's review URL for that wine).
+        A producer HOMEPAGE, a consortium/appellation DIRECTORY page, or
+        any landing page that does not itself contain the descriptors is
+        NOT acceptable evidence (Rioja 2026-05-25 regression: 116/120
+        cuvées cited homepages/directories that substantiate nothing).
+        If the only thing you can find is a homepage, the descriptors are
+        unsourced: find the per-wine page or drop the descriptor.
 16. [ ] **`pairings[*].tablejourney_ref`**: HEAD-verified the TJ URL
         actually exists before populating. If unsure, leave the ref
         `null`; the pairing still renders, just without the outbound

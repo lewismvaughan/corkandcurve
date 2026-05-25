@@ -9,7 +9,11 @@ SCHEMA.md pattern but adapted for wine vertical fields and credibility.
 "verified": {
   "source_url": "https://producer.com/contact",
   "address_quoted": "Verbatim address string from source_url page",
-  "open_status": "open" | "permanently_closed" | "seasonal_only",
+  "open_status": "open" | "seasonal" | "unknown" | "permanently_closed",
+  // ^ EXACTLY one of these four. verify_entities HARD-rejects any other
+  //   value (e.g. "seasonal_only", "by_appointment"). Use "seasonal" for
+  //   seasonal opening, "unknown" if you cannot confirm. Note:
+  //   "permanently_closed" excludes the entity from ship (drop it).
   "open_evidence_url": "https://different-domain.com/listing",
   "cuisine_evidence_url": "https://consortium.org/page-mentioning-varietals",
   "checked_on": "YYYY-MM-DD"

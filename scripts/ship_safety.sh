@@ -55,7 +55,15 @@ run_one_city() {
 
     echo ""
     echo "[1/7] validate_data.py — JSON shape, required fields, verified-block"
-    if ! python3 scripts/validate_data.py --country "$country" --city "$city" 2>&1 | tee /tmp/.ship_safety_out | grep -E "^\s+ERR:" >/dev/null; then
+    # NOTE: must key off validate_data's own exit code (it returns 1 on any
+    # ERR), NOT a grep of the piped output. Under `set -o pipefail` the old
+    # `if ! validate | tee | grep ERR` form was INVERTED — pipefail made the
+    # pipeline inherit validate_data's non-zero exit, which `!` flipped to the
+    # PASS branch, so layer 1 ALWAYS passed (Burgundy/Tuscany/Rioja shipped
+    # with 13-14 validate ERRs each). PIPESTATUS[0] is validate_data's real
+    # exit code.
+    python3 scripts/validate_data.py --country "$country" --city "$city" 2>&1 | tee /tmp/.ship_safety_out
+    if [ "${PIPESTATUS[0]}" -eq 0 ]; then
         echo "  PASS"
     else
         echo "  FAIL — see ERR: lines above"
