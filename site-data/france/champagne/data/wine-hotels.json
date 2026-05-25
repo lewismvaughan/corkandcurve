@@ -1,0 +1,268 @@
+{
+  "wine_hotels": [
+    {
+      "slug": "royal-champagne-hotel-spa",
+      "name": "Royal Champagne Hotel & Spa",
+      "address": "9 rue de la Republique, 51160 Champillon, France",
+      "neighborhood": "Champillon, Montagne de Reims",
+      "parent_vineyard": null,
+      "category": "5-star hotel and spa overlooking the vineyards",
+      "rooms": 49,
+      "description": "A 19th-century coaching inn reborn as a 5-star hilltop retreat above the Marne vineyards at Champillon, with an infinity pool, spa and a Michelin-starred table.",
+      "wine_program": "Champagne pairing dinners; tasting flights of Cote des Blancs and Vallee de la Marne growers; guided house visits arranged from the concierge",
+      "price_range": "EUR 450-1200 per night",
+      "booking_url": "https://royalchampagne.com/en/",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://royalchampagne.com/en/contact-and-location.html",
+        "address_quoted": "9 rue de la republique, 51160 Champillon",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Hotel_Review-g1118259-d254129-Reviews-Royal_Champagne_Hotel_Spa-Champillon_Marne_Grand_Est.html",
+        "cuisine_evidence_url": "https://www.lhw.com/hotel/Royal-Champagne-Champillon-France",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "domaine-les-crayeres",
+      "name": "Domaine Les Crayeres",
+      "address": "64 boulevard Henry Vasnier, 51100 Reims, France",
+      "neighborhood": "Parc de Champagne, Reims",
+      "parent_vineyard": null,
+      "category": "5-star Relais and Chateaux chateau hotel",
+      "rooms": 20,
+      "description": "A Pommery-built chateau set in a 7-hectare park in Reims, run as a 5-star Relais and Chateaux property. Home to the two-Michelin-star Le Parc, brasserie Le Jardin.",
+      "wine_program": "Champagne-pairing tasting menus at Le Parc; an extensive grower and grande marque list; bar flights of vintage cuvees",
+      "price_range": "EUR 400-1500 per night",
+      "booking_url": "https://lescrayeres.com/en/",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://lescrayeres.com/en/contact.html",
+        "address_quoted": "64 boulevard Henry Vasnier, Reims",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Hotel_Review-g187137-d198187-Reviews-Domaine_Les_Crayeres-Reims_Marne_Grand_Est.html",
+        "cuisine_evidence_url": "https://lescrayeres.com/en/restaurant-le-parc.html",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "la-briqueterie-vinay",
+      "name": "Hostellerie La Briqueterie & Spa",
+      "address": "4 route de Sezanne, 51530 Vinay, France",
+      "neighborhood": "Vinay, near Epernay",
+      "parent_vineyard": null,
+      "category": "5-star Relais and Chateaux hotel and spa",
+      "rooms": 40,
+      "description": "A Relais and Chateaux hotel ringed by vineyards and gardens at Vinay, ten minutes from Epernay. Heated indoor pool and spa alongside the Michelin-starred Alcove.",
+      "wine_program": "Champagne pairing menus at Alcove; cellar list strong on Cote des Blancs; tastings and house visits arranged for guests",
+      "price_range": "EUR 320-900 per night",
+      "booking_url": "https://www.beauvallon.com/en/briqueterie",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.relaischateaux.com/us/hotel/hostellerie-la-briqueterie/",
+        "address_quoted": "4, route de Sezanne, 51 530 Vinay",
+        "open_status": "open",
+        "open_evidence_url": "https://www.expedia.com/Vinay-Hotels-Relais-Chateaux-Hostellerie-La-Briqueterie.h1320776.Hotel-Information",
+        "cuisine_evidence_url": "https://guide.michelin.com/us/en/grand-est/vinay/restaurant/hostellerie-la-briqueterie",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "les-avises-avize",
+      "name": "Hotel Restaurant Les Avises",
+      "address": "59 rue de Cramant, 51190 Avize, France",
+      "neighborhood": "Avize, Cote des Blancs",
+      "parent_vineyard": "jacques-selosse",
+      "category": "Vigneron hotel and restaurant",
+      "rooms": 10,
+      "description": "Opened in 2011 by Corinne and Anselme Selosse of Domaine Jacques Selosse, this 10-room hotel sits among the grand cru Chardonnay of Avize. A single tasting menu.",
+      "wine_program": "Jacques Selosse grower-champagne flights; single set menu built for Cote des Blancs Chardonnay; estate visits for resident guests",
+      "price_range": "EUR 220-450 per night",
+      "booking_url": "https://www.selosse-lesavises.com/en/",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.selosse-lesavises.com/en/contact-acces/",
+        "address_quoted": "59, rue de Cramant, 51190 Avize",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Hotel_Review-g1572192-d2202458-Reviews-Hotel_Restaurant_les_Avises-Avize_Marne_Grand_Est.html",
+        "cuisine_evidence_url": "https://guide.michelin.com/us/en/grand-est/avize/restaurant/les-avises",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "hotel-jean-moet-epernay",
+      "name": "Hotel Jean Moet",
+      "address": "7 rue Jean Moet, 51200 Epernay, France",
+      "neighborhood": "Epernay centre",
+      "parent_vineyard": null,
+      "category": "4-star town-centre hotel",
+      "rooms": 12,
+      "description": "A 4-star hotel in a restored Epernay townhouse steps from the Avenue de Champagne. Wine bar and bistro on site, with the train station and the major house cellars.",
+      "wine_program": "Champagne bar pouring grower and house cuvees by the glass; cellar-visit bookings arranged at reception",
+      "price_range": "EUR 130-280 per night",
+      "booking_url": "https://www.hoteljeanmoet.com/en",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.hoteljeanmoet.com/en",
+        "address_quoted": "7 Rue Jean Moet, Epernay, France, 51200",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Hotel_Review-g187136-d1777211-Reviews-Hotel_Jean_Moet-Epernay_Marne_Grand_Est.html",
+        "cuisine_evidence_url": "https://www.booking.com/hotel/fr/jean-moet.html",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "la-villa-eugene-epernay",
+      "name": "La Villa Eugene",
+      "address": "84 avenue de Champagne, 51200 Epernay, France",
+      "neighborhood": "Avenue de Champagne, Epernay",
+      "parent_vineyard": null,
+      "category": "5-star hotel on the Avenue de Champagne",
+      "rooms": 15,
+      "description": "The only 5-star hotel on the Avenue de Champagne, in a 19th-century mansion once owned by the Mercier family. Fifteen rooms look over the avenue or the landscaped.",
+      "wine_program": "Champagne aperitifs in the salon and garden; concierge-arranged tastings and cellar visits along the avenue",
+      "price_range": "EUR 200-500 per night",
+      "booking_url": "https://villa-eugene.com/en/home/",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://villa-eugene.com/en/home/",
+        "address_quoted": "84 avenue de Champagne 51200 Epernay",
+        "open_status": "open",
+        "open_evidence_url": "https://www.epernay-tourisme.com/en/hebergement/hotel-la-villa-eugene/",
+        "cuisine_evidence_url": "https://villa-eugene.com/en/luxury-hotel-epernay/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "la-caserne-chanzy-reims",
+      "name": "La Caserne Chanzy Hotel & Spa",
+      "address": "18 rue Tronsson Ducoudray, 51100 Reims, France",
+      "neighborhood": "Cathedral quarter, Reims",
+      "parent_vineyard": null,
+      "category": "5-star Autograph Collection hotel and spa",
+      "rooms": 89,
+      "description": "A 5-star Autograph Collection hotel beside Reims Cathedral, opened 2019 in a converted Art Deco building. Spa, restaurant and a champagne-focused bar a short walk.",
+      "wine_program": "Champagne bar list spanning grandes marques and growers; tasting events; cellar-visit concierge service",
+      "price_range": "EUR 200-450 per night",
+      "booking_url": "https://www.lacasernechanzy.com/en/",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.lacasernechanzy.com/en/",
+        "address_quoted": "18 Rue Tronsson Ducoudray, Reims",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Hotel_Review-g187137-d17813411-Reviews-La_Caserne_Chanzy_Hotel_Spa_Autograph_Collection-Reims_Marne_Grand_Est.html",
+        "cuisine_evidence_url": "https://guide.michelin.com/us/en/hotels-stays/reims/la-caserne-chanzy-hotel-spa-9415",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "le-clos-corbier-mareuil",
+      "name": "Le Clos Corbier",
+      "address": "5 boulevard Nicolas Francois Billecart, 51160 Mareuil-sur-Ay, France",
+      "neighborhood": "Mareuil-sur-Ay, Vallee de la Marne",
+      "parent_vineyard": null,
+      "category": "Vigneron guest house",
+      "rooms": 5,
+      "description": "An 1850s Champagne family house turned guest house at Mareuil-sur-Ay, ringed by UNESCO-listed vineyards. The owners run cellar visits, tastings and a small table.",
+      "wine_program": "Cellar visits and tastings of the two family champagne brands; sabering and blind-tasting workshops led by in-house guides",
+      "price_range": "EUR 130-260 per night",
+      "booking_url": "https://www.lecloscorbier.fr/en",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.lecloscorbier.fr/en",
+        "address_quoted": "5 Boulevard Nicolas Francois Billecart 51160 Mareuil-sur-Ay",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tourisme-en-champagne.com/chambres-dhotes/HLOCHA051FS000E2/detail/mareuil-sur-ay/chambre-d-hotes-le-clos-corbier",
+        "cuisine_evidence_url": "https://www.lecloscorbier.fr/en",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "parva-domus-epernay",
+      "name": "Parva Domus",
+      "address": "27 avenue de Champagne, 51200 Epernay, France",
+      "neighborhood": "Avenue de Champagne, Epernay",
+      "parent_vineyard": null,
+      "category": "Bed and breakfast on the Avenue de Champagne",
+      "rooms": 5,
+      "description": "A five-room bed and breakfast run by the Rimaire family on the Avenue de Champagne in Epernay, within walking distance of Moet & Chandon and Mercier.",
+      "wine_program": "Host-led champagne introductions; recommendations and bookings for the avenue house cellars",
+      "price_range": "EUR 110-200 per night",
+      "booking_url": "https://www.parvadomusrimaire.com/",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.parvadomusrimaire.com/",
+        "address_quoted": "27 avenue de Champagne",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Hotel_Review-g187136-d573191-Reviews-Parva_Domus_Famille_Rimaire-Epernay_Marne_Grand_Est.html",
+        "cuisine_evidence_url": "https://bnbepernay.com/en/champagne-vineyard-accommodation/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "grand-hotel-des-templiers-reims",
+      "name": "Grand Hotel des Templiers",
+      "address": "22 rue des Templiers, 51100 Reims, France",
+      "neighborhood": "Reims centre",
+      "parent_vineyard": null,
+      "category": "4-star town-house hotel",
+      "rooms": 18,
+      "description": "A 4-star town-house hotel in central Reims, ten minutes on foot from the cathedral, with an indoor heated pool and sauna. A quiet base for visiting the city house.",
+      "wine_program": "Champagne service in the lounge; staff bookings for the nearby Saint-Nicaise house cellars",
+      "price_range": "EUR 160-320 per night",
+      "booking_url": "https://www.hotel-templiers-reims.com/en/",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.hotel-templiers-reims.com/en/contact/",
+        "address_quoted": "22 Rue des Templiers, 51100 Reims",
+        "open_status": "open",
+        "open_evidence_url": "https://www.booking.com/hotel/fr/grandhoteldestempliers.html",
+        "cuisine_evidence_url": "https://www.hotel-templiers-reims.com/en/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "hotel-de-la-cloche-epernay",
+      "name": "Hotel de la Cloche",
+      "address": "3-5 Place Mendes France, 51200 Epernay, France",
+      "neighborhood": "Epernay centre",
+      "parent_vineyard": null,
+      "category": "Town-centre hotel and restaurant",
+      "rooms": 19,
+      "description": "A central Epernay hotel five minutes from the train station and the Moet & Chandon cellars. On-site restaurant serving French regional cooking, with the Avenue de.",
+      "wine_program": "Champagne by the glass at the bar; restaurant list of local houses and growers; cellar-visit suggestions at reception",
+      "price_range": "EUR 80-160 per night",
+      "booking_url": "https://www.hoteldechampagne.fr/en/",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/Hotel_Review-g187136-d1024947-Reviews-Hotel_de_La_Cloche-Epernay_Marne_Grand_Est.html",
+        "address_quoted": "3,5 Place Mendes France, 51200, Epernay",
+        "open_status": "open",
+        "open_evidence_url": "https://www.kayak.com/Epernay-Hotels-Hotel-de-la-Cloche.341410.ksp",
+        "cuisine_evidence_url": "https://hoteldelaclocheepernay.hotelmix.fr/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "la-villa-saint-pierre-epernay",
+      "name": "La Villa Saint Pierre",
+      "address": "1 rue Jeanne d'Arc, 51200 Epernay, France",
+      "neighborhood": "Epernay centre",
+      "parent_vineyard": null,
+      "category": "Budget town-centre hotel",
+      "rooms": 14,
+      "description": "A simple 14-room hotel in central Epernay, within walking distance of the Avenue de Champagne and the Moet & Chandon cellars. A value base for travellers touring.",
+      "wine_program": "Concierge bookings for Avenue de Champagne cellar visits; champagne recommendations from the hosts",
+      "price_range": "EUR 60-120 per night",
+      "booking_url": "https://la-villa-saint-pierre.champagne-hotels.com/en/",
+      "editorial_score": 4.1,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/Hotel_Review-g187136-d1444468-Reviews-La_Villa_Saint_Pierre-Epernay_Marne_Grand_Est.html",
+        "address_quoted": "1 rue Jeanne d'Arc, Epernay",
+        "open_status": "open",
+        "open_evidence_url": "https://www.expedia.com/Epernay-Hotels-La-Villa-Saint-Pierre.h22317022.Hotel-Information",
+        "cuisine_evidence_url": "https://www.hotels.com/ho715144704/la-villa-saint-pierre-epernay-france//",
+        "checked_on": "2026-05-25"
+      }
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "wine_schools": [
+    {
+      "slug": "comite-champagne-education",
+      "name": "Comite Champagne School (Champagne Education)",
+      "address": "5 rue Henri Martin, 51200 Epernay, France",
+      "neighborhood": "Epernay",
+      "description": "The official champagne training programme of the Comite Champagne, based at its Epernay headquarters, with online and in-person courses on terroir and styles.",
+      "courses_offered": [
+        "Champagne Level 1 eLearning",
+        "Champagne Level 2 eLearning",
+        "In-person champagne masterclasses"
+      ],
+      "languages": [
+        "English",
+        "French"
+      ],
+      "price_range": "Online modules from free to around EUR 100; in-person sessions higher",
+      "certifications": [
+        "Comite Champagne certificate Level 1",
+        "Comite Champagne certificate Level 2"
+      ],
+      "booking_url": "https://www.champagne.education/en",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.champagne.education/en",
+        "address_quoted": "5 Rue Henri Martin , 51200 Epernay",
+        "open_status": "open",
+        "open_evidence_url": "https://fr.kompass.com/c/civc/fr1953385/",
+        "cuisine_evidence_url": "https://www.champagne.education/en",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "wine-scholar-guild-champagne-masters-reims",
+      "name": "Wine Scholar Guild Champagne Masters",
+      "address": "9 rue Buirette, 51100 Reims, France",
+      "neighborhood": "Reims centre",
+      "description": "The in-person Champagne Master certification of the Wine Scholar Guild, run from a central Reims hotel, combining lectures, tastings and grower visits.",
+      "courses_offered": [
+        "Champagne Master Level immersion",
+        "Champagne Master online study programme"
+      ],
+      "languages": [
+        "English"
+      ],
+      "price_range": "Immersion programme from around EUR 1200 including tastings and visits",
+      "certifications": [
+        "Wine Scholar Guild Champagne Master"
+      ],
+      "booking_url": "https://www.winescholarguild.com/tours/immersion/champagne-masters-in-reims",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.winescholarguild.com/tours/immersion/champagne-masters-in-reims",
+        "address_quoted": "9 rue Buirette, Reims",
+        "open_status": "open",
+        "open_evidence_url": "https://www.winescholarguild.com/certifications/masters-programs/champagne-masters",
+        "cuisine_evidence_url": "https://www.winescholarguild.com/tours/immersion/champagne-masters-in-reims",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "le-clos-corbier-tasting-class",
+      "name": "Le Clos Corbier Champagne Tasting Class",
+      "address": "5 boulevard Nicolas Francois Billecart, 51160 Mareuil-sur-Ay, France",
+      "neighborhood": "Mareuil-sur-Ay, Vallee de la Marne",
+      "description": "A grower-led tasting class at the Le Clos Corbier family house in Mareuil-sur-Ay, with a guided champagne tasting, an aroma workshop, sabering and a cellar visit.",
+      "courses_offered": [
+        "Champagne tasting workshop",
+        "Olfactory aroma workshop",
+        "Sabering class"
+      ],
+      "languages": [
+        "English",
+        "French"
+      ],
+      "price_range": "Tasting workshops from around EUR 35 per person",
+      "certifications": [],
+      "booking_url": "https://www.lecloscorbier.fr/en",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.lecloscorbier.fr/en",
+        "address_quoted": "5 Boulevard Nicolas Francois Billecart 51160 Mareuil-sur-Ay",
+        "open_status": "open",
+        "open_evidence_url": "https://en.reims-tourisme.com/atelier-de-degustation-et-dejeuner-champenois-pres-d-epernay-ay-champagne/ay-champagne",
+        "cuisine_evidence_url": "https://www.lecloscorbier.fr/en",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "pommery-champagne-masterclass",
+      "name": "Domaine Pommery Champagne Masterclass",
+      "address": "5 Place du General Gouraud, 51100 Reims, France",
+      "neighborhood": "Saint-Nicaise, Reims",
+      "description": "Guided champagne masterclasses at the Pommery domaine in Reims, tasting house cuvees from Apanage Brut to Cuvee Louise, with sabering sessions on offer.",
+      "courses_offered": [
+        "Pommery cuvees masterclass",
+        "Sabering class"
+      ],
+      "languages": [
+        "English",
+        "French"
+      ],
+      "price_range": "Masterclasses from around EUR 45 per person",
+      "certifications": [],
+      "booking_url": "https://www.maisonpommery.com/visites/",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.maisonpommery.com/visites/",
+        "address_quoted": "5 Place du General Gouraud, 51100 Reims",
+        "open_status": "open",
+        "open_evidence_url": "https://www.reims-tourisme.com/en/activite/maison-de-champagne-vranken-pommery/",
+        "cuisine_evidence_url": "https://www.maisonpommery.com/visites/en/preparez-votre-visite",
+        "checked_on": "2026-05-25"
+      }
+    }
+  ]
+}

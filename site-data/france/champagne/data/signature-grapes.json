@@ -1,0 +1,171 @@
+{
+  "signature_grapes": [
+    {
+      "slug": "chardonnay",
+      "name": "Chardonnay",
+      "style_focus": "sparkling",
+      "regions_grown": [
+        "cote-des-blancs",
+        "cote-de-sezanne",
+        "montagne-de-reims",
+        "cramant",
+        "avize",
+        "le-mesnil-sur-oger"
+      ],
+      "description": "The white grape behind Blanc de Blancs and the source of finesse, freshness and ageing potential in Champagne. On the pure chalk of the Cote des Blancs it gives taut, mineral, citrus-and-brioche wines that reach their peak in the Grand Crus of Cramant, Avize and Le Mesnil-sur-Oger. It accounts for around 30 percent of the region's plantings.",
+      "key_producers": [
+        "champagne-salon",
+        "champagne-pierre-peters",
+        "champagne-agrapart",
+        "jacques-selosse",
+        "champagne-larmandier-bernier",
+        "champagne-diebolt-vallois"
+      ],
+      "verified": {
+        "source_url": "https://www.champagne.fr/en/about-champagne/a-great-blended-wine/champagne-and-its-grape-varieties",
+        "address_quoted": "Cote des Blancs",
+        "open_status": "open",
+        "open_evidence_url": "https://maisons-champagne.com/en/appellation/geographical-area/cote-des-blancs/",
+        "cuisine_evidence_url": "https://www.champagne.fr/en/about-champagne/a-great-blended-wine/champagne-and-its-grape-varieties",
+        "checked_on": "2026-05-25"
+      },
+      "editorial_score": 4.9
+    },
+    {
+      "slug": "pinot-noir",
+      "name": "Pinot Noir",
+      "style_focus": "sparkling",
+      "regions_grown": [
+        "montagne-de-reims",
+        "cote-des-bar",
+        "vallee-de-la-marne",
+        "ay",
+        "bouzy"
+      ],
+      "description": "The leading black grape of Champagne and its source of body, structure and red-fruit depth, vinified white for sparkling wine. It dominates the Grand Cru villages of the Montagne de Reims, such as Ay, Bouzy, Verzenay and Ambonnay, and the Kimmeridgian Cote des Bar. The most-planted variety, at roughly 38 percent of the vineyard.",
+      "key_producers": [
+        "champagne-krug",
+        "champagne-bollinger",
+        "egly-ouriet",
+        "champagne-paul-bara",
+        "champagne-drappier",
+        "roses-de-jeanne"
+      ],
+      "verified": {
+        "source_url": "https://www.champagne.fr/en/about-champagne/a-great-blended-wine/champagne-and-its-grape-varieties",
+        "address_quoted": "Montagne de Reims",
+        "open_status": "open",
+        "open_evidence_url": "https://maisons-champagne.com/en/appellation/geographical-area/the-montagne-de-reims/",
+        "cuisine_evidence_url": "https://www.champagne.fr/en/about-champagne/a-great-blended-wine/champagne-and-its-grape-varieties",
+        "checked_on": "2026-05-25"
+      },
+      "editorial_score": 4.9
+    },
+    {
+      "slug": "pinot-meunier",
+      "name": "Pinot Meunier",
+      "style_focus": "sparkling",
+      "regions_grown": [
+        "vallee-de-la-marne",
+        "montagne-de-reims"
+      ],
+      "description": "The third pillar of Champagne, prized for fruit, roundness and early approachability. Hardier and later-budding than Pinot Noir, it thrives on the cooler, frost-prone clay of the Vallee de la Marne, where it ripens reliably. Long treated as a blending workhorse, it now headlines single-varietal cuvees from growers such as Jerome Prevost. About 32 percent of plantings.",
+      "key_producers": [
+        "la-closerie-jerome-prevost",
+        "champagne-bollinger",
+        "champagne-gaston-chiquet"
+      ],
+      "verified": {
+        "source_url": "https://www.champagne.fr/en/about-champagne/a-great-blended-wine/champagne-and-its-grape-varieties",
+        "address_quoted": "Marne Valley",
+        "open_status": "open",
+        "open_evidence_url": "https://maisons-champagne.com/en/appellation/geographical-area/the-marne-valley/",
+        "cuisine_evidence_url": "https://www.champagne.fr/en/about-champagne/a-great-blended-wine/champagne-and-its-grape-varieties",
+        "checked_on": "2026-05-25"
+      },
+      "editorial_score": 4.6
+    },
+    {
+      "slug": "arbane",
+      "name": "Arbane",
+      "style_focus": "sparkling",
+      "regions_grown": [
+        "cote-des-bar"
+      ],
+      "description": "One of Champagne's four rare permitted grapes, nearly extinct and grown on a handful of hectares, mostly in the Aube. Late-ripening and low-yielding, it gives floral, highly aromatic, racy wines. Drappier keeps it alive in its four-grape Quattuor cuvee, blending it with Petit Meslier, Blanc Vrai and Chardonnay.",
+      "key_producers": [
+        "champagne-drappier"
+      ],
+      "verified": {
+        "source_url": "https://en.wikipedia.org/wiki/Arbane",
+        "address_quoted": "Cote des Bar",
+        "open_status": "open",
+        "open_evidence_url": "https://www.champagne.fr/en/about-champagne/a-great-blended-wine/champagne-and-its-grape-varieties",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Arbane",
+        "checked_on": "2026-05-25"
+      },
+      "editorial_score": 4.0
+    },
+    {
+      "slug": "petit-meslier",
+      "name": "Petit Meslier",
+      "style_focus": "sparkling",
+      "regions_grown": [
+        "cote-des-bar"
+      ],
+      "description": "A rare, ancient Champagne variety, a natural crossing of Gouais Blanc and Savagnin, that survives on a tiny acreage in the Aube. It brings sharp acidity, green-apple and herbal notes and is valued as a counterweight to riper grapes in a warming climate. Used by Drappier in its Quattuor blend.",
+      "key_producers": [
+        "champagne-drappier"
+      ],
+      "verified": {
+        "source_url": "https://en.wikipedia.org/wiki/Petit_Meslier",
+        "address_quoted": "Cote des Bar",
+        "open_status": "open",
+        "open_evidence_url": "https://www.champagne.fr/en/about-champagne/a-great-blended-wine/champagne-and-its-grape-varieties",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Petit_Meslier",
+        "checked_on": "2026-05-25"
+      },
+      "editorial_score": 4.0
+    },
+    {
+      "slug": "pinot-blanc",
+      "name": "Pinot Blanc (Blanc Vrai)",
+      "style_focus": "sparkling",
+      "regions_grown": [
+        "cote-des-bar"
+      ],
+      "description": "Known in Champagne as Blanc Vrai, this rare permitted white grape is a colour mutation of Pinot, grown mainly in the Aube. It gives soft, broad, gently aromatic wines with apple and white-flower character, and forms one quarter of Drappier's four-grape Quattuor.",
+      "key_producers": [
+        "champagne-drappier"
+      ],
+      "verified": {
+        "source_url": "https://en.wikipedia.org/wiki/Pinot_blanc",
+        "address_quoted": "Cote des Bar",
+        "open_status": "open",
+        "open_evidence_url": "https://www.champagne.fr/en/about-champagne/a-great-blended-wine/champagne-and-its-grape-varieties",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Pinot_blanc",
+        "checked_on": "2026-05-25"
+      },
+      "editorial_score": 3.9
+    },
+    {
+      "slug": "pinot-gris",
+      "name": "Pinot Gris (Fromenteau)",
+      "style_focus": "sparkling",
+      "regions_grown": [
+        "cote-des-bar"
+      ],
+      "description": "The fourth of Champagne's rare permitted grapes, historically called Fromenteau, a grey-skinned mutation of Pinot. Almost vanished from the region, it lends weight, spice and honeyed richness in the rare bottlings that still use it. Grown in tiny quantities, chiefly in the Aube.",
+      "key_producers": [],
+      "verified": {
+        "source_url": "https://en.wikipedia.org/wiki/Pinot_gris",
+        "address_quoted": "Cote des Bar",
+        "open_status": "open",
+        "open_evidence_url": "https://www.champagne.fr/en/about-champagne/a-great-blended-wine/champagne-and-its-grape-varieties",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Pinot_gris",
+        "checked_on": "2026-05-25"
+      },
+      "editorial_score": 3.8
+    }
+  ]
+}

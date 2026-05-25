@@ -177,7 +177,12 @@ def _other_diets_for_city(country_slug: str, city_slug: str, exclude_diet_key: s
             continue
         if k not in DIET_META:
             continue
-        if isinstance(entries, list) and len(entries) >= MIN_ENTITIES:
+        # Count only renderable entries (matching page generation): a sibling
+        # subcat with only unknown/permanently_closed entries gets no page, so
+        # don't cross-link it (Champagne 2026-05-25).
+        renderable = [e for e in entries if isinstance(e, dict)
+                      and ((e.get("verified") or {}).get("open_status")) not in ("unknown", "permanently_closed")] if isinstance(entries, list) else []
+        if len(renderable) >= MIN_ENTITIES:
             out.append((DIET_META[k]["slug"], DIET_META[k]["display"]))
     return out
 
@@ -367,6 +372,12 @@ def main() -> int:
             for diet_key, entries in entries_by_diet.items():
                 if diet_key not in DIET_META:
                     continue
+                # Only list entities that get a rendered page (entity-page gen
+                # skips open_status unknown/permanently_closed) — else the card
+                # links 404 (Champagne allocation-only growers, 2026-05-25).
+                if isinstance(entries, list):
+                    entries = [e for e in entries if isinstance(e, dict)
+                               and ((e.get("verified") or {}).get("open_status")) not in ("unknown", "permanently_closed")]
                 if not isinstance(entries, list) or len(entries) < MIN_ENTITIES:
                     skipped_thin += 1
                     continue

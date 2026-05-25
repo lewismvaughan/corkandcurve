@@ -1,0 +1,61 @@
+{
+  "destination": {
+    "slug": "champagne",
+    "name": "Champagne",
+    "country": "France",
+    "country_slug": "france",
+    "hero_image": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Phare_de_Verzenay_DSC_0264.JPG",
+    "hero_image_source_url": "https://commons.wikimedia.org/wiki/File:Phare_de_Verzenay_DSC_0264.JPG",
+    "hero_image_credit": "Photo by Pline on Wikimedia Commons, CC BY-SA 3.0",
+    "hero_image_alt": "The Verzenay windmill above Grand Cru vineyards on the Montagne de Reims in Champagne",
+    "hero_image_source": "Wikimedia Commons",
+    "hero_image_photographer": "Pline",
+    "hero_image_license": "CC BY-SA 3.0",
+    "blurb": "France's sparkling-wine heartland, where Chardonnay, Pinot Noir and Pinot Meunier grow on chalk from the Montagne de Reims and Cote des Blancs to the Cote des Bar.",
+    "type": "wine-region",
+    "tagline": "The chalk cellars and Grand Cru villages of the world's benchmark sparkling wine",
+    "overview": "Champagne is the cool northern French appellation behind the world's most famous sparkling wine. Across five sub-regions, growers and grandes maisons turn Chardonnay, Pinot Noir and Pinot Meunier into traditional-method Champagne, ageing it in chalk crayeres beneath Reims and Epernay.",
+    "lat": 49.04,
+    "lng": 4.02,
+    "cross_site_ref": "",
+    "cross_site_name": ""
+  },
+  "seo": {
+    "pages": {
+      "index": {
+        "title": "Champagne Wine Region Guide: Houses & Villages | Cork & Curve",
+        "description": "Explore the Champagne region, from the grandes maisons of Reims and Epernay to grower-producers across the Montagne de Reims, Cote des Blancs and Cote des Bar."
+      },
+      "vineyards": {
+        "title": "Champagne Houses and Grower-Producers Guide | Cork & Curve",
+        "description": "Discover Champagne maisons and grower-producers, from Krug, Bollinger, Pol Roger and Veuve Clicquot to Jacques Selosse, Egly-Ouriet, Pierre Peters and Agrapart."
+      },
+      "neighborhoods": {
+        "title": "Champagne Sub-Regions, Villages and Crus | Cork & Curve",
+        "description": "Champagne's five sub-regions and key villages, from the Montagne de Reims and Cote des Blancs to the Vallee de la Marne, Cote de Sezanne and Cote des Bar."
+      },
+      "signature-grapes": {
+        "title": "Champagne Signature Grapes and Rare Varieties | Cork & Curve",
+        "description": "The grapes of Champagne, from Chardonnay, Pinot Noir and Pinot Meunier to the rare Arbane, Petit Meslier, Pinot Blanc and Pinot Gris (Fromenteau)."
+      }
+    }
+  },
+  "faqs": [
+    {
+      "q": "What grapes is Champagne made from?",
+      "a": "Champagne is built on three main grapes: Chardonnay for finesse, Pinot Noir for structure and Pinot Meunier for fruit. Four rare varieties also remain legal: Arbane, Petit Meslier, Pinot Blanc and Pinot Gris, known locally as Fromenteau."
+    },
+    {
+      "q": "How is Champagne classified?",
+      "a": "Every sparkling wine from the zone is AOC Champagne. Quality is graded at village level by the Echelle des Crus, with 17 Grand Cru villages and 42 Premier Cru villages. Still wines from the area are AOC Coteaux Champenois and the pink still wine is AOC Rose des Riceys."
+    },
+    {
+      "q": "What is the difference between a Champagne house and a grower?",
+      "a": "A grande marque or maison (NM) often buys grapes from many growers and blends across the region for a house style. A grower-producer (RM, recoltant-manipulant) makes Champagne only from its own vines, so the wine reflects a single estate and often a single village."
+    },
+    {
+      "q": "Can you visit the Champagne houses in Reims and Epernay?",
+      "a": "Many maisons run public cellar tours, including Taittinger, Veuve Clicquot, Mumm, Lanson and Ruinart in Reims and Moet & Chandon, Perrier-Jouet and Pol Roger in Epernay. Some prestige houses such as Krug, Salon and many small growers receive visitors only by appointment or not at all."
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "distilleries": [
+    {
+      "slug": "distillerie-jean-goyard-ay",
+      "name": "Distillerie Jean Goyard",
+      "address": "52 rue Rene Lalique, 51160 Ay-Champagne, France",
+      "neighborhood": "Ay-Champagne",
+      "classification": "Ratafia Champenois IG, Marc de Champagne IG, Fine de la Marne",
+      "spirits_produced": [
+        "Ratafia Champenois",
+        "Marc de Champagne",
+        "Fine de la Marne",
+        "Eaux-de-vie"
+      ],
+      "description": "Founded in Ay in 1911, Goyard is the reference distiller of Champagne spirits, supplying many houses with their marc, fine and ratafia, sold from its boutique.",
+      "distillation_method": "Pomace and lees distillation in copper stills; long ageing for the IG-classed spirits",
+      "visit_available": true,
+      "tasting_program": "Boutique tastings of ratafia, marc and fine; full distillery visits arranged for groups, institutions and schools by appointment",
+      "booking_url": "https://www.distillerie-goyard.com/",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.distillerie-goyard.com/p-18-boutique-jean-goyard.html",
+        "address_quoted": "52 rue Rene Lalique BP 10, 51160 AY-CHAMPAGNE",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tourisme-en-champagne.co.uk/distillerie-jean-goyard/ay-champagne/deg0000000001166",
+        "cuisine_evidence_url": "https://www.distillerie-goyard.com/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "distillerie-guillon-louvois",
+      "name": "Distillerie Guillon",
+      "address": "Route de Verzy, Hameau de Vertuelle, 51150 Louvois, France",
+      "neighborhood": "Louvois, Montagne de Reims",
+      "classification": "Esprit du Malt de la Montagne de Reims",
+      "spirits_produced": [
+        "Single malt whisky",
+        "Malt-based spirit Esprit du Malt",
+        "Gin",
+        "Armagnac and cognac selections"
+      ],
+      "description": "Created in 1997 inside the Montagne de Reims Regional Natural Park forest, Guillon distils a malt-based Esprit du Malt and single malt whiskies.",
+      "distillation_method": "Malt mashing, fermentation and pot-still distillation, with extended oak ageing in the forest cellars",
+      "visit_available": true,
+      "tasting_program": "Museum visit, distillery tour and professional tasting from around EUR 5 per person; booking advised",
+      "booking_url": "https://www.distillerie-guillon.com/en/",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.distillerie-guillon.com/en/content/34-visites-de-la-distillerie",
+        "address_quoted": "Hameau de Vertuelle, Route de Verzy, 51150 Louvois",
+        "open_status": "open",
+        "open_evidence_url": "https://www.reims-tourisme.com/en/activite/distillerie-guillon/",
+        "cuisine_evidence_url": "https://www.distillerie-guillon.com/en/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "distillerie-des-dames-blanches-jonquery",
+      "name": "Distillerie des Dames Blanches",
+      "address": "3 bis rue Blanche de Castille, 51700 Jonquery, France",
+      "neighborhood": "Jonquery, Vallee de la Marne",
+      "classification": "Single malt whisky, Gin, Ratafia Champenois, Fine de Champagne",
+      "spirits_produced": [
+        "Single malt whisky",
+        "Gin",
+        "Ratafia Champenois",
+        "Fine de Champagne"
+      ],
+      "description": "A family distillery in the Marne Valley founded by the Ammeux brothers on the former convent of Queen Blanche of Castille. Single malt whisky is made from barley.",
+      "distillation_method": "Single malt whisky distillation and ageing from farm-grown barley; small-batch gin and ratafia",
+      "visit_available": true,
+      "tasting_program": "Guided visits of the still and ageing cellar with a tasting of whisky, gin, ratafia and fine, by reservation",
+      "booking_url": "https://distilleriedamesblanches.fr/",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://distilleriedamesblanches.fr/",
+        "address_quoted": "3 bis rue Blanche de Castille, 51700 Jonquery",
+        "open_status": "open",
+        "open_evidence_url": "https://www.epernay-tourisme.com/commerce/distillerie-des-dames-blanches/",
+        "cuisine_evidence_url": "https://www.madeinmarne.fr/entreprises/distillerie-des-dames-blanches",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "distillerie-de-reims-gin",
+      "name": "Distillerie de Reims",
+      "address": "15 cours Anatole France, 51100 Reims, France",
+      "neighborhood": "Reims centre",
+      "classification": "London-style gin and craft spirits",
+      "spirits_produced": [
+        "London-style gin",
+        "Honey gin",
+        "Craft spirits"
+      ],
+      "description": "A craft gin distillery behind Reims Cathedral, distilling a ten-spice London-style gin in an Art Deco setting with a cathedral-view terrace.",
+      "distillation_method": "Small-batch botanical maceration and pot-still distillation of London-style gin",
+      "visit_available": true,
+      "tasting_program": "Gin-creation workshop with tasting; visitors leave with their own custom bottle",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.distilleriedereims.fr/en/atelier-gin",
+        "address_quoted": "15 cours Anatole France, behind Reims Cathedral",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tourisme-en-champagne.com/distillerie-de-reims/reims/degcha051v50o4fh",
+        "cuisine_evidence_url": "https://www.distilleriedereims.fr/en/atelier-gin",
+        "checked_on": "2026-05-25"
+      }
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "day_trips_wine": [
+    {
+      "slug": "reims-cathedral-and-grandes-marques",
+      "name": "Reims, cathedral city and the grandes marques",
+      "distance_km": 0,
+      "travel_time": "in-region, base city",
+      "destination_country": "France",
+      "destination_region": "Reims (Champagne)",
+      "signature_pours": ["Brut non-vintage", "prestige cuvee", "Blanc de Blancs"],
+      "recommended_vineyards": [],
+      "description": "Reims is the Champagne capital, home to the great houses Taittinger, Veuve Clicquot, Ruinart and Pommery, many touring their Roman chalk crayeres. Pair cellar visits with the UNESCO coronation cathedral and the Saint-Nicaise hill.",
+      "tip": "Book the big-house cellar tours in advance; combine Taittinger or Ruinart with the cathedral in a single day on foot.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.reims-tourisme.com/en/champagne-and-wine-tourism/visits-to-major-champagne-houses/",
+        "address_quoted": "Reims",
+        "open_status": "open",
+        "open_evidence_url": "https://whc.unesco.org/en/list/1465/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Reims",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "epernay-avenue-de-champagne",
+      "name": "Epernay and the Avenue de Champagne",
+      "distance_km": 28,
+      "travel_time": "30 min by car or train from Reims",
+      "destination_country": "France",
+      "destination_region": "Epernay (Champagne)",
+      "signature_pours": ["vintage Champagne", "Brut Imperial", "Cuvee Sir Winston Churchill"],
+      "recommended_vineyards": [],
+      "description": "Epernay's Avenue de Champagne lines the grandest houses, Moet et Chandon, Perrier-Jouet and Pol Roger, above more than 100 km of chalk cellars. The half-hour hop from Reims makes the two capitals an easy combined trip.",
+      "tip": "Walk the avenue end to end, then drop into a champagne bar like C Comme or Le 25bis to taste growers between the big houses.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.epernay-tourisme.com/en/",
+        "address_quoted": "Epernay",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Avenue_de_Champagne",
+        "cuisine_evidence_url": "https://whc.unesco.org/en/list/1465/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "cote-des-bar-troyes-aube",
+      "name": "Cote des Bar and Troyes, the Aube",
+      "distance_km": 120,
+      "travel_time": "1h 30m by car from Reims to Troyes",
+      "destination_country": "France",
+      "destination_region": "Cote des Bar (Aube)",
+      "signature_pours": ["Pinot Noir grower Champagne", "Rose des Riceys AOC", "Coteaux Champenois"],
+      "recommended_vineyards": [],
+      "description": "The southern Aube, on Kimmeridgian chalk near the Chablis and Burgundy border, is Champagne's grower heartland, home to Cedric Bouchard, Fleury and Vouette et Sorbee. Pair tastings with the half-timbered medieval old town of Troyes.",
+      "tip": "Combine a Cote des Bar grower visit with the rare still Rose des Riceys and a wander through Troyes's medieval centre.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.tourisme-cotedesbar.com/",
+        "address_quoted": "Cote des Bar",
+        "open_status": "open",
+        "open_evidence_url": "https://winefolly.com/deep-dive/hottest-champagne-region-cote-des-bar/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Troyes",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "chablis-burgundy-chardonnay",
+      "name": "Chablis, northern Burgundy",
+      "distance_km": 150,
+      "travel_time": "2h by car from the Cote des Bar",
+      "destination_country": "France",
+      "destination_region": "Chablis (Burgundy)",
+      "signature_pours": ["Chablis AOC", "Chablis Premier Cru", "Chablis Grand Cru"],
+      "recommended_vineyards": [],
+      "description": "Just south of the Aube on the same Kimmeridgian seam, Chablis makes the world's benchmark steely Chardonnay. A natural extension for anyone touring the southern Cote des Bar, swapping bubbles for taut still white.",
+      "tip": "The Kimmeridgian chalk links Chablis to the Cote des Bar; taste a Chablis Premier Cru to see the shared seabed terroir as still wine.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.chablis-wines.com/",
+        "address_quoted": "Chablis",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Chablis_wine",
+        "cuisine_evidence_url": "https://www.bourgogne-wines.com/our-wines-appellations/the-appellations-of-burgundy/chablis-and-grand-auxerrois.html",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "hautvillers-dom-perignon-village",
+      "name": "Hautvillers, the Dom Perignon village",
+      "distance_km": 34,
+      "travel_time": "35 min by car from Reims",
+      "destination_country": "France",
+      "destination_region": "Hautvillers (Champagne)",
+      "signature_pours": ["Vallee de la Marne Meunier", "Brut non-vintage", "Coteaux Champenois"],
+      "recommended_vineyards": [],
+      "description": "Perched above the Marne, Hautvillers is where Dom Perignon worked as cellar master and is buried in the abbey church. The hillside village, part of the UNESCO listing, is ringed by Meunier vines and small grower cellars.",
+      "tip": "Visit the abbey church to see Dom Perignon's tomb, then taste a Vallee de la Marne Meunier from a village grower.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://whc.unesco.org/en/list/1465/",
+        "address_quoted": "Hautvillers",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Hautvillers",
+        "cuisine_evidence_url": "https://www.champagne.fr/en/from-vine-to-wine/history-of-a-unique-wine/the-legend-of-dom-perignon",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "paris-from-champagne",
+      "name": "Paris by fast train",
+      "distance_km": 145,
+      "travel_time": "45 min by TGV from Reims to Paris",
+      "destination_country": "France",
+      "destination_region": "Paris",
+      "signature_pours": ["Champagne by the glass", "grower fizz", "vintage Champagne"],
+      "recommended_vineyards": [],
+      "description": "Reims sits 45 minutes from Paris by TGV, making the capital an easy day out or arrival point. Pair the trip with a Champagne-focused Paris wine bar to see how the region pours in its biggest market.",
+      "tip": "The Reims to Paris-Est TGV runs in 45 minutes; an easy day trip in either direction with a glass of Champagne at each end.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.sncf-connect.com/en-en/",
+        "address_quoted": "Paris",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Gare_de_Reims",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/LGV_Est",
+        "checked_on": "2026-05-25"
+      }
+    }
+  ]
+}

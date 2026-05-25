@@ -1,0 +1,208 @@
+{
+  "signature_wines": [
+    {
+      "slug": "krug-grande-cuvee",
+      "name": "Krug Grande Cuvee",
+      "producer": "champagne-krug",
+      "varietals": ["Pinot Noir", "Chardonnay", "Pinot Meunier"],
+      "style": "traditional-method sparkling Champagne, multi-vintage prestige blend",
+      "vintage_range": "drink on release to 25 years",
+      "price_band": "EUR 180 to 260 at retail",
+      "tasting_notes": "Expressive toast and brioche over stone fruit, verbena and vanilla pastry cream, the palate unctuous and creamy with a crisp lemon finish. Source: thefinestbubble.com Krug Grande Cuvee 173rd Edition.",
+      "editorial_score": 4.9,
+      "description": "Krug's multi-vintage flagship, a blend of more than 120 wines across ten-plus years built for breadth and length.",
+      "verified": {
+        "source_url": "https://www.krug.com/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "dom-perignon",
+      "name": "Dom Perignon",
+      "producer": "champagne-moet-chandon",
+      "varietals": ["Chardonnay", "Pinot Noir"],
+      "style": "traditional-method sparkling Champagne, single-vintage prestige cuvee",
+      "vintage_range": "8 to 30 years from vintage",
+      "price_band": "EUR 180 to 280 at retail",
+      "tasting_notes": "Silky and sculpted: white peach and candied citrus over a smoky, saline mineral core. Source: Decanter 95 points, 2013 vintage.",
+      "editorial_score": 4.9,
+      "description": "Moet's single-vintage prestige cuvee, a Chardonnay-Pinot blend released only in declared years.",
+      "verified": {
+        "source_url": "https://www.moet.com/en-us",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "cristal",
+      "name": "Louis Roederer Cristal",
+      "producer": "champagne-louis-roederer",
+      "varietals": ["Pinot Noir", "Chardonnay"],
+      "style": "traditional-method sparkling Champagne, single-vintage prestige cuvee",
+      "vintage_range": "8 to 30 years from vintage",
+      "price_band": "EUR 250 to 380 at retail",
+      "tasting_notes": "Candied lemon and pollen over roasted hazelnut and vanilla, with incredible tension and chalky precision. Source: Decanter 97 points, 2013 vintage.",
+      "editorial_score": 5.0,
+      "description": "The first prestige cuvee, created for Tsar Alexander II in 1876, now from estate, largely biodynamic fruit.",
+      "verified": {
+        "source_url": "https://www.louis-roederer.com/en/prehome",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "bollinger-grande-annee",
+      "name": "Bollinger La Grande Annee",
+      "producer": "champagne-bollinger",
+      "varietals": ["Pinot Noir", "Chardonnay"],
+      "style": "traditional-method sparkling Champagne, barrel-fermented vintage cuvee",
+      "vintage_range": "8 to 30 years from vintage",
+      "price_band": "EUR 110 to 160 at retail",
+      "tasting_notes": "Marine sea-breeze and oyster-shell nose with gunpowder smoke and hazelnut, orchard fruit and fine vanilla. Source: Vinous 95 points, 2014 vintage.",
+      "editorial_score": 4.8,
+      "description": "Bollinger's fully barrel-fermented vintage prestige cuvee, named for the great years that produce it.",
+      "verified": {
+        "source_url": "https://www.champagne-bollinger.com/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "pol-roger-cuvee-winston-churchill",
+      "name": "Pol Roger Cuvee Sir Winston Churchill",
+      "producer": "champagne-pol-roger",
+      "varietals": ["Pinot Noir", "Chardonnay"],
+      "style": "traditional-method sparkling Champagne, Pinot-led prestige cuvee",
+      "vintage_range": "10 to 30 years from vintage",
+      "price_band": "EUR 200 to 320 at retail",
+      "tasting_notes": "Orange oil and confit lemon over brioche and honey, bright saline cutting apricot, mint and sage. Source: Vinous 96 points, 2013 vintage.",
+      "editorial_score": 4.9,
+      "description": "Pol Roger's Pinot-dominant prestige cuvee, created to reflect the style Churchill favoured.",
+      "verified": {
+        "source_url": "https://www.polroger.com/en/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "taittinger-comtes-de-champagne",
+      "name": "Taittinger Comtes de Champagne Blanc de Blancs",
+      "producer": "champagne-taittinger",
+      "varietals": ["Chardonnay"],
+      "style": "traditional-method sparkling Champagne, Grand Cru Blanc de Blancs",
+      "vintage_range": "10 to 30 years from vintage",
+      "price_band": "EUR 130 to 200 at retail",
+      "tasting_notes": "Citrus and white flowers over chalk, with creamy texture and saline length. Source: Vinous 96 points, 2012 vintage.",
+      "editorial_score": 5.0,
+      "description": "Taittinger's Grand Cru-only vintage Blanc de Blancs, a benchmark of the style.",
+      "verified": {
+        "source_url": "https://www.taittinger.com/en/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "salon-cuvee-s-le-mesnil",
+      "name": "Salon Cuvee S Le Mesnil Blanc de Blancs",
+      "producer": "champagne-salon",
+      "varietals": ["Chardonnay"],
+      "style": "traditional-method sparkling Champagne, single-village Grand Cru Blanc de Blancs",
+      "vintage_range": "15 to 50 years from vintage",
+      "price_band": "EUR 600 to 1100 at retail",
+      "tasting_notes": "Citrus and white flowers over iodine and chalk, with crystalline racy intensity and extraordinary length. Source: Vinous 96 points, 2008 vintage.",
+      "editorial_score": 5.0,
+      "description": "Salon's single wine, a Le Mesnil Blanc de Blancs made only in declared years.",
+      "verified": {
+        "source_url": "https://www.salondelamotte.com/en/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "billecart-salmon-brut-rose",
+      "name": "Billecart-Salmon Brut Rose",
+      "producer": "champagne-billecart-salmon",
+      "varietals": ["Chardonnay", "Pinot Noir", "Pinot Meunier"],
+      "style": "traditional-method sparkling Champagne, non-vintage rose",
+      "vintage_range": "drink on release to 8 years",
+      "price_band": "EUR 75 to 110 at retail",
+      "tasting_notes": "Pale salmon-pink with wild strawberry, redcurrant and white peach over saline freshness and silky texture. Source: Vinous 92 points.",
+      "editorial_score": 4.8,
+      "description": "One of the most acclaimed non-vintage roses in Champagne, made by cold, slow fermentation.",
+      "verified": {
+        "source_url": "https://www.champagne-billecart.fr/en/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "dom-ruinart-blanc-de-blancs",
+      "name": "Dom Ruinart Blanc de Blancs",
+      "producer": "champagne-ruinart",
+      "varietals": ["Chardonnay"],
+      "style": "traditional-method sparkling Champagne, Grand Cru Blanc de Blancs prestige cuvee",
+      "vintage_range": "10 to 30 years from vintage",
+      "price_band": "EUR 200 to 320 at retail",
+      "tasting_notes": "Chestnut, coconut and fresh bread over a firm, muscular, reductive structure with chalk and long flavour. Source: Vinous 95 points, 2009 vintage.",
+      "editorial_score": 4.9,
+      "description": "Ruinart's Grand Cru-only pure-Chardonnay prestige cuvee, aged long in deep chalk crayeres.",
+      "verified": {
+        "source_url": "https://www.ruinart.com/en-us",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "selosse-substance",
+      "name": "Selosse Substance",
+      "producer": "jacques-selosse",
+      "varietals": ["Chardonnay"],
+      "style": "traditional-method sparkling Champagne, solera-based Grand Cru Blanc de Blancs",
+      "vintage_range": "drink on release to 20 years",
+      "price_band": "EUR 600 to 1000 at retail",
+      "tasting_notes": "Dried apricot, walnut and curry spice over honey and smoke, with oxidative depth, vinous power and saline length. Source: Vinous 95 points.",
+      "editorial_score": 5.0,
+      "description": "Selosse's solera-based Avize Blanc de Blancs, deeply oxidative and vinous, a benchmark grower Champagne.",
+      "verified": {
+        "source_url": "https://www.selosse-lesavises.com/en/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "pierre-peters-les-chetillons",
+      "name": "Pierre Peters Cuvee Speciale Les Chetillons",
+      "producer": "champagne-pierre-peters",
+      "varietals": ["Chardonnay"],
+      "style": "traditional-method sparkling Champagne, single-vineyard Grand Cru Blanc de Blancs",
+      "vintage_range": "8 to 25 years from vintage",
+      "price_band": "EUR 130 to 200 at retail",
+      "tasting_notes": "Spring flowers, white fruit and citrus over marzipan, with slate and crushed-rock energy and saline length. Source: Vinous 95 points, 2013 vintage.",
+      "editorial_score": 4.9,
+      "description": "Pierre Peters' single-vineyard old-vine Le Mesnil Blanc de Blancs, a benchmark grower Chardonnay.",
+      "verified": {
+        "source_url": "https://champagne-peters.com/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "veuve-clicquot-la-grande-dame",
+      "name": "Veuve Clicquot La Grande Dame",
+      "producer": "champagne-veuve-clicquot",
+      "varietals": ["Pinot Noir", "Chardonnay"],
+      "style": "traditional-method sparkling Champagne, Pinot-led prestige cuvee",
+      "vintage_range": "8 to 25 years from vintage",
+      "price_band": "EUR 150 to 230 at retail",
+      "tasting_notes": "Dried fig, apricot and ripe pear over hazelnut, richly balanced with yellow plum and tropical lift. Source: Vinous 95 points, 2015 vintage.",
+      "editorial_score": 4.8,
+      "description": "Veuve Clicquot's prestige cuvee, named for Madame Clicquot and drawn from historic Grand Cru plots.",
+      "verified": {
+        "source_url": "https://www.veuveclicquot.com/en-us",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    }
+  ]
+}

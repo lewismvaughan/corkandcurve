@@ -1,0 +1,216 @@
+{
+  "dietary": {
+    "biodynamic": [
+      {
+        "slug": "champagne-fleury-biodynamic",
+        "name": "Champagne Fleury",
+        "vineyard_ref": "champagne-fleury",
+        "address": "43 Grande Rue, 10250 Courteron, France",
+        "neighborhood": "Cote des Bar (Aube)",
+        "biodynamic_status": "demeter_certified",
+        "biodynamic_certifier": "Demeter",
+        "organic_status": "ecocert",
+        "organic_certifier": "Ecocert",
+        "certified_year": 1992,
+        "description": "Jean-Pierre Fleury converted the Courteron family vineyards to biodynamics in 1989 and was the first Champagne house to certify biodynamic, achieving certification in 1992. The estate farms 15 hectares in the Cote des Bar, accredited to Demeter and Biodyvin and certified organic by Ecocert.",
+        "tip": "The Blanc de Noirs is the value entry to a pioneering biodynamic house; the Cuvee 1865 shows the estate at full stretch.",
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://www.champagne-fleury.fr/en",
+          "address_quoted": "43 Grande Rue, 10250 Courteron",
+          "open_status": "open",
+          "open_evidence_url": "https://www.sommeliers-international.com/en/Portraits-of-Winegrowers/champagne-fleury-_-champagne-producer-in-biodynamics.aspx",
+          "cuisine_evidence_url": "https://champagnesbiologiques.fr/en/champagne-fleury-gb/",
+          "checked_on": "2026-05-25"
+        }
+      },
+      {
+        "slug": "leclerc-briant-biodynamic",
+        "name": "Champagne Leclerc Briant",
+        "vineyard_ref": "leclerc-briant",
+        "address": "67 Rue Chaude Ruelle, 51200 Epernay, France",
+        "neighborhood": "Epernay",
+        "biodynamic_status": "biodynamic_practicing",
+        "biodynamic_certifier": "Demeter",
+        "organic_status": "ecocert",
+        "organic_certifier": "Ecocert",
+        "certified_year": 2008,
+        "description": "An Epernay house with biodynamic roots reaching to the 1960s, Leclerc Briant has been certified organic since 2004 and biodynamic since 2008. Oenologist Herve Jestin works without intervention, and the estate farms 13 hectares of mainly Grand and Premier Cru sites biodynamically.",
+        "tip": "The Abyss cuvee is aged under the sea off Brittany; taste it beside the standard range to see what biodynamics plus ageing does.",
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://www.leclercbriant.fr/en/contact/",
+          "address_quoted": "67 Rue Chaude Ruelle, 51200 Epernay",
+          "open_status": "open",
+          "open_evidence_url": "https://wineanorak.com/2020/02/08/in-champagne-leclerc-briant/",
+          "cuisine_evidence_url": "https://champagnesbiologiques.fr/en/champagne-leclerc-briant-gb/",
+          "checked_on": "2026-05-25"
+        }
+      },
+      {
+        "slug": "vouette-et-sorbee-biodynamic",
+        "name": "Vouette et Sorbee",
+        "vineyard_ref": "vouette-et-sorbee",
+        "address": "8 rue de Vaux, 10110 Buxieres-sur-Arce, France",
+        "neighborhood": "Cote des Bar (Aube)",
+        "biodynamic_status": "demeter_certified",
+        "biodynamic_certifier": "Demeter",
+        "organic_status": "ecocert",
+        "organic_certifier": "Ecocert",
+        "certified_year": 1998,
+        "description": "Bertrand Gautherot farms five hectares of Kimmeridgian slopes at Buxieres-sur-Arce, Demeter certified since 1998. The Champagnes are zero dosage and low intervention, with the first cuvee Fidele released in 2001.",
+        "tip": "Blanc d'Argile from the Portlandian Sorbee plot is the cuvee to find; everything is made in an artisanal, natural style.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://champagnesbiologiques.fr/en/champagne-vouette-sorbee-gb/",
+          "address_quoted": "8 rue de Vaux, 10110 Buxieres-sur-Arce",
+          "open_status": "unknown",
+          "open_evidence_url": "https://www.avantgarde-ws.com/vouetteetsorbe",
+          "cuisine_evidence_url": "https://www.raisin.digital/en/explore/france/great-east/natural-winemakers/heloise-et-bertrand-gautherot-vouette-sorbee-481/",
+          "checked_on": "2026-05-25"
+        }
+      },
+      {
+        "slug": "marie-courtin-biodynamic",
+        "name": "Champagne Marie-Courtin",
+        "vineyard_ref": "marie-courtin",
+        "address": "8 Rue de Tonnerre, 10110 Polisot, France",
+        "neighborhood": "Cote des Bar (Aube)",
+        "biodynamic_status": "demeter_certified",
+        "biodynamic_certifier": "Demeter",
+        "organic_status": "ecocert",
+        "organic_certifier": "Ecocert",
+        "certified_year": 2006,
+        "description": "Dominique Moreau farms a single Polisot hillside organically, certified since the 2005 vintage, and biodynamically with Demeter certification from the 2006 vintage. The cuvees are single-vineyard, single-variety, single-vintage and zero dosage.",
+        "tip": "Each cuvee comes from the same hillside; taste Resonance against Efflorescence to read the parcel through biodynamic farming.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://www.decanter.com/wine/producer-profiles/grower-champagne-marie-courtin-270589/",
+          "address_quoted": "8 Rue de Tonnerre, 10110 Polisot",
+          "open_status": "unknown",
+          "open_evidence_url": "https://www.polanerselections.com/producers/marie-courtin/",
+          "cuisine_evidence_url": "https://www.floraisonselections.com/marie-courtin",
+          "checked_on": "2026-05-25"
+        }
+      }
+    ],
+    "organic": [
+      {
+        "slug": "larmandier-bernier-organic",
+        "name": "Champagne Larmandier-Bernier",
+        "vineyard_ref": "larmandier-bernier",
+        "address": "19 Avenue du General de Gaulle, 51130 Vertus, France",
+        "neighborhood": "Vertus (Cote des Blancs)",
+        "biodynamic_status": "demeter_certified",
+        "organic_status": "ecocert",
+        "organic_certifier": "Ecocert",
+        "certified_year": 2004,
+        "description": "Pierre and Sophie Larmandier farm Cote des Blancs Chardonnay at Vertus organically, farming organically from the 1990s and biodynamically from 1999. The estate produces taut, low-dosage blanc de blancs that are benchmarks of chalk-driven Champagne.",
+        "tip": "Latitude is the village-level gateway; Terre de Vertus non-dose shows the organic Vertus chalk at its most precise.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://larmandier.fr/en/visits-contact/",
+          "address_quoted": "19 Avenue du General de Gaulle, 51130 Vertus",
+          "open_status": "open",
+          "open_evidence_url": "https://www.polanerselections.com/producers/larmandier-bernier/",
+          "cuisine_evidence_url": "https://nyc.flatiron-wines.com/collections/larmandier-bernier",
+          "checked_on": "2026-05-25"
+        }
+      },
+      {
+        "slug": "georges-laval-organic",
+        "name": "Champagne Georges Laval",
+        "vineyard_ref": "georges-laval",
+        "address": "Rue de la Breche d'Oger, 51480 Cumieres, France",
+        "neighborhood": "Cumieres Premier Cru (Vallee de la Marne)",
+        "biodynamic_status": "none",
+        "organic_status": "ecocert",
+        "organic_certifier": "Ecocert",
+        "certified_year": 1971,
+        "description": "The Laval family has farmed organically at Cumieres since 1971, certified by Ecocert, on just 2.5 hectares of Premier Cru vines across seven parcels. Vincent Laval makes tiny quantities of low-dosage, vinous Champagne with a cult following.",
+        "tip": "Allocations are minuscule; the Cumieres Brut Nature is the wine to chase as the entry to a historic organic grower.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://www.wine-searcher.com/merchant/62088-champagne-georges-laval",
+          "address_quoted": "Rue de la Breche d'Oger, 51480 Cumieres",
+          "open_status": "unknown",
+          "open_evidence_url": "https://www.beauneimports.com/producer/georges-laval/",
+          "cuisine_evidence_url": "https://www.wine-source.com/index.php/clients/champagne-georges-laval-cumieres/",
+          "checked_on": "2026-05-25"
+        }
+      }
+    ],
+    "natural": [
+      {
+        "slug": "david-leclapart-natural",
+        "name": "Champagne David Leclapart",
+        "vineyard_ref": "david-leclapart",
+        "address": "10 rue de la Mairie, 51380 Trepail, France",
+        "neighborhood": "Trepail Premier Cru (Montagne de Reims)",
+        "biodynamic_status": "demeter_certified",
+        "biodynamic_certifier": "Demeter",
+        "organic_status": "ecocert",
+        "organic_certifier": "Ecocert",
+        "certified_year": 2000,
+        "natural_wine": true,
+        "description": "David Leclapart farms three hectares of Trepail Premier Cru organically and biodynamically, certified by Ecocert and Demeter since 2000. The Champagnes are single-vintage, often monovarietal, never dosed and made with minimal intervention.",
+        "tip": "L'Amateur and L'Artiste are the cuvees to seek; production is around 12,000 bottles, so they move fast on sommelier lists.",
+        "editorial_score": 4.6,
+        "verified": {
+          "source_url": "https://champagnesbiologiques.fr/en/champagne-david-leclapart-gb/",
+          "address_quoted": "10 rue de la Mairie, 51380 Trepail",
+          "open_status": "unknown",
+          "open_evidence_url": "https://www.decanter.com/wine/producer-profiles/grower-champagne-david-leclapart-270579/",
+          "cuisine_evidence_url": "https://www.champagneplz.com/post/david-l%C3%A9clapart-a-revolutionary-force-behind-champagne-s-evolution",
+          "checked_on": "2026-05-25"
+        }
+      }
+    ],
+    "vegan_winemaking": [],
+    "lowsulfite": [
+      {
+        "slug": "champagne-fleury-lowsulfite",
+        "name": "Champagne Fleury Sonate sans soufre",
+        "vineyard_ref": "champagne-fleury",
+        "address": "43 Grande Rue, 10250 Courteron, France",
+        "neighborhood": "Cote des Bar (Aube)",
+        "biodynamic_status": "demeter_certified",
+        "organic_status": "ecocert",
+        "low_sulfite": true,
+        "description": "Alongside its Demeter and organic certifications, the pioneering Fleury house bottles a no-added-sulfur cuvee, Sonate sans soufre ajoute, an Extra Brut made without intentional sulfur additions through the whole process.",
+        "tip": "Look for the Sonate sans soufre ajoute bottling; it is the cuvee Fleury makes with no added sulfur for the lowest-intervention drinkers.",
+        "editorial_score": 4.2,
+        "verified": {
+          "source_url": "https://www.sommeliers-international.com/en/Portraits-of-Winegrowers/champagne-fleury-_-champagne-producer-in-biodynamics.aspx",
+          "address_quoted": "43 Grande Rue, 10250 Courteron",
+          "open_status": "open",
+          "open_evidence_url": "https://francaboutwine.com/portfolio/champagne-fleury/",
+          "cuisine_evidence_url": "https://we-love-bubbles.com/without-added-sulfur",
+          "checked_on": "2026-05-25"
+        }
+      },
+      {
+        "slug": "marguet-lowsulfite",
+        "name": "Champagne Marguet",
+        "vineyard_ref": "champagne-marguet",
+        "address": "1 Place Barancourt, 51150 Ambonnay, France",
+        "neighborhood": "Ambonnay Grand Cru (Montagne de Reims)",
+        "biodynamic_status": "demeter_certified",
+        "biodynamic_certifier": "Demeter",
+        "organic_status": "ecocert",
+        "low_sulfite": true,
+        "description": "Benoit Marguet farms Grand Cru Ambonnay and Bouzy biodynamically, Demeter certified since 2008, and works toward minimal added sulfur, vinifying in amphora and old oak. The Sapience and single-plot cuvees push a low-addition, terroir-first style.",
+        "tip": "The single-plot cuvees show the low-sulfur, amphora-aged house style; ask which bottlings carry the least added sulfur.",
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://champagne-marguet.fr/en/",
+          "address_quoted": "1 Place Barancourt, 51150 Ambonnay",
+          "open_status": "open",
+          "open_evidence_url": "https://www.bbr.com/producer-1304-champagne-marguet",
+          "cuisine_evidence_url": "https://www.coeurwineco.com/producer/marguet",
+          "checked_on": "2026-05-25"
+        }
+      }
+    ]
+  }
+}

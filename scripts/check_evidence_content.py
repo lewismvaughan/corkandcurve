@@ -73,7 +73,7 @@ DIETARY_SYNONYMS: dict[str, tuple[str, ...]] = {
     "organic":          ("organic", "ecocert", "usda organic", "agriculture biologique", "certified ab", "icea", "ccpb"),
     "natural":          ("natural wine", "low intervention", "low-intervention", "minimal intervention", "vin nature", "vins naturels", "zero zero", "zero-zero"),
     "vegan_winemaking": ("vegan", "unfined", "plant-based fining", "no animal", "vegan-friendly", "vegan wine"),
-    "lowsulfite":       ("low sulfite", "low-sulfite", "no added sulfites", "no added sulphur", "minimal sulfites", "without sulfites", "low so2"),
+    "lowsulfite":       ("low sulfite", "low-sulfite", "no added sulfites", "no added sulphur", "no added sulfur", "without sulfur", "sulfur addition", "sans soufre", "minimal sulfites", "without sulfites", "low so2"),
 }
 
 # Topic-level claims: we DON'T check these. Venues don't describe

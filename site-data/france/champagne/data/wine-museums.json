@@ -1,0 +1,104 @@
+{
+  "wine_museums": [
+    {
+      "slug": "pressoria-ay",
+      "name": "Pressoria",
+      "address": "11 boulevard Pierre Cheval, 51160 Ay-Champagne, France",
+      "neighborhood": "Ay-Champagne",
+      "description": "An interactive sensory champagne museum in a former Pommery press house below the UNESCO-listed Ay vineyards, closing with a two-champagne tasting.",
+      "admission": "Self-guided visit with two-champagne tasting from around EUR 18; premium tastings higher",
+      "permanent_collection": true,
+      "temporary_exhibitions": true,
+      "tasting_bar": true,
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://pressoria.com/en/",
+        "address_quoted": "11 Boulevard Pierre Cheval, 51160 Ay-Champagne",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g1202619-d23624773-Reviews-Pressoria-Ay_Ay_Champagne_Marne_Grand_Est.html",
+        "cuisine_evidence_url": "https://www.getyourguide.com/ay-l149753/ay-champagne-pressoria-champagne-museum-with-tasting-t409175/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "musee-du-vin-de-champagne-chateau-perrier",
+      "name": "Musee du Vin de Champagne et d'Archeologie Regionale",
+      "address": "13 avenue de Champagne, 51200 Epernay, France",
+      "neighborhood": "Avenue de Champagne, Epernay",
+      "description": "Housed in the restored Chateau Perrier on the Avenue de Champagne, this municipal museum opened in 2021 with collections on champagne history and regional.",
+      "admission": "Standard ticket around EUR 8; reduced and free categories apply",
+      "permanent_collection": true,
+      "temporary_exhibitions": true,
+      "tasting_bar": false,
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://archeochampagne.epernay.fr/en/hours-admission-and-directions/",
+        "address_quoted": "13 avenue de Champagne, 51200 Epernay",
+        "open_status": "open",
+        "open_evidence_url": "https://www.epernay-tourisme.com/activite/musee-du-vin-de-champagne-et-darcheologie-regionale/",
+        "cuisine_evidence_url": "https://archeochampagne.epernay.fr/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "tour-de-castellane-epernay",
+      "name": "Tour de Castellane and Champagne Museum",
+      "address": "57 rue de Verdun, 51200 Epernay, France",
+      "neighborhood": "Epernay",
+      "description": "The 66-metre de Castellane tower in Epernay houses a Museum of Champagne Tradition, a printing museum and a label room, with a 237-step climb to a panorama.",
+      "admission": "Tower, museum and tasting included in the guided visit ticket",
+      "permanent_collection": true,
+      "temporary_exhibitions": false,
+      "tasting_bar": true,
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.castellane.com/en/visites",
+        "address_quoted": "57 Rue de Verdun, 51200 Epernay",
+        "open_status": "open",
+        "open_evidence_url": "https://maisons-champagne.com/en/houses/heritage/epernay-and-surrounding-area/article/tour-de-castellane",
+        "cuisine_evidence_url": "https://www.castellane.com/en/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "villa-demoiselle-reims",
+      "name": "Villa Demoiselle",
+      "address": "56 boulevard Henry Vasnier, 51100 Reims, France",
+      "neighborhood": "Parc de Champagne, Reims",
+      "description": "An Art Nouveau and Art Deco villa built 1904 to 1908 and restored by the Vranken-Pommery group as a heritage house. Guided visits cover the decorative arts.",
+      "admission": "Guided visit with champagne tasting; combined Pommery domaine tickets available",
+      "permanent_collection": true,
+      "temporary_exhibitions": false,
+      "tasting_bar": true,
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.maisonpommery.com/visites/en/la-villa-demoiselle",
+        "address_quoted": "56 boulevard Henry Vasnier - 51100 REIMS",
+        "open_status": "open",
+        "open_evidence_url": "https://www.reims-tourisme.com/en/activite/villa-demoiselle/",
+        "cuisine_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g187137-d3971692-Reviews-Villa_Demoiselle-Reims_Marne_Grand_Est.html",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "pommery-crayeres-art-reims",
+      "name": "Domaine Pommery Crayeres and Art",
+      "address": "5 Place du General Gouraud, 51100 Reims, France",
+      "neighborhood": "Saint-Nicaise, Reims",
+      "description": "The Pommery domaine pairs 18 kilometres of UNESCO-listed Gallo-Roman chalk crayeres with a contemporary art programme, 30 metres beneath Reims.",
+      "admission": "Cellar and art visit with tasting from around EUR 25; self-guided options available",
+      "permanent_collection": true,
+      "temporary_exhibitions": true,
+      "tasting_bar": true,
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.champagnepommery.com/contact-us",
+        "address_quoted": "5 Place du General Gouraud, 51100 Reims",
+        "open_status": "open",
+        "open_evidence_url": "https://www.reims-tourisme.com/en/activite/maison-de-champagne-vranken-pommery/",
+        "cuisine_evidence_url": "https://maisons-champagne.com/en/house/pommery",
+        "checked_on": "2026-05-25"
+      }
+    }
+  ]
+}

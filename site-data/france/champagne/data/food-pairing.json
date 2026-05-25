@@ -1,0 +1,116 @@
+{
+  "food_pairing": [
+    {
+      "slug": "blanc-de-blancs-with-oysters",
+      "name": "Blanc de Blancs Champagne with oysters",
+      "pairing": "Grand Cru Blanc de Blancs with raw oysters and shellfish",
+      "tablejourney_ref": "france/paris/restaurants/clamato",
+      "wine_entities": ["taittinger-comtes-de-champagne", "dom-ruinart-blanc-de-blancs", "pierre-peters-les-chetillons", "ruinart-blanc-de-blancs"],
+      "description": "The classic Champagne pairing: a chalky, saline Chardonnay-only cuvee meets the brine of raw oysters, the wine's racy acidity scrubbing the palate clean between each shell.",
+      "editorial_score": 5.0,
+      "verified": {
+        "source_url": "https://tablejourney.com/france/paris/restaurants/clamato/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "brut-nv-with-fried-chicken",
+      "name": "Brut NV Champagne with fried chicken and gougeres",
+      "pairing": "Non-vintage brut with fried chicken, gougeres and salty fried snacks",
+      "tablejourney_ref": "france/paris/dish/croque-monsieur",
+      "wine_entities": ["veuve-clicquot-yellow-label", "moet-imperial-brut", "pol-roger-brut-reserve", "piper-heidsieck-cuvee-brut"],
+      "description": "A fruit-led brut against fried, salty food is a sommelier favourite: the bubbles and acidity cut through fat and batter while the wine's ripe fruit keeps the match generous.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://tablejourney.com/france/paris/dish/croque-monsieur/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "rose-champagne-with-charcuterie",
+      "name": "Rose Champagne with charcuterie",
+      "pairing": "Rose Champagne with cured meats and pate en croute",
+      "tablejourney_ref": "france/paris/dish/pate-en-croute",
+      "wine_entities": ["billecart-salmon-brut-rose", "laurent-perrier-cuvee-rose", "veuve-clicquot-rose", "paul-bara-grand-rose-de-bouzy"],
+      "description": "Rose Champagne's vinous red-fruit grip and gentle spice frame the salt and fat of charcuterie and a buttery pate en croute, the acidity resetting the palate.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://tablejourney.com/france/paris/dish/pate-en-croute/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "prestige-cuvee-with-roast-poularde",
+      "name": "Prestige Champagne with roast poularde",
+      "pairing": "Vintage prestige cuvee with roast poularde and morels",
+      "tablejourney_ref": "france/paris/dish/poulet-roti",
+      "wine_entities": ["dom-perignon", "cristal", "pol-roger-cuvee-winston-churchill", "bollinger-grande-annee"],
+      "description": "A mature, vinous prestige cuvee meets roast poultry with mushrooms: the wine's brioche, smoke and stone-fruit depth echo the roasted skin while acidity lifts the cream and morels.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://tablejourney.com/france/paris/dish/poulet-roti/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "blanc-de-blancs-with-souffle",
+      "name": "Blanc de Blancs with cheese souffle",
+      "pairing": "Chardonnay-led Champagne with souffle au fromage",
+      "tablejourney_ref": "france/paris/dish/souffle",
+      "wine_entities": ["dom-perignon", "ruinart-blanc-de-blancs", "billecart-salmon-blanc-de-blancs", "henriot-blanc-de-blancs"],
+      "description": "The airy lift and creamy texture of a cheese souffle mirror a fine Chardonnay-led Champagne, the wine's chalk and acidity keeping the rich egg and cheese fresh.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://tablejourney.com/france/paris/dish/souffle/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "rich-brut-with-comte-and-gruyere",
+      "name": "Oak-aged brut with Comte and a croque monsieur",
+      "pairing": "Oak-influenced brut with aged Comte and a croque monsieur",
+      "tablejourney_ref": "france/paris/dish/croque-monsieur",
+      "wine_entities": ["bollinger-special-cuvee", "charles-heidsieck-brut-reserve", "gosset-grande-reserve-brut", "vilmart-grand-cellier"],
+      "description": "Oak-influenced, reserve-rich brut has the walnut and toast depth to meet aged Comte and a molten croque monsieur, the wine's acidity cutting the cheese and bechamel.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://tablejourney.com/france/paris/dish/croque-monsieur/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "demi-sec-with-tarte-tatin",
+      "name": "Rose and fruit-led Champagne with tarte tatin",
+      "pairing": "Fruit-forward rose Champagne with tarte tatin and fruit desserts",
+      "tablejourney_ref": "france/paris/dish/tarte-tatin",
+      "wine_entities": ["taittinger-prestige-rose", "ruinart-rose", "perrier-jouet-belle-epoque-rose", "gosset-grand-rose"],
+      "description": "A fruit-forward rose Champagne echoes the caramelised apple of a tarte tatin, its red-berry lift and acidity balancing the dessert's buttery sweetness.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://tablejourney.com/france/paris/dish/tarte-tatin/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "extra-brut-grower-with-mushroom",
+      "name": "Pinot Meunier grower Champagne with mushrooms",
+      "pairing": "Meunier-led grower Champagne with mushroom and earthy dishes",
+      "tablejourney_ref": "france/paris/dish/poulet-roti",
+      "wine_entities": ["la-closerie-les-beguines", "egly-ouriet-les-vignes-de-vrigny", "chartogne-taillet-les-barres"],
+      "description": "Vinous, oak-framed Pinot Meunier grower Champagnes carry smoke and orchard-fruit depth that flatters earthy mushroom dishes and roast poultry with morels.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://tablejourney.com/france/paris/dish/poulet-roti/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    }
+  ]
+}

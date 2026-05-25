@@ -1,0 +1,248 @@
+{
+  "wine_restaurants": [
+    {
+      "slug": "lassiette-champenoise",
+      "name": "L'Assiette Champenoise",
+      "address": "40 avenue Paul Vaillant-Couturier, 51430 Tinqueux, France",
+      "neighborhood": "Tinqueux, near Reims",
+      "cuisine": "Classic French haute cuisine by Arnaud Lallement; produce-led tasting menus engineered for champagne pairing",
+      "cellar_size": 50000,
+      "awards": [
+        {
+          "source": "Michelin",
+          "year": 2025
+        },
+        {
+          "source": "Relais and Chateaux",
+          "year": 2025
+        }
+      ],
+      "description": "Three-Michelin-star restaurant at Tinqueux run by chef Arnaud Lallement, a family house with a deep champagne cellar. Generous, classics-rooted cooking built.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.assiettechampenoise.com/en/contact/",
+        "address_quoted": "40, avenue Paul Vaillant Couturier, 51430 Tinqueux",
+        "open_status": "open",
+        "open_evidence_url": "https://www.relaischateaux.com/us/restaurant/l-assiette-champenoise/",
+        "cuisine_evidence_url": "https://www.eurocave.com/en/magazine/in-the-cellar-at-assiette-champenoise-tinqueux-france-arnaud-lallement",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "le-parc-les-crayeres",
+      "name": "Le Parc - Domaine Les Crayeres",
+      "address": "64 boulevard Henry Vasnier, 51100 Reims, France",
+      "neighborhood": "Parc de Champagne, Reims",
+      "cuisine": "Modern French gastronomy by Christophe Moret; champagne-pairing tasting menus in a chateau dining room",
+      "cellar_size": 12000,
+      "awards": [
+        {
+          "source": "Michelin",
+          "year": 2025
+        }
+      ],
+      "description": "The two-Michelin-star table of Domaine Les Crayeres, set in a Pommery chateau in Reims. Chef Christophe Moret builds refined menus around a cellar that leans.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://lescrayeres.com/en/restaurant-le-parc.html",
+        "address_quoted": "64 boulevard Henry Vasnier, Reims",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187137-d1069024-Reviews-Le_Parc_Les_Crayeres-Reims_Marne_Grand_Est.html",
+        "cuisine_evidence_url": "https://lescrayeres.com/en/restaurant-le-parc.html",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "alcove-la-briqueterie",
+      "name": "Alcove - Hostellerie La Briqueterie",
+      "address": "4 route de Sezanne, 51530 Vinay, France",
+      "neighborhood": "Vinay, near Epernay",
+      "cuisine": "Contemporary French cuisine with a champagne-pairing focus inside a Relais and Chateaux hotel",
+      "cellar_size": 8000,
+      "awards": [
+        {
+          "source": "Michelin",
+          "year": 2025
+        }
+      ],
+      "description": "The Michelin-starred restaurant of Hostellerie La Briqueterie at Vinay, plated for champagne pairing. The cellar runs deep on the Cote des Blancs Chardonnay grown.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.beauvallon.com/en/briqueterie",
+        "address_quoted": "4, route de Sezanne, 51 530 Vinay",
+        "open_status": "open",
+        "open_evidence_url": "https://guide.michelin.com/us/en/grand-est/vinay/restaurant/hostellerie-la-briqueterie",
+        "cuisine_evidence_url": "https://www.relaischateaux.com/us/hotel/hostellerie-la-briqueterie/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "le-foch-reims",
+      "name": "Le Foch",
+      "address": "37 boulevard Foch, 51100 Reims, France",
+      "neighborhood": "Reims centre",
+      "cuisine": "Seafood-led French gastronomy by Jacky Louaze; menus arranged for champagne and Burgundy pairings",
+      "cellar_size": 4000,
+      "awards": [
+        {
+          "source": "Michelin",
+          "year": 2025
+        }
+      ],
+      "description": "A one-Michelin-star restaurant on the boulevards of Reims, where chef Jacky Louaze cooks fish and shellfish to order. The list favours house champagnes alongside.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.lefoch.com/?lang=en",
+        "address_quoted": "37 bd Foch, 51100 Reims",
+        "open_status": "open",
+        "open_evidence_url": "https://starwinelist.com/wine-place/le-foch",
+        "cuisine_evidence_url": "https://guide.michelin.com/us/en/grand-est/reims/restaurant/le-foch",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "les-avises-restaurant",
+      "name": "Restaurant Les Avises",
+      "address": "59 rue de Cramant, 51190 Avize, France",
+      "neighborhood": "Avize, Cote des Blancs",
+      "cuisine": "Single market-led tasting menu built around grand cru Chardonnay and the Selosse champagne range",
+      "cellar_size": 3000,
+      "awards": [
+        {
+          "source": "Michelin",
+          "year": 2025
+        }
+      ],
+      "description": "The Selosse family restaurant at Les Avises in Avize, where a single daily set menu is plated to flatter grand cru Chardonnay and the domaine champagnes.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.selosse-lesavises.com/en/",
+        "address_quoted": "59, rue de Cramant, 51190 Avize",
+        "open_status": "open",
+        "open_evidence_url": "https://guide.michelin.com/us/en/grand-est/avize/restaurant/les-avises",
+        "cuisine_evidence_url": "https://www.selosse-lesavises.com/en/customers-reviews/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "la-grillade-gourmande-epernay",
+      "name": "La Grillade Gourmande",
+      "address": "16 rue de Reims, 51200 Epernay, France",
+      "neighborhood": "Epernay centre",
+      "cuisine": "Wood-fired grilled meats and fish plus champagne-cooked specialities by chef Christophe Bernard",
+      "cellar_size": 600,
+      "awards": [
+        {
+          "source": "Michelin Guide listed",
+          "year": 2025
+        }
+      ],
+      "description": "A central Epernay grill where chef-owner Christophe Bernard cooks meats and fish over wood fire, with champagne specialities. The wine list is famously bound like.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.lagrilladegourmande.com/",
+        "address_quoted": "16 rue de Reims, 51200 EPERNAY",
+        "open_status": "open",
+        "open_evidence_url": "https://guide.michelin.com/us/en/grand-est/pernay/restaurant/la-grillade-gourmande",
+        "cuisine_evidence_url": "https://www.epernay-tourisme.com/restaurant/la-grillade-gourmande/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "la-cave-a-champagne-epernay",
+      "name": "La Cave a Champagne",
+      "address": "16 rue Gambetta, 51200 Epernay, France",
+      "neighborhood": "Epernay centre",
+      "cuisine": "Traditional Champenois terroir cooking by Alexandre Ocio; regional dishes served with champagne at table",
+      "cellar_size": 400,
+      "awards": [
+        {
+          "source": "Gault and Millau listed",
+          "year": 2025
+        }
+      ],
+      "description": "A traditional Epernay table founded in 1993 and run by Alexandre Ocio, serving Champenois terroir cooking matched with champagnes by the glass and bottle.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.cave-champagne.fr/en/",
+        "address_quoted": "16 Rue Gambetta, 51200 Epernay",
+        "open_status": "open",
+        "open_evidence_url": "https://fr.gaultmillau.com/en/restaurants/la-cave-a-champagne",
+        "cuisine_evidence_url": "https://www.epernay-tourisme.com/restaurant/la-cave-a-champagne/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "le-bocal-reims",
+      "name": "Le Bocal",
+      "address": "27 rue de Mars, 51100 Reims, France",
+      "neighborhood": "Boulingrin, Reims",
+      "cuisine": "Seafood and shellfish from the adjoining fishmonger, matched to a tight champagne selection",
+      "cellar_size": 200,
+      "awards": [
+        {
+          "source": "Petit Fute listed",
+          "year": 2025
+        }
+      ],
+      "description": "A tiny 14-seat seafood room behind a fishmonger near the Boulingrin market in Reims. Simple, high-quality shellfish plates paired with a focused list of grower.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/Restaurant_Review-g187137-d2721475-Reviews-Le_Bocal_Restaurant-Reims_Marne_Grand_Est.html",
+        "address_quoted": "27 rue de Mars, Reims",
+        "open_status": "open",
+        "open_evidence_url": "https://www.yelp.com/biz/le-bocal-reims",
+        "cuisine_evidence_url": "https://www.petitfute.co.uk/v13241-reims-51100/c1165-restaurants/c1248-specialites/c116-restaurant-fruits-de-mer-poissons/1752004-le-bocal.html",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "le-jardin-les-crayeres",
+      "name": "Brasserie Le Jardin - Les Crayeres",
+      "address": "7 avenue du General Giraud, 51100 Reims, France",
+      "neighborhood": "Parc de Champagne, Reims",
+      "cuisine": "Relaxed French brasserie cooking in the Crayeres park, with a strong champagne by-the-glass program",
+      "cellar_size": 3000,
+      "awards": [
+        {
+          "source": "Reims Tourisme listed",
+          "year": 2025
+        }
+      ],
+      "description": "The garden brasserie of Domaine Les Crayeres in the Reims park, a relaxed counterpart to Le Parc. French brasserie plates with a generous champagne by-the-glass.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://lescrayeres.com/en/brasserie-le-jardin.html",
+        "address_quoted": "7, avenue du General Giraud, 51100 Reims",
+        "open_status": "open",
+        "open_evidence_url": "https://www.reims-tourisme.com/restaurant/brasserie-le-jardin/",
+        "cuisine_evidence_url": "https://lescrayeres.com/en/brasserie-le-jardin.html",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "le-bistrot-du-forum-reims",
+      "name": "Le Bistrot du Forum",
+      "address": "6 place du Forum, 51100 Reims, France",
+      "neighborhood": "Place du Forum, Reims",
+      "cuisine": "Traditional French bistro cooking on the Place du Forum, with a champagne-focused list",
+      "cellar_size": 300,
+      "awards": [
+        {
+          "source": "Petit Fute listed",
+          "year": 2025
+        }
+      ],
+      "description": "A traditional bistro on the Place du Forum in central Reims, serving classic French plates with a regularly rotating champagne and regional wine selection.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.lebistrotduforum.com/",
+        "address_quoted": "6, place du Forum",
+        "open_status": "open",
+        "open_evidence_url": "https://www.petitfute.co.uk/v13241-reims-51100/c1165-restaurants/c4-cuisine-francaise/c1-bistrot-brasserie/401268-le-bistrot-du-forum.html",
+        "cuisine_evidence_url": "https://www.lebistrotduforum.com/",
+        "checked_on": "2026-05-25"
+      }
+    }
+  ]
+}

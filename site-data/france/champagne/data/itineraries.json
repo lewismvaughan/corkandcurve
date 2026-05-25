@@ -1,0 +1,157 @@
+{
+  "itineraries": [
+    {
+      "slug": "reims-grandes-marques-weekend",
+      "name": "Reims grandes marques weekend",
+      "length_days": 2,
+      "theme": "First-time Champagne: the great houses and chalk cellars of Reims",
+      "base": "Reims",
+      "days": [
+        {
+          "day": 1,
+          "morning": "Start in Reims with a cellar tour at Champagne Taittinger in the Saint-Nicaise crayeres, the Roman chalk pits beneath the city, followed by a Comtes de Champagne tasting.",
+          "lunch": "Light lunch near the cathedral before an afternoon walk through the UNESCO coronation cathedral quarter.",
+          "afternoon": "Afternoon cellar visit at Champagne Ruinart, the oldest Champagne house, to taste the Chardonnay-led Blanc de Blancs in its deep crayeres.",
+          "evening": "Aperitif and oysters at Le Bocal near the Boulingrin, then a late grower-Champagne flight at Le Wine Bar by Le Vintage on the Place du Forum.",
+          "accommodation": "Boutique hotel in central Reims near the cathedral.",
+          "venues": [
+            "champagne-taittinger",
+            "champagne-ruinart",
+            "le-bocal-reims",
+            "le-wine-bar-by-le-vintage"
+          ]
+        },
+        {
+          "day": 2,
+          "morning": "Morning visit at Champagne Veuve Clicquot to see the riddling tradition of Madame Clicquot and taste the Yellow Label and La Grande Dame.",
+          "lunch": "Lunch at a Reims brasserie, then drive 30 minutes south to Epernay.",
+          "afternoon": "Walk the Avenue de Champagne and tour Champagne Perrier-Jouet, finishing at Le Cellier with a Belle Epoque flight.",
+          "evening": "Closing grower flight at C Comme Champagne on Rue Gambetta before dinner in Epernay.",
+          "accommodation": "Return to Reims or stay central in Epernay.",
+          "venues": [
+            "champagne-veuve-clicquot",
+            "champagne-perrier-jouet",
+            "c-comme-epernay"
+          ]
+        }
+      ],
+      "description": "Two-day introduction to Champagne through the great houses of Reims and Epernay, from the Roman chalk crayeres to the Avenue de Champagne, with grower bars in the evenings.",
+      "tip": "Book big-house cellar tours two to three weeks ahead; Taittinger and Ruinart sell out fastest on weekends.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.reims-tourisme.com/en/champagne-and-wine-tourism/visits-to-major-champagne-houses/",
+        "address_quoted": "Reims",
+        "open_status": "open",
+        "open_evidence_url": "https://whc.unesco.org/en/list/1465/",
+        "cuisine_evidence_url": "https://www.epernay-tourisme.com/en/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "grower-champagne-three-day-tour",
+      "name": "Grower Champagne three-day tour",
+      "length_days": 3,
+      "theme": "Recoltant-manipulant deep dive: Montagne de Reims and Cote des Blancs growers",
+      "base": "Epernay",
+      "days": [
+        {
+          "day": 1,
+          "morning": "Drive into the Montagne de Reims for a morning appointment at Champagne Pierre Paillard in Grand Cru Bouzy to taste single-plot blanc de noirs.",
+          "lunch": "Picnic lunch among the Grand Cru vines or a village bistro in Bouzy.",
+          "afternoon": "Afternoon visit at Egly-Ouriet in Ambonnay for powerful, long-aged Pinot Noir Champagnes.",
+          "evening": "Return to Epernay for a grower flight at C Comme Champagne, then dinner at La Cave a Champagne.",
+          "accommodation": "Central Epernay hotel.",
+          "venues": [
+            "pierre-paillard",
+            "egly-ouriet",
+            "c-comme-epernay",
+            "la-cave-a-champagne-epernay"
+          ]
+        },
+        {
+          "day": 2,
+          "morning": "Head to the Cote des Blancs for a morning at Champagne Larmandier-Bernier in Vertus to taste organic, low-dosage blanc de blancs.",
+          "lunch": "Lunch in Vertus or Le Mesnil-sur-Oger between Chardonnay villages.",
+          "afternoon": "Afternoon tasting at Champagne Agrapart or Pierre Peters in Le Mesnil-sur-Oger for Grand Cru Chardonnay.",
+          "evening": "Dinner in Epernay and a nightcap of Ratafia at the Distillerie Jean Goyard boutique in nearby Ay if open, otherwise a late glass on the avenue.",
+          "accommodation": "Central Epernay hotel.",
+          "venues": [
+            "champagne-larmandier-bernier",
+            "champagne-agrapart",
+            "champagne-pierre-peters",
+            "distillerie-jean-goyard-ay"
+          ]
+        },
+        {
+          "day": 3,
+          "morning": "Drive south to the Cote des Bar for a morning with the cult grower Roses de Jeanne in Celles-sur-Ource, by allocation visit only.",
+          "lunch": "Lunch in Bar-sur-Aube or among the Aube vineyards.",
+          "afternoon": "Afternoon at biodynamic Vouette et Sorbee in Buxieres-sur-Arce on the Kimmeridgian slopes near the Chablis border.",
+          "evening": "Return north to Epernay or continue toward Troyes for the night.",
+          "accommodation": "Epernay or Troyes.",
+          "venues": [
+            "roses-de-jeanne",
+            "vouette-et-sorbee"
+          ]
+        }
+      ],
+      "description": "Three days through Champagne's grower heartland, from Grand Cru Bouzy and Ambonnay to the Cote des Blancs and the Aube, tasting recoltant-manipulant terroir Champagnes.",
+      "tip": "Grower visits are appointment-only and some cult names are allocation-only; email weeks ahead and keep the schedule loose.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.decanter.com/learn/grower-champagne-453822/",
+        "address_quoted": "Champagne",
+        "open_status": "open",
+        "open_evidence_url": "https://winefolly.com/deep-dive/hottest-champagne-region-cote-des-bar/",
+        "cuisine_evidence_url": "https://www.champagne.fr/en/visit-champagne",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "biodynamic-champagne-long-weekend",
+      "name": "Biodynamic Champagne long weekend",
+      "length_days": 2,
+      "theme": "Green-farmed Champagne: certified organic and biodynamic growers",
+      "base": "Epernay",
+      "days": [
+        {
+          "day": 1,
+          "morning": "Begin in Epernay at biodynamic Leclerc Briant, certified organic since 2004 and biodynamic since 2008, to taste the range up to the sea-aged Abyss.",
+          "lunch": "Lunch in Epernay near the Avenue de Champagne.",
+          "afternoon": "Drive to Grand Cru Ambonnay for an afternoon at Demeter-certified Champagne Marguet, tasting amphora-aged single-plot cuvees.",
+          "evening": "Return to Epernay for a biodynamic-leaning grower flight at Le 25bis by Leclerc Briant on the avenue.",
+          "accommodation": "Le 25bis guest house or a central Epernay hotel.",
+          "venues": [
+            "leclerc-briant-biodynamic",
+            "champagne-marguet",
+            "c-comme-bar-epernay"
+          ]
+        },
+        {
+          "day": 2,
+          "morning": "Drive to Vertus in the Cote des Blancs for a morning at organic Champagne Larmandier-Bernier and its taut blanc de blancs.",
+          "lunch": "Lunch in the Cote des Blancs before heading south to the Aube.",
+          "afternoon": "Afternoon at Demeter-certified Vouette et Sorbee in Buxieres-sur-Arce, or biodynamic Marie-Courtin in Polisot, by appointment.",
+          "evening": "Dinner in Troyes or back in Epernay with a glass of certified-organic grower Champagne.",
+          "accommodation": "Epernay or Troyes.",
+          "venues": [
+            "champagne-larmandier-bernier",
+            "vouette-et-sorbee",
+            "marie-courtin"
+          ]
+        }
+      ],
+      "description": "A two-day route through Champagne's certified organic and biodynamic growers, from Epernay and Grand Cru Ambonnay to the Cote des Blancs and the Aube.",
+      "tip": "Confirm certifications and visit policies when booking, because several biodynamic growers are tiny allocation-only estates that do not take walk-in visitors at the cellar door.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://champagnesbiologiques.fr/en/",
+        "address_quoted": "Champagne",
+        "open_status": "open",
+        "open_evidence_url": "https://www.champagne.fr/en/sustainable-development/sustainable-development-in-champagne/sustainable-viticulture",
+        "cuisine_evidence_url": "https://www.decanter.com/learn/grower-champagne-453822/",
+        "checked_on": "2026-05-25"
+      }
+    }
+  ]
+}

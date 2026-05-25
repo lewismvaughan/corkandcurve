@@ -329,6 +329,11 @@ def _collect_topic_entities(country_dir: Path, topic: dict) -> list[tuple[dict, 
         for e in entries:
             if not isinstance(e, dict):
                 continue
+            # Skip entities that won't have a rendered page (generate_entity_pages
+            # skips open_status unknown/permanently_closed) — else the rollup
+            # card links to a 404 (Champagne allocation-only growers, 2026-05-25).
+            if ((e.get("verified") or {}).get("open_status")) in ("unknown", "permanently_closed"):
+                continue
             score = e.get("editorial_score")
             if not isinstance(score, (int, float)) or score < 3.5:
                 # Only entities with a credible editorial_score land on

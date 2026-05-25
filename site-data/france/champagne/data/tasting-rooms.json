@@ -1,0 +1,214 @@
+{
+  "tasting_rooms": [
+    {
+      "slug": "taittinger-saint-nicaise",
+      "name": "Champagne Taittinger Cellars",
+      "address": "9 Place Saint-Nicaise, 51100 Reims, France",
+      "neighborhood": "Saint-Nicaise, Reims",
+      "varietals_focus": ["Chardonnay", "Pinot Noir", "Pinot Meunier"],
+      "pricing": "Guided cellar tour with tasting from EUR 40; Comtes de Champagne prestige tasting from EUR 95",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "taittinger",
+      "description": "Hour-long guided tours of Taittinger's UNESCO-listed Gallo-Roman chalk crayeres beneath Reims, closing with a tasting of Brut Reserve or Comtes de Champagne.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.taittinger.com/en/visits-reims",
+        "address_quoted": "9, Place Saint-Nicaise, Reims",
+        "open_status": "open",
+        "open_evidence_url": "https://www.reims-tourisme.com/en/activite/maison-de-champagne-taittinger/",
+        "cuisine_evidence_url": "https://www.taittinger.com/en/visits-reims",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "veuve-clicquot-visit-center",
+      "name": "Veuve Clicquot Visit Center",
+      "address": "1 rue Albert Thomas, 51100 Reims, France",
+      "neighborhood": "Butte Saint-Nicaise, Reims",
+      "varietals_focus": ["Pinot Noir", "Chardonnay", "Pinot Meunier"],
+      "pricing": "Classic cellar visit with Yellow Label tasting from EUR 45; Prestige vintage experiences higher",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "veuve-clicquot",
+      "description": "The Veuve Clicquot visit center on the Butte Saint-Nicaise leads through the chalk cellars to a guided tasting of Yellow Label, the blended rose and vintage flights.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.veuveclicquot.com/en-us/visitus.html",
+        "address_quoted": "1 rue Albert Thomas, 51100 Reims",
+        "open_status": "open",
+        "open_evidence_url": "https://www.getyourguide.com/veuve-clicquot-ponsardin-visitors-center-l132773/",
+        "cuisine_evidence_url": "https://www.veuveclicquot.com/en-us/visit-us/tours-and-experiences-in-reims/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "moet-chandon-epernay",
+      "name": "Moet & Chandon Cellars",
+      "address": "20 avenue de Champagne, 51200 Epernay, France",
+      "neighborhood": "Avenue de Champagne, Epernay",
+      "varietals_focus": ["Chardonnay", "Pinot Noir", "Pinot Meunier"],
+      "pricing": "Imperial tour with seated tasting from EUR 48; Grand Vintage and private experiences to EUR 235",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "moet-chandon",
+      "description": "Moet & Chandon opens its 28 kilometres of UNESCO-listed cellars on the Avenue de Champagne, with guided tours and a seated tasting of Imperial Brut or Grand Vintage.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.moet.com/en-us/visit-us",
+        "address_quoted": "20 avenue de Champagne, 51200 Epernay",
+        "open_status": "open",
+        "open_evidence_url": "https://www.epernay-tourisme.com/en/commerce/maison-de-champagne-moet-chandon/",
+        "cuisine_evidence_url": "https://www.moet.com/en-us/visit-us",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "mercier-epernay",
+      "name": "Champagne Mercier",
+      "address": "68-70 avenue de Champagne, 51200 Epernay, France",
+      "neighborhood": "Avenue de Champagne, Epernay",
+      "varietals_focus": ["Pinot Noir", "Pinot Meunier", "Chardonnay"],
+      "pricing": "Train cellar tour with one-glass tasting from around EUR 20; premium tastings higher",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "mercier",
+      "description": "Mercier runs the only little-train tour through its 18 kilometres of Epernay cellars, with a panoramic lift, the train circuit and a Mercier brut tasting.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.champagnemercier.com/en/visit-us",
+        "address_quoted": "68-70 avenue de Champagne, Epernay",
+        "open_status": "open",
+        "open_evidence_url": "https://www.ruedesvignerons.com/en/domaine/504/champagne-mercier",
+        "cuisine_evidence_url": "https://www.champagnemercier.com/en/visit-us",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "gh-mumm-reims",
+      "name": "Maison Mumm",
+      "address": "31 rue du Champ de Mars, 51100 Reims, France",
+      "neighborhood": "Champ de Mars, Reims",
+      "varietals_focus": ["Pinot Noir", "Chardonnay", "Pinot Meunier"],
+      "pricing": "Grand Cru cellar tour with Cordon Rouge tasting from EUR 30; vintage experiences higher",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "gh-mumm",
+      "description": "G.H. Mumm guides visitors through almost 25 kilometres of cellars in central Reims, finishing with a tasting of the Cordon Rouge flagship brut and vintages.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.mumm.com/en-ww/book-a-visit/",
+        "address_quoted": "31 Rue du Champ de Mars, 51100 - Reims",
+        "open_status": "open",
+        "open_evidence_url": "https://www.explore-grandest.com/en/offerings/activities/food-wine/cellar-tour-and-tasting-at-maison-mumm/",
+        "cuisine_evidence_url": "https://www.mumm.com/en-ww/book-a-visit/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "ruinart-crayeres",
+      "name": "Maison Ruinart",
+      "address": "4 rue des Crayeres, 51100 Reims, France",
+      "neighborhood": "Saint-Nicaise, Reims",
+      "varietals_focus": ["Chardonnay", "Pinot Noir"],
+      "pricing": "Crayeres guided visit with tasting from EUR 50; Blanc de Blancs and Dom Ruinart experiences higher",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "ruinart",
+      "description": "The oldest Champagne house opens its 8 kilometres of UNESCO-listed chalk crayeres 40 metres beneath Reims, centred on the Blanc de Blancs and Dom Ruinart.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.ruinart.com/en-us/visitedescrayeresreims.html",
+        "address_quoted": "4 RUE DES CRAYERES, Reims",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g187137-d545961-Reviews-Maison_Ruinart-Reims_Marne_Grand_Est.html",
+        "cuisine_evidence_url": "https://www.ruinart.com/en-us/visitesignaturechardonnay.html",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "vranken-pommery-domaine",
+      "name": "Domaine Pommery",
+      "address": "5 Place du General Gouraud, 51100 Reims, France",
+      "neighborhood": "Saint-Nicaise, Reims",
+      "varietals_focus": ["Chardonnay", "Pinot Noir", "Pinot Meunier"],
+      "pricing": "Self-guided or guided cellar visit with tasting from around EUR 25; masterclasses higher",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "pommery",
+      "description": "Pommery shows its Elizabethan estate and 18 kilometres of art-lined Gallo-Roman chalk pits 30 metres underground, with tastings of Apanage Brut and the Cuvee Louise.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.maisonpommery.com/visites/en/preparez-votre-visite",
+        "address_quoted": "5 Place du General Gouraud, 51100 Reims",
+        "open_status": "open",
+        "open_evidence_url": "https://www.reims-tourisme.com/en/activite/maison-de-champagne-vranken-pommery/",
+        "cuisine_evidence_url": "https://www.maisonpommery.com/visites/en/preparez-votre-visite",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "c-comme-epernay",
+      "name": "C. Comme Champagne",
+      "address": "8 rue Gambetta, 51200 Epernay, France",
+      "neighborhood": "Epernay centre",
+      "varietals_focus": ["Pinot Noir", "Pinot Meunier", "Chardonnay"],
+      "pricing": "Self-serve tasting flights by the glass from around EUR 5; producer flights higher with charcuterie boards",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": null,
+      "description": "A grower-champagne tasting shop and bar in central Epernay representing dozens of small producers, pouring walk-in flights by the glass with cheese and charcuterie.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.c-comme.fr/",
+        "address_quoted": "8 Rue Gambetta, Epernay",
+        "open_status": "open",
+        "open_evidence_url": "https://www.yelp.com/biz/c-comme-epernay",
+        "cuisine_evidence_url": "https://www.c-comme.fr/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "520-champagnes-vins-auteurs",
+      "name": "520 Champagnes et Vins d'Auteurs",
+      "address": "1 avenue Paul-Chandon, 51200 Epernay, France",
+      "neighborhood": "Epernay centre",
+      "varietals_focus": ["Chardonnay", "Pinot Noir", "Pinot Meunier"],
+      "pricing": "By-the-glass tasting flights vary; free Saturday-morning producer tastings 10:30 to 13:00",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": null,
+      "description": "Run by former champagne ambassador Pierre-Yves Cainjo, 520 carries some 650 references from 180 growers and houses, with free Saturday producer tastings.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.le520.fr/",
+        "address_quoted": "1, avenue Paul-Chandon, 51200 Epernay",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tourisme-en-champagne.com/520-champagnes-et-vins-dauteurs/epernay/degcha051fs0008i",
+        "cuisine_evidence_url": "https://www.le520.fr/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "tresors-de-champagne-boutique-reims",
+      "name": "Tresors de Champagne, La Boutique",
+      "address": "2 rue Olivier Metra, 51100 Reims, France",
+      "neighborhood": "Halles de Boulingrin, Reims",
+      "varietals_focus": ["Chardonnay", "Pinot Noir", "Pinot Meunier"],
+      "pricing": "Weekly rotating tasting selection by the glass; private tastings on request",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": null,
+      "description": "The Club Tresors de Champagne boutique gathers more than 170 Special Club cuvees from 28 grower members, with a weekly selection open for tasting by the glass.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.boutique-tresors-champagne.com/",
+        "address_quoted": "2 Rue Olivier Metra, Reims",
+        "open_status": "open",
+        "open_evidence_url": "https://www.reims-tourisme.com/en/activite/tresors-de-champagne-la-boutique/",
+        "cuisine_evidence_url": "https://www.clubtresorsdechampagne.com/en/",
+        "checked_on": "2026-05-25"
+      }
+    }
+  ]
+}

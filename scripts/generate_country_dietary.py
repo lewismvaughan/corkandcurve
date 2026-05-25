@@ -243,6 +243,9 @@ def main() -> int:
     for country_dir in CONTENT.iterdir():
         if not country_dir.is_dir():
             continue
+        # Only prune inside real country dirs (not chrome/cross-cut dirs).
+        if not (SITE_DATA / country_dir.name / "data" / "region.json").exists():
+            continue
         dietary_dir = country_dir / "dietary"
         if not dietary_dir.is_dir():
             continue

@@ -1,0 +1,142 @@
+{
+  "wine_festivals": [
+    {
+      "slug": "habits-de-lumiere",
+      "name": "Habits de Lumiere",
+      "recurrence_pattern": "annual, second weekend of December",
+      "start_month": "December",
+      "duration": "3 days",
+      "host_organization": "City of Epernay and the Avenue de Champagne Committee",
+      "ticket_required": false,
+      "ticket_url": "https://www.epernay-tourisme.com/profiter/agenda/habits-de-lumiere/",
+      "featured_producers": [],
+      "neighborhood": "Epernay",
+      "description": "Each December the Avenue de Champagne in Epernay transforms into a stage of illuminations, video mapping, champagne bars, a vintage-car parade and fireworks. A Saturday gastronomy session, Habits de Saveurs, pairs Michelin chefs with growers.",
+      "tip": "The festival is free with no ticket needed; the two evening shows on Friday and Saturday on the avenue are the highlight.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.festivalenfrance.com/en/festival/habits-de-lumiere",
+        "address_quoted": "Avenue de Champagne",
+        "open_status": "open",
+        "open_evidence_url": "https://www.thevelvetrunway.com/habits-de-lumiere-epernay/",
+        "cuisine_evidence_url": "https://www.visitlachampagne.travel/plan-your-trip/calendar/habits-de-lumiere-in-epernay/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "saint-vincent-en-champagne",
+      "name": "Fete de la Saint-Vincent en Champagne",
+      "recurrence_pattern": "annual, around 22 January",
+      "start_month": "January",
+      "duration": "1 to 2 days",
+      "host_organization": "Archiconfrerie Saint-Vincent des vignerons de Champagne",
+      "ticket_required": false,
+      "ticket_url": "https://www.epernay-tourisme.com/en/take-advantage/agenda/saint-vincent-festivities-in-champagne/",
+      "featured_producers": [],
+      "neighborhood": "rotating Champagne village",
+      "description": "Around 22 January, Champagne growers honour their patron Saint Vincent. Beyond the local village masses, the Archiconfrerie stages a grand costumed parade in a different Champagne town each year, gathering brotherhoods from across the region.",
+      "tip": "The host town changes annually; confirm which village or city holds the grand parade before planning a trip around it.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://mynormandytour.com/living-in-france/champagne-festival-do-you-know-the-patron-saint-vincent/",
+        "address_quoted": "Champagne region",
+        "open_status": "open",
+        "open_evidence_url": "https://simplychampagne.co/saint-vincent-patron-saint-of-winemakers/",
+        "cuisine_evidence_url": "https://www.allwinestories.com/index.php/en/109-stories/438-the-archiconfrerie-st-vincent-des-vignerons-de-champagne",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "fetes-johanniques-reims",
+      "name": "Fetes Johanniques de Reims",
+      "recurrence_pattern": "annual, late May or early June",
+      "start_month": "May",
+      "duration": "2 days",
+      "host_organization": "City of Reims",
+      "ticket_required": false,
+      "ticket_url": "https://www.reims-tourisme.com/en/major-events-in-reims/",
+      "featured_producers": [],
+      "neighborhood": "Reims",
+      "description": "Reims relives the coronation of Charles VII and the legend of Joan of Arc with a medieval village, a 500-strong costumed coronation procession to the cathedral and street entertainment. Champagne bars run alongside the festivities in the old town.",
+      "tip": "The historic parade winds to the cathedral doors; stake out a spot along the route in the late afternoon.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.festivalenfrance.com/festival/fetes-johanniques-de-reims",
+        "address_quoted": "Reims",
+        "open_status": "open",
+        "open_evidence_url": "https://www.jds.fr/reims/manifestations/fetes/les-fetes-johanniques-170541_A",
+        "cuisine_evidence_url": "https://fr.wikipedia.org/wiki/F%C3%AAtes_johanniques_de_Reims",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "flaneries-musicales-de-reims",
+      "name": "Flaneries Musicales de Reims",
+      "recurrence_pattern": "annual, mid June to mid July",
+      "start_month": "June",
+      "duration": "about one month",
+      "host_organization": "City of Reims",
+      "ticket_required": true,
+      "ticket_url": "https://www.flaneriesreims.com/en/",
+      "featured_producers": [],
+      "neighborhood": "Reims",
+      "description": "A month of classical and crossover concerts across Reims heritage venues, from the Basilique Saint-Remi to city parks, with hundreds of artists. Many concerts are free, and the festival pairs naturally with a Champagne tour of the city.",
+      "tip": "Plenty of concerts are free; book the marquee evenings at the basilica early as they fill quickly.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.flaneriesreims.com/en/",
+        "address_quoted": "Reims",
+        "open_status": "open",
+        "open_evidence_url": "https://www.visitfrenchwine.com/en/event/musical-festival-in-reims-champagne-region",
+        "cuisine_evidence_url": "https://bachtrack.com/festival/les-flaneries-musicales-de-reims",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "route-du-champagne-en-fete",
+      "name": "Route du Champagne en Fete",
+      "recurrence_pattern": "annual, first weekend of August",
+      "start_month": "August",
+      "duration": "2 days",
+      "host_organization": "CAP'C, growers of the Cote des Bar",
+      "ticket_required": true,
+      "ticket_url": "https://www.routeduchampagne.com/",
+      "featured_producers": [],
+      "neighborhood": "Cote des Bar (Aube)",
+      "description": "The first weekend of August, a cluster of Cote des Bar villages in the Aube opens its cellars for a tasting-passport weekend. Each year a different set of villages on the right bank of the Aube takes its turn welcoming visitors to the open caves.",
+      "tip": "Buy the tasting passport and wristband online ahead of time; the wristband is mandatory to enter the open cellars.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.champagne.fr/en/visit-champagne/whats-on-in-the-champagne-vineyards/route-du-champagne-en-fete",
+        "address_quoted": "Cote des Bar",
+        "open_status": "open",
+        "open_evidence_url": "https://www.champagnetravel.eu/events/route-du-champagne/",
+        "cuisine_evidence_url": "https://www.tourisme-cotedesbar.com/route-du-champagne-en-fete-2026/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "champagne-day",
+      "name": "Champagne Day",
+      "recurrence_pattern": "annual, fourth Friday of October",
+      "start_month": "October",
+      "duration": "1 day",
+      "host_organization": "Comite Champagne",
+      "ticket_required": false,
+      "ticket_url": "https://champagneday.champagne.fr/events/",
+      "featured_producers": [],
+      "neighborhood": "Reims and Epernay",
+      "description": "The global Champagne Day, on the fourth Friday of October, sees houses, growers, bars and shops worldwide pour and share Champagne. The Comite Champagne runs the official event directory listing local tastings and open cellars across the region.",
+      "tip": "Use the official events map to find tastings and open houses near you on the day, in Champagne and worldwide.",
+      "editorial_score": 4.1,
+      "verified": {
+        "source_url": "https://champagneday.champagne.fr/",
+        "address_quoted": "Champagne",
+        "open_status": "open",
+        "open_evidence_url": "https://www.daysoftheyear.com/days/global-champagne-day/",
+        "cuisine_evidence_url": "https://champagneday.champagne.fr/faq/",
+        "checked_on": "2026-05-25"
+      }
+    }
+  ]
+}

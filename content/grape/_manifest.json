@@ -49,6 +49,18 @@
       ]
     },
     {
+      "slug": "arbane",
+      "display": "Arbane",
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "champagne",
+          "region_name": "Champagne",
+          "n": 1
+        }
+      ]
+    },
+    {
       "slug": "arinto",
       "display": "Arinto",
       "regions": [
@@ -171,6 +183,12 @@
           "region_slug": "burgundy",
           "region_name": "Burgundy",
           "n": 59
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "champagne",
+          "region_name": "Champagne",
+          "n": 62
         },
         {
           "country_slug": "italy",
@@ -523,6 +541,18 @@
       ]
     },
     {
+      "slug": "meunier",
+      "display": "Meunier",
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "champagne",
+          "region_name": "Champagne",
+          "n": 5
+        }
+      ]
+    },
+    {
       "slug": "moscatel-galego-branco",
       "display": "Moscatel Galego Branco",
       "regions": [
@@ -607,6 +637,18 @@
       ]
     },
     {
+      "slug": "petit-meslier",
+      "display": "Petit Meslier",
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "champagne",
+          "region_name": "Champagne",
+          "n": 1
+        }
+      ]
+    },
+    {
       "slug": "petit-verdot",
       "display": "Petit Verdot",
       "regions": [
@@ -637,6 +679,18 @@
       ]
     },
     {
+      "slug": "pinot-blanc",
+      "display": "Pinot Blanc",
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "champagne",
+          "region_name": "Champagne",
+          "n": 4
+        }
+      ]
+    },
+    {
       "slug": "pinot-grigio",
       "display": "Pinot Grigio",
       "regions": [
@@ -657,6 +711,24 @@
           "region_slug": "burgundy",
           "region_name": "Burgundy",
           "n": 1
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "champagne",
+          "region_name": "Champagne",
+          "n": 1
+        }
+      ]
+    },
+    {
+      "slug": "pinot-meunier",
+      "display": "Pinot Meunier",
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "champagne",
+          "region_name": "Champagne",
+          "n": 32
         }
       ]
     },
@@ -687,6 +759,12 @@
           "region_slug": "burgundy",
           "region_name": "Burgundy",
           "n": 47
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "champagne",
+          "region_name": "Champagne",
+          "n": 57
         }
       ]
     },

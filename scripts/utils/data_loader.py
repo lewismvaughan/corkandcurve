@@ -218,21 +218,38 @@ def _inject_entity_urls(research: Dict[str, Any], country_slug: str, region_slug
     via title_link() when `_url` is missing.
     """
     base = f"/{country_slug}/{region_slug}/" if region_slug else f"/{country_slug}/"
+    # Only set _url for entities that will actually get a rendered page.
+    # generate_entity_pages SKIPS open_status in {permanently_closed, unknown}
+    # (we won't publish a "visit this venue" page we can't confirm is open),
+    # so linking those would 404. Without _url, title_link() renders the card
+    # as plain text — the entity still shows in the listing, just not linked.
+    # (Champagne 2026-05-25: allocation-only grower estates were open_status
+    # "unknown"; their hidden-gems/dietary cards linked to skipped pages.)
+    _SKIP = {"permanently_closed", "unknown"}
+    def _renders(e):
+        return ((e.get("verified") or {}).get("open_status")) not in _SKIP
     for research_key, topic_slug in RESEARCH_KEY_TO_TOPIC_SLUG.items():
         entries = research.get(research_key)
         if isinstance(entries, list):
             for e in entries:
-                if isinstance(e, dict) and e.get("slug"):
+                if isinstance(e, dict) and e.get("slug") and _renders(e):
                     e["_url"] = f"{base}{topic_slug}/{e['slug']}/"
 
-    # Dietary: dict-of-lists keyed by vegan/vegetarian/...
+    # Dietary: dict-of-lists keyed by biodynamic/organic/... Drop entries that
+    # won't get a rendered page (unknown/permanently_closed) so the dietary
+    # topic doesn't show a sub-category section whose landing page + cards
+    # would 404 (Champagne allocation-only growers, 2026-05-25). Entries are
+    # kept in the raw JSON (validate_data/check_evidence read files directly);
+    # this only affects what renders.
     dietary = research.get("dietary")
     if isinstance(dietary, dict):
-        for places in dietary.values():
+        for sub, places in list(dietary.items()):
             if isinstance(places, list):
-                for e in places:
-                    if isinstance(e, dict) and e.get("slug"):
+                kept = [e for e in places if isinstance(e, dict) and _renders(e)]
+                for e in kept:
+                    if e.get("slug"):
                         e["_url"] = f"{base}dietary/{e['slug']}/"
+                dietary[sub] = kept
 
     # Signature wines and grapes are abstract (a bottle / a varietal, not a
     # venue). They render inline on their topic page with #<slug> anchors and

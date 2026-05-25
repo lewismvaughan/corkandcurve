@@ -1,0 +1,147 @@
+{
+  "wine_tours": [
+    {
+      "slug": "sparkling-tour-champagne",
+      "name": "Sparkling Tour",
+      "address": "8 allee du vignoble, 51100 Reims, France",
+      "neighborhood": "Reims",
+      "description": "A Reims-based operator running small-group and private champagne tours by Mercedes minivan, pairing grower-village cellars with major house visits.",
+      "tour_types": [
+        "Half-day small-group tour",
+        "Full-day discovery tour",
+        "Private half-day tour",
+        "Private full-day tour"
+      ],
+      "languages": [
+        "English",
+        "French"
+      ],
+      "price_range": "From around EUR 90 per person half-day to EUR 600 private full-day",
+      "booking_url": "https://www.sparkling-tour.com/en/home/",
+      "min_group_size": 1,
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.sparkling-tour.com/en/contact-us/",
+        "address_quoted": "8 allee du vignoble, Reims",
+        "open_status": "open",
+        "open_evidence_url": "https://www.reims-tourisme.com/en/produit/journee-complete-sparkling-tour/",
+        "cuisine_evidence_url": "https://www.sparkling-tour.com/en/champagne-tour/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "my-vintage-tour-company",
+      "name": "My Vintage Tour Company",
+      "address": "2 Passage Fourche, 51200 Epernay, France",
+      "neighborhood": "Epernay",
+      "description": "An Epernay family operator running three-hour champagne tours in vintage Citroen 2CV and Renault 4L cars, with a tasting in the vines and a cellar visit.",
+      "tour_types": [
+        "Vintage 2CV vineyard tour",
+        "Renault 4L vineyard tour",
+        "Private vintage-car tour with cellar visit"
+      ],
+      "languages": [
+        "English",
+        "French"
+      ],
+      "price_range": "From around EUR 120 per person for the three-hour vintage tour",
+      "booking_url": "https://myvintagetourcompany.com/en/",
+      "min_group_size": 2,
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.tourisme-en-champagne.co.uk/my-vintage-tour-company/epernay/loicha051v508qub",
+        "address_quoted": "2 Pass. Fourche 51200 Epernay",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g187136-d14033448-Reviews-My_Vintage_Tour_Company-Epernay_Marne_Grand_Est.html",
+        "cuisine_evidence_url": "https://myvintagetourcompany.com/en/vintage-champagne-tour-presentation/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "ay-champagne-experience",
+      "name": "Ay-Champagne Experience",
+      "address": "75 rue Rene Lalique, 51160 Ay-Champagne, France",
+      "neighborhood": "Ay-Champagne",
+      "description": "A guide-led operator in Ay running private and small-group champagne tours of the historic grand cru villages, pairing house visits with grower cellars.",
+      "tour_types": [
+        "Half-day private tour",
+        "Full-day private tour",
+        "Connoisseurs tasting tour",
+        "Tailor-made tour"
+      ],
+      "languages": [
+        "English",
+        "French"
+      ],
+      "price_range": "From around EUR 110 per person half-day; private full-day higher",
+      "booking_url": "https://www.aychampagneexperience.com/en/home/",
+      "min_group_size": 1,
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.aychampagneexperience.com/en/contact-2/",
+        "address_quoted": "75 rue Rene Lalique (formerly rue Jules Blondeau) - 51160 AY-CHAMPAGNE",
+        "open_status": "open",
+        "open_evidence_url": "https://www.reims-tourisme.com/en/activite/ay-champagne-experience/",
+        "cuisine_evidence_url": "https://www.aychampagneexperience.com/en/private-champagne-tour/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "la-vigne-du-roy",
+      "name": "La Vigne du Roy",
+      "address": "24 rue Gambetta, 51100 Reims, France",
+      "neighborhood": "Reims",
+      "description": "A Reims operator specialising in private champagne tours of grand cru and premier cru boutique growers. Tours stay small, from a couple to eight guests, around.",
+      "tour_types": [
+        "Half-day private tour",
+        "Full-day private tour",
+        "Multi-day private tour"
+      ],
+      "languages": [
+        "English",
+        "French"
+      ],
+      "price_range": "Private tours from around EUR 150 per person depending on length",
+      "booking_url": "https://www.lavigneduroy.com/",
+      "min_group_size": 2,
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.lavigneduroy.com/contact/",
+        "address_quoted": "24 rue Gambetta, 51100, Reims",
+        "open_status": "open",
+        "open_evidence_url": "https://www.facebook.com/lavigneduroy/",
+        "cuisine_evidence_url": "https://www.lavigneduroy.com/champagne-tours/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "a-la-francaise-champagne",
+      "name": "A la Francaise Champagne",
+      "address": "Cour de la Gare, 51100 Reims, France",
+      "neighborhood": "Reims station",
+      "description": "A bilingual operator running small-group and private champagne tours by minivan and e-bike, meeting in front of the Reims and Epernay tourist offices.",
+      "tour_types": [
+        "Half-day small-group tour",
+        "Full-day tour with lunch",
+        "E-bike vineyard tour",
+        "Private tailor-made tour"
+      ],
+      "languages": [
+        "English",
+        "French"
+      ],
+      "price_range": "From around EUR 95 per person half-day to EUR 250 full-day with lunch",
+      "booking_url": "https://www.alafrancaise.fr/en/champagne/",
+      "min_group_size": 1,
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.alafrancaise.fr/en/champagne/faq",
+        "address_quoted": "Cour de la Gare, 51100 Reims",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g187137-d8515948-Reviews-A_la_Francaise_Champagne-Reims_Marne_Grand_Est.html",
+        "cuisine_evidence_url": "https://www.alafrancaise.fr/en/champagne/liste-2-champagne-tours-from-reims",
+        "checked_on": "2026-05-25"
+      }
+    }
+  ]
+}

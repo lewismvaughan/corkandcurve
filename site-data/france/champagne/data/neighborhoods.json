@@ -1,0 +1,420 @@
+{
+  "neighborhoods": [
+    {
+      "slug": "montagne-de-reims",
+      "name": "Montagne de Reims",
+      "address": "Montagne de Reims, Marne, 51500 France",
+      "classification": "AOC Champagne (Montagne de Reims sub-region)",
+      "description": "A broad wooded headland south of Reims, flanked by the Vesle and the Marne. Pinot Noir country, with Grand Cru villages such as Verzenay, Verzy, Mailly, Bouzy and Ambonnay giving structure and power to the blend.",
+      "key_varietals": [
+        "Pinot Noir",
+        "Chardonnay",
+        "Pinot Meunier"
+      ],
+      "sub_communes": [
+        "Verzenay",
+        "Verzy",
+        "Mailly-Champagne",
+        "Bouzy",
+        "Ambonnay",
+        "Rilly-la-Montagne"
+      ],
+      "famous_producers": [
+        "champagne-krug",
+        "egly-ouriet",
+        "champagne-paul-bara",
+        "champagne-vilmart"
+      ],
+      "aliases": [
+        "Montagne de Reims",
+        "Mountain of Reims"
+      ],
+      "vibe": "A forested ridge ringed by Grand Cru villages where the most powerful, structured Pinot Noir of Champagne grows on chalk above the plain of Reims.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://maisons-champagne.com/en/appellation/geographical-area/the-montagne-de-reims/",
+        "address_quoted": "Montagne de Reims",
+        "open_status": "open",
+        "open_evidence_url": "https://www.champagne.fr/en/about-champagne/a-great-blended-wine/the-champagne-region",
+        "cuisine_evidence_url": "https://maisons-champagne.com/en/appellation/geographical-area/the-montagne-de-reims/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "vallee-de-la-marne",
+      "name": "Vallee de la Marne",
+      "address": "Vallee de la Marne, Marne, 51480 France",
+      "classification": "AOC Champagne (Marne Valley sub-region)",
+      "description": "Steep hillsides following the Marne river west toward Paris. Pinot Meunier dominates the chalkier, frost-prone western reaches, where it ripens reliably and lends fruit and roundness, while Ay near Epernay holds great Pinot Noir.",
+      "key_varietals": [
+        "Pinot Meunier",
+        "Pinot Noir",
+        "Chardonnay"
+      ],
+      "sub_communes": [
+        "Ay",
+        "Mareuil-sur-Ay",
+        "Hautvillers",
+        "Dizy",
+        "Cumieres"
+      ],
+      "famous_producers": [
+        "champagne-bollinger",
+        "champagne-deutz",
+        "champagne-gosset",
+        "champagne-billecart-salmon",
+        "champagne-philipponnat"
+      ],
+      "aliases": [
+        "Vallee de la Marne",
+        "Marne Valley"
+      ],
+      "vibe": "River-valley slopes where Pinot Meunier rules, anchored by Ay and by Hautvillers, the abbey village where Dom Perignon worked.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://maisons-champagne.com/en/appellation/geographical-area/the-marne-valley/",
+        "address_quoted": "Marne Valley",
+        "open_status": "open",
+        "open_evidence_url": "https://www.champagne.fr/en/about-champagne/a-great-blended-wine/the-champagne-region",
+        "cuisine_evidence_url": "https://maisons-champagne.com/en/appellation/geographical-area/the-marne-valley/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "cote-des-blancs",
+      "name": "Cote des Blancs",
+      "address": "Cote des Blancs, Marne, 51190 France",
+      "classification": "AOC Champagne (Cote des Blancs sub-region)",
+      "description": "A pure-chalk escarpment running south from Epernay, named for its dominant white grape. Almost entirely Chardonnay, its Grand Cru villages of Cramant, Avize, Oger and Le Mesnil-sur-Oger make the most mineral, ageworthy Blanc de Blancs in the world.",
+      "key_varietals": [
+        "Chardonnay"
+      ],
+      "sub_communes": [
+        "Cramant",
+        "Avize",
+        "Oger",
+        "Le Mesnil-sur-Oger",
+        "Chouilly",
+        "Vertus"
+      ],
+      "famous_producers": [
+        "champagne-salon",
+        "jacques-selosse",
+        "champagne-pierre-peters",
+        "champagne-agrapart",
+        "champagne-larmandier-bernier"
+      ],
+      "aliases": [
+        "Cote des Blancs",
+        "Slope of the Whites"
+      ],
+      "vibe": "A bright chalk slope of Grand Cru Chardonnay villages producing the most precise, long-lived Blanc de Blancs in Champagne.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://maisons-champagne.com/en/appellation/geographical-area/cote-des-blancs/",
+        "address_quoted": "Cote des Blancs",
+        "open_status": "open",
+        "open_evidence_url": "https://www.champagne.fr/en/about-champagne/a-great-blended-wine/the-champagne-region",
+        "cuisine_evidence_url": "https://maisons-champagne.com/en/appellation/geographical-area/cote-des-blancs/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "cote-de-sezanne",
+      "name": "Cote de Sezanne",
+      "address": "Cote de Sezanne, Marne, 51120 France",
+      "classification": "AOC Champagne (Cote de Sezanne sub-region)",
+      "description": "A south-east-facing extension of the Cote des Blancs below the Saint-Gond marshes, around the town of Sezanne. Chardonnay-led on clay and silt over chalk, giving softer, riper, more fruit-forward whites than its famous northern neighbour.",
+      "key_varietals": [
+        "Chardonnay",
+        "Pinot Noir"
+      ],
+      "sub_communes": [
+        "Sezanne",
+        "Vindey",
+        "Barbonne-Fayel",
+        "Congy"
+      ],
+      "famous_producers": [
+        "ulysse-collin"
+      ],
+      "aliases": [
+        "Cote de Sezanne",
+        "Sezannais"
+      ],
+      "vibe": "A quieter, riper southern continuation of the Cote des Blancs where Chardonnay turns rounder and more generous.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.champagne.fr/en/about-champagne/a-great-blended-wine/the-champagne-region",
+        "address_quoted": "Cote des Blancs",
+        "open_status": "open",
+        "open_evidence_url": "https://maisons-champagne.com/en/appellation/geographical-area/cote-des-blancs/",
+        "cuisine_evidence_url": "https://www.champagne.fr/en/about-champagne/a-great-blended-wine/the-champagne-region",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "cote-des-bar",
+      "name": "Cote des Bar",
+      "address": "Cote des Bar, Aube, 10110 France",
+      "classification": "AOC Champagne (Cote des Bar / Aube sub-region)",
+      "description": "The southern Aube vineyards near Bar-sur-Aube and Bar-sur-Seine, closer to Chablis than to Reims. Pinot Noir dominates the Kimmeridgian clay-limestone, the engine room of much grande-marque blending and a hotbed of single-parcel growers.",
+      "key_varietals": [
+        "Pinot Noir",
+        "Chardonnay"
+      ],
+      "sub_communes": [
+        "Les Riceys",
+        "Celles-sur-Ource",
+        "Urville",
+        "Bar-sur-Seine",
+        "Bar-sur-Aube"
+      ],
+      "famous_producers": [
+        "champagne-drappier",
+        "roses-de-jeanne"
+      ],
+      "aliases": [
+        "Cote des Bar",
+        "Aube",
+        "Barsequanais"
+      ],
+      "vibe": "Rolling Kimmeridgian hills in the Aube, geologically a cousin of Chablis, where Pinot Noir and a new wave of growers drive Champagne's southern frontier.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://maisons-champagne.com/en/appellation/geographical-area/the-cote-des-bar/",
+        "address_quoted": "Cote des Bar",
+        "open_status": "open",
+        "open_evidence_url": "https://www.champagne.fr/en/about-champagne/a-great-blended-wine/the-champagne-region",
+        "cuisine_evidence_url": "https://maisons-champagne.com/en/appellation/geographical-area/the-cote-des-bar/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "reims",
+      "name": "Reims",
+      "address": "Reims, Marne, 51100 France",
+      "classification": "AOC Champagne (Reims, capital of the Montagne de Reims)",
+      "description": "The cathedral city at the heart of Champagne and headquarters of many grandes maisons. Beneath its streets lie kilometres of Gallo-Roman chalk crayeres now used to age Champagne, a UNESCO World Heritage feature of the region.",
+      "key_varietals": [
+        "Pinot Noir",
+        "Chardonnay",
+        "Pinot Meunier"
+      ],
+      "sub_communes": [
+        "Reims city centre",
+        "Saint-Nicaise hill"
+      ],
+      "famous_producers": [
+        "champagne-krug",
+        "champagne-louis-roederer",
+        "champagne-veuve-clicquot",
+        "champagne-taittinger",
+        "champagne-ruinart"
+      ],
+      "aliases": [
+        "Reims",
+        "Rheims"
+      ],
+      "vibe": "A grand coronation city whose chalk cellars and avenue of maisons make it the urban gateway to Champagne.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.champagne.fr/en/about-champagne/a-great-blended-wine/the-champagne-region",
+        "address_quoted": "Reims",
+        "open_status": "open",
+        "open_evidence_url": "https://maisons-champagne.com/en/appellation/geographical-area/the-montagne-de-reims/",
+        "cuisine_evidence_url": "https://www.champagne.fr/en/about-champagne/a-great-blended-wine/the-champagne-region",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "epernay",
+      "name": "Epernay",
+      "address": "Epernay, Marne, 51200 France",
+      "classification": "AOC Champagne (Epernay, capital of Champagne)",
+      "description": "The self-styled capital of Champagne, where the Avenue de Champagne lines up grandes maisons above more than a hundred kilometres of cellars. The natural meeting point of the Vallee de la Marne and the Cote des Blancs.",
+      "key_varietals": [
+        "Chardonnay",
+        "Pinot Noir",
+        "Pinot Meunier"
+      ],
+      "sub_communes": [
+        "Avenue de Champagne",
+        "Epernay centre"
+      ],
+      "famous_producers": [
+        "champagne-moet-chandon",
+        "champagne-perrier-jouet",
+        "champagne-pol-roger",
+        "champagne-gosset"
+      ],
+      "aliases": [
+        "Epernay",
+        "Capital of Champagne"
+      ],
+      "vibe": "A wine town built on the Avenue de Champagne, where the great Epernay houses tunnel deep cellars into the chalk.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.epernay-tourisme.com/en/commerce/maison-de-champagne-moet-chandon/",
+        "address_quoted": "Epernay",
+        "open_status": "open",
+        "open_evidence_url": "https://www.champagne.fr/en/about-champagne/a-great-blended-wine/the-champagne-region",
+        "cuisine_evidence_url": "https://www.epernay-tourisme.com/en/commerce/maison-de-champagne-moet-chandon/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "ay",
+      "name": "Ay",
+      "address": "Ay, Ay-Champagne, Marne, 51160 France",
+      "classification": "AOC Champagne (Ay Grand Cru, Vallee de la Marne)",
+      "description": "A Grand Cru village on the Marne just across from Epernay, historically prized for Pinot Noir. Home to Bollinger and Deutz and birthplace village of Gosset, its south-facing slopes give some of Champagne's most structured base wines.",
+      "key_varietals": [
+        "Pinot Noir",
+        "Chardonnay"
+      ],
+      "sub_communes": [
+        "Ay-Champagne"
+      ],
+      "famous_producers": [
+        "champagne-bollinger",
+        "champagne-deutz",
+        "champagne-gosset"
+      ],
+      "aliases": [
+        "Ay",
+        "Ay-Champagne"
+      ],
+      "vibe": "A historic Grand Cru Pinot Noir village whose steep south slopes have made benchmark Champagne for centuries.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://maisons-champagne.com/en/appellation/geographical-area/the-marne-valley/",
+        "address_quoted": "Marne Valley",
+        "open_status": "open",
+        "open_evidence_url": "https://www.champagne.fr/en/about-champagne/a-great-blended-wine/the-champagne-region",
+        "cuisine_evidence_url": "https://maisons-champagne.com/en/appellation/geographical-area/the-marne-valley/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "cramant",
+      "name": "Cramant",
+      "address": "Cramant, Marne, 51530 France",
+      "classification": "AOC Champagne (Cramant Grand Cru, Cote des Blancs)",
+      "description": "A Grand Cru village near the top of the Cote des Blancs, all Chardonnay. Its deep chalk gives soft, creamy, floral Blanc de Blancs, and it lends its name to the historic Cramant blanc de blancs style.",
+      "key_varietals": [
+        "Chardonnay"
+      ],
+      "sub_communes": [
+        "Cramant"
+      ],
+      "famous_producers": [
+        "champagne-diebolt-vallois"
+      ],
+      "aliases": [
+        "Cramant"
+      ],
+      "vibe": "A creamy, floral Grand Cru of the Cote des Blancs, beloved for soft and aromatic Blanc de Blancs.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://maisons-champagne.com/en/appellation/geographical-area/cote-des-blancs/",
+        "address_quoted": "Cote des Blancs",
+        "open_status": "open",
+        "open_evidence_url": "https://www.champagne.fr/en/about-champagne/a-great-blended-wine/the-champagne-region",
+        "cuisine_evidence_url": "https://maisons-champagne.com/en/appellation/geographical-area/cote-des-blancs/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "avize",
+      "name": "Avize",
+      "address": "Avize, Marne, 51190 France",
+      "classification": "AOC Champagne (Avize Grand Cru, Cote des Blancs)",
+      "description": "A Grand Cru Chardonnay village at the core of the Cote des Blancs, home to Jacques Selosse and Agrapart. Its chalk gives taut, mineral, structured Blanc de Blancs built for long ageing.",
+      "key_varietals": [
+        "Chardonnay"
+      ],
+      "sub_communes": [
+        "Avize"
+      ],
+      "famous_producers": [
+        "jacques-selosse",
+        "champagne-agrapart"
+      ],
+      "aliases": [
+        "Avize"
+      ],
+      "vibe": "A taut, mineral Grand Cru at the centre of the Cote des Blancs, a magnet for cult grower Chardonnay.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://maisons-champagne.com/en/appellation/geographical-area/cote-des-blancs/",
+        "address_quoted": "Cote des Blancs",
+        "open_status": "open",
+        "open_evidence_url": "https://www.champagne.fr/en/about-champagne/a-great-blended-wine/the-champagne-region",
+        "cuisine_evidence_url": "https://maisons-champagne.com/en/appellation/geographical-area/cote-des-blancs/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "le-mesnil-sur-oger",
+      "name": "Le Mesnil-sur-Oger",
+      "address": "Le Mesnil-sur-Oger, Marne, 51190 France",
+      "classification": "AOC Champagne (Le Mesnil-sur-Oger Grand Cru, Cote des Blancs)",
+      "description": "The most celebrated Grand Cru of the Cote des Blancs, source of the steeliest, longest-lived Blanc de Blancs. Home of Salon, Delamotte and Pierre Peters, its cool chalk gives wines of piercing precision.",
+      "key_varietals": [
+        "Chardonnay"
+      ],
+      "sub_communes": [
+        "Le Mesnil-sur-Oger"
+      ],
+      "famous_producers": [
+        "champagne-salon",
+        "champagne-pierre-peters"
+      ],
+      "aliases": [
+        "Le Mesnil-sur-Oger",
+        "Le Mesnil"
+      ],
+      "vibe": "The steely benchmark Grand Cru of the Cote des Blancs, home of Salon and the most precise Blanc de Blancs.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://maisons-champagne.com/en/appellation/geographical-area/cote-des-blancs/",
+        "address_quoted": "Cote des Blancs",
+        "open_status": "open",
+        "open_evidence_url": "https://www.champagne.fr/en/about-champagne/a-great-blended-wine/the-champagne-region",
+        "cuisine_evidence_url": "https://maisons-champagne.com/en/appellation/geographical-area/cote-des-blancs/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "bouzy",
+      "name": "Bouzy",
+      "address": "Bouzy, Marne, 51150 France",
+      "classification": "AOC Champagne (Bouzy Grand Cru, Montagne de Reims)",
+      "description": "A Grand Cru Pinot Noir village on the south flank of the Montagne de Reims, famous for ripe, powerful black grapes and for the rare still red Coteaux Champenois Bouzy Rouge.",
+      "key_varietals": [
+        "Pinot Noir",
+        "Chardonnay"
+      ],
+      "sub_communes": [
+        "Bouzy"
+      ],
+      "famous_producers": [
+        "champagne-paul-bara"
+      ],
+      "aliases": [
+        "Bouzy"
+      ],
+      "vibe": "A warm Grand Cru on the sunny south face of the Montagne, where Pinot Noir ripens fully enough to make still red Bouzy Rouge.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://maisons-champagne.com/en/appellation/geographical-area/the-montagne-de-reims/",
+        "address_quoted": "Montagne de Reims",
+        "open_status": "open",
+        "open_evidence_url": "https://www.champagne.fr/en/about-champagne/a-great-blended-wine/the-champagne-region",
+        "cuisine_evidence_url": "https://maisons-champagne.com/en/appellation/geographical-area/the-montagne-de-reims/",
+        "checked_on": "2026-05-25"
+      }
+    }
+  ]
+}
