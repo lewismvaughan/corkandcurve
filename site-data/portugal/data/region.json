@@ -1,0 +1,33 @@
+{
+  "destination": {
+    "slug": "portugal",
+    "name": "Portugal",
+    "country": "Portugal",
+    "country_slug": "portugal",
+    "type": "country",
+    "tagline": "From Port and the Douro to Vinho Verde, Dao and Madeira",
+    "overview": "Portugal pours one of Europe's most distinctive wine maps: fortified Port and bold reds from the terraced Douro, crisp Vinho Verde in the green north, structured Dao and Bairrada in the centre, ripe Alentejo in the south, and volcanic Madeira in the Atlantic.",
+    "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Vall%C3%A9e_du_Douro_-_vignoble_de_porto.JPG/1280px-Vall%C3%A9e_du_Douro_-_vignoble_de_porto.JPG",
+    "hero_image_source_url": "https://commons.wikimedia.org/wiki/File:Vall%C3%A9e_du_Douro_-_vignoble_de_porto.JPG",
+    "hero_image_credit": "Photo by PRA on Wikimedia Commons, CC BY 3.0",
+    "hero_image_alt": "Terraced vineyards above the Douro river in Portugal's Port wine country",
+    "hero_image_source": "Wikimedia Commons",
+    "hero_image_photographer": "PRA",
+    "hero_image_license": "CC BY 3.0"
+  },
+  "seo": {
+    "pages": {
+      "index": {
+        "title": "Portugal wine regions | Cork & Curve",
+        "description": "Explore Portugal's wine regions on Cork & Curve, from the terraced Douro and Port lodges to Vinho Verde, Dao, Bairrada, Alentejo and Madeira."
+      }
+    },
+    "geo": {
+      "country_code": "PT"
+    }
+  },
+  "_metadata": {
+    "type": "country",
+    "status": "live"
+  }
+}

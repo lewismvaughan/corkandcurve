@@ -137,6 +137,16 @@ def _walk_entities(data_dir: Path):
                         if isinstance(e, dict):
                             yield f.name, f"dietary[{sub}]", sub, e
             continue
+        if f.name == "wines.json":
+            # Cuvée taste evidence: sample up to 30 cuvées and confirm the
+            # cited cuisine_evidence_url page actually contains a taste
+            # descriptor. WARN-only (see check_city) so it never retro-breaks
+            # shipped regions, but it makes the Rioja/Douro homepage-citation
+            # class a deterministic per-ship signal instead of a QA-only catch.
+            cuvees = [e for e in (d.get("wines") or []) if isinstance(e, dict)]
+            for e in cuvees[:30]:
+                yield f.name, "wines", None, e
+            continue
         for k in ENTITY_LIST_KEYS:
             v = d.get(k)
             if isinstance(v, list):
@@ -154,6 +164,26 @@ def _expected_claims(topic_key: str, dietary_sub: str | None, entity: dict) -> t
         syns = DIETARY_SYNONYMS.get(dietary_sub)
         if syns:
             needles.append((f"dietary={dietary_sub}", syns))
+
+    if topic_key == "wines":
+        # The cited page should contain at least one of the cuvée's taste
+        # descriptors. Use the longer/distinctive ones (>=5 chars) to avoid
+        # spurious matches on common words ("fresh", "long").
+        # Only check aroma/palate (the sourced sensory descriptors). Do NOT
+        # fall back to taste.summary: when aroma/palate are deliberately
+        # removed (no per-wine source), a kept structural summary would
+        # otherwise produce a false WARN (Opus note, Douro 2026-05-25).
+        taste = entity.get("taste") or {}
+        descs = []
+        for fld in ("aroma", "palate"):
+            val = taste.get(fld)
+            if isinstance(val, list):
+                descs += [str(x) for x in val]
+            elif isinstance(val, str):
+                descs += [val]
+        descs = [d for d in descs if len(d) >= 5]
+        if descs:
+            needles.append(("taste", tuple(descs)))
 
     labels = [n[0] for n in needles]
     return labels, [s for _, syns in needles for s in syns]
@@ -215,7 +245,13 @@ def check_city(country: str, city: str, strict: bool = False) -> int:
                     row["matched"].append(needle)
             if not row["matched"]:
                 row["missed"] = row["needles"]
-                err += 1
+                if row["topic"] == "wines":
+                    # WARN-only: surfaces the homepage/landing-citation class
+                    # without flipping ship_safety (would retro-break shipped
+                    # regions). QA Section I does the decisive removal/re-anchor.
+                    warn += 1
+                else:
+                    err += 1
 
     print()
     print(f"{'slug':35s} {'topic':18s} {'status':8s} {'verdict'}")
@@ -228,8 +264,10 @@ def check_city(country: str, city: str, strict: bool = False) -> int:
 
     matched_count = sum(1 for r in rows if r["matched"])
     print()
-    print(f"[{country}/{city}] matched: {matched_count}/{len(rows)}  miss: {err}  fetch-fail: {fetch_fail}")
+    print(f"[{country}/{city}] matched: {matched_count}/{len(rows)}  miss(HARD): {err}  cuvee-taste-miss(WARN): {warn}  fetch-fail: {fetch_fail}")
     print("    miss = page text does not mention the claim and the page fetched OK.")
+    print("    cuvee-taste-miss = cited cuisine_evidence_url lacks the cuvée's taste descriptors")
+    print("      (WARN, non-blocking; QA Section I must re-anchor to a per-wine/critic page or drop the note).")
     print("    fetch-fail = could not fetch the page (anti-bot/Cloudflare/4xx); not a defect.")
 
     return 1 if err else 0

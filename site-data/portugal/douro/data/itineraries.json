@@ -1,0 +1,245 @@
+{
+  "itineraries": [
+    {
+      "slug": "porto-and-gaia-port-weekend",
+      "name": "Porto and Gaia Port weekend",
+      "length_days": 2,
+      "theme": "Two days of Port lodges, riverside wine bars and museums in Porto and Vila Nova de Gaia",
+      "base": "Porto",
+      "days": [
+        {
+          "day": 1,
+          "morning": "Cross the Dom Luis I bridge to Vila Nova de Gaia and tour the Taylor's Port cellars, finishing in the peacock-dotted tasting garden with a flight of tawny and vintage Port.",
+          "lunch": "Lunch on the Gaia waterfront before walking up the hill.",
+          "afternoon": "Continue to Graham's 1890 Lodge for a guided tour and a tasting in the Vintage Room among bottles dating to the 1890s.",
+          "evening": "Aperitif at the Espaco Porto Cruz 360 rooftop lounge over the river, then dinner in Porto.",
+          "accommodation": "Stay at The Yeatman wine hotel on the Gaia hillside.",
+          "venues": [
+            "taylors-port-cellars-gaia",
+            "grahams-1890-lodge-gaia",
+            "the-yeatman-gaia"
+          ]
+        },
+        {
+          "day": 2,
+          "morning": "Visit the WOW World of Wine cultural district in Gaia, taking in the wine museum and a self-guided tasting.",
+          "lunch": "Lunch in Ribeira across the river.",
+          "afternoon": "Taste through small-grower Ports at Vinologia in Ribeira, then a Douro-focused glass at Prova.",
+          "evening": "Late candle-lit wine in the former chapel at Capela Incomum in Cedofeita.",
+          "accommodation": "Second night at The Yeatman or a Porto centre hotel.",
+          "venues": [
+            "wow-world-of-wine-gaia",
+            "vinologia-porto",
+            "prova-porto",
+            "capela-incomum-porto"
+          ]
+        }
+      ],
+      "description": "A two-day Porto and Gaia weekend through the historic Port lodges, the WOW museum quarter and the riverside wine bars of Ribeira, with a wine-hotel base.",
+      "tip": "Book the Graham's Vintage Room and Taylor's cellar tours ahead; the lodges fill in high season.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.taylor.pt/en/visit-taylors/port-cellars",
+        "address_quoted": "Vila Nova de Gaia",
+        "open_status": "open",
+        "open_evidence_url": "https://www.grahams-port.com/visit-us",
+        "cuisine_evidence_url": "https://www.the-yeatman-hotel.com/en/porto/porto-nightlife/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "cima-corgo-quintas-three-days",
+      "name": "Cima Corgo quintas, three days",
+      "length_days": 3,
+      "theme": "Into the heart of the Douro: Regua, Pinhao and the Cima Corgo quintas",
+      "base": "Pinhao",
+      "days": [
+        {
+          "day": 1,
+          "morning": "Drive or take the scenic train up to Peso da Regua and visit the Museu do Douro to ground the trip in the valley's history.",
+          "lunch": "Lunch at Castas e Pratos by the Regua station.",
+          "afternoon": "Tasting and classes at Quinta do Vallado just outside Regua, on the banks of the Corgo.",
+          "evening": "Drive on to Pinhao and settle in along the river.",
+          "accommodation": "Stay at Quinta do Vallado's wine hotel near Regua.",
+          "venues": [
+            "museu-do-douro-regua",
+            "castas-e-pratos-regua",
+            "quinta-do-vallado-regua"
+          ]
+        },
+        {
+          "day": 2,
+          "morning": "Visit Quinta de la Rosa just outside Pinhao for a cellar tasting of its reds and Ports under winemaker Jorge Moreira.",
+          "lunch": "Lunch on the Quinta de la Rosa terrace over the river.",
+          "afternoon": "Continue to the Bomfim 1896 experience at Pinhao for a Symington tasting in the vineyards.",
+          "evening": "Dinner at the historic Vintage House in Pinhao.",
+          "accommodation": "Stay at Quinta de la Rosa or The Vintage House in Pinhao.",
+          "venues": [
+            "quinta-de-la-rosa-pinhao",
+            "bomfim-1896-pinhao",
+            "the-vintage-house-pinhao"
+          ]
+        },
+        {
+          "day": 3,
+          "morning": "Take a rabelo boat cruise from Pinhao to read the terraced landscape from the water.",
+          "lunch": "Lunch back in Pinhao.",
+          "afternoon": "Finish with a visit to Wine and Soul at Vale Mendiz for its cult Pintas and Manoella, by appointment.",
+          "evening": "Return downriver to Porto or Regua.",
+          "accommodation": "Onward travel.",
+          "venues": [
+            "rabelo-boat-cruise-pinhao",
+            "wine-and-soul"
+          ]
+        }
+      ],
+      "description": "A three-day route through the Cima Corgo from Regua to Pinhao, taking in the Douro museum, riverside quintas, a Symington vineyard tasting and the cult Wine and Soul estate.",
+      "tip": "Wine and Soul is by appointment only; arrange the visit before you set out, and take the train at least one way for the views.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.quintadelarosa.com/",
+        "address_quoted": "Pinhao",
+        "open_status": "open",
+        "open_evidence_url": "https://wineandsoul.com/wine-tourism/",
+        "cuisine_evidence_url": "https://www.douroboys.com/quinta-do-vallado/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "douro-harvest-experience-long-weekend",
+      "name": "Douro harvest experience long weekend",
+      "length_days": 3,
+      "theme": "September vindima: picking, foot-treading and harvest feasts in the Douro",
+      "base": "Folgosa and Pinhao",
+      "days": [
+        {
+          "day": 1,
+          "morning": "Begin at Quinta do Tedo near Folgosa for a tour of the organic estate at the meeting of the Tedo and Douro rivers.",
+          "lunch": "Harvest lunch with the pickers at Quinta do Tedo.",
+          "afternoon": "Join the afternoon foot-treading in the granite lagares as the day's grapes come in.",
+          "evening": "Dinner at DOC by Rui Paula on the riverbank at Folgosa.",
+          "accommodation": "Stay near Folgosa or Regua.",
+          "venues": [
+            "quinta-do-tedo-harvest-foot-treading",
+            "doc-rui-paula-folgosa"
+          ]
+        },
+        {
+          "day": 2,
+          "morning": "Transfer to Pinhao for a full harvest day at Quinta da Pacheca, picking on the terraces.",
+          "lunch": "Traditional harvest lunch at Quinta da Pacheca.",
+          "afternoon": "Grape treading at Croft's Quinta da Roeda, the classic Port-house harvest experience.",
+          "evening": "Aperitif and dinner in Pinhao.",
+          "accommodation": "Stay in Pinhao.",
+          "venues": [
+            "quinta-da-pacheca-harvest-experience",
+            "croft-quinta-da-roeda-grape-treading"
+          ]
+        },
+        {
+          "day": 3,
+          "morning": "Ride the historic Douro steam train between Regua and Tua for a final look at the harvest-season terraces.",
+          "lunch": "Lunch in Regua.",
+          "afternoon": "Last tasting and a tasting class at Quinta do Vallado before departing.",
+          "evening": "Onward travel to Porto.",
+          "accommodation": "Onward travel.",
+          "venues": [
+            "comboio-historico-douro-regua-tua",
+            "quinta-do-vallado-tasting-classes-regua"
+          ]
+        }
+      ],
+      "description": "A three-day September vindima trip built around picking, granite-lagar foot-treading and harvest feasts at organic and Port-house quintas, with the historic Douro train.",
+      "tip": "Harvest dates shift with ripening; confirm picking and treading sessions with each quinta and book by late summer.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "http://www.quintadotedo.com/",
+        "address_quoted": "Folgosa 5110-207",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://discoverdouro.pt/en/vindimas-no-douro-en",
+        "cuisine_evidence_url": "https://www.intothevineyard.com/journal/what-harvest-season-is-like-in-portugal-vindima",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "douro-grand-tour-five-days",
+      "name": "Douro grand tour, five days",
+      "length_days": 5,
+      "theme": "Porto, the Cima Corgo and the remote Douro Superior end to end",
+      "base": "Porto, Pinhao and the Douro Superior",
+      "days": [
+        {
+          "day": 1,
+          "morning": "Start in Gaia with the Sandeman cellars and their bottle museum under the black-caped Don.",
+          "lunch": "Lunch on the Gaia waterfront.",
+          "afternoon": "Tour the WOW World of Wine quarter and its museum.",
+          "evening": "Riverside wine bar evening at the Wine Quay Bar in Ribeira.",
+          "accommodation": "Stay in Porto.",
+          "venues": [
+            "sandeman-cellars-gaia",
+            "wow-world-of-wine-gaia",
+            "wine-quay-bar-porto"
+          ]
+        },
+        {
+          "day": 2,
+          "morning": "Drive up to Lamego and tour the area, then on to a luxury base above the valley.",
+          "lunch": "Lunch en route.",
+          "afternoon": "Check in and taste at Six Senses Douro Valley near Lamego.",
+          "evening": "Dinner at the resort overlooking the river.",
+          "accommodation": "Stay at Six Senses Douro Valley.",
+          "venues": [
+            "six-senses-douro-valley-lamego"
+          ]
+        },
+        {
+          "day": 3,
+          "morning": "Visit Quinta de la Rosa near Pinhao for a tasting under Jorge Moreira.",
+          "lunch": "Lunch on the Quinta de la Rosa terrace.",
+          "afternoon": "Afternoon tasting at the Bomfim 1896 experience in Pinhao.",
+          "evening": "Dinner at The Vintage House in Pinhao.",
+          "accommodation": "Stay at The Vintage House, Pinhao.",
+          "venues": [
+            "quinta-de-la-rosa-pinhao",
+            "bomfim-1896-pinhao",
+            "the-vintage-house-pinhao"
+          ]
+        },
+        {
+          "day": 4,
+          "morning": "Push east into the remote Douro Superior toward Vale Meao country.",
+          "lunch": "Lunch in the Douro Superior.",
+          "afternoon": "Visit Quinta Nova Winery House near Covas do Douro for a cellar tasting.",
+          "evening": "Dinner at the Conceitus Winery Restaurant.",
+          "accommodation": "Stay at Quinta Nova Winery House.",
+          "venues": [
+            "quinta-nova-winery-house-covas",
+            "conceitus-winery-restaurant-covas"
+          ]
+        },
+        {
+          "day": 5,
+          "morning": "A final visit to the cult Wine and Soul estate at Vale Mendiz, by appointment.",
+          "lunch": "Lunch in Pinhao.",
+          "afternoon": "Take the scenic train back down the valley toward Porto.",
+          "evening": "Final glass in Porto before departure.",
+          "accommodation": "Onward travel.",
+          "venues": [
+            "wine-and-soul"
+          ]
+        }
+      ],
+      "description": "A five-day end-to-end Douro tour from the Gaia Port lodges through the Cima Corgo quintas to the remote Douro Superior, mixing museums, luxury stays and cult estates.",
+      "tip": "The Douro Superior is a long drive from Porto; build in time and book Wine and Soul and the better restaurants well ahead.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.douroboys.com/quinta-do-vale-meao/",
+        "address_quoted": "Douro",
+        "open_status": "open",
+        "open_evidence_url": "https://www.quintadelarosa.com/",
+        "cuisine_evidence_url": "https://wineandsoul.com/wine-tourism/",
+        "checked_on": "2026-05-25"
+      }
+    }
+  ]
+}

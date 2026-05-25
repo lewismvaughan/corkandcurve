@@ -1,0 +1,180 @@
+{
+  "wine_hotels": [
+    {
+      "slug": "six-senses-douro-valley-lamego",
+      "name": "Six Senses Douro Valley",
+      "address": "Quinta de Vale Abraão, Samodães, 5100-758 Lamego, Portugal",
+      "neighborhood": "Samodães, Lamego, Baixo Corgo",
+      "parent_vineyard": null,
+      "category": "5-star wine resort and spa",
+      "rooms": 60,
+      "description": "A restored 19th-century manor above the Douro near Lamego, with a wine library, spa and tastings drawing on a deep Douro and Portuguese cellar.",
+      "wine_program": "Wine-library tastings, blind-tasting sessions and Douro vineyard excursions with the resident wine team",
+      "price_range": "EUR 450-1200 per night",
+      "booking_url": "https://www.sixsenses.com/en/hotels-resorts/europe/portugal/douro-valley/",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.sixsenses.com/en/hotels-resorts/europe/portugal/douro-valley/",
+        "address_quoted": "Quinta de Vale Abraão, Samodães 5100-758 Lamego, Portugal",
+        "open_status": "open",
+        "open_evidence_url": "https://www.visitportugal.com/en/content/six-senses-douro-valley",
+        "cuisine_evidence_url": "https://www.sixsenses.com/en/hotels-resorts/europe/portugal/douro-valley/dining/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "the-yeatman-gaia",
+      "name": "The Yeatman",
+      "address": "Rua do Choupelo (Santa Marinha), 345, 4400-088 Vila Nova de Gaia, Portugal",
+      "neighborhood": "Vila Nova de Gaia",
+      "parent_vineyard": null,
+      "category": "5-star wine hotel and spa",
+      "rooms": 109,
+      "description": "A luxury wine hotel in Gaia's cellar district with a 25,000-bottle cellar, a two-Michelin-star restaurant and a Caudalie vinotherapy spa overlooking Porto.",
+      "wine_program": "Daily Portuguese wine tastings, themed dinners and access to a 25,000-bottle cellar with pairing flights",
+      "price_range": "EUR 350-900 per night",
+      "booking_url": "https://www.the-yeatman-hotel.com/en/hotel-porto/",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.the-yeatman-hotel.com/en/hotel-porto/",
+        "address_quoted": "Rua do Choupelo (Santa Marinha), 345, 4400-088 Vila Nova de Gaia",
+        "open_status": "open",
+        "open_evidence_url": "https://www.booking.com/hotel/pt/the-yeatman.html",
+        "cuisine_evidence_url": "https://www.the-yeatman-hotel.com/en/food/restaurant/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "quinta-nova-winery-house-covas",
+      "name": "Quinta Nova Winery House",
+      "address": "Quinta Nova de Nossa Senhora do Carmo, Covas do Douro, 5085-222 Sabrosa, Portugal",
+      "neighborhood": "Covas do Douro, Cima Corgo",
+      "parent_vineyard": "quinta-nova",
+      "category": "Relais & Chateaux winery house",
+      "rooms": 11,
+      "description": "Portugal's first wine hotel, an 18th-century manor on a 120-hectare hilltop estate above the Douro, with its own winery, restaurant and vineyard tastings.",
+      "wine_program": "Estate tastings, vineyard and cellar tours, harvest participation and blending sessions with the Quinta Nova team",
+      "price_range": "EUR 220-600 per night",
+      "booking_url": "https://www.quintanova.com/en/relais-chateaux/winery-house/",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.quintanova.com/en/relais-chateaux/winery-house/",
+        "address_quoted": "Covas do Douro, 5085-222",
+        "open_status": "open",
+        "open_evidence_url": "https://www.thehotelguru.com/en-us/hotel/quinta-nova-de-nossa-senhora-do-carmo-pinhao",
+        "cuisine_evidence_url": "https://www.quintanova.com/en/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "quinta-de-la-rosa-pinhao",
+      "name": "Quinta de la Rosa",
+      "address": "Quinta de la Rosa, 5085-241 Pinhão, Portugal",
+      "neighborhood": "Pinhão, Cima Corgo",
+      "parent_vineyard": "quinta-de-la-rosa",
+      "category": "Wine estate hotel",
+      "rooms": 23,
+      "description": "A working wine and Port estate on the right bank near Pinhão, in the Bergqvist family since 1906, with riverside rooms, a restaurant and tastings of the estate wines.",
+      "wine_program": "Cellar tours, estate wine and Port tastings, and vineyard walks above the Douro",
+      "price_range": "EUR 180-450 per night",
+      "booking_url": "https://www.quintadelarosa.com/hotel",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.quintadelarosa.com/contact",
+        "address_quoted": "Quinta de la Rosa, 5085-241 Pinhão, Portugal",
+        "open_status": "open",
+        "open_evidence_url": "https://www.booking.com/hotel/pt/quinta-de-la-rosa.html",
+        "cuisine_evidence_url": "https://www.quintadelarosa.com/hotel",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "the-vintage-house-pinhao",
+      "name": "The Vintage House - Douro",
+      "address": "Lugar da Ponte, 5085-034 Pinhão, Portugal",
+      "neighborhood": "Pinhão, Cima Corgo",
+      "parent_vineyard": null,
+      "category": "5-star riverside hotel",
+      "rooms": 50,
+      "description": "A riverside hotel in the heart of Pinhão beside the Douro, with a wine bar and tasting programme drawing on the surrounding quintas and Port houses.",
+      "wine_program": "In-house wine bar tastings, Douro wine flights and arranged quinta visits from the riverside base",
+      "price_range": "EUR 250-600 per night",
+      "booking_url": "https://www.vintagehousehotel.com/en/",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.vintagehousehotel.com/en/",
+        "address_quoted": "Lugar da Ponte, 5085-034 Pinhão",
+        "open_status": "open",
+        "open_evidence_url": "https://www.booking.com/hotel/pt/the-vintage-house-douro.html",
+        "cuisine_evidence_url": "https://www.vintagehousehotel.com/en/douro/gastronomy/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "quinta-do-vallado-regua",
+      "name": "Quinta do Vallado Wine Hotel",
+      "address": "Vilarinho dos Freires, 5050-364 Peso da Régua, Portugal",
+      "neighborhood": "Vilarinho dos Freires, Peso da Régua, Baixo Corgo",
+      "parent_vineyard": "quinta-do-vallado",
+      "category": "Design wine hotel",
+      "rooms": 18,
+      "description": "A design hotel on a historic estate along the Corgo near Régua, built around an 1716 quinta once owned by Dona Antonia Ferreira, with daily cellar tastings.",
+      "wine_program": "Daily cellar visit and tasting, vineyard walks, picnics, boat trips and cooking classes built around the estate wines and Ports",
+      "price_range": "EUR 200-500 per night",
+      "booking_url": "https://www.quintadovallado.com/en/",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.quintadovallado.com/en/",
+        "address_quoted": "Vilarinho dos Freires, 5050-364 Peso da Régua",
+        "open_status": "open",
+        "open_evidence_url": "https://www.booking.com/hotel/pt/quinta-do-vallado.html",
+        "cuisine_evidence_url": "https://www.quintadovallado.com/en/wine-tourism/quinta-do-vallado-wine-hotel-regua/how-to-get-here/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "quinta-do-pego-valenca",
+      "name": "Hotel Rural Quinta do Pégo",
+      "address": "Estrada Nacional 222, Valença do Douro, 5120-493 Tabuaço, Portugal",
+      "neighborhood": "Valença do Douro, Cima Corgo",
+      "parent_vineyard": null,
+      "category": "Rural wine hotel",
+      "rooms": 19,
+      "description": "A wine estate hotel on the EN222 above the Douro near Pinhão, with vineyard-view rooms, a pool and tastings of the estate's own Douro wines and Ports.",
+      "wine_program": "Estate wine and Port tastings, cellar visits and vineyard walks with river views",
+      "price_range": "EUR 200-450 per night",
+      "booking_url": "https://quintadopego.com/",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://quintadopego.com/contact/",
+        "address_quoted": "National Road 222, Valença do Douro, PT-5120-493 Tabuaço",
+        "open_status": "open",
+        "open_evidence_url": "https://www.booking.com/reviews/pt/hotel/rural-quinta-do-pego.html",
+        "cuisine_evidence_url": "https://quintadopego.com/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "casa-do-visconde-de-chanceleiros-pinhao",
+      "name": "Casa do Visconde de Chanceleiros",
+      "address": "Chanceleiros, 5085-201 Pinhão, Portugal",
+      "neighborhood": "Chanceleiros, Covas do Douro, Cima Corgo",
+      "parent_vineyard": null,
+      "category": "Country house hotel",
+      "rooms": 10,
+      "description": "A restored manor house in the hills above Pinhão with vineyard views, a pool and a wine cellar, used as a quiet base for visiting the surrounding Douro quintas.",
+      "wine_program": "Cellar tastings and arranged visits to neighbouring quintas across the Cima Corgo",
+      "price_range": "EUR 150-350 per night",
+      "booking_url": "https://www.chanceleiros.com/",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.chanceleiros.com/",
+        "address_quoted": "Chanceleiros, 5085-201 Pinhão Portugal",
+        "open_status": "open",
+        "open_evidence_url": "https://www.visitportugal.com/en/NR/exeres/07A491DB-F648-4E75-B699-004183A6B2CC",
+        "cuisine_evidence_url": "https://www.chanceleiros.com/gallery/",
+        "checked_on": "2026-05-25"
+      }
+    }
+  ]
+}

@@ -1,0 +1,256 @@
+{
+  "tasting_rooms": [
+    {
+      "slug": "taylors-port-cellars-gaia",
+      "name": "Taylor's Port Cellars",
+      "address": "Rua do Choupelo 250, 4400-088 Vila Nova de Gaia, Portugal",
+      "neighborhood": "Vila Nova de Gaia",
+      "varietals_focus": ["Touriga Nacional", "Touriga Franca", "Tinta Roriz", "Tinta Barroca"],
+      "pricing": "Self-guided audio tour with a 3-Port tasting (Chip Dry, LBV, 10-Year Tawny) from around EUR 20",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": "taylor-fladgate",
+      "description": "Taylor's 300-year-old Gaia lodge runs a 13-language audio tour through the ageing cellars, finishing with a flight of Chip Dry, LBV and 10-Year Tawny on the panoramic terrace.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.taylor.pt/en/visit-taylors/port-cellars",
+        "address_quoted": "Rua do Choupelo, nº 250, 4400-088 Vila Nova de Gaia",
+        "open_status": "open",
+        "open_evidence_url": "https://www.theworlds50best.com/discovery/Establishments/Portugal/Porto/Taylors-Port-Cellars.html",
+        "cuisine_evidence_url": "https://www.taylor.pt/en/visit-taylors/port-cellars",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "grahams-1890-lodge-gaia",
+      "name": "Graham's 1890 Lodge",
+      "address": "Rua Rei Ramiro 514, 4400-281 Vila Nova de Gaia, Portugal",
+      "neighborhood": "Vila Nova de Gaia",
+      "varietals_focus": ["Touriga Nacional", "Touriga Franca", "Tinta Roriz", "Tinta Amarela"],
+      "pricing": "Guided tour with tastings of 3 to 6 Ports; reserve tastings and Vintage Room flights at higher tiers",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "w-and-j-graham",
+      "description": "Built in 1890 on a hilltop above the Douro, Graham's Symington-owned lodge ages Vintage and aged Tawny Ports in cask and pairs the cellar tour with flights and a museum of the house archive.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.grahams-port.com/1890-lodge",
+        "address_quoted": "Rua Rei Ramiro, 514, 4400-281 Vila Nova de Gaia",
+        "open_status": "open",
+        "open_evidence_url": "https://www.visitportugal.com/en/node/403603",
+        "cuisine_evidence_url": "https://www.grahams-port.com/visit-us",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "sandeman-cellars-gaia",
+      "name": "Sandeman Cellars",
+      "address": "Largo Miguel Bombarda 47, 4400-222 Vila Nova de Gaia, Portugal",
+      "neighborhood": "Vila Nova de Gaia",
+      "varietals_focus": ["Touriga Nacional", "Touriga Franca", "Tinta Roriz"],
+      "pricing": "Porto Sandeman visit with 3-Port tasting around EUR 22; 1790 visit with 5 Ports around EUR 32; Old Tawnies flight around EUR 50",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": "sandeman",
+      "description": "Housed in an 1811 granite building facing Porto, Sandeman's Sogrape-run cellar is led by guides in the caped Don costume, ending with Ruby and Tawny Ports in the tasting room.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://winetourism.sogrape.com/en/visit/sandeman",
+        "address_quoted": "Largo Miguel Bombarda, 3, 4400-222 Vila Nova de Gaia",
+        "open_status": "open",
+        "open_evidence_url": "https://www.timeout.com/porto/museums/sandeman-museum-cellar",
+        "cuisine_evidence_url": "https://www.sandeman.com/port-wine/visit/cellars-porto/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "calem-cellars-gaia",
+      "name": "Cálem Cellars",
+      "address": "Avenida Diogo Leite 344, 4400-111 Vila Nova de Gaia, Portugal",
+      "neighborhood": "Vila Nova de Gaia",
+      "varietals_focus": ["Touriga Nacional", "Touriga Franca", "Tinta Roriz", "Tinta Barroca"],
+      "pricing": "Museum, cellar and 2 or 3 Port tasting from around EUR 20; cheese and chocolate pairing options",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": "calem",
+      "description": "Producing Port since 1859, Cálem's riverfront cellar opens with an interactive museum on the Douro Demarcated Region before the cask cellars and a guided Port tasting and optional fado evenings.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://calem.pt/",
+        "address_quoted": "Avenida Diogo Leite, 344, 4400-111 Vila Nova de Gaia",
+        "open_status": "open",
+        "open_evidence_url": "https://www.yelp.com/biz/c%C3%A1lem-vila-nova-de-gaia-2",
+        "cuisine_evidence_url": "https://www.winetourism.com/experience/wine-tasting-and-tour-at-calem-wine-cellar/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "kopke-house-gaia",
+      "name": "Casa Kopke",
+      "address": "Avenida Diogo Leite 312, 4400-111 Vila Nova de Gaia, Portugal",
+      "neighborhood": "Vila Nova de Gaia",
+      "varietals_focus": ["Touriga Nacional", "Touriga Franca", "Tinta Roriz", "Malvasia"],
+      "pricing": "Tasting flights and wines by the glass; rare aged Colheita Tawny flights at the upper tiers",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": "kopke",
+      "description": "The riverside tasting house of Kopke, the oldest Port house (founded 1638), pours White, LBV, Vintage and a celebrated run of aged Colheita Tawnies by the glass and in flights.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://kopke1638.com/contacts/",
+        "address_quoted": "Avenida Diogo Leite, 312, 4400-111 Vila Nova de Gaia",
+        "open_status": "open",
+        "open_evidence_url": "https://www.yelp.com/biz/kopke-vila-nova-de-gaia",
+        "cuisine_evidence_url": "https://kopkegroup.com/en/casa-kopke",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "croft-port-cellars-gaia",
+      "name": "Croft Port Cellars",
+      "address": "Rua Barão de Forrester 412, 4400-034 Vila Nova de Gaia, Portugal",
+      "neighborhood": "Vila Nova de Gaia",
+      "varietals_focus": ["Touriga Nacional", "Touriga Franca", "Tinta Roriz", "Tinta Amarela"],
+      "pricing": "Walk-in cellar tour with a 3-Port tasting; Vintage tong-opening and blind-tasting experiences by appointment",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": "croft",
+      "description": "Croft, the oldest house dating to 1588, runs cellar tours every 40 minutes with a 3-Port tasting served on the terrace or lounge, plus pre-booked Vintage tong-opening sessions.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.croftport.com/",
+        "address_quoted": "Rua Barão de Forrester, 412, 4400-034 Vila Nova de Gaia",
+        "open_status": "open",
+        "open_evidence_url": "https://www.yelp.com/biz/croft-port-vila-nova-de-gaia",
+        "cuisine_evidence_url": "https://portwinecountry.com/index.php/the-lodge-of-croft-in-gaia/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "ferreira-cellars-gaia",
+      "name": "Ferreira Cellars",
+      "address": "Avenida Ramos Pinto 70, 4400-082 Vila Nova de Gaia, Portugal",
+      "neighborhood": "Vila Nova de Gaia",
+      "varietals_focus": ["Touriga Nacional", "Touriga Franca", "Tinta Roriz", "Tinta Barroca"],
+      "pricing": "Guided cellar visit with Port tasting; reserve flights at higher tiers",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": "ferreira",
+      "description": "Ferreira's Sogrape-run lodge tells the story of Dona Antónia Adelaide Ferreira and the house's Vintage collection back to 1815, finishing with a guided Port tasting in the cellars.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://winetourism.sogrape.com/en/visit/ferreira",
+        "address_quoted": "Av. Ramos Pinto, 70 4400-082 Vila Nova de Gaia",
+        "open_status": "open",
+        "open_evidence_url": "https://sogrape.com/tourism/caves-ferreira",
+        "cuisine_evidence_url": "https://sogrape.com/article/caves-ferreira-wine-tourism",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "quinta-do-bomfim-pinhao",
+      "name": "Quinta do Bomfim",
+      "address": "Quinta do Bomfim, 5085-060 Pinhão, Portugal",
+      "neighborhood": "Pinhão, Cima Corgo",
+      "varietals_focus": ["Touriga Nacional", "Touriga Franca", "Tinta Roriz", "Tinta Barroca"],
+      "pricing": "Guided visit and tasting from around EUR 8; Douro DOC, Port, premium Vintage and Dow's Old Tawnies flight options",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "quinta-do-bomfim",
+      "description": "Dow's home estate on the riverbank at Pinhão, farmed by the Symington family for five generations. The 1896 lodge tour ends with Douro DOC, Port or Old Tawny flights over the river.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.symington.com/visit/quinta-do-bomfim/3",
+        "address_quoted": "5085-060 Pinhão",
+        "open_status": "open",
+        "open_evidence_url": "https://www.yelp.com/biz/quinta-do-bomfim-alij%C3%B3",
+        "cuisine_evidence_url": "https://www.symington.com/visit/quinta-do-bomfim/3",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "quinta-do-seixo-valenca",
+      "name": "Quinta do Seixo (Sandeman)",
+      "address": "Valença do Douro, 5120-495 Tabuaço, Portugal",
+      "neighborhood": "Valença do Douro, Cima Corgo",
+      "varietals_focus": ["Touriga Nacional", "Touriga Franca", "Tinta Roriz"],
+      "pricing": "Guided tour with a flight of 5 selected Ports including Vau Vintage; restaurant pairings available",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "quinta-do-seixo",
+      "description": "Sandeman's 18th-century Cima Corgo estate above Valença do Douro, with a panoramic visitor centre carved into the hillside and tastings of five Ports in a restricted reserve area.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://winetourism.sogrape.com/en/visit/quinta-do-seixo-sandeman",
+        "address_quoted": "Valença do Douro 5120 - 495 Tabuaço Portugal",
+        "open_status": "open",
+        "open_evidence_url": "https://www.sandeman.com/port-wine/visit/quinta-do-seixo-douro/",
+        "cuisine_evidence_url": "https://www.sandeman.com/port-wine/visit/quinta-do-seixo-douro/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "quinta-das-carvalhas-pinhao",
+      "name": "Quinta das Carvalhas",
+      "address": "Quinta das Carvalhas, 5085-034 Pinhão, Portugal",
+      "neighborhood": "Pinhão, Cima Corgo",
+      "varietals_focus": ["Touriga Nacional", "Touriga Franca", "Tinta Roriz", "Tinta Francisca"],
+      "pricing": "Guided tasting of 5 wines with regional cheeses and charcuterie; vineyard tours by jeep available",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "quinta-das-carvalhas",
+      "description": "Real Companhia Velha's flagship estate facing Pinhão, the largest single quinta in the Douro. Tastings span the white, Vinhas Velhas red, LBV and 20-Year Tawny with cheese and cold cuts.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://quintadascarvalhas.pt/site/en/visitas-e-provas/",
+        "address_quoted": "Quinta das Carvalhas - Real Companhia Velha, Código Postal: 5085 034 PINHÃO",
+        "open_status": "open",
+        "open_evidence_url": "https://exploredourovalley.com/listing/quinta-das-carvalhas/",
+        "cuisine_evidence_url": "https://quintadascarvalhas.pt/site/en/visitas-e-provas/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "quinta-do-crasto-gouvinhas",
+      "name": "Quinta do Crasto",
+      "address": "Gouvinhas, 5060-063 Sabrosa, Portugal",
+      "neighborhood": "Gouvinhas, Cima Corgo",
+      "varietals_focus": ["Touriga Nacional", "Touriga Franca", "Tinta Roriz", "Tinta Barroca"],
+      "pricing": "Guided tour and tasting of 5 wines; lunches, dinners and infinity-pool visits combinable with river boat trips",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "quinta-do-crasto",
+      "description": "A 135-hectare estate on the Douro's right bank between Régua and Pinhão, famous for old-vine field-blend reds. Tastings of five wines run daily with views from the celebrated infinity pool.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.quintadocrasto.pt/en/wine-tourism/",
+        "address_quoted": "Gouvinhas, 5060-063 Sabrosa",
+        "open_status": "open",
+        "open_evidence_url": "https://www.worldsbestvineyards.com/the-list/11-20/quinta-do-crasto.html",
+        "cuisine_evidence_url": "https://www.quintadocrasto.pt/en/wine-tourism/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "quinta-do-tedo-armamar",
+      "name": "Quinta do Tedo",
+      "address": "Folgosa do Douro, 5110-548 Armamar, Portugal",
+      "neighborhood": "Armamar, Cima Corgo",
+      "varietals_focus": ["Touriga Nacional", "Touriga Franca", "Tinta Roriz", "Tinta Amarela"],
+      "pricing": "Guided tour and tasting around one hour; Vintage Port and organic-wine flights, on-site bistro pairings",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "quinta-do-tedo",
+      "description": "An 18th-century organic estate at the confluence of the Douro and Tedo rivers. Hour-long tours and tastings cover the Vintage Ports and organic Douro reds, with a bistro and walking trails.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.quintadotedo.com/",
+        "address_quoted": "Folgosa do Douro, 5110-548 Armamar",
+        "open_status": "open",
+        "open_evidence_url": "https://www.winetourism.com/winery/quinta-do-tedo/",
+        "cuisine_evidence_url": "https://www.winetourism.com/experience/wine-tasting-and-tour-at-quinta-do-tedo/",
+        "checked_on": "2026-05-25"
+      }
+    }
+  ]
+}

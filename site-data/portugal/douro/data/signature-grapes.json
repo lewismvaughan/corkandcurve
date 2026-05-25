@@ -1,0 +1,132 @@
+{
+  "signature_grapes": [
+    {
+      "slug": "touriga-nacional",
+      "name": "Touriga Nacional",
+      "style_focus": "red",
+      "regions_grown": ["cima-corgo", "douro-superior", "baixo-corgo"],
+      "description": "Portugal's most prized red grape and the backbone of top Port and DOC Douro blends. Small, thick-skinned berries give deeply coloured, structured wines with violet and bergamot aromatics, black fruit and firm tannins. Naturally low-yielding, it performs best on the warm schist of the Cima Corgo and Douro Superior.",
+      "key_producers": ["quinta-do-crasto", "quinta-do-vale-meao", "quinta-do-noval", "quinta-do-vesuvio"],
+      "verified": {
+        "source_url": "https://www.ivdp.pt/en/",
+        "address_quoted": "Douro",
+        "open_status": "open",
+        "open_evidence_url": "https://winesofportugal.com/en/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Touriga_Nacional",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "touriga-franca",
+      "name": "Touriga Franca",
+      "style_focus": "red",
+      "regions_grown": ["cima-corgo", "baixo-corgo", "douro-superior"],
+      "description": "The most widely planted red grape in the Douro and the workhorse of Port blends. Later-ripening and more productive than Touriga Nacional, it brings perfume, ripe red and black fruit and supple tannins that soften and lift the sterner grapes around it.",
+      "key_producers": ["quinta-do-crasto", "quinta-do-vallado", "quinta-de-la-rosa", "grahams"],
+      "verified": {
+        "source_url": "https://www.ivdp.pt/en/",
+        "address_quoted": "Douro",
+        "open_status": "open",
+        "open_evidence_url": "https://winesofportugal.com/en/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Touriga_Franca",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "tinta-roriz",
+      "name": "Tinta Roriz",
+      "style_focus": "red",
+      "regions_grown": ["cima-corgo", "baixo-corgo", "douro-superior"],
+      "description": "The Douro name for Tempranillo, also called Aragonez further south. It ripens reliably and adds red-fruited flesh, body and grip to Port and DOC Douro reds. On the best schist sites it gives concentrated, age-worthy wines; in cooler spots it can be more herbal.",
+      "key_producers": ["quinta-do-crasto", "quinta-do-vale-meao", "chryseia", "wine-and-soul"],
+      "verified": {
+        "source_url": "https://www.ivdp.pt/en/",
+        "address_quoted": "Douro",
+        "open_status": "open",
+        "open_evidence_url": "https://winesofportugal.com/en/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Tempranillo",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "tinta-barroca",
+      "name": "Tinta Barroca",
+      "style_focus": "red",
+      "regions_grown": ["baixo-corgo", "cima-corgo"],
+      "description": "An early-ripening Douro red valued for sugar and sweetness in Port blends, especially on cooler, higher and north-facing sites where it keeps freshness. It contributes round, jammy fruit but is prone to raisining in extreme heat, so it is usually a supporting grape rather than a soloist.",
+      "key_producers": ["dows", "grahams", "quinta-do-vallado"],
+      "verified": {
+        "source_url": "https://www.ivdp.pt/en/",
+        "address_quoted": "Douro",
+        "open_status": "open",
+        "open_evidence_url": "https://winesofportugal.com/en/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Tinta_Barroca",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "tinto-cao",
+      "name": "Tinto Cao",
+      "style_focus": "red",
+      "regions_grown": ["cima-corgo", "baixo-corgo"],
+      "description": "One of the oldest and finest Douro reds, prized for elegance, acidity and ageing potential rather than volume. Very low-yielding and small-berried, it adds structure and longevity to Vintage Port and serious DOC Douro reds, and is one of the five grapes historically recommended for the best Ports.",
+      "key_producers": ["quinta-do-crasto", "quinta-do-portal", "quinta-do-noval"],
+      "verified": {
+        "source_url": "https://www.ivdp.pt/en/",
+        "address_quoted": "Douro",
+        "open_status": "open",
+        "open_evidence_url": "https://winesofportugal.com/en/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Tinto_C%C3%A3o",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "sousao",
+      "name": "Sousao",
+      "style_focus": "red",
+      "regions_grown": ["cima-corgo", "douro-superior"],
+      "description": "A deeply coloured, high-acid red, known as Vinhao in the Vinho Verde region. In the warm Douro its bracing acidity is increasingly valued for freshness and colour in both Port and DOC Douro reds, where it counterbalances riper, fuller grapes.",
+      "key_producers": ["quinta-de-la-rosa", "wine-and-soul", "quinta-do-vale-meao"],
+      "verified": {
+        "source_url": "https://www.ivdp.pt/en/",
+        "address_quoted": "Douro",
+        "open_status": "open",
+        "open_evidence_url": "https://winesofportugal.com/en/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Sous%C3%A3o",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "viosinho",
+      "name": "Viosinho",
+      "style_focus": "white",
+      "regions_grown": ["cima-corgo", "baixo-corgo"],
+      "description": "Regarded as one of the Douro's highest-quality white grapes, giving aromatic, full-bodied and well-structured whites with good ageing potential. Lower-yielding than the region's other whites, it is a key component of premium DOC Douro branco and white Port.",
+      "key_producers": ["quinta-do-crasto", "quinta-do-vallado", "niepoort"],
+      "verified": {
+        "source_url": "https://www.ivdp.pt/en/",
+        "address_quoted": "Douro",
+        "open_status": "open",
+        "open_evidence_url": "https://winesofportugal.com/en/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Viosinho",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "rabigato",
+      "name": "Rabigato",
+      "style_focus": "white",
+      "regions_grown": ["cima-corgo", "douro-superior", "baixo-corgo"],
+      "description": "A high-acid Douro white that keeps freshness and citrus, floral and mineral character even in a hot region, making it valuable for balance in DOC Douro white blends. The name refers to its cat's-tail bunch shape, and it is widely planted on schist terraces.",
+      "key_producers": ["niepoort", "quinta-do-vallado", "quinta-de-la-rosa"],
+      "verified": {
+        "source_url": "https://www.ivdp.pt/en/",
+        "address_quoted": "Douro",
+        "open_status": "open",
+        "open_evidence_url": "https://winesofportugal.com/en/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Rabigato",
+        "checked_on": "2026-05-25"
+      }
+    }
+  ]
+}

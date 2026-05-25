@@ -1,0 +1,106 @@
+{
+  "wine_schools": [
+    {
+      "slug": "wow-the-wine-school-gaia",
+      "name": "The Wine School at WOW",
+      "address": "Rua do Choupelo 39, 4400-088 Vila Nova de Gaia, Portugal",
+      "neighborhood": "Vila Nova de Gaia",
+      "description": "The wine school inside the WOW cultural district in Gaia, running WSET Level 1 and 2 courses plus tastings, pairings and workshops in Portuguese and English.",
+      "courses_offered": [
+        "WSET Level 1 Award in Wines",
+        "WSET Level 2 Award in Wines",
+        "Port and Douro tasting workshops",
+        "Food and wine pairing sessions"
+      ],
+      "languages": ["English", "Portuguese"],
+      "price_range": "Workshops from around EUR 25; WSET Level 2 around EUR 400",
+      "certifications": ["WSET Level 1", "WSET Level 2"],
+      "booking_url": "https://www.wow.pt/en/tws-offers/wset",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.wow.pt/en/tws-offers/wset",
+        "address_quoted": "39 Rua do Choupelo, 4400-088 Vila Nova de Gaia",
+        "open_status": "open",
+        "open_evidence_url": "https://winetravelawards.com/nominee/the-wine-school-world-of-wine-wow-5/",
+        "cuisine_evidence_url": "https://www.wow.pt/en/tws-offers/wset",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "plansel-international-wine-school-douro",
+      "name": "Plansel International Wine School (Douro)",
+      "address": "Avenida de Lagoas 93, Quinta das Sequeirinhas, 5100-664 Penajóia, Portugal",
+      "neighborhood": "Penajóia, Lamego, Baixo Corgo",
+      "description": "A WSET Approved Programme Provider running courses in the Douro at Quinta das Sequeirinhas near Régua, with WSET-trained educators and tasting-led sessions.",
+      "courses_offered": [
+        "WSET Level 1 Award in Wines",
+        "WSET Level 2 Award in Wines",
+        "WSET Level 3 Award in Wines",
+        "Portuguese wine intensives"
+      ],
+      "languages": ["English", "Portuguese"],
+      "price_range": "WSET Level 1 from around EUR 200 to WSET Level 3 around EUR 1100",
+      "certifications": ["WSET Level 1", "WSET Level 2", "WSET Level 3"],
+      "booking_url": "https://planselinternationalwineschool.com/wine-courses-in-douro/",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://planselinternationalwineschool.com/wine-courses-in-douro/",
+        "address_quoted": "Avenida de Lagoas 93, 5100-664 Penajóia",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wsetglobal.com/pt/portuguese-qualifications/",
+        "cuisine_evidence_url": "https://planselinternationalwineschool.com/wine-courses-in-douro/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "quinta-do-vallado-tasting-classes-regua",
+      "name": "Quinta do Vallado Tastings and Cooking Classes",
+      "address": "Vilarinho dos Freires, 5050-364 Peso da Régua, Portugal",
+      "neighborhood": "Vilarinho dos Freires, Peso da Régua, Baixo Corgo",
+      "description": "The Vallado estate near Régua runs daily cellar visits with guided tastings plus cooking classes that pair Douro dishes with the quinta's own wines and Ports.",
+      "courses_offered": [
+        "Daily cellar visit with guided tasting at 17:00",
+        "Douro cooking classes",
+        "Vineyard and winery tours"
+      ],
+      "languages": ["English", "Portuguese"],
+      "price_range": "Cellar visit and tasting from around EUR 15; cooking classes priced on request",
+      "certifications": [],
+      "booking_url": "https://www.quintadovallado.com/en/wine-tourism/quinta-do-vallado-wine-hotel-regua/how-to-get-here/",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.quintadovallado.com/en/",
+        "address_quoted": "Vilarinho dos Freires, 5050-364 Peso da Régua",
+        "open_status": "open",
+        "open_evidence_url": "https://winesofportugal.com/en/discover/wine-tourism/quinta-do-vallado/",
+        "cuisine_evidence_url": "https://www.quintadovallado.com/en/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "calem-tasting-experiences-gaia",
+      "name": "Cálem Tasting Experiences",
+      "address": "Avenida Diogo Leite 344, 4400-111 Vila Nova de Gaia, Portugal",
+      "neighborhood": "Vila Nova de Gaia",
+      "description": "Cálem's Gaia cellar runs structured Port education sessions, from guided tasting flights to blind-tasting and Port-and-chocolate workshops with house experts.",
+      "courses_offered": [
+        "Guided Port tasting flights",
+        "Port and chocolate pairing workshop",
+        "Premium and Vintage Port masterclass"
+      ],
+      "languages": ["English", "Portuguese", "Spanish", "French"],
+      "price_range": "Tasting workshops from around EUR 20",
+      "certifications": [],
+      "booking_url": "https://calem.pt/",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://calem.pt/",
+        "address_quoted": "Avenida Diogo Leite, 344, 4400-111 Vila Nova de Gaia",
+        "open_status": "open",
+        "open_evidence_url": "https://www.winetourism.com/experience/wine-tasting-and-tour-at-calem-wine-cellar/",
+        "cuisine_evidence_url": "https://calem.pt/",
+        "checked_on": "2026-05-25"
+      }
+    }
+  ]
+}

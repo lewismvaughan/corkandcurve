@@ -25,6 +25,18 @@
       ]
     },
     {
+      "slug": "alicante-bouschet",
+      "display": "Alicante Bouschet",
+      "regions": [
+        {
+          "country_slug": "portugal",
+          "region_slug": "douro",
+          "region_name": "Douro Valley",
+          "n": 1
+        }
+      ]
+    },
+    {
       "slug": "aligote",
       "display": "Aligote",
       "regions": [
@@ -33,6 +45,18 @@
           "region_slug": "burgundy",
           "region_name": "Burgundy",
           "n": 14
+        }
+      ]
+    },
+    {
+      "slug": "arinto",
+      "display": "Arinto",
+      "regions": [
+        {
+          "country_slug": "portugal",
+          "region_slug": "douro",
+          "region_name": "Douro Valley",
+          "n": 1
         }
       ]
     },
@@ -151,6 +175,18 @@
       ]
     },
     {
+      "slug": "field-blend-old-vines",
+      "display": "field blend old vines",
+      "regions": [
+        {
+          "country_slug": "portugal",
+          "region_slug": "douro",
+          "region_name": "Douro Valley",
+          "n": 4
+        }
+      ]
+    },
+    {
       "slug": "foglia-tonda",
       "display": "Foglia Tonda",
       "regions": [
@@ -199,6 +235,18 @@
       ]
     },
     {
+      "slug": "gouveio",
+      "display": "Gouveio",
+      "regions": [
+        {
+          "country_slug": "portugal",
+          "region_slug": "douro",
+          "region_name": "Douro Valley",
+          "n": 2
+        }
+      ]
+    },
+    {
       "slug": "graciano",
       "display": "Graciano",
       "regions": [
@@ -226,6 +274,12 @@
       "slug": "malvasia",
       "display": "Malvasia",
       "regions": [
+        {
+          "country_slug": "portugal",
+          "region_slug": "douro",
+          "region_name": "Douro Valley",
+          "n": 1
+        },
         {
           "country_slug": "spain",
           "region_slug": "rioja",
@@ -367,6 +421,18 @@
       ]
     },
     {
+      "slug": "moscatel-galego-branco",
+      "display": "Moscatel Galego Branco",
+      "regions": [
+        {
+          "country_slug": "portugal",
+          "region_slug": "douro",
+          "region_name": "Douro Valley",
+          "n": 2
+        }
+      ]
+    },
+    {
       "slug": "muscadelle",
       "display": "Muscadelle",
       "regions": [
@@ -465,6 +531,18 @@
           "region_slug": "tuscany",
           "region_name": "Tuscany",
           "n": 1
+        }
+      ]
+    },
+    {
+      "slug": "rabigato",
+      "display": "Rabigato",
+      "regions": [
+        {
+          "country_slug": "portugal",
+          "region_slug": "douro",
+          "region_name": "Douro Valley",
+          "n": 5
         }
       ]
     },
@@ -577,6 +655,18 @@
       ]
     },
     {
+      "slug": "sousao",
+      "display": "Sousao",
+      "regions": [
+        {
+          "country_slug": "portugal",
+          "region_slug": "douro",
+          "region_name": "Douro Valley",
+          "n": 12
+        }
+      ]
+    },
+    {
       "slug": "syrah",
       "display": "Syrah",
       "regions": [
@@ -621,6 +711,90 @@
           "region_slug": "tuscany",
           "region_name": "Tuscany",
           "n": 1
+        }
+      ]
+    },
+    {
+      "slug": "tinta-amarela",
+      "display": "Tinta Amarela",
+      "regions": [
+        {
+          "country_slug": "portugal",
+          "region_slug": "douro",
+          "region_name": "Douro Valley",
+          "n": 9
+        }
+      ]
+    },
+    {
+      "slug": "tinta-barroca",
+      "display": "Tinta Barroca",
+      "regions": [
+        {
+          "country_slug": "portugal",
+          "region_slug": "douro",
+          "region_name": "Douro Valley",
+          "n": 31
+        }
+      ]
+    },
+    {
+      "slug": "tinta-francisca",
+      "display": "Tinta Francisca",
+      "regions": [
+        {
+          "country_slug": "portugal",
+          "region_slug": "douro",
+          "region_name": "Douro Valley",
+          "n": 1
+        }
+      ]
+    },
+    {
+      "slug": "tinta-roriz",
+      "display": "Tinta Roriz",
+      "regions": [
+        {
+          "country_slug": "portugal",
+          "region_slug": "douro",
+          "region_name": "Douro Valley",
+          "n": 56
+        }
+      ]
+    },
+    {
+      "slug": "tinto-cao",
+      "display": "Tinto Cao",
+      "regions": [
+        {
+          "country_slug": "portugal",
+          "region_slug": "douro",
+          "region_name": "Douro Valley",
+          "n": 9
+        }
+      ]
+    },
+    {
+      "slug": "touriga-franca",
+      "display": "Touriga Franca",
+      "regions": [
+        {
+          "country_slug": "portugal",
+          "region_slug": "douro",
+          "region_name": "Douro Valley",
+          "n": 59
+        }
+      ]
+    },
+    {
+      "slug": "touriga-nacional",
+      "display": "Touriga Nacional",
+      "regions": [
+        {
+          "country_slug": "portugal",
+          "region_slug": "douro",
+          "region_name": "Douro Valley",
+          "n": 55
         }
       ]
     },
@@ -705,6 +879,18 @@
           "region_slug": "tuscany",
           "region_name": "Tuscany",
           "n": 1
+        }
+      ]
+    },
+    {
+      "slug": "viosinho",
+      "display": "Viosinho",
+      "regions": [
+        {
+          "country_slug": "portugal",
+          "region_slug": "douro",
+          "region_name": "Douro Valley",
+          "n": 5
         }
       ]
     },

@@ -1,6 +1,18 @@
 {
   "entries": [
     {
+      "slug": "fortified",
+      "display": "Fortified",
+      "regions": [
+        {
+          "country_slug": "portugal",
+          "region_slug": "douro",
+          "region_name": "Douro Valley",
+          "n": 6
+        }
+      ]
+    },
+    {
       "slug": "still",
       "display": "Still",
       "regions": [
@@ -15,6 +27,12 @@
           "region_slug": "burgundy",
           "region_name": "Burgundy",
           "n": 10
+        },
+        {
+          "country_slug": "portugal",
+          "region_slug": "douro",
+          "region_name": "Douro Valley",
+          "n": 6
         },
         {
           "country_slug": "spain",

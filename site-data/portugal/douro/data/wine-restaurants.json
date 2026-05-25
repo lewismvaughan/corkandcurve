@@ -1,0 +1,214 @@
+{
+  "wine_restaurants": [
+    {
+      "slug": "the-yeatman-restaurant-gaia",
+      "name": "The Yeatman Restaurant",
+      "address": "Rua do Choupelo (Santa Marinha), 345, 4400-088 Vila Nova de Gaia, Portugal",
+      "neighborhood": "Vila Nova de Gaia",
+      "cuisine": "Contemporary Portuguese tasting menus built to showcase the country's wine regions, with extensive pairing flights from the in-house cellar",
+      "cellar_size": 25000,
+      "awards": [
+        { "source": "Michelin (two stars)", "year": 2024 }
+      ],
+      "description": "Porto's only two-Michelin-star table, inside The Yeatman wine hotel above Gaia. Tasting menus are engineered around a 25,000-bottle Portuguese-led cellar with pairing flights.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.the-yeatman-hotel.com/en/food/restaurant/",
+        "address_quoted": "Rua do Choupelo (Santa Marinha), 345, 4400-088 Vila Nova de Gaia",
+        "open_status": "open",
+        "open_evidence_url": "https://guide.michelin.com/en/porto-region/vila-nova-de-gaia/restaurant/the-yeatman",
+        "cuisine_evidence_url": "https://www.the-yeatman-hotel.com/en/food/restaurant/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "doc-rui-paula-folgosa",
+      "name": "DOC",
+      "address": "Estrada Nacional 222, 5110-204 Folgosa, Armamar, Portugal",
+      "neighborhood": "Folgosa, Cima Corgo",
+      "cuisine": "Chef Rui Paula's contemporary Douro cooking across a la carte and three tasting menus, with a riverside terrace and a cellar deep in Douro and Port",
+      "cellar_size": 1500,
+      "awards": [
+        { "source": "Michelin Guide listing", "year": 2024 }
+      ],
+      "description": "Rui Paula's glass-and-water pavilion on the Douro at Folgosa, with an extensive Douro-and-Port cellar, three tasting menus and a vegetarian section beside the river.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.docrestaurante.pt/en/",
+        "address_quoted": "Estrada Nacional, 222, 5110-214 Folgosa",
+        "open_status": "open",
+        "open_evidence_url": "https://guide.michelin.com/us/en/viseu-region/folgosa/restaurant/doc216528",
+        "cuisine_evidence_url": "https://www.docrestaurante.pt/en/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "castas-e-pratos-regua",
+      "name": "Castas e Pratos",
+      "address": "Rua José Vasques Osório, 5050-280 Peso da Régua, Portugal",
+      "neighborhood": "Peso da Régua",
+      "cuisine": "Modern Douro gastronomy in a restored railway warehouse, with a high-ceilinged dining room above a cellar of more than 600 references",
+      "cellar_size": 600,
+      "awards": [
+        { "source": "Michelin Guide listing", "year": 2024 }
+      ],
+      "description": "Set in a former rail warehouse in Régua, Castas e Pratos pairs modern Douro cooking with a cellar of over 600 wines weighted to Douro and Port.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://castasepratos.com/",
+        "address_quoted": "Rua José Vasques Osório, 5050-280 Peso da Régua",
+        "open_status": "open",
+        "open_evidence_url": "https://guide.michelin.com/tr/en/vila-real-region/peso-da-rgua/restaurant/castas-e-pratos",
+        "cuisine_evidence_url": "https://castasepratos.com/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "antiqvvm-porto",
+      "name": "Antiqvvm",
+      "address": "Rua de Entre Quintas 220, 4050-240 Porto, Portugal",
+      "neighborhood": "Massarelos, Porto",
+      "cuisine": "Chef Vítor Matos's contemporary fine dining in the former Solar do Vinho do Porto, with a sommelier-led, mostly Portuguese pairing programme",
+      "cellar_size": 1200,
+      "awards": [
+        { "source": "Michelin (two stars)", "year": 2024 }
+      ],
+      "description": "A two-Michelin-star table by Vítor Matos in the former Solar do Vinho do Porto at Massarelos, with garden views over the Douro and a curated Portuguese pairing list.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.antiqvvm.pt/en/",
+        "address_quoted": "R. de Entre Quintas, 220, Porto",
+        "open_status": "open",
+        "open_evidence_url": "https://guide.michelin.com/us/en/porto-region/porto/restaurant/antiqvvm",
+        "cuisine_evidence_url": "https://www.antiqvvm.pt/en/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "conceitus-winery-restaurant-covas",
+      "name": "Conceitus Winery Restaurant",
+      "address": "Quinta Nova de Nossa Senhora do Carmo, Covas do Douro, 5085-222 Sabrosa, Portugal",
+      "neighborhood": "Covas do Douro, Cima Corgo",
+      "cuisine": "Seasonal Douro cooking designed to push the estate's wines forward, with table tastings, cellar bottles and by-the-glass pours of Quinta Nova wines",
+      "cellar_size": 400,
+      "awards": [
+        { "source": "Relais & Chateaux affiliation", "year": 2024 }
+      ],
+      "description": "The first winery restaurant in the Douro, at Quinta Nova above Pinhão. The kitchen builds seasonal dishes around the estate's own wines, with cellar bottles and flights.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.quintanova.com/en/",
+        "address_quoted": "Covas do Douro, 5085-222",
+        "open_status": "open",
+        "open_evidence_url": "https://www.visitportugal.com/en/NR/exeres/E6B9E7BA-6C3C-40BE-847D-325628931297",
+        "cuisine_evidence_url": "https://www.quintanova.com/en/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "bomfim-1896-pinhao",
+      "name": "Bomfim 1896",
+      "address": "Quinta do Bomfim, 5085-060 Pinhão, Portugal",
+      "neighborhood": "Pinhão, Cima Corgo",
+      "cuisine": "Wood-fired regional Douro cooking inspired by family kitchens, with around 300 labels spanning Symington and Portuguese and international producers",
+      "cellar_size": 300,
+      "awards": [
+        { "source": "Tripadvisor Travellers' Choice", "year": 2024 }
+      ],
+      "description": "The riverside restaurant at Dow's Quinta do Bomfim in Pinhão, centred on wood-fired regional cooking and a 300-label list mixing Symington wines with wider selections.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.symington.com/bomfim1896",
+        "address_quoted": "5085-060 Pinhão",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g580264-d24119475-Reviews-Bomfim_1896-Pinhao_Vila_Real_District_Northern_Portugal.html",
+        "cuisine_evidence_url": "https://exploredourovalley.com/bomfim-1896-at-quinta-do-bomfim-a-new-chef-and-a-return-to-douro-roots/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "seixo-vasco-coelho-santos-valenca",
+      "name": "Seixo by Vasco Coelho Santos",
+      "address": "Valença do Douro, 5120-495 Tabuaço, Portugal",
+      "neighborhood": "Valença do Douro, Cima Corgo",
+      "cuisine": "Chef Vasco Coelho Santos's contemporary Douro menu at Sandeman's Quinta do Seixo, built for pairing with the estate's Ports and Douro wines",
+      "cellar_size": 350,
+      "awards": [
+        { "source": "Sogrape wine-tourism programme", "year": 2024 }
+      ],
+      "description": "The panoramic restaurant at Sandeman's Quinta do Seixo above Valença do Douro, where Vasco Coelho Santos cooks a contemporary Douro menu paired to the estate's wines.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.sandeman.com/port-wine/visit/quinta-do-seixo-douro/",
+        "address_quoted": "Valença do Douro 5120 - 495 Tabuaço Portugal",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g2399530-d25109789-Reviews-Seixo_by_Vasco_Coelho_Santos-Valenca_Do_Douro_Tabuaco_Viseu_District_Northern_P.html",
+        "cuisine_evidence_url": "https://www.sandeman.com/port-wine/visit/quinta-do-seixo-douro/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "cozinha-da-clara-quinta-de-la-rosa",
+      "name": "Cozinha da Clara",
+      "address": "Quinta de la Rosa, 5085-215 Pinhão, Portugal",
+      "neighborhood": "Pinhão, Cima Corgo",
+      "cuisine": "Seasonal Douro cooking on the riverbank at Quinta de la Rosa, built around the estate's own Douro wines and Ports",
+      "cellar_size": 300,
+      "awards": [
+        { "source": "Quinta de la Rosa wine-tourism programme", "year": 2024 }
+      ],
+      "description": "The riverside restaurant at the Bergqvist family's Quinta de la Rosa near Pinhão, pairing seasonal Douro dishes with the estate's own wines and Ports.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.quintadelarosa.com/",
+        "address_quoted": "Pinhão",
+        "open_status": "open",
+        "open_evidence_url": "https://www.thefork.com/restaurant/cozinha-da-clara-r423901",
+        "cuisine_evidence_url": "https://www.quintadelarosa.com/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "cozinha-do-douro-six-senses-lamego",
+      "name": "Cozinha do Douro",
+      "address": "Quinta de Vale Abraão, Samodães, 5100-758 Lamego, Portugal",
+      "neighborhood": "Samodães, Lamego, Baixo Corgo",
+      "cuisine": "Northern Portuguese seasonal cooking at the Six Senses estate, with a wine-library cellar of Douro and Portuguese references for pairing",
+      "cellar_size": 1000,
+      "awards": [
+        { "source": "Six Senses wine-tourism programme", "year": 2024 }
+      ],
+      "description": "The estate restaurant at Six Senses Douro Valley near Lamego, serving northern Portuguese seasonal dishes alongside a wine-library cellar weighted to the Douro.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.sixsenses.com/en/hotels-resorts/europe/portugal/douro-valley/dining/cozinha/",
+        "address_quoted": "Quinta de Vale Abraão, Samodães 5100-758 Lamego",
+        "open_status": "open",
+        "open_evidence_url": "https://www.visitportugal.com/en/content/six-senses-douro-valley",
+        "cuisine_evidence_url": "https://www.sixsenses.com/en/hotels-resorts/europe/portugal/douro-valley/dining/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "terracus-quinta-nova-covas",
+      "name": "Terraçu's",
+      "address": "Quinta Nova de Nossa Senhora do Carmo, Covas do Douro, 5085-222 Sabrosa, Portugal",
+      "neighborhood": "Covas do Douro, Cima Corgo",
+      "cuisine": "Casual terrace dining at Quinta Nova with light Douro plates and by-the-glass pours of the estate wines overlooking the vineyards",
+      "cellar_size": 200,
+      "awards": [
+        { "source": "Quinta Nova wine-tourism programme", "year": 2024 }
+      ],
+      "description": "The vineyard terrace restaurant at Quinta Nova above Pinhão, serving light Douro plates and estate wines by the glass with sweeping views over the hilltop vines.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.quintanova.com/en/",
+        "address_quoted": "Covas do Douro, 5085-222",
+        "open_status": "open",
+        "open_evidence_url": "https://www.thehotelguru.com/en-us/hotel/quinta-nova-de-nossa-senhora-do-carmo-pinhao",
+        "cuisine_evidence_url": "https://www.quintanova.com/en/",
+        "checked_on": "2026-05-25"
+      }
+    }
+  ]
+}

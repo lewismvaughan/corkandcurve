@@ -1,0 +1,108 @@
+{
+  "distilleries": [
+    {
+      "slug": "porto-augustos-gaia",
+      "name": "Porto Augusto's",
+      "address": "Rua de França 8-10, 4400-174 Vila Nova de Gaia, Portugal",
+      "neighborhood": "Vila Nova de Gaia",
+      "classification": "Porto DOC (fortified wine)",
+      "spirits_produced": [
+        "Aged Tawny Port (fortified with aguardente)",
+        "LBV Port",
+        "White Port"
+      ],
+      "description": "A small family Port house off the tourist strip in Gaia, producing aged Tawnies fortified with grape-spirit aguardente. The intimate lodge tour explains Port fortification one-on-one.",
+      "distillation_method": "Fortified-wine lodge: Douro wines arrested mid-fermentation with grape-spirit aguardente, then cask-aged in Gaia",
+      "visit_available": true,
+      "tasting_program": "Personal lodge tour with a guided Port tasting from around EUR 5, refunded against a purchase",
+      "booking_url": "https://www.portoaugustos.pt/",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.portoaugustos.pt/",
+        "address_quoted": "R. de França, 8-10, Vila Nova de Gaia",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g580268-d8681067-Reviews-Porto_Augusto_s-Vila_Nova_de_Gaia_Porto_District_Northern_Portugal.html",
+        "cuisine_evidence_url": "https://portwinecountry.com/index.php/the-lodge-of-augusto-in-gaia/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "cockburns-lodge-gaia",
+      "name": "Cockburn's Port Lodge",
+      "address": "Rua Serpa Pinto 346, 4400-307 Vila Nova de Gaia, Portugal",
+      "neighborhood": "Vila Nova de Gaia",
+      "classification": "Porto DOC (fortified wine)",
+      "spirits_produced": [
+        "Vintage Port (fortified with aguardente)",
+        "Special Reserve Ruby",
+        "Aged Tawny Port"
+      ],
+      "description": "Gaia's largest wooden Port cellar and a working lodge, holding one of the greatest collections of oak vats. Tours explain how Douro wine is fortified with aguardente and cask-aged.",
+      "distillation_method": "Fortified-wine lodge: Douro wine arrested with grape-spirit aguardente, matured in a vast wooden-vat cellar",
+      "visit_available": true,
+      "tasting_program": "Guided lodge tour with Port tastings; cheese and chocolate pairing options",
+      "booking_url": "https://www.cockburns.com/visitus/",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.cockburns.com/visitus/",
+        "address_quoted": "Rua Serpa Pinto, 346, 4400-307 Vila Nova de Gaia",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g580268-d4311820-Reviews-Cockburn_s_Port_Wine_Lodge-Vila_Nova_de_Gaia_Porto_District_Northern_Portugal.html",
+        "cuisine_evidence_url": "https://www.cockburns.com/visitus/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "burmester-cellars-gaia",
+      "name": "Burmester Cellars",
+      "address": "Largo Dom Luís I, 4400-111 Vila Nova de Gaia, Portugal",
+      "neighborhood": "Vila Nova de Gaia",
+      "classification": "Porto DOC (fortified wine)",
+      "spirits_produced": [
+        "Colheita Tawny Port (fortified with aguardente)",
+        "Vintage Port",
+        "White Port"
+      ],
+      "description": "A historic Port house beside the Luis I bridge, celebrated for aged Colheita Tawnies. Cellar tours walk through how Douro wine is fortified and matured in cask.",
+      "distillation_method": "Fortified-wine lodge: Douro wine fortified with grape-spirit aguardente, then long cask ageing for Colheita Tawnies",
+      "visit_available": true,
+      "tasting_program": "Guided cellar tour with Port tasting; chocolate and cheese pairing flights available",
+      "booking_url": "https://burmester.pt/en/caves/",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://burmester.pt/en/caves/",
+        "address_quoted": "Largo Ponte Luiz I 4400-111 Vila Nova de Gaia",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g580268-d4586293-Reviews-Burmester-Vila_Nova_de_Gaia_Porto_District_Northern_Portugal.html",
+        "cuisine_evidence_url": "https://www.city-guide-porto.com/en/tourism/discover/sites-touristiques/cellars/south-of-porto-5/burmester-cellars-1075.html",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "porto-gin-experience-invicta",
+      "name": "Porto Gin Experience (Invicta Gin School)",
+      "address": "Rua Mouzinho da Silveira 352, 4050-418 Porto, Portugal",
+      "neighborhood": "São Bento, Porto",
+      "classification": "Portuguese craft gin",
+      "spirits_produced": [
+        "Invicta Gin",
+        "Self-distilled botanical gin",
+        "Gin and tonic tastings"
+      ],
+      "description": "A hands-on gin distilling experience near São Bento where guests learn the botanicals and copper-still process and distil their own small bottle of gin to take home.",
+      "distillation_method": "Copper pot-still distillation of neutral grain spirit with juniper and botanicals; guest-led mini distillation",
+      "visit_available": true,
+      "tasting_program": "Guided gin workshop with self-made gin and tastings; booking required",
+      "booking_url": "https://www.livingtours.com/en/tour/porto-gin-experience",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.livingtours.com/en/tour/porto-gin-experience",
+        "address_quoted": "Rua Mouzinho da Silveira, 352, Porto",
+        "open_status": "open",
+        "open_evidence_url": "https://www.arrivalguides.com/en/Travelguide/PORTO/barsandnightlife/the-gin-house-74724",
+        "cuisine_evidence_url": "https://www.livingtours.com/en/tour/porto-gin-experience",
+        "checked_on": "2026-05-25"
+      }
+    }
+  ]
+}

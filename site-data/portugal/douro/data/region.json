@@ -1,0 +1,63 @@
+{
+  "destination": {
+    "slug": "douro",
+    "name": "Douro Valley",
+    "country": "Portugal",
+    "country_slug": "portugal",
+    "hero_image": "https://images.unsplash.com/photo-1603657289433-e4983d2114b9?w=1600&h=900&fit=crop&auto=format",
+    "hero_image_source_url": "https://unsplash.com/photos/green-trees-on-mountain-under-blue-sky-during-daytime-5ZmAyIG_OrI",
+    "hero_image_credit": "Photo by Maksym Kaharlytskyi on Unsplash",
+    "hero_image_alt": "Terraced vineyards descending to the Douro river in northern Portugal",
+    "hero_image_source": "Unsplash",
+    "hero_image_photographer": "Maksym Kaharlytskyi",
+    "hero_image_license": "Unsplash License",
+    "blurb": "The world's oldest demarcated wine region, where schist terraces above the Douro river make both fortified Port and a new generation of structured DOC Douro reds.",
+    "type": "wine-region",
+    "tagline": "Schist terraces, fortified Port and a still-wine renaissance",
+    "overview": "The Douro is the world's oldest demarcated wine region, terraced into schist hills from Baixo Corgo through Cima Corgo to Douro Superior. It makes both Vinho do Porto and increasingly serious DOC Douro reds, with Port aged in the lodges of Vila Nova de Gaia.",
+    "cross_site_ref": "portugal/porto",
+    "cross_site_name": "Porto"
+  },
+  "seo": {
+    "pages": {
+      "index": {
+        "title": "Douro Valley Wine Region Guide | Cork & Curve",
+        "description": "Explore the Douro Valley: Port lodges in Vila Nova de Gaia, terraced quintas, DOC Douro reds and the Touriga Nacional that defines Portugal's oldest wine region."
+      },
+      "vineyards": {
+        "title": "Douro Valley Quintas and Port Houses | Cork & Curve",
+        "description": "Visit Douro quintas and Port houses from Taylor's, Graham's and Sandeman to Quinta do Crasto and Vale Meao, with addresses, tastings and ownership detail."
+      },
+      "neighborhoods": {
+        "title": "Douro Valley Sub-Regions and Towns | Cork & Curve",
+        "description": "The Douro's three sub-regions plus key towns: Baixo Corgo, Cima Corgo and Douro Superior, with Pinhao, Peso da Regua, Lamego and Vila Nova de Gaia."
+      },
+      "signature-grapes": {
+        "title": "Douro Valley Grape Varieties | Cork & Curve",
+        "description": "The grapes behind Port and DOC Douro: Touriga Nacional, Touriga Franca, Tinta Roriz, Tinta Barroca, Tinto Cao plus white Viosinho, Rabigato and Gouveio."
+      }
+    }
+  },
+  "faqs": [
+    {
+      "q": "What is the difference between Port and DOC Douro wine?",
+      "a": "Both come from the Douro Valley. Port (Vinho do Porto / DOC Porto) is fortified during fermentation with grape spirit, leaving it sweet and high in alcohol. DOC Douro covers unfortified still wines, mostly reds, made dry from the same grape varieties."
+    },
+    {
+      "q": "Where are the Port lodges and where are the vineyards?",
+      "a": "The grapes are grown and the wine is made on quintas (estates) along the Douro river upstream around Pinhao and Peso da Regua. Traditionally the Port is then aged and blended in lodges across the river from Porto in Vila Nova de Gaia, where most houses run visitor centres."
+    },
+    {
+      "q": "What grapes is the Douro known for?",
+      "a": "Touriga Nacional and Touriga Franca lead the red blends, joined by Tinta Roriz (Tempranillo), Tinta Barroca, Tinto Cao and Sousao. Whites include Viosinho, Rabigato, Gouveio, Malvasia Fina and Codega do Larinho. The same grapes serve both Port and DOC Douro."
+    },
+    {
+      "q": "What are the three sub-regions of the Douro?",
+      "a": "From west to east the Douro is split into Baixo Corgo (cooler, wettest, around Peso da Regua), Cima Corgo (the classic heart around Pinhao, source of most premium Port) and Douro Superior (hot, dry and remote near the Spanish border)."
+    },
+    {
+      "q": "Can you visit Douro quintas and Port lodges?",
+      "a": "Yes. The Vila Nova de Gaia lodges such as Taylor's, Graham's, Sandeman, Calem and Croft run daily tours and tastings. Upriver, estates including Quinta do Crasto, Quinta do Bomfim, Quinta de la Rosa and Quinta do Vallado offer tastings and stays, usually by reservation."
+    }
+  ]
+}

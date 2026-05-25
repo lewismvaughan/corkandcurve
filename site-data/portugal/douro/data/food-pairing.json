@@ -1,0 +1,149 @@
+{
+  "food_pairing": [
+    {
+      "slug": "vintage-port-with-stilton",
+      "name": "Vintage Port with blue cheese",
+      "pairing": "Douro Vintage Port with Stilton or other strong blue cheese",
+      "tablejourney_ref": "portugal/porto/dish/port-wine-flight",
+      "wine_entities": [
+        "taylors-vintage",
+        "grahams-vintage",
+        "dows-vintage",
+        "fonseca-vintage"
+      ],
+      "description": "The classic after-dinner marriage: a structured Vintage Port's sweet black fruit and grippy tannins cut against the salty, crystalline intensity of a blue cheese.",
+      "editorial_score": 5.0,
+      "verified": {
+        "source_url": "https://tablejourney.com/portugal/porto/dish/port-wine-flight/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "tawny-port-with-creme-brulee",
+      "name": "Aged tawny Port with creme brulee",
+      "pairing": "20 or 30 year old tawny Port with creme brulee and other caramel custards",
+      "tablejourney_ref": "portugal/porto/dish/port-wine-flight",
+      "wine_entities": [
+        "taylors-20-year-tawny",
+        "grahams-20-year-tawny",
+        "kopke-colheita"
+      ],
+      "description": "An aged tawny's butterscotch, candied citrus and roasted nut notes echo the caramelised top of a creme brulee, the wine's freshness keeping the pairing from cloying.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://tablejourney.com/portugal/porto/dish/port-wine-flight/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "vintage-port-with-dark-chocolate",
+      "name": "Vintage Port with dark chocolate",
+      "pairing": "Douro Vintage Port with 70 percent dark chocolate desserts",
+      "tablejourney_ref": "portugal/porto/dish/port-wine-flight",
+      "wine_entities": [
+        "fonseca-vintage",
+        "quinta-do-noval-vintage",
+        "quinta-do-vesuvio-vintage-port"
+      ],
+      "description": "Bitter cocoa meets the wine's cassis and liquorice, a rich pairing where Port's sweetness balances the chocolate's edge.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://tablejourney.com/portugal/porto/dish/port-wine-flight/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "douro-red-with-roast-lamb",
+      "name": "Douro red with roast lamb",
+      "pairing": "Structured DOC Douro red with roast lamb and herbs",
+      "tablejourney_ref": "portugal/porto/restaurants/o-paparico",
+      "wine_entities": [
+        "ferreira-barca-velha",
+        "quinta-do-vale-meao-tinto",
+        "quinta-do-crasto-reserva-old-vines",
+        "niepoort-batuta"
+      ],
+      "description": "The firm tannins and dried-herb register of a serious Douro red frame slow-roast lamb, the wine's freshness cutting the fat.",
+      "editorial_score": 5.0,
+      "verified": {
+        "source_url": "https://tablejourney.com/portugal/porto/restaurants/o-paparico/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "douro-red-with-grilled-beef",
+      "name": "Douro red with grilled beef",
+      "pairing": "Full-bodied DOC Douro red with grilled beef and steaks",
+      "tablejourney_ref": "portugal/porto/restaurants/muu-steakhouse",
+      "wine_entities": [
+        "quinta-do-crasto-vinha-maria-teresa",
+        "chryseia",
+        "wine-and-soul-pintas",
+        "quinta-do-vallado-adelaide"
+      ],
+      "description": "Fine-grained tannins carry charred red meat while the wine's dark fruit and mineral spine match the char and marbling.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://tablejourney.com/portugal/porto/restaurants/muu-steakhouse/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "douro-white-with-bacalhau",
+      "name": "Douro white with bacalhau",
+      "pairing": "Old-vine DOC Douro white with bacalhau a Gomes de Sa",
+      "tablejourney_ref": "portugal/porto/dish/bacalhau-a-gomes-de-sa",
+      "wine_entities": [
+        "niepoort-redoma-branco",
+        "wine-and-soul-guru"
+      ],
+      "description": "A textured, saline Douro white has the body and racy acidity to stand up to the salt cod, potato and olive oil of Porto's signature bacalhau dish.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://tablejourney.com/portugal/porto/dish/bacalhau-a-gomes-de-sa/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "douro-white-with-bolinhos",
+      "name": "Douro white with bolinhos de bacalhau",
+      "pairing": "Crisp DOC Douro white with bolinhos de bacalhau cod cakes",
+      "tablejourney_ref": "portugal/porto/dish/bolinhos-de-bacalhau",
+      "wine_entities": [
+        "niepoort-redoma-branco",
+        "wine-and-soul-guru"
+      ],
+      "description": "The crisp acidity of a Douro white cuts cleanly through the fried richness of cod cakes, refreshing the palate between bites.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://tablejourney.com/portugal/porto/dish/bolinhos-de-bacalhau/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "white-port-tonic-aperitif",
+      "name": "White Port and tonic as aperitif",
+      "pairing": "Chilled white Port with tonic and mint as a Douro aperitif",
+      "tablejourney_ref": "portugal/porto/dish/port-wine-flight",
+      "wine_entities": [
+        "taylors-chip-dry",
+        "fonseca-siroco",
+        "sandeman-apitiv-white"
+      ],
+      "description": "The Douro's summer aperitif: dry white Port over ice with tonic and mint, nutty and citrus-fresh, the regional alternative to a gin and tonic.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://tablejourney.com/portugal/porto/dish/port-wine-flight/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    }
+  ]
+}

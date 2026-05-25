@@ -1,0 +1,206 @@
+{
+  "dietary": {
+    "biodynamic": [
+      {
+        "slug": "niepoort-biodynamic",
+        "name": "Niepoort",
+        "vineyard_ref": "niepoort",
+        "address": "Quinta de Napoles, Tabuaco, 5120 Cima Corgo, Portugal",
+        "neighborhood": "Tedo valley, Cima Corgo",
+        "biodynamic_status": "biodynamic_practicing",
+        "biodynamic_certifier": "none, practising only",
+        "organic_status": "ecocert",
+        "certified_year": 1999,
+        "description": "Niepoort has farmed organically since 1999 and applies biodynamic practices across its Douro estates, though not all parcels are formally certified.",
+        "tip": "Niepoort applies biodynamic methods without promoting full Demeter certification; ask at the cellar which parcels are farmed biodynamically.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://www.winewithseth.com/winewiki/niepoort/",
+          "address_quoted": "Quinta de Napoles",
+          "open_status": "open",
+          "open_evidence_url": "https://www.niepoort.pt/en/",
+          "cuisine_evidence_url": "https://jackyblisson.com/niepoort-portuguese-dry-wines/",
+          "checked_on": "2026-05-25"
+        }
+      }
+    ],
+    "organic": [
+      {
+        "slug": "quinta-do-orgal-organic",
+        "name": "Quinta do Orgal (Quinta do Vallado)",
+        "vineyard_ref": "quinta-do-vallado",
+        "address": "Castelo Melhor, 5150 Vila Nova de Foz Coa, Portugal",
+        "neighborhood": "Douro Superior",
+        "biodynamic_status": "none",
+        "organic_status": "ecocert",
+        "organic_certifier": "certified organic",
+        "certified_year": 2015,
+        "description": "Vallado's Douro Superior property at Castelo Melhor has 35-plus hectares of organic vineyards, certified organic in February 2015 with effect from 2012.",
+        "tip": "The Quinta do Orgal Organic Vineyards bottling is the estate's certified-organic Douro Superior red; look for it specifically.",
+        "editorial_score": 4.3,
+        "verified": {
+          "source_url": "https://www.quintadovallado.com/en/vineyards/organic-vineyard-quinta-do-orgal/",
+          "address_quoted": "Castelo Melhor",
+          "open_status": "open",
+          "open_evidence_url": "https://www.douroboys.com/quinta-do-vallado/",
+          "cuisine_evidence_url": "https://www.quintadovallado.com/en/vineyards/organic-vineyard-quinta-do-orgal/",
+          "checked_on": "2026-05-25"
+        }
+      },
+      {
+        "slug": "quinta-do-tedo-organic",
+        "name": "Quinta do Tedo",
+        "vineyard_ref": "quinta-do-tedo",
+        "address": "N222, Folgosa, 5110-207 Armamar, Portugal",
+        "neighborhood": "Folgosa, Baixo Corgo",
+        "biodynamic_status": "none",
+        "organic_status": "ecocert",
+        "organic_certifier": "certified organic",
+        "description": "The Bouchard family's 18th-century estate at the meeting of the Tedo and Douro rivers grows organic grapes and runs hands-on harvest foot-treading experiences.",
+        "tip": "Combine an organic-estate visit with a September lagar foot-treading session; the family welcomes guests into the harvest.",
+        "editorial_score": 4.2,
+        "verified": {
+          "source_url": "http://www.quintadotedo.com/",
+          "address_quoted": "Folgosa 5110-207",
+          "open_status": "open",
+          "open_evidence_url": "http://www.quintadotedo.com/contact",
+          "cuisine_evidence_url": "https://exploredourovalley.com/listing/quinta-do-tedo/",
+          "checked_on": "2026-05-25"
+        }
+      },
+      {
+        "slug": "niepoort-organic",
+        "name": "Niepoort organic vineyards",
+        "vineyard_ref": "niepoort",
+        "address": "Quinta de Napoles, Tabuaco, 5120 Cima Corgo, Portugal",
+        "neighborhood": "Tedo valley, Cima Corgo",
+        "biodynamic_status": "biodynamic_practicing",
+        "organic_status": "ecocert",
+        "organic_certifier": "certified organic",
+        "certified_year": 1999,
+        "description": "Niepoort owns 60-plus hectares in the Douro farmed organically since 1999, many parcels certified organic, with low-intervention winemaking on old-vine field blends.",
+        "tip": "Many but not all Niepoort parcels are certified; the Bioma and Redoma bottlings come from the organic core of the estate.",
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://www.winewithseth.com/winewiki/niepoort/",
+          "address_quoted": "Quinta de Napoles",
+          "open_status": "open",
+          "open_evidence_url": "https://www.niepoort.pt/en/",
+          "cuisine_evidence_url": "https://jackyblisson.com/niepoort-portuguese-dry-wines/",
+          "checked_on": "2026-05-25"
+        }
+      }
+    ],
+    "natural": [
+      {
+        "slug": "folias-de-baco-uivo",
+        "name": "Folias de Baco (Uivo)",
+        "vineyard_ref": "folias-de-baco",
+        "address": "Rua Antonio Candido 7, 5070-029 Alijo, Portugal",
+        "neighborhood": "Sanfins do Douro, Cima Corgo",
+        "biodynamic_status": "none",
+        "organic_status": "none",
+        "natural_wine": true,
+        "description": "Tiago Sampaio makes the Uivo wines from high-altitude vines near Alijo with no added yeast, no fining and no filtration, a benchmark for natural wine in the Douro.",
+        "tip": "The Uivo range, from skin-contact whites to the Renegado field blend, is the place to start with natural Douro wine.",
+        "editorial_score": 4.3,
+        "verified": {
+          "source_url": "https://www.bowlerwine.com/producer/folias-de-baco-uivo",
+          "address_quoted": "Alijo",
+          "open_status": "open",
+          "open_evidence_url": "https://wineanorak.com/2025/06/14/visiting-folios-de-baco-a-douro-winery-making-compelling-natural-wines-under-the-uivo-brand/",
+          "cuisine_evidence_url": "https://www.bowlerwine.com/producer/folias-de-baco-uivo",
+          "checked_on": "2026-05-25"
+        }
+      }
+    ],
+    "vegan_winemaking": [
+      {
+        "slug": "quinta-do-crasto-vegan",
+        "name": "Quinta do Crasto",
+        "vineyard_ref": "quinta-do-crasto",
+        "address": "Gouvinhas, 5060-063 Sabrosa, Portugal",
+        "neighborhood": "Cima Corgo, between Regua and Pinhao",
+        "biodynamic_status": "none",
+        "organic_status": "none",
+        "vegan": true,
+        "description": "Several Quinta do Crasto wines, including the Crasto red, the Superior Branco and the old-vine reservas, are made without animal-derived fining and are certified vegan.",
+        "tip": "Crasto does not hold organic certification, but its core reds and whites are vegan-friendly; check the back label for the vegan mark.",
+        "editorial_score": 4.2,
+        "verified": {
+          "source_url": "https://www.quintadocrasto.wine/produtos/crasto-tinto/",
+          "address_quoted": "Gouvinhas",
+          "open_status": "open",
+          "open_evidence_url": "https://www.quintadocrasto.wine/en/",
+          "cuisine_evidence_url": "https://thefinewinecompany.co.uk/collections/vegan/quinta-do-crasto",
+          "checked_on": "2026-05-25"
+        }
+      },
+      {
+        "slug": "niepoort-redoma-vegan",
+        "name": "Niepoort Redoma",
+        "vineyard_ref": "niepoort",
+        "address": "Quinta de Napoles, Tabuaco, 5120 Cima Corgo, Portugal",
+        "neighborhood": "Tedo valley, Cima Corgo",
+        "biodynamic_status": "biodynamic_practicing",
+        "organic_status": "ecocert",
+        "vegan": true,
+        "description": "Niepoort's Redoma Tinto is an organic, unfined and unfiltered Douro red made without animal-derived fining and marked vegan.",
+        "tip": "Redoma comes in red, white and rose; the unfined, unfiltered reds are the clearest expression of Niepoort's vegan, low-intervention approach.",
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://www.winewithseth.com/winewiki/niepoort/",
+          "address_quoted": "Quinta de Napoles",
+          "open_status": "open",
+          "open_evidence_url": "https://www.niepoort.pt/en/wines/",
+          "cuisine_evidence_url": "https://www.buonvino.co.uk/product/redoma-tinto-niepoort/",
+          "checked_on": "2026-05-25"
+        }
+      }
+    ],
+    "lowsulfite": [
+      {
+        "slug": "folias-de-baco-low-sulfite",
+        "name": "Folias de Baco low-sulfite wines",
+        "vineyard_ref": "folias-de-baco",
+        "address": "Rua Antonio Candido 7, 5070-029 Alijo, Portugal",
+        "neighborhood": "Sanfins do Douro, Cima Corgo",
+        "biodynamic_status": "none",
+        "organic_status": "none",
+        "natural_wine": true,
+        "description": "Tiago Sampaio bottles the Uivo wines with very low sulfites, around 20 ppm total for the whites, with no fining and no filtration, among the lowest in the Douro.",
+        "tip": "Because sulfites are so low, store and serve these wines cool; they reward fresh, prompt drinking.",
+        "editorial_score": 4.2,
+        "verified": {
+          "source_url": "https://www.bowlerwine.com/producer/folias-de-baco-uivo",
+          "address_quoted": "Alijo",
+          "open_status": "open",
+          "open_evidence_url": "https://www.raisin.digital/en/explore/portugal/douro/natural-winemakers/",
+          "cuisine_evidence_url": "https://wineanorak.com/2025/06/14/visiting-folios-de-baco-a-douro-winery-making-compelling-natural-wines-under-the-uivo-brand/",
+          "checked_on": "2026-05-25"
+        }
+      },
+      {
+        "slug": "niepoort-redoma-low-sulfite",
+        "name": "Niepoort Redoma low-sulfite reds",
+        "vineyard_ref": "niepoort",
+        "address": "Quinta de Napoles, Tabuaco, 5120 Cima Corgo, Portugal",
+        "neighborhood": "Tedo valley, Cima Corgo",
+        "biodynamic_status": "biodynamic_practicing",
+        "organic_status": "ecocert",
+        "natural_wine": false,
+        "description": "Niepoort's low-intervention Redoma reds are made organically with minimal added sulfur, unfined and unfiltered, low for a serious age-worthy Douro red.",
+        "tip": "Redoma shows that low-sulfite handling and cellar-worthy structure are not mutually exclusive; these reds age well.",
+        "editorial_score": 4.3,
+        "verified": {
+          "source_url": "https://www.winewithseth.com/winewiki/niepoort/",
+          "address_quoted": "Quinta de Napoles",
+          "open_status": "open",
+          "open_evidence_url": "https://www.niepoort.pt/en/wines/",
+          "cuisine_evidence_url": "https://www.buonvino.co.uk/product/redoma-tinto-niepoort/",
+          "checked_on": "2026-05-25"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "wine_museums": [
+    {
+      "slug": "museu-do-douro-regua",
+      "name": "Museu do Douro",
+      "address": "Rua Marquês de Pombal, 5050-282 Peso da Régua, Portugal",
+      "neighborhood": "Peso da Régua",
+      "description": "The regional museum of the Douro Demarcated Region, opened 2008 in the 18th-century Casa da Companhia in Régua, tracing the history of Port and Douro viticulture.",
+      "admission": "Permanent exhibition ticket around EUR 6; reduced and family rates available",
+      "permanent_collection": true,
+      "temporary_exhibitions": true,
+      "tasting_bar": true,
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.museudodouro.pt/",
+        "address_quoted": "Rua Marquês do Pombal 5050-286 Peso da Régua",
+        "open_status": "open",
+        "open_evidence_url": "https://www.visitportugal.com/en/NR/exeres/E94FAE82-01BF-4E1C-BA51-F24F42B4DF98",
+        "cuisine_evidence_url": "https://www.museudodouro.pt/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "wow-world-of-wine-gaia",
+      "name": "WOW (World of Wine)",
+      "address": "Rua do Choupelo 39, 4400-088 Vila Nova de Gaia, Portugal",
+      "neighborhood": "Vila Nova de Gaia",
+      "description": "A cultural district built from restored Port cellars in Gaia, housing seven museums including the Wine Experience and the Pink Palace rosé museum, plus a wine school.",
+      "admission": "Single-museum ticket from around EUR 20; multi-museum passes available",
+      "permanent_collection": true,
+      "temporary_exhibitions": true,
+      "tasting_bar": true,
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://wow.pt/",
+        "address_quoted": "Rua do Choupelo, 39, 4400-088 Vila Nova de Gaia",
+        "open_status": "open",
+        "open_evidence_url": "https://www.visitportugal.com/en/content/wow-%E2%80%93-world-wine",
+        "cuisine_evidence_url": "https://wow.pt/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "sandeman-museum-cellar-gaia",
+      "name": "Sandeman Museum-Cellar",
+      "address": "Largo Miguel Bombarda 47, 4400-222 Vila Nova de Gaia, Portugal",
+      "neighborhood": "Vila Nova de Gaia",
+      "description": "The Sandeman house museum inside the 1811 Gaia cellar, presenting the brand's history and the iconic caped Don alongside the working Port ageing cellar.",
+      "admission": "Included with the guided cellar visit and tasting from around EUR 22",
+      "permanent_collection": true,
+      "temporary_exhibitions": false,
+      "tasting_bar": true,
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.sandeman.com/port-wine/visit/cellars-porto/",
+        "address_quoted": "Largo Miguel Bombarda, 3, 4400-222 Vila Nova de Gaia",
+        "open_status": "open",
+        "open_evidence_url": "https://www.timeout.com/porto/museums/sandeman-museum-cellar",
+        "cuisine_evidence_url": "https://winetourism.sogrape.com/en/visit/sandeman",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "grahams-lodge-museum-gaia",
+      "name": "Graham's 1890 Lodge Museum",
+      "address": "Rua Rei Ramiro 514, 4400-281 Vila Nova de Gaia, Portugal",
+      "neighborhood": "Vila Nova de Gaia",
+      "description": "The house museum within Graham's hilltop 1890 lodge, displaying the family archive, historic decanters and Vintage Port records alongside the working ageing cellar.",
+      "admission": "Included with the guided lodge tour and tasting",
+      "permanent_collection": true,
+      "temporary_exhibitions": false,
+      "tasting_bar": true,
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.grahams-port.com/1890-lodge",
+        "address_quoted": "Rua Rei Ramiro, 514, 4400-281 Vila Nova de Gaia",
+        "open_status": "open",
+        "open_evidence_url": "https://www.visitportugal.com/en/node/403603",
+        "cuisine_evidence_url": "https://www.grahams-port.com/visit-us",
+        "checked_on": "2026-05-25"
+      }
+    }
+  ]
+}

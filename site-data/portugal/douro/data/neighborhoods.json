@@ -1,0 +1,214 @@
+{
+  "neighborhoods": [
+    {
+      "slug": "baixo-corgo",
+      "name": "Baixo Corgo",
+      "address": "Baixo Corgo, around Peso da Regua, Douro, Portugal",
+      "classification": "DOC Douro and DOC Porto",
+      "description": "The westernmost and coolest of the three Douro sub-regions, downstream of the Corgo river around Peso da Regua. Wettest and most densely planted, it supplies much of the volume for Ruby and Tawny Port and lighter DOC Douro reds.",
+      "key_varietals": ["Touriga Franca", "Tinta Roriz", "Tinta Barroca", "Touriga Nacional"],
+      "sub_communes": ["Peso da Regua", "Lamego", "Santa Marta de Penaguiao", "Mesao Frio"],
+      "famous_producers": ["quinta-do-vallado", "quinta-da-pacheca", "alves-de-sousa"],
+      "aliases": ["Baixo Corgo", "Lower Corgo"],
+      "vibe": "Greener, cooler hills around Regua where the railway and the river first open into wine country.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://en.wikipedia.org/wiki/Douro_DOC",
+        "address_quoted": "Baixo Corgo",
+        "open_status": "open",
+        "open_evidence_url": "https://www.ivdp.pt/en/",
+        "cuisine_evidence_url": "https://winesofportugal.com/en/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "cima-corgo",
+      "name": "Cima Corgo",
+      "address": "Cima Corgo, around Pinhao, Douro, Portugal",
+      "classification": "DOC Douro and DOC Porto",
+      "description": "The classic heart of the Douro, upstream of the Corgo around Pinhao and Tua. Home to most of the premium Port quintas and the best-rated terraced vineyards, it is the source of most Vintage Port and the region's benchmark DOC Douro reds.",
+      "key_varietals": ["Touriga Nacional", "Touriga Franca", "Tinta Roriz", "Tinto Cao", "Sousao"],
+      "sub_communes": ["Pinhao", "Sabrosa", "Alijo", "Tabuaco", "Sao Joao da Pesqueira"],
+      "famous_producers": ["quinta-do-crasto", "quinta-do-bomfim", "quinta-de-la-rosa", "quinta-do-noval", "quinta-do-seixo"],
+      "aliases": ["Cima Corgo", "Upper Corgo"],
+      "vibe": "Steep schist terraces above Pinhao, the postcard Douro and the address of its grandest estates.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://en.wikipedia.org/wiki/Douro_DOC",
+        "address_quoted": "Cima Corgo",
+        "open_status": "open",
+        "open_evidence_url": "https://www.ivdp.pt/en/",
+        "cuisine_evidence_url": "https://winesofportugal.com/en/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "douro-superior",
+      "name": "Douro Superior",
+      "address": "Douro Superior, towards Vila Nova de Foz Coa, Douro, Portugal",
+      "classification": "DOC Douro and DOC Porto",
+      "description": "The hottest, driest and most remote sub-region, stretching east towards the Spanish border around Vila Nova de Foz Coa. Less terraced and more sparsely planted, it produces some of the most concentrated reds and a new wave of single-quinta wines.",
+      "key_varietals": ["Touriga Nacional", "Touriga Franca", "Tinta Roriz", "Sousao"],
+      "sub_communes": ["Vila Nova de Foz Coa", "Sao Joao da Pesqueira", "Torre de Moncorvo"],
+      "famous_producers": ["quinta-do-vale-meao", "quinta-do-vesuvio", "quevedo"],
+      "aliases": ["Douro Superior", "Upper Douro"],
+      "vibe": "Wide, hot and wild country near the border, where the river broadens and the vineyards thin out.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://en.wikipedia.org/wiki/Douro_DOC",
+        "address_quoted": "Douro Superior",
+        "open_status": "open",
+        "open_evidence_url": "https://www.ivdp.pt/en/",
+        "cuisine_evidence_url": "https://winesofportugal.com/en/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "vila-nova-de-gaia",
+      "name": "Vila Nova de Gaia",
+      "address": "Vila Nova de Gaia, across the Douro from Porto, Portugal",
+      "classification": "DOC Porto",
+      "description": "The Port lodge quarter on the south bank of the Douro opposite Porto, where most houses traditionally aged and blended their Port. The riverside Cais de Gaia is lined with visitor centres from Taylor's and Graham's to Sandeman, Calem and Cockburn's.",
+      "key_varietals": ["Touriga Nacional", "Touriga Franca", "Tinta Roriz", "Tinta Barroca"],
+      "sub_communes": ["Cais de Gaia", "Serra do Pilar"],
+      "famous_producers": ["taylors", "grahams", "sandeman", "calem", "cockburns", "kopke"],
+      "aliases": ["Vila Nova de Gaia", "Gaia", "Cais de Gaia"],
+      "vibe": "Cobbled riverfront of barrel-lined lodges and rooftop terraces facing Porto across the water.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://en.wikipedia.org/wiki/Vila_Nova_de_Gaia",
+        "address_quoted": "Vila Nova de Gaia",
+        "open_status": "open",
+        "open_evidence_url": "https://www.ivdp.pt/en/",
+        "cuisine_evidence_url": "https://winesofportugal.com/en/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "peso-da-regua",
+      "name": "Peso da Regua",
+      "address": "Peso da Regua, Baixo Corgo, Douro, Portugal",
+      "classification": "DOC Douro and DOC Porto",
+      "description": "The historic river port and de facto capital of the Baixo Corgo, where Port was loaded onto barcos rabelos for the journey downstream. Today it hosts the Douro Museum and is the rail and road gateway into the wine region.",
+      "key_varietals": ["Touriga Franca", "Tinta Roriz", "Touriga Nacional"],
+      "sub_communes": ["Regua", "Godim", "Vilarinho dos Freires"],
+      "famous_producers": ["quinta-do-vallado", "quinta-da-pacheca"],
+      "aliases": ["Peso da Regua", "Regua"],
+      "vibe": "Working river town with the Douro Museum and the main station onto the Linha do Douro.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.cm-pesoregua.pt/",
+        "address_quoted": "Peso da Regua",
+        "open_status": "open",
+        "open_evidence_url": "https://www.visitportugal.com/en/destinos/porto-e-norte",
+        "cuisine_evidence_url": "https://winesofportugal.com/en/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "pinhao",
+      "name": "Pinhao",
+      "address": "Pinhao, Cima Corgo, Douro, Portugal",
+      "classification": "DOC Douro and DOC Porto",
+      "description": "The small riverside village at the centre of the Cima Corgo, ringed by the most famous Port quintas. Its azulejo-tiled railway station depicting the harvest is one of the Douro's most photographed sights.",
+      "key_varietals": ["Touriga Nacional", "Touriga Franca", "Tinta Roriz", "Sousao"],
+      "sub_communes": ["Pinhao", "Vale de Mendiz", "Casal de Loivos"],
+      "famous_producers": ["quinta-do-bomfim", "quinta-de-la-rosa", "quinta-do-noval", "croft", "wine-and-soul"],
+      "aliases": ["Pinhao"],
+      "vibe": "Tiny tile-station village hemmed in by river and terraced hills, the hub for Cima Corgo visits.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.visitportugal.com/en/node/73762",
+        "address_quoted": "Pinhao",
+        "open_status": "open",
+        "open_evidence_url": "https://www.ivdp.pt/en/",
+        "cuisine_evidence_url": "https://winesofportugal.com/en/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "lamego",
+      "name": "Lamego",
+      "address": "Lamego, south of the Douro near Peso da Regua, Portugal",
+      "classification": "DOC Douro and DOC Porto",
+      "description": "A historic hill town just south of the river known for the baroque shrine of Nossa Senhora dos Remedios and for sparkling wine as well as Douro reds. It anchors the southern edge of the Baixo Corgo near Cambres.",
+      "key_varietals": ["Touriga Franca", "Tinta Roriz", "Malvasia Fina"],
+      "sub_communes": ["Lamego", "Cambres", "Penajoia"],
+      "famous_producers": ["quinta-da-pacheca"],
+      "aliases": ["Lamego"],
+      "vibe": "Baroque pilgrimage town above the vines, with a long stairway to the Remedios sanctuary.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.cm-lamego.pt/",
+        "address_quoted": "Lamego",
+        "open_status": "open",
+        "open_evidence_url": "https://www.visitportugal.com/en/destinos/porto-e-norte",
+        "cuisine_evidence_url": "https://winesofportugal.com/en/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "sabrosa",
+      "name": "Sabrosa",
+      "address": "Sabrosa, Cima Corgo, Douro, Portugal",
+      "classification": "DOC Douro and DOC Porto",
+      "description": "A high village on the north bank of the Cima Corgo, birthplace of the navigator Ferdinand Magellan and surrounded by leading estates. The parish of Gouvinhas here is home to Quinta do Crasto.",
+      "key_varietals": ["Touriga Nacional", "Touriga Franca", "Tinta Roriz", "Tinto Cao"],
+      "sub_communes": ["Sabrosa", "Gouvinhas", "Celeiros do Douro", "Provesende"],
+      "famous_producers": ["quinta-do-crasto", "quinta-do-portal", "vallegre"],
+      "aliases": ["Sabrosa"],
+      "vibe": "Granite hill villages and stone manor houses above some of the Cima Corgo's best terraces.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.cm-sabrosa.pt/",
+        "address_quoted": "Sabrosa",
+        "open_status": "open",
+        "open_evidence_url": "https://www.ivdp.pt/en/",
+        "cuisine_evidence_url": "https://winesofportugal.com/en/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "alijo",
+      "name": "Alijo",
+      "address": "Alijo, Cima Corgo, Douro, Portugal",
+      "classification": "DOC Douro and DOC Porto",
+      "description": "A north-bank municipality of the Cima Corgo whose Pinhao river valley and the Favaios plateau, famed for Moscatel, hold a string of prestigious quintas. It rises from the river towards the cooler high country around Alijo town.",
+      "key_varietals": ["Touriga Nacional", "Touriga Franca", "Moscatel Galego Branco", "Tinta Roriz"],
+      "sub_communes": ["Alijo", "Favaios", "Pinhao (north)", "Cotas"],
+      "famous_producers": ["quinta-da-romaneira", "quinta-da-avessada"],
+      "aliases": ["Alijo"],
+      "vibe": "High north-bank country from the river up to Favaios, where Moscatel joins the red-wine quintas.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.cm-alijo.pt/",
+        "address_quoted": "Alijo",
+        "open_status": "open",
+        "open_evidence_url": "https://www.ivdp.pt/en/",
+        "cuisine_evidence_url": "https://winesofportugal.com/en/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "tabuaco",
+      "name": "Tabuaco",
+      "address": "Tabuaco, Cima Corgo, Douro, Portugal",
+      "classification": "DOC Douro and DOC Porto",
+      "description": "A south-bank municipality of the Cima Corgo around Valenca do Douro and Adorigo, with steep terraces facing the river. It is home to Sandeman's Quinta do Seixo and Fonseca's Quinta do Panascal visitor estates.",
+      "key_varietals": ["Touriga Nacional", "Touriga Franca", "Tinta Barroca", "Tinta Roriz"],
+      "sub_communes": ["Tabuaco", "Valenca do Douro", "Adorigo", "Barcos"],
+      "famous_producers": ["quinta-do-seixo", "quinta-do-panascal", "quinta-do-pego"],
+      "aliases": ["Tabuaco"],
+      "vibe": "South-bank terraces around Valenca do Douro with sweeping river views from estate tasting rooms.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.visitportugal.com/en/destinos/porto-e-norte",
+        "address_quoted": "Porto e Norte",
+        "open_status": "open",
+        "open_evidence_url": "https://www.ivdp.pt/en/",
+        "cuisine_evidence_url": "https://winesofportugal.com/en/",
+        "checked_on": "2026-05-25"
+      }
+    }
+  ]
+}

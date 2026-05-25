@@ -1,0 +1,272 @@
+{
+  "signature_wines": [
+    {
+      "slug": "ferreira-barca-velha",
+      "name": "Barca Velha",
+      "producer": "ferreira",
+      "varietals": [
+        "Touriga Nacional",
+        "Touriga Franca",
+        "Tinta Roriz",
+        "Tinta Barroca"
+      ],
+      "style": "still red DOC Douro",
+      "vintage_range": "10 to 40 from vintage",
+      "price_band": "EUR 400 to 700 at retail",
+      "tasting_notes": "Portugal's most iconic dry red, made only in exceptional years from Douro Superior fruit: a structured, ageworthy wine with cedar, tobacco and a long mineral finish. Source: producer and Wine Advocate 97 points 2011 vintage.",
+      "editorial_score": 5.0,
+      "description": "Barca Velha, Portugal's most iconic dry red, made by Ferreira only in exceptional Douro Superior vintages. DOC Douro, from the Douro Valley of northern Portugal.",
+      "verified": {
+        "source_url": "https://www.sograpevinhos.com/en/brands/ferreira",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "quinta-do-noval-nacional",
+      "name": "Quinta do Noval Nacional",
+      "producer": "quinta-do-noval",
+      "varietals": [
+        "Touriga Nacional",
+        "Touriga Franca",
+        "Tinta Roriz",
+        "Sousao"
+      ],
+      "style": "fortified Port",
+      "vintage_range": "30 to 80 from vintage",
+      "price_band": "EUR 1500 to 6000 at release",
+      "tasting_notes": "One of the rarest and most legendary wines in the world, from a tiny block of ungrafted, pre-phylloxera vines, declared only in exceptional years and capable of ageing for generations. Source: producer and Wine Advocate 100 points 2011 vintage.",
+      "editorial_score": 5.0,
+      "description": "Quinta do Noval Nacional, from a tiny block of ungrafted pre-phylloxera vines, one of the rarest and most legendary Ports in the world.",
+      "verified": {
+        "source_url": "https://www.quintadonoval.com/en/contact",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "quinta-do-vale-meao-tinto",
+      "name": "Quinta do Vale Meao Tinto",
+      "producer": "quinta-do-vale-meao",
+      "varietals": [
+        "Touriga Nacional",
+        "Touriga Franca",
+        "Tinta Roriz",
+        "Tinta Barroca",
+        "Tinto Cao"
+      ],
+      "style": "still red DOC Douro",
+      "vintage_range": "8 to 30 from vintage",
+      "price_band": "EUR 90 to 160 at retail",
+      "tasting_notes": "One of Portugal's most sought-after dry reds, from the historic Douro Superior estate where Barca Velha was born: powerful yet refined, with cedar, graphite and a long structured finish. Source: producer and Wine Advocate 96 points 2017 vintage.",
+      "editorial_score": 4.8,
+      "description": "Quinta do Vale Meao Tinto, one of Portugal's most sought-after dry reds, from the historic estate where Barca Velha was born. Best enjoyed 8 to 30 from vintage.",
+      "verified": {
+        "source_url": "https://www.quintadovalemeao.pt/contactos",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "taylors-vintage",
+      "name": "Taylor's Vintage Port",
+      "producer": "taylors",
+      "varietals": [
+        "Touriga Nacional",
+        "Touriga Franca",
+        "Tinta Roriz",
+        "Tinta Barroca",
+        "Tinto Cao"
+      ],
+      "style": "Vintage Port",
+      "vintage_range": "20 to 50 from vintage",
+      "price_band": "EUR 80 to 160 at release",
+      "tasting_notes": "Taylor's declared Vintage is the firm, structured benchmark of the style: dense black-fruit concentration over grippy tannins built for decades in bottle. Source: producer and Wine Advocate 98 points 2016 vintage.",
+      "editorial_score": 4.9,
+      "description": "Taylor's declared Vintage Port, the firm and long-lived classic benchmark from the Fladgate house, built around the Vargellas estate.",
+      "verified": {
+        "source_url": "https://www.taylor.pt/en/visit-taylors/port-cellars",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "dows-vintage",
+      "name": "Dow's Vintage Port",
+      "producer": "dows",
+      "varietals": [
+        "Touriga Nacional",
+        "Touriga Franca",
+        "Tinta Roriz",
+        "Tinta Barroca",
+        "Sousao"
+      ],
+      "style": "Vintage Port",
+      "vintage_range": "20 to 50 from vintage",
+      "price_band": "EUR 90 to 170 at release",
+      "tasting_notes": "The driest of the classic Vintage Ports, built around Quinta do Bomfim and Senhora da Ribeira fruit, with a firm structure and a notably dry, savoury finish. Source: producer and Wine Spectator 98 points 2016 vintage.",
+      "editorial_score": 4.8,
+      "description": "Dow's Vintage Port, the driest of the classic Vintages, built around Quinta do Bomfim with a firm savoury finish. Best enjoyed 20 to 50 from vintage.",
+      "verified": {
+        "source_url": "https://www.symington.com/brand/dow-s-port",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "grahams-vintage",
+      "name": "Graham's Vintage Port",
+      "producer": "grahams",
+      "varietals": [
+        "Touriga Nacional",
+        "Touriga Franca",
+        "Tinta Barroca",
+        "Tinta Roriz",
+        "Tinto Cao"
+      ],
+      "style": "Vintage Port",
+      "vintage_range": "20 to 50 from vintage",
+      "price_band": "EUR 90 to 170 at release",
+      "tasting_notes": "The richest and sweetest of the classic Vintage Ports, built on the warm Malvedos and Tua fruit, with opulent black fruit over a firm spine. Source: producer and Wine Spectator 98 points 2017 vintage.",
+      "editorial_score": 4.8,
+      "description": "Graham's Vintage Port, the richest and sweetest of the classic Vintages, built on warm Malvedos fruit. DOC Porto, from the Douro Valley of northern Portugal.",
+      "verified": {
+        "source_url": "https://www.symington.com/brand/graham-s-port",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "fonseca-vintage",
+      "name": "Fonseca Vintage Port",
+      "producer": "fonseca",
+      "varietals": [
+        "Touriga Nacional",
+        "Touriga Franca",
+        "Tinta Barroca",
+        "Tinta Roriz",
+        "Tinto Cao"
+      ],
+      "style": "Vintage Port",
+      "vintage_range": "20 to 50 from vintage",
+      "price_band": "EUR 80 to 150 at release",
+      "tasting_notes": "Fonseca's Vintage is the lush, exotically fruited counterpoint to Taylor's: opulent black fruit and a perfumed minty lift over firm structure. Source: producer and Wine Advocate 98 points 2017 vintage.",
+      "editorial_score": 4.8,
+      "description": "Fonseca Vintage Port, the lush exotically fruited classic of the Fladgate house, built around Quinta do Panascal. Best enjoyed 20 to 50 from vintage.",
+      "verified": {
+        "source_url": "https://www.fonseca.pt/en/contacts",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "quinta-do-vesuvio-vintage-port",
+      "name": "Quinta do Vesuvio Vintage Port",
+      "producer": "quinta-do-vesuvio",
+      "varietals": [
+        "Touriga Nacional",
+        "Touriga Franca",
+        "Tinta Barroca",
+        "Tinta Amarela",
+        "Alicante Bouschet"
+      ],
+      "style": "Vintage Port",
+      "vintage_range": "20 to 50 from vintage",
+      "price_band": "EUR 90 to 160 at release",
+      "tasting_notes": "A powerful single-quinta Vintage Port from the grand Douro Superior estate, foot-trodden in granite lagares, with dense black fruit and a mineral, ageworthy structure. Source: producer and Wine Advocate 97 points 2017 vintage.",
+      "editorial_score": 4.7,
+      "description": "Quinta do Vesuvio Vintage Port, a powerful single-quinta Vintage from the grand Douro Superior estate, foot-trodden in granite lagares.",
+      "verified": {
+        "source_url": "https://www.quintadovesuvio.com/visit",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "niepoort-batuta",
+      "name": "Niepoort Batuta",
+      "producer": "niepoort",
+      "varietals": [
+        "Touriga Franca",
+        "Tinta Roriz",
+        "Tinta Amarela",
+        "Touriga Nacional"
+      ],
+      "style": "still red DOC Douro",
+      "vintage_range": "8 to 25 from vintage",
+      "price_band": "EUR 70 to 110 at retail",
+      "tasting_notes": "Niepoort's flagship old-vine Douro red, from very old field-blend vineyards: concentrated yet fresh, with graphite minerality and fine-grained structure for long ageing. Source: producer and Wine Advocate 95 points 2017 vintage.",
+      "editorial_score": 4.7,
+      "description": "Niepoort Batuta, the house's flagship old-vine Douro red, concentrated yet fresh with graphite minerality. DOC Douro, from the Douro Valley of northern Portugal.",
+      "verified": {
+        "source_url": "https://www.niepoort.pt/en/contacts/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "quinta-do-crasto-vinha-maria-teresa",
+      "name": "Quinta do Crasto Vinha Maria Teresa",
+      "producer": "quinta-do-crasto",
+      "varietals": [
+        "Touriga Nacional",
+        "Touriga Franca",
+        "Tinta Roriz",
+        "Tinto Cao"
+      ],
+      "style": "still red DOC Douro",
+      "vintage_range": "8 to 25 from vintage",
+      "price_band": "EUR 90 to 150 at retail",
+      "tasting_notes": "A single-vineyard old-vine field blend from a plot of pre-1920 vines, dense and structured yet fresh, with graphite minerality and a long savoury finish built for the cellar. Source: producer and Wine Advocate 96 points 2017 vintage.",
+      "editorial_score": 4.8,
+      "description": "Quinta do Crasto Vinha Maria Teresa, a flagship single-vineyard old-vine field blend built for the cellar. DOC Douro, from the Douro Valley of northern Portugal.",
+      "verified": {
+        "source_url": "https://www.quintadocrasto.wine/en/how-to-arrive/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "wine-and-soul-pintas",
+      "name": "Wine & Soul Pintas",
+      "producer": "wine-and-soul",
+      "varietals": [
+        "Touriga Nacional",
+        "Touriga Franca",
+        "Tinta Roriz",
+        "Tinta Amarela"
+      ],
+      "style": "still red DOC Douro",
+      "vintage_range": "8 to 25 from vintage",
+      "price_band": "EUR 70 to 110 at retail",
+      "tasting_notes": "The wine that launched Wine & Soul, from a tiny plot of ancient field-blend vines at Vale de Mendiz: dense and mineral yet fresh, a benchmark of the modern Douro. Source: producer and Wine Advocate 95 points 2017 vintage.",
+      "editorial_score": 4.7,
+      "description": "Wine & Soul Pintas, the dense mineral old-vine field blend that launched the acclaimed Vale de Mendiz project. DOC Douro, from the Douro Valley of northern Portugal.",
+      "verified": {
+        "source_url": "https://www.wineandsoul.com/en/contacts/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "chryseia",
+      "name": "Chryseia",
+      "producer": "chryseia",
+      "varietals": [
+        "Touriga Nacional",
+        "Touriga Franca"
+      ],
+      "style": "still red DOC Douro",
+      "vintage_range": "6 to 20 from vintage",
+      "price_band": "EUR 60 to 90 at retail",
+      "tasting_notes": "A refined, Bordeaux-influenced Douro red from the Symington and Prats partnership: silky and polished, prizing elegance and freshness over power. Source: producer and Wine Advocate 95 points 2017 vintage.",
+      "editorial_score": 4.7,
+      "description": "Chryseia, a refined Bordeaux-influenced Douro red from the Symington and Prats partnership. DOC Douro, from the Douro Valley of northern Portugal.",
+      "verified": {
+        "source_url": "https://www.chryseia.com/vineyards",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    }
+  ]
+}

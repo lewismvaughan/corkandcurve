@@ -1,0 +1,538 @@
+{
+  "nightlife": {
+    "wine_bars_late": [
+      {
+        "slug": "prova-wine-food-pleasure",
+        "name": "Prova Wine Food and Pleasure",
+        "address": "Rua de Ferreira Borges 86, 4050-253 Porto, Portugal",
+        "neighborhood": "Ribeira, Porto",
+        "wine_program": "Curated list of Portuguese and European small-producer wines with a knowledgeable sommelier and an attached wine shop",
+        "glass_count": 30,
+        "opens_until": "01:00",
+        "tip": "Open late from the afternoon to 1am; the cave-like room with jazz and a charcuterie board is the spot for an unhurried late glass.",
+        "description": "One of Porto's longest-running wine bars near Ribeira, with golden lighting, background jazz and a smart by-the-glass list run by a clued-in sommelier.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://prova.com.pt/",
+          "address_quoted": "Rua de Ferreira Borges",
+          "open_status": "open",
+          "open_evidence_url": "https://www.eatingeurope.com/blog/best-wine-bars-porto/",
+          "cuisine_evidence_url": "https://portoalities.com/en/best-wine-bars-porto/",
+          "checked_on": "2026-05-25"
+        }
+      },
+      {
+        "slug": "wine-quay-bar",
+        "name": "Wine Quay Bar",
+        "address": "Muro dos Bacalhoeiros 111-112, 4050-080 Porto, Portugal",
+        "neighborhood": "Ribeira, Porto",
+        "wine_program": "Portuguese-focused by-the-glass list strong on Douro reds and whites, with cheese and charcuterie boards",
+        "glass_count": 20,
+        "opens_until": "23:00",
+        "tip": "Grab a riverside table at dusk for the classic Ribeira-and-Gaia view; it is one of the best sunset wine perches in the city.",
+        "description": "A cosy Ribeira wine bar on the old fishmongers' wall, pouring Portuguese wines with a privileged view across the Douro to the Gaia lodges.",
+        "editorial_score": 4.3,
+        "verified": {
+          "source_url": "https://www.winequaybar.com/",
+          "address_quoted": "Muro dos Bacalhoeiros",
+          "open_status": "open",
+          "open_evidence_url": "https://portoalities.com/en/best-wine-bars-porto/",
+          "cuisine_evidence_url": "https://www.eatingeurope.com/blog/best-wine-bars-porto/",
+          "checked_on": "2026-05-25"
+        }
+      },
+      {
+        "slug": "touriga-vinhos-de-portugal",
+        "name": "Touriga Vinhos de Portugal",
+        "address": "Rua dos Caldeireiros 84, 4050-140 Porto, Portugal",
+        "neighborhood": "Baixa, Porto",
+        "wine_program": "Wines from the regions around Porto, Vinho Verde, Douro, Dao and Port, poured by the glass with regional small bites",
+        "glass_count": 25,
+        "opens_until": "00:00",
+        "tip": "A focused stop to taste the four northern regions side by side; the Douro reds and Ports are the core of the list.",
+        "description": "A Baixa wine bar and shop showcasing the wines of the regions around Porto, from Vinho Verde and Douro to Dao and Port.",
+        "editorial_score": 4.2,
+        "verified": {
+          "source_url": "https://www.tourigawinedine.com/",
+          "address_quoted": "Rua dos Caldeireiros",
+          "open_status": "open",
+          "open_evidence_url": "https://www.eatingeurope.com/blog/best-wine-bars-porto/",
+          "cuisine_evidence_url": "https://portoalities.com/en/best-wine-bars-porto/",
+          "checked_on": "2026-05-25"
+        }
+      },
+      {
+        "slug": "genuino-wine-bar",
+        "name": "Genuino",
+        "address": "Rua de Miguel Bombarda 78, 4050-377 Porto, Portugal",
+        "neighborhood": "Cedofeita, Porto",
+        "wine_program": "Natural and low-intervention wines by the glass with seasonal small plates, bar restaurant and shop in one",
+        "glass_count": 20,
+        "opens_until": "00:00",
+        "tip": "Run by a warm Brazilian couple in the Bombarda gallery district; ask them to steer you through the natural Douro pours.",
+        "description": "A relaxed natural-wine bar, kitchen and shop in Cedofeita's gallery quarter, with retro decor and a low-intervention list.",
+        "editorial_score": 4.2,
+        "verified": {
+          "source_url": "https://atlasporto.com/natural-wine-bars-in-porto/",
+          "address_quoted": "Rua de Miguel Bombarda",
+          "open_status": "open",
+          "open_evidence_url": "https://culinarybackstreets.com/stories/porto/uncorked-the-crisp-new-wave-of-porto-wine-bars",
+          "cuisine_evidence_url": "https://www.raisin.digital/en/europe/countries/portugal/porto/porto/",
+          "checked_on": "2026-05-25"
+        }
+      },
+      {
+        "slug": "vinhas-dalho",
+        "name": "Vinhas d'Alho",
+        "address": "Muro dos Bacalhoeiros 139, 4050-492 Porto, Portugal",
+        "neighborhood": "Ribeira, Porto",
+        "wine_program": "Portuguese wine list anchored in Douro reds and Ports, served with regional dishes on the riverfront",
+        "glass_count": 18,
+        "opens_until": "22:30",
+        "tip": "A riverside table here pairs Douro wine with Porto cooking and the floodlit Dom Luis bridge.",
+        "description": "A riverfront Ribeira wine bar and restaurant pouring Portuguese wines with regional plates beside the Douro.",
+        "editorial_score": 4.0,
+        "verified": {
+          "source_url": "https://portoalities.com/en/best-wine-bars-porto/",
+          "address_quoted": "Muro dos Bacalhoeiros",
+          "open_status": "open",
+          "open_evidence_url": "https://www.eatingeurope.com/blog/best-wine-bars-porto/",
+          "cuisine_evidence_url": "https://atlasporto.com/natural-wine-bars-in-porto/",
+          "checked_on": "2026-05-25"
+        }
+      },
+      {
+        "slug": "thelab-porto",
+        "name": "theLAB",
+        "address": "Rua do Bonjardim 1206, 4000-133 Porto, Portugal",
+        "neighborhood": "Marques, Porto",
+        "wine_program": "Low-intervention Portuguese wines from small producers, plus vermouth and spirits, in a tasting room and shop",
+        "glass_count": 16,
+        "opens_until": "22:00",
+        "tip": "Book a guided private tasting to walk through Portugal's regions and natural-wine scene with the team.",
+        "description": "A natural-wine tasting room and shop on Rua do Bonjardim championing low-intervention Portuguese bottles from small independent growers.",
+        "editorial_score": 4.1,
+        "verified": {
+          "source_url": "https://thelabporto.com/",
+          "address_quoted": "Rua do Bonjardim 1206",
+          "open_status": "open",
+          "open_evidence_url": "https://www.raisin.digital/en/explore/portugal/porto/venues/thelab-7767/",
+          "cuisine_evidence_url": "https://catavino.net/portuguese-wine-tastings-at-thelab-in-porto/",
+          "checked_on": "2026-05-25"
+        }
+      }
+    ],
+    "listening_bars": [
+      {
+        "slug": "fiasco-record-bar",
+        "name": "Fiasco",
+        "address": "Avenida de Rodrigues de Freitas 133, 4300-096 Porto, Portugal",
+        "neighborhood": "Bonfim, Porto",
+        "wine_program": "Wine and cocktails alongside a record store, four-in-one bar, shop and listening space",
+        "glass_count": 15,
+        "opens_until": "02:00",
+        "tip": "Dig through the vinyl while you drink; it is one of the hippest late rooms in Porto and the wine list keeps pace.",
+        "description": "A record-store-meets-bar in Bonfim where vinyl, wine and cocktails share the same room, open late into the night.",
+        "editorial_score": 4.1,
+        "verified": {
+          "source_url": "https://www.agenda-porto.pt/en/local/fiasco/",
+          "address_quoted": "Rodrigues de Freitas",
+          "open_status": "open",
+          "open_evidence_url": "https://saluteguide.com/en/porto/place/fiasco-in-porto/",
+          "cuisine_evidence_url": "https://wanderlog.com/place/details/9807013/fiasco",
+          "checked_on": "2026-05-25"
+        }
+      },
+      {
+        "slug": "bop-vinyl-wine",
+        "name": "BOP",
+        "address": "Rua da Firmeza 575, 4000-230 Porto, Portugal",
+        "neighborhood": "Bolhao, Porto",
+        "wine_program": "Wine by the glass amid a collection of more than 2,500 records with communal players and headphones",
+        "glass_count": 12,
+        "opens_until": "02:00",
+        "tip": "Borrow headphones and a record to play at your table; it is a true listening bar with a serious vinyl archive.",
+        "description": "A vinyl listening bar near Bolhao with thousands of records, communal turntables and a wine-and-cocktail list for slow evenings.",
+        "editorial_score": 4.0,
+        "verified": {
+          "source_url": "https://www.timeout.com/porto/restaurants/bop",
+          "address_quoted": "Rua da Firmeza",
+          "open_status": "open",
+          "open_evidence_url": "https://portoalities.com/en/record-stores-in-porto/",
+          "cuisine_evidence_url": "https://oportoblog.com/things-to-do-in-porto/5-portos-secret-lounge-bars/",
+          "checked_on": "2026-05-25"
+        }
+      },
+      {
+        "slug": "gito-natural-wine",
+        "name": "Gito",
+        "address": "Rua dos Martires da Liberdade 21, 4050-453 Porto, Portugal",
+        "neighborhood": "Baixa, Porto",
+        "wine_program": "Tightly curated Portuguese natural wines by the glass in a tiny twenty-seat room",
+        "glass_count": 12,
+        "opens_until": "00:00",
+        "tip": "Only twenty seats, so people spill onto the pavement; arrive early and let the owners pick the natural pours.",
+        "description": "A tiny, music-loving natural-wine bar in the historic centre with an exciting glass list and a spill-onto-the-street crowd.",
+        "editorial_score": 4.1,
+        "verified": {
+          "source_url": "https://atlasporto.com/natural-wine-bars-in-porto/",
+          "address_quoted": "Rua dos Martires da Liberdade",
+          "open_status": "open",
+          "open_evidence_url": "https://www.raisin.digital/en/europe/countries/portugal/porto/porto/",
+          "cuisine_evidence_url": "https://portoalities.com/en/best-wine-bars-porto/",
+          "checked_on": "2026-05-25"
+        }
+      }
+    ],
+    "candle_lit": [
+      {
+        "slug": "capela-incomum",
+        "name": "Capela Incomum",
+        "address": "Travessa do Carregal 77, 4050-166 Porto, Portugal",
+        "neighborhood": "Cedofeita, Porto",
+        "wine_program": "Short, Douro and Minho focused Portuguese list with sparkling and Port, plus cheese and charcuterie",
+        "glass_count": 14,
+        "opens_until": "00:00",
+        "tip": "Book the table inside the old chapel apse for the most atmospheric seat; Fado nights make it especially candlelit and hushed.",
+        "description": "A wine bar set inside a deconsecrated chapel in Cedofeita, all candlelight and blues, with a short Douro-leaning Portuguese list.",
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://www.capelaincomum.pt/",
+          "address_quoted": "Travessa do Carregal",
+          "open_status": "open",
+          "open_evidence_url": "https://www.timeout.com/porto/bars-and-pubs/capela-incomum",
+          "cuisine_evidence_url": "https://portoalities.com/en/best-wine-bars-porto/",
+          "checked_on": "2026-05-25"
+        }
+      },
+      {
+        "slug": "vinologia-candle-room",
+        "name": "Vinologia",
+        "address": "Rua de Sao Joao 28, 4050-552 Porto, Portugal",
+        "neighborhood": "Ribeira, Porto",
+        "wine_program": "Around 200 Ports and Douro wines from small producers, poured in flights in a cosy candle-warm tasting room",
+        "glass_count": 30,
+        "opens_until": "00:00",
+        "tip": "Sit at the back tables and ask for a vertical Port flight; the snug room is at its best after dark.",
+        "description": "An intimate Ribeira tasting room with around 200 Ports and Douro wines from small producers, open late in a warm, low-lit space.",
+        "editorial_score": 4.3,
+        "verified": {
+          "source_url": "https://vinologia.pt/",
+          "address_quoted": "Rua de Sao Joao",
+          "open_status": "open",
+          "open_evidence_url": "https://www.afar.com/places/vinologia-la-maison-des-porto-porto",
+          "cuisine_evidence_url": "https://portoalities.com/en/best-wine-bars-porto/",
+          "checked_on": "2026-05-25"
+        }
+      },
+      {
+        "slug": "gharb-natural-wine",
+        "name": "Gharb",
+        "address": "Campo dos Martires da Patria 130, 4050-366 Porto, Portugal",
+        "neighborhood": "Vitoria, Porto",
+        "wine_program": "Natural-wine list paired with Arab-world flavours in a candle-lit, low-key room",
+        "glass_count": 16,
+        "opens_until": "00:00",
+        "tip": "Pair the natural pours with the mezze-style plates; the dim, intimate room suits a slow late dinner.",
+        "description": "A candle-lit natural-wine bar paying tribute to Arab-world aromas and flavours, with an adventurous low-intervention list.",
+        "editorial_score": 4.0,
+        "verified": {
+          "source_url": "https://atlasporto.com/natural-wine-bars-in-porto/",
+          "address_quoted": "Campo dos Martires da Patria",
+          "open_status": "open",
+          "open_evidence_url": "https://culinarybackstreets.com/stories/porto/uncorked-the-crisp-new-wave-of-porto-wine-bars",
+          "cuisine_evidence_url": "https://www.raisin.digital/en/europe/countries/portugal/porto/porto/",
+          "checked_on": "2026-05-25"
+        }
+      }
+    ],
+    "lounges": [
+      {
+        "slug": "espaco-porto-cruz-360-lounge",
+        "name": "Espaco Porto Cruz 360 Terrace Lounge",
+        "address": "Largo Miguel Bombarda 23, 4400-222 Vila Nova de Gaia, Portugal",
+        "neighborhood": "Gaia riverfront",
+        "wine_program": "Port and Douro wine by the glass plus port cocktails on a rooftop lounge over the river",
+        "glass_count": 15,
+        "opens_until": "00:00",
+        "tip": "Ride the lift to the 360 terrace at sunset for port cocktails over the Gaia lodges and Ribeira skyline.",
+        "description": "A modern Port-culture centre on the Gaia waterfront whose rooftop 360 lounge serves Port, Douro wine and port cocktails with panoramic views.",
+        "editorial_score": 4.2,
+        "verified": {
+          "source_url": "https://www.porto-cruz.com/en/our-experiences/espaco-porto-cruz/",
+          "address_quoted": "Largo Miguel Bombarda 23",
+          "open_status": "open",
+          "open_evidence_url": "https://www.therooftopguide.com/rooftop-bars-in-porto.html",
+          "cuisine_evidence_url": "https://luxedetour.com/places/porto/espaco-porto-cruz/",
+          "checked_on": "2026-05-25"
+        }
+      },
+      {
+        "slug": "auge-rooftop-porto",
+        "name": "AUGE Porto",
+        "address": "Avenida da Boavista 1269, 4100-130 Porto, Portugal",
+        "neighborhood": "Boavista, Porto",
+        "wine_program": "Wide selection of Port and Douro wines, port cocktails, spritzers and sparkling on a downtown rooftop",
+        "glass_count": 20,
+        "opens_until": "01:00",
+        "tip": "Order the port cocktails; AUGE is one of the few rooftops that takes Port mixology seriously.",
+        "description": "A panoramic rooftop lounge with a deep Port and Douro list and a menu of port cocktails over downtown Porto.",
+        "editorial_score": 4.0,
+        "verified": {
+          "source_url": "https://www.therooftopguide.com/rooftop-bars-in-porto/auge-porto.html",
+          "address_quoted": "Avenida da Boavista 1269",
+          "open_status": "open",
+          "open_evidence_url": "https://www.therooftopguide.com/rooftop-bars-in-porto.html",
+          "cuisine_evidence_url": "https://www.eatingeurope.com/blog/rooftop-bars-porto/",
+          "checked_on": "2026-05-25"
+        }
+      },
+      {
+        "slug": "the-yeatman-dicks-bar",
+        "name": "Dick's Bar at The Yeatman",
+        "address": "Rua do Choupelo 88, 4400-088 Vila Nova de Gaia, Portugal",
+        "neighborhood": "Gaia hillside",
+        "wine_program": "Extensive Portuguese wine and Port list from the hotel's renowned cellar, with a terrace over the river",
+        "glass_count": 30,
+        "opens_until": "23:00",
+        "tip": "The terrace overlooks Porto and the Douro; the wine-hotel cellar means the by-the-glass options run deep.",
+        "description": "The bar of the Yeatman wine hotel high on the Gaia hillside, with a deep Portuguese and Port list and a terrace facing the river.",
+        "editorial_score": 4.3,
+        "verified": {
+          "source_url": "https://www.the-yeatman-hotel.com/en/porto/porto-nightlife/",
+          "address_quoted": "Rua do Choupelo",
+          "open_status": "open",
+          "open_evidence_url": "https://www.therooftopguide.com/rooftop-bars-in-porto/the-yeatman.html",
+          "cuisine_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g580268-d1902127-Reviews-The_Yeatman_Gastronomic_Restaurant-Vila_Nova_de_Gaia_Porto_District_Northern_Port.html",
+          "checked_on": "2026-05-25"
+        }
+      }
+    ],
+    "fortified_specialists": [
+      {
+        "slug": "vinologia-port-house",
+        "name": "Vinologia, La Maison des Porto",
+        "address": "Rua de Sao Joao 28, 4050-552 Porto, Portugal",
+        "neighborhood": "Ribeira, Porto",
+        "wine_program": "Around 200 Ports from small independent producers, served as flights and by the glass",
+        "glass_count": 30,
+        "opens_until": "00:00",
+        "tip": "This is the city's deepest small-grower Port list; ask for a vertical flight of a single house.",
+        "description": "A dedicated Port specialist in Ribeira pouring around 200 Ports from small independent shippers, the place to go deep on the fortified style.",
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://vinologia.pt/",
+          "address_quoted": "Rua de Sao Joao",
+          "open_status": "open",
+          "open_evidence_url": "https://www.afar.com/places/vinologia-la-maison-des-porto-porto",
+          "cuisine_evidence_url": "https://www.eatingeurope.com/blog/best-wine-bars-porto/",
+          "checked_on": "2026-05-25"
+        }
+      },
+      {
+        "slug": "grahams-vintage-room",
+        "name": "Graham's Vintage Room",
+        "address": "Rua do Agro 141, 4400-281 Vila Nova de Gaia, Portugal",
+        "neighborhood": "Gaia hillside",
+        "wine_program": "Premium Port tastings including aged tawnies and vintage Ports in a private tasting room",
+        "glass_count": 12,
+        "opens_until": "18:00",
+        "tip": "Book the evening Vintage Room tasting for rare aged Ports with a guided tour of the 1890 lodge.",
+        "description": "The premium tasting room of Graham's 1890 Lodge on the Gaia hill, pouring aged tawny and vintage Ports beside cellars of 1890s bottles.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://www.grahams-port.com/visit-us",
+          "address_quoted": "Rua do Agro",
+          "open_status": "open",
+          "open_evidence_url": "https://www.grahams-port.com/visits-tastings",
+          "cuisine_evidence_url": "https://portwinecountry.com/index.php/the-lodge-of-graham-in-gaia/",
+          "checked_on": "2026-05-25"
+        }
+      },
+      {
+        "slug": "taylors-port-cellars",
+        "name": "Taylor's Port Cellars",
+        "address": "Rua do Choupelo 250, 4400-088 Vila Nova de Gaia, Portugal",
+        "neighborhood": "Gaia hillside",
+        "wine_program": "Self-guided cellar tour ending in tastings of Taylor's tawny, ruby and vintage Ports",
+        "glass_count": 10,
+        "opens_until": "18:15",
+        "tip": "Finish in the peacock-dotted tasting garden; Taylor's has shipped Port since 1692 and stayed independent throughout.",
+        "description": "The cellars of Taylor's, one of the oldest and only continuously independent Port houses, with tastings and a garden terrace over Porto.",
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://www.taylor.pt/en/visit-taylors/port-cellars",
+          "address_quoted": "Rua do Choupelo",
+          "open_status": "open",
+          "open_evidence_url": "https://www.winetourism.com/winery/taylors-port/",
+          "cuisine_evidence_url": "https://littleoldworld.com/2022/10/02/vila-nova-de-gaia-taylors-port-house/",
+          "checked_on": "2026-05-25"
+        }
+      },
+      {
+        "slug": "cockburns-port-lodge",
+        "name": "Cockburn's Port Lodge",
+        "address": "Rua Serpa Pinto 346, 4400-307 Vila Nova de Gaia, Portugal",
+        "neighborhood": "Gaia",
+        "wine_program": "Guided lodge and cooperage tour with premium Port tasting and pairing in the largest cellar in Gaia",
+        "glass_count": 10,
+        "opens_until": "19:00",
+        "tip": "The premium tasting-and-pairing tour includes a cooperage walk-through; it is the biggest working Port cellar in Gaia.",
+        "description": "Gaia's largest Port cellar, with guided tours through working cooperage and lodges ending in premium Port tastings.",
+        "editorial_score": 4.2,
+        "verified": {
+          "source_url": "https://www.cockburns.com/visitus",
+          "address_quoted": "Rua Serpa Pinto",
+          "open_status": "open",
+          "open_evidence_url": "https://happytovisit.com/how-to-book-cockburns-port-lodge-tour-porto/",
+          "cuisine_evidence_url": "https://portwinecountry.com/index.php/the-lodge-of-cockburn-in-gaia/",
+          "checked_on": "2026-05-25"
+        }
+      },
+      {
+        "slug": "sandeman-cellars",
+        "name": "Sandeman Cellars",
+        "address": "Largo Miguel Bombarda 47, 4400-222 Vila Nova de Gaia, Portugal",
+        "neighborhood": "Gaia riverfront",
+        "wine_program": "Guided cellar tours ending in tastings of Sandeman ruby, tawny and old-tawny Ports, including a Don-caped museum",
+        "glass_count": 10,
+        "opens_until": "18:00",
+        "tip": "The Old Tawnies tour pours four older tawnies; the black-caped Don logo is one of the river's landmarks.",
+        "description": "The riverfront Sandeman cellars in Gaia, with a 17th and 18th-century bottle museum and guided tastings under the famous black-caped Don.",
+        "editorial_score": 4.1,
+        "verified": {
+          "source_url": "https://www.sandeman.com/port-wine/visit/cellars-porto/",
+          "address_quoted": "Largo Miguel Bombarda",
+          "open_status": "open",
+          "open_evidence_url": "https://winetourism.sogrape.com/en/visit/sandeman",
+          "cuisine_evidence_url": "https://www.timeout.com/porto/museums/sandeman-museum-cellar",
+          "checked_on": "2026-05-25"
+        }
+      }
+    ],
+    "late_tastings": [
+      {
+        "slug": "prova-late-flight",
+        "name": "Prova late-evening flights",
+        "address": "Rua de Ferreira Borges 86, 4050-253 Porto, Portugal",
+        "neighborhood": "Ribeira, Porto",
+        "wine_program": "Guided by-the-glass flights of Douro and Portuguese wine running into the early hours with a sommelier",
+        "glass_count": 30,
+        "opens_until": "01:00",
+        "tip": "Come after dinner for a guided flight; open to 1am, it is one of the few places to taste seriously late in Porto.",
+        "description": "Prova's late hours make it Porto's go-to for a sommelier-guided evening flight of Douro and Portuguese wine well after dinner.",
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://prova.com.pt/",
+          "address_quoted": "Rua de Ferreira Borges",
+          "open_status": "open",
+          "open_evidence_url": "https://starwinelist.com/wine-place/prova",
+          "cuisine_evidence_url": "https://www.eatingeurope.com/blog/best-wine-bars-porto/",
+          "checked_on": "2026-05-25"
+        }
+      },
+      {
+        "slug": "espaco-porto-cruz-evening-tasting",
+        "name": "Espaco Porto Cruz evening Port tasting",
+        "address": "Largo Miguel Bombarda 23, 4400-222 Vila Nova de Gaia, Portugal",
+        "neighborhood": "Gaia riverfront",
+        "wine_program": "Port flights by the glass plus a virtual Douro flight experience, open into the evening on the riverfront",
+        "glass_count": 12,
+        "opens_until": "00:00",
+        "tip": "The shop floor pours three-Port flights into the evening; combine with the rooftop lounge upstairs.",
+        "description": "Evening Port tastings and a 360-degree virtual Douro flight on the Gaia waterfront, with a rooftop lounge to finish the night.",
+        "editorial_score": 4.0,
+        "verified": {
+          "source_url": "https://www.porto-cruz.com/en/our-experiences/espaco-porto-cruz/",
+          "address_quoted": "Largo Miguel Bombarda 23",
+          "open_status": "open",
+          "open_evidence_url": "https://portwinecountry.com/index.php/the-espaco-porto-cruz-in-gaia/",
+          "cuisine_evidence_url": "https://www.lonelyplanet.com/portugal/porto/vila-nova-de-gaia/attractions/espaco-porto-cruz/a/poi-sig/1415123/1341036",
+          "checked_on": "2026-05-25"
+        }
+      },
+      {
+        "slug": "capela-incomum-fado-tasting",
+        "name": "Capela Incomum Fado-and-wine evenings",
+        "address": "Travessa do Carregal 77, 4050-166 Porto, Portugal",
+        "neighborhood": "Cedofeita, Porto",
+        "wine_program": "Guided Portuguese wine tastings with cheese and charcuterie on themed Fado and tasting nights",
+        "glass_count": 14,
+        "opens_until": "00:00",
+        "tip": "Check the calendar for Fado nights, when the chapel hosts guided tastings with live song.",
+        "description": "Themed evening tastings in a candle-lit former chapel, sometimes paired with live Fado, focused on Douro and Minho wines.",
+        "editorial_score": 4.2,
+        "verified": {
+          "source_url": "https://www.capelaincomum.pt/",
+          "address_quoted": "Travessa do Carregal",
+          "open_status": "open",
+          "open_evidence_url": "https://www.timeout.com/porto/bars-and-pubs/capela-incomum",
+          "cuisine_evidence_url": "https://welcomeporto.com/listing/capela-incomum/",
+          "checked_on": "2026-05-25"
+        }
+      },
+      {
+        "slug": "vinologia-evening-port-flight",
+        "name": "Vinologia evening Port flights",
+        "address": "Rua de Sao Joao 28, 4050-552 Porto, Portugal",
+        "neighborhood": "Ribeira, Porto",
+        "wine_program": "Guided evening Port flights from a 200-strong small-grower list, open until midnight",
+        "glass_count": 30,
+        "opens_until": "00:00",
+        "tip": "Late-evening flights here go beyond the big houses into tiny grower Ports rarely seen elsewhere.",
+        "description": "Late guided Port flights in Ribeira drawing on a 200-bottle small-grower list, open to midnight for after-dinner tasting.",
+        "editorial_score": 4.3,
+        "verified": {
+          "source_url": "https://vinologia.pt/",
+          "address_quoted": "Rua de Sao Joao",
+          "open_status": "open",
+          "open_evidence_url": "https://www.afar.com/places/vinologia-la-maison-des-porto-porto",
+          "cuisine_evidence_url": "https://www.eatingeurope.com/blog/best-wine-bars-porto/",
+          "checked_on": "2026-05-25"
+        }
+      }
+    ],
+    "sparkling_rooms": [
+      {
+        "slug": "champanheria-da-baixa",
+        "name": "Champanheria da Baixa",
+        "address": "Largo de Mompilher 1, 4050-478 Porto, Portugal",
+        "neighborhood": "Baixa, Porto",
+        "wine_program": "Specialist sparkling list of Portuguese espumante and French Champagne by the glass with finger food",
+        "glass_count": 20,
+        "opens_until": "00:00",
+        "tip": "The only dedicated bubbles bar in Porto; the terrace is the spot for a chilled flute, and there are heaters for winter nights.",
+        "description": "Porto's only dedicated sparkling-wine bar, pouring Portuguese espumante and French Champagne by the glass with aperitifs on a sheltered terrace.",
+        "editorial_score": 4.2,
+        "verified": {
+          "source_url": "https://www.localporto.com/champagne-bar-porto-champanheria-baixa/",
+          "address_quoted": "Largo de Mompilher",
+          "open_status": "open",
+          "open_evidence_url": "https://portugalconfidential.com/champanheria-da-baixa-bistro-lounge-palacio-do-comercio-porto/",
+          "cuisine_evidence_url": "https://visitporto.travel/en-GB/poi/5cd04b52f979e000011cf7f5",
+          "checked_on": "2026-05-25"
+        }
+      },
+      {
+        "slug": "raposeira-sparkling-lamego",
+        "name": "Raposeira sparkling cellars, Lamego",
+        "address": "Estrada Nacional 2, 5100-072 Lamego, Portugal",
+        "neighborhood": "Lamego, Baixo Corgo",
+        "wine_program": "Traditional-method Portuguese sparkling tastings at the historic Raposeira espumante cellars",
+        "glass_count": 8,
+        "opens_until": "18:00",
+        "tip": "A short hop from Regua, the Raposeira cellars are the home of Portugal's best-known traditional-method sparkling; book the cellar tour.",
+        "description": "The historic Raposeira cellars near Lamego, home of Portugal's best-known traditional-method sparkling, with cellar tours and tastings.",
+        "editorial_score": 4.0,
+        "verified": {
+          "source_url": "https://en.wikipedia.org/wiki/Lamego",
+          "address_quoted": "Lamego",
+          "open_status": "open",
+          "open_evidence_url": "https://www.winesofportugal.com/en/",
+          "cuisine_evidence_url": "https://discoverdouro.pt/en/events",
+          "checked_on": "2026-05-25"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "wine_festivals": [
+    {
+      "slug": "essencia-do-vinho-porto",
+      "name": "Essencia do Vinho Porto",
+      "recurrence_pattern": "annual, last weekend of February into early March",
+      "start_month": "February",
+      "annual": true,
+      "duration": "4 days",
+      "host_organization": "Essencia do Vinho / Revista de Vinhos",
+      "ticket_required": true,
+      "ticket_url": "https://www.essenciadovinho.com/eventos-porto",
+      "featured_producers": [],
+      "neighborhood": "Porto",
+      "description": "Portugal's flagship wine fair fills the neoclassical Palacio da Bolsa in Porto with around 4,000 wines from more than 400 producers, Douro reds and Ports prominent among them, across four days of tastings and masterclasses.",
+      "tip": "Saturday is the busiest and dearest day; a weekday afternoon ticket gives you far more room at the producer tables.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://portugalconfidential.com/essencia-do-vinho-2026-portuguese-wine-porto/",
+        "address_quoted": "Palacio da Bolsa in Porto",
+        "open_status": "open",
+        "open_evidence_url": "https://www.winetravelweek.com/essencia-en",
+        "cuisine_evidence_url": "https://www.essenciadovinho.com/eventos-porto",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "festa-de-sao-joao-porto",
+      "name": "Festa de Sao Joao do Porto",
+      "recurrence_pattern": "annual, night of 23 to 24 June",
+      "start_month": "June",
+      "annual": true,
+      "duration": "1 night",
+      "host_organization": "Camara Municipal do Porto",
+      "ticket_required": false,
+      "featured_producers": [],
+      "neighborhood": "Porto",
+      "description": "Porto's midsummer street festival on the night of 23 June, celebrated for more than six centuries, fills the city with grilled sardines, bonfires, plastic hammers and free-flowing Vinho Verde and Douro wine until dawn.",
+      "tip": "The riverside Ribeira and the Fontainhas neighbourhood are the liveliest; base in Porto for the night, then escape to the quiet valley to recover the next day.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://en.wikipedia.org/wiki/Festa_de_S%C3%A3o_Jo%C3%A3o_do_Porto",
+        "address_quoted": "Porto",
+        "open_status": "open",
+        "open_evidence_url": "https://www.visitar-porto.com/en/whats-on/porto-events/festa-de-sao-joao.html",
+        "cuisine_evidence_url": "https://portugalconfidential.com/porto-sao-joao-festas-june/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "douro-vindima-harvest-experience",
+      "name": "Douro Vindima harvest experience",
+      "recurrence_pattern": "annual, mid September to early October",
+      "start_month": "September",
+      "annual": true,
+      "duration": "harvest season, roughly four weeks",
+      "host_organization": "Douro quintas and tour operators",
+      "ticket_required": true,
+      "featured_producers": [],
+      "neighborhood": "Pinhao and the Cima Corgo",
+      "description": "Across the vindima, quintas open the harvest to guests for grape picking on the terraces, traditional foot-treading in granite lagares after dark and long harvest feasts. It is the most atmospheric time of the Douro year.",
+      "tip": "Choose an estate that still treads by foot for the full lagarada ritual; the popular September dates sell out by late summer.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://winetravelguides.com/events/douro-valley-harvest-experience-2026",
+        "address_quoted": "Douro",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://discoverdouro.pt/en/vindimas-no-douro-en",
+        "cuisine_evidence_url": "https://www.intothevineyard.com/journal/what-harvest-season-is-like-in-portugal-vindima",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "douro-wine-festival-regua",
+      "name": "Douro Wine Festival, Peso da Regua",
+      "recurrence_pattern": "annual, late August around the start of harvest",
+      "start_month": "August",
+      "annual": true,
+      "duration": "several days",
+      "host_organization": "Municipality of Peso da Regua",
+      "ticket_required": false,
+      "featured_producers": [],
+      "neighborhood": "Peso da Regua",
+      "description": "Regua's harvest-season wine festival fills the riverside town with tastings of local Port and Douro table wines, regional gastronomy, grape-stomping demonstrations and live music against the terraced slopes of the valley.",
+      "tip": "It coincides with the start of the harvest, so pair it with a quinta visit nearby to watch picking and fermentation begin.",
+      "editorial_score": 4.1,
+      "verified": {
+        "source_url": "https://continentaldrifter.co/2025/03/03/the-douro-valleys-seasonal-festivals-when-and-why-to-visit/",
+        "address_quoted": "Peso da Regua",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://discoverdouro.pt/en/events",
+        "cuisine_evidence_url": "https://www.winesofportugal.com/en/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "sao-martinho-magusto",
+      "name": "Sao Martinho magusto, new-wine and chestnut feast",
+      "recurrence_pattern": "annual, around 11 November",
+      "start_month": "November",
+      "annual": true,
+      "duration": "around Saint Martin's Day",
+      "host_organization": "Towns and villages across northern Portugal",
+      "ticket_required": false,
+      "featured_producers": [],
+      "neighborhood": "Douro and Tras-os-Montes",
+      "description": "Around Saint Martin's Day on 11 November, villages light bonfires, roast chestnuts and tap the first young wine of the harvest in the magusto feast. The wine-growing north, including the Douro and neighbouring Tras-os-Montes, keeps the tradition most strongly.",
+      "tip": "Seek out village tascas serving agua-pe and jeropiga alongside roast chestnuts, the rustic part-fermented drinks of the new-wine season.",
+      "editorial_score": 4.0,
+      "verified": {
+        "source_url": "https://www.portugal.com/food-drink/celebrating-the-harvest-with-chestnuts-and-wine-on-st-martins-day-november-11/",
+        "address_quoted": "Tras-os-Montes",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://portugalconfidential.com/sao-martinho-castanhas-magustos-st-martins-day-11-november/",
+        "cuisine_evidence_url": "https://winesofportugal.com/en/discover/history/",
+        "checked_on": "2026-05-25"
+      }
+    }
+  ]
+}

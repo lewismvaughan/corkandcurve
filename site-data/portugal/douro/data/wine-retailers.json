@@ -1,0 +1,99 @@
+{
+  "wine_retailers": [
+    {
+      "slug": "garrafeira-do-carmo-porto",
+      "name": "Garrafeira do Carmo",
+      "address": "Rua do Carmo 17-18, 4050-164 Porto, Portugal",
+      "neighborhood": "Centro, Porto",
+      "description": "A century-old garrafeira nicknamed the cathedral of Port, stocking harvests and Vintage Ports back to 1834 plus a rare and precious private-collection room.",
+      "speciality": "Vintage and Colheita Port verticals, rare back-vintages, Douro DOC wines",
+      "online_shop": true,
+      "en_primeur": false,
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.garrafeiracarmo.com/",
+        "address_quoted": "R. do Carmo, 17-18, 4050-164 Porto",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g189180-d2626906-Reviews-Garrafeira_do_Carmo-Porto_Porto_District_Northern_Portugal.html",
+        "cuisine_evidence_url": "https://www.garrafeiracarmo.com/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "garrafeira-nacional-flores-porto",
+      "name": "Garrafeira Nacional (Flores)",
+      "address": "Rua das Flores 60, 4050-262 Porto, Portugal",
+      "neighborhood": "Centro, Porto",
+      "description": "The Porto branch of Portugal's historic wine and spirits merchant, on pedestrian Rua das Flores, with deep stocks of aged Port and Douro DOC wines.",
+      "speciality": "Aged Tawny and Vintage Port, Douro DOC reds, collectible Portuguese back-vintages",
+      "online_shop": true,
+      "en_primeur": false,
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.garrafeiranacional.com/en/garrafeira/ajuda/lojas",
+        "address_quoted": "Rua das Flores, 60 4050-262 Porto",
+        "open_status": "open",
+        "open_evidence_url": "https://www.garrafeiranacional.com/en/",
+        "cuisine_evidence_url": "https://www.garrafeiranacional.com/en/garrafeira/ajuda/lojas",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "porto-wine-house-gaia",
+      "name": "Porto Wine House",
+      "address": "Rua Cândido dos Reis 10, 4400-069 Vila Nova de Gaia, Portugal",
+      "neighborhood": "Vila Nova de Gaia",
+      "description": "A multibrand wine and Port shop in central Gaia with a river view, carrying a broad Douro and Port range plus other Portuguese regions, with online delivery.",
+      "speciality": "Port and Douro DOC wines, multibrand Portuguese selection, online shipping",
+      "online_shop": true,
+      "en_primeur": false,
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://portowinehouse.com/en/contactos/",
+        "address_quoted": "Rua Cândido dos Reis, 10 4400-069 V.N. Gaia",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g580268-d6539334-Reviews-Garrafeira_Porto_Wine_House-Vila_Nova_de_Gaia_Porto_District_Northern_Portugal.html",
+        "cuisine_evidence_url": "https://portowinehouse.com/en/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "garrafeira-soares-sao-joao-porto",
+      "name": "Garrafeira Soares (São João)",
+      "address": "Rua de S. João 70, 4050-552 Porto, Portugal",
+      "neighborhood": "Ribeira, Porto",
+      "description": "A branch of the long-running Soares merchant in the Ribeira, stocking many years and brands of Port plus Douro wines, with bottles also sold by the glass.",
+      "speciality": "Port across multiple vintages, Douro DOC wines, Portuguese spirits",
+      "online_shop": true,
+      "en_primeur": false,
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.garrafeirasoares.pt/en/about-us/store-locator_246.html?idst=24",
+        "address_quoted": "R. de S. João, nº70 4050-552 Porto",
+        "open_status": "open",
+        "open_evidence_url": "https://www.yelp.com/biz/garrafeira-soares-porto",
+        "cuisine_evidence_url": "https://www.garrafeirasoares.pt/en/about-us/store-locator_246.html?idst=24",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "gota-a-gota-wine-house-porto",
+      "name": "Gota a Gota Wine House",
+      "address": "Rua de Cedofeita 572, 4050-181 Porto, Portugal",
+      "neighborhood": "Cedofeita, Porto",
+      "description": "An independent Cedofeita wine shop with a curated Portuguese range strong on Douro and Port, including small-grower and aguardente bagaceira bottlings.",
+      "speciality": "Douro DOC reds, grower Port, Portuguese spirits including aguardente bagaceira",
+      "online_shop": true,
+      "en_primeur": false,
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.gotaagotawinehouse.pt/en/contact",
+        "address_quoted": "Rua de Cedofeita 572, 4050-181 Porto",
+        "open_status": "open",
+        "open_evidence_url": "https://lifecooler.com/artigo/comer/gota-a-gota-wine-house/447700",
+        "cuisine_evidence_url": "https://www.gotaagotawinehouse.pt/en/",
+        "checked_on": "2026-05-25"
+      }
+    }
+  ]
+}
