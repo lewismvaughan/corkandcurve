@@ -63,10 +63,21 @@ ANTI_BOT_CODES = {401, 402, 403, 405, 429, 500, 503, 504, 521}
 # 4xx-without-405 still HARDs (404 means page genuinely missing).
 
 ENTITY_LIST_KEYS = (
+    # Wine-vertical entity lists (Cork & Curve). These carry real
+    # addresses + provenance URLs and MUST be HEAD-checked + address
+    # fuzzy-matched. They were missing on the fork, so layer 2 never
+    # verified vineyards (the credibility-critical entity) — flagged
+    # during the Rioja ship 2026-05-25.
+    "vineyards", "tasting_rooms", "wine_restaurants", "wine_retailers",
+    "wine_schools", "wine_tours", "distilleries", "wine_museums",
+    "wine_hotels", "wine_experiences",
+    # Shared / overlapping keys (also valid wine entities):
+    "wine_bars", "hidden_gems",
+    # Legacy food-vertical keys (harmless; no C&C file uses them):
     "restaurants", "fine_dining", "casual_dining", "cafes", "bakeries",
-    "coffee_roasters", "wine_bars", "bars", "street_food", "breweries",
+    "coffee_roasters", "bars", "street_food", "breweries",
     "markets", "food_tours", "food_festivals", "cooking_classes",
-    "budget_eating", "hidden_gems", "brunch", "late_night",
+    "budget_eating", "brunch", "late_night",
     "day_trips_food",
 )
 SKIP_FILES = {
