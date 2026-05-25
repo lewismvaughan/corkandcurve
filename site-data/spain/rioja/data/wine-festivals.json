@@ -1,0 +1,96 @@
+{
+  "wine_festivals": [
+    {
+      "slug": "batalla-del-vino-haro",
+      "name": "Batalla del Vino de Haro",
+      "recurrence_pattern": "annual, 29 June (San Pedro)",
+      "start_month": "June",
+      "duration": "1 main day within the late-June San Felices fiestas",
+      "host_organization": "Ayuntamiento de Haro",
+      "ticket_required": false,
+      "ticket_url": "https://www.harowinefight.com/",
+      "featured_producers": [],
+      "neighborhood": "Haro",
+      "description": "On 29 June, San Pedro's day, the people of Haro follow the mayor on a seven-kilometre procession up to the Hermitage of San Felices in the Bilibio cliffs, then drench one another in red wine from jugs, buckets and bottles. Declared of National Tourist Interest in 1965.",
+      "tip": "Wear white, bring a change of clothes and a wine-proof bag for your phone; the 7am climb to San Felices is the heart of it, not the town square.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.harowinefight.com/",
+        "address_quoted": "Haro",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Haro_Wine_Festival",
+        "cuisine_evidence_url": "https://www.idealista.com/en/news/lifestyle-in-spain/2025/05/30/847244-haro-wine-festival-spain-s-epic-wine-battle",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "cata-del-barrio-de-la-estacion",
+      "name": "Cata del Barrio de la Estacion (Haro Station Wine Experience)",
+      "recurrence_pattern": "biennial, June",
+      "start_month": "June",
+      "duration": "1 day",
+      "host_organization": "Asociacion Barrio de la Estacion de Haro",
+      "ticket_required": true,
+      "ticket_url": "https://www.barrioestacion.com/en/haro-station-wine-experience-2026/",
+      "featured_producers": [],
+      "neighborhood": "Haro",
+      "description": "Held in June in Haro's station district, the world's densest cluster of century-old bodegas, this ticketed tasting opens the cellars of CVNE, Muga, La Rioja Alta, Roda, Gomez Cruzado and Bilbainas Vina Pomal in a single day with tapas by leading chefs. The 2026 edition falls on 13 June.",
+      "tip": "Tickets are limited and the early-bird allocation sells fastest; the introductory-price tier opens in September the year before.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.barrioestacion.com/en/haro-station-wine-experience-2026/",
+        "address_quoted": "Haro",
+        "open_status": "open",
+        "open_evidence_url": "https://www.bodegasmuga.com/en/",
+        "cuisine_evidence_url": "https://www.barrioestacion.com/en/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "fiesta-de-san-bernabe-logrono",
+      "name": "Fiestas de San Bernabe",
+      "recurrence_pattern": "annual, around 11 June",
+      "start_month": "June",
+      "duration": "about one week",
+      "host_organization": "Ayuntamiento de Logrono",
+      "ticket_required": false,
+      "ticket_url": "https://logrono.es/-/fiestas-de-san-bernabe",
+      "featured_producers": [],
+      "neighborhood": "Logrono",
+      "description": "Logrono's patronal festival around 11 June commemorates the 1521 defence of the city against French troops. The signature ritual is the distribution of bread, fish and wine at the Revellin walls, with Rioja poured free to the crowd as part of the historic vow.",
+      "tip": "Catch the bread, fish and wine handout at the Murallas del Revellin on the morning of 11 June; it is the most wine-soaked moment of the week.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://lariojaturismo.com/recurso/fiestas-de-san-bernabe/b1fdfd91-a515-a4d7-622c-316f662b4f17",
+        "address_quoted": "Logrono",
+        "open_status": "open",
+        "open_evidence_url": "https://logrono.es/-/fiestas-de-san-bernabe",
+        "cuisine_evidence_url": "https://es.wikipedia.org/wiki/Fiestas_de_San_Bernab%C3%A9_(Logro%C3%B1o)",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "fiesta-de-la-vendimia-riojana-san-mateo",
+      "name": "Fiesta de la Vendimia Riojana (San Mateo)",
+      "recurrence_pattern": "annual, around 21 September (San Mateo)",
+      "start_month": "September",
+      "duration": "about one week",
+      "host_organization": "Ayuntamiento de Logrono and Gobierno de La Rioja",
+      "ticket_required": false,
+      "ticket_url": "https://lariojaturismo.com/recurso/fiesta-de-la-vendimia-riojana/82dd5559-c686-0de0-92df-d10f29018174",
+      "featured_producers": [],
+      "neighborhood": "Logrono",
+      "description": "Logrono's harvest festival peaks on 21 September, San Mateo's day, with the pisado de la uva grape-treading in the Paseo del Espolon: two costumed treaders crush the first grapes and the new must is offered to the Virgen de Valvanera, patron of La Rioja, to mark the start of harvest.",
+      "tip": "The grape-treading and first-must offering happen at the Concha del Espolon on 21 September; arrive early for a clear view of the vat.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://wikirioja.com/fiestas-y-tradiciones/san-mateo/",
+        "address_quoted": "Logrono",
+        "open_status": "open",
+        "open_evidence_url": "https://lariojaturismo.com/recurso/fiesta-de-la-vendimia-riojana/82dd5559-c686-0de0-92df-d10f29018174",
+        "cuisine_evidence_url": "https://www.lariojasinbarreras.org/guia_larioja_accesible/cultura-y-tradiciones-rioja/fiesta-de-la-vendimia/",
+        "checked_on": "2026-05-25"
+      }
+    }
+  ]
+}

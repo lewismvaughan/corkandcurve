@@ -1,0 +1,189 @@
+{
+  "signature_grapes": [
+    {
+      "slug": "tempranillo",
+      "name": "Tempranillo",
+      "style_focus": "red",
+      "regions_grown": [
+        "rioja-alta",
+        "rioja-alavesa",
+        "rioja-oriental"
+      ],
+      "description": "The defining grape of Rioja and Spain's flagship red variety, accounting for the large majority of the region's plantings. Named for its early ripening, it gives medium-bodied reds of red cherry, dried fig and leather that take beautifully to American and French oak, the backbone of Crianza, Reserva and Gran Reserva. Performs best on the cooler clay-limestone soils of Rioja Alta and Rioja Alavesa.",
+      "key_producers": [
+        "marques-de-riscal",
+        "la-rioja-alta",
+        "cvne",
+        "bodegas-muga",
+        "lopez-de-heredia",
+        "marques-de-murrieta"
+      ],
+      "verified": {
+        "source_url": "https://riojawine.com/en-us/",
+        "address_quoted": "Rioja, Spain",
+        "open_status": "open",
+        "open_evidence_url": "https://lariojaturismo.com/en/",
+        "cuisine_evidence_url": "https://riojawine.com/en-us/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "garnacha",
+      "name": "Garnacha",
+      "style_focus": "red",
+      "regions_grown": [
+        "rioja-oriental",
+        "rioja-alta"
+      ],
+      "description": "Known internationally as Grenache, Garnacha is the second red grape of Rioja and the dominant variety of the warmer Rioja Oriental sub-zone. It brings ripe red-berry fruit, higher alcohol and softer tannins, traditionally blended with Tempranillo to add flesh and warmth, and increasingly bottled as old-vine single varietals.",
+      "key_producers": [
+        "baron-de-ley",
+        "ontanon",
+        "bodegas-muga"
+      ],
+      "verified": {
+        "source_url": "https://riojawine.com/en-us/",
+        "address_quoted": "Rioja, Spain",
+        "open_status": "open",
+        "open_evidence_url": "https://lariojaturismo.com/en/",
+        "cuisine_evidence_url": "https://riojawine.com/en-us/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "graciano",
+      "name": "Graciano",
+      "style_focus": "red",
+      "regions_grown": [
+        "rioja-alta",
+        "rioja-alavesa"
+      ],
+      "description": "A low-yielding, late-ripening Rioja red prized as a blending grape for the colour, firm acidity, floral aromatics and ageing structure it lends to Tempranillo. Once nearly abandoned for its poor yields, it has been revived and is now bottled as a varietal by a handful of producers, giving dark, peppery, intensely aromatic reds.",
+      "key_producers": [
+        "remirez-de-ganuza",
+        "finca-allende",
+        "bodegas-muga"
+      ],
+      "verified": {
+        "source_url": "https://riojawine.com/en-us/",
+        "address_quoted": "Rioja, Spain",
+        "open_status": "open",
+        "open_evidence_url": "https://lariojaturismo.com/en/",
+        "cuisine_evidence_url": "https://riojawine.com/en-us/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "mazuelo",
+      "name": "Mazuelo",
+      "style_focus": "red",
+      "regions_grown": [
+        "rioja-alta",
+        "rioja-oriental"
+      ],
+      "description": "The Rioja name for Carinena, known elsewhere as Carignan. A minor but traditional blending grape valued for its high tannin, acidity and colour, which reinforce the backbone of long-aged Reserva and Gran Reserva blends. Used in small percentages by the classic Haro houses rather than bottled alone.",
+      "key_producers": [
+        "la-rioja-alta",
+        "cvne",
+        "lopez-de-heredia"
+      ],
+      "verified": {
+        "source_url": "https://riojawine.com/en-us/",
+        "address_quoted": "Rioja, Spain",
+        "open_status": "open",
+        "open_evidence_url": "https://lariojaturismo.com/en/",
+        "cuisine_evidence_url": "https://riojawine.com/en-us/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "viura",
+      "name": "Viura",
+      "style_focus": "white",
+      "regions_grown": [
+        "rioja-alta",
+        "rioja-alavesa"
+      ],
+      "description": "The principal white grape of Rioja, known as Macabeo in Catalonia. It ranges from fresh, citrus-and-floral young whites to the famously long oak-aged white Riojas of Lopez de Heredia and Murrieta, which develop nutty, waxy, oxidative complexity over decades. The backbone of nearly all traditional white Rioja.",
+      "key_producers": [
+        "lopez-de-heredia",
+        "marques-de-murrieta",
+        "cvne"
+      ],
+      "verified": {
+        "source_url": "https://riojawine.com/en-us/",
+        "address_quoted": "Rioja, Spain",
+        "open_status": "open",
+        "open_evidence_url": "https://lariojaturismo.com/en/",
+        "cuisine_evidence_url": "https://riojawine.com/en-us/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "malvasia-riojana",
+      "name": "Malvasia Riojana",
+      "style_focus": "white",
+      "regions_grown": [
+        "rioja-alta",
+        "rioja-alavesa"
+      ],
+      "description": "An aromatic traditional white blended with Viura in barrel-aged white Rioja, contributing perfume, body and a faintly musky lift. Distinct from other Malvasias and grown in small quantities, it is part of the classic oak-aged white formula alongside Viura and Garnacha Blanca.",
+      "key_producers": [
+        "lopez-de-heredia",
+        "cvne"
+      ],
+      "verified": {
+        "source_url": "https://riojawine.com/en-us/",
+        "address_quoted": "Rioja, Spain",
+        "open_status": "open",
+        "open_evidence_url": "https://lariojaturismo.com/en/",
+        "cuisine_evidence_url": "https://riojawine.com/en-us/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "tempranillo-blanco",
+      "name": "Tempranillo Blanco",
+      "style_focus": "white",
+      "regions_grown": [
+        "rioja-alta",
+        "rioja-oriental"
+      ],
+      "description": "A natural white mutation of red Tempranillo discovered in a Rioja Oriental vineyard in 1988 and authorised as a Rioja variety in 2007. It gives fresh, citrus-and-banana scented whites with good acidity and was approved to broaden the region's white offering as warmer vintages challenged Viura.",
+      "key_producers": [
+        "ontanon",
+        "bodegas-muga"
+      ],
+      "verified": {
+        "source_url": "https://riojawine.com/en-us/",
+        "address_quoted": "Rioja, Spain",
+        "open_status": "open",
+        "open_evidence_url": "https://lariojaturismo.com/en/",
+        "cuisine_evidence_url": "https://riojawine.com/en-us/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "maturana-tinta",
+      "name": "Maturana Tinta",
+      "style_focus": "red",
+      "regions_grown": [
+        "rioja-alta",
+        "rioja-oriental"
+      ],
+      "description": "One of Rioja's oldest red grapes, recovered and re-authorised in 2007 after near-extinction. It produces deeply coloured, herb-and-blackberry scented reds with firm structure and is championed by a small group of growers reviving heritage Rioja varieties alongside Tempranillo.",
+      "key_producers": [
+        "ontanon",
+        "finca-allende"
+      ],
+      "verified": {
+        "source_url": "https://riojawine.com/en-us/",
+        "address_quoted": "Rioja, Spain",
+        "open_status": "open",
+        "open_evidence_url": "https://lariojaturismo.com/en/",
+        "cuisine_evidence_url": "https://riojawine.com/en-us/",
+        "checked_on": "2026-05-25"
+      }
+    }
+  ]
+}

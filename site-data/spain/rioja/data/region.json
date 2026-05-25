@@ -1,0 +1,65 @@
+{
+  "destination": {
+    "slug": "rioja",
+    "name": "Rioja",
+    "country": "Spain",
+    "country_slug": "spain",
+    "hero_image": "https://upload.wikimedia.org/wikipedia/commons/7/76/Vista_de_La_Rioja_desde_Briones.jpg",
+    "hero_image_source_url": "https://commons.wikimedia.org/wiki/File:Vista_de_La_Rioja_desde_Briones.jpg",
+    "hero_image_credit": "Photo by Emilio Garcia, CC BY-SA 2.0, via Wikimedia Commons",
+    "hero_image_alt": "Rioja wine country vineyards seen from Briones with the Sierra de Cantabria beyond",
+    "hero_image_source": "Wikimedia Commons",
+    "hero_image_photographer": "Emilio Garcia",
+    "hero_image_license": "CC BY-SA 2.0",
+    "blurb": "Spain's most celebrated red-wine region and one of only two DOCa appellations in the country, where Tempranillo ages into Crianza, Reserva and Gran Reserva across three sub-zones along the Ebro.",
+    "type": "wine-region",
+    "tagline": "Tempranillo, oak and the Ebro across three sub-zones",
+    "overview": "Rioja runs along the Ebro through Rioja Alta, Rioja Alavesa and Rioja Oriental, blending Tempranillo with Garnacha, Graciano and Mazuelo into oak-aged reds that range from century-old Haro houses to Gehry and Calatrava landmark cellars.",
+    "lat": 42.46,
+    "lng": -2.45,
+    "cross_site_ref": "",
+    "cross_site_name": ""
+  },
+  "seo": {
+    "pages": {
+      "index": {
+        "title": "Rioja Wine Region Guide | Cork & Curve",
+        "description": "Explore Rioja DOCa wine estates, sub-zones and signature grapes, from the historic Haro bodegas and Rioja Alavesa to Tempranillo, Garnacha and Graciano."
+      },
+      "vineyards": {
+        "title": "Rioja Vineyards and Bodegas | Cork & Curve",
+        "description": "Discover Rioja bodegas with public tastings, from Marques de Riscal and Lopez de Heredia to Muga, CVNE and Ysios, with tasting programmes and visit details."
+      },
+      "signature-grapes": {
+        "title": "Rioja Signature Grapes | Cork & Curve",
+        "description": "Rioja grape varieties, from Tempranillo and Garnacha to Graciano, Mazuelo, Viura and Tempranillo Blanco across Rioja Alta, Alavesa and Oriental."
+      },
+      "neighborhoods": {
+        "title": "Rioja Sub-Zones and Wine Towns | Cork & Curve",
+        "description": "Rioja's sub-zones and wine towns, from Rioja Alta and Rioja Alavesa to Rioja Oriental, plus Haro, Laguardia, Logrono, Briones and Elciego."
+      }
+    }
+  },
+  "faqs": [
+    {
+      "q": "What is the difference between Rioja DOCa and a normal DO?",
+      "a": "Rioja holds Denominacion de Origen Calificada (DOCa) status, the highest Spanish wine classification, awarded in 1991. Only Priorat shares this tier. DOCa requires stricter controls than a standard Denominacion de Origen, including compulsory bottling at source and tighter yield and ageing rules."
+    },
+    {
+      "q": "What do Crianza, Reserva and Gran Reserva mean in Rioja?",
+      "a": "These are ageing tiers, not vineyard rankings. Crianza reds spend at least two years ageing with one in oak, Reserva at least three years with one in oak, and Gran Reserva at least five years with two in oak and three in bottle. Generico or Joven wines carry no minimum ageing."
+    },
+    {
+      "q": "What are the three sub-zones of Rioja?",
+      "a": "Rioja is divided into Rioja Alta and Rioja Alavesa in the cooler west, where the most structured, age-worthy reds are grown, and Rioja Oriental in the warmer east, formerly called Rioja Baja, which favours riper Garnacha-led styles."
+    },
+    {
+      "q": "Which Rioja bodegas are famous for their architecture?",
+      "a": "Marques de Riscal at Elciego has a titanium hotel by Frank Gehry, Bodegas Ysios near Laguardia has an undulating roof by Santiago Calatrava, and modern cellars at Baigorri and the Vivanco museum complex are also notable architectural visits."
+    },
+    {
+      "q": "Where is the historic heart of Rioja winemaking?",
+      "a": "The town of Haro in Rioja Alta, and specifically its Barrio de la Estacion district around the railway station, holds one of the densest clusters of century-old bodegas in the world, including Lopez de Heredia, La Rioja Alta, CVNE, Muga, Roda and Gomez Cruzado."
+    }
+  ]
+}

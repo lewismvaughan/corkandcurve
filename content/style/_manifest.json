@@ -1,3 +1,46 @@
 {
-  "entries": []
+  "entries": [
+    {
+      "slug": "still",
+      "display": "Still",
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "region_name": "Bordeaux",
+          "n": 11
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "burgundy",
+          "region_name": "Burgundy",
+          "n": 10
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "region_name": "Tuscany",
+          "n": 13
+        }
+      ]
+    },
+    {
+      "slug": "sweet",
+      "display": "Sweet",
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "region_name": "Bordeaux",
+          "n": 1
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "region_name": "Tuscany",
+          "n": 1
+        }
+      ]
+    }
+  ]
 }

@@ -251,17 +251,26 @@ def collect_all() -> dict:
 
         # style: classify signature_wines, attach the producer vineyard when
         # we can resolve it; plus natural-wine vineyards into the natural style.
-        vineyard_by_name = {}
+        # Index vineyards by BOTH slug and display name: signature_wines
+        # carry producer as a slug ("domaine-armand-rousseau"), while older
+        # data sometimes used the display name. Keying both ways stops the
+        # style cross-cut from silently dropping every cuvée (the bug that
+        # left /styles/ empty -> 404 even though wines had style values).
+        vineyard_by_ref = {}
         for v in research.get("vineyards", []) or []:
-            if isinstance(v, dict) and v.get("name"):
-                vineyard_by_name[v["name"]] = v
-                if v.get("natural_wine"):
-                    sb = by_style["natural"]
-                    sb["display"] = STYLE_DISPLAY["natural"]
-                    bucket = sb["regions"][rkey]
-                    ident = v.get("slug") or v.get("name")
-                    if not any((e.get("slug") or e.get("name")) == ident for e in bucket):
-                        bucket.append(v)
+            if not isinstance(v, dict):
+                continue
+            if v.get("slug"):
+                vineyard_by_ref[v["slug"]] = v
+            if v.get("name"):
+                vineyard_by_ref[v["name"]] = v
+            if v.get("natural_wine"):
+                sb = by_style["natural"]
+                sb["display"] = STYLE_DISPLAY["natural"]
+                bucket = sb["regions"][rkey]
+                ident = v.get("slug") or v.get("name")
+                if not any((e.get("slug") or e.get("name")) == ident for e in bucket):
+                    bucket.append(v)
         for w in research.get("signature_wines", []) or []:
             if not isinstance(w, dict):
                 continue
@@ -269,7 +278,7 @@ def collect_all() -> dict:
             if not sslug:
                 continue
             producer = w.get("producer")
-            vyd = vineyard_by_name.get(producer) if producer else None
+            vyd = vineyard_by_ref.get(producer) if producer else None
             if vyd is None:
                 continue
             sb = by_style[sslug]

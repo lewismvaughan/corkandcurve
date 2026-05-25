@@ -175,6 +175,30 @@
       ]
     },
     {
+      "slug": "garnacha",
+      "display": "Garnacha",
+      "regions": [
+        {
+          "country_slug": "spain",
+          "region_slug": "rioja",
+          "region_name": "Rioja",
+          "n": 6
+        }
+      ]
+    },
+    {
+      "slug": "graciano",
+      "display": "Graciano",
+      "regions": [
+        {
+          "country_slug": "spain",
+          "region_slug": "rioja",
+          "region_name": "Rioja",
+          "n": 6
+        }
+      ]
+    },
+    {
       "slug": "malbec",
       "display": "Malbec",
       "regions": [
@@ -190,6 +214,12 @@
       "slug": "malvasia",
       "display": "Malvasia",
       "regions": [
+        {
+          "country_slug": "spain",
+          "region_slug": "rioja",
+          "region_name": "Rioja",
+          "n": 1
+        },
         {
           "country_slug": "italy",
           "region_slug": "tuscany",
@@ -243,6 +273,54 @@
           "region_slug": "tuscany",
           "region_name": "Tuscany",
           "n": 4
+        }
+      ]
+    },
+    {
+      "slug": "maturana",
+      "display": "Maturana",
+      "regions": [
+        {
+          "country_slug": "spain",
+          "region_slug": "rioja",
+          "region_name": "Rioja",
+          "n": 1
+        }
+      ]
+    },
+    {
+      "slug": "maturana-blanca",
+      "display": "Maturana Blanca",
+      "regions": [
+        {
+          "country_slug": "spain",
+          "region_slug": "rioja",
+          "region_name": "Rioja",
+          "n": 1
+        }
+      ]
+    },
+    {
+      "slug": "maturana-tinta",
+      "display": "Maturana Tinta",
+      "regions": [
+        {
+          "country_slug": "spain",
+          "region_slug": "rioja",
+          "region_name": "Rioja",
+          "n": 1
+        }
+      ]
+    },
+    {
+      "slug": "mazuelo",
+      "display": "Mazuelo",
+      "regions": [
+        {
+          "country_slug": "spain",
+          "region_slug": "rioja",
+          "region_name": "Rioja",
+          "n": 5
         }
       ]
     },
@@ -487,6 +565,30 @@
       ]
     },
     {
+      "slug": "tempranillo",
+      "display": "Tempranillo",
+      "regions": [
+        {
+          "country_slug": "spain",
+          "region_slug": "rioja",
+          "region_name": "Rioja",
+          "n": 8
+        }
+      ]
+    },
+    {
+      "slug": "tempranillo-blanco",
+      "display": "Tempranillo Blanco",
+      "regions": [
+        {
+          "country_slug": "spain",
+          "region_slug": "rioja",
+          "region_name": "Rioja",
+          "n": 1
+        }
+      ]
+    },
+    {
       "slug": "teroldego",
       "display": "Teroldego",
       "regions": [
@@ -519,6 +621,18 @@
           "region_slug": "tuscany",
           "region_name": "Tuscany",
           "n": 3
+        }
+      ]
+    },
+    {
+      "slug": "verdejo",
+      "display": "Verdejo",
+      "regions": [
+        {
+          "country_slug": "spain",
+          "region_slug": "rioja",
+          "region_name": "Rioja",
+          "n": 1
         }
       ]
     },
@@ -567,6 +681,18 @@
           "region_slug": "tuscany",
           "region_name": "Tuscany",
           "n": 1
+        }
+      ]
+    },
+    {
+      "slug": "viura",
+      "display": "Viura",
+      "regions": [
+        {
+          "country_slug": "spain",
+          "region_slug": "rioja",
+          "region_name": "Rioja",
+          "n": 7
         }
       ]
     }

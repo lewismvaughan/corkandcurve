@@ -1,0 +1,384 @@
+{
+  "neighborhoods": [
+    {
+      "slug": "rioja-alta",
+      "name": "Rioja Alta",
+      "address": "Rioja Alta, west of Logrono along the Ebro, 26200 La Rioja, Spain",
+      "classification": "DOCa Rioja",
+      "description": "The cooler western sub-zone of Rioja around Haro and Cenicero, with higher-altitude clay-limestone soils that produce the most structured, age-worthy Tempranillo reds and the classic Reserva and Gran Reserva style.",
+      "key_varietals": [
+        "Tempranillo",
+        "Graciano",
+        "Mazuelo",
+        "Viura"
+      ],
+      "sub_communes": [
+        "Haro",
+        "Briones",
+        "Cenicero",
+        "San Vicente de la Sonsierra",
+        "Fuenmayor",
+        "Ollauri"
+      ],
+      "famous_producers": [
+        "la-rioja-alta",
+        "cvne",
+        "lopez-de-heredia",
+        "bodegas-muga",
+        "bodegas-roda",
+        "finca-allende"
+      ],
+      "aliases": [
+        "Rioja Alta",
+        "Upper Rioja"
+      ],
+      "vibe": "Vineyards on clay-limestone hills around Haro and Cenicero, home to the century-old Barrio de la Estacion bodegas and the most cellar-worthy Tempranillo reds.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://riojawine.com/en-us/",
+        "address_quoted": "Rioja Alta",
+        "open_status": "open",
+        "open_evidence_url": "https://lariojaturismo.com/en/",
+        "cuisine_evidence_url": "https://riojawine.com/en-us/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "rioja-alavesa",
+      "name": "Rioja Alavesa",
+      "address": "Rioja Alavesa, Alava province, north of the Ebro, 01300 La Rioja, Spain",
+      "classification": "DOCa Rioja",
+      "description": "The Basque sub-zone north of the Ebro in Alava province, sheltered by the Sierra de Cantabria. Poor calcareous-clay soils and small parcels yield fine, aromatic Tempranillo and a strong tradition of carbonic-maceration cosechero reds around Laguardia and Elciego.",
+      "key_varietals": [
+        "Tempranillo",
+        "Viura",
+        "Graciano",
+        "Malvasia Riojana"
+      ],
+      "sub_communes": [
+        "Laguardia",
+        "Elciego",
+        "Labastida",
+        "Samaniego",
+        "Villabuena de Alava",
+        "Banos de Ebro"
+      ],
+      "famous_producers": [
+        "marques-de-riscal",
+        "bodegas-ysios",
+        "remirez-de-ganuza",
+        "artadi",
+        "vinedos-del-contino",
+        "luis-canas"
+      ],
+      "aliases": [
+        "Rioja Alavesa",
+        "Arabako Errioxa"
+      ],
+      "vibe": "Hillside villages and walled Laguardia under the Sierra de Cantabria, with architect-designed cellars and small-parcel Tempranillo on calcareous clay.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://riojawine.com/en-us/",
+        "address_quoted": "Rioja Alavesa",
+        "open_status": "open",
+        "open_evidence_url": "https://lariojaturismo.com/en/",
+        "cuisine_evidence_url": "https://riojawine.com/en-us/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "rioja-oriental",
+      "name": "Rioja Oriental",
+      "address": "Rioja Oriental, southeast Rioja toward Alfaro, 26540 La Rioja, Spain",
+      "classification": "DOCa Rioja",
+      "description": "The warmer, drier eastern sub-zone renamed from Rioja Baja in 2018. Mediterranean-influenced climate favours riper Garnacha and Tempranillo with fuller body and softer acidity, centred on towns such as Aldeanueva de Ebro, Alfaro and Quel.",
+      "key_varietals": [
+        "Garnacha",
+        "Tempranillo",
+        "Mazuelo",
+        "Maturana"
+      ],
+      "sub_communes": [
+        "Alfaro",
+        "Aldeanueva de Ebro",
+        "Quel",
+        "Calahorra",
+        "Autol"
+      ],
+      "famous_producers": [
+        "baron-de-ley",
+        "ontanon"
+      ],
+      "aliases": [
+        "Rioja Oriental",
+        "Rioja Baja",
+        "Eastern Rioja"
+      ],
+      "vibe": "Sun-warmed plains and terraces toward the Mediterranean, where old-vine Garnacha gives riper, rounder reds than the western sub-zones.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://riojawine.com/en-us/",
+        "address_quoted": "Rioja Oriental",
+        "open_status": "open",
+        "open_evidence_url": "https://lariojaturismo.com/en/",
+        "cuisine_evidence_url": "https://riojawine.com/en-us/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "haro",
+      "name": "Haro",
+      "address": "Haro, 26200 La Rioja, Spain",
+      "classification": "DOCa Rioja",
+      "neighborhood": "Rioja Alta",
+      "description": "The capital of Rioja Alta and the historic heart of the region's wine trade. Its Barrio de la Estacion district holds one of the densest clusters of century-old bodegas in the world, and the town hosts the annual Batalla del Vino wine fight.",
+      "key_varietals": [
+        "Tempranillo",
+        "Graciano",
+        "Mazuelo",
+        "Viura"
+      ],
+      "famous_producers": [
+        "lopez-de-heredia",
+        "la-rioja-alta",
+        "cvne",
+        "bodegas-muga",
+        "bodegas-roda",
+        "bodegas-bilbainas"
+      ],
+      "aliases": [
+        "Haro",
+        "Barrio de la Estacion"
+      ],
+      "vibe": "A handsome wine town whose railway-station quarter packs six or more historic bodegas within walking distance of one another.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.haroturismo.org/en/enoturismo/bodegas",
+        "address_quoted": "Haro",
+        "open_status": "open",
+        "open_evidence_url": "https://www.barrioestacion.com/en/",
+        "cuisine_evidence_url": "https://www.haroturismo.org/en/enoturismo/bodegas",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "barrio-de-la-estacion",
+      "name": "Barrio de la Estacion",
+      "address": "Barrio de la Estacion, 26200 Haro, La Rioja, Spain",
+      "classification": "DOCa Rioja",
+      "neighborhood": "Rioja Alta",
+      "description": "The railway-station district of Haro where bodegas clustered from the 1860s to ship wine by rail during the French phylloxera crisis. Today it gathers Lopez de Heredia, La Rioja Alta, CVNE, Muga, Roda and Gomez Cruzado within a few hundred metres.",
+      "key_varietals": [
+        "Tempranillo",
+        "Graciano",
+        "Mazuelo",
+        "Viura"
+      ],
+      "famous_producers": [
+        "lopez-de-heredia",
+        "la-rioja-alta",
+        "cvne",
+        "bodegas-muga",
+        "bodegas-roda"
+      ],
+      "aliases": [
+        "Barrio de la Estacion",
+        "Station Quarter",
+        "Haro Station District"
+      ],
+      "vibe": "A walkable cluster of cathedral-like cellars by the old railway, the highest concentration of century-old bodegas anywhere in Rioja.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.barrioestacion.com/en/",
+        "address_quoted": "Barrio de la Estacion",
+        "open_status": "open",
+        "open_evidence_url": "https://www.haroturismo.org/en/enoturismo/bodegas",
+        "cuisine_evidence_url": "https://www.barrioestacion.com/en/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "laguardia",
+      "name": "Laguardia",
+      "address": "Laguardia, 01300 Alava, La Rioja, Spain",
+      "classification": "DOCa Rioja",
+      "neighborhood": "Rioja Alavesa",
+      "description": "The walled medieval hilltop town that is the capital of Rioja Alavesa, riddled with centuries-old underground cellars beneath its houses. Surrounded by small Tempranillo parcels and within sight of architect-designed cellars such as Ysios.",
+      "key_varietals": [
+        "Tempranillo",
+        "Viura",
+        "Graciano"
+      ],
+      "famous_producers": [
+        "bodegas-ysios",
+        "vinedos-del-contino"
+      ],
+      "aliases": [
+        "Laguardia",
+        "Biasteri"
+      ],
+      "vibe": "A walled hill town honeycombed with old cellars, surrounded by vineyards under the Sierra de Cantabria.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://lariojaturismo.com/en/",
+        "address_quoted": "Laguardia",
+        "open_status": "open",
+        "open_evidence_url": "https://riojawine.com/en-us/",
+        "cuisine_evidence_url": "https://lariojaturismo.com/en/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "logrono",
+      "name": "Logrono",
+      "address": "Logrono, 26001 La Rioja, Spain",
+      "classification": "DOCa Rioja",
+      "neighborhood": "Rioja Alta",
+      "description": "The regional capital of La Rioja and the gateway to the wine country, famous for the pintxo bars of Calle del Laurel. Home to the city-centre Bodegas Franco-Espanolas and a hub for wine tourism across all three sub-zones.",
+      "key_varietals": [
+        "Tempranillo",
+        "Viura",
+        "Garnacha"
+      ],
+      "famous_producers": [
+        "franco-espanolas"
+      ],
+      "aliases": [
+        "Logrono",
+        "Calle del Laurel"
+      ],
+      "vibe": "A lively capital where Camino pilgrims and wine tourists pack the pintxo bars of Calle del Laurel after cellar visits.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://lariojaturismo.com/en/",
+        "address_quoted": "Logrono",
+        "open_status": "open",
+        "open_evidence_url": "https://riojawine.com/en-us/",
+        "cuisine_evidence_url": "https://lariojaturismo.com/en/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "briones",
+      "name": "Briones",
+      "address": "Briones, 26330 La Rioja, Spain",
+      "classification": "DOCa Rioja",
+      "neighborhood": "Rioja Alta",
+      "description": "A hilltop village in Rioja Alta listed among Spain's most beautiful towns, ringed by vineyards above the Ebro. Home to Finca Allende and to the Vivanco wine museum and foundation, one of the largest wine museums in the world.",
+      "key_varietals": [
+        "Tempranillo",
+        "Graciano",
+        "Garnacha"
+      ],
+      "famous_producers": [
+        "finca-allende",
+        "vivanco"
+      ],
+      "aliases": [
+        "Briones"
+      ],
+      "vibe": "A picture-postcard hilltop village above the Ebro with a world-class wine museum and views across Rioja Alta.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://lariojaturismo.com/en/",
+        "address_quoted": "Briones",
+        "open_status": "open",
+        "open_evidence_url": "https://riojawine.com/en-us/",
+        "cuisine_evidence_url": "https://lariojaturismo.com/en/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "san-vicente-de-la-sonsierra",
+      "name": "San Vicente de la Sonsierra",
+      "address": "San Vicente de la Sonsierra, 26338 La Rioja, Spain",
+      "classification": "DOCa Rioja",
+      "neighborhood": "Rioja Alta",
+      "description": "A castle-topped village on the north bank of the Ebro in the Sonsierra, prized for steep old-vine parcels. Base of cult producer Benjamin Romeo at Bodega Contador, and known for traditional stone lagares dug into the rock.",
+      "key_varietals": [
+        "Tempranillo",
+        "Graciano",
+        "Garnacha"
+      ],
+      "famous_producers": [
+        "bodega-contador",
+        "sierra-cantabria"
+      ],
+      "aliases": [
+        "San Vicente de la Sonsierra",
+        "Sonsierra"
+      ],
+      "vibe": "A castle village above the Ebro with steep old-vine slopes and a cult garagiste reputation thanks to Bodega Contador.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://lariojaturismo.com/en/",
+        "address_quoted": "San Vicente de la Sonsierra",
+        "open_status": "open",
+        "open_evidence_url": "https://riojawine.com/en-us/",
+        "cuisine_evidence_url": "https://lariojaturismo.com/en/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "elciego",
+      "name": "Elciego",
+      "address": "Elciego, 01340 Alava, La Rioja, Spain",
+      "classification": "DOCa Rioja",
+      "neighborhood": "Rioja Alavesa",
+      "description": "A Rioja Alavesa village dominated by Marques de Riscal, founded here in 1858, and its titanium City of Wine hotel designed by Frank Gehry. Surrounded by some of the oldest commercial Tempranillo vineyards in the region.",
+      "key_varietals": [
+        "Tempranillo",
+        "Graciano",
+        "Mazuelo"
+      ],
+      "famous_producers": [
+        "marques-de-riscal"
+      ],
+      "aliases": [
+        "Elciego",
+        "Eltziego"
+      ],
+      "vibe": "A small Alavesa village transformed by the Gehry-designed Marques de Riscal hotel rising above its vineyards and church tower.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.marquesderiscal.com/en/",
+        "address_quoted": "Elciego",
+        "open_status": "open",
+        "open_evidence_url": "https://lariojaturismo.com/en/",
+        "cuisine_evidence_url": "https://www.marquesderiscal.com/en/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "cenicero",
+      "name": "Cenicero",
+      "address": "Cenicero, 26350 La Rioja, Spain",
+      "classification": "DOCa Rioja",
+      "neighborhood": "Rioja Alta",
+      "description": "A Rioja Alta wine town on the south bank of the Ebro between Logrono and Haro, long associated with large historic bodegas. Home to Marques de Murrieta's Ygay estate and to Bodegas Riojanas.",
+      "key_varietals": [
+        "Tempranillo",
+        "Mazuelo",
+        "Graciano",
+        "Viura"
+      ],
+      "famous_producers": [
+        "marques-de-murrieta",
+        "bodegas-riojanas"
+      ],
+      "aliases": [
+        "Cenicero"
+      ],
+      "vibe": "A workmanlike Rioja Alta town on the Ebro anchored by the Ygay estate of Marques de Murrieta and other long-established houses.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://lariojaturismo.com/en/",
+        "address_quoted": "Cenicero",
+        "open_status": "open",
+        "open_evidence_url": "https://riojawine.com/en-us/",
+        "cuisine_evidence_url": "https://lariojaturismo.com/en/",
+        "checked_on": "2026-05-25"
+      }
+    }
+  ]
+}

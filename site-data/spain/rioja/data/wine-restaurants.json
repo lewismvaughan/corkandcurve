@@ -1,0 +1,194 @@
+{
+  "wine_restaurants": [
+    {
+      "slug": "venta-moncalvillo",
+      "name": "Venta Moncalvillo",
+      "address": "Carretera de Medrano 6, 26373 Daroca de Rioja, La Rioja, Spain",
+      "neighborhood": "Daroca de Rioja, Rioja Alta",
+      "cuisine": "Modern Riojan with a garden-led, sustainable focus; seasonal tasting menus built around the daily harvest",
+      "cellar_size": 2000,
+      "awards": [
+        { "source": "Michelin (two stars)", "year": 2024 },
+        { "source": "Michelin Green Star", "year": 2024 }
+      ],
+      "description": "Echapresto brothers' destination restaurant in tiny Daroca de Rioja, where sommelier Carlos keeps a 2,000-reference cellar plus house vermouth and meads.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://guide.michelin.com/us/en/la-rioja/daroca-de-rioja/restaurant/venta-moncalvillo",
+        "address_quoted": "Daroca de Rioja",
+        "open_status": "open",
+        "open_evidence_url": "https://winejournal.robertparker.com/venta-moncalvillo-restaurant-rioja",
+        "cuisine_evidence_url": "https://epicureanways.com/blog/terroir-restaurants-in-the-rioja-wine-region",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "el-portal-de-echaurren",
+      "name": "El Portal de Echaurren",
+      "address": "Calle Padre Jose Garcia 19, 26280 Ezcaray, La Rioja, Spain",
+      "neighborhood": "Ezcaray, Sierra de la Demanda",
+      "cuisine": "Creative Riojan haute cuisine rooted in tradition; Turza and Usaya tasting menus by Francis Paniego",
+      "cellar_size": 1000,
+      "awards": [
+        { "source": "Michelin (two stars)", "year": 2024 }
+      ],
+      "description": "Fifth-generation Paniego restaurant in Ezcaray, the first in La Rioja to win a Michelin star; a 1,000-plus-reference cellar run by sommelier Chefe Paniego.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://echaurren.com/en/el-portal-de-echaurren-restaurant/",
+        "address_quoted": "Padre Jose Garcia, 19 Ezcaray (La Rioja)",
+        "open_status": "open",
+        "open_evidence_url": "https://guide.michelin.com/en/la-rioja/ezcaray/restaurant/el-portal",
+        "cuisine_evidence_url": "https://www.basqueluxury.com/en/echaurren-125-years-of-history-and-two-michelin-stars-attest-to-the-quality-of-this-gastronomic-hotel-with-francis-paniego-at-the-helm/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "nublo-haro",
+      "name": "Nublo",
+      "address": "Plaza San Martin 5, 26200 Haro, La Rioja, Spain",
+      "neighborhood": "La Herradura, Haro",
+      "cuisine": "Wood-fired contemporary Riojan tasting menu by Miguel Cano in a 16th-century palace",
+      "cellar_size": 1000,
+      "awards": [
+        { "source": "Michelin (one star)", "year": 2024 }
+      ],
+      "description": "Haro's first Michelin-starred restaurant, set in a 16th-century palace; diners descend into a spiral cellar of 1,000-plus Rioja references before dinner.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://guide.michelin.com/us/en/la-rioja/haro/restaurant/nublo",
+        "address_quoted": "Plaza San Martin, 5, 26200 Haro, La Rioja, Spain",
+        "open_status": "open",
+        "open_evidence_url": "https://starwinelist.com/wine-place/nublo-restaurant",
+        "cuisine_evidence_url": "https://cluboenologique.com/story/best-haro-restaurants-rioja/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "restaurante-marques-de-riscal-elciego",
+      "name": "Restaurante Marques de Riscal",
+      "address": "Calle Torrea 1, 01340 Elciego, Alava, Spain",
+      "neighborhood": "Elciego, Rioja Alavesa",
+      "cuisine": "Basque-Riojan author cuisine by Francis Paniego; Torrea and Chirel tasting menus inside the Gehry hotel",
+      "cellar_size": 8000000,
+      "awards": [
+        { "source": "Michelin (one star)", "year": 2024 }
+      ],
+      "description": "Michelin-starred restaurant in the Gehry-designed City of Wine, drawing on a Riscal cellar of millions of bottles with vintages back to 1862.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://guide.michelin.com/en/pais-vasco/elciego/restaurant/marques-de-riscal",
+        "address_quoted": "C/Torrea 1, 01340 Elciego, Alava",
+        "open_status": "open",
+        "open_evidence_url": "https://www.restaurantemarquesderiscal.com/en/meet-the-chef",
+        "cuisine_evidence_url": "https://www.marquesderiscal.com/en/restaurants",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "kiro-sushi-logrono",
+      "name": "Kiro Sushi",
+      "address": "Calle Emilia Pardo Bazan 5, bajo 1, 26006 Logrono, La Rioja, Spain",
+      "neighborhood": "Logrono",
+      "cuisine": "Edomae-style sushi omakase for six diners by Felix Jimenez, Tokyo-trained",
+      "awards": [
+        { "source": "Michelin (one star)", "year": 2024 }
+      ],
+      "description": "Six-seat Edomae sushi counter in Logrono; a Tokyo-trained ritual that, while alcohol-free, anchors the city's Michelin scene next to its Rioja tables.",
+      "editorial_score": 4.7,
+      "tip": "Only six seats and no alcohol service; book well ahead.",
+      "verified": {
+        "source_url": "https://guide.michelin.com/us/en/la-rioja/logrono/restaurant/kiro-sushi",
+        "address_quoted": "C/Emilia Pardo Bazan,5 - bajo 1 Logrono (La Rioja)",
+        "open_status": "open",
+        "open_evidence_url": "https://lariojaturismo.com/restaurante/kiro-sushi/6b1efd65-611a-4d40-806f-12d4037c98e6",
+        "cuisine_evidence_url": "https://kirosushi.es/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "ikaro-logrono",
+      "name": "Ikaro",
+      "address": "Avenida de Portugal 3, 26001 Logrono, La Rioja, Spain",
+      "neighborhood": "Logrono",
+      "cuisine": "Author cuisine fusing La Rioja, Basque Country and Ecuador by Inaki Murua and Carolina Sanchez",
+      "awards": [
+        { "source": "Michelin (one star)", "year": 2024 },
+        { "source": "Repsol (two Soles)", "year": 2024 }
+      ],
+      "description": "Logrono restaurant where chefs Murua and Sanchez fuse Riojan and Ecuadorian flavours, paired from a list built around the region's wines.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.restauranteikaro.com/",
+        "address_quoted": "Avda. Portugal n3 bajo, Logrono, La Rioja",
+        "open_status": "open",
+        "open_evidence_url": "https://guide.michelin.com/us/en/la-rioja/logrono/restaurant/ikaro",
+        "cuisine_evidence_url": "https://lariojaturismo.com/en/restaurante/ikaro/acb350cb-7f5d-4f2f-84b1-835e246e6d57",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "la-vieja-bodega-casalarreina",
+      "name": "La Vieja Bodega",
+      "address": "Avenida de la Rioja 17, 26230 Casalarreina, La Rioja, Spain",
+      "neighborhood": "Casalarreina, Rioja Alta",
+      "cuisine": "Traditional Riojan grill and seasonal cuisine in a restored 17th-century wine cellar",
+      "cellar_size": 400,
+      "awards": [
+        { "source": "Michelin Guide listing", "year": 2024 }
+      ],
+      "description": "Restored 17th-century cellar in Casalarreina serving Riojan grill cuisine alongside a 400-plus-reference list of Rioja and Spanish wines.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://laviejabodega.es/en/home/",
+        "address_quoted": "Avenida de La Rioja 17, Casalarreina, 26230",
+        "open_status": "open",
+        "open_evidence_url": "https://guide.michelin.com/us/en/la-rioja/casalarreina/restaurant/la-vieja-bodega",
+        "cuisine_evidence_url": "https://turismocasalarreina.es/en/recursos/restaurant-grill-la-vieja-bodega/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "tondeluna-logrono",
+      "name": "Tondeluna",
+      "address": "Muro de Francisco de la Mata 9, 26001 Logrono, La Rioja, Spain",
+      "neighborhood": "Centro, Logrono",
+      "cuisine": "Modern Riojan gastrobar by Francis Paniego with communal tables and an Echaurren-rooted menu",
+      "cellar_size": 300,
+      "awards": [
+        { "source": "Michelin Guide listing", "year": 2024 }
+      ],
+      "description": "Francis Paniego's Logrono gastrobar near Gran Via, pairing Echaurren-style Riojan dishes with a wine list fit for the regional capital.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://lariojaturismo.com/en/restaurante/tondeluna/6b051e48-2037-466e-b0d8-d96c58e96bc4",
+        "address_quoted": "Muro de Francisco de la Mata, 9, 26001 Logrono, La Rioja",
+        "open_status": "open",
+        "open_evidence_url": "https://guide.michelin.com/us/en/la-rioja/logrono/restaurant/tondeluna",
+        "cuisine_evidence_url": "https://www.facebook.com/RestauranteTondeluna/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "el-rincon-del-vino-logrono",
+      "name": "El Rincon del Vino",
+      "address": "Calle Marques de San Nicolas 136, 26001 Logrono, La Rioja, Spain",
+      "neighborhood": "Casco Antiguo, Logrono",
+      "cuisine": "Traditional Riojan grill in a former winery; charcoal meats and seasonal produce with sommelier-guided wine",
+      "cellar_size": 350,
+      "awards": [
+        { "source": "La Rioja Turismo listing", "year": 2024 }
+      ],
+      "description": "Grill restaurant in one of Logrono's first wineries, with a vaulted brick dining room and a sommelier-curated Rioja list of 350-plus references.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://elrincondelvinologrono.es/restaurante/",
+        "address_quoted": "Calle Marques de San Nicolas, 136, 26001 Logrono",
+        "open_status": "open",
+        "open_evidence_url": "https://lariojaturismo.com/en/restaurante/el-rincon-del-vino-logroo/f95e5baa-d936-4ea8-b9dd-21061f0b1dfc",
+        "cuisine_evidence_url": "https://www.laterrazadelebro.es/el-rincon-del-vino/",
+        "checked_on": "2026-05-25"
+      }
+    }
+  ]
+}
