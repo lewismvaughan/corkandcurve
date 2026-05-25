@@ -1,27 +1,6 @@
 {
   "wine_tours": [
     {
-      "slug": "bordeaux-wine-trips",
-      "name": "Bordeaux Wine Trips",
-      "address": "7 rue des Remparts, 33000 Bordeaux, France",
-      "neighborhood": "Bordeaux city centre",
-      "description": "Boutique tour operator based in Bordeaux city offering half-day and full-day private and small-group tours to the Medoc, Saint-Emilion, and Sauternes. Bilingual English-French guides; access to crus classes beyond standard open hours.",
-      "tour_types": ["Medoc classified growths day tour", "Saint-Emilion and Pomerol private tour", "Sauternes harvest experience (seasonal)", "Blending workshop at a cru classe"],
-      "languages": ["English", "French"],
-      "price_range": "EUR 95 per person half-day to EUR 350 per person full-day private",
-      "booking_url": "https://www.bordeaux-wine-trips.com/",
-      "min_group_size": 2,
-      "editorial_score": 4.6,
-      "verified": {
-        "source_url": "https://www.bordeaux-wine-trips.com/",
-        "address_quoted": "7 rue des Remparts, 33000 Bordeaux",
-        "open_status": "open",
-        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g187079-d7286513-Reviews-Bordeaux_Wine_Trips-Bordeaux_Gironde_Nouvelle_Aquitaine.html",
-        "cuisine_evidence_url": "https://www.bordeaux-wine-trips.com/our-tours/",
-        "checked_on": "2026-05-22"
-      }
-    },
-    {
       "slug": "ophorus-bordeaux-wine-tour",
       "name": "Ophorus Bordeaux Wine Tours",
       "address": "40 allee de Chartres, 33000 Bordeaux, France",
@@ -44,43 +23,22 @@
     },
     {
       "slug": "bordeaux-wine-bus",
-      "name": "Bordeaux Wine Bus (Keolis/Transgironde)",
+      "name": "Bordeaux Wine Bus (Keolis Gironde 30'DIRECT)",
       "address": "Gare Saint-Jean, 33800 Bordeaux, France",
       "neighborhood": "Bordeaux Saint-Jean station",
-      "description": "Regional bus service operated seasonally from Bordeaux Gare Saint-Jean into the Medoc appellations and to Saint-Emilion, designed as a day-tripper wine-tour network with chateau stops included.",
-      "tour_types": ["Medoc day-trip bus tour with chateau stops", "Saint-Emilion bus day tour", "Sauternes village bus day tour"],
+      "description": "Keolis Gironde's 30'DIRECT oenotourism shuttle network runs seasonally from Bordeaux into the Medoc, Graves and Saint-Emilion appellations, designed as a day-tripper wine-tour network with chateau stops included.",
+      "tour_types": ["Medoc day-trip bus tour with chateau stops", "Saint-Emilion bus day tour", "Graves and Sauternes route"],
       "languages": ["French", "English on-board guide on premium departures"],
       "price_range": "EUR 12-22 per person per day-trip route",
-      "booking_url": "https://www.bordeaux-wine-bus.com/",
+      "booking_url": "https://30direct.com/",
       "min_group_size": 1,
       "editorial_score": 4.0,
       "verified": {
-        "source_url": "https://www.bordeaux-wine-bus.com/",
+        "source_url": "https://30direct.com/",
         "address_quoted": "Gare Saint-Jean, 33800 Bordeaux",
         "open_status": "open",
         "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g187079-d7167649-Reviews-Bordeaux_Wine_Bus-Bordeaux_Gironde_Nouvelle_Aquitaine.html",
-        "cuisine_evidence_url": "https://www.bordeaux-wine-bus.com/tours/medoc/",
-        "checked_on": "2026-05-22"
-      }
-    },
-    {
-      "slug": "medoc-vintage-tours",
-      "name": "Medoc Vintage Tours",
-      "address": "Place du General de Gaulle, 33250 Pauillac, France",
-      "neighborhood": "Pauillac",
-      "description": "Pauillac-based operator offering Medoc-specific classified-growth tours with a focus on the five communes. Small groups of maximum 8 with chauffeured 4x4 access to vineyards not open to larger operators.",
-      "tour_types": ["Pauillac first-growth private access tour", "Medoc five-communes tasting trail", "Saint-Estephe and Margaux contrast tour"],
-      "languages": ["English", "French"],
-      "price_range": "EUR 180 per person full-day group tour",
-      "booking_url": "https://www.medocvintagetours.com/",
-      "min_group_size": 2,
-      "editorial_score": 4.5,
-      "verified": {
-        "source_url": "https://www.medocvintagetours.com/",
-        "address_quoted": "Place du General de Gaulle, 33250 Pauillac",
-        "open_status": "open",
-        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g664680-d12895412-Reviews-Medoc_Vintage_Tours-Pauillac_Gironde_Nouvelle_Aquitaine.html",
-        "cuisine_evidence_url": "https://www.medocvintagetours.com/our-tours/",
+        "cuisine_evidence_url": "https://30direct.com/buy-my-tickets/who-are-we/",
         "checked_on": "2026-05-22"
       }
     },

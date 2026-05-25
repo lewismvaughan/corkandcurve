@@ -210,6 +210,48 @@ can be folded into the prose of the closest sibling cuvée. Aim for
 19. [ ] **Slug is vintage-agnostic**: `tignanello`, NEVER
         `tignanello-2019`. Vintages live in `scores[*]`, not in URLs.
 
+## Source-URL discipline (HARD — 38 dead URLs shipped in the Bordeaux pilot)
+
+verify_entities now HEAD-checks every entity's `source_url`. URLs that
+404 or fail DNS are HARD defects. Five patterns caused the Bordeaux
+failures; do NOT repeat them:
+
+1. **Never synthesize a producer domain.** Do not build a URL by
+   slugging the name (`www.<name-with-hyphens>.com`). Real domains
+   routinely drop the `chateau-`/`cognac-`/`domaine-` prefix
+   (`smith-haut-lafitte.com`, `sociandomallet.com`, `cognacprunier.fr`)
+   or use a different TLD. Find the real domain via search/consortium
+   and HEAD-verify it before writing.
+2. **Do not guess deep paths.** `/en/visit/`, `/en/visit-us/`,
+   `/en/maison-du-vin/`, `/en/restaurant/` often 404 even when the
+   domain root is live. If you cannot confirm a specific sub-page,
+   anchor to the verified site root or its real localized landing
+   (`/en/`). Every deeper path must be HEAD-checked individually.
+3. **Re-verify at research time.** Wine domains move on ownership /
+   operator transitions (Caudalie's `sources-caudalie.com` ->
+   `sources-hotels.com`; `cordeillan-bages.com` -> COMO). A remembered
+   URL is not a verified URL.
+4. **An entity needs independent corroboration.** A guessed domain
+   plus a plausible-but-unchecked TripAdvisor `d<digits>` ID is NOT
+   provenance. If existence can't be confirmed on an independently
+   reachable page, DROP the entity or re-anchor to the genuine operator.
+   (Two fabricated Bordeaux tour operators shipped this way.)
+5. **No placeholder addresses on abstraction entities.** "Multiple
+   estates, 33330 Saint-Emilion" is not an address. Every entity needs
+   one real street address quoted verbatim; pin multi-site programmes
+   to their operating office or drop them.
+
+## Topic-shape conventions (validator-enforced)
+
+- **budget-wines**: entries are BOTTLES, not venues. No street
+  `address` (use `where_to_buy` + `price_band`/`typical_price`). Each
+  still carries a `verified` block.
+- **wine-history / seasonal-wine**: write as a flat LIST of era/season
+  entries (`[{slug, name, era, year_range, description, verified}, ...]`).
+  This is the canonical shape from Burgundy onward; the validator also
+  tolerates the older Bordeaux bucketed-dict form, but new regions use
+  the list.
+
 ## Sources to lean on (and avoid)
 
 **Trust:**

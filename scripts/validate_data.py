@@ -52,13 +52,20 @@ TOPIC_FILES_TO_KEY = {
     "dietary.json":           "dietary",
     "nightlife.json":         "nightlife",
 }
-DICT_TOPICS = {"dietary.json", "nightlife.json", "wine-history.json", "seasonal-wine.json"}
+DICT_TOPICS = {"dietary.json", "nightlife.json"}
+# wine-history + seasonal-wine may be EITHER a dict keyed by era/season
+# buckets (Bordeaux pilot convention) OR a flat list of era/season entries
+# (the canonical convention for regions from Burgundy onward). Both render.
+# Accept either; SCHEMA documents the list form as canonical going forward.
+DICT_OR_LIST_TOPICS = {"wine-history.json", "seasonal-wine.json"}
 
 # Topics where every entry is a fixed venue and MUST have slug+name+address.
+# NB: budget-wines is NOT here — budget wines are bottles, not venues; they
+# carry `where_to_buy`/`price_band` instead of a street address.
 VENUE_TOPICS = {
     "vineyards.json", "tasting-rooms.json", "wine-bars.json",
     "wine-restaurants.json", "wine-retailers.json", "wine-museums.json",
-    "wine-hotels.json", "distilleries.json", "budget-wines.json",
+    "wine-hotels.json", "distilleries.json",
     "hidden-gems.json",
 }
 # Topics where every entry needs slug+name and SHOULD have address or
@@ -77,6 +84,7 @@ ENTITY_NO_ADDRESS_TOPICS = {
     "signature-grapes.json",
     "food-pairing.json",
     "wines.json",
+    "budget-wines.json",
 }
 ENTITY_LIST_TOPICS = VENUE_TOPICS | SOFT_ADDRESS_TOPICS | ENTITY_NO_ADDRESS_TOPICS
 # Topics where the per-entity `verified` provenance block is OPTIONAL.
@@ -371,8 +379,13 @@ def has_em_dash(value) -> bool:
 # "CRITICAL: complete sentences win over hitting the cap".
 
 # Pattern 1+2: stop-word/comma cliffhangers
+# The negative lookbehind for an apostrophe stops the conjunction "or"
+# inside an elided proper noun (Cote d'Or, Cotes d'Or) being read as a
+# trailing stop-word: the apostrophe creates a \b before "Or", so without
+# the guard every description ending "...Cote d'Or." false-positived as a
+# truncation (recurring Burgundy bug, 2026-05-25).
 TRUNCATION_TAIL_RE = re.compile(
-    r"(?:\b(?:the|a|an|is|are|was|were|with|and|or|of|to|in|on|at|for|by|"
+    r"(?:(?<!['’])\b(?:the|a|an|is|are|was|were|with|and|or|of|to|in|on|at|for|by|"
     r"from|as|into|onto|that|which|whose|but|so|nor|yet|its|their|his|her)"
     r"\s*[,;:]?\s*\.\s*|,\s*\.\s*)$",
     re.IGNORECASE,
@@ -918,7 +931,15 @@ def validate_city(country: str, city: str | None, data_dir: Path, errors_only: b
             issues.append(("ERR", f"{fname} must be a dict containing key '{key}'"))
             continue
         payload = data[key]
-        if fname in DICT_TOPICS:
+        if fname in DICT_OR_LIST_TOPICS:
+            # Either a bucketed dict (Bordeaux) or a flat list (canonical).
+            if not isinstance(payload, (dict, list)):
+                issues.append(("ERR", f"{fname}[{key}] expected dict or list, got {type(payload).__name__}"))
+            elif isinstance(payload, dict) and not any(payload.values()):
+                issues.append(("WARN", f"{fname} is empty (no categories filled)"))
+            elif isinstance(payload, list) and len(payload) == 0:
+                issues.append(("ERR", f"{fname} has 0 entries (skeleton state — research never filled this topic)"))
+        elif fname in DICT_TOPICS:
             if not isinstance(payload, dict):
                 issues.append(("ERR", f"{fname}[{key}] expected dict, got {type(payload).__name__}"))
             else:
