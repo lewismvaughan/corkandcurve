@@ -26,11 +26,16 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 SITE_DATA = REPO_ROOT / "site-data"
 CONTENT = REPO_ROOT / "content"
-BASE = "https://tablejourney.com"
 
 ENDPOINT = "https://api.indexnow.org/IndexNow"
-HOST = "tablejourney.com"
 TIMEOUT_SECONDS = 10
+
+# Derive BASE/HOST from site_config so this never drifts back to the
+# TableJourney fork's domain (the bug that produced 403 on Burgundy:
+# submitting tablejourney.com URLs with a corkandcurve.com key file).
+_CFG = json.loads((REPO_ROOT / "data" / "site_config.json").read_text("utf-8"))
+BASE = (_CFG.get("base_url") or "https://corkandcurve.com").rstrip("/")
+HOST = BASE.split("://", 1)[-1]
 
 
 def _load_key() -> str:

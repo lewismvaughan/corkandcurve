@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Notify IndexNow (Bing, Yandex, Seznam) about changed tablejourney URLs.
+"""Notify IndexNow (Bing, Yandex, Seznam) about changed corkandcurve URLs.
 
 IndexNow is the open protocol the non-Google search engines use to be told
 when a page changes. One POST submits up to 10,000 URLs per host. Google
@@ -11,7 +11,7 @@ Usage:
   python3 scripts/ping_indexnow.py /france/paris/     # one or more explicit URLs
 
 Auth: a public key file is served at
-  https://tablejourney.com/<INDEXNOW_KEY>.txt
+  https://corkandcurve.com/<INDEXNOW_KEY>.txt
 containing only the key. IndexNow fetches that on first submission to prove
 we own the host. The same key is sent in the POST body. The protocol is
 spec'd at https://www.indexnow.org/documentation.
@@ -33,7 +33,7 @@ from xml.etree import ElementTree as ET
 REPO_ROOT = Path(__file__).resolve().parent.parent
 CONTENT = REPO_ROOT / "content"
 HOST = "corkandcurve.com"
-INDEXNOW_KEY = "faf322689b7e468f8cb40d51f9ef4f40"
+INDEXNOW_KEY = "12bd5768aa914098bf68bfccb3baf9f1"
 KEY_LOCATION = f"https://{HOST}/{INDEXNOW_KEY}.txt"
 ENDPOINT = "https://api.indexnow.org/IndexNow"
 
