@@ -58,6 +58,14 @@ def _collect_region_grapes(research: dict) -> dict:
             if isinstance(varietals, str):
                 varietals = [varietals]
             for varietal in varietals:
+                # varietals may be plain strings ("Sangiovese") or
+                # {grape, pct} dicts (the wines.json shape). Normalise to
+                # the grape name before slugifying so a dict never gets
+                # stringified into a slug like "grape-sangiovese-pct-60".
+                if isinstance(varietal, dict):
+                    varietal = varietal.get("grape") or varietal.get("name") or ""
+                if not isinstance(varietal, str):
+                    continue
                 gslug = slugify(varietal)
                 if not gslug:
                     continue
