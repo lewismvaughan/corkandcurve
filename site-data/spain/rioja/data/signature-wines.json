@@ -1,3 +1,247 @@
 {
-  "signature_wines": []
+  "signature_wines": [
+    {
+      "slug": "tondonia-gran-reserva",
+      "name": "Vina Tondonia Gran Reserva",
+      "producer": "lopez-de-heredia",
+      "varietals": [
+        "Tempranillo",
+        "Garnacha",
+        "Graciano",
+        "Mazuelo"
+      ],
+      "style": "still red DOCa Rioja",
+      "vintage_range": "cellar 10 to 40 from vintage",
+      "price_band": "EUR 90 to 200 at retail",
+      "tasting_notes": "Ethereal, savoury and balsamic, with truffle and dried-strawberry depth. Tim Atkin rated the 2010 at 97 points (2023). Source: lopezdeheredia.com and timatkin.com.",
+      "editorial_score": 4.9,
+      "description": "The benchmark traditional Rioja: library-aged Gran Reserva from the Tondonia estate, about nine years in American oak.",
+      "verified": {
+        "source_url": "https://www.lopezdeheredia.com/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "castillo-ygay-gran-reserva-especial",
+      "name": "Castillo Ygay Gran Reserva Especial",
+      "producer": "marques-de-murrieta",
+      "varietals": [
+        "Tempranillo",
+        "Mazuelo"
+      ],
+      "style": "still red DOCa Rioja",
+      "vintage_range": "cellar 10 to 40 from vintage",
+      "price_band": "EUR 100 to 250 at retail",
+      "tasting_notes": "Savoury, classical and long-lived; the 2010 was Wine Spectator Wine of the Year 2020. Source: marquesdemurrieta.com and winespectator.com.",
+      "editorial_score": 4.9,
+      "description": "The estate flagship from the Ygay vineyard, released only in great years after a decade-plus of ageing.",
+      "verified": {
+        "source_url": "https://www.marquesdemurrieta.com/en/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "gran-reserva-890",
+      "name": "La Rioja Alta Gran Reserva 890",
+      "producer": "la-rioja-alta",
+      "varietals": [
+        "Tempranillo",
+        "Graciano",
+        "Mazuelo"
+      ],
+      "style": "still red DOCa Rioja",
+      "vintage_range": "cellar 10 to 40 from vintage",
+      "price_band": "EUR 150 to 350 at retail",
+      "tasting_notes": "Ethereal and sandalwood-scented; Tim Atkin rated the 2010 at 98 points (2023). Source: riojalta.com and timatkin.com.",
+      "editorial_score": 4.9,
+      "description": "The house pinnacle Gran Reserva, made only in great years and aged about six years in American oak.",
+      "verified": {
+        "source_url": "https://www.riojalta.com/en/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "gran-reserva-904",
+      "name": "La Rioja Alta Gran Reserva 904",
+      "producer": "la-rioja-alta",
+      "varietals": [
+        "Tempranillo",
+        "Graciano"
+      ],
+      "style": "still red DOCa Rioja",
+      "vintage_range": "cellar 8 to 30 from vintage",
+      "price_band": "EUR 45 to 75 at retail",
+      "tasting_notes": "Silky and savoury with signature American-oak sweet spice and dill. Tim Atkin rated the 2011 at 96 points (2021). Source: riojalta.com.",
+      "editorial_score": 4.8,
+      "description": "A modern classic Gran Reserva, four years in American oak, one of Rioja's most consistent aged reds.",
+      "verified": {
+        "source_url": "https://www.riojalta.com/en/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "vina-ardanza-reserva",
+      "name": "Vina Ardanza Reserva",
+      "producer": "la-rioja-alta",
+      "varietals": [
+        "Tempranillo",
+        "Garnacha"
+      ],
+      "style": "still red DOCa Rioja",
+      "vintage_range": "drink 5 to 25 from vintage",
+      "price_band": "EUR 25 to 45 at retail",
+      "tasting_notes": "Generous Garnacha-lifted red fruit with dill and sweet spice; a worldwide benchmark Reserva. Source: riojalta.com.",
+      "editorial_score": 4.7,
+      "description": "The house's most famous Reserva, distinctive for its Garnacha component and long American-oak ageing.",
+      "verified": {
+        "source_url": "https://www.riojalta.com/en/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "imperial-gran-reserva",
+      "name": "CVNE Imperial Gran Reserva",
+      "producer": "cvne",
+      "varietals": [
+        "Tempranillo",
+        "Graciano",
+        "Mazuelo"
+      ],
+      "style": "still red DOCa Rioja",
+      "vintage_range": "cellar 8 to 30 from vintage",
+      "price_band": "EUR 45 to 80 at retail",
+      "tasting_notes": "Classical and savoury; the 2004 was Wine Spectator Wine of the Year 2013, the first Spanish wine so honoured. Source: cvne.com and winespectator.com.",
+      "editorial_score": 4.8,
+      "description": "CVNE's prestige red from Rioja Alta fruit, made only in top years.",
+      "verified": {
+        "source_url": "https://cvne.com/en/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "contador",
+      "name": "Contador",
+      "producer": "bodega-contador",
+      "varietals": [
+        "Tempranillo",
+        "Graciano",
+        "Garnacha"
+      ],
+      "style": "still red DOCa Rioja",
+      "vintage_range": "cellar 10 to 30 from vintage",
+      "price_band": "EUR 150 to 300 at retail",
+      "tasting_notes": "Deep, polished and powerful yet fresh; the 2004 and 2005 earned 100 points from Wine Advocate. Source: bodegacontador.com and robertparker.com.",
+      "editorial_score": 4.8,
+      "description": "Benjamin Romeo's cult garage wine from old San Vicente vines that reset Rioja's modern ceiling.",
+      "verified": {
+        "source_url": "https://www.bodegacontador.com/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "vina-el-pison",
+      "name": "Artadi Vina El Pison",
+      "producer": "artadi",
+      "varietals": [
+        "Tempranillo"
+      ],
+      "style": "still red single-vineyard",
+      "vintage_range": "cellar 10 to 30 from vintage",
+      "price_band": "EUR 250 to 500 at retail",
+      "tasting_notes": "Intense yet ethereal, with floral lift and profound minerality. Wine Advocate rated the 2018 at 97 points (2021). Source: artadi.com and robertparker.com.",
+      "editorial_score": 4.9,
+      "description": "Spain's most celebrated single-vineyard Tempranillo, from a tiny old-vine plot at Laguardia.",
+      "verified": {
+        "source_url": "https://www.artadi.com/en/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "aro",
+      "name": "Muga Aro",
+      "producer": "bodegas-muga",
+      "varietals": [
+        "Tempranillo",
+        "Graciano"
+      ],
+      "style": "still red DOCa Rioja",
+      "vintage_range": "cellar 10 to 30 from vintage",
+      "price_band": "EUR 200 to 400 at retail",
+      "tasting_notes": "Concentrated, polished and ageworthy; Tim Atkin rated the 2016 at 96 points (2022). Source: bodegasmuga.com and timatkin.com.",
+      "editorial_score": 4.7,
+      "description": "Muga's icon wine, a tiny-production old-vine Tempranillo-Graciano aged in new French oak.",
+      "verified": {
+        "source_url": "https://www.bodegasmuga.com/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "cirsion",
+      "name": "Roda Cirsion",
+      "producer": "bodegas-roda",
+      "varietals": [
+        "Tempranillo"
+      ],
+      "style": "still red DOCa Rioja",
+      "vintage_range": "cellar 8 to 25 from vintage",
+      "price_band": "EUR 200 to 350 at retail",
+      "tasting_notes": "Plush, super-ripe tannins yet remarkable freshness; Tim Atkin rated the 2017 at 96 points (2022). Source: roda.es and timatkin.com.",
+      "editorial_score": 4.7,
+      "description": "Roda's icon from selected old-vine Tempranillo with perfectly ripe tannins, briefly in new French oak.",
+      "verified": {
+        "source_url": "https://roda.es/en/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "trasnocho",
+      "name": "Remirez de Ganuza Trasnocho",
+      "producer": "remirez-de-ganuza",
+      "varietals": [
+        "Tempranillo",
+        "Graciano"
+      ],
+      "style": "still red DOCa Rioja",
+      "vintage_range": "cellar 10 to 30 from vintage",
+      "price_band": "EUR 90 to 160 at retail",
+      "tasting_notes": "Dense, polished and mineral; made only from the shoulders of the best bunches. Tim Atkin rated the 2016 at 95 points (2022). Source: remirezdeganuza.com.",
+      "editorial_score": 4.7,
+      "description": "The estate's cult prestige red, made with the signature shoulder-selection method in new French oak.",
+      "verified": {
+        "source_url": "https://www.remirezdeganuza.com/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "baron-de-chirel-reserva",
+      "name": "Marques de Riscal Baron de Chirel",
+      "producer": "marques-de-riscal",
+      "varietals": [
+        "Tempranillo",
+        "Cabernet Sauvignon"
+      ],
+      "style": "still red DOCa Rioja",
+      "vintage_range": "cellar 8 to 25 from vintage",
+      "price_band": "EUR 55 to 100 at retail",
+      "tasting_notes": "Dark, structured and French-oak-aged from old vines including historic Cabernet. Tim Atkin rated the 2016 at 94 points (2022). Source: marquesderiscal.com.",
+      "editorial_score": 4.6,
+      "description": "Riscal's prestige red from old vineyards including historic Cabernet plantings, in new French oak.",
+      "verified": {
+        "source_url": "https://www.marquesderiscal.com/en/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    }
+  ]
 }

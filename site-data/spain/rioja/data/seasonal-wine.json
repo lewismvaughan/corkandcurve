@@ -1,3 +1,268 @@
 {
-  "seasonal_wine": []
+  "seasonal_wine": [
+    {
+      "slug": "winter-pruning-january",
+      "name": "Winter pruning in the vineyards, January",
+      "season": "Winter",
+      "month": "January",
+      "recurrence_pattern": "annual, December to February",
+      "description": "The coldest months are pruning season across Rioja Alta, Alavesa and Oriental, when growers cut back the bare vines that decide the coming crop. Cellars are quiet and tastings focus on freshly bottled and library Reservas rather than vineyard visits.",
+      "what_to_taste": [
+        "Rioja Gran Reserva",
+        "barrel-aged white Viura"
+      ],
+      "tip": "Winter is the calmest time to book a deep cellar tour in Haro's Barrio de la Estacion without harvest crowds.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://riojawine.com/en-us/the-designation/classification/",
+        "address_quoted": "Rioja",
+        "open_status": "open",
+        "open_evidence_url": "https://winefolly.com/deep-dive/rioja-wine-from-crianza-to-gran-reserva/",
+        "cuisine_evidence_url": "https://www.bbr.com/articles/guides/rioja-style-of-wine",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "new-crianza-releases-spring",
+      "name": "New Crianza releases, spring",
+      "season": "Spring",
+      "month": "March",
+      "recurrence_pattern": "annual, late winter into spring",
+      "description": "Crianza wines, aged at least one year in oak and a further year before sale, reach the market through late winter and spring. They are the everyday face of Rioja and the value sweet spot for the new drinking year.",
+      "what_to_taste": [
+        "Rioja Crianza",
+        "joven young red"
+      ],
+      "tip": "Spring is the best moment to compare a producer's just-released Crianza against the outgoing vintage side by side at the cellar door.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://winefolly.com/deep-dive/rioja-wine-from-crianza-to-gran-reserva/",
+        "address_quoted": "Rioja",
+        "open_status": "open",
+        "open_evidence_url": "https://riojawine.com/en-us/the-designation/classification/",
+        "cuisine_evidence_url": "https://www.elcoto.com/en/blog/rioja-designation-of-origin-facts-history/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "budbreak-and-flowering-april-may",
+      "name": "Budbreak and flowering, April to May",
+      "season": "Spring",
+      "month": "April",
+      "recurrence_pattern": "annual, April to early June",
+      "description": "Vines push their first shoots in April and flower in May and early June, the period that sets potential yield. Vineyard walks reveal the green canopy returning to the terraced slopes below the Sierra de Cantabria.",
+      "what_to_taste": [
+        "fresh white Rioja",
+        "Rioja rosado"
+      ],
+      "tip": "Pair an April vineyard walk in Rioja Alavesa with a young rosado; the wines mirror the bright, herbal feel of the season.",
+      "editorial_score": 4.1,
+      "verified": {
+        "source_url": "https://riojawine.com/en-us/the-designation/classification/",
+        "address_quoted": "Rioja",
+        "open_status": "open",
+        "open_evidence_url": "https://winetourismspain.com/wine-regions/rioja/itineraries/",
+        "cuisine_evidence_url": "https://www.bbr.com/articles/guides/rioja-style-of-wine",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "fiesta-de-san-bernabe-june",
+      "name": "Fiestas de San Bernabe, June",
+      "season": "Summer",
+      "month": "June",
+      "recurrence_pattern": "annual, around 11 June",
+      "description": "Logrono's patronal week around 11 June fills the old town, with Rioja poured free at the Revellin walls during the historic bread, fish and wine distribution. The city's pintxos streets run at full pace through the warm evenings.",
+      "what_to_taste": [
+        "Rioja Crianza by the glass",
+        "Logrono pintxo wine pairings"
+      ],
+      "tip": "Combine San Bernabe in Logrono with the Haro wine fight at the end of the same month for a full June of Rioja festivity.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://lariojaturismo.com/recurso/fiestas-de-san-bernabe/b1fdfd91-a515-a4d7-622c-316f662b4f17",
+        "address_quoted": "Logrono",
+        "open_status": "open",
+        "open_evidence_url": "https://logrono.es/-/fiestas-de-san-bernabe",
+        "cuisine_evidence_url": "https://es.wikipedia.org/wiki/Fiestas_de_San_Bernab%C3%A9_(Logro%C3%B1o)",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "cata-del-barrio-de-la-estacion-june",
+      "name": "Cata del Barrio de la Estacion, June (biennial)",
+      "season": "Summer",
+      "month": "June",
+      "recurrence_pattern": "biennial, June",
+      "description": "Every other June Haro's station district opens its century-old cellars for a single ticketed day of tasting and chef tapas. It is the best chance of the year to walk between CVNE, Muga, La Rioja Alta and Roda in one afternoon.",
+      "what_to_taste": [
+        "Reserva and Gran Reserva from the Barrio bodegas",
+        "single-vineyard Rioja"
+      ],
+      "tip": "In an off year for the Cata, the same bodegas still take individual bookings; June is peak season so reserve weeks ahead.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.barrioestacion.com/en/haro-station-wine-experience-2026/",
+        "address_quoted": "Haro",
+        "open_status": "open",
+        "open_evidence_url": "https://www.barrioestacion.com/en/",
+        "cuisine_evidence_url": "https://www.bodegasmuga.com/en/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "batalla-del-vino-late-june",
+      "name": "Batalla del Vino, late June",
+      "season": "Summer",
+      "month": "June",
+      "recurrence_pattern": "annual, 29 June",
+      "description": "Haro's wine fight on 29 June is the loudest moment in the Rioja calendar: thousands climb to San Felices at dawn and soak each other in red wine. It is festivity rather than tasting, but no other event captures Rioja's relationship with its own wine so vividly.",
+      "what_to_taste": [
+        "young Rioja tinto (worn more than drunk)",
+        "cellar-door Crianza afterwards in Haro"
+      ],
+      "tip": "After the fight, dry off and head to Haro's bodegas or bars for a proper glass; the town stays festive all day.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.harowinefight.com/",
+        "address_quoted": "Haro",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Haro_Wine_Festival",
+        "cuisine_evidence_url": "https://www.idealista.com/en/news/lifestyle-in-spain/2025/05/30/847244-haro-wine-festival-spain-s-epic-wine-battle",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "summer-veraison-july-august",
+      "name": "Summer veraison, July to August",
+      "season": "Summer",
+      "month": "August",
+      "recurrence_pattern": "annual, late July to August",
+      "description": "In the heat of high summer the grapes change colour at veraison and begin to ripen. Vineyard work slows in the midday sun; long evenings on the terraces of Logrono and Haro are the season's pleasure rather than cellar visits.",
+      "what_to_taste": [
+        "chilled Rioja rosado",
+        "fresh Viura white"
+      ],
+      "tip": "August is hot and many family bodegas take holidays; confirm opening before driving out to smaller estates.",
+      "editorial_score": 4.0,
+      "verified": {
+        "source_url": "https://riojawine.com/en-us/the-designation/classification/",
+        "address_quoted": "Rioja",
+        "open_status": "open",
+        "open_evidence_url": "https://winetourismspain.com/wine-regions/rioja/itineraries/",
+        "cuisine_evidence_url": "https://www.bbr.com/articles/guides/rioja-style-of-wine",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "harvest-september-october",
+      "name": "The vendimia harvest, September to October",
+      "season": "Autumn",
+      "month": "September",
+      "recurrence_pattern": "annual, September to mid October",
+      "description": "Harvest runs from September into October, beginning with whites and early sites and finishing with late Graciano and high-altitude Tempranillo. Pickers fill the slopes and cellars hum with fermentation; it is the most atmospheric time to visit a working bodega.",
+      "what_to_taste": [
+        "first-must samples at the cellar",
+        "previous-vintage Reserva"
+      ],
+      "tip": "Many estates run harvest experiences in late September; book early because picking dates shift with the weather.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://wikirioja.com/fiestas-y-tradiciones/san-mateo/",
+        "address_quoted": "Rioja",
+        "open_status": "open",
+        "open_evidence_url": "https://winetourismspain.com/wine-regions/rioja/itineraries/",
+        "cuisine_evidence_url": "https://riojawine.com/en-us/the-designation/classification/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "fiesta-de-la-vendimia-san-mateo-september",
+      "name": "Fiesta de la Vendimia Riojana, September",
+      "season": "Autumn",
+      "month": "September",
+      "recurrence_pattern": "annual, around 21 September",
+      "description": "Logrono crowns the harvest around 21 September with the pisado de la uva, the ceremonial treading of the first grapes in the Paseo del Espolon, and the offering of the new must to the Virgen de Valvanera. A week of tastings, parades and music surrounds it.",
+      "what_to_taste": [
+        "newly pressed must (mosto)",
+        "Rioja Crianza in the city bars"
+      ],
+      "tip": "Watch the grape-treading on 21 September, then walk Calle Laurel and Calle San Juan for the festival's wine-and-pintxos buzz.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://wikirioja.com/fiestas-y-tradiciones/san-mateo/",
+        "address_quoted": "Logrono",
+        "open_status": "open",
+        "open_evidence_url": "https://lariojaturismo.com/recurso/fiesta-de-la-vendimia-riojana/82dd5559-c686-0de0-92df-d10f29018174",
+        "cuisine_evidence_url": "https://www.lariojasinbarreras.org/guia_larioja_accesible/cultura-y-tradiciones-rioja/fiesta-de-la-vendimia/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "first-must-offering-valvanera-september",
+      "name": "The first-must offering to the Virgen de Valvanera, September",
+      "season": "Autumn",
+      "month": "September",
+      "recurrence_pattern": "annual, 21 September",
+      "description": "Central to the San Mateo harvest fiesta, the freshly trodden must from the season's first grapes is carried and offered in tribute to the Virgen de Valvanera, patron of La Rioja. The rite formally marks the opening of the regional harvest.",
+      "what_to_taste": [
+        "mosto (fresh grape must)",
+        "young Rioja tempranillo"
+      ],
+      "tip": "The offering follows the grape-treading on the same morning; the Espolon stays packed, so a morning slot beats the afternoon.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://wikirioja.com/fiestas-y-tradiciones/san-mateo/",
+        "address_quoted": "Logrono",
+        "open_status": "open",
+        "open_evidence_url": "https://www.lariojasinbarreras.org/guia_larioja_accesible/cultura-y-tradiciones-rioja/fiesta-de-la-vendimia/",
+        "cuisine_evidence_url": "https://lariojaturismo.com/recurso/fiesta-de-la-vendimia-riojana/82dd5559-c686-0de0-92df-d10f29018174",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "autumn-cellar-fermentation-october",
+      "name": "Cellar fermentation and pressing, October",
+      "season": "Autumn",
+      "month": "October",
+      "recurrence_pattern": "annual, October",
+      "description": "As the last grapes come in, cellars run hot with fermentation and the first run-off and press wines are made. Vineyard colours turn gold and red, and harvest-season cellar tours show the winemaking year at its most active.",
+      "what_to_taste": [
+        "barrel samples of the new vintage",
+        "library Gran Reserva"
+      ],
+      "tip": "October cellar visits let you smell active fermentation; ask whether the bodega offers a tank-and-barrel walk-through.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://winefolly.com/deep-dive/rioja-wine-from-crianza-to-gran-reserva/",
+        "address_quoted": "Rioja",
+        "open_status": "open",
+        "open_evidence_url": "https://riojawine.com/en-us/the-designation/classification/",
+        "cuisine_evidence_url": "https://www.bbr.com/articles/guides/rioja-style-of-wine",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "reserva-and-gran-reserva-releases-late-autumn",
+      "name": "Reserva and Gran Reserva releases, late autumn",
+      "season": "Autumn",
+      "month": "November",
+      "recurrence_pattern": "annual, autumn",
+      "description": "Long-aged Reserva and Gran Reserva, held three to six or more years before sale, reach the market in the cooler months, just as the classic style suits hearty Riojan autumn cooking. These late releases are the most cellar-worthy bottles of the year.",
+      "what_to_taste": [
+        "Rioja Reserva",
+        "Rioja Gran Reserva"
+      ],
+      "tip": "Late autumn is prime time to buy back vintages of Gran Reserva direct from traditional Haro houses before the holidays.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://winefolly.com/deep-dive/rioja-wine-from-crianza-to-gran-reserva/",
+        "address_quoted": "Rioja",
+        "open_status": "open",
+        "open_evidence_url": "https://riojawine.com/en-us/the-designation/classification/",
+        "cuisine_evidence_url": "https://www.bbr.com/articles/guides/rioja-style-of-wine",
+        "checked_on": "2026-05-25"
+      }
+    }
+  ]
 }

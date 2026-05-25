@@ -1,0 +1,30 @@
+{
+  "destination": {
+    "slug": "spain",
+    "name": "Spain",
+    "country": "Spain",
+    "country_slug": "spain",
+    "type": "country",
+    "tagline": "From Rioja Tempranillo and Ribera del Duero power to Jerez sherry and Galician Albarino",
+    "overview": "Spain has more land under vine than any country on earth and a wine culture to match. Rioja set the template for oak-aged Tempranillo, Ribera del Duero answers with depth, Jerez gives the world sherry, Priorat its mountain power, Rias Baixas its bright Albarino, and Cava its sparkling. Dozens of denominaciones, two DOCa peaks (Rioja and Priorat), and a tradition of long bottle ageing the rest of the world is still catching up to.",
+    "hero_image": "https://upload.wikimedia.org/wikipedia/commons/7/76/Vista_de_La_Rioja_desde_Briones.jpg",
+    "hero_image_source_url": "https://commons.wikimedia.org/wiki/File:Vista_de_La_Rioja_desde_Briones.jpg",
+    "hero_image_credit": "Photo by Emilio Garcia, CC BY-SA 2.0, via Wikimedia Commons",
+    "hero_image_alt": "Rioja vineyard landscape seen from Briones, Spain"
+  },
+  "seo": {
+    "pages": {
+      "index": {
+        "title": "Spain wine regions | Cork & Curve",
+        "description": "Wine regions across Spain on Cork & Curve, from Rioja Tempranillo and Ribera del Duero power to Jerez sherry and Galician Albarino, by editors who taste in person."
+      }
+    },
+    "geo": {
+      "country_code": "ES"
+    }
+  },
+  "_metadata": {
+    "type": "country",
+    "status": "live"
+  }
+}

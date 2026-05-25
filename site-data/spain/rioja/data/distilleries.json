@@ -1,3 +1,89 @@
 {
-  "distilleries": []
+  "distilleries": [
+    {
+      "slug": "pacharan-zoco-dicastillo",
+      "name": "Destileria Pacharan Zoco",
+      "address": "Palacio de la Vega del Pozo s/n, 31263 Dicastillo, Navarra, Spain",
+      "neighborhood": "Dicastillo, Navarra",
+      "classification": "Pacharan Navarro",
+      "spirits_produced": ["Pacharan"],
+      "distillation_method": "Maceration of 100 percent Navarrese sloe berries in natural anisette, no added colourings or flavourings",
+      "tasting_program": "Guided visit through the palace estate and sloe fields, a pacharan workshop and a cocktail-making session in the Guard's House",
+      "visit_available": true,
+      "description": "Historic pacharan distillery in a neo-Gothic palace near Estella, with sloe fields, a maceration workshop and a make-your-own cocktail finale.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://pacharanzoco.com/contacto/",
+        "address_quoted": "Palacio de la Vega del Pozo s/n, 31263 Dicastillo, Navarra",
+        "open_status": "open",
+        "open_evidence_url": "https://www.visitnavarra.es/en/w/visit-the-zoco-patxaran-distillery",
+        "cuisine_evidence_url": "https://www.visitnavarra.es/en/-/pacharan-licor-navarro",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "destilerias-acha-amurrio",
+      "name": "Destilerias Acha",
+      "address": "Calle Maskuribai 4, 01470 Amurrio, Alava, Spain",
+      "neighborhood": "Amurrio, Alava",
+      "classification": "Pacharan and Basque liqueurs",
+      "spirits_produced": ["Pacharan Sierra de Orduna", "Vermouth", "Basque whisky", "Anise liqueurs"],
+      "distillation_method": "Triple-distilled spirit with hand-picked Sierra de Orduna sloes, anise redistilled in 130-year-old copper pot stills",
+      "tasting_program": "Visit to the Manuel Acha Liqueur Museum tracing nearly two centuries of distilling on the distillery's first floor",
+      "visit_available": true,
+      "description": "Founded 1831, one of the Basque Country's oldest distillers; its Amurrio site houses the first Basque liqueur museum alongside pacharan and vermouth production.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.destileriasacha.com/en/history/",
+        "address_quoted": "C/ Maskuribai, 4, 01470 Amurrio (Alava)",
+        "open_status": "open",
+        "open_evidence_url": "https://tourism.euskadi.eus/en/museums/manuel-acha-liqueur-museum/webtur00-content/en/",
+        "cuisine_evidence_url": "https://www.destileriasacha.com/en/history/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "destilerias-la-navarra-villava",
+      "name": "Destilerias La Navarra",
+      "address": "Avenida Serapio Huici 22, 31610 Villava, Navarra, Spain",
+      "neighborhood": "Villava, Navarra",
+      "classification": "Pacharan Navarro",
+      "spirits_produced": ["Pacharan Etxeko", "Pacharan Las Endrinas", "Anise liqueurs"],
+      "distillation_method": "Traditional Navarrese sloe maceration in anise spirit",
+      "tasting_program": "Guided visits to the distillery by request",
+      "visit_available": true,
+      "description": "Navarra distiller behind the Etxeko and Las Endrinas pacharan brands, offering guided visits by request at its Villava distillery.",
+      "editorial_score": 4.1,
+      "verified": {
+        "source_url": "https://www.grupolanavarra.com/en/products/pacharan/",
+        "address_quoted": "Avda. Serapi Huici, 22, 31610 Villava, Navarra",
+        "open_status": "open",
+        "open_evidence_url": "https://www.pacharannavarro.org/empresas/destilerias-la-navarra-s-a/",
+        "cuisine_evidence_url": "https://www.grupolanavarra.com/en/products/pacharan/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "el-colmado-de-ezcaray-orujo",
+      "name": "El Colmado de Ezcaray (Aguardiente de Orujo)",
+      "address": "Ezcaray, 26280 La Rioja, Spain",
+      "neighborhood": "Ezcaray, Sierra de la Demanda",
+      "classification": "Aguardiente de orujo",
+      "spirits_produced": ["Aguardiente de orujo", "Licor de manzana", "Homemade liqueurs"],
+      "distillation_method": "Slow pot-still distillation of grape pomace, keeping only the heart of the run",
+      "tasting_program": "Artisan shop selling homemade orujo and liqueurs; not a public distillery cellar",
+      "visit_available": false,
+      "description": "Family Ezcaray shop selling its own slowly pot-distilled aguardiente de orujo and apple liqueur; retail outlet rather than a tour-open cellar.",
+      "editorial_score": 4.0,
+      "tip": "A shop and producer, not a visitable distillery; buy the orujo over the counter.",
+      "verified": {
+        "source_url": "https://www.colmadoezcaray.com/product/aguardiente-de-orujo/",
+        "address_quoted": "Ezcaray",
+        "open_status": "open",
+        "open_evidence_url": "https://elqueso.es/la-rioja/ezcaray/el-colmado-de-ezcaray-tienda-de-delicatessen-en-ezcaray-la-rioja/",
+        "cuisine_evidence_url": "https://www.colmadoezcaray.com/product-category/seleccion-vino-colmado-ezcaray/licores-caseros/",
+        "checked_on": "2026-05-25"
+      }
+    }
+  ]
 }

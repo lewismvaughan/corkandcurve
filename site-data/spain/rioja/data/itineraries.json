@@ -1,3 +1,161 @@
 {
-  "itineraries": []
+  "itineraries": [
+    {
+      "slug": "haro-barrio-de-la-estacion-weekend",
+      "name": "Haro and the Barrio de la Estacion weekend",
+      "length_days": 2,
+      "theme": "Century-old Haro houses: the classic Rioja heartland",
+      "base": "Haro",
+      "days": [
+        {
+          "day": 1,
+          "morning": "Start in Haro's Barrio de la Estacion, the world's densest cluster of century-old bodegas, with a morning cellar tour and tasting at La Rioja Alta, founded 1890, focused on Vina Ardanza and the Gran Reservas.",
+          "lunch": "Lunch in Haro's old town off the Plaza de la Paz between cellar visits.",
+          "afternoon": "Cross the street for an afternoon visit at CVNE, founded 1879, to taste Imperial and Vina Real, then a shorter stop at Gomez Cruzado in the same district.",
+          "evening": "Dinner at Los Canos in Haro's former jail and town hall, with a local Rioja list under original stone and timber.",
+          "accommodation": "Stay in central Haro within walking distance of the station district.",
+          "venues": [
+            "la-rioja-alta",
+            "cvne",
+            "gomez-cruzado"
+          ]
+        },
+        {
+          "day": 2,
+          "morning": "Begin with the temple of traditional Rioja, Lopez de Heredia, founded 1877, for the Vina Tondonia cellars and a tasting of patiently aged whites and reds.",
+          "lunch": "Picnic or a light lunch in Haro before the afternoon visit.",
+          "afternoon": "Finish at Bodegas Muga for its cooperage and oak-fermentation tour, tasting the Reserva and Prado Enea, then browse the Barrio shops for bottles to take home.",
+          "evening": "Relaxed evening back in Haro with a final glass of Reserva at a town-centre bar.",
+          "accommodation": "Second night in Haro or onward to Logrono.",
+          "venues": [
+            "lopez-de-heredia",
+            "bodegas-muga"
+          ]
+        }
+      ],
+      "description": "A two-day weekend through Haro's Barrio de la Estacion, the world's largest concentration of century-old bodegas, visiting La Rioja Alta, CVNE, Gomez Cruzado, Lopez de Heredia and Muga.",
+      "tip": "Cellars in the Barrio book out, especially in June; reserve each visit a couple of weeks ahead and keep the walking distances short.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.barrioestacion.com/en/",
+        "address_quoted": "Haro",
+        "open_status": "open",
+        "open_evidence_url": "https://insiderioja.wordpress.com/2022/03/11/the-haro-train-station-district-part-1-the-tudela-bilbao-railway-line/",
+        "cuisine_evidence_url": "https://www.bodegasmuga.com/en/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "rioja-alavesa-architecture-and-terroir",
+      "name": "Rioja Alavesa architecture and terroir",
+      "length_days": 3,
+      "theme": "Signature-architecture estates and single-vineyard Alavesa",
+      "base": "Laguardia",
+      "days": [
+        {
+          "day": 1,
+          "morning": "Base in the walled hill town of Laguardia and open with Marques de Riscal at Elciego, founded 1858, touring the Frank Gehry City of Wine and tasting the classic Reservas.",
+          "lunch": "Lunch at the estate or in Elciego village below the Gehry hotel.",
+          "afternoon": "Afternoon at Bodegas Ysios to see the Santiago Calatrava cellar set against the Sierra de Cantabria, with a tasting of its Reserva.",
+          "evening": "Dinner and an evening stroll inside the Laguardia walls.",
+          "accommodation": "Boutique stay in Laguardia old town.",
+          "venues": [
+            "marques-de-riscal",
+            "bodegas-ysios"
+          ]
+        },
+        {
+          "day": 2,
+          "morning": "Visit Artadi outside Laguardia, organically farmed and certified-organic from the 2016 vintage, for its single-vineyard alta-expresion Tempranillo.",
+          "lunch": "Lunch in Laguardia between the morning and afternoon estates.",
+          "afternoon": "Continue to Remirez de Ganuza at Samaniego for a tour of its meticulous grape-selection cellar and a tasting of the Reserva.",
+          "evening": "Aperitivo back in Laguardia before dinner.",
+          "accommodation": "Second night in Laguardia.",
+          "venues": [
+            "artadi",
+            "remirez-de-ganuza"
+          ]
+        },
+        {
+          "day": 3,
+          "morning": "Head to Luis Canas at Villabuena de Alava, a benchmark Alavesa family house, for its range from Crianza up to the single-vineyard wines.",
+          "lunch": "Lunch in Villabuena, one of Rioja's densest village concentrations of bodegas.",
+          "afternoon": "Finish at Vinedos del Contino near Laserna, a walled single-estate on the Ebro, tasting the estate Reserva and the Vina del Olivo.",
+          "evening": "Drive to Logrono for a final night on Calle San Juan.",
+          "accommodation": "Logrono centre.",
+          "venues": [
+            "luis-canas",
+            "vinedos-del-contino"
+          ]
+        }
+      ],
+      "description": "Three days in Rioja Alavesa from Laguardia, pairing the Gehry and Calatrava signature-architecture estates with single-vineyard houses Artadi, Remirez de Ganuza, Luis Canas and Contino.",
+      "tip": "Riscal and Ysios both need timed bookings; cluster the Villabuena and Samaniego visits since the villages sit only minutes apart.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.marquesderiscal.com/en",
+        "address_quoted": "Elciego",
+        "open_status": "open",
+        "open_evidence_url": "https://riojawine.com/en-us/the-designation/classification/vinedo-singular-wine/",
+        "cuisine_evidence_url": "https://www.thedrinksbusiness.com/2023/07/artadi-honest-winemaking-and-the-importance-of-organics/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "logrono-and-rioja-alta-grand-tour",
+      "name": "Logrono base and Rioja Alta grand tour",
+      "length_days": 3,
+      "theme": "City pintxos plus the big Rioja Alta names",
+      "base": "Logrono",
+      "days": [
+        {
+          "day": 1,
+          "morning": "Base in Logrono and start at Marques de Murrieta at Ygay, heir to Rioja's first commercial bodega, for the estate tour and the Castillo Ygay story.",
+          "lunch": "Lunch at the estate or back in central Logrono.",
+          "afternoon": "Afternoon at Campo Viejo on the Logrono outskirts for its large-scale, design-forward cellar and an accessible tasting.",
+          "evening": "Pintxos crawl along Calle Laurel and Calle San Juan, finishing with by-the-glass Rioja at Tastavin.",
+          "accommodation": "Logrono centre.",
+          "venues": [
+            "marques-de-murrieta",
+            "campo-viejo"
+          ]
+        },
+        {
+          "day": 2,
+          "morning": "Drive west into Rioja Alta to Finca Allende at Briones for Miguel Angel de Gregorio's precise, terroir-led wines.",
+          "lunch": "Lunch in Briones, home to the Vivanco wine museum.",
+          "afternoon": "Spend the afternoon at the Vivanco Museum of the Culture of Wine and its estate, one of the best wine museums in the world.",
+          "evening": "Return to Logrono for dinner and a glass at Wine Fandango.",
+          "accommodation": "Logrono centre.",
+          "venues": [
+            "finca-allende",
+            "vivanco"
+          ]
+        },
+        {
+          "day": 3,
+          "morning": "Head to Sierra Cantabria at San Vicente de la Sonsierra, an Eguren-family benchmark, for its old-vine Tempranillo.",
+          "lunch": "Lunch in San Vicente de la Sonsierra overlooking the Ebro.",
+          "afternoon": "Finish with a visit at Bodegas Roda back in Haro's Barrio de la Estacion before heading home.",
+          "evening": "Last glass in Haro or on the road.",
+          "accommodation": "Departure or final night in Logrono.",
+          "venues": [
+            "sierra-cantabria",
+            "bodegas-roda"
+          ]
+        }
+      ],
+      "description": "Three days based in Logrono, combining the city's pintxos-and-wine streets with the big Rioja Alta names: Murrieta, Campo Viejo, Finca Allende, the Vivanco museum, Sierra Cantabria and Roda.",
+      "tip": "Logrono makes an easy base with short drives out each day; book Murrieta and Finca Allende ahead and leave time for the Vivanco museum.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.marquesdemurrieta.com/en/",
+        "address_quoted": "Logrono",
+        "open_status": "open",
+        "open_evidence_url": "https://www.spanishwinelover.com/the-best-places-to-drink-wine-in-logrono",
+        "cuisine_evidence_url": "https://www.barrioestacion.com/en/",
+        "checked_on": "2026-05-25"
+      }
+    }
+  ]
 }

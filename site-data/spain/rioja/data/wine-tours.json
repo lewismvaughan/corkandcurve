@@ -1,3 +1,156 @@
 {
-  "wine_tours": []
+  "wine_tours": [
+    {
+      "slug": "rioja-like-a-native",
+      "name": "Rioja Like a Native",
+      "address": "Logrono, La Rioja, Spain",
+      "neighborhood": "Logrono",
+      "tour_types": [
+        "Rioja Alta and Rioja Alavesa full-day",
+        "Customized private wine tour",
+        "Be a Winemaker experience",
+        "Gastronomic and medieval villages routes"
+      ],
+      "languages": ["English", "Spanish"],
+      "min_group_size": 2,
+      "price_range": "From small-group day tours to bespoke private itineraries",
+      "booking_url": "https://www.riojalikeanative.com/",
+      "description": "Top-rated Rioja operator running daily Rioja Alta and Alavesa tours plus bespoke private trips, with pickups from Logrono, Bilbao and San Sebastian.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.riojalikeanative.com/",
+        "address_quoted": "La Rioja",
+        "open_status": "open",
+        "open_evidence_url": "https://www.spain.info/en/discover-spain/rioja-experiences-enjoying-wine/",
+        "cuisine_evidence_url": "https://www.riojalikeanative.com/destiny/logrono-city-tour/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "riojatrek",
+      "name": "Riojatrek",
+      "address": "Logrono, La Rioja, Spain",
+      "neighborhood": "Logrono",
+      "tour_types": [
+        "Wednesday in La Rioja two-winery day",
+        "Rioja winery tour",
+        "Tapas tour",
+        "Private guided Rioja tours"
+      ],
+      "languages": ["English", "Spanish"],
+      "min_group_size": 2,
+      "price_range": "Scheduled day tours and private guiding; hotel pickup in Logrono, Laguardia and Elciego",
+      "booking_url": "https://www.riojatrek.com/en/",
+      "description": "Official Logrono and Rioja tour guides running the weekly Wednesday in La Rioja two-winery day plus private winery and tapas tours.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.riojatrek.com/en/",
+        "address_quoted": "Logrono",
+        "open_status": "open",
+        "open_evidence_url": "https://lariojaturismo.com/en/servicio-turistico/riojatrek/43bce5b2-96ab-4baa-ac12-ea8f9321cdd7",
+        "cuisine_evidence_url": "https://www.riojatrek.com/en/wine-tours/rioja-winery-tour/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "wine-tourism-spain-rioja",
+      "name": "Wine Tourism Spain Rioja Tours",
+      "address": "Logrono, La Rioja, Spain",
+      "neighborhood": "Logrono",
+      "tour_types": [
+        "Small-group Rioja hidden gems day",
+        "Family-run winery and medieval villages tour",
+        "Private custom Rioja tour"
+      ],
+      "languages": ["English", "Spanish"],
+      "min_group_size": 2,
+      "price_range": "Small-group tours of no more than 8 guests; private options on request",
+      "booking_url": "https://winetourismspain.com/wine-tours/rioja-wine-tours/",
+      "description": "Local-expert operator with small-group Rioja tours of family wineries and villages like Laguardia, with pickups from Logrono, Haro and Elciego.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://winetourismspain.com/wine-tours/rioja-wine-tours/",
+        "address_quoted": "Logrono",
+        "open_status": "open",
+        "open_evidence_url": "https://www.getyourguide.com/la-rioja-spain-l2629/wine-tasting-winery-tours-tc104/",
+        "cuisine_evidence_url": "https://winetourismspain.com/wine-tours/rioja-wine-tours/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "rioja-wine-trips",
+      "name": "Rioja Wine Trips",
+      "address": "Logrono, La Rioja, Spain",
+      "neighborhood": "Logrono",
+      "tour_types": [
+        "Private Rioja wine tour",
+        "Small-group tour (4-7 people)",
+        "Wine and food experiences"
+      ],
+      "languages": ["English", "Spanish"],
+      "min_group_size": 1,
+      "price_range": "Private and small-group day tours",
+      "booking_url": "https://riojawinetrips.com/",
+      "description": "Accredited Rioja travel agency offering private and small-group wine and food tours across the region's wineries and villages.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://riojawinetrips.com/",
+        "address_quoted": "Rioja",
+        "open_status": "open",
+        "open_evidence_url": "https://www.spain.info/en/discover-spain/rioja-experiences-enjoying-wine/",
+        "cuisine_evidence_url": "https://riojawinetrips.com/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "rioja-wine-tour",
+      "name": "Rioja Wine Tour",
+      "address": "Logrono, La Rioja, Spain",
+      "neighborhood": "Logrono",
+      "tour_types": [
+        "Tasting-focused private tour",
+        "Terroir private tour",
+        "Architecture wineries private tour"
+      ],
+      "languages": ["English", "Spanish"],
+      "min_group_size": 2,
+      "price_range": "Private tours designed by local experts",
+      "booking_url": "https://riojawinetour.com/",
+      "description": "Private Rioja tours curated by local experts around three angles: tasting, terroir and the region's landmark winery architecture.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://riojawinetour.com/",
+        "address_quoted": "Rioja",
+        "open_status": "open",
+        "open_evidence_url": "https://www.spain.info/en/discover-spain/rioja-experiences-enjoying-wine/",
+        "cuisine_evidence_url": "https://riojawinetour.com/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "cellar-tours-la-rioja",
+      "name": "Cellar Tours La Rioja",
+      "address": "La Rioja, Spain",
+      "neighborhood": "Rioja",
+      "tour_types": [
+        "Luxury private VIP tastings",
+        "Gourmet dining and winery tour",
+        "Multi-day Rioja wine holiday"
+      ],
+      "languages": ["English", "Spanish"],
+      "min_group_size": 2,
+      "price_range": "Luxury private tours with transport and gourmet dining",
+      "booking_url": "https://www.cellartours.com/spain/wine-tours/la-rioja",
+      "description": "Luxury operator arranging private VIP Rioja tastings, gourmet dining and multi-day itineraries with chauffeured transport.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.cellartours.com/spain/wine-tours/la-rioja",
+        "address_quoted": "La Rioja",
+        "open_status": "open",
+        "open_evidence_url": "https://www.greatwinecapitals.com/capitals/bilbao-rioja-spain/",
+        "cuisine_evidence_url": "https://www.cellartours.com/spain/wine-tours/la-rioja",
+        "checked_on": "2026-05-25"
+      }
+    }
+  ]
 }

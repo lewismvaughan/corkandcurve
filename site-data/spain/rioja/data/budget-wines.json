@@ -1,3 +1,238 @@
 {
-  "budget_wines": []
+  "budget_wines": [
+    {
+      "slug": "cune-crianza",
+      "name": "CVNE Cune Crianza",
+      "producer": "cvne",
+      "varietals": [
+        "Tempranillo",
+        "Garnacha",
+        "Mazuelo"
+      ],
+      "classification": "Rioja DOCa",
+      "price_band": "EUR 9-12 retail",
+      "where_to_buy": "Direct from CVNE in Haro's Barrio de la Estacion and through wide distribution across Spain, the UK and the United States.",
+      "description": "The benchmark everyday Rioja: a year in oak gives gentle vanilla over bright Tempranillo cherry. Endlessly available and reliably under twelve euros, it is the bottle that taught the world what classic Crianza tastes like.",
+      "tip": "If you can find the Vina Real Crianza from the same house, it is a slightly plusher sibling at a similar price.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.cvne.com/en/wines/cune/cune-crianza/",
+        "address_quoted": "Haro",
+        "open_status": "open",
+        "open_evidence_url": "https://www.decanter.com/decanter-best/decanter-best-10-great-rioja-crianza-to-try-452018/",
+        "cuisine_evidence_url": "https://www.cvne.com/en/wines/cune/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "muga-reserva",
+      "name": "Bodegas Muga Reserva",
+      "producer": "bodegas-muga",
+      "varietals": [
+        "Tempranillo",
+        "Garnacha",
+        "Mazuelo",
+        "Graciano"
+      ],
+      "classification": "Rioja DOCa",
+      "price_band": "EUR 18-24 retail",
+      "where_to_buy": "Direct at Bodegas Muga in Haro's station district and through specialist merchants worldwide.",
+      "description": "Made the old way with oak fermentation, egg-white fining and barrel ageing, Muga Reserva delivers genuine Haro-house pedigree for around twenty euros. Silky red fruit, cedar and a fine, savoury length well above its price.",
+      "tip": "The Reserva is the value pick; the same cellar's pricier Prado Enea and Torre Muga are for special occasions.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.bodegasmuga.com/en/wines/muga-reserva/",
+        "address_quoted": "Haro",
+        "open_status": "open",
+        "open_evidence_url": "https://www.barrioestacion.com/en/",
+        "cuisine_evidence_url": "https://www.bodegasmuga.com/en/wines/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "vina-alberdi-reserva",
+      "name": "La Rioja Alta Vina Alberdi Reserva",
+      "producer": "la-rioja-alta",
+      "varietals": [
+        "Tempranillo"
+      ],
+      "classification": "Rioja DOCa",
+      "price_band": "EUR 18-23 retail",
+      "where_to_buy": "Direct from La Rioja Alta in Haro and through international fine-wine merchants.",
+      "description": "A Reserva sold at a Crianza price: two years in American oak from a century-old Haro house, all sweet spice, dried cherry and polish. Repeatedly cited among the best-value Riojas in international press.",
+      "tip": "Drink it now or hold five years; Vina Alberdi ages more gracefully than most wines near twenty euros.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://riojalta.com/en/wines_rioja-alta/vina-alberdi/",
+        "address_quoted": "Haro",
+        "open_status": "open",
+        "open_evidence_url": "https://www.barrioestacion.com/en/",
+        "cuisine_evidence_url": "https://winefolly.com/deep-dive/rioja-wine-from-crianza-to-gran-reserva/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "lan-crianza",
+      "name": "Bodegas LAN Crianza",
+      "producer": "bodegas-lan",
+      "varietals": [
+        "Tempranillo",
+        "Mazuelo",
+        "Graciano"
+      ],
+      "classification": "Rioja DOCa",
+      "price_band": "EUR 8-11 retail",
+      "where_to_buy": "Direct from Bodegas LAN at Fuenmayor and through broad Spanish and export distribution.",
+      "description": "A dependable, modern-leaning Crianza from Fuenmayor: ripe dark cherry, smooth oak and an easy finish that overdelivers under twelve euros. A staple weeknight Rioja.",
+      "tip": "LAN's a Mano and Culmen sit above this in the range; for value the standard Crianza is the one to stock by the case.",
+      "editorial_score": 4.1,
+      "verified": {
+        "source_url": "https://www.bodegaslan.com/en/wines/",
+        "address_quoted": "Fuenmayor",
+        "open_status": "open",
+        "open_evidence_url": "https://winefolly.com/deep-dive/rioja-wine-from-crianza-to-gran-reserva/",
+        "cuisine_evidence_url": "https://www.bodegaslan.com/en/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "el-coto-crianza",
+      "name": "El Coto Crianza",
+      "producer": "el-coto-de-rioja",
+      "varietals": [
+        "Tempranillo"
+      ],
+      "classification": "Rioja DOCa",
+      "price_band": "EUR 8-11 retail",
+      "where_to_buy": "Direct from El Coto de Rioja at Oyon and through large-scale distribution across Spain and abroad.",
+      "description": "One of Spain's best-selling Riojas for good reason: pure Tempranillo, soft oak, juicy red fruit and a clean finish that makes it a faultless under-ten-euro pour for a crowd.",
+      "tip": "The single-varietal Tempranillo style is friendlier and fruitier than blended Crianzas; a safe bet for newcomers to Rioja.",
+      "editorial_score": 4.0,
+      "verified": {
+        "source_url": "https://www.elcoto.com/en/",
+        "address_quoted": "Oyon",
+        "open_status": "open",
+        "open_evidence_url": "https://winefolly.com/deep-dive/rioja-wine-from-crianza-to-gran-reserva/",
+        "cuisine_evidence_url": "https://www.elcoto.com/en/blog/rioja-designation-of-origin-facts-history/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "cune-blanco-barrel-fermented",
+      "name": "CVNE Monopole Blanco",
+      "producer": "cvne",
+      "varietals": [
+        "Viura"
+      ],
+      "classification": "Rioja DOCa",
+      "price_band": "EUR 9-13 retail",
+      "where_to_buy": "Direct from CVNE in Haro and through wide international distribution.",
+      "description": "Spain's oldest white-wine brand, Monopole is a crisp, lightly textured Viura with citrus and a saline snap. A reminder that white Rioja is one of the country's great value categories.",
+      "tip": "Serve it cold with anchovies or grilled white fish; at this price it is a brilliant aperitif white.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.cvne.com/en/wines/cune/",
+        "address_quoted": "Haro",
+        "open_status": "open",
+        "open_evidence_url": "https://worldoffinewine.com/homepage-featured-articles/white-rioja-survive-and-prosper",
+        "cuisine_evidence_url": "https://www.barrioestacion.com/en/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "marques-de-riscal-reserva",
+      "name": "Marques de Riscal Reserva",
+      "producer": "marques-de-riscal",
+      "varietals": [
+        "Tempranillo",
+        "Graciano",
+        "Mazuelo"
+      ],
+      "classification": "Rioja DOCa",
+      "price_band": "EUR 16-22 retail",
+      "where_to_buy": "Direct from Marques de Riscal at Elciego and through extensive global distribution.",
+      "description": "From the 1858-founded Elciego house, a classic Reserva of dried cherry, leather and sweet oak that still slips under the price of many lesser wines. The signature gold-wire mesh is a centuries-old anti-counterfeit mark.",
+      "tip": "The wire netting around the bottle is heritage, not gimmick; it dates to the estate's nineteenth-century origins.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.marquesderiscal.com/en",
+        "address_quoted": "Elciego",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/History_of_Rioja_wine",
+        "cuisine_evidence_url": "https://www.bbr.com/articles/guides/rioja-style-of-wine",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "marques-de-murrieta-reserva",
+      "name": "Marques de Murrieta Reserva",
+      "producer": "marques-de-murrieta",
+      "varietals": [
+        "Tempranillo",
+        "Garnacha",
+        "Mazuelo",
+        "Graciano"
+      ],
+      "classification": "Rioja DOCa",
+      "price_band": "EUR 18-24 retail",
+      "where_to_buy": "Direct from Marques de Murrieta at Ygay near Logrono and through fine-wine merchants worldwide.",
+      "description": "From the estate descended from Rioja's first commercial bodega, a poised, traditional Reserva of red fruit, spice and fine tannin that punches well above its sub-twenty-five-euro price.",
+      "tip": "This is the gateway to the house; the flagship Castillo Ygay Gran Reserva is a serious step up in price and ageing.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.marquesdemurrieta.com/en/",
+        "address_quoted": "Logrono",
+        "open_status": "open",
+        "open_evidence_url": "https://www.bbr.com/articles/guides/rioja-style-of-wine",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/History_of_Rioja_wine",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "lacus-inedito-rosado",
+      "name": "Bodegas Lacus Inedito",
+      "producer": "bodegas-lacus",
+      "varietals": [
+        "Garnacha"
+      ],
+      "classification": "Rioja DOCa",
+      "price_band": "EUR 12-16 retail",
+      "where_to_buy": "Direct from Bodegas Lacus at Aldeanueva de Ebro in Rioja Oriental and through natural-wine importers.",
+      "description": "An organically farmed Rioja Oriental Garnacha from a tiny family cellar, fresh and unadorned in the new-wave style. Proof that low-intervention Rioja can be had well under twenty euros.",
+      "tip": "Lacus is a Rioja Oriental name worth seeking out for honest, terroir-driven wines at fair prices.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.bodegaslacus.com/en/vinos/",
+        "address_quoted": "Aldeanueva de Ebro",
+        "open_status": "open",
+        "open_evidence_url": "https://spanishwinelover.com/winerie/lacus",
+        "cuisine_evidence_url": "https://www.bodegaslacus.com/en/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "lan-gran-reserva",
+      "name": "Bodegas LAN Gran Reserva",
+      "producer": "bodegas-lan",
+      "varietals": [
+        "Tempranillo",
+        "Mazuelo",
+        "Graciano"
+      ],
+      "classification": "Rioja DOCa",
+      "price_band": "EUR 17-23 retail",
+      "where_to_buy": "Direct from Bodegas LAN at Fuenmayor and through Spanish and export distribution.",
+      "description": "A genuine Gran Reserva, with the long oak and bottle ageing that name demands, for under twenty-five euros. Mature dried fruit, tobacco and leather make it one of Rioja's great value cellar-aged bottles.",
+      "tip": "Gran Reserva under twenty-five euros is rare; this is an easy way to taste the most aged tier of Rioja without splurging.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.bodegaslan.com/en/wines/",
+        "address_quoted": "Fuenmayor",
+        "open_status": "open",
+        "open_evidence_url": "https://winefolly.com/deep-dive/rioja-wine-from-crianza-to-gran-reserva/",
+        "cuisine_evidence_url": "https://riojawine.com/en-us/the-designation/classification/",
+        "checked_on": "2026-05-25"
+      }
+    }
+  ]
 }

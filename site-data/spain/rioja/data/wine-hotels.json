@@ -1,3 +1,158 @@
 {
-  "wine_hotels": []
+  "wine_hotels": [
+    {
+      "slug": "hotel-marques-de-riscal-elciego",
+      "name": "Hotel Marques de Riscal, a Luxury Collection Hotel",
+      "address": "Calle Torrea 1, 01340 Elciego, Alava, Spain",
+      "neighborhood": "Elciego, Rioja Alavesa",
+      "category": "5-star Luxury Collection hotel at a working winery",
+      "parent_vineyard": "marques-de-riscal",
+      "rooms": 61,
+      "price_range": "EUR 400-1200 per night",
+      "wine_program": "Winery tours of the historic Catedral del Vino cellar, tastings of Riscal Rioja and Rueda, plus a Vinotherapie Caudalie spa",
+      "booking_url": "https://www.marquesderiscal.com/en/marques-de-riscal-hotel",
+      "description": "Frank Gehry's titanium-ribbon hotel over the Marques de Riscal cellars in Elciego, with winery tours, a Caudalie wine spa and Michelin dining.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.marquesderiscal.com/en/marques-de-riscal-hotel",
+        "address_quoted": "C/Torrea 1, 01340 Elciego, Alava",
+        "open_status": "open",
+        "open_evidence_url": "https://www.elciego.es/en/hotel-marques-riscal",
+        "cuisine_evidence_url": "https://www.marquesderiscal.com/en/restaurants",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "hotel-viura-villabuena",
+      "name": "Hotel Viura",
+      "address": "Calle Herreria 19 A, 01307 Villabuena de Alava, Alava, Spain",
+      "neighborhood": "Villabuena de Alava, Rioja Alavesa",
+      "category": "4-star design hotel among the vineyards",
+      "parent_vineyard": null,
+      "rooms": 33,
+      "price_range": "EUR 150-350 per night",
+      "wine_program": "Own cellar showcasing the 43 wineries of Villabuena at winery prices, with tastings and pairings of local Rioja",
+      "booking_url": "https://www.hotelviura.com/en/",
+      "description": "Cube-stacked design hotel in Villabuena de Alava with a rooftop terrace over the vines and a cellar drawn from the village's 43 wineries.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.hotelviura.com/en/hotel",
+        "address_quoted": "Herreria 19 A Villabuena de Alava, 01307 Alava, Espana",
+        "open_status": "open",
+        "open_evidence_url": "https://guide.michelin.com/us/en/hotels-stays/villabuena-de-alava/hotel-viura-6381",
+        "cuisine_evidence_url": "https://www.hotelviura.com/en/hotel",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "hotel-eguren-ugarte-paganos",
+      "name": "Hotel Eguren Ugarte",
+      "address": "Paganos, 01309 Laguardia, Alava, Spain",
+      "neighborhood": "Paganos, Rioja Alavesa",
+      "category": "Boutique winery hotel over cellar tunnels",
+      "parent_vineyard": "eguren-ugarte",
+      "rooms": 21,
+      "price_range": "EUR 120-260 per night",
+      "wine_program": "Sleep above 2 km of cellar tunnels; tastings, winery tours and harvest participation paired with two estate restaurants",
+      "booking_url": "https://egurenugarte.com/en/winery-with-hotel-in-rioja-alavesa/",
+      "description": "Family winery hotel in Paganos built over 2 km of cellar tunnels, with vineyard-view rooms, tastings and harvest stays in Rioja Alavesa.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://egurenugarte.com/en/winery-with-hotel-in-rioja-alavesa/",
+        "address_quoted": "Paganos (Laguardia, Alava)",
+        "open_status": "open",
+        "open_evidence_url": "https://turismo.euskadi.eus/es/alojamiento/hotel-eguren-ugarte/webtur00-content/es/",
+        "cuisine_evidence_url": "https://egurenugarte.com/en/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "finca-de-los-arandinos-entrena",
+      "name": "Hotel Bodega Finca de los Arandinos",
+      "address": "Carretera LP-137 Km 4.6, 26375 Entrena, La Rioja, Spain",
+      "neighborhood": "Entrena, Rioja Alta",
+      "category": "4-star winery hotel with spa",
+      "parent_vineyard": "finca-de-los-arandinos",
+      "rooms": 14,
+      "price_range": "EUR 110-250 per night",
+      "wine_program": "Integrated winery, restaurant Tierra and spa; rooms overlook fermentation tanks and the barrel hall, with tastings of the estate wines",
+      "booking_url": "https://fincadelosarandinos.com/en/",
+      "description": "First Rioja project to fuse winery, hotel, restaurant and spa in one estate at Entrena, with vineyard-view rooms above the barrel hall.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://fincadelosarandinos.com/en/",
+        "address_quoted": "Entrena",
+        "open_status": "open",
+        "open_evidence_url": "https://lariojaturismo.com/en/alojamiento/hotel-bodega-finca-de-los-arandinos/6ec8b014-ea23-4285-b2f2-6b23623a72e3",
+        "cuisine_evidence_url": "https://fincadelosarandinos.com/en/spa-hotel-la-rioja/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "hotel-los-agustinos-haro",
+      "name": "Eurostars Los Agustinos",
+      "address": "Calle San Agustin 2, 26200 Haro, La Rioja, Spain",
+      "neighborhood": "Haro",
+      "category": "4-star hotel in a 14th-century monastery",
+      "parent_vineyard": null,
+      "rooms": 62,
+      "price_range": "EUR 90-200 per night",
+      "wine_program": "El Claustro restaurant with a strong Rioja cellar; a base for the Haro Barrio de la Estacion bodegas",
+      "booking_url": "https://www.eurostarshotels.us/eurostars-los-agustinos.html",
+      "description": "Hotel in a 1373 former monastery in central Haro, with a cloister restaurant, a deep Rioja wine list and easy reach of the station bodegas.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.haroturismo.org/en/lo-mejor-de-haro/alojamiento/hotel-los-agustinos",
+        "address_quoted": "San Agustin, n 2, 26200 Haro (La Rioja)",
+        "open_status": "open",
+        "open_evidence_url": "https://www.eurostarshotels.us/eurostars-los-agustinos.html",
+        "cuisine_evidence_url": "https://winetourismspain.com/170/los-agustinos-hotel-haro-la-rioja/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "hotel-echaurren-ezcaray",
+      "name": "Hotel Echaurren Relais & Chateaux",
+      "address": "Calle Padre Jose Garcia 19, 26280 Ezcaray, La Rioja, Spain",
+      "neighborhood": "Ezcaray, Sierra de la Demanda",
+      "category": "Relais & Chateaux gastronomic hotel",
+      "parent_vineyard": null,
+      "rooms": 25,
+      "price_range": "EUR 180-400 per night",
+      "wine_program": "Home of two-Michelin-star El Portal de Echaurren with a 1,000-plus-reference cellar plus the traditional Echaurren Tradicion table",
+      "booking_url": "https://echaurren.com/en/hotel/",
+      "description": "Fifth-generation Paniego Relais & Chateaux hotel in Ezcaray, built around the two-star El Portal restaurant and its deep Rioja-led cellar.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://echaurren.com/en/hotel/",
+        "address_quoted": "Padre Jose Garcia, 19 Ezcaray (La Rioja)",
+        "open_status": "open",
+        "open_evidence_url": "https://www.relaischateaux.com/us/hotel/echaurren/",
+        "cuisine_evidence_url": "https://lariojaturismo.com/en/alojamiento/hotel-echaurren-relais-chateaux/761d042f-32e2-4c87-9574-44351e03cdbc",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "hotel-villa-de-laguardia",
+      "name": "Hotel Villa de Laguardia",
+      "address": "Paseo de San Raimundo 15, 01300 Laguardia, Alava, Spain",
+      "neighborhood": "Laguardia, Rioja Alavesa",
+      "category": "4-star spa hotel with attached winery",
+      "parent_vineyard": null,
+      "rooms": 84,
+      "price_range": "EUR 90-220 per night",
+      "wine_program": "Wine Oil Spa with vinotherapy treatments across 1,000 sqm, plus an attached winery and restaurant five minutes from walled Laguardia",
+      "booking_url": "https://sercotel-villa-laguardia.h-rez.com/",
+      "description": "Spa hotel just outside walled Laguardia with a 1,000 sqm Wine Oil Spa, an attached winery and a restaurant, a comfortable Rioja Alavesa base.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.spalopia.com/en/spas/alava/silken-villa-laguardia-hotel/",
+        "address_quoted": "Paseo San Raimundo, 15 Laguardia",
+        "open_status": "open",
+        "open_evidence_url": "https://www.oyster.com/laguardia/hotels/sercotel-villa-de-laguardia-hotel/",
+        "cuisine_evidence_url": "https://www.eventplannerspain.com/en/company/sercotel-villa-de-laguardia-hotel",
+        "checked_on": "2026-05-25"
+      }
+    }
+  ]
 }

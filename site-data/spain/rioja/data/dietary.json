@@ -1,9 +1,219 @@
 {
   "dietary": {
-    "biodynamic": [],
-    "organic": [],
-    "natural": [],
-    "vegan_winemaking": [],
-    "lowsulfite": []
+    "biodynamic": [
+      {
+        "slug": "bodegas-bhilar-biodynamic",
+        "name": "Bodegas Bhilar",
+        "vineyard_ref": "bodegas-bhilar",
+        "address": "Carretera Elvillar 22, 01300 Elvillar, Alava, Spain",
+        "neighborhood": "Rioja Alavesa",
+        "biodynamic_status": "demeter_certified",
+        "biodynamic_certifier": "Demeter International",
+        "organic_status": "ecocert",
+        "organic_certifier": "Ecocert",
+        "certified_year": 2021,
+        "description": "David Sampedro and Melanie Hickman farm 17 hectares of estate vineyards in Elvillar that are certified organic and certified biodynamic by Demeter International since 2021, worked with plough-horses and an off-grid solar cellar. The Phincas wines are single-plot Rioja Alavesa.",
+        "tip": "Demeter certification arrived in 2021; the Phincas range is where the biodynamic, single-plot philosophy shows clearest.",
+        "editorial_score": 4.6,
+        "verified": {
+          "source_url": "https://www.bodegasbhilar.es/bodegas-bhilar/",
+          "address_quoted": "Elvillar",
+          "open_status": "open",
+          "open_evidence_url": "https://vintnerproject.com/people/bodegas-bhilar-biodynamic-winery-in-the-heart-of-rioja/",
+          "cuisine_evidence_url": "https://www.spanishwinelover.com/95-winerie-bodegas-bhilar",
+          "checked_on": "2026-05-25"
+        }
+      },
+      {
+        "slug": "vinedos-de-paganos-biodynamic",
+        "name": "Vinedos de Paganos",
+        "vineyard_ref": "vinedos-de-paganos",
+        "address": "Carretera de Navaridas s/n, 01309 Paganos, Laguardia, Alava, Spain",
+        "neighborhood": "Rioja Alavesa",
+        "biodynamic_status": "biodynamic_practicing",
+        "biodynamic_certifier": "not certified",
+        "organic_status": "none",
+        "organic_certifier": "none",
+        "description": "The Eguren family's Paganos estate works its single vineyards biodynamically though without formal certification, ageing El Puntido and La Nieta Tempranillo in rock-cut cellars. A mineral, terroir-led expression of Rioja Alavesa.",
+        "tip": "The biodynamic work here is uncertified; treat it as a practising estate rather than a Demeter producer.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://www.sierracantabria.com/en/wineries/vinedos-de-paganos/",
+          "address_quoted": "Paganos",
+          "open_status": "open",
+          "open_evidence_url": "https://spanishwinelover.com/winerie/vinedos-de-paganos",
+          "cuisine_evidence_url": "https://www.jorgeordonezselections.com/single-wine.php?wineID=116",
+          "checked_on": "2026-05-25"
+        }
+      }
+    ],
+    "organic": [
+      {
+        "slug": "bodegas-artadi-organic",
+        "name": "Bodegas y Vinedos Artadi",
+        "vineyard_ref": "artadi",
+        "address": "Carretera de Logrono s/n, 01300 Laguardia, Alava, Spain",
+        "neighborhood": "Rioja Alavesa",
+        "biodynamic_status": "biodynamic_practicing",
+        "biodynamic_certifier": "not certified",
+        "organic_status": "ecocert",
+        "organic_certifier": "organic wine certification",
+        "certified_year": 2016,
+        "description": "Artadi, based outside Laguardia in Rioja Alavesa, has farmed organically and to biodynamic principles since 2002, and from the 2016 vintage carries the organic wine certification logo on every label. The estate uses no synthetic chemicals or pesticides.",
+        "tip": "Organic certification dates from the 2016 vintage; the biodynamic work is practised rather than separately certified.",
+        "editorial_score": 4.7,
+        "verified": {
+          "source_url": "https://artadi.com/en/noticia/from-2016-vintage-all-artadi-wines-will-include-the-logo-of-the-certification-for-organic-wine/",
+          "address_quoted": "Laguardia",
+          "open_status": "open",
+          "open_evidence_url": "https://www.thedrinksbusiness.com/2023/07/artadi-honest-winemaking-and-the-importance-of-organics/",
+          "cuisine_evidence_url": "https://artadi.com/en/wines/",
+          "checked_on": "2026-05-25"
+        }
+      },
+      {
+        "slug": "bodegas-lacus-organic",
+        "name": "Bodegas Lacus",
+        "vineyard_ref": "bodegas-lacus",
+        "address": "Calle Cervantes 18, 26559 Aldeanueva de Ebro, La Rioja, Spain",
+        "neighborhood": "Rioja Oriental",
+        "biodynamic_status": "none",
+        "biodynamic_certifier": "none",
+        "organic_status": "ecocert",
+        "organic_certifier": "organic certification",
+        "description": "Luis Arnedo's small Rioja Oriental cellar farms 36 hectares organically near Aldeanueva de Ebro, using no chemical fertilisers or herbicides and minimal cellar intervention, with oak used only when it genuinely helps the wine.",
+        "tip": "Rioja Oriental Garnacha is the focus; the wines are fresh, low-oak and honestly organic.",
+        "editorial_score": 4.3,
+        "verified": {
+          "source_url": "https://www.bodegaslacus.com/en/bodega/",
+          "address_quoted": "Aldeanueva de Ebro",
+          "open_status": "open",
+          "open_evidence_url": "https://spanishwinelover.com/winerie/lacus",
+          "cuisine_evidence_url": "https://www.bodegaslacus.com/en/bodega/",
+          "checked_on": "2026-05-25"
+        }
+      }
+    ],
+    "natural": [
+      {
+        "slug": "tentenublo-natural",
+        "name": "Bodega Tentenublo Wines",
+        "vineyard_ref": "tentenublo",
+        "address": "Camino del Soto 22, 01307 Vinaspre, Alava, Spain",
+        "neighborhood": "Rioja Alavesa",
+        "biodynamic_status": "none",
+        "biodynamic_certifier": "none",
+        "organic_status": "none",
+        "organic_certifier": "none",
+        "natural_wine": true,
+        "description": "Roberto Olivan makes low-intervention field-blend Rioja near Vinaspre with spontaneous fermentation, minimal sulfites and a light touch of oak. The wines are vivid, aromatic and built on old vines rather than a certification scheme.",
+        "tip": "These are natural-leaning rather than certified; the single-site and village bottlings best show the wild, aromatic style.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://www.tentenublo.com/",
+          "address_quoted": "Vinaspre",
+          "open_status": "open",
+          "open_evidence_url": "https://spanishwinelover.com/winerie/tentenublo",
+          "cuisine_evidence_url": "https://morenaturalwine.com/collections/rioja",
+          "checked_on": "2026-05-25"
+        }
+      },
+      {
+        "slug": "pedro-balda-natural",
+        "name": "Pedro Balda",
+        "vineyard_ref": "pedro-balda",
+        "address": "26338 San Vicente de la Sonsierra, La Rioja, Spain",
+        "neighborhood": "San Vicente de la Sonsierra",
+        "biodynamic_status": "none",
+        "biodynamic_certifier": "none",
+        "organic_status": "none",
+        "organic_certifier": "none",
+        "natural_wine": true,
+        "description": "A pioneer of natural Rioja in San Vicente de la Sonsierra since 2008, working without pesticides or systemic treatments, hand-harvesting and bottling unfiltered with no added sulfites. Balda states plainly he is neither certified organic nor biodynamic.",
+        "tip": "No certification and no added sulfites; production is tiny and sold through natural-wine specialists.",
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://www.spanishwinelover.com/learn-93-a-new-generation-of-brave-producers-in-rioja-i",
+          "address_quoted": "San Vicente de la Sonsierra",
+          "open_status": "open",
+          "open_evidence_url": "https://www.cellartracker.com/producer.asp?iProducer=116123",
+          "cuisine_evidence_url": "https://morenaturalwine.com/collections/rioja",
+          "checked_on": "2026-05-25"
+        }
+      },
+      {
+        "slug": "honorio-rubio-natural",
+        "name": "Bodegas Honorio Rubio",
+        "vineyard_ref": "honorio-rubio",
+        "address": "Calle Mayor 12, 26323 Cordovin, La Rioja, Spain",
+        "neighborhood": "Najerilla valley, Rioja Alta",
+        "biodynamic_status": "none",
+        "biodynamic_certifier": "none",
+        "organic_status": "none",
+        "organic_certifier": "none",
+        "natural_wine": true,
+        "description": "At this Cordovin family cellar fermentation starts spontaneously and sulfite use is held back until just before fining, with some bottlings made with no SO2 added. The house specialises in reviving Rioja clarete and macerated white styles in a natural-wine idiom.",
+        "tip": "Low-intervention rather than certified; the clarete and macerado whites are the most distinctive bottles.",
+        "editorial_score": 4.3,
+        "verified": {
+          "source_url": "https://www.gourmethunters.com/en_US/wines/Winery_Bodegas+Honorio+Rubio",
+          "address_quoted": "Cordovin",
+          "open_status": "open",
+          "open_evidence_url": "https://www.spanishwinelover.com/learn-371-honorio-rubio-flying-the-flag-for-iclaretei-in-rioja",
+          "cuisine_evidence_url": "https://www.buonvino.co.uk/producers/honorio-rubio/",
+          "checked_on": "2026-05-25"
+        }
+      }
+    ],
+    "vegan_winemaking": [
+      {
+        "slug": "tentenublo-vegan-winemaking",
+        "name": "Bodega Tentenublo Wines (unfined, no animal agents)",
+        "vineyard_ref": "tentenublo",
+        "address": "Camino del Soto 22, 01307 Vinaspre, Alava, Spain",
+        "neighborhood": "Rioja Alavesa",
+        "biodynamic_status": "none",
+        "biodynamic_certifier": "none",
+        "organic_status": "none",
+        "organic_certifier": "none",
+        "natural_wine": true,
+        "description": "Tentenublo's minimal-intervention approach avoids the animal-derived fining agents used in conventional cellars, relying on spontaneous fermentation and long settling rather than egg-white or gelatine fining, which keeps the wines suitable for vegan drinkers.",
+        "tip": "Low-intervention cellars like this usually skip animal fining; confirm the specific cuvee with the importer if strict vegan status matters.",
+        "editorial_score": 4.3,
+        "verified": {
+          "source_url": "https://www.uncorked.co.uk/producers/tentenublo",
+          "address_quoted": "Vinaspre",
+          "open_status": "open",
+          "open_evidence_url": "https://www.tentenublo.com/",
+          "cuisine_evidence_url": "https://www.leaandsandeman.co.uk/wine-producer/Tentenublo-2055-04.html",
+          "checked_on": "2026-05-25"
+        }
+      }
+    ],
+    "lowsulfite": [
+      {
+        "slug": "pedro-balda-no-added-sulfites",
+        "name": "Pedro Balda (no added sulfites)",
+        "vineyard_ref": "pedro-balda",
+        "address": "26338 San Vicente de la Sonsierra, La Rioja, Spain",
+        "neighborhood": "San Vicente de la Sonsierra",
+        "biodynamic_status": "none",
+        "biodynamic_certifier": "none",
+        "organic_status": "none",
+        "organic_certifier": "none",
+        "natural_wine": true,
+        "description": "Pedro Balda bottles unfiltered with no added sulfites as a matter of philosophy, working tiny natural-farmed plots in San Vicente de la Sonsierra. Among the lowest-intervention sulfite regimes in Rioja.",
+        "tip": "These wines have no added sulfites at all, so store and serve them with the care natural wines deserve.",
+        "editorial_score": 4.3,
+        "verified": {
+          "source_url": "https://www.spanishwinelover.com/learn-93-a-new-generation-of-brave-producers-in-rioja-i",
+          "address_quoted": "San Vicente de la Sonsierra",
+          "open_status": "open",
+          "open_evidence_url": "https://www.cellartracker.com/producer.asp?iProducer=116123",
+          "cuisine_evidence_url": "https://www.spanishwinelover.com/learn-93-a-new-generation-of-brave-producers-in-rioja-i",
+          "checked_on": "2026-05-25"
+        }
+      }
+    ]
   }
 }

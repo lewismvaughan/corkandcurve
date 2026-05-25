@@ -1,3 +1,124 @@
 {
-  "wine_experiences": []
+  "wine_experiences": [
+    {
+      "slug": "globos-arcoiris-balloon-haro",
+      "name": "Globos Arcoiris Hot Air Balloon over Rioja",
+      "address": "Haro, 26200 La Rioja, Spain",
+      "neighborhood": "Haro and the Ebro valley",
+      "duration": "Around 4 hours total with a 75-minute flight",
+      "group_size": "Minimum 6 passengers to fly",
+      "price_range": "From around EUR 170-205 per person; EUR 165 for children to 12",
+      "booking_url": "https://www.globosarcoiris.com",
+      "description": "Sunrise balloon flight over Haro and the Ebro vineyards with a Rioja cava toast aloft, a Riojan breakfast on landing and a flight certificate.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.globosarcoiris.com",
+        "address_quoted": "Haro",
+        "open_status": "open",
+        "open_evidence_url": "https://lariojaturismo.com/en/servicio-turistico/globos-arcoiris/fbe0028a-2841-4a15-a167-21b8c20e38a9",
+        "cuisine_evidence_url": "https://www.rutasdelvinorioja.com/en/item/en-globos-arco-iris/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "bohedal-blending-workshop-cuzcurrita",
+      "name": "Bohedal Wine Blending Workshop",
+      "address": "Cuzcurrita de Rio Tiron, 26214 La Rioja, Spain",
+      "neighborhood": "Cuzcurrita de Rio Tiron, Rioja Alta",
+      "duration": "Around 2 hours",
+      "group_size": "Small groups; reservation required",
+      "price_range": "From EUR 40 per person",
+      "booking_url": "https://bohedal.com/en_GB/wine-experiences",
+      "description": "Hands-on blending session at Bohedal contrasting Tempranillo aged in French, American and Central European oak, ending with your own blend.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://bohedal.com/en_GB/wine-experiences",
+        "address_quoted": "Cuzcurrita de Rio Tiron",
+        "open_status": "open",
+        "open_evidence_url": "https://riojawine.com/en-us/bodegas-rioja/bodegas-bohedal/",
+        "cuisine_evidence_url": "https://www.winalist.com/hosts/1950/bohedal-bodega-boutique",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "eguren-ugarte-harvest-paganos",
+      "name": "Eguren Ugarte Harvest Experience",
+      "address": "Paganos, 01309 Laguardia, Alava, Spain",
+      "neighborhood": "Paganos, Rioja Alavesa",
+      "duration": "Half-day; seasonal in September and October",
+      "group_size": "Small groups by appointment",
+      "price_range": "On request; combinable with a hotel stay",
+      "booking_url": "https://egurenugarte.com/en/",
+      "description": "Seasonal harvest experience at Eguren Ugarte: pick grapes in the Rioja Alavesa vineyards, then tour the 2 km of cellar tunnels and taste the new vintage.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://egurenugarte.com/en/",
+        "address_quoted": "Paganos (Laguardia, Alava)",
+        "open_status": "open",
+        "open_evidence_url": "https://www.rutadelvinoderiojaalavesa.com/es/eguren-ugarte",
+        "cuisine_evidence_url": "https://egurenugarte.com/en/winery-with-hotel-in-rioja-alavesa/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "vivanco-tasting-course-briones",
+      "name": "Vivanco Wine Tasting Course",
+      "address": "Carretera Nacional 232, 26330 Briones, La Rioja, Spain",
+      "neighborhood": "Briones",
+      "duration": "Half-day course",
+      "group_size": "Scheduled course groups; reservation required",
+      "price_range": "Course pricing on the reservations page",
+      "booking_url": "https://vivancoculturadevino.es/en/reservations/",
+      "description": "Guided tasting course at Vivanco in Briones, learning to read Rioja styles and varieties across a structured flight in the museum and winery.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://vivancoculturadevino.es/en/reservations/",
+        "address_quoted": "Carretera Nacional 232, 26330. Briones - La Rioja. Spain",
+        "open_status": "open",
+        "open_evidence_url": "https://www.museosdelvino.es/museos/museo-vivanco-de-la-cultura-del-vino/",
+        "cuisine_evidence_url": "https://vivancoculturadevino.es/en/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "cvne-imperial-experience-haro",
+      "name": "CVNE Imperial Premium Tour and Tasting",
+      "address": "Barrio de la Estacion s/n, 26200 Haro, La Rioja, Spain",
+      "neighborhood": "Barrio de la Estacion, Haro",
+      "duration": "Around 2 hours",
+      "group_size": "Scheduled premium tour; reservation required",
+      "price_range": "Premium tour pricing on request",
+      "booking_url": "https://cvne.com/en/visits-home/",
+      "description": "Premium Imperial tour at CVNE in Haro: the Eiffel barrel hall and Imperial cellar, then Gran Reserva tasting with ham, Cameros cheese and chocolates.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://cvne.com/en/visits-home/",
+        "address_quoted": "Barrio de la Estacion, s/n, Haro, La Rioja",
+        "open_status": "open",
+        "open_evidence_url": "https://www.barrioestacion.com/en/bodega/bodegas-cvne/",
+        "cuisine_evidence_url": "https://www.savoredjourneys.com/wineries-in-haro-spain/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "marques-de-murrieta-paired-experience-logrono",
+      "name": "Marques de Murrieta Paired Premium Experience",
+      "address": "N-232a Km 402, 26006 Logrono, La Rioja, Spain",
+      "neighborhood": "Ygay, Logrono",
+      "duration": "Half-day with paired menu",
+      "group_size": "Private groups of 6-12",
+      "price_range": "Premium paired-experience pricing on request",
+      "booking_url": "https://marquesdemurrieta.com/en/blogs/blog/una-experiencia-unica-visitar-el-origen-de-los-vinos-de-rioja",
+      "description": "Premium estate experience at the Castillo de Ygay: vineyard viewpoint, winery and museum, then a private paired menu with premium Murrieta wines.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://riojawine.com/en-us/experiencia/visita-y-menu-maridado/",
+        "address_quoted": "N-232a Km 402, 26006 Logrono",
+        "open_status": "open",
+        "open_evidence_url": "https://marquesdemurrieta.com/en/blogs/blog/una-experiencia-unica-visitar-el-origen-de-los-vinos-de-rioja",
+        "cuisine_evidence_url": "https://lariojaturismo.com/en/bodega/bodegas-marques-de-murrieta/004e2cf0-2396-480f-8659-9a82f18424a1",
+        "checked_on": "2026-05-25"
+      }
+    }
+  ]
 }

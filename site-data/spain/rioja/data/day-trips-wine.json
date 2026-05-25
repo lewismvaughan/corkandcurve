@@ -1,3 +1,148 @@
 {
-  "day_trips_wine": []
+  "day_trips_wine": [
+    {
+      "slug": "ribera-del-duero",
+      "name": "Ribera del Duero (Tempranillo as Tinto Fino)",
+      "distance_km": 215,
+      "travel_time": "about 2h 15m by car from Logrono",
+      "destination_country": "Spain",
+      "destination_region": "Ribera del Duero",
+      "signature_pours": [
+        "Ribera del Duero Tempranillo (Tinto Fino)",
+        "Ribera del Duero Crianza and Reserva"
+      ],
+      "recommended_vineyards": [],
+      "description": "Spain's other great Tempranillo region, on the high Duero plateau south-west of Rioja, makes darker, more powerful reds from the local Tinto Fino clone. A long but rewarding day for tasting how altitude and a continental climate reshape the same grape Rioja built its name on.",
+      "tip": "It is a full day each way; an overnight in Aranda de Duero or Penafiel makes the visit far less rushed.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.rome2rio.com/s/Logro%C3%B1o/Ribera-del-Duero",
+        "address_quoted": "Ribera del Duero",
+        "open_status": "open",
+        "open_evidence_url": "https://winetourismspain.com/blog/how-get-ribera-del-duero/",
+        "cuisine_evidence_url": "https://winefolly.com/deep-dive/rioja-wine-from-crianza-to-gran-reserva/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "navarra",
+      "name": "Navarra (rosado, Garnacha and Bordeaux varieties)",
+      "distance_km": 90,
+      "travel_time": "about 1h by car from Logrono",
+      "destination_country": "Spain",
+      "destination_region": "Navarra",
+      "signature_pours": [
+        "Navarra Garnacha rosado",
+        "Navarra red blends with Cabernet and Merlot"
+      ],
+      "recommended_vineyards": [],
+      "description": "Rioja's eastern neighbour around Pamplona, on the lower Pyrenean slopes above the Ebro, is famous for crisp Garnacha rosado and increasingly serious reds, including Bordeaux varieties. An easy hour from Logrono and a natural contrast to Rioja's Tempranillo focus.",
+      "tip": "Navarra rosado is the region's calling card; taste it young and fresh, ideally at a bodega near Olite.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://en.wikipedia.org/wiki/Navarra_(DO)",
+        "address_quoted": "Navarra",
+        "open_status": "open",
+        "open_evidence_url": "https://www.spain.info/en/discover-spain/wines-navarra-tour-vineyards-wineries/",
+        "cuisine_evidence_url": "https://www.cellartours.com/spain/spanish-wine-regions/navarra",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "getariako-txakolina",
+      "name": "Getaria and the Txakoli coast",
+      "distance_km": 145,
+      "travel_time": "about 1h 45m by car from Logrono",
+      "destination_country": "Spain",
+      "destination_region": "Getariako Txakolina (Basque Country)",
+      "signature_pours": [
+        "Getariako Txakolina (Hondarrabi Zuri)",
+        "lightly sparkling Txakoli poured from a height"
+      ],
+      "recommended_vineyards": [],
+      "description": "On the Basque coast near San Sebastian, the fishing towns of Getaria and Zarautz make Txakoli, a sharp, saline, faintly sparkling white traditionally poured from height into the glass. A vivid coastal counterpoint to inland Rioja reds.",
+      "tip": "Pair Txakoli with grilled fish at a Getaria asador; the cliffside vineyards run right down toward the Bay of Biscay.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://en.wikipedia.org/wiki/Getariako_Txakolina",
+        "address_quoted": "Getaria",
+        "open_status": "open",
+        "open_evidence_url": "https://www.basquewine.eus/en/drinks/txakoli/getariako-txakolina/",
+        "cuisine_evidence_url": "https://www.sansebastianpintxos.com/en/san-sebastian-food-blog/426-the-txakoli-of-gipuzkoa",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "bierzo-mencia",
+      "name": "Bierzo (Mencia country)",
+      "distance_km": 320,
+      "travel_time": "about 3h 30m by car from Logrono",
+      "destination_country": "Spain",
+      "destination_region": "Bierzo (Castile and Leon)",
+      "signature_pours": [
+        "Bierzo Mencia",
+        "old-vine Godello white"
+      ],
+      "recommended_vineyards": [],
+      "description": "In the mountains of north-west Spain, Bierzo's signature Mencia gives perfumed, mineral reds of red fruit, florals and slate. It is the longest reach on this list, best as an overnight, but a revelation for anyone who only knows Tempranillo.",
+      "tip": "This one really needs a stay over; treat Bierzo as a two-day extension rather than a single day from Logrono.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://en.wikipedia.org/wiki/Bierzo_(DO)",
+        "address_quoted": "Bierzo",
+        "open_status": "open",
+        "open_evidence_url": "https://www.bbr.com/grape-mc-mencia",
+        "cuisine_evidence_url": "https://worldoffinewine.com/news-features/bierzo-mencia",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "bilbao",
+      "name": "Bilbao (Basque city, Rioja's historic port link)",
+      "distance_km": 142,
+      "travel_time": "about 1h 30m by car from Logrono",
+      "destination_country": "Spain",
+      "destination_region": "Bilbao (Basque Country)",
+      "signature_pours": [
+        "Rioja by the glass in Bilbao's pintxo bars",
+        "Basque Txakoli"
+      ],
+      "recommended_vineyards": [],
+      "description": "Bilbao was the port that carried Rioja to the world after the railway reached Haro, and the city remains a Rioja-drinking stronghold. Pair the Guggenheim and the Casco Viejo pintxo bars with glasses of Rioja and coastal Txakoli, an easy ninety minutes away.",
+      "tip": "Bilbao's old-town bars pour serious Rioja by the glass; it makes a relaxed urban contrast to a day in the vineyards.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.trippy.com/distance/Logrono-to-Bilbao",
+        "address_quoted": "Bilbao",
+        "open_status": "open",
+        "open_evidence_url": "https://insiderioja.wordpress.com/2022/03/11/the-haro-train-station-district-part-1-the-tudela-bilbao-railway-line/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/History_of_Rioja_wine",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "san-sebastian-donostia",
+      "name": "San Sebastian (Donostia) pintxos and Txakoli",
+      "distance_km": 165,
+      "travel_time": "about 2h by car from Logrono",
+      "destination_country": "Spain",
+      "destination_region": "San Sebastian (Basque Country)",
+      "signature_pours": [
+        "Getaria Txakoli with pintxos",
+        "Rioja Reserva in the Parte Vieja bars"
+      ],
+      "recommended_vineyards": [],
+      "description": "Spain's pintxos capital sits two hours north of Logrono and pairs naturally with Rioja: the Parte Vieja bars pour Rioja and local Txakoli alongside the country's most celebrated bar food. A long day, but the food-and-wine reward is exceptional.",
+      "tip": "Because of strict drink-driving rules, plan to stay over or use the bus; San Sebastian is best enjoyed without a car for the day.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://sansebastianturismoa.eus/en/to-do/san-sebastian-1-day-or-more/",
+        "address_quoted": "San Sebastian",
+        "open_status": "open",
+        "open_evidence_url": "https://www.sansebastianpintxos.com/en/san-sebastian-food-blog/426-the-txakoli-of-gipuzkoa",
+        "cuisine_evidence_url": "https://www.basquewine.eus/en/drinks/txakoli/getariako-txakolina/",
+        "checked_on": "2026-05-25"
+      }
+    }
+  ]
 }

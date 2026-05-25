@@ -1,11 +1,538 @@
 {
   "nightlife": {
-    "wine_bars_late": [],
-    "listening_bars": [],
-    "candle_lit": [],
-    "lounges": [],
-    "fortified_specialists": [],
-    "late_tastings": [],
-    "sparkling_rooms": []
+    "wine_bars_late": [
+      {
+        "slug": "tastavin",
+        "name": "Tastavin",
+        "address": "Calle San Juan 25, 26001 Logrono, La Rioja, Spain",
+        "neighborhood": "Calle San Juan (Logrono)",
+        "wine_program": "Around 50 wines by the glass on the board, mostly Rioja with premium pours served by Coravin, alongside seasonal small plates",
+        "glass_count": 50,
+        "opens_until": "00:00",
+        "tip": "Calle San Juan draws the local wine crowd that finds Calle Laurel too touristy; Tastavin is its standard-bearer for serious by-the-glass Rioja.",
+        "description": "The wine-led anchor of Calle San Juan, pouring roughly fifty references by the glass with Coravin for the rarer bottles. The expert local alternative to Laurel.",
+        "editorial_score": 4.6,
+        "verified": {
+          "source_url": "https://tastavin.es/",
+          "address_quoted": "Calle San Juan 25",
+          "open_status": "open",
+          "open_evidence_url": "https://www.spanishwinelover.com/the-best-places-to-drink-wine-in-logrono",
+          "cuisine_evidence_url": "https://wikirioja.com/vino/tomar-vino-logrono/",
+          "checked_on": "2026-05-25"
+        }
+      },
+      {
+        "slug": "taberna-herrerias",
+        "name": "Taberna Herrerias",
+        "address": "Calle Herrerias 24, 26001 Logrono, La Rioja, Spain",
+        "neighborhood": "Casco Viejo (Logrono)",
+        "wine_program": "Around 200 references, mostly classic Riojas served in quality glassware at fair prices, with a ground-floor tapas counter and upstairs dining",
+        "glass_count": 20,
+        "opens_until": "23:30",
+        "tip": "A family-run old-town tavern for classic Rioja done properly; ask for a Reserva by the glass at the downstairs counter.",
+        "description": "A family-run Casco Viejo tavern with about two hundred mostly classic Rioja references poured in good glassware at reasonable prices.",
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://www.tabernaherrerias.com/",
+          "address_quoted": "Calle Herrerias 24",
+          "open_status": "open",
+          "open_evidence_url": "https://www.spanishwinelover.com/the-best-places-to-drink-wine-in-logrono",
+          "cuisine_evidence_url": "https://wikirioja.com/vino/tomar-vino-logrono/",
+          "checked_on": "2026-05-25"
+        }
+      },
+      {
+        "slug": "el-lagar-logrono",
+        "name": "El Lagar",
+        "address": "Calle Huesca 13, 26002 Logrono, La Rioja, Spain",
+        "neighborhood": "Logrono centre",
+        "wine_program": "Around 250 selections spanning established Rioja houses, newer small growers and a slice of Spanish and international bottles",
+        "glass_count": 15,
+        "opens_until": "23:30",
+        "tip": "The breadth here runs from grand old houses to new-wave growers; a good place to taste the two faces of Rioja side by side.",
+        "description": "A wine-focused bar and kitchen with roughly 250 selections, balancing established Rioja names against newer small producers.",
+        "editorial_score": 4.3,
+        "verified": {
+          "source_url": "https://www.spanishwinelover.com/the-best-places-to-drink-wine-in-logrono",
+          "address_quoted": "Huesca, 13",
+          "open_status": "open",
+          "open_evidence_url": "https://wikirioja.com/vino/tomar-vino-logrono/",
+          "cuisine_evidence_url": "https://logronoticias.com/mejores-en-logrono/vinotecas/",
+          "checked_on": "2026-05-25"
+        }
+      },
+      {
+        "slug": "la-tavina",
+        "name": "La Tavina",
+        "address": "Calle Laurel 2, 26001 Logrono, La Rioja, Spain",
+        "neighborhood": "Calle Laurel (Logrono)",
+        "wine_program": "About 25 wines by the glass renewed seasonally from regional and international growers, plus a 600-bottle shop across three floors",
+        "glass_count": 25,
+        "opens_until": "00:00",
+        "tip": "Buy any bottle from the upstairs shop and drink it in the bar for a small corkage; Monday evenings often bring a visiting producer.",
+        "description": "A three-floor wine bar, shop and tasting space at the head of Calle Laurel, with about twenty-five seasonal by-the-glass pours and a 600-bottle cellar.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://latavina.com/",
+          "address_quoted": "Calle Laurel",
+          "open_status": "open",
+          "open_evidence_url": "https://www.callelaurel.org/establecimiento/la-tavina/",
+          "cuisine_evidence_url": "https://www.spanishwinelover.com/the-best-places-to-drink-wine-in-logrono",
+          "checked_on": "2026-05-25"
+        }
+      },
+      {
+        "slug": "bar-angel",
+        "name": "Bar Angel",
+        "address": "Calle Laurel 12, 26001 Logrono, La Rioja, Spain",
+        "neighborhood": "Calle Laurel (Logrono)",
+        "wine_program": "House Rioja by the glass poured alongside the bar's famous garlic-and-shrimp grilled mushroom pincho",
+        "glass_count": 6,
+        "opens_until": "00:00",
+        "tip": "Order the champi (grilled mushroom) and a glass of crianza; the garlic-sauce recipe has been a Laurel secret for half a century.",
+        "description": "A half-century institution on Calle Laurel pairing cheap glasses of Rioja with its legendary grilled-mushroom pincho. Pure late-night Logrono tradition.",
+        "editorial_score": 4.3,
+        "verified": {
+          "source_url": "https://www.callelaurel.org/establecimiento/angel/",
+          "address_quoted": "Calle Laurel 12",
+          "open_status": "open",
+          "open_evidence_url": "https://nuevecuatrouno.com/2020/02/19/de-pinchos-por-la-rioja-champi-del-bar-angel/",
+          "cuisine_evidence_url": "https://www.sehacecaminoalandar.com/pinchos-logrono-calle-laurel/",
+          "checked_on": "2026-05-25"
+        }
+      },
+      {
+        "slug": "bar-soriano",
+        "name": "Bar Soriano",
+        "address": "Travesia del Laurel 2, 26001 Logrono, La Rioja, Spain",
+        "neighborhood": "Calle Laurel (Logrono)",
+        "wine_program": "Cheap glasses of house crianza poured with a single, famous mushroom pincho",
+        "glass_count": 5,
+        "opens_until": "00:00",
+        "tip": "One tapa, one purpose: the buttered garlic mushroom topped with a prawn, washed down with house red.",
+        "description": "An iconic single-pincho mushroom bar on the Laurel, pouring inexpensive house crianza late into the night.",
+        "editorial_score": 4.2,
+        "verified": {
+          "source_url": "https://www.callelaurel.org/establecimiento/soriano/",
+          "address_quoted": "Laurel",
+          "open_status": "open",
+          "open_evidence_url": "https://www.sehacecaminoalandar.com/pinchos-logrono-calle-laurel/",
+          "cuisine_evidence_url": "https://www.devinosconvintae.com/blog/la-ruta-de-pinchos-perfecta-de-la-calle-laurel/",
+          "checked_on": "2026-05-25"
+        }
+      },
+      {
+        "slug": "bar-torrecilla",
+        "name": "Bar Torrecilla",
+        "address": "Calle Laurel 15, 26001 Logrono, La Rioja, Spain",
+        "neighborhood": "Calle Laurel (Logrono)",
+        "wine_program": "A rotating list of Rioja by the glass matched to modern, creative pinchos",
+        "glass_count": 10,
+        "opens_until": "00:30",
+        "tip": "One of the more creative kitchens on Laurel; good for a later, more inventive pincho-and-wine stop.",
+        "description": "A modern Calle Laurel bar pairing creative pinchos with a rotating Rioja by-the-glass list, busy late into the evening.",
+        "editorial_score": 4.2,
+        "verified": {
+          "source_url": "https://torrecillalaurel.es/",
+          "address_quoted": "Calle Laurel",
+          "open_status": "open",
+          "open_evidence_url": "https://www.callelaurel.org/establecimiento/torrecilla/",
+          "cuisine_evidence_url": "https://www.devinosconvintae.com/blog/la-ruta-de-pinchos-perfecta-de-la-calle-laurel/",
+          "checked_on": "2026-05-25"
+        }
+      },
+      {
+        "slug": "la-vinoteca-laurel",
+        "name": "La Vinoteca",
+        "address": "Calle Laurel 18, 26001 Logrono, La Rioja, Spain",
+        "neighborhood": "Calle Laurel (Logrono)",
+        "wine_program": "Over 200 references including Rioja, cavas, other sparkling wines and vermouths, with personalised tastings and pairings",
+        "glass_count": 20,
+        "opens_until": "23:30",
+        "tip": "Broader than most Laurel bars, with cava and vermouth alongside the Rioja; ask about the pairing flights.",
+        "description": "A Calle Laurel wine bar with more than two hundred references across Rioja, cava, sparkling and vermouth, plus guided tastings.",
+        "editorial_score": 4.2,
+        "verified": {
+          "source_url": "https://www.callelaurel.org/establecimiento/la-vinoteca/",
+          "address_quoted": "Calle Laurel",
+          "open_status": "open",
+          "open_evidence_url": "https://logronoticias.com/mejores-en-logrono/vinotecas/",
+          "cuisine_evidence_url": "https://wikirioja.com/vino/tomar-vino-logrono/",
+          "checked_on": "2026-05-25"
+        }
+      }
+    ],
+    "listening_bars": [
+      {
+        "slug": "wine-fandango-dj-sessions",
+        "name": "Wine Fandango",
+        "address": "Calle Vara de Rey 5, 26003 Logrono, La Rioja, Spain",
+        "neighborhood": "Logrono centre",
+        "wine_program": "Around 100 wines by the bottle and 20 rotating by the glass, plus wine flights, vermouth and porron service",
+        "music_format": "Afternoon and evening DJ sets that turn the wine bar into Logrono's afterwork session, especially Saturdays",
+        "opens_until": "01:00",
+        "tip": "Come for the Saturday afterwork DJ sessions; it is the closest Logrono has to a music-led wine room.",
+        "description": "A restored 19th-century mansion wine bar on Vara de Rey where DJ sets soundtrack the by-the-glass list. Logrono's most music-forward wine venue.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://www.winefandango.com/",
+          "address_quoted": "Vara de Rey",
+          "open_status": "open",
+          "open_evidence_url": "https://www.amigastronomicas.com/2025/09/27/wine-fandango-el-wine-bar-mas-canalla-de-logrono/",
+          "cuisine_evidence_url": "https://winefluencer.es/bares-restaurantes-tiendas/wine-fandango-logrono-la-rioja/",
+          "checked_on": "2026-05-25"
+        }
+      },
+      {
+        "slug": "la-tavina-producer-nights",
+        "name": "La Tavina (producer listening nights)",
+        "address": "Calle Laurel 2, 26001 Logrono, La Rioja, Spain",
+        "neighborhood": "Calle Laurel (Logrono)",
+        "wine_program": "Seasonal by-the-glass program built around visiting-producer evenings",
+        "music_format": "Monday evening producer sessions and informal music in the ground-floor bar",
+        "opens_until": "00:00",
+        "tip": "The Monday producer evenings are part talk, part listening session; arrive early to grab a stool by the counter.",
+        "description": "On Monday evenings La Tavina turns its ground floor over to visiting growers and informal sessions, a relaxed listening-and-tasting hybrid.",
+        "editorial_score": 4.2,
+        "verified": {
+          "source_url": "https://latavina.com/",
+          "address_quoted": "Calle Laurel",
+          "open_status": "open",
+          "open_evidence_url": "https://www.spanishwinelover.com/the-best-places-to-drink-wine-in-logrono",
+          "cuisine_evidence_url": "https://www.callelaurel.org/establecimiento/la-tavina/",
+          "checked_on": "2026-05-25"
+        }
+      },
+      {
+        "slug": "wine-fandango-afterwork",
+        "name": "Wine Fandango Afterwork",
+        "address": "Calle Vara de Rey 5, 26003 Logrono, La Rioja, Spain",
+        "neighborhood": "Logrono centre",
+        "wine_program": "By-the-glass Rioja and vermouth poured through the afterwork DJ slots",
+        "music_format": "Curated DJ afterwork sets blending vinyl and digital across the late afternoon into the night",
+        "opens_until": "01:00",
+        "tip": "The afterwork format is more about music and a glass in hand than dinner; good for the in-between hours.",
+        "description": "Wine Fandango's afterwork DJ slot is a music-led way to drink Rioja in central Logrono between the lunch and dinner rushes.",
+        "editorial_score": 4.3,
+        "verified": {
+          "source_url": "https://winefluencer.es/bares-restaurantes-tiendas/wine-fandango-logrono-la-rioja/",
+          "address_quoted": "Logrono",
+          "open_status": "open",
+          "open_evidence_url": "https://www.winefandango.com/",
+          "cuisine_evidence_url": "https://www.guiarepsol.com/es/fichas/restaurante/wine-fandango-16126/",
+          "checked_on": "2026-05-25"
+        }
+      }
+    ],
+    "candle_lit": [
+      {
+        "slug": "taberna-herrerias-cellar-room",
+        "name": "Taberna Herrerias (upstairs dining room)",
+        "address": "Calle Herrerias 24, 26001 Logrono, La Rioja, Spain",
+        "neighborhood": "Casco Viejo (Logrono)",
+        "wine_program": "Classic Rioja Reservas and Gran Reservas from a 200-strong list in the quiet upstairs room",
+        "ambience": "Low-lit stone-and-timber upstairs dining room above the busy tapas counter",
+        "opens_until": "23:30",
+        "tip": "Escape the downstairs crowd by booking the upstairs room for a slow Gran Reserva over dinner.",
+        "description": "The hushed upstairs room of this Casco Viejo tavern is the place for a candle-lit Gran Reserva away from the counter scrum below.",
+        "editorial_score": 4.2,
+        "verified": {
+          "source_url": "https://www.tabernaherrerias.com/",
+          "address_quoted": "Calle Herrerias 24",
+          "open_status": "open",
+          "open_evidence_url": "https://wikirioja.com/vino/tomar-vino-logrono/",
+          "cuisine_evidence_url": "https://www.spanishwinelover.com/the-best-places-to-drink-wine-in-logrono",
+          "checked_on": "2026-05-25"
+        }
+      },
+      {
+        "slug": "wine-fandango-mansion-room",
+        "name": "Wine Fandango (mansion dining room)",
+        "address": "Calle Vara de Rey 5, 26003 Logrono, La Rioja, Spain",
+        "neighborhood": "Logrono centre",
+        "wine_program": "Chef-led tasting menu by Aitor Esnal matched to the by-the-bottle cellar",
+        "ambience": "Restored 19th-century mansion interior, low light and contemporary design",
+        "opens_until": "00:00",
+        "tip": "For a quieter evening skip the DJ hours and book the dining room for the chef menu with cellar pairings.",
+        "description": "Inside a restored 19th-century mansion, Wine Fandango's dining room is a low-lit setting for chef Aitor Esnal's menu paired from the cellar.",
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://www.winefandango.com/",
+          "address_quoted": "Vara de Rey",
+          "open_status": "open",
+          "open_evidence_url": "https://www.guiarepsol.com/es/fichas/restaurante/wine-fandango-16126/",
+          "cuisine_evidence_url": "https://winefluencer.es/bares-restaurantes-tiendas/wine-fandango-logrono-la-rioja/",
+          "checked_on": "2026-05-25"
+        }
+      },
+      {
+        "slug": "los-canos-haro",
+        "name": "Los Canos (Haro)",
+        "address": "Calle San Bernardo, 26200 Haro, La Rioja, Spain",
+        "neighborhood": "Haro",
+        "wine_program": "Local Rioja list matched to traditional Riojan cooking in a historic stone building",
+        "ambience": "Original stone walls and wooden beams of a former jail and town hall in Haro",
+        "opens_until": "23:00",
+        "tip": "A characterful Haro dinner stop after a day in the Barrio de la Estacion bodegas.",
+        "description": "Set in Haro's former jail and town hall, Los Canos pairs traditional Riojan cooking with local wine under original stone and timber.",
+        "editorial_score": 4.2,
+        "verified": {
+          "source_url": "https://www.celebrarlo.com/restaurante/los-canos/",
+          "address_quoted": "Haro",
+          "open_status": "open",
+          "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187514-Los_Canos-Haro.html",
+          "cuisine_evidence_url": "https://www.barrioestacion.com/en/",
+          "checked_on": "2026-05-25"
+        }
+      }
+    ],
+    "lounges": [
+      {
+        "slug": "wine-fandango-lounge",
+        "name": "Wine Fandango (lounge and terrace)",
+        "address": "Calle Vara de Rey 5, 26003 Logrono, La Rioja, Spain",
+        "neighborhood": "Logrono centre",
+        "wine_program": "Roughly 20 by-the-glass pours plus vermouth and cocktails in the lounge area",
+        "ambience": "Design-led mansion lounge near the Espolon, equally a wine bar and an evening hangout",
+        "opens_until": "01:00",
+        "tip": "The lounge side suits a longer sit with vermouth or a glass before dinner near the Espolon park.",
+        "description": "Wine Fandango doubles as a design-led lounge near the Espolon, with vermouth, cocktails and by-the-glass Rioja for a slower evening.",
+        "editorial_score": 4.3,
+        "verified": {
+          "source_url": "https://www.winefandango.com/",
+          "address_quoted": "Vara de Rey",
+          "open_status": "open",
+          "open_evidence_url": "https://winefluencer.es/bares-restaurantes-tiendas/wine-fandango-logrono-la-rioja/",
+          "cuisine_evidence_url": "https://www.amigastronomicas.com/2025/09/27/wine-fandango-el-wine-bar-mas-canalla-de-logrono/",
+          "checked_on": "2026-05-25"
+        }
+      },
+      {
+        "slug": "la-tavina-shop-lounge",
+        "name": "La Tavina (upstairs shop lounge)",
+        "address": "Calle Laurel 2, 26001 Logrono, La Rioja, Spain",
+        "neighborhood": "Calle Laurel (Logrono)",
+        "wine_program": "Any of 600 shop bottles opened for a small corkage and drunk in the calm upstairs space",
+        "ambience": "Relaxed first-floor shop-and-lounge above the street-level bar",
+        "opens_until": "00:00",
+        "tip": "The upstairs lounge is the quiet escape from the Laurel; pick a bottle off the shelf and settle in.",
+        "description": "La Tavina's first floor doubles as a calm lounge where you can open any of 600 shop bottles for a modest corkage, away from the street bustle.",
+        "editorial_score": 4.2,
+        "verified": {
+          "source_url": "https://latavina.com/",
+          "address_quoted": "Calle Laurel",
+          "open_status": "open",
+          "open_evidence_url": "https://www.callelaurel.org/establecimiento/la-tavina/",
+          "cuisine_evidence_url": "https://www.spanishwinelover.com/the-best-places-to-drink-wine-in-logrono",
+          "checked_on": "2026-05-25"
+        }
+      },
+      {
+        "slug": "el-lagar-lounge",
+        "name": "El Lagar (evening lounge)",
+        "address": "Calle Huesca 13, 26002 Logrono, La Rioja, Spain",
+        "neighborhood": "Logrono centre",
+        "wine_program": "A 250-strong list open by the glass and bottle for unhurried evening drinking",
+        "ambience": "Comfortable contemporary room away from the pincho-bar crush",
+        "opens_until": "23:30",
+        "tip": "A calmer alternative to the Laurel for a long evening over several glasses from the deep list.",
+        "description": "El Lagar's comfortable room and 250-bottle list make it an easygoing evening lounge for working through Rioja by the glass.",
+        "editorial_score": 4.1,
+        "verified": {
+          "source_url": "https://logronoticias.com/mejores-en-logrono/vinotecas/",
+          "address_quoted": "Logrono",
+          "open_status": "open",
+          "open_evidence_url": "https://www.spanishwinelover.com/the-best-places-to-drink-wine-in-logrono",
+          "cuisine_evidence_url": "https://wikirioja.com/vino/tomar-vino-logrono/",
+          "checked_on": "2026-05-25"
+        }
+      }
+    ],
+    "fortified_specialists": [
+      {
+        "slug": "la-vinoteca-vermouth-bar",
+        "name": "La Vinoteca (vermouth and fortified bar)",
+        "address": "Calle Laurel 18, 26001 Logrono, La Rioja, Spain",
+        "neighborhood": "Calle Laurel (Logrono)",
+        "wine_program": "Over 200 references including a vermouth selection alongside cava and Rioja",
+        "specialty": "Spanish vermouth (vermut) and aromatised wines poured by the glass",
+        "opens_until": "23:30",
+        "tip": "Vermut time is a Logrono ritual; this is one of the few Laurel bars taking its vermouth list seriously.",
+        "description": "Among Calle Laurel's bars, La Vinoteca keeps a genuine vermouth and aromatised-wine list alongside its Rioja and cava, perfect for the local vermut hour.",
+        "editorial_score": 4.1,
+        "verified": {
+          "source_url": "https://www.callelaurel.org/establecimiento/la-vinoteca/",
+          "address_quoted": "Calle Laurel",
+          "open_status": "open",
+          "open_evidence_url": "https://logronoticias.com/mejores-en-logrono/vinotecas/",
+          "cuisine_evidence_url": "https://wikirioja.com/vino/tomar-vino-logrono/",
+          "checked_on": "2026-05-25"
+        }
+      },
+      {
+        "slug": "la-tienda-de-la-rica-vermut",
+        "name": "La Tienda de la Rica (vermouth counter)",
+        "address": "Avenida de Portugal 15, 26001 Logrono, La Rioja, Spain",
+        "neighborhood": "Logrono centre",
+        "wine_program": "A specialist shop and counter for vino de municipio and vinedos singulares, with local vermouth poured at the bar",
+        "specialty": "Local Rioja vermouth and aromatised wine at the in-shop counter",
+        "opens_until": "21:00",
+        "tip": "Logrono licensing limits formal tastings here, but you can still get a small pour of vermouth or wine to know what you are buying.",
+        "description": "A specialist Rioja shop near the Espolon with a small bar counter for vermouth and by-the-glass tasting of village and single-vineyard wines.",
+        "editorial_score": 4.0,
+        "verified": {
+          "source_url": "https://www.latiendadelarica.com/",
+          "address_quoted": "Av. Portugal, 15",
+          "open_status": "open",
+          "open_evidence_url": "https://nuevecuatrouno.com/2021/03/13/rioja-logrono-vino-bodegas-municipio-rica-singulares/",
+          "cuisine_evidence_url": "https://logronoticias.com/mejores-en-logrono/vinotecas/",
+          "checked_on": "2026-05-25"
+        }
+      }
+    ],
+    "late_tastings": [
+      {
+        "slug": "la-tavina-monday-tastings",
+        "name": "La Tavina Monday tastings",
+        "address": "Calle Laurel 2, 26001 Logrono, La Rioja, Spain",
+        "neighborhood": "Calle Laurel (Logrono)",
+        "wine_program": "Monday-evening guided tastings with regional producers plus weekend tasting courses, drawn from a 600-bottle cellar",
+        "format": "Producer-led evening tastings and weekend courses",
+        "opens_until": "00:00",
+        "tip": "Book ahead for the Monday producer tastings; they are small and fill with locals.",
+        "description": "La Tavina runs Monday-evening producer tastings and weekend courses, the most consistent late tasting program in central Logrono.",
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://latavina.com/",
+          "address_quoted": "Calle Laurel",
+          "open_status": "open",
+          "open_evidence_url": "https://www.spanishwinelover.com/the-best-places-to-drink-wine-in-logrono",
+          "cuisine_evidence_url": "https://www.callelaurel.org/establecimiento/la-tavina/",
+          "checked_on": "2026-05-25"
+        }
+      },
+      {
+        "slug": "wine-fandango-tasting-events",
+        "name": "Wine Fandango tasting events",
+        "address": "Calle Vara de Rey 5, 26003 Logrono, La Rioja, Spain",
+        "neighborhood": "Logrono centre",
+        "wine_program": "Evening tastings and bodega presentations across the gastronomy-and-wine event calendar",
+        "format": "Scheduled tastings, producer presentations and DJ afterwork pairings",
+        "opens_until": "01:00",
+        "tip": "Check the events calendar; Fandango regularly hosts evening bodega presentations open to the public.",
+        "description": "Wine Fandango's calendar of evening tastings and bodega presentations makes it a hub for late, structured wine events in Logrono.",
+        "editorial_score": 4.3,
+        "verified": {
+          "source_url": "https://www.winefandango.com/",
+          "address_quoted": "Vara de Rey",
+          "open_status": "open",
+          "open_evidence_url": "https://winefluencer.es/bares-restaurantes-tiendas/wine-fandango-logrono-la-rioja/",
+          "cuisine_evidence_url": "https://www.amigastronomicas.com/2025/09/27/wine-fandango-el-wine-bar-mas-canalla-de-logrono/",
+          "checked_on": "2026-05-25"
+        }
+      },
+      {
+        "slug": "la-vinoteca-pairing-tastings",
+        "name": "La Vinoteca pairing tastings",
+        "address": "Calle Laurel 18, 26001 Logrono, La Rioja, Spain",
+        "neighborhood": "Calle Laurel (Logrono)",
+        "wine_program": "Personalised tastings and wine-pairing experiences for groups, drawn from 200-plus references",
+        "format": "Group tastings and food-pairing sessions",
+        "opens_until": "23:30",
+        "tip": "Good for a private group; they will build a pairing flight from the Rioja, cava and vermouth list.",
+        "description": "La Vinoteca offers personalised pairing tastings for groups from its 200-plus list, a flexible evening option on the Laurel.",
+        "editorial_score": 4.1,
+        "verified": {
+          "source_url": "https://www.callelaurel.org/establecimiento/la-vinoteca/",
+          "address_quoted": "Calle Laurel",
+          "open_status": "open",
+          "open_evidence_url": "https://logronoticias.com/mejores-en-logrono/vinotecas/",
+          "cuisine_evidence_url": "https://wikirioja.com/vino/tomar-vino-logrono/",
+          "checked_on": "2026-05-25"
+        }
+      },
+      {
+        "slug": "tastavin-coravin-flights",
+        "name": "Tastavin Coravin flights",
+        "address": "Calle San Juan 25, 26001 Logrono, La Rioja, Spain",
+        "neighborhood": "Calle San Juan (Logrono)",
+        "wine_program": "Premium and rare Riojas opened by Coravin so they can be poured by the glass into the evening",
+        "format": "By-the-glass access to high-end bottles via Coravin preservation",
+        "opens_until": "00:00",
+        "tip": "Coravin lets Tastavin pour serious bottles by the glass; ask what rare Rioja is open that night.",
+        "description": "Tastavin uses Coravin to open premium and rare Riojas by the glass, letting you taste seriously aged bottles late without buying the whole bottle.",
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://tastavin.es/",
+          "address_quoted": "Calle San Juan 25",
+          "open_status": "open",
+          "open_evidence_url": "https://www.spanishwinelover.com/the-best-places-to-drink-wine-in-logrono",
+          "cuisine_evidence_url": "https://wikirioja.com/vino/tomar-vino-logrono/",
+          "checked_on": "2026-05-25"
+        }
+      }
+    ],
+    "sparkling_rooms": [
+      {
+        "slug": "la-vinoteca-cava-list",
+        "name": "La Vinoteca (cava and sparkling)",
+        "address": "Calle Laurel 18, 26001 Logrono, La Rioja, Spain",
+        "neighborhood": "Calle Laurel (Logrono)",
+        "wine_program": "A cava and sparkling selection within the 200-plus reference list, poured by the glass",
+        "specialty": "Cava and Spanish sparkling alongside Rioja still wines",
+        "opens_until": "23:30",
+        "tip": "One of the few Laurel bars where you can reliably get a glass of cava rather than only still Rioja.",
+        "description": "La Vinoteca keeps a working cava and sparkling section in its 200-plus list, a rare by-the-glass bubbles option on the Laurel.",
+        "editorial_score": 4.1,
+        "verified": {
+          "source_url": "https://www.callelaurel.org/establecimiento/la-vinoteca/",
+          "address_quoted": "Calle Laurel",
+          "open_status": "open",
+          "open_evidence_url": "https://logronoticias.com/mejores-en-logrono/vinotecas/",
+          "cuisine_evidence_url": "https://wikirioja.com/vino/tomar-vino-logrono/",
+          "checked_on": "2026-05-25"
+        }
+      },
+      {
+        "slug": "wine-fandango-sparkling-by-the-glass",
+        "name": "Wine Fandango (sparkling by the glass)",
+        "address": "Calle Vara de Rey 5, 26003 Logrono, La Rioja, Spain",
+        "neighborhood": "Logrono centre",
+        "wine_program": "Sparkling and cava among the rotating by-the-glass pours, with flights available",
+        "specialty": "Cava and sparkling served by the glass and in flights",
+        "opens_until": "01:00",
+        "tip": "Open an evening with a glass of cava here before moving on to the Rioja flights.",
+        "description": "Wine Fandango pours cava and sparkling among its rotating by-the-glass selection, a stylish spot for bubbles in central Logrono.",
+        "editorial_score": 4.2,
+        "verified": {
+          "source_url": "https://www.winefandango.com/",
+          "address_quoted": "Vara de Rey",
+          "open_status": "open",
+          "open_evidence_url": "https://winefluencer.es/bares-restaurantes-tiendas/wine-fandango-logrono-la-rioja/",
+          "cuisine_evidence_url": "https://www.guiarepsol.com/es/fichas/restaurante/wine-fandango-16126/",
+          "checked_on": "2026-05-25"
+        }
+      },
+      {
+        "slug": "la-tavina-sparkling-shop",
+        "name": "La Tavina (sparkling from the shop)",
+        "address": "Calle Laurel 2, 26001 Logrono, La Rioja, Spain",
+        "neighborhood": "Calle Laurel (Logrono)",
+        "wine_program": "Cava and sparkling bottles from the 600-strong shop opened for a small corkage in the bar",
+        "specialty": "Sparkling and cava drunk on-site from the cellar selection",
+        "opens_until": "00:00",
+        "tip": "Pick a cava off the shop shelf and have it opened for the corkage fee instead of paying restaurant markups.",
+        "description": "La Tavina's 600-bottle shop includes cava and sparkling you can open in the bar for a small corkage, a flexible way to drink bubbles on the Laurel.",
+        "editorial_score": 4.1,
+        "verified": {
+          "source_url": "https://latavina.com/",
+          "address_quoted": "Calle Laurel",
+          "open_status": "open",
+          "open_evidence_url": "https://www.callelaurel.org/establecimiento/la-tavina/",
+          "cuisine_evidence_url": "https://www.spanishwinelover.com/the-best-places-to-drink-wine-in-logrono",
+          "checked_on": "2026-05-25"
+        }
+      }
+    ]
   }
 }

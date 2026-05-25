@@ -1,3 +1,188 @@
 {
-  "food_pairing": []
+  "food_pairing": [
+    {
+      "slug": "rioja-gran-reserva-chuleton",
+      "name": "Rioja Gran Reserva with chuleton",
+      "pairing": "Aged Rioja Gran Reserva with char-grilled chuleton de buey",
+      "tablejourney_ref": "spain/san-sebastian/dish/txuleta",
+      "wine_entities": [
+        "tondonia-gran-reserva",
+        "gran-reserva-904",
+        "imperial-gran-reserva",
+        "castillo-ygay-gran-reserva-especial"
+      ],
+      "description": "The Basque country's great aged-beef chop, seared over embers, meets the resolved tannins and savoury oak of a long-aged Rioja Gran Reserva.",
+      "editorial_score": 5.0,
+      "verified": {
+        "source_url": "https://tablejourney.com/spain/san-sebastian/dish/txuleta/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "rioja-reserva-cordero",
+      "name": "Rioja Reserva with roast lamb",
+      "pairing": "Classic Rioja Reserva with cordero asado al sarmiento",
+      "tablejourney_ref": "spain/san-sebastian/restaurants/bar-nestor",
+      "wine_entities": [
+        "vina-ardanza-reserva",
+        "marques-de-riscal-reserva",
+        "contino-reserva",
+        "muga-reserva"
+      ],
+      "description": "Vine-shoot-roasted suckling lamb is the canonical Rioja match; the sweet fat is framed by the wine's fine tannin and dried-cherry savour.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://tablejourney.com/spain/san-sebastian/restaurants/bar-nestor/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "white-rioja-bacalao",
+      "name": "Barrel-aged white Rioja with bacalao al pil pil",
+      "pairing": "Oxidative barrel-aged white Rioja with bacalao al pil pil",
+      "tablejourney_ref": "spain/san-sebastian/dish/bacalao-al-pil-pil",
+      "wine_entities": [
+        "tondonia-blanco-reserva",
+        "capellania-reserva-blanco",
+        "gravonia-crianza-blanco",
+        "monopole-clasico"
+      ],
+      "description": "Salt cod in its emulsified garlic-oil sauce finds its peer in the waxy, nutty, saline texture of an oak-aged white Rioja.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://tablejourney.com/spain/san-sebastian/dish/bacalao-al-pil-pil/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "rosado-gilda",
+      "name": "Rioja rosado with the Gilda pintxo",
+      "pairing": "Barrel-aged Rioja rosado with the Gilda anchovy-olive-guindilla pintxo",
+      "tablejourney_ref": "spain/san-sebastian/dish/gilda",
+      "wine_entities": [
+        "tondonia-rosado-gran-reserva",
+        "primer-rosado",
+        "flor-de-muga-rosado"
+      ],
+      "description": "San Sebastian's original pintxo, all salt, acid and chilli, sharpens the saline citrus of a serious gastronomic Rioja rosado.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://tablejourney.com/spain/san-sebastian/dish/gilda/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "white-rioja-kokotxas",
+      "name": "White Rioja with kokotxas de merluza",
+      "pairing": "Aged white Rioja with kokotxas de merluza al pil pil",
+      "tablejourney_ref": "spain/san-sebastian/dish/kokotxas-de-merluza-al-pil-pil",
+      "wine_entities": [
+        "tondonia-blanco-reserva",
+        "castillo-ygay-blanco-gran-reserva-especial",
+        "amaren-blanco"
+      ],
+      "description": "Gelatinous hake cheeks in pil pil echo the rich, nutty depth of a barrel-aged white Rioja while its acidity keeps the dish lifted.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://tablejourney.com/spain/san-sebastian/dish/kokotxas-de-merluza-al-pil-pil/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "graciano-game",
+      "name": "Varietal Graciano with game",
+      "pairing": "Varietal Rioja Graciano with roast game and venison",
+      "tablejourney_ref": "spain/san-sebastian/restaurants/bar-nestor",
+      "wine_entities": [
+        "contino-graciano",
+        "amaren-graciano",
+        "vivanco-coleccion-parcelas-graciano"
+      ],
+      "description": "Dark, peppery, high-acid Graciano stands up to the gaminess of venison and wild bird where many Tempranillos would fade.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://tablejourney.com/spain/san-sebastian/restaurants/bar-nestor/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "modern-rioja-pintxos",
+      "name": "Modern Rioja with author pintxos",
+      "pairing": "Fruit-forward modern Rioja with pintxos de autor",
+      "tablejourney_ref": "spain/san-sebastian/dish/pintxos-de-autor",
+      "wine_entities": [
+        "cune-crianza",
+        "sela",
+        "predicador-tinto",
+        "vinas-de-gain"
+      ],
+      "description": "A varied crawl of creative pintxos calls for a bright, supple, fruit-forward modern Rioja that flatters everything from croquetas to grilled prawns.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://tablejourney.com/spain/san-sebastian/dish/pintxos-de-autor/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "rioja-icon-venison",
+      "name": "Icon Rioja with venison loin",
+      "pairing": "Modern icon Rioja with roast venison loin",
+      "tablejourney_ref": "spain/san-sebastian/restaurants/ganbara",
+      "wine_entities": [
+        "contador",
+        "vina-el-pison",
+        "aro",
+        "cirsion",
+        "amancio"
+      ],
+      "description": "The most concentrated modern Riojas, with their cassis-and-graphite density and velvet tannin, meet the richness of roast venison.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://tablejourney.com/spain/san-sebastian/restaurants/ganbara/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "monopole-anchoa",
+      "name": "Monopole-style white with fresh anchovy",
+      "pairing": "Saline white Rioja with marinated anchoa fresca",
+      "tablejourney_ref": "spain/san-sebastian/dish/anchoa-fresca",
+      "wine_entities": [
+        "monopole-clasico",
+        "valenciso-blanco",
+        "inspiracion-valdemar-maturana-blanca"
+      ],
+      "description": "Cantabrian marinated anchovy and a saline, manzanilla-edged or racy white Rioja are a coastal natural, salt meeting citrus and mineral.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://tablejourney.com/spain/san-sebastian/dish/anchoa-fresca/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "off-dry-rioja-cheesecake",
+      "name": "Off-dry white Rioja with Basque cheesecake",
+      "pairing": "Off-dry white Rioja with tarta de queso vasca",
+      "tablejourney_ref": "spain/san-sebastian/dish/tarta-de-queso-vasca",
+      "wine_entities": [
+        "diamante-semidulce"
+      ],
+      "description": "The burnt-top Basque cheesecake's caramelised sweetness is echoed by a gently off-dry, floral white Rioja for an easy regional dessert match.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://tablejourney.com/spain/san-sebastian/dish/tarta-de-queso-vasca/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    }
+  ]
 }

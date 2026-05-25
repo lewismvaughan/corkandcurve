@@ -1,3 +1,64 @@
 {
-  "wine_museums": []
+  "wine_museums": [
+    {
+      "slug": "museo-vivanco-briones",
+      "name": "Museo Vivanco de la Cultura del Vino",
+      "address": "Carretera Nacional 232, 26330 Briones, La Rioja, Spain",
+      "neighborhood": "Briones",
+      "admission": "Museum on your own from EUR 18; guided museum from EUR 22; combined museum and guided wine cellar from EUR 26 booked online",
+      "permanent_collection": true,
+      "temporary_exhibitions": true,
+      "tasting_bar": true,
+      "description": "World-class wine culture museum in Briones spanning 4,000 sqm with five permanent rooms and the Baco garden of 220-plus vine varieties.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://vivancoculturadevino.es/en/",
+        "address_quoted": "Carretera Nacional 232, 26330. Briones - La Rioja. Spain",
+        "open_status": "open",
+        "open_evidence_url": "https://www.museosdelvino.es/museos/museo-vivanco-de-la-cultura-del-vino/",
+        "cuisine_evidence_url": "https://www.senditur.com/en/point-of-interest/wine-culture-museum/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "villa-lucia-laguardia",
+      "name": "Villa Lucia Centro Tematico del Vino",
+      "address": "Carretera de Logrono s/n, 01300 Laguardia, Alava, Spain",
+      "neighborhood": "Laguardia, Rioja Alavesa",
+      "admission": "Museum tour plus the In a Dreamland 4D sensory experience; combinable with the on-site restaurant",
+      "permanent_collection": true,
+      "temporary_exhibitions": false,
+      "tasting_bar": true,
+      "description": "Fully accessible wine theme centre in medieval Laguardia with virtual tastings, didactic panels and a 4D In a Dreamland sensory finale.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://museo.villa-lucia.com/en/visit-us",
+        "address_quoted": "Ctra. de Logrono s/n, 01300 Laguardia (Alava)",
+        "open_status": "open",
+        "open_evidence_url": "https://tourism.euskadi.eus/en/museums/villa-lucia-thematic-center-of-the-wine/webtur00-content/en/",
+        "cuisine_evidence_url": "https://www.museosdelvino.es/museos/centro-tematico-del-vino-villa-lucia/?lang=en",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "catedral-del-vino-marques-de-riscal-elciego",
+      "name": "Marques de Riscal Catedral del Vino",
+      "address": "Calle Torrea 1, 01340 Elciego, Alava, Spain",
+      "neighborhood": "Elciego, Rioja Alavesa",
+      "admission": "Visited as part of the City of Wine winery tour with ticket reservation",
+      "permanent_collection": true,
+      "temporary_exhibitions": false,
+      "tasting_bar": true,
+      "description": "Marques de Riscal's original 1860 cellar, the Catedral del Vino, preserves bottle treasures back to 1862 and is toured within the Gehry City of Wine.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.marquesderiscal.com/en/the-marques-de-riscal-city-of-wine",
+        "address_quoted": "C/Torrea 1, 01340 Elciego, Alava",
+        "open_status": "open",
+        "open_evidence_url": "https://www.elciego.es/en/hotel-marques-riscal",
+        "cuisine_evidence_url": "https://www.elciego.es/en/marques-riscal-gastronomy-restaurant",
+        "checked_on": "2026-05-25"
+      }
+    }
+  ]
 }

@@ -1,3 +1,118 @@
 {
-  "wine_retailers": []
+  "wine_retailers": [
+    {
+      "slug": "la-tienda-de-la-rica-logrono",
+      "name": "La Tienda de La Rica",
+      "address": "Avenida de Portugal 15, 26001 Logrono, La Rioja, Spain",
+      "neighborhood": "Logrono",
+      "speciality": "DOCa Rioja and other Spanish appellations, with staff advice and online shipping",
+      "online_shop": true,
+      "en_primeur": false,
+      "description": "Logrono vinoteca specialising in DOCa Rioja plus other Spanish denominations, with hands-on advice and nationwide delivery.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.latiendadelarica.com/",
+        "address_quoted": "Avenida Portugal, n 15, 26001. Logrono, (La Rioja)",
+        "open_status": "open",
+        "open_evidence_url": "https://logronoticias.com/mejores-en-logrono/vinotecas/",
+        "cuisine_evidence_url": "https://www.latiendadelarica.com/tienda-de-vinos-en-logrono/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "vinoteca-larria-logrono",
+      "name": "Vinoteca Larria",
+      "address": "Avenida Perez Galdos 52, 26002 Logrono, La Rioja, Spain",
+      "neighborhood": "Logrono",
+      "speciality": "Medium and high-range Rioja, plus oils, beers and spirits",
+      "online_shop": true,
+      "en_primeur": false,
+      "description": "Long-running Logrono wine shop with a strong selection of medium and high-range Rioja, alongside regional oils, beers and spirits.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.larria.es/",
+        "address_quoted": "Avda. Perez Galdos, 52. 26002 Logrono",
+        "open_status": "open",
+        "open_evidence_url": "https://logronoticias.com/mejores-en-logrono/vinotecas/",
+        "cuisine_evidence_url": "https://www.larria.es/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "viura-negra-logrono",
+      "name": "Viura Negra",
+      "address": "Calle Marques de Murrieta 5, 26005 Logrono, La Rioja, Spain",
+      "neighborhood": "Logrono",
+      "speciality": "Classic and modern Rioja, whites, sparkling and champagne, run by an enologist-sommelier",
+      "online_shop": true,
+      "en_primeur": false,
+      "description": "Sommelier-run Logrono vinoteca organising wines into classic and modern Rioja categories, with daily tastings and gourmet conservas.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://viuranegra.com",
+        "address_quoted": "Marques de Murrieta 5",
+        "open_status": "open",
+        "open_evidence_url": "https://nuevecuatrouno.com/2020/02/22/rioja-vino-logrono-vinoteca-viura-negra-catas-enologia/",
+        "cuisine_evidence_url": "https://www.guiarepsol.com/es/fichas/solete/viura-negra-326413/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "la-tavina-logrono",
+      "name": "La Tavina",
+      "address": "Calle Laurel 2, 26001 Logrono, La Rioja, Spain",
+      "neighborhood": "Calle Laurel, Logrono",
+      "speciality": "Nearly 500 wines across the largest vinoteca on Calle Laurel, with regular tastings and courses",
+      "online_shop": true,
+      "en_primeur": false,
+      "description": "Calle Laurel's biggest vinoteca, with close to 500 wines, a tasting room and a regular calendar of Rioja courses and events.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://latavina.com/vinoteca/",
+        "address_quoted": "Calle del Laurel, 2, 26001 Logrono",
+        "open_status": "open",
+        "open_evidence_url": "https://www.callelaurel.org/establecimiento/la-tavina/",
+        "cuisine_evidence_url": "https://nuevecuatrouno.com/2022/05/13/rioja-logrono-tavina-gastronomia-vinoteca-calle-laurel/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "el-rincon-del-vino-vinoteca-logrono",
+      "name": "El Rincon del Vino Vinoteca",
+      "address": "Calle Marques de San Nicolas 136, 26001 Logrono, La Rioja, Spain",
+      "neighborhood": "Casco Antiguo, Logrono",
+      "speciality": "Around 350 DOCa Rioja references mixing current releases with old vintages",
+      "online_shop": false,
+      "en_primeur": false,
+      "description": "Old-town cellar shop with roughly 350 DOCa Rioja references, balancing modern releases against a deep run of older vintages.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://elrincondelvinologrono.es/vinoteca/",
+        "address_quoted": "Calle Marques de San Nicolas, 136",
+        "open_status": "open",
+        "open_evidence_url": "https://elrincondelvinologrono.es/",
+        "cuisine_evidence_url": "https://www.paginasamarillas.es/f/logrono/el-rincon-del-vino_153114400_000000001.html",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "solo-rioja-logrono",
+      "name": "Solo Rioja",
+      "address": "Avenida Club Deportivo 96, bajo, 26007 Logrono, La Rioja, Spain",
+      "neighborhood": "Logrono",
+      "speciality": "Curated DOCa Rioja selections plus regional foods, with tasting activities",
+      "online_shop": true,
+      "en_primeur": false,
+      "description": "Small Logrono shop that hand-picks DOCa Rioja bottles and pairs them with regional foods, running tastings to explore Rioja wine culture.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.solorioja.com/",
+        "address_quoted": "Av. Club Deportivo, 96, Bajo, 26007 Logrono",
+        "open_status": "open",
+        "open_evidence_url": "https://intravel.net/logrono/nightlife/solorioja-com-vinoteca",
+        "cuisine_evidence_url": "https://www.solorioja.com/tienda/",
+        "checked_on": "2026-05-25"
+      }
+    }
+  ]
 }

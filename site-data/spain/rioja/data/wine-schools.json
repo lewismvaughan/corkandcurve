@@ -1,3 +1,106 @@
 {
-  "wine_schools": []
+  "wine_schools": [
+    {
+      "slug": "artean-drinks-wset-logrono",
+      "name": "Artean Drinks WSET Logrono",
+      "address": "Logrono, La Rioja, Spain",
+      "neighborhood": "Logrono",
+      "courses_offered": [
+        "WSET Level 1 Award in Wines",
+        "WSET Level 2 Award in Wines",
+        "WSET Level 3 Award in Wines",
+        "WSET Level 1 and 2 Award in Spirits"
+      ],
+      "certifications": ["WSET Level 1", "WSET Level 2", "WSET Level 3"],
+      "languages": ["Spanish", "English"],
+      "price_range": "Varies by WSET level; in-person and online formats",
+      "booking_url": "https://arteandrinks.com/cursos-wset-logrono/",
+      "description": "WSET-approved provider running Level 1, 2 and 3 wine awards plus spirits courses in Logrono, in person and online for distance students.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://arteandrinks.com/cursos-wset-logrono/",
+        "address_quoted": "Logrono",
+        "open_status": "open",
+        "open_evidence_url": "https://www.spanishwinelover.com/enjoy-398-a-complete-guide-of-wset-courses-in-spain",
+        "cuisine_evidence_url": "https://arteandrinks.com/cursos-wset-logrono/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "rioja-wine-academy",
+      "name": "Rioja Wine Academy",
+      "address": "Calle Estambrera 52, 26006 Logrono, La Rioja, Spain",
+      "neighborhood": "Logrono",
+      "courses_offered": [
+        "Rioja Enthusiast (free introductory)",
+        "Rioja Diploma",
+        "Wine tourism course",
+        "Marketing and trade course"
+      ],
+      "certifications": ["Rioja Diploma", "Rioja Enthusiast"],
+      "languages": ["Spanish", "English"],
+      "price_range": "Free introductory course; paid diploma tiers",
+      "booking_url": "https://riojawineacademy.com/en/itinerary/rioja-wine-diploma",
+      "description": "Official online education platform of the DOCa Rioja Control Board, from a free Rioja Enthusiast course to a multi-module Rioja Diploma.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://riojawineacademy.com/en/home",
+        "address_quoted": "Logrono",
+        "open_status": "open",
+        "open_evidence_url": "https://riojawine.com/news/rioja-wine-academy-going-from-strength-to-strength/",
+        "cuisine_evidence_url": "https://riojawineacademy.com/en/itinerary/rioja-wine-diploma",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "hermanos-hernaiz-wset-banos",
+      "name": "Hermanos Hernaiz WSET School (Finca la Emperatriz)",
+      "address": "Carretera de Santo Domingo, 26241 Banos de Rioja, La Rioja, Spain",
+      "neighborhood": "Banos de Rioja, Rioja Alta",
+      "courses_offered": [
+        "WSET Level 2 Award in Wines",
+        "WSET Level 3 Award in Wines"
+      ],
+      "certifications": ["WSET Level 2", "WSET Level 3"],
+      "languages": ["Spanish", "English"],
+      "price_range": "By WSET level, taught with Artean Wines at the estate",
+      "booking_url": "https://hermanoshernaiz.com/en/wset-school-eng/",
+      "description": "WSET Level 2 and 3 courses taught at the Finca la Emperatriz estate in Banos de Rioja, in partnership with WSET supplier Artean Wines since 2020.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://hermanoshernaiz.com/en/wset-school-eng/",
+        "address_quoted": "Ctra. de Santo Domingo, Haro. 26241 Banos de Rioja",
+        "open_status": "open",
+        "open_evidence_url": "https://hermanoshernaiz.com/en/finca-la-emperatriz-the-wines/",
+        "cuisine_evidence_url": "https://riojawine.com/en-us/bodegas-rioja/hermanos-hernaiz/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "campus-enogastronomico-rioja-alavesa-laguardia",
+      "name": "Campus Enogastronomico Ruta del Vino de Rioja Alavesa",
+      "address": "Laguardia, 01300 Alava, Spain",
+      "neighborhood": "Laguardia, Rioja Alavesa",
+      "courses_offered": [
+        "WSET Level 1 Award in Wines",
+        "WSET Level 2 Award in Wines",
+        "WSET Level 3 Award in Wines",
+        "Professional wine tasting and wine tourism seminars"
+      ],
+      "certifications": ["WSET Level 1", "WSET Level 2", "WSET Level 3"],
+      "languages": ["Spanish", "English"],
+      "price_range": "Varies by course and seminar",
+      "booking_url": "https://www.rutadelvinoderiojaalavesa.com/es/",
+      "description": "Seasonal enogastronomic campus by the Rioja Alavesa wine route in Laguardia, offering WSET wine awards plus tasting and wine-tourism seminars.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.rutadelvinoderiojaalavesa.com/es/",
+        "address_quoted": "Laguardia",
+        "open_status": "open",
+        "open_evidence_url": "https://laprensadelrioja.com/enoturismo/turismo-y-gastronomia-ultimas-noticias-en-portada/el-iv-campus-enogastronomico-de-la-ruta-del-vino-de-rioja-alavesa-se-celebrara-hasta-abril/",
+        "cuisine_evidence_url": "https://www.spanishwinelover.com/enjoy-398-a-complete-guide-of-wset-courses-in-spain",
+        "checked_on": "2026-05-25"
+      }
+    }
+  ]
 }

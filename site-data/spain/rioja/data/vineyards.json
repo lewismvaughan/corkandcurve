@@ -1,3 +1,1154 @@
 {
-  "vineyards": []
+  "vineyards": [
+    {
+      "slug": "marques-de-riscal",
+      "name": "Marques de Riscal",
+      "address": "Calle Torrea 1, 01340 Elciego, Alava, Spain",
+      "neighborhood": "Rioja Alavesa",
+      "varietals": [
+        "Tempranillo",
+        "Graciano",
+        "Mazuelo",
+        "Viura"
+      ],
+      "classification": "DOCa Rioja",
+      "owner": "Herederos del Marques de Riscal (Hurtado de Amezaga family)",
+      "founded": 1858,
+      "tasting_program": "Guided winery tours and tastings at the City of Wine complex, plus the Frank Gehry-designed hotel, restaurants and spa; book through the estate.",
+      "booking_url": "https://www.marquesderiscal.com/en/",
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "One of the oldest bodegas in Rioja, founded in 1858 at Elciego, famous for its titanium City of Wine hotel designed by Frank Gehry and its long-aged Reserva and Gran Reserva reds.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.marquesderiscal.com/en/",
+        "address_quoted": "Elciego",
+        "open_status": "open",
+        "open_evidence_url": "https://lariojaturismo.com/en/",
+        "cuisine_evidence_url": "https://riojawine.com/en-us/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "marques-de-murrieta",
+      "name": "Marques de Murrieta",
+      "address": "Finca Ygay, Carretera Logrono-Zaragoza km 5, 26006 Logrono, La Rioja, Spain",
+      "neighborhood": "Rioja Alta",
+      "varietals": [
+        "Tempranillo",
+        "Mazuelo",
+        "Graciano",
+        "Garnacha",
+        "Viura"
+      ],
+      "classification": "DOCa Rioja",
+      "owner": "Vicente Cebrian-Sagarriga family",
+      "founded": 1852,
+      "tasting_program": "Tours and tastings of the Ygay estate and castle by reservation, including the flagship Castillo Ygay Gran Reserva.",
+      "booking_url": "https://www.marquesdemurrieta.com/en/",
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "A founding house of modern Rioja established in 1852, based at the Ygay estate near Logrono and renowned for its long-aged Castillo Ygay Gran Reserva and the Capellania white.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.marquesdemurrieta.com/en/",
+        "address_quoted": "Logrono",
+        "open_status": "open",
+        "open_evidence_url": "https://lariojaturismo.com/en/",
+        "cuisine_evidence_url": "https://riojawine.com/en-us/bodegas-rioja/marques-de-murrieta/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "la-rioja-alta",
+      "name": "La Rioja Alta S.A.",
+      "address": "Avenida de Vizcaya 8, Barrio de la Estacion, 26200 Haro, La Rioja, Spain",
+      "neighborhood": "Barrio de la Estacion",
+      "varietals": [
+        "Tempranillo",
+        "Graciano",
+        "Mazuelo",
+        "Viura"
+      ],
+      "classification": "DOCa Rioja",
+      "owner": "La Rioja Alta S.A. (founding families)",
+      "founded": 1890,
+      "tasting_program": "Guided tours of the historic Barrio de la Estacion cellars and tastings of the Vina Ardanza and Gran Reserva 904 and 890; by reservation.",
+      "booking_url": "https://www.riojalta.com/en/",
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "A classic Haro house founded in 1890 in the Barrio de la Estacion, celebrated for traditional long oak ageing in its Vina Ardanza Reserva and Gran Reserva 904 and 890.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.riojalta.com/en/",
+        "address_quoted": "Haro",
+        "open_status": "open",
+        "open_evidence_url": "https://www.barrioestacion.com/en/",
+        "cuisine_evidence_url": "https://riojawine.com/en-us/bodegas-rioja/la-rioja-alta-s-a/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "cvne",
+      "name": "CVNE",
+      "address": "Barrio de la Estacion, 26200 Haro, La Rioja, Spain",
+      "neighborhood": "Barrio de la Estacion",
+      "varietals": [
+        "Tempranillo",
+        "Garnacha",
+        "Graciano",
+        "Mazuelo",
+        "Viura"
+      ],
+      "classification": "DOCa Rioja",
+      "owner": "Real de Asua family",
+      "founded": 1879,
+      "tasting_program": "Tours of the historic Haro cellars, including a building attributed to the Eiffel workshop, with tastings of Cune, Imperial and Monopole; by reservation.",
+      "booking_url": "https://cvne.com/en/",
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Compania Vinicola del Norte de Espana, founded in 1879 in Haro and still family-owned, makes the Cune, Imperial Gran Reserva and Monopole white ranges from the Barrio de la Estacion.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://cvne.com/en/",
+        "address_quoted": "Haro",
+        "open_status": "open",
+        "open_evidence_url": "https://www.barrioestacion.com/en/",
+        "cuisine_evidence_url": "https://riojawine.com/en-us/bodegas-rioja/cvne/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "lopez-de-heredia",
+      "name": "R. Lopez de Heredia Vina Tondonia",
+      "address": "Avenida de Vizcaya 3, Barrio de la Estacion, 26200 Haro, La Rioja, Spain",
+      "neighborhood": "Barrio de la Estacion",
+      "varietals": [
+        "Tempranillo",
+        "Garnacha",
+        "Graciano",
+        "Mazuelo",
+        "Viura",
+        "Malvasia Riojana"
+      ],
+      "classification": "DOCa Rioja",
+      "owner": "Lopez de Heredia family",
+      "founded": 1877,
+      "tasting_program": "Tours of the historic cellars and the Zaha Hadid-designed pavilion shop with tastings of Vina Tondonia and Vina Bosconia; by reservation.",
+      "booking_url": "https://www.lopezdeheredia.com/",
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "The most traditional house in Rioja, founded in 1877 in Haro and still run by the founding family, famous for decade-long barrel ageing of Vina Tondonia reds, whites and rosados.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.lopezdeheredia.com/",
+        "address_quoted": "Haro",
+        "open_status": "open",
+        "open_evidence_url": "https://www.barrioestacion.com/en/",
+        "cuisine_evidence_url": "https://riojawine.com/en-us/bodegas-rioja/r-lopez-de-heredia-vina-tondonia/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "bodegas-muga",
+      "name": "Bodegas Muga",
+      "address": "Barrio de la Estacion, 26200 Haro, La Rioja, Spain",
+      "neighborhood": "Barrio de la Estacion",
+      "varietals": [
+        "Tempranillo",
+        "Garnacha",
+        "Graciano",
+        "Mazuelo",
+        "Viura",
+        "Malvasia Riojana"
+      ],
+      "classification": "DOCa Rioja",
+      "owner": "Muga family",
+      "founded": 1932,
+      "tasting_program": "Guided cellar tours showing the in-house cooperage, with tastings of Prado Enea, Torre Muga and Aro; also a wine bar and balloon rides.",
+      "booking_url": "https://www.bodegasmuga.com/",
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "A family house founded in 1932 in the Barrio de la Estacion at Haro, one of the last bodegas with its own cooperage, making Prado Enea Gran Reserva and the modern Torre Muga and Aro.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.bodegasmuga.com/",
+        "address_quoted": "Haro",
+        "open_status": "open",
+        "open_evidence_url": "https://riojawine.com/en-us/bodegas-rioja/bodegas-muga/",
+        "cuisine_evidence_url": "https://www.barrioestacion.com/en/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "bodegas-roda",
+      "name": "Bodegas Roda",
+      "address": "Avenida de Vizcaya 5, Barrio de la Estacion, 26200 Haro, La Rioja, Spain",
+      "neighborhood": "Barrio de la Estacion",
+      "varietals": [
+        "Tempranillo",
+        "Garnacha",
+        "Graciano"
+      ],
+      "classification": "DOCa Rioja",
+      "owner": "Mariano and Carmen Daniela Bujanda Rotaeche family",
+      "founded": 1987,
+      "tasting_program": "Tours of the gravity-flow cellar and barrel halls with tastings of Roda, Roda I and Cirsion, plus a wine bar; by reservation.",
+      "booking_url": "https://roda.es/en/",
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "A modern Haro estate founded in 1987 in the Barrio de la Estacion, focused on old-vine Tempranillo selections in its Roda, Roda I and the prestige Cirsion.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://roda.es/en/",
+        "address_quoted": "Haro",
+        "open_status": "open",
+        "open_evidence_url": "https://riojawine.com/en-us/bodegas-rioja/bodegas-roda/",
+        "cuisine_evidence_url": "https://www.barrioestacion.com/en/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "gomez-cruzado",
+      "name": "Gomez Cruzado",
+      "address": "Avenida de Vizcaya 6, Barrio de la Estacion, 26200 Haro, La Rioja, Spain",
+      "neighborhood": "Barrio de la Estacion",
+      "varietals": [
+        "Tempranillo",
+        "Garnacha",
+        "Viura",
+        "Tempranillo Blanco"
+      ],
+      "classification": "DOCa Rioja",
+      "owner": "Gonzalez Pacheco and Garcia families",
+      "founded": 1886,
+      "tasting_program": "Boutique-winery tours and tastings in the Barrio de la Estacion, including the terroir-selection wines Pancrudo and Cerro las Cuevas; by reservation.",
+      "booking_url": "https://www.gomezcruzado.com/en/",
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "A small Barrio de la Estacion house at Haro dating to 1886, making classic Crianza, Reserva and Gran Reserva alongside a terroir range of single-village bottlings.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.gomezcruzado.com/en/",
+        "address_quoted": "Haro",
+        "open_status": "open",
+        "open_evidence_url": "https://www.barrioestacion.com/en/",
+        "cuisine_evidence_url": "https://riojawine.com/en-us/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "bodegas-bilbainas",
+      "name": "Bodegas Bilbainas",
+      "address": "Calle La Estacion 3, 26200 Haro, La Rioja, Spain",
+      "neighborhood": "Barrio de la Estacion",
+      "varietals": [
+        "Tempranillo",
+        "Garnacha",
+        "Graciano",
+        "Mazuelo",
+        "Viura"
+      ],
+      "classification": "DOCa Rioja",
+      "owner": "Codorniu Raventos group",
+      "founded": 1901,
+      "tasting_program": "Tours of the historic cellars with tastings of the Vina Pomal range and the La Vicalanda Gran Reserva; by reservation.",
+      "booking_url": "https://vinapomal.com/en/",
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "A historic Haro bodega founded in 1901, now part of the Codorniu Raventos group, known for its Vina Pomal label and the La Vicalanda Reserva and Gran Reserva.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://vinapomal.com/en/",
+        "address_quoted": "Haro",
+        "open_status": "open",
+        "open_evidence_url": "https://riojawine.com/en-us/bodegas-rioja/bodegas-bilbainas/",
+        "cuisine_evidence_url": "https://www.barrioestacion.com/en/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "bodegas-ysios",
+      "name": "Bodegas Ysios",
+      "address": "Camino de la Hoya, 01300 Laguardia, Alava, Spain",
+      "neighborhood": "Rioja Alavesa",
+      "varietals": [
+        "Tempranillo"
+      ],
+      "classification": "DOCa Rioja",
+      "owner": "Vinarchy (Australian Wine Holdco / Accolade Wines, since 2025; formerly Pernod Ricard)",
+      "founded": 2001,
+      "tasting_program": "Tours of the Santiago Calatrava-designed cellar with its undulating roof, with tastings of Tempranillo Reserva; by reservation.",
+      "booking_url": "https://www.bodegasysios.com/en",
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "A Rioja Alavesa landmark near Laguardia housed in a wave-roofed cellar designed by Santiago Calatrava in 2001, focused on Tempranillo Reserva from estate vineyards.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.bodegasysios.com/en",
+        "address_quoted": "Laguardia",
+        "open_status": "open",
+        "open_evidence_url": "https://lariojaturismo.com/en/",
+        "cuisine_evidence_url": "https://riojawine.com/en-us/bodegas-rioja/bodegas-ysios/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "artadi",
+      "name": "Artadi",
+      "address": "Carretera de Logrono, 01300 Laguardia, Alava, Spain",
+      "neighborhood": "Rioja Alavesa",
+      "varietals": [
+        "Tempranillo",
+        "Viura"
+      ],
+      "classification": "Vino de Espana (formerly DOCa Rioja, left 2015)",
+      "owner": "Juan Carlos Lopez de Lacalle family",
+      "founded": 1985,
+      "tasting_program": "Tours and tastings of single-vineyard wines such as Vina El Pison; by reservation. The estate left the Rioja DOCa in 2015 over terroir labelling.",
+      "booking_url": "https://www.artadi.com/en/",
+      "biodynamic_status": "none",
+      "organic_status": "ecocert",
+      "description": "A pioneering single-vineyard producer at Laguardia founded in 1985, famous for Vina El Pison. Artadi withdrew from the Rioja DOCa in 2015 to label by site rather than ageing tier.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.artadi.com/en/",
+        "address_quoted": "Laguardia",
+        "open_status": "open",
+        "open_evidence_url": "https://lariojaturismo.com/en/",
+        "cuisine_evidence_url": "https://www.artadi.com/en/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "remirez-de-ganuza",
+      "name": "Remirez de Ganuza",
+      "address": "Constitucion 1, 01307 Samaniego, Alava, Spain",
+      "neighborhood": "Rioja Alavesa",
+      "varietals": [
+        "Tempranillo",
+        "Graciano",
+        "Viura",
+        "Malvasia Riojana"
+      ],
+      "classification": "DOCa Rioja",
+      "owner": "Fernando Remirez de Ganuza family",
+      "founded": 1989,
+      "tasting_program": "Tours showing the estate's grape-selection and shoulder-bunch method, with tastings of the Reserva and Gran Reserva; by reservation.",
+      "booking_url": "https://www.remirezdeganuza.com/",
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "A meticulous Samaniego estate founded in 1989, known for selecting only the shoulders of each bunch, producing structured Reserva, Gran Reserva and the cult Trasnocho.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.remirezdeganuza.com/",
+        "address_quoted": "Samaniego",
+        "open_status": "open",
+        "open_evidence_url": "https://lariojaturismo.com/en/",
+        "cuisine_evidence_url": "https://riojawine.com/en-us/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "vinedos-del-contino",
+      "name": "Vinedos del Contino",
+      "address": "Finca San Gregorio, Laserna, 01321 Laguardia, Alava, Spain",
+      "neighborhood": "Rioja Alavesa",
+      "varietals": [
+        "Tempranillo",
+        "Graciano",
+        "Garnacha",
+        "Mazuelo"
+      ],
+      "classification": "DOCa Rioja",
+      "owner": "CVNE (Real de Asua family)",
+      "founded": 1973,
+      "tasting_program": "Tours of the single-estate property at Laserna with its 16th-century cellars, with tastings of the estate and single-vineyard reds; by reservation.",
+      "booking_url": "https://contino.es/en/",
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Rioja's pioneering chateau-concept estate, founded in 1973 at Laserna on a bend of the Ebro and part of CVNE, making single-estate reds including a varietal Graciano.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://contino.es/en/",
+        "address_quoted": "Laguardia",
+        "open_status": "open",
+        "open_evidence_url": "https://cvne.com/en/wineries/vinedos-del-contino/",
+        "cuisine_evidence_url": "https://riojawine.com/en-us/bodegas-rioja/vinedos-del-contino/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "luis-canas",
+      "name": "Bodegas Luis Canas",
+      "address": "Carretera Samaniego 10, 01307 Villabuena de Alava, Alava, Spain",
+      "neighborhood": "Rioja Alavesa",
+      "varietals": [
+        "Tempranillo",
+        "Graciano",
+        "Garnacha",
+        "Viura"
+      ],
+      "classification": "DOCa Rioja",
+      "owner": "Luis Canas family (Juan Luis Canas)",
+      "founded": 1970,
+      "tasting_program": "Guided tours and tastings at Villabuena de Alava, including the Hiru Racimos and the old-vine Reserva de Familia; by reservation.",
+      "booking_url": "https://www.luiscanas.com/",
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "A family bodega at Villabuena de Alava in Rioja Alavesa, founded in 1970, drawing on old-vine parcels for its Reserva de Familia and top cuvee Hiru Racimos.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.luiscanas.com/",
+        "address_quoted": "Villabuena de Alava",
+        "open_status": "open",
+        "open_evidence_url": "https://lariojaturismo.com/en/",
+        "cuisine_evidence_url": "https://riojawine.com/en-us/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "amaren",
+      "name": "Bodegas Amaren",
+      "address": "Carretera Banos de Ebro, 01307 Villabuena de Alava, Alava, Spain",
+      "neighborhood": "Rioja Alavesa",
+      "varietals": [
+        "Tempranillo",
+        "Graciano",
+        "Viura"
+      ],
+      "classification": "DOCa Rioja",
+      "owner": "Luis Canas family",
+      "founded": 1996,
+      "tasting_program": "Tours of the gravity-fed cellar at Villabuena with tastings of the old-vine Amaren reds and the barrel-fermented white; by reservation.",
+      "booking_url": "https://www.bodegasamaren.com/",
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "The premium project of the Luis Canas family in Villabuena de Alava, created in 1996, specialising in old-vine Tempranillo and Graciano and a barrel-fermented Viura white.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.bodegasamaren.com/",
+        "address_quoted": "Villabuena de Alava",
+        "open_status": "open",
+        "open_evidence_url": "https://lariojaturismo.com/en/",
+        "cuisine_evidence_url": "https://riojawine.com/en-us/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "ostatu",
+      "name": "Bodegas Ostatu",
+      "address": "Carretera Vitoria 1, 01307 Samaniego, Alava, Spain",
+      "neighborhood": "Rioja Alavesa",
+      "varietals": [
+        "Tempranillo",
+        "Graciano",
+        "Viura",
+        "Malvasia Riojana"
+      ],
+      "classification": "DOCa Rioja",
+      "owner": "Saenz de Samaniego family",
+      "founded": 1970,
+      "tasting_program": "Family-run tours and tastings at Samaniego, including the Gloria de Ostatu old-vine selection; by reservation.",
+      "booking_url": "https://www.ostatu.com/",
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "A grower-family bodega at Samaniego in Rioja Alavesa, producing fresh estate reds and whites and the old-vine Gloria de Ostatu from a single plot.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.ostatu.com/",
+        "address_quoted": "Samaniego",
+        "open_status": "open",
+        "open_evidence_url": "https://lariojaturismo.com/en/",
+        "cuisine_evidence_url": "https://riojawine.com/en-us/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "izadi",
+      "name": "Bodegas Izadi",
+      "address": "Herreria Travesia 2, 01307 Villabuena de Alava, Alava, Spain",
+      "neighborhood": "Rioja Alavesa",
+      "varietals": [
+        "Tempranillo",
+        "Viura"
+      ],
+      "classification": "DOCa Rioja",
+      "owner": "Artevino group (Lalanne family)",
+      "founded": 1987,
+      "tasting_program": "Tours, tastings and a restaurant at Villabuena de Alava, including the El Regalo and single-vineyard reds; by reservation.",
+      "booking_url": "https://www.izadi.com/en/",
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "A Villabuena de Alava bodega founded in 1987 and flagship of the Artevino group, making modern oak-aged reds and a barrel-fermented white with an on-site restaurant.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.izadi.com/en/",
+        "address_quoted": "Villabuena de Alava",
+        "open_status": "open",
+        "open_evidence_url": "https://lariojaturismo.com/en/",
+        "cuisine_evidence_url": "https://riojawine.com/en-us/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "finca-allende",
+      "name": "Finca Allende",
+      "address": "Plaza Ibarra 1, 26330 Briones, La Rioja, Spain",
+      "neighborhood": "Briones",
+      "varietals": [
+        "Tempranillo",
+        "Graciano",
+        "Viura",
+        "Malvasia Riojana"
+      ],
+      "classification": "DOCa Rioja",
+      "owner": "Miguel Angel de Gregorio family",
+      "founded": 1995,
+      "tasting_program": "Tours of the cellar in the historic Palacio de Ibarra at Briones, with tastings of Allende, Aurus and Calvario; by reservation.",
+      "booking_url": "http://www.finca-allende.com/en/",
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "A quality-driven estate at Briones founded in 1995 by Miguel Angel de Gregorio, making the Allende red and white plus the prestige Aurus and the old-vine Calvario.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "http://www.finca-allende.com/en/",
+        "address_quoted": "Briones",
+        "open_status": "open",
+        "open_evidence_url": "https://riojawine.com/en-us/bodegas-rioja/finca-allende/",
+        "cuisine_evidence_url": "http://www.finca-allende.com/en/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "vivanco",
+      "name": "Bodegas Vivanco",
+      "address": "Carretera Nacional 232, 26330 Briones, La Rioja, Spain",
+      "neighborhood": "Briones",
+      "varietals": [
+        "Tempranillo",
+        "Graciano",
+        "Garnacha",
+        "Mazuelo",
+        "Maturana Tinta"
+      ],
+      "classification": "DOCa Rioja",
+      "owner": "Vivanco family",
+      "founded": 1915,
+      "tasting_program": "Winery tours, tastings and the large Vivanco Museum of Wine Culture and gardens of Bacchus at Briones; book through the estate.",
+      "booking_url": "https://www.vivancoculturadevino.es/",
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "A family winery and foundation at Briones tracing to 1915, pairing its Rioja range with one of the world's largest wine museums, the Vivanco Museum of Wine Culture.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.vivancoculturadevino.es/",
+        "address_quoted": "Briones",
+        "open_status": "open",
+        "open_evidence_url": "https://lariojaturismo.com/en/",
+        "cuisine_evidence_url": "https://www.dinastiavivanco.com/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "sierra-cantabria",
+      "name": "Sierra Cantabria",
+      "address": "Amorebieta 3, 26338 San Vicente de la Sonsierra, La Rioja, Spain",
+      "neighborhood": "San Vicente de la Sonsierra",
+      "varietals": [
+        "Tempranillo",
+        "Garnacha",
+        "Graciano",
+        "Viura"
+      ],
+      "classification": "DOCa Rioja",
+      "owner": "Eguren family",
+      "founded": 1957,
+      "tasting_program": "Tours and tastings at San Vicente de la Sonsierra of the Sierra Cantabria, Amancio and Coleccion Privada reds; by reservation.",
+      "booking_url": "https://www.sierracantabria.com/",
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "The flagship of the Eguren family at San Vicente de la Sonsierra, founded in 1957, making the Sierra Cantabria range plus the prestige Amancio and El Bosque.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.sierracantabria.com/",
+        "address_quoted": "San Vicente de la Sonsierra",
+        "open_status": "open",
+        "open_evidence_url": "https://lariojaturismo.com/en/",
+        "cuisine_evidence_url": "https://riojawine.com/en-us/bodegas-rioja/sierra-cantabria/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "bodega-contador",
+      "name": "Bodega Contador",
+      "address": "Carretera Logrono, 26338 San Vicente de la Sonsierra, La Rioja, Spain",
+      "neighborhood": "San Vicente de la Sonsierra",
+      "varietals": [
+        "Tempranillo",
+        "Graciano",
+        "Garnacha"
+      ],
+      "classification": "DOCa Rioja",
+      "owner": "Benjamin Romeo",
+      "founded": 1996,
+      "tasting_program": "Tours of the cave cellar beneath San Vicente with tastings of Contador, La Cueva del Contador and La Vina de Andres Romeo; by reservation.",
+      "booking_url": "https://www.bodegacontador.com/",
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "The cult San Vicente de la Sonsierra project of winemaker Benjamin Romeo, founded in 1996, whose garage-born Contador earned 100-point recognition and reset Rioja's modern ceiling.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.bodegacontador.com/",
+        "address_quoted": "San Vicente de la Sonsierra",
+        "open_status": "open",
+        "open_evidence_url": "https://lariojaturismo.com/en/",
+        "cuisine_evidence_url": "https://riojawine.com/en-us/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "bodegas-faustino",
+      "name": "Bodegas Faustino",
+      "address": "Calle Faustino 1, 01320 Oyon, Alava, Spain",
+      "neighborhood": "Rioja Alavesa",
+      "varietals": [
+        "Tempranillo",
+        "Graciano",
+        "Mazuelo",
+        "Viura"
+      ],
+      "classification": "DOCa Rioja",
+      "owner": "Faustino family (Grupo Faustino)",
+      "founded": 1861,
+      "tasting_program": "Tours and tastings at Oyon, including the frosted-bottle Faustino I Gran Reserva; by reservation.",
+      "booking_url": "https://www.bodegasfaustino.com/",
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "A large historic house at Oyon tracing to 1861, best known internationally for the etched-bottle Faustino I Gran Reserva and a broad range of Reserva reds.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.bodegasfaustino.com/",
+        "address_quoted": "Oyon",
+        "open_status": "open",
+        "open_evidence_url": "https://riojawine.com/en-us/bodegas-rioja/bodegas-faustino/",
+        "cuisine_evidence_url": "https://www.bodegasfaustino.com/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "campo-viejo",
+      "name": "Campo Viejo",
+      "address": "Camino de Lapuebla 50, 26006 Logrono, La Rioja, Spain",
+      "neighborhood": "Rioja Alta",
+      "varietals": [
+        "Tempranillo",
+        "Garnacha",
+        "Graciano",
+        "Mazuelo"
+      ],
+      "classification": "DOCa Rioja",
+      "owner": "Vinarchy (Australian Wine Holdco / Accolade Wines, since 2025; formerly Pernod Ricard)",
+      "founded": 1959,
+      "tasting_program": "Tours of the large sustainable winery near Logrono with tastings across the Campo Viejo range; book through the estate.",
+      "booking_url": "https://www.campoviejo.com/",
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "One of the best-selling Rioja brands, founded in 1959 and owned since 2025 by Vinarchy (the Australian Wine Holdco / Accolade Wines group, having previously belonged to Pernod Ricard), with a large visitor-friendly winery near Logrono producing Crianza, Reserva and Gran Reserva.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.campoviejo.com/",
+        "address_quoted": "Logrono",
+        "open_status": "open",
+        "open_evidence_url": "https://lariojaturismo.com/en/",
+        "cuisine_evidence_url": "https://riojawine.com/en-us/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "bodegas-lan",
+      "name": "Bodegas LAN",
+      "address": "Paraje del Buicio, Carretera Fuenmayor, 26360 Fuenmayor, La Rioja, Spain",
+      "neighborhood": "Rioja Alta",
+      "varietals": [
+        "Tempranillo",
+        "Mazuelo",
+        "Graciano"
+      ],
+      "classification": "DOCa Rioja",
+      "owner": "Sogrape Vinhos",
+      "founded": 1972,
+      "tasting_program": "Tours of the Fuenmayor winery and the Vina Lanciano estate on a meander of the Ebro, with tastings of the Culmen and Vina Lanciano; by reservation.",
+      "booking_url": "https://www.bodegaslan.com/",
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "A Fuenmayor bodega founded in 1972, now owned by Sogrape, sourcing its top wines from the river-bounded Vina Lanciano estate, including the modern Culmen Reserva.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.bodegaslan.com/",
+        "address_quoted": "Fuenmayor",
+        "open_status": "open",
+        "open_evidence_url": "https://riojawine.com/en-us/bodegas-rioja/bodegas-lan/",
+        "cuisine_evidence_url": "https://www.bodegaslan.com/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "baron-de-ley",
+      "name": "Baron de Ley",
+      "address": "Carretera Mendavia-Lodosa km 5.5, 31587 Mendavia, Navarra, Spain",
+      "neighborhood": "Rioja Oriental",
+      "varietals": [
+        "Tempranillo",
+        "Garnacha",
+        "Graciano"
+      ],
+      "classification": "DOCa Rioja",
+      "owner": "Baron de Ley S.A.",
+      "founded": 1985,
+      "tasting_program": "Tours of the 16th-century former monastery estate with tastings of the Finca Monasterio and Gran Reserva; by reservation.",
+      "booking_url": "https://www.barondeley.com/",
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "An estate built around a 16th-century former Benedictine monastery on the eastern edge of Rioja, founded in 1985 and known for its Finca Monasterio and Reserva reds.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.barondeley.com/",
+        "address_quoted": "Mendavia",
+        "open_status": "open",
+        "open_evidence_url": "https://riojawine.com/en-us/bodegas-rioja/baron-de-ley/",
+        "cuisine_evidence_url": "https://www.barondeley.com/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "ramon-bilbao",
+      "name": "Bodegas Ramon Bilbao",
+      "address": "Avenida Santo Domingo de la Calzada 34, 26200 Haro, La Rioja, Spain",
+      "neighborhood": "Haro",
+      "varietals": [
+        "Tempranillo",
+        "Graciano",
+        "Garnacha",
+        "Viura"
+      ],
+      "classification": "DOCa Rioja",
+      "owner": "Zamora Company",
+      "founded": 1924,
+      "tasting_program": "Guided tours of the Haro winery with barrel and bottle halls, tastings and a wine bar; by reservation.",
+      "booking_url": "https://bodegasramonbilbao.com/en/",
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "A Haro house founded in 1924, now part of the Zamora Company, producing a wide Rioja range led by the Mirto and Lalomba single-vineyard wines.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://bodegasramonbilbao.com/en/",
+        "address_quoted": "Haro",
+        "open_status": "open",
+        "open_evidence_url": "https://www.haroturismo.org/en/enoturismo/bodegas/bodegas-ramon-bilbao",
+        "cuisine_evidence_url": "https://bodegasramonbilbao.com/en/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "valenciso",
+      "name": "Valenciso",
+      "address": "Carretera Ollauri-Najera km 0.4, 26220 Ollauri, La Rioja, Spain",
+      "neighborhood": "Rioja Alta",
+      "varietals": [
+        "Tempranillo",
+        "Viura"
+      ],
+      "classification": "DOCa Rioja",
+      "owner": "Luis Valentin and Carmen Enciso",
+      "founded": 1998,
+      "tasting_program": "Tours and tastings at Ollauri of the single-label Valenciso Reserva and the barrel-fermented white; by reservation.",
+      "booking_url": "https://valenciso.com/en/",
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "A boutique Rioja Alta producer at Ollauri founded in 1998 by Luis Valentin and Carmen Enciso, making essentially one classically styled Reserva plus a barrel-fermented Viura.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://valenciso.com/en/",
+        "address_quoted": "Ollauri",
+        "open_status": "open",
+        "open_evidence_url": "https://lariojaturismo.com/en/",
+        "cuisine_evidence_url": "https://riojawine.com/en-us/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "bodegas-baigorri",
+      "name": "Bodegas Baigorri",
+      "address": "Carretera Vitoria-Logrono km 53, 01307 Samaniego, Alava, Spain",
+      "neighborhood": "Rioja Alavesa",
+      "varietals": [
+        "Tempranillo",
+        "Garnacha",
+        "Graciano",
+        "Mazuelo"
+      ],
+      "classification": "DOCa Rioja",
+      "owner": "Jesus Baigorri family",
+      "founded": 2002,
+      "tasting_program": "Tours of the seven-level gravity-flow glass cube cellar at Samaniego with tastings and a restaurant; by reservation.",
+      "booking_url": "https://www.bodegasbaigorri.com/en/",
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "An architectural Rioja Alavesa winery at Samaniego opened in 2002, built as a glass cube over seven underground levels using gravity-flow winemaking, with a panoramic restaurant.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.bodegasbaigorri.com/en/",
+        "address_quoted": "Samaniego",
+        "open_status": "open",
+        "open_evidence_url": "https://lariojaturismo.com/en/",
+        "cuisine_evidence_url": "https://riojawine.com/en-us/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "vina-real",
+      "name": "Vina Real",
+      "address": "Carretera Logrono-Laguardia km 4.8, 01300 Laguardia, Alava, Spain",
+      "neighborhood": "Rioja Alavesa",
+      "varietals": [
+        "Tempranillo",
+        "Garnacha",
+        "Graciano",
+        "Mazuelo"
+      ],
+      "classification": "DOCa Rioja",
+      "owner": "CVNE (Real de Asua family)",
+      "founded": 2004,
+      "tasting_program": "Tours of the circular barrel-shaped Philippe Mazieres cellar near Laguardia with tastings of Vina Real and Pagos de Vina Real; by reservation.",
+      "booking_url": "https://cvne.com/en/wineries/vina-real/",
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "CVNE's Rioja Alavesa cellar near Laguardia, a striking circular building opened in 2004, home to the Vina Real range and the single-estate Pagos de Vina Real.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://cvne.com/en/wineries/vina-real/",
+        "address_quoted": "Laguardia",
+        "open_status": "open",
+        "open_evidence_url": "https://lariojaturismo.com/en/",
+        "cuisine_evidence_url": "https://riojawine.com/en-us/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "franco-espanolas",
+      "name": "Bodegas Franco-Espanolas",
+      "address": "Calle Cabo Noval 2, 26009 Logrono, La Rioja, Spain",
+      "neighborhood": "Logrono",
+      "varietals": [
+        "Tempranillo",
+        "Garnacha",
+        "Viura",
+        "Mazuelo"
+      ],
+      "classification": "DOCa Rioja",
+      "owner": "Eguizabal family",
+      "founded": 1890,
+      "tasting_program": "Tours of the historic city-centre winery in Logrono with tastings of the Bordon and Diamante ranges; book through the wine-tourism site.",
+      "booking_url": "https://francoespanolas.com/en/home/",
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "The only historic bodega in the urban centre of Logrono, founded in 1890 as a French-Spanish venture after phylloxera, known for the Bordon reds and the off-dry Diamante white.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://francoespanolas.com/en/home/",
+        "address_quoted": "Logrono",
+        "open_status": "open",
+        "open_evidence_url": "https://lariojaturismo.com/en/",
+        "cuisine_evidence_url": "https://riojawine.com/en-us/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "bodegas-montecillo",
+      "name": "Bodegas Montecillo",
+      "address": "Carretera Navarrete-Fuenmayor km 2, 26360 Fuenmayor, La Rioja, Spain",
+      "neighborhood": "Rioja Alta",
+      "varietals": [
+        "Tempranillo",
+        "Graciano",
+        "Garnacha"
+      ],
+      "classification": "DOCa Rioja",
+      "owner": "Osborne group",
+      "founded": 1874,
+      "tasting_program": "Tours of the Fuenmayor winery with tastings of the Montecillo Reserva and Gran Reserva; by reservation.",
+      "booking_url": "https://www.bodegasmontecillo.com/en/",
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "One of the oldest Rioja houses, founded in 1874 and now owned by the Osborne group, based at Fuenmayor and known for traditional Reserva and Gran Reserva reds.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.bodegasmontecillo.com/en/",
+        "address_quoted": "Fuenmayor",
+        "open_status": "open",
+        "open_evidence_url": "https://lariojaturismo.com/en/",
+        "cuisine_evidence_url": "https://riojawine.com/en-us/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "bodegas-riojanas",
+      "name": "Bodegas Riojanas",
+      "address": "Calle Estacion 1, 26350 Cenicero, La Rioja, Spain",
+      "neighborhood": "Cenicero",
+      "varietals": [
+        "Tempranillo",
+        "Graciano",
+        "Mazuelo",
+        "Viura"
+      ],
+      "classification": "DOCa Rioja",
+      "owner": "Artacho family",
+      "founded": 1890,
+      "tasting_program": "Tours of the castellated Cenicero winery with tastings of the Vina Albina and Monte Real ranges; by reservation.",
+      "booking_url": "https://www.bodegasriojanas.com/",
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "A long-established Cenicero house founded in 1890, recognisable by its castle-like facade, making the traditional Vina Albina and Monte Real Reserva and Gran Reserva.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.bodegasriojanas.com/",
+        "address_quoted": "Cenicero",
+        "open_status": "open",
+        "open_evidence_url": "https://lariojaturismo.com/en/",
+        "cuisine_evidence_url": "https://riojawine.com/en-us/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "bodegas-muriel",
+      "name": "Bodegas Muriel",
+      "address": "Barrio El Campillar 13, 01300 Elciego, Alava, Spain",
+      "neighborhood": "Rioja Alavesa",
+      "varietals": [
+        "Tempranillo",
+        "Graciano",
+        "Viura"
+      ],
+      "classification": "DOCa Rioja",
+      "owner": "Muriel Vinedos y Bodegas (Murua family)",
+      "founded": 1986,
+      "tasting_program": "Tours and tastings at Elciego of the Muriel and Conde de los Andes ranges; by reservation.",
+      "booking_url": "https://www.bodegasmuriel.com/en/",
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "A family group based at Elciego in Rioja Alavesa, founded in 1986, producing the Muriel range and the more traditional Conde de los Andes Reserva and Gran Reserva.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.bodegasmuriel.com/en/",
+        "address_quoted": "Elciego",
+        "open_status": "open",
+        "open_evidence_url": "https://lariojaturismo.com/en/",
+        "cuisine_evidence_url": "https://riojawine.com/en-us/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "ontanon",
+      "name": "Bodegas Ontanon",
+      "address": "Avenida de Aragon 3, 26006 Logrono, La Rioja, Spain",
+      "neighborhood": "Logrono",
+      "varietals": [
+        "Tempranillo",
+        "Garnacha",
+        "Graciano",
+        "Maturana Tinta",
+        "Tempranillo Blanco"
+      ],
+      "classification": "DOCa Rioja",
+      "owner": "Perez Marin family",
+      "founded": 1985,
+      "tasting_program": "Tours combining wine and art at the Logrono winery, with vineyards in Quel in Rioja Oriental; tastings of the Ontanon and Vetiver wines by reservation.",
+      "booking_url": "https://www.ontanon.es/en/",
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "A family winery linking a Logrono cellar with old-vine vineyards at Quel in Rioja Oriental, known for art-themed tours and a focus on Garnacha and heritage grapes such as Maturana.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.ontanon.es/en/",
+        "address_quoted": "Logrono",
+        "open_status": "open",
+        "open_evidence_url": "https://lariojaturismo.com/en/",
+        "cuisine_evidence_url": "https://riojawine.com/en-us/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "bodegas-valdemar",
+      "name": "Bodegas Valdemar",
+      "address": "Camino Viejo de Logrono 24, 01320 Oyon, Alava, Spain",
+      "neighborhood": "Rioja Alavesa",
+      "varietals": [
+        "Tempranillo",
+        "Garnacha",
+        "Maturana Blanca",
+        "Tempranillo Blanco"
+      ],
+      "classification": "DOCa Rioja",
+      "owner": "Martinez Bujanda family",
+      "founded": 1889,
+      "tasting_program": "Tours and tastings at Oyon, including pioneering work with recovered varieties such as Maturana Blanca; by reservation.",
+      "booking_url": "https://valdemarfamily.com/en/",
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "A Martinez Bujanda family bodega at Oyon dating to 1889, noted for reviving rare Rioja varieties such as Maturana Blanca and for its Inspiracion Valdemar range.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.valdemar.es/en/",
+        "address_quoted": "Oyon",
+        "open_status": "open",
+        "open_evidence_url": "https://lariojaturismo.com/en/",
+        "cuisine_evidence_url": "https://riojawine.com/en-us/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "bodegas-lecea",
+      "name": "Bodegas Lecea",
+      "address": "Calle Las Cuevas 246, Barrio de las Bodegas, 26340 San Asensio, La Rioja, Spain",
+      "neighborhood": "Rioja Alta",
+      "varietals": [
+        "Tempranillo",
+        "Garnacha",
+        "Viura"
+      ],
+      "classification": "DOCa Rioja",
+      "owner": "Lecea family",
+      "founded": 1962,
+      "tasting_program": "Visits to traditional rock-cut calado cellar-caves at San Asensio with tastings and the annual grape foot-treading experience; by reservation.",
+      "booking_url": "https://www.bodegaslecea.com/",
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "A grower bodega in Rioja Alta at San Asensio keeping the tradition of underground rock-cut calado cellars and foot-treading, offering hands-on harvest experiences alongside its reds.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.bodegaslecea.com/",
+        "address_quoted": "San Asensio",
+        "open_status": "open",
+        "open_evidence_url": "https://lariojaturismo.com/en/",
+        "cuisine_evidence_url": "https://riojawine.com/en-us/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "bodegas-altanza",
+      "name": "Bodegas Altanza",
+      "address": "Carretera Nacional 232 km 419, 26360 Fuenmayor, La Rioja, Spain",
+      "neighborhood": "Rioja Alta",
+      "varietals": [
+        "Tempranillo",
+        "Graciano"
+      ],
+      "classification": "DOCa Rioja",
+      "owner": "Bodegas Altanza S.A.",
+      "founded": 1998,
+      "tasting_program": "Tours of the Fuenmayor winery with tastings of the Altanza and art-label Lealtanza Reserva and Gran Reserva; by reservation.",
+      "booking_url": "https://www.bodegasaltanza.com/en/",
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "A Fuenmayor bodega founded in 1998 working mainly with estate Tempranillo, best known for the artist-label Lealtanza range of Reserva and Gran Reserva.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.bodegasaltanza.com/en/",
+        "address_quoted": "Fuenmayor",
+        "open_status": "open",
+        "open_evidence_url": "https://lariojaturismo.com/en/",
+        "cuisine_evidence_url": "https://riojawine.com/en-us/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "bodegas-olarra",
+      "name": "Bodegas Olarra",
+      "address": "Poligono de Cantabria, 26006 Logrono, La Rioja, Spain",
+      "neighborhood": "Rioja Alta",
+      "varietals": [
+        "Tempranillo",
+        "Garnacha",
+        "Mazuelo",
+        "Graciano"
+      ],
+      "classification": "DOCa Rioja",
+      "owner": "Grupo Olarra",
+      "founded": 1973,
+      "tasting_program": "Tours of the distinctive Y-shaped winery near Logrono, nicknamed the cathedral of Rioja, with tastings of the Anares and Cerro Anon ranges; by reservation.",
+      "booking_url": "https://www.bodegasolarra.es/",
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "A Logrono winery founded in 1973, famous for its Y-shaped modernist building called the cathedral of Rioja, producing the Cerro Anon and Anares Reserva and Gran Reserva.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.bodegasolarra.es/",
+        "address_quoted": "Logrono",
+        "open_status": "open",
+        "open_evidence_url": "https://lariojaturismo.com/en/",
+        "cuisine_evidence_url": "https://riojawine.com/en-us/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "tritium",
+      "name": "Bodegas Tritium",
+      "address": "Carretera de Cordovin, 26310 Badaran, La Rioja, Spain",
+      "neighborhood": "Rioja Alta",
+      "varietals": [
+        "Tempranillo",
+        "Garnacha",
+        "Graciano"
+      ],
+      "classification": "DOCa Rioja",
+      "owner": "Tritium family",
+      "founded": 2004,
+      "tasting_program": "Tours and tastings at Badaran in the Najerilla valley of Rioja Alta, including barrel-aged Tempranillo; by reservation.",
+      "booking_url": "https://www.tritium.es/",
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "A small Rioja Alta bodega at Badaran in the Najerilla valley, producing estate Tempranillo-led reds and offering visits and tastings in a quieter corner of the region.",
+      "editorial_score": 4.1,
+      "verified": {
+        "source_url": "https://www.tritium.es/",
+        "address_quoted": "Badaran",
+        "open_status": "open",
+        "open_evidence_url": "https://lariojaturismo.com/en/",
+        "cuisine_evidence_url": "https://riojawine.com/en-us/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "dinastia-vivanco-vineyards",
+      "name": "Dinastia Vivanco Vineyards",
+      "address": "Carretera Nacional 232, 26330 Briones, La Rioja, Spain",
+      "neighborhood": "Briones",
+      "varietals": [
+        "Tempranillo",
+        "Graciano",
+        "Garnacha",
+        "Maturana Tinta",
+        "Mazuelo"
+      ],
+      "classification": "DOCa Rioja",
+      "owner": "Vivanco family",
+      "founded": 1915,
+      "tasting_program": "Vineyard walks and varietal-focused tastings at the Vivanco estate in Briones, showcasing the family's collection of recovered Rioja grape varieties; by reservation.",
+      "booking_url": "https://www.dinastiavivanco.com/",
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "The Vivanco family's vineyard and brand arm at Briones, planting a living collection of Rioja and international varieties alongside its core Tempranillo and Graciano reds.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.dinastiavivanco.com/",
+        "address_quoted": "Briones",
+        "open_status": "open",
+        "open_evidence_url": "https://lariojaturismo.com/en/",
+        "cuisine_evidence_url": "https://www.vivancoculturadevino.es/",
+        "checked_on": "2026-05-25"
+      }
+    }
+  ]
 }
