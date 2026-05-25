@@ -135,6 +135,42 @@ def main() -> int:
     else:
         skipped += 1
 
+    # Country-level stub. get_all_countries() (data_loader) only recognises a
+    # country that has site-data/<country>/data/region.json; without it EVERY
+    # no-arg generator (generate_wine_pages, generate_country_stubs, cross-cut
+    # rollups) silently skips the whole country. Spain/Rioja hit this on
+    # 2026-05-25 (120 cuvee pages missing + 9 orphans). Create it once, when
+    # the country is new, so the next first-region-of-a-country just works.
+    country_stub = SITE_DATA / args.country_slug / "data" / "region.json"
+    if not country_stub.exists():
+        _CC = {
+            "france": "FR", "italy": "IT", "spain": "ES", "portugal": "PT",
+            "germany": "DE", "austria": "AT", "united-states": "US", "usa": "US",
+            "australia": "AU", "argentina": "AR", "chile": "CL", "hungary": "HU",
+            "south-africa": "ZA", "new-zealand": "NZ", "greece": "GR", "georgia": "GE",
+        }
+        cstub = {
+            "destination": {
+                "slug": args.country_slug, "name": country, "country": country,
+                "country_slug": args.country_slug, "type": "country",
+                "tagline": "", "overview": "",
+                "hero_image": "", "hero_image_source_url": "",
+                "hero_image_credit": "", "hero_image_alt": "",
+            },
+            "seo": {
+                "pages": {"index": {
+                    "title": f"{country} wine regions | Cork & Curve",
+                    "description": f"Wine regions across {country} on Cork & Curve, by editors who taste in person.",
+                }},
+                "geo": {"country_code": _CC.get(args.country_slug, "")},
+            },
+            "_metadata": {"type": "country", "status": "live"},
+        }
+        if write_stub(country_stub, cstub, args.force):
+            written += 1
+            print(f"  + created NEW-country stub site-data/{args.country_slug}/data/region.json "
+                  f"(fill tagline/overview/hero before shipping the country)")
+
     total = written + skipped
     print(f"Done: {written} written, {skipped} skipped ({total} files).")
     return 0

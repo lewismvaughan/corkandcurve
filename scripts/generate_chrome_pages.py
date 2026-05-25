@@ -999,6 +999,9 @@ PAGES = [
         "h1": "Search",
         "subtitle": "Find a region, grape, wine, vineyard or venue.",
         "page_type": "webpage",
+        # Search-results shell: noindex (keep follow) so empty/thin result
+        # states never enter the index; standard SEO practice for /search/.
+        "robots": "noindex, follow",
         "body": _search_html(),
         "breadcrumb": crumb(("Home", f"{BASE}/"), ("Search", None)),
     },
@@ -1064,7 +1067,7 @@ def render_one(renderer, spec):
             "title": spec["title"],
             "description": spec["meta_description"],
             "canonical_url": canonical,
-            "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+            "robots": spec.get("robots", "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"),
         },
         "open_graph": {
             "og_title": spec["title"],
