@@ -317,6 +317,31 @@ def collect_all() -> dict:
                 slot["country_slug"] = region["country_slug"]
                 slot["entities_by_topic"][topic_slug].append(e)
 
+        # nightlife + dietary are nested {subkey: [entities]} rather than flat
+        # lists, so they were skipped above. Their entity pages still link to
+        # /neighborhood/<region>/<slug>/, so collect their neighborhoods too or
+        # those links 404 (e.g. Logrono Centre, Siena nightlife venues).
+        for rk in ("nightlife", "dietary"):
+            nested = research.get(rk)
+            if not isinstance(nested, dict):
+                continue
+            for sub_entities in nested.values():
+                if not isinstance(sub_entities, list):
+                    continue
+                for e in sub_entities:
+                    if not isinstance(e, dict) or not e.get("neighborhood"):
+                        continue
+                    nslug = slugify(e["neighborhood"])
+                    if not nslug:
+                        continue
+                    key = (region["region_slug"], nslug)
+                    slot = by_neighborhood[key]
+                    slot["display"] = e["neighborhood"].split("(")[0].strip()
+                    slot["region_name"] = region["region_name"]
+                    slot["region_slug"] = region["region_slug"]
+                    slot["country_slug"] = region["country_slug"]
+                    slot["entities_by_topic"][rk].append(e)
+
         # Attach vibe + editorial display from neighborhoods.json.
         for n in research.get("neighborhoods", []) or []:
             if not isinstance(n, dict) or not n.get("name"):

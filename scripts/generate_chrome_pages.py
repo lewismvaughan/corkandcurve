@@ -304,80 +304,42 @@ def _dishes_html():
 
 
 def _neighborhoods_html():
-    """List every /neighborhood/<city>/<slug>/ cross-cut. Reads the
-    manifest and groups by city. Within each city the neighbourhoods
-    sort by display name (with numeric prefixes ordered naturally,
-    so "2e" comes before "11e")."""
+    """List every /neighborhood/<region>/<slug>/ cross-cut. Reads the
+    manifest and groups by region. The C&C neighbourhood manifest keys
+    each entry by region_slug / region_name (the wine-region equivalent
+    of TJ's city)."""
     entries = _load_manifest(CONTENT / "neighborhood")
     intro = (
-        "<p>Neighbourhood pages collect every restaurant, bar, market and "
-        "bakery in a single district, across the cities we cover. Plan by "
-        "where you are sleeping.</p>"
+        "<p>Sub-appellation pages collect every vineyard, tasting room, "
+        "wine bar and venue in a single cru or commune, across the wine "
+        "regions we cover. Plan by the village you are tasting in.</p>"
     )
     if not entries:
         return intro + (
-            '<p class="tj-note">No neighbourhood pages live yet. '
-            '<a href="/cities/">See cities live now</a>.</p>'
+            '<p class="tj-note">No sub-appellation pages live yet. '
+            '<a href="/regions/">See regions live now</a>.</p>'
         )
 
     def _nat_key(e: dict):
         m = re.match(r'^(\d+)', e["slug"])
         return (0, int(m.group(1))) if m else (1, e["display"].lower())
 
-    cities: dict[tuple[str, str], list[dict]] = {}
+    regions: dict[tuple[str, str], list[dict]] = {}
     for e in entries:
-        cities.setdefault((e["city_slug"], e["city_name"]), []).append(e)
-
-    # At scale (hundreds of cities), alpha-group by city name. Below
-    # threshold, render city-by-city sections.
-    if len(cities) >= _ALPHA_GROUP_THRESHOLD:
-        # Treat each city as an entry; the per-city list collapses into
-        # one anchor row that points at the first hood under that city.
-        # Cleaner alternative: link to a future /neighborhood/<city>/ index.
-        # For now we just A-Z group the city sections themselves.
-        city_entries = [
-            {"slug": s, "display": n, "_hoods": sorted(hoods, key=_nat_key)}
-            for (s, n), hoods in cities.items()
-        ]
-        city_entries.sort(key=lambda x: x["display"].lower())
-        # Build alpha-grouped, with each "card" being the city heading plus
-        # its hood list.
-        groups: dict[str, list[dict]] = {}
-        for c in city_entries:
-            first = (c["display"][:1] or "#").upper()
-            if not ("A" <= first <= "Z"):
-                first = "#"
-            groups.setdefault(first, []).append(c)
-        jumps = "".join(
-            f'<a href="#alpha-{k}">{k}</a>' for k in sorted(groups.keys())
-        )
-        sections = []
-        for letter in sorted(groups.keys()):
-            for c in groups[letter]:
-                items = "".join(
-                    f'<li><a href="/neighborhood/{h["city_slug"]}/{h["slug"]}/">'
-                    f'<strong>{h["display"]}</strong></a></li>'
-                    for h in c["_hoods"]
-                )
-                sections.append(
-                    f'<h2 id="alpha-{letter}">{c["display"]}</h2>'
-                    f'<ul class="tj-grid-list">{items}</ul>'
-                )
-        return intro + (
-            f'<nav class="tj-alpha-jumps" aria-label="Jump to letter">{jumps}</nav>'
-            + "".join(sections)
-        )
+        region_slug = e.get("region_slug") or e.get("city_slug") or ""
+        region_name = e.get("region_name") or e.get("city_name") or region_slug.replace("-", " ").title()
+        regions.setdefault((region_slug, region_name), []).append(e)
 
     sections = []
-    for (city_slug, city_name) in sorted(cities.keys(), key=lambda x: x[1].lower()):
-        hoods = sorted(cities[(city_slug, city_name)], key=_nat_key)
+    for (region_slug, region_name) in sorted(regions.keys(), key=lambda x: x[1].lower()):
+        hoods = sorted(regions[(region_slug, region_name)], key=_nat_key)
         items = "".join(
-            f'<li><a href="/neighborhood/{city_slug}/{h["slug"]}/">'
+            f'<li><a href="/neighborhood/{region_slug}/{h["slug"]}/">'
             f'<strong>{h["display"]}</strong></a></li>'
             for h in hoods
         )
         sections.append(
-            f'<h2>{city_name}</h2>'
+            f'<h2>{region_name}</h2>'
             f'<ul class="tj-grid-list">{items}</ul>'
         )
     return intro + "".join(sections)
@@ -390,6 +352,237 @@ def _topics_index_html():
         "every region we have written about it.</p>"
         + _topic_list_html()
     )
+
+
+def _live_regions():
+    """Return the live wine regions, each as a dict with country_slug,
+    region_slug, display name, country and tagline. A region is "live"
+    when it has BOTH a site-data region.json at
+    site-data/<country>/<region>/data/region.json AND a shipped hub at
+    content/<country>/<region>/index.html. Country-level region.json
+    files (no <region> segment) are skipped — those are country roll-up
+    stubs, not wine regions."""
+    import json as _json
+
+    site_data = REPO_ROOT / "site-data"
+    regions: list[dict] = []
+    if not site_data.exists():
+        return regions
+    for country_dir in sorted(site_data.iterdir()):
+        if not country_dir.is_dir():
+            continue
+        country_slug = country_dir.name
+        for region_dir in sorted(country_dir.iterdir()):
+            if not region_dir.is_dir() or region_dir.name == "data":
+                continue
+            region_slug = region_dir.name
+            region_json = region_dir / "data" / "region.json"
+            if not region_json.exists():
+                continue
+            hub = CONTENT / country_slug / region_slug / "index.html"
+            if not hub.exists():
+                continue
+            try:
+                payload = _json.loads(region_json.read_text(encoding="utf-8"))
+            except (OSError, _json.JSONDecodeError):
+                continue
+            dest = payload.get("destination", {}) or {}
+            blurb = (dest.get("tagline") or dest.get("description")
+                     or dest.get("overview") or "").strip()
+            regions.append({
+                "country_slug": country_slug,
+                "region_slug": region_slug,
+                "display": dest.get("name", region_slug.replace("-", " ").title()),
+                "country": dest.get("country", country_slug.replace("-", " ").title()),
+                "blurb": blurb,
+            })
+    regions.sort(key=lambda r: r["display"].lower())
+    return regions
+
+
+def _topic_global_html(topic_slug, topic_name):
+    """Cross-region index body for one global /topics/<slug>/ page. Lists
+    every live region that actually ships this topic (i.e. has
+    content/<country>/<region>/<topic>/index.html), linking to the
+    per-region topic page."""
+    regions = _live_regions()
+    present = [
+        r for r in regions
+        if (CONTENT / r["country_slug"] / r["region_slug"] / topic_slug / "index.html").exists()
+    ]
+    intro = (
+        f"<p>The {topic_name} chapter, indexed across every region we cover. "
+        f"Pick a region to read its {topic_name.lower()} guide in full.</p>"
+    )
+    if not present:
+        return intro + (
+            '<p class="tj-note">No region has shipped this chapter yet. '
+            '<a href="/regions/">Browse the regions live now</a>.</p>'
+        )
+
+    def _row(r):
+        sub = f'{r["country"]}. {r["blurb"]}' if r["blurb"] else r["country"]
+        return (
+            f'<li><a href="/{r["country_slug"]}/{r["region_slug"]}/{topic_slug}/">'
+            f'<strong>{r["display"]}</strong>'
+            f'<span class="tj-list-sub">{sub}</span></a></li>'
+        )
+
+    body = '<ul class="tj-grid-list">' + "".join(_row(r) for r in present) + "</ul>"
+    return intro + body
+
+
+def _tags_html():
+    """List every global wine tag, grouped A-Z, linking to /tag/<slug>/.
+    Source of truth is content/tag/_manifest.json (the same manifest the
+    tag-page generator writes). Falls back to walking content/tag/*/ dirs
+    if the manifest is missing."""
+    entries = _load_manifest(CONTENT / "tag")
+    if not entries:
+        tag_dir = CONTENT / "tag"
+        if tag_dir.is_dir():
+            entries = [
+                {"slug": d.name, "display": d.name.replace("-", " ").title()}
+                for d in sorted(tag_dir.iterdir())
+                if d.is_dir() and (d / "index.html").exists()
+            ]
+    intro = (
+        "<p>Browse Cork & Curve by tag. Every wine we cover is tagged by "
+        "style, body, sweetness, pairing, occasion and mood, so you can "
+        "jump straight to the bottles that fit how you drink.</p>"
+    )
+    if not entries:
+        return intro + (
+            '<p class="tj-note">No tags live yet. They get built '
+            'automatically from the wines in each region guide. '
+            '<a href="/regions/">See regions live now</a>.</p>'
+        )
+    entries = sorted(entries, key=lambda e: e["display"].lower())
+    return intro + _render_alpha_grouped(
+        entries, href_fn=lambda e: f"/tag/{e['slug']}/"
+    )
+
+
+def _search_html():
+    """Body for the /search/ results page. Dependency-free vanilla JS:
+    reads ?q= from the URL, fetches /search/search-index.json, ranks
+    entries by token match + weight, and renders result links. The page
+    itself carries full site chrome because it is rendered through the
+    same chrome/page.html template as every other PAGES entry."""
+    return """
+<div class="tj-container tj-prose" style="max-width:760px;">
+  <form role="search" action="/search/" method="get" style="margin:0 0 24px;">
+    <label class="tj-sr-only" for="cc-search-q">Search regions, grapes, wines</label>
+    <input id="cc-search-q" type="search" name="q" autocomplete="off"
+      spellcheck="false"
+      placeholder="Search regions, grapes, wines"
+      style="width:100%;padding:12px 16px;border:1px solid var(--tj-border);
+      border-radius:var(--tj-radius-pill);background:var(--tj-surface);
+      color:inherit;font-size:1.05rem;">
+  </form>
+  <p id="cc-search-status" class="tj-note" aria-live="polite"></p>
+  <ul id="cc-search-results" class="tj-grid-list"></ul>
+</div>
+<script>
+(function () {
+  var input = document.getElementById('cc-search-q');
+  var status = document.getElementById('cc-search-status');
+  var results = document.getElementById('cc-search-results');
+  if (!input || !status || !results) return;
+
+  function getQuery() {
+    var m = /[?&]q=([^&]*)/.exec(window.location.search);
+    return m ? decodeURIComponent(m[1].replace(/\\+/g, ' ')).trim() : '';
+  }
+
+  function tokenize(s) {
+    return (s || '').toLowerCase().split(/[^a-z0-9]+/).filter(Boolean);
+  }
+
+  function escapeHtml(s) {
+    return String(s || '').replace(/[&<>"']/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+    });
+  }
+
+  var index = null;
+
+  function render(query) {
+    if (!query) {
+      status.textContent = 'Type a region, grape, wine or venue to search.';
+      results.innerHTML = '';
+      return;
+    }
+    if (!index) {
+      status.textContent = 'Loading search index...';
+      return;
+    }
+    var qTokens = tokenize(query);
+    if (!qTokens.length) {
+      status.textContent = 'Type a region, grape, wine or venue to search.';
+      results.innerHTML = '';
+      return;
+    }
+    var scored = [];
+    for (var i = 0; i < index.length; i++) {
+      var entry = index[i];
+      var tokStr = Array.isArray(entry.tokens) ? entry.tokens.join(' ') : (entry.tokens || '');
+      var hay = (tokStr + ' ' + (entry.name || '') + ' ' +
+        (entry.subtitle || '')).toLowerCase();
+      var score = 0;
+      for (var t = 0; t < qTokens.length; t++) {
+        var tok = qTokens[t];
+        if ((entry.name || '').toLowerCase().indexOf(tok) === 0) score += 6;
+        else if ((entry.name || '').toLowerCase().indexOf(tok) !== -1) score += 4;
+        if (hay.indexOf(tok) !== -1) score += 2;
+      }
+      if (score > 0) {
+        score += (entry.weight || 0);
+        scored.push({ e: entry, s: score });
+      }
+    }
+    scored.sort(function (a, b) { return b.s - a.s; });
+    var top = scored.slice(0, 60);
+    if (!top.length) {
+      status.textContent = 'No matches for "' + query + '". Try a broader term.';
+      results.innerHTML = '';
+      return;
+    }
+    status.textContent = top.length + ' result' + (top.length === 1 ? '' : 's') +
+      ' for "' + query + '".';
+    var html = '';
+    for (var k = 0; k < top.length; k++) {
+      var e = top[k].e;
+      var sub = e.subtitle ? '<span class="tj-list-sub">' + escapeHtml(e.subtitle) + '</span>' : '';
+      html += '<li><a href="' + escapeHtml(e.url) + '"><strong>' +
+        escapeHtml(e.name) + '</strong>' + sub + '</a></li>';
+    }
+    results.innerHTML = html;
+  }
+
+  var q = getQuery();
+  input.value = q;
+  document.title = q ? ('Search: ' + q + ' | Cork & Curve') : document.title;
+  status.textContent = 'Loading search index...';
+
+  fetch('/search/search-index.json')
+    .then(function (r) { return r.json(); })
+    .then(function (data) {
+      index = Array.isArray(data) ? data : (data.entries || data.index || []);
+      render(input.value.trim());
+    })
+    .catch(function () {
+      status.textContent = 'Search is unavailable right now. Please try again later.';
+    });
+
+  var timer = null;
+  input.addEventListener('input', function () {
+    clearTimeout(timer);
+    timer = setTimeout(function () { render(input.value.trim()); }, 120);
+  });
+})();
+</script>
+"""
 
 
 def _about_html():
@@ -780,6 +973,36 @@ PAGES = [
         "breadcrumb": crumb(("Home", f"{BASE}/"), ("Topics", None)),
     },
     {
+        "slug": "neighborhoods",
+        "title": "Wine neighbourhoods. sub-appellations across regions",
+        "meta_description": "Browse Cork & Curve by sub-appellation. Every cru, commune and sub-zone within the wine regions we cover, so you can plan by the village you are tasting in.",
+        "h1": "Wine neighbourhoods",
+        "subtitle": "Sub-appellations and crus across every region.",
+        "page_type": "collection",
+        "body": _neighborhoods_html(),
+        "breadcrumb": crumb(("Home", f"{BASE}/"), ("Neighbourhoods", None)),
+    },
+    {
+        "slug": "tags",
+        "title": "Wine tags. browse by style, pairing, occasion, mood",
+        "meta_description": "Browse Cork & Curve by tag. Find wines by style, body, sweetness, food pairing, occasion and mood, indexed across every region we cover.",
+        "h1": "Wine tags",
+        "subtitle": "Browse by style, pairing, occasion and mood.",
+        "page_type": "collection",
+        "body": _tags_html(),
+        "breadcrumb": crumb(("Home", f"{BASE}/"), ("Tags", None)),
+    },
+    {
+        "slug": "search",
+        "title": "Search Cork & Curve. regions, grapes, wines and venues",
+        "meta_description": "Search Cork & Curve across every region, grape, signature wine, vineyard and venue we cover. Type a name to jump straight to the guide.",
+        "h1": "Search",
+        "subtitle": "Find a region, grape, wine, vineyard or venue.",
+        "page_type": "webpage",
+        "body": _search_html(),
+        "breadcrumb": crumb(("Home", f"{BASE}/"), ("Search", None)),
+    },
+    {
         "slug": "privacy",
         "title": "Privacy. what we collect and what we do not",
         "meta_description": "Cork & Curve's privacy notice. What data we collect, why, what we never do (sell your data, profile you across sites), and how to ask for a copy or a deletion.",
@@ -877,12 +1100,53 @@ def render_one(renderer, spec):
     return out
 
 
+def _topic_global_specs():
+    """One chrome-page spec per WINE_TOPIC_NAV entry, rendered at
+    /topics/<slug>/. Cross-region index linking to every live region that
+    ships the topic."""
+    specs = []
+    for t in WINE_TOPIC_NAV:
+        slug = t["slug"]
+        name = t["name"]
+        specs.append({
+            "slug": f"topics/{slug}",
+            "title": f"{name}. every region, indexed | Cork & Curve",
+            "meta_description": (
+                f"{name} across every wine region Cork & Curve covers. "
+                f"Pick a region to read its {name.lower()} guide, written by "
+                f"editors on the ground."
+            ),
+            "h1": name,
+            "subtitle": f"The {name.lower()} chapter, across every region.",
+            "page_type": "collection",
+            "body": _topic_global_html(slug, name),
+            "breadcrumb": crumb(
+                ("Home", f"{BASE}/"),
+                ("Topics", f"{BASE}/topics/"),
+                (name, None),
+            ),
+        })
+    return specs
+
+
 def main() -> int:
     renderer = TemplateRenderer()
-    for spec in PAGES:
+    specs = list(PAGES) + _topic_global_specs()
+    for spec in specs:
         out = render_one(renderer, spec)
         print(f"wrote {out}")
-    print(f"Rendered {len(PAGES)} chrome pages.")
+    print(f"Rendered {len(specs)} chrome pages.")
+
+    # Feed + PWA manifest are linked site-wide from base.html. Regenerate
+    # them on every chrome run so /feed.xml stays in sync with the live
+    # region set and /site.webmanifest never 404s.
+    try:
+        import generate_feed  # noqa: E402  (same scripts/ dir, on sys.path)
+        print(f"wrote {generate_feed.write_feed()}")
+        print(f"wrote {generate_feed.write_manifest()}")
+    except Exception as exc:  # pragma: no cover - non-fatal
+        print(f"WARNING: feed/manifest generation failed: {exc}")
+
     return 0
 
 

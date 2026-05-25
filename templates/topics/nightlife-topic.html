@@ -15,11 +15,10 @@
 {% set sub_url = (('/' ~ country_slug ~ '/' ~ region_slug ~ '/nightlife/' ~ cat_slug ~ '/') if region_slug else '') %}
 {% if places %}
 <section class="tj-section" id="{{ category }}">
-    {% if sub_url and (places is iterable and places is not string) and (places | length >= 1) %}
-    <h2><a href="{{ sub_url }}">{{ cat_label }} in {{ destination.name }}</a></h2>
-    {% else %}
-    <h2>{{ cat_label }}</h2>
-    {% endif %}
+    {# Subcategory header is a plain heading anchored by the section id above;
+       there is no per-subcategory page (/<region>/nightlife/<subkey>/ does
+       not exist), so it must not be a link. #}
+    <h2>{{ cat_label }} in {{ destination.name }}</h2>
     {% if places is iterable and places is not string %}
     <div class="tj-card-grid">
         {% for p in places %}{{ place_card(p, destination.name, ('/' ~ country_slug ~ '/' ~ region_slug ~ '/nightlife/' ~ p.slug ~ '/') if (region_slug and p.slug) else p._url) }}{% endfor %}

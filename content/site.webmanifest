@@ -1,0 +1,21 @@
+{
+  "name": "Cork & Curve",
+  "short_name": "Cork & Curve",
+  "description": "Wine and spirits travel guides. Where the world drinks.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#6b1f3a",
+  "theme_color": "#6b1f3a",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}

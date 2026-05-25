@@ -159,6 +159,18 @@ def _walk_cross_cuts() -> list:
             for hood_dir in sorted(city_dir.iterdir()):
                 if hood_dir.is_dir() and (hood_dir / "index.html").exists():
                     out.append(f"/neighborhood/{city_dir.name}/{hood_dir.name}/")
+    # Global topic landings /topics/<slug>/ (one per wine topic, aggregating
+    # that topic across regions). The /topics/ index is a chrome page.
+    tdir = OUT_DIR / "topics"
+    if tdir.is_dir():
+        for slug_dir in sorted(tdir.iterdir()):
+            if slug_dir.is_dir() and (slug_dir / "index.html").exists():
+                out.append(f"/topics/{slug_dir.name}/")
+    # Plural cross-cut index landings. (/search/ is deliberately excluded:
+    # a search-results shell should not be indexed.)
+    for idx in ("neighborhoods", "tags"):
+        if (OUT_DIR / idx / "index.html").exists():
+            out.append(f"/{idx}/")
     return out
 
 

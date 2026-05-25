@@ -317,12 +317,17 @@ def _enrich_neighborhoods(research: Dict[str, Any], country_slug: str, region_sl
                     if isinstance(e, dict) and e.get("neighborhood"):
                         used.add(e["neighborhood"])
 
+    from utils.slug import slugify  # local import: avoids a module-level cycle
     base = f"/neighborhood/{region_slug}/"
     for n in hoods:
         if not isinstance(n, dict):
             continue
         aliases = n.get("aliases") or []
-        linked = [{"code": a, "url": f"{base}{a}/"} for a in aliases if a in used]
+        # The cross-cut page lives at the SLUGIFIED path (generate_cross_cuts
+        # writes /neighborhood/<region>/<slugify(neighborhood)>/), so the link
+        # must slugify too. Raw aliases ("Rioja Alavesa", "Cote de Nuits") in
+        # the URL 404'd on every region hub before this.
+        linked = [{"code": a, "url": f"{base}{slugify(a)}/"} for a in aliases if a in used]
         if linked:
             n["_link_url"] = linked[0]["url"]
             n["_linked_aliases"] = linked

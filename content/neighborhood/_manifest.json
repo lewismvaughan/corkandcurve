@@ -22,6 +22,13 @@
       "country_slug": "france"
     },
     {
+      "slug": "barsac-sauternes",
+      "display": "Barsac, Sauternes",
+      "region_slug": "bordeaux",
+      "region_name": "Bordeaux",
+      "country_slug": "france"
+    },
+    {
       "slug": "bordeaux-city-centre",
       "display": "Bordeaux city centre",
       "region_slug": "bordeaux",
@@ -127,6 +134,13 @@
       "country_slug": "france"
     },
     {
+      "slug": "la-bastide-right-bank-of-garonne-bordeaux",
+      "display": "La Bastide",
+      "region_slug": "bordeaux",
+      "region_name": "Bordeaux",
+      "country_slug": "france"
+    },
+    {
       "slug": "lac-district-bordeaux",
       "display": "Lac district, Bordeaux",
       "region_slug": "bordeaux",
@@ -136,6 +150,13 @@
     {
       "slug": "margaux-aoc",
       "display": "Margaux AOC",
+      "region_slug": "bordeaux",
+      "region_name": "Bordeaux",
+      "country_slug": "france"
+    },
+    {
+      "slug": "meriadeck-bordeaux",
+      "display": "Meriadeck, Bordeaux",
       "region_slug": "bordeaux",
       "region_name": "Bordeaux",
       "country_slug": "france"
@@ -260,6 +281,13 @@
       "country_slug": "france"
     },
     {
+      "slug": "saint-pierre-bordeaux",
+      "display": "Saint-Pierre, Bordeaux",
+      "region_slug": "bordeaux",
+      "region_name": "Bordeaux",
+      "country_slug": "france"
+    },
+    {
       "slug": "saint-pierre-quarter-bordeaux",
       "display": "Saint-Pierre quarter, Bordeaux",
       "region_slug": "bordeaux",
@@ -290,6 +318,13 @@
     {
       "slug": "across-burgundy",
       "display": "Across Burgundy",
+      "region_slug": "burgundy",
+      "region_name": "Burgundy",
+      "country_slug": "france"
+    },
+    {
+      "slug": "arbois-jura-day-trip",
+      "display": "Arbois",
       "region_slug": "burgundy",
       "region_name": "Burgundy",
       "country_slug": "france"
@@ -332,6 +367,13 @@
     {
       "slug": "chambolle-musigny",
       "display": "Chambolle-Musigny",
+      "region_slug": "burgundy",
+      "region_name": "Burgundy",
+      "country_slug": "france"
+    },
+    {
+      "slug": "chatillonnais",
+      "display": "Chatillonnais",
       "region_slug": "burgundy",
       "region_name": "Burgundy",
       "country_slug": "france"
@@ -393,7 +435,21 @@
       "country_slug": "france"
     },
     {
+      "slug": "hautes-cotes-de-nuits",
+      "display": "Hautes-Cotes de Nuits",
+      "region_slug": "burgundy",
+      "region_name": "Burgundy",
+      "country_slug": "france"
+    },
+    {
       "slug": "levernois",
+      "display": "Levernois",
+      "region_slug": "burgundy",
+      "region_name": "Burgundy",
+      "country_slug": "france"
+    },
+    {
+      "slug": "levernois-near-beaune",
       "display": "Levernois",
       "region_slug": "burgundy",
       "region_name": "Burgundy",
@@ -437,6 +493,13 @@
     {
       "slug": "pommard",
       "display": "Pommard",
+      "region_slug": "burgundy",
+      "region_name": "Burgundy",
+      "country_slug": "france"
+    },
+    {
+      "slug": "premeaux-prissey-nuits-saint-georges",
+      "display": "Premeaux-Prissey",
       "region_slug": "burgundy",
       "region_name": "Burgundy",
       "country_slug": "france"
@@ -534,14 +597,14 @@
     },
     {
       "slug": "calle-laurel-logrono",
-      "display": "Calle Laurel, Logrono",
+      "display": "Calle Laurel",
       "region_slug": "rioja",
       "region_name": "Rioja",
       "country_slug": "spain"
     },
     {
       "slug": "calle-san-juan-logrono",
-      "display": "Calle San Juan, Logrono",
+      "display": "Calle San Juan",
       "region_slug": "rioja",
       "region_name": "Rioja",
       "country_slug": "spain"
@@ -556,6 +619,13 @@
     {
       "slug": "casco-antiguo-logrono",
       "display": "Casco Antiguo, Logrono",
+      "region_slug": "rioja",
+      "region_name": "Rioja",
+      "country_slug": "spain"
+    },
+    {
+      "slug": "casco-viejo-logrono",
+      "display": "Casco Viejo",
       "region_slug": "rioja",
       "region_name": "Rioja",
       "country_slug": "spain"
@@ -654,6 +724,13 @@
     {
       "slug": "logrono",
       "display": "Logrono",
+      "region_slug": "rioja",
+      "region_name": "Rioja",
+      "country_slug": "spain"
+    },
+    {
+      "slug": "logrono-centre",
+      "display": "Logrono centre",
       "region_slug": "rioja",
       "region_name": "Rioja",
       "country_slug": "spain"
@@ -855,8 +932,22 @@
       "country_slug": "italy"
     },
     {
+      "slug": "chianti-rufina",
+      "display": "Chianti Rufina",
+      "region_slug": "tuscany",
+      "region_name": "Tuscany",
+      "country_slug": "italy"
+    },
+    {
       "slug": "chianti-rufina-docg",
       "display": "Chianti Rufina DOCG",
+      "region_slug": "tuscany",
+      "region_name": "Tuscany",
+      "country_slug": "italy"
+    },
+    {
+      "slug": "duomo-florence",
+      "display": "Duomo",
       "region_slug": "tuscany",
       "region_name": "Tuscany",
       "country_slug": "italy"
@@ -904,6 +995,13 @@
       "country_slug": "italy"
     },
     {
+      "slug": "montalcino",
+      "display": "Montalcino",
+      "region_slug": "tuscany",
+      "region_name": "Tuscany",
+      "country_slug": "italy"
+    },
+    {
       "slug": "morellino-di-scansano",
       "display": "Morellino di Scansano",
       "region_slug": "tuscany",
@@ -919,7 +1017,14 @@
     },
     {
       "slug": "oltrarno-florence",
-      "display": "Oltrarno, Florence",
+      "display": "Oltrarno",
+      "region_slug": "tuscany",
+      "region_name": "Tuscany",
+      "country_slug": "italy"
+    },
+    {
+      "slug": "panzano-chianti-classico",
+      "display": "Panzano",
       "region_slug": "tuscany",
       "region_name": "Tuscany",
       "country_slug": "italy"
@@ -927,6 +1032,20 @@
     {
       "slug": "panzano-in-chianti",
       "display": "Panzano in Chianti",
+      "region_slug": "tuscany",
+      "region_name": "Tuscany",
+      "country_slug": "italy"
+    },
+    {
+      "slug": "peretola-florence",
+      "display": "Peretola",
+      "region_slug": "tuscany",
+      "region_name": "Tuscany",
+      "country_slug": "italy"
+    },
+    {
+      "slug": "piazza-della-signoria-florence",
+      "display": "Piazza della Signoria",
       "region_slug": "tuscany",
       "region_name": "Tuscany",
       "country_slug": "italy"
@@ -940,7 +1059,7 @@
     },
     {
       "slug": "ponte-vecchio-florence",
-      "display": "Ponte Vecchio, Florence",
+      "display": "Ponte Vecchio",
       "region_slug": "tuscany",
       "region_name": "Tuscany",
       "country_slug": "italy"
@@ -954,14 +1073,21 @@
     },
     {
       "slug": "san-frediano-florence",
-      "display": "San Frediano, Florence",
+      "display": "San Frediano",
       "region_slug": "tuscany",
       "region_name": "Tuscany",
       "country_slug": "italy"
     },
     {
       "slug": "san-lorenzo-florence",
-      "display": "San Lorenzo, Florence",
+      "display": "San Lorenzo",
+      "region_slug": "tuscany",
+      "region_name": "Tuscany",
+      "country_slug": "italy"
+    },
+    {
+      "slug": "san-marco-florence",
+      "display": "San Marco",
       "region_slug": "tuscany",
       "region_name": "Tuscany",
       "country_slug": "italy"
@@ -975,14 +1101,14 @@
     },
     {
       "slug": "san-niccolo-florence",
-      "display": "San Niccolo, Florence",
+      "display": "San Niccolo",
       "region_slug": "tuscany",
       "region_name": "Tuscany",
       "country_slug": "italy"
     },
     {
       "slug": "sant-ambrogio-florence",
-      "display": "Sant'Ambrogio, Florence",
+      "display": "Sant'Ambrogio",
       "region_slug": "tuscany",
       "region_name": "Tuscany",
       "country_slug": "italy"
@@ -996,7 +1122,14 @@
     },
     {
       "slug": "santo-spirito-florence",
-      "display": "Santo Spirito, Florence",
+      "display": "Santo Spirito",
+      "region_slug": "tuscany",
+      "region_name": "Tuscany",
+      "country_slug": "italy"
+    },
+    {
+      "slug": "siena",
+      "display": "Siena",
       "region_slug": "tuscany",
       "region_name": "Tuscany",
       "country_slug": "italy"
@@ -1009,8 +1142,22 @@
       "country_slug": "italy"
     },
     {
+      "slug": "strozzi-florence",
+      "display": "Strozzi",
+      "region_slug": "tuscany",
+      "region_name": "Tuscany",
+      "country_slug": "italy"
+    },
+    {
       "slug": "suvereto-docg-val-di-cornia-coastal-area",
       "display": "Suvereto DOCG",
+      "region_slug": "tuscany",
+      "region_name": "Tuscany",
+      "country_slug": "italy"
+    },
+    {
+      "slug": "tornabuoni-florence",
+      "display": "Tornabuoni",
       "region_slug": "tuscany",
       "region_name": "Tuscany",
       "country_slug": "italy"

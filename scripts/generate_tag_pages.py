@@ -503,7 +503,10 @@ def main() -> int:
             tag_slug=tag_slug, tag_display=display, tag_axis=axis,
             wines=wines, scope="global", scope_region=None,
             related_tags=related,
-            scope_regions_with_tag=regions_with_tag,
+            # Only link regions that will actually get a scoped page below
+            # (count >= threshold); else the global page 404s on single-cuvée
+            # regions whose scoped page is never written.
+            scope_regions_with_tag=[r for r in regions_with_tag if r["count"] >= args.region_threshold],
             out_path=out_global,
         )
         global_pages += 1
