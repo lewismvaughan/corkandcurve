@@ -1,0 +1,214 @@
+{
+  "tasting_rooms": [
+    {
+      "slug": "marche-aux-vins-beaune",
+      "name": "Marche aux Vins",
+      "address": "2 Rue Nicolas Rolin, 21200 Beaune, France",
+      "neighborhood": "Beaune town centre",
+      "varietals_focus": ["Pinot Noir", "Chardonnay", "Aligote", "Gamay"],
+      "pricing": "Self-guided cellar tastings from EUR 21; Climats and Grand Cru flights up to EUR 80 by reservation",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": null,
+      "description": "Burgundy's best-known walk-in tasting cellar, set in the 15th-century Church of the Cordeliers opposite the Hospices de Beaune. Flights run from regional appellations up to Grand Cru in the vaulted cellars.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://marcheauxvins.com/en/",
+        "address_quoted": "2 Rue Nicolas Rolin, 21200 Beaune",
+        "open_status": "open",
+        "open_evidence_url": "https://www.burgundy-tourism.com/discover-burgundy/city-breaks/sightseeing-in-beaune-capital-of-burgundy-wines/",
+        "cuisine_evidence_url": "https://marcheauxvins.com/en/tours-and-tastings/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "caves-patriarche-beaune",
+      "name": "Caves Patriarche Pere et Fils",
+      "address": "5-7 Rue du College, 21200 Beaune, France",
+      "neighborhood": "Beaune town centre",
+      "varietals_focus": ["Pinot Noir", "Chardonnay", "Aligote"],
+      "pricing": "Self-guided cellar tour and tasting from EUR 20; reservations recommended online",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": null,
+      "description": "Burgundy's largest cellars, five kilometres of vaulted galleries under Beaune holding around two million ageing bottles. Self-guided audio tour ends in a tasting of the Patriarche range.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.patriarche.com/",
+        "address_quoted": "Caves Patriarche",
+        "open_status": "open",
+        "open_evidence_url": "https://booking.beaune-tourism.com/caves-patriarche-pere-fils-self-guided-tour-and-tasting.html",
+        "cuisine_evidence_url": "https://www.patriarche.com/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "domaine-laroche-obediencerie-chablis",
+      "name": "Domaine Laroche L'Obediencerie",
+      "address": "22 Rue Louis Bro, 89800 Chablis, France",
+      "neighborhood": "Chablis",
+      "varietals_focus": ["Chardonnay"],
+      "pricing": "Guided tour and tasting by reservation; boutique tastings of Chablis crus during opening hours",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": null,
+      "description": "Tasting cellars inside a former 9th-century monastery in Chablis, complete with a 13th-century press. Flights cover the Domaine Laroche Chablis, Premier Cru and Grand Cru range.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.larochewines.com/en/you-are-welcome-visit-us",
+        "address_quoted": "22, rue Louis Bro, 89800 Chablis",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g1079400-d10980839-Reviews-Domaine_Laroche-Chablis_Yonne_Bourgogne_Franche_Comte.html",
+        "cuisine_evidence_url": "https://larochewines.com/en/obediencerie-and-saint-martin/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "la-chablisienne-caveau-chablis",
+      "name": "La Chablisienne Caveau de Chablis",
+      "address": "8 Boulevard Pasteur, 89800 Chablis, France",
+      "neighborhood": "Chablis",
+      "varietals_focus": ["Chardonnay"],
+      "pricing": "Walk-in tastings at the caveau; structured flights of Petit Chablis through Grand Cru",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": null,
+      "description": "The tasting cellar of the Chablis cooperative, pouring the full range from Petit Chablis to the Grand Cru climats including Les Clos and Chateau Grenouilles.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://chablisienne.com/en/our-cellars.html",
+        "address_quoted": "8, boulevard pasteur, 89800 Chablis",
+        "open_status": "open",
+        "open_evidence_url": "https://www.chablis-wines.com/visit/wine-producers/laroche-chablis-89800,3301,16192.html",
+        "cuisine_evidence_url": "https://chablisienne.com/en/our-cellars.html",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "cite-climats-vins-beaune-tasting",
+      "name": "Cite des Climats et vins de Bourgogne Beaune Tasting Bar",
+      "address": "21 Avenue Charles de Gaulle, 21200 Beaune, France",
+      "neighborhood": "Beaune",
+      "varietals_focus": ["Pinot Noir", "Chardonnay", "Aligote"],
+      "pricing": "Discovery trail plus tasting workshops from around EUR 25; by-the-glass at the wine bar",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": null,
+      "description": "The Beaune flagship of the Cite des Climats network, with a tasting bar and workshop rooms running flights across the Cote d'Or, Chablis, Grand Auxerrois and Maconnais.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.citeclimatsvins-bourgogne.com/en/",
+        "address_quoted": "21 avenue Charles de Gaulle 21200, Beaune",
+        "open_status": "open",
+        "open_evidence_url": "https://www.ruedesvignerons.com/en/domaine/1828/cite-des-climats-et-vins-de-bourgogne-beaune",
+        "cuisine_evidence_url": "https://www.citeclimatsvins-bourgogne.com/en/cite-in-beaune/taste/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "sensation-vin-beaune",
+      "name": "Sensation Vin",
+      "address": "2A Rue Paul Bouchard, 21200 Beaune, France",
+      "neighborhood": "Beaune town centre",
+      "varietals_focus": ["Pinot Noir", "Chardonnay", "Aligote"],
+      "pricing": "The Essentials from EUR 60; Premier vs Grand Cru EUR 100; Grand Cru Experience EUR 250",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": null,
+      "description": "Dedicated Burgundy tasting room near the Hospices, founded 2006, running around 450 guided classes a year in French and English with blind-tasting and Grand Cru flights.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.sensation-vin.com/en/",
+        "address_quoted": "2A Rue Paul Bouchard - 21200 BEAUNE",
+        "open_status": "open",
+        "open_evidence_url": "https://decantertours.com/the-ultimate-guide-to-beaune-your-gateway-to-burgundy-wine-country/",
+        "cuisine_evidence_url": "https://www.sensation-vin.com/en/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "place-des-grands-crus-beaune",
+      "name": "Place des Grands Crus",
+      "address": "20 Place Carnot, 21200 Beaune, France",
+      "neighborhood": "Beaune town centre",
+      "varietals_focus": ["Pinot Noir", "Chardonnay"],
+      "pricing": "By-the-glass and guided flights of Premier Cru and Grand Cru Burgundy at the tasting counter",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": null,
+      "description": "Tasting room and boutique on Place Carnot focused on Premier Cru and Grand Cru Burgundy, with by-the-glass pours and curated producer flights in the centre of Beaune.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.placedesgrandscrus.com/?lang=en",
+        "address_quoted": "20 Pl. Carnot, 21200 Beaune",
+        "open_status": "open",
+        "open_evidence_url": "https://www.burgundy-tourism.com/discover-burgundy/city-breaks/sightseeing-in-beaune-capital-of-burgundy-wines/",
+        "cuisine_evidence_url": "https://www.placedesgrandscrus.com/?lang=en",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "cite-climats-vins-macon-tasting",
+      "name": "Cite des Climats et vins de Bourgogne Macon Tasting Bar",
+      "address": "520 Avenue Marechal de Lattre de Tassigny, 71000 Macon, France",
+      "neighborhood": "Macon",
+      "varietals_focus": ["Chardonnay", "Gamay", "Pinot Noir"],
+      "pricing": "Discovery trail plus tasting workshops; wine bar pours of Maconnais appellations",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": null,
+      "description": "The Macon site of the Cite des Climats network inside the renovated BIVB premises, telling the story of southern Burgundy along the Saone with a tasting bar of Maconnais whites.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.citeclimatsvins-bourgogne.com/en/",
+        "address_quoted": "520 av. Marechal de Lattre de Tassigny 71000, Macon",
+        "open_status": "open",
+        "open_evidence_url": "https://www.ruedesvignerons.com/en/domaine/1988/cite-des-climats-et-vins-de-bourgogne-macon",
+        "cuisine_evidence_url": "https://www.burgundy-tourism.com/museums/cite-des-climats-et-vins-de-bourgogne-macon",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "cite-climats-vins-chablis-tasting",
+      "name": "Cite des Climats et vins de Bourgogne Chablis Tasting Bar",
+      "address": "1 bis Rue de Chichee, 89800 Chablis, France",
+      "neighborhood": "Chablis",
+      "varietals_focus": ["Chardonnay"],
+      "pricing": "Discovery trail plus tasting workshops; wine bar pours of Chablis appellations",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": null,
+      "description": "The Chablis site of the Cite des Climats network in the village centre, presenting the heritage of Chablis Chardonnay with a tasting bar pouring Petit Chablis through Grand Cru.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.citeclimatsvins-bourgogne.com/en/",
+        "address_quoted": "1 bis rue de Chichee, 89800, Chablis",
+        "open_status": "open",
+        "open_evidence_url": "https://www.bourgogne-tourisme.com/musees/cite-des-climats-et-vins-de-bourgogne-chablis",
+        "cuisine_evidence_url": "https://www.france.fr/en/article/cite-des-climat-burgundy-wines-experiences/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "cave-des-hospices-beaune",
+      "name": "Cave des Hospices de Beaune",
+      "address": "Place du General Leclerc, 21200 Beaune, France",
+      "neighborhood": "Beaune town centre",
+      "varietals_focus": ["Pinot Noir", "Chardonnay"],
+      "pricing": "Guided tastings of the Hospices cuvees; producer flights by reservation",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": null,
+      "description": "Beaune tasting cellar specialising in the cuvees of the Hospices de Beaune estate, the wines sold each November at the historic charity auction, alongside other Cote d'Or producers.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://cavedeshospices.com/index-uk.php",
+        "address_quoted": "Beaune",
+        "open_status": "open",
+        "open_evidence_url": "https://www.burgundy-tourism.com/discover-burgundy/city-breaks/sightseeing-in-beaune-capital-of-burgundy-wines/",
+        "cuisine_evidence_url": "https://cavedeshospices.com/index-uk.php",
+        "checked_on": "2026-05-25"
+      }
+    }
+  ]
+}

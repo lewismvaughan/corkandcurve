@@ -1,0 +1,136 @@
+{
+  "wine_hotels": [
+    {
+      "slug": "hostellerie-de-levernois",
+      "name": "Hostellerie de Levernois",
+      "address": "15 Rue du Golf, 21200 Levernois, France",
+      "neighborhood": "Levernois",
+      "parent_vineyard": null,
+      "category": "5-star Relais et Chateaux estate hotel",
+      "rooms": 26,
+      "description": "Relais et Chateaux property in an 18th-century mansion set in a seven-hectare riverside park five kilometres from Beaune, with a Michelin-starred restaurant, a bistro and a tasting cellar of more than 1,000 wines.",
+      "wine_program": "Burgundy and cheese tastings; cellar of more than 1,000 wines; base for visiting Gevrey-Chambertin, Vosne-Romanee, Puligny-Montrachet and Meursault",
+      "price_range": "EUR 250-700 per night",
+      "booking_url": "https://www.levernois.com/en/",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.levernois.com/en/",
+        "address_quoted": "15 Rue du Golf, 21200 Levernois - France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.relaischateaux.com/us/hotel/hostellerie-de-levernois/",
+        "cuisine_evidence_url": "https://www.tripadvisor.com/Hotel_Review-g666636-d232357-Reviews-Relais_Chateaux_Hostellerie_de_Levernois-Levernois_Cote_d_Or_Bourgogne_Franche_Comte.html",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "hotel-le-cep-beaune",
+      "name": "Hotel Le Cep",
+      "address": "27 Rue Maufoux, 21200 Beaune, France",
+      "neighborhood": "Beaune town centre",
+      "parent_vineyard": null,
+      "category": "5-star hotel and spa",
+      "rooms": 71,
+      "description": "Five-star hotel and spa in the heart of Beaune across a cluster of historic townhouses, with rooms named after famous Burgundy crus and antiques throughout. Next door to the Michelin-starred Loiseau des Vignes.",
+      "wine_program": "Rooms themed on Burgundy appellations; concierge-arranged tastings and cellar visits; adjoining Loiseau des Vignes by-the-glass programme",
+      "price_range": "EUR 250-600 per night",
+      "booking_url": "https://www.hotel-cep-beaune.com/en/",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.hotel-cep-beaune.com/en/",
+        "address_quoted": "27 rue Maufoux, Beaune, France 21206",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Hotel_Review-g187109-d206485-Reviews-Hotel_Le_Cep-Beaune_Cote_d_Or_Bourgogne_Franche_Comte.html",
+        "cuisine_evidence_url": "https://www.hotel-cep-beaune.com/en/rooms-suites/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "chateau-de-gilly-vougeot",
+      "name": "Chateau de Gilly",
+      "address": "Place du Bourg, 21640 Gilly-les-Citeaux, France",
+      "neighborhood": "Vougeot",
+      "parent_vineyard": null,
+      "category": "4-star chateau hotel",
+      "rooms": 48,
+      "description": "Former residence of the Cistercian monks two minutes from Vougeot, at the heart of the Grand Cru belt between Dijon and Beaune. Vaulted dining hall, formal gardens and 48 rooms across the chateau and lodges.",
+      "wine_program": "Base for the Clos de Vougeot and Route des Grands Crus; tastings and estate visits arranged in the surrounding Cote de Nuits",
+      "price_range": "EUR 180-500 per night",
+      "booking_url": "https://www.grandesetapes.com/chateau-hotel-gilly-bourgogne/en/",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.grandesetapes.com/chateau-hotel-gilly-bourgogne/en/",
+        "address_quoted": "Vougeot",
+        "open_status": "open",
+        "open_evidence_url": "https://www.travelweekly.com/Hotels/Vougeot-France/Chateau-de-Gilly-p3705568",
+        "cuisine_evidence_url": "https://www.grandesetapes.com/chateau-hotel-gilly-bourgogne/en/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "ermitage-de-corton-chorey-les-beaune",
+      "name": "Ermitage de Corton",
+      "address": "Route de Dijon D974, 21200 Chorey-les-Beaune, France",
+      "neighborhood": "Chorey-les-Beaune",
+      "parent_vineyard": null,
+      "category": "Boutique hotel and restaurant",
+      "rooms": 13,
+      "description": "Boutique hotel and restaurant set among the vineyards just north of Beaune at the foot of the Corton hill, embodying the Burgundian art of living with individually decorated rooms and a Cote de Beaune cellar.",
+      "wine_program": "Cellar focused on the Corton hill and Cote de Beaune; tastings and Route des Grands Crus access from the doorstep",
+      "price_range": "EUR 150-400 per night",
+      "booking_url": "https://www.ermitagecorton.com/en/",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.ermitagecorton.com/en/",
+        "address_quoted": "Route de Dijon - D974, 21200 Chorey-les-Beaune",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Hotel_Review-g674094-d206492-Reviews-Ermitage_de_Corton-Chorey_Les_Beaune_Beaune_Cote_d_Or_Bourgogne_Franche_Comte.html",
+        "cuisine_evidence_url": "https://www.ermitagecorton.com/en/hotel",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "hostellerie-des-clos-chablis-hotel",
+      "name": "Hostellerie des Clos",
+      "address": "18 Rue Jules Rathier, 89800 Chablis, France",
+      "neighborhood": "Chablis",
+      "parent_vineyard": null,
+      "category": "Hotel and gastronomic restaurant",
+      "rooms": 36,
+      "description": "Hotel in the heart of Chablis with a gastronomic restaurant and a cellar of 900 references including 400 Chablis wines, an ideal base for exploring the Chablis Grand Cru and Premier Cru slopes.",
+      "wine_program": "900-reference cellar with 400 Chablis curated by sommelier Thomas Charlut; tastings and Chablis vineyard access",
+      "price_range": "EUR 110-280 per night",
+      "booking_url": "https://www.hostellerie-des-clos.fr/",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.hostellerie-des-clos.fr/",
+        "address_quoted": "Chablis",
+        "open_status": "open",
+        "open_evidence_url": "https://www.burgundy-tourism.com/hotel/hostellerie-des-clos",
+        "cuisine_evidence_url": "https://www.hostellerie-des-clos.fr/restaurant-chablis-bourgogne",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "les-sources-de-vougeot",
+      "name": "Les Sources de Vougeot",
+      "address": "Rue de la Cure, 21640 Gilly-les-Citeaux, France",
+      "neighborhood": "Vougeot",
+      "parent_vineyard": null,
+      "category": "Hotel and spa in the Cote de Nuits",
+      "rooms": 32,
+      "description": "Hotel and spa beside the village of Vougeot in the Cote de Nuits Grand Cru belt, surrounded by the climats of the Clos de Vougeot, with a restaurant and a cellar centred on the surrounding domaines.",
+      "wine_program": "Cote de Nuits cellar; tastings and Route des Grands Crus excursions to Vosne-Romanee, Chambolle-Musigny and Gevrey-Chambertin",
+      "price_range": "EUR 180-450 per night",
+      "booking_url": "https://www.sources-hotels.com/bourgogne/en/",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.sources-hotels.com/bourgogne/en/",
+        "address_quoted": "Gilly-les-Citeaux",
+        "open_status": "open",
+        "open_evidence_url": "https://www.travelweekly.com/Hotels/Vougeot-France/Chateau-de-Gilly-p3165810",
+        "cuisine_evidence_url": "https://www.sources-hotels.com/bourgogne/en/",
+        "checked_on": "2026-05-25"
+      }
+    }
+  ]
+}

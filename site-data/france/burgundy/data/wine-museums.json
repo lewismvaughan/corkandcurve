@@ -1,0 +1,104 @@
+{
+  "wine_museums": [
+    {
+      "slug": "cite-des-climats-vins-beaune",
+      "name": "Cite des Climats et vins de Bourgogne Beaune",
+      "address": "21 Avenue Charles de Gaulle, 21200 Beaune, France",
+      "neighborhood": "Beaune",
+      "description": "The Beaune flagship of the three-site Cite des Climats network, opened 2023, with an immersive trail telling Burgundy's wine identity from Chablis to the Maconnais, a tasting bar and workshop rooms.",
+      "admission": "Discovery trail ticket; combined visit-and-tasting packages available",
+      "permanent_collection": true,
+      "temporary_exhibitions": true,
+      "tasting_bar": true,
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.citeclimatsvins-bourgogne.com/en/",
+        "address_quoted": "21 avenue Charles de Gaulle 21200, Beaune",
+        "open_status": "open",
+        "open_evidence_url": "https://www.bourgogne-tourisme.com/musees/cite-des-climats-et-vins-de-bourgogne-beaune",
+        "cuisine_evidence_url": "https://www.france.fr/en/article/cite-des-climat-burgundy-wines-experiences/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "hotel-dieu-hospices-de-beaune",
+      "name": "Hotel-Dieu des Hospices de Beaune",
+      "address": "2 Rue de l'Hotel-Dieu, 21200 Beaune, France",
+      "neighborhood": "Beaune town centre",
+      "description": "Former charitable almshouse founded 1443 by Nicolas Rolin, with its iconic glazed-tile roof. The museum traces the Hospices' history and its still-working wine estate famous for the November charity auction.",
+      "admission": "Museum entry from around EUR 12; last admission one hour before closing",
+      "permanent_collection": true,
+      "temporary_exhibitions": false,
+      "tasting_bar": false,
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://musee.hospices-de-beaune.com/",
+        "address_quoted": "2 rue de l'Hotel Dieu, Beaune",
+        "open_status": "open",
+        "open_evidence_url": "https://www.beaune-tourism.com/to-see-and-do/cultural-heritage/hotel-dieu-hospices-de-beaune-beaune-en-3860146/",
+        "cuisine_evidence_url": "https://hospices-beaune.com/en/history/hotel-dieu-museum-tourism-burgundy",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "cite-des-climats-vins-chablis",
+      "name": "Cite des Climats et vins de Bourgogne Chablis",
+      "address": "1 bis Rue de Chichee, 89800 Chablis, France",
+      "neighborhood": "Chablis",
+      "description": "The Chablis site of the Cite des Climats network in the village centre, dedicated to the heritage and culture of Chablis Chardonnay, with exhibits, a tasting bar and guided workshops near the vineyards.",
+      "admission": "Discovery trail ticket; combined visit-and-tasting packages available",
+      "permanent_collection": true,
+      "temporary_exhibitions": true,
+      "tasting_bar": true,
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.citeclimatsvins-bourgogne.com/en/",
+        "address_quoted": "1 bis rue de Chichee, 89800, Chablis",
+        "open_status": "open",
+        "open_evidence_url": "https://www.bourgogne-tourisme.com/musees/cite-des-climats-et-vins-de-bourgogne-chablis",
+        "cuisine_evidence_url": "https://www.france.fr/en/article/cite-des-climat-burgundy-wines-experiences/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "cite-des-climats-vins-macon",
+      "name": "Cite des Climats et vins de Bourgogne Macon",
+      "address": "520 Avenue Marechal de Lattre de Tassigny, 71000 Macon, France",
+      "neighborhood": "Macon",
+      "description": "The Macon site of the Cite des Climats network inside the renovated BIVB premises, presenting the history of southern Burgundy along the Saone with a visitor trail, tasting bar and workshops.",
+      "admission": "Discovery trail ticket; combined visit-and-tasting packages available",
+      "permanent_collection": true,
+      "temporary_exhibitions": true,
+      "tasting_bar": true,
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.citeclimatsvins-bourgogne.com/en/",
+        "address_quoted": "520 av. Marechal de Lattre de Tassigny 71000, Macon",
+        "open_status": "open",
+        "open_evidence_url": "https://www.burgundy-tourism.com/museums/cite-des-climats-et-vins-de-bourgogne-macon",
+        "cuisine_evidence_url": "https://www.france.fr/en/article/cite-des-climat-burgundy-wines-experiences/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "le-cassissium-nuits-saint-georges",
+      "name": "Le Cassissium",
+      "address": "8 Passage des Freres Montgolfier, 21700 Nuits-Saint-Georges, France",
+      "neighborhood": "Nuits-Saint-Georges",
+      "description": "Visitor centre and museum at the Vedrenne liqueur house in Nuits-Saint-Georges, telling the story of blackcurrant and Burgundy's creme de cassis across the centuries, ending in a guided tasting.",
+      "admission": "Guided visit with tasting; reservations mandatory",
+      "permanent_collection": true,
+      "temporary_exhibitions": false,
+      "tasting_bar": true,
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.cassissium.fr/",
+        "address_quoted": "8 passage des Freres Montgolfier, 21700 Nuits-Saint-Georges",
+        "open_status": "open",
+        "open_evidence_url": "https://en.destinationdijon.com/leisures-and-activities/maison-lejay-lagoute/",
+        "cuisine_evidence_url": "https://vedrenne.fr/en/spiritourism/",
+        "checked_on": "2026-05-25"
+      }
+    }
+  ]
+}

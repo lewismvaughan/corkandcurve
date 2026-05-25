@@ -1,0 +1,232 @@
+{
+  "signature_wines": [
+    {
+      "slug": "romanee-conti",
+      "name": "Romanee-Conti Grand Cru",
+      "producer": "domaine-de-la-romanee-conti",
+      "varietals": [
+        "Pinot Noir"
+      ],
+      "style": "still red Burgundy (Pinot Noir)",
+      "vintage_range": "approachable from 15 years, cellar 30 to 50",
+      "price_band": "EUR 18000 to 30000 at retail",
+      "tasting_notes": "The Vosne monopole at its most ethereal: rose, spice and dark berry layered over a silken, near-weightless palate of extraordinary persistence. Source: producer and critic notes (Burghound, Vinous, Decanter).",
+      "editorial_score": 5.0,
+      "description": "The monopole that defines Burgundy. Around 450 cases a year of profound, perfumed Pinot Noir from a single 1.8-hectare Vosne-Romanee climat.",
+      "verified": {
+        "source_url": "https://www.romanee-conti.fr/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "la-tache",
+      "name": "La Tache Grand Cru",
+      "producer": "domaine-de-la-romanee-conti",
+      "varietals": [
+        "Pinot Noir"
+      ],
+      "style": "still red Burgundy (Pinot Noir)",
+      "vintage_range": "approachable from 12 years, cellar 25 to 40",
+      "price_band": "EUR 6000 to 12000 at retail",
+      "tasting_notes": "DRC's other monopole: darker and more muscular than Romanee-Conti, with violet, black fruit and a spiced, savoury core. Source: producer and critic notes (Burghound, Vinous, Decanter).",
+      "editorial_score": 5.0,
+      "description": "DRC's 6-hectare monopole, a darker and brawnier counterpoint to Romanee-Conti, with violet, game and spice over a long savoury frame. Drinks well 12-40 from vintage.",
+      "verified": {
+        "source_url": "https://www.romanee-conti.fr/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "rousseau-chambertin",
+      "name": "Chambertin Grand Cru",
+      "producer": "domaine-armand-rousseau",
+      "varietals": [
+        "Pinot Noir"
+      ],
+      "style": "still red Burgundy (Pinot Noir)",
+      "vintage_range": "approachable from 15 years, cellar 25 to 40",
+      "price_band": "EUR 2000 to 4500 at retail",
+      "tasting_notes": "The grand vin of Gevrey: powerful and structured, with dark fruit, spice and a long, mineral, age-worthy frame. Source: producer and critic notes (Burghound, Vinous, Decanter).",
+      "editorial_score": 5.0,
+      "description": "Rousseau's Chambertin: the reference grand cru of Gevrey, powerful and structured with a long, age-worthy mineral frame. Drinks well 15-40 from vintage.",
+      "verified": {
+        "source_url": "https://www.domaine-rousseau.com/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "roumier-musigny",
+      "name": "Musigny Grand Cru",
+      "producer": "domaine-georges-roumier",
+      "varietals": [
+        "Pinot Noir"
+      ],
+      "style": "still red Burgundy (Pinot Noir)",
+      "vintage_range": "approachable from 15 years, cellar 25 to 40",
+      "price_band": "EUR 12000 to 25000 at retail",
+      "tasting_notes": "From a tiny parcel, one of the most sought-after wines in the world: ethereal perfume over a deep, mineral core. Source: producer and critic notes (Burghound, Vinous, Decanter).",
+      "editorial_score": 5.0,
+      "description": "Roumier's Musigny: from a sliver of a parcel, ethereal perfume over a deep mineral core, among the rarest reds on earth. Drinks well 15-40 from vintage.",
+      "verified": {
+        "source_url": "https://www.roumier.com/fr_FR/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "roumier-chambolle-amoureuses",
+      "name": "Chambolle-Musigny Premier Cru Les Amoureuses",
+      "producer": "domaine-georges-roumier",
+      "varietals": [
+        "Pinot Noir"
+      ],
+      "style": "still red Burgundy (Pinot Noir)",
+      "vintage_range": "approachable from 10 years, cellar 20 to 30",
+      "price_band": "EUR 1500 to 3500 at retail",
+      "tasting_notes": "The most coveted premier cru in Burgundy: silky and floral, with rose, red fruit and a mineral, sensual finish. Source: producer and critic notes (Burghound, Vinous, Decanter).",
+      "editorial_score": 4.9,
+      "description": "Roumier's Les Amoureuses: the most coveted premier cru in Burgundy, silky and floral with a sensual mineral finish. Drinks well 10-30 from vintage.",
+      "verified": {
+        "source_url": "https://www.roumier.com/fr_FR/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "leflaive-montrachet",
+      "name": "Montrachet Grand Cru",
+      "producer": "domaine-leflaive",
+      "varietals": [
+        "Chardonnay"
+      ],
+      "style": "still white Burgundy (Chardonnay)",
+      "vintage_range": "approachable from 8 years, cellar 20 to 30",
+      "price_band": "EUR 4000 to 9000 at retail",
+      "tasting_notes": "The white-Burgundy reference at its summit: profound, saline and tightly wound, with citrus, honey and an endless finish. Source: producer and critic notes (Burghound, Vinous, Decanter).",
+      "editorial_score": 5.0,
+      "description": "Leflaive's Montrachet: the white-Burgundy reference at its summit, profound and saline with an endless finish. Drinks well 10-30 from vintage.",
+      "verified": {
+        "source_url": "https://www.leflaive.fr/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "coche-corton-charlemagne",
+      "name": "Corton-Charlemagne Grand Cru",
+      "producer": "domaine-coche-dury",
+      "varietals": [
+        "Chardonnay"
+      ],
+      "style": "still white Burgundy (Chardonnay)",
+      "vintage_range": "approachable from 8 years, cellar 20 to 30",
+      "price_band": "EUR 3000 to 7000 at retail",
+      "tasting_notes": "A cult grand cru white: flinty and reductive, with citrus, hazelnut, gunflint and a saline, endless finish. Source: producer and critic notes (Burghound, Vinous, Decanter).",
+      "editorial_score": 5.0,
+      "description": "Coche-Dury's Corton-Charlemagne: a cult grand cru white, flinty and reductive with gunflint and an endless finish. Drinks well 10-30 from vintage.",
+      "verified": {
+        "source_url": "https://www.bourgogne-wines.com/our-bourgogne-wines/the-bourgogne-appellations/meursault,2403,9210.html",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "lafon-meursault-perrieres",
+      "name": "Meursault Premier Cru Les Perrieres",
+      "producer": "domaine-des-comtes-lafon",
+      "varietals": [
+        "Chardonnay"
+      ],
+      "style": "still white Burgundy (Chardonnay)",
+      "vintage_range": "approachable from 8 years, cellar 15 to 25",
+      "price_band": "EUR 200 to 450 at retail",
+      "tasting_notes": "Often called Meursault's grand cru in waiting: mineral and intense, with citrus, hazelnut and a saline depth. Source: producer and critic notes (Burghound, Vinous, Decanter).",
+      "editorial_score": 4.8,
+      "description": "Lafon's Meursault Les Perrieres: Meursault's grand cru in waiting, mineral and intense with citrus and saline depth. Drinks well 8-25 from vintage.",
+      "verified": {
+        "source_url": "https://comtes-lafon.com/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "fevre-les-clos",
+      "name": "Chablis Grand Cru Les Clos",
+      "producer": "domaine-william-fevre",
+      "varietals": [
+        "Chardonnay"
+      ],
+      "style": "still white Burgundy (Chardonnay)",
+      "vintage_range": "approachable from 6 years, cellar 15 to 25",
+      "price_band": "EUR 90 to 200 at retail",
+      "tasting_notes": "The benchmark Chablis grand cru: powerful and saline, with citrus, oyster shell and a long mineral finish. Source: producer and critic notes (Burghound, Vinous, Decanter).",
+      "editorial_score": 4.8,
+      "description": "Fevre's Chablis Les Clos: the benchmark grand cru, powerful and saline with citrus, oyster shell and a long mineral finish. Drinks well 8-25 from vintage.",
+      "verified": {
+        "source_url": "https://www.lafite.com/domaines/william-fevre/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "raveneau-les-clos",
+      "name": "Chablis Grand Cru Les Clos",
+      "producer": "domaine-raveneau",
+      "varietals": [
+        "Chardonnay"
+      ],
+      "style": "still white Burgundy (Chardonnay)",
+      "vintage_range": "approachable from 8 years, cellar 20 to 30",
+      "price_band": "EUR 400 to 900 at retail",
+      "tasting_notes": "The most collected Chablis grand cru: intensely mineral and saline, with citrus, oyster shell and an endless finish. Source: producer and critic notes (Burghound, Vinous, Decanter).",
+      "editorial_score": 4.9,
+      "description": "Raveneau's Chablis Les Clos: the most collected grand cru, intensely mineral and saline with an endless finish. Drinks well 10-30 from vintage.",
+      "verified": {
+        "source_url": "https://www.raveneau.fr/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "comte-armand-clos-des-epeneaux",
+      "name": "Pommard Premier Cru Clos des Epeneaux",
+      "producer": "domaine-comte-armand",
+      "varietals": [
+        "Pinot Noir"
+      ],
+      "style": "still red Burgundy (Pinot Noir)",
+      "vintage_range": "approachable from 10 years, cellar 20 to 30",
+      "price_band": "EUR 90 to 200 at retail",
+      "tasting_notes": "A dense, age-worthy Pommard monopole, with dark fruit, iron, spice and a firm, savoury frame. Source: producer and critic notes (Burghound, Vinous, Decanter).",
+      "editorial_score": 4.7,
+      "description": "Comte Armand's Pommard Clos des Epeneaux monopole: dense and age-worthy, with dark fruit, iron and a firm frame. Drinks well 10-30 from vintage.",
+      "verified": {
+        "source_url": "https://www.domaine-comte-armand.com/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "vogue-musigny-vv",
+      "name": "Musigny Grand Cru Vieilles Vignes",
+      "producer": "domaine-comte-georges-de-vogue",
+      "varietals": [
+        "Pinot Noir"
+      ],
+      "style": "still red Burgundy (Pinot Noir)",
+      "vintage_range": "approachable from 15 years, cellar 25 to 40",
+      "price_band": "EUR 1500 to 4000 at retail",
+      "tasting_notes": "The largest owner of Musigny makes its grandest wine from old vines: aristocratic perfume over a profound, mineral core. Source: producer and critic notes (Burghound, Vinous, Decanter).",
+      "editorial_score": 4.9,
+      "description": "De Vogue's Musigny Vieilles Vignes: from the largest owner of the cru, aristocratic perfume over a profound mineral core. Drinks well 15-40 from vintage.",
+      "verified": {
+        "source_url": "https://www.bourgogne-wines.com/our-bourgogne-wines/the-bourgogne-appellations/chambolle-musigny,2403,9210.html",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    }
+  ]
+}

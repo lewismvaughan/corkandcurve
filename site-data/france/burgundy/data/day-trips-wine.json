@@ -1,0 +1,151 @@
+{
+  "day_trips_wine": [
+    {
+      "slug": "beaujolais-gamay-crus",
+      "name": "Beaujolais (Gamay crus)",
+      "distance_km": 55,
+      "travel_time": "50 min by car south of Macon",
+      "destination_country": "France",
+      "destination_region": "Beaujolais",
+      "signature_pours": ["Morgon", "Moulin-a-Vent", "Fleurie", "Beaujolais-Villages"],
+      "recommended_vineyards": [],
+      "description": "Just south of the Maconnais, Beaujolais turns from Burgundy's Chardonnay to Gamay on granite and schist. The ten named crus, from structured Moulin-a-Vent and Morgon to floral Fleurie, are serious ageworthy reds far removed from the Nouveau cliche.",
+      "tip": "Skip the Nouveau and head straight for the crus; Morgon's Cote du Py and Moulin-a-Vent give the most Burgundy-like depth from Gamay.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.beaujolais.com/en/",
+        "address_quoted": "Beaujolais",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Beaujolais",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Morgon",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "maconnais-pouilly-fuisse",
+      "name": "Maconnais and Pouilly-Fuisse",
+      "distance_km": 70,
+      "travel_time": "1h by car south of Beaune",
+      "destination_country": "France",
+      "destination_region": "Maconnais",
+      "signature_pours": ["Pouilly-Fuisse", "Saint-Veran", "Vire-Clesse", "Macon-Villages"],
+      "recommended_vineyards": [],
+      "description": "Burgundy's warm southern Chardonnay country, where Pouilly-Fuisse spreads beneath the dramatic Roche de Solutre. Riper and rounder than the Cote de Beaune, with Saint-Veran and Vire-Clesse offering similar limestone tension at gentler prices.",
+      "tip": "Climb the Roche de Solutre for the view over the Pouilly-Fuisse vineyards, then taste the recently upgraded Pouilly-Fuisse Premiers Crus, classified in 2020.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.macon-tourisme.com/en/",
+        "address_quoted": "Macon",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Pouilly-Fuiss%C3%A9",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Saint-V%C3%A9ran",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "chablis-and-the-grand-auxerrois",
+      "name": "Chablis and the Grand Auxerrois",
+      "distance_km": 130,
+      "travel_time": "1h 30m by car north-west of Beaune",
+      "destination_country": "France",
+      "destination_region": "Chablis",
+      "signature_pours": ["Chablis Grand Cru", "Chablis Premier Cru", "Petit Chablis"],
+      "recommended_vineyards": [],
+      "description": "Burgundy's coolest northern outpost, where Chardonnay on Kimmeridgian limestone makes the steeliest, most mineral white in France. The seven Grands Crus sit on a single south-west slope above the town of Chablis.",
+      "tip": "Taste the unoaked and lightly oaked styles side by side; the Grand Cru slope (Les Clos, Vaudesir, Valmur) rewards a walk before lunch in town.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.chablis-wines.com/",
+        "address_quoted": "Chablis",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Chablis_wine",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Climats,_terroirs_of_Burgundy",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "chatillonnais-cremant-de-bourgogne",
+      "name": "Chatillonnais (Cremant de Bourgogne)",
+      "distance_km": 100,
+      "travel_time": "1h 15m by car north of Dijon",
+      "destination_country": "France",
+      "destination_region": "Chatillonnais",
+      "signature_pours": ["Cremant de Bourgogne Brut", "Cremant de Bourgogne Rose"],
+      "recommended_vineyards": [],
+      "description": "The far-northern Chatillonnais is the heartland of Burgundian sparkling wine, with around 85 percent of its vines given to Cremant de Bourgogne. Made by the traditional method from Pinot Noir and Chardonnay, it is the region's serious, value-priced answer to Champagne.",
+      "tip": "Pair a Chatillonnais cellar visit with the town of Chatillon-sur-Seine and its Vix treasure museum for a half-day that mixes fizz with archaeology.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.bourgogne-wines.com/wine-and-terroir/our-vineyards/the-chatillonnais,2474,9316.html",
+        "address_quoted": "Chatillonnais",
+        "open_status": "open",
+        "open_evidence_url": "https://www.decanter.com/premium/cremant-de-bourgogne-burgundys-hidden-sparkling-gems-504182/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Cr%C3%A9mant_de_Bourgogne",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "jura-arbois-and-chateau-chalon",
+      "name": "Jura (Arbois and Chateau-Chalon)",
+      "distance_km": 110,
+      "travel_time": "1h 30m by car east of Beaune",
+      "destination_country": "France",
+      "destination_region": "Jura",
+      "signature_pours": ["Vin Jaune", "Arbois Savagnin", "Cremant du Jura", "Arbois Poulsard"],
+      "recommended_vineyards": [],
+      "description": "Across the plain east of Burgundy, the Jura makes some of France's most distinctive wines: oxidative Savagnin, the sherry-like Vin Jaune aged six years under a yeast veil, and the prized Chateau-Chalon appellation reserved for Vin Jaune alone.",
+      "tip": "Buy a clavelin, the squat 62cl bottle unique to Vin Jaune, in Arbois or Chateau-Chalon; the wine is a classic match for Comte cheese and Bresse chicken.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.jura-vins.com/en/",
+        "address_quoted": "Jura",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Jura_wine",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Vin_jaune",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "cote-chalonnaise-rully-mercurey-givry",
+      "name": "Cote Chalonnaise (Rully, Mercurey, Givry)",
+      "distance_km": 30,
+      "travel_time": "30 min by car south of Beaune",
+      "destination_country": "France",
+      "destination_region": "Cote Chalonnaise",
+      "signature_pours": ["Mercurey", "Givry Premier Cru", "Rully Blanc", "Bouzeron Aligote"],
+      "recommended_vineyards": [],
+      "description": "The Cote Chalonnaise extends the Cote d'Or south with the same Pinot Noir and Chardonnay at far gentler prices. Mercurey leads on reds, Rully on whites and Cremant, Givry on polished Pinot, and Bouzeron on its own Aligote appellation.",
+      "tip": "This is the value heart of Burgundy; a single day takes in Rully, Mercurey and Givry, with Bouzeron's Aligote a short detour north.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://en.wikipedia.org/wiki/Mercurey_wine",
+        "address_quoted": "Mercurey",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Givry_wine",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Rully_wine",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "dijon-and-the-cote-de-nuits",
+      "name": "Dijon and the northern Cote de Nuits",
+      "distance_km": 40,
+      "travel_time": "40 min by car north of Beaune",
+      "destination_country": "France",
+      "destination_region": "Cote de Nuits",
+      "signature_pours": ["Gevrey-Chambertin", "Marsannay rose", "Fixin", "Vougeot"],
+      "recommended_vineyards": [],
+      "description": "The Route des Grands Crus begins at Dijon and runs south through the Cote de Nuits, the red-wine heart of Burgundy. Marsannay, Fixin and Gevrey-Chambertin open the route before it reaches the Grand Cru villages of Vougeot and Vosne-Romanee.",
+      "tip": "Start the Route des Grands Crus in Dijon, taste at the Cite des Climats Beaune site, and use Marsannay rose as an easy, affordable entry to the Cote de Nuits.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.burgundy-tourism.com/holiday-ideas/route-des-vins-maconnais-beaujolais",
+        "address_quoted": "Bourgogne",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Marsannay_wine",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Gevrey-Chambertin_wine",
+        "checked_on": "2026-05-25"
+      }
+    }
+  ]
+}

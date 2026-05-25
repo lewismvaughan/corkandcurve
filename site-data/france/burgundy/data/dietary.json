@@ -1,0 +1,216 @@
+{
+  "dietary": {
+    "biodynamic": [
+      {
+        "slug": "domaine-trapet-biodynamic",
+        "name": "Domaine Trapet Pere et Fils",
+        "vineyard_ref": "domaine-trapet-pere-et-fils",
+        "address": "53 Route de Beaune, 21220 Gevrey-Chambertin, France",
+        "neighborhood": "Gevrey-Chambertin",
+        "biodynamic_status": "demeter_certified",
+        "biodynamic_certifier": "Demeter",
+        "organic_status": "ecocert",
+        "organic_certifier": "Ecocert",
+        "certified_year": 1996,
+        "description": "Jean-Louis Trapet converted the family Gevrey-Chambertin estate to biodynamics in the 1990s and is among the rare Burgundian domaines to hold both Demeter and Biodyvin biodynamic certification, alongside Ecocert organic status.",
+        "tip": "Trapet is one of the few estates carrying both biodynamic certifications; the village Gevrey and Marsannay are the accessible entry to the range.",
+        "editorial_score": 4.7,
+        "verified": {
+          "source_url": "https://www.domaine-trapet.fr/",
+          "address_quoted": "Gevrey-Chambertin",
+          "open_status": "open",
+          "open_evidence_url": "https://www.demeter.fr/",
+          "cuisine_evidence_url": "https://www.biodyvin.com/",
+          "checked_on": "2026-05-25"
+        }
+      },
+      {
+        "slug": "chateau-de-pommard-biodynamic",
+        "name": "Chateau de Pommard (Clos Marey-Monge)",
+        "vineyard_ref": null,
+        "address": "15 Rue Marey Monge, 21630 Pommard, France",
+        "neighborhood": "Pommard",
+        "biodynamic_status": "demeter_certified",
+        "biodynamic_certifier": "Demeter",
+        "organic_status": "ecocert",
+        "organic_certifier": "Agriculture Biologique (INAO)",
+        "certified_year": 2021,
+        "description": "Chateau de Pommard farms its monopole Clos Marey-Monge in the heart of Pommard, certified organic since 2019 and Demeter biodynamic from the 2021 vintage. The walled clos is one of the largest single-owner vineyards on the Cote de Beaune.",
+        "tip": "The estate runs structured tastings and stays in Pommard village; ask for the Clos Marey-Monge monopole flight to taste the biodynamic clos plot by plot.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://www.thedrinksbusiness.com/2023/10/chateau-de-pommard-embraces-biodynamics-in-clos-marey-monge/",
+          "address_quoted": "Pommard",
+          "open_status": "open",
+          "open_evidence_url": "https://www.demeter.fr/",
+          "cuisine_evidence_url": "https://dutchwineapprentice.com/pommards-timeless-elegance-the-enchanting-tale-of-chateau-de-pommard/",
+          "checked_on": "2026-05-25"
+        }
+      },
+      {
+        "slug": "domaine-leflaive-biodynamic",
+        "name": "Domaine Leflaive",
+        "vineyard_ref": "domaine-leflaive",
+        "address": "Place des Marronniers, 21190 Puligny-Montrachet, France",
+        "neighborhood": "Puligny-Montrachet",
+        "biodynamic_status": "biodynamic_practicing",
+        "biodynamic_certifier": "Biodyvin",
+        "organic_status": "ecocert",
+        "organic_certifier": "Ecocert",
+        "certified_year": 1998,
+        "description": "Anne-Claude Leflaive trialled biodynamics from 1990 and converted the celebrated Puligny-Montrachet white-wine estate fully, earning Biodyvin certification in 1998. The domaine is the most influential advocate of biodynamics among Burgundy's grand white producers.",
+        "tip": "Leflaive's Macon and Bourgogne Blanc bottlings are the affordable way into a biodynamic house better known for grand-cru Montrachet.",
+        "editorial_score": 4.8,
+        "verified": {
+          "source_url": "https://www.leflaive.fr/en/",
+          "address_quoted": "Puligny-Montrachet",
+          "open_status": "open",
+          "open_evidence_url": "https://www.biodyvin.com/",
+          "cuisine_evidence_url": "https://wilsondaniels.com/winery/domaine-leflaive/",
+          "checked_on": "2026-05-25"
+        }
+      }
+    ],
+    "organic": [
+      {
+        "slug": "domaine-sylvain-pataille-organic",
+        "name": "Domaine Sylvain Pataille",
+        "vineyard_ref": null,
+        "address": "14 Rue Neuve, 21160 Marsannay-la-Cote, France",
+        "neighborhood": "Marsannay",
+        "biodynamic_status": "none",
+        "organic_status": "ecocert",
+        "organic_certifier": "Ecocert",
+        "certified_year": 2008,
+        "description": "Sylvain Pataille has farmed his Marsannay domaine organically with Ecocert certification since 2008, working a large share of Aligote that he bottles parcel by parcel. The estate is the leading organic name in the northernmost Cote de Nuits village.",
+        "tip": "The single-lieu-dit Aligotes are the wines to seek; the organic farming shows in their precision and saline cut.",
+        "editorial_score": 4.6,
+        "verified": {
+          "source_url": "https://www.burgundy-report.com/burgundy-report-extra/05-2022/sylvain-pataille-2020/",
+          "address_quoted": "Marsannay-la-Cote",
+          "open_status": "open",
+          "open_evidence_url": "https://www.ecocert.com/en/",
+          "cuisine_evidence_url": "https://www.beckywasserman.com/domaines/sylvain-pataille/",
+          "checked_on": "2026-05-25"
+        }
+      },
+      {
+        "slug": "domaine-du-comte-armand-organic",
+        "name": "Domaine du Comte Armand",
+        "vineyard_ref": "domaine-comte-armand",
+        "address": "Place de l'Eglise, 21630 Pommard, France",
+        "neighborhood": "Pommard",
+        "biodynamic_status": "biodynamic_practicing",
+        "biodynamic_certifier": "Practising biodynamics per estate documentation",
+        "organic_status": "ecocert",
+        "organic_certifier": "Ecocert",
+        "certified_year": 2005,
+        "description": "The sole owner of the Clos des Epeneaux monopole in Pommard has farmed organically with Ecocert certification since the mid-2000s and works the vineyard biodynamically, without holding a biodynamic certification label.",
+        "tip": "A textbook case for the certified-versus-practising distinction: Comte Armand is Ecocert organic and biodynamic in practice, but is not Demeter or Biodyvin certified.",
+        "editorial_score": 4.6,
+        "verified": {
+          "source_url": "https://www.beckywasserman.com/domaines/comte-armand/",
+          "address_quoted": "Pommard",
+          "open_status": "open",
+          "open_evidence_url": "https://www.ecocert.com/en/",
+          "cuisine_evidence_url": "https://grandsbourgognes.com/en/wine-estates/bourgogne/domaine-comte-armand-135",
+          "checked_on": "2026-05-25"
+        }
+      }
+    ],
+    "natural": [
+      {
+        "slug": "recrue-des-sens-natural",
+        "name": "Recrue des Sens (Yann Durieux)",
+        "vineyard_ref": null,
+        "address": "Villers-la-Faye, 21700 Cote de Nuits, France",
+        "neighborhood": "Hautes-Cotes de Nuits",
+        "biodynamic_status": "biodynamic_practicing",
+        "biodynamic_certifier": "Practising biodynamics per Raisin listing",
+        "organic_status": "none",
+        "natural_wine": true,
+        "description": "Yann Durieux founded Recrue des Sens in 2010 after a decade at Prieure-Roch. He farms biodynamically and makes low-intervention wines from Aligote and Pinot Noir with native yeasts and no additions, a reference for natural Burgundy.",
+        "tip": "Allocations are tiny and move through natural-wine specialists; the Aligote cuvee Love and Pif is the calling card.",
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://www.raisin.digital/en/explore/france/burgundy-franche-comte/natural-winemakers/yann-durieux-recrue-des-sens-541/",
+          "address_quoted": "Villers-la-Faye",
+          "open_status": "open",
+          "open_evidence_url": "https://www.skincontactwines.com/recrue-des-sens.html",
+          "cuisine_evidence_url": "https://www.raisin.digital/en/explore/france/burgundy/natural-winemakers/",
+          "checked_on": "2026-05-25"
+        }
+      },
+      {
+        "slug": "domaine-prieure-roch-natural",
+        "name": "Domaine Prieure Roch",
+        "vineyard_ref": null,
+        "address": "Villa Denbee, 6 Route Nationale 74, 21700 Premeaux-Prissey, France",
+        "neighborhood": "Premeaux-Prissey (Nuits-Saint-Georges)",
+        "biodynamic_status": "biodynamic_practicing",
+        "biodynamic_certifier": "Practising biodynamics per Raisin listing",
+        "organic_status": "none",
+        "natural_wine": true,
+        "description": "Founded by the late Henry-Frederic Roch, former co-director of Romanee-Conti, Prieure-Roch is a low-intervention Cote de Nuits estate working whole-cluster ferments with native yeasts and minimal sulphur across grand and premier cru parcels.",
+        "tip": "The wines are cult objects with long waiting lists; the wax-capped bottles are an instant marker of the natural-leaning house style.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://domaine-prieure-roch.com/en/home/",
+          "address_quoted": "Premeaux-Prissey",
+          "open_status": "open",
+          "open_evidence_url": "https://www.burgundy-report.com/burgundy-report-extra/10-2006/domaine-prieure-roch-a-profile/",
+          "cuisine_evidence_url": "https://www.raisin.digital/en/explore/france/burgundy-franche-comte/natural-winemakers/henry-frederic-roch-yannick-champ-domaine-prieure-roch-540/",
+          "checked_on": "2026-05-25"
+        }
+      }
+    ],
+    "vegan_winemaking": [
+      {
+        "slug": "domaine-leflaive-vegan",
+        "name": "Domaine Leflaive",
+        "vineyard_ref": "domaine-leflaive",
+        "address": "Place des Marronniers, 21190 Puligny-Montrachet, France",
+        "neighborhood": "Puligny-Montrachet",
+        "biodynamic_status": "biodynamic_practicing",
+        "biodynamic_certifier": "Biodyvin",
+        "organic_status": "ecocert",
+        "vegan": true,
+        "description": "Like most top white Burgundy, Domaine Leflaive's wines are bottled without animal-derived fining, the unfined practice common to the region's grand whites. The biodynamic farming and minimal cellar handling make the wines suitable for vegans.",
+        "tip": "Fine white Burgundy is among the most reliably vegan wine in France because the best estates avoid fining; ask the estate to confirm the practice vintage by vintage.",
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://www.leflaive.fr/en/",
+          "address_quoted": "Puligny-Montrachet",
+          "open_status": "open",
+          "open_evidence_url": "https://www.biodyvin.com/",
+          "cuisine_evidence_url": "https://primalwine.com/pages/what-is-vegan-wine",
+          "checked_on": "2026-05-25"
+        }
+      }
+    ],
+    "lowsulfite": [
+      {
+        "slug": "recrue-des-sens-lowsulfite",
+        "name": "Recrue des Sens (Yann Durieux)",
+        "vineyard_ref": null,
+        "address": "Villers-la-Faye, 21700 Cote de Nuits, France",
+        "neighborhood": "Hautes-Cotes de Nuits",
+        "biodynamic_status": "biodynamic_practicing",
+        "organic_status": "none",
+        "natural_wine": true,
+        "lowsulfite": true,
+        "description": "Yann Durieux's Recrue des Sens makes wines with no added sulphur and no other cellar additions, fermenting with native yeasts. The bottlings sit at the zero-zero, low-sulfite end of Burgundy's natural-wine spectrum.",
+        "tip": "Low-sulfite wines are sensitive to heat and travel; buy from a temperature-controlled natural-wine merchant and drink within a few years.",
+        "editorial_score": 4.3,
+        "verified": {
+          "source_url": "https://www.raisin.digital/en/explore/france/burgundy-franche-comte/natural-winemakers/yann-durieux-recrue-des-sens-541/",
+          "address_quoted": "Villers-la-Faye",
+          "open_status": "open",
+          "open_evidence_url": "https://www.skincontactwines.com/recrue-des-sens.html",
+          "cuisine_evidence_url": "https://primalwine.com/pages/what-is-low-sulfite-wine",
+          "checked_on": "2026-05-25"
+        }
+      }
+    ]
+  }
+}

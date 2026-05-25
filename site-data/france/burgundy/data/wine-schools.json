@@ -1,0 +1,110 @@
+{
+  "wine_schools": [
+    {
+      "slug": "ecole-des-vins-de-bourgogne-beaune",
+      "name": "Ecole des Vins de Bourgogne",
+      "address": "21 Avenue Charles de Gaulle, 21200 Beaune, France",
+      "neighborhood": "Beaune",
+      "description": "Founded 1974 by the Bourgogne Wine Board (BIVB), the official Burgundy wine school in Beaune with satellite offices in Macon and Chablis. Tasting workshops, certified multi-day courses and vineyard visits.",
+      "courses_offered": [
+        "45-minute introductory tasting workshop",
+        "Half-day Burgundy appellation discovery",
+        "Multi-day certified training",
+        "Vineyard and estate heritage exploration"
+      ],
+      "languages": ["French", "English", "German", "Japanese", "Chinese"],
+      "price_range": "Tasting workshops from around EUR 25; multi-day certified courses several hundred euros",
+      "certifications": ["BIVB Burgundy wine education"],
+      "booking_url": "https://www.ecoledesvins-bourgogne.com/en/",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.ecoledesvins-bourgogne.com/en/presentation-2/",
+        "address_quoted": "21 avenue Charles de Gaulle, 21200 Beaune",
+        "open_status": "open",
+        "open_evidence_url": "https://www.bourgogne-wines.com/ecole-vins-en/the-cole-des-vins-de-bourgogne/welcome-to-the-cole-des-vins,2545,9561.html",
+        "cuisine_evidence_url": "https://www.ecoledesvins-bourgogne.com/en/our-cities/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "sensation-vin-school-beaune",
+      "name": "Sensation Vin",
+      "address": "2A Rue Paul Bouchard, 21200 Beaune, France",
+      "neighborhood": "Beaune town centre",
+      "description": "Dedicated Burgundy tasting school near the Hospices, founded 2006, running roughly 450 guided classes a year. Programmes range from The Essentials to Grand Cru and blind-tasting masterclasses.",
+      "courses_offered": [
+        "The Essentials",
+        "Premier vs Grand Cru",
+        "Pure Tasting (blind)",
+        "Grand Cru Experience",
+        "From Corton to Chambertin",
+        "From Corton to Montrachet"
+      ],
+      "languages": ["French", "English"],
+      "price_range": "EUR 60 The Essentials to EUR 250 Grand Cru Experience",
+      "certifications": [],
+      "booking_url": "https://www.sensation-vin.com/en/",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.sensation-vin.com/en/",
+        "address_quoted": "2A Rue Paul Bouchard - 21200 BEAUNE",
+        "open_status": "open",
+        "open_evidence_url": "https://www.beaune-tourism.com/explore/surprising-burgundy-wines/3-wine-courses-in-and-around-beaune/",
+        "cuisine_evidence_url": "https://www.sensation-vin.com/en/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "cite-des-climats-oenology-courses-beaune",
+      "name": "Cite des Climats et vins de Bourgogne Oenology Courses",
+      "address": "21 Avenue Charles de Gaulle, 21200 Beaune, France",
+      "neighborhood": "Beaune",
+      "description": "Oenology courses and tasting workshops at the Beaune flagship of the Cite des Climats network, covering Burgundy terroir, the Climats classification and structured cru tastings for all levels.",
+      "courses_offered": [
+        "Introductory tasting workshops",
+        "Climats and terroir workshops",
+        "Premier Cru and Grand Cru tasting classes",
+        "Food and wine pairing sessions"
+      ],
+      "languages": ["French", "English"],
+      "price_range": "Workshops from around EUR 25",
+      "certifications": [],
+      "booking_url": "https://www.citeclimatsvins-bourgogne.com/en/oenology-courses/",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.citeclimatsvins-bourgogne.com/en/oenology-courses/",
+        "address_quoted": "21 avenue Charles de Gaulle 21200, Beaune",
+        "open_status": "open",
+        "open_evidence_url": "https://www.ruedesvignerons.com/en/domaine/1828/cite-des-climats-et-vins-de-bourgogne-beaune",
+        "cuisine_evidence_url": "https://www.citeclimatsvins-bourgogne.com/en/cite-in-beaune/taste/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "ecole-v-chateau-de-pommard",
+      "name": "Ecole V at Chateau de Pommard",
+      "address": "15 Rue Marey Monge, 21630 Pommard, France",
+      "neighborhood": "Pommard",
+      "description": "WSET Approved Programme Provider at Chateau de Pommard, delivering certified wine training amid the Clos Marey-Monge Pinot Noir vineyard, from introductory levels to advanced certifications.",
+      "courses_offered": [
+        "WSET Level 1 Award in Wines",
+        "WSET Level 2 Award in Wines",
+        "WSET Level 3 Award in Wines",
+        "Burgundy terroir masterclasses"
+      ],
+      "languages": ["French", "English"],
+      "price_range": "WSET Level 1 from around EUR 200 to Level 3 over EUR 1000",
+      "certifications": ["WSET Level 1", "WSET Level 2", "WSET Level 3"],
+      "booking_url": "https://www.beaune-tourism.com/explore/surprising-burgundy-wines/3-wine-courses-in-and-around-beaune/",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.beaune-tourism.com/explore/surprising-burgundy-wines/3-wine-courses-in-and-around-beaune/",
+        "address_quoted": "Pommard",
+        "open_status": "open",
+        "open_evidence_url": "https://www.ruedesvignerons.com/en/domaine/518/chateau-de-pommard",
+        "cuisine_evidence_url": "https://www.beaune-tourism.com/explore/surprising-burgundy-wines/3-wine-courses-in-and-around-beaune/",
+        "checked_on": "2026-05-25"
+      }
+    }
+  ]
+}

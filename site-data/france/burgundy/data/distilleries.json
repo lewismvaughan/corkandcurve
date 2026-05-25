@@ -1,0 +1,139 @@
+{
+  "distilleries": [
+    {
+      "slug": "vedrenne-cassissium-nuits-saint-georges",
+      "name": "Vedrenne and Le Cassissium",
+      "address": "8 Passage des Freres Montgolfier, 21700 Nuits-Saint-Georges, France",
+      "neighborhood": "Nuits-Saint-Georges",
+      "classification": "Creme de Cassis de Bourgogne",
+      "spirits_produced": [
+        "Creme de Cassis de Bourgogne",
+        "fruit liqueurs and cremes",
+        "Marc de Bourgogne",
+        "ratafia and aperitifs"
+      ],
+      "description": "Liqueur house Vedrenne in Nuits-Saint-Georges, home of Le Cassissium, an educational and gourmet visitor centre on the history of blackcurrant liqueur ending in a tasting of the range.",
+      "distillation_method": "Cold maceration of blackcurrants in alcohol for creme de cassis; copper-still distillation for marc and eaux-de-vie",
+      "visit_available": true,
+      "tasting_program": "Le Cassissium guided visit with tasting; reservations mandatory",
+      "booking_url": "https://www.cassissium.fr/",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://vedrenne.fr/en/spiritourism/",
+        "address_quoted": "8 passage des Freres Montgolfier, 21700 Nuits-Saint-Georges",
+        "open_status": "open",
+        "open_evidence_url": "https://www.cassissium.fr/",
+        "cuisine_evidence_url": "https://www.diffordsguide.com/producer/1247/vedrenne/history",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "gabriel-boudier-dijon",
+      "name": "Maison Gabriel Boudier",
+      "address": "14 Rue de Cluj, 21000 Dijon, France",
+      "neighborhood": "Dijon",
+      "classification": "Creme de Cassis de Dijon",
+      "spirits_produced": [
+        "Creme de Cassis de Dijon",
+        "Guignolet de Dijon",
+        "fruit liqueurs and cremes",
+        "gin and saffron gin"
+      ],
+      "description": "Dijon liqueur maker since 1874, one of only four houses entitled to label Creme de Cassis de Dijon. Produces classic blackcurrant liqueur plus a range of fruit cremes, guignolet and gin.",
+      "distillation_method": "Cold maceration of blackcurrants for creme de cassis; pot-still distillation for spirits",
+      "visit_available": false,
+      "tasting_program": "Production site, not a regular public visitor cellar; products tasted at Dijon merchants",
+      "booking_url": "https://boudier.com/en/",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://boudier.com/en/",
+        "address_quoted": "14 rue de Cluj - BP 57444, 21074 Dijon",
+        "open_status": "open",
+        "open_evidence_url": "https://www.reseauexcellence.fr/en/organizations/maison-gabriel-boudier/",
+        "cuisine_evidence_url": "https://www.bourgogne-tourisme.com/decouvrir/gastronomie-et-produits-regionaux/produits-du-terroir-bourgogne/le-cassis-la-creme-des-fruits-rouges/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "lejay-lagoute-dijon",
+      "name": "Maison Lejay Lagoute",
+      "address": "5-9 Rue Etienne Dolet, 21000 Dijon, France",
+      "neighborhood": "Dijon",
+      "classification": "Creme de Cassis de Dijon",
+      "spirits_produced": [
+        "Creme de Cassis de Dijon",
+        "fruit liqueurs and cremes",
+        "Kir aperitif blends"
+      ],
+      "description": "Dijon house that claims the original 1841 creme de cassis recipe, one of four entitled to the Creme de Cassis de Dijon name. Opens its site for educational and gourmet visits on cassis production.",
+      "distillation_method": "Cold maceration of blackcurrants in alcohol, recipe unchanged since 1841",
+      "visit_available": true,
+      "tasting_program": "Educational and gourmet guided visits open to all by reservation",
+      "booking_url": "https://booking.destinationdijon.com/visit-of-the-lejay-lagoute-company.html",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.lejay-cassis.com/us/contact-3/",
+        "address_quoted": "5-9 rue Etienne Dolet, 21000 Dijon",
+        "open_status": "open",
+        "open_evidence_url": "https://en.destinationdijon.com/visits-and-tours/lejay-lagoute-createur-de-la-creme-de-cassis/",
+        "cuisine_evidence_url": "https://www.thespiritsbusiness.com/2024/09/sb-visits-lejay-lagoute-dijon/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "maison-briottet-dijon",
+      "name": "Maison Briottet",
+      "address": "12 Rue Berlier, 21000 Dijon, France",
+      "neighborhood": "Dijon",
+      "classification": "Creme de Cassis de Dijon",
+      "spirits_produced": [
+        "Creme de Cassis de Dijon",
+        "fruit cremes and liqueurs",
+        "Marc de Bourgogne",
+        "aperitif liqueurs"
+      ],
+      "description": "Sixth-generation Dijon liqueur house founded 1836, among the makers entitled to the Creme de Cassis de Dijon name, producing blackcurrant liqueur, fruit cremes and Burgundian aperitifs.",
+      "distillation_method": "Cold maceration of fruit in alcohol for cremes; copper-still distillation for marc",
+      "visit_available": false,
+      "tasting_program": "No physical shop at the production address; products available through the online boutique",
+      "booking_url": "https://boutique.briottet.fr/en/",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://briottet.fr/en/accueil/",
+        "address_quoted": "12 rue Berlier, 21000 Dijon France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.cotedor.fr/annuaire/maison-briottet",
+        "cuisine_evidence_url": "https://www.bourgogne-tourisme.com/decouvrir/gastronomie-et-produits-regionaux/produits-du-terroir-bourgogne/le-cassis-la-creme-des-fruits-rouges/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "joseph-cartron-nuits-saint-georges",
+      "name": "Distillerie Joseph Cartron",
+      "address": "25 Rue du Docteur Louis Legrand, 21700 Nuits-Saint-Georges, France",
+      "neighborhood": "Nuits-Saint-Georges",
+      "classification": "Marc de Bourgogne and Creme de Cassis de Bourgogne",
+      "spirits_produced": [
+        "Creme de Cassis de Bourgogne",
+        "red-fruit cremes",
+        "Marc de Bourgogne",
+        "Fine de Bourgogne",
+        "ratafia and guignolet"
+      ],
+      "description": "Distillers in Nuits-Saint-Georges since 1882, producing blackcurrant and red-fruit cremes alongside Marc de Bourgogne, Fine de Bourgogne, ratafia and Burgundian aperitifs.",
+      "distillation_method": "Cold maceration for cremes; copper pot-still distillation of grape pomace for marc and fine",
+      "visit_available": false,
+      "tasting_program": "Production site not generally open to visitors; contact in advance",
+      "booking_url": "https://www.cartron.fr/",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.cartron.fr/",
+        "address_quoted": "25, Rue du Docteur Louis Legrand",
+        "open_status": "open",
+        "open_evidence_url": "https://www.diffordsguide.com/producers/438/joseph-cartron",
+        "cuisine_evidence_url": "https://www.bourgogne-tourisme.com/decouvrir/gastronomie-et-produits-regionaux/produits-du-terroir-bourgogne/le-cassis-la-creme-des-fruits-rouges/",
+        "checked_on": "2026-05-25"
+      }
+    }
+  ]
+}

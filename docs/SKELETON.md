@@ -89,7 +89,7 @@ Every vineyard / tasting-room / wine-bar / etc. detail page renders:
 | `/sitemap.xml` | rendering (homepage-only stub) |
 | All other surfaces | NOT YET — need first region research + generator adaptations |
 
-## Page-count projection (per docs/HANDOFF.md)
+## Page-count projection
 
 100 wine regions × ~200 pages each ≈ 20,000 pages. Plus global cross-cuts
 (grape, style, world) ≈ 1,000-1,500 pages. Plus spirits if folded in

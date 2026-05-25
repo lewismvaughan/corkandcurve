@@ -1,0 +1,119 @@
+{
+  "wine_festivals": [
+    {
+      "slug": "hospices-de-beaune-wine-auction",
+      "name": "Hospices de Beaune Wine Auction",
+      "recurrence_pattern": "annual, third Sunday of November",
+      "start_month": "November",
+      "duration": "1 day (auction), 3 days of festivities",
+      "host_organization": "Hospices de Beaune with Sotheby's",
+      "ticket_required": true,
+      "ticket_url": "https://hospices-beaune.com/en/vente-auction-hospices-de-beaune",
+      "featured_producers": [],
+      "neighborhood": "Beaune",
+      "description": "The world's most famous charity wine auction, held in the Halles de Beaune on the third Sunday of November since 1859. Barrels of the latest Hospices cuvees from Cote de Beaune and Cote de Nuits parcels sell to fund the Beaune hospital.",
+      "tip": "The public Festivinales tastings around the town run the three days before the Sunday sale; book Beaune accommodation a year ahead as the Trois Glorieuses weekend fills the whole Cote d'Or.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.beaune-tourism.com/explore/discover-the-hospices-de-beaune/the-hospices-de-beaune-wine-auction/",
+        "address_quoted": "Beaune",
+        "open_status": "open",
+        "open_evidence_url": "https://www.winespectator.com/articles/2025-hospices-de-beaune-wine-charity-auction-burgundy",
+        "cuisine_evidence_url": "https://hospices-beaune.com/en/vente-auction-hospices-de-beaune",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "la-paulee-de-meursault",
+      "name": "La Paulee de Meursault",
+      "recurrence_pattern": "annual, third Monday of November",
+      "start_month": "November",
+      "duration": "1 day",
+      "host_organization": "Domaine du Chateau de Meursault and Meursault growers",
+      "ticket_required": true,
+      "ticket_url": "https://www.cavesa.ch/en/definition/paulee-de-meursault",
+      "featured_producers": [],
+      "neighborhood": "Meursault",
+      "description": "The closing day of the Trois Glorieuses, a bring-your-own-bottle harvest banquet at the Chateau de Meursault on the Monday after the Hospices auction. Growers pour rare older white Burgundy from their own cellars across a long afternoon lunch.",
+      "tip": "Seats are coveted and largely allocated to the trade and Meursault families; mirror the spirit by booking a Meursault domaine lunch the same week if you cannot get a Paulee place.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.cavesa.ch/en/definition/paulee-de-meursault",
+        "address_quoted": "Meursault",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/La_Paul%C3%A9e_de_Meursault",
+        "cuisine_evidence_url": "https://www.beaune-tourism.com/explore/discover-the-hospices-de-beaune/the-hospices-de-beaune-wine-auction/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "saint-vincent-tournante",
+      "name": "Saint-Vincent Tournante",
+      "recurrence_pattern": "annual, late January, rotating village",
+      "start_month": "January",
+      "duration": "2 days",
+      "host_organization": "Confrerie des Chevaliers du Tastevin and the host village",
+      "ticket_required": true,
+      "ticket_url": "https://www.saintvincent2026.fr/en/",
+      "featured_producers": [],
+      "neighborhood": "Rotating village (Maranges in 2026)",
+      "description": "Burgundy's great winegrowers' festival in honour of Saint Vincent, patron of vine-growers, held each late January in a different village. The host village decorates its streets with paper flowers and opens cellars for tasting kits; the 2026 edition is in the Maranges.",
+      "tip": "Buy the tasting glass and kit in advance via the host-village site; the rotating location changes yearly so confirm which village hosts before booking a stay.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.saintvincent2026.fr/en/",
+        "address_quoted": "Maranges",
+        "open_status": "open",
+        "open_evidence_url": "https://www.citeclimatsvins-bourgogne.com/blog/saint-vincent-tournante-2026/",
+        "cuisine_evidence_url": "https://www.bourgogneaujourdhui.com/en/blog/rendez-vous-oenotourisme/saint-vincent-tournante-2026-cap-sur-les-maranges",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "fete-des-vins-de-chablis",
+      "name": "Fete des vins de Chablis",
+      "recurrence_pattern": "annual, fourth weekend of October",
+      "start_month": "October",
+      "duration": "2 days",
+      "host_organization": "Comite de la Saint-Vincent de Chablis",
+      "ticket_required": true,
+      "ticket_url": "https://fetedesvinsdechablis.fr/",
+      "featured_producers": [],
+      "neighborhood": "Chablis",
+      "description": "Held on the fourth weekend of October in the town of Chablis, this festival baptises the new vintage and brings together some 40 producers of Chablis and the Grand Auxerrois to pour every appellation tier alongside a brotherhood induction and walks in the vines.",
+      "tip": "Pair the tasting with a stroll through the Grand Cru slope above town; the festival is the easiest day of the year to compare Petit Chablis up to Grand Cru side by side.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.chablis-wines.com/discover/bourgogne-traditions/the-chablis-wine-festival/the-chablis-wine-festival,1812,7651.html",
+        "address_quoted": "Chablis",
+        "open_status": "open",
+        "open_evidence_url": "https://fetedesvinsdechablis.fr/",
+        "cuisine_evidence_url": "https://www.bourgogneaujourdhui.com/en/blog/rendez-vous-oenotourisme/chablis-fete-ses-vins-deux-jours-au-coeur-du-vignoble",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "grands-jours-de-bourgogne",
+      "name": "Grands Jours de Bourgogne",
+      "recurrence_pattern": "biennial, March of even years",
+      "start_month": "March",
+      "duration": "5 days",
+      "host_organization": "Les Grands Jours de Bourgogne association with the Bourgogne Wine Board",
+      "ticket_required": true,
+      "ticket_url": "https://www.grands-jours-bourgogne.fr/en/",
+      "featured_producers": [],
+      "neighborhood": "Across Burgundy",
+      "description": "The largest trade tasting in Burgundy, run every two years in March across the region's vineyards from Chablis to the Maconnais. Over five days thousands of professionals, importers and journalists taste the latest releases appellation by appellation; the 2026 edition runs 9 to 13 March.",
+      "tip": "This is a trade and press event, not a consumer fair; producers along the route often open for visits the same week, so non-trade visitors can still plan a tasting-rich March itinerary.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.grands-jours-bourgogne.fr/en/",
+        "address_quoted": "Bourgogne",
+        "open_status": "open",
+        "open_evidence_url": "https://www.grands-jours-bourgogne.fr/actualites/rendez-vous-en-2026/",
+        "cuisine_evidence_url": "https://www.bourgogne-wines.com/our-terroir-our-wines/history-of-the-bourgogne-winegrowing-region,2447,9226.html",
+        "checked_on": "2026-05-25"
+      }
+    }
+  ]
+}

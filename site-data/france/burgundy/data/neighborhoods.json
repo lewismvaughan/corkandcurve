@@ -1,0 +1,460 @@
+{
+  "neighborhoods": [
+    {
+      "slug": "cote-de-nuits",
+      "name": "Cote de Nuits",
+      "address": "Cote de Nuits, Cote-d'Or, 21700 Burgundy, France",
+      "classification": "Cote de Nuits (Cote d'Or, AOC)",
+      "description": "The northern half of the Cote d'Or and the source of Burgundy's greatest reds. A narrow limestone slope from Marsannay to Corgoloin holding most of the region's red Grand Crus, almost all Pinot Noir.",
+      "key_varietals": [
+        "Pinot Noir",
+        "Chardonnay"
+      ],
+      "sub_communes": [
+        "Gevrey-Chambertin",
+        "Morey-Saint-Denis",
+        "Chambolle-Musigny",
+        "Vougeot",
+        "Vosne-Romanee",
+        "Nuits-Saint-Georges"
+      ],
+      "area_ha": 3800,
+      "famous_producers": [
+        "domaine-de-la-romanee-conti",
+        "domaine-armand-rousseau",
+        "domaine-georges-roumier",
+        "domaine-dujac",
+        "domaine-leroy"
+      ],
+      "aliases": [
+        "Cote de Nuits",
+        "Northern Cote d'Or"
+      ],
+      "vibe": "A tight ribbon of east-facing limestone slopes where the world's most coveted Pinot Noir grows in walled climats above stone-built wine villages.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.bourgogne-wines.com/our-wines-our-philosophy/the-cote-de-nuits-and-the-cote-de-beaune/cote-de-nuits-and-hautes-cotes-de-nuits,2403,9221.html",
+        "address_quoted": "Cote de Nuits",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vins-bourgogne.fr/",
+        "cuisine_evidence_url": "https://www.bourgogne-wines.com/our-wines-our-philosophy/the-cote-de-nuits-and-the-cote-de-beaune/cote-de-nuits-and-hautes-cotes-de-nuits,2403,9221.html",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "cote-de-beaune",
+      "name": "Cote de Beaune",
+      "address": "Cote de Beaune, Cote-d'Or, 21200 Beaune, France",
+      "classification": "Cote de Beaune (Cote d'Or, AOC)",
+      "description": "The southern half of the Cote d'Or, home to the world's benchmark Chardonnay and a clutch of red appellations. Runs from Ladoix past Beaune to the Maranges, with Corton its lone red Grand Cru hill.",
+      "key_varietals": [
+        "Chardonnay",
+        "Pinot Noir",
+        "Aligote"
+      ],
+      "sub_communes": [
+        "Aloxe-Corton",
+        "Beaune",
+        "Pommard",
+        "Volnay",
+        "Meursault",
+        "Puligny-Montrachet",
+        "Chassagne-Montrachet"
+      ],
+      "area_ha": 5800,
+      "famous_producers": [
+        "domaine-leflaive",
+        "domaine-des-comtes-lafon",
+        "maison-louis-jadot",
+        "bouchard-pere-et-fils",
+        "domaine-de-montille"
+      ],
+      "aliases": [
+        "Cote de Beaune",
+        "Southern Cote d'Or"
+      ],
+      "vibe": "Walled clos, the Hospices de Beaune and the white-wine grand crus of Montrachet, where Chardonnay reaches its most complete expression.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.bourgogne-wines.com/our-wines-our-philosophy/the-cote-de-nuits-and-the-cote-de-beaune/cote-de-nuits-and-hautes-cotes-de-nuits,2403,9221.html",
+        "address_quoted": "Beaune",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vins-bourgogne.fr/",
+        "cuisine_evidence_url": "https://www.bourgogne-wines.com/our-bourgogne-wines/the-bourgogne-appellations/beaune,2403,9210.html",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "chablis",
+      "name": "Chablis",
+      "address": "Chablis, 89800 Yonne, France",
+      "classification": "Chablis (Yonne, AOC)",
+      "description": "Burgundy's northernmost vineyard, an island of Chardonnay around the Yonne town of Chablis. Kimmeridgian limestone studded with fossilised oyster shells gives steely, mineral, unoaked-leaning whites across four tiers up to Grand Cru.",
+      "key_varietals": [
+        "Chardonnay"
+      ],
+      "sub_communes": [
+        "Chablis",
+        "Petit Chablis",
+        "Chablis Premier Cru",
+        "Chablis Grand Cru"
+      ],
+      "area_ha": 5800,
+      "famous_producers": [
+        "domaine-william-fevre",
+        "domaine-raveneau",
+        "domaine-louis-michel",
+        "domaine-jean-marc-brocard",
+        "maison-j-moreau-fils"
+      ],
+      "aliases": [
+        "Chablis",
+        "Grand Auxerrois"
+      ],
+      "vibe": "Cool, chalky slopes above a sleepy market town where Chardonnay turns flinty and saline, the most austere and ageworthy face of white Burgundy.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.chablis-wines.com/",
+        "address_quoted": "Chablis",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vins-bourgogne.fr/",
+        "cuisine_evidence_url": "https://www.bourgogne-wines.com/our-bourgogne-wines/the-bourgogne-appellations/chablis,2403,9210.html",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "cote-chalonnaise",
+      "name": "Cote Chalonnaise",
+      "address": "Cote Chalonnaise, Saone-et-Loire, 71150 Burgundy, France",
+      "classification": "Cote Chalonnaise (Saone-et-Loire, AOC)",
+      "description": "A patchwork of limestone hills south of the Cote d'Or with five village appellations and Burgundy's only dedicated Aligote cru, Bouzeron. Source of well-priced Pinot Noir, Chardonnay and crisp Aligote.",
+      "key_varietals": [
+        "Pinot Noir",
+        "Chardonnay",
+        "Aligote"
+      ],
+      "sub_communes": [
+        "Bouzeron",
+        "Rully",
+        "Mercurey",
+        "Givry",
+        "Montagny"
+      ],
+      "area_ha": 4400,
+      "famous_producers": [
+        "domaines-devillard",
+        "maison-louis-latour",
+        "maison-louis-jadot"
+      ],
+      "aliases": [
+        "Cote Chalonnaise",
+        "Region de Mercurey"
+      ],
+      "vibe": "Gentler, more open country than the Cote d'Or, where Mercurey reds and Bouzeron Aligote deliver classic Burgundy character at approachable prices.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.bourgogne-wines.com/our-wines-our-philosophy/our-bourgogne-appellations/the-cote-chalonnaise-and-the-couchois,2403,9220.html",
+        "address_quoted": "Cote Chalonnaise",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vins-bourgogne.fr/",
+        "cuisine_evidence_url": "https://www.bourgogne-wines.com/our-wines-our-philosophy/our-bourgogne-appellations/the-cote-chalonnaise-and-the-couchois,2403,9220.html",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "maconnais",
+      "name": "Maconnais",
+      "address": "Maconnais, Saone-et-Loire, 71000 Macon, France",
+      "classification": "Maconnais (Saone-et-Loire, AOC)",
+      "description": "Burgundy's warm southern Chardonnay belt around Macon, crowned by the dramatic rock of Solutre and the Pouilly-Fuisse appellation. Ripe, rounded whites that gained a first wave of Premier Crus in 2020.",
+      "key_varietals": [
+        "Chardonnay",
+        "Gamay",
+        "Pinot Noir"
+      ],
+      "sub_communes": [
+        "Pouilly-Fuisse",
+        "Saint-Veran",
+        "Vire-Clesse",
+        "Macon-Villages",
+        "Pouilly-Vinzelles"
+      ],
+      "area_ha": 6700,
+      "famous_producers": [
+        "maison-verget",
+        "maison-louis-jadot",
+        "domaine-leflaive"
+      ],
+      "aliases": [
+        "Maconnais",
+        "Macon"
+      ],
+      "vibe": "Sun-warmed limestone hills below the Roche de Solutre, where Chardonnay turns generous and orchard-fruited and prices stay friendly.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.bourgogne-wines.com/our-wines-our-philosophy/our-bourgogne-appellations/the-maconnais,2403,9218.html",
+        "address_quoted": "Macon",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vins-bourgogne.fr/",
+        "cuisine_evidence_url": "https://www.bourgogne-wines.com/our-wines-our-philosophy/our-bourgogne-appellations/the-maconnais,2403,9218.html",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "gevrey-chambertin",
+      "name": "Gevrey-Chambertin",
+      "address": "Gevrey-Chambertin, 21220 Cote-d'Or, France",
+      "classification": "Gevrey-Chambertin (Cote de Nuits, AOC)",
+      "description": "The largest Cote de Nuits commune and home to nine red Grand Crus led by Chambertin and Chambertin-Clos de Beze. Powerful, structured, long-lived Pinot Noir that Napoleon famously favoured.",
+      "key_varietals": [
+        "Pinot Noir"
+      ],
+      "sub_communes": [
+        "Chambertin",
+        "Chambertin-Clos de Beze",
+        "Mazis-Chambertin",
+        "Charmes-Chambertin",
+        "Ruchottes-Chambertin"
+      ],
+      "area_ha": 410,
+      "famous_producers": [
+        "domaine-armand-rousseau",
+        "domaine-trapet-pere-et-fils",
+        "domaine-leroy"
+      ],
+      "aliases": [
+        "Gevrey-Chambertin",
+        "Gevrey"
+      ],
+      "vibe": "The mightiest village of the Cote de Nuits, where a cluster of Chambertin grand crus produces the most muscular and ageworthy red Burgundy.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.bourgogne-wines.com/our-bourgogne-wines/the-bourgogne-appellations/gevrey-chambertin,2403,9210.html",
+        "address_quoted": "Gevrey-Chambertin",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vins-bourgogne.fr/",
+        "cuisine_evidence_url": "https://www.bourgogne-wines.com/our-bourgogne-wines/the-bourgogne-appellations/gevrey-chambertin,2403,9210.html",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "vosne-romanee",
+      "name": "Vosne-Romanee",
+      "address": "Vosne-Romanee, 21700 Cote-d'Or, France",
+      "classification": "Vosne-Romanee (Cote de Nuits, AOC)",
+      "description": "The most exalted red-wine village on earth, home to Romanee-Conti, La Tache, Richebourg and La Romanee. Silky, perfumed, profound Pinot Noir from a tiny band of grand-cru climats.",
+      "key_varietals": [
+        "Pinot Noir"
+      ],
+      "sub_communes": [
+        "Romanee-Conti",
+        "La Tache",
+        "Richebourg",
+        "Romanee-Saint-Vivant",
+        "La Grande Rue",
+        "Echezeaux"
+      ],
+      "area_ha": 230,
+      "famous_producers": [
+        "domaine-de-la-romanee-conti",
+        "domaine-leroy",
+        "domaine-meo-camuzet",
+        "domaine-mugneret-gibourg"
+      ],
+      "aliases": [
+        "Vosne-Romanee",
+        "Vosne"
+      ],
+      "vibe": "A modest village fronting the most valuable vineyard land in the world, where Romanee-Conti and La Tache set the absolute standard for Pinot Noir.",
+      "editorial_score": 5.0,
+      "verified": {
+        "source_url": "https://www.bourgogne-wines.com/our-bourgogne-wines/the-bourgogne-appellations/vosne-romanee,2403,9210.html",
+        "address_quoted": "Vosne-Romanee",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vins-bourgogne.fr/",
+        "cuisine_evidence_url": "https://www.bourgogne-wines.com/our-bourgogne-wines/the-bourgogne-appellations/vosne-romanee,2403,9210.html",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "nuits-saint-georges",
+      "name": "Nuits-Saint-Georges",
+      "address": "Nuits-Saint-Georges, 21700 Cote-d'Or, France",
+      "classification": "Nuits-Saint-Georges (Cote de Nuits, AOC)",
+      "description": "The market town that gave the Cote de Nuits its name, with a long roll of Premier Crus but no Grand Cru. Firm, earthy, structured Pinot Noir that rewards cellaring.",
+      "key_varietals": [
+        "Pinot Noir",
+        "Chardonnay"
+      ],
+      "sub_communes": [
+        "Les Saint-Georges",
+        "Les Vaucrains",
+        "Les Cailles",
+        "Aux Boudots",
+        "Clos de la Marechale"
+      ],
+      "area_ha": 305,
+      "famous_producers": [
+        "domaine-meo-camuzet",
+        "maison-albert-bichot",
+        "domaine-faiveley"
+      ],
+      "aliases": [
+        "Nuits-Saint-Georges",
+        "Nuits"
+      ],
+      "vibe": "The commercial hub of the Cote de Nuits, all sturdy stone and negociant cellars, producing dense and savoury Pinot Noir from its many premiers crus.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.bourgogne-wines.com/our-bourgogne-wines/the-bourgogne-appellations/nuits-saint-georges,2403,9210.html",
+        "address_quoted": "Nuits-Saint-Georges",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vins-bourgogne.fr/",
+        "cuisine_evidence_url": "https://www.bourgogne-wines.com/our-bourgogne-wines/the-bourgogne-appellations/nuits-saint-georges,2403,9210.html",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "chambolle-musigny",
+      "name": "Chambolle-Musigny",
+      "address": "Chambolle-Musigny, 21220 Cote-d'Or, France",
+      "classification": "Chambolle-Musigny (Cote de Nuits, AOC)",
+      "description": "The most delicate and fragrant of the Cote de Nuits communes, with the Grand Crus Musigny and Bonnes-Mares. Lacy, floral, silk-textured Pinot Noir from thin limestone soils.",
+      "key_varietals": [
+        "Pinot Noir"
+      ],
+      "sub_communes": [
+        "Musigny",
+        "Bonnes-Mares",
+        "Les Amoureuses",
+        "Les Charmes"
+      ],
+      "area_ha": 180,
+      "famous_producers": [
+        "domaine-georges-roumier",
+        "domaine-comte-georges-de-vogue"
+      ],
+      "aliases": [
+        "Chambolle-Musigny",
+        "Chambolle"
+      ],
+      "vibe": "The lace-maker of the Cote de Nuits, where Musigny and Les Amoureuses yield the most perfumed and ethereal Pinot Noir in Burgundy.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.bourgogne-wines.com/our-bourgogne-wines/the-bourgogne-appellations/chambolle-musigny,2403,9210.html",
+        "address_quoted": "Chambolle-Musigny",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vins-bourgogne.fr/",
+        "cuisine_evidence_url": "https://www.bourgogne-wines.com/our-bourgogne-wines/the-bourgogne-appellations/chambolle-musigny,2403,9210.html",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "meursault",
+      "name": "Meursault",
+      "address": "Meursault, 21190 Cote-d'Or, France",
+      "classification": "Meursault (Cote de Beaune, AOC)",
+      "description": "The largest white-wine commune of the Cote de Beaune, rich and nutty in style with a deep roll of Premier Crus such as Perrieres and Genevrieres, though no Grand Cru of its own.",
+      "key_varietals": [
+        "Chardonnay"
+      ],
+      "sub_communes": [
+        "Les Perrieres",
+        "Les Genevrieres",
+        "Les Charmes",
+        "Les Gouttes d'Or"
+      ],
+      "area_ha": 395,
+      "famous_producers": [
+        "domaine-des-comtes-lafon",
+        "domaine-coche-dury",
+        "bouchard-pere-et-fils"
+      ],
+      "aliases": [
+        "Meursault"
+      ],
+      "vibe": "The buttery, hazelnut-scented heart of white Burgundy, where great Chardonnay flows from Perrieres and Genevrieres without a grand cru in sight.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.bourgogne-wines.com/our-bourgogne-wines/the-bourgogne-appellations/meursault,2403,9210.html",
+        "address_quoted": "Meursault",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vins-bourgogne.fr/",
+        "cuisine_evidence_url": "https://www.bourgogne-wines.com/our-bourgogne-wines/the-bourgogne-appellations/meursault,2403,9210.html",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "puligny-montrachet",
+      "name": "Puligny-Montrachet",
+      "address": "Puligny-Montrachet, 21190 Cote-d'Or, France",
+      "classification": "Puligny-Montrachet (Cote de Beaune, AOC)",
+      "description": "The pinnacle of white Burgundy, sharing the Montrachet and Batard-Montrachet Grand Crus with neighbouring Chassagne. Precise, mineral, age-defying Chardonnay of the highest order.",
+      "key_varietals": [
+        "Chardonnay"
+      ],
+      "sub_communes": [
+        "Le Montrachet",
+        "Chevalier-Montrachet",
+        "Batard-Montrachet",
+        "Bienvenues-Batard-Montrachet"
+      ],
+      "area_ha": 210,
+      "famous_producers": [
+        "domaine-leflaive",
+        "domaine-etienne-sauzet",
+        "olivier-leflaive"
+      ],
+      "aliases": [
+        "Puligny-Montrachet",
+        "Puligny"
+      ],
+      "vibe": "The summit of white wine, where the Montrachet grand crus straddle the Puligny and Chassagne line to make the most coveted Chardonnay on earth.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.bourgogne-wines.com/our-bourgogne-wines/the-bourgogne-appellations/puligny-montrachet,2403,9210.html",
+        "address_quoted": "Puligny-Montrachet",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vins-bourgogne.fr/",
+        "cuisine_evidence_url": "https://www.bourgogne-wines.com/our-bourgogne-wines/the-bourgogne-appellations/puligny-montrachet,2403,9210.html",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "volnay-pommard",
+      "name": "Volnay and Pommard",
+      "address": "Volnay, 21190 Cote-d'Or, France",
+      "classification": "Volnay and Pommard (Cote de Beaune, AOC)",
+      "description": "The Cote de Beaune's red-wine pair: Volnay all silk and violets, Pommard broad-shouldered and tannic. Neighbouring villages that frame the contrast in southern Burgundy Pinot Noir.",
+      "key_varietals": [
+        "Pinot Noir"
+      ],
+      "sub_communes": [
+        "Volnay Caillerets",
+        "Volnay Clos des Chenes",
+        "Pommard Rugiens",
+        "Pommard Epenots"
+      ],
+      "area_ha": 555,
+      "famous_producers": [
+        "domaine-de-montille",
+        "domaine-comte-armand",
+        "maison-louis-jadot"
+      ],
+      "aliases": [
+        "Volnay",
+        "Pommard"
+      ],
+      "vibe": "Two neighbouring red villages in counterpoint, Volnay perfumed and silken against Pommard's dark, firm, broad-shouldered Pinot Noir.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.bourgogne-wines.com/our-bourgogne-wines/the-bourgogne-appellations/volnay,2403,9210.html",
+        "address_quoted": "Volnay",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vins-bourgogne.fr/",
+        "cuisine_evidence_url": "https://www.bourgogne-wines.com/our-bourgogne-wines/the-bourgogne-appellations/pommard,2403,9210.html",
+        "checked_on": "2026-05-25"
+      }
+    }
+  ]
+}

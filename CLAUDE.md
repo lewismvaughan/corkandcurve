@@ -7,16 +7,14 @@ entity cross-references, NOT bulk reciprocal links.
 
 ## READ FIRST (before any non-trivial work)
 
-1. **[docs/HANDOFF.md](docs/HANDOFF.md)** — latest session state, what's
-   pending, what was last completed. Always start here on a fresh session.
-2. **[docs/STANDARDS.md](docs/STANDARDS.md)** — SEO + perf + correctness
+1. **[docs/STANDARDS.md](docs/STANDARDS.md)** — SEO + perf + correctness
    invariants every generator and agent must respect.
-3. **[docs/DATA_TO_PAGES.md](docs/DATA_TO_PAGES.md)** — what every JSON
+2. **[docs/DATA_TO_PAGES.md](docs/DATA_TO_PAGES.md)** — what every JSON
    field produces. Research agents need this to see the downstream
    impact of each field they fill.
-4. **[docs/FLOW.md](docs/FLOW.md)** — operational playbook
+3. **[docs/FLOW.md](docs/FLOW.md)** — operational playbook
    (research → QA chain → ship pipeline).
-5. **[agents/wine-research/PROMPT.md](agents/wine-research/PROMPT.md)** —
+4. **[agents/wine-research/PROMPT.md](agents/wine-research/PROMPT.md)** —
    the wine-vertical adaptation of the TJ research prompt. Includes
    wine-specific verified-block fields (DOCG/IGT/AOC/AVA classification,
    hectarage, ownership, biodynamic status, key scores from Decanter +

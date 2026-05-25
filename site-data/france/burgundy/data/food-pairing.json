@@ -1,0 +1,183 @@
+{
+  "food_pairing": [
+    {
+      "slug": "chablis-grand-cru-oysters",
+      "name": "Chablis grand cru with oysters",
+      "pairing": "Chablis Grand Cru Les Clos with a plateau of raw oysters",
+      "tablejourney_ref": null,
+      "wine_entities": [
+        "fevre-les-clos",
+        "raveneau-les-clos",
+        "michel-les-clos"
+      ],
+      "description": "Chablis grand cru's oyster-shell minerality and racy acidity are the textbook foil for raw oysters, the saline of each amplifying the other.",
+      "editorial_score": 5.0,
+      "verified": {
+        "source_url": "https://www.chablis-wines.com/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "meursault-poulet-bresse",
+      "name": "Meursault with quenelle de brochet",
+      "pairing": "Barrel-aged Meursault with quenelle de brochet sauce Nantua",
+      "tablejourney_ref": "france/lyon/dish/quenelle-de-brochet",
+      "wine_entities": [
+        "lafon-meursault-perrieres",
+        "coche-meursault-village",
+        "ol-meursault-village"
+      ],
+      "description": "Meursault's hazelnut, butter and saline weight carry the Lyonnais pike dumpling and its creamy crayfish sauce without being overwhelmed.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://tablejourney.com/france/lyon/dish/quenelle-de-brochet/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "gevrey-coq-au-vin",
+      "name": "Gevrey-Chambertin with coq au vin",
+      "pairing": "Village or premier cru Gevrey-Chambertin with coq au vin",
+      "tablejourney_ref": null,
+      "wine_entities": [
+        "rousseau-gevrey-village",
+        "trapet-gevrey-ostrea",
+        "bichot-pommard-village"
+      ],
+      "description": "A Burgundy braise of rooster in red wine mirrors Gevrey's dark fruit and forest-floor depth, the dish and the wine built from the same region.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.bourgogne-wines.com/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "pommard-boeuf-bourguignon",
+      "name": "Pommard with boeuf bourguignon",
+      "pairing": "Structured Pommard with boeuf bourguignon",
+      "tablejourney_ref": null,
+      "wine_entities": [
+        "comte-armand-clos-des-epeneaux",
+        "montille-pommard-rugiens",
+        "bichot-pommard-village"
+      ],
+      "description": "Pommard's iron, firm tannin and savoury depth stand up to slow-braised beef in red-wine reduction, the regional pairing of the Cote de Beaune.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.bourgogne-wines.com/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "aligote-cervelle-de-canut",
+      "name": "Bourgogne Aligote with cervelle de canut",
+      "pairing": "Bourgogne Aligote with cervelle de canut",
+      "tablejourney_ref": "france/lyon/dish/cervelle-de-canut",
+      "wine_entities": [
+        "coche-bourgogne-aligote",
+        "ponsot-morey-clos-mont-luisants"
+      ],
+      "description": "The herbed fromage blanc of Lyon sharpens Aligote's citrus and saline cut, a fresh, high-acid match that keeps the finish clean.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://tablejourney.com/france/lyon/dish/cervelle-de-canut/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "cote-de-nuits-epoisses",
+      "name": "Cote de Nuits Pinot with Epoisses",
+      "pairing": "Cote de Nuits grand cru Pinot Noir with Epoisses de Bourgogne",
+      "tablejourney_ref": null,
+      "wine_entities": [
+        "dujac-clos-de-la-roche",
+        "mugneret-echezeaux",
+        "meo-vosne-village"
+      ],
+      "description": "The pungent washed-rind cow's-milk cheese of Burgundy needs a red with grip and acidity; a structured Cote de Nuits Pinot balances its cream.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.bourgogne-wines.com/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "village-pinot-pate-en-croute",
+      "name": "Village red Burgundy with pate en croute",
+      "pairing": "Village red Burgundy with pate en croute lyonnais",
+      "tablejourney_ref": "france/lyon/dish/pate-en-croute-lyonnais",
+      "wine_entities": [
+        "roumier-chambolle-village",
+        "dujac-morey-village",
+        "patriarche-bourgogne-pinot-noir"
+      ],
+      "description": "The pastry-wrapped terrine's fat and pistachio echo a supple village Pinot's red fruit and gentle tannin, a classic Lyon wine-bar plate.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://tablejourney.com/france/lyon/dish/pate-en-croute-lyonnais/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "corton-charlemagne-turbot",
+      "name": "Corton-Charlemagne with roast turbot",
+      "pairing": "Corton-Charlemagne grand cru with roast turbot in beurre blanc",
+      "tablejourney_ref": null,
+      "wine_entities": [
+        "latour-corton-charlemagne",
+        "bonneau-corton-charlemagne",
+        "faiveley-corton-charlemagne"
+      ],
+      "description": "A powerful grand cru white carries firm white fish and its buttery sauce, citrus and hazelnut framing the richness with a saline lift.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.bourgogne-wines.com/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "chablis-village-salade-lyonnaise",
+      "name": "Village Chablis with salade lyonnaise",
+      "pairing": "Unoaked village Chablis with salade lyonnaise",
+      "tablejourney_ref": "france/lyon/dish/salade-lyonnaise",
+      "wine_entities": [
+        "fevre-chablis-village",
+        "michel-chablis-village",
+        "drouhin-chablis-vaudon"
+      ],
+      "description": "Bacon, frisee and a soft poached egg find a foil in unoaked Chablis, the wine's racy acidity and saline edge resetting the palate between bites.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://tablejourney.com/france/lyon/dish/salade-lyonnaise/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "grand-cru-pinot-venison",
+      "name": "Grand cru red Burgundy with roast venison",
+      "pairing": "Grand cru Cote de Nuits Pinot Noir with roast venison and cassis jus",
+      "tablejourney_ref": null,
+      "wine_entities": [
+        "rousseau-chambertin",
+        "roumier-bonnes-mares",
+        "meo-richebourg"
+      ],
+      "description": "Game meat and a blackcurrant reduction echo a grand-cru Pinot's wild fruit and firm tannin, the centrepiece pairing for Burgundy's greatest reds.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.bourgogne-wines.com/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    }
+  ]
+}

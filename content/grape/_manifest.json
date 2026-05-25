@@ -25,6 +25,18 @@
       ]
     },
     {
+      "slug": "aligote",
+      "display": "Aligote",
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "burgundy",
+          "region_name": "Burgundy",
+          "n": 14
+        }
+      ]
+    },
+    {
       "slug": "cabernet-franc",
       "display": "Cabernet Franc",
       "regions": [
@@ -85,9 +97,27 @@
       ]
     },
     {
+      "slug": "cesar",
+      "display": "Cesar",
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "burgundy",
+          "region_name": "Burgundy",
+          "n": 1
+        }
+      ]
+    },
+    {
       "slug": "chardonnay",
       "display": "Chardonnay",
       "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "burgundy",
+          "region_name": "Burgundy",
+          "n": 59
+        },
         {
           "country_slug": "italy",
           "region_slug": "tuscany",
@@ -129,6 +159,18 @@
           "region_slug": "tuscany",
           "region_name": "Tuscany",
           "n": 1
+        }
+      ]
+    },
+    {
+      "slug": "gamay",
+      "display": "Gamay",
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "burgundy",
+          "region_name": "Burgundy",
+          "n": 5
         }
       ]
     },
@@ -277,6 +319,18 @@
       ]
     },
     {
+      "slug": "pinot-gris",
+      "display": "Pinot Gris",
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "burgundy",
+          "region_name": "Burgundy",
+          "n": 1
+        }
+      ]
+    },
+    {
       "slug": "pinot-nero",
       "display": "Pinot Nero",
       "regions": [
@@ -285,6 +339,18 @@
           "region_slug": "tuscany",
           "region_name": "Tuscany",
           "n": 3
+        }
+      ]
+    },
+    {
+      "slug": "pinot-noir",
+      "display": "Pinot Noir",
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "burgundy",
+          "region_name": "Burgundy",
+          "n": 47
         }
       ]
     },
@@ -369,6 +435,12 @@
           "region_slug": "bordeaux",
           "region_name": "Bordeaux",
           "n": 16
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "burgundy",
+          "region_name": "Burgundy",
+          "n": 1
         },
         {
           "country_slug": "italy",

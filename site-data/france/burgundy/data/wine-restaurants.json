@@ -1,0 +1,168 @@
+{
+  "wine_restaurants": [
+    {
+      "slug": "loiseau-des-vignes-beaune",
+      "name": "Loiseau des Vignes",
+      "address": "31 Rue Maufoux, 21200 Beaune, France",
+      "neighborhood": "Beaune town centre",
+      "cuisine": "Modern Burgundian gastronomy with seasonal tasting menus built around an exceptional by-the-glass Burgundy programme",
+      "cellar_size": null,
+      "awards": [
+        { "source": "Michelin", "year": 2024 }
+      ],
+      "description": "Michelin-starred restaurant near the Hospices, opened 2007, among the first in Europe to pour more than 70 wines by the glass. Burgundy selection prepared by MOF sommelier Eric Goettelmann.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://guide.michelin.com/us/en/bourgogne-franche-comte/beaune/restaurant/loiseau-des-vignes",
+        "address_quoted": "Beaune",
+        "open_status": "open",
+        "open_evidence_url": "https://www.bernard-loiseau.com/en/loiseaudesvignes.html",
+        "cuisine_evidence_url": "https://www.bernard-loiseau.com/en/loiseaudesvignes.html",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "le-benaton-beaune",
+      "name": "Le Benaton",
+      "address": "25 Rue du Faubourg Bretonniere, 21200 Beaune, France",
+      "neighborhood": "Beaune",
+      "cuisine": "Contemporary Burgundian cuisine with bold modern interpretations of regional dishes, paired from a Burgundy-focused cellar",
+      "cellar_size": null,
+      "awards": [
+        { "source": "Michelin", "year": 2024 }
+      ],
+      "description": "Michelin-starred since 2006, chef Bruno Monnoir's restaurant offers modern Burgundian cuisine matched to a deep regional wine list in an elegant, relaxed room near the centre of Beaune.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://guide.michelin.com/us/en/bourgogne-franche-comte/beaune/restaurant/le-benaton",
+        "address_quoted": "Beaune",
+        "open_status": "open",
+        "open_evidence_url": "https://wanderlog.com/list/geoCategory/60288/michelin-star-restaurants-in-beaune",
+        "cuisine_evidence_url": "https://guide.michelin.com/us/en/bourgogne-franche-comte/beaune/restaurant/le-benaton",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "le-caveau-des-arches-beaune",
+      "name": "Le Caveau des Arches",
+      "address": "10 Boulevard de Perpreuil, 21200 Beaune, France",
+      "neighborhood": "Beaune town centre",
+      "cuisine": "Traditional Burgundian cuisine served in a 15th-century vaulted cellar, paired with a deep Cote d'Or wine list",
+      "cellar_size": null,
+      "awards": [
+        { "source": "Michelin", "year": 2024 }
+      ],
+      "description": "Family restaurant since 1992 in a 15th-century vaulted cellar built on the old town ramparts, listed in the Michelin Guide. Classic Burgundian dishes matched to a strong Cote d'Or cellar.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.caveau-des-arches.com/restaurant-beaune.html",
+        "address_quoted": "Beaune",
+        "open_status": "open",
+        "open_evidence_url": "https://guide.michelin.com/us/en/bourgogne-franche-comte/beaune/restaurants",
+        "cuisine_evidence_url": "https://www.caveau-des-arches.com/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "le-bissoh-beaune",
+      "name": "Le Bissoh",
+      "address": "1 Rue du Faubourg Saint-Jacques, 21200 Beaune, France",
+      "neighborhood": "Beaune town centre",
+      "cuisine": "Japanese fine dining and sushi crafted to pair with Burgundy, a deliberate bridge between Burgundian whites and Japanese technique",
+      "cellar_size": null,
+      "awards": [
+        { "source": "Michelin", "year": 2024 }
+      ],
+      "description": "Michelin-listed Japanese restaurant in central Beaune where chef Mikihiko Sawahata pairs sushi and kaiseki technique with Burgundy whites, a celebrated wine-and-cuisine bridge in the wine capital.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.burgundy-tourism.com/restaurants/le-bissoh",
+        "address_quoted": "Beaune",
+        "open_status": "open",
+        "open_evidence_url": "https://guide.michelin.com/us/en/bourgogne-franche-comte/beaune/restaurant/le-bissoh",
+        "cuisine_evidence_url": "https://www.burgundy-tourism.com/restaurants/le-bissoh",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "la-table-de-levernois",
+      "name": "La Table de Levernois",
+      "address": "15 Rue du Golf, 21200 Levernois, France",
+      "neighborhood": "Levernois",
+      "cuisine": "Michelin-starred French gastronomy revisited by chef Philippe Auge, paired from a cellar of more than 1,000 wines",
+      "cellar_size": 1000,
+      "awards": [
+        { "source": "Michelin", "year": 2024 }
+      ],
+      "description": "Michelin-starred restaurant of the Relais et Chateaux Hostellerie de Levernois near Beaune, with a cellar of more than 1,000 wines and a riverside park. Classic French gastronomy by chef Philippe Auge.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.levernois.com/en/",
+        "address_quoted": "15 Rue du Golf, 21200 Levernois - France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.relaischateaux.com/us/hotel/hostellerie-de-levernois/",
+        "cuisine_evidence_url": "https://www.levernois.com/en/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "hostellerie-des-clos-chablis",
+      "name": "Hostellerie des Clos",
+      "address": "18 Rue Jules Rathier, 89800 Chablis, France",
+      "neighborhood": "Chablis",
+      "cuisine": "Refined Burgundian cuisine in the heart of Chablis, matched to a cellar of 900 references including 400 Chablis wines",
+      "cellar_size": 900,
+      "awards": [
+        { "source": "Michelin", "year": 2024 }
+      ],
+      "description": "Hotel restaurant in the centre of Chablis with a 900-reference cellar, 400 of them Chablis, curated by sommelier Thomas Charlut. One of the deepest Chablis lists in the village.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.hostellerie-des-clos.fr/restaurant-chablis-bourgogne",
+        "address_quoted": "Chablis",
+        "open_status": "open",
+        "open_evidence_url": "https://www.burgundy-tourism.com/hotel/hostellerie-des-clos",
+        "cuisine_evidence_url": "https://www.chablis-hotel.com/restaurant-burgundy",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "le-bistrot-bourguignon-restaurant-beaune",
+      "name": "Le Bistrot Bourguignon",
+      "address": "8 Rue Monge, 21200 Beaune, France",
+      "neighborhood": "Beaune town centre",
+      "cuisine": "Seasonal Burgundian bistro cooking matched to a grower-direct wine list of biodynamic and sustainable Burgundy producers",
+      "cellar_size": null,
+      "awards": [],
+      "description": "Beaune's oldest wine bistro on Rue Monge, owner Christophe Meux trained at La Cote d'Or. Seasonal Burgundian plates matched to a list championing biodynamic and traditional growers.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.bistrotbourguignon.fr/beaune-restaurant.html",
+        "address_quoted": "8 Rue Monge",
+        "open_status": "open",
+        "open_evidence_url": "https://www.winespectator.com/articles/travel-tip-beaune-restaurants-48219",
+        "cuisine_evidence_url": "https://www.bistrotbourguignon.fr/beaune-restaurant.html",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "lair-du-temps-beaune",
+      "name": "L'Air du Temps",
+      "address": "3 Avenue de la Republique, 21200 Beaune, France",
+      "neighborhood": "Beaune town centre",
+      "cuisine": "French bistro cooking with a wine list built by tasting new vintages in the growers' cellars each year",
+      "cellar_size": null,
+      "awards": [],
+      "description": "Beaune bistro on Avenue de la Republique whose wine list is renewed each year by tasting new vintages directly in the cellars. Close ties to Cote de Beaune growers underpin the pairing.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.lairdutemps-beaune.fr/beaune-restaurant.html",
+        "address_quoted": "3 avenue de la Republique, 21200 Beaune",
+        "open_status": "open",
+        "open_evidence_url": "https://www.petitfute.co.uk/v6379-beaune-21200/c1165-restaurants/c4-cuisine-francaise/1591076-l-air-du-temps.html",
+        "cuisine_evidence_url": "https://www.lairdutemps-beaune.fr/beaune-restaurant.html",
+        "checked_on": "2026-05-25"
+      }
+    }
+  ]
+}

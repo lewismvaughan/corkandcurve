@@ -1,0 +1,59 @@
+{
+  "destination": {
+    "slug": "burgundy",
+    "name": "Burgundy",
+    "country": "France",
+    "country_slug": "france",
+    "hero_image": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Cote-de-Nuits_01.JPG",
+    "hero_image_source_url": "https://commons.wikimedia.org/wiki/File:Cote-de-Nuits_01.JPG",
+    "hero_image_credit": "Photo by Ile-de-re on Wikimedia Commons, Public domain",
+    "hero_image_alt": "Cote de Nuits vineyard slopes in Burgundy under morning light",
+    "hero_image_source": "Wikimedia Commons",
+    "hero_image_photographer": "Ile-de-re",
+    "hero_image_license": "Public domain",
+    "blurb": "France's grand-cru heartland, where single-vineyard climats of Pinot Noir and Chardonnay run from Chablis through the Cote d'Or to the Maconnais.",
+    "type": "wine-region",
+    "tagline": "One thousand climats of Pinot Noir and Chardonnay",
+    "overview": "Burgundy stretches from the chalky Chablis vineyards through the limestone Cote d'Or to the Cote Chalonnaise and Maconnais, with a UNESCO-listed mosaic of named climats producing the world's benchmark Pinot Noir and Chardonnay.",
+    "cross_site_ref": "",
+    "cross_site_name": ""
+  },
+  "seo": {
+    "pages": {
+      "index": {
+        "title": "Burgundy Wine Region Guide | Cork & Curve",
+        "description": "Explore Burgundy wine estates, sub-appellations and grand cru climats from Chablis and the Cote de Nuits to Meursault, the Cote Chalonnaise and the Maconnais."
+      },
+      "vineyards": {
+        "title": "Burgundy Vineyards and Domaines | Cork & Curve",
+        "description": "Discover Burgundy domaines and maisons from Romanee-Conti and Armand Rousseau to Louis Jadot, Drouhin, Leflaive and William Fevre, with tasting and visit details."
+      },
+      "neighborhoods": {
+        "title": "Burgundy Sub-Appellations and Wine Areas | Cork & Curve",
+        "description": "Burgundy's wine areas, from the Cote de Nuits and Cote de Beaune to Chablis, the Cote Chalonnaise, the Maconnais and the grand-cru communes of the Cote d'Or."
+      },
+      "signature-grapes": {
+        "title": "Burgundy Signature Grapes | Cork & Curve",
+        "description": "Burgundy grape varieties from Pinot Noir on the Cote d'Or and Chardonnay in Chablis and Meursault to Aligote, Gamay and rare Cesar and Sauvignon de Saint-Bris."
+      }
+    }
+  },
+  "faqs": [
+    {
+      "q": "What grapes is Burgundy famous for?",
+      "a": "Burgundy is built on two grapes: Pinot Noir for its reds and Chardonnay for its whites. Aligote, Gamay, Cesar and Sauvignon de Saint-Bris play smaller, area-specific roles."
+    },
+    {
+      "q": "How is Burgundy's classification organised?",
+      "a": "Burgundy uses a four-tier pyramid: Grand Cru at the top, then Premier Cru, then Village (commune) wines, then regional Bourgogne appellations. Classification attaches to the named vineyard, or climat, not the producer."
+    },
+    {
+      "q": "What is a climat in Burgundy?",
+      "a": "A climat is a precisely delimited single vineyard parcel with its own name, history and boundaries. The Climats of the Cote d'Or were inscribed as a UNESCO World Heritage Site in 2015."
+    },
+    {
+      "q": "Can you visit the top Burgundy domaines?",
+      "a": "Large maisons such as Louis Jadot, Joseph Drouhin, Bouchard Pere et Fils, Albert Bichot and William Fevre run public cellar visits. Many small grand-cru domaines like Romanee-Conti and Leroy sell on allocation and do not receive visitors."
+    }
+  ]
+}

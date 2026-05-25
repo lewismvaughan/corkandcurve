@@ -1,0 +1,174 @@
+{
+  "signature_grapes": [
+    {
+      "slug": "pinot-noir",
+      "name": "Pinot Noir",
+      "style_focus": "red",
+      "regions_grown": [
+        "cote-de-nuits",
+        "cote-de-beaune",
+        "cote-chalonnaise",
+        "gevrey-chambertin",
+        "vosne-romanee",
+        "chambolle-musigny",
+        "nuits-saint-georges",
+        "volnay-pommard"
+      ],
+      "description": "The sole red grape of fine Burgundy and the variety the region has defined for the world. Thin-skinned and terroir-transparent, it gives pale, perfumed, silky reds of red cherry, rose and forest floor on the limestone slopes of the Cote d'Or. Reaches its absolute peak in the grand crus of Vosne-Romanee and Gevrey-Chambertin, where soil and exposure shifts of a few metres reshape the wine entirely.",
+      "key_producers": [
+        "domaine-de-la-romanee-conti",
+        "domaine-armand-rousseau",
+        "domaine-georges-roumier",
+        "domaine-leroy",
+        "domaine-dujac",
+        "domaine-meo-camuzet"
+      ],
+      "verified": {
+        "source_url": "https://www.bourgogne-wines.com/our-wines-our-philosophy/the-cote-de-nuits-and-the-cote-de-beaune/cote-de-nuits-and-hautes-cotes-de-nuits,2403,9221.html",
+        "address_quoted": "Cote de Nuits",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vins-bourgogne.fr/",
+        "cuisine_evidence_url": "https://www.bourgogne-wines.com/our-wines-our-philosophy/the-cote-de-nuits-and-the-cote-de-beaune/cote-de-nuits-and-hautes-cotes-de-nuits,2403,9221.html",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "chardonnay",
+      "name": "Chardonnay",
+      "style_focus": "white",
+      "regions_grown": [
+        "chablis",
+        "cote-de-beaune",
+        "cote-chalonnaise",
+        "maconnais",
+        "meursault",
+        "puligny-montrachet"
+      ],
+      "description": "The white grape that Burgundy made famous, taking its very name from a Maconnais village. It runs the full stylistic range here: steely, oyster-shell Chablis in the cool north, rich nutty Meursault and crystalline mineral Montrachet on the Cote de Beaune, and generous orchard-fruited whites in the warm Maconnais. The Cote d'Or grand crus of Montrachet and Corton-Charlemagne are its global benchmark.",
+      "key_producers": [
+        "domaine-leflaive",
+        "domaine-des-comtes-lafon",
+        "domaine-coche-dury",
+        "domaine-william-fevre",
+        "domaine-raveneau",
+        "domaine-etienne-sauzet"
+      ],
+      "verified": {
+        "source_url": "https://www.bourgogne-wines.com/our-bourgogne-wines/the-bourgogne-appellations/meursault,2403,9210.html",
+        "address_quoted": "Meursault",
+        "open_status": "open",
+        "open_evidence_url": "https://www.chablis-wines.com/",
+        "cuisine_evidence_url": "https://www.bourgogne-wines.com/our-bourgogne-wines/the-bourgogne-appellations/puligny-montrachet,2403,9210.html",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "aligote",
+      "name": "Aligote",
+      "style_focus": "white",
+      "regions_grown": [
+        "cote-chalonnaise",
+        "cote-de-beaune",
+        "cote-de-nuits"
+      ],
+      "description": "Burgundy's second white grape, long the workhorse white but increasingly taken seriously. High in acidity with green-apple, lemon and white-pepper bite, it was the traditional base for kir when mixed with creme de cassis. Bouzeron in the Cote Chalonnaise is its only dedicated village appellation, and old-vine bottlings from the Cote d'Or now command growing respect.",
+      "key_producers": [
+        "domaine-de-montille",
+        "maison-louis-jadot",
+        "domaines-devillard"
+      ],
+      "verified": {
+        "source_url": "https://www.bourgogne-wines.com/our-wines-our-philosophy/our-bourgogne-appellations/the-cote-chalonnaise-and-the-couchois,2403,9220.html",
+        "address_quoted": "Cote Chalonnaise",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vins-bourgogne.fr/",
+        "cuisine_evidence_url": "https://www.bourgogne-wines.com/our-wines-our-philosophy/our-bourgogne-appellations/the-cote-chalonnaise-and-the-couchois,2403,9220.html",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "gamay",
+      "name": "Gamay",
+      "style_focus": "red",
+      "regions_grown": [
+        "maconnais",
+        "cote-chalonnaise"
+      ],
+      "description": "The juicy, low-tannin red banished from the Cote d'Or by Duke Philip the Bold in 1395 but never fully exiled from greater Burgundy. It thrives in the granite of the far south and in the Maconnais, and blended with a third Pinot Noir it makes the regional Bourgogne Passe-tout-grains. Bright, gluggable cherry-and-raspberry reds for early drinking.",
+      "key_producers": [
+        "maison-louis-jadot",
+        "maison-verget"
+      ],
+      "verified": {
+        "source_url": "https://www.bourgogne-wines.com/our-wines-our-philosophy/our-bourgogne-appellations/the-maconnais,2403,9218.html",
+        "address_quoted": "Maconnais",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vins-bourgogne.fr/",
+        "cuisine_evidence_url": "https://www.bourgogne-wines.com/our-wines-our-philosophy/our-bourgogne-appellations/the-maconnais,2403,9218.html",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "pinot-gris",
+      "name": "Pinot Gris (Pinot Beurot)",
+      "style_focus": "white",
+      "regions_grown": [
+        "cote-de-beaune",
+        "cote-de-nuits"
+      ],
+      "description": "A historic mutation of Pinot Noir known locally as Pinot Beurot, once interplanted among the red vines of the Cote d'Or to soften and enrich the blend. Now a rarity, permitted in small proportions within white and red Burgundy appellations, it lends a waxy, honeyed, faintly smoky note. A grape kept alive mostly by tradition-minded growers.",
+      "key_producers": [
+        "maison-louis-latour",
+        "bouchard-pere-et-fils"
+      ],
+      "verified": {
+        "source_url": "https://www.bourgogne-wines.com/our-wines-our-philosophy/the-cote-de-nuits-and-the-cote-de-beaune/cote-de-nuits-and-hautes-cotes-de-nuits,2403,9221.html",
+        "address_quoted": "Cote de Beaune",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vins-bourgogne.fr/",
+        "cuisine_evidence_url": "https://www.bourgogne-wines.com/our-wines-our-philosophy/the-cote-de-nuits-and-the-cote-de-beaune/cote-de-nuits-and-hautes-cotes-de-nuits,2403,9221.html",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "sauvignon",
+      "name": "Sauvignon (Saint-Bris)",
+      "style_focus": "white",
+      "regions_grown": [
+        "chablis"
+      ],
+      "description": "The lone exception to Burgundy's Chardonnay-and-Aligote white rule. Around the village of Saint-Bris near Chablis, Sauvignon Blanc earns its own appellation, Saint-Bris, granted in 2003. Crisp, green and gooseberry-scented, it is a quirk of the Grand Auxerrois that survives on Kimmeridgian and Portlandian soils alongside the region's Chardonnay.",
+      "key_producers": [
+        "domaine-jean-marc-brocard"
+      ],
+      "verified": {
+        "source_url": "https://www.bourgogne-wines.com/our-bourgogne-wines/the-bourgogne-appellations/chablis,2403,9210.html",
+        "address_quoted": "Chablis",
+        "open_status": "open",
+        "open_evidence_url": "https://www.chablis-wines.com/",
+        "cuisine_evidence_url": "https://www.bourgogne-wines.com/our-bourgogne-wines/the-bourgogne-appellations/chablis,2403,9210.html",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "cesar",
+      "name": "Cesar",
+      "style_focus": "red",
+      "regions_grown": [
+        "chablis"
+      ],
+      "description": "An ancient, deeply tannic red grape of the Yonne, reputedly introduced by Roman legions, that survives almost only in the Irancy appellation near Auxerre. Blended in small amounts with Pinot Noir, it lends colour, structure and rustic grip to the cool-climate reds of northern Burgundy. One of the region's rarest and most historic varieties.",
+      "key_producers": [
+        "domaine-jean-marc-brocard"
+      ],
+      "verified": {
+        "source_url": "https://www.bourgogne-wines.com/our-bourgogne-wines/the-bourgogne-appellations/chablis,2403,9210.html",
+        "address_quoted": "Chablis",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vins-bourgogne.fr/",
+        "cuisine_evidence_url": "https://www.bourgogne-wines.com/our-bourgogne-wines/the-bourgogne-appellations/chablis,2403,9210.html",
+        "checked_on": "2026-05-25"
+      }
+    }
+  ]
+}

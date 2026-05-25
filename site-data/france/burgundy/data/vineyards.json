@@ -1,0 +1,1088 @@
+{
+  "vineyards": [
+    {
+      "slug": "domaine-de-la-romanee-conti",
+      "name": "Domaine de la Romanee-Conti",
+      "address": "1 Rue Derriere le Four, 21700 Vosne-Romanee, France",
+      "neighborhood": "Vosne-Romanee",
+      "varietals": [
+        "Pinot Noir",
+        "Chardonnay"
+      ],
+      "classification": "Grand Cru (Cote de Nuits, AOC)",
+      "hectares": 28,
+      "owner": "de Villaine and Leroy families",
+      "winemaker": "Bertrand de Villaine and Perrine Fenal (co-direction)",
+      "founded": 1869,
+      "tasting_program": "No public tastings or visits. Wines are sold strictly on allocation through approved importers and en-bloc cases.",
+      "signature_wines": [
+        "romanee-conti",
+        "la-tache"
+      ],
+      "biodynamic_status": "biodynamic_practicing",
+      "organic_status": "ecocert",
+      "description": "The most revered estate in Burgundy, monopole owner of Romanee-Conti and La Tache and farmer of a roughly 28-hectare grand-cru holding in Vosne-Romanee.",
+      "tip": "Allocation only; there is no cellar door. Bottles surface at auction and via a handful of importers.",
+      "editorial_score": 5.0,
+      "verified": {
+        "source_url": "https://www.romanee-conti.fr/",
+        "address_quoted": "Vosne-Romanee",
+        "open_status": "open",
+        "open_evidence_url": "https://www.bourgogne-wines.com/our-bourgogne-wines/the-bourgogne-appellations/vosne-romanee,2403,9210.html",
+        "cuisine_evidence_url": "https://www.bourgogne-wines.com/our-bourgogne-wines/the-bourgogne-appellations/vosne-romanee,2403,9210.html",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "domaine-leroy",
+      "name": "Domaine Leroy",
+      "address": "15 Rue de la Fontaine, 21700 Vosne-Romanee, France",
+      "neighborhood": "Vosne-Romanee",
+      "varietals": [
+        "Pinot Noir",
+        "Chardonnay"
+      ],
+      "classification": "Grand Cru and Premier Cru (Cote de Nuits, AOC)",
+      "hectares": 22,
+      "owner": "Lalou Bize-Leroy family",
+      "winemaker": "Lalou Bize-Leroy",
+      "founded": 1988,
+      "tasting_program": "No public tastings. The biodynamic domaine sells on tight allocation through importers.",
+      "biodynamic_status": "biodynamic_practicing",
+      "organic_status": "ecocert",
+      "description": "Lalou Bize-Leroy's biodynamic Vosne-Romanee domaine, built from 1988 on the former Noellat and Remy vines, now among the most sought-after and expensive wines in Burgundy.",
+      "tip": "Demeter-certified and allocation-only; no visits. Look for the rare Domaine Leroy versus the separate Maison Leroy negociant label.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.bourgogne-wines.com/our-bourgogne-wines/the-bourgogne-appellations/vosne-romanee,2403,9210.html",
+        "address_quoted": "Vosne-Romanee",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vins-bourgogne.fr/",
+        "cuisine_evidence_url": "https://www.bourgogne-wines.com/our-bourgogne-wines/the-bourgogne-appellations/vosne-romanee,2403,9210.html",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "domaine-meo-camuzet",
+      "name": "Domaine Meo-Camuzet",
+      "address": "11 Rue des Grands Crus, 21700 Vosne-Romanee, France",
+      "neighborhood": "Vosne-Romanee",
+      "varietals": [
+        "Pinot Noir",
+        "Chardonnay"
+      ],
+      "classification": "Grand Cru, Premier Cru and Village (Cote de Nuits, AOC)",
+      "hectares": 15,
+      "owner": "Meo family",
+      "winemaker": "Jean-Nicolas Meo",
+      "founded": 1920,
+      "tasting_program": "Visits and tastings by appointment only; the domaine also runs a Meo-Camuzet Frere et Soeurs negociant range.",
+      "booking_url": "https://www.meo-camuzet.com/",
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Vosne-Romanee domaine shaped by Henri Jayer's influence, holding Richebourg, Clos de Vougeot and Vosne premier crus under Jean-Nicolas Meo.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.meo-camuzet.com/",
+        "address_quoted": "Vosne-Romanee",
+        "open_status": "open",
+        "open_evidence_url": "https://www.bourgogne-wines.com/our-bourgogne-wines/the-bourgogne-appellations/vosne-romanee,2403,9210.html",
+        "cuisine_evidence_url": "https://www.meo-camuzet.com/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "domaine-mugneret-gibourg",
+      "name": "Domaine Mugneret-Gibourg",
+      "address": "5 Rue des Communes, 21700 Vosne-Romanee, France",
+      "neighborhood": "Vosne-Romanee",
+      "varietals": [
+        "Pinot Noir"
+      ],
+      "classification": "Grand Cru and Premier Cru (Cote de Nuits, AOC)",
+      "hectares": 9,
+      "owner": "Mugneret family",
+      "winemaker": "Marie-Christine and Marie-Andree Mugneret",
+      "founded": 1933,
+      "tasting_program": "No public cellar door; wines sold on allocation.",
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "A family domaine run by the Mugneret sisters in Vosne-Romanee, prized for Echezeaux, Ruchottes-Chambertin and Clos de Vougeot of great purity.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.mugneret-gibourg.com/",
+        "address_quoted": "Vosne-Romanee",
+        "open_status": "open",
+        "open_evidence_url": "https://www.bourgogne-wines.com/our-bourgogne-wines/the-bourgogne-appellations/vosne-romanee,2403,9210.html",
+        "cuisine_evidence_url": "https://www.mugneret-gibourg.com/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "domaine-armand-rousseau",
+      "name": "Domaine Armand Rousseau",
+      "address": "1 Rue de l'Aumonerie, 21220 Gevrey-Chambertin, France",
+      "neighborhood": "Gevrey-Chambertin",
+      "varietals": [
+        "Pinot Noir"
+      ],
+      "classification": "Grand Cru and Premier Cru (Cote de Nuits, AOC)",
+      "hectares": 15,
+      "owner": "Rousseau family",
+      "winemaker": "Eric and Cyrielle Rousseau",
+      "founded": 1909,
+      "tasting_program": "No public tastings; the domaine sells on allocation through importers.",
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "The reference domaine of Gevrey-Chambertin, with Chambertin and Chambertin-Clos de Beze leading a holding of muscular, age-worthy grand-cru reds.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.domaine-rousseau.com/",
+        "address_quoted": "Gevrey-Chambertin",
+        "open_status": "open",
+        "open_evidence_url": "https://www.bourgogne-wines.com/our-bourgogne-wines/the-bourgogne-appellations/gevrey-chambertin,2403,9210.html",
+        "cuisine_evidence_url": "https://www.domaine-rousseau.com/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "domaine-trapet-pere-et-fils",
+      "name": "Domaine Trapet Pere et Fils",
+      "address": "53 Route de Beaune, 21220 Gevrey-Chambertin, France",
+      "neighborhood": "Gevrey-Chambertin",
+      "varietals": [
+        "Pinot Noir",
+        "Chardonnay"
+      ],
+      "classification": "Grand Cru, Premier Cru and Village (Cote de Nuits, AOC)",
+      "hectares": 14,
+      "owner": "Trapet family",
+      "winemaker": "Jean-Louis Trapet",
+      "founded": 1870,
+      "tasting_program": "Visits and tastings by appointment; the domaine farms biodynamically.",
+      "booking_url": "https://www.domaine-trapet.fr/",
+      "biodynamic_status": "demeter_certified",
+      "organic_status": "ecocert",
+      "description": "Long-established Gevrey-Chambertin domaine, biodynamic since the 1990s, with holdings in Chambertin, Latricieres-Chambertin and Chapelle-Chambertin.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.domaine-trapet.fr/",
+        "address_quoted": "Gevrey-Chambertin",
+        "open_status": "open",
+        "open_evidence_url": "https://www.bourgogne-wines.com/our-bourgogne-wines/the-bourgogne-appellations/gevrey-chambertin,2403,9210.html",
+        "cuisine_evidence_url": "https://www.domaine-trapet.fr/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "domaine-georges-roumier",
+      "name": "Domaine Georges Roumier",
+      "address": "4 Rue de Vergy, 21220 Chambolle-Musigny, France",
+      "neighborhood": "Chambolle-Musigny",
+      "varietals": [
+        "Pinot Noir"
+      ],
+      "classification": "Grand Cru and Premier Cru (Cote de Nuits, AOC)",
+      "hectares": 12,
+      "owner": "Roumier family",
+      "winemaker": "Christophe Roumier",
+      "founded": 1924,
+      "tasting_program": "No public cellar door; allocation-only through importers.",
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "The benchmark Chambolle-Musigny domaine under Christophe Roumier, famed for Bonnes-Mares, Musigny and the rare monopole Clos de la Bussiere.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.roumier.com/fr_FR/",
+        "address_quoted": "Chambolle-Musigny",
+        "open_status": "open",
+        "open_evidence_url": "https://www.bourgogne-wines.com/our-bourgogne-wines/the-bourgogne-appellations/chambolle-musigny,2403,9210.html",
+        "cuisine_evidence_url": "https://www.roumier.com/fr_FR/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "domaine-comte-georges-de-vogue",
+      "name": "Domaine Comte Georges de Vogue",
+      "address": "Rue Sainte-Barbe, 21220 Chambolle-Musigny, France",
+      "neighborhood": "Chambolle-Musigny",
+      "varietals": [
+        "Pinot Noir",
+        "Chardonnay"
+      ],
+      "classification": "Grand Cru and Premier Cru (Cote de Nuits, AOC)",
+      "hectares": 12,
+      "owner": "de Causans and de Ladoucette family",
+      "winemaker": "Jean Lupatelli",
+      "founded": 1450,
+      "tasting_program": "No public tastings; sold through the exclusive UK agent and importers.",
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "The historic Chambolle-Musigny domaine and largest owner of the Musigny Grand Cru, tracing its line in the village back more than five centuries.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.bourgogne-wines.com/our-bourgogne-wines/the-bourgogne-appellations/chambolle-musigny,2403,9210.html",
+        "address_quoted": "Chambolle-Musigny",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vins-bourgogne.fr/",
+        "cuisine_evidence_url": "https://www.bourgogne-wines.com/our-bourgogne-wines/the-bourgogne-appellations/chambolle-musigny,2403,9210.html",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "domaine-dujac",
+      "name": "Domaine Dujac",
+      "address": "7 Rue de la Bussiere, 21220 Morey-Saint-Denis, France",
+      "neighborhood": "Cote de Nuits",
+      "varietals": [
+        "Pinot Noir",
+        "Chardonnay"
+      ],
+      "classification": "Grand Cru, Premier Cru and Village (Cote de Nuits, AOC)",
+      "hectares": 17,
+      "owner": "Seysses family",
+      "winemaker": "Jeremy Seysses and Diana Snowden Seysses",
+      "founded": 1968,
+      "tasting_program": "No public cellar door; allocation through importers.",
+      "biodynamic_status": "biodynamic_practicing",
+      "organic_status": "ecocert",
+      "description": "Morey-Saint-Denis domaine founded by Jacques Seysses, known for whole-cluster Clos de la Roche, Clos Saint-Denis and Chambertin under the next generation.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.dujac.com/",
+        "address_quoted": "Morey-Saint-Denis",
+        "open_status": "open",
+        "open_evidence_url": "https://www.bourgogne-wines.com/our-wines-our-philosophy/the-cote-de-nuits-and-the-cote-de-beaune/cote-de-nuits-and-hautes-cotes-de-nuits,2403,9221.html",
+        "cuisine_evidence_url": "https://www.dujac.com/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "domaine-ponsot",
+      "name": "Domaine Ponsot",
+      "address": "21 Rue de la Montagne, 21220 Gilly-les-Citeaux, France",
+      "neighborhood": "Cote de Nuits",
+      "varietals": [
+        "Pinot Noir",
+        "Chardonnay",
+        "Aligote"
+      ],
+      "classification": "Grand Cru, Premier Cru and Village (Cote de Nuits, AOC)",
+      "owner": "Ponsot family",
+      "winemaker": "Rose-Marie Ponsot",
+      "founded": 1872,
+      "tasting_program": "Visits and tastings at the Gilly-les-Citeaux cellar by appointment.",
+      "booking_url": "https://www.domaineponsot.com/",
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Morey-Saint-Denis domaine famed for the monopole Clos de la Roche Cuvee Vieilles Vignes and its long-lived, low-sulphur reds.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.domaineponsot.com/",
+        "address_quoted": "Gilly-les-Citeaux",
+        "open_status": "open",
+        "open_evidence_url": "https://www.bourgogne-wines.com/our-wines-our-philosophy/the-cote-de-nuits-and-the-cote-de-beaune/cote-de-nuits-and-hautes-cotes-de-nuits,2403,9221.html",
+        "cuisine_evidence_url": "https://www.domaineponsot.com/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "domaine-de-la-vougeraie",
+      "name": "Domaine de la Vougeraie",
+      "address": "Rue de l'Eglise, 21700 Premeaux-Prissey, France",
+      "neighborhood": "Cote de Nuits",
+      "varietals": [
+        "Pinot Noir",
+        "Chardonnay"
+      ],
+      "classification": "Grand Cru, Premier Cru and Village (Cote de Nuits, AOC)",
+      "hectares": 42,
+      "owner": "Boisset family",
+      "winemaker": "Pierre Vincent",
+      "founded": 1999,
+      "tasting_program": "Visits and tastings by appointment; biodynamic estate.",
+      "booking_url": "https://www.domainedelavougeraie.com/",
+      "biodynamic_status": "demeter_certified",
+      "organic_status": "ecocert",
+      "description": "Biodynamic domaine assembled by the Boisset family across the Cote de Nuits and Cote de Beaune, with the Clos Blanc de Vougeot monopole among its holdings.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.domainedelavougeraie.com/",
+        "address_quoted": "Premeaux-Prissey",
+        "open_status": "open",
+        "open_evidence_url": "https://www.bourgogne-wines.com/our-wines-our-philosophy/the-cote-de-nuits-and-the-cote-de-beaune/cote-de-nuits-and-hautes-cotes-de-nuits,2403,9221.html",
+        "cuisine_evidence_url": "https://www.domainedelavougeraie.com/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "domaine-faiveley",
+      "name": "Domaine Faiveley",
+      "address": "8 Rue du Tribourg, 21700 Nuits-Saint-Georges, France",
+      "neighborhood": "Nuits-Saint-Georges",
+      "varietals": [
+        "Pinot Noir",
+        "Chardonnay"
+      ],
+      "classification": "Grand Cru, Premier Cru and Village (Cote de Nuits, Cote de Beaune and Cote Chalonnaise, AOC)",
+      "hectares": 120,
+      "owner": "Faiveley family",
+      "winemaker": "Erwan Faiveley and Jerome Flous",
+      "founded": 1825,
+      "tasting_program": "Visits and tastings by appointment at the Nuits-Saint-Georges cellars.",
+      "booking_url": "https://www.domaine-faiveley.com/",
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Major family domaine and negociant based in Nuits-Saint-Georges, one of Burgundy's largest grand-cru owners across the Cote de Nuits and Cote Chalonnaise.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.domaine-faiveley.com/",
+        "address_quoted": "Nuits-Saint-Georges",
+        "open_status": "open",
+        "open_evidence_url": "https://www.bourgogne-wines.com/our-bourgogne-wines/the-bourgogne-appellations/nuits-saint-georges,2403,9210.html",
+        "cuisine_evidence_url": "https://www.domaine-faiveley.com/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "maison-albert-bichot",
+      "name": "Maison Albert Bichot",
+      "address": "6 Boulevard Jacques Copeau, 21200 Beaune, France",
+      "neighborhood": "Cote de Beaune",
+      "varietals": [
+        "Pinot Noir",
+        "Chardonnay"
+      ],
+      "classification": "Grand Cru, Premier Cru and Village (Burgundy, AOC)",
+      "owner": "Bichot family",
+      "winemaker": "Christophe Chauvel",
+      "founded": 1831,
+      "tasting_program": "Visits and tastings by appointment; the house owns six estate domaines across Burgundy.",
+      "booking_url": "https://www.albert-bichot.com/",
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Beaune-based family negociant and estate owner, with domaines including Clos Frantin in Vosne-Romanee and Long-Depaquit in Chablis.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.albert-bichot.com/",
+        "address_quoted": "Beaune",
+        "open_status": "open",
+        "open_evidence_url": "https://www.bourgogne-wines.com/our-bourgogne-wines/the-bourgogne-appellations/beaune,2403,9210.html",
+        "cuisine_evidence_url": "https://www.albert-bichot.com/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "maison-louis-jadot",
+      "name": "Maison Louis Jadot",
+      "address": "62 Route de Savigny, 21200 Beaune, France",
+      "neighborhood": "Cote de Beaune",
+      "varietals": [
+        "Pinot Noir",
+        "Chardonnay",
+        "Gamay"
+      ],
+      "classification": "Grand Cru, Premier Cru and Village (Burgundy, AOC)",
+      "owner": "Kopf family (Maison Louis Jadot)",
+      "winemaker": "Frederic Barnier",
+      "founded": 1859,
+      "tasting_program": "The Beaune cellars open for tastings and bottle purchase; afternoons on weekdays and Saturdays.",
+      "booking_url": "https://www.louisjadot.com/",
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Major Beaune negociant and domaine owner since 1859, holding premier and grand crus across the Cote d'Or plus Beaujolais cru estates.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.louisjadot.com/",
+        "address_quoted": "Beaune",
+        "open_status": "open",
+        "open_evidence_url": "https://www.bourgogne-wines.com/our-bourgogne-wines/the-bourgogne-appellations/beaune,2403,9210.html",
+        "cuisine_evidence_url": "https://www.louisjadot.com/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "maison-joseph-drouhin",
+      "name": "Maison Joseph Drouhin",
+      "address": "7 Rue d'Enfer, 21200 Beaune, France",
+      "neighborhood": "Cote de Beaune",
+      "varietals": [
+        "Pinot Noir",
+        "Chardonnay"
+      ],
+      "classification": "Grand Cru, Premier Cru and Village (Burgundy, AOC)",
+      "hectares": 90,
+      "owner": "Drouhin family",
+      "winemaker": "Veronique Drouhin-Boss",
+      "founded": 1880,
+      "tasting_program": "Tours of the historic cellars beneath Beaune and a six-wine tasting by appointment.",
+      "booking_url": "https://www.drouhin.com/en_US/contacts",
+      "biodynamic_status": "demeter_certified",
+      "organic_status": "ecocert",
+      "description": "Family negociant and domaine in the heart of Beaune, biodynamic across its estate vines, with cellars under the old Parlement de Bourgogne.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.drouhin.com/",
+        "address_quoted": "Beaune",
+        "open_status": "open",
+        "open_evidence_url": "https://www.bourgogne-wines.com/our-bourgogne-wines/the-bourgogne-appellations/beaune,2403,9210.html",
+        "cuisine_evidence_url": "https://www.drouhin.com/en_US/contacts",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "bouchard-pere-et-fils",
+      "name": "Bouchard Pere et Fils",
+      "address": "15 Rue du Chateau, 21200 Beaune, France",
+      "neighborhood": "Cote de Beaune",
+      "varietals": [
+        "Pinot Noir",
+        "Chardonnay"
+      ],
+      "classification": "Grand Cru, Premier Cru and Village (Cote de Beaune and Cote de Nuits, AOC)",
+      "hectares": 130,
+      "owner": "Artemis Domaines (Pinault family)",
+      "winemaker": "Frederic Weber",
+      "founded": 1731,
+      "tasting_program": "Tastings and cellar visits at the Chateau de Beaune by appointment.",
+      "booking_url": "https://www.bouchard-pereetfils.com/",
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "One of Burgundy's oldest houses, based at the Chateau de Beaune, with the Montrachet, Chevalier-Montrachet and Le Corton grand crus among its large holding.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.bouchard-pereetfils.com/",
+        "address_quoted": "Beaune",
+        "open_status": "open",
+        "open_evidence_url": "https://www.bourgogne-wines.com/our-bourgogne-wines/the-bourgogne-appellations/beaune,2403,9210.html",
+        "cuisine_evidence_url": "https://www.bouchard-pereetfils.com/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "bouchard-aine-et-fils",
+      "name": "Bouchard Aine et Fils",
+      "address": "4 Boulevard Marechal Foch, 21200 Beaune, France",
+      "neighborhood": "Cote de Beaune",
+      "varietals": [
+        "Pinot Noir",
+        "Chardonnay",
+        "Gamay"
+      ],
+      "classification": "Premier Cru and Village (Burgundy, AOC)",
+      "owner": "Boisset family",
+      "winemaker": "Stephane Venet",
+      "founded": 1750,
+      "tasting_program": "Sensory tasting experiences and cellar visits at the Beaune mansion, open to walk-ins and bookings.",
+      "booking_url": "https://www.bouchard-aine.fr/",
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Beaune negociant house founded in 1750, now part of the Boisset group, known for an interactive five-senses tasting tour in its town-centre cellars.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.bouchard-aine.fr/",
+        "address_quoted": "Beaune",
+        "open_status": "open",
+        "open_evidence_url": "https://www.bourgogne-wines.com/our-bourgogne-wines/the-bourgogne-appellations/beaune,2403,9210.html",
+        "cuisine_evidence_url": "https://www.bouchard-aine.fr/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "maison-chanson",
+      "name": "Maison Chanson",
+      "address": "10 Rue Paul Chanson, 21200 Beaune, France",
+      "neighborhood": "Cote de Beaune",
+      "varietals": [
+        "Pinot Noir",
+        "Chardonnay"
+      ],
+      "classification": "Grand Cru, Premier Cru and Village (Cote de Beaune, AOC)",
+      "hectares": 45,
+      "owner": "Bollinger family (Maisons et Domaines Bollinger)",
+      "winemaker": "Vincent Avenel",
+      "founded": 1750,
+      "tasting_program": "Tastings inside the 15th-century Bastion fortress cellars by appointment.",
+      "booking_url": "https://www.chanson.com/",
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Beaune house owned by the Bollinger family, cellaring its wines in a circular 15th-century rampart bastion, with strong Beaune and Savigny premier crus.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.chanson.com/",
+        "address_quoted": "Beaune",
+        "open_status": "open",
+        "open_evidence_url": "https://www.bourgogne-wines.com/our-bourgogne-wines/the-bourgogne-appellations/beaune,2403,9210.html",
+        "cuisine_evidence_url": "https://www.chanson.com/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "maison-patriarche",
+      "name": "Maison Patriarche Pere et Fils",
+      "address": "5-7 Rue du College, 21200 Beaune, France",
+      "neighborhood": "Cote de Beaune",
+      "varietals": [
+        "Pinot Noir",
+        "Chardonnay",
+        "Gamay"
+      ],
+      "classification": "Premier Cru and Village (Burgundy, AOC)",
+      "owner": "Castel group",
+      "founded": 1780,
+      "tasting_program": "Self-guided tour of five kilometres of historic cellars with a tasting of multiple Burgundy wines, open daily.",
+      "booking_url": "https://www.patriarche.com/",
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Beaune's largest cellars, housed in a former convent, offering one of the region's best-known self-guided cellar tours and tastings beneath the town.",
+      "editorial_score": 4.1,
+      "verified": {
+        "source_url": "https://www.patriarche.com/",
+        "address_quoted": "Beaune",
+        "open_status": "open",
+        "open_evidence_url": "https://www.bourgogne-wines.com/our-bourgogne-wines/the-bourgogne-appellations/beaune,2403,9210.html",
+        "cuisine_evidence_url": "https://www.patriarche.com/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "maison-louis-latour",
+      "name": "Maison Louis Latour",
+      "address": "18 Rue des Tonneliers, 21200 Beaune, France",
+      "neighborhood": "Cote de Beaune",
+      "varietals": [
+        "Pinot Noir",
+        "Chardonnay",
+        "Pinot Gris"
+      ],
+      "classification": "Grand Cru, Premier Cru and Village (Cote de Beaune, AOC)",
+      "hectares": 48,
+      "owner": "Latour family",
+      "winemaker": "Christophe Deola",
+      "founded": 1797,
+      "tasting_program": "Tastings and tours by appointment; the house is the largest owner of Corton-Charlemagne grand cru vines.",
+      "booking_url": "https://www.louislatour.com/",
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Beaune family house in business since 1797, the largest holder of Corton-Charlemagne, with a reputation built on grand-cru whites of the Cote de Beaune.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.louislatour.com/",
+        "address_quoted": "Beaune",
+        "open_status": "open",
+        "open_evidence_url": "https://www.bourgogne-wines.com/our-bourgogne-wines/the-bourgogne-appellations/beaune,2403,9210.html",
+        "cuisine_evidence_url": "https://www.louislatour.com/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "domaine-leflaive",
+      "name": "Domaine Leflaive",
+      "address": "Place des Marronniers, 21190 Puligny-Montrachet, France",
+      "neighborhood": "Puligny-Montrachet",
+      "varietals": [
+        "Chardonnay",
+        "Pinot Noir"
+      ],
+      "classification": "Grand Cru, Premier Cru and Village (Cote de Beaune, AOC)",
+      "hectares": 25,
+      "owner": "Leflaive family",
+      "winemaker": "Pierre Vincent",
+      "founded": 1717,
+      "tasting_program": "No general cellar door; the family also runs the Olivier Leflaive table and tastings nearby in the village.",
+      "biodynamic_status": "biodynamic_practicing",
+      "organic_status": "ecocert",
+      "description": "The reference white-Burgundy domaine, biodynamic since the 1990s, with prized parcels of Montrachet, Chevalier-Montrachet and Batard-Montrachet in Puligny.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.leflaive.fr/",
+        "address_quoted": "Puligny-Montrachet",
+        "open_status": "open",
+        "open_evidence_url": "https://www.bourgogne-wines.com/our-bourgogne-wines/the-bourgogne-appellations/puligny-montrachet,2403,9210.html",
+        "cuisine_evidence_url": "https://www.leflaive.fr/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "olivier-leflaive",
+      "name": "Olivier Leflaive Freres",
+      "address": "Place du Monument, 21190 Puligny-Montrachet, France",
+      "neighborhood": "Puligny-Montrachet",
+      "varietals": [
+        "Chardonnay",
+        "Pinot Noir"
+      ],
+      "classification": "Grand Cru, Premier Cru and Village (Cote de Beaune, AOC)",
+      "owner": "Olivier Leflaive family",
+      "winemaker": "Philippe Grillet",
+      "founded": 1984,
+      "tasting_program": "Guided tasting lunches and flights at the village table and a small estate hotel; open to bookings.",
+      "booking_url": "https://www.olivier-leflaive.com/",
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Puligny-Montrachet negociant and domaine founded by Olivier Leflaive, best known for its sit-down tasting table pairing flights of white Burgundy with food.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.olivier-leflaive.com/",
+        "address_quoted": "Puligny-Montrachet",
+        "open_status": "open",
+        "open_evidence_url": "https://www.bourgogne-wines.com/our-bourgogne-wines/the-bourgogne-appellations/puligny-montrachet,2403,9210.html",
+        "cuisine_evidence_url": "https://www.olivier-leflaive.com/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "domaine-etienne-sauzet",
+      "name": "Domaine Etienne Sauzet",
+      "address": "11 Rue de Poiseul, 21190 Puligny-Montrachet, France",
+      "neighborhood": "Puligny-Montrachet",
+      "varietals": [
+        "Chardonnay"
+      ],
+      "classification": "Grand Cru, Premier Cru and Village (Cote de Beaune, AOC)",
+      "hectares": 19,
+      "owner": "Boudot-Sauzet family",
+      "winemaker": "Benoit Riffault",
+      "founded": 1924,
+      "tasting_program": "No general cellar door; allocation through importers.",
+      "biodynamic_status": "biodynamic_practicing",
+      "organic_status": "ecocert",
+      "description": "Puligny-Montrachet domaine of crystalline whites, biodynamic, with parcels in Batard-Montrachet, Bienvenues-Batard and a roll of Puligny premier crus.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.etiennesauzet.com/",
+        "address_quoted": "Puligny-Montrachet",
+        "open_status": "open",
+        "open_evidence_url": "https://www.bourgogne-wines.com/our-bourgogne-wines/the-bourgogne-appellations/puligny-montrachet,2403,9210.html",
+        "cuisine_evidence_url": "https://www.etiennesauzet.com/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "domaine-des-comtes-lafon",
+      "name": "Domaine des Comtes Lafon",
+      "address": "Clos de la Barre, 21190 Meursault, France",
+      "neighborhood": "Meursault",
+      "varietals": [
+        "Chardonnay",
+        "Pinot Noir"
+      ],
+      "classification": "Grand Cru, Premier Cru and Village (Cote de Beaune, AOC)",
+      "hectares": 17,
+      "owner": "Lafon family",
+      "winemaker": "Dominique Lafon",
+      "founded": 1869,
+      "tasting_program": "No general cellar door; sold on allocation. The family also runs Heritiers du Comte Lafon in the Maconnais.",
+      "biodynamic_status": "biodynamic_practicing",
+      "organic_status": "ecocert",
+      "description": "The leading Meursault domaine, biodynamic under Dominique Lafon, prized for Meursault Perrieres and Genevrieres and a sliver of Le Montrachet.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://comtes-lafon.com/",
+        "address_quoted": "Meursault",
+        "open_status": "open",
+        "open_evidence_url": "https://www.bourgogne-wines.com/our-bourgogne-wines/the-bourgogne-appellations/meursault,2403,9210.html",
+        "cuisine_evidence_url": "https://comtes-lafon.com/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "domaine-coche-dury",
+      "name": "Domaine Coche-Dury",
+      "address": "9 Rue Charles Giraud, 21190 Meursault, France",
+      "neighborhood": "Meursault",
+      "varietals": [
+        "Chardonnay",
+        "Pinot Noir",
+        "Aligote"
+      ],
+      "classification": "Grand Cru, Premier Cru and Village (Cote de Beaune, AOC)",
+      "hectares": 11,
+      "owner": "Coche family",
+      "winemaker": "Raphael Coche",
+      "founded": 1940,
+      "tasting_program": "No public tastings; among the most allocation-tight and collected whites in Meursault.",
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Cult Meursault domaine under Raphael Coche, famed for flinty, reductive Meursault and a tiny production of Corton-Charlemagne grand cru.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.bourgogne-wines.com/our-bourgogne-wines/the-bourgogne-appellations/meursault,2403,9210.html",
+        "address_quoted": "Meursault",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vins-bourgogne.fr/",
+        "cuisine_evidence_url": "https://www.bourgogne-wines.com/our-bourgogne-wines/the-bourgogne-appellations/meursault,2403,9210.html",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "domaine-ramonet",
+      "name": "Domaine Ramonet",
+      "address": "4 Place des Noyers, 21190 Chassagne-Montrachet, France",
+      "neighborhood": "Cote de Beaune",
+      "varietals": [
+        "Chardonnay",
+        "Pinot Noir"
+      ],
+      "classification": "Grand Cru, Premier Cru and Village (Cote de Beaune, AOC)",
+      "hectares": 17,
+      "owner": "Ramonet family",
+      "winemaker": "Noel and Jean-Claude Ramonet",
+      "founded": 1920,
+      "tasting_program": "No general cellar door; allocation through importers.",
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Chassagne-Montrachet domaine of benchmark whites, with holdings in Le Montrachet, Batard-Montrachet and Bienvenues-Batard plus top Chassagne premier crus.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.ramonet.fr/",
+        "address_quoted": "Chassagne-Montrachet",
+        "open_status": "open",
+        "open_evidence_url": "https://www.bourgogne-wines.com/our-wines-our-philosophy/the-cote-de-nuits-and-the-cote-de-beaune/cote-de-nuits-and-hautes-cotes-de-nuits,2403,9221.html",
+        "cuisine_evidence_url": "https://www.ramonet.fr/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "domaine-de-montille",
+      "name": "Domaine de Montille",
+      "address": "Rue du Pied de la Vallee, 21190 Volnay, France",
+      "neighborhood": "Volnay and Pommard",
+      "varietals": [
+        "Pinot Noir",
+        "Chardonnay",
+        "Aligote"
+      ],
+      "classification": "Grand Cru, Premier Cru and Village (Cote de Beaune and Cote de Nuits, AOC)",
+      "hectares": 37,
+      "owner": "de Montille family",
+      "winemaker": "Brian Sieve",
+      "founded": 1730,
+      "tasting_program": "Visits and tastings by appointment at the Volnay estate; biodynamic farming.",
+      "booking_url": "https://www.demontille.com/en_US/",
+      "biodynamic_status": "biodynamic_practicing",
+      "organic_status": "ecocert",
+      "description": "Volnay-based biodynamic domaine known for structured, classically built Volnay and Pommard premier crus and a growing range of whites.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.demontille.com/en_US/",
+        "address_quoted": "Volnay",
+        "open_status": "open",
+        "open_evidence_url": "https://www.bourgogne-wines.com/our-bourgogne-wines/the-bourgogne-appellations/volnay,2403,9210.html",
+        "cuisine_evidence_url": "https://www.demontille.com/en_US/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "domaine-comte-armand",
+      "name": "Domaine du Comte Armand",
+      "address": "Place de l'Eglise, 21630 Pommard, France",
+      "neighborhood": "Volnay and Pommard",
+      "varietals": [
+        "Pinot Noir",
+        "Chardonnay"
+      ],
+      "classification": "Premier Cru and Village (Cote de Beaune, AOC)",
+      "hectares": 9,
+      "owner": "Comte Armand family",
+      "winemaker": "Paul Zinetti",
+      "founded": 1826,
+      "tasting_program": "Visits and tastings by appointment; biodynamic estate.",
+      "booking_url": "https://www.domaine-comte-armand.com/",
+      "biodynamic_status": "biodynamic_practicing",
+      "organic_status": "ecocert",
+      "description": "Pommard domaine and sole owner of the walled Clos des Epeneaux monopole, a biodynamic estate making dense, age-worthy Pommard.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.domaine-comte-armand.com/",
+        "address_quoted": "Pommard",
+        "open_status": "open",
+        "open_evidence_url": "https://www.bourgogne-wines.com/our-bourgogne-wines/the-bourgogne-appellations/pommard,2403,9210.html",
+        "cuisine_evidence_url": "https://www.domaine-comte-armand.com/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "domaine-bonneau-du-martray",
+      "name": "Domaine Bonneau du Martray",
+      "address": "Place du Monument, 21420 Pernand-Vergelesses, France",
+      "neighborhood": "Cote de Beaune",
+      "varietals": [
+        "Chardonnay",
+        "Pinot Noir"
+      ],
+      "classification": "Grand Cru (Cote de Beaune, AOC)",
+      "hectares": 11,
+      "owner": "Stanley Kroenke",
+      "winemaker": "Thibault Jacquet",
+      "founded": 1969,
+      "tasting_program": "Visits and tastings by appointment; biodynamic estate centred on the Corton hill.",
+      "booking_url": "https://www.bonneaudumartray.com/",
+      "biodynamic_status": "demeter_certified",
+      "organic_status": "ecocert",
+      "description": "A rare almost-monopole grand-cru estate on the Corton hill, making only Corton-Charlemagne white and Corton red from its single biodynamic holding.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.bonneaudumartray.com/",
+        "address_quoted": "Pernand-Vergelesses",
+        "open_status": "open",
+        "open_evidence_url": "https://www.bourgogne-wines.com/our-wines-our-philosophy/the-cote-de-nuits-and-the-cote-de-beaune/cote-de-nuits-and-hautes-cotes-de-nuits,2403,9221.html",
+        "cuisine_evidence_url": "https://www.bonneaudumartray.com/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "domaine-rollin-pere-et-fils",
+      "name": "Domaine Rollin Pere et Fils",
+      "address": "Rue Bourtot, 21420 Pernand-Vergelesses, France",
+      "neighborhood": "Cote de Beaune",
+      "varietals": [
+        "Chardonnay",
+        "Pinot Noir",
+        "Aligote"
+      ],
+      "classification": "Grand Cru, Premier Cru and Village (Cote de Beaune, AOC)",
+      "owner": "Rollin family",
+      "winemaker": "Simon Rollin",
+      "founded": 1860,
+      "tasting_program": "Visits and tastings by appointment at the Pernand-Vergelesses cellar.",
+      "booking_url": "https://www.domaine-rollin.com/",
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Family domaine in Pernand-Vergelesses making well-priced Corton-Charlemagne and Pernand whites alongside Aloxe-Corton and Savigny reds.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.domaine-rollin.com/",
+        "address_quoted": "Pernand-Vergelesses",
+        "open_status": "open",
+        "open_evidence_url": "https://www.bourgogne-wines.com/our-wines-our-philosophy/the-cote-de-nuits-and-the-cote-de-beaune/cote-de-nuits-and-hautes-cotes-de-nuits,2403,9221.html",
+        "cuisine_evidence_url": "https://www.domaine-rollin.com/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "domaine-william-fevre",
+      "name": "Domaine William Fevre",
+      "address": "21 Avenue d'Oberwesel, 89800 Chablis, France",
+      "neighborhood": "Chablis",
+      "varietals": [
+        "Chardonnay"
+      ],
+      "classification": "Grand Cru, Premier Cru and Village (Chablis, AOC)",
+      "hectares": 78,
+      "owner": "Domaines Barons de Rothschild (Lafite)",
+      "winemaker": "Didier Seguier",
+      "founded": 1959,
+      "tasting_program": "Tasting room in the heart of Chablis open by appointment; the largest grand-cru landowner in Chablis.",
+      "booking_url": "https://www.lafite.com/domaines/william-fevre/visit/",
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "The leading Chablis domaine, owned since 2024 by Domaines Barons de Rothschild, with the largest grand-cru holding in the appellation including Les Clos and Bougros.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.lafite.com/domaines/william-fevre/",
+        "address_quoted": "Chablis",
+        "open_status": "open",
+        "open_evidence_url": "https://www.chablis-wines.com/",
+        "cuisine_evidence_url": "https://www.lafite.com/domaines/william-fevre/visit/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "domaine-raveneau",
+      "name": "Domaine Raveneau",
+      "address": "9 Rue de Chichee, 89800 Chablis, France",
+      "neighborhood": "Chablis",
+      "varietals": [
+        "Chardonnay"
+      ],
+      "classification": "Grand Cru and Premier Cru (Chablis, AOC)",
+      "hectares": 9,
+      "owner": "Raveneau family",
+      "winemaker": "Bernard and Jean-Marie Raveneau",
+      "founded": 1948,
+      "tasting_program": "No public cellar door; the most collected Chablis domaine, sold on tight allocation.",
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "The cult Chablis domaine, famed for ageworthy, oak-fermented Les Clos, Valmur and Blanchot grand crus and premier crus like Montee de Tonnerre.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.raveneau.fr/",
+        "address_quoted": "Chablis",
+        "open_status": "open",
+        "open_evidence_url": "https://www.chablis-wines.com/",
+        "cuisine_evidence_url": "https://www.raveneau.fr/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "domaine-louis-michel",
+      "name": "Domaine Louis Michel et Fils",
+      "address": "9 Boulevard de Ferrieres, 89800 Chablis, France",
+      "neighborhood": "Chablis",
+      "varietals": [
+        "Chardonnay"
+      ],
+      "classification": "Grand Cru, Premier Cru and Village (Chablis, AOC)",
+      "hectares": 25,
+      "owner": "Michel family",
+      "winemaker": "Guillaume Gicqueau-Michel",
+      "founded": 1850,
+      "tasting_program": "Tastings by appointment; the domaine ferments entirely in stainless steel to showcase Chablis minerality.",
+      "booking_url": "https://www.louismichel.fr/",
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Steel-only Chablis domaine making precise, unoaked grand and premier crus including Les Clos, Vaudesir and Montee de Tonnerre.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.louismichel.fr/",
+        "address_quoted": "Chablis",
+        "open_status": "open",
+        "open_evidence_url": "https://www.chablis-wines.com/",
+        "cuisine_evidence_url": "https://www.louismichel.fr/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "domaine-jean-marc-brocard",
+      "name": "Domaine Jean-Marc Brocard",
+      "address": "3 Route de Chablis, 89800 Prehy, France",
+      "neighborhood": "Chablis",
+      "varietals": [
+        "Chardonnay",
+        "Sauvignon Blanc",
+        "Pinot Noir",
+        "Cesar"
+      ],
+      "classification": "Grand Cru, Premier Cru and Village (Chablis and Saint-Bris, AOC)",
+      "hectares": 200,
+      "owner": "Brocard family",
+      "winemaker": "Julien Brocard",
+      "founded": 1973,
+      "tasting_program": "Visits and tastings at the Sainte-Claire estate by Prehy church; large organic and biodynamic holdings.",
+      "booking_url": "https://www.brocard.fr/",
+      "biodynamic_status": "biodynamic_practicing",
+      "organic_status": "ecocert",
+      "description": "Major Chablis grower around Prehy, organic and partly biodynamic, also bottling Saint-Bris Sauvignon and Irancy reds from the Grand Auxerrois.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.brocard.fr/",
+        "address_quoted": "Prehy",
+        "open_status": "open",
+        "open_evidence_url": "https://www.chablis-wines.com/",
+        "cuisine_evidence_url": "https://www.brocard.fr/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "maison-j-moreau-fils",
+      "name": "Maison J. Moreau et Fils",
+      "address": "Route d'Auxerre, 89800 Chablis, France",
+      "neighborhood": "Chablis",
+      "varietals": [
+        "Chardonnay"
+      ],
+      "classification": "Grand Cru, Premier Cru and Village (Chablis, AOC)",
+      "owner": "Boisset family",
+      "founded": 1814,
+      "tasting_program": "Tastings and shop in Chablis; a historic house with grand-cru parcels including Les Clos.",
+      "booking_url": "https://www.jmoreau-fils.com/",
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "One of the oldest Chablis houses, founded in 1814, now part of the Boisset group, with a long association with the Les Clos grand cru.",
+      "editorial_score": 4.1,
+      "verified": {
+        "source_url": "https://www.jmoreau-fils.com/",
+        "address_quoted": "Chablis",
+        "open_status": "open",
+        "open_evidence_url": "https://www.chablis-wines.com/",
+        "cuisine_evidence_url": "https://www.jmoreau-fils.com/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "domaine-laroche",
+      "name": "Domaine Laroche",
+      "address": "L'Obediencerie, 22 Rue Louis Bro, 89800 Chablis, France",
+      "neighborhood": "Chablis",
+      "varietals": [
+        "Chardonnay"
+      ],
+      "classification": "Grand Cru, Premier Cru and Village (Chablis, AOC)",
+      "hectares": 90,
+      "owner": "Advini group",
+      "winemaker": "Gregory Viennois",
+      "founded": 1850,
+      "tasting_program": "Visits and tastings in the medieval Obediencerie cellars in central Chablis, open to bookings.",
+      "booking_url": "https://www.larochewines.com/",
+      "biodynamic_status": "none",
+      "organic_status": "ecocert",
+      "description": "Chablis house cellared in a ninth-century monastic building, with grand crus including Les Clos, Blanchot and the Reserve de l'Obedience bottling.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.larochewines.com/",
+        "address_quoted": "Chablis",
+        "open_status": "open",
+        "open_evidence_url": "https://www.chablis-wines.com/",
+        "cuisine_evidence_url": "https://www.larochewines.com/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "domaines-devillard",
+      "name": "Domaines Devillard",
+      "address": "Chateau de Chamirey, 71640 Mercurey, France",
+      "neighborhood": "Cote Chalonnaise",
+      "varietals": [
+        "Pinot Noir",
+        "Chardonnay",
+        "Aligote"
+      ],
+      "classification": "Premier Cru and Village (Cote Chalonnaise and Cote de Nuits, AOC)",
+      "owner": "Devillard family",
+      "winemaker": "Amaury Devillard",
+      "founded": 1934,
+      "tasting_program": "Tastings at Chateau de Chamirey in Mercurey by appointment; the group also owns Domaine des Perdrix in Nuits.",
+      "booking_url": "https://www.domaines-devillard.com/",
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Cote Chalonnaise family group centred on Chateau de Chamirey in Mercurey, with Mercurey and Rully premier crus and a Nuits-Saint-Georges estate.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.domaines-devillard.com/",
+        "address_quoted": "Mercurey",
+        "open_status": "open",
+        "open_evidence_url": "https://www.bourgogne-wines.com/our-wines-our-philosophy/our-bourgogne-appellations/the-cote-chalonnaise-and-the-couchois,2403,9220.html",
+        "cuisine_evidence_url": "https://www.domaines-devillard.com/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "maison-verget",
+      "name": "Maison Verget",
+      "address": "Le Bourg, 71960 Sologny, France",
+      "neighborhood": "Maconnais",
+      "varietals": [
+        "Chardonnay"
+      ],
+      "classification": "Grand Cru, Premier Cru and Village (Maconnais, Chablis and Cote de Beaune, AOC)",
+      "owner": "Jean-Marie Guffens",
+      "winemaker": "Jean-Marie Guffens",
+      "founded": 1990,
+      "tasting_program": "Tastings by appointment at Sologny; the negociant arm of Guffens-Heynen sourcing across the Maconnais and Chablis.",
+      "booking_url": "https://www.verget-sa.fr/en/",
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Maconnais negociant founded by Jean-Marie Guffens, sourcing precise, terroir-driven Chardonnay from Pouilly-Fuisse to the Cote de Beaune and Chablis.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.verget-sa.fr/en/",
+        "address_quoted": "Sologny",
+        "open_status": "open",
+        "open_evidence_url": "https://www.bourgogne-wines.com/our-wines-our-philosophy/our-bourgogne-appellations/the-maconnais,2403,9218.html",
+        "cuisine_evidence_url": "https://www.verget-sa.fr/en/",
+        "checked_on": "2026-05-25"
+      }
+    }
+  ]
+}

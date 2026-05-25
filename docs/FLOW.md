@@ -144,7 +144,6 @@ See `docs/CROSS_LINKING.md` for the contract.
 | `docs/CROSS_LINKING.md` | TJ ↔ C&C cross-link contract |
 | `docs/SCRIPTS_AUDIT.md` | Which scripts work as-is, which need wine adaptation |
 | `docs/TEMPLATES_AUDIT.md` | Which templates work as-is, which need wine adaptation |
-| `docs/HANDOFF.md` | Current session state, what's pending |
 
 ## Definition of region ship-done (the orchestrator's contract)
 

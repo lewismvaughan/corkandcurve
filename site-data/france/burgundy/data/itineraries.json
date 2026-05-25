@@ -1,0 +1,165 @@
+{
+  "itineraries": [
+    {
+      "slug": "cote-de-nuits-grand-cru-two-days",
+      "name": "Cote de Nuits Grand Cru two days",
+      "length_days": 2,
+      "theme": "The red-wine heart of Burgundy: Gevrey-Chambertin, Chambolle-Musigny and Vosne-Romanee",
+      "base": "Nuits-Saint-Georges",
+      "days": [
+        {
+          "day": 1,
+          "morning": "Drive south from Dijon along the Route des Grands Crus to Gevrey-Chambertin for a mid-morning visit at Domaine Trapet Pere et Fils, focused on the biodynamic Chambertin holdings.",
+          "lunch": "Lunch in Gevrey-Chambertin village before continuing along the cru slope.",
+          "afternoon": "Continue to Chambolle-Musigny for an afternoon appointment at Domaine Georges Roumier, the village reference for Bonnes-Mares and Musigny.",
+          "evening": "Dinner and an evening glass in Beaune at Caves Madeleine on the Faubourg Madeleine.",
+          "accommodation": "Stay in Nuits-Saint-Georges or Beaune.",
+          "venues": ["domaine-trapet-pere-et-fils", "domaine-georges-roumier"]
+        },
+        {
+          "day": 2,
+          "morning": "Drive to Vosne-Romanee, the most concentrated Grand Cru village in the world, for a morning visit at Domaine Meo-Camuzet.",
+          "lunch": "Picnic among the vines or lunch in Nuits-Saint-Georges.",
+          "afternoon": "Afternoon appointment at Domaine Faiveley in Nuits-Saint-Georges, a large family house with broad Cote de Nuits holdings.",
+          "evening": "Return to Beaune for an evening tasting at the Cite des Climats before dinner.",
+          "accommodation": "Beaune centre.",
+          "venues": ["domaine-meo-camuzet", "domaine-faiveley"]
+        }
+      ],
+      "description": "A two-day Cote de Nuits route from Gevrey-Chambertin through Chambolle-Musigny to Vosne-Romanee and Nuits-Saint-Georges, anchored by grower visits and Beaune evenings.",
+      "tip": "The top Cote de Nuits domaines book out months ahead and many accept visitors only by referral; line up appointments well before travelling.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.burgundy-tourism.com/holiday-ideas/route-des-vins-maconnais-beaujolais",
+        "address_quoted": "Bourgogne",
+        "open_status": "open",
+        "open_evidence_url": "https://www.citeclimatsvins-bourgogne.com/en/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Climats,_terroirs_of_Burgundy",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "cote-de-beaune-white-wine-three-days",
+      "name": "Cote de Beaune white-wine three days",
+      "length_days": 3,
+      "theme": "Great white Burgundy: Beaune, Meursault and Puligny-Montrachet",
+      "base": "Beaune",
+      "days": [
+        {
+          "day": 1,
+          "morning": "Begin in Beaune with a morning at Maison Joseph Drouhin, exploring the negociant-domaine's cellars beneath the old town.",
+          "lunch": "Lunch in Beaune near the Hospices.",
+          "afternoon": "Afternoon visit at Bouchard Pere et Fils in the Chateau de Beaune, with its historic cellar of old vintages.",
+          "evening": "Evening glass at La Dilettante on the Faubourg Bretonniere.",
+          "accommodation": "Beaune centre.",
+          "venues": ["maison-joseph-drouhin", "bouchard-pere-et-fils"]
+        },
+        {
+          "day": 2,
+          "morning": "Drive south to Meursault for a morning at Domaine des Comtes Lafon, a benchmark white-wine estate.",
+          "lunch": "Lunch in Meursault village.",
+          "afternoon": "Continue to Puligny-Montrachet for an afternoon at Domaine Leflaive, the biodynamic reference for grand white Burgundy.",
+          "evening": "Dinner in Beaune; nightcap at the bar of Hotel Le Cep.",
+          "accommodation": "Beaune centre.",
+          "venues": ["domaine-des-comtes-lafon", "domaine-leflaive"]
+        },
+        {
+          "day": 3,
+          "morning": "Visit Olivier Leflaive in Puligny-Montrachet, which pairs cellar tastings with a long lunch built around the estate's whites.",
+          "lunch": "The tasting-lunch at Olivier Leflaive.",
+          "afternoon": "Round out the trip at the Beaune Cite des Climats with a themed white-Burgundy tasting workshop.",
+          "evening": "Final evening glass at La Maison du Colombier near the Hospices.",
+          "accommodation": "Beaune centre.",
+          "venues": ["olivier-leflaive"]
+        }
+      ],
+      "description": "A three-day Cote de Beaune route built on white Burgundy, from Beaune's negociant cellars to Meursault and Puligny-Montrachet, with Beaune evenings.",
+      "tip": "Olivier Leflaive's tasting-lunch is the most accessible way to drink serious Puligny without a private appointment; book it ahead.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.olivier-leflaive.com/en/",
+        "address_quoted": "Puligny-Montrachet",
+        "open_status": "open",
+        "open_evidence_url": "https://www.burgundy-tourism.com/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Burgundy_wine",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "chablis-and-northern-burgundy-two-days",
+      "name": "Chablis and northern Burgundy two days",
+      "length_days": 2,
+      "theme": "Cool-climate Chardonnay: the Chablis Grands Crus and the Grand Auxerrois",
+      "base": "Chablis",
+      "days": [
+        {
+          "day": 1,
+          "morning": "Start in Chablis with a morning at Domaine William Fevre, a leading owner of Grand Cru parcels on the famous slope.",
+          "lunch": "Lunch in the town of Chablis.",
+          "afternoon": "Afternoon at Domaine Louis Michel et Fils, known for unoaked, steely Chablis that shows the Kimmeridgian limestone clearly.",
+          "evening": "Evening tasting at the Chablis site of the Cite des Climats comparing Petit Chablis up to Grand Cru.",
+          "accommodation": "Chablis or nearby Auxerre.",
+          "venues": ["domaine-william-fevre", "domaine-louis-michel"]
+        },
+        {
+          "day": 2,
+          "morning": "Visit Domaine Jean-Marc Brocard for a contrast of village, Premier and Grand Cru bottlings across the wider Chablis zone.",
+          "lunch": "Lunch in Chablis before the drive south.",
+          "afternoon": "Walk the Grand Cru slope above town (Les Clos, Vaudesir, Valmur) to see the seven climats on a single hillside.",
+          "evening": "Dinner in Chablis with a Premier Cru pour.",
+          "accommodation": "Chablis.",
+          "venues": ["domaine-jean-marc-brocard"]
+        }
+      ],
+      "description": "A two-day Chablis route through the Grand Cru slope and the Grand Auxerrois, built on cool-climate Chardonnay from oaked to steely styles.",
+      "tip": "Taste oaked and unoaked Chablis side by side; the contrast between William Fevre's barrel-influenced and Louis Michel's tank-raised wines defines the appellation's two schools.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.chablis-wines.com/",
+        "address_quoted": "Chablis",
+        "open_status": "open",
+        "open_evidence_url": "https://www.citeclimatsvins-bourgogne.com/en/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Chablis_wine",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "cote-chalonnaise-value-tour-two-days",
+      "name": "Cote Chalonnaise value tour two days",
+      "length_days": 2,
+      "theme": "Affordable Burgundy: Rully, Mercurey, Givry and Bouzeron with a southern detour",
+      "base": "Beaune",
+      "days": [
+        {
+          "day": 1,
+          "morning": "Drive south to the Cote Chalonnaise for a morning at Domaines Devillard, with holdings across Mercurey and the wider Chalonnaise.",
+          "lunch": "Lunch in Mercurey or Givry.",
+          "afternoon": "Afternoon discovery of Givry and Rully on foot and by car, the value heart of red and white Burgundy.",
+          "evening": "Return north for an evening glass in Beaune at Le Bout du Monde.",
+          "accommodation": "Beaune or Chalon-sur-Saone.",
+          "venues": ["domaines-devillard"]
+        },
+        {
+          "day": 2,
+          "morning": "Continue south into the Maconnais for a morning at Maison Verget, a respected white-wine negociant working Macon and Pouilly-Fuisse fruit.",
+          "lunch": "Lunch beneath the Roche de Solutre.",
+          "afternoon": "Taste Pouilly-Fuisse and Saint-Veran in the southern villages before the drive back north.",
+          "evening": "Final dinner and a Cremant nightcap in Beaune.",
+          "accommodation": "Beaune.",
+          "venues": ["maison-verget"]
+        }
+      ],
+      "description": "A two-day value tour through the Cote Chalonnaise and Maconnais, from Mercurey and Givry to Pouilly-Fuisse, showing affordable Burgundy at its best.",
+      "tip": "This is the trip for drinkers who love Burgundy but balk at Cote d'Or prices; the Chalonnaise and Maconnais deliver the grapes and the terroir for far less.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.burgundy-tourism.com/discover-burgundy/vines-and-vineyards-of-burgundy/wine-tourism-destinations-in-burgundy/the-maconnais-in-southern-burgundy/",
+        "address_quoted": "Maconnais",
+        "open_status": "open",
+        "open_evidence_url": "https://www.burgundy-tourism.com/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Pouilly-Fuiss%C3%A9",
+        "checked_on": "2026-05-25"
+      }
+    }
+  ]
+}

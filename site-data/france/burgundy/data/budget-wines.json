@@ -1,0 +1,204 @@
+{
+  "budget_wines": [
+    {
+      "slug": "louis-latour-bourgogne-chardonnay",
+      "name": "Maison Louis Latour Bourgogne Chardonnay",
+      "producer": "maison-louis-latour",
+      "varietals": ["Chardonnay"],
+      "classification": "Bourgogne AOC",
+      "price_band": "EUR 14-18 retail",
+      "where_to_buy": "Maison Louis Latour, Beaune; widely distributed across France, the UK and the United States.",
+      "description": "A regional Bourgogne Blanc that is the easiest entry to white Burgundy. Unoaked, crisp green-apple and citrus Chardonnay from across the region, a reliable house benchmark under twenty euros.",
+      "tip": "The plain Bourgogne Chardonnay is the value play; trade up to the Macon-Lugny only when you want a touch more flesh from the southern fruit.",
+      "editorial_score": 4.1,
+      "verified": {
+        "source_url": "https://www.louislatour.com/en/wines/43/bourgogne-chardonnay",
+        "address_quoted": "Beaune",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Burgundy_wine",
+        "cuisine_evidence_url": "https://www.bourgogne-wines.com/our-terroir-our-wines/our-appellations/regional-appellations,2447,9234.html",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "louis-latour-macon-lugny",
+      "name": "Maison Louis Latour Macon-Lugny",
+      "producer": "maison-louis-latour",
+      "varietals": ["Chardonnay"],
+      "classification": "Macon-Lugny AOC",
+      "price_band": "EUR 16-20 retail",
+      "where_to_buy": "Maison Louis Latour, Beaune; one of the most widely available Maconnais whites internationally.",
+      "description": "Chardonnay from the warm limestone slopes around Lugny in the southern Maconnais. Rounder and riper than basic Bourgogne Blanc, with orchard fruit and a soft finish, dependable value for the table.",
+      "tip": "A safe house white in any French wine shop; serve lightly chilled with roast chicken or a goat-cheese salad.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.louislatour.com/en/wines/64/macon-lugny",
+        "address_quoted": "Beaune",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Burgundy_wine",
+        "cuisine_evidence_url": "https://www.macon-tourisme.com/en/vin/cave-de-lugny/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "cave-de-lugny-macon-villages",
+      "name": "Cave de Lugny Macon-Villages",
+      "producer": "cave-de-lugny",
+      "varietals": ["Chardonnay"],
+      "classification": "Macon-Villages AOC",
+      "price_band": "EUR 10-15 retail",
+      "where_to_buy": "Cave de Lugny cooperative cellar, Lugny; exported widely through supermarket and merchant channels.",
+      "description": "The cooperative that makes roughly a third of all Macon-Villages turns out a clean, fruit-forward Chardonnay at supermarket prices. The everyday white Burgundy benchmark for under fifteen euros.",
+      "tip": "Look for the single-vineyard La Cote Blanche bottling for a small step up that still stays comfortably under twenty euros.",
+      "editorial_score": 4.0,
+      "verified": {
+        "source_url": "https://cave-lugny.com/en/",
+        "address_quoted": "Lugny",
+        "open_status": "open",
+        "open_evidence_url": "https://www.macon-tourisme.com/en/vin/cave-de-lugny/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Burgundy_wine",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "la-chablisienne-petit-chablis",
+      "name": "La Chablisienne Petit Chablis",
+      "producer": "la-chablisienne",
+      "varietals": ["Chardonnay"],
+      "classification": "Petit Chablis AOC",
+      "price_band": "EUR 14-18 retail",
+      "where_to_buy": "La Chablisienne cooperative, Chablis; the leading volume producer of the appellation, widely exported.",
+      "description": "Petit Chablis from the plateau soils above the main Chablis slope, lively and steely with green-apple and citrus bite. The most affordable way into real Chablis tension under twenty euros.",
+      "tip": "Petit Chablis is built for youth; drink the most recent vintage with oysters or shellfish rather than cellaring it.",
+      "editorial_score": 4.1,
+      "verified": {
+        "source_url": "https://chablisienne.com/en/the-wines/nos-petit-chablis.html",
+        "address_quoted": "Chablis",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/La_Chablisienne",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Chablis_wine",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "la-chablisienne-chablis",
+      "name": "La Chablisienne Chablis",
+      "producer": "la-chablisienne",
+      "varietals": ["Chardonnay"],
+      "classification": "Chablis AOC",
+      "price_band": "EUR 18-24 retail",
+      "where_to_buy": "La Chablisienne cooperative, Chablis; broadly distributed in France, the UK and the United States.",
+      "description": "Village Chablis from the cooperative that supplies a quarter of the appellation. Flinty, dry and mineral, the textbook unoaked expression of Kimmeridgian limestone for under twenty-five euros.",
+      "tip": "This is the value entry to true village Chablis; the named cuvees La Pierrelee and La Sereine are the same wine under merchant labels in some markets.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://chablisienne.com/en/the-wines/nos-chablis.html",
+        "address_quoted": "Chablis",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/La_Chablisienne",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Chablis_wine",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "de-villaine-bouzeron-aligote",
+      "name": "Domaine A. et P. de Villaine Bouzeron",
+      "producer": "domaine-de-villaine",
+      "varietals": ["Aligote"],
+      "classification": "Bouzeron AOC",
+      "price_band": "EUR 22-25 retail",
+      "where_to_buy": "Domaine A. et P. de Villaine, Bouzeron, Cote Chalonnaise; imported to the US by Kermit Lynch.",
+      "description": "The reference Aligote from the only village appellation reserved for the grape, farmed organically by Aubert de Villaine of Romanee-Conti. Citrus, white-flower and a saline cut, proof Aligote is no afterthought, just under twenty-five euros.",
+      "tip": "Bouzeron is the one place Aligote earns its own AOC; this is the bottle that converts sceptics. A classic match for snails or a gougeres aperitif.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.de-villaine.com/en/wines/1/bouzeron",
+        "address_quoted": "Bouzeron",
+        "open_status": "open",
+        "open_evidence_url": "https://kermitlynch.com/wine/de-villaine/303/DV01",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Bouzeron",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "bouchard-aine-bourgogne-pinot-noir",
+      "name": "Bouchard Aine et Fils Bourgogne Pinot Noir",
+      "producer": "bouchard-aine-et-fils",
+      "varietals": ["Pinot Noir"],
+      "classification": "Bourgogne AOC",
+      "price_band": "EUR 15-20 retail",
+      "where_to_buy": "Bouchard Aine et Fils, Beaune; distributed across France and export markets.",
+      "description": "A regional Bourgogne Rouge that delivers the bright red-cherry and light-tannin signature of Burgundian Pinot Noir at an everyday price. The easiest introduction to the grape's silky red style.",
+      "tip": "Serve regional Bourgogne Rouge a touch cool to lift the fruit; it is built for the weeknight table, not the cellar.",
+      "editorial_score": 4.0,
+      "verified": {
+        "source_url": "https://www.bouchard-aine.fr/en/",
+        "address_quoted": "Beaune",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Burgundy_wine",
+        "cuisine_evidence_url": "https://www.bourgogne-wines.com/our-terroir-our-wines/our-appellations/regional-appellations,2447,9234.html",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "bouchard-pere-bourgogne-aligote",
+      "name": "Bouchard Pere et Fils Bourgogne Aligote",
+      "producer": "bouchard-pere-et-fils",
+      "varietals": ["Aligote"],
+      "classification": "Bourgogne Aligote AOC",
+      "price_band": "EUR 13-17 retail",
+      "where_to_buy": "Bouchard Pere et Fils, Beaune; widely available in French wine shops and abroad.",
+      "description": "A bracing, high-acid Aligote from one of Beaune's historic houses. Lemon, green apple and a mineral snap, the original base of a kir and a sharp aperitif white for well under twenty euros.",
+      "tip": "Aligote is the traditional base for kir with creme de cassis; on its own it shines with shellfish and fresh cheese.",
+      "editorial_score": 3.9,
+      "verified": {
+        "source_url": "https://www.bouchard-pereetfils.com/en/",
+        "address_quoted": "Beaune",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Bourgogne_Aligot%C3%A9",
+        "cuisine_evidence_url": "https://www.bourgogne-wines.com/our-terroir-our-wines/our-appellations/regional-appellations,2447,9234.html",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "la-chablisienne-cremant-de-bourgogne",
+      "name": "La Chablisienne Cremant de Bourgogne",
+      "producer": "la-chablisienne",
+      "varietals": ["Chardonnay", "Pinot Noir"],
+      "classification": "Cremant de Bourgogne AOC",
+      "price_band": "EUR 16-22 retail",
+      "where_to_buy": "La Chablisienne cooperative, Chablis; distributed through merchant and export channels.",
+      "description": "Traditional-method Burgundian sparkling built on Chardonnay with Pinot Noir, made the same way as Champagne. Fine bubbles, brioche and citrus, a serious fizz for under twenty-five euros.",
+      "tip": "Cremant de Bourgogne is the value alternative to Champagne for a celebration; chill well and pour as an aperitif.",
+      "editorial_score": 4.0,
+      "verified": {
+        "source_url": "https://chablisienne.com/en/",
+        "address_quoted": "Chablis",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/La_Chablisienne",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Cr%C3%A9mant_de_Bourgogne",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "louis-latour-macon-lugny-les-genievres",
+      "name": "Maison Louis Latour Macon-Lugny Les Genievres",
+      "producer": "maison-louis-latour",
+      "varietals": ["Chardonnay"],
+      "classification": "Macon-Lugny AOC",
+      "price_band": "EUR 18-23 retail",
+      "where_to_buy": "Maison Louis Latour, Beaune; one of the most distributed named Maconnais cuvees worldwide.",
+      "description": "A single-named Macon-Lugny lieu-dit, Les Genievres, with a little more depth and breadth than the basic village wine. Ripe orchard fruit and a creamy edge, dependable value just inside twenty-five euros.",
+      "tip": "The step from basic Macon-Lugny to Les Genievres is worth it for a dinner-party white; it carries richer dishes like roast pork or creamy pasta.",
+      "editorial_score": 4.1,
+      "verified": {
+        "source_url": "https://www.louislatour.com/en/wines/63/macon-lugny-les-genievres",
+        "address_quoted": "Beaune",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Burgundy_wine",
+        "cuisine_evidence_url": "https://www.macon-tourisme.com/en/vin/cave-de-lugny/",
+        "checked_on": "2026-05-25"
+      }
+    }
+  ]
+}

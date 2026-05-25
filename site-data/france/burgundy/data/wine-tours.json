@@ -1,0 +1,134 @@
+{
+  "wine_tours": [
+    {
+      "slug": "authentica-tours-burgundy",
+      "name": "Authentica Tours",
+      "address": "Beaune, 21200, France",
+      "neighborhood": "Beaune and Dijon",
+      "description": "Private luxury wine tour operator based in Beaune and Dijon since 2008. English-speaking driver-guides lead tailored Cote de Nuits and Cote de Beaune days with private tastings at carefully selected domaines.",
+      "tour_types": [
+        "Cote de Nuits and Cote de Beaune full-day",
+        "Grand Cru private tasting day",
+        "Chablis day trip",
+        "Multi-day Burgundy itinerary"
+      ],
+      "languages": ["English", "French"],
+      "price_range": "Private full-day tours from around EUR 250 per person",
+      "booking_url": "https://www.authentica-tours.com/luxury-private-wine-tours-burgundy/cote-de-nuits-cote-de-beaune/",
+      "min_group_size": 1,
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.authentica-tours.com/",
+        "address_quoted": "Beaune",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attractions-g187109-Activities-c42-t205-Beaune_Cote_d_Or_Bourgogne_Franche_Comte.html",
+        "cuisine_evidence_url": "https://www.authentica-tours.com/luxury-private-wine-tours-burgundy/cote-de-nuits-cote-de-beaune/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "bourgogne-gold-tour",
+      "name": "Bourgogne Gold Tour",
+      "address": "Beaune, 21200, France",
+      "neighborhood": "Beaune",
+      "description": "Beaune-based private guided wine tour company running days of vineyard visits and three private tastings spanning red and white, young and old vintages across the Cote de Nuits and Cote de Beaune.",
+      "tour_types": [
+        "Nuits and Beaune private day",
+        "Cote de Beaune private day",
+        "Half-day vineyard tour",
+        "Custom Grand Cru itinerary"
+      ],
+      "languages": ["English", "French"],
+      "price_range": "Private full-day tours from around EUR 200 per person",
+      "booking_url": "https://www.bourgogne-gold-tour.com/en/wine-tours-nuits-beaune/",
+      "min_group_size": 1,
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.bourgogne-gold-tour.com/en/",
+        "address_quoted": "Beaune",
+        "open_status": "open",
+        "open_evidence_url": "https://travel.usnews.com/Burgundy_France/Things_To_Do/Wine_Tours_64022/",
+        "cuisine_evidence_url": "https://www.bourgogne-gold-tour.com/en/wine-tours-cote-de-beaune/",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "vinotrip-burgundy-wine-tours",
+      "name": "Vinotrip Burgundy Wine Tours",
+      "address": "Beaune, 21200, France",
+      "neighborhood": "Beaune",
+      "description": "Wine travel specialist curating Burgundy stays and guided tours from Beaune, combining tastings at renowned estates with accommodation at properties such as the Hostellerie de Levernois.",
+      "tour_types": [
+        "Cote de Beaune wine tour",
+        "Burgundy wine trip multi-day",
+        "Grand Cru estate tastings",
+        "Wine and gastronomy package"
+      ],
+      "languages": ["English", "French"],
+      "price_range": "Day tours and multi-day packages, price on request",
+      "booking_url": "https://www.vinotrip.com/en/burgundy-wine-tours",
+      "min_group_size": 1,
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.vinotrip.com/en/burgundy-wine-tours",
+        "address_quoted": "Beaune",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vinotrip.com/en/wine-tours/1-wine-tourism-burgundy.html",
+        "cuisine_evidence_url": "https://www.vinotrip.com/en/wine-tours/7-burgundy-wine-trip.html",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "a-la-francaise-bourgogne",
+      "name": "A la Francaise Bourgogne",
+      "address": "Beaune, 21200, France",
+      "neighborhood": "Beaune and Dijon",
+      "description": "Private tour operator running guided wine days from Beaune or Dijon along the Route des Grands Crus, with cellar visits and tastings at family domaines across the Cote d'Or.",
+      "tour_types": [
+        "Route des Grands Crus private day",
+        "Cote de Nuits half-day",
+        "Cote de Beaune half-day",
+        "Tailor-made Burgundy itinerary"
+      ],
+      "languages": ["English", "French"],
+      "price_range": "Private tours from around EUR 90 per person",
+      "booking_url": "https://www.alafrancaise.fr/en/bourgogne/our-private-tours",
+      "min_group_size": 1,
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.alafrancaise.fr/en/bourgogne/our-private-tours",
+        "address_quoted": "Beaune",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attractions-g187109-Activities-c42-t205-Beaune_Cote_d_Or_Bourgogne_Franche_Comte.html",
+        "cuisine_evidence_url": "https://www.alafrancaise.fr/en/bourgogne/our-private-tours",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "burgundy-tourism-safari-tours-beaune",
+      "name": "Safari Tours Beaune",
+      "address": "Beaune, 21200, France",
+      "neighborhood": "Beaune",
+      "description": "Beaune-based private vineyard tour operator offering Cote de Nuits hill visits with professional guides, two private cellar visits and tastings of roughly a dozen wines at family-run wineries.",
+      "tour_types": [
+        "Cote de Nuits private day",
+        "Cote de Beaune private day",
+        "Half-day vineyard safari",
+        "Custom Burgundy day"
+      ],
+      "languages": ["English", "French"],
+      "price_range": "Private tours from around EUR 110 per person",
+      "booking_url": "https://www.burgundy-tourism-safaritours.com/en/private-tours.html",
+      "min_group_size": 1,
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.burgundy-tourism-safaritours.com/en/private-tours.html",
+        "address_quoted": "Beaune",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attractions-g187109-Activities-c42-t205-Beaune_Cote_d_Or_Bourgogne_Franche_Comte.html",
+        "cuisine_evidence_url": "https://www.burgundy-tourism-safaritours.com/en/private-tours.html",
+        "checked_on": "2026-05-25"
+      }
+    }
+  ]
+}
