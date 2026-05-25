@@ -40,7 +40,7 @@ Every entity ships with this block or it's dropped. `source_url` and
 | `winemaker` | string | head winemaker if named in current press |
 | `founded` | int (year) | 4-digit year |
 | `biodynamic_status` | string | "demeter_certified", "biodynamic_practicing", "none" |
-| `organic_status` | string | "usda_organic", "ecocert", "icea", "ccpb", "none" |
+| `organic_status` | string | the VERIFIED certifying body for THIS estate, or a generic/none. Bodies vary by country: "usda_organic", "ecocert" / "ecocert_italia", "icea", "ccpb", "suolo_e_salute", "bioagricert", "caae" (Spain), "sativa" (Portugal), "demeter" (also biodynamic). If the estate is certified organic but the source does not name the body, use the generic "organic_certified". Use "none" if not certified. NEVER blanket-apply one body across estates (Piedmont 2026-05-25: "icea" was wrongly stamped on every organic estate). |
 | `natural_wine` | bool | low/no intervention, minimal sulfites |
 | `tip` | string | insider note |
 
@@ -321,9 +321,13 @@ Required: `slug`, `pairing` (e.g. "Bordeaux red + entrecôte"),
   Promoting IGT to DOCG is a deal-breaker QA finding.
 - Wine scores. Always tie to a `reviewer` + `vintage` + `year of review`.
   "Highly rated" without a sourced number is removed.
-- Biodynamic / organic status. The certifier MUST be named. "Biodynamic-
-  inspired" without certification is `biodynamic_practicing`, not
-  `demeter_certified`.
+- Biodynamic / organic status. The certifier MUST be the one VERIFIED for
+  THAT specific estate, not guessed. "Biodynamic-inspired" without
+  certification is `biodynamic_practicing`, not `demeter_certified`. Do NOT
+  blanket-apply a single certifying body (e.g. "icea") across every organic
+  estate — bodies differ per producer (Suolo e Salute, Ecocert Italia, CCPB,
+  Bioagricert, ICEA, CAAE, SATIVA...). If the body is not named on the
+  source, use the generic `organic_certified`; never invent a specific body.
 
 ## Cross-reference rules (mirrors TJ contract)
 

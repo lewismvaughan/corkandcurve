@@ -248,7 +248,13 @@ Same as TJ:
 3. Write findings to
    `agents/qa/reports/<country>_<region>_qa1_<YYYY-MM-DD>.md` with a
    defect list (entity slug + class).
-4. Remove flagged entities directly from the JSONs.
+4. Remove flagged entities directly from the JSONs. When a defect is a
+   FIELD value (e.g. a wrong `organic_status`, `owner`, or classification),
+   scrub it in EVERY file that carries that field for the same entity, not
+   just the topic where you first spotted it — the same producer appears in
+   vineyards.json, dietary.json, hidden-gems.json, signature-wines.json, etc.
+   (Piedmont 2026-05-25: a blanket-`icea` fix that touched only dietary.json
+   left the same fabrication live in vineyards.json + hidden-gems.json.)
 5. Re-run `bash scripts/ship_safety.sh <country> <region>` to confirm
    structural integrity after your removals.
 6. Print QA1-COMPLETE <country>/<region>.

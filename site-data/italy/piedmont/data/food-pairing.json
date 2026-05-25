@@ -1,3 +1,116 @@
 {
-  "food_pairing": []
+  "food_pairing": [
+    {
+      "slug": "barolo-brasato-al-barolo",
+      "name": "Barolo with brasato al Barolo",
+      "pairing": "Barolo DOCG with brasato al Barolo, beef braised in the same wine",
+      "tablejourney_ref": null,
+      "wine_entities": ["monfortino-barolo-riserva", "barolo-rocche-di-castiglione", "barolo-bricco-delle-viole", "barolo-vigna-rionda-riserva"],
+      "description": "Piedmont's defining wine-and-meat marriage: beef slow-braised in Nebbiolo, paired back with a structured Barolo whose firm tannins cut the richness and whose tar and dried-cherry notes echo the braise.",
+      "editorial_score": 5.0,
+      "verified": {
+        "source_url": "https://www.langhevini.it/en/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "barolo-tajarin-white-truffle",
+      "name": "Barolo with tajarin and white truffle",
+      "pairing": "Barolo DOCG with tajarin, thin egg pasta, and shaved Alba white truffle",
+      "tablejourney_ref": null,
+      "wine_entities": ["barbaresco-gaja", "barolo-bric-del-fiasc", "barolo-granbussia-riserva"],
+      "description": "The Langhe autumn ritual: hand-cut tajarin under shavings of Tuber magnatum from Alba, with an aged Nebbiolo whose savoury, earthy core resonates with the truffle and whose acidity lifts the egg-rich pasta.",
+      "editorial_score": 5.0,
+      "verified": {
+        "source_url": "https://www.langhevini.it/en/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "barbera-agnolotti-del-plin",
+      "name": "Barbera with agnolotti del plin",
+      "pairing": "Barbera d'Asti DOCG with agnolotti del plin, pinched meat-stuffed pasta",
+      "tablejourney_ref": null,
+      "wine_entities": ["barbera-dasti-la-crena", "bricco-dell-uccellone", "barbera-dasti-la-court", "pomorosso-barbera-dasti"],
+      "description": "The Monferrato everyday pairing: tiny hand-pinched agnolotti in butter or jus, with Barbera's bright, racy acidity cutting the rich meat filling and its fruit refreshing the palate.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.viniastimonferrato.it/en/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "barbera-bollito-misto",
+      "name": "Barbera with bollito misto",
+      "pairing": "Barbera d'Alba DOC with bollito misto, Piedmontese mixed boiled meats",
+      "tablejourney_ref": null,
+      "wine_entities": ["barbera-dalba-vigna-scarrone", "barbera-dalba-cascina-francia", "barbera-dalba-marun"],
+      "description": "The Sunday classic of the Langhe: a steaming platter of boiled meats with salsa verde and mostarda, lifted by Barbera's high acidity which slices through the fats and refreshes between bites.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.langhevini.it/en/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "moscato-dasti-hazelnut-cake",
+      "name": "Moscato d'Asti with torta di nocciole",
+      "pairing": "Moscato d'Asti DOCG with torta di nocciole, Piedmont hazelnut cake",
+      "tablejourney_ref": null,
+      "wine_entities": ["moscato-dasti-cascinetta", "moscato-dasti-nivole"],
+      "description": "The region's dessert pairing: a moist Piedmont Hazelnut cake with the lightly sparkling, low-alcohol Moscato d'Asti, whose peach, apricot and rose petal lift the nutty crumb without cloying.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.viniastimonferrato.it/en/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "gavi-seafood-fritto-misto",
+      "name": "Gavi with seafood fritto misto",
+      "pairing": "Gavi DOCG with fritto misto di mare, mixed fried seafood",
+      "tablejourney_ref": null,
+      "wine_entities": ["gavi-dei-gavi-etichetta-nera"],
+      "description": "Although landlocked, Gavi's racy Cortese is Piedmont's seafood white: its mineral freshness and citrus cut through a platter of crisp fried seafood and frame raw shellfish.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.consorziogavi.com/en/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "arneis-vitello-tonnato",
+      "name": "Roero Arneis with vitello tonnato",
+      "pairing": "Roero Arneis DOCG with vitello tonnato, cold sliced veal in tuna sauce",
+      "tablejourney_ref": null,
+      "wine_entities": ["roero-arneis-vietti", "roero-arneis-correggia", "blange-arneis"],
+      "description": "Piedmont's signature antipasto meets its signature white: thin-sliced cold veal under a creamy tuna-and-caper sauce, with floral, almond-edged Arneis whose fresh acidity balances the richness.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.consorziodelroero.it/en/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "langhe-riesling-risotto-milanese",
+      "name": "Langhe Riesling with saffron risotto",
+      "pairing": "Langhe Riesling DOC with saffron risotto in the Milanese style",
+      "tablejourney_ref": "italy/milan/dish/risotto-alla-milanese",
+      "wine_entities": ["langhe-riesling-petracine", "langhe-riesling-herzu"],
+      "description": "A cross-border pairing reaching toward neighbouring Lombardy: Piedmont's rare high-altitude dry Riesling, all mineral cut and racy acidity, frames the buttery saffron richness of a Milanese risotto.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://tablejourney.com/italy/milan/dish/risotto-alla-milanese/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    }
+  ]
 }

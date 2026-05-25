@@ -1,3 +1,208 @@
 {
-  "signature_wines": []
+  "signature_wines": [
+    {
+      "slug": "monfortino-barolo-riserva",
+      "name": "Giacomo Conterno Barolo Riserva Monfortino",
+      "producer": "giacomo-conterno",
+      "varietals": ["Nebbiolo"],
+      "style": "still red Barolo",
+      "vintage_range": "approachable from 15 years, cellar 25 to 50",
+      "price_band": "EUR 800 to 2500 at retail",
+      "tasting_notes": "The summit of traditional Barolo, from the Cascina Francia and Arione vineyards in Serralunga, with six to eight years in large old barrel. Made only in great years. Source: rarewineco.com.",
+      "editorial_score": 5.0,
+      "description": "Giacomo Conterno's reserve Barolo and the benchmark of the traditional school. Released only in exceptional vintages after long cask ageing.",
+      "verified": {
+        "source_url": "https://www.rarewineco.com/producer/giacomo-conterno/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "barolo-bartolo-mascarello",
+      "name": "Bartolo Mascarello Barolo",
+      "producer": "bartolo-mascarello",
+      "varietals": ["Nebbiolo"],
+      "style": "still red Barolo",
+      "vintage_range": "approachable from 12 years, cellar 20 to 40",
+      "price_band": "EUR 300 to 600 at retail",
+      "tasting_notes": "A single blended Barolo co-fermented from four crus (Cannubi, San Lorenzo, Rue, Rocche), expressing the house belief that the most complete Barolo comes from mutually compensating sites. Source: rarewineco.com.",
+      "editorial_score": 4.9,
+      "description": "The cult traditionalist Barolo of the village, a four-cru blend famous for Maria Teresa's hand-drawn labels.",
+      "verified": {
+        "source_url": "https://www.rarewineco.com/producer/cantina-bartolo-mascarello/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "sori-tildin",
+      "name": "Gaja Sori Tildin",
+      "producer": "gaja",
+      "varietals": ["Nebbiolo"],
+      "style": "still red Barbaresco",
+      "vintage_range": "approachable from 10 years, cellar 20 to 40",
+      "price_band": "EUR 600 to 1200 at retail",
+      "tasting_notes": "Smoky and elegantly austere: graphite, licorice, red currants and violets with firm, polished tannin. James Suckling 97 points, 2021 vintage. Source: wilsondaniels.com.",
+      "editorial_score": 5.0,
+      "description": "Gaja's most celebrated Barbaresco cru, a south-facing hill above Costa Russi.",
+      "verified": {
+        "source_url": "https://wilsondaniels.com/wine/gaja/sori-tildin-barbaresco-dop/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "barbaresco-gaja",
+      "name": "Gaja Barbaresco",
+      "producer": "gaja",
+      "varietals": ["Nebbiolo"],
+      "style": "still red Barbaresco",
+      "vintage_range": "approachable from 8 years, cellar 15 to 30",
+      "price_band": "EUR 250 to 400 at retail",
+      "tasting_notes": "A rich, round multi-cru Barbaresco with strawberry, red fruit and Nebbiolo's tarry depth. Jancis Robinson 17 points, 2020 vintage. Source: wilsondaniels.com.",
+      "editorial_score": 4.8,
+      "description": "The village Barbaresco that put the appellation on the global map.",
+      "verified": {
+        "source_url": "https://wilsondaniels.com/wine/gaja/barbaresco-dop/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "barolo-rocche-di-castiglione",
+      "name": "Vietti Barolo Rocche di Castiglione",
+      "producer": "vietti",
+      "varietals": ["Nebbiolo"],
+      "style": "still red Barolo",
+      "vintage_range": "approachable from 10 years, cellar 20 to 35",
+      "price_band": "EUR 200 to 400 at retail",
+      "tasting_notes": "Perfumed red cherry and rose with fine-grained tannin and a long, mineral finish, from the steep Rocche di Castiglione cru. Source: vietti.com.",
+      "editorial_score": 4.8,
+      "description": "Vietti's most aromatic single-cru Barolo from Castiglione Falletto.",
+      "verified": {
+        "source_url": "https://www.vietti.com/en/wines/barolo-rocche-di-castiglione",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "barolo-granbussia-riserva",
+      "name": "Poderi Aldo Conterno Barolo Granbussia Riserva",
+      "producer": "poderi-aldo-conterno",
+      "varietals": ["Nebbiolo"],
+      "style": "still red Barolo",
+      "vintage_range": "approachable from 15 years, cellar 25 to 45",
+      "price_band": "EUR 400 to 900 at retail",
+      "tasting_notes": "Blended from the oldest Bussia vines (Romirasco, Cicala, Colonnello), made only in superior years and aged at least a decade before release. Source: poderialdoconterno.com.",
+      "editorial_score": 4.9,
+      "description": "Aldo Conterno's flagship Monforte Riserva, a benchmark of the Bussia amphitheatre.",
+      "verified": {
+        "source_url": "https://www.poderialdoconterno.com/en/wines/granbussia",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "barolo-vigna-rionda-riserva",
+      "name": "Massolino Barolo Vigna Rionda Riserva",
+      "producer": "massolino",
+      "varietals": ["Nebbiolo"],
+      "style": "still red Barolo",
+      "vintage_range": "approachable from 15 years, cellar 25 to 45",
+      "price_band": "EUR 150 to 300 at retail",
+      "tasting_notes": "A powerful, structured traditional Barolo from one of Serralunga's greatest crus, released only after long ageing. Source: massolino.it.",
+      "editorial_score": 4.8,
+      "description": "Massolino's benchmark long-aged Riserva from the great Vigna Rionda cru.",
+      "verified": {
+        "source_url": "https://www.massolino.it/en/location-and-contacts/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "barolo-bric-del-fiasc",
+      "name": "Paolo Scavino Barolo Bric del Fiasc",
+      "producer": "paolo-scavino",
+      "varietals": ["Nebbiolo"],
+      "style": "still red Barolo",
+      "vintage_range": "approachable from 10 years, cellar 20 to 35",
+      "price_band": "EUR 90 to 170 at retail",
+      "tasting_notes": "A polished, concentrated modern-classic Barolo from the Bricco del Fiasco cru in Castiglione Falletto, one of the first single-vineyard Barolos of the modern era. Source: stradadelbarolo.it.",
+      "editorial_score": 4.7,
+      "description": "Scavino's famed single-vineyard Barolo, a modern-classic of polish and concentration.",
+      "verified": {
+        "source_url": "https://www.stradadelbarolo.it/en/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "bricco-dell-uccellone",
+      "name": "Braida Bricco dell'Uccellone",
+      "producer": "braida",
+      "varietals": ["Barbera"],
+      "style": "still red Barbera d'Asti",
+      "vintage_range": "approachable from 4 years, cellar 10 to 20",
+      "price_band": "EUR 45 to 80 at retail",
+      "tasting_notes": "Giacomo Bologna's barrique-aged Barbera (first 1982) that redefined the grape as a serious, age-worthy red. Source: braida.it.",
+      "editorial_score": 4.7,
+      "description": "The wine that elevated Barbera from everyday red to age-worthy benchmark.",
+      "verified": {
+        "source_url": "https://www.braida.it/en/rocchetta-tanaro/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "barolo-bricco-delle-viole",
+      "name": "G.D. Vajra Barolo Bricco delle Viole",
+      "producer": "g-d-vajra",
+      "varietals": ["Nebbiolo"],
+      "style": "still red Barolo",
+      "vintage_range": "approachable from 10 years, cellar 20 to 35",
+      "price_band": "EUR 70 to 130 at retail",
+      "tasting_notes": "A fragrant, high-toned Barolo from the highest corner of the appellation in Vergne, built on altitude and freshness. Source: gdvajra.it.",
+      "editorial_score": 4.7,
+      "description": "Vajra's flagship Barolo from the high Bricco delle Viole vineyard.",
+      "verified": {
+        "source_url": "https://www.gdvajra.it/en/barolo-bricco-delle-viole-docg",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "gavi-dei-gavi-etichetta-nera",
+      "name": "La Scolca Gavi dei Gavi Etichetta Nera",
+      "producer": "la-scolca",
+      "varietals": ["Cortese"],
+      "style": "still white Gavi",
+      "vintage_range": "approachable on release, ages 3 to 15",
+      "price_band": "EUR 35 to 60 at retail",
+      "tasting_notes": "The Black Label that defined premium Gavi, an elegant, fresh 100% Cortese of intense aromatic complexity that ages remarkably well. Source: lascolca.net.",
+      "editorial_score": 4.6,
+      "description": "Piedmont's benchmark white, the wine that made Gavi a fine-wine name.",
+      "verified": {
+        "source_url": "https://www.lascolca.net/en/gavi-dei-gavi/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    },
+    {
+      "slug": "barbaresco-rabaja",
+      "name": "Bruno Rocca Barbaresco Rabaja",
+      "producer": "bruno-rocca",
+      "varietals": ["Nebbiolo"],
+      "style": "still red Barbaresco",
+      "vintage_range": "approachable from 8 years, cellar 15 to 30",
+      "price_band": "EUR 80 to 150 at retail",
+      "tasting_notes": "Rosehip, violet and cherry with buttery notes, soft broad tannins and a long, sumptuous finish, from the prestigious Rabaja cru. Source: brunorocca.it.",
+      "editorial_score": 4.7,
+      "description": "Bruno Rocca's flagship from one of Barbaresco's most prized crus.",
+      "verified": {
+        "source_url": "https://www.brunorocca.it/en/wine/barbaresco-docg-rabaja/",
+        "open_status": "open",
+        "checked_on": "2026-05-25"
+      }
+    }
+  ]
 }

@@ -241,9 +241,15 @@ def _inject_entity_urls(research: Dict[str, Any], country_slug: str, region_slug
     # in-page via anchors.
     grapes = research.get("signature_grapes")
     if isinstance(grapes, list):
+        _content = REPO_ROOT / "content"
         for g in grapes:
             if isinstance(g, dict) and g.get("slug"):
-                g["_url"] = f"/grape/{g['slug']}/"
+                # Only link to the global grape cross-cut if it was actually
+                # generated. A signature grape with no producers in any region
+                # (e.g. Piedmont Brachetto/Timorasso) has no /grape/<slug>/
+                # page, so linking it would 404 — render it as plain text.
+                if (_content / "grape" / g["slug"] / "index.html").exists():
+                    g["_url"] = f"/grape/{g['slug']}/"
 
     # Cuvée pages use a GLOBAL URL scheme keyed on the producer slug
     # rather than the region's path, so they're shareable across the

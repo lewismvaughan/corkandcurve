@@ -13401,5 +13401,1144 @@
 "country_code": "pt"
 },
 "strategy": "canonical"
+},
+"2e738c0ed25899a67e426fb78a5abf80b40bf057": {
+"address": "Piazza della Vite e del Vino 1, frazione Vergne, 12060 Barolo, Italy",
+"city": "Piedmont",
+"ok": true,
+"lat": 44.5935769,
+"lon": 7.9275615,
+"source": "nominatim",
+"queried": "12060, Piedmont",
+"display_name": "12060, Novello, Cuneo, Piemonte, Italia",
+"address_detail": {
+"postcode": "12060",
+"village": "Novello",
+"county": "Cuneo",
+"ISO3166-2-lvl6": "IT-CN",
+"state": "Piemonte",
+"ISO3166-2-lvl4": "IT-21",
+"country": "Italia",
+"country_code": "it"
+},
+"strategy": "postcode_centroid",
+"coarse": true
+},
+"b2064a608cc7d75bcab0318a4d418300fa5e51a4": {
+"address": "Via Alba 47, 12065 Monforte d'Alba, Italy",
+"city": "Piedmont",
+"ok": true,
+"lat": 44.5843999,
+"lon": 7.9704624,
+"source": "nominatim",
+"queried": "12065, Piedmont",
+"display_name": "12065, Monforte d'Alba, Cuneo, Piemonte, Italia",
+"address_detail": {
+"postcode": "12065",
+"city": "Monforte d'Alba",
+"county": "Cuneo",
+"ISO3166-2-lvl6": "IT-CN",
+"state": "Piemonte",
+"ISO3166-2-lvl4": "IT-21",
+"country": "Italia",
+"country_code": "it"
+},
+"strategy": "postcode_centroid",
+"coarse": true
+},
+"a0bc88eebe2e8c6ee24e596355a2aeaa28b7f1c1": {
+"address": "Via Zocco 2, 12057 Neive, Italy",
+"city": "Piedmont",
+"ok": true,
+"lat": 44.7425665,
+"lon": 8.1345357,
+"source": "nominatim",
+"queried": "12057, Piedmont",
+"display_name": "12057, Neive, Cuneo, Piemonte, Italia",
+"address_detail": {
+"postcode": "12057",
+"village": "Neive",
+"county": "Cuneo",
+"ISO3166-2-lvl6": "IT-CN",
+"state": "Piemonte",
+"ISO3166-2-lvl4": "IT-21",
+"country": "Italia",
+"country_code": "it"
+},
+"strategy": "postcode_centroid",
+"coarse": true
+},
+"648d72ccca3adc68188a24b23e036756425d25df": {
+"address": "Strada Rio Sordo 58, loc. Tre Stelle, 12050 Barbaresco, Italy",
+"city": "Piedmont",
+"ok": true,
+"lat": 44.6945312,
+"lon": 8.0633171,
+"source": "nominatim",
+"queried": "12050, Piedmont",
+"display_name": "12050, Treiso, Cuneo, Piemonte, Italia",
+"address_detail": {
+"postcode": "12050",
+"city": "Treiso",
+"county": "Cuneo",
+"ISO3166-2-lvl6": "IT-CN",
+"state": "Piemonte",
+"ISO3166-2-lvl4": "IT-21",
+"country": "Italia",
+"country_code": "it"
+},
+"strategy": "postcode_centroid",
+"coarse": true
+},
+"c2579939df02e5b422cd811e4d24f00180e83c96": {
+"address": "Frazione Monterovere 10, 14030 Scurzolengo, Italy",
+"city": "Piedmont",
+"ok": true,
+"lat": 44.9444994,
+"lon": 8.2991495,
+"source": "nominatim",
+"queried": "14030, Piedmont",
+"display_name": "14030, Castagnole Monferrato, Asti, Piemonte, Italia",
+"address_detail": {
+"postcode": "14030",
+"village": "Castagnole Monferrato",
+"county": "Asti",
+"ISO3166-2-lvl6": "IT-AT",
+"state": "Piemonte",
+"ISO3166-2-lvl4": "IT-21",
+"country": "Italia",
+"country_code": "it"
+},
+"strategy": "postcode_centroid",
+"coarse": true
+},
+"3a44c047b2b1c7f78eef846053cd6eefff563dc7": {
+"address": "Borgata Torriglione 4, 12064 La Morra, Italy",
+"city": "Piedmont",
+"ok": true,
+"lat": 44.6395697,
+"lon": 7.9365517,
+"source": "nominatim",
+"queried": "12064, Piedmont",
+"display_name": "12064, La Morra, Cuneo, Piemonte, Italia",
+"address_detail": {
+"postcode": "12064",
+"city": "La Morra",
+"county": "Cuneo",
+"ISO3166-2-lvl6": "IT-CN",
+"state": "Piemonte",
+"ISO3166-2-lvl4": "IT-21",
+"country": "Italia",
+"country_code": "it"
+},
+"strategy": "postcode_centroid",
+"coarse": true
+},
+"4a1378e9453dd1168f7bb0bd7eb82ab92032e6f2": {
+"address": "Via Valdicroce 32, 12050 Sinio, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 44.617,
+"lon": 8.04
+},
+"8a69ae08e8d7660d84e95616fd43dd97084a62c6": {
+"address": "Piazza Luigi Rossi 2, Frazione Pessione, 10023 Chieri TO, Italy",
+"city": "Piedmont",
+"ok": false,
+"source": "nominatim"
+},
+"7c2547a1131f6eefab0fd2ed39f94e375a87aa73": {
+"address": "Via Liprandi 21, 14023 Cocconato AT, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 45.088,
+"lon": 8.043
+},
+"ac1ea9a5b18a89960548884aed670423b7535ccb": {
+"address": "Corso Canale 105/1, 12051 Alba CN, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 44.7,
+"lon": 8.035
+},
+"63b1cb3770c6c456073df32ec9c9ef755f2fc093": {
+"address": "Via Guasti 34/36, Frazione Casalotto, 14056 Mombaruzzo AT, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 44.776,
+"lon": 8.519
+},
+"0faa2f9cd40d3299e3324da116b8562730b66c2a": {
+"address": "Via del Grosso 5, 12060 Castiglione Falletto, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 44.6253,
+"lon": 7.975
+},
+"6d98810c7e249bc03a3c861ca9e80321fd1ca553": {
+"address": "Via Alba-Monforte 104, fraz. Bricco Boschis, 12060 Castiglione Falletto, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 44.6253,
+"lon": 7.975
+},
+"ee5f036a34de165dbf995e4f3cf3d0b76350095c": {
+"address": "Via Vittorio Emanuele 28, 12060 Verduno, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 44.66,
+"lon": 7.945
+},
+"e26ce4ac9c75d1b9791f59798df80e0d7d4c8e7f": {
+"address": "Frazione Santa Maria, Borgata Roggeri 44, 12064 La Morra, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 44.636,
+"lon": 7.943
+},
+"59115c6530879dc625ca8b974c39c6c98e295bfb": {
+"address": "Barolo, 12060 Province of Cuneo, Piedmont, Italy",
+"city": "Piedmont",
+"ok": false,
+"source": "nominatim"
+},
+"2c0a5799bf8593515cbb7157a5473a948a24199b": {
+"address": "Barbaresco, 12050 Province of Cuneo, Piedmont, Italy",
+"city": "Piedmont",
+"ok": false,
+"source": "nominatim"
+},
+"ea07c1912c2ca7846e8a7982fef1a4968de7a889": {
+"address": "La Morra, 12064 Province of Cuneo, Piedmont, Italy",
+"city": "Piedmont",
+"ok": false,
+"source": "nominatim"
+},
+"4cbaa1b4ba8516100021e28bfdb4f4883b09dbd5": {
+"address": "Serralunga d'Alba, 12050 Province of Cuneo, Piedmont, Italy",
+"city": "Piedmont",
+"ok": false,
+"source": "nominatim"
+},
+"46d659fb90b807c94d9f8c182231157b60be5122": {
+"address": "Castiglione Falletto, 12060 Province of Cuneo, Piedmont, Italy",
+"city": "Piedmont",
+"ok": false,
+"source": "nominatim"
+},
+"ee5de5ebbfc8f55bc91f07fafc8cb9e647dd0f35": {
+"address": "Monforte d'Alba, 12065 Province of Cuneo, Piedmont, Italy",
+"city": "Piedmont",
+"ok": false,
+"source": "nominatim"
+},
+"7e03ce4afdfb9d3a209cae4bb0ac642e343ba1e2": {
+"address": "Alba, 12051 Province of Cuneo, Piedmont, Italy",
+"city": "Piedmont",
+"ok": false,
+"source": "nominatim"
+},
+"8b9edd6f23a1dd61bfa7093ddfceaf2139d7b26a": {
+"address": "Canale, 12043 Province of Cuneo, Piedmont, Italy",
+"city": "Piedmont",
+"ok": false,
+"source": "nominatim"
+},
+"197af5c36dff2abb85def8b2f643080a541b17bc": {
+"address": "Asti, 14100 Province of Asti, Piedmont, Italy",
+"city": "Piedmont",
+"ok": false,
+"source": "nominatim"
+},
+"0af48729ed58cd64ff95b7436bee7d9749f5b865": {
+"address": "Canelli, 14053 Province of Asti, Piedmont, Italy",
+"city": "Piedmont",
+"ok": false,
+"source": "nominatim"
+},
+"6cc4ab673d51c404d7ad96b40d80f0aff786663e": {
+"address": "Gavi, 15066 Province of Alessandria, Piedmont, Italy",
+"city": "Piedmont",
+"ok": false,
+"source": "nominatim"
+},
+"05c80861648aa708a67249f9aaae1770ceda1b03": {
+"address": "Dogliani, 12063 Province of Cuneo, Piedmont, Italy",
+"city": "Piedmont",
+"ok": false,
+"source": "nominatim"
+},
+"170eae21ba6213f582afae5731565003447dd43d": {
+"address": "Corso Asti 5, 12043 Canale, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 44.793,
+"lon": 7.993
+},
+"4551780e3b0daf1275927f5d3c5d517a26466ece": {
+"address": "Via Alba 68, 14053 Canelli, Italy",
+"city": "Piedmont",
+"ok": false,
+"source": "nominatim"
+},
+"e989ce6a6e4d092d646c3fa010d7f3ad6ff9fe1b": {
+"address": "Piazza Luigi Rossi 2, frazione Pessione, 10023 Chieri, Italy",
+"city": "Piedmont",
+"ok": false,
+"source": "nominatim"
+},
+"a0a4e829f48f66499b8d1c0f739a57150505213c": {
+"address": "Via Roma 57, 12043 Canale, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 44.793,
+"lon": 7.993
+},
+"82a724c6c2b2909cde94de44cf06350e1e11d854": {
+"address": "Via Madama Cristina 21, 10125 Torino, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 45.0703,
+"lon": 7.6869
+},
+"1d19b0f15d18e575c6cd8a7c41303ac8c176e8d2": {
+"address": "Via Vittorio Emanuele II 17, 12051 Alba, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 44.7,
+"lon": 8.035
+},
+"9a1bb30d86d6388921a10afc2f8785192174a66c": {
+"address": "Via Vittorio Emanuele II 12, 12051 Alba, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 44.7,
+"lon": 8.035
+},
+"05d504614ff777e22a97bf682813881fccf94ecd": {
+"address": "Piazza Castello 15, 10123 Torino, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 45.0703,
+"lon": 7.6869
+},
+"c99985188395389e5313f5bb6374ab88baa44527": {
+"address": "Via Belfiore 16/C, 10125 Torino, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 45.0703,
+"lon": 7.6869
+},
+"faaa6b9ec455acacb7a61d388df30e2aa80ba6d5": {
+"address": "Piazza Vittorio Veneto 18/D, 10123 Torino, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 45.0703,
+"lon": 7.6869
+},
+"7ebb7765e2a38a98f0b4edc41851ebe7e3fd59c5": {
+"address": "Piazza Castello 27, 10123 Torino, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 45.0703,
+"lon": 7.6869
+},
+"cd48a90e4901eaadee3197f04f6c1535d8875487": {
+"address": "Piazza della Consolata 5, 10122 Torino, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 45.0703,
+"lon": 7.6869
+},
+"962e73b38265ac3110b6f6794206d411c6b5d5e8": {
+"address": "Via Cappellano 1, 12050 Serralunga d'Alba, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 44.617,
+"lon": 7.998
+},
+"d653ec3878cf02d791759c0b0288d58300e4c588": {
+"address": "Via Principe Amedeo 21/L, 10123 Torino, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 45.0703,
+"lon": 7.6869
+},
+"7b6353b1a4fa520689d09030fcb5882c8a392814": {
+"address": "Strada al Traforo di Pino 106, 10132 Torino, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 45.0703,
+"lon": 7.6869
+},
+"d0ecf4d65263b07ddaf7c09c453f7b915d3325a4": {
+"address": "Piazza della Consolata 9, 10122 Torino, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 45.0703,
+"lon": 7.6869
+},
+"87f64979a849a9645bcb732ae007572f177f3861": {
+"address": "Via Santa Giulia 48/A, 10124 Torino, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 45.0703,
+"lon": 7.6869
+},
+"cd1e2cab774778552fb46dda01a6e4a5da380483": {
+"address": "Piazza Risorgimento 3, 12051 Alba, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 44.7,
+"lon": 8.035
+},
+"7cde8a468b40814d86db18597e6bb74b226a3f21": {
+"address": "Via Giambattista Gropello 21, 10138 Torino, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 45.0703,
+"lon": 7.6869
+},
+"f4b225596b70740b06fde1dd5bd171288579e5b5": {
+"address": "Via Oddino Morgari 16/A, 10125 Torino, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 45.0703,
+"lon": 7.6869
+},
+"24b169adb84bc1efec5fe0c6567d79280ac8db7c": {
+"address": "Via Nizza 29, 10125 Torino, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 45.0703,
+"lon": 7.6869
+},
+"b2d8d42a2e11198560258ca0c53c2e9db1790b5b": {
+"address": "Via Giovanni Botero 11F, 10122 Torino, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 45.0703,
+"lon": 7.6869
+},
+"d2e7c75f3ce4f1555041e285dba0cd582c1720ad": {
+"address": "Piazza Falletti 1, 12060 Barolo CN, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 44.611,
+"lon": 7.943
+},
+"c8182a029bd536764e14dc29692ac71223c3073d": {
+"address": "Via Torino 5, 12050 Barbaresco CN, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 44.723,
+"lon": 8.08
+},
+"6100c0f0128d5978cd6f3844a3bb1246932a8da9": {
+"address": "Via Carlo Alberto 2, 12064 La Morra CN, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 44.636,
+"lon": 7.943
+},
+"5f1d96334b950eb6c5a38a7d5a4e75088e643a67": {
+"address": "Via Roma 57, 12043 Canale CN, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 44.793,
+"lon": 7.993
+},
+"3f4c4654d68f90b73329d6336137b493f19efea4": {
+"address": "Piazza Vittorio Veneto 5, 12060 Castiglione Falletto CN, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 44.6253,
+"lon": 7.975
+},
+"cdc5e6cd79c40dcd84267eef4c9d31269109e187": {
+"address": "Via Cesare Balbo 4, 12051 Alba CN, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 44.7,
+"lon": 8.035
+},
+"6bfc9d7f94f570634d5c2101ff85b0bad72337a5": {
+"address": "Localita San Cassiano 34, 12051 Alba CN, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 44.7,
+"lon": 8.035
+},
+"f1cb6188d5b38e1e63c65ef5d38a6c4d6cdb4634": {
+"address": "Via Alba 15, 12050 Serralunga d'Alba CN, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 44.617,
+"lon": 7.998
+},
+"b2e329328737ccc4bd103f23cf9c64e9125508b9": {
+"address": "Via Torino 18, 12050 Barbaresco CN, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 44.723,
+"lon": 8.08
+},
+"8aff125eb4a331903fcda9f99df02c8ba4a75910": {
+"address": "Localita Ornati 2, 12065 Monforte d'Alba CN, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 44.578,
+"lon": 7.965
+},
+"4e4cd53635053238090f234120b19cc493249d2e": {
+"address": "Via delle Viole 25, Frazione Vergne, 12060 Barolo CN, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 44.611,
+"lon": 7.943
+},
+"47715071c3c0d13abc87ec6e6532a90ad28fb5d6": {
+"address": "Via Alba Barolo 157, 12060 Castiglione Falletto CN, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 44.6253,
+"lon": 7.975
+},
+"03979e2e223d26e0d9430d53ed25d940a3e3bb87": {
+"address": "Localita Bussia 48, 12065 Monforte d'Alba CN, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 44.578,
+"lon": 7.965
+},
+"27a6d430bdc85a7b731d8c190a968c8a2aed277b": {
+"address": "Piazza Cappellano 8, 12050 Serralunga d'Alba CN, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 44.617,
+"lon": 7.998
+},
+"37b2847acf2366e1c058164a08cfcb8ad44e9e73": {
+"address": "Via Torino 54, 12050 Barbaresco CN, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 44.723,
+"lon": 8.08
+},
+"92e7cb53421ef2a9a2e2affa0115da6562b5cea8": {
+"address": "Via Alba-Monforte 104, Bricco Boschis, 12060 Castiglione Falletto CN, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 44.6253,
+"lon": 7.975
+},
+"ac0a3213c981a8a380ce66d55e5619214468f337": {
+"address": "Localita Ravera 2, 12060 Novello CN, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 44.587,
+"lon": 7.932
+},
+"c753e25123622e3e5241686a5b9c002b46faab12": {
+"address": "Via Pugnane 4, 12060 Barolo CN, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 44.611,
+"lon": 7.943
+},
+"96218e7aad52dce16f5282193acf590d25d1cc7a": {
+"address": "Frazione Annunziata 7, 12064 La Morra CN, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 44.636,
+"lon": 7.943
+},
+"530126da02ef9d0c904ebd6871f02d983123cf1b": {
+"address": "Via Roma 1, 12060 Barolo CN, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 44.611,
+"lon": 7.943
+},
+"96c76bc0f28785bb4ec11bdebafc6221310b0f8c": {
+"address": "Strada Nizza-Canelli 14, 14042 Calamandrana AT, Italy",
+"city": "Piedmont",
+"ok": false,
+"source": "nominatim"
+},
+"b58b110bd7311cbf2f6887094383538881ef12d2": {
+"address": "Via Roma 94, 14030 Rocchetta Tanaro AT, Italy",
+"city": "Piedmont",
+"ok": false,
+"source": "nominatim"
+},
+"6d4a30f1a1635e67fcf05d097c1aa701acb874cd": {
+"address": "Via Annunziata 17, 14054 Castagnole delle Lanze AT, Italy",
+"city": "Piedmont",
+"ok": false,
+"source": "nominatim"
+},
+"e05abdaa3c9cab44444a693cf8b49cc1ac19fb24": {
+"address": "Via Alba 68, 14053 Canelli AT, Italy",
+"city": "Piedmont",
+"ok": false,
+"source": "nominatim"
+},
+"555c551843ebd6f5e48c0c8c90f0dc91753d3d15": {
+"address": "Localita Cerreto 7, 12064 La Morra CN, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 44.636,
+"lon": 7.943
+},
+"48666ea276bc8590dc9d1643ef11227fe3fcbe04": {
+"address": "Frazione Annunziata 51, 12064 La Morra CN, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 44.636,
+"lon": 7.943
+},
+"b64ec98811eb7b822d901690a6b4a7d46ef0df6f": {
+"address": "Localita Manzoni 67, 12065 Monforte d'Alba CN, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 44.578,
+"lon": 7.965
+},
+"88da7cea49dda42413fb15d62e401b96fa16f113": {
+"address": "Via Roma 15, 12060 Barolo CN, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 44.611,
+"lon": 7.943
+},
+"7d742929424113e733220b199c683ce656a4e805": {
+"address": "Via Borgonuovo 108, 12060 Monchiero CN, Italy",
+"city": "Piedmont",
+"ok": false,
+"source": "nominatim"
+},
+"c9c0da4ac954d643b94d7a8cc653da63733e9e73": {
+"address": "Frazione Annunziata 67, 12064 La Morra CN, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 44.636,
+"lon": 7.943
+},
+"d4c30d6698b73609c646e66c9c37f2f6f14f8e6c": {
+"address": "Borgata Tetti 28, Frazione Santa Maria, 12064 La Morra CN, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 44.636,
+"lon": 7.943
+},
+"56262a339baa3a735e280a0e52770eff9d762f55": {
+"address": "Strada della Stazione 21, 12050 Barbaresco CN, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 44.723,
+"lon": 8.08
+},
+"0ae10a435df1c2d21768bfc1abe495e7c4b2f4c0": {
+"address": "Strada Ronchi 18, 12050 Barbaresco CN, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 44.723,
+"lon": 8.08
+},
+"1e0b602194529ea691e38e47f5b85cec66fb27b4": {
+"address": "Corso Barolo 14, 12051 Alba CN, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 44.7,
+"lon": 8.035
+},
+"b4306319222ef1c8dfaeb7503425df0fc618fa5d": {
+"address": "Via Gioberti 1, 12060 Barolo CN, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 44.611,
+"lon": 7.943
+},
+"ef4d87d9d213314baeaec026bb8f736c655cf198": {
+"address": "Via Vittorio Veneto 1, 12060 Barolo CN, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 44.611,
+"lon": 7.943
+},
+"48f9f9495eb8cc66adaa3bb2c02713fb2ebc978f": {
+"address": "Strada per Rovereto 170/r, 15066 Gavi AL, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 44.756,
+"lon": 8.805
+},
+"dd55699f94831b88b63987e3b8dd5e394aa8fb54": {
+"address": "Via Santo Stefano Roero 124, 12043 Canale CN, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 44.793,
+"lon": 7.993
+},
+"8d5995ca03bf9388047e12cc10d488878a36cb74": {
+"address": "Strada Rabaja 60, 12050 Barbaresco CN, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 44.723,
+"lon": 8.08
+},
+"9a1f998bfe165d147dd3af5be9252297dc0de679": {
+"address": "Via Roma 31, 12060 Barolo CN, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 44.611,
+"lon": 7.943
+},
+"537486379727963c9f97b961ba346218fa3b0f49": {
+"address": "Localita Cerretta 1, 12050 Serralunga d'Alba CN, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 44.617,
+"lon": 7.998
+},
+"1c404a2ff6c5033f4e06144dd60ee5b43d6e49b0": {
+"address": "Loc. Cotta, 12052 Neive CN, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 44.728,
+"lon": 8.11
+},
+"5ca6ec8d3ced41356b0ad93b8f68fe0138f4a405": {
+"address": "Borgata Torriglione 4, 12064 La Morra CN, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 44.636,
+"lon": 7.943
+},
+"63381939ae0a12172e568ebc9f335243b67ee079": {
+"address": "Via Ferrere 33, 12050 Treiso CN, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 44.69,
+"lon": 8.072
+},
+"df60fbaba1690fbd86471e7a8859c17799a297ff": {
+"address": "Cascina Nuova 50, Frazione Annunziata, 12064 La Morra CN, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 44.636,
+"lon": 7.943
+},
+"22ee97b27b87dddad23c8bc473ec9634306268c5": {
+"address": "Via Ginestra 1, 12065 Monforte d'Alba CN, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 44.578,
+"lon": 7.965
+},
+"6f02f825e5d23177743efcb07f015ea37216adc1": {
+"address": "Borgata Valdiberti 59, 12063 Dogliani CN, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 44.532,
+"lon": 7.943
+},
+"2f2c686e2f6c6f167aa16c82a694c0647e5a9a39": {
+"address": "Via Vittorio Emanuele 12, 12051 Alba CN, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 44.7,
+"lon": 8.035
+},
+"de48f2f4a060c593cdf5b4ed80a55e21c356a9d3": {
+"address": "Via San Paolo 20, 10138 Torino TO, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 45.0703,
+"lon": 7.6869
+},
+"8d451fa9b7b7c0838c6285544d235934baa8d62f": {
+"address": "Piazza Vittorio Veneto 12, 10123 Torino TO, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 45.0703,
+"lon": 7.6869
+},
+"b7476f488bb0c9c322e8024527feac50ed62995e": {
+"address": "Piazza Carignano 2, 10123 Torino TO, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 45.0703,
+"lon": 7.6869
+},
+"08bc1c7cc1d2e60edddcc88bb4a211edaa9e7292": {
+"address": "Piazza Castello 15, 10123 Torino TO, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 45.0703,
+"lon": 7.6869
+},
+"6cd6e5e7b97fb2513af2e550628f7b90c0480b05": {
+"address": "Via Franco Bonelli 16/C, 10122 Torino TO, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 45.0703,
+"lon": 7.6869
+},
+"a94ec228e4fb0184f5af7b833e3660bad93e6c6b": {
+"address": "Via Vittorio Emanuele II 17, 12051 Alba CN, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 44.7,
+"lon": 8.035
+},
+"e7ebe3378695d5db9492c3afa30fbdb2dcbc8bc8": {
+"address": "Via Umberto I 13, 12064 La Morra CN, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 44.636,
+"lon": 7.943
+},
+"7295b51f955d3cf7a87d0590b54edf3d20008774": {
+"address": "Via Sacchi 8, 10128 Torino TO, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 45.0703,
+"lon": 7.6869
+},
+"ab19ccf6c3294c37cc1393878c172d377e683be2": {
+"address": "Localita Talloria 1, 12050 Cerretto Langhe CN, Italy",
+"city": "Piedmont",
+"ok": false,
+"source": "nominatim"
+},
+"b5eeb8d6d014740377c330860718949d74e84089": {
+"address": "Piazza Municipio 9, 12060 Barolo CN, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 44.611,
+"lon": 7.943
+},
+"94538b26df62159bc8565295e66739312b8e63c6": {
+"address": "Via Aie Sottane 4, 12060 Barolo CN, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 44.611,
+"lon": 7.943
+},
+"0b147d7f78b93babe8979122603d9508a3fd61fa": {
+"address": "Localita San Maurizio 39, 12058 Santo Stefano Belbo CN, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 44.69,
+"lon": 8.235
+},
+"878404f54923e3e72ffc3c292b993b77cabfc1be": {
+"address": "Vicolo del Castello 1, 12050 Sinio CN, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 44.617,
+"lon": 8.04
+},
+"aa3b324796b28b0f8b484a1e0a6460320007ae22": {
+"address": "Localita Tiboldi 127, 12043 Canale CN, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 44.793,
+"lon": 7.993
+},
+"8f1ac11c7ff523def7bb0e3d6afca260f4f0de2c": {
+"address": "Localita Manera 1, 12050 Benevello CN, Italy",
+"city": "Piedmont",
+"ok": false,
+"source": "nominatim"
+},
+"bf0e222d9f09fd9cc85087c4ad4ace54c20a91fd": {
+"address": "Frazione Madonna di Como 34, 12051 Alba CN, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 44.7,
+"lon": 8.035
+},
+"ae154f43cb0add942ffdea399c8dd6a482ec0c76": {
+"address": "Via Nizza 230/14, 10126 Torino TO, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 45.0703,
+"lon": 7.6869
+},
+"e125b5b617afb46b67e81e153224962625462421": {
+"address": "Via Castello 5, 12060 Grinzane Cavour CN, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 44.654,
+"lon": 7.992
+},
+"1b36d8bebb4735d04760b2add374e4432a345bea": {
+"address": "Piazza Risorgimento 4, 12051 Alba CN, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 44.7,
+"lon": 8.035
+},
+"7821501c1e945e821335115dfcfd3cde517770ce": {
+"address": "Piazza Leopoldo Baracco 7, 12050 Treiso CN, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 44.69,
+"lon": 8.072
+},
+"d9b2b45c0ce114641806b1645a6919787f96367f": {
+"address": "Via Alba 17/Bis, 12064 La Morra CN, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 44.636,
+"lon": 7.943
+},
+"66703edfebbd7c6f1adb9c98cd88e026e26e02eb": {
+"address": "Via Vernazza 9, 12051 Alba CN, Italy",
+"city": "Piedmont",
+"ok": true,
+"lat": 44.6958225,
+"lon": 8.0292848,
+"source": "nominatim",
+"queried": "12051, Piedmont",
+"display_name": "12051, Alba, Cuneo, Piemonte, Italia",
+"address_detail": {
+"postcode": "12051",
+"city": "Alba",
+"county": "Cuneo",
+"ISO3166-2-lvl6": "IT-CN",
+"state": "Piemonte",
+"ISO3166-2-lvl4": "IT-21",
+"country": "Italia",
+"country_code": "it"
+},
+"strategy": "postcode_centroid",
+"coarse": true
+},
+"da5a2fca4dc8b3e1daed9ca40128034580388455": {
+"address": "Via Vittorio Emanuele II 23, 12051 Alba CN, Italy",
+"city": "Piedmont",
+"ok": true,
+"lat": 44.6958225,
+"lon": 8.0292848,
+"source": "nominatim",
+"queried": "12051, Piedmont",
+"display_name": "12051, Alba, Cuneo, Piemonte, Italia",
+"address_detail": {
+"postcode": "12051",
+"city": "Alba",
+"county": "Cuneo",
+"ISO3166-2-lvl6": "IT-CN",
+"state": "Piemonte",
+"ISO3166-2-lvl4": "IT-21",
+"country": "Italia",
+"country_code": "it"
+},
+"strategy": "postcode_centroid",
+"coarse": true
+},
+"ee76458038dd92cf76726ff328fc3760de338d32": {
+"address": "Via Andrea Doria 7, 10123 Torino TO, Italy",
+"city": "Piedmont",
+"ok": true,
+"lat": 45.0645374,
+"lon": 7.6872921,
+"source": "nominatim",
+"queried": "10123, Piedmont",
+"display_name": "10123, Circoscrizione 1, Torino, Piemonte, Italia",
+"address_detail": {
+"postcode": "10123",
+"suburb": "Circoscrizione 1",
+"city": "Torino",
+"county": "Torino",
+"ISO3166-2-lvl6": "IT-TO",
+"state": "Piemonte",
+"ISO3166-2-lvl4": "IT-21",
+"country": "Italia",
+"country_code": "it"
+},
+"strategy": "postcode_centroid",
+"coarse": true
+},
+"abc0ff3900a80909e74e3aec610de9626ffcf5b5": {
+"address": "Corso Barolo 8, 12051 Alba CN, Italy",
+"city": "Piedmont",
+"ok": true,
+"lat": 44.6958225,
+"lon": 8.0292848,
+"source": "nominatim",
+"queried": "12051, Piedmont",
+"display_name": "12051, Alba, Cuneo, Piemonte, Italia",
+"address_detail": {
+"postcode": "12051",
+"city": "Alba",
+"county": "Cuneo",
+"ISO3166-2-lvl6": "IT-CN",
+"state": "Piemonte",
+"ISO3166-2-lvl4": "IT-21",
+"country": "Italia",
+"country_code": "it"
+},
+"strategy": "postcode_centroid",
+"coarse": true
+},
+"536d21093c9ae6a5b9dc318a93ddcdfb8fe2cf5d": {
+"address": "Via Modena 23, 10152 Torino TO, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 45.0703,
+"lon": 7.6869
+},
+"e4b5c5ecd64e31c1918c304ebc448140016dad3d": {
+"address": "Piazza Vittorio Emanuele II 13, 12042 Pollenzo, Bra CN, Italy",
+"city": "Piedmont",
+"ok": false,
+"source": "nominatim"
+},
+"8bb285d050e621f1016a31d0dd44d5eb4470873b": {
+"address": "Via Giulia Colbert Falletti 9, 12051 Alba CN, Italy",
+"city": "Piedmont",
+"ok": true,
+"source": "manual_piedmont_town",
+"lat": 44.7,
+"lon": 8.035
+},
+"d741be94f66e13b169a5f3e59c6acd9dc4668a21": {
+"address": "Piazza Vittorio Veneto 11, 12057 Neive CN, Italy",
+"city": "Piedmont",
+"ok": true,
+"lat": 44.7425665,
+"lon": 8.1345357,
+"source": "nominatim",
+"queried": "12057, Piedmont",
+"display_name": "12057, Neive, Cuneo, Piemonte, Italia",
+"address_detail": {
+"postcode": "12057",
+"village": "Neive",
+"county": "Cuneo",
+"ISO3166-2-lvl6": "IT-CN",
+"state": "Piemonte",
+"ISO3166-2-lvl4": "IT-21",
+"country": "Italia",
+"country_code": "it"
+},
+"strategy": "postcode_centroid",
+"coarse": true
+},
+"51782f95d704efeef5a1d9ad7a1e7ce54bffff64": {
+"address": "Via Alba 17, 12064 La Morra CN, Italy",
+"city": "Piedmont",
+"ok": true,
+"lat": 44.6395697,
+"lon": 7.9365517,
+"source": "nominatim",
+"queried": "12064, Piedmont",
+"display_name": "12064, La Morra, Cuneo, Piemonte, Italia",
+"address_detail": {
+"postcode": "12064",
+"city": "La Morra",
+"county": "Cuneo",
+"ISO3166-2-lvl6": "IT-CN",
+"state": "Piemonte",
+"ISO3166-2-lvl4": "IT-21",
+"country": "Italia",
+"country_code": "it"
+},
+"strategy": "postcode_centroid",
+"coarse": true
 }
 }
