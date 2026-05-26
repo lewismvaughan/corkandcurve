@@ -317,9 +317,15 @@
 
         {% if destination.cross_site_ref %}
         <div class="tj-sidebar-box">
+            {% if destination.cross_site_relation == 'nearby' %}
+            <h3>Eating nearby?</h3>
+            <p class="tj-sidebar-note">Pair your {{ destination.name }} trip with a great food city close by, on our sister site.</p>
+            {{ tj_crosslink(destination.cross_site_ref, "Explore " ~ destination.cross_site_name ~ "'s food guide on TableJourney") }}
+            {% else %}
             <h3>Hungry in {{ destination.cross_site_name or destination.name }}?</h3>
             <p class="tj-sidebar-note">The food side of the same place, on our sister site.</p>
             {{ tj_crosslink(destination.cross_site_ref, 'Eat in ' ~ (destination.cross_site_name or destination.name) ~ ' on TableJourney') }}
+            {% endif %}
         </div>
         {% endif %}
 

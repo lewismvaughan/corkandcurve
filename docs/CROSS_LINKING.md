@@ -78,6 +78,23 @@ These are auto-rendered by the generators when an entity has a
 `cross_site_ref` field pointing at the sister site's slug. NOT manually
 maintained per page.
 
+**`destination.cross_site_relation`** controls the framing and MUST match
+the geography (verify the TJ slug returns 200 before setting it — never
+synthesise a TJ URL):
+
+- `"same"` — the wine region IS the TJ food city (Bordeaux↔Bordeaux,
+  Tuscany↔Florence, Douro↔Porto). Renders "Hungry in <city>?" / "Eat in
+  <city>".
+- `"nearby"` — no same-name TJ city exists; link the nearest major TJ
+  food city instead (Burgundy→Lyon, Champagne→Paris, Piedmont→Milan,
+  Rioja→San Sebastián). Renders the honest "Eating nearby? — Pair your
+  <region> trip with a great food city close by" framing so we never
+  imply the food city and the wine region are the same place.
+- If neither a same-name nor an honest-nearby TJ city exists (e.g. Mosel
+  — TJ has only Berlin/Hamburg/Munich), OMIT `cross_site_ref` entirely.
+  The footer cross-link still carries the relationship; a forced link to
+  a distant city is worse than none.
+
 ### Cross-region topic page
 
 C&C `food-pairing` topic (per-region) links to the matching TJ city

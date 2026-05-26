@@ -347,10 +347,18 @@ content. Only populate when a real geographic overlap exists. NEVER bulk.
 
 - **`region.json` → `destination.cross_site_ref`**: path (or full URL) of the
   matching TJ food city, e.g. `"france/bordeaux"`. `destination.cross_site_name`
-  is that city's display name (e.g. `"Bordeaux"`). Renders an "Eat in <city> on
-  TableJourney" CTA on the region hub and on the wine-restaurants / wine-bars /
-  food-pairing topic pages. Leave both empty when there is no overlapping TJ
-  city (most regions). Overlap matrix is in docs/CROSS_LINKING.md.
+  is that city's display name (e.g. `"Bordeaux"`). `destination.cross_site_relation`
+  is `"same"` when the wine region IS that TJ city (Bordeaux↔Bordeaux,
+  Tuscany↔Florence, Douro↔Porto) or `"nearby"` when it's the nearest major TJ
+  food city to a region that has no same-name TJ page (Burgundy→Lyon,
+  Champagne→Paris, Piedmont→Milan, Rioja→San Sebastián). The relation drives
+  the wording: `same` → "Hungry in <city>? / Eat in <city>"; `nearby` →
+  "Eating nearby? Pair your <region> trip with a great food city close by".
+  Renders on the region hub and the wine-restaurants / wine-bars / food-pairing
+  topic pages. VERIFY the TJ slug returns 200 before setting it (never
+  synthesise). Leave all three empty when there is no same-name AND no honest
+  nearby TJ city (e.g. Mosel — TJ has only Berlin/Hamburg/Munich). Overlap
+  matrix is in docs/CROSS_LINKING.md.
 - **Venue entity (vineyard etc.) → `cross_site_ref`**: path or full URL of the
   entity's TableJourney listing, set ONLY when the estate has a restaurant (or
   other food entity) actually covered on TJ. Optional `cross_site_label`

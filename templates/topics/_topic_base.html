@@ -226,9 +226,15 @@
 
         {% if destination.cross_site_ref and topic.slug in ('wine-restaurants', 'wine-bars', 'food-pairing') %}
         <div class="tj-sidebar-box">
+            {% if destination.cross_site_relation == 'nearby' %}
+            <h3>Eating nearby?</h3>
+            <p class="tj-sidebar-note">A great food city close to {{ destination.name }}, on our sister site.</p>
+            {{ tj_crosslink(destination.cross_site_ref, "Explore " ~ destination.cross_site_name ~ "'s food guide on TableJourney") }}
+            {% else %}
             <h3>Eat in {{ destination.cross_site_name or destination.name }}</h3>
             <p class="tj-sidebar-note">Where to eat in the same place, on our sister site.</p>
             {{ tj_crosslink(destination.cross_site_ref, 'See the ' ~ (destination.cross_site_name or destination.name) ~ ' food guide on TableJourney') }}
+            {% endif %}
         </div>
         {% endif %}
 
