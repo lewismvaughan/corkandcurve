@@ -130,6 +130,14 @@ run_one_city() {
     fi
 
     echo ""
+    echo "[+] check_score_claims.py — fabricated critic-score claims hiding in prose (WARN)"
+    # WARN-only backstop for the #1 recurring defect: score fabrication in
+    # history.milestones/description prose (Sicily 2026-05-26). It cannot tell
+    # a real-but-misplaced score from a fabrication, so it never blocks; QA
+    # Section C0 adjudicates each hit. Use --strict manually to enforce.
+    python3 scripts/check_score_claims.py --country "$country" --city "$city" || true
+
+    echo ""
     echo "============================================================"
     if [[ $failures -eq 0 ]]; then
         echo "  ${country}/${city}: ALL CHECKS PASSED"

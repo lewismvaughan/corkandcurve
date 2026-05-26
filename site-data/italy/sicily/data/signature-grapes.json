@@ -1,0 +1,264 @@
+{
+  "signature_grapes": [
+    {
+      "slug": "nerello-mascalese",
+      "name": "Nerello Mascalese",
+      "style_focus": "red",
+      "regions_grown": [
+        "etna-nord",
+        "etna-est-milo",
+        "faro-messina",
+        "mamertino-milazzo"
+      ],
+      "description": "Nerello Mascalese is the defining red grape of Mount Etna and arguably the most exciting variety to emerge from Italy in the 21st century. It produces pale, transparent garnet reds with high acidity and firm but fine tannins that draw frequent comparisons to Pinot Noir and Burgundy. The volcanic basalt soils of Etna, combined with altitudes of 400 to over 1,000 metres, give wines of extraordinary minerality, floral aromatics and age-worthiness. Old alberello (bush-trained) vines - some pre-phylloxera and ungrafted - produce the most prized single-contrada bottlings. Nerello Mascalese is also used for Etna Rosato and, at Murgo, for traditional-method sparkling wine.",
+      "key_producers": [
+        "benanti",
+        "tenuta-delle-terre-nere",
+        "passopisciaro",
+        "graci",
+        "pietradolce",
+        "girolamo-russo",
+        "frank-cornelissen",
+        "calabretta",
+        "palmento-costanzo",
+        "cottanera"
+      ],
+      "verified": {
+        "source_url": "https://consorzioetnadoc.com/",
+        "address_quoted": "Etna DOC, Catania province, Sicily",
+        "open_status": "open",
+        "open_evidence_url": "https://thewinesofetna.com/wines/",
+        "cuisine_evidence_url": "https://consorzioetnadoc.com/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "nero-davola",
+      "name": "Nero d'Avola",
+      "style_focus": "red",
+      "regions_grown": [
+        "noto",
+        "cerasuolo-di-vittoria",
+        "menfi",
+        "marsala"
+      ],
+      "description": "Nero d'Avola is Sicily's most planted and most internationally recognised native red variety, named after the town of Avola in the Syracuse province where it is believed to have originated. It produces deep, inky wines with intense blackberry, cherry and plum fruit, warm spice, and a characteristic bitter-chocolate finish. In the Noto DOC it achieves its most concentrated and age-worthy expression; in Cerasuolo di Vittoria DOCG it is tempered by Frappato to create elegance; in the cooler Menfi DOC it shows a more fresh, medium-bodied style. Pre-phylloxera ungrafted Nero d'Avola vines at Gulfi and Feudo Montoni produce wines of extraordinary intensity and historical significance.",
+      "key_producers": [
+        "gulfi",
+        "feudo-montoni",
+        "morgante",
+        "cos",
+        "arianna-occhipinti",
+        "planeta",
+        "cusumano",
+        "duca-di-salaparuta"
+      ],
+      "verified": {
+        "source_url": "https://siciliadoc.wine/en/",
+        "address_quoted": "Sicilia DOC production zone, Sicily",
+        "open_status": "open",
+        "open_evidence_url": "https://siciliadoc.wine/en/the-consortium/",
+        "cuisine_evidence_url": "https://siciliadoc.wine/en/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "frappato",
+      "name": "Frappato",
+      "style_focus": "red",
+      "regions_grown": [
+        "cerasuolo-di-vittoria"
+      ],
+      "description": "Frappato is a native Sicilian red grape grown almost exclusively in the Vittoria zone of the Ragusa province. It produces pale, bright ruby wines of remarkable freshness and aromatic complexity: wild strawberry, raspberry, rose, and a signature white pepper note. With low tannins and high acidity, Frappato is one of Sicily's most food-friendly reds and the lighter counterpart to Nero d'Avola in the Cerasuolo di Vittoria DOCG blend. Arianna Occhipinti's SP68 Rosso and single-varietal Frappato bottles helped make this grape internationally renowned. COS's Frappato-heavy Cerasuolo bottlings define the Classico tier.",
+      "key_producers": [
+        "arianna-occhipinti",
+        "cos",
+        "valle-dellacate",
+        "tenute-nicosia"
+      ],
+      "verified": {
+        "source_url": "https://www.cerasuolovittoria.it/?lang=en",
+        "address_quoted": "Vittoria (RG), Cerasuolo di Vittoria DOCG zone, Sicily",
+        "open_status": "open",
+        "open_evidence_url": "https://www.cerasuolovittoria.it/il-consorzio/?lang=en",
+        "cuisine_evidence_url": "https://www.cerasuolovittoria.it/?lang=en",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "carricante",
+      "name": "Carricante",
+      "style_focus": "white",
+      "regions_grown": [
+        "etna-est-milo",
+        "etna-nord"
+      ],
+      "description": "Carricante is the primary white grape of Etna DOC and the exclusive variety permitted for Etna Bianco Superiore from the Milo sub-zone. It produces high-acid, mineral whites with citrus, green apple, white flowers and a distinctive volcanic saline finish. At Milo on the east slope, Carricante from old alberello vines achieves particular depth and age-worthiness, developing honeyed complexity over a decade. Benanti's Pietramarina from a single plot in Milo is widely considered the benchmark expression of the variety. Tim Atkin MW has cited Carricante as one of Italy's great overlooked white grapes.",
+      "key_producers": [
+        "benanti",
+        "pietradolce",
+        "tasca-tascante",
+        "girolamo-russo",
+        "palmento-costanzo",
+        "graci"
+      ],
+      "verified": {
+        "source_url": "https://consorzioetnadoc.com/",
+        "address_quoted": "Etna DOC, Milo sub-zone, Catania province, Sicily",
+        "open_status": "open",
+        "open_evidence_url": "https://thewinesofetna.com/wines/",
+        "cuisine_evidence_url": "https://consorzioetnadoc.com/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "grillo",
+      "name": "Grillo",
+      "style_focus": "white",
+      "regions_grown": [
+        "marsala",
+        "menfi",
+        "alcamo"
+      ],
+      "description": "Grillo is Sicily's most prized white grape and the backbone of quality Marsala DOC. Cultivated on the island since Phoenician times according to the Marco De Bartoli estate's records, Grillo produces aromatic, full-bodied whites with jasmine, citrus peel, almond and a characteristic bitter note on the finish. In Marsala, it forms the base of the great dry and semi-dry Vergine styles. As a table wine it produces some of Sicily's most interesting still whites with food-pairing versatility. Planeta, Donnafugata and Feudo Montoni all produce acclaimed varietal Grillo.",
+      "key_producers": [
+        "marco-de-bartoli",
+        "cantine-florio",
+        "cantine-pellegrino",
+        "donnafugata",
+        "planeta",
+        "feudo-montoni"
+      ],
+      "verified": {
+        "source_url": "https://www.marcodebartoli.com/en/samperi/",
+        "address_quoted": "Contrada Samperi 292, Marsala (TP)",
+        "open_status": "open",
+        "open_evidence_url": "https://www.marcodebartoli.com/en/wine-tourism/",
+        "cuisine_evidence_url": "https://www.marcodebartoli.com/en/samperi/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "catarratto",
+      "name": "Catarratto",
+      "style_focus": "white",
+      "regions_grown": [
+        "alcamo",
+        "marsala",
+        "etna-nord",
+        "menfi"
+      ],
+      "description": "Catarratto is Sicily's most planted grape variety by volume, used in Alcamo DOC and widely throughout the island for blended whites and as a component in Marsala. It produces crisp, neutral whites with green apple, lemon and almond character. At altitude on Etna it develops a mineral freshness that is increasingly prized by natural wine producers. In the hands of producers like COS and Arianna Occhipinti, Catarratto has been elevated from a simple blending grape to a fascinating aromatic variety, sometimes fermented on its skins for orange-wine complexity.",
+      "key_producers": [
+        "rallo",
+        "abele-ajello",
+        "tenute-nicosia",
+        "cos",
+        "calabretta"
+      ],
+      "verified": {
+        "source_url": "https://siciliadoc.wine/en/",
+        "address_quoted": "Sicilia DOC production zone, Sicily",
+        "open_status": "open",
+        "open_evidence_url": "https://siciliadoc.wine/en/the-consortium/",
+        "cuisine_evidence_url": "https://siciliadoc.wine/en/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "zibibbo",
+      "name": "Zibibbo (Moscato d'Alessandria)",
+      "style_focus": "white",
+      "regions_grown": [
+        "pantelleria"
+      ],
+      "description": "Zibibbo (known elsewhere as Moscato d'Alessandria) is the sole grape of Pantelleria's wine culture. Trained in the distinctive alberello pantesco bush-vine system, the vines are pressed into low bowls in the volcanic rock to shelter from the fierce Scirocco wind - a technique so unique it has been inscribed by UNESCO as Intangible Cultural Heritage. Sun-drying the grapes after harvest concentrates sugars for Passito di Pantelleria DOC, producing wines of extraordinary opulence: apricot jam, candied orange, saffron and volcanic mineral. Donnafugata Ben Rye, Marco De Bartoli Bukkuram Sole d'Agosto and Serragghia are the defining expressions.",
+      "key_producers": [
+        "donnafugata-pantelleria",
+        "de-bartoli-pantelleria",
+        "serragghia",
+        "cantine-pellegrino"
+      ],
+      "verified": {
+        "source_url": "https://www.donnafugata.it/en/estate/the-pantelleria-estate/",
+        "address_quoted": "Via S. Michele, 91017 Pantelleria (TP), Sicily",
+        "open_status": "open",
+        "open_evidence_url": "https://visit.donnafugata.it/en/",
+        "cuisine_evidence_url": "https://www.donnafugata.it/en/the-wine/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "malvasia-di-lipari",
+      "name": "Malvasia di Lipari",
+      "style_focus": "white",
+      "regions_grown": [
+        "aeolian-islands-lipari"
+      ],
+      "description": "Malvasia di Lipari is a small-berried, intensely aromatic white variety grown on the volcanic Aeolian Islands, primarily Salina, Lipari and Stromboli. The variety produces both naturale (unfortified, often slightly sweet) and passito (sun-dried) styles within the Malvasia delle Lipari DOC. The passito achieves intense apricot, orange marmalade and volcanic mineral character. Carlo Hauner established the benchmark when he arrived on Salina in 1963 from Milan, and Hauner remains the defining producer. Caravaglio and Tasca d'Almerita's Capofaro resort also produce acclaimed versions.",
+      "key_producers": [
+        "hauner",
+        "caravaglio",
+        "tasca-capofaro"
+      ],
+      "verified": {
+        "source_url": "https://www.hauner.it/en/",
+        "address_quoted": "Via Umberto I 83, 98050 Santa Marina di Salina (ME), Sicily",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.caravaglio.it/en/",
+        "cuisine_evidence_url": "https://www.hauner.it/en/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "nerello-cappuccio",
+      "name": "Nerello Cappuccio",
+      "style_focus": "red",
+      "regions_grown": [
+        "etna-nord",
+        "cerasuolo-di-vittoria"
+      ],
+      "description": "Nerello Cappuccio is the blending partner of Nerello Mascalese on Mount Etna. Where Nerello Mascalese provides pale colour, high acid and fine tannins, Nerello Cappuccio adds depth of colour, softer tannins and rounder body. Etna DOC Rosso regulations permit up to 20% Nerello Cappuccio in the blend. The variety is rarely bottled alone, but it is essential to the structure of the great Etna reds. Older vines often have the two varieties co-planted (field blend style), reflecting the traditional Sicilian viticultural practice of growing multiple varieties together.",
+      "key_producers": [
+        "benanti",
+        "calabretta",
+        "cottanera",
+        "graci",
+        "tenuta-delle-terre-nere"
+      ],
+      "verified": {
+        "source_url": "https://consorzioetnadoc.com/",
+        "address_quoted": "Etna DOC, Catania province, Sicily",
+        "open_status": "open",
+        "open_evidence_url": "https://thewinesofetna.com/wines/",
+        "cuisine_evidence_url": "https://consorzioetnadoc.com/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "inzolia",
+      "name": "Inzolia (Insolia / Ansonica)",
+      "style_focus": "white",
+      "regions_grown": [
+        "marsala",
+        "menfi",
+        "contessa-entellina"
+      ],
+      "description": "Inzolia (also written Insolia or called Ansonica on mainland Italy) is a native Sicilian white grape producing soft, aromatic wines with almond, peach and fennel notes. It is a key component in traditional Marsala DOC and is widely used across western Sicily in blended whites. Donnafugata's Catarratto-Inzolia blends from Contessa Entellina show how the variety gains complexity when planted at altitude and blended with more acid-forward grapes. On its own, Inzolia can oxidise quickly and is best drunk young, though some producers ferment it with extended skin contact for orange-wine styles.",
+      "key_producers": [
+        "donnafugata",
+        "cantine-florio",
+        "tasca-dalmerita",
+        "planeta"
+      ],
+      "verified": {
+        "source_url": "https://siciliadoc.wine/en/",
+        "address_quoted": "Sicilia DOC production zone, Sicily",
+        "open_status": "open",
+        "open_evidence_url": "https://siciliadoc.wine/en/the-consortium/",
+        "cuisine_evidence_url": "https://siciliadoc.wine/en/",
+        "checked_on": "2026-05-26"
+      }
+    }
+  ]
+}

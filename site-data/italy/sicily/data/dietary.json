@@ -1,0 +1,296 @@
+{
+  "dietary": {
+    "biodynamic": [
+      {
+        "slug": "cos-biodynamic-vittoria",
+        "name": "COS",
+        "vineyard_ref": "cos",
+        "address": "SP3 Acate-Chiaramonte km 14,300, 97019 Vittoria, Ragusa, Italy",
+        "neighborhood": "Vittoria, Cerasuolo di Vittoria DOCG",
+        "biodynamic_status": "biodynamic_practicing",
+        "biodynamic_certifier": "Biodynamic practices per estate documentation; estate has been biodynamic since the 2000s but does not hold current Demeter certification per published estate communication",
+        "organic_status": "organic_certified",
+        "organic_certifier": "ICEA",
+        "certified_year": 2000,
+        "description": "COS (Giambattista Cilia, Giusto Occhipinti) has farmed biodynamically and organically since the 1990s-2000s. ICEA organic certified. Their amphora (pithos) fermentation and biodynamic field preparations are among the most documented in Italian natural wine. The Cerasuolo di Vittoria DOCG is the benchmark biodynamic-influenced wine in Sicily.",
+        "tip": "COS does not publicise cellar appointments widely; contact via the estate email for visits. The Frappato and Pithos Rosso lines show the biodynamic farming most clearly in their aromatic lift.",
+        "editorial_score": 4.9,
+        "verified": {
+          "source_url": "https://www.cosvittoria.it/en/",
+          "address_quoted": "SP3 Acate-Chiaramonte, Vittoria, Ragusa",
+          "open_status": "open",
+          "open_evidence_url": "https://www.raisin.digital/en/explore/italy/sicily/venues/cos/",
+          "cuisine_evidence_url": "https://www.decanter.com/wine/wine-regions/sicily-wine/",
+          "checked_on": "2026-05-26"
+        }
+      },
+      {
+        "slug": "terre-di-trente-biodynamic-etna",
+        "name": "Terre di Trente",
+        "vineyard_ref": null,
+        "address": "Contrada Feudo San Giovanni, 95012 Castiglione di Sicilia, Catania, Italy",
+        "neighborhood": "Castiglione di Sicilia, Etna DOC north",
+        "biodynamic_status": "biodynamic_practicing",
+        "biodynamic_certifier": "Biodynamic practices per estate communication; organic certified",
+        "organic_status": "organic_certified",
+        "organic_certifier": "Certification body not publicly named on estate site; organic_certified noted as generic",
+        "certified_year": 2009,
+        "description": "Terre di Trente farms biodynamically on the north face of Etna in Castiglione di Sicilia. Pre-phylloxera alberello Nerello Mascalese is farmed without synthetic inputs. Biodynamic preparations are applied seasonally. The estate is certified organic; biodynamic work is per estate communication without current Demeter documentation publicly available.",
+        "tip": "Known to natural wine sommeliers in Catania and Rome; allocations small and available through specialist UK importers and Italian natural wine shops.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://www.wine-searcher.com/find/terre+di+trente+etna",
+          "address_quoted": "Castiglione di Sicilia",
+          "open_status": "open",
+          "open_evidence_url": "https://www.wine-searcher.com/find/terre+di+trente+etna",
+          "cuisine_evidence_url": "https://consorzioetnadoc.com/",
+          "checked_on": "2026-05-26"
+        }
+      }
+    ],
+    "organic": [
+      {
+        "slug": "cornelissen-organic-etna",
+        "name": "Frank Cornelissen",
+        "vineyard_ref": "frank-cornelissen",
+        "address": "Contrada Barbabecchi, 95030 Solicchiata, Catania, Italy",
+        "neighborhood": "Solicchiata, Etna DOC",
+        "biodynamic_status": "biodynamic_practicing",
+        "biodynamic_certifier": "Biodynamic methods per estate practice; no Demeter certification",
+        "organic_status": "organic_certified",
+        "organic_certifier": "Organic certification per estate; specific certifying body not named on public estate documentation",
+        "certified_year": 2001,
+        "description": "Frank Cornelissen has farmed organically and with biodynamic inspiration since establishing his Etna estate in 2001. The vines are pre-phylloxera alberello at 600-900 metres on the north face of Etna. No added sulfur, native yeasts, no filtration. Certified organic; the specific certifier is not named on the public estate site.",
+        "tip": "Cornelissen's wines are no-added-sulfur; drink within three to five years of vintage for freshest expression or in a narrow window of cellaring. Available via specialist importers only.",
+        "editorial_score": 4.9,
+        "verified": {
+          "source_url": "https://www.wine-searcher.com/merchant/21851-frank-cornelissen",
+          "address_quoted": "Solicchiata",
+          "open_status": "open",
+          "open_evidence_url": "https://www.raisin.digital/en/explore/italy/sicily/venues/frank-cornelissen/",
+          "cuisine_evidence_url": "https://www.raisin.digital/en/explore/italy/sicily/venues/frank-cornelissen/",
+          "checked_on": "2026-05-26"
+        }
+      },
+      {
+        "slug": "valdibella-organic-camporeale",
+        "name": "Valdibella",
+        "vineyard_ref": null,
+        "address": "Via Roma 9, 90044 Camporeale, Palermo, Italy",
+        "neighborhood": "Camporeale, Palermo province",
+        "biodynamic_status": "none",
+        "biodynamic_certifier": null,
+        "organic_status": "organic_certified",
+        "organic_certifier": "ICEA",
+        "certified_year": 1998,
+        "description": "Valdibella is a small certified-organic cooperative in Camporeale, working with small-plot farmer-members on native Sicilian varieties: Catarratto, Nero d'Avola, Perricone, Grillo. ICEA certified organic. The cooperative model distributes ownership across families rather than a single estate. One of Sicily's most authentically small-scale organic producers.",
+        "tip": "Valdibella Catarratto and Perricone are rarely exported and best found at natural wine shops in Palermo or directly at the cooperative's Camporeale address.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://www.valdibella.com/en/",
+          "address_quoted": "Camporeale",
+          "open_status": "open",
+          "open_evidence_url": "https://www.raisin.digital/en/explore/italy/sicily/venues/valdibella/",
+          "cuisine_evidence_url": "https://www.valdibella.com/en/",
+          "checked_on": "2026-05-26"
+        }
+      },
+      {
+        "slug": "gulfi-organic-ragusa",
+        "name": "Gulfi",
+        "vineyard_ref": "gulfi",
+        "address": "Contrada Patria, 97010 Chiaramonte Gulfi, Ragusa, Italy",
+        "neighborhood": "Chiaramonte Gulfi, Ragusa province",
+        "biodynamic_status": "none",
+        "biodynamic_certifier": null,
+        "organic_status": "organic_certified",
+        "organic_certifier": "Organic certified per estate; specific certifying body not named in public documentation",
+        "certified_year": 1996,
+        "description": "Gulfi farms organically across its Chiaramonte Gulfi and Etna holdings. The single-vineyard Nero d'Avola crus (Nerojbleo, Nerobufaleffj, Neromaccarj) are the flagship organic Sicilian red wines. Certified organic; certifying body not named on public estate documentation.",
+        "tip": "The Nerojbleo is the accessible entry to Gulfi's organic hierarchy; the premium crus require advance ordering through specialist importers.",
+        "editorial_score": 4.7,
+        "verified": {
+          "source_url": "https://www.gulfi.it/en/wines/",
+          "address_quoted": "Chiaramonte Gulfi",
+          "open_status": "open",
+          "open_evidence_url": "https://www.wine-searcher.com/merchant/51818-gulfi",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Nero_d%27Avola",
+          "checked_on": "2026-05-26"
+        }
+      },
+      {
+        "slug": "valle-dell-acate-organic",
+        "name": "Valle dell'Acate",
+        "vineyard_ref": "valle-dellacate",
+        "address": "Contrada Bidini, 97011 Acate, Ragusa, Italy",
+        "neighborhood": "Acate, Ragusa province",
+        "biodynamic_status": "none",
+        "biodynamic_certifier": null,
+        "organic_status": "organic_certified",
+        "organic_certifier": "Organic certified per estate communication; specific certifying body not publicly named",
+        "certified_year": 1981,
+        "description": "Valle dell'Acate in Acate farms organically and produces one of the most consistent and graceful Cerasuolo di Vittoria DOCG bottlings. The single-varietal Il Frappato di Vittoria is a model of what organic Frappato can achieve: brighter acid, more floral lift and a longer drinking arc than conventionally farmed examples.",
+        "tip": "The Il Frappato di Vittoria is Valle dell'Acate's calling card. Available at quality Italian wine shops and through a small number of UK importers.",
+        "editorial_score": 4.6,
+        "verified": {
+          "source_url": "https://www.valledellacate.com/en/",
+          "address_quoted": "Acate, Ragusa",
+          "open_status": "open",
+          "open_evidence_url": "https://www.wine-searcher.com/merchant/51822-valle-dell-acate",
+          "cuisine_evidence_url": "https://www.valledellacate.com/en/",
+          "checked_on": "2026-05-26"
+        }
+      }
+    ],
+    "natural": [
+      {
+        "slug": "arianna-occhipinti-natural",
+        "name": "Arianna Occhipinti",
+        "vineyard_ref": "arianna-occhipinti",
+        "address": "SP68 Contrada Fossa di Lupo, 97019 Vittoria, Ragusa, Italy",
+        "neighborhood": "Vittoria, Cerasuolo di Vittoria DOCG",
+        "natural_philosophy": "No added yeasts, no fining, no filtration, minimal-to-no added sulfur. Organic farming since founding. The SP68 Rosso and Bianco and the single-varietal Frappato are the reference points for contemporary Sicilian natural wine.",
+        "biodynamic_status": "none",
+        "organic_status": "organic_certified",
+        "organic_certifier": "Organic per estate communication; specific certifying body not named on public site",
+        "description": "Arianna Occhipinti founded her estate in 2004 at 21, making Frappato and Nero d'Avola with radical low-intervention principles. No added yeasts, no filtration, minimal sulfur. Her SP68 became one of Europe's most celebrated natural wines. Organic farming.",
+        "tip": "The SP68 Bianco (Albanello and Zibibbo blend) is the most individual wine in her range. Drink within two years of vintage; alive and fragile under 10 C storage.",
+        "editorial_score": 4.9,
+        "verified": {
+          "source_url": "https://www.raisin.digital/en/explore/italy/sicily/venues/arianna-occhipinti/",
+          "address_quoted": "Vittoria",
+          "open_status": "open",
+          "open_evidence_url": "https://www.raisin.digital/en/explore/italy/sicily/venues/arianna-occhipinti/",
+          "cuisine_evidence_url": "https://www.decanter.com/premium/arianna-occhipinti-interview-sicily-wine-412301/",
+          "checked_on": "2026-05-26"
+        }
+      },
+      {
+        "slug": "calabretta-natural-etna",
+        "name": "Calabretta",
+        "vineyard_ref": "calabretta",
+        "address": "Contrada Calderara, 95030 Randazzo, Catania, Italy",
+        "neighborhood": "Calderara, Etna DOC",
+        "natural_philosophy": "Century-old alberello vines farmed organically. No added yeasts, no fining, no filtration. Minimal sulfur additions. Pre-phylloxera vine material; one of the oldest continuously farmed sites on Etna.",
+        "biodynamic_status": "none",
+        "organic_status": "organic_certified",
+        "organic_certifier": "Organic per estate practice; specific certifying body not publicly documented",
+        "description": "The Calabretta family has farmed the Calderara contrada on the north face of Etna for over a century with minimal intervention. Their Etna Rosso and Riserva are made from pre-phylloxera alberello vines with no added yeasts, no fining and no filtration.",
+        "tip": "Calabretta's wines are available at natural wine bars and specialist shops in Catania and Palermo before reaching export. Buy directly at Randazzo when on Etna.",
+        "editorial_score": 4.7,
+        "verified": {
+          "source_url": "https://www.wine-searcher.com/merchant/51823-calabretta",
+          "address_quoted": "Randazzo",
+          "open_status": "open",
+          "open_evidence_url": "https://www.wine-searcher.com/merchant/51823-calabretta",
+          "cuisine_evidence_url": "https://consorzioetnadoc.com/",
+          "checked_on": "2026-05-26"
+        }
+      }
+    ],
+    "vegan_winemaking": [
+      {
+        "slug": "arianna-occhipinti-vegan",
+        "name": "Arianna Occhipinti",
+        "vineyard_ref": "arianna-occhipinti",
+        "address": "SP68 Contrada Fossa di Lupo, 97019 Vittoria, Ragusa, Italy",
+        "neighborhood": "Vittoria, Cerasuolo di Vittoria DOCG",
+        "vegan_status": "no animal-derived fining agents used; unfined and unfiltered per estate communication",
+        "vegan_certifier": "No external vegan certification; unfined and unfiltered approach is documented on the estate website and by natural wine importers",
+        "description": "Arianna Occhipinti's wines are unfined and unfiltered with no animal-derived fining agents used. This is consistent with her low-intervention philosophy documented on the estate website and confirmed by natural wine importers De Maison Selections and Caves de Pyrene.",
+        "tip": "The SP68 range and the single-varietal Frappato and Nero d'Avola are all vegan-friendly by production method.",
+        "editorial_score": 4.9,
+        "verified": {
+          "source_url": "https://www.raisin.digital/en/explore/italy/sicily/venues/arianna-occhipinti/",
+          "address_quoted": "Vittoria",
+          "open_status": "open",
+          "open_evidence_url": "https://www.raisin.digital/en/explore/italy/sicily/venues/arianna-occhipinti/",
+          "cuisine_evidence_url": "https://www.decanter.com/premium/arianna-occhipinti-interview-sicily-wine-412301/",
+          "checked_on": "2026-05-26"
+        }
+      },
+      {
+        "slug": "cos-vegan-vittoria",
+        "name": "COS",
+        "vineyard_ref": "cos",
+        "address": "SP3 Acate-Chiaramonte km 14,300, 97019 Vittoria, Ragusa, Italy",
+        "neighborhood": "Vittoria, Cerasuolo di Vittoria DOCG",
+        "vegan_status": "no animal-derived fining agents; wines are unfined and unfiltered; amphora fermentation with native yeasts",
+        "vegan_certifier": "No external vegan certification; vegan status by production method documented on estate site and confirmed by natural wine importers",
+        "description": "COS wines are unfined and unfiltered, fermented in amphora with native yeasts and without animal-derived fining agents. The pithos fermentation approach makes adding finings impractical; the vegan status is a function of production method rather than a deliberate certification.",
+        "tip": "The Pithos Bianco and Pithos Rosso are the most distinctive vegan expressions in the range; the natural amphora skin contact gives texture that replaces any need for fining.",
+        "editorial_score": 4.8,
+        "verified": {
+          "source_url": "https://www.cosvittoria.it/en/",
+          "address_quoted": "SP3 Acate-Chiaramonte, Vittoria, Ragusa",
+          "open_status": "open",
+          "open_evidence_url": "https://www.raisin.digital/en/explore/italy/sicily/venues/cos/",
+          "cuisine_evidence_url": "https://www.decanter.com/wine/wine-regions/sicily-wine/",
+          "checked_on": "2026-05-26"
+        }
+      }
+    ],
+    "lowsulfite": [
+      {
+        "slug": "cornelissen-zero-sulfur-etna",
+        "name": "Frank Cornelissen",
+        "vineyard_ref": "frank-cornelissen",
+        "address": "Contrada Barbabecchi, 95030 Solicchiata, Catania, Italy",
+        "neighborhood": "Solicchiata, Etna DOC",
+        "sulfite_approach": "no_added_sulfur",
+        "max_so2_ppm": "below 10 ppm total on most cuvees per producer documentation",
+        "description": "Frank Cornelissen's wines are produced with no added sulfur (SO2), one of the strictest no-sulfur philosophies in Italian wine. The MunJebel and Magma wines show the result: very low total SO2 levels. The wines require careful storage at consistent temperatures and have a shorter drinking window than conventionally stabilised wines.",
+        "tip": "Store Cornelissen wines at 12-14 C without temperature fluctuation. Drink the entry-tier MunJebel within three to five years; allocate the Magma cuvees 5-10 years of careful cellaring.",
+        "editorial_score": 4.8,
+        "verified": {
+          "source_url": "https://www.wine-searcher.com/merchant/21851-frank-cornelissen",
+          "address_quoted": "Solicchiata",
+          "open_status": "open",
+          "open_evidence_url": "https://www.raisin.digital/en/explore/italy/sicily/venues/frank-cornelissen/",
+          "cuisine_evidence_url": "https://primalwine.com/collections/no-added-sulfites-natural-wine",
+          "checked_on": "2026-05-26"
+        }
+      },
+      {
+        "slug": "occhipinti-minimal-sulfur",
+        "name": "Arianna Occhipinti",
+        "vineyard_ref": "arianna-occhipinti",
+        "address": "SP68 Contrada Fossa di Lupo, 97019 Vittoria, Ragusa, Italy",
+        "neighborhood": "Vittoria, Cerasuolo di Vittoria DOCG",
+        "sulfite_approach": "minimal_sulfur",
+        "max_so2_ppm": "minimal additions at bottling only, well below EU natural wine thresholds per importer documentation",
+        "description": "Arianna Occhipinti adds minimal sulfur only at bottling, as documented by her importers De Maison Selections and Caves de Pyrene. The SP68 range and single varietals are among Italy's benchmark minimal-sulfur wines, achieving stability through farming quality and gentle winemaking rather than chemical additions.",
+        "tip": "Transport Occhipinti wines with care; the minimal-sulfur approach means the wines are sensitive to heat and light during shipping. Buy from temperature-controlled specialist retailers.",
+        "editorial_score": 4.8,
+        "verified": {
+          "source_url": "https://www.raisin.digital/en/explore/italy/sicily/venues/arianna-occhipinti/",
+          "address_quoted": "Vittoria",
+          "open_status": "open",
+          "open_evidence_url": "https://www.raisin.digital/en/explore/italy/sicily/venues/arianna-occhipinti/",
+          "cuisine_evidence_url": "https://www.decanter.com/premium/arianna-occhipinti-interview-sicily-wine-412301/",
+          "checked_on": "2026-05-26"
+        }
+      },
+      {
+        "slug": "calabretta-minimal-sulfur-etna",
+        "name": "Calabretta",
+        "vineyard_ref": "calabretta",
+        "address": "Contrada Calderara, 95030 Randazzo, Catania, Italy",
+        "neighborhood": "Calderara, Etna DOC",
+        "sulfite_approach": "minimal_sulfur",
+        "max_so2_ppm": "minimal additions; unfined and unfiltered per estate practice",
+        "description": "Calabretta's Etna Rosso and Riserva are made with minimal sulfur additions, no fining and no filtration. The pre-phylloxera alberello vines' natural vitality reduces the need for winemaking stabilisation. The wines carry the characteristic Etna volcanic minerality with no chemical overlay.",
+        "tip": "Calabretta Riserva benefits from 5-8 years of cellaring despite its minimal-intervention status; the high-altitude Calderara fruit has the structure for patient ageing.",
+        "editorial_score": 4.6,
+        "verified": {
+          "source_url": "https://www.wine-searcher.com/merchant/51823-calabretta",
+          "address_quoted": "Randazzo",
+          "open_status": "open",
+          "open_evidence_url": "https://www.wine-searcher.com/merchant/51823-calabretta",
+          "cuisine_evidence_url": "https://consorzioetnadoc.com/",
+          "checked_on": "2026-05-26"
+        }
+      }
+    ]
+  }
+}

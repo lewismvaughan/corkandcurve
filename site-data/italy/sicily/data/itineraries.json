@@ -1,0 +1,302 @@
+{
+  "itineraries": [
+    {
+      "slug": "etna-contrade-three-day-trail",
+      "name": "Etna contrade three-day trail",
+      "length_days": 3,
+      "theme": "North-face Etna: contrade-by-contrade Nerello Mascalese from Randazzo to Solicchiata",
+      "base": "Castiglione di Sicilia or Randazzo",
+      "days": [
+        {
+          "day": 1,
+          "morning": "Arrive in Randazzo on the north face of Etna. Begin with a 10:00 visit to Passopisaro for a tasting of the Guardiola, Porcaria and Rampante single-contrada Nerello Mascalese bottlings in the cellar.",
+          "lunch": "Lunch at a Randazzo trattoria with pork from the Nebrodi mountains and Etna Rosso by the glass.",
+          "afternoon": "Drive west along the SP120 to Castiglione di Sicilia for a 15:30 visit to Benanti's historic Rovittello estate, the founding site of the modern Etna revival.",
+          "evening": "Return to Randazzo for aperitivo at a local enoteca. Dine with a flight of current-vintage Etna Rosso from multiple producers.",
+          "accommodation": "Boutique hotel in Randazzo or a farmhouse agriturismo above Castiglione di Sicilia.",
+          "venues": ["passopisciaro", "benanti"]
+        },
+        {
+          "day": 2,
+          "morning": "Drive to Solicchiata on the SP120 for a 10:00 appointment at Frank Cornelissen's estate. Taste the MunJebel entry tier and, if allocation permits, a contrada bottling.",
+          "lunch": "Picnic in the Solicchiata vineyards with local caciocavallo, mountain salumi and Etna honey from the Etna park cooperative.",
+          "afternoon": "Afternoon visit to Terre Nere estate in Passopisaro contrada for a comparative tasting showing the difference between the Feudo di Mezzo and San Lorenzo contrade.",
+          "evening": "Drive down to Taormina (45 min) for dinner overlooking the Ionian coast. Pair with an Etna Bianco Carricante from the eastern face.",
+          "accommodation": "Boutique hotel in Taormina with Etna view.",
+          "venues": ["frank-cornelissen", "tenuta-delle-terre-nere"]
+        },
+        {
+          "day": 3,
+          "morning": "Drive to Milo on the eastern face of Etna (30 min from Taormina) to visit the only Etna Bianco Superiore DOC commune. Taste Carricante from Benanti's Pietra Marina vineyard if available through prior appointment.",
+          "lunch": "Lunch at a Milo restaurant with grilled swordfish from the Ionian coast and Etna Bianco Superiore.",
+          "afternoon": "Return to Catania via the eastern Etna road, stopping at a Catania wine bar to compare Etna Rosso and Bianco selections before departure.",
+          "evening": "Depart from Catania airport or continue to Syracuse.",
+          "accommodation": "Drop-off at Catania airport or Catania centro.",
+          "venues": ["benanti"]
+        }
+      ],
+      "description": "Three-day north-face Etna circuit visiting Passopisaro, Benanti, Frank Cornelissen and Terre Nere across the Randazzo-Solicchiata-Castiglione corridor, with a day-two extension to Taormina and a day-three crossing to the eastern Milo face.",
+      "tip": "Book all Etna cellar visits 2-4 weeks in advance. Cornelissen in particular is allocation-only and visit requests go through the importer network; direct-to-estate requests are rarely answered for new visitors.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.passopisaro.com/en/",
+        "address_quoted": "Passopisaro, Etna, Sicily",
+        "open_status": "open",
+        "open_evidence_url": "https://consorzioetnadoc.com/",
+        "cuisine_evidence_url": "https://www.winemag.com/2021/09/22/etna-wine-region-guide/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "east-sicily-four-day-etna-noto-vittoria",
+      "name": "East Sicily four-day wine loop: Etna, Noto and Cerasuolo di Vittoria",
+      "length_days": 4,
+      "theme": "From volcanic Nerello Mascalese on Etna to Nero d'Avola in Noto and natural Cerasuolo in Vittoria",
+      "base": "Catania (days 1-2), Noto (day 3), Ragusa (day 4)",
+      "days": [
+        {
+          "day": 1,
+          "morning": "Fly into Catania. Drive directly to the Etna north face: morning visit to Calabretta in Randazzo for a taste of century-old alberello Nerello Mascalese.",
+          "lunch": "Lunch at the Randazzo municipal trattoria with Nebrodean black pork and local salumi.",
+          "afternoon": "Afternoon drive along the SP120 to Benanti's Caselle estate near Milo for a 16:00 Etna Bianco Superiore tasting.",
+          "evening": "Drive down to Catania (1h) for dinner at a Catania wine-bar with an Etna-focused list.",
+          "accommodation": "Catania centro boutique hotel.",
+          "venues": ["calabretta", "benanti"]
+        },
+        {
+          "day": 2,
+          "morning": "Return to Etna north face for a 10:00 appointment at Passopisaro. Focus on the single-contrada Nerello Mascalese hierarchy.",
+          "lunch": "Lunch at an agriturismo on the Etna slopes with local mushrooms, lentils and a Etna Rosso pairing.",
+          "afternoon": "Afternoon drive from Etna south towards Syracuse (2h). Stop at Gulfi in Chiaramonte Gulfi (Ragusa province) for a 17:00 Nero d'Avola single-vineyard tasting.",
+          "evening": "Continue to Syracuse. Dinner in Ortigia's historic centro with Sicilian seafood and Grillo or Etna Bianco.",
+          "accommodation": "Ortigia (Syracuse) historic-centre hotel.",
+          "venues": ["passopisciaro", "gulfi"]
+        },
+        {
+          "day": 3,
+          "morning": "Drive to Noto (40 min from Syracuse). Morning walk through the UNESCO baroque city, stopping at Caffe Sicilia for almond granita.",
+          "lunch": "Lunch at a Noto trattoria with spaghetti alle vongole and Grillo by the glass.",
+          "afternoon": "Drive 30 min to Arianna Occhipinti's estate in Vittoria for a 16:00 appointment: taste SP68 Rosso, Frappato and the full range.",
+          "evening": "Stay in Ragusa Ibla; dinner with Cerasuolo di Vittoria DOCG in the baroque piazza.",
+          "accommodation": "Ragusa Ibla boutique hotel.",
+          "venues": ["arianna-occhipinti"]
+        },
+        {
+          "day": 4,
+          "morning": "Morning visit to COS in Vittoria (30 min from Ragusa) for a 10:00 pithos-fermentation tasting of the Cerasuolo di Vittoria range.",
+          "lunch": "Lunch in Modica with the famous Modica chocolate pairing alongside Cerasuolo di Vittoria Classico at a Modica enoteca.",
+          "afternoon": "Afternoon stop at Modica's Antica Dolceria Bonajuto for chocolate. Drive back to Catania airport (1h 45m) for departure.",
+          "evening": "Depart Catania.",
+          "accommodation": "Departure day.",
+          "venues": ["cos"]
+        }
+      ],
+      "description": "Four-day east Sicily wine circuit from Etna's pre-phylloxera north face to the Nero d'Avola heartland of Chiaramonte Gulfi and the natural wine scene of Vittoria. Visits to Calabretta, Passopisaro, Gulfi, Arianna Occhipinti and COS with baroque towns as connective tissue.",
+      "tip": "The distances between Etna, the Val di Noto and Vittoria are larger than they look on a map. Hiring a car is essential; allow generous driving time between visits, particularly the Etna-to-Gulfi section.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.cosvittoria.it/en/",
+        "address_quoted": "Vittoria, Sicily",
+        "open_status": "open",
+        "open_evidence_url": "https://consorzioetnadoc.com/",
+        "cuisine_evidence_url": "https://www.agricolaeocchipinti.it/en/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "marsala-west-coast-pantelleria-five-day",
+      "name": "Marsala, west coast and Pantelleria five-day fortified and island loop",
+      "length_days": 5,
+      "theme": "Marsala bagli, Zibibbo on Pantelleria, Grillo and Catarratto on the Trapani coast",
+      "base": "Marsala (days 1-2), Pantelleria (days 3-4), Trapani (day 5)",
+      "days": [
+        {
+          "day": 1,
+          "morning": "Fly into Palermo or Trapani. Drive to Marsala (1h from Palermo). Morning visit to Cantine Florio's historic bagli on the seafront: 90-minute tour showing the solera reserves and a full tasting of Fine, Superiore, Vergine.",
+          "lunch": "Lunch at a Marsala trattoria with fish couscous from San Vito lo Capo and a glass of Grillo.",
+          "afternoon": "Afternoon visit to Pellegrino for a comparative tasting of the Marsala range and the producer's Sicilian DOC wines.",
+          "evening": "Aperitivo at an Enoteca on Marsala's seafront. Dinner with local tuna (tonno di Favignana) paired with Marsala Fine.",
+          "accommodation": "Marsala centro storico boutique hotel.",
+          "venues": ["cantine-florio", "cantine-pellegrino"]
+        },
+        {
+          "day": 2,
+          "morning": "Morning appointment at Marco de Bartoli's Petrosino estate (15 min south of Marsala) for a tasting of the Vecchio Samperi (unfortified oxidative Grillo) and the Marsala range.",
+          "lunch": "Picnic at the Mozia island archaeological site (10-minute boat crossing from Marsala); pack local cheese and a bottle of Grillo.",
+          "afternoon": "Afternoon drive north along the Trapani coastline salt flats. Visit the saltpan museum at Saline della Laguna at sunset.",
+          "evening": "Return to Marsala for dinner. Try the Marsala stravecchio poured by the glass at a Marsala enoteca.",
+          "accommodation": "Marsala or Trapani coast hotel.",
+          "venues": ["marco-de-bartoli"]
+        },
+        {
+          "day": 3,
+          "morning": "Early morning ferry from Trapani to Pantelleria (2h 15m) or flight from Palermo (30 min). Arrive mid-morning.",
+          "lunch": "Lunch at a Pantelleria seafront restaurant with swordfish carpaccio and capers, paired with a local Zibibbo dry.",
+          "afternoon": "Afternoon visit to Donnafugata's Pantelleria estate for a tasting of the Ben Rye Passito and the Lighea Zibibbo dry white.",
+          "evening": "Explore the pantellesca dammuso architecture. Dinner with Pantelleria anchovy and caponata paired with Moscato di Pantelleria.",
+          "accommodation": "Pantelleria: a dammuso traditional stone house (farm stay or rental).",
+          "venues": ["donnafugata"]
+        },
+        {
+          "day": 4,
+          "morning": "Morning visit to Salvatore Murana's estate in Khamma for the single-cru Passito di Pantelleria tasting: Mueggen, Harrabi and Khamma compared.",
+          "lunch": "Lunch at a Pantelleria trattoria with couscous di pesce and dry Zibibbo.",
+          "afternoon": "Afternoon free on Pantelleria: swim at the natural Specchio di Venere lake or hike to Montagna Grande. Evening ferry or overnight stay.",
+          "evening": "Optional overnight or late-night ferry back to Trapani.",
+          "accommodation": "Pantelleria second night or return ferry.",
+          "venues": ["donnafugata-pantelleria"]
+        },
+        {
+          "day": 5,
+          "morning": "Return to Trapani. Morning visit to a small Grillo producer in the Campobello di Mazara or Castelvetrano area (Trapani province) for an insight into Sicilian dry white wine production beyond Marsala.",
+          "lunch": "Lunch in Trapani old town with busiate al pesto trapanese and a glass of local Catarratto.",
+          "afternoon": "Afternoon free in Trapani before departure from Trapani or Palermo airports.",
+          "evening": "Depart.",
+          "accommodation": "Departure day.",
+          "venues": []
+        }
+      ],
+      "description": "Five-day western Sicily and Pantelleria circuit covering the full Marsala typology at Florio, Pellegrino and Marco de Bartoli, then two days on Pantelleria for Zibibbo at Donnafugata and Salvatore Murana.",
+      "tip": "Pantelleria ferry bookings in summer sell out fast; book the Trapani-Pantelleria crossing at least four weeks in advance. If flexibility is needed, the daily Palermo-Pantelleria flight is more bookable.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://cantinefloriostore.it/en/visit-us/",
+        "address_quoted": "Marsala, Sicily",
+        "open_status": "open",
+        "open_evidence_url": "https://www.donnafugata.it/en/wines/passito-di-pantelleria/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Marsala_wine",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "grand-sicily-wine-loop-seven-days",
+      "name": "Grand Sicily wine loop: seven days, five appellations",
+      "length_days": 7,
+      "theme": "Complete Sicilian wine circuit: Etna, Val di Noto, Cerasuolo di Vittoria, Marsala and the Regaleali interior",
+      "base": "Catania (days 1-2), Ragusa (days 3-4), Marsala (days 5-6), Palermo (day 7)",
+      "days": [
+        {
+          "day": 1,
+          "morning": "Fly into Catania. Drive directly to Etna north face: 10:00 tasting at Passopisaro in Randazzo, focusing on the contrada hierarchy.",
+          "lunch": "Lunch in Randazzo with local black pork and Etna Rosso.",
+          "afternoon": "Afternoon appointment at Frank Cornelissen for a MunJebel tasting.",
+          "evening": "Descend to Catania. Dinner at a Catania Etna-wine restaurant.",
+          "accommodation": "Catania centro.",
+          "venues": ["passopisciaro", "frank-cornelissen"]
+        },
+        {
+          "day": 2,
+          "morning": "Full day on Etna: morning at Calabretta in Randazzo, afternoon at Benanti's Caselle estate on the eastern face near Milo.",
+          "lunch": "Agriturismo lunch on the Etna slopes.",
+          "afternoon": "Benanti Caselle for Etna Bianco Superiore.",
+          "evening": "Dinner in Catania's fish market neighbourhood.",
+          "accommodation": "Catania centro.",
+          "venues": ["calabretta", "benanti"]
+        },
+        {
+          "day": 3,
+          "morning": "Drive from Catania to the Val di Noto (1h 30m). Morning at Gulfi in Chiaramonte Gulfi for Nero d'Avola cru tasting.",
+          "lunch": "Lunch in Ragusa Ibla baroque piazza.",
+          "afternoon": "Afternoon at Arianna Occhipinti in Vittoria for SP68 and Frappato tasting.",
+          "evening": "Dinner in Ragusa Ibla with Cerasuolo di Vittoria pairing.",
+          "accommodation": "Ragusa Ibla boutique.",
+          "venues": ["gulfi", "arianna-occhipinti"]
+        },
+        {
+          "day": 4,
+          "morning": "Morning at COS in Vittoria: pithos fermentation tasting of the full Cerasuolo di Vittoria range.",
+          "lunch": "Lunch in Modica with chocolate tasting at Antica Dolceria Bonajuto.",
+          "afternoon": "Drive to Syracuse (45 min). Afternoon in Ortigia.",
+          "evening": "Seafood dinner in Ortigia with Etna Bianco or Grillo.",
+          "accommodation": "Ortigia, Syracuse.",
+          "venues": ["cos"]
+        },
+        {
+          "day": 5,
+          "morning": "Drive from Syracuse to Marsala (2h 30m via the A18 and A29). Morning bagli tour at Cantine Florio.",
+          "lunch": "Fish lunch at a Marsala seafront restaurant.",
+          "afternoon": "Afternoon visit to Marco de Bartoli's Petrosino estate for the Vecchio Samperi tasting.",
+          "evening": "Marsala waterfront aperitivo with a glass of Vergine.",
+          "accommodation": "Marsala centro storico.",
+          "venues": ["cantine-florio", "marco-de-bartoli"]
+        },
+        {
+          "day": 6,
+          "morning": "Drive north from Marsala into the Palermo province interior to Tasca d'Almerita's Regaleali estate (1h 30m) for a morning tasting of the Rosso del Conte and Chardonnay range in the high-plateau vineyard.",
+          "lunch": "Lunch at Regaleali's estate restaurant or a Valledolmo trattoria.",
+          "afternoon": "Drive to Palermo (1h 30m from Regaleali). Afternoon at leisure in Palermo.",
+          "evening": "Dinner in Palermo's Vucciria market area at a wine-bar. Pair with a broad Sicilian tasting flight.",
+          "accommodation": "Palermo centro storico.",
+          "venues": ["tasca-dalmerita"]
+        },
+        {
+          "day": 7,
+          "morning": "Morning in Palermo: Mercato di Ballaro food market walk with local street food and small wine pours from Trapani and Camporeale producers.",
+          "lunch": "Lunch at a Palermo trattoria with arancini and local white wine.",
+          "afternoon": "Afternoon at leisure or a final visit to a Palermo enoteca for last-minute bottle shopping. Depart Palermo airport.",
+          "evening": "Depart.",
+          "accommodation": "Departure day.",
+          "venues": []
+        }
+      ],
+      "description": "Seven-day grand loop of Sicily covering Etna DOC (Passopisaro, Cornelissen, Calabretta, Benanti), Cerasuolo di Vittoria DOCG (Gulfi, Occhipinti, COS), Marsala DOC (Florio, Marco de Bartoli) and the Regaleali interior (Tasca d'Almerita). Five appellations, twelve producer visits.",
+      "tip": "Hiring a car is non-negotiable for this route; Sicily's wine regions are spread across an island the size of Switzerland. Allow generous driving buffers, particularly for the Catania-to-Ragusa and Ragusa-to-Marsala legs.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.tascadalmerita.it/en/estates/regaleali/",
+        "address_quoted": "Regaleali, Valledolmo, Sicily",
+        "open_status": "open",
+        "open_evidence_url": "https://www.assovini.it/en/",
+        "cuisine_evidence_url": "https://www.winemag.com/2018/03/28/wine-regions-guides/sicily-wine-region/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "palermo-marsala-weekend",
+      "name": "Palermo and Marsala long weekend",
+      "length_days": 3,
+      "theme": "Urban Palermo wine culture, Conca d'Oro whites and Marsala fortified tradition",
+      "base": "Palermo (nights 1-2), Marsala (night 3)",
+      "days": [
+        {
+          "day": 1,
+          "morning": "Arrive Palermo. Check in. Morning at Mercato di Ballaro for a street-food and wine-pour introduction to Sicilian food culture.",
+          "lunch": "Lunch at a Palermo trattoria in the Kalsa neighbourhood.",
+          "afternoon": "Afternoon at leisure in Palermo city centre; visit the Arab-Norman Palatine Chapel and the Martorana.",
+          "evening": "Aperitivo at an enoteca in the Vucciria area with Sicilian DOC whites and a first-course Nero d'Avola pour.",
+          "accommodation": "Palermo centro storico boutique hotel.",
+          "venues": []
+        },
+        {
+          "day": 2,
+          "morning": "Morning drive to Camporeale (1h from Palermo) to visit Valdibella cooperative for a tasting of organic Catarratto and Perricone from small Camporeale plots.",
+          "lunch": "Lunch at an agriturismo in the Camporeale hills above Palermo.",
+          "afternoon": "Return to Palermo. Afternoon at leisure. Optional visit to Palermo's Enoteca Picone for bottle shopping.",
+          "evening": "Dinner at a Palermo seafood restaurant with grilled red mullet and a Grillo from Trapani province.",
+          "accommodation": "Palermo centro storico.",
+          "venues": []
+        },
+        {
+          "day": 3,
+          "morning": "Drive from Palermo to Marsala (1h 30m). Morning bagli tour at Cantine Florio.",
+          "lunch": "Lunch in Marsala with fish couscous.",
+          "afternoon": "Afternoon at Marco de Bartoli's Petrosino estate for Vecchio Samperi and the Marsala range.",
+          "evening": "Marsala waterfront before departure back to Palermo or Trapani airport.",
+          "accommodation": "Departure day.",
+          "venues": ["cantine-florio", "marco-de-bartoli"]
+        }
+      ],
+      "description": "Three-day Palermo and Marsala weekend combining urban Palermo wine culture, a visit to the Valdibella organic cooperative in Camporeale, and the historic Florio and Marco de Bartoli Marsala estates.",
+      "tip": "This itinerary is best done by car with an early start each day; Palermo's traffic is demanding and the Camporeale drive benefits from leaving before 9:00 to beat commuter traffic.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://cantinefloriostore.it/en/visit-us/",
+        "address_quoted": "Marsala, Sicily",
+        "open_status": "open",
+        "open_evidence_url": "https://www.valdibella.com/en/",
+        "cuisine_evidence_url": "https://www.italianwinecentral.com/denomination/marsala-doc/",
+        "checked_on": "2026-05-26"
+      }
+    }
+  ]
+}

@@ -9,6 +9,12 @@
           "region_slug": "douro",
           "region_name": "Douro Valley",
           "n": 28
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "sicily",
+          "region_name": "Sicily",
+          "n": 4
         }
       ]
     },
@@ -24,8 +30,26 @@
         },
         {
           "country_slug": "italy",
+          "region_slug": "sicily",
+          "region_name": "Sicily",
+          "n": 8
+        },
+        {
+          "country_slug": "italy",
           "region_slug": "veneto",
           "region_name": "Veneto",
+          "n": 1
+        }
+      ]
+    },
+    {
+      "slug": "orange",
+      "display": "Orange",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "sicily",
+          "region_name": "Sicily",
           "n": 1
         }
       ]
@@ -50,6 +74,12 @@
           "country_slug": "italy",
           "region_slug": "piedmont",
           "region_name": "Piedmont",
+          "n": 2
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "sicily",
+          "region_name": "Sicily",
           "n": 2
         },
         {
@@ -102,6 +132,12 @@
         },
         {
           "country_slug": "italy",
+          "region_slug": "sicily",
+          "region_name": "Sicily",
+          "n": 50
+        },
+        {
+          "country_slug": "italy",
           "region_slug": "tuscany",
           "region_name": "Tuscany",
           "n": 49
@@ -129,6 +165,12 @@
           "region_slug": "mosel",
           "region_name": "Mosel",
           "n": 10
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "sicily",
+          "region_name": "Sicily",
+          "n": 9
         },
         {
           "country_slug": "italy",

@@ -80,6 +80,26 @@ Common defects:
 Spot-check 10 score entries. Remove unattributable scores entirely
 (better than a fake citation).
 
+**C0 — Score claims hide in PROSE, not just `scores[]` (added 2026-05-26).**
+The `scores[]` array being empty does NOT mean a cuvée is score-clean.
+Sicily 2026-05-26: every research pass left `scores: []` yet Opus found
+**26** fabricated critic claims buried in `wines.json`
+`history.milestones[*].event` and in `description` prose — "WA awarded
+95+ points", "Tim Atkin MW 95 points", "Wine Spectator Top 100",
+"Suckling among Italy's top wines", "world's 50 greatest dessert wines".
+QA1 and QA2 both missed the class because they only audited `scores[]`.
+You MUST grep EVERY free-text field (`history.milestones[*].event`,
+`description`, `taste.summary`, `tip`) across wines.json AND vineyards.json
+for: a number 90-100 near "point(s)/pts/100/punti"; any critic/publication
+name (Parker, Wine Advocate, WA, Wine Spectator, WS, James Suckling,
+Vinous, Galloni, Tim Atkin, Decanter, Falstaff) next to a figure; and
+ranking phrases ("Top 100", "Top 50", "top N wines", "greatest ...
+wines", "best ... in the world"). Any such claim with no corresponding
+verifiable `scores[]` citation is a fabrication — DELETE the clause/
+milestone (don't try to source it). KEEP genuine non-numeric awards that
+you can confirm (e.g. Gambero Rosso "Tre Bicchieri", Decanter medal) and
+factual milestones (DOC granted, first vintage, replanting).
+
 **C2 — NUMERIC verification on top scores (added 2026-05-22).**
 For every score with `points >= 99`, you must verify the
 `(reviewer, points, vintage, year)` tuple against a real, citeable

@@ -37,6 +37,18 @@
       ]
     },
     {
+      "slug": "albanello",
+      "display": "Albanello",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "sicily",
+          "region_name": "Sicily",
+          "n": 2
+        }
+      ]
+    },
+    {
       "slug": "alicante",
       "display": "Alicante",
       "regions": [
@@ -169,6 +181,18 @@
       ]
     },
     {
+      "slug": "bianco-pomice",
+      "display": "Bianco Pomice",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "sicily",
+          "region_name": "Sicily",
+          "n": 1
+        }
+      ]
+    },
+    {
       "slug": "cabernet-franc",
       "display": "Cabernet Franc",
       "regions": [
@@ -177,6 +201,12 @@
           "region_slug": "bordeaux",
           "region_name": "Bordeaux",
           "n": 46
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "sicily",
+          "region_name": "Sicily",
+          "n": 1
         },
         {
           "country_slug": "italy",
@@ -207,6 +237,12 @@
           "region_slug": "piedmont",
           "region_name": "Piedmont",
           "n": 1
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "sicily",
+          "region_name": "Sicily",
+          "n": 8
         },
         {
           "country_slug": "italy",
@@ -259,6 +295,30 @@
       ]
     },
     {
+      "slug": "carricante",
+      "display": "Carricante",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "sicily",
+          "region_name": "Sicily",
+          "n": 28
+        }
+      ]
+    },
+    {
+      "slug": "catarratto",
+      "display": "Catarratto",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "sicily",
+          "region_name": "Sicily",
+          "n": 32
+        }
+      ]
+    },
+    {
       "slug": "cesar",
       "display": "Cesar",
       "regions": [
@@ -291,6 +351,12 @@
           "region_slug": "piedmont",
           "region_name": "Piedmont",
           "n": 14
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "sicily",
+          "region_name": "Sicily",
+          "n": 8
         },
         {
           "country_slug": "italy",
@@ -327,6 +393,18 @@
           "region_slug": "tuscany",
           "region_name": "Tuscany",
           "n": 6
+        }
+      ]
+    },
+    {
+      "slug": "corinto-nero",
+      "display": "Corinto Nero",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "sicily",
+          "region_name": "Sicily",
+          "n": 2
         }
       ]
     },
@@ -438,6 +516,12 @@
       "regions": [
         {
           "country_slug": "italy",
+          "region_slug": "sicily",
+          "region_name": "Sicily",
+          "n": 2
+        },
+        {
+          "country_slug": "italy",
           "region_slug": "veneto",
           "region_name": "Veneto",
           "n": 1
@@ -465,6 +549,18 @@
           "region_slug": "tuscany",
           "region_name": "Tuscany",
           "n": 1
+        }
+      ]
+    },
+    {
+      "slug": "frappato",
+      "display": "Frappato",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "sicily",
+          "region_name": "Sicily",
+          "n": 13
         }
       ]
     },
@@ -637,6 +733,18 @@
       ]
     },
     {
+      "slug": "grecanico",
+      "display": "Grecanico",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "sicily",
+          "region_name": "Sicily",
+          "n": 8
+        }
+      ]
+    },
+    {
       "slug": "greco",
       "display": "Greco",
       "regions": [
@@ -657,6 +765,30 @@
           "region_slug": "piedmont",
           "region_name": "Piedmont",
           "n": 4
+        }
+      ]
+    },
+    {
+      "slug": "grillo",
+      "display": "Grillo",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "sicily",
+          "region_name": "Sicily",
+          "n": 27
+        }
+      ]
+    },
+    {
+      "slug": "inzolia",
+      "display": "Inzolia",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "sicily",
+          "region_name": "Sicily",
+          "n": 18
         }
       ]
     },
@@ -709,6 +841,18 @@
       ]
     },
     {
+      "slug": "malvasia-delle-lipari",
+      "display": "Malvasia delle Lipari",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "sicily",
+          "region_name": "Sicily",
+          "n": 1
+        }
+      ]
+    },
+    {
       "slug": "malvasia-di-candia",
       "display": "Malvasia di Candia",
       "regions": [
@@ -717,6 +861,18 @@
           "region_slug": "tuscany",
           "region_name": "Tuscany",
           "n": 1
+        }
+      ]
+    },
+    {
+      "slug": "malvasia-di-lipari",
+      "display": "Malvasia di Lipari",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "sicily",
+          "region_name": "Sicily",
+          "n": 4
         }
       ]
     },
@@ -822,6 +978,12 @@
         },
         {
           "country_slug": "italy",
+          "region_slug": "sicily",
+          "region_name": "Sicily",
+          "n": 8
+        },
+        {
+          "country_slug": "italy",
           "region_slug": "tuscany",
           "region_name": "Tuscany",
           "n": 42
@@ -847,6 +1009,18 @@
       ]
     },
     {
+      "slug": "minella",
+      "display": "Minella",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "sicily",
+          "region_name": "Sicily",
+          "n": 2
+        }
+      ]
+    },
+    {
       "slug": "molinara",
       "display": "Molinara",
       "regions": [
@@ -855,6 +1029,18 @@
           "region_slug": "veneto",
           "region_name": "Veneto",
           "n": 19
+        }
+      ]
+    },
+    {
+      "slug": "mondeuse",
+      "display": "Mondeuse",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "sicily",
+          "region_name": "Sicily",
+          "n": 2
         }
       ]
     },
@@ -891,6 +1077,12 @@
           "region_slug": "piedmont",
           "region_name": "Piedmont",
           "n": 12
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "sicily",
+          "region_name": "Sicily",
+          "n": 2
         }
       ]
     },
@@ -961,6 +1153,66 @@
       ]
     },
     {
+      "slug": "nerello-cappuccio",
+      "display": "Nerello Cappuccio",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "sicily",
+          "region_name": "Sicily",
+          "n": 21
+        }
+      ]
+    },
+    {
+      "slug": "nerello-mascalese",
+      "display": "Nerello Mascalese",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "sicily",
+          "region_name": "Sicily",
+          "n": 36
+        }
+      ]
+    },
+    {
+      "slug": "nero-d-avola",
+      "display": "Nero d'Avola",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "sicily",
+          "region_name": "Sicily",
+          "n": 40
+        }
+      ]
+    },
+    {
+      "slug": "nero-ossidiana",
+      "display": "Nero Ossidiana",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "sicily",
+          "region_name": "Sicily",
+          "n": 1
+        }
+      ]
+    },
+    {
+      "slug": "nocera",
+      "display": "Nocera",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "sicily",
+          "region_name": "Sicily",
+          "n": 3
+        }
+      ]
+    },
+    {
       "slug": "oseleta",
       "display": "Oseleta",
       "regions": [
@@ -993,6 +1245,18 @@
           "region_slug": "veneto",
           "region_name": "Veneto",
           "n": 4
+        }
+      ]
+    },
+    {
+      "slug": "perricone",
+      "display": "Perricone",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "sicily",
+          "region_name": "Sicily",
+          "n": 5
         }
       ]
     },
@@ -1113,6 +1377,12 @@
           "region_slug": "piedmont",
           "region_name": "Piedmont",
           "n": 5
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "sicily",
+          "region_name": "Sicily",
+          "n": 1
         },
         {
           "country_slug": "italy",
@@ -1422,6 +1692,12 @@
       "regions": [
         {
           "country_slug": "italy",
+          "region_slug": "sicily",
+          "region_name": "Sicily",
+          "n": 15
+        },
+        {
+          "country_slug": "italy",
           "region_slug": "tuscany",
           "region_name": "Tuscany",
           "n": 10
@@ -1638,6 +1914,12 @@
       "regions": [
         {
           "country_slug": "italy",
+          "region_slug": "sicily",
+          "region_name": "Sicily",
+          "n": 1
+        },
+        {
+          "country_slug": "italy",
           "region_slug": "tuscany",
           "region_name": "Tuscany",
           "n": 8
@@ -1684,6 +1966,12 @@
       "slug": "viognier",
       "display": "Viognier",
       "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "sicily",
+          "region_name": "Sicily",
+          "n": 1
+        },
         {
           "country_slug": "italy",
           "region_slug": "tuscany",
@@ -1737,6 +2025,18 @@
           "region_slug": "mosel",
           "region_name": "Mosel",
           "n": 5
+        }
+      ]
+    },
+    {
+      "slug": "zibibbo",
+      "display": "Zibibbo",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "sicily",
+          "region_name": "Sicily",
+          "n": 14
         }
       ]
     }

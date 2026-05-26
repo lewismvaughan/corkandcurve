@@ -1,0 +1,256 @@
+{
+  "wine_hotels": [
+    {
+      "slug": "la-foresteria-planeta-menfi",
+      "name": "La Foresteria Wine Resort - Planeta Estate",
+      "address": "Contrada Passo di Gurra, SP 79, Km 91, 92013 Menfi (AG), Sicily",
+      "neighborhood": "Menfi, Agrigento",
+      "description": "Michelin Key-recognised 13-room wine resort at Planeta Estate in Menfi; panoramic hillside setting above vineyards and olive groves; on-site restaurant, pool, Turkish bath and exclusive access to Insula Beach Club 5 km away.",
+      "rooms": 13,
+      "price_from_eur": 250,
+      "wine_program": "Full access to Planeta portfolio across five Sicilian estates; daily vineyard and cellar tours; cooking classes with estate chef",
+      "facilities": ["Pool", "Spa", "Restaurant", "Wine tasting room", "Vineyard walks", "Beach club access"],
+      "editorial_score": 4.8,
+      "tip": "Request a Pool Suite for the best vineyard views; the Chef Angelo Pumilia cooking classes fill fast.",
+      "verified": {
+        "source_url": "https://www.planetaestate.it/en/la-foresteria-resort/",
+        "address_quoted": "Contrada Passo di Gurra, Ex S.S. 115 s.p. 79, Km 91 - 92013 Menfi (Ag)",
+        "open_status": "open",
+        "open_evidence_url": "https://www.scottdunn.com/italy/hotels/la-foresteria-planeta-estate",
+        "cuisine_evidence_url": "https://www.charmingsicily.com/en/planeta-la-foresteria",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "monaci-delle-terre-nere-zafferana",
+      "name": "Monaci delle Terre Nere",
+      "address": "Via Monaci, 95019 Zafferana Etnea (CT), Sicily",
+      "neighborhood": "Zafferana Etnea, Etna",
+      "description": "Relais and Chateaux wine resort in a restored 17th-century Augustinian monastery on Etna's slopes; 27 rooms and private pool villas; estate vineyards produce celebrated Nerello Mascalese; Locanda Nerello restaurant on-site.",
+      "rooms": 27,
+      "price_from_eur": 320,
+      "wine_program": "Estate Nerello Mascalese vineyard tours; wine tastings with in-house sommelier; Etna wine pairings at Locanda Nerello",
+      "facilities": ["Pool", "Restaurant", "Spa", "Vineyard", "Cooking classes", "Treehouse suites"],
+      "editorial_score": 4.9,
+      "tip": "One of three Eco-Bio certified properties in Sicily; the treehouse suite is a rare accommodation category.",
+      "verified": {
+        "source_url": "https://monacidelleterrenere.it/en/",
+        "address_quoted": "Via Monaci 95019 Zafferana Etnea",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Hotel_Review-g666508-d3167922-Reviews-Monaci_Delle_Terre_Nere_Relais_Chateaux-Zafferana_Etnea_Province_of_Catania_Sicily.html",
+        "cuisine_evidence_url": "https://www.lifestylehotels.net/en/hotel/monaci-delle-terre-nere/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "zash-country-boutique-hotel-riposto",
+      "name": "Zash Country Boutique Hotel and Spa",
+      "address": "Strada Provinciale 2/I-II n.60, 95018 Archi-Riposto (CT), Sicily",
+      "neighborhood": "Riposto, Etna",
+      "description": "Design Hotel in a restored 19th-century millstone press on Etna's eastern slope; Michelin-starred restaurant by chef Giuseppe Raciti since 2019; 13 hectares of citrus groves between the volcano and the Ionian Sea.",
+      "rooms": 19,
+      "price_from_eur": 280,
+      "wine_program": "Etna-centric wine list at Michelin-starred restaurant; cellar tours and curated wine experiences with estate focus",
+      "facilities": ["Michelin restaurant", "Spa", "Pool", "Vineyard setting", "Design rooms"],
+      "editorial_score": 4.9,
+      "tip": "The old wine-fermentation chamber is now the restaurant's heart; book the Michelin menu with Etna wine pairing for the full experience.",
+      "verified": {
+        "source_url": "https://www.zash.it/en/",
+        "address_quoted": "Strada Provinciale 2/I-II n.60 95018 Archi - Riposto (CT) - Sicily",
+        "open_status": "open",
+        "open_evidence_url": "https://www.charmingsicily.com/en/zash-country-boutique-hotel",
+        "cuisine_evidence_url": "https://www.zash.it/en/zash",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "shalai-resort-linguaglossa",
+      "name": "Shalai Resort",
+      "address": "Via Guglielmo Marconi 25, 95015 Linguaglossa (CT), Sicily",
+      "neighborhood": "Linguaglossa, Etna Nord",
+      "description": "Boutique 13-room hotel and Michelin-starred restaurant in a restored 1800s nobleman's villa on Etna's north slope; meticulous Etna wine cellar curated for chef Giovanni Santoro's cuisine; SPA and wellness area.",
+      "rooms": 13,
+      "price_from_eur": 200,
+      "wine_program": "Dedicated Etna wine cellar; Michelin-starred wine and food pairings; north slope Etna producer focus",
+      "facilities": ["Michelin restaurant", "Spa", "Wine cellar", "Design rooms"],
+      "editorial_score": 4.8,
+      "tip": "The smallest and most intimate Michelin-wine-hotel on Etna; the cellar is curated to complement Santoro's creative cuisine.",
+      "verified": {
+        "source_url": "https://www.shalai.it/en/",
+        "address_quoted": "Via Guglielmo Marconi 25, Linguaglossa",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Hotel_Review-g664649-d3003114-Reviews-Shalai_Resort-Linguaglossa_Province_of_Messina_Sicily.html",
+        "cuisine_evidence_url": "https://www.visititaly.eu/places-to-go/sicily/sleep/hotels-in-sicily/shalai-hotel",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "barone-di-villagrande-wine-resort",
+      "name": "Barone di Villagrande Wine Resort",
+      "address": "Via del Bosco 25, 95010 Milo (CT), Sicily",
+      "neighborhood": "Milo, Etna Est",
+      "description": "Four-room manor-house wine resort at Sicily's oldest Etna DOC producer (est. 1727); infinity pool with sea views; vineyard tours, estate tastings and restaurant meals with contrade-specific Carricante and Nerello Mascalese.",
+      "rooms": 4,
+      "price_from_eur": 180,
+      "wine_program": "Estate Etna DOC tastings; contrade vineyard tours; exclusive Contrada Villagrande Carricante",
+      "facilities": ["Pool", "Restaurant", "Vineyard tours", "Wine tasting"],
+      "editorial_score": 4.7,
+      "tip": "Milo on Etna's eastern slope has a microclimate that gives the Carricante its distinctive mineral salinity.",
+      "verified": {
+        "source_url": "https://www.villagrande.it/en/wine-tour/",
+        "address_quoted": "Via del Bosco, 25, 95010 Milo, Metropolitan City of Catania",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g1057029-d3400523-Reviews-Azienda_Vinicola_Barone_di_Villagrande_e_Cantine-Milo_Province_of_Catania_Sicily.html",
+        "cuisine_evidence_url": "https://www.thethinkingtraveller.com/italy/sicily/think-experiences/mount-etna/wine-tasting-lower-etna",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "tenuta-di-castellaro-lipari",
+      "name": "Tenuta di Castellaro Wine Relais",
+      "address": "Via Caolino s.n.c., 98055 Lipari (ME), Sicily",
+      "neighborhood": "Quattropani, Lipari",
+      "description": "Wine relais on Lipari in the Aeolian Islands; three residences (Casa Pomice, Casa Ossidiana, Casa Caolino) restored from ancient ruins with lava stone and wood; organic volcanic-vineyard estate with sunset wine picnics.",
+      "rooms": 6,
+      "price_from_eur": 273,
+      "wine_program": "Estate Malvasia delle Lipari DOC and volcanic blends; sunset picnic tastings; Aeolian archipelago dining collaborations",
+      "facilities": ["Vineyard", "Wine tasting", "Sunset picnics", "Lava stone villa residences"],
+      "editorial_score": 4.8,
+      "tip": "The sunset picnic-tasting in the vineyard is the signature Aeolian wine experience; book well in advance for summer.",
+      "verified": {
+        "source_url": "https://www.tenutadicastellaro.it/en/",
+        "address_quoted": "Via Caolino s.n.c., 98055 Lipari (ME), Italy",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.tripadvisor.com/Hotel_Review-g12664417-d20187006-Reviews-Tenuta_Di_Castellaro-Quattropani_Lipari_Aeolian_Islands_Islands_of_Sicily_Sicily.html",
+        "cuisine_evidence_url": "https://www.ecoluxury.com/en/retreats-of-the-world/565_tenuta-di-castellaro-wine-resort",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "regaleali-case-grandi-stay",
+      "name": "Regaleali Case Grandi - Tasca d'Almerita",
+      "address": "Contrada Regaleali SNC, 93010 Vallelunga Pratameno (CL), Sicily",
+      "neighborhood": "Regaleali, Caltanissetta Province",
+      "description": "Nine rooms around a 17th-century palazzo magnolia courtyard at Tasca d'Almerita's historic Regaleali estate; working wine farm with 200-plus years of winemaking history; hiking, bike rides and cooking classes in a remote Sicilian highland.",
+      "rooms": 9,
+      "price_from_eur": 300,
+      "wine_program": "Estate Regaleali DOC tastings; cooking classes at Anna Tasca Lanza school; vineyard and cellar tours with Tasca winemakers",
+      "facilities": ["Cooking school", "Vineyard", "Cellar tours", "Organic farm", "Hiking and cycling"],
+      "editorial_score": 4.7,
+      "tip": "The most authentic agriturismo wine estate stay in Sicily; request the harvest programme in October.",
+      "verified": {
+        "source_url": "https://www.tascadalmerita.it/en/tenute/tenuta-regaleali/",
+        "address_quoted": "Contrada Regaleali SNC, 93010 Vallelunga Pratameno CL Italy",
+        "open_status": "open",
+        "open_evidence_url": "https://www.orminatours.com/hotel/regaleali-estate-tasca-dalmerita/",
+        "cuisine_evidence_url": "https://annatascalanza.com/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "palmento-costanzo-wine-resort",
+      "name": "Palmento Costanzo Wine Resort",
+      "address": "Contrada Santo Spirito, 95012 Passopisciaro, Castiglione di Sicilia (CT), Sicily",
+      "neighborhood": "Passopisciaro, Etna Nord",
+      "description": "Boutique wine resort within the restored 19th-century palmento estate at Passopisciaro; accommodation overlooks 18 hectares of volcanic-soil Etna vineyards; wine-club access for guests.",
+      "rooms": 6,
+      "price_from_eur": 220,
+      "wine_program": "Estate Nerello Mascalese and Carricante tastings; vineyard contrade walks; palmento heritage tour",
+      "facilities": ["Vineyard", "Wine tasting", "Heritage palmento", "Wine club access"],
+      "editorial_score": 4.7,
+      "tip": "The palmento is one of the most photographed wine buildings on Etna; stay here for the best golden-hour light.",
+      "verified": {
+        "source_url": "https://www.palmentocostanzo.com/en/",
+        "address_quoted": "Contrada Santo Spirito, Passopisciaro 95012, Castiglione di Sicilia",
+        "open_status": "open",
+        "open_evidence_url": "https://www.winedering.com/wine-tourism_sicily_g2523119",
+        "cuisine_evidence_url": "https://www.winetourism.com/wine-tasting-tours-in-sicily/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "feudo-maccari-casa-sparse",
+      "name": "Feudo Maccari Casa Sparse",
+      "address": "Contrada Maccari, Strada Provinciale Noto-Pachino KM 13.5, 96017 Noto (SR), Sicily",
+      "neighborhood": "Val di Noto",
+      "description": "Simple estate guesthouses on 170-hectare Feudo Maccari vineyards in Val di Noto; self-catering accommodation with well-stocked breakfast; cellar visits and Nero d'Avola tastings in a dramatic desert-scrub landscape.",
+      "rooms": 5,
+      "price_from_eur": 150,
+      "wine_program": "Estate Nero d'Avola and Syrah tastings; underground cellar visits; vineyard walks in Val di Noto",
+      "facilities": ["Vineyard", "Cellar tours", "Self-catering", "Pool"],
+      "editorial_score": 4.4,
+      "tip": "The most remote and dramatic wine-estate stay in Sicily; a clear sky here is spectacular.",
+      "verified": {
+        "source_url": "https://www.feudomaccari.it/en/",
+        "address_quoted": "C. Maccari, Strada Prov. Noto-Pachino, KM 13.5, 96017 Noto (SR)",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g652022-d13520340-Reviews-Feudo_Maccari-Noto_Province_of_Syracuse_Sicily.html",
+        "cuisine_evidence_url": "https://www.winerytastingsicily.com/producer/feudo-maccari-noto-pachino-syracuse/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "baglio-di-pianetto-agrirelais",
+      "name": "Agrirelais Baglio di Pianetto",
+      "address": "Via Francia, Santa Cristina Gela, 90030 Palermo (PA), Sicily",
+      "neighborhood": "Santa Cristina Gela, Palermo hills",
+      "description": "Organic winery and agrirelais a few km from Palermo; the restored family baglio offers accommodation alongside introductory wine courses, vineyard tours and tastings across Palermo, Noto and Etna terroirs.",
+      "rooms": 8,
+      "price_from_eur": 160,
+      "wine_program": "Organic estate tastings across three terroirs; wine courses; olive oil tasting",
+      "facilities": ["Vineyard", "Wine tasting", "Wine courses", "Pool", "Organic farm"],
+      "editorial_score": 4.3,
+      "tip": "Best proximity to Palermo of any wine estate stay; good base for Monreale and Segesta day trips.",
+      "verified": {
+        "source_url": "https://bagliodipianetto.it/en/",
+        "address_quoted": "Via Francia, S. Cristina Gela - 90030 (PA) - Italy",
+        "open_status": "open",
+        "open_evidence_url": "https://www.winedering.com/winery-baglio-di-pianetto_d4256",
+        "cuisine_evidence_url": "https://www.lasiciliadiulisse.it/en/hotels/agrirelais-baglio-di-pianetto.html",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "donnafugata-pantelleria-stay",
+      "name": "Pantelleria Dream Resort (Donnafugata-adjacent)",
+      "address": "Contrada Khamma, 91017 Pantelleria (TP), Sicily",
+      "neighborhood": "Khamma, Pantelleria",
+      "description": "Dammuso-style resort 7 minutes from Donnafugata's Khamma estate and the UNESCO Zibibbo vineyard; 43 dammuso-form rooms; recommended base for Pantelleria wine tourism including Ben Ryé passito experiences.",
+      "rooms": 43,
+      "price_from_eur": 200,
+      "wine_program": "Proximity to Donnafugata Pantelleria estate for Zibibbo and Ben Ryé tastings; island wine and caper produce focus",
+      "facilities": ["Pool", "Dammuso architecture", "Sea views", "Vineyard proximity"],
+      "editorial_score": 4.5,
+      "tip": "Book the Ben Ryé sotto le stelle tasting at Donnafugata Pantelleria as a sunset complement to dinner at the resort.",
+      "verified": {
+        "source_url": "https://visit-pantelleria.com/things-to-do/wine-gastronomy/",
+        "address_quoted": "Contrada Khamma, 91017 Pantelleria",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.italymagazine.com/featured-story/pantelleria-dream-resort-dammuso-style-accommodations-sicilys-satellite-island",
+        "cuisine_evidence_url": "https://visit.donnafugata.it/en/wineries/pantelleria",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "cottanera-dimora-castiglione",
+      "name": "Dimora Cottanera",
+      "address": "Strada Provinciale 89, Contrada Iannazzo, 95030 Castiglione di Sicilia (CT), Sicily",
+      "neighborhood": "Castiglione di Sicilia, Etna Nord",
+      "description": "Boutique vineyard retreat at Cottanera's 100-hectare Etna estate; immersive access to the contrade vineyard system and single-variety Nerello Mascalese tastings in one of Etna's most awarded cellars.",
+      "rooms": 4,
+      "price_from_eur": 200,
+      "wine_program": "Contrade-specific Nerello Mascalese tastings; cellar tours; vineyard walks; Le Contrade lunch",
+      "facilities": ["Vineyard", "Cellar tours", "Wine tasting", "Pool"],
+      "editorial_score": 4.6,
+      "tip": "Guests get priority access to the contrade tasting format before public booking opens.",
+      "verified": {
+        "source_url": "https://dimoracottanera.icastelli.net/en/dimora-cottanera",
+        "address_quoted": "Strada Provinciale, 89 - Contrada Iannazzo, 95030 Castiglione di Sicilia CT",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g663798-d8027481-Reviews-Cottanera-Castiglione_di_Sicilia_Province_of_Catania_Sicily.html",
+        "cuisine_evidence_url": "https://www.cottanera.it/",
+        "checked_on": "2026-05-26"
+      }
+    }
+  ]
+}

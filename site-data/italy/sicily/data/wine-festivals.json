@@ -1,0 +1,188 @@
+{
+  "wine_festivals": [
+    {
+      "slug": "sicilia-en-primeur",
+      "name": "Sicilia en Primeur",
+      "recurrence_pattern": "annual, spring (April or May)",
+      "start_month": "April",
+      "duration": "2 days",
+      "host_organization": "Assovini Sicilia",
+      "ticket_required": true,
+      "ticket_url": "https://www.assovini.it/en/sicilia-en-primeur/",
+      "featured_producers": [],
+      "neighborhood": "Palermo",
+      "description": "Assovini Sicilia's flagship annual event, held in Palermo, brings together over 100 Sicilian producers to present new vintages to international press and trade buyers. The format mirrors Bordeaux en primeur: barrel samples and current-release wines are tasted simultaneously, and the association publishes a vintage character assessment for the island. Trade and press credentials are required for full access.",
+      "tip": "The walk-around tasting on the second day is the best opportunity to compare Etna, Nero d'Avola, Cerasuolo di Vittoria and Grillo side by side. Book accommodation early as hotel space in central Palermo during the event is limited.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.assovini.it/en/sicilia-en-primeur/",
+        "address_quoted": "Palermo, Sicily",
+        "open_status": "open",
+        "open_evidence_url": "https://www.decanter.com/wine-news/sicilia-en-primeur-sicilian-wine-event-2025/",
+        "cuisine_evidence_url": "https://www.winemag.com/2019/05/20/sicily-wine-futures-en-primeur/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "contrade-dell-etna",
+      "name": "Contrade dell'Etna",
+      "recurrence_pattern": "annual, April",
+      "start_month": "April",
+      "duration": "2 days",
+      "host_organization": "Etna DOC producers collective",
+      "ticket_required": true,
+      "ticket_url": "https://consorzioetnadoc.com/",
+      "featured_producers": [],
+      "neighborhood": "Randazzo or Solicchiata, Etna",
+      "description": "The Contrade dell'Etna gathering is the premier event for tasting single-contrada Nerello Mascalese wines from the named lava-flow micro-zones of the Etna DOC. Held on or near the volcano (typically in Randazzo on the north face), the event is invitation-heavy and trade-oriented but increasingly opening consumer allocation. It is the only place to taste Solicchiata, Calderara Sottana, Guardiola, Caselle and Santo Spirito contrade side by side.",
+      "tip": "Follow the Etna DOC consortium and individual producer social media channels for ticket availability, which typically goes live four to six weeks before the event.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://consorzioetnadoc.com/",
+        "address_quoted": "Etna, Sicily",
+        "open_status": "open",
+        "open_evidence_url": "https://www.winemag.com/2021/09/22/etna-wine-region-guide/",
+        "cuisine_evidence_url": "https://www.decanter.com/wine/wine-regions/etna-wine/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "cantine-aperte-sicilia",
+      "name": "Cantine Aperte in Sicily",
+      "recurrence_pattern": "annual, last Sunday of May",
+      "start_month": "May",
+      "duration": "1 day (with some producers extending to the full weekend)",
+      "host_organization": "Movimento Turismo del Vino (national co-ordination) with Assovini Sicilia",
+      "ticket_required": false,
+      "ticket_url": "https://www.movimentoturismovino.it/it/cantine-aperte/",
+      "featured_producers": [],
+      "neighborhood": "Island-wide: Marsala, Etna, Vittoria, Menfi",
+      "description": "Movimento Turismo del Vino's national Open Cellars day is observed across Sicily with dozens of producer estates opening for walk-in tastings, cellar tours and vineyard picnics. The event is particularly active in Marsala, the Etna DOC, the Vittoria-Ragusa area and along the Menfi coast. Producers normally closed to walk-in visitors use Cantine Aperte as a rare point of open access.",
+      "tip": "Plan routes by sub-zone as Etna, Vittoria and Marsala are each a long drive from each other. Choose one zone and do it thoroughly rather than attempting a cross-island circuit.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.movimentoturismovino.it/it/cantine-aperte/",
+        "address_quoted": "Sicily",
+        "open_status": "open",
+        "open_evidence_url": "https://www.assovini.it/en/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Movimento_Turismo_del_Vino",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "vini-milo-etna-bianco",
+      "name": "ViniMilo",
+      "recurrence_pattern": "annual, late August",
+      "start_month": "August",
+      "duration": "3 days",
+      "host_organization": "Comune di Milo and local Etna producers",
+      "ticket_required": false,
+      "ticket_url": "https://consorzioetnadoc.com/",
+      "featured_producers": [],
+      "neighborhood": "Milo, Etna (eastern face)",
+      "description": "ViniMilo is a small annual fair held in the village of Milo at the eastern foot of Etna. Milo is the only commune entitled to use the prestigious Etna Bianco Superiore DOC designation, and the fair celebrates this distinction with outdoor tastings of Carricante-based whites alongside Etna Rosso producers from across the volcano. Local food stalls specialising in Etna produce accompany the wine.",
+      "tip": "Milo sits on the cooler eastern face of Etna. The village is tiny; base accommodation in Zafferana Etnea below and drive up. The fair is free to enter but individual producer pours may require a token system.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://consorzioetnadoc.com/",
+        "address_quoted": "Milo, Etna, Sicily",
+        "open_status": "open",
+        "open_evidence_url": "https://www.winemag.com/2021/09/22/etna-wine-region-guide/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Etna_DOC",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "calici-di-stelle-sicilia",
+      "name": "Calici di Stelle in Sicily",
+      "recurrence_pattern": "annual, 10 August (Notte di San Lorenzo, the Perseids meteor shower)",
+      "start_month": "August",
+      "duration": "1 evening",
+      "host_organization": "Movimento Turismo del Vino (national) and Sicilian participating municipalities",
+      "ticket_required": false,
+      "ticket_url": "https://www.movimentoturismovino.it/it/calici-di-stelle/",
+      "featured_producers": [],
+      "neighborhood": "Island-wide: Marsala, Ragusa, Noto, Taormina",
+      "description": "Calici di Stelle is a national Italian wine event held on the night of San Lorenzo, when the Perseids meteor shower peaks. Across Sicily, participating towns open piazzas, city walls and hilltop esplanades for outdoor by-the-glass tastings under the stars. In Sicily the event is active in Marsala, Ragusa, Noto and Taormina, with local producers pouring alongside meteor-watching.",
+      "tip": "The Marsala Calici di Stelle focuses on fortified and oxidative styles suited to warm evenings. Noto leans into Nero d'Avola and Moscato di Noto. Taormina's clifftop location makes for the most atmospheric setting on the island.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.movimentoturismovino.it/it/calici-di-stelle/",
+        "address_quoted": "Sicily",
+        "open_status": "open",
+        "open_evidence_url": "https://www.assovini.it/en/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Calici_di_stelle",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "couscous-fest-san-vito-lo-capo",
+      "name": "Couscous Fest, San Vito lo Capo",
+      "recurrence_pattern": "annual, late September",
+      "start_month": "September",
+      "duration": "10 days",
+      "host_organization": "Comune di San Vito lo Capo",
+      "ticket_required": false,
+      "ticket_url": "https://www.couscousfest.it/en/",
+      "featured_producers": [],
+      "neighborhood": "San Vito lo Capo, Trapani province",
+      "description": "Though primarily a food event celebrating couscous traditions of the Mediterranean, Couscous Fest in San Vito lo Capo on the Trapani coast includes a substantial wine component with daily tastings of Sicilian DOC wines, particularly Grillo, Catarratto and Marsala from nearby Trapani producers. The event draws chefs and producers from North Africa, the Middle East and Sicily simultaneously. Wine pavilions are open throughout the festival.",
+      "tip": "The wine programme is secondary to the couscous competition but the Grillo and Catarratto pourings from Trapani-area producers are worth attending; pair with the Sicilian fish couscous of San Vito.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.couscousfest.it/en/",
+        "address_quoted": "San Vito lo Capo, Trapani, Sicily",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Couscous_Fest",
+        "cuisine_evidence_url": "https://www.assovini.it/en/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "marsala-doc-harvest-open-cellars",
+      "name": "Marsala DOC harvest open-cellar days",
+      "recurrence_pattern": "annual, late September to October",
+      "start_month": "September",
+      "duration": "Weekend events at individual producers, varies",
+      "host_organization": "Consorzio per la Tutela del Vino Marsala",
+      "ticket_required": false,
+      "ticket_url": "https://www.italianwinecentral.com/denomination/marsala-doc/",
+      "featured_producers": [],
+      "neighborhood": "Marsala, Trapani province",
+      "description": "During the September-October harvest, Cantine Florio, Pellegrino, Donnafugata (Marsala base) and Marco de Bartoli open their historic bagli (warehouse cellars) for guided visits showing the new-vintage Grillo and Catarratto base wines beginning their Marsala solera ageing process alongside reserves going back decades. The combination of active fermentation aromas and aged-oxidative notes makes harvest visits to Marsala cellars a distinctive sensory experience.",
+      "tip": "The Florio bagli on the Marsala seafront contains reserves over a century old; the tour guide can usually pour a Vergine Stravecchio alongside the new vintage base wine for the full spectrum.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://cantinefloriostore.it/en/visit-us/",
+        "address_quoted": "Marsala, Sicily",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Marsala_wine",
+        "cuisine_evidence_url": "https://www.italianwinecentral.com/denomination/marsala-doc/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "etna-wine-festival",
+      "name": "Etna Wine Festival",
+      "recurrence_pattern": "annual, summer",
+      "start_month": "July",
+      "duration": "2 days",
+      "host_organization": "Etna DOC producers with the Consorzio di Tutela Vini Etna",
+      "ticket_required": true,
+      "ticket_url": "https://consorzioetnadoc.com/",
+      "featured_producers": [],
+      "neighborhood": "Zafferana Etnea or Randazzo, Etna",
+      "description": "The Etna Wine Festival is a summer consumer-facing event on the slopes of the volcano, typically in Zafferana Etnea or Randazzo. Dozens of Etna DOC producers pour Nerello Mascalese, Nerello Cappuccio and Carricante alongside food from Etna's mountain larder (pistachios, honey, mushrooms). The summer timing allows evening tastings as temperatures cool after sunset.",
+      "tip": "Evening sessions on the volcano are the most atmospheric. Temperatures at 700 metres drop sharply after sunset; a light jacket is useful even in July.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://consorzioetnadoc.com/",
+        "address_quoted": "Etna, Sicily",
+        "open_status": "open",
+        "open_evidence_url": "https://www.winemag.com/2021/09/22/etna-wine-region-guide/",
+        "cuisine_evidence_url": "https://www.decanter.com/wine/wine-regions/etna-wine/",
+        "checked_on": "2026-05-26"
+      }
+    }
+  ]
+}

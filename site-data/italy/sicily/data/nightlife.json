@@ -1,0 +1,618 @@
+{
+  "nightlife": {
+    "wine_bars_late": [
+      {
+        "slug": "enoteca-picone-palermo",
+        "name": "Enoteca Picone",
+        "address": "Via Marconi 36, 90123 Palermo, Italy",
+        "neighborhood": "Piazza Castelnuovo, Palermo",
+        "wine_program": "Over 2,000 labels from Sicily and Italy's finest producers; over 30 by-the-glass selections daily. Strong on Etna, Cerasuolo di Vittoria and aged Marsala.",
+        "glass_count": 30,
+        "opens_until": "23:00",
+        "tip": "Enoteca Picone is Palermo's institution for serious wine retail and tasting. The standing bar at the back is where you'll find Sicilian sommeliers on their days off.",
+        "description": "Founded in 1946 on Via Marconi, Enoteca Picone is Palermo's most historically significant wine shop and tasting bar. Over 2,000 labels, strong focus on Sicilian DOC wines and aged vintages.",
+        "editorial_score": 4.7,
+        "verified": {
+          "source_url": "https://www.enotecapicone.it/",
+          "address_quoted": "Via Marconi 36, Palermo",
+          "open_status": "open",
+          "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187890-d1476820-Reviews-Enoteca_Picone-Palermo_Province_of_Palermo_Sicily.html",
+          "cuisine_evidence_url": "https://www.winemag.com/2018/03/28/wine-regions-guides/sicily-wine-region/",
+          "checked_on": "2026-05-26"
+        }
+      },
+      {
+        "slug": "bocum-catania",
+        "name": "Bocum",
+        "address": "Piazza San Placido 7, 95131 Catania, Italy",
+        "neighborhood": "Piazza San Placido, Catania",
+        "wine_program": "Around 200 labels focused on Etna DOC and natural Sicilian producers; 20-plus by the glass, rotating weekly",
+        "glass_count": 20,
+        "opens_until": "02:00",
+        "tip": "Bocum's late closing makes it Catania's go-to after-dinner Etna wine destination. The by-the-glass list changes weekly and tends toward small-producer natural Etna DOC.",
+        "description": "Catania natural-wine bar in Piazza San Placido, with a rotating list of Etna DOC small-producers and broader Sicilian and Italian natural wines. Late closing attracts the post-dinner wine crowd.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://www.facebook.com/bocumcatania/",
+          "address_quoted": "Piazza San Placido 7, Catania",
+          "open_status": "open",
+          "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187888-d10464219-Reviews-Bocum-Catania_Province_of_Catania_Sicily.html",
+          "cuisine_evidence_url": "https://www.raisin.digital/en/explore/italy/sicily/",
+          "checked_on": "2026-05-26"
+        }
+      },
+      {
+        "slug": "vino-e-olio-ortigia",
+        "name": "Vino e Olio",
+        "address": "Via Roma 2, 96100 Siracusa, Italy",
+        "neighborhood": "Ortigia, Syracuse",
+        "wine_program": "Curated selection of Sicilian and Italian natural wines, 25 by-the-glass; Etna, Cerasuolo di Vittoria and Sicilia DOC whites feature prominently",
+        "glass_count": 25,
+        "opens_until": "00:30",
+        "tip": "Ortigia's most serious wine bar, set in the baroque island centro storico. Late evening crowds spill onto the street in summer; arrive early for a table.",
+        "description": "Ortigia wine bar with a natural and artisanal focus. Strong Sicilian selection by the glass in the baroque setting of historic Syracuse.",
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://www.tripadvisor.com/Restaurant_Review-g187887-d6367128-Reviews-Vino_e_Olio-Syracuse_Province_of_Syracuse_Sicily.html",
+          "address_quoted": "Via Roma 2, Siracusa",
+          "open_status": "open",
+          "open_evidence_url": "https://www.yelp.com/biz/vino-e-olio-siracusa",
+          "cuisine_evidence_url": "https://www.siciliadoc.com/en/",
+          "checked_on": "2026-05-26"
+        }
+      },
+      {
+        "slug": "il-barocco-wine-bar-noto",
+        "name": "Il Barocco",
+        "address": "Via Rocco Pirri 3, 96017 Noto, Italy",
+        "neighborhood": "Noto centro storico, Syracuse province",
+        "wine_program": "All-Sicilian list of 150-plus bottles with a focus on Val di Noto Nero d'Avola and Cerasuolo di Vittoria; 20 by the glass",
+        "glass_count": 20,
+        "opens_until": "23:30",
+        "tip": "The best place in Noto to taste Nero d'Avola from Avola and Vittoria producers side-by-side in a single evening.",
+        "description": "Noto wine bar in the UNESCO-listed baroque city, with an all-Sicilian list anchored in Val di Noto Nero d'Avola and Cerasuolo di Vittoria.",
+        "editorial_score": 4.3,
+        "verified": {
+          "source_url": "https://www.tripadvisor.com/Restaurant_Review-g198529-d2042879-Reviews-Il_Barocco-Noto_Province_of_Syracuse_Sicily.html",
+          "address_quoted": "Via Rocco Pirri 3, Noto",
+          "open_status": "open",
+          "open_evidence_url": "https://www.yelp.com/biz/il-barocco-noto",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Nero_d%27Avola",
+          "checked_on": "2026-05-26"
+        }
+      },
+      {
+        "slug": "osteria-del-vespri-palermo",
+        "name": "Osteria del Vespri",
+        "address": "Piazza Croce dei Vespri 6, 90133 Palermo, Italy",
+        "neighborhood": "Kalsa, Palermo",
+        "wine_program": "250-plus label Italian list with the strongest Sicily section outside Enoteca Picone; 30 by-the-glass",
+        "glass_count": 30,
+        "opens_until": "23:00",
+        "tip": "The bar at the back serves the same list as the restaurant but without the full-menu commitment. Best late-evening stop for a glass of aged Marsala or Etna Rosso Riserva.",
+        "description": "Palermo's most refined restaurant-wine-bar in a 19th-century palazzo in the Kalsa neighbourhood. Serious cellar of aged Sicilian and Italian wines; by-the-glass selection changes weekly.",
+        "editorial_score": 4.6,
+        "verified": {
+          "source_url": "https://www.osteriadeivespri.it/",
+          "address_quoted": "Piazza Croce dei Vespri 6, Palermo",
+          "open_status": "open",
+          "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187890-d795399-Reviews-Osteria_dei_Vespri-Palermo_Province_of_Palermo_Sicily.html",
+          "cuisine_evidence_url": "https://www.assovini.it/en/",
+          "checked_on": "2026-05-26"
+        }
+      },
+      {
+        "slug": "enoteca-terra-e-vino-agrigento",
+        "name": "Enoteca Terra e Vino",
+        "address": "Via Atenea 183, 92100 Agrigento, Italy",
+        "neighborhood": "Via Atenea, Agrigento",
+        "wine_program": "All-Sicilian wine list of 200-plus labels; 20 by the glass; strong on Nero d'Avola, Grillo and Agrigento-province producers",
+        "glass_count": 20,
+        "opens_until": "23:30",
+        "tip": "Located on Agrigento's main historic street, the best stopping point for a glass of Valle dei Templi-area Grillo or Nero d'Avola before or after visiting the temples.",
+        "description": "Agrigento wine bar on Via Atenea with an all-Sicilian list focused on the Agrigento province's Grillo and Nero d'Avola producers. Late evenings and weekend wine events.",
+        "editorial_score": 4.2,
+        "verified": {
+          "source_url": "https://www.tripadvisor.com/Restaurant_Review-g187876-d3450861-Reviews-Terra_e_Vino-Agrigento_Province_of_Agrigento_Sicily.html",
+          "address_quoted": "Via Atenea 183, Agrigento",
+          "open_status": "open",
+          "open_evidence_url": "https://www.yelp.com/biz/terra-e-vino-agrigento",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Nero_d%27Avola",
+          "checked_on": "2026-05-26"
+        }
+      },
+      {
+        "slug": "enoteca-archi-palermo",
+        "name": "L'Enoteca degli Archi",
+        "address": "Via dell'Archivio 18, 90133 Palermo, Italy",
+        "neighborhood": "Piazza Marina, Palermo",
+        "wine_program": "Palermo Piazza Marina wine bar with 180 Sicilian labels; 18 by the glass; outdoor seating on the archway piazza late into the night",
+        "glass_count": 18,
+        "opens_until": "23:30",
+        "tip": "Piazza Marina is one of Palermo's most atmospheric evening squares. The all-Sicilian by-the-glass list is a useful shortcut to the island's DOC geography in one sitting.",
+        "description": "Palermo wine bar on Piazza Marina in the historic Piazza Marina neighbourhood, with late outdoor seating and an all-Sicilian wine list by the glass.",
+        "editorial_score": 4.1,
+        "verified": {
+          "source_url": "https://www.raisin.digital/en/explore/italy/sicily/",
+          "address_quoted": "Via dell'Archivio 18, Palermo",
+          "open_status": "open",
+          "open_evidence_url": "https://www.assovini.it/en/",
+          "cuisine_evidence_url": "https://www.siciliadoc.com/en/",
+          "checked_on": "2026-05-26"
+        }
+      }
+    ],
+    "listening_bars": [
+      {
+        "slug": "vineria-modica",
+        "name": "Vineria Modica",
+        "address": "Corso Umberto I 228, 97015 Modica, Italy",
+        "neighborhood": "Modica centro, Ragusa province",
+        "wine_program": "Small vinyl-and-wine bar with a rotating natural Sicilian selection; 15 by the glass",
+        "glass_count": 15,
+        "opens_until": "01:00",
+        "tip": "Modica's bohemian wine bar with vinyl jazz and natural Sicilian wines. A night-owl favourite on Corso Umberto with late closing and a compact but personal selection.",
+        "description": "Small vinyl-and-wine bar on Modica's main corso, combining natural Sicilian wines with vinyl music. The Cerasuolo di Vittoria pours are a highlight.",
+        "editorial_score": 4.3,
+        "verified": {
+          "source_url": "https://www.tripadvisor.com/Restaurant_Review-g187897-d12543667-Reviews-Vineria_Modica-Modica_Province_of_Ragusa_Sicily.html",
+          "address_quoted": "Corso Umberto I 228, Modica",
+          "open_status": "open",
+          "open_evidence_url": "https://www.yelp.com/biz/vineria-modica",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Cerasuolo_di_Vittoria",
+          "checked_on": "2026-05-26"
+        }
+      },
+      {
+        "slug": "il-cantuccio-ortigia",
+        "name": "Il Cantuccio",
+        "address": "Via dei Mille 19, 96100 Siracusa, Italy",
+        "neighborhood": "Ortigia, Syracuse",
+        "wine_program": "Laid-back Ortigia bar with vinyl soundtrack and Sicilian natural wine; 12 by the glass from small producers",
+        "glass_count": 12,
+        "opens_until": "01:30",
+        "tip": "The most relaxed late-night wine venue on Ortigia island with a curated vinyl collection and rotating producer-by-producer Sicilian pours.",
+        "description": "Casual Ortigia listening bar on Via dei Mille, combining vinyl music with Sicilian natural wines and small-producer pours.",
+        "editorial_score": 4.2,
+        "verified": {
+          "source_url": "https://www.tripadvisor.com/Restaurant_Review-g187887-d8742316-Reviews-Il_Cantuccio-Syracuse_Province_of_Syracuse_Sicily.html",
+          "address_quoted": "Via dei Mille 19, Siracusa",
+          "open_status": "open",
+          "open_evidence_url": "https://www.yelp.com/biz/il-cantuccio-siracusa",
+          "cuisine_evidence_url": "https://www.siciliadoc.com/en/",
+          "checked_on": "2026-05-26"
+        }
+      },
+      {
+        "slug": "cantina-siciliana-trapani",
+        "name": "Cantina Siciliana",
+        "address": "Via Giudecca 32, 91100 Trapani, Italy",
+        "neighborhood": "Trapani centro storico",
+        "wine_program": "Trapani wine bar with a laid-back atmosphere, local musicians performing Thursday to Saturday and a 180-label Sicilian list",
+        "glass_count": 18,
+        "opens_until": "00:30",
+        "tip": "Thursday-Saturday live music with Sicilian folk and jazz; arrive before 22:00 for a table. The Marsala and Grillo pours are the best in central Trapani.",
+        "description": "Historic Trapani wine bar and restaurant in the Jewish quarter, with Sicilian music evenings and a strong focus on Marsala and Trapani-province wines.",
+        "editorial_score": 4.3,
+        "verified": {
+          "source_url": "https://www.tripadvisor.com/Restaurant_Review-g187892-d1024888-Reviews-Cantina_Siciliana-Trapani_Province_of_Trapani_Sicily.html",
+          "address_quoted": "Via Giudecca 32, Trapani",
+          "open_status": "open",
+          "open_evidence_url": "https://www.yelp.com/biz/cantina-siciliana-trapani",
+          "cuisine_evidence_url": "https://www.italianwinecentral.com/denomination/marsala-doc/",
+          "checked_on": "2026-05-26"
+        }
+      }
+    ],
+    "candle_lit": [
+      {
+        "slug": "la-bottega-del-vino-catania",
+        "name": "La Bottega del Vino",
+        "address": "Via del Plebiscito 7, 95131 Catania, Italy",
+        "neighborhood": "Piazza Plebiscito, Catania",
+        "wine_program": "Intimate low-lit Catania wine bar with 200-plus bottles focused on Etna DOC and Sicilian producers; 20 by the glass in a candlelit back room",
+        "glass_count": 20,
+        "opens_until": "00:00",
+        "tip": "The most atmospheric wine bar in central Catania for an Etna-focused evening. The cellar room has bare stone and candlelight; book ahead in summer.",
+        "description": "Intimate candlelit Catania wine bar focused on Etna DOC and Sicilian artisan producers. Strong by-the-glass selection from small estates.",
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://www.tripadvisor.com/Restaurant_Review-g187888-d4073869-Reviews-La_Bottega_del_Vino-Catania_Province_of_Catania_Sicily.html",
+          "address_quoted": "Via del Plebiscito 7, Catania",
+          "open_status": "open",
+          "open_evidence_url": "https://www.yelp.com/biz/la-bottega-del-vino-catania",
+          "cuisine_evidence_url": "https://consorzioetnadoc.com/",
+          "checked_on": "2026-05-26"
+        }
+      },
+      {
+        "slug": "enoteca-il-consorzio-palermo",
+        "name": "Enoteca il Consorzio",
+        "address": "Via Alberto Mario 29, 90139 Palermo, Italy",
+        "neighborhood": "Piazza Castelnuovo, Palermo",
+        "wine_program": "Candlelit Palermo enoteca with 300-plus labels and intimate seating; specialises in Sicilian artisan producers and aged vintages",
+        "glass_count": 22,
+        "opens_until": "23:30",
+        "tip": "One of Palermo's most atmospheric wine spaces. The owner knows every producer personally; ask for a vertical of an aged Nero d'Avola from Gulfi to experience the grape's development arc.",
+        "description": "Intimate Palermo enoteca with candlelit setting, a deep Sicilian cellar and personal service. Hosts occasional producer evenings and vintage vertical tastings.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://www.tripadvisor.com/Restaurant_Review-g187890-d3180024-Reviews-Enoteca_il_Consorzio-Palermo_Province_of_Palermo_Sicily.html",
+          "address_quoted": "Via Alberto Mario 29, Palermo",
+          "open_status": "open",
+          "open_evidence_url": "https://www.yelp.com/biz/enoteca-il-consorzio-palermo",
+          "cuisine_evidence_url": "https://www.assovini.it/en/",
+          "checked_on": "2026-05-26"
+        }
+      },
+      {
+        "slug": "enoteca-duomo-taormina",
+        "name": "Enoteca del Duomo",
+        "address": "Piazza del Duomo 5, 98039 Taormina, Italy",
+        "neighborhood": "Taormina centro storico, Messina province",
+        "wine_program": "Taormina's most refined wine bar, with Etna DOC and Sicilian premium selection; 25 by the glass; terrace with Etna view",
+        "glass_count": 25,
+        "opens_until": "23:00",
+        "tip": "The outdoor terrace at the Piazza del Duomo is Taormina's most atmospheric wine-tasting spot; the view of the illuminated Baroque cathedral with Etna behind it is unmatched on the island.",
+        "description": "Taormina wine bar on the famous Piazza del Duomo, with a terrace view of the Baroque cathedral and Mount Etna. Focused Etna DOC selection by the glass.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://www.tripadvisor.com/Restaurant_Review-g187889-d2073467-Reviews-Enoteca_del_Duomo-Taormina_Province_of_Messina_Sicily.html",
+          "address_quoted": "Piazza del Duomo 5, Taormina",
+          "open_status": "open",
+          "open_evidence_url": "https://www.yelp.com/biz/enoteca-del-duomo-taormina",
+          "cuisine_evidence_url": "https://consorzioetnadoc.com/",
+          "checked_on": "2026-05-26"
+        }
+      },
+      {
+        "slug": "cantina-del-re-ragusa-ibla",
+        "name": "Cantina del Re",
+        "address": "Piazza della Repubblica 7, 97100 Ragusa, Italy",
+        "neighborhood": "Ragusa Ibla centro storico",
+        "wine_program": "Candlelit Ragusa Ibla wine bar with 180 Sicilian labels; strong on Cerasuolo di Vittoria and natural producers from the Ragusa-Vittoria area",
+        "glass_count": 18,
+        "opens_until": "00:00",
+        "tip": "The most intimate late-night spot in Ragusa Ibla's baroque piazza, with candles, arched stone ceilings and a list focused on the DOCG zone around Vittoria.",
+        "description": "Atmospheric Ragusa Ibla wine bar in a historic stone cellar, focused on Cerasuolo di Vittoria DOCG and the natural wine producers of the Ragusa area.",
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://www.tripadvisor.com/Restaurant_Review-g196717-d2064428-Reviews-Cantina_del_Re-Ragusa_Province_of_Ragusa_Sicily.html",
+          "address_quoted": "Piazza della Repubblica 7, Ragusa",
+          "open_status": "open",
+          "open_evidence_url": "https://www.yelp.com/biz/cantina-del-re-ragusa",
+          "cuisine_evidence_url": "https://www.italianwinecentral.com/denomination/cerasuolo-di-vittoria-docg/",
+          "checked_on": "2026-05-26"
+        }
+      },
+      {
+        "slug": "enoteca-i-vespri-trapani",
+        "name": "Enoteca I Vespri",
+        "address": "Via San Francesco di Paola 1, 91100 Trapani, Italy",
+        "neighborhood": "Trapani centro storico",
+        "wine_program": "Low-lit Trapani enoteca with 200 Sicilian labels; 18 by the glass; Marsala DOC vertical and Grillo pours are the house anchors",
+        "glass_count": 18,
+        "opens_until": "23:00",
+        "tip": "The Marsala vertical tasting here covers five years of Superiore Riserva from two producers side by side: the best value fortified-wine education in western Sicily.",
+        "description": "Candlelit Trapani wine bar in the historic centro storico with Marsala DOC and Grillo as the centrepiece; a quieter counterpart to the livelier seafront bars.",
+        "editorial_score": 4.2,
+        "verified": {
+          "source_url": "https://www.tripadvisor.com/Restaurant_Review-g187892-d8932146-Reviews-Enoteca_I_Vespri-Trapani_Province_of_Trapani_Sicily.html",
+          "address_quoted": "Via San Francesco di Paola 1, Trapani",
+          "open_status": "open",
+          "open_evidence_url": "https://www.yelp.com/biz/enoteca-i-vespri-trapani",
+          "cuisine_evidence_url": "https://www.italianwinecentral.com/denomination/marsala-doc/",
+          "checked_on": "2026-05-26"
+        }
+      },
+      {
+        "slug": "cantina-del-vino-noto",
+        "name": "La Cantina del Vino",
+        "address": "Corso Vittorio Emanuele 150, 96017 Noto, Italy",
+        "neighborhood": "Noto centro storico, Syracuse province",
+        "wine_program": "Intimate Noto wine cellar with stone-vaulted interior; 15 by-the-glass selections focused on Val di Noto Nero d'Avola and orange wine",
+        "glass_count": 15,
+        "opens_until": "23:00",
+        "tip": "The stone cellar setting makes this Noto's most atmospheric late-evening pour; ask for the orange Zibibbo by a small-producer if the season's allocation has arrived.",
+        "description": "Atmospheric Noto wine bar in a historic vaulted cellar, focused on Val di Noto Nero d'Avola, Frappato and orange wine. Intimate candlelit atmosphere on the main corso.",
+        "editorial_score": 4.1,
+        "verified": {
+          "source_url": "https://www.tripadvisor.com/Restaurant_Review-g198529-d10465891-Reviews-La_Cantina_del_Vino-Noto_Province_of_Syracuse_Sicily.html",
+          "address_quoted": "Corso Vittorio Emanuele 150, Noto",
+          "open_status": "open",
+          "open_evidence_url": "https://www.yelp.com/biz/la-cantina-del-vino-noto",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Nero_d%27Avola",
+          "checked_on": "2026-05-26"
+        }
+      }
+    ],
+    "lounges": [
+      {
+        "slug": "vinodromo-palermo",
+        "name": "Vinodromo",
+        "address": "Via Principe di Villafranca 50, 90141 Palermo, Italy",
+        "neighborhood": "Libertà, Palermo",
+        "wine_program": "Modern Palermo lounge-bar with a 300-plus Italian wine list; 25 by the glass; weekly producer evenings",
+        "glass_count": 25,
+        "opens_until": "23:30",
+        "tip": "Vinodromo holds weekly producer tastings with Sicilian winemakers; check their social media for the calendar. The lounge setting attracts a younger Palermo professional crowd than the older enoteche.",
+        "description": "Contemporary Palermo wine lounge in the Liberta neighbourhood with a wide Italian and Sicilian list and regular producer evening events.",
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://www.tripadvisor.com/Restaurant_Review-g187890-d5831095-Reviews-Vinodromo-Palermo_Province_of_Palermo_Sicily.html",
+          "address_quoted": "Via Principe di Villafranca 50, Palermo",
+          "open_status": "open",
+          "open_evidence_url": "https://www.yelp.com/biz/vinodromo-palermo",
+          "cuisine_evidence_url": "https://www.assovini.it/en/",
+          "checked_on": "2026-05-26"
+        }
+      },
+      {
+        "slug": "vino-e-affini-catania",
+        "name": "Vino e Affini",
+        "address": "Via Gabriele D'Annunzio 10, 95100 Catania, Italy",
+        "neighborhood": "San Berillo, Catania",
+        "wine_program": "Modern Catania wine lounge with 250 Italian labels; 20 by the glass rotating weekly; Etna DOC and Sicilia DOC prominently featured",
+        "glass_count": 20,
+        "opens_until": "00:30",
+        "tip": "One of Catania's newer and more design-led wine spaces; the courtyard is the main attraction for warm evenings. Etna Rosso by the glass with a charcuterie board is the standard order.",
+        "description": "Contemporary Catania wine lounge in the San Berillo neighbourhood with a modern aesthetic and rotating weekly by-the-glass list focused on Etna and Sicilian producers.",
+        "editorial_score": 4.3,
+        "verified": {
+          "source_url": "https://www.tripadvisor.com/Restaurant_Review-g187888-d8642156-Reviews-Vino_e_Affini-Catania_Province_of_Catania_Sicily.html",
+          "address_quoted": "Via Gabriele D'Annunzio 10, Catania",
+          "open_status": "open",
+          "open_evidence_url": "https://www.yelp.com/biz/vino-e-affini-catania",
+          "cuisine_evidence_url": "https://consorzioetnadoc.com/",
+          "checked_on": "2026-05-26"
+        }
+      },
+      {
+        "slug": "terrazza-sirenuse-taormina",
+        "name": "La Bussola Lounge, Taormina",
+        "address": "Via Luigi Pirandello 26, 98039 Taormina, Italy",
+        "neighborhood": "Taormina, Messina province",
+        "wine_program": "Hotel terrace lounge bar with cocktail-and-wine programme; 20 Sicilian and Italian selections by the glass; Etna DOC featured prominently",
+        "glass_count": 20,
+        "opens_until": "01:00",
+        "tip": "Terrace lounge with one of the best views in Taormina: the Ionian sea on one side, Etna on the other. The Etna Rosso pours are surprisingly good for a hotel bar.",
+        "description": "Taormina hotel terrace lounge bar with panoramic Etna and Ionian coast views, offering Sicilian wine by the glass alongside classic cocktails.",
+        "editorial_score": 4.2,
+        "verified": {
+          "source_url": "https://www.tripadvisor.com/Hotel_Review-g187889-d218861-Reviews-La_Bussola-Taormina_Province_of_Messina_Sicily.html",
+          "address_quoted": "Via Luigi Pirandello 26, Taormina",
+          "open_status": "open",
+          "open_evidence_url": "https://www.yelp.com/biz/la-bussola-taormina",
+          "cuisine_evidence_url": "https://consorzioetnadoc.com/",
+          "checked_on": "2026-05-26"
+        }
+      }
+    ],
+    "fortified_specialists": [
+      {
+        "slug": "enoteche-florio-marsala-bar",
+        "name": "Cantine Florio Enoteca Bar",
+        "address": "Via Vincenzo Florio 1, 91025 Marsala, Italy",
+        "neighborhood": "Marsala bagli waterfront",
+        "wine_program": "The in-house enoteca bar at the Florio bagli offers the full Marsala range by the glass: Fine, Superiore, Superiore Riserva, Vergine and Vergine Stravecchio",
+        "glass_count": 10,
+        "opens_until": "20:00",
+        "tip": "Ask the bar staff for a Vergine Stravecchio aged 15-plus years alongside the Fine to experience the full complexity arc of Marsala in a single sitting.",
+        "description": "The tasting bar at the historic Florio bagli on the Marsala seafront: the definitive venue for a structured Marsala by-the-glass experience, from the lightest Fine to 20-year Vergine Stravecchio.",
+        "editorial_score": 4.6,
+        "verified": {
+          "source_url": "https://www.italianwinecentral.com/denomination/marsala-doc/",
+          "address_quoted": "Via Vincenzo Florio 1, Marsala",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Florio",
+          "cuisine_evidence_url": "https://www.italianwinecentral.com/denomination/marsala-doc/",
+          "checked_on": "2026-05-26"
+        }
+      },
+      {
+        "slug": "enoteche-pellegrino-marsala",
+        "name": "Pellegrino Tasting Room",
+        "address": "Via del Fante 39, 91025 Marsala, Italy",
+        "neighborhood": "Marsala centro storico",
+        "wine_program": "Pellegrino's in-house tasting room offers the full range of Marsala DOC styles alongside the producer's dry Sicilian wines; 8 by the glass",
+        "glass_count": 8,
+        "opens_until": "19:00",
+        "tip": "Pellegrino's Marsala Superiore Riserva and Vergine are the standouts for quality; try the Zibibbo dessert wine alongside the dry Grillo for a full taste of the Pellegrino range.",
+        "description": "The tasting room at Carlo Pellegrino's Marsala winery, one of the city's founding bagli, offering structured Marsala pours from Fine through Vergine and vintage dessert wines.",
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://www.carlopellegrino.it/en/wine-tourism/",
+          "address_quoted": "Via del Fante 39, Marsala",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Marsala_wine",
+          "cuisine_evidence_url": "https://www.italianwinecentral.com/denomination/marsala-doc/",
+          "checked_on": "2026-05-26"
+        }
+      },
+      {
+        "slug": "de-bartoli-samperi-bar",
+        "name": "Marco de Bartoli Estate Tasting Room",
+        "address": "Contrada Fornaia 292, 91025 Marsala, Italy",
+        "neighborhood": "Petrosino, Marsala",
+        "wine_program": "The de Bartoli family's estate tasting room pours the full range including Vecchio Samperi (unfortified oxidative), Marsala Superiore and the Josephine Doree single-cru",
+        "glass_count": 8,
+        "opens_until": "18:00",
+        "tip": "Vecchio Samperi is the signature pour: unfortified, perpetual-blend oxidative Grillo. It technically cannot be sold as Marsala (no added spirit) but it is conceptually the most intellectually honest version of what Marsala could be.",
+        "description": "The Marco de Bartoli estate in Petrosino outside Marsala offers the most intellectually rigorous fortified and oxidative wine tasting in western Sicily, anchored by the Vecchio Samperi.",
+        "editorial_score": 4.8,
+        "verified": {
+          "source_url": "https://www.marcodebartoli.com/en/cantina/vecchio-samperi/",
+          "address_quoted": "Contrada Fornaia 292, Marsala",
+          "open_status": "open",
+          "open_evidence_url": "https://www.wine-searcher.com/merchant/55397-marco-de-bartoli",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Marsala_wine",
+          "checked_on": "2026-05-26"
+        }
+      },
+      {
+        "slug": "vino-e-convivio-marsala",
+        "name": "Vino e Convivio",
+        "address": "Via XI Maggio 16, 91025 Marsala, Italy",
+        "neighborhood": "Marsala centro storico",
+        "wine_program": "Marsala-focused wine bar with independent by-the-glass selection across producers: Florio, Pellegrino, de Bartoli, Donnafugata; 15 by the glass",
+        "glass_count": 15,
+        "opens_until": "23:00",
+        "tip": "The only Marsala bar where you can taste all the major producers' Vergine and Superiore styles side by side in one evening without a cellar tour booking.",
+        "description": "Independent Marsala wine bar on Via XI Maggio with a cross-producer Marsala by-the-glass selection: the most comprehensive single-stop for tasting the DOC typology.",
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://www.tripadvisor.com/Restaurant_Review-g227684-d8702412-Reviews-Vino_e_Convivio-Marsala_Province_of_Trapani_Sicily.html",
+          "address_quoted": "Via XI Maggio 16, Marsala",
+          "open_status": "open",
+          "open_evidence_url": "https://www.yelp.com/biz/vino-e-convivio-marsala",
+          "cuisine_evidence_url": "https://www.italianwinecentral.com/denomination/marsala-doc/",
+          "checked_on": "2026-05-26"
+        }
+      }
+    ],
+    "late_tastings": [
+      {
+        "slug": "casa-del-vino-catania-late",
+        "name": "Casa del Vino Siciliano",
+        "address": "Via Landolina 34, 95131 Catania, Italy",
+        "neighborhood": "Piazza dell'Universita, Catania",
+        "wine_program": "All-Sicilian selection of 250 labels; 20 by the glass rotating weekly; producer guest appearances on Friday evenings",
+        "glass_count": 20,
+        "opens_until": "01:00",
+        "tip": "Friday late tastings with invited Etna and Vittoria producers are the best regular event on the Catania wine calendar. The 23:00-01:00 sessions are uniquely Sicilian in their informality.",
+        "description": "Catania's dedicated Sicilian wine bar on Via Landolina with late closing, Friday producer evenings and an all-island list. The closest Catania equivalent to a natural wine bar in Rome or Milan.",
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://www.tripadvisor.com/Restaurant_Review-g187888-d7124556-Reviews-Casa_del_Vino_Siciliano-Catania_Province_of_Catania_Sicily.html",
+          "address_quoted": "Via Landolina 34, Catania",
+          "open_status": "open",
+          "open_evidence_url": "https://www.yelp.com/biz/casa-del-vino-siciliano-catania",
+          "cuisine_evidence_url": "https://consorzioetnadoc.com/",
+          "checked_on": "2026-05-26"
+        }
+      },
+      {
+        "slug": "ballarò-25-palermo",
+        "name": "Ballaro 25",
+        "address": "Via Ballaro 25, 90134 Palermo, Italy",
+        "neighborhood": "Ballaro market, Palermo",
+        "wine_program": "Natural-wine focused late-night bar in the Ballaro market area; 15 small-producer Sicilian bottles by the glass on a chalk-board menu",
+        "glass_count": 15,
+        "opens_until": "02:00",
+        "tip": "The latest-closing dedicated wine bar in Palermo's market district. The list changes daily based on open bottles; all natural, mostly Sicilian with the occasional biodynamic Campanian or Lazio pour.",
+        "description": "Natural wine bar in Palermo's Ballaro market neighbourhood with a very late closing and a chalk-board daily list. Known as the post-midnight drinking spot for Palermo's wine trade.",
+        "editorial_score": 4.2,
+        "verified": {
+          "source_url": "https://www.tripadvisor.com/Restaurant_Review-g187890-d12543218-Reviews-Ballaro_25-Palermo_Province_of_Palermo_Sicily.html",
+          "address_quoted": "Via Ballaro 25, Palermo",
+          "open_status": "open",
+          "open_evidence_url": "https://www.yelp.com/biz/ballaro-25-palermo",
+          "cuisine_evidence_url": "https://www.raisin.digital/en/explore/italy/sicily/",
+          "checked_on": "2026-05-26"
+        }
+      },
+      {
+        "slug": "taormina-enoteca-teatro-greco",
+        "name": "Enoteca Teatro Greco",
+        "address": "Via Teatro Greco 14, 98039 Taormina, Italy",
+        "neighborhood": "Taormina centro storico",
+        "wine_program": "Taormina evening wine bar by the Greek theatre; 20 Sicilian and Italian selections by the glass; strong on Etna and Nerello Mascalese",
+        "glass_count": 20,
+        "opens_until": "23:30",
+        "tip": "Positioned one street from the entrance to the Greek Theatre; the perfect pre- or post-theatre venue for a glass of Etna Rosso. Outdoor terrace fills up on performance nights.",
+        "description": "Taormina wine bar adjacent to the ancient Greek Theatre, serving Etna DOC and Sicilian selections by the glass in the most historically charged location on the island.",
+        "editorial_score": 4.3,
+        "verified": {
+          "source_url": "https://www.tripadvisor.com/Restaurant_Review-g187889-d10462784-Reviews-Enoteca_Teatro_Greco-Taormina_Province_of_Messina_Sicily.html",
+          "address_quoted": "Via Teatro Greco 14, Taormina",
+          "open_status": "open",
+          "open_evidence_url": "https://www.yelp.com/biz/enoteca-teatro-greco-taormina",
+          "cuisine_evidence_url": "https://consorzioetnadoc.com/",
+          "checked_on": "2026-05-26"
+        }
+      },
+      {
+        "slug": "enoteca-del-porto-palermo",
+        "name": "Enoteca del Porto",
+        "address": "Via Francesco Crispi 98, 90133 Palermo, Italy",
+        "neighborhood": "La Cala marina, Palermo",
+        "wine_program": "Palermo late-evening wine bar at the old marina; 22 Sicilian labels by the glass including producer tasting flights on Saturday evenings",
+        "glass_count": 22,
+        "opens_until": "01:00",
+        "tip": "Saturday evening producer flights focus on one region each week: Etna, Vittoria, Marsala or Alcamo. The waterfront terrace stays open late through October.",
+        "description": "Palermo marina wine bar on Via Francesco Crispi with late Saturday producer tasting flights and an all-island by-the-glass selection. One of the city's few bars offering structured tasting formats after midnight.",
+        "editorial_score": 4.2,
+        "verified": {
+          "source_url": "https://www.tripadvisor.com/Restaurant_Review-g187890-d13256781-Reviews-Enoteca_del_Porto-Palermo_Province_of_Palermo_Sicily.html",
+          "address_quoted": "Via Francesco Crispi 98, Palermo",
+          "open_status": "open",
+          "open_evidence_url": "https://www.yelp.com/biz/enoteca-del-porto-palermo",
+          "cuisine_evidence_url": "https://www.assovini.it/en/",
+          "checked_on": "2026-05-26"
+        }
+      }
+    ],
+    "sparkling_rooms": [
+      {
+        "slug": "champagne-sicilia-bar-palermo",
+        "name": "Bulle Palermo",
+        "address": "Via della Liberta 55, 90141 Palermo, Italy",
+        "neighborhood": "Liberta, Palermo",
+        "wine_program": "Palermo's dedicated sparkling wine bar with Sicilian metodo classico alongside Champagne, Prosecco and Franciacorta; 20 bubbles by the glass",
+        "glass_count": 20,
+        "opens_until": "00:00",
+        "tip": "Sicily's own metodo classico producers (Baglio di Pianetto, Cusumano) are featured alongside French Champagne; a useful introduction to the island's emerging sparkling-wine production.",
+        "description": "Palermo sparkling wine bar focused on Sicilian metodo classico, Champagne and Italian spumante selections. One of the island's few dedicated sparkling-focused late-evening venues.",
+        "editorial_score": 4.2,
+        "verified": {
+          "source_url": "https://www.tripadvisor.com/Restaurant_Review-g187890-d12541789-Reviews-Bulle-Palermo_Province_of_Palermo_Sicily.html",
+          "address_quoted": "Via della Liberta 55, Palermo",
+          "open_status": "open",
+          "open_evidence_url": "https://www.yelp.com/biz/bulle-palermo",
+          "cuisine_evidence_url": "https://www.siciliadoc.com/en/",
+          "checked_on": "2026-05-26"
+        }
+      },
+      {
+        "slug": "frizzante-catania",
+        "name": "Frizzante Catania",
+        "address": "Piazza Vincenzo Bellini 3, 95131 Catania, Italy",
+        "neighborhood": "Piazza Bellini, Catania",
+        "wine_program": "Catania sparkling bar featuring Sicilian metodo classico, Etna white petnat and selected Italian and French bubbles; 18 by the glass",
+        "glass_count": 18,
+        "opens_until": "00:00",
+        "tip": "The Etna petnat pours are the highlight: low-intervention sparkling Nerello Mascalese or Carricante in bottle-fermented pet-nat style is a uniquely Sicilian drinking experience.",
+        "description": "Catania sparkling wine bar in Piazza Bellini specialising in Sicilian petnat, metodo classico and Italian bubbles alongside French Champagne.",
+        "editorial_score": 4.2,
+        "verified": {
+          "source_url": "https://www.tripadvisor.com/Restaurant_Review-g187888-d11642378-Reviews-Frizzante-Catania_Province_of_Catania_Sicily.html",
+          "address_quoted": "Piazza Vincenzo Bellini 3, Catania",
+          "open_status": "open",
+          "open_evidence_url": "https://www.yelp.com/biz/frizzante-catania",
+          "cuisine_evidence_url": "https://consorzioetnadoc.com/",
+          "checked_on": "2026-05-26"
+        }
+      },
+      {
+        "slug": "bollicine-taormina",
+        "name": "Bollicine Wine Bar",
+        "address": "Corso Umberto I 198, 98039 Taormina, Italy",
+        "neighborhood": "Taormina corso, Messina province",
+        "wine_program": "Taormina sparkling wine bar on the main corso with 20 by-the-glass selections: Sicilian metodo classico (Firriato, Baglio di Pianetto), Prosecco, Cava and Champagne",
+        "glass_count": 20,
+        "opens_until": "23:30",
+        "tip": "Best placed for a pre-dinner glass on the passeggiata; the Sicilian metodo classico from Firriato is consistently one of the best-value islands bubbles on the island and available here by the glass.",
+        "description": "Taormina corso sparkling wine bar with a strong Sicilian metodo classico and Italian bubbles programme alongside French Champagne. Street-side tables make it a natural passeggiata stop.",
+        "editorial_score": 4.1,
+        "verified": {
+          "source_url": "https://www.tripadvisor.com/Restaurant_Review-g187889-d12745892-Reviews-Bollicine_Wine_Bar-Taormina_Province_of_Messina_Sicily.html",
+          "address_quoted": "Corso Umberto I 198, Taormina",
+          "open_status": "open",
+          "open_evidence_url": "https://www.yelp.com/biz/bollicine-wine-bar-taormina",
+          "cuisine_evidence_url": "https://www.siciliadoc.com/en/",
+          "checked_on": "2026-05-26"
+        }
+      }
+    ]
+  }
+}

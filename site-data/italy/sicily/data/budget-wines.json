@@ -1,0 +1,204 @@
+{
+  "budget_wines": [
+    {
+      "slug": "donnafugata-sedara-nero-d-avola",
+      "name": "Donnafugata Sedara Nero d'Avola Sicilia DOC",
+      "producer": "donnafugata",
+      "varietals": ["Nero d'Avola"],
+      "classification": "Sicilia DOC",
+      "price_band": "EUR 12-16 retail",
+      "where_to_buy": "Donnafugata enoteca in Marsala; widely distributed through Italian and international retailers including Vivino-listed shops across the UK, Germany, USA and Japan.",
+      "description": "Donnafugata's entry-level Nero d'Avola from Sicilian DOC vineyards. Ripe cherry, carob and warm spice; the approachable house style that introduces Donnafugata's range. Drink young.",
+      "tip": "Sedara is reliably available and under EUR 15 in major Italian supermarkets and wine shops. A reliable introduction to Nero d'Avola at near-everyday pricing.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.donnafugata.it/en/wines/sedara/",
+        "address_quoted": "Marsala, Sicily",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wine-searcher.com/find/donnafugata+sedara+nero+d+avola",
+        "cuisine_evidence_url": "https://www.decanter.com/wine/wine-regions/sicily-wine/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "planeta-cerasuolo-di-vittoria",
+      "name": "Planeta Cerasuolo di Vittoria DOCG",
+      "producer": "planeta",
+      "varietals": ["Nero d'Avola", "Frappato"],
+      "classification": "Cerasuolo di Vittoria DOCG",
+      "price_band": "EUR 16-20 retail",
+      "where_to_buy": "Planeta estate shop at Feudo Dispensa, Menfi; distributed through major Italian retailers and exported internationally via importer Winebow in the USA.",
+      "description": "Planeta's Cerasuolo di Vittoria from their Vittoria estate, blending Nero d'Avola with Frappato in the DOCG's classic ratio. Red cherry, pomegranate and violet; lighter and more elegant than pure Nero d'Avola bottlings.",
+      "tip": "Sicily's only DOCG blend at under EUR 20 represents exceptional value for the appellation tier. Serve slightly cool at 16 C with grilled swordfish or arancini.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.planeta.it/en/wines/cerasuolo-di-vittoria/",
+        "address_quoted": "Vittoria, Sicily",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wine-searcher.com/find/planeta+cerasuolo+di+vittoria",
+        "cuisine_evidence_url": "https://www.italianwinecentral.com/denomination/cerasuolo-di-vittoria-docg/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "cos-frappato-terre-siciliane",
+      "name": "COS Frappato Terre Siciliane IGT",
+      "producer": "cos",
+      "varietals": ["Frappato"],
+      "classification": "Terre Siciliane IGT",
+      "price_band": "EUR 18-22 retail",
+      "where_to_buy": "COS estate, Strada Provinciale 3, Vittoria; distributed by Indie Wineries in Italy and by importer Rosenthal Wine Merchant in the USA.",
+      "description": "COS's entry-level varietal Frappato from organic farming in Vittoria, fermented in amphora and concrete with native yeasts. Sour cherry, hibiscus and white pepper; one of Sicily's most sippable natural reds. Light-bodied and best served cool.",
+      "tip": "The COS Frappato is as close as Sicily gets to light-bodied Beaujolais in weight and style. Ideal for warm evenings with cured meats and caciocavallo.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.cosvittoria.it/en/wines/frappato/",
+        "address_quoted": "Vittoria, Sicily",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wine-searcher.com/find/cos+frappato+terre+siciliane",
+        "cuisine_evidence_url": "https://www.raisin.digital/en/explore/italy/sicily/venues/cos/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "tasca-d-almerita-regaleali-bianco",
+      "name": "Tasca d'Almerita Regaleali Bianco Sicilia DOC",
+      "producer": "tasca-dalmerita",
+      "varietals": ["Catarratto", "Inzolia", "Grecanico", "Grillo"],
+      "classification": "Sicilia DOC",
+      "price_band": "EUR 12-15 retail",
+      "where_to_buy": "Tasca d'Almerita estate, Regaleali, Valledolmo; distributed across major Italian retailers and USA importer selected by Banfi Vintners.",
+      "description": "The flagship entry-level white from the Regaleali estate in the Sicilian interior. A blend of native white varieties with fresh citrus, white almond and floral character. Drink within two years of vintage for its freshest expression.",
+      "tip": "Regaleali Bianco is one of the most reliably fresh and well-made Sicilian whites at entry-level pricing. Look for it at any decent Italian enoteca under EUR 14.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.tascadalmerita.it/en/wines/regaleali-bianco/",
+        "address_quoted": "Regaleali, Valledolmo, Sicily",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wine-searcher.com/find/tasca+d+almerita+regaleali+bianco",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Tasca_d%27Almerita",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "marco-de-bartoli-pignatello",
+      "name": "Marco de Bartoli Pignatello Sicilia DOC",
+      "producer": "marco-de-bartoli",
+      "varietals": ["Perricone"],
+      "classification": "Sicilia DOC",
+      "price_band": "EUR 14-18 retail",
+      "where_to_buy": "Marco de Bartoli estate, Contrada Fornaia, Marsala; distributed in Italy and USA through importer Neal Rosenthal Wine Merchant.",
+      "description": "A varietal Perricone (locally known as Pignatello) from Marco de Bartoli's Sicilian estate. Deep ruby, dried cherry, bitter chocolate and bay leaf; an indigenous variety rarely bottled solo and virtually unknown outside Sicily. Minimal intervention, no fining.",
+      "tip": "Perricone is one of Sicily's most distinctive and underexposed red varieties. The de Bartoli bottling is the accessible entry point; seek it out at quality Italian enoteche.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.marcodebartoli.com/en/wines/",
+        "address_quoted": "Marsala, Sicily",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wine-searcher.com/find/marco+de+bartoli+pignatello",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Perricone_(grape)",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "duca-di-salaparuta-corvo-bianco",
+      "name": "Duca di Salaparuta Corvo Bianco Sicilia DOC",
+      "producer": "duca-di-salaparuta",
+      "varietals": ["Catarratto", "Inzolia"],
+      "classification": "Sicilia DOC",
+      "price_band": "EUR 8-12 retail",
+      "where_to_buy": "Duca di Salaparuta winery, Casteldaccia; available in most Italian supermarkets and large wine shops across Italy. Exported to over 50 countries.",
+      "description": "Corvo Bianco is one of Sicily's most widely distributed whites, a fresh, clean Catarratto-Inzolia blend from Duca di Salaparuta. Light citrus, melon and crisp acidity. Entry-level and widely available; benchmark approachable Sicilian white at everyday pricing.",
+      "tip": "Found at virtually every Italian supermarket and exported widely; the most reliably available Sicilian white under EUR 10 internationally.",
+      "editorial_score": 4.0,
+      "verified": {
+        "source_url": "https://www.duca.it/en/vini/corvo-bianco/",
+        "address_quoted": "Casteldaccia, Sicily",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wine-searcher.com/find/duca+di+salaparuta+corvo+bianco",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Duca_di_Salaparuta",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "feudi-del-pisciotto-grillo",
+      "name": "Feudi del Pisciotto Grillo Sicilia DOC",
+      "producer": "feudi-del-pisciotto",
+      "varietals": ["Grillo"],
+      "classification": "Sicilia DOC",
+      "price_band": "EUR 14-18 retail",
+      "where_to_buy": "Feudi del Pisciotto estate, Niscemi; distributed by Moretti Wines in Italy and selected UK wine merchants.",
+      "description": "Single-varietal Grillo from the Feudi del Pisciotto estate in the Niscemi area of central-south Sicily. Broad citrus peel, salted almond and a briny mineral finish characteristic of inland Grillo planted far from the sea. Well-priced for the variety and the estate's profile.",
+      "tip": "Grillo in this area of Sicily has a distinct textured character different from the lighter coastal examples; pair with pasta alla Norma or grilled aubergine.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.feudidelpisciotoo.it/en/wines/grillo/",
+        "address_quoted": "Niscemi, Sicily",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wine-searcher.com/find/feudi+del+pisciotto+grillo",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Grillo_(grape)",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "morgante-nero-d-avola-classico",
+      "name": "Morgante Nero d'Avola Classico Sicilia DOC",
+      "producer": "morgante",
+      "varietals": ["Nero d'Avola"],
+      "classification": "Sicilia DOC",
+      "price_band": "EUR 12-16 retail",
+      "where_to_buy": "Morgante estate, Grotte (Agrigento province); distributed by Enoteca Italiana and major Italian wine chains. Exported to USA through a New York importer.",
+      "description": "Morgante's Classico is the entry tier from one of Agrigento province's benchmark Nero d'Avola producers. The Classico shows the variety's signature dark cherry, carob and sun-dried tomato character at a price well below the more aged Don Antonio riserva tier.",
+      "tip": "Morgante's vineyards in Grotte are at higher elevation than most Sicilian DOC plantings, giving the Classico more freshness and acidity than typical Nero d'Avola.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.morgantevini.it/en/wines/",
+        "address_quoted": "Grotte, Agrigento, Sicily",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wine-searcher.com/find/morgante+nero+d+avola+classico",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Nero_d%27Avola",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "benanti-etna-bianco-doc",
+      "name": "Benanti Etna Bianco DOC",
+      "producer": "benanti",
+      "varietals": ["Carricante", "Catarratto"],
+      "classification": "Etna Bianco DOC",
+      "price_band": "EUR 18-22 retail",
+      "where_to_buy": "Benanti estate, Viagrande; distributed in Italy through Enoteca Properzio and Enoteca Italiana. Exported USA via Skurnik Wines.",
+      "description": "Benanti's estate-level Etna Bianco is the benchmark for the Carricante variety at entry price. Volcanic minerality, green citrus, fennel and a saline finish. Made from pre-phylloxera alberello vines on the eastern Etna slopes, this is the most accessible and affordable Benanti white.",
+      "tip": "At EUR 18-22, the Benanti Etna Bianco is the most price-efficient way to taste the volcanic character of Carricante on its own appellation, without paying premium-contrada pricing.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.vinicolabenanti.it/en/wines/etna-bianco/",
+        "address_quoted": "Viagrande, Etna, Sicily",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wine-searcher.com/find/benanti+etna+bianco",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Etna_DOC",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "arianna-occhipinti-sp68-bianco",
+      "name": "Arianna Occhipinti SP68 Bianco Terre Siciliane IGT",
+      "producer": "arianna-occhipinti",
+      "varietals": ["Albanello", "Zibibbo"],
+      "classification": "Terre Siciliane IGT",
+      "price_band": "EUR 18-22 retail",
+      "where_to_buy": "Arianna Occhipinti estate, Vittoria; distributed by De Maison Selections in the USA and Caves de Pyrene in the UK.",
+      "description": "Arianna Occhipinti's SP68 Bianco is a blend of Albanello and Zibibbo (Muscat of Alexandria) from organic farming near Vittoria. Pale gold, fragrant orange blossom, salted lemon peel and a textured, naturally fermented finish. One of Sicily's most individual and distinctive under-EUR 25 white wines.",
+      "tip": "SP68 Bianco is named after a Vittoria-area road, not a numbered vintage. Low-sulfur and alive; drink within two years of vintage and serve well chilled.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.agricolaeocchipinti.it/en/wines/sp68-bianco/",
+        "address_quoted": "Vittoria, Sicily",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wine-searcher.com/find/occhipinti+sp68+bianco",
+        "cuisine_evidence_url": "https://www.raisin.digital/en/explore/italy/sicily/venues/arianna-occhipinti/",
+        "checked_on": "2026-05-26"
+      }
+    }
+  ]
+}

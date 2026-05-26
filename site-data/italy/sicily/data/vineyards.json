@@ -1,0 +1,1931 @@
+{
+  "vineyards": [
+    {
+      "slug": "planeta",
+      "name": "Planeta",
+      "address": "Contrada Dispensa, 92013 Menfi (AG), Sicily, Italy",
+      "neighborhood": "Menfi DOC",
+      "varietals": [
+        "Nero d'Avola",
+        "Syrah",
+        "Merlot",
+        "Cabernet Franc",
+        "Grecanico",
+        "Chardonnay",
+        "Grillo",
+        "Carricante",
+        "Nocera",
+        "Nerello Mascalese"
+      ],
+      "classification": "Menfi DOC, Etna DOC, Noto DOC, Sicilia DOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1994,
+      "tasting_program": "Three estate cellar doors: Ulmo at Menfi, Buonivini at Noto, and Sciaranuova on Etna. Tasting experiences bookable on the Planeta estate website.",
+      "booking_url": "https://www.planetaestate.it/en/wine-tour/",
+      "signature_wines": [
+        "planeta-santa-cecilia",
+        "planeta-burdese",
+        "planeta-cometa"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "natural_wine": false,
+      "description": "One of Sicily's most influential estates, Planeta operates six wineries across the island from Menfi to Etna, Noto and Milazzo, showcasing the diversity of Sicilian terroir through native and international varieties.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.planeta.it/en/",
+        "address_quoted": "Contrada Dispensa - 92013 Menfi (AG) Sicilia - Italia",
+        "open_status": "open",
+        "open_evidence_url": "https://www.planetaestate.it/en/wine-tour/",
+        "cuisine_evidence_url": "https://www.planeta.it/en/territories/menfi/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "tasca-dalmerita",
+      "name": "Tasca d'Almerita",
+      "address": "Contrada Regaleali, 90020 Sclafani Bagni (PA), Sicily, Italy",
+      "neighborhood": "Contea di Sclafani DOC",
+      "varietals": [
+        "Nero d'Avola",
+        "Nerello Mascalese",
+        "Perricone",
+        "Inzolia",
+        "Catarratto",
+        "Grillo",
+        "Grecanico"
+      ],
+      "classification": "Contea di Sclafani DOC, Etna DOC, Sicilia DOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1830,
+      "tasting_program": "Estate visits and tastings at the historic Regaleali property in the heart of Sicily, bookable via the Tasca d'Almerita website.",
+      "booking_url": "https://tascadalmerita.it/en",
+      "signature_wines": [
+        "tasca-dalmerita-rosso-del-conte",
+        "tasca-dalmerita-chardonnay",
+        "tasca-dalmerita-leone-dalmerita"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "natural_wine": false,
+      "description": "One of Sicily's oldest and most storied family estates, Tasca d'Almerita has farmed the Regaleali plateau since 1830. Their Rosso del Conte, a Nero d'Avola-led flagship, is among the island's most age-worthy reds.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://tascadalmerita.it/en",
+        "address_quoted": "Contrada Regaleali 90020 Sclafani Bagni (PA) Sicily",
+        "open_status": "open",
+        "open_evidence_url": "https://shop.tascadalmerita.it/en/products/sicily-and-tasca-d-almerita-wines-at-regaleali",
+        "cuisine_evidence_url": "https://tascadalmerita.it/en",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "donnafugata",
+      "name": "Donnafugata",
+      "address": "Via Sebastiano Lipari 18, 91025 Marsala (TP), Sicily, Italy",
+      "neighborhood": "Marsala DOC",
+      "varietals": [
+        "Nero d'Avola",
+        "Syrah",
+        "Merlot",
+        "Cabernet Sauvignon",
+        "Grillo",
+        "Catarratto",
+        "Inzolia",
+        "Zibibbo",
+        "Grecanico",
+        "Frappato"
+      ],
+      "classification": "Contessa Entellina DOC, Marsala DOC, Pantelleria DOC, Etna DOC, Sicilia DOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1983,
+      "tasting_program": "Daily guided tours and tastings at the historic Marsala cantina (10:00-18:00) and at the Contessa Entellina estate. Reservations required.",
+      "booking_url": "https://visit.donnafugata.it/en/",
+      "signature_wines": [
+        "donnafugata-ben-rye",
+        "donnafugata-mille-e-una-notte",
+        "donnafugata-tancredi"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "natural_wine": false,
+      "description": "Donnafugata, founded by the Rallo family in Marsala, has grown into a multi-estate Sicilian producer with vineyards in Contessa Entellina, Pantelleria and Etna, crafting wines from native varieties including the iconic Ben Rye passito.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.donnafugata.it/en/",
+        "address_quoted": "Via Sebastiano Lipari, 18, Marsala (TP)",
+        "open_status": "open",
+        "open_evidence_url": "https://visit.donnafugata.it/en/contacts",
+        "cuisine_evidence_url": "https://www.donnafugata.it/en/the-wine/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "cantine-florio",
+      "name": "Cantine Florio",
+      "address": "Via Vincenzo Florio 1, 91025 Marsala (TP), Sicily, Italy",
+      "neighborhood": "Marsala DOC",
+      "varietals": [
+        "Grillo",
+        "Catarratto",
+        "Inzolia",
+        "Nero d'Avola"
+      ],
+      "classification": "Marsala DOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1833,
+      "tasting_program": "Guided cellar tours of the historic 165-metre tuff-stone barrel chambers. Over 50,000 visitors annually. Bookable via the Cantine Florio website.",
+      "booking_url": "https://cantineflorio.it/en/",
+      "signature_wines": [
+        "florio-targa-riserva",
+        "florio-morsi-di-luce"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "natural_wine": false,
+      "description": "Founded by Vincenzo Florio in 1833, Cantine Florio is the most iconic Marsala house in Sicily. Its historic tuff-stone cellars, with 104 arches and 1,400 barrels, are a landmark of western Sicilian wine history.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://cantineflorio.it/en/",
+        "address_quoted": "Via Vincenzo Florio 1 - Marsala (TP)",
+        "open_status": "open",
+        "open_evidence_url": "https://www.winerytastingsicily.com/winery/duca-di-salaparuta-florio-corvo-marsala-trapani-palermo/florio-winery-marsala/",
+        "cuisine_evidence_url": "https://cantineflorio.it/en/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "cantine-pellegrino",
+      "name": "Cantine Pellegrino",
+      "address": "Via Paolo Pellegrino 39, 91025 Marsala (TP), Sicily, Italy",
+      "neighborhood": "Marsala DOC",
+      "varietals": [
+        "Grillo",
+        "Catarratto",
+        "Inzolia",
+        "Nero d'Avola",
+        "Zibibbo"
+      ],
+      "classification": "Marsala DOC, Pantelleria DOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1880,
+      "tasting_program": "Wine tourism at the historic Marsala cellars via the Pellegrino Ouverture booking platform. Guided tours, tastings and food pairings.",
+      "booking_url": "https://visit.carlopellegrino.it/en/606d7795211e2a5cb3defbfe?lang=en",
+      "signature_wines": [
+        "pellegrino-marsala-superiore-riserva",
+        "pellegrino-nes-passito"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "natural_wine": false,
+      "description": "Established in 1880, sixth-generation family-owned Cantine Pellegrino built its reputation on Marsala and Pantelleria passito wines. Its historic Marsala cellars are among the most visited in western Sicily.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.carlopellegrino.it/en/",
+        "address_quoted": "Via Paolo Pellegrino, 39, 91025 Marsala (TP), Italy",
+        "open_status": "open",
+        "open_evidence_url": "https://visit.carlopellegrino.it/en/606d7795211e2a5cb3defbfe?lang=en",
+        "cuisine_evidence_url": "https://www.carlopellegrino.it/en/marsala/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "marco-de-bartoli",
+      "name": "Marco De Bartoli",
+      "address": "Contrada Samperi 292, 91025 Marsala (TP), Sicily, Italy",
+      "neighborhood": "Marsala DOC",
+      "varietals": [
+        "Grillo",
+        "Zibibbo"
+      ],
+      "classification": "Marsala DOC, Pantelleria DOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1978,
+      "tasting_program": "Guided tours and tastings at the Samperi cellar near Marsala. Weekday visits by appointment. Contact by phone (+39 0923 962093) or email.",
+      "booking_url": "https://www.marcodebartoli.com/en/wine-tourism/book-tour-tasting-marsala/",
+      "signature_wines": [
+        "de-bartoli-vecchio-samperi",
+        "de-bartoli-marsala-superiore-oro",
+        "de-bartoli-bukkuram-sole-d-agosto"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "natural_wine": true,
+      "description": "Marco De Bartoli founded this artisan Marsala house in 1978, working primarily with Grillo to revive traditional un-fortified and minimally fortified styles. The estate at Samperi is the spiritual home of authentic Marsala craft.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.marcodebartoli.com/en/",
+        "address_quoted": "Contrada Samperi 292, Marsala (TP)",
+        "open_status": "open",
+        "open_evidence_url": "https://www.marcodebartoli.com/en/wine-tourism/",
+        "cuisine_evidence_url": "https://www.marcodebartoli.com/en/samperi/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "benanti",
+      "name": "Benanti Viticoltori",
+      "address": "Via Giuseppe Garibaldi 361, 95029 Viagrande (CT), Sicily, Italy",
+      "neighborhood": "Etna DOC",
+      "varietals": [
+        "Nerello Mascalese",
+        "Nerello Cappuccio",
+        "Carricante",
+        "Catarratto"
+      ],
+      "classification": "Etna DOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1734,
+      "tasting_program": "Tuesday through Sunday by reservation. Three tasting programmes including Get to Know Etna, Contrade Selection and Library Vintages. Tours of the historic palmento and vineyard.",
+      "booking_url": "https://www.benanti.it/en/hospitality/",
+      "signature_wines": [
+        "benanti-pietramarina",
+        "benanti-rovittello",
+        "benanti-serra-della-contessa"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "natural_wine": false,
+      "description": "One of Etna's pioneering estates, Benanti has been producing wine on the volcanic slopes since 1734. Their single-contrada whites from Milo are benchmarks for Etna Bianco Superiore, and their Nerello reds helped launch the modern Etna renaissance.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.benanti.it/en/",
+        "address_quoted": "Via Giuseppe Garibaldi 361, 95029 Viagrande (CT)",
+        "open_status": "open",
+        "open_evidence_url": "https://www.benanti.it/en/hospitality/",
+        "cuisine_evidence_url": "https://www.benanti.it/en/wines/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "tenuta-delle-terre-nere",
+      "name": "Tenuta delle Terre Nere",
+      "address": "Contrada Calderara sn, 95036 Randazzo (CT), Sicily, Italy",
+      "neighborhood": "Etna DOC",
+      "varietals": [
+        "Nerello Mascalese",
+        "Nerello Cappuccio",
+        "Carricante",
+        "Catarratto"
+      ],
+      "classification": "Etna DOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 2002,
+      "tasting_program": "By appointment, Monday to Friday. Contact via visite@tenutaterrenere.com.",
+      "booking_url": "https://www.tenutaterrenere.com/en/book-a-visits/",
+      "signature_wines": [
+        "terre-nere-calderara-sottana",
+        "terre-nere-guardiola",
+        "terre-nere-feudo-di-mezzo"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "natural_wine": false,
+      "description": "Founded in 2002 by Marc de Grazia on Etna's north slope at Randazzo, Tenuta delle Terre Nere was instrumental in establishing the single-contrada bottlings that made Etna internationally famous. Old-vine Nerello from plots like Calderara Sottana and Guardiola set the benchmark.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.tenutaterrenere.com/en/home-english/",
+        "address_quoted": "Contrada Calderara, sn 95036 Randazzo (CT) - Sicilia - Italia",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tenutaterrenere.com/en/book-a-visits/",
+        "cuisine_evidence_url": "https://www.tenutaterrenere.com/en/about-us/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "passopisciaro",
+      "name": "Passopisciaro (Vini Franchetti)",
+      "address": "Via Canonico Zumbo 1, Passopisciaro, 95012 Castiglione di Sicilia (CT), Sicily, Italy",
+      "neighborhood": "Etna DOC",
+      "varietals": [
+        "Nerello Mascalese",
+        "Nerello Cappuccio",
+        "Chardonnay"
+      ],
+      "classification": "Etna DOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 2000,
+      "tasting_program": "Visits by appointment at the Passopisciaro estate. Contact via the Vini Franchetti website.",
+      "booking_url": "https://visit.vinifranchetti.com/",
+      "signature_wines": [
+        "passopisciaro-franchetti",
+        "passopisciaro-passorosso",
+        "passopisciaro-passobianco"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "natural_wine": false,
+      "description": "Founded in 2000 by the late Andrea Franchetti at approximately 1,000 metres on Etna's north slope, Passopisciaro produces site-expressive single-contrada Nerello reds including the rare Franchetti red from the high-altitude Solicchiata plots.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.vinifranchetti.com/passopisciaro/",
+        "address_quoted": "Via Canonico Zumbo, 1 (hamlet of Passopisciaro) IT - 95012 Castiglione di Sicilia (CT) Etna Nord - Sicily",
+        "open_status": "open",
+        "open_evidence_url": "https://visit.vinifranchetti.com/",
+        "cuisine_evidence_url": "https://www.vinifranchetti.com/passopisciaro/the-wines/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "graci",
+      "name": "Graci",
+      "address": "Contrada Feudo di Mezzo, SP7iii, Passopisciaro, 95012 Castiglione di Sicilia (CT), Sicily, Italy",
+      "neighborhood": "Etna DOC",
+      "varietals": [
+        "Nerello Mascalese",
+        "Nerello Cappuccio",
+        "Carricante",
+        "Catarratto"
+      ],
+      "classification": "Etna DOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 2004,
+      "tasting_program": "Visits by appointment at the Passopisciaro estate. Contact via info@graci.eu.",
+      "booking_url": "https://www.graci.eu/en/home-en/",
+      "signature_wines": [
+        "graci-arcuria",
+        "graci-barbabecchi",
+        "graci-etna-bianco"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "natural_wine": false,
+      "description": "Alberto Aiello Graci has been farming old-vine Nerello Mascalese and Carricante on Etna's north slope since 2004, producing single-contrada wines including the benchmark Arcuria Etna Rosso from 52 acres of ungrafted vines.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.graci.eu/en/home-en/",
+        "address_quoted": "Contrada Feudo di Mezzo, SP7iii, Passopisciaro 95012, Castiglione di Sicilia(CT)",
+        "open_status": "open",
+        "open_evidence_url": "https://www.winerytastingsicily.com/producer/graci-etna-passopisciaro-arcuria-feudo-di-mezzo-barbabecchi/",
+        "cuisine_evidence_url": "https://www.graci.eu/en/home-en/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "pietradolce",
+      "name": "Pietradolce",
+      "address": "SS120 174, Contrada Rampante, Solicchiata, 95012 Castiglione di Sicilia (CT), Sicily, Italy",
+      "neighborhood": "Etna DOC",
+      "varietals": [
+        "Nerello Mascalese",
+        "Nerello Cappuccio",
+        "Carricante",
+        "Catarratto"
+      ],
+      "classification": "Etna DOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 2005,
+      "tasting_program": "Visits and tastings at the Solicchiata winery on Etna's north slope. Contact via the Pietradolce website.",
+      "booking_url": "https://www.pietradolce.com/en/",
+      "signature_wines": [
+        "pietradolce-archineri",
+        "pietradolce-etna-rosso",
+        "pietradolce-barbagalli"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "natural_wine": false,
+      "description": "Founded in 2005 by Michele Faro at Solicchiata on Etna's north slope, Pietradolce works with old-vine Nerello Mascalese and Carricante across several contrade, producing one of the island's most age-worthy single-vineyard Biancos in the Archineri.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.pietradolce.com/en/",
+        "address_quoted": "SS120, 174, C.da. Rampante, Solicchiata, Castiglione di Sicilia (CT)",
+        "open_status": "open",
+        "open_evidence_url": "https://www.winerytastingsicily.com/producer/pietradolce-etna-winery-passopisciaro/",
+        "cuisine_evidence_url": "https://www.pietradolce.com/en/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "girolamo-russo",
+      "name": "Girolamo Russo",
+      "address": "Via Regina Margherita 78, 95012 Passopisciaro (CT), Sicily, Italy",
+      "neighborhood": "Etna DOC",
+      "varietals": [
+        "Nerello Mascalese",
+        "Carricante",
+        "Catarratto",
+        "Inzolia",
+        "Grecanico"
+      ],
+      "classification": "Etna DOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 2005,
+      "tasting_program": "Vineyard visits and tastings with local cold cuts, cheeses and homemade bread. Contact info@girolamorusso.it or call 0942 983142.",
+      "booking_url": "https://www.girolamorusso.it/?lang=en",
+      "signature_wines": [
+        "russo-san-lorenzo",
+        "russo-a-rina",
+        "russo-feudo"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "organic_certified",
+      "natural_wine": false,
+      "description": "Giuseppe Russo took over the family's old Nerello Mascalese vineyards in 2005 after his father Girolamo died. Fifteen hectares of organically farmed vines between 650 and 780 metres on Etna's north slope produce sought-after single-vineyard reds including San Lorenzo and a Rina.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.girolamorusso.it/?lang=en",
+        "address_quoted": "Via Regina Margherita 78, 95012, Passopisciaro (CT)",
+        "open_status": "open",
+        "open_evidence_url": "https://www.winerytastingsicily.com/producer/girolamo-russo-etna-passopisciaro-san-lorenzo/",
+        "cuisine_evidence_url": "https://www.girolamorusso.it/?lang=en",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "calabretta",
+      "name": "Azienda Vinicola Calabretta",
+      "address": "Contrada Calderara, 95036 Randazzo (CT), Sicily, Italy",
+      "neighborhood": "Etna DOC",
+      "varietals": [
+        "Nerello Mascalese",
+        "Nerello Cappuccio",
+        "Catarratto"
+      ],
+      "classification": "Etna DOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1900,
+      "tasting_program": "Visits by appointment at the Randazzo estate. Contact via calabretta.net.",
+      "booking_url": "http://www.calabretta.net/",
+      "signature_wines": [
+        "calabretta-gaio-gaio",
+        "calabretta-etna-rosso",
+        "calabretta-vigne-vecchie"
+      ],
+      "biodynamic_status": "biodynamic_practicing",
+      "organic_status": "organic_certified",
+      "natural_wine": true,
+      "description": "Founded in 1900, Calabretta is one of Etna's oldest family wineries. The fourth generation farms 12.5 hectares of ungrafted old vines with copper and sulphur only, producing low-intervention wines from Nerello Mascalese that rank among the most authentic expressions of the north slope.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "http://www.calabretta.net/",
+        "address_quoted": "Contrada Calderara, 95036 Randazzo CT",
+        "open_status": "open",
+        "open_evidence_url": "https://www.winerytastingsicily.com/producer/calabretta-winery-wines-etna-randazzo/",
+        "cuisine_evidence_url": "https://www.rarewineco.com/producer/calabretta/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "cottanera",
+      "name": "Cottanera",
+      "address": "Strada Provinciale 89, Contrada Iannazzo, 95030 Castiglione di Sicilia (CT), Sicily, Italy",
+      "neighborhood": "Etna DOC",
+      "varietals": [
+        "Nerello Mascalese",
+        "Nerello Cappuccio",
+        "Carricante",
+        "Merlot",
+        "Syrah",
+        "Mondeuse"
+      ],
+      "classification": "Etna DOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1994,
+      "tasting_program": "Monday to Saturday 9:00 to 17:00, booking essential. Guided vineyard, cellar and tasting experiences.",
+      "booking_url": "https://cottanera.it/en/home/",
+      "signature_wines": [
+        "cottanera-barbazzale-bianco",
+        "cottanera-fatagione",
+        "cottanera-calderara"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "natural_wine": false,
+      "description": "Cottanera is a family estate on Etna's north slope producing both native Nerello-based Etna DOC wines and international varieties grown at high altitude. The boutique agriturismo Dimora Cottanera makes it a wine-tourism anchor on the Alcantara Valley rim.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://cottanera.it/en/home/",
+        "address_quoted": "Strada Provinciale, 89 - 95030 - Contrada Iannazzo Castiglione di Sicilia (CT)",
+        "open_status": "open",
+        "open_evidence_url": "https://www.winepaths.com/destination/italy/sicily/cottanera-winery",
+        "cuisine_evidence_url": "https://cottanera.it/en/home/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "murgo",
+      "name": "Murgo",
+      "address": "Via Zafferana 13, 95010 Santa Venerina (CT), Sicily, Italy",
+      "neighborhood": "Etna DOC",
+      "varietals": [
+        "Nerello Mascalese",
+        "Nerello Cappuccio",
+        "Carricante",
+        "Catarratto"
+      ],
+      "classification": "Etna DOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1860,
+      "tasting_program": "Wine tastings available Monday to Saturday 11:30 to 14:00. Restaurant and accommodation on site.",
+      "booking_url": "https://www.murgo.it/en/",
+      "signature_wines": [
+        "murgo-brut-metodo-classico",
+        "murgo-etna-rosso",
+        "murgo-etna-bianco"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "natural_wine": false,
+      "description": "A historic estate on Etna's eastern slopes, Murgo introduced Sicily's most acclaimed traditional-method sparkling wine in 1990 using Nerello Mascalese. The 30-hectare property has been in the Scammacca del Murgo family since 1860.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.murgo.it/en/",
+        "address_quoted": "Via Zafferana, 13 Santa Venerina (CT) Italia",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g1183484-d2307469-Reviews-Murgo_Winery-Santa_Venerina_Province_of_Catania_Sicily.html",
+        "cuisine_evidence_url": "https://www.murgo.it/en/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "frank-cornelissen",
+      "name": "Frank Cornelissen",
+      "address": "Via Canonico Zumbo 1, Passopisciaro, 95012 Castiglione di Sicilia (CT), Sicily, Italy",
+      "neighborhood": "Etna DOC",
+      "varietals": [
+        "Nerello Mascalese",
+        "Nerello Cappuccio",
+        "Catarratto",
+        "Minella",
+        "Carricante"
+      ],
+      "classification": "Etna DOC, IGP Terre Siciliane",
+      "owner": null,
+      "winemaker": null,
+      "founded": 2001,
+      "tasting_program": "Five tasting experiences from the Classic (5 wines, EU40) to the Magma private (6 crus including Grand Vin Magma, EU1,400 for up to 6 people). E-bike vineyard tours available. Book via pr@frankcornelissen.it.",
+      "booking_url": "https://www.frankcornelissen.it/estate-visits/",
+      "signature_wines": [
+        "cornelissen-magma",
+        "cornelissen-munjebel-rosso",
+        "cornelissen-munjebel-bianco"
+      ],
+      "biodynamic_status": "biodynamic_practicing",
+      "organic_status": "organic_certified",
+      "natural_wine": true,
+      "description": "Belgian natural-wine pioneer Frank Cornelissen established his estate on Etna's north slope in 2001, working without sulphur at all. His Magma cuvee from ungrafted pre-phylloxera Nerello vines above 1,000 metres is among Sicily's most sought-after cult wines.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.frankcornelissen.it/",
+        "address_quoted": "Via Canonico Zumbo, 1 (hamlet of Passopisciaro) IT - 95012 Castiglione di Sicilia (CT) Etna Nord - Sicily",
+        "open_status": "open",
+        "open_evidence_url": "https://www.frankcornelissen.it/estate-visits/",
+        "cuisine_evidence_url": "https://www.frankcornelissen.it/estate-visits/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "cos",
+      "name": "COS",
+      "address": "SP3 Acate-Chiaramonte Km 14,300, 97019 Vittoria (RG), Sicily, Italy",
+      "neighborhood": "Cerasuolo di Vittoria DOCG",
+      "varietals": [
+        "Nero d'Avola",
+        "Frappato",
+        "Grecanico",
+        "Zibibbo"
+      ],
+      "classification": "Cerasuolo di Vittoria DOCG, Vittoria DOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1980,
+      "tasting_program": "Winery visits by reservation only. Contact via the COS website or telephone (+39 0932 876145).",
+      "booking_url": "https://www.cosvittoria.it/en/",
+      "signature_wines": [
+        "cos-cerasuolo-di-vittoria",
+        "cos-pithos-rosso",
+        "cos-rami"
+      ],
+      "biodynamic_status": "biodynamic_practicing",
+      "organic_status": "organic_certified",
+      "natural_wine": true,
+      "description": "Founded in 1980 by Giambattista Cilia, Cirino Strano and Giusto Occhipinti, COS pioneered biodynamic farming and amphora fermentation in Sicily. Their Cerasuolo di Vittoria DOCG from Nero d'Avola and Frappato is the defining expression of the appellation.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.cosvittoria.it/en/",
+        "address_quoted": "S.P. 3 Acate-Chiaramonte, Km. 14,300 97019 Vittoria (RG)",
+        "open_status": "open",
+        "open_evidence_url": "https://www.cosvittoria.it/en/the-company/",
+        "cuisine_evidence_url": "https://www.cosvittoria.it/en/the-company/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "arianna-occhipinti",
+      "name": "Arianna Occhipinti",
+      "address": "SP68 Vittoria-Pedalino Km 3,3, 97019 Vittoria (RG), Sicily, Italy",
+      "neighborhood": "Cerasuolo di Vittoria DOCG",
+      "varietals": [
+        "Frappato",
+        "Nero d'Avola"
+      ],
+      "classification": "Cerasuolo di Vittoria DOCG, Vittoria DOC, IGP Terre Siciliane",
+      "owner": null,
+      "winemaker": null,
+      "founded": 2004,
+      "tasting_program": "Visits by reservation year-round, mornings or afternoons. Vineyard walk, cellar tour and wine and oil tasting with olives and bruschetta. Languages: Italian, English, French. Contact +39 0932 1865519.",
+      "booking_url": "https://www.agricolaocchipinti.it/en/contatti/",
+      "signature_wines": [
+        "occhipinti-sp68-rosso",
+        "occhipinti-sp68-bianco",
+        "occhipinti-siccagno"
+      ],
+      "biodynamic_status": "biodynamic_practicing",
+      "organic_status": "organic_certified",
+      "natural_wine": true,
+      "description": "Arianna Occhipinti started with one hectare along the SP68 road in 2004 and has grown to 40 hectares farmed organically and biodynamically. Her SP68 Rosso blending Frappato and Nero d'Avola is among Italy's most celebrated natural wines.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.agricolaocchipinti.it/en/",
+        "address_quoted": "SP68 VITTORIA-PEDALINO KM 3,3 - 97019 VITTORIA (RG) SICILY ITALY",
+        "open_status": "open",
+        "open_evidence_url": "https://www.agricolaocchipinti.it/en/contatti/",
+        "cuisine_evidence_url": "https://www.agricolaocchipinti.it/en/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "valle-dellacate",
+      "name": "Valle dell'Acate",
+      "address": "Contrada Biddini Soprano, 97011 Acate (RG), Sicily, Italy",
+      "neighborhood": "Cerasuolo di Vittoria DOCG",
+      "varietals": [
+        "Frappato",
+        "Nero d'Avola",
+        "Grillo",
+        "Vermentino"
+      ],
+      "classification": "Cerasuolo di Vittoria DOCG, Vittoria DOC, Sicilia DOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": null,
+      "tasting_program": "Classic wine tastings, chef-led pairings, cooking courses and vineyard walks at the Acate estate.",
+      "booking_url": "https://www.valledellacate.com/en/",
+      "signature_wines": [
+        "valle-acate-cerasuolo-di-vittoria",
+        "valle-acate-il-frappato",
+        "valle-acate-tane"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "organic_certified",
+      "natural_wine": false,
+      "description": "Six generations of the Jacono family have farmed these 70 hectares in the Ragusa province. Gaetana Jacono runs the estate, producing organic Frappato and Nero d'Avola that anchor their acclaimed Cerasuolo di Vittoria DOCG blend.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.valledellacate.com/en/",
+        "address_quoted": "Contrada Biddini Soprano, 97011 Acate (RG)",
+        "open_status": "open",
+        "open_evidence_url": "https://www.winerytastingsicily.com/producer/valle-dell-acate-vittoria-comiso-ragusa-visit/",
+        "cuisine_evidence_url": "https://www.valledellacate.com/en/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "gulfi",
+      "name": "Gulfi",
+      "address": "Contrada Maccari, Strada Prov. Noto-Pachino Km 13.5, 96017 Noto (SR), Sicily, Italy",
+      "neighborhood": "Eloro DOC",
+      "varietals": [
+        "Nero d'Avola",
+        "Nerello Cappuccio",
+        "Albanello",
+        "Carricante"
+      ],
+      "classification": "Eloro DOC, Sicilia DOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": null,
+      "tasting_program": "Visits and tastings at the Noto estate. Contact info@gulfi.it.",
+      "booking_url": "https://www.gulfi.it/it",
+      "signature_wines": [
+        "gulfi-nerojbleo",
+        "gulfi-nerobuffaleffj",
+        "gulfi-nerobaronj"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "organic_certified",
+      "natural_wine": false,
+      "description": "Gulfi owns some of the oldest Nero d'Avola parcels in the Pachino area, including pre-phylloxera crus at Maccaraj, Bufaleffj, Baronj and Sanlorenzo. The estate's four single-vineyard bottlings set the benchmark for terroir-expressive Nero d'Avola.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.gulfi.it/it",
+        "address_quoted": "C. Maccari, Strada Prov. Noto-Pachino, KM 13.5, 96017 Noto (SR)",
+        "open_status": "open",
+        "open_evidence_url": "https://www.winerytastingsicily.com/producer/gulfi-winery-ragusa-chiaramonte/",
+        "cuisine_evidence_url": "https://www.gulfi.it/it",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "feudo-montoni",
+      "name": "Feudo Montoni",
+      "address": "Contrada Montoni Vecchi, 92022 Cammarata (AG), Sicily, Italy",
+      "neighborhood": "Sicilia DOC",
+      "varietals": [
+        "Nero d'Avola",
+        "Catarratto",
+        "Grillo"
+      ],
+      "classification": "Sicilia DOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": null,
+      "tasting_program": "Visits by appointment at the Cammarata estate in central Sicily. Contact info@feudomontoni.it.",
+      "booking_url": "http://www.feudomontoni.it/",
+      "signature_wines": [
+        "feudo-montoni-vrucara",
+        "feudo-montoni-lagnusa",
+        "feudo-montoni-grillo-della-timpa"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "organic_certified",
+      "natural_wine": false,
+      "description": "Fabio Sireci's Feudo Montoni sits in the hills of central Sicily at Cammarata, farming pre-phylloxera Nero d'Avola vines. The Vrucara single-vineyard bottling from ungrafted vines is one of Sicily's most distinctive and sought-after Nero d'Avola expressions.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "http://www.feudomontoni.it/",
+        "address_quoted": "Contrada Montoni Vecchi, 92022 Cammarata (AG)",
+        "open_status": "open",
+        "open_evidence_url": "https://www.italysfinestwines.it/en/feudo-montoni/",
+        "cuisine_evidence_url": "http://www.feudomontoni.it/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "firriato",
+      "name": "Firriato",
+      "address": "Via Trapani 4, 91027 Paceco (TP), Sicily, Italy",
+      "neighborhood": "Sicilia DOC",
+      "varietals": [
+        "Nero d'Avola",
+        "Nerello Mascalese",
+        "Perricone",
+        "Syrah",
+        "Cabernet Sauvignon",
+        "Grillo",
+        "Catarratto",
+        "Chardonnay",
+        "Inzolia"
+      ],
+      "classification": "Etna DOC, Sicilia DOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1978,
+      "tasting_program": "Guided cellar tours, vineyard visits and tastings at the Baglio Soria resort in Paceco and at Cavanera Etnea on Etna. By appointment.",
+      "booking_url": "https://visit.firriato.it/?lang=en",
+      "signature_wines": [
+        "firriato-camelot",
+        "firriato-ribeca",
+        "firriato-chiaramonte-nero-davola"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "natural_wine": false,
+      "description": "Founded by Salvatore Di Gaetano in 1978, Firriato has grown into one of Sicily's largest and most diverse producers with approximately 490 hectares across seven estates. Their reach spans from the Trapani hills to Etna and the island of Favignana.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://firriato.it/?lang=en",
+        "address_quoted": "Via Trapani 4, Paceco (TP) - Italy",
+        "open_status": "open",
+        "open_evidence_url": "https://visit.firriato.it/?lang=en",
+        "cuisine_evidence_url": "https://firriato.it/?lang=en",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "cusumano",
+      "name": "Cusumano",
+      "address": "SS113 Km 307, Contrada San Carlo, 90047 Partinico (PA), Sicily, Italy",
+      "neighborhood": "Sicilia DOC",
+      "varietals": [
+        "Nero d'Avola",
+        "Syrah",
+        "Merlot",
+        "Cabernet Sauvignon",
+        "Nerello Mascalese",
+        "Inzolia",
+        "Grillo",
+        "Chardonnay",
+        "Fiano"
+      ],
+      "classification": "Sicilia DOC, Etna DOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 2001,
+      "tasting_program": "Wine tastings and direct sales at the Partinico winery. Contact info@cusumano.it or call +39 091 8908713.",
+      "booking_url": "https://cusumano.it/en/",
+      "signature_wines": [
+        "cusumano-sagana",
+        "cusumano-benuara",
+        "alta-mora-etna-rosso"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "natural_wine": false,
+      "description": "Brothers Alberto and Diego Cusumano founded their estate in 2001 at Partinico with five estate vineyards and more than 500 hectares. The Sagana single-vineyard Nero d'Avola from Riesi and Alta Mora Etna range mark their quality poles.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://cusumano.it/en/",
+        "address_quoted": "SS 113 Km 307, Contrada San Carlo, 90047 Partinico (PA)",
+        "open_status": "open",
+        "open_evidence_url": "https://cusumano.it/en/contacts",
+        "cuisine_evidence_url": "https://cusumano.it/en/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "baglio-di-pianetto",
+      "name": "Baglio di Pianetto",
+      "address": "Via Francia, 90030 Santa Cristina Gela (PA), Sicily, Italy",
+      "neighborhood": "Sicilia DOC",
+      "varietals": [
+        "Nero d'Avola",
+        "Syrah",
+        "Merlot",
+        "Cabernet Sauvignon",
+        "Inzolia",
+        "Catarratto",
+        "Viognier"
+      ],
+      "classification": "Sicilia DOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1997,
+      "tasting_program": "Private visits and introductory wine courses at the 20-room agrirelais. Monday to Friday 09:00 to 17:00 by appointment.",
+      "booking_url": "https://www.bagliodipianetto.it/en/",
+      "signature_wines": [
+        "baglio-pianetto-ramione",
+        "baglio-pianetto-ficiligno",
+        "baglio-pianetto-viafrancia"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "organic_certified",
+      "natural_wine": false,
+      "description": "Founded in 1997 by Count Paolo Marzotto, Baglio di Pianetto sits at 900 metres near Santa Cristina Gela, 25 kilometres from Palermo. The estate blends Sicilian and French winemaking traditions across 106 hectares, with an elegant agrirelais for overnight stays.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.bagliodipianetto.it/en/",
+        "address_quoted": "Via Francia, Santa Cristina Gela - Palermo, Italy",
+        "open_status": "open",
+        "open_evidence_url": "https://www.bagliodipianetto.it/en/",
+        "cuisine_evidence_url": "https://www.bagliodipianetto.it/en/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "feudi-del-pisciotto",
+      "name": "Feudi del Pisciotto",
+      "address": "Contrada del Pisciotto, 93015 Niscemi (CL), Sicily, Italy",
+      "neighborhood": "Cerasuolo di Vittoria DOCG",
+      "varietals": [
+        "Nero d'Avola",
+        "Frappato",
+        "Grillo",
+        "Syrah"
+      ],
+      "classification": "Cerasuolo di Vittoria DOCG, Sicilia DOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": null,
+      "tasting_program": "Wine Relais with boutique hotel, restaurant and wine experiences at the restored 18th-century manor in the Val di Noto.",
+      "booking_url": "https://www.feudidelpisciotto.it/en/",
+      "signature_wines": [
+        "feudi-pisciotto-cerasuolo-di-vittoria",
+        "feudi-pisciotto-versace-nero-davola"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "natural_wine": false,
+      "description": "Feudi del Pisciotto is an 18th-century restored manor on the edge of the Sughereta di Niscemi Nature Reserve producing wines in the Val di Noto. It is also a Wine Relais hotel with restaurant, combining Sicilian wine culture with upscale rural hospitality.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.feudidelpisciotto.it/en/",
+        "address_quoted": "Contrada del Pisciotto, 93015 - Niscemi (CL)",
+        "open_status": "open",
+        "open_evidence_url": "https://www.feudidelpisciotto.it/en/the-wines.html",
+        "cuisine_evidence_url": "https://www.feudidelpisciotto.eu/en/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "morgante",
+      "name": "Morgante",
+      "address": "Contrada Racalmare, 92020 Grotte (AG), Sicily, Italy",
+      "neighborhood": "Sicilia DOC",
+      "varietals": [
+        "Nero d'Avola"
+      ],
+      "classification": "Sicilia DOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": null,
+      "tasting_program": "Winery visits by appointment. Contact info@morgantevini.it or call +39 0922 945579.",
+      "booking_url": "https://www.morgantevini.it/",
+      "signature_wines": [
+        "morgante-nero-davola",
+        "morgante-don-antonio"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "natural_wine": false,
+      "description": "The Morgante family at Grotte in the Agrigento province focuses almost exclusively on Nero d'Avola, producing a standard and a single-vineyard Don Antonio from vineyards in the hot hilly interior of Sicily.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.morgantevini.it/",
+        "address_quoted": "Contrada Racalmare, 92020 Grotte (AG)",
+        "open_status": "open",
+        "open_evidence_url": "https://www.winebow.com/our-brands/morgante",
+        "cuisine_evidence_url": "https://www.morgantevini.it/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "zisola",
+      "name": "Zisola (Mazzei)",
+      "address": "Contrada Zisola, 96017 Noto (SR), Sicily, Italy",
+      "neighborhood": "Noto DOC",
+      "varietals": [
+        "Nero d'Avola",
+        "Syrah",
+        "Frappato",
+        "Grillo"
+      ],
+      "classification": "Noto DOC, Eloro DOC, Sicilia DOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": null,
+      "tasting_program": "Wine tours and tastings at the Noto estate. Reserve via enoteca@zisola.it or call +39 0931 839288.",
+      "booking_url": "https://us.mazzei.it/pages/wine-tour-tasting-zisola",
+      "signature_wines": [
+        "zisola-doppiozeta",
+        "zisola-zisola",
+        "zisola-mofete"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "natural_wine": false,
+      "description": "The Mazzei family of Tuscany established Zisola near Noto in 2003, planting 50 hectares with Nero d'Avola and Syrah. The estate overlooks the Baroque town of Noto and produces wines that blend Tuscan winemaking precision with Sicilian terroir.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://us.mazzei.it/pages/tenuta-zisola",
+        "address_quoted": "Contrada Zisola, I-96017 Noto (SR), Sicily",
+        "open_status": "open",
+        "open_evidence_url": "https://us.mazzei.it/pages/wine-tour-tasting-zisola",
+        "cuisine_evidence_url": "https://us.mazzei.it/pages/zisola-wines",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "tenuta-di-fessina",
+      "name": "Tenuta di Fessina",
+      "address": "Contrada Rovittello, Via Nazionale SS120 22, 95012 Castiglione di Sicilia (CT), Sicily, Italy",
+      "neighborhood": "Etna DOC",
+      "varietals": [
+        "Nerello Mascalese",
+        "Nerello Cappuccio",
+        "Carricante"
+      ],
+      "classification": "Etna DOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": null,
+      "tasting_program": "Open every day including holidays. Tasting reception at 10:30, 13:30 and 15:30. Contact fessina@tenutadifessina.com or call +39 345 7230176.",
+      "booking_url": "https://tenutadifessina.com/",
+      "signature_wines": [
+        "fessina-erse",
+        "fessina-musmeci",
+        "fessina-a-puddara"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "organic_certified",
+      "natural_wine": false,
+      "description": "Silvia Maestrelli's Tenuta di Fessina in Rovittello at 670 metres on Etna's north slope offers one of the island's most accessible high-quality tasting experiences. The organic estate produces refined Nerello Mascalese and Carricante across its Etna DOC range.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://tenutadifessina.com/",
+        "address_quoted": "Contrada Rovittello, Via Nazionale SS 120, 22, Castiglione di Sicilia (CT)",
+        "open_status": "open",
+        "open_evidence_url": "https://tenutadifessina.com/en/contacts/",
+        "cuisine_evidence_url": "https://tenutadifessina.com/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "palmento-costanzo",
+      "name": "Palmento Costanzo",
+      "address": "Contrada Santo Spirito, Passopisciaro, 95012 Castiglione di Sicilia (CT), Sicily, Italy",
+      "neighborhood": "Etna DOC",
+      "varietals": [
+        "Nerello Mascalese",
+        "Nerello Cappuccio",
+        "Carricante",
+        "Catarratto"
+      ],
+      "classification": "Etna DOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 2011,
+      "tasting_program": "Visite e Degustazioni bookable via the estate website. Contact info@palmentocostanzo.com or call +39 0942 983239.",
+      "booking_url": "https://www.palmentocostanzo.com/en/",
+      "signature_wines": [
+        "palmento-costanzo-mofete-bianco",
+        "palmento-costanzo-mofete-rosso",
+        "palmento-costanzo-di-me"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "organic_certified",
+      "natural_wine": false,
+      "description": "Founded in 2011 by Mimmo and Valeria Costanzo, Palmento Costanzo farms approximately ten hectares organically on Etna's north slope in Contrada Santo Spirito. They produce contrada-specific wines with manual cultivation and a fully organic approach.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.palmentocostanzo.com/en/",
+        "address_quoted": "Contrada Santo Spirito Passopisciaro 95012 Castiglione di Sicilia",
+        "open_status": "open",
+        "open_evidence_url": "https://www.palmentocostanzo.com/en/",
+        "cuisine_evidence_url": "https://www.palmentocostanzo.com/en/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "tornatore",
+      "name": "Tornatore",
+      "address": "Via Pietramarina 8, 95012 Castiglione di Sicilia (CT), Sicily, Italy",
+      "neighborhood": "Etna DOC",
+      "varietals": [
+        "Nerello Mascalese",
+        "Nerello Cappuccio",
+        "Carricante",
+        "Catarratto"
+      ],
+      "classification": "Etna DOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1865,
+      "tasting_program": "Guided tours and tastings at the estate, described as the largest single vineyard in Etna DOC. Contact +39 337 1087964.",
+      "booking_url": "https://www.tornatorewine.com/?lang=en",
+      "signature_wines": [
+        "tornatore-etna-bianco",
+        "tornatore-etna-rosso",
+        "tornatore-trimarchisa"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "natural_wine": false,
+      "description": "The Tornatore family has farmed on Etna since 1865, with a large single-vineyard block in the Castiglione di Sicilia hills. Their estate is often cited as Etna DOC's largest single property, producing a full range of DOC wines from Nerello and Carricante.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.tornatorewine.com/?lang=en",
+        "address_quoted": "Azienda Agricola Francesco Tornatore - Via Pietramarina, 8 - 95012 Castiglione di Sicilia (CT) - Italy",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tornatorewine.com/?lang=en",
+        "cuisine_evidence_url": "https://www.tornatorewine.com/?lang=en",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "tenute-nicosia",
+      "name": "Tenute Nicosia",
+      "address": "Via Luigi Capuana 65, 95039 Trecastagni (CT), Sicily, Italy",
+      "neighborhood": "Etna DOC",
+      "varietals": [
+        "Nerello Mascalese",
+        "Nerello Cappuccio",
+        "Carricante",
+        "Nero d'Avola",
+        "Frappato",
+        "Catarratto"
+      ],
+      "classification": "Etna DOC, Cerasuolo di Vittoria DOCG, Sicilia DOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": null,
+      "tasting_program": "Guided tours and tastings by reservation at the Trecastagni winery. Multiple tasting packages including Contrade dell'Etna. Contact info@cantinenicosia.it.",
+      "booking_url": "https://www.tenutenicosia.it/en/experiences",
+      "signature_wines": [
+        "nicosia-etna-rosso-fondo-filara",
+        "nicosia-etna-bianco",
+        "nicosia-monte-gorna"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "organic_certified",
+      "natural_wine": false,
+      "description": "Tenute Nicosia operates vineyards on Etna and in Vittoria, producing organic wines across a broad range including Etna DOC and Cerasuolo di Vittoria DOCG. Their Trecastagni winery on the south-east slope of Etna is a key wine-tourism destination.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.tenutenicosia.it/en/",
+        "address_quoted": "Via Luigi Capuana, 65, 95039 Trecastagni, Catania",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tenutenicosia.it/en/experiences",
+        "cuisine_evidence_url": "https://www.tenutenicosia.it/en/wines",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "baglio-del-cristo-di-campobello",
+      "name": "Baglio del Cristo di Campobello",
+      "address": "Contrada Favarotta SS123 Km 19+200, 92023 Campobello di Licata (AG), Sicily, Italy",
+      "neighborhood": "Sicilia DOC",
+      "varietals": [
+        "Nero d'Avola",
+        "Syrah",
+        "Cabernet Sauvignon",
+        "Nerello Mascalese",
+        "Grillo",
+        "Inzolia",
+        "Catarratto"
+      ],
+      "classification": "Sicilia DOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 2000,
+      "tasting_program": "Winery visits and tastings at the Campobello di Licata estate. Contact via the estate website.",
+      "booking_url": "https://www.wineinsicily.com/en/cantine-winetour/bagli-del-cristo-di-campobello/",
+      "signature_wines": [
+        "baglio-cristo-adenzia",
+        "baglio-cristo-lu-patri"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "organic_certified",
+      "natural_wine": false,
+      "description": "Founded in 2000 by the Bonetta family near Agrigento, Baglio del Cristo di Campobello farms 50 hectares on calcareous chalky soils 8 kilometres from the sea. Their Adennzia white and Lu Patri red have earned international recognition for quality Sicilian DOC wines.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.winescholarguild.com/producer-guide/italy/sicily/3315-baglio-del-cristo-di-campobello",
+        "address_quoted": "Contrada Favarotta S.S. 123 km 19+200, 92023 Campobello di Licata (AG)",
+        "open_status": "open",
+        "open_evidence_url": "https://www.winerytastingsicily.com/producer/baglio-del-cristo-di-campobello-licata-agrigento/",
+        "cuisine_evidence_url": "https://www.winescholarguild.com/producer-guide/italy/sicily/3315-baglio-del-cristo-di-campobello",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "settesoli-mandrarossa",
+      "name": "Settesoli Mandrarossa",
+      "address": "Contrada Puccia, 92013 Menfi (AG), Sicily, Italy",
+      "neighborhood": "Menfi DOC",
+      "varietals": [
+        "Nero d'Avola",
+        "Syrah",
+        "Cabernet Sauvignon",
+        "Merlot",
+        "Grillo",
+        "Catarratto",
+        "Inzolia",
+        "Chardonnay",
+        "Grecanico",
+        "Fiano"
+      ],
+      "classification": "Menfi DOC, Sicilia DOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1958,
+      "tasting_program": "Tuesday to Saturday 09:30 to 18:00. Guided cellar visits and wine tastings. Reservations required.",
+      "booking_url": "https://www.mandrarossa.it/en",
+      "signature_wines": [
+        "mandrarossa-terre-di-giumara",
+        "mandrarossa-timperosse",
+        "mandrarossa-nero-davola"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "natural_wine": false,
+      "description": "Cantine Settesoli is the cooperative giant of Menfi DOC, founded in 1958, with Mandrarossa as its premium terroir-selection brand launched in 1999. Over 2,000 grower-members supply grapes from more than 6,000 hectares, making this the largest wine operation in Sicily.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.mandrarossa.it/en",
+        "address_quoted": "Contrada Puccia, 92013 Menfi (AG), Sicily, Italy",
+        "open_status": "open",
+        "open_evidence_url": "https://www.mandrarossa.it/en/contacts",
+        "cuisine_evidence_url": "https://www.mandrarossa.it/en",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "tenuta-gatti",
+      "name": "Tenuta Gatti",
+      "address": "Via Vignola, 98064 Librizzi (ME), Sicily, Italy",
+      "neighborhood": "Faro DOC",
+      "varietals": [
+        "Nero d'Avola",
+        "Nerello Mascalese",
+        "Nocera",
+        "Catarratto",
+        "Inzolia",
+        "Grillo",
+        "Pinot Nero",
+        "Cabernet Sauvignon",
+        "Merlot"
+      ],
+      "classification": "Sicilia DOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1825,
+      "tasting_program": "Visits and tastings at the historic Nebrodi estate with views toward the Aeolian Islands. Contact via winetourism.com.",
+      "booking_url": "https://www.winetourism.com/winery/tenuta-gatti/",
+      "signature_wines": [
+        "tenuta-gatti-pinot-nero",
+        "tenuta-gatti-nero-davola"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "organic_certified",
+      "natural_wine": false,
+      "description": "A historic organic estate spanning 217 hectares founded in 1825 at Librizzi in the Messina province, set on the Nebrodi slopes with views to the Aeolian Islands. Tenuta Gatti cultivates an unusually diverse mix of native and international varieties.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.winetourism.com/winery/tenuta-gatti/",
+        "address_quoted": "Via Vignola, 98064 Librizzi (ME)",
+        "open_status": "open",
+        "open_evidence_url": "https://www.winerytastingsicily.com/producer/tenuta-gatti-winery-cellar-librizzi-messina/",
+        "cuisine_evidence_url": "https://www.winetourism.com/winery/tenuta-gatti/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "tasca-tascante",
+      "name": "Tenuta Tascante (Tasca d'Almerita on Etna)",
+      "address": "Contrada Rampante, 95012 Castiglione di Sicilia (CT), Sicily, Italy",
+      "neighborhood": "Etna DOC",
+      "varietals": [
+        "Nerello Mascalese",
+        "Carricante"
+      ],
+      "classification": "Etna DOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 2010,
+      "tasting_program": "Visits bookable via the Tasca d'Almerita website. Estate is located in Contrada Rampante on Etna's north slope.",
+      "booking_url": "https://tascadalmerita.it/en",
+      "signature_wines": [
+        "tascante-ghiaia-nera",
+        "tascante-il-picciolo"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "natural_wine": false,
+      "description": "Tasca d'Almerita's Etna estate in Castiglione di Sicilia, established around 2010, produces contrada-expressive Nerello Mascalese reds and Carricante whites within the Etna DOC. Ghiaia Nera is the benchmark cuvee of the estate.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://tascadalmerita.it/en",
+        "address_quoted": "Contrada Rampante, Castiglione di Sicilia, Etna, Sicily",
+        "open_status": "open",
+        "open_evidence_url": "https://tascadalmerita.it/en",
+        "cuisine_evidence_url": "https://tascadalmerita.it/en",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "rallo",
+      "name": "Cantina Rallo",
+      "address": "Via Vincenzo Florio 2, 91025 Marsala (TP), Sicily, Italy",
+      "neighborhood": "Marsala DOC",
+      "varietals": [
+        "Grillo",
+        "Catarratto",
+        "Inzolia",
+        "Nero d'Avola",
+        "Zibibbo"
+      ],
+      "classification": "Marsala DOC, Alcamo DOC, Pantelleria DOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1860,
+      "tasting_program": "Historic Marsala cellar visits and tastings. Contact via the Rallo website.",
+      "booking_url": "https://www.rallo1860.it/",
+      "signature_wines": [
+        "rallo-marsala-superiore",
+        "rallo-alcamo-bianco"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "natural_wine": false,
+      "description": "Founded in 1860 by Diego Rallo, one of Marsala's oldest historic families. The Vesco family acquired the estate in 1996, integrating vineyards in Alcamo and Pantelleria with the historic Marsala cellars. Today the estate operates across western Sicily's key appellations.",
+      "editorial_score": 4.1,
+      "verified": {
+        "source_url": "https://www.alliancewine.com/our-producers/rallo-azienda-agricola",
+        "address_quoted": "Via Vincenzo Florio 2, Marsala (TP), Sicily",
+        "open_status": "open",
+        "open_evidence_url": "https://www.superiore.de/en/wine/sicily/cantina-rallo/",
+        "cuisine_evidence_url": "https://www.alliancewine.com/our-producers/rallo-azienda-agricola",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "planeta-sciaranuova",
+      "name": "Planeta Sciaranuova (Etna)",
+      "address": "Contrada Sciaranuova, Solicchiata, 95012 Castiglione di Sicilia (CT), Sicily, Italy",
+      "neighborhood": "Etna DOC",
+      "varietals": [
+        "Nerello Mascalese",
+        "Carricante"
+      ],
+      "classification": "Etna DOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 2008,
+      "tasting_program": "Tasting experience at the Sciaranuova winery. Bookable via the Planeta estate website.",
+      "booking_url": "https://www.planetaestate.it/en/wine-tour/",
+      "signature_wines": [
+        "planeta-nerello-etna",
+        "planeta-carricante-etna"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "natural_wine": false,
+      "description": "Planeta's Etna estate in Solicchiata, established in 2008, produces Nerello Mascalese and Carricante within the Etna DOC. The Sciaranuova winery is one of the island's most architecturally striking cellar doors.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.planeta.it/en/territories/etna/",
+        "address_quoted": "Contrada Sciaranuova, Solicchiata, Castiglione di Sicilia (CT), Sicily",
+        "open_status": "open",
+        "open_evidence_url": "https://www.planetaestate.it/en/wine-tour/",
+        "cuisine_evidence_url": "https://www.planeta.it/en/territories/etna/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "planeta-buonivini",
+      "name": "Planeta Buonivini (Noto)",
+      "address": "Contrada Buonivini, 96017 Noto (SR), Sicily, Italy",
+      "neighborhood": "Noto DOC",
+      "varietals": [
+        "Nero d'Avola",
+        "Syrah",
+        "Moscato Bianco"
+      ],
+      "classification": "Noto DOC, Sicilia DOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 2003,
+      "tasting_program": "Tasting experience at the Buonivini winery near Noto. Bookable via the Planeta estate website.",
+      "booking_url": "https://www.planetaestate.it/en/wine-tour/",
+      "signature_wines": [
+        "planeta-noto-nero-davola"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "natural_wine": false,
+      "description": "Planeta's Noto estate produces Nero d'Avola and Moscato di Noto from the sun-drenched south-east of Sicily. The Buonivini contrada is within the historic Noto DOC, home to some of Sicily's oldest Nero d'Avola vines.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.planeta.it/en/territories/noto/",
+        "address_quoted": "Contrada Buonivini, 96017 Noto (SR), Sicily",
+        "open_status": "open",
+        "open_evidence_url": "https://www.planetaestate.it/en/wine-tour/",
+        "cuisine_evidence_url": "https://www.planeta.it/en/territories/noto/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "donnafugata-pantelleria",
+      "name": "Donnafugata Pantelleria",
+      "address": "Via S. Michele, 91017 Pantelleria (TP), Sicily, Italy",
+      "neighborhood": "Pantelleria DOC",
+      "varietals": [
+        "Zibibbo"
+      ],
+      "classification": "Passito di Pantelleria DOC, Pantelleria DOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1990,
+      "tasting_program": "Estate visits on Pantelleria. Bookable via the Donnafugata visit site.",
+      "booking_url": "https://visit.donnafugata.it/en/",
+      "signature_wines": [
+        "donnafugata-ben-rye"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "natural_wine": false,
+      "description": "Donnafugata's Pantelleria estate produces the celebrated Ben Rye Passito di Pantelleria DOC from Zibibbo (Moscato d'Alessandria) vines trained in the alberello pantesco system on volcanic soils. Ben Rye is consistently rated among Italy's finest sweet wines.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.donnafugata.it/en/",
+        "address_quoted": "Via S. Michele, 91017 Pantelleria (TP), Sicily",
+        "open_status": "open",
+        "open_evidence_url": "https://visit.donnafugata.it/en/",
+        "cuisine_evidence_url": "https://www.donnafugata.it/en/the-wine/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "de-bartoli-pantelleria",
+      "name": "Marco De Bartoli - Bukkuram (Pantelleria)",
+      "address": "Via S. Michele 41, 91017 Pantelleria (TP), Sicily, Italy",
+      "neighborhood": "Pantelleria DOC",
+      "varietals": [
+        "Zibibbo"
+      ],
+      "classification": "Passito di Pantelleria DOC, Moscato di Pantelleria DOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1978,
+      "tasting_program": "Visits by appointment on Pantelleria. Contact via the Marco De Bartoli website.",
+      "booking_url": "https://www.marcodebartoli.com/en/wine-tourism/",
+      "signature_wines": [
+        "de-bartoli-bukkuram-sole-d-agosto"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "natural_wine": true,
+      "description": "Marco De Bartoli's Pantelleria estate at Bukkuram produces the Sole d'Agosto passito from Zibibbo vines trained in the alberello pantesco system. The wine is a benchmark of minimal-intervention Pantelleria passito style.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.marcodebartoli.com/en/",
+        "address_quoted": "Via S. Michele, 91017 Pantelleria TP",
+        "open_status": "open",
+        "open_evidence_url": "https://www.marcodebartoli.com/en/wine-tourism/",
+        "cuisine_evidence_url": "https://www.marcodebartoli.com/en/samperi/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "cusumano-alta-mora",
+      "name": "Alta Mora by Cusumano (Etna)",
+      "address": "Contrada Verzella, 95012 Castiglione di Sicilia (CT), Sicily, Italy",
+      "neighborhood": "Etna DOC",
+      "varietals": [
+        "Nerello Mascalese",
+        "Carricante"
+      ],
+      "classification": "Etna DOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 2013,
+      "tasting_program": "Etna estate tastings bookable via the Cusumano website.",
+      "booking_url": "https://cusumano.it/en/",
+      "signature_wines": [
+        "alta-mora-etna-rosso",
+        "alta-mora-etna-bianco"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "natural_wine": false,
+      "description": "Cusumano's Etna label Alta Mora is produced from the Verzella contrada on the north slope of Etna. The range focuses on Nerello Mascalese for reds and Carricante for whites, with contrada bottlings among the island's most accessible Etna expressions.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://cusumano.it/en/",
+        "address_quoted": "Contrada Verzella, 95012 Castiglione di Sicilia (CT)",
+        "open_status": "open",
+        "open_evidence_url": "https://cusumano.it/en/contacts",
+        "cuisine_evidence_url": "https://cusumano.it/en/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "milazzo-mamertino",
+      "name": "Cantine Milazzo",
+      "address": "Contrada Feudo Soprano, 98057 Milazzo (ME), Sicily, Italy",
+      "neighborhood": "Mamertino DOC",
+      "varietals": [
+        "Nero d'Avola",
+        "Nocera",
+        "Nerello Mascalese",
+        "Grillo",
+        "Catarratto"
+      ],
+      "classification": "Mamertino DOC, Sicilia DOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": null,
+      "tasting_program": "Winery visits and tastings at the Milazzo estate near the Tyrrhenian coast. Contact via the winery.",
+      "booking_url": "https://www.winerytastingsicily.com/producer/cantine-milazzo-milazzo-messina/",
+      "signature_wines": [
+        "milazzo-mamertino-rosso",
+        "milazzo-nero-davola"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "natural_wine": false,
+      "description": "Cantine Milazzo is one of the few producers working seriously within the rare Mamertino DOC, an appellation near Milazzo in the Messina province with roots in ancient Roman viniculture. Their Nocera-blended reds reflect this underexplored north-east terroir.",
+      "editorial_score": 4.1,
+      "verified": {
+        "source_url": "https://www.winerytastingsicily.com/producer/cantine-milazzo-milazzo-messina/",
+        "address_quoted": "Contrada Feudo Soprano, Milazzo (ME), Sicily",
+        "open_status": "open",
+        "open_evidence_url": "https://www.winerytastingsicily.com/producer/cantine-milazzo-milazzo-messina/",
+        "cuisine_evidence_url": "https://www.winerytastingsicily.com/producer/cantine-milazzo-milazzo-messina/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "hauner",
+      "name": "Hauner (Malvasia delle Lipari)",
+      "address": "Via Umberto I 83, 98050 Santa Marina di Salina (ME), Sicily, Italy",
+      "neighborhood": "Malvasia delle Lipari DOC",
+      "varietals": [
+        "Malvasia di Lipari",
+        "Corinto Nero"
+      ],
+      "classification": "Malvasia delle Lipari DOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1963,
+      "tasting_program": "Tasting room at the estate on Salina. Open to visitors in the Aeolian Island season (April to October). Contact via the Hauner website.",
+      "booking_url": "https://www.hauner.it/",
+      "signature_wines": [
+        "hauner-malvasia-delle-lipari",
+        "hauner-malvasia-delle-lipari-passito"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "natural_wine": false,
+      "description": "Founded by Carlo Hauner in 1963 on Salina in the Aeolian Islands, Hauner is the defining producer of Malvasia delle Lipari DOC. Their passito and naturale styles from Malvasia di Lipari vines are the benchmark for this rare island appellation.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.hauner.it/",
+        "address_quoted": "Via Umberto I 83, 98050 Santa Marina di Salina (ME)",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.caravaglio.it/",
+        "cuisine_evidence_url": "https://www.hauner.it/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "caravaglio",
+      "name": "Caravaglio (Salina / Malvasia)",
+      "address": "Via Nazionale 12, 98050 Malfa, Salina (ME), Sicily, Italy",
+      "neighborhood": "Malvasia delle Lipari DOC",
+      "varietals": [
+        "Malvasia di Lipari",
+        "Nero d'Avola",
+        "Corinto Nero"
+      ],
+      "classification": "Malvasia delle Lipari DOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": null,
+      "tasting_program": "Seasonal tastings on Salina. Contact via the Caravaglio website.",
+      "booking_url": "https://www.caravaglio.it/",
+      "signature_wines": [
+        "caravaglio-malvasia-passito",
+        "caravaglio-salina-bianco"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "organic_certified",
+      "natural_wine": false,
+      "description": "A second-generation family estate on Salina producing organic Malvasia delle Lipari DOC wines alongside a Nero d'Avola-based red. Caravaglio's minimal-intervention passito is a benchmark expression of the Aeolian Islands' volcanic terroir.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.caravaglio.it/",
+        "address_quoted": "Via Nazionale 12, 98050 Malfa, Salina (ME), Sicily",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.caravaglio.it/",
+        "cuisine_evidence_url": "https://www.caravaglio.it/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "firriato-cavanera",
+      "name": "Firriato Cavanera Etnea",
+      "address": "Contrada Verzella, Castiglione di Sicilia (CT), Sicily, Italy",
+      "neighborhood": "Etna DOC",
+      "varietals": [
+        "Nerello Mascalese",
+        "Nerello Cappuccio",
+        "Carricante"
+      ],
+      "classification": "Etna DOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": null,
+      "tasting_program": "Wine resort and restaurant on Etna's north slope. Visits and stays bookable via Firriato.",
+      "booking_url": "https://visit.firriato.it/cavanera-etnea/?lang=en",
+      "signature_wines": [
+        "firriato-gaudensius-etna-brut",
+        "firriato-cavanera-ripa-di-moraci"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "natural_wine": false,
+      "description": "Firriato's Etna estate in the Verzella contrada includes the Cavanera resort, one of the most complete wine-tourism experiences on Etna, with accommodation, restaurant, cellar visits and the Gaudensius traditional-method sparkling wine from Nerello Mascalese.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://visit.firriato.it/cavanera-etnea/?lang=en",
+        "address_quoted": "Contrada Verzella, Castiglione di Sicilia (CT), Sicily",
+        "open_status": "open",
+        "open_evidence_url": "https://visit.firriato.it/cavanera-etnea/?lang=en",
+        "cuisine_evidence_url": "https://firriato.it/?lang=en",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "cos-pithos",
+      "name": "COS Pithos (amphora wines)",
+      "address": "SP3 Acate-Chiaramonte Km 14,300, 97019 Vittoria (RG), Sicily, Italy",
+      "neighborhood": "Cerasuolo di Vittoria DOCG",
+      "varietals": [
+        "Grecanico",
+        "Nero d'Avola",
+        "Frappato",
+        "Zibibbo"
+      ],
+      "classification": "IGP Terre Siciliane",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1980,
+      "tasting_program": "Amphora wines tasted alongside DOCG range at the COS estate. By reservation.",
+      "booking_url": "https://www.cosvittoria.it/en/",
+      "signature_wines": [
+        "cos-pithos-bianco",
+        "cos-pithos-rosso"
+      ],
+      "biodynamic_status": "biodynamic_practicing",
+      "organic_status": "organic_certified",
+      "natural_wine": true,
+      "description": "COS Pithos wines are fermented and aged in terracotta amphorae, reviving pre-industrial Sicilian vinification. The Pithos Bianco from Grecanico fermented on skins and the Pithos Rosso from Nero d'Avola are among Italy's most influential natural wines.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.cosvittoria.it/en/cerasuolo-vittoria-and-pithos/",
+        "address_quoted": "S.P. 3 Acate-Chiaramonte, Km. 14,300 97019 Vittoria (RG)",
+        "open_status": "open",
+        "open_evidence_url": "https://www.cosvittoria.it/en/the-company/",
+        "cuisine_evidence_url": "https://www.cosvittoria.it/en/cerasuolo-vittoria-and-pithos/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "planeta-vittoria",
+      "name": "Planeta Dorilli (Vittoria)",
+      "address": "Contrada Dorilli, 97019 Vittoria (RG), Sicily, Italy",
+      "neighborhood": "Cerasuolo di Vittoria DOCG",
+      "varietals": [
+        "Nero d'Avola",
+        "Frappato",
+        "Syrah"
+      ],
+      "classification": "Cerasuolo di Vittoria DOCG, Sicilia DOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1997,
+      "tasting_program": "Tastings at the Vittoria estate bookable via the Planeta estate site.",
+      "booking_url": "https://www.planetaestate.it/en/wine-tour/",
+      "signature_wines": [
+        "planeta-cerasuolo-di-vittoria"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "natural_wine": false,
+      "description": "Planeta's Vittoria estate in the Dorilli contrada produces Cerasuolo di Vittoria DOCG, the only DOCG in Sicily, blending Nero d'Avola and Frappato. The estate has been instrumental in raising the profile of the Vittoria appellation.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.planeta.it/en/territories/vittoria/",
+        "address_quoted": "Contrada Dorilli, 97019 Vittoria (RG), Sicily",
+        "open_status": "open",
+        "open_evidence_url": "https://www.planetaestate.it/en/wine-tour/",
+        "cuisine_evidence_url": "https://www.planeta.it/en/territories/vittoria/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "tasca-capofaro",
+      "name": "Tasca d'Almerita Capofaro (Salina)",
+      "address": "Via Faro 3, 98050 Malfa, Salina (ME), Sicily, Italy",
+      "neighborhood": "Malvasia delle Lipari DOC",
+      "varietals": [
+        "Malvasia di Lipari"
+      ],
+      "classification": "Malvasia delle Lipari DOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 2000,
+      "tasting_program": "Boutique hotel and wine resort on Salina with tasting experiences among the Malvasia vines overlooking the Tyrrhenian.",
+      "booking_url": "https://tascadalmerita.it/en",
+      "signature_wines": [
+        "capofaro-malvasia"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "natural_wine": false,
+      "description": "Tasca d'Almerita's Capofaro estate on the island of Salina in the Aeolian Islands produces Malvasia delle Lipari DOC within a boutique hotel and winery. The terrace vines with views toward Stromboli create one of Italy's most dramatic wine-tourism settings.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://tascadalmerita.it/en",
+        "address_quoted": "Via Faro 3, 98050 Malfa, Salina (ME), Sicily",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://tascadalmerita.it/en",
+        "cuisine_evidence_url": "https://tascadalmerita.it/en",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "serragghia",
+      "name": "Serragghia (Pantelleria)",
+      "address": "Contrada Khamma 132, 91017 Pantelleria (TP), Sicily, Italy",
+      "neighborhood": "Pantelleria DOC",
+      "varietals": [
+        "Zibibbo"
+      ],
+      "classification": "Passito di Pantelleria DOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": null,
+      "tasting_program": "Visits by appointment on Pantelleria. Contact via Gabrio Bini's Serragghia farm.",
+      "booking_url": "https://www.winerytastingsicily.com/producer/serragghia-di-gabrio-bini-pantelleria/",
+      "signature_wines": [
+        "serragghia-passito-di-pantelleria"
+      ],
+      "biodynamic_status": "biodynamic_practicing",
+      "organic_status": "organic_certified",
+      "natural_wine": true,
+      "description": "Gabrio Bini's Serragghia on Pantelleria is a cult natural-wine producer farming Zibibbo in the alberello pantesco system without sulphur. The Serragghia passito and natural Zibibbo whites are among Italy's most sought-after natural sweet and aromatic wines.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.winerytastingsicily.com/producer/serragghia-di-gabrio-bini-pantelleria/",
+        "address_quoted": "Contrada Khamma 132, 91017 Pantelleria (TP), Sicily",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.winerytastingsicily.com/producer/serragghia-di-gabrio-bini-pantelleria/",
+        "cuisine_evidence_url": "https://www.winerytastingsicily.com/producer/serragghia-di-gabrio-bini-pantelleria/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "maggio-vini",
+      "name": "Maggio Vini",
+      "address": "Contrada Maccari, 96017 Noto (SR), Sicily, Italy",
+      "neighborhood": "Noto DOC",
+      "varietals": [
+        "Nero d'Avola",
+        "Moscato Bianco"
+      ],
+      "classification": "Noto DOC, Sicilia DOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": null,
+      "tasting_program": "Visits and tastings at the Noto estate. Contact via the winery.",
+      "booking_url": "https://www.winerytastingsicily.com/producer/maggio-vini-noto-siracusa/",
+      "signature_wines": [
+        "maggio-vini-nero-davola",
+        "maggio-vini-moscato-di-noto"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "natural_wine": false,
+      "description": "Maggio Vini produces Noto DOC Nero d'Avola and Moscato di Noto from the Maccari contrada in the Syracuse province, one of the warmest and most sun-drenched zones in Sicily.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.winerytastingsicily.com/producer/maggio-vini-noto-siracusa/",
+        "address_quoted": "Contrada Maccari, 96017 Noto (SR), Sicily",
+        "open_status": "open",
+        "open_evidence_url": "https://www.winerytastingsicily.com/producer/maggio-vini-noto-siracusa/",
+        "cuisine_evidence_url": "https://www.winerytastingsicily.com/producer/maggio-vini-noto-siracusa/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "benanti-pietrarizzo",
+      "name": "Benanti Pietrarizzo Contrada",
+      "address": "Via Giuseppe Garibaldi 361, 95029 Viagrande (CT), Sicily, Italy",
+      "neighborhood": "Etna DOC",
+      "varietals": [
+        "Nerello Mascalese",
+        "Nerello Cappuccio"
+      ],
+      "classification": "Etna DOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1734,
+      "tasting_program": "Visits available as part of the Benanti estate experience. Book via benanti.it.",
+      "booking_url": "https://www.benanti.it/en/hospitality/",
+      "signature_wines": [
+        "benanti-pietrarizzo"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "natural_wine": false,
+      "description": "The Pietrarizzo contrada on the north slope of Etna at 800 metres produces Benanti's most mineral and savoury Nerello Mascalese. The Benanti family has farmed this plot since the 18th century, making it one of the oldest continuously cultivated contrade on the volcano.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.benanti.it/en/wines/",
+        "address_quoted": "Via Giuseppe Garibaldi 361, 95029 Viagrande (CT)",
+        "open_status": "open",
+        "open_evidence_url": "https://www.benanti.it/en/hospitality/",
+        "cuisine_evidence_url": "https://www.benanti.it/en/wines/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "duca-di-salaparuta",
+      "name": "Duca di Salaparuta (Corvo)",
+      "address": "Via Nazionale SS 113, 90040 Casteldaccia (PA), Sicily, Italy",
+      "neighborhood": "Sicilia DOC",
+      "varietals": [
+        "Nero d'Avola",
+        "Catarratto",
+        "Grillo",
+        "Inzolia",
+        "Perricone"
+      ],
+      "classification": "Sicilia DOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1824,
+      "tasting_program": "Visits and tastings at the historic Casteldaccia winery. Contact via the Duca di Salaparuta website.",
+      "booking_url": "https://www.duca.it/en/",
+      "signature_wines": [
+        "duca-di-salaparuta-bianca-di-valguarnera",
+        "duca-enrico"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "natural_wine": false,
+      "description": "Founded in 1824 by the Duke of Salaparuta, Duca di Salaparuta (Corvo) is one of Sicily's oldest commercial wine estates. Their Duca Enrico is a landmark 100% Nero d'Avola and the Bianca di Valguarnera a prestigious Inzolia white. Now owned by Illva Saronno.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.duca.it/en/",
+        "address_quoted": "Via Nazionale SS 113, 90040 Casteldaccia (PA), Sicily",
+        "open_status": "open",
+        "open_evidence_url": "https://www.duca.it/en/",
+        "cuisine_evidence_url": "https://www.duca.it/en/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "contessa-entellina-rapitala",
+      "name": "Tenuta Rapitala",
+      "address": "Contrada Rapitala, 90043 Camporeale (PA), Sicily, Italy",
+      "neighborhood": "Sicilia DOC",
+      "varietals": [
+        "Nero d'Avola",
+        "Syrah",
+        "Cabernet Sauvignon",
+        "Merlot",
+        "Catarratto",
+        "Chardonnay",
+        "Grillo"
+      ],
+      "classification": "Sicilia DOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1968,
+      "tasting_program": "Visits and tastings at the Camporeale estate. Contact via the Rapitala website.",
+      "booking_url": "https://www.rapitala.it/en/",
+      "signature_wines": [
+        "rapitala-grand-cru",
+        "rapitala-hugonis"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "natural_wine": false,
+      "description": "Tenuta Rapitala at Camporeale in the Palermo province was established by a Franco-Sicilian partnership in 1968. The estate produces a broad range of Sicilian varietal and blended wines across 170 hectares, with the Grand Cru their prestigious top bottling.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.rapitala.it/en/",
+        "address_quoted": "Contrada Rapitala, 90043 Camporeale (PA), Sicily",
+        "open_status": "open",
+        "open_evidence_url": "https://www.rapitala.it/en/",
+        "cuisine_evidence_url": "https://www.rapitala.it/en/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "abele-ajello",
+      "name": "Abele Ajello",
+      "address": "Via dei Mille 33, 91022 Castelvetrano (TP), Sicily, Italy",
+      "neighborhood": "Alcamo DOC",
+      "varietals": [
+        "Nero d'Avola",
+        "Catarratto",
+        "Grillo",
+        "Inzolia"
+      ],
+      "classification": "Alcamo DOC, Sicilia DOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": null,
+      "tasting_program": "Visits by appointment in the Belice Valley near Castelvetrano. Contact via the winery.",
+      "booking_url": "https://www.winerytastingsicily.com/producer/abele-ajello-castelvetrano-trapani/",
+      "signature_wines": [
+        "ajello-osa",
+        "ajello-tajuni-catarratto"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "organic_certified",
+      "natural_wine": false,
+      "description": "Abele Ajello is a small organic producer in the Belice Valley near Castelvetrano, working with Catarratto and Nero d'Avola in the western Sicilian interior.",
+      "editorial_score": 4.1,
+      "verified": {
+        "source_url": "https://www.winerytastingsicily.com/producer/abele-ajello-castelvetrano-trapani/",
+        "address_quoted": "Via dei Mille 33, 91022 Castelvetrano (TP), Sicily",
+        "open_status": "open",
+        "open_evidence_url": "https://www.winerytastingsicily.com/producer/abele-ajello-castelvetrano-trapani/",
+        "cuisine_evidence_url": "https://www.winerytastingsicily.com/producer/abele-ajello-castelvetrano-trapani/",
+        "checked_on": "2026-05-26"
+      }
+    }
+  ]
+}
