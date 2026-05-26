@@ -359,12 +359,12 @@
         },
         {
           "country_slug": "france",
-          "region_slug": "champagne",
+          "region_slug": "bordeaux",
           "count": 55
         },
         {
           "country_slug": "france",
-          "region_slug": "bordeaux",
+          "region_slug": "champagne",
           "count": 55
         },
         {
@@ -664,13 +664,13 @@
           "count": 61
         },
         {
-          "country_slug": "france",
-          "region_slug": "champagne",
+          "country_slug": "italy",
+          "region_slug": "piedmont",
           "count": 49
         },
         {
-          "country_slug": "italy",
-          "region_slug": "piedmont",
+          "country_slug": "france",
+          "region_slug": "champagne",
           "count": 49
         },
         {
@@ -818,13 +818,13 @@
           "count": 28
         },
         {
-          "country_slug": "portugal",
-          "region_slug": "douro",
+          "country_slug": "italy",
+          "region_slug": "piedmont",
           "count": 17
         },
         {
-          "country_slug": "italy",
-          "region_slug": "piedmont",
+          "country_slug": "portugal",
+          "region_slug": "douro",
           "count": 17
         }
       ]
@@ -952,13 +952,13 @@
           "count": 30
         },
         {
-          "country_slug": "portugal",
-          "region_slug": "douro",
+          "country_slug": "italy",
+          "region_slug": "piedmont",
           "count": 23
         },
         {
-          "country_slug": "italy",
-          "region_slug": "piedmont",
+          "country_slug": "portugal",
+          "region_slug": "douro",
           "count": 23
         },
         {
@@ -1168,17 +1168,17 @@
         },
         {
           "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 30
+        },
+        {
+          "country_slug": "france",
           "region_slug": "burgundy",
           "count": 30
         },
         {
           "country_slug": "italy",
           "region_slug": "tuscany",
-          "count": 30
-        },
-        {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
           "count": 30
         },
         {
@@ -1235,13 +1235,13 @@
           "count": 9
         },
         {
-          "country_slug": "portugal",
-          "region_slug": "douro",
+          "country_slug": "spain",
+          "region_slug": "rioja",
           "count": 7
         },
         {
-          "country_slug": "spain",
-          "region_slug": "rioja",
+          "country_slug": "portugal",
+          "region_slug": "douro",
           "count": 7
         }
       ]
@@ -1311,13 +1311,13 @@
           "count": 27
         },
         {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
+          "country_slug": "spain",
+          "region_slug": "rioja",
           "count": 16
         },
         {
-          "country_slug": "spain",
-          "region_slug": "rioja",
+          "country_slug": "france",
+          "region_slug": "bordeaux",
           "count": 16
         },
         {
@@ -1326,13 +1326,13 @@
           "count": 7
         },
         {
-          "country_slug": "portugal",
-          "region_slug": "douro",
+          "country_slug": "italy",
+          "region_slug": "piedmont",
           "count": 4
         },
         {
-          "country_slug": "italy",
-          "region_slug": "piedmont",
+          "country_slug": "portugal",
+          "region_slug": "douro",
           "count": 4
         }
       ]
@@ -1496,13 +1496,13 @@
           "count": 35
         },
         {
-          "country_slug": "italy",
-          "region_slug": "tuscany",
+          "country_slug": "france",
+          "region_slug": "bordeaux",
           "count": 28
         },
         {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
+          "country_slug": "italy",
+          "region_slug": "tuscany",
           "count": 28
         },
         {
@@ -1549,13 +1549,13 @@
           "count": 21
         },
         {
-          "country_slug": "portugal",
-          "region_slug": "douro",
+          "country_slug": "italy",
+          "region_slug": "piedmont",
           "count": 15
         },
         {
-          "country_slug": "italy",
-          "region_slug": "piedmont",
+          "country_slug": "portugal",
+          "region_slug": "douro",
           "count": 15
         },
         {
@@ -2007,23 +2007,23 @@
           "count": 8
         },
         {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
-          "count": 6
-        },
-        {
           "country_slug": "spain",
           "region_slug": "rioja",
           "count": 6
         },
         {
-          "country_slug": "portugal",
-          "region_slug": "douro",
-          "count": 5
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 6
         },
         {
           "country_slug": "italy",
           "region_slug": "piedmont",
+          "count": 5
+        },
+        {
+          "country_slug": "portugal",
+          "region_slug": "douro",
           "count": 5
         },
         {
@@ -2217,12 +2217,12 @@
         },
         {
           "country_slug": "italy",
-          "region_slug": "tuscany",
+          "region_slug": "piedmont",
           "count": 13
         },
         {
           "country_slug": "italy",
-          "region_slug": "piedmont",
+          "region_slug": "tuscany",
           "count": 13
         },
         {
@@ -2325,13 +2325,13 @@
           "count": 7
         },
         {
-          "country_slug": "italy",
-          "region_slug": "tuscany",
+          "country_slug": "spain",
+          "region_slug": "rioja",
           "count": 5
         },
         {
-          "country_slug": "spain",
-          "region_slug": "rioja",
+          "country_slug": "italy",
+          "region_slug": "tuscany",
           "count": 5
         },
         {
@@ -2346,12 +2346,12 @@
         },
         {
           "country_slug": "france",
-          "region_slug": "burgundy",
+          "region_slug": "bordeaux",
           "count": 2
         },
         {
           "country_slug": "france",
-          "region_slug": "bordeaux",
+          "region_slug": "burgundy",
           "count": 2
         }
       ]
@@ -2452,8 +2452,8 @@
           "count": 13
         },
         {
-          "country_slug": "france",
-          "region_slug": "champagne",
+          "country_slug": "italy",
+          "region_slug": "piedmont",
           "count": 4
         },
         {
@@ -2462,8 +2462,8 @@
           "count": 4
         },
         {
-          "country_slug": "italy",
-          "region_slug": "piedmont",
+          "country_slug": "france",
+          "region_slug": "champagne",
           "count": 4
         },
         {
@@ -2633,13 +2633,13 @@
           "count": 32
         },
         {
-          "country_slug": "italy",
-          "region_slug": "tuscany",
+          "country_slug": "spain",
+          "region_slug": "rioja",
           "count": 6
         },
         {
-          "country_slug": "spain",
-          "region_slug": "rioja",
+          "country_slug": "italy",
+          "region_slug": "tuscany",
           "count": 6
         },
         {
@@ -2811,13 +2811,13 @@
           "count": 4
         },
         {
-          "country_slug": "portugal",
-          "region_slug": "douro",
+          "country_slug": "spain",
+          "region_slug": "rioja",
           "count": 1
         },
         {
-          "country_slug": "spain",
-          "region_slug": "rioja",
+          "country_slug": "portugal",
+          "region_slug": "douro",
           "count": 1
         }
       ]
@@ -3005,13 +3005,13 @@
           "count": 2
         },
         {
-          "country_slug": "france",
-          "region_slug": "burgundy",
+          "country_slug": "italy",
+          "region_slug": "piedmont",
           "count": 1
         },
         {
-          "country_slug": "italy",
-          "region_slug": "piedmont",
+          "country_slug": "france",
+          "region_slug": "burgundy",
           "count": 1
         }
       ]
@@ -3246,13 +3246,13 @@
           "count": 1
         },
         {
-          "country_slug": "italy",
-          "region_slug": "tuscany",
+          "country_slug": "france",
+          "region_slug": "bordeaux",
           "count": 1
         },
         {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
+          "country_slug": "italy",
+          "region_slug": "tuscany",
           "count": 1
         }
       ]
@@ -3372,13 +3372,13 @@
       "count": 12,
       "regions": [
         {
-          "country_slug": "france",
-          "region_slug": "champagne",
+          "country_slug": "italy",
+          "region_slug": "piedmont",
           "count": 5
         },
         {
-          "country_slug": "italy",
-          "region_slug": "piedmont",
+          "country_slug": "france",
+          "region_slug": "champagne",
           "count": 5
         },
         {
@@ -3469,13 +3469,13 @@
           "count": 2
         },
         {
-          "country_slug": "italy",
-          "region_slug": "tuscany",
+          "country_slug": "france",
+          "region_slug": "burgundy",
           "count": 1
         },
         {
-          "country_slug": "france",
-          "region_slug": "burgundy",
+          "country_slug": "italy",
+          "region_slug": "tuscany",
           "count": 1
         }
       ]
@@ -3563,12 +3563,12 @@
       "regions": [
         {
           "country_slug": "france",
-          "region_slug": "champagne",
+          "region_slug": "bordeaux",
           "count": 3
         },
         {
           "country_slug": "france",
-          "region_slug": "bordeaux",
+          "region_slug": "champagne",
           "count": 3
         },
         {

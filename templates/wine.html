@@ -15,7 +15,7 @@
 {% extends "base.html" %}
 {% from "topics/_macros.html" import editorial_score, tj_crosslink, star_strip, price_tier %}
 
-{% block title %}{{ seo.meta.title | default(wine.name ~ ' by ' ~ wine.producer_name ~ ' | Cork & Curve') }}{% endblock %}
+{% block title %}{{ (seo.meta.title | default(wine.name ~ ' by ' ~ wine.producer_name ~ ' | Cork & Curve')) | title_truncate }}{% endblock %}
 
 {% block hero %}
 {# Build the wine descriptor line: sweetness · body · tannin · acidity · top mood tags.

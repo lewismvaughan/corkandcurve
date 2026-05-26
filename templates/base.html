@@ -18,8 +18,8 @@
     </script>
     <!-- End Google tag -->
 
-    <title>{% block title %}{{ seo.meta.title | default('Cork & Curve') }}{% endblock %}</title>
-    <meta name="description" content="{% block meta_description %}{{ seo.meta.description | default('Cork & Curve. The world wine and spirits travel atlas.') }}{% endblock %}">
+    <title>{% block title %}{{ (seo.meta.title | default('Cork & Curve')) | title_truncate }}{% endblock %}</title>
+    <meta name="description" content="{% block meta_description %}{{ (seo.meta.description | default('Cork & Curve. The world wine and spirits travel atlas.')) | meta_truncate }}{% endblock %}">
     <meta name="robots" content="{{ seo.meta.robots | default('index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1') }}">
     <meta name="googlebot" content="{{ seo.meta.googlebot | default('index, follow') }}">
     <meta name="author" content="{{ seo.meta.author | default('Cork & Curve Editorial') }}">

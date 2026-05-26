@@ -207,7 +207,8 @@ def _render_page(renderer: TemplateRenderer, *, country_slug: str, country_name:
         f"{meta['blurb'].capitalize()}, by Cork & Curve editors."
     )
     if len(description) > 165:
-        description = description[:162].rsplit(" ", 1)[0] + "..."
+        from utils.seo import _smart_truncate as _mt
+        description = _mt(description, max_len=158)
 
     cards_html = "".join(_entity_card(e, country_slug, city_slug) for e in entities)
 

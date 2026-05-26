@@ -161,6 +161,10 @@ class TemplateRenderer:
         self.env.filters['format_price_range'] = self._format_price_range
         self.env.filters['humanize_duration'] = self._humanize_duration
         self.env.filters['price_to_int'] = self._price_to_int
+        # SEO filters — return RAW text; Jinja autoescape re-encodes once.
+        from utils.seo import _smart_truncate as _meta_trunc, title_truncate as _title_trunc
+        self.env.filters['meta_truncate'] = lambda s, max_len=158: _meta_trunc(s or '', max_len)
+        self.env.filters['title_truncate'] = lambda s, max_len=65: _title_trunc(s or '', max_len)
 
     def render(self, data: Dict[str, Any], page_type: str = 'REGION', topic_slug: str = None) -> str:
         """

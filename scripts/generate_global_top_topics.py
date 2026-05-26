@@ -187,7 +187,8 @@ def _render(renderer: TemplateRenderer, *, spec: dict, entries: list[tuple[dict,
     title = f"{display} Worldwide: {n} editor picks | Cork & Curve"
     description = f"The best {n} {display.lower()} across every city we cover. {blurb}"
     if len(description) > 165:
-        description = description[:162].rsplit(" ", 1)[0] + "..."
+        from utils.seo import _smart_truncate as _mt
+        description = _mt(description, max_len=158)
 
     # Topic path mapping: nightlife entities live under /<country>/<city>/nightlife/<slug>/.
     # Food topics live under /<country>/<city>/<topic-slug>/<slug>/.

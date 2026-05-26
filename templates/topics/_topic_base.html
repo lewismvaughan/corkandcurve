@@ -13,7 +13,7 @@
 {% from "partials/_ad_slot.html" import ad_slot %}
 {% from "topics/_macros.html" import place_card, tj_crosslink %}
 
-{% block title %}{{ seo.meta.title | default(topic.h1) }}{% endblock %}
+{% block title %}{{ (seo.meta.title | default(topic.h1)) | title_truncate }}{% endblock %}
 
 {% block hero %}
 <section class="tj-hero tj-container">

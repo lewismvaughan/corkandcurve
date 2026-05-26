@@ -18,7 +18,7 @@
 {% extends "base.html" %}
 {% from "topics/_macros.html" import star_strip, price_tier %}
 
-{% block title %}{{ seo.meta.title }}{% endblock %}
+{% block title %}{{ seo.meta.title | title_truncate }}{% endblock %}
 
 {% block hero %}
 <section class="tj-hero tj-container">

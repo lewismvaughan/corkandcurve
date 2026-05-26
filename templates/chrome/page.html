@@ -14,8 +14,8 @@
 #}
 {% extends "base.html" %}
 
-{% block title %}{{ page.title }}{% endblock %}
-{% block meta_description %}{{ page.meta_description }}{% endblock %}
+{% block title %}{{ page.title | title_truncate }}{% endblock %}
+{% block meta_description %}{{ page.meta_description | meta_truncate }}{% endblock %}
 
 {% block schema_extra %}
 <script type="application/ld+json">

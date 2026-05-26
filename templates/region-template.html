@@ -2,7 +2,7 @@
 {% from "partials/_ad_slot.html" import ad_slot %}
 {% from "topics/_macros.html" import tj_crosslink %}
 
-{% block title %}{{ seo.meta.title | default(destination.name ~ ' Wine Guide | Cork & Curve') }}{% endblock %}
+{% block title %}{{ (seo.meta.title | default(destination.name ~ ' Wine Guide | Cork & Curve')) | title_truncate }}{% endblock %}
 
 {% block hero %}
 <section class="tj-hero tj-container">

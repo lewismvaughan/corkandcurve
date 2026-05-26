@@ -301,7 +301,8 @@ def _render(renderer: TemplateRenderer, *, country_slug: str, country_name: str,
         f"{when_display.lower()}, editor-picked. {blurb.capitalize()}"
     )
     if len(description) > 165:
-        description = description[:162].rsplit(" ", 1)[0] + "..."
+        from utils.seo import _smart_truncate as _mt
+        description = _mt(description, max_len=158)
 
     cards_html = "".join(_entity_card(e, country_slug, city_slug, topic_slug) for e in entries)
 

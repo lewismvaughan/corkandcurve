@@ -113,7 +113,8 @@ def _render(renderer: TemplateRenderer, *, country_slug: str, country_name: str,
         f"local variant and {n} city guides linked. Editor-picked by TableJourney."
     )
     if len(description) > 165:
-        description = description[:162].rsplit(" ", 1)[0] + "..."
+        from utils.seo import _smart_truncate as _mt
+        description = _mt(description, max_len=158)
 
     sections_html = "".join(_city_section(d, country_slug, cs, cn) for d, cs, cn in cities)
 

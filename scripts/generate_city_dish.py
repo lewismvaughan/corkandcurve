@@ -167,7 +167,8 @@ def _render_page(renderer: TemplateRenderer, *, country_slug: str, country_name:
         f"room{'s' if n != 1 else ''} that does the dish right, with what to order and how to find it."
     )
     if len(description) > 165:
-        description = description[:162].rsplit(" ", 1)[0] + "..."
+        from utils.seo import _smart_truncate as _mt
+        description = _mt(description, max_len=158)
 
     cards_html = "".join(
         _entity_card(e, country_slug, city_slug, topic_slug)

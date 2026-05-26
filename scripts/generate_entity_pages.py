@@ -342,7 +342,7 @@ def build_entity_context(
     # Google's ~70-char SERP truncation cap.
     _full_title = f"{display_name}, {topic_name} in {destination.get('name', '')} | Cork & Curve"
     _bare_title = f"{display_name}, {topic_name} in {destination.get('name', '')}"
-    page_title = _full_title if len(_full_title) <= 70 else _bare_title
+    page_title = _full_title if len(_full_title) <= 65 else _bare_title
     base_desc = (entity.get("description") or "").strip().rstrip(".")
     city = destination.get("name", "")
     topic_l = topic_name.lower()

@@ -127,7 +127,8 @@ def _classify_style(style_str: str) -> str | None:
 
 def _seo_block(canonical: str, title: str, description: str) -> dict:
     if len(description) > 165:
-        description = description[:162].rstrip() + "..."
+        from utils.seo import _smart_truncate as _mt
+        description = _mt(description, max_len=158)
     return {
         "meta": {
             "title": title,
