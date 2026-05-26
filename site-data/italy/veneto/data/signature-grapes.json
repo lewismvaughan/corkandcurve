@@ -1,0 +1,164 @@
+{
+  "signature_grapes": [
+    {
+      "slug": "corvina",
+      "name": "Corvina",
+      "style_focus": "red",
+      "regions_grown": ["valpolicella-classico", "valpantena", "bardolino", "custoza"],
+      "description": "The dominant grape of Valpolicella and the backbone of Amarone della Valpolicella DOCG, Recioto della Valpolicella DOCG and Valpolicella DOC. Corvina has thin, cherry-red skin and must be blended with Corvinone and Rondinella under DOCG rules (minimum 45% Corvina in Amarone, maximum 95%). Its naturally high acidity survives the appassimento drying process that concentrates sugars, yielding the powerful, dry and aromatic character of Amarone. Best sites are the limestone and clay hillsides of the Classico zone between Negrar, Fumane and San Pietro in Cariano.",
+      "key_producers": ["giuseppe-quintarelli", "allegrini", "speri", "tedeschi", "begali", "masi-agricola", "zyme", "brigaldara"],
+      "verified": {
+        "source_url": "https://www.consorziovalpolicella.it/en/",
+        "address_quoted": "Valpolicella Classico, Province of Verona, Italy",
+        "open_status": "open",
+        "open_evidence_url": "https://www.valpolicella.it/en/",
+        "cuisine_evidence_url": "https://www.consorziovalpolicella.it/en/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "corvinone",
+      "name": "Corvinone",
+      "style_focus": "red",
+      "regions_grown": ["valpolicella-classico", "valpantena"],
+      "description": "Historically treated as a variant of Corvina but now recognised as a separate variety, Corvinone has larger berries and a thicker skin than Corvina, contributing more colour, tannin and body to Amarone blends. It may replace up to 50% of the Corvina component under Amarone DOCG regulations. Dal Forno Romano and Quintarelli both rely heavily on Corvinone in their blends. Best suited to the highest altitude Valpolicella Classico vineyards where its later ripening is an advantage.",
+      "key_producers": ["giuseppe-quintarelli", "dal-forno-romano", "allegrini", "speri"],
+      "verified": {
+        "source_url": "https://www.consorziovalpolicella.it/en/",
+        "address_quoted": "Valpolicella Classico, Province of Verona, Italy",
+        "open_status": "open",
+        "open_evidence_url": "https://www.valpolicella.it/en/",
+        "cuisine_evidence_url": "https://www.consorziovalpolicella.it/en/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "rondinella",
+      "name": "Rondinella",
+      "style_focus": "red",
+      "regions_grown": ["valpolicella-classico", "valpantena", "bardolino"],
+      "description": "The third mandatory grape in Amarone and Valpolicella blends, Rondinella contributes up to 30% of the blend. With naturally thicker skin than Corvina, Rondinella is highly resistant to fungal disease and tolerates the appassimento drying process better than most varieties. It contributes floral aromas (roses, violets), colour and medium tannins. Also used in Bardolino DOC and Chiaretto di Bardolino. Rarely vinified as a single-variety wine.",
+      "key_producers": ["allegrini", "masi-agricola", "tommasi", "cantina-valpolicella-negrar", "guerrieri-rizzardi"],
+      "verified": {
+        "source_url": "https://www.consorziovalpolicella.it/en/",
+        "address_quoted": "Valpolicella Classico, Province of Verona, Italy",
+        "open_status": "open",
+        "open_evidence_url": "https://www.valpolicella.it/en/",
+        "cuisine_evidence_url": "https://www.consorziovalpolicella.it/en/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "oseleta",
+      "name": "Oseleta",
+      "style_focus": "red",
+      "regions_grown": ["valpolicella-classico", "valpolicella"],
+      "description": "A rare, nearly extinct Veronese variety resurrected by Masi Agricola in the 1980s, Oseleta produces tiny, intensely pigmented berries with very high tannin and colour. Used in small percentages (typically 5-15%) to add structure, colour intensity and ageing potential to Amarone and Valpolicella blends. Allegrini's La Poja is 100% Oseleta, classified as Veronese IGT. Dal Forno Romano and Zenato also include Oseleta in their Amarone blends. Officially a permitted variety in Amarone DOCG since 2003.",
+      "key_producers": ["masi-agricola", "allegrini", "dal-forno-romano", "zyme", "tenuta-santantonio", "corte-santalda"],
+      "verified": {
+        "source_url": "https://www.consorziovalpolicella.it/en/",
+        "address_quoted": "Valpolicella Classico, Province of Verona, Italy",
+        "open_status": "open",
+        "open_evidence_url": "https://www.valpolicella.it/en/",
+        "cuisine_evidence_url": "https://www.consorziovalpolicella.it/en/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "garganega",
+      "name": "Garganega",
+      "style_focus": "white",
+      "regions_grown": ["soave-classico", "custoza"],
+      "description": "The defining white grape of Soave and the Veneto's most important indigenous white variety, Garganega requires minimum 70% in Soave Classico DOC and Soave Superiore DOCG. On the volcanic basalt and tufa hillsides of the Classico zone, old-vine Garganega produces wines of exceptional mineral intensity with aromas of white peach, almond, bitter lemon peel and white flowers. With ageing, complex notes of honey, toasted almonds and lanolin develop. Also used in Bianco di Custoza DOC blends. Recioto di Soave DOCG is a rare, exceptional sweet dessert wine from dried Garganega.",
+      "key_producers": ["pieropan", "gini", "suavia", "pra", "inama", "anselmi", "fasoli-gino", "monte-tondo"],
+      "verified": {
+        "source_url": "https://www.ilsoave.com/",
+        "address_quoted": "Soave Classico, Province of Verona, Italy",
+        "open_status": "open",
+        "open_evidence_url": "https://www.consorziosoave.it/",
+        "cuisine_evidence_url": "https://www.ilsoave.com/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "glera",
+      "name": "Glera",
+      "style_focus": "sparkling",
+      "regions_grown": ["conegliano-valdobbiadene", "asolo-prosecco"],
+      "description": "The variety responsible for Prosecco DOC and both Prosecco Superiore DOCGs (Conegliano Valdobbiadene and Asolo), Glera was historically known as Prosecco after the village near Trieste. EU regulations in 2009 renamed the grape Glera to protect the Prosecco geographical indication. Glera's naturally high acidity, low tannin and peach-pear-apple aromatic profile make it ideal for the Charmat secondary fermentation used in Prosecco Superiore DOCG. On the steep ciglioni terraces of the Valdobbiadene hills, older-vine Glera develops a distinctive mineral and floral complexity absent from the plains DOC wines.",
+      "key_producers": ["nino-franco", "bisol-1542", "bortolomiol", "ruggeri", "adami", "villa-sandi", "col-vetoraz", "bele-casel", "foss-marai"],
+      "verified": {
+        "source_url": "https://www.prosecco.it/en/",
+        "address_quoted": "Conegliano Valdobbiadene, Province of Treviso, Italy",
+        "open_status": "open",
+        "open_evidence_url": "https://www.coneglianovaldobbiadene.it/en/",
+        "cuisine_evidence_url": "https://www.prosecco.it/en/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "turbiana",
+      "name": "Turbiana",
+      "style_focus": "white",
+      "regions_grown": ["lugana"],
+      "description": "The only variety permitted in Lugana DOC, Turbiana was long considered a local clone of Trebbiano Toscano but DNA analysis confirmed it is genetically identical to Verdicchio, the variety of Marche. On the glacial clay-rich morainic soils at the southern tip of Lake Garda, Turbiana produces wines with a distinctive saline, almost waxy texture, white peach and citrus zest aromas, and the capacity to develop complex almond and mineral notes in Riserva versions aged 12-24 months on lees.",
+      "key_producers": ["zenato", "ottella"],
+      "verified": {
+        "source_url": "https://www.terrelugana.com/",
+        "address_quoted": "Lugana, Province of Verona, Italy",
+        "open_status": "open",
+        "open_evidence_url": "https://www.consorziolugana.it/",
+        "cuisine_evidence_url": "https://www.terrelugana.com/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "vespaiola",
+      "name": "Vespaiola",
+      "style_focus": "white",
+      "regions_grown": ["breganze"],
+      "description": "An ancient indigenous variety unique to the Breganze DOC in Vicenza province, Vespaiola's name derives from the word for wasp (vespa) because its sugar-rich berries attract wasps at harvest. Used exclusively in Breganze DOC Torcolato, the most prized passito wine of the Veneto. The dried Vespaiola grapes concentrate extraordinary honeyed complexity with apricot, saffron, orange blossom and almond notes, underpinned by high acidity that prevents heaviness. Maculan's Torcolato and Acininobili are the zone's most celebrated examples.",
+      "key_producers": ["maculan"],
+      "verified": {
+        "source_url": "https://www.maculan.net/",
+        "address_quoted": "Breganze, Province of Vicenza, Italy",
+        "open_status": "open",
+        "open_evidence_url": "https://www.terredelveneto.com/en/",
+        "cuisine_evidence_url": "https://www.maculan.net/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "raboso-piave",
+      "name": "Raboso Piave",
+      "style_focus": "red",
+      "regions_grown": ["piave-treviso"],
+      "description": "The most ancient documented variety of the Venetian plains, Raboso Piave has thin dark skin, extremely high acidity and grippy tannins that make it nearly undrinkable young but magnificent after 10-15 years of ageing. The name derives from the dialect word for angry (rabbioso), referencing its austere character. Italo Cescon has been the leading champion of serious Raboso Piave production since the 1960s. DNA profiling in 2010 confirmed it is distinct from Raboso Veronese. The Piave DOC allows Raboso Piave varietal wines at 85% minimum.",
+      "key_producers": ["italo-cescon"],
+      "verified": {
+        "source_url": "https://www.terredelveneto.com/en/",
+        "address_quoted": "Piave DOC, Province of Treviso, Italy",
+        "open_status": "open",
+        "open_evidence_url": "https://www.italocescon.it/en/",
+        "cuisine_evidence_url": "https://www.terredelveneto.com/en/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "moscato-giallo",
+      "name": "Moscato Giallo",
+      "style_focus": "white",
+      "regions_grown": ["colli-euganei"],
+      "description": "The golden muscat variety grown on the volcanic Euganean Hills southwest of Padova, where it forms the basis of the Colli Euganei Fior d'Arancio DOCG in both passito and sparkling versions. Moscato Giallo's intense floral aromas (orange blossom, jasmine, peach) and low alcohol make it exceptional for dessert wines. Vignalta's Fior d'Arancio passito from the medieval village of Arqua Petrarca is the appellation's flagship; the fresh semi-sparkling frizzante version is an aperitivo staple across the Padova region.",
+      "key_producers": ["vignalta"],
+      "verified": {
+        "source_url": "https://www.terredelveneto.com/en/",
+        "address_quoted": "Colli Euganei, Province of Padova, Italy",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vignalta.it/",
+        "cuisine_evidence_url": "https://www.terredelveneto.com/en/",
+        "checked_on": "2026-05-26"
+      }
+    }
+  ]
+}

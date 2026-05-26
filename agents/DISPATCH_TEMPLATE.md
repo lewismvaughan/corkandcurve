@@ -38,7 +38,18 @@ parallel split on non-overlapping files. A clean 4-way split:
   the vineyards slugs, so this one runs first (or together with B
   if you've pre-seeded vineyards).
 - **Agent B — cuvée vertical** (depends on A's vineyards): `wines.json`
-  + `signature-wines.json` + `food-pairing.json`.
+  + `signature-wines.json` + `food-pairing.json`. **WARNING: wines.json
+  at the Tier-1 target (160-200 cuvées) is itself too big to emit in a
+  single Write call — that blows the 32k output cap mid-write and the
+  agent dies with 0 cuvées written (observed Veneto 2026-05-26).** For
+  Tier-1 / large regions, split B into TWO concurrent agents over
+  non-overlapping producers (e.g. B1 = still reds + whites, B2 =
+  sparkling + the rest), each writing `_wine_shards/<prefix>_NN.json`
+  files of ≤15 cuvées per Write (many small writes, never one big
+  array). The orchestrator then merges all shards into `wines.json`,
+  and a small follow-up agent (B3) writes `signature-wines.json`
+  (curated subset — needs the merged slug set) + `food-pairing.json`.
+  See `feedback-research-output-cap`.
 - **Agent C — venues**: tasting-rooms, wine-bars, wine-restaurants,
   wine-retailers, wine-schools, wine-tours, distilleries, wine-museums,
   wine-hotels, wine-experiences.

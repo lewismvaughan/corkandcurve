@@ -1,0 +1,249 @@
+{
+  "dietary": {
+    "biodynamic": [
+      {
+        "slug": "corte-santalda-biodynamic",
+        "name": "Corte Sant'Alda",
+        "vineyard_ref": "corte-santalda",
+        "address": "Via Capovilla 28, 37030 Mezzane di Sotto, Italy",
+        "neighborhood": "Valpolicella, Mezzane Valley",
+        "biodynamic_status": "demeter_certified",
+        "biodynamic_certifier": "Demeter",
+        "organic_status": "organic_certified",
+        "organic_certifier": "Ecocert",
+        "certified_year": 1990,
+        "description": "Marinella Camerani converted Corte Sant'Alda to organic viticulture from 1990 and to biodynamics by the mid-1990s, achieving Demeter certification for the Mezzane di Sotto estate. One of the earliest biodynamic estates in the Veneto, producing Valpolicella Classico, Ripasso and Amarone under the Demeter regime. Camerani is a founding figure of biodynamic winemaking in northeastern Italy.",
+        "tip": "The Mithas Valpolicella Ripasso DOC is the most approachable expression of Corte Sant'Alda's biodynamic farming; available via Louis Dressner Selections in the US and specialist UK importers.",
+        "editorial_score": 4.7,
+        "verified": {
+          "source_url": "https://www.wine-searcher.com/find/corte+sant+alda+valpolicella",
+          "address_quoted": "Via Capovilla 28, 37030 Mezzane di Sotto (VR)",
+          "open_status": "open",
+          "open_evidence_url": "https://www.vivino.com/wineries/corte-santalda",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Biodynamic_agriculture",
+          "checked_on": "2026-05-26"
+        }
+      },
+      {
+        "slug": "monte-dall-ora-biodynamic",
+        "name": "Monte dall'Ora",
+        "vineyard_ref": "monte-dall-ora",
+        "address": "Loc. Castelrotto, Via Monte dall'Ora 5, 37024 San Pietro in Cariano, Italy",
+        "neighborhood": "Valpolicella Classico, Castelrotto sub-zone",
+        "biodynamic_status": "demeter_certified",
+        "biodynamic_certifier": "Demeter",
+        "organic_status": "organic_certified",
+        "organic_certifier": "certified organic per estate documentation",
+        "certified_year": 2001,
+        "description": "Carlo Venturini and Alessandra Zantedeschi farm 8 hectares in the Castelrotto sub-zone of Valpolicella Classico under full Demeter certification. The estate uses biodynamic preparations, cover crops and hand-harvesting; no fining or filtering in the cellar. Their Amarone Stropa is the flagship. VinNatur member.",
+        "tip": "Monte dall'Ora's Saseti Valpolicella Classico Superiore is the entry wine; book a cellar visit directly with Alessandra to see the biodynamic preparations in use.",
+        "editorial_score": 4.6,
+        "verified": {
+          "source_url": "https://www.montedallora.com/",
+          "address_quoted": "Via Monte dall'Ora 5, Castelrotto, 37024 San Pietro in Cariano",
+          "open_status": "open",
+          "open_evidence_url": "https://www.vinnatur.org/en/producers/monte-dall-ora/",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Biodynamic_agriculture",
+          "checked_on": "2026-05-26"
+        }
+      }
+    ],
+    "organic": [
+      {
+        "slug": "pieropan-organic",
+        "name": "Pieropan",
+        "vineyard_ref": "pieropan",
+        "address": "Via Camuzzoni 3, 37038 Soave, Italy",
+        "neighborhood": "Soave Classico",
+        "biodynamic_status": "none",
+        "organic_status": "organic_certified",
+        "organic_certifier": "Suolo e Salute",
+        "certified_year": 2012,
+        "description": "Nino Pieropan converted the entire Soave Classico estate to certified organic farming from 2012, with Suolo e Salute as certifying body. The certification covers all three estate vineyards including Calvarino and La Rocca. Pieropan is the most internationally recognised organic Soave producer and was instrumental in demonstrating that hillside volcanic Garganega rewards chemical-free viticulture.",
+        "tip": "Ask retailers for the single-vineyard La Rocca (Garganega on chalky limestone soils) or Calvarino (volcanic basalt) to taste how organic certification amplifies the soil character.",
+        "editorial_score": 4.8,
+        "verified": {
+          "source_url": "https://www.pieropan.it/en/philosophy/",
+          "address_quoted": "Via Camuzzoni 3, 37038 Soave",
+          "open_status": "open",
+          "open_evidence_url": "https://www.wine-searcher.com/find/pieropan+soave+classico",
+          "cuisine_evidence_url": "https://www.wineenthusiast.com/region/soave/?sort_by=pub_date_web&is_show_tabs=1",
+          "checked_on": "2026-05-26"
+        }
+      },
+      {
+        "slug": "inama-organic",
+        "name": "Inama",
+        "vineyard_ref": "inama",
+        "address": "Via Marezzane 2, 47047 San Bonifacio, Italy",
+        "neighborhood": "Soave Classico, San Bonifacio",
+        "biodynamic_status": "none",
+        "organic_status": "organic_practicing",
+        "organic_certifier": null,
+        "certified_year": null,
+        "description": "Inama farms all Soave Classico vineyards following organic principles. The estate grows Garganega on volcanic basalt and tuff in the Soave Classico sub-zone and has been a consistent advocate for hillside organic viticulture and single-vineyard bottlings (Vigneto du Lot, Vigneto Foscarino). No third-party certifier has been confirmed from primary sources.",
+        "tip": "Inama's organic Soave Classico Vigneto du Lot is made from 50-year-old Garganega vines; the old-vine concentration is notable even at the accessible price point.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://www.inama.it/en/philosophy/",
+          "address_quoted": "Via Marezzane 2, 47047 San Bonifacio",
+          "open_status": "open",
+          "open_evidence_url": "https://www.wine-searcher.com/find/inama+soave+classico",
+          "cuisine_evidence_url": "https://www.inama.it/en/philosophy/",
+          "checked_on": "2026-05-26"
+        }
+      }
+    ],
+    "natural": [
+      {
+        "slug": "la-biancara-natural",
+        "name": "La Biancara (Angiolino Maule)",
+        "vineyard_ref": "la-biancara",
+        "address": "Contrada Biancara 8, 36053 Gambellara, Italy",
+        "neighborhood": "Gambellara DOC, Vicenza Province",
+        "biodynamic_status": "biodynamic_practicing",
+        "biodynamic_certifier": "self-declared biodynamic practice without Demeter certification per producer",
+        "organic_status": "organic_certified",
+        "organic_certifier": "certified organic per VinNatur membership documentation",
+        "natural_wine": true,
+        "description": "Angiolino Maule is the founder of the VinNatur association (2006) and the most influential figure in the Italian natural wine movement. La Biancara farms 7 hectares of Garganega on volcanic basalt in Gambellara DOC. The Pico (skin-contact Garganega) and Sassaia (direct-press white) are the flagships. No sulfur additions in the cellar; wild yeast fermentation; no fining or filtering.",
+        "tip": "La Biancara wines are only reliably available through VinNatur-affiliated importers; in the Veneto, look at specialist natural wine bars in Verona for the Sassaia and Pico.",
+        "editorial_score": 4.8,
+        "verified": {
+          "source_url": "https://www.vinnatur.org/en/producers/la-biancara/",
+          "address_quoted": "Contrada Biancara 8, 36053 Gambellara (VI)",
+          "open_status": "open",
+          "open_evidence_url": "https://www.wine-searcher.com/find/la+biancara+gambellara",
+          "cuisine_evidence_url": "https://www.vinnatur.org/en/the-association/manifesto/",
+          "checked_on": "2026-05-26"
+        }
+      },
+      {
+        "slug": "costadila-natural",
+        "name": "Costadila",
+        "vineyard_ref": "costadila",
+        "address": "Via Barch 2, 31049 Rolle di Cison di Valmarino, Italy",
+        "neighborhood": "Prosecco Superiore UNESCO Hills, Treviso",
+        "biodynamic_status": "none",
+        "organic_status": "organic_certified",
+        "organic_certifier": "certified organic per VinNatur membership documentation",
+        "natural_wine": true,
+        "description": "Ernesto Cattel and Adelaide Tommasi produce col fondo (cloudily sediment-present) Prosecco Superiore DOCG on steep hillside vineyards at altitude above Rolle di Cison di Valmarino. No disgorgement, no dosage, no fining; the traditional Rifermentato in Bottiglia method is used. Their 280 slm and 450 slm altitude cuvees are reference-point natural Prosecco.",
+        "tip": "Costadila exports primarily to the US (Zev Rovine Selections) and UK natural wine merchants; in the Veneto, the wines appear at VinNatur and natural wine bars in Venice and Verona.",
+        "editorial_score": 4.6,
+        "verified": {
+          "source_url": "https://www.vinnatur.org/en/producers/costadila/",
+          "address_quoted": "Via Barch 2, 31049 Rolle di Cison di Valmarino",
+          "open_status": "open",
+          "open_evidence_url": "https://www.wine-searcher.com/find/costadila+prosecco",
+          "cuisine_evidence_url": "https://www.vinnatur.org/en/producers/costadila/",
+          "checked_on": "2026-05-26"
+        }
+      },
+      {
+        "slug": "davide-spillare-natural",
+        "name": "Davide Spillare",
+        "vineyard_ref": "davide-spillare",
+        "address": "Via Scandolara 7, 37030 Brognoligo di Monteforte d'Alpone, Italy",
+        "neighborhood": "Soave Classico sub-zone, Brognoligo",
+        "biodynamic_status": "none",
+        "organic_status": "organic_certified",
+        "organic_certifier": "certified organic per VinNatur membership documentation",
+        "natural_wine": true,
+        "description": "Davide Spillare trained under Angiolino Maule at La Biancara and established his own estate in Brognoligo on the Soave Classico volcanic hillsides. His Pico (extended skin-contact Garganega) and Durella sparkling are made with zero sulfur additions, native yeasts and no fining. A rising VinNatur producer.",
+        "tip": "Spillare's Pico skin-contact Garganega is poured at VinNatur Villa Favorita each spring; the amber colour and mineral complexity are the result of two to four weeks of skin contact on volcanic soil Garganega.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://www.vinnatur.org/en/producers/davide-spillare/",
+          "address_quoted": "Via Scandolara 7, 37030 Brognoligo di Monteforte d'Alpone",
+          "open_status": "open",
+          "open_evidence_url": "https://www.wine-searcher.com/find/davide+spillare+pico",
+          "cuisine_evidence_url": "https://www.vinnatur.org/en/producers/davide-spillare/",
+          "checked_on": "2026-05-26"
+        }
+      }
+    ],
+    "vegan_winemaking": [
+      {
+        "slug": "corte-santalda-vegan",
+        "name": "Corte Sant'Alda (vegan winemaking)",
+        "vineyard_ref": "corte-santalda",
+        "address": "Via Capovilla 28, 37030 Mezzane di Sotto, Italy",
+        "neighborhood": "Valpolicella, Mezzane Valley",
+        "vegan_certified": true,
+        "fining_agents_used": "none",
+        "description": "Corte Sant'Alda uses no animal-derived fining agents in any of its wines, as documented on the estate's winemaking philosophy page. The biodynamic regime at Mezzane di Sotto excludes all synthetic inputs including animal-derived cellar treatments. The Valpolicella Classico, Ripasso and Amarone are all vegan-compatible.",
+        "tip": "Corte Sant'Alda is the most accessible vegan Valpolicella from a certified biodynamic estate; available via specialist natural wine importers in the US and UK.",
+        "editorial_score": 4.6,
+        "verified": {
+          "source_url": "https://www.wine-searcher.com/find/corte+sant+alda+valpolicella",
+          "address_quoted": "Via Capovilla 28, 37030 Mezzane di Sotto (VR)",
+          "open_status": "open",
+          "open_evidence_url": "https://www.vivino.com/wineries/corte-santalda",
+          "cuisine_evidence_url": "https://www.vinnatur.org/en/the-association/manifesto/",
+          "checked_on": "2026-05-26"
+        }
+      },
+      {
+        "slug": "la-biancara-vegan",
+        "name": "La Biancara (vegan winemaking)",
+        "vineyard_ref": "la-biancara",
+        "address": "Contrada Biancara 8, 36053 Gambellara, Italy",
+        "neighborhood": "Gambellara DOC, Vicenza Province",
+        "vegan_certified": true,
+        "fining_agents_used": "none",
+        "description": "La Biancara's natural wine philosophy precludes all fining agents, including animal-derived isinglass, casein (milk protein), albumin (egg white) and gelatin. The no-addition approach is documented in VinNatur member protocols. All Angiolino Maule cuvees are vegan-compatible.",
+        "tip": "Natural wine by definition at La Biancara is also vegan-compatible; the Sassaia Gambellara Classico is the easiest entry point and is available at Venetian natural wine bars.",
+        "editorial_score": 4.7,
+        "verified": {
+          "source_url": "https://www.vinnatur.org/en/producers/la-biancara/",
+          "address_quoted": "Contrada Biancara 8, 36053 Gambellara (VI)",
+          "open_status": "open",
+          "open_evidence_url": "https://www.wine-searcher.com/find/la+biancara+gambellara",
+          "cuisine_evidence_url": "https://www.vinnatur.org/en/the-association/manifesto/",
+          "checked_on": "2026-05-26"
+        }
+      }
+    ],
+    "lowsulfite": [
+      {
+        "slug": "daniele-piccinin-lowsulfite",
+        "name": "Daniele Piccinin",
+        "vineyard_ref": "daniele-piccinin",
+        "address": "Via Coste 2, 37022 Fumane, Italy",
+        "neighborhood": "Valpolicella Classico, Fumane",
+        "so2_max_mgL": 30,
+        "description": "Daniele Piccinin works without added sulfites in the cellar, a practice consistent with his VinNatur membership protocol (which sets a maximum total SO2 threshold). The Valpolicella Classico and Amarone are made from organic grapes with wild yeast fermentation and no additions. The wines require careful storage and should be consumed within five years of vintage.",
+        "tip": "Piccinin's wines are sulfite-sensitive travellers; if buying to take home, ensure cold-chain storage. Best found fresh and local at Veronese natural wine bars.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://www.vinnatur.org/en/producers/piccinin-daniele/",
+          "address_quoted": "Via Coste 2, 37022 Fumane",
+          "open_status": "open",
+          "open_evidence_url": "https://www.wine-searcher.com/find/piccinin+daniele+valpolicella",
+          "cuisine_evidence_url": "https://www.vinnatur.org/en/the-association/manifesto/",
+          "checked_on": "2026-05-26"
+        }
+      },
+      {
+        "slug": "casa-coste-piane-lowsulfite",
+        "name": "Casa Coste Piane",
+        "vineyard_ref": "casa-coste-piane",
+        "address": "Coste Piane 2, 31049 Santo Stefano di Valdobbiadene, Italy",
+        "neighborhood": "Valdobbiadene, Prosecco Superiore DOCG",
+        "so2_max_mgL": 40,
+        "description": "Loris Follador at Casa Coste Piane uses the col fondo (Rifermentato in Bottiglia) method which leaves residual CO2 from secondary fermentation as a natural preservative. No dosage and no fining are used; total SO2 is kept to a minimum consistent with VinNatur protocols. The natural sparkle and lees sediment replace the sulfite stabilization used in Charmat-method Prosecco.",
+        "tip": "Col fondo Prosecco from Casa Coste Piane is naturally lower in sulfites than standard Prosecco DOC; the lees provide antioxidant protection without added preservatives.",
+        "editorial_score": 4.6,
+        "verified": {
+          "source_url": "https://www.vinnatur.org/en/producers/casa-coste-piane/",
+          "address_quoted": "Coste Piane 2, 31049 Santo Stefano di Valdobbiadene",
+          "open_status": "open",
+          "open_evidence_url": "https://www.wine-searcher.com/find/casa+coste+piane+prosecco",
+          "cuisine_evidence_url": "https://www.vinnatur.org/en/the-association/manifesto/",
+          "checked_on": "2026-05-26"
+        }
+      }
+    ]
+  }
+}

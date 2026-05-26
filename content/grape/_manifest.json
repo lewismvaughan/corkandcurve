@@ -13,6 +13,30 @@
       ]
     },
     {
+      "slug": "aged-grappa",
+      "display": "Aged Grappa",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "region_name": "Veneto",
+          "n": 1
+        }
+      ]
+    },
+    {
+      "slug": "aglianico",
+      "display": "Aglianico",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "region_name": "Veneto",
+          "n": 1
+        }
+      ]
+    },
+    {
       "slug": "alicante",
       "display": "Alicante",
       "regions": [
@@ -45,6 +69,18 @@
           "region_slug": "burgundy",
           "region_name": "Burgundy",
           "n": 14
+        }
+      ]
+    },
+    {
+      "slug": "aqua-vitae",
+      "display": "Aqua Vitae",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "region_name": "Veneto",
+          "n": 1
         }
       ]
     },
@@ -97,6 +133,42 @@
       ]
     },
     {
+      "slug": "bardolino-grapes",
+      "display": "Bardolino grapes",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "region_name": "Veneto",
+          "n": 1
+        }
+      ]
+    },
+    {
+      "slug": "bianca-fernanda",
+      "display": "Bianca Fernanda",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "region_name": "Veneto",
+          "n": 1
+        }
+      ]
+    },
+    {
+      "slug": "bianchetta-trevigiana",
+      "display": "Bianchetta Trevigiana",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "region_name": "Veneto",
+          "n": 3
+        }
+      ]
+    },
+    {
       "slug": "cabernet-franc",
       "display": "Cabernet Franc",
       "regions": [
@@ -111,6 +183,12 @@
           "region_slug": "tuscany",
           "region_name": "Tuscany",
           "n": 8
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "region_name": "Veneto",
+          "n": 2
         }
       ]
     },
@@ -135,6 +213,12 @@
           "region_slug": "tuscany",
           "region_name": "Tuscany",
           "n": 48
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "region_name": "Veneto",
+          "n": 5
         }
       ]
     },
@@ -159,6 +243,18 @@
           "region_slug": "tuscany",
           "region_name": "Tuscany",
           "n": 5
+        }
+      ]
+    },
+    {
+      "slug": "carmenere",
+      "display": "Carmenere",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "region_name": "Veneto",
+          "n": 1
         }
       ]
     },
@@ -201,6 +297,12 @@
           "region_slug": "tuscany",
           "region_name": "Tuscany",
           "n": 7
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "region_name": "Veneto",
+          "n": 3
         }
       ]
     },
@@ -237,6 +339,48 @@
           "region_slug": "piedmont",
           "region_name": "Piedmont",
           "n": 6
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "region_name": "Veneto",
+          "n": 4
+        }
+      ]
+    },
+    {
+      "slug": "corvina",
+      "display": "Corvina",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "region_name": "Veneto",
+          "n": 34
+        }
+      ]
+    },
+    {
+      "slug": "corvina-veronese",
+      "display": "Corvina Veronese",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "region_name": "Veneto",
+          "n": 7
+        }
+      ]
+    },
+    {
+      "slug": "corvinone",
+      "display": "Corvinone",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "region_name": "Veneto",
+          "n": 26
         }
       ]
     },
@@ -249,6 +393,18 @@
           "region_slug": "piedmont",
           "region_name": "Piedmont",
           "n": 40
+        }
+      ]
+    },
+    {
+      "slug": "durella",
+      "display": "Durella",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "region_name": "Veneto",
+          "n": 1
         }
       ]
     },
@@ -272,6 +428,18 @@
           "country_slug": "italy",
           "region_slug": "piedmont",
           "region_name": "Piedmont",
+          "n": 1
+        }
+      ]
+    },
+    {
+      "slug": "fiano",
+      "display": "Fiano",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "region_name": "Veneto",
           "n": 1
         }
       ]
@@ -313,6 +481,18 @@
       ]
     },
     {
+      "slug": "fruit-spirits",
+      "display": "Fruit Spirits",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "region_name": "Veneto",
+          "n": 1
+        }
+      ]
+    },
+    {
       "slug": "gamay",
       "display": "Gamay",
       "regions": [
@@ -321,6 +501,18 @@
           "region_slug": "burgundy",
           "region_name": "Burgundy",
           "n": 5
+        }
+      ]
+    },
+    {
+      "slug": "garganega",
+      "display": "Garganega",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "region_name": "Veneto",
+          "n": 23
         }
       ]
     },
@@ -349,6 +541,18 @@
       ]
     },
     {
+      "slug": "glera",
+      "display": "Glera",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "region_name": "Veneto",
+          "n": 15
+        }
+      ]
+    },
+    {
       "slug": "gouveio",
       "display": "Gouveio",
       "regions": [
@@ -369,6 +573,78 @@
           "region_slug": "rioja",
           "region_name": "Rioja",
           "n": 46
+        }
+      ]
+    },
+    {
+      "slug": "grappa-di-amarone",
+      "display": "Grappa di Amarone",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "region_name": "Veneto",
+          "n": 1
+        }
+      ]
+    },
+    {
+      "slug": "grappa-di-glera",
+      "display": "Grappa di Glera",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "region_name": "Veneto",
+          "n": 1
+        }
+      ]
+    },
+    {
+      "slug": "grappa-di-glera-prosecco",
+      "display": "Grappa di Glera (Prosecco)",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "region_name": "Veneto",
+          "n": 2
+        }
+      ]
+    },
+    {
+      "slug": "grappa-di-moscato",
+      "display": "Grappa di Moscato",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "region_name": "Veneto",
+          "n": 1
+        }
+      ]
+    },
+    {
+      "slug": "grappa-riserva",
+      "display": "Grappa Riserva",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "region_name": "Veneto",
+          "n": 1
+        }
+      ]
+    },
+    {
+      "slug": "greco",
+      "display": "Greco",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "region_name": "Veneto",
+          "n": 1
         }
       ]
     },
@@ -549,6 +825,12 @@
           "region_slug": "tuscany",
           "region_name": "Tuscany",
           "n": 42
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "region_name": "Veneto",
+          "n": 8
         }
       ]
     },
@@ -561,6 +843,18 @@
           "region_slug": "champagne",
           "region_name": "Champagne",
           "n": 5
+        }
+      ]
+    },
+    {
+      "slug": "molinara",
+      "display": "Molinara",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "region_name": "Veneto",
+          "n": 19
         }
       ]
     },
@@ -597,6 +891,18 @@
           "region_slug": "piedmont",
           "region_name": "Piedmont",
           "n": 12
+        }
+      ]
+    },
+    {
+      "slug": "moscato-giallo",
+      "display": "Moscato Giallo",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "region_name": "Veneto",
+          "n": 1
         }
       ]
     },
@@ -645,6 +951,24 @@
           "region_slug": "piedmont",
           "region_name": "Piedmont",
           "n": 58
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "region_name": "Veneto",
+          "n": 1
+        }
+      ]
+    },
+    {
+      "slug": "oseleta",
+      "display": "Oseleta",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "region_name": "Veneto",
+          "n": 14
         }
       ]
     },
@@ -657,6 +981,18 @@
           "region_slug": "piedmont",
           "region_name": "Piedmont",
           "n": 1
+        }
+      ]
+    },
+    {
+      "slug": "perera",
+      "display": "Perera",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "region_name": "Veneto",
+          "n": 4
         }
       ]
     },
@@ -699,6 +1035,12 @@
           "region_slug": "tuscany",
           "region_name": "Tuscany",
           "n": 2
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "region_name": "Veneto",
+          "n": 1
         }
       ]
     },
@@ -723,6 +1065,12 @@
           "region_slug": "tuscany",
           "region_name": "Tuscany",
           "n": 1
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "region_name": "Veneto",
+          "n": 2
         }
       ]
     },
@@ -771,6 +1119,12 @@
           "region_slug": "tuscany",
           "region_name": "Tuscany",
           "n": 3
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "region_name": "Veneto",
+          "n": 1
         }
       ]
     },
@@ -817,6 +1171,18 @@
       ]
     },
     {
+      "slug": "raboso-piave",
+      "display": "Raboso Piave",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "region_name": "Veneto",
+          "n": 1
+        }
+      ]
+    },
+    {
       "slug": "riesling",
       "display": "Riesling",
       "regions": [
@@ -831,6 +1197,30 @@
           "region_slug": "piedmont",
           "region_name": "Piedmont",
           "n": 3
+        }
+      ]
+    },
+    {
+      "slug": "riesling-italico",
+      "display": "Riesling Italico",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "region_name": "Veneto",
+          "n": 1
+        }
+      ]
+    },
+    {
+      "slug": "rondinella",
+      "display": "Rondinella",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "region_name": "Veneto",
+          "n": 37
         }
       ]
     },
@@ -933,6 +1323,12 @@
           "region_slug": "tuscany",
           "region_name": "Tuscany",
           "n": 2
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "region_name": "Veneto",
+          "n": 1
         }
       ]
     },
@@ -1029,6 +1425,12 @@
           "region_slug": "tuscany",
           "region_name": "Tuscany",
           "n": 10
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "region_name": "Veneto",
+          "n": 1
         }
       ]
     },
@@ -1165,6 +1567,18 @@
       ]
     },
     {
+      "slug": "trebbiano-di-soave",
+      "display": "Trebbiano di Soave",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "region_name": "Veneto",
+          "n": 8
+        }
+      ]
+    },
+    {
       "slug": "trebbiano-toscano",
       "display": "Trebbiano Toscano",
       "regions": [
@@ -1172,6 +1586,24 @@
           "country_slug": "italy",
           "region_slug": "tuscany",
           "region_name": "Tuscany",
+          "n": 3
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "region_name": "Veneto",
+          "n": 4
+        }
+      ]
+    },
+    {
+      "slug": "turbiana",
+      "display": "Turbiana",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "region_name": "Veneto",
           "n": 3
         }
       ]
@@ -1185,6 +1617,18 @@
           "region_slug": "rioja",
           "region_name": "Rioja",
           "n": 1
+        }
+      ]
+    },
+    {
+      "slug": "verdiso",
+      "display": "Verdiso",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "region_name": "Veneto",
+          "n": 5
         }
       ]
     },
@@ -1221,6 +1665,18 @@
           "region_slug": "tuscany",
           "region_name": "Tuscany",
           "n": 3
+        }
+      ]
+    },
+    {
+      "slug": "vespaiola",
+      "display": "Vespaiola",
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "region_name": "Veneto",
+          "n": 1
         }
       ]
     },

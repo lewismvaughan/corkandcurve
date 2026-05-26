@@ -118,15 +118,33 @@ helpful disambiguators since they keep the siblings on separate pages).
 Wine estates change hands. A 2018 article saying "owned by the Smith
 family" is stale if Constellation or LVMH bought them in 2022.
 
-For every vineyard with an `owner` field, confirm against:
+Sample EVERY vineyard that carries a named-individual or family `owner`
+(and `winemaker`), NOT just the marquee estates. The dangerous defects
+cluster on the small/non-famous producers, where the researcher had thin
+sourcing and aggregators carry wrong names. For each, confirm against:
 - Producer's current About page (mentions the current owner)
 - A 2024-2026 press article OR consortium roster
 
-Common stale-ownership defects:
-- Pre-Constellation ownership of Robert Mondavi
-- Pre-LVMH ownership of Domaine des Lambrays (acquired 2014)
-- Pre-Treasury Wine Estates ownership of Penfolds (TWE owns since 2011
-  but pre-acquisition press still circulates)
+Two defect classes to catch:
+
+1. **Stale ownership** — a current name superseded by an acquisition:
+   - Pre-Constellation ownership of Robert Mondavi
+   - Pre-LVMH ownership of Domaine des Lambrays (acquired 2014)
+   - Pre-Treasury ownership of Penfolds (TWE owns since 2011)
+
+2. **Fabricated / cross-contaminated ownership** (Veneto 2026-05-26, Opus
+   found 5 in one region after QA1+QA2 missed them): a name that the cited
+   source does NOT support, OR a name lifted from a DIFFERENT producer —
+   often a similarly-named or same-region estate (e.g. Bele Casel stamped
+   with "Gregoletto family"; a DOCG name like "Malanotte" mistaken for a
+   family; a wrong sibling like "Matteo Bisol" assigned to Ruggeri). For
+   each named owner ask: does the producer's OWN site or a consortium
+   roster name this exact person/family? If the only source is a
+   wine-searcher / Vivino / retailer listing, or the name actually belongs
+   to another estate, NULL the field (and scrub any copy of it that
+   propagated into wines.json history milestones). Also flag any
+   `owner`/`winemaker` whose value contradicts the entity's own
+   `origin_year` / founding history.
 
 ### E. Biodynamic / organic certification status
 

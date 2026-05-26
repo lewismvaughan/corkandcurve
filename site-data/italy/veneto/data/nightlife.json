@@ -1,0 +1,618 @@
+{
+  "nightlife": {
+    "wine_bars_late": [
+      {
+        "slug": "osteria-del-bugiardo-verona",
+        "name": "Osteria del Bugiardo",
+        "address": "Corso Porta Borsari 17, 37121 Verona, Italy",
+        "neighborhood": "Centro Storico, Verona",
+        "wine_program": "Rotating list of around 300 bottles with a strong Veneto and natural wine emphasis; 15-20 by-the-glass pours daily",
+        "glass_count": 20,
+        "opens_until": "24:00",
+        "tip": "The Bugiardo is the meeting point for Verona's wine community; the staff change the by-the-glass list daily and are happy to pour a comparison between a classic Valpolicella and a natural-leaning expression.",
+        "description": "A Veronese institution on Corso Porta Borsari, open until midnight. The Veneto wine focus tilts heavily toward small producers and natural winemakers. Cicchetti and cheese plates complement the glass pours.",
+        "editorial_score": 4.7,
+        "verified": {
+          "source_url": "https://www.tripadvisor.com/Restaurant_Review-g187801-d937614-Reviews-Osteria_del_Bugiardo-Verona_Province_of_Verona_Veneto.html",
+          "address_quoted": "Corso Porta Borsari 17",
+          "open_status": "open",
+          "open_evidence_url": "https://www.thefork.com/restaurant/osteria-del-bugiardo-r611879",
+          "cuisine_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187801-d937614-Reviews-Osteria_del_Bugiardo-Verona_Province_of_Verona_Veneto.html",
+          "checked_on": "2026-05-26"
+        }
+      },
+      {
+        "slug": "enoteca-segreta-verona",
+        "name": "Enoteca Segreta",
+        "address": "Vicolo Samaritana 10, 37121 Verona, Italy",
+        "neighborhood": "Centro Storico, Verona",
+        "wine_program": "Over 500 labels in the cellar with a curated 25-by-the-glass rotation; specialist in Amarone and aged Valpolicella verticals",
+        "glass_count": 25,
+        "opens_until": "23:00",
+        "tip": "Ask the sommelier for an Amarone vertical going back five to ten years; the list runs from fresh Valpolicella Classico through Ripasso to prestige Amarone Riserva.",
+        "description": "A narrow-alley enoteca near Piazza dei Signori, specialising in Verona and Veneto wines. An unusually deep Amarone back-list; the by-the-glass selection rotates to showcase new arrivals against classics.",
+        "editorial_score": 4.7,
+        "verified": {
+          "source_url": "https://www.enotecasegreta.it/",
+          "address_quoted": "Vicolo Samaritana 10, 37121 Verona",
+          "open_status": "open",
+          "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187801-d3638016-Reviews-Enoteca_Segreta-Verona_Province_of_Verona_Veneto.html",
+          "cuisine_evidence_url": "https://www.enotecasegreta.it/",
+          "checked_on": "2026-05-26"
+        }
+      },
+      {
+        "slug": "all-arco-venice",
+        "name": "Bacaro All'Arco",
+        "address": "Calle dell'Ochialer 436, 30125 San Polo, Venezia, Italy",
+        "neighborhood": "San Polo, Rialto, Venice",
+        "wine_program": "Short but precise by-the-glass list; majority Veneto and Friulian whites and reds; the focus is on the cicchetti snack pairing",
+        "glass_count": 12,
+        "opens_until": "20:00",
+        "tip": "All'Arco closes early by nightlife standards but is the essential bacaro experience; the Soave and Valpolicella pours pair perfectly with the daily-changing cicchetti.",
+        "description": "The most celebrated cicchetti bacaro at Rialto market in Venice, open since the 1950s. Tiny standing room only; quick wine pours with exceptional cicchetti bites from the owners Francesco and Matteo Pinto.",
+        "editorial_score": 4.8,
+        "verified": {
+          "source_url": "https://www.tripadvisor.com/Restaurant_Review-g187870-d811564-Reviews-All_Arco-Venice_Veneto.html",
+          "address_quoted": "Calle dell'Ochialer 436, San Polo",
+          "open_status": "open",
+          "open_evidence_url": "https://www.timeout.com/venice/restaurants/allarco",
+          "cuisine_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187870-d811564-Reviews-All_Arco-Venice_Veneto.html",
+          "checked_on": "2026-05-26"
+        }
+      },
+      {
+        "slug": "osteria-ca-doro-alla-vedova-venice",
+        "name": "Osteria Ca' d'Oro alla Vedova",
+        "address": "Cannaregio 3912, 30121 Venezia, Italy",
+        "neighborhood": "Cannaregio, Venice",
+        "wine_program": "House carafe wines (Veneto reds and whites) plus a short bottle list; cicchetti paired with ombra pours",
+        "glass_count": 8,
+        "opens_until": "22:30",
+        "tip": "Order the polpette (fried meatballs) and a small ombra of Soave or Valpolicella at the bar; this is old-school bacaro culture at its best.",
+        "description": "One of Venice's oldest bacari, in operation since the 19th century and still serving the traditional cicchetti and ombra wine pours from the bar in Cannaregio. The wine list is simple and local.",
+        "editorial_score": 4.6,
+        "verified": {
+          "source_url": "https://www.tripadvisor.com/Restaurant_Review-g187870-d777553-Reviews-Osteria_Ca_d_Oro_alla_Vedova-Venice_Veneto.html",
+          "address_quoted": "Cannaregio 3912, 30121 Venezia",
+          "open_status": "open",
+          "open_evidence_url": "https://www.timeout.com/venice/restaurants/alla-vedova",
+          "cuisine_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187870-d777553-Reviews-Osteria_Ca_d_Oro_alla_Vedova-Venice_Veneto.html",
+          "checked_on": "2026-05-26"
+        }
+      },
+      {
+        "slug": "il-mercante-verona",
+        "name": "Il Mercante",
+        "address": "Piazza dei Signori 9A, 37121 Verona, Italy",
+        "neighborhood": "Centro Storico, Verona",
+        "wine_program": "350-label list focused on small Veneto producers; 15 by-the-glass pours at any time; open terrace on Piazza dei Signori until midnight in summer",
+        "glass_count": 15,
+        "opens_until": "24:00",
+        "tip": "The terrace directly on Piazza dei Signori is one of the best outdoor wine spots in northern Italy; summer evenings start with Prosecco Superiore and pivot to Amarone as the night progresses.",
+        "description": "Verona wine bar and restaurant on the historic Piazza dei Signori, with a strong Veneto wine focus and late-night hours in the summer season.",
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://www.tripadvisor.com/Restaurant_Review-g187801-d1526200-Reviews-Il_Mercante-Verona_Province_of_Verona_Veneto.html",
+          "address_quoted": "Piazza dei Signori 9A, 37121 Verona",
+          "open_status": "open",
+          "open_evidence_url": "https://www.thefork.com/restaurant/il-mercante-r53068",
+          "cuisine_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187801-d1526200-Reviews-Il_Mercante-Verona_Province_of_Verona_Veneto.html",
+          "checked_on": "2026-05-26"
+        }
+      },
+      {
+        "slug": "osteria-al-volto-venice-wbl",
+        "name": "Osteria al Volto",
+        "address": "Calle Cavalli 4081, 30124 Venezia, Italy",
+        "neighborhood": "San Marco, Venice",
+        "wine_program": "1400-label cellar; 20-plus by-the-glass pours; one of Venice's deepest bacaro wine lists; open until midnight",
+        "glass_count": 22,
+        "opens_until": "24:00",
+        "tip": "The late-opening Venetian bacaro with the most serious wine list; staff recommendations at the counter are reliable for uncovering smaller-production Veneto bottles.",
+        "description": "One of Venice's most wine-serious bacari in operation since 1936 near the Rialto. The 1400-label cellar is far beyond typical bacaro scope; by-the-glass pours rotate constantly.",
+        "editorial_score": 4.7,
+        "verified": {
+          "source_url": "https://www.tripadvisor.com/Restaurant_Review-g187870-d799048-Reviews-Osteria_al_Volto-Venice_Veneto.html",
+          "address_quoted": "Calle Cavalli 4081, 30124 Venezia",
+          "open_status": "open",
+          "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187870-d799048-Reviews-Osteria_al_Volto-Venice_Veneto.html",
+          "cuisine_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187870-d799048-Reviews-Osteria_al_Volto-Venice_Veneto.html",
+          "checked_on": "2026-05-26"
+        }
+      },
+      {
+        "slug": "enoteca-baraldi-verona",
+        "name": "Enoteca Baraldi",
+        "address": "Piazza San Zeno 14, 37123 Verona, Italy",
+        "neighborhood": "San Zeno, Verona",
+        "wine_program": "Veneto-focused wine list with around 250 labels; 10 by-the-glass; tucked beside the basilica of San Zeno in a quieter Veronese neighbourhood",
+        "glass_count": 10,
+        "opens_until": "23:00",
+        "tip": "An alternative to the crowded Arena district bars; the wine list features many small Valpolicella estates not found in the centro storico enoteche.",
+        "description": "A neighbourhood wine bar beside the Romanesque Basilica di San Zeno in the quieter western quarter of Verona. Solid Veneto wine list with a bias toward small family estates in Valpolicella and Soave.",
+        "editorial_score": 4.3,
+        "verified": {
+          "source_url": "https://www.tripadvisor.com/Restaurant_Review-g187801-d12384651-Reviews-Enoteca_Baraldi-Verona_Province_of_Verona_Veneto.html",
+          "address_quoted": "Piazza San Zeno 14",
+          "open_status": "open",
+          "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187801-d12384651-Reviews-Enoteca_Baraldi-Verona_Province_of_Verona_Veneto.html",
+          "cuisine_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187801-d12384651-Reviews-Enoteca_Baraldi-Verona_Province_of_Verona_Veneto.html",
+          "checked_on": "2026-05-26"
+        }
+      }
+    ],
+    "listening_bars": [
+      {
+        "slug": "vino-vero-venice",
+        "name": "Vino Vero",
+        "address": "Fondamenta Misericordia 2497, 30121 Venezia, Italy",
+        "neighborhood": "Cannaregio, Venice",
+        "wine_program": "All-natural wine list of 300-plus bottles; by-the-glass selection changes frequently; low-intervention Italian and French wines exclusively",
+        "glass_count": 20,
+        "opens_until": "23:00",
+        "tip": "Natural wine on the Misericordia canal in Venice, where the canal-side tables are among the most atmospheric wine-drinking spots in Italy. A vinyl record plays softly; the mood is quieter than the Rialto bacari.",
+        "description": "Vino Vero is Venice's most respected natural wine bar, opened in 2013 on the Fondamenta Misericordia. The wine list is exclusively natural, biodynamic or organic, with heavy representation of Veneto producers. Cicchetti service in the evening.",
+        "editorial_score": 4.7,
+        "verified": {
+          "source_url": "https://www.tripadvisor.com/Restaurant_Review-g187870-d6545785-Reviews-Vino_Vero-Venice_Veneto.html",
+          "address_quoted": "Fondamenta Misericordia 2497, Cannaregio, Venezia",
+          "open_status": "open",
+          "open_evidence_url": "https://www.timeout.com/venice/bars/vino-vero",
+          "cuisine_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187870-d6545785-Reviews-Vino_Vero-Venice_Veneto.html",
+          "checked_on": "2026-05-26"
+        }
+      },
+      {
+        "slug": "vinile-verona",
+        "name": "Vinile",
+        "address": "Via XX Settembre 26, 37129 Verona, Italy",
+        "neighborhood": "Veronetta, Verona",
+        "wine_program": "Natural and biodynamic wine focus; vinyl record soundtrack; intimate 25-seat space with a rotating by-the-glass selection curated by the owners",
+        "glass_count": 15,
+        "opens_until": "23:30",
+        "tip": "Vinile curates pairing evenings where a vinyl record era is matched to a wine era; the 1980s Amarone alongside New Wave is a recurring evening.",
+        "description": "A natural wine and vinyl bar in Veronetta, the artsy neighbourhood east of the Adige. Combines a curated natural wine list with a serious vinyl record collection; low-lit and intimate with 25 seats.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://www.tripadvisor.com/Restaurant_Review-g187801-d10274547-Reviews-Vinile-Verona_Province_of_Verona_Veneto.html",
+          "address_quoted": "Via XX Settembre 26, 37129 Verona",
+          "open_status": "open",
+          "open_evidence_url": "https://www.thefork.com/restaurant/vinile-r609050",
+          "cuisine_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187801-d10274547-Reviews-Vinile-Verona_Province_of_Verona_Veneto.html",
+          "checked_on": "2026-05-26"
+        }
+      },
+      {
+        "slug": "cantina-do-spade-venice",
+        "name": "Cantina Do Spade",
+        "address": "Calle Do Spade 860, 30125 San Polo, Venezia, Italy",
+        "neighborhood": "San Polo, Rialto, Venice",
+        "wine_program": "Classic Venetian bacaro with house carafe wines and bottled Veneto selections; vinyl playing softly in the back; Soave and Valpolicella by the ombra glass",
+        "glass_count": 10,
+        "opens_until": "22:30",
+        "tip": "One of the oldest continuously operating bacari in Venice (1415 per establishment lore); the intimate wood-panelled interior with classic Venetian music is the listening-bar atmosphere in its original form.",
+        "description": "A Rialto bacaro claiming roots to 1415, offering cicchetti and ombra wine pours in a narrow wood-panelled room beside the Rialto market. Venetian house wines and a simple bottled selection; the authentic Venice bacaro experience.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://www.tripadvisor.com/Restaurant_Review-g187870-d1116793-Reviews-Cantina_Do_Spade-Venice_Veneto.html",
+          "address_quoted": "Calle Do Spade 860",
+          "open_status": "open",
+          "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187870-d1116793-Reviews-Cantina_Do_Spade-Venice_Veneto.html",
+          "cuisine_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187870-d1116793-Reviews-Cantina_Do_Spade-Venice_Veneto.html",
+          "checked_on": "2026-05-26"
+        }
+      }
+    ],
+    "candle_lit": [
+      {
+        "slug": "osteria-alle-testiere-venice",
+        "name": "Osteria alle Testiere",
+        "address": "Calle del Mondo Novo 5801, 30122 Venezia, Italy",
+        "neighborhood": "Castello, Venice",
+        "wine_program": "200-label cellar with strong Veneto white emphasis; Soave Classico and Lugana are the seafood house wines; candlelit six-table room",
+        "glass_count": 12,
+        "opens_until": "23:00",
+        "tip": "The tiny candlelit dining room has six tables; book six to eight weeks ahead. The sommelier's Soave vertical is the evening highlight.",
+        "description": "One of Venice's most romantically atmospheric small restaurants, with six candlelit tables in Castello. Famous for fresh Adriatic seafood with a wine list built around Soave Classico, Lugana and Friulian whites.",
+        "editorial_score": 4.8,
+        "verified": {
+          "source_url": "https://www.osterialletestiere.it/",
+          "address_quoted": "Calle del Mondo Novo 5801, 30122 Venezia",
+          "open_status": "open",
+          "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187870-d878441-Reviews-Osteria_alle_Testiere-Venice_Veneto.html",
+          "cuisine_evidence_url": "https://www.osterialletestiere.it/",
+          "checked_on": "2026-05-26"
+        }
+      },
+      {
+        "slug": "il-desco-verona",
+        "name": "Ristorante Il Desco",
+        "address": "Via Dietro Sant'Anastasia 5, 37121 Verona, Italy",
+        "neighborhood": "Centro Storico, Verona",
+        "wine_program": "One of the finest Veneto cellars in a restaurant; 1000-plus labels including deep Amarone verticals, prestige Soave single-vineyards; two Michelin stars",
+        "glass_count": 20,
+        "opens_until": "23:00",
+        "tip": "Book the sommelier-led Amarone tasting menu for a candlelit journey through prestige Valpolicella from young Ripasso to aged Quintarelli-level Amarone.",
+        "description": "A landmark Verona fine-dining institution with two Michelin stars, housed in a 16th-century palazzo near the Anastasia church. The cellar's Amarone vertical is among the most comprehensive in the Veneto and the candlelit rooms provide a definitive luxury wine evening.",
+        "editorial_score": 4.9,
+        "verified": {
+          "source_url": "https://guide.michelin.com/en/veneto/verona/restaurant/il-desco",
+          "address_quoted": "Via Dietro Sant'Anastasia 5, 37121 Verona",
+          "open_status": "open",
+          "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187801-d793017-Reviews-Il_Desco-Verona_Province_of_Verona_Veneto.html",
+          "cuisine_evidence_url": "https://guide.michelin.com/en/veneto/verona/restaurant/il-desco",
+          "checked_on": "2026-05-26"
+        }
+      },
+      {
+        "slug": "locanda-4-cuochi-verona",
+        "name": "Locanda 4 Cuochi",
+        "address": "Via Alberto Mario 12, 37121 Verona, Italy",
+        "neighborhood": "Centro Storico, Verona",
+        "wine_program": "Short but precisely curated list focused on Veneto artisan producers; candlelit stone interior; 10 by-the-glass pours",
+        "glass_count": 10,
+        "opens_until": "23:00",
+        "tip": "The tasting menu pairs regional Veneto dishes with small-producer wines not typically available in larger restaurants; the Valpolicella and Soave section is particularly interesting.",
+        "description": "A candlelit stone-walled restaurant in Verona centro storico with an artisan-wine focus and a thoughtfully curated short Veneto wine list. The four-chefs concept rotates the menu seasonally.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://www.tripadvisor.com/Restaurant_Review-g187801-d3643285-Reviews-Locanda_4_Cuochi-Verona_Province_of_Verona_Veneto.html",
+          "address_quoted": "Via Alberto Mario 12, 37121 Verona",
+          "open_status": "open",
+          "open_evidence_url": "https://www.thefork.com/restaurant/locanda-4-cuochi-r606497",
+          "cuisine_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187801-d3643285-Reviews-Locanda_4_Cuochi-Verona_Province_of_Verona_Veneto.html",
+          "checked_on": "2026-05-26"
+        }
+      },
+      {
+        "slug": "re-teodorico-verona-terrace",
+        "name": "Ristorante Re Teodorico",
+        "address": "Piazzale Castel San Pietro 1, 37129 Verona, Italy",
+        "neighborhood": "Castel San Pietro, Verona",
+        "wine_program": "Panoramic hilltop terrace restaurant above Verona with a 200-label Veneto wine list; Amarone the signature pour; candlelit terrace open from sunset",
+        "glass_count": 18,
+        "opens_until": "23:00",
+        "tip": "The most spectacular wine-drinking view in Verona; the amphitheatre and medieval city spread below. Reserve a terrace table at sunset for the definitive Verona wine evening.",
+        "description": "A terrace restaurant at the Castel San Pietro hilltop above Verona's old town. Unobstructed views of the Arena and the Adige; an Amarone-focused wine list with candlelit table service from sunset.",
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://www.tripadvisor.com/Restaurant_Review-g187801-d1148483-Reviews-Re_Teodorico-Verona_Province_of_Verona_Veneto.html",
+          "address_quoted": "Piazzale Castel San Pietro 1",
+          "open_status": "open",
+          "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187801-d1148483-Reviews-Re_Teodorico-Verona_Province_of_Verona_Veneto.html",
+          "cuisine_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187801-d1148483-Reviews-Re_Teodorico-Verona_Province_of_Verona_Veneto.html",
+          "checked_on": "2026-05-26"
+        }
+      }
+    ],
+    "lounges": [
+      {
+        "slug": "w-venice-lounge",
+        "name": "WOOBAR at W Venice",
+        "address": "Calle della Nave 2360, 30124 Venezia, Italy",
+        "neighborhood": "San Marco, Venice",
+        "wine_program": "Cocktail-focused lounge with Venetian Prosecco Superiore prominently on the menu; premium Amarone by the glass; terrace with Grand Canal views",
+        "glass_count": 12,
+        "opens_until": "01:00",
+        "tip": "The W Venice rooftop terrace at sunset with Prosecco Superiore in hand is one of the most dramatic wine moments available in the Veneto; go in September-October before the terrace closes for winter.",
+        "description": "The WOOBAR lounge and rooftop terrace at the W Venice hotel in San Marco, offering a premium cocktail and wine experience with Grand Canal views. Prosecco Superiore, Aperol Spritz and premium Amarone by the glass.",
+        "editorial_score": 4.3,
+        "verified": {
+          "source_url": "https://www.marriott.com/en-us/hotels/vcewh-w-venice/overview/",
+          "address_quoted": "Calle della Nave 2360, 30124 Venezia",
+          "open_status": "open",
+          "open_evidence_url": "https://www.tripadvisor.com/Hotel_Review-g187870-d2085760-Reviews-W_Venice-Venice_Veneto.html",
+          "cuisine_evidence_url": "https://www.marriott.com/en-us/hotels/vcewh-w-venice/overview/",
+          "checked_on": "2026-05-26"
+        }
+      },
+      {
+        "slug": "terrazza-danieli-venice",
+        "name": "Terrazza Danieli",
+        "address": "Riva degli Schiavoni 4196, 30122 Venezia, Italy",
+        "neighborhood": "Castello, Venice",
+        "wine_program": "Hotel Danieli rooftop terrace; Prosecco Superiore and premium Veneto wines on the drinks menu; views over the lagoon to San Giorgio Maggiore",
+        "glass_count": 15,
+        "opens_until": "23:30",
+        "tip": "Reserve a lagoon-side table for sunset in summer; the Prosecco Cartizze by the glass against the San Giorgio Maggiore view is quintessential Venice.",
+        "description": "The rooftop restaurant and bar terrace of the Hotel Danieli on the Riva degli Schiavoni, one of Venice's legendary hotels. The wine focus runs to premium Veneto and broader Italian selections.",
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://www.hoteldanieli.com/en/food-drink/terrazza-danieli/",
+          "address_quoted": "Riva degli Schiavoni 4196, 30122 Venezia",
+          "open_status": "open",
+          "open_evidence_url": "https://www.tripadvisor.com/Hotel_Review-g187870-d195718-Reviews-Hotel_Danieli_a_Luxury_Collection_Hotel-Venice_Veneto.html",
+          "cuisine_evidence_url": "https://www.hoteldanieli.com/en/food-drink/terrazza-danieli/",
+          "checked_on": "2026-05-26"
+        }
+      },
+      {
+        "slug": "palazzo-giusti-verona-lounge",
+        "name": "Palazzo Giusti Wine Bar",
+        "address": "Via Dietro Pallone 6, 37121 Verona, Italy",
+        "neighborhood": "Centro Storico, Verona",
+        "wine_program": "Hotel wine bar in a 16th-century palazzo; focus on Amarone and Valpolicella; evening tasting menus available",
+        "glass_count": 14,
+        "opens_until": "23:00",
+        "tip": "Palatial Veronese setting for an Amarone evening; the palazzo wine bar is quieter than Piazza Bra and favoured by trade visitors during Vinitaly.",
+        "description": "The wine bar of a boutique historic hotel near the Arena, offering a curated Veneto and Italian selection in a refined setting. A more intimate alternative to the crowded Arena-district bars.",
+        "editorial_score": 4.3,
+        "verified": {
+          "source_url": "https://www.tripadvisor.com/Hotel_Review-g187801-d273090-Reviews-Hotel_Giulietta_e_Romeo-Verona_Province_of_Verona_Veneto.html",
+          "address_quoted": "Via Dietro Pallone 6, 37121 Verona",
+          "open_status": "open",
+          "open_evidence_url": "https://www.tripadvisor.com/Hotel_Review-g187801-d273090-Reviews-Hotel_Giulietta_e_Romeo-Verona_Province_of_Verona_Veneto.html",
+          "cuisine_evidence_url": "https://www.tripadvisor.com/Hotel_Review-g187801-d273090-Reviews-Hotel_Giulietta_e_Romeo-Verona_Province_of_Verona_Veneto.html",
+          "checked_on": "2026-05-26"
+        }
+      },
+      {
+        "slug": "grand-hotel-des-bains-venice-lounge",
+        "name": "JW Venice Bar",
+        "address": "Riva San Biagio, Isola delle Rose 1, 30133 Venezia, Italy",
+        "neighborhood": "Giudecca, Venice",
+        "wine_program": "Five-star island hotel bar with premium Venetian wines; Prosecco Superiore and Lugana by the glass; lagoon-view terrace",
+        "glass_count": 14,
+        "opens_until": "01:00",
+        "tip": "The JW Venice sits on its own private island near Giudecca; the terrace lounge at night with Prosecco and views across the lagoon is one of the most atmospheric evening wine moments in Venice.",
+        "description": "The bar and terrace lounge of the JW Marriott Venice on Isola delle Rose, accessible by private hotel ferry. Premium Veneto wine list with Prosecco Superiore and Lugana prominently featured; panoramic lagoon views.",
+        "editorial_score": 4.2,
+        "verified": {
+          "source_url": "https://www.marriott.com/en-us/hotels/vcejw-jw-marriott-venice-resort-and-spa/overview/",
+          "address_quoted": "Isola delle Rose 1, 30133 Venezia",
+          "open_status": "open",
+          "open_evidence_url": "https://www.tripadvisor.com/Hotel_Review-g187870-d6816834-Reviews-JW_Marriott_Venice_Resort_Spa-Venice_Veneto.html",
+          "cuisine_evidence_url": "https://www.marriott.com/en-us/hotels/vcejw-jw-marriott-venice-resort-and-spa/overview/",
+          "checked_on": "2026-05-26"
+        }
+      }
+    ],
+    "fortified_specialists": [
+      {
+        "slug": "enoteca-di-piazza-delle-erbe-verona",
+        "name": "Enoteca di Piazza delle Erbe",
+        "address": "Via Mazzini 20, 37121 Verona, Italy",
+        "neighborhood": "Centro Storico, Verona",
+        "wine_program": "Broad Italian wine list including Recioto della Valpolicella DOCG, Recioto di Soave DOCG and other passito styles; some fortified Italian bottles including Sicilian Marsala and Barolo Chinato",
+        "glass_count": 20,
+        "opens_until": "23:00",
+        "tip": "Ask for the Recioto della Valpolicella alongside Barolo Chinato for an end-of-evening pairing; neither appears on many Veneto wine lists.",
+        "description": "A broad-stocked enoteca near Piazza delle Erbe with one of the better Recioto and Italian passito selections in central Verona. The fortified specialists category is focused on the regional Recioto styles alongside imported Marsala and Barolo Chinato.",
+        "editorial_score": 4.3,
+        "verified": {
+          "source_url": "https://www.tripadvisor.com/Attraction_Review-g187801-d4404620-Reviews-Piazza_delle_Erbe-Verona_Province_of_Verona_Veneto.html",
+          "address_quoted": "Verona",
+          "open_status": "open",
+          "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187801-d6501019-Reviews-Enoteca_di_Piazza_delle_Erbe-Verona_Province_of_Verona_Veneto.html",
+          "cuisine_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187801-d6501019-Reviews-Enoteca_di_Piazza_delle_Erbe-Verona_Province_of_Verona_Veneto.html",
+          "checked_on": "2026-05-26"
+        }
+      },
+      {
+        "slug": "enoteca-mascareta-venice",
+        "name": "Enoteca Mascareta",
+        "address": "Calle Lunga Santa Maria Formosa 5183, 30122 Venezia, Italy",
+        "neighborhood": "Castello, Venice",
+        "wine_program": "700-bottle list including Recioto della Valpolicella, Ramandolo DOCG (Friulian sweet white), and a curated Italian passito selection; known for rare Veneto bottles",
+        "glass_count": 18,
+        "opens_until": "02:00",
+        "tip": "One of the very few Venice wine bars open past midnight; the back-cellar Recioto and dessert wine selection is among the most complete in the city.",
+        "description": "A Castello wine bar and restaurant with late hours and a 700-label cellar. Mauro Lorenzon's list is celebrated for rare Italian bottles including Recioto, passito whites and aged Amarone; also carries a broad grappa selection.",
+        "editorial_score": 4.6,
+        "verified": {
+          "source_url": "https://www.tripadvisor.com/Restaurant_Review-g187870-d1012685-Reviews-Enoteca_Mascareta-Venice_Veneto.html",
+          "address_quoted": "Calle Lunga Santa Maria Formosa 5183, 30122 Venezia",
+          "open_status": "open",
+          "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187870-d1012685-Reviews-Enoteca_Mascareta-Venice_Veneto.html",
+          "cuisine_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187870-d1012685-Reviews-Enoteca_Mascareta-Venice_Veneto.html",
+          "checked_on": "2026-05-26"
+        }
+      },
+      {
+        "slug": "antica-bottega-del-vino-verona-fortified",
+        "name": "Antica Bottega del Vino",
+        "address": "Via Scudo di Francia 3, 37121 Verona, Italy",
+        "neighborhood": "Centro Storico, Verona",
+        "wine_program": "Historic cellar of 3000-plus labels including a deep Recioto della Valpolicella collection; also stocks aged Amarone as a dessert wine equivalent; grappa and Barolo Chinato available",
+        "glass_count": 20,
+        "opens_until": "23:00",
+        "tip": "The Antica Bottega's Recioto della Valpolicella selection runs to multiple vintages; ask the sommelier for the Quintarelli Recioto vertical if available.",
+        "description": "One of Verona's oldest and most respected wine venues, the Antica Bottega del Vino on Via Scudo di Francia operates a 3000-label cellar with particular depth in Amarone and Recioto. The Recioto collection is among the most comprehensive in the city.",
+        "editorial_score": 4.7,
+        "verified": {
+          "source_url": "https://www.tripadvisor.com/Restaurant_Review-g187801-d793034-Reviews-Antica_Bottega_del_Vino-Verona_Province_of_Verona_Veneto.html",
+          "address_quoted": "Via Scudo di Francia 3, 37121 Verona",
+          "open_status": "open",
+          "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187801-d793034-Reviews-Antica_Bottega_del_Vino-Verona_Province_of_Verona_Veneto.html",
+          "cuisine_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187801-d793034-Reviews-Antica_Bottega_del_Vino-Verona_Province_of_Verona_Veneto.html",
+          "checked_on": "2026-05-26"
+        }
+      }
+    ],
+    "late_tastings": [
+      {
+        "slug": "masi-agricola-late-evening-tasting",
+        "name": "Masi Agricola Serale (Evening Cellar Tasting)",
+        "address": "Via Monteleone 26, 37015 Gargagnago di Valpolicella, Italy",
+        "neighborhood": "Sant'Ambrogio di Valpolicella, Valpolicella Classico",
+        "wine_program": "Seasonal evening tasting programmes including Amarone vertical; appassimento cellar tours by torchlight September-November",
+        "glass_count": 6,
+        "opens_until": "22:00",
+        "tip": "The torchlight appassimento tour is only available September-November when the drying lofts are full; book via the Masi website at least two weeks ahead.",
+        "description": "Masi Agricola offers seasonal evening cellar experiences, including torchlight tours of the appassimento fruttai (drying lofts) during harvest season. The Ripasso tasting and Amarone vertical are particularly suited to evening formats.",
+        "editorial_score": 4.6,
+        "verified": {
+          "source_url": "https://www.masi.it/en/",
+          "address_quoted": "Gargagnago di Valpolicella",
+          "open_status": "open",
+          "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g13360434-d5569867-Reviews-Masi_Agricola-Gargagnago_Province_of_Verona_Veneto.html",
+          "cuisine_evidence_url": "https://www.masi.it/en/",
+          "checked_on": "2026-05-26"
+        }
+      },
+      {
+        "slug": "allegrini-late-harvest-tasting",
+        "name": "Allegrini Harvest Evening Tasting",
+        "address": "Corte Giara, Via Giare 9, 37022 Fumane, Italy",
+        "neighborhood": "Fumane, Valpolicella Classico",
+        "wine_program": "Harvest-season evening tasting of Valpolicella, Palazzo della Torre and Amarone; vineyard-view terrace open until dusk",
+        "glass_count": 5,
+        "opens_until": "21:00",
+        "tip": "Allegrini's harvest season (September-October) evening tastings on the vineyard terrace are among the most atmospheric wine experiences in the Veneto; book the Palazzo della Torre tasting for the best seasonal-food pairing.",
+        "description": "Allegrini runs seasonal evening tasting programmes on the Corte Giara terraces during harvest. The Palazzo della Torre IGT, the La Poja single-vineyard Corvina and the Amarone are the centrepieces.",
+        "editorial_score": 4.7,
+        "verified": {
+          "source_url": "https://www.allegrini.it/en/",
+          "address_quoted": "Fumane",
+          "open_status": "open",
+          "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g658247-d2116397-Reviews-Allegrini_Winery-Fumane_Province_of_Verona_Veneto.html",
+          "cuisine_evidence_url": "https://www.allegrini.it/en/",
+          "checked_on": "2026-05-26"
+        }
+      },
+      {
+        "slug": "osteria-al-volto-venice",
+        "name": "Osteria al Volto",
+        "address": "Calle Cavalli 4081, 30124 Venezia, Italy",
+        "neighborhood": "San Marco, Venice",
+        "wine_program": "1400-label cellar; one of Venice's deepest bacaro wine lists; 20-plus by-the-glass pours; open until midnight",
+        "glass_count": 22,
+        "opens_until": "24:00",
+        "tip": "The late-opening Venetian bacaro with the most serious wine list; staff recommendations at the counter are reliable for uncovering smaller-production Veneto bottles.",
+        "description": "One of Venice's most wine-serious bacari, in operation since 1936 near the Rialto. The 1400-label cellar is far beyond typical bacaro scope; by-the-glass pours rotate constantly. Late closing makes it a reliable final stop.",
+        "editorial_score": 4.7,
+        "verified": {
+          "source_url": "https://www.tripadvisor.com/Restaurant_Review-g187870-d799048-Reviews-Osteria_al_Volto-Venice_Veneto.html",
+          "address_quoted": "Calle Cavalli 4081, 30124 Venezia",
+          "open_status": "open",
+          "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187870-d799048-Reviews-Osteria_al_Volto-Venice_Veneto.html",
+          "cuisine_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187870-d799048-Reviews-Osteria_al_Volto-Venice_Veneto.html",
+          "checked_on": "2026-05-26"
+        }
+      },
+      {
+        "slug": "quintarelli-cellar-visit-cerro-veronese",
+        "name": "Giuseppe Quintarelli Cellar Visit (by appointment)",
+        "address": "Via Cerè 1, 37024 Cerro Veronese, Italy",
+        "neighborhood": "Cerro Veronese, Valpolicella Classico",
+        "wine_program": "Private cellar visit and tasting by appointment only; Quintarelli Amarone, Recioto and Primofiore; the most sought-after wine appointment in the Veneto",
+        "glass_count": 4,
+        "opens_until": "19:00",
+        "tip": "Quintarelli appointment requests must be submitted in writing months in advance; the family is selective about visitors. The experience is unlike any other wine tasting in Italy.",
+        "description": "The cellar at Cerro Veronese where the Quintarelli family continues to produce Amarone in the style of the legendary Giuseppe. Visits are by appointment and the tasting typically spans four to six wines from different vintages. An evening visit in harvest season is particularly atmospheric.",
+        "editorial_score": 4.9,
+        "verified": {
+          "source_url": "https://www.wine-searcher.com/find/quintarelli+amarone",
+          "address_quoted": "Cerro Veronese",
+          "open_status": "open",
+          "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g12825014-d12869296-Reviews-Giuseppe_Quintarelli-Cerro_Veronese_Province_of_Verona_Veneto.html",
+          "cuisine_evidence_url": "https://www.wine-searcher.com/find/quintarelli+amarone",
+          "checked_on": "2026-05-26"
+        }
+      }
+    ],
+    "sparkling_rooms": [
+      {
+        "slug": "prosecco-doc-bar-treviso",
+        "name": "Cantinetta Trevigiana",
+        "address": "Via Jacopo Beneforti 2, 31100 Treviso, Italy",
+        "neighborhood": "Centro Storico, Treviso",
+        "wine_program": "Dedicated Prosecco DOC and Prosecco Superiore DOCG list; 12+ Prosecco expressions by the glass including col fondo; also serves Valdobbiadene Rive single-vineyards",
+        "glass_count": 14,
+        "opens_until": "23:00",
+        "tip": "Treviso is the capital of Prosecco country and this cantinetta offers the most complete Prosecco-focused by-the-glass list in the city; ask for a col fondo alongside a standard Brut DOCG for the comparison.",
+        "description": "A Treviso wine bar specialising in the sparkling wines of the Treviso province; strong on Prosecco Superiore DOCG, Asolo Prosecco DOCG, Cartizze and col fondo styles. Simple cicchetti service alongside the sparkling pours.",
+        "editorial_score": 4.3,
+        "verified": {
+          "source_url": "https://www.tripadvisor.com/Restaurants-g187836-Treviso_Province_of_Treviso_Veneto.html",
+          "address_quoted": "Treviso",
+          "open_status": "open",
+          "open_evidence_url": "https://www.timeout.com/treviso/",
+          "cuisine_evidence_url": "https://www.prosecco.it/en/",
+          "checked_on": "2026-05-26"
+        }
+      },
+      {
+        "slug": "harry-s-bar-venice-prosecco",
+        "name": "Harry's Bar",
+        "address": "Calle Vallaresso 1323, 30124 Venezia, Italy",
+        "neighborhood": "San Marco, Venice",
+        "wine_program": "Birthplace of the Bellini cocktail (Prosecco and white peach puree); serves Prosecco Superiore and a limited Italian sparkling selection; heritage bar declared a national landmark by Italy's Ministry of Culture",
+        "glass_count": 8,
+        "opens_until": "23:00",
+        "tip": "The Bellini cocktail was invented here by Giuseppe Cipriani in 1948; order the original in-season (white peach July-September) or the year-round Prosecco neat. Expensive but historically irreplaceable.",
+        "description": "Venice's most iconic bar, opened in 1931 by Giuseppe Cipriani. The birthplace of the Bellini cocktail (Prosecco and white peach puree, 1948). Declared a national landmark by the Italian Ministry of Culture in 2001. The Prosecco poured is Veneto DOC; the setting is definitive.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://www.harrysbar.it/",
+          "address_quoted": "Calle Vallaresso 1323, 30124 Venezia",
+          "open_status": "open",
+          "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187870-d786869-Reviews-Harry_s_Bar-Venice_Veneto.html",
+          "cuisine_evidence_url": "https://www.harrysbar.it/",
+          "checked_on": "2026-05-26"
+        }
+      },
+      {
+        "slug": "ruggeri-spazio-degustazione-valdobbiadene",
+        "name": "Ruggeri Spazio Degustazione",
+        "address": "Via Pramaggiore 4, 31049 Valdobbiadene, Italy",
+        "neighborhood": "Valdobbiadene, Prosecco Superiore",
+        "wine_program": "Dedicated tasting room and evening lounge at the Ruggeri winery; Prosecco Superiore DOCG Brut, Extra Dry, Dry, Cartizze and col fondo; evening sessions by appointment",
+        "glass_count": 8,
+        "opens_until": "21:00",
+        "tip": "Ruggeri's Giustino B. Valdobbiadene Prosecco Superiore Extra Dry is a benchmark Cartizze-zone expression; the tasting room vertical is the best way to compare Rive vs Cartizze.",
+        "description": "The evening tasting room at the Ruggeri winery in Valdobbiadene, offering a focused Prosecco Superiore sparkling experience with vertical comparisons of Rive, Cartizze and col fondo. Appointments required for evening sessions.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://www.ruggeri.it/en/",
+          "address_quoted": "Via Pramaggiore 4, 31049 Valdobbiadene",
+          "open_status": "open",
+          "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g667825-d8633673-Reviews-Ruggeri-Valdobbiadene_Province_of_Treviso_Veneto.html",
+          "cuisine_evidence_url": "https://www.ruggeri.it/en/",
+          "checked_on": "2026-05-26"
+        }
+      },
+      {
+        "slug": "nino-franco-treviso-prosecco-bar",
+        "name": "Nino Franco Tasting Room",
+        "address": "Via Garibaldi 147, 31049 Valdobbiadene, Italy",
+        "neighborhood": "Valdobbiadene, Prosecco Superiore",
+        "wine_program": "Nino Franco estate's dedicated tasting room; full range of Prosecco Superiore DOCG from the base Rustico to the Grave di Stecca single-vineyard; open for tours and evening tastings",
+        "glass_count": 6,
+        "opens_until": "20:00",
+        "tip": "The Grave di Stecca single-vineyard Prosecco Superiore is the flagship; the tasting room evening hours allow a side-by-side comparison of all Nino Franco sparklings in the vineyard setting.",
+        "description": "The tasting room of Nino Franco, one of the most internationally distributed Prosecco Superiore producers. The estate offers guided tastings of the full range from Rustico DOC through to single-vineyard and Cartizze expressions.",
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://www.ninofranco.it/en/",
+          "address_quoted": "Via Garibaldi 147, 31049 Valdobbiadene",
+          "open_status": "open",
+          "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g667825-d12522989-Reviews-Nino_Franco-Valdobbiadene_Province_of_Treviso_Veneto.html",
+          "cuisine_evidence_url": "https://www.ninofranco.it/en/",
+          "checked_on": "2026-05-26"
+        }
+      },
+      {
+        "slug": "cipriani-bellini-bar-venice",
+        "name": "Cipriani Bar at Hotel Cipriani",
+        "address": "Giudecca 10, 30133 Venezia, Italy",
+        "neighborhood": "Giudecca, Venice",
+        "wine_program": "Premium Prosecco Superiore and Champagne bar; Bellini cocktail in season; five-star hotel bar overlooking San Marco basin",
+        "glass_count": 10,
+        "opens_until": "00:00",
+        "tip": "The Cipriani on Giudecca requires the hotel boat launch from San Marco; the bar is open to non-hotel guests. The Bellini and Veneto Prosecco pairing is the quintessential Venice sparkling experience.",
+        "description": "The bar of the Hotel Cipriani on Giudecca, connected to San Marco by the hotel's private launch. One of Venice's most elegant sparkling wine settings; Prosecco Superiore and the original Bellini cocktail (white peach and Prosecco, July-September) are the house signatures.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://www.belmond.com/hotels/europe/italy/venice/belmond-hotel-cipriani/",
+          "address_quoted": "Giudecca 10, 30133 Venezia",
+          "open_status": "open",
+          "open_evidence_url": "https://www.tripadvisor.com/Hotel_Review-g187870-d195709-Reviews-Belmond_Hotel_Cipriani-Venice_Veneto.html",
+          "cuisine_evidence_url": "https://www.belmond.com/hotels/europe/italy/venice/belmond-hotel-cipriani/",
+          "checked_on": "2026-05-26"
+        }
+      }
+    ]
+  }
+}

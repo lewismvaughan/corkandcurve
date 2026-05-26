@@ -1,0 +1,132 @@
+{
+  "food_pairing": [
+    {
+      "slug": "amarone-with-braised-beef",
+      "name": "Amarone della Valpolicella with braised beef and polenta",
+      "pairing": "Amarone della Valpolicella with braised beef and polenta",
+      "description": "The dried-fruit concentration and firm tannins of Amarone find their ideal partner in slow-braised beef. The collagen richness of the meat softens the wine's power while polenta's neutral starchiness lets the Amarone's complexity speak. This is the canonical Veneto pairing at the table.",
+      "wine_entities": ["quintarelli-amarone-classico", "dal-forno-amarone-valpolicella", "masi-mazzano-amarone"],
+      "dish": "Braised beef with polenta",
+      "tablejourney_url": "https://tablejourney.com/italy/venice/",
+      "tablejourney_ref": null,
+      "verified": {
+        "source_url": "https://www.valpolicella.it/en/amarone/food-pairing/",
+        "open_status": "open",
+        "open_evidence_url": "https://tablejourney.com/italy/venice/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "soave-with-baccala-mantecato",
+      "name": "Soave Classico with baccala mantecato",
+      "pairing": "Soave Classico with baccala mantecato",
+      "description": "Baccala mantecato (salt cod whipped with olive oil to a creamy paste served on grilled polenta) is Venice's most celebrated cicchetto. Soave Classico's Garganega-driven acidity, almond note and clean mineral finish cut through the rich oil emulsion without overwhelming the delicate cod flavour. Pieropan Calvarino or La Rocca are the go-to bottles at Venice's serious bacari.",
+      "wine_entities": ["pieropan-calvarino", "pieropan-la-rocca", "inama-bradisismo"],
+      "dish": "Baccala mantecato",
+      "tablejourney_url": "https://tablejourney.com/italy/venice/dish/baccala-mantecato/",
+      "tablejourney_ref": "italy/venice/dish/baccala-mantecato",
+      "verified": {
+        "source_url": "https://www.pieropan.it/en/wines/calvarino/",
+        "open_status": "open",
+        "open_evidence_url": "https://tablejourney.com/italy/venice/dish/baccala-mantecato/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "prosecco-with-sarde-in-saor",
+      "name": "Valdobbiadene Prosecco Superiore with sarde in saor",
+      "pairing": "Valdobbiadene Prosecco Superiore with sarde in saor",
+      "description": "Sarde in saor (sweet-sour marinated sardines with onions, pine nuts and sultanas) is the defining Venetian lagoon dish. Prosecco Superiore's fine bubbles, gentle sweetness and bright acidity are uniquely matched to this agrodolce combination: the wine mirrors the sweetness, scrubs the oily fish fat and refreshes the palate between bites. Nino Franco or Adami's Rive bottlings are the pairing of choice in Venice's best bacari.",
+      "wine_entities": ["nino-franco-grave-di-stecca", "adami-vigneto-giardino"],
+      "dish": "Sarde in saor",
+      "tablejourney_url": "https://tablejourney.com/italy/venice/dish/sarde-in-saor/",
+      "tablejourney_ref": "italy/venice/dish/sarde-in-saor",
+      "verified": {
+        "source_url": "https://www.ninofranco.it/en/wines/grave-di-stecca/",
+        "open_status": "open",
+        "open_evidence_url": "https://tablejourney.com/italy/venice/dish/sarde-in-saor/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "prosecco-with-fritto-misto",
+      "name": "Valdobbiadene Prosecco Superiore with fritto misto della laguna",
+      "pairing": "Valdobbiadene Prosecco Superiore with fritto misto della laguna",
+      "description": "Venice's fritto misto della laguna (a mixed fry of soft-shell crab, baby squid, anchovies and shrimp from the Adriatic) demands a sparkling wine with enough acidity to cut the frying oil and enough delicacy not to overwhelm the fresh seafood. Valdobbiadene Prosecco Superiore is the instinctive match: the mousse lifts the palate, the clean fruit complements rather than competes, and the price point suits generous reordering.",
+      "wine_entities": ["adami-vigneto-giardino", "nino-franco-grave-di-stecca"],
+      "dish": "Fritto misto della laguna",
+      "tablejourney_url": "https://tablejourney.com/italy/venice/dish/fritto-misto/",
+      "tablejourney_ref": "italy/venice/dish/fritto-misto",
+      "verified": {
+        "source_url": "https://www.adamispumanti.it/en/wines/vigneto-giardino/",
+        "open_status": "open",
+        "open_evidence_url": "https://tablejourney.com/italy/venice/dish/fritto-misto/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "valpolicella-ripasso-with-bigoli-in-salsa",
+      "name": "Valpolicella Ripasso with bigoli in salsa",
+      "pairing": "Valpolicella Ripasso with bigoli in salsa",
+      "description": "Bigoli in salsa (thick whole-wheat spaghetti in a slow-cooked anchovy and onion sauce) is one of Venice's most ancient dishes, and one of its most wine-friendly. Valpolicella Ripasso's cherry fruit, light appassimento richness and fresh acidity match the umami depth of the anchovy sauce without the weight of a full Amarone. The pairing illustrates the Ripasso style's value as an everyday bridge between light Valpolicella and the grandeur of Amarone.",
+      "wine_entities": ["bertani-valpolicella-ripasso"],
+      "dish": "Bigoli in salsa",
+      "tablejourney_url": "https://tablejourney.com/italy/venice/dish/bigoli-in-salsa/",
+      "tablejourney_ref": "italy/venice/dish/bigoli-in-salsa",
+      "verified": {
+        "source_url": "https://www.bertani.net/en/wines/",
+        "open_status": "open",
+        "open_evidence_url": "https://tablejourney.com/italy/venice/dish/bigoli-in-salsa/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "soave-with-risotto-al-nero-di-seppia",
+      "name": "Soave Superiore DOCG with risotto al nero di seppia",
+      "pairing": "Soave Superiore DOCG with risotto al nero di seppia",
+      "description": "Venice's black squid-ink risotto is intensely savoury, oceanic and umami-rich. Soave Superiore DOCG from Inama, with its volcanic mineral core, stone-fruit depth and crisp acidity, is one of the few white wines with the structural weight to stand alongside the ink's briny intensity. The wine's almond and saline notes create a seamless mirror of the sea on the palate.",
+      "wine_entities": ["inama-bradisismo", "pieropan-la-rocca"],
+      "dish": "Risotto al nero di seppia",
+      "tablejourney_url": "https://tablejourney.com/italy/venice/dish/risotto-al-nero-di-seppia/",
+      "tablejourney_ref": "italy/venice/dish/risotto-al-nero-di-seppia",
+      "verified": {
+        "source_url": "https://www.inama.wine/en/wines/bradisismo/",
+        "open_status": "open",
+        "open_evidence_url": "https://tablejourney.com/italy/venice/dish/risotto-al-nero-di-seppia/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "recioto-di-soave-with-dessert",
+      "name": "Recioto di Soave DOCG with almond pastries and Venetian desserts",
+      "pairing": "Recioto di Soave DOCG with almond pastries and Venetian desserts",
+      "description": "Recioto di Soave, the rare passito sweet white made from dried Garganega, is Venice's most elegant dessert pairing. Its apricot, honey and light saffron notes harmonise with almond-based Venetian sweets such as baicoli biscuits, fritole and mandorlato nougat. The wine's Garganega acidity prevents cloying sweetness and makes it one of Italy's most food-flexible dessert whites.",
+      "wine_entities": ["pieropan-recioto-di-soave", "suavia-amedeo"],
+      "dish": "Venetian almond pastries and baicoli",
+      "tablejourney_url": "https://tablejourney.com/italy/venice/",
+      "tablejourney_ref": null,
+      "verified": {
+        "source_url": "https://www.pieropan.it/en/wines/",
+        "open_status": "open",
+        "open_evidence_url": "https://tablejourney.com/italy/venice/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "torcolato-with-gorgonzola",
+      "name": "Maculan Torcolato with Gorgonzola dolce",
+      "pairing": "Maculan Torcolato with Gorgonzola dolce",
+      "description": "Breganze Torcolato's natural pairing counterpart is a creamy, rich blue cheese. The wine's apricot-and-honey sweetness bridges the salt and funk of Gorgonzola dolce, while the Vespaiola grape's acidity keeps the match lively rather than cloying. This classic Veneto sweet wine and northern Italian cheese combination is a simple but memorable conclusion to any serious meal in the region.",
+      "wine_entities": ["maculan-torcolato"],
+      "dish": "Gorgonzola dolce with polenta crostini",
+      "tablejourney_url": "https://tablejourney.com/italy/venice/",
+      "tablejourney_ref": null,
+      "verified": {
+        "source_url": "https://www.maculan.net/en/wines/torcolato/",
+        "open_status": "open",
+        "open_evidence_url": "https://tablejourney.com/italy/venice/",
+        "checked_on": "2026-05-26"
+      }
+    }
+  ]
+}

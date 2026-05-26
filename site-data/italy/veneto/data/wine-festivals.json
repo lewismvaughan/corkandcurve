@@ -1,0 +1,188 @@
+{
+  "wine_festivals": [
+    {
+      "slug": "vinitaly-verona",
+      "name": "Vinitaly",
+      "address": "Viale del Lavoro 8, 37135 Verona, Italy",
+      "neighborhood": "Veronafiere, Verona",
+      "recurrence_pattern": "annual, first or second week of April",
+      "start_month": "April",
+      "duration": "5 days",
+      "host_organization": "Veronafiere",
+      "ticket_required": true,
+      "ticket_url": "https://www.vinitaly.com/en/vinitaly-international/tickets/",
+      "featured_producers": ["allegrini", "masi-agricola", "pieropan", "bertani"],
+      "description": "The world's largest professional wine and spirits fair. Over 4,000 exhibitors from 140 countries fill the Veronafiere complex each April. Italian regions dominate the main pavilions; Veneto producers occupy Pavilion 11 and part of Pavilion 10. Saturday before the main fair hosts Operawine by Wine Spectator.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.vinitaly.com/en/about-vinitaly/history/",
+        "address_quoted": "Viale del Lavoro 8, 37135 Verona",
+        "open_status": "open",
+        "open_evidence_url": "https://www.veronafiere.it/en/events/vinitaly/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Vinitaly",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "amarone-opera-prima",
+      "name": "Amarone Opera Prima",
+      "address": "Piazza Bra, 37121 Verona, Italy",
+      "neighborhood": "Centro Storico, Verona",
+      "recurrence_pattern": "annual, late January or early February",
+      "start_month": "January",
+      "duration": "2 days",
+      "host_organization": "Consorzio per la Tutela dei Vini Valpolicella",
+      "ticket_required": true,
+      "ticket_url": "https://www.consorziovalpolicella.it/en/events/",
+      "featured_producers": ["allegrini", "dal-forno-romano", "quintarelli", "masi-agricola", "zenato"],
+      "description": "The Consorzio Vini Valpolicella presents the new Amarone della Valpolicella vintage and select Riservas to international trade and press in Verona. Typically held at Palazzo della Gran Guardia, the two-day event is trade and press on day one, consumers on day two. Formerly known as Anteprima Amarone.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.consorziovalpolicella.it/en/events/",
+        "address_quoted": "Piazza Bra, 37121 Verona",
+        "open_status": "open",
+        "open_evidence_url": "https://www.decanter.com/wine-news/amarone-opera-prima-2024-review-506843/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Amarone_della_Valpolicella",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "primavera-del-prosecco-superiore",
+      "name": "Primavera del Prosecco Superiore",
+      "address": "Piazza Marconi 1, 31049 Valdobbiadene, Italy",
+      "neighborhood": "Valdobbiadene, Treviso",
+      "recurrence_pattern": "annual, first two weeks of May",
+      "start_month": "May",
+      "duration": "12 days",
+      "host_organization": "Consorzio Conegliano Valdobbiadene Prosecco Superiore DOCG",
+      "ticket_required": false,
+      "ticket_url": "https://www.coneglianovaldobbiadene.it/en/events/",
+      "featured_producers": [],
+      "description": "A walking and cycling trail through the UNESCO Prosecco Hills of Conegliano-Valdobbiadene. Producer cellars along the Strada del Prosecco open for free and ticketed tastings across 12 days. The 20-stage tasting passport covers Brut, Extra Dry, Dry and Rive single-vineyard expressions. One of Italy's best-organised wine-tourism walking events.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.coneglianovaldobbiadene.it/en/events/",
+        "address_quoted": "Piazza Marconi 1, 31049 Valdobbiadene",
+        "open_status": "open",
+        "open_evidence_url": "https://www.proseccosuperiore.com/en/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Prosecco_Hills_of_Conegliano_Valdobbiadene",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "soave-versus",
+      "name": "Soave Versus",
+      "address": "Via Roma 1, 37038 Soave, Italy",
+      "neighborhood": "Soave, Verona Province",
+      "recurrence_pattern": "annual, late May",
+      "start_month": "May",
+      "duration": "2 days",
+      "host_organization": "Consorzio di Tutela del Vino Soave",
+      "ticket_required": true,
+      "ticket_url": "https://www.ilsoave.com/en/events/",
+      "featured_producers": [],
+      "description": "The Soave Consorzio's annual comparative tasting forum held in and around the medieval castle town of Soave. The format pairs Soave Classico and DOC expressions with regional food producers. Critics and sommeliers debate Garganega's identity and the case for Soave as a serious age-worthy white wine.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.ilsoave.com/en/events/",
+        "address_quoted": "Via Roma 1, 37038 Soave",
+        "open_status": "open",
+        "open_evidence_url": "https://www.decanter.com/wine/wine-regions/soave-wine/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Soave_DOC",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "festa-uva-bardolino",
+      "name": "Festa dell'Uva di Bardolino",
+      "address": "Lungolago Cipriani 2, 37011 Bardolino, Italy",
+      "neighborhood": "Bardolino, Lake Garda",
+      "recurrence_pattern": "annual, late September to early October",
+      "start_month": "October",
+      "duration": "4 days",
+      "host_organization": "Consorzio di Tutela del Bardolino",
+      "ticket_required": false,
+      "ticket_url": "https://www.ilbardolino.it/en/consortium/",
+      "featured_producers": [],
+      "description": "Bardolino's harvest festival on the lakefront promenade, celebrating the Corvina and Corvinone grapes that make both Bardolino Classico DOC and the celebrated Chiaretto di Bardolino DOC rose. Open-air pours, local fish dishes and lake views across to the Sirmione headland.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.ilbardolino.it/en/consortium/",
+        "address_quoted": "Lungolago Cipriani 2, 37011 Bardolino",
+        "open_status": "open",
+        "open_evidence_url": "https://www.gardalake.it/en/events/wine-and-food/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Bardolino_DOC",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "vinnatur-villa-favorita",
+      "name": "VinNatur Villa Favorita",
+      "address": "Villa Favorita, Via Favari 6, 36054 Montebello Vicentino, Italy",
+      "neighborhood": "Montebello Vicentino, Vicenza Province",
+      "recurrence_pattern": "annual, spring (March or April)",
+      "start_month": "March",
+      "duration": "2 days",
+      "host_organization": "VinNatur",
+      "ticket_required": true,
+      "ticket_url": "https://www.vinnatur.org/en/villa-favorita/",
+      "featured_producers": [],
+      "description": "Europe's premier natural wine fair, held at the 17th-century Villa Favorita in Montebello Vicentino by the VinNatur association founded by Angiolino Maule of La Biancara (Gambellara). Around 200 producers from across Europe and beyond show no-additive natural wines across two days. Trade day followed by a public day.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.vinnatur.org/en/villa-favorita/",
+        "address_quoted": "Via Favari 6, 36054 Montebello Vicentino",
+        "open_status": "open",
+        "open_evidence_url": "https://la-biancara.it/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Natural_wine",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "cantine-aperte-valpolicella",
+      "name": "Cantine Aperte in Valpolicella",
+      "address": "Via Jago 2, 37024 Negrar di Valpolicella, Italy",
+      "neighborhood": "Negrar, Valpolicella",
+      "recurrence_pattern": "annual, last Sunday of May",
+      "start_month": "May",
+      "duration": "1 day",
+      "host_organization": "Movimento Turismo del Vino Veneto",
+      "ticket_required": false,
+      "ticket_url": "https://www.movimentoturismovino.it/en/events/cantine-aperte/",
+      "featured_producers": [],
+      "description": "The national Italian Open Cellars day sees participating Valpolicella, Soave and Bardolino estates open free of charge for self-guided visits and tastings. The Veneto chapter is typically the largest participant in the national movement. Shuttle buses from Verona Porta Nuova serve the Valpolicella valley route.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.movimentoturismovino.it/en/events/cantine-aperte/",
+        "address_quoted": "Via Jago 2, 37024 Negrar di Valpolicella",
+        "open_status": "open",
+        "open_evidence_url": "https://www.consorziovalpolicella.it/en/events/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Valpolicella",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "amarone-e-dintorni-fumane",
+      "name": "Amarone e Dintorni, Fumane",
+      "address": "Piazza De Gasperi 1, 37022 Fumane, Italy",
+      "neighborhood": "Fumane, Valpolicella Classico",
+      "recurrence_pattern": "annual, late spring or early summer",
+      "start_month": "June",
+      "duration": "3 days",
+      "host_organization": "Comune di Fumane and local producers",
+      "ticket_required": false,
+      "ticket_url": "https://www.consorziovalpolicella.it/en/events/",
+      "featured_producers": [],
+      "description": "A smaller, village-scale Valpolicella wine event in Fumane, one of the five sub-zones of Valpolicella Classico. Producers from the immediate Fumane valley open their cellars for free tastings and guided walks through the terraced Corvina vineyards. Amarone and Valpolicella Classico Superiore are the principal pours.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.consorziovalpolicella.it/en/events/",
+        "address_quoted": "Piazza De Gasperi 1, 37022 Fumane",
+        "open_status": "open",
+        "open_evidence_url": "https://www.valpolicella.it/en/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Valpolicella",
+        "checked_on": "2026-05-26"
+      }
+    }
+  ]
+}

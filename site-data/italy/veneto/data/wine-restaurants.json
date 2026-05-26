@@ -1,0 +1,268 @@
+{
+  "wine_restaurants": [
+    {
+      "slug": "casa-perbellini-12-apostoli-verona",
+      "name": "Casa Perbellini - 12 Apostoli",
+      "address": "Vicolo Corticella San Marco 3, 37121 Verona (VR), Italy",
+      "neighborhood": "Centro storico, Verona",
+      "cuisine": "Italian Contemporary / Veronese classical",
+      "cellar_size": 300,
+      "awards": [
+        {"source": "Michelin", "distinction": "2 Stars", "year": 2025}
+      ],
+      "wine_focus": "Sommelier-paired local Veneto and French labels; historic Roman-era vaulted cellar",
+      "description": "Chef Giancarlo Perbellini's revival of the historic 12 Apostoli site in Verona's centro storico. Roman ruins in the basement; vaulted medieval cellar holds 300+ fine wines. Three tasting menus with sommelier pairing; strong Valpolicella and French representation. 2 Michelin Stars.",
+      "editorial_score": 4.9,
+      "tip": "The Chef's Table seats 12 overlooking the kitchen - book this format for the most wine-forward experience.",
+      "verified": {
+        "source_url": "https://guide.michelin.com/us/en/veneto/verona/restaurant/casa-perbellini",
+        "address_quoted": "Vicolo Corticella San Marco 3, Verona",
+        "open_status": "open",
+        "open_evidence_url": "https://www.enprimeurclub.com/restaurants/casa-perbellini-12-apostoli-verona-restaurant",
+        "cuisine_evidence_url": "https://starwinelist.com/wine-place/casa-perbellini-12-apostoli",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "ristorante-il-desco-verona",
+      "name": "Ristorante Il Desco",
+      "address": "Via Dietro San Sebastiano 7, 37121 Verona (VR), Italy",
+      "neighborhood": "Centro storico, Verona",
+      "cuisine": "Italian Contemporary, Renaissance palace setting",
+      "cellar_size": 0,
+      "awards": [
+        {"source": "Michelin", "distinction": "1 Star (40+ years)", "year": 2025}
+      ],
+      "wine_focus": "Curated by sommeliers Linda Ferretti and Nicholas Buratto; local and international excellence; 40-year institutional Verona cellar",
+      "description": "Michelin-starred since 1981; now led by Matteo Rizzo continuing his father Elia's legacy. Housed in a Renaissance palace; cellar curated by sommeliers Linda Ferretti and Nicholas Buratto. Chapter 42 (8-course) and Generations (10-course) menus. Verona's most storied fine-dining wine experience.",
+      "editorial_score": 4.8,
+      "tip": "Request sommelier Nicholas Buratto's Amarone pairing flight - he draws from a deep vertical back to the 1980s.",
+      "verified": {
+        "source_url": "https://ristoranteildesco.it/en/home_/",
+        "address_quoted": "via Dietro San Sebastiano 7, Verona, 37121",
+        "open_status": "open",
+        "open_evidence_url": "https://guide.michelin.com/us/en/veneto/verona/restaurant/il-desco",
+        "cuisine_evidence_url": "https://thechosentable.com/2025/03/11/the-rizzos-il-desco-a-verona-icons-40-year-michelin-starred-journey/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "ristorante-torcolo-verona",
+      "name": "Ristorante Torcolo",
+      "address": "Via Carlo Cattaneo 11, 37121 Verona (VR), Italy",
+      "neighborhood": "Centro storico, Verona",
+      "cuisine": "Traditional Veronese",
+      "cellar_size": 8000,
+      "awards": [],
+      "wine_focus": "8,000-bottle cellar; prestigious Italian and French labels; Barca family management since 1930s; Veneto specialist",
+      "description": "Family restaurant since the 1930s under the Barca family. The cellar holds approximately 8,000 bottles including prestigious Italian and French labels alongside a strong Veneto core. Traditional Veronese risotto, pastissada de caval, and horse meat specialities paired from a serious wine library.",
+      "editorial_score": 4.6,
+      "tip": "Ask for the vertical Amarone tasting flight - the cellar holds back-vintages rarely found on Verona restaurant lists.",
+      "verified": {
+        "source_url": "https://ristorantetorcolo.it/",
+        "address_quoted": "Via Carlo Cattaneo 11, 37121 Verona",
+        "open_status": "open",
+        "open_evidence_url": "https://www.visitverona.it/en/poi/ristorante-torcolo",
+        "cuisine_evidence_url": "https://starwinelist.com/wine-place/ristorante-torcolo",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "antica-bottega-del-vino-ristorante-verona",
+      "name": "Antica Bottega del Vino Ristorante",
+      "address": "Vicolo Scudo di Francia 3, 37121 Verona (VR), Italy",
+      "neighborhood": "Centro storico, Verona",
+      "cuisine": "Veronese traditional + Italian",
+      "cellar_size": 0,
+      "awards": [
+        {"source": "Wine Spectator", "distinction": "Grand Award", "year": 2024}
+      ],
+      "wine_focus": "Wine Spectator Grand Award since 2004; among Italy's most decorated restaurant wine lists; historic Italian and international labels",
+      "description": "Verona's Wine Spectator Grand Award holder since 2004. Combines restaurant, wine bar, and cellar in one venue. The kitchen serves Veronese classics while the wine list spans Italy and beyond at serious depth. Open daily 11:00-01:00.",
+      "editorial_score": 4.7,
+      "tip": "The Amarone section of the list includes library vintages going back decades; ask the sommelier to lead a vertical.",
+      "verified": {
+        "source_url": "https://bottegavini.it/",
+        "address_quoted": "Vicolo Scudo di Francia, 3 - 37121 Verona VR",
+        "open_status": "open",
+        "open_evidence_url": "https://www.visitverona.it/en/poi/antica-bottega-del-vino",
+        "cuisine_evidence_url": "https://starwinelist.com/wine-place/antica-bottega-del-vino",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "oseleta-ristorante-villa-cordevigo",
+      "name": "Oseleta Ristorante - Villa Cordevigo",
+      "address": "Localita Cordevigo snc, 37010 Cavaion Veronese (VR), Italy",
+      "neighborhood": "Bardolino, Cavaion Veronese",
+      "cuisine": "Regional Veronese / Italian Contemporary",
+      "cellar_size": 0,
+      "awards": [
+        {"source": "Michelin", "distinction": "1 Star", "year": 2024}
+      ],
+      "wine_focus": "Estate wines from Vigneti Villabella; Garda DOC and Valpolicella DOC; wine + history tasting packages; 1 Michelin Star",
+      "description": "The fine-dining restaurant of Villa Cordevigo Wine Relais in the Bardolino hills. 1 Michelin Star awarded to the Oseleta restaurant. Estate wines from Vigneti Villabella anchor the wine list; curated wine-and-history tasting packages available for hotel guests and day visitors.",
+      "editorial_score": 4.7,
+      "tip": "Book the wine and history tasting package for a private sensory journey through the estate's Garda DOC labels.",
+      "verified": {
+        "source_url": "https://en.villacordevigo.com/",
+        "address_quoted": "Localita Cordevigo snc 37010 Cavaion Veronese (VR)",
+        "open_status": "open",
+        "open_evidence_url": "https://www.italytraveller.com/en/z/villa-cordevigo-wine-relais",
+        "cuisine_evidence_url": "https://en.villacordevigo.com/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "ristorante-amista-byblos-verona",
+      "name": "Amista Restaurant - Byblos Art Hotel",
+      "address": "Via Cedrare 78, 37029 Corrubbio di San Pietro in Cariano (VR), Italy",
+      "neighborhood": "Valpolicella Classica",
+      "cuisine": "Italian Contemporary, Michelin-starred",
+      "cellar_size": 1600,
+      "awards": [
+        {"source": "Michelin", "distinction": "1 Star (6 consecutive years)", "year": 2025}
+      ],
+      "wine_focus": "1,600+ labels in the 15th-century Wine Cellar Bar; estate wines from Valpolicella terroir; 6 consecutive Michelin Stars",
+      "description": "Michelin-starred restaurant within the Byblos Art Hotel Villa Amista in the Valpolicella hills. The 15th-century Wine Cellar Bar houses over 1,600 carefully selected labels. Six consecutive Michelin Stars; wine pairings draw on a deep Valpolicella and French cellar.",
+      "editorial_score": 4.8,
+      "tip": "The Cellar Bar is accessible to non-dining guests for a wine flight - no restaurant booking required.",
+      "verified": {
+        "source_url": "https://www.byblosarthotel.com/en/",
+        "address_quoted": "Via Cedrare 78 - 37029, Corrubbio di San Pietro in Cariano Verona, Italy",
+        "open_status": "open",
+        "open_evidence_url": "https://slh.com/hotels/byblos-art-hotel-villa-amista",
+        "cuisine_evidence_url": "https://www.byblosarthotel.com/en/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "cantina-bertani-library-experience",
+      "name": "Cantine Bertani Tasting Experiences",
+      "address": "Via Asiago 1, 37023 Grezzana (VR), Italy",
+      "neighborhood": "Grezzana, Valpolicella",
+      "cuisine": "Wine experience / Amarone cellar",
+      "cellar_size": 0,
+      "awards": [],
+      "wine_focus": "Valpolicella Classica Experience EUR70; Library Experience EUR200 with vintages from 1958-2015; 45 Amarone vintages in historic cellar",
+      "description": "Bertani's historic Grezzana cellar houses 45 vintages of Amarone della Valpolicella Classico in renovated tasting spaces. The Library Experience (EUR200) offers guided access to back-vintages from 1958 onwards. Centennial charm meets contemporary design.",
+      "editorial_score": 4.7,
+      "tip": "The Library Experience is the finest vertical Amarone tasting in Veneto - 1958, 1967, 1980 are the benchmark vintages.",
+      "verified": {
+        "source_url": "https://www.bertani.net/",
+        "address_quoted": "Via Asiago, 1, 37023 Grezzana (VR)",
+        "open_status": "open",
+        "open_evidence_url": "https://venetosecrets.com/en/best-design/cantine-bertani-grezzana/",
+        "cuisine_evidence_url": "https://www.visitverona.it/en/experience/cantina-bertani-the-library-experience",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "estro-vino-cucina-fine-dining-venice",
+      "name": "Estro Vino e Cucina (Restaurant)",
+      "address": "Calle Crosera, Dorsoduro 3778, 30123 Venezia, Italy",
+      "neighborhood": "Dorsoduro, Venice",
+      "cuisine": "Contemporary Venetian, Japanese inflections",
+      "cellar_size": 700,
+      "awards": [
+        {"source": "Michelin Guide", "distinction": "Good Cooking", "year": 2025}
+      ],
+      "wine_focus": "700+ natural and sustainable European wines; MICHELIN Good Cooking 2025; dinner tasting menus with full wine pairing available",
+      "description": "Opened 2014 by Alberto and Dario Spezzamonte. MICHELIN Guide Good Cooking 2025. 700+ ecologically sustainable wines from small European producers anchor the restaurant's core. Contemporary Venetian cuisine with Japanese-inflected seasonal tasting menus. Phone +39 041 476 4914.",
+      "editorial_score": 4.6,
+      "tip": "Closed Tuesdays. The full wine pairing across all courses is the definitive Venice natural-wine restaurant experience.",
+      "verified": {
+        "source_url": "https://www.estrovenezia.com/en/",
+        "address_quoted": "Dorsoduro 3778, Venezia",
+        "open_status": "open",
+        "open_evidence_url": "https://guide.michelin.com/us/en/veneto/venezia/restaurant/estro-vino-e-cucina",
+        "cuisine_evidence_url": "https://starwinelist.com/wine-place/vino-vero",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "ristorante-massimago-valpolicella",
+      "name": "Massimago Ristorante",
+      "address": "Via Giare 21, 37030 Mezzane di Sotto (VR), Italy",
+      "neighborhood": "Mezzane di Sotto, Valpolicella",
+      "cuisine": "Regional Veronese with estate wine pairings",
+      "cellar_size": 0,
+      "awards": [],
+      "wine_focus": "Estate Massimago organic wines; Amarone, Valpolicella, Ripasso; chef-driven seasonal menu with home-grown ingredients; immersive estate setting",
+      "description": "On-site restaurant at Massimago Wine Relais in the Mezzane Valley, 20 minutes from Verona. Chef prepares seasonal dishes using home-grown produce with estate organic wine pairings. Includes winery and old Amarone cellar visit for diners. Mezzane is an emerging Valpolicella sub-zone.",
+      "editorial_score": 4.5,
+      "tip": "The combined dinner + cellar walk + vineyard tasting package is the most complete Valpolicella estate experience available in the valley.",
+      "verified": {
+        "source_url": "https://massimago.com/en/massimago-wine-relais/",
+        "address_quoted": "Via Giare, 21 37030 Mezzane di Sotto VR",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Hotel_Review-g187871-d1515190-Reviews-Massimago_Winery_and_Country_Relais-Verona_Province_of_Verona_Veneto.html",
+        "cuisine_evidence_url": "https://massimago.com/en/massimago-wine-relais/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "tenuta-le-cave-ristorante",
+      "name": "Tenuta Le Cave Ristorante",
+      "address": "Via Pagnaghe 5, 37039 Tregnago (VR), Italy",
+      "neighborhood": "Tregnago, Valpolicella / Soave edge",
+      "cuisine": "Veronese with estate organic and biodynamic wine pairings",
+      "cellar_size": 0,
+      "awards": [],
+      "wine_focus": "Organic and biodynamic Valpolicella, Ripasso, and Amarone from the estate; wine lovers packages; vineyard walking paths",
+      "description": "Organic and biodynamic wine relais in the hills between Valpolicella and Soave. Estate-grown organic Valpolicella, Ripasso, and Amarone pair with seasonal Veronese dishes. Wine Lovers packages include overnight accommodation plus cellar and vineyard access.",
+      "editorial_score": 4.5,
+      "tip": "The organic biodynamic Amarone from Le Cave is a rare example of the appellation produced without synthetic inputs - ask for the cellar tasting.",
+      "verified": {
+        "source_url": "https://www.tenutalecave.com/en/wine-relais-in-veneto",
+        "address_quoted": "Via Pagnaghe, 5, 37039 Tregnago Verona",
+        "open_status": "open",
+        "open_evidence_url": "https://venetosecrets.com/en/best-design/tenuta-le-cave/",
+        "cuisine_evidence_url": "https://www.tenutalecave.com/en/wine-relais-in-veneto",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "zyme-winery-ristorante",
+      "name": "Zyme Restaurant and Tasting",
+      "address": "Via Ca del Pipa 1, 37029 San Pietro in Cariano (VR), Italy",
+      "neighborhood": "San Pietro in Cariano, Valpolicella Classica",
+      "cuisine": "Estate wine experience - tasting with local food pairings",
+      "cellar_size": 0,
+      "awards": [],
+      "wine_focus": "Celestino Gaspari wines; sandstone quarry winery setting; tasting of 6+ Zyme wines with local food pairings; tours by reservation",
+      "description": "Zyme winery by Celestino Gaspari is carved into a 15th-century sandstone quarry in Valpolicella Classica. Reservation-required tastings of 6+ wines with local food pairings in an evocative subterranean environment. Tours run approximately 90 minutes.",
+      "editorial_score": 4.6,
+      "tip": "Book at least one week ahead - the quarry cellar space is intimate and fills quickly for weekend sessions.",
+      "verified": {
+        "source_url": "https://www.zyme.it/en",
+        "address_quoted": "Via Ca del Pipa, 1 - 37029 San Pietro in Cariano - Localita Mattonara, Verona",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g608942-d3167187-Reviews-Zyme_Winery-San_Pietro_in_Cariano_Province_of_Verona_Veneto.html",
+        "cuisine_evidence_url": "https://www.zyme.it/en/tastings",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "allegrini-la-grotta-tasting",
+      "name": "Allegrini Estate Restaurant and Tasting",
+      "address": "Via Giare 5, 37022 Fumane di Valpolicella (VR), Italy",
+      "neighborhood": "Fumane, Valpolicella Classica",
+      "cuisine": "Valpolicella estate wine experience + informal tasting",
+      "cellar_size": 0,
+      "awards": [],
+      "wine_focus": "Allegrini Amarone, Valpolicella Classico, Ripasso, La Poja; wine shop always open for informal tastings; 100+ ha family vineyards; Villa della Torre Wine and Art Relais linked",
+      "description": "The Allegrini estate in Fumane includes a wine shop open daily for informal tastings of Valpolicella Classico, Ripasso, Amarone, and La Poja alongside more innovative blends. Villa della Torre (Allegrini Wine and Art Relais, 15th-century palace) offers immersive tasting events.",
+      "editorial_score": 4.6,
+      "tip": "La Poja - a single-vineyard monovarietal Corvina IGT - is poured only at the estate and at select Verona restaurants.",
+      "verified": {
+        "source_url": "https://allegrini.it/en/",
+        "address_quoted": "Via Giare 5, 37022 Fumane di Valpolicella (VR)",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g652049-d19176054-Reviews-Allegrini-Fumane_Province_of_Verona_Veneto.html",
+        "cuisine_evidence_url": "https://allegrini.it/en/",
+        "checked_on": "2026-05-26"
+      }
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "seasonal_wine": [
+    {
+      "slug": "amarone-opera-prima-january",
+      "name": "Amarone Opera Prima, Verona",
+      "season": "Winter",
+      "month": "January",
+      "recurrence_pattern": "annual, late January or early February",
+      "description": "The Consorzio Vini Valpolicella presents the new Amarone and Recioto vintages to trade and press in Verona, typically at Palazzo della Gran Guardia. The event is the global benchmark moment for Amarone pricing and critical assessment. Trade day is by invitation; a public session follows.",
+      "what_to_taste": ["Amarone della Valpolicella DOCG", "Recioto della Valpolicella DOCG", "Valpolicella Ripasso DOC"],
+      "tip": "Focus on the Amarone Riservas from five to eight years back at Opera Prima tastings; producers hold Riserva back longer and release at the event.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.consorziovalpolicella.it/en/events/",
+        "address_quoted": "Verona",
+        "open_status": "open",
+        "open_evidence_url": "https://www.decanter.com/wine-news/amarone-opera-prima-2024-review-506843/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Amarone_della_Valpolicella",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "vinitaly-april-verona",
+      "name": "Vinitaly, Verona",
+      "season": "Spring",
+      "month": "April",
+      "recurrence_pattern": "annual, first or second week of April",
+      "description": "The world's largest professional wine fair occupies the Veronafiere exhibition grounds for five days each April. Italy's 26 regions and producers from 140-plus countries exhibit. For Veneto wines, the Valpolicella, Soave and Prosecco consortia maintain dedicated pavilions. The Operawine by Wine Spectator dinner on the Saturday before the main fair is the most sought-after ticket.",
+      "what_to_taste": ["Amarone della Valpolicella DOCG", "Soave Classico DOC", "Prosecco Superiore DOCG", "Valpolicella Ripasso DOC", "Lugana DOC"],
+      "tip": "Book Operawine tickets six months in advance; the main fair is trade-only Monday to Thursday with public access on the final day.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.vinitaly.com/en/",
+        "address_quoted": "Verona",
+        "open_status": "open",
+        "open_evidence_url": "https://www.veronafiere.it/en/events/vinitaly/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Vinitaly",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "primavera-del-prosecco-spring",
+      "name": "Primavera del Prosecco Superiore, Valdobbiadene",
+      "season": "Spring",
+      "month": "May",
+      "recurrence_pattern": "annual, first two weeks of May",
+      "description": "The Consorzio Conegliano Valdobbiadene Prosecco Superiore DOCG celebrates the new-vintage Prosecco with a walking and cycling trail through the UNESCO Prosecco Hills. Producers open their cellars and tasting rooms along the Strada del Prosecco; the 20-stage tasting passport lets visitors taste Brut, Extra Dry, Dry and Rive single-vineyard expressions.",
+      "what_to_taste": ["Prosecco Superiore DOCG Brut", "Prosecco Superiore DOCG Extra Dry", "Cartizze DOCG", "Rive single-vineyard Prosecco"],
+      "tip": "The Cartizze sub-zone cellars near San Pietro di Barbozza book up quickly; choose the Thursday passport loop if the weekend is sold out.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.coneglianovaldobbiadene.it/en/events/",
+        "address_quoted": "Valdobbiadene",
+        "open_status": "open",
+        "open_evidence_url": "https://www.proseccosuperiore.com/en/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Prosecco_Hills_of_Conegliano_Valdobbiadene",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "soave-versus-spring",
+      "name": "Soave Versus, Soave",
+      "season": "Spring",
+      "month": "May",
+      "recurrence_pattern": "annual, late May",
+      "description": "Soave Versus is the Soave Consorzio's annual comparative tasting and trade forum held in Soave town, pairing Soave Classico and DOC expressions with gastronomic producers. The format invites critics to debate the identity of Garganega and the potential of single-vineyard hillside Soave against international white varieties.",
+      "what_to_taste": ["Soave Classico DOC", "Soave Superiore DOCG (Colli Scaligeri)", "Recioto di Soave DOCG"],
+      "tip": "The vertical tasting sessions on day two are limited to 40 participants; register with the Consorzio eight weeks ahead.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.ilsoave.com/en/events/",
+        "address_quoted": "Soave",
+        "open_status": "open",
+        "open_evidence_url": "https://www.decanter.com/wine/wine-regions/soave-wine/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Soave_DOC",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "valpolicella-harvest-september",
+      "name": "Valpolicella harvest and appassimento season",
+      "season": "Autumn",
+      "month": "September",
+      "recurrence_pattern": "annual, mid September to mid October",
+      "description": "The Valpolicella harvest is the most complex in Italy. Corvina, Corvinone and Rondinella are picked in sequence over several weeks, with the finest clusters destined for appassimento laid on bamboo slats (arele) in drying lofts (fruttai). Producers maintain strict ventilation to prevent Botrytis; the drying process runs from October to January before pressing.",
+      "what_to_taste": ["Valpolicella Classico DOC (the fresh young red from the harvest)", "Recioto della Valpolicella DOCG (the previous vintage, now bottled)"],
+      "tip": "Estates in Fumane and Sant'Ambrogio di Valpolicella often offer harvest participation tours; book directly with estates in June.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.consorziovalpolicella.it/en/the-wines/production/",
+        "address_quoted": "Valpolicella",
+        "open_status": "open",
+        "open_evidence_url": "https://www.valpolicella.it/en/wine-styles/appassimento/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Amarone_della_Valpolicella",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "bardolino-chiaretto-autumn-festival",
+      "name": "Bardolino Chiaretto festival and grape harvest, Lake Garda",
+      "season": "Autumn",
+      "month": "October",
+      "recurrence_pattern": "annual, late September to early October",
+      "description": "The Consorzio Bardolino and the Chiaretto di Bardolino DOC celebrate the harvest each autumn with an open-cellar weekend on the Lake Garda eastern shore. Bardolino Classico (light Corvina red) and Chiaretto (the celebrated Lake Garda rose) are poured alongside Lake Garda olive oil and local fish dishes.",
+      "what_to_taste": ["Bardolino DOC Classico", "Bardolino Chiaretto DOC", "Custoza DOC (white)"],
+      "tip": "Chiaretto di Bardolino is best within two years of harvest; the autumn festival allows side-by-side comparison of the new release versus the prior vintage.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.ilbardolino.it/en/consortium/",
+        "address_quoted": "Bardolino",
+        "open_status": "open",
+        "open_evidence_url": "https://www.gardalake.it/en/events/wine-and-food/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Bardolino_DOC",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "soave-harvest-garganega-october",
+      "name": "Soave Garganega harvest, Soave Classico hills",
+      "season": "Autumn",
+      "month": "October",
+      "recurrence_pattern": "annual, first three weeks of October",
+      "description": "Garganega is a late-ripening variety that benefits from the volcanic basalt and limestone soils of the Soave Classico hillsides. Harvest typically runs October 1-20 depending on vintage; estate open-harvest visits are offered by Pieropan, Prà and Coffele. The week after harvest, Soave town holds its own local market celebrating the new must.",
+      "what_to_taste": ["Soave Classico DOC single-vineyard (previous vintage, now in bottle)", "Recioto di Soave DOCG (prior vintage at estates)"],
+      "tip": "October is when Soave producers show verticals of the aging potential of hillside Garganega; Prà's Monte Grande and Pieropan's Calvarino are the benchmarks.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.ilsoave.com/en/the-grapes/garganega/",
+        "address_quoted": "Soave",
+        "open_status": "open",
+        "open_evidence_url": "https://www.decanter.com/wine/wine-regions/soave-wine/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Soave_DOC",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "amarone-release-autumn-older-vintage",
+      "name": "Amarone new release cycle (autumn, 4-5 years post-harvest)",
+      "season": "Autumn",
+      "month": "November",
+      "recurrence_pattern": "annual, autumn release of the vintage 4-5 years prior",
+      "description": "Amarone della Valpolicella DOCG requires a minimum of two years in oak and one year in bottle before release; Riserva requires four years in oak plus one in bottle. Standard Amarone therefore appears on the market roughly four to five years after the harvest vintage. Autumn is the primary release window when producers ship internationally, with critics publishing scores in October and November.",
+      "what_to_taste": ["Amarone della Valpolicella DOCG (new release, ~4-5 years old)", "Amarone della Valpolicella DOCG Riserva (8-10 years old)"],
+      "tip": "Buy newly released Amarone for cellaring; prices are lower than at peak maturity. The standard release window aligns with the November trade press cycle.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.consorziovalpolicella.it/en/the-wines/amarone/",
+        "address_quoted": "Valpolicella",
+        "open_status": "open",
+        "open_evidence_url": "https://www.valpolicella.it/en/wine-styles/amarone/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Amarone_della_Valpolicella",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "prosecco-col-fondo-winter-release",
+      "name": "Col Fondo Prosecco and the winter cloudy-bottle release",
+      "season": "Winter",
+      "month": "December",
+      "recurrence_pattern": "annual, December to February following harvest",
+      "description": "Col fondo (with sediment) Prosecco is produced by the ancestral Metodo Classico Rifermentato in Bottiglia, leaving the lees in the bottle for a naturally cloudy, lower-alcohol, higher-acidity expression. Casa Coste Piane, Costadila and Bele Casel are the leading col fondo producers. The wines are released in December-January and are best drunk young and chilled, within one to two years of harvest.",
+      "what_to_taste": ["Col Fondo Prosecco Superiore DOCG (Casa Coste Piane, Costadila)", "Prosecco Metodo Classico"],
+      "tip": "Stand the bottle upright for 24 hours before opening to settle the sediment if desired; or invert-then-pour as the col fondo traditionalists do.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.coneglianovaldobbiadene.it/en/appellation/",
+        "address_quoted": "Valdobbiadene",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wine-searcher.com/grape-116-glera",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Prosecco",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "cartizze-late-harvest-october",
+      "name": "Cartizze DOCG late harvest and harvest celebration",
+      "season": "Autumn",
+      "month": "October",
+      "recurrence_pattern": "annual, mid to late October",
+      "description": "The 107-hectare Cartizze sub-zone within Conegliano Valdobbiadene is Italy's most densely divided single vineyard (over 150 owners) and its most expensive Prosecco appellation. The steep Cartizze hillsides above San Pietro di Barbozza are harvested last, when ripe Glera reaches its maximum concentration. Local celebrations mark the end of the harvest with open cellars in Valdobbiadene town.",
+      "what_to_taste": ["Cartizze DOCG Dry", "Cartizze DOCG Extra Dry"],
+      "tip": "Cartizze is almost always made in the Dry or Extra Dry sweetness level; the hint of residual sugar balances the wine's brisk acidity.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.coneglianovaldobbiadene.it/en/appellation/sub-zones/cartizze/",
+        "address_quoted": "Valdobbiadene",
+        "open_status": "open",
+        "open_evidence_url": "https://www.prosecco.it/en/the-territory/doc-docg/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Cartizze",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "valpolicella-open-cellars-may",
+      "name": "Cantine Aperte in Valpolicella (Open Cellars day)",
+      "season": "Spring",
+      "month": "May",
+      "recurrence_pattern": "annual, last Sunday of May",
+      "description": "The national Italian Open Cellars day (Cantine Aperte), organised by the Movimento Turismo del Vino, sees wineries across Valpolicella, Soave and the Prosecco Hills open for free or low-cost guided tours and tastings. In Valpolicella, major estates including Allegrini, Masi and Tedeschi participate. The Veneto chapter is typically the largest national participant.",
+      "what_to_taste": ["Valpolicella Classico DOC", "Valpolicella Ripasso DOC", "Amarone della Valpolicella DOCG (library vintages)"],
+      "tip": "The Valpolicella wineries cluster between Negrar and Fumane; hire a driver or use the seasonal wine-bus service from Verona Porta Nuova station.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.movimentoturismovino.it/en/events/cantine-aperte/",
+        "address_quoted": "Valpolicella",
+        "open_status": "open",
+        "open_evidence_url": "https://www.consorziovalpolicella.it/en/events/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Valpolicella",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "recioto-di-soave-release-spring",
+      "name": "Recioto di Soave DOCG spring release",
+      "season": "Spring",
+      "month": "April",
+      "recurrence_pattern": "annual, spring (typically 18-24 months after harvest)",
+      "description": "Recioto di Soave DOCG, the rare appassimento-dried sweet white wine from Garganega, is released each spring following a minimum of 12 months ageing (24 for Spumante). The Soave Consorzio coordinates a small tasting for press at Vinitaly each April where Recioto is poured alongside dry Soave Classico, demonstrating Garganega's versatility from dry mineral whites to honeyed dessert wines.",
+      "what_to_taste": ["Recioto di Soave DOCG (Pieropan, Coffele, Prà)", "Soave Classico DOC hillside single-vineyards"],
+      "tip": "Recioto di Soave pairs superbly with the regional biscotti Zaleti (cornmeal cookies with raisins); ask producers at Vinitaly for a food pairing sample.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.ilsoave.com/en/the-wines/recioto-di-soave/",
+        "address_quoted": "Soave",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vinitaly.com/en/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Recioto_di_Soave",
+        "checked_on": "2026-05-26"
+      }
+    }
+  ]
+}

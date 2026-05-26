@@ -1,0 +1,220 @@
+{
+  "itineraries": [
+    {
+      "slug": "3-day-valpolicella-soave-amarone-trail",
+      "name": "3-Day Valpolicella and Soave Amarone Trail",
+      "length_days": 3,
+      "theme": "Appassimento masters and hillside Garganega",
+      "description": "A three-day loop from Verona covering the Valpolicella Classico zone for Amarone and Valpolicella Ripasso, then east to the Soave Classico hillsides for Garganega. Based in Verona city for easy morning departures.",
+      "days": [
+        {
+          "day": 1,
+          "morning": "Depart Verona for Fumane in Valpolicella Classico (20 min); visit Allegrini estate for tasting of Valpolicella Classico, Ripasso and La Poja single-vineyard Corvina.",
+          "lunch": "Trattoria dalla Rosa Alda in Sant'Ambrogio di Valpolicella for traditional Veronese pasta and local salumi.",
+          "afternoon": "Drive to Negrar for an appointment at Quintarelli or Bertani for a historic Amarone vertical; book two to three months ahead for Quintarelli.",
+          "evening": "Return to Verona; pre-dinner aperitivo with Amarone at Enoteca Segreta or Osteria del Bugiardo.",
+          "dinner": "Ristorante Il Desco or similar in Verona old town for roast horse and bollito misto with a Valpolicella Superiore pairing.",
+          "accommodation": "Hotel Giulietta e Romeo or similar in Verona centro storico."
+        },
+        {
+          "day": 2,
+          "morning": "Drive to Soave (25 min east of Verona); visit Pieropan estate for guided tasting of Soave Classico, Calvarino single-vineyard and Recioto di Soave; book well ahead.",
+          "lunch": "Light lunch at the Osteria del Castello in the walled village of Soave.",
+          "afternoon": "Walk the Classico hillside vineyards to Gra' (Coffele estate) or visit Prà in Monteforte d'Alpone for their Monte Grande Soave Classico.",
+          "evening": "Drive to Mezzane di Sotto for early-evening tasting at Corte Sant'Alda biodynamic estate (appointment required).",
+          "dinner": "Return to Verona for dinner at Ristorante Re Teodorico on Castel San Pietro hill with panoramic views over the city.",
+          "accommodation": "Verona centro storico as per day one."
+        },
+        {
+          "day": 3,
+          "morning": "Morning visit to Masi Agricola in Gargagnago di Sant'Ambrogio for the Ripasso history tour and a cellar walk through the appassimento fruttai drying lofts (seasonal availability September-December).",
+          "lunch": "Locanda Castelbravo winery restaurant near Marano di Valpolicella for seasonal Veronese dishes.",
+          "afternoon": "Final tasting stop at Bertani in Grezzana or Dal Forno Romano in Illasi (appointment essential, very limited availability) for prestige Amarone comparison.",
+          "evening": "Return to Verona; dinner at home base or departure.",
+          "dinner": "Verona Piazza Bra restaurants for a final Amarone-paired dinner.",
+          "accommodation": "Departure or additional Verona night."
+        }
+      ],
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.consorziovalpolicella.it/en/the-territory/",
+        "address_quoted": "Valpolicella",
+        "open_status": "open",
+        "open_evidence_url": "https://www.ilsoave.com/en/the-territory/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Valpolicella",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "2-day-prosecco-hills-road",
+      "name": "2-Day Prosecco Hills UNESCO Road",
+      "length_days": 2,
+      "theme": "Glera, col fondo and the UNESCO ciglioni landscape",
+      "description": "A two-day drive through the Conegliano-Valdobbiadene Prosecco Hills World Heritage landscape, covering both mainstream and natural col fondo producers. Based in Valdobbiadene town.",
+      "days": [
+        {
+          "day": 1,
+          "morning": "Arrive Valdobbiadene from Venice (1 hr) or Verona (1 hr 10 min); check in and walk the Cartizze hillside above San Pietro di Barbozza. Visit Ruggeri or Bisol for an introductory Prosecco Superiore tasting.",
+          "lunch": "Ristorante Della Vittoria in Valdobbiadene for classic Treviso dishes: radicchio risotto, baccala mantecato.",
+          "afternoon": "Drive the Strada del Prosecco south to Conegliano (30 min); stop at Nino Franco in Valdobbiadene for a Col Fondo tasting; visit the Scuola Enologica (wine school) in Conegliano for a historical overview.",
+          "evening": "Sunset aperitivo at a Valdobbiadene wine bar; try the Rive single-vineyard expressions from producers on the Strada.",
+          "dinner": "Locanda Da Lino in Solighetto, a classic Treviso trattoria with a strong local wine list.",
+          "accommodation": "Agriturismo in the Valdobbiadene hills."
+        },
+        {
+          "day": 2,
+          "morning": "Early morning walk on the UNESCO ciglioni terrace trails above Rolle di Cison di Valmarino. Visit Casa Coste Piane (by appointment) for col fondo Prosecco direct from the estate.",
+          "lunch": "Picnic lunch from a Valdobbiadene alimentari with local Montasio cheese, cicchetti and a bottle of col fondo.",
+          "afternoon": "Drive to Costadila in Rolle for a tasting of their altitude-labelled col fondo expressions (appointment required). Continue to Cison di Valmarino village for the afternoon.",
+          "evening": "Return to base via the ridge road with views across the UNESCO landscape.",
+          "dinner": "Dinner at the base accommodation or departure.",
+          "accommodation": "Departure or extension to Venice (1 hr)."
+        }
+      ],
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.coneglianovaldobbiadene.it/en/strada-del-prosecco/",
+        "address_quoted": "Valdobbiadene",
+        "open_status": "open",
+        "open_evidence_url": "https://whc.unesco.org/en/list/1571/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Prosecco_Hills_of_Conegliano_Valdobbiadene",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "4-day-veneto-grand-tour",
+      "name": "4-Day Veneto Grand Tour: Verona, Valpolicella, Soave, Prosecco Hills, Venice",
+      "length_days": 4,
+      "theme": "Full Veneto wine arc from appassimento to sparkling",
+      "description": "A four-day tour covering all principal Veneto wine zones, beginning in Verona and ending in Venice. Combines city culture with estate visits across Valpolicella, Soave, Bardolino and the Prosecco Hills.",
+      "days": [
+        {
+          "day": 1,
+          "morning": "Arrive Verona; morning visit to the Arena and the wine-focused Enoteca Segreta for an introduction to Veneto wines by the glass.",
+          "lunch": "Taverna di Via Stella in Verona for horsemeat ragu bigoli (traditional Veronese).",
+          "afternoon": "Drive to Valpolicella (20 min) for tasting at Allegrini and Masi Agricola; focus on the Ripasso DOC and its appassimento technique.",
+          "evening": "Return to Verona for Amarone-focused dinner at Ristorante Il Desco or Locanda 4 Cuochi.",
+          "dinner": "Ristorante Il Desco, Via Dietro Sant'Anastasia 5, Verona.",
+          "accommodation": "Verona centro storico hotel."
+        },
+        {
+          "day": 2,
+          "morning": "Drive to Soave (25 min); tasting at Pieropan for Soave Classico and Recioto di Soave DOCG; walk the hillside vineyard path.",
+          "lunch": "Lunch at the Osteria del Castello in Soave village; try pasta e fasoi (pasta with beans) paired with a young Soave Classico.",
+          "afternoon": "Drive to Lake Garda (30 min west); tasting at Zenato in Peschiera del Garda for Lugana DOC and Amarone comparison.",
+          "evening": "Lakeside aperitivo in Garda town; Bardolino Chiaretto by the lake.",
+          "dinner": "Fish dinner at a Garda lakefront restaurant with Lugana or Custoza white.",
+          "accommodation": "Boutique hotel in Garda or Bardolino."
+        },
+        {
+          "day": 3,
+          "morning": "Drive north to Valdobbiadene (1 hr); walk the Cartizze sub-zone vineyards; tasting at Nino Franco for Prosecco Superiore range.",
+          "lunch": "Locanda Da Lino in Solighetto for classic Treviso cuisine.",
+          "afternoon": "Drive the Strada del Prosecco east to Conegliano; stop at Ruggeri for Rive single-vineyard tasting; arrive in Treviso for the evening.",
+          "evening": "Aperitivo al Bacaro in Treviso piazza; try prosecco with cicchetti at a classic Treviso osteria.",
+          "dinner": "Osteria alla Colonna in Treviso for sarde in saor and risi e bisi (Venetian rice and peas).",
+          "accommodation": "Treviso or pre-continue to Venice."
+        },
+        {
+          "day": 4,
+          "morning": "Train from Treviso to Venice (30 min); morning walk through Rialto market and Cannaregio bacari.",
+          "lunch": "Cicchetti and ombra (small glass of wine) at All'Arco or Osteria Ca' d'Oro alla Vedova in Venice; prosecco and Soave by the glass.",
+          "afternoon": "Afternoon tasting at a Venice wine bar with Veneto focus; Enoteca Al Volto or Osteria da Carla.",
+          "evening": "Final evening in Venice; sunset on the Zattere with a glass of Prosecco Superiore.",
+          "dinner": "Bacaro dinner at Osteria Alle Testiere or similar for seasonal lagoon seafood with Soave Classico.",
+          "accommodation": "Venice hotel or departure."
+        }
+      ],
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.valpolicella.it/en/",
+        "address_quoted": "Valpolicella",
+        "open_status": "open",
+        "open_evidence_url": "https://www.italytouristboard.com/veneto/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Veneto_wine",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "lake-garda-wine-weekend",
+      "name": "Lake Garda Wine Weekend: Lugana, Bardolino and Custoza",
+      "length_days": 2,
+      "theme": "Lake wines and terrace dining on Lake Garda",
+      "description": "A relaxed two-day lakeside wine weekend focusing on the three Lake Garda appellations: Lugana DOC on the south shore, Bardolino DOC on the east, and Custoza DOC in the Verona hills. Based in Garda town.",
+      "days": [
+        {
+          "day": 1,
+          "morning": "Arrive Garda town; morning check-in and walk the lakefront promenade. Drive south to Peschiera del Garda for a tasting at Zenato (Lugana San Benedetto and Riserva Sergio Zenato).",
+          "lunch": "Lakeside lunch at a Peschiera sul Garda restaurant with the Lugana DOC zone visible from the terrace.",
+          "afternoon": "Drive to Custoza (15 min south of Garda) for a tasting at Cavalchina or Gorgo estate for Custoza DOC white (Garganega, Trebbianello, Fernanda blend).",
+          "evening": "Return to Garda town; aperitivo on Piazza Catullo with Chiaretto di Bardolino.",
+          "dinner": "Fresh fish dinner at a Garda lakefront restaurant; perch fillets with Lugana Superiore.",
+          "accommodation": "Boutique hotel in Garda town or Bardolino."
+        },
+        {
+          "day": 2,
+          "morning": "Drive north along the lake to Bardolino Classico zone; tasting at Guerrieri Rizzardi for Bardolino Classico and Chiaretto; the estate also produces a small Amarone.",
+          "lunch": "Trattoria lunch in Bardolino village with local olive oil and grilled lake fish.",
+          "afternoon": "Visit the Museo del Vino at the Zeni winery in Bardolino for a free self-guided tour of historical Bardolino winemaking equipment.",
+          "evening": "Final evening aperitivo at a Bardolino lakeshore wine bar.",
+          "dinner": "Departure or extension to Verona (30 min south).",
+          "accommodation": "Departure."
+        }
+      ],
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.lugana-doc.it/en/",
+        "address_quoted": "Peschiera del Garda",
+        "open_status": "open",
+        "open_evidence_url": "https://www.gardalake.it/en/wine/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Bardolino_DOC",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "natural-wine-gambellara-vinnatur",
+      "name": "3-Day Natural Wine Circuit: Gambellara, Soave Classico and VinNatur",
+      "length_days": 3,
+      "theme": "Italian natural wine movement and its Veneto roots",
+      "description": "A three-day immersion in the Veneto natural wine scene, centred on Angiolino Maule's La Biancara in Gambellara, the VinNatur network producers around Soave Classico, and the emerging natural wine bars of Verona and Vicenza.",
+      "days": [
+        {
+          "day": 1,
+          "morning": "Arrive in Gambellara (40 min from Verona); visit La Biancara estate and meet Angiolino Maule; taste the Pico Gambellara skin-contact and the Sassaia Gambellara Classico. Advance appointment required.",
+          "lunch": "Packed lunch at the La Biancara vineyards or drive to Montebello Vicentino for a local trattoria.",
+          "afternoon": "Visit the VinNatur association premises in Montebello Vicentino; book a group tasting of VinNatur member wines to survey the Veneto natural spectrum.",
+          "evening": "Drive to Verona; aperitivo at Osteria del Bugiardo with a rotating natural wine pour.",
+          "dinner": "Natural wine dinner at a Verona enoteca with a broad natural list.",
+          "accommodation": "Verona city hotel."
+        },
+        {
+          "day": 2,
+          "morning": "Morning drive to Soave Classico (25 min); tasting at Filippi in Castelcerino for single-vineyard organic Garganega.",
+          "lunch": "Lunch at the Soave Classico zone; Locanda Cappuccino in Soave for Veronese cuisine.",
+          "afternoon": "Visit Davide Spillare in Brognoligo di Monteforte d'Alpone for the Pico skin-contact Garganega (appointment required).",
+          "evening": "Drive to Vicenza (30 min); evening wine bar visit in Vicenza for regional-natural pours.",
+          "dinner": "Dinner at Antico Ristorante agli Schioppi in Vicenza for baccala alla vicentina, the classic salt-cod dish of Vicenza, paired with Soave Classico.",
+          "accommodation": "Verona or Vicenza."
+        },
+        {
+          "day": 3,
+          "morning": "Drive to the Prosecco Hills (1 hr 10 min); visit Casa Coste Piane in Santo Stefano di Valdobbiadene for the benchmark col fondo (advance appointment essential).",
+          "lunch": "Agriturismo lunch near Valdobbiadene.",
+          "afternoon": "Visit Costadila in Rolle di Cison di Valmarino for altitude-labelled col fondo comparison (appointment required).",
+          "evening": "Return to Verona or Venice for departure.",
+          "dinner": "Departure meal at a Verona bacaro.",
+          "accommodation": "Departure."
+        }
+      ],
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.vinnatur.org/en/the-association/",
+        "address_quoted": "Gambellara",
+        "open_status": "open",
+        "open_evidence_url": "https://la-biancara.it/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Natural_wine",
+        "checked_on": "2026-05-26"
+      }
+    }
+  ]
+}

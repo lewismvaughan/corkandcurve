@@ -1,0 +1,256 @@
+{
+  "neighborhoods": [
+    {
+      "slug": "valpolicella-classico",
+      "name": "Valpolicella Classico",
+      "address": "Valpolicella Classico, 37020-37029 Province of Verona, Italy",
+      "classification": "Amarone della Valpolicella DOCG / Valpolicella Classico DOC",
+      "description": "The original Valpolicella zone covering five valleys northwest of Verona: Negrar, Marano, Fumane, Sant'Ambrogio and San Pietro in Cariano. Corvina, Corvinone and Rondinella on limestone and clay hillsides form the backbone of Amarone, Recioto and Valpolicella Classico. The Classico suffix designates origin from the historic heartland.",
+      "key_varietals": ["Corvina", "Corvinone", "Rondinella", "Molinara", "Oseleta"],
+      "sub_communes": ["Negrar di Valpolicella", "Fumane", "Marano di Valpolicella", "Sant'Ambrogio di Valpolicella", "San Pietro in Cariano"],
+      "famous_producers": ["giuseppe-quintarelli", "allegrini", "speri", "tedeschi", "begali", "tommasi", "brigaldara", "ca-la-bionda", "zyme"],
+      "aliases": ["Valpolicella Classico", "Classico zone", "Valpolicella storico"],
+      "vibe": "Limestone ridges and cherry orchards north of Verona where fruttai drying lofts turn Corvina into Italy's most powerful dry red.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.valpolicella.it/en/",
+        "address_quoted": "Valpolicella Classico, Province of Verona, Italy",
+        "open_status": "open",
+        "open_evidence_url": "https://www.consorziovalpolicella.it/en/",
+        "cuisine_evidence_url": "https://www.valpolicella.it/en/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "valpantena",
+      "name": "Valpantena",
+      "address": "Valpantena, 37020 Province of Verona, Italy",
+      "classification": "Valpolicella Valpantena DOC",
+      "description": "The easternmost of the historic Valpolicella valleys running north from Verona, separated from the Classico zone by the Monti Lessini hills. Valpantena may carry its own sub-geographic mention on DOC labels and produces a slightly lighter style of Valpolicella and Ripasso.",
+      "key_varietals": ["Corvina", "Corvinone", "Rondinella"],
+      "sub_communes": ["Grezzana", "Stallavena"],
+      "famous_producers": ["bertani"],
+      "aliases": ["Valpantena", "Valpolicella Valpantena"],
+      "vibe": "A quieter eastern valley where Bertani's historic Novare cellars age long-maceration Amarone in large Slavonian oak casks.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.consorziovalpolicella.it/en/",
+        "address_quoted": "Valpantena, Province of Verona, Italy",
+        "open_status": "open",
+        "open_evidence_url": "https://www.valpolicella.it/en/",
+        "cuisine_evidence_url": "https://www.consorziovalpolicella.it/en/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "soave-classico",
+      "name": "Soave Classico",
+      "address": "Soave Classico, 37038 Province of Verona, Italy",
+      "classification": "Soave Superiore DOCG / Soave Classico DOC",
+      "description": "The historic Soave zone bounded by the medieval Scaligeri walls of Soave town to the west and the volcanic hillsides of Monteforte d'Alpone to the east. Soils are a mosaic of basalt, limestone and volcanic tufa supporting old-vine Garganega up to 40+ years. Single-vineyard expressions from La Rocca (tufa), Calvarino (basalt-limestone) and Monte Carbonare (volcanic tufa) define the appellation's ceiling.",
+      "key_varietals": ["Garganega", "Trebbiano di Soave"],
+      "sub_communes": ["Soave", "Monteforte d'Alpone", "Colognola ai Colli"],
+      "famous_producers": ["pieropan", "gini", "suavia", "pra", "inama", "anselmi", "cantina-di-soave", "fasoli-gino", "monte-tondo"],
+      "aliases": ["Soave Classico", "Soave Superiore", "Soave storico"],
+      "vibe": "Medieval walled hilltop town with Scaligeri castle overlooking volcanic terraced vineyards that produce Italy's finest Garganega.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.ilsoave.com/",
+        "address_quoted": "Soave Classico, Province of Verona, Italy",
+        "open_status": "open",
+        "open_evidence_url": "https://www.consorziosoave.it/",
+        "cuisine_evidence_url": "https://www.ilsoave.com/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "conegliano-valdobbiadene",
+      "name": "Conegliano Valdobbiadene",
+      "address": "Conegliano Valdobbiadene, 31049 Province of Treviso, Italy",
+      "classification": "Conegliano Valdobbiadene Prosecco Superiore DOCG",
+      "description": "The UNESCO World Heritage Site wine landscape between Conegliano and Valdobbiadene in Treviso province. Steep south-facing hillsides called hogbacks (ciglioni) are planted almost entirely with Glera for Prosecco Superiore DOCG production using the Charmat tank method. The Cartizze is the zone's 107-hectare grand cru above Santo Stefano di Valdobbiadene. Single-commune Rive wines were introduced in 2009.",
+      "key_varietals": ["Glera", "Verdiso", "Perera", "Bianchetta Trevigiana"],
+      "sub_communes": ["Valdobbiadene", "Conegliano", "Santo Stefano di Valdobbiadene", "Guia", "San Pietro di Barbozza"],
+      "famous_producers": ["nino-franco", "bisol-1542", "bortolomiol", "ruggeri", "adami", "villa-sandi", "col-vetoraz", "foss-marai"],
+      "aliases": ["Valdobbiadene DOCG", "Prosecco Superiore", "Cartizze", "Rive di Valdobbiadene"],
+      "vibe": "UNESCO-listed patchwork of steep-terraced Glera hillsides where mist-draped mornings give way to extraordinary views across the Treviso plain.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.prosecco.it/en/",
+        "address_quoted": "Conegliano Valdobbiadene, Province of Treviso, Italy",
+        "open_status": "open",
+        "open_evidence_url": "https://www.coneglianovaldobbiadene.it/en/",
+        "cuisine_evidence_url": "https://www.prosecco.it/en/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "asolo-prosecco",
+      "name": "Asolo Prosecco",
+      "address": "Asolo, 31011 Province of Treviso, Italy",
+      "classification": "Asolo Prosecco Superiore DOCG",
+      "description": "A separate DOCG appellation centred on the medieval hilltop town of Asolo in the Treviso foothills. Asolo Prosecco Superiore tends toward a fuller, riper style than Valdobbiadene DOCG due to slightly warmer south-facing hill exposure. The zone includes the sub-region Colli Asolani for still and sparkling wines.",
+      "key_varietals": ["Glera", "Verdiso", "Perera"],
+      "sub_communes": ["Asolo", "Maser", "Crocetta del Montello", "Volpago del Montello"],
+      "famous_producers": ["bele-casel", "case-paolin", "villa-sandi"],
+      "aliases": ["Asolo DOCG", "Colli Asolani Prosecco", "Asolo Prosecco Superiore"],
+      "vibe": "Romantic medieval walled town of Asolo on a wooded hilltop surrounded by Glera vineyards and a quieter, more artisanal Prosecco DOCG tradition.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.prosecco.it/en/",
+        "address_quoted": "Asolo, Province of Treviso, Italy",
+        "open_status": "open",
+        "open_evidence_url": "https://www.terredelveneto.com/en/",
+        "cuisine_evidence_url": "https://www.prosecco.it/en/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "bardolino",
+      "name": "Bardolino",
+      "address": "Bardolino, 37011 Province of Verona, Italy",
+      "classification": "Bardolino Superiore DOCG / Bardolino DOC",
+      "description": "The east shore of Lake Garda between Lazise and Garda town, producing light cherry-red wines from Corvina, Rondinella and Molinara. Bardolino Superiore DOCG requires 12 months ageing and a minimum 12% ABV. Chiaretto di Bardolino DOC is Italy's most recognised lakeside rosato, produced from the same grapes.",
+      "key_varietals": ["Corvina", "Rondinella", "Molinara"],
+      "sub_communes": ["Bardolino", "Lazise", "Garda", "Costermano"],
+      "famous_producers": ["guerrieri-rizzardi", "campagnola"],
+      "aliases": ["Bardolino Classico", "Chiaretto di Bardolino"],
+      "vibe": "Lakeside Garda tourism meets Italy's lightest-touch Corvina reds and pale salmon Chiaretto rosato at restaurants facing the water.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.ilbardolino.com/",
+        "address_quoted": "Bardolino, Province of Verona, Italy",
+        "open_status": "open",
+        "open_evidence_url": "https://www.ilbardolino.com/",
+        "cuisine_evidence_url": "https://www.ilbardolino.com/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "lugana",
+      "name": "Lugana",
+      "address": "Lugana, 37019 Province of Verona and Brescia, Italy",
+      "classification": "Lugana DOC",
+      "description": "The southern tip of Lake Garda straddling Verona and Brescia provinces, producing Lugana DOC exclusively from the Turbiana grape (a local Trebbiano variant). Soils are glacial clay-rich moraines unique to the lake shore. Lugana ranges from fresh entry-level to complex Riserva and Vendemmia Tardiva versions aged 12-24 months on lees.",
+      "key_varietals": ["Turbiana"],
+      "sub_communes": ["Peschiera del Garda", "Sirmione", "Desenzano del Garda", "Pozzolengo"],
+      "famous_producers": ["zenato", "ottella"],
+      "aliases": ["Lugana DOC", "Bianco di Lugana", "Turbiana"],
+      "vibe": "A sun-baked southern Garda shoreline where the fat clay soils and lake influence give Turbiana a salty, almost Burgundian richness.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.terrelugana.com/",
+        "address_quoted": "Lugana, Province of Verona and Brescia, Italy",
+        "open_status": "open",
+        "open_evidence_url": "https://www.consorziolugana.it/",
+        "cuisine_evidence_url": "https://www.terrelugana.com/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "custoza",
+      "name": "Custoza",
+      "address": "Custoza, 37066 Province of Verona, Italy",
+      "classification": "Bianco di Custoza DOC",
+      "description": "The morainic hills southeast of Lake Garda between Sommacampagna and Valeggio sul Mincio, producing the Bianco di Custoza DOC blend of Garganega, Trebbiano Toscano, Cortese and Bianca Fernanda. Glacial limestone and clay soils give the wines a mineral, saline character suited to seafood pairings.",
+      "key_varietals": ["Garganega", "Trebbiano Toscano", "Cortese", "Bianca Fernanda"],
+      "sub_communes": ["Sommacampagna", "Custoza", "Valeggio sul Mincio", "Villafranca di Verona"],
+      "famous_producers": ["cavalchina", "gorgo", "corte-gardoni", "cantina-di-custoza"],
+      "aliases": ["Bianco di Custoza", "Custoza DOC"],
+      "vibe": "Rolling morainic hills with views to Lake Garda producing a local white blend that is the Veneto's quiet summer secret.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.terredelveneto.com/en/",
+        "address_quoted": "Custoza, Province of Verona, Italy",
+        "open_status": "open",
+        "open_evidence_url": "https://www.cavalchina.com/",
+        "cuisine_evidence_url": "https://www.terredelveneto.com/en/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "breganze",
+      "name": "Breganze",
+      "address": "Breganze, 36042 Province of Vicenza, Italy",
+      "classification": "Breganze DOC",
+      "description": "A small DOC in the Vicenza foothills north of the Venetian plain, famous almost entirely for Maculan's pioneering work. Breganze DOC includes the Torcolato passito from dried Vespaiola grapes, the Bordeaux-blend Fratta, and a range of single-variety reds and whites. The Vespaiola grape is unique to this zone.",
+      "key_varietals": ["Vespaiola", "Cabernet Sauvignon", "Merlot", "Cabernet Franc", "Pinot Bianco"],
+      "sub_communes": ["Breganze", "Marostica", "Mason Vicentino"],
+      "famous_producers": ["maculan"],
+      "aliases": ["Breganze DOC", "Torcolato di Breganze"],
+      "vibe": "A compact Vicenza foothill DOC almost synonymous with Maculan's singular vision: great Bordeaux blends and Italy's most-admired Vespaiola passito.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.maculan.net/",
+        "address_quoted": "Breganze, Province of Vicenza, Italy",
+        "open_status": "open",
+        "open_evidence_url": "https://www.terredelveneto.com/en/",
+        "cuisine_evidence_url": "https://www.maculan.net/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "colli-euganei",
+      "name": "Colli Euganei",
+      "address": "Colli Euganei, 35032 Province of Padova, Italy",
+      "classification": "Colli Euganei Fior d'Arancio DOCG / Colli Euganei DOC",
+      "description": "A volcanic island of hills rising abruptly from the Venetian plain south of Padova. The Colli Euganei DOC covers reds, whites and sparkling wines while the Fior d'Arancio DOCG designates sparkling and passito from Moscato Giallo. The volcanic soils and thermal springs make this a regional wine tourism destination distinct from the Veronese zones.",
+      "key_varietals": ["Moscato Giallo", "Merlot", "Cabernet Franc", "Pinot Bianco"],
+      "sub_communes": ["Arqua Petrarca", "Galzignano Terme", "Baone", "Este"],
+      "famous_producers": ["vignalta"],
+      "aliases": ["Colli Euganei", "Fior d'Arancio DOCG", "Euganean Hills"],
+      "vibe": "Volcanic spas and thermal baths meet medieval hilltop villages and Moscato Giallo passito on the geologically unique Euganean Hills near Padova.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.terredelveneto.com/en/",
+        "address_quoted": "Colli Euganei, Province of Padova, Italy",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vignalta.it/",
+        "cuisine_evidence_url": "https://www.terredelveneto.com/en/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "piave-treviso",
+      "name": "Piave and Treviso",
+      "address": "Piave DOC, 31024 Province of Treviso, Italy",
+      "classification": "Piave DOC",
+      "description": "The flat alluvial plains of the Piave river valley in Treviso province, historically producing high-volume varietal wines from Raboso Piave, Merlot, Cabernet Franc, Pinot Grigio and Chardonnay. Raboso Piave is the zone's only native variety, a thick-skinned, high-acid red grape capable of long ageing when yields are controlled.",
+      "key_varietals": ["Raboso Piave", "Merlot", "Cabernet Franc", "Pinot Grigio", "Chardonnay"],
+      "sub_communes": ["Ormelle", "Oderzo", "Salgareda", "San Polo di Piave"],
+      "famous_producers": ["italo-cescon"],
+      "aliases": ["Piave DOC", "Raboso del Piave", "Venezia DOC"],
+      "vibe": "The flat Treviso plains where the Piave river marks the border with Friuli, and the tenacious Raboso Piave grape bridges rustic character with genuine longevity.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.terredelveneto.com/en/",
+        "address_quoted": "Piave DOC, Province of Treviso, Italy",
+        "open_status": "open",
+        "open_evidence_url": "https://www.italocescon.it/en/",
+        "cuisine_evidence_url": "https://www.terredelveneto.com/en/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "montello-rosso",
+      "name": "Montello Rosso",
+      "address": "Montello, 31044 Province of Treviso, Italy",
+      "classification": "Montello Rosso DOCG",
+      "description": "The Montello hill rising northeast of Treviso is the only upland area of the Venetian plain, producing Montello Rosso DOCG from Bordeaux varieties. Serafini and Vidotto pioneered quality Cabernet Franc and Merlot on these red-clay hillsides in the 1980s. The DOCG designation arrived in 2011, recognising the zone's capacity for age-worthy Bordeaux-style reds.",
+      "key_varietals": ["Cabernet Franc", "Merlot", "Cabernet Sauvignon"],
+      "sub_communes": ["Nervesa della Battaglia", "Volpago del Montello", "Montebelluna"],
+      "famous_producers": ["serafini-vidotto"],
+      "aliases": ["Montello Rosso DOCG", "Montello-Colli Asolani"],
+      "vibe": "A wooded sandstone hill above the Piave plain where pioneering producers proved Bordeaux varieties can reach genuine complexity in northeast Italy.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.terredelveneto.com/en/",
+        "address_quoted": "Montello, Province of Treviso, Italy",
+        "open_status": "open",
+        "open_evidence_url": "https://www.serafiniwidotto.com/",
+        "cuisine_evidence_url": "https://www.terredelveneto.com/en/",
+        "checked_on": "2026-05-26"
+      }
+    }
+  ]
+}

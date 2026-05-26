@@ -36,8 +36,8 @@ Every entity ships with this block or it's dropped. `source_url` and
 | `varietals` | array[string] | grape names (Cabernet Sauvignon, etc.) |
 | `classification` | string | DOCG/DOC/IGT/AOC/AVA/etc. — exact match required |
 | `hectares` | float | only when source-verified |
-| `owner` | string | producer / owning family / corporate parent |
-| `winemaker` | string | head winemaker if named in current press |
+| `owner` | string | producer / owning family / corporate parent. ONLY from a primary source (the producer's own About/history page, a consortium roster, or dated 2024-2026 trade press). If the only place a name appears is a wine-searcher / Vivino / retailer / aggregator listing, emit `null` — those listings routinely carry wrong or cross-contaminated names. NEVER guess a family name from the estate name, and NEVER carry a name over from a different (similarly-named or same-region) producer. A `null` owner is correct and safe; a fabricated one is a credibility defect. |
+| `winemaker` | string | head winemaker, ONLY if named on the producer's own site or in current trade press. Same primary-source rule as `owner` — `null` if only an aggregator names them. Do not assign the owner's name to the winemaker field or vice versa. |
 | `founded` | int (year) | 4-digit year |
 | `biodynamic_status` | string | "demeter_certified", "biodynamic_practicing", "none" |
 | `organic_status` | string | the VERIFIED certifying body for THIS estate, or a generic/none. Bodies vary by country: "usda_organic", "ecocert" / "ecocert_italia", "icea", "ccpb", "suolo_e_salute", "bioagricert", "caae" (Spain), "sativa" (Portugal), "demeter" (also biodynamic). If the estate is certified organic but the source does not name the body, use the generic "organic_certified". Use "none" if not certified. NEVER blanket-apply one body across estates (Piedmont 2026-05-25: "icea" was wrongly stamped on every organic estate). |
@@ -235,7 +235,14 @@ region's `wines.json` — the region of its producer.
 - `price_band`: range string; retail at primary market (€ in EU, $ in US, £ in UK, AU$ in Australia). Used to derive the `price-*` tag.
 - `drinking_window_years`: string like `"3-10 from vintage"`; used to derive `cellar-worthy` vs `drink-young` tags.
 - `taste.aroma` / `taste.palate`: arrays of short descriptors. Each descriptor must come from a published tasting note (producer, critic, or consortium) — `verified.cuisine_evidence_url` covers this.
-- `taste.body` / `taste.tannin` / `taste.acidity`: controlled values from WINE_TAGS.md.
+- `taste.body` / `taste.tannin` / `taste.acidity`: BARE scalar values, NOT
+  the WINE_TAGS tag slugs. Use exactly: `body` ∈ {`light`, `medium`, `full`};
+  `tannin` ∈ {`low`, `medium`, `firm`, `high`}; `acidity` ∈ {`low`, `medium`,
+  `high`, `racy`}. Do NOT write `medium-body`/`high-acid`/`firm-tannin` here —
+  those `-body`/`-acid`/`-tannin` forms are the `tags[]` slugs and belong ONLY
+  in the `tags[]` array. (Veneto 2026-05-26: every cuvée agent put the tag
+  slug in the scalar field, producing 297 validate_data ERRs. The example
+  object above shows the correct bare values: `"body": "full"` etc.)
 - `pairings`: 3-8 dish recommendations. `tablejourney_ref` is a TJ path (e.g. `italy/florence/restaurants/trattoria-mario`) when a matching TJ entity exists; `null` otherwise. The renderer turns non-null refs into outbound links to tablejourney.com per [docs/CROSS_LINKING.md](../../docs/CROSS_LINKING.md). NEVER invent TJ paths — verified at ship-time by `check_external_urls.py`.
 - `history.origin_year`: 4-digit year of the first vintage of THIS cuvée (may differ from the producer's founding year).
 - `history.milestones`: 1-5 dated facts. Each must be sourceable.
