@@ -1,4 +1,10 @@
+# TableJourney
+# Policy: open to all well-behaved crawlers, including AI retrieval and
+# training bots. Editorial referrals from AI search (ChatGPT, Perplexity,
+# Claude, Google AI Overviews, etc.) are an explicit growth channel.
 User-agent: *
 Allow: /
+Disallow: /search?
+Disallow: /api/
 
 Sitemap: https://corkandcurve.com/sitemap.xml

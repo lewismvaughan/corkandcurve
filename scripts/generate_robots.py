@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Write content/robots.txt for TableJourney."""
+"""Write content/robots.txt for Cork & Curve."""
 
 from pathlib import Path
 
@@ -15,7 +15,7 @@ Allow: /
 Disallow: /search?
 Disallow: /api/
 
-Sitemap: https://tablejourney.com/sitemap.xml
+Sitemap: https://corkandcurve.com/sitemap.xml
 """
 
 

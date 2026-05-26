@@ -1,0 +1,103 @@
+{
+  "wine_schools": [
+    {
+      "slug": "kesselstatt-weinproben-seminar-trier",
+      "name": "Weinstube Kesselstatt Wine Seminars",
+      "address": "Liebfrauenstrasse 10, 54290 Trier, Germany",
+      "neighborhood": "Trier cathedral quarter",
+      "description": "Moderated tasting seminars run by the Reichsgraf von Kesselstatt estate in its historic Trier cellars. Guided flights cover Mosel, Saar and Ruwer Rieslings across the dry-to-sweet spectrum, in German or English.",
+      "courses_offered": [
+        "Kellergeister cellar tour and tasting (3 wines)",
+        "Tiefenrausch tasting (5 house wines, Rose to Riesling)",
+        "Private moderated Riesling tasting (Mosel, Saar, Ruwer)"
+      ],
+      "languages": ["German", "English"],
+      "price_range": "EUR 23 to EUR 27 per person; private groups from EUR 270",
+      "certifications": [],
+      "booking_url": "https://www.weinstube-kesselstatt.de/weinprobenen.html",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.weinstube-kesselstatt.de/weinprobenen.html",
+        "address_quoted": "Liebfrauenstr. 10, Trier",
+        "open_status": "open",
+        "open_evidence_url": "https://www.yelp.com/biz/weinstube-kesselstatt-trier",
+        "cuisine_evidence_url": "https://www.weinstube-kesselstatt.de/weinproben.html",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "bischoefliche-weingueter-tasting-seminars-trier",
+      "name": "Bischoefliche Weingueter Trier Tasting Seminars",
+      "address": "Gervasiusstrasse 1, 54290 Trier, Germany",
+      "neighborhood": "Trier city centre",
+      "description": "Structured tasting seminars at the church estate's monumental Late Antique cellar, teaching Mosel, Saar and Ruwer Riesling alongside Pinot styles. Moderated flights and longer wine-walk formats led by estate staff.",
+      "courses_offered": [
+        "Moderated wine tasting (25 EUR per person)",
+        "Wine-walk tasting with cellar visit (32 EUR per person)"
+      ],
+      "languages": ["German", "English"],
+      "price_range": "EUR 25 to EUR 32 per person",
+      "certifications": [],
+      "booking_url": "https://shop.bischoeflicheweingueter.de/en/Wine-estate/Winery/",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.trier-info.de/weinerlebnisse/bischoefliche-weingueter-trier-anzeige",
+        "address_quoted": "Gervasiusstraße 1, 54290 Trier",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g187394-d2536929-Reviews-Bischofliche_Weinguter_Trier-Trier_Rhineland_Palatinate.html",
+        "cuisine_evidence_url": "https://shop.bischoeflicheweingueter.de/en/Wine-estate/Winery/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "gutsweinschaenke-muellers-weinseminar-kroev",
+      "name": "Gutsweinschaenke Muellers Wine Seminars",
+      "address": "Robert-Schuman-Strasse 59, 54536 Kroev, Germany",
+      "neighborhood": "Kroev, Middle Mosel",
+      "description": "Small-group wine seminars at the Mueller estate pension in Kroev covering Mosel viticulture, tasting technique and food pairing, with grape varieties from Riesling to Dornfelder. Tailored to beginner and advanced levels.",
+      "courses_offered": [
+        "Mosel wine seminar with tasting (beginner and advanced)",
+        "Wine and food pairing seminar",
+        "Wine walk with the winegrower"
+      ],
+      "languages": ["German"],
+      "price_range": "Seminar packages bookable with overnight stay; price on request",
+      "certifications": [],
+      "booking_url": "https://www.gutsweinschaenke-muellers.de/weinseminar-mosel",
+      "editorial_score": 4.0,
+      "verified": {
+        "source_url": "https://www.gutsweinschaenke-muellers.de/weinseminar-mosel",
+        "address_quoted": "Robert Schuman Straße 59",
+        "open_status": "open",
+        "open_evidence_url": "https://en.moselregion.com/gastro/gutsweinschaenke-muellers-1",
+        "cuisine_evidence_url": "https://en.visitmosel.de/wine-cuisine/gastro/gutsweinschaenke-muellers",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "weinwerbung-mosel-saar-ruwer-trier",
+      "name": "Moselwein e.V. Wine Education (Weinwerbung Mosel-Saar-Ruwer)",
+      "address": "Gartenfeldstrasse 12a, 54295 Trier, Germany",
+      "neighborhood": "Trier city centre",
+      "description": "The regional wine marketing body in Trier, the central source for Mosel-Saar-Ruwer wine education, seminar listings and structured tasting brochures. Coordinates grower-led seminars and Riesling-on-slate masterclasses across the region.",
+      "courses_offered": [
+        "Mosel wine seminar listings and brochures",
+        "Riesling and slate-terroir masterclass referrals",
+        "Grower-led tasting coordination"
+      ],
+      "languages": ["German", "English"],
+      "price_range": "Varies by partner seminar",
+      "certifications": [],
+      "booking_url": "https://www.weinland-mosel.de/de/",
+      "editorial_score": 3.9,
+      "verified": {
+        "source_url": "https://www.weinland-mosel.de/de/",
+        "address_quoted": "Gartenfeldstraße 12a, 54295 Trier",
+        "open_status": "open",
+        "open_evidence_url": "https://en.visitmosel.de/wine-cuisine/a-culinary-voyage-of-discovery/culinary-delights",
+        "cuisine_evidence_url": "https://weinland-mosel.de/index.php?ID_KAT=46&LANG=DE&O_ID=20",
+        "checked_on": "2026-05-26"
+      }
+    }
+  ]
+}

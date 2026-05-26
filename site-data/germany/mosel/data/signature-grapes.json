@@ -1,0 +1,130 @@
+{
+  "signature_grapes": [
+    {
+      "slug": "riesling",
+      "name": "Riesling",
+      "style_focus": "white",
+      "regions_grown": [
+        "mittelmosel",
+        "saar",
+        "ruwer",
+        "terrassenmosel"
+      ],
+      "description": "The undisputed king of the Mosel, accounting for the large majority of plantings and every famous single vineyard from Wehlener Sonnenuhr to Scharzhofberger. On blue and red Devonian slate it gives low-alcohol, racy wines with green apple, citrus, white peach and a flinty, smoky minerality, made across the full Pradikat ladder from dry Grosses Gewachs through Kabinett and Spatlese to nobly sweet Beerenauslese and Trockenbeerenauslese. The cool climate and steep south-facing slopes preserve the searing acidity that lets even sweeter styles age for decades.",
+      "key_producers": [
+        "joh-jos-pruem",
+        "dr-loosen",
+        "fritz-haag",
+        "willi-schaefer",
+        "egon-muller-scharzhof",
+        "maximin-gruenhaus"
+      ],
+      "verified": {
+        "source_url": "https://www.weinland-mosel.de/",
+        "address_quoted": "Mosel, Germany",
+        "open_status": "open",
+        "open_evidence_url": "https://en.visitmosel.de/",
+        "cuisine_evidence_url": "https://winefolly.com/deep-dive/mosel-valley-wine-guide/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "muller-thurgau",
+      "name": "Muller-Thurgau",
+      "style_focus": "white",
+      "regions_grown": [
+        "mittelmosel",
+        "terrassenmosel"
+      ],
+      "description": "A Riesling crossing (with Madeleine Royale) bred by Hermann Muller from Thurgau in 1882, long the workhorse white of German bulk wine and still one of the Mosel's most planted varieties after Riesling. It ripens earlier than Riesling and gives softer, lower-acid wines with muscat-like floral and pear notes, used mostly for easy-drinking everyday whites and entry-level Federweisser at harvest. Sometimes labelled Rivaner when made in a drier style.",
+      "key_producers": [
+        "max-ferd-richter",
+        "heinrichshof"
+      ],
+      "verified": {
+        "source_url": "https://www.germanwines.de/",
+        "address_quoted": "Mosel, Germany",
+        "open_status": "open",
+        "open_evidence_url": "https://www.weinland-mosel.de/",
+        "cuisine_evidence_url": "https://www.germanwines.de/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "elbling",
+      "name": "Elbling",
+      "style_focus": "white",
+      "regions_grown": [
+        "obermosel"
+      ],
+      "description": "One of the oldest cultivated European grapes, grown here since Roman times and now concentrated almost entirely on the shell-limestone soils of the Obermosel on the Luxembourg border, where Riesling struggles. It produces high-acid, neutral, light-bodied whites often turned into Sekt sparkling wine, and is the historic identity grape of the Upper Mosel. Crisp, lemony and bracing, best drunk young as an aperitif.",
+      "key_producers": [],
+      "verified": {
+        "source_url": "https://www.saar-obermosel.de/en/",
+        "address_quoted": "Obermosel, Germany",
+        "open_status": "open",
+        "open_evidence_url": "https://www.germanwines.de/",
+        "cuisine_evidence_url": "https://www.saar-obermosel.de/en/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "spatburgunder",
+      "name": "Spatburgunder (Pinot Noir)",
+      "style_focus": "red",
+      "regions_grown": [
+        "mittelmosel"
+      ],
+      "description": "Pinot Noir, locally called Spatburgunder, is a small but growing presence on the warmer, more sheltered Mosel sites and on the limestone of the Obermosel. Producers such as Markus Molitor and the cult Daniel Twardowski (whose Pinot Noix is grown on Devonian slate) show that the region's cool climate can give light to medium-bodied, red-fruited, savoury reds with bright acidity. Still a niche relative to Riesling but increasingly serious.",
+      "key_producers": [
+        "markus-molitor",
+        "daniel-twardowski"
+      ],
+      "verified": {
+        "source_url": "https://www.germanwines.de/",
+        "address_quoted": "Mosel, Germany",
+        "open_status": "open",
+        "open_evidence_url": "https://www.weinland-mosel.de/",
+        "cuisine_evidence_url": "https://www.germanwines.de/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "kerner",
+      "name": "Kerner",
+      "style_focus": "white",
+      "regions_grown": [
+        "mittelmosel"
+      ],
+      "description": "A 1929 crossing of Trollinger and Riesling that ripens reliably and retains Riesling-like acidity, planted on the Mosel as a frost-hardy alternative on cooler or flatter sites. It gives aromatic, slightly muscat-scented whites with apple and citrus notes, used both for off-dry styles and for blending. A useful cool-climate insurance grape that keeps crispness where Riesling will not ripen.",
+      "key_producers": [],
+      "verified": {
+        "source_url": "https://www.germanwines.de/",
+        "address_quoted": "Mosel, Germany",
+        "open_status": "open",
+        "open_evidence_url": "https://www.weinland-mosel.de/",
+        "cuisine_evidence_url": "https://www.germanwines.de/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "weissburgunder",
+      "name": "Weissburgunder (Pinot Blanc)",
+      "style_focus": "white",
+      "regions_grown": [
+        "terrassenmosel",
+        "obermosel"
+      ],
+      "description": "Pinot Blanc, called Weissburgunder in Germany, is grown in small quantities on the limestone Obermosel and warmer Lower Mosel sites where it produces dry, fuller-bodied, gently nutty whites with pear and almond notes and moderate acidity. A versatile food wine that contrasts with the slate-driven Riesling style and is often vinified bone-dry for the table.",
+      "key_producers": [],
+      "verified": {
+        "source_url": "https://www.saar-obermosel.de/en/",
+        "address_quoted": "Obermosel, Germany",
+        "open_status": "open",
+        "open_evidence_url": "https://www.germanwines.de/",
+        "cuisine_evidence_url": "https://www.saar-obermosel.de/en/",
+        "checked_on": "2026-05-26"
+      }
+    }
+  ]
+}

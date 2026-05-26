@@ -35,7 +35,7 @@ URL_FIELDS = {"booking_url", "affiliate_url", "hero_image_source_url",
               "hero_image", "og_image", "image"}
 TIMEOUT = 10  # seconds
 WORKERS = 12  # parallel HEAD requests
-UA = "TableJourney-Validator/1.0 (+https://tablejourney.com)"
+UA = "CorkAndCurve-Validator/1.0 (+https://corkandcurve.com)"
 
 
 def collect_urls(country_slug: str, city_slug: str) -> list[tuple[str, str, str]]:

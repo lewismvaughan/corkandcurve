@@ -1,0 +1,151 @@
+{
+  "food_pairing": [
+    {
+      "slug": "kabinett-schweinshaxe",
+      "name": "Mosel Kabinett with Bavarian schweinshaxe",
+      "pairing": "Off-dry Mosel Riesling Kabinett with roast pork knuckle and crackling",
+      "tablejourney_ref": "germany/munich/dish/schweinshaxe",
+      "tablejourney_url": "https://tablejourney.com/germany/munich/dish/schweinshaxe/",
+      "wine_entities": [
+        "jj-pruem-wehlener-sonnenuhr-kabinett",
+        "dr-loosen-wehlener-sonnenuhr-kabinett",
+        "fritz-haag-brauneberger-juffer-kabinett"
+      ],
+      "description": "The Kabinett's racy acidity and low alcohol cut the fat of a roast pork knuckle while gentle sweetness flatters the crackling and apple-sauce side.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://tablejourney.com/germany/munich/dish/schweinshaxe/",
+        "open_status": "open",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "auslese-obatzda",
+      "name": "Mosel Auslese with obatzda",
+      "pairing": "Fruity-sweet Mosel Riesling Auslese with the spiced Bavarian cheese spread obatzda",
+      "tablejourney_ref": "germany/munich/dish/obatzda",
+      "tablejourney_url": "https://tablejourney.com/germany/munich/dish/obatzda/",
+      "wine_entities": [
+        "dr-loosen-urziger-wurzgarten-auslese",
+        "jj-pruem-wehlener-sonnenuhr-auslese"
+      ],
+      "description": "Honeyed Auslese sweetness tames the paprika and ripe-cheese funk of obatzda, while piercing acidity keeps the pairing fresh.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://tablejourney.com/germany/munich/dish/obatzda/",
+        "open_status": "open",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "kabinett-currywurst",
+      "name": "Mosel Kabinett with currywurst",
+      "pairing": "Off-dry Mosel Riesling Kabinett with Berlin currywurst",
+      "tablejourney_ref": "germany/berlin/dish/currywurst",
+      "tablejourney_url": "https://tablejourney.com/germany/berlin/dish/currywurst/",
+      "wine_entities": [
+        "selbach-oster-bernkasteler-badstube-kabinett",
+        "peter-lauer-fass-8-kabinett"
+      ],
+      "description": "Curry-ketchup spice and the snap of grilled sausage meet their match in a low-alcohol Kabinett whose sweetness cools the heat and acidity slices the fat.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://tablejourney.com/germany/berlin/dish/currywurst/",
+        "open_status": "open",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "dry-gg-eisbein",
+      "name": "Dry Mosel GG with eisbein",
+      "pairing": "Dry Mosel Riesling Grosses Gewachs with boiled pork knuckle eisbein",
+      "tablejourney_ref": "germany/berlin/dish/eisbein",
+      "tablejourney_url": "https://tablejourney.com/germany/berlin/dish/eisbein/",
+      "wine_entities": [
+        "fritz-haag-brauneberger-juffer-sonnenuhr-gg",
+        "dr-loosen-erdener-treppchen-gg",
+        "van-volxem-scharzhofberger-gg"
+      ],
+      "description": "A powerful dry Grosses Gewachs has the mineral structure and racy acidity to cut through the gelatinous richness of eisbein with sauerkraut.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://tablejourney.com/germany/berlin/dish/eisbein/",
+        "open_status": "open",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "spatlese-koenigsberger-klopse",
+      "name": "Mosel Spatlese with Konigsberger Klopse",
+      "pairing": "Fruity-style Mosel Riesling Spatlese with caper-cream meatballs Konigsberger Klopse",
+      "tablejourney_ref": "germany/berlin/dish/koenigsberger-klopse",
+      "tablejourney_url": "https://tablejourney.com/germany/berlin/dish/koenigsberger-klopse/",
+      "wine_entities": [
+        "maximin-gruenhaus-abtsberg-spatlese",
+        "selbach-oster-wehlener-sonnenuhr-spatlese"
+      ],
+      "description": "The Spatlese's sweetness and acidity balance the tangy caper-and-cream sauce, while its stone fruit lifts the delicate veal meatballs.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://tablejourney.com/germany/berlin/dish/koenigsberger-klopse/",
+        "open_status": "open",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "kabinett-weisswurst",
+      "name": "Mosel Kabinett with weisswurst",
+      "pairing": "Off-dry Mosel Riesling Kabinett with Munich weisswurst and sweet mustard",
+      "tablejourney_ref": "germany/munich/dish/weisswurst",
+      "tablejourney_url": "https://tablejourney.com/germany/munich/dish/weisswurst/",
+      "wine_entities": [
+        "maximin-gruenhaus-abtsberg-kabinett",
+        "willi-schaefer-graacher-himmelreich-kabinett"
+      ],
+      "description": "A morning-friendly low-alcohol Kabinett echoes the sweet mustard and refreshes the palate against the delicate veal-and-parsley sausage.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://tablejourney.com/germany/munich/dish/weisswurst/",
+        "open_status": "open",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "auslese-foie-gras",
+      "name": "Mosel Auslese with foie gras",
+      "pairing": "Noble-sweet Mosel Riesling Auslese with seared foie gras",
+      "tablejourney_ref": "germany/berlin/restaurants",
+      "tablejourney_url": "https://tablejourney.com/germany/berlin/restaurants/",
+      "wine_entities": [
+        "fritz-haag-brauneberger-juffer-sonnenuhr-auslese",
+        "dr-hermann-erdener-praelat-auslese"
+      ],
+      "description": "The classic sweet-Riesling-and-foie-gras match: botrytis sweetness and cutting acidity balance the rich liver without cloying, a fixture on Berlin's fine-dining wine lists.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://tablejourney.com/germany/berlin/restaurants/",
+        "open_status": "open",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "dry-saar-trout",
+      "name": "Dry Saar Riesling with river trout",
+      "pairing": "Dry Saar Riesling with pan-fried Mosel river trout",
+      "tablejourney_ref": "germany/munich/restaurants",
+      "tablejourney_url": "https://tablejourney.com/germany/munich/restaurants/",
+      "wine_entities": [
+        "zilliken-rausch-gg",
+        "van-volxem-saar-riesling",
+        "nik-weis-ockfener-bockstein-gg"
+      ],
+      "description": "Bright slate-driven Saar acidity and citrus mirror the brown-butter and lemon of the local freshwater trout, the quintessential Mosel lunch.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://tablejourney.com/germany/munich/restaurants/",
+        "open_status": "open",
+        "checked_on": "2026-05-26"
+      }
+    }
+  ]
+}

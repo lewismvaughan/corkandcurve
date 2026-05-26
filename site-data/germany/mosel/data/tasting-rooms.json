@@ -1,0 +1,193 @@
+{
+  "tasting_rooms": [
+    {
+      "slug": "mosel-vinothek-bernkastel",
+      "name": "Mosel-Vinothek",
+      "address": "Cusanusstrasse 2, 54470 Bernkastel-Kues, Germany",
+      "neighborhood": "Kues, Bernkastel-Kues",
+      "varietals_focus": ["Riesling", "Elbling", "Muller-Thurgau", "Spatburgunder"],
+      "pricing": "Walk-in tasting flights from the bottle list; over 100 Mosel Rieslings available by the glass",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": null,
+      "description": "The world's largest vinotheque for Mosel Riesling, set in the vaulted cellars of the St. Nikolaus-Hospital in Kues. Over 100 wines from the whole Mosel region can be tasted under one roof.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.die-mosel.de/mittelmosel/Bernkastel/bernkastel-weinmuseum.html",
+        "address_quoted": "Cusanusstr. 2, Bernkastel-Kues",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.yelp.com/biz/mosel-vinothek-bernkastel-kues",
+        "cuisine_evidence_url": "https://en.bernkastel.de/moselle-wine-savour/vinotheks",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "vereinigte-hospitien-trier",
+      "name": "Stiftungsweingut Vereinigte Hospitien",
+      "address": "Krahnenufer 19, 54290 Trier, Germany",
+      "neighborhood": "Trier city centre",
+      "varietals_focus": ["Riesling", "Weissburgunder", "Spatburgunder"],
+      "pricing": "Cellar tours Wednesdays and Fridays 11:00 or by arrangement; group tastings by appointment",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "vereinigte-hospitien",
+      "description": "Tasting and tour venue at the charitable foundation estate whose cellar, built around 330 AD, is reckoned the oldest wine cellar in Germany. Riesling and Pinot wines from Scharzhofberg and the Saar.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://weingut.vereinigtehospitien.de/",
+        "address_quoted": "Krahnenufer 19, 54290 Trier",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g187394-d32882356-Reviews-Stiftungsweingut_Vereinigte_Hospitien_Altester_Weinkeller_Deutschlands-Trier_Rhi.html",
+        "cuisine_evidence_url": "https://www.vdp.de/de/die-winzer/mosel/vereinigte-hospitien",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "bischoefliche-weingueter-vinothek-trier",
+      "name": "Bischoefliche Weingueter Trier Vinothek",
+      "address": "Gervasiusstrasse 1, 54290 Trier, Germany",
+      "neighborhood": "Trier city centre",
+      "varietals_focus": ["Riesling", "Weissburgunder", "Spatburgunder"],
+      "pricing": "Moderated tasting 25 EUR per person; wine-walk tasting 32 EUR per person; Vinothek open for sampling Monday to Saturday",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": "bischoefliche-weingueter-trier",
+      "description": "Vinothek of the church-owned estate above a 30,000 square metre Late Antique cellar. Sample across the full Mosel, Saar and Ruwer range, then buy on the spot with a same-day purchase discount.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://shop.bischoeflicheweingueter.de/en/Wine-estate/Winery/",
+        "address_quoted": "Gervasiusstraße 1, 54290 Trier",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g187394-d2536929-Reviews-Bischofliche_Weinguter_Trier-Trier_Rhineland_Palatinate.html",
+        "cuisine_evidence_url": "https://www.trier-info.de/weinerlebnisse/bischoefliche-weingueter-trier-anzeige",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "dr-loosen-tasting-bernkastel",
+      "name": "Weingut Dr. Loosen Tasting Room",
+      "address": "St. Johannishof 1, 54470 Bernkastel-Kues, Germany",
+      "neighborhood": "Bernkastel-Kues, Middle Mosel",
+      "varietals_focus": ["Riesling"],
+      "pricing": "Regular tasting 20 EUR per person (5 wines); individual tasting 30 EUR per person (7 wines)",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "dr-loosen",
+      "description": "Tasting bar of Ernst Loosen's celebrated VDP estate on the Mosel bank just outside Bernkastel. Riesling-only flights drawn from grand-cru parcels including Wehlener Sonnenuhr and Erdener Treppchen.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://drloosen.com/en/weinprobe/",
+        "address_quoted": "St. Johannishof 1, 54470 Bernkastel-Kues",
+        "open_status": "open",
+        "open_evidence_url": "https://en.bernkastel.de/poi/dr-loosen-winery/poi.html",
+        "cuisine_evidence_url": "https://www.worldsbestvineyards.com/explore/Vineyards/Germany/Mosel/Weingut-Dr-Loosen.html",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "markus-molitor-klosterberg-tasting",
+      "name": "Weingut Markus Molitor Vinothek",
+      "address": "Haus Klosterberg, 54470 Bernkastel-Wehlen, Germany",
+      "neighborhood": "Wehlen, Zeltingen-Wehlen",
+      "varietals_focus": ["Riesling", "Weissburgunder", "Spatburgunder"],
+      "pricing": "Tastings at Klosterberg House by selection from more than 40 wines; by arrangement",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "markus-molitor",
+      "description": "Tasting room in the ancestral Klosterberg house of Markus Molitor, one of the Mosel's most decorated estates. Choose your own flight from over 40 Rieslings and Pinots across the dry-to-noble-sweet spectrum.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://markusmolitor.com/en/",
+        "address_quoted": "Haus Klosterberg, 54470 Bernkastel-Wehlen",
+        "open_status": "open",
+        "open_evidence_url": "https://www.falstaff.com/en/wineries/weingut-markus-molitor",
+        "cuisine_evidence_url": "https://www.rlp-tourismus.com/en/experience/culinary-pleasures/gourmet-restaurants/infosystem/Weingut-Markus-Molitor_Bernkastel-Kues/infosystem.html",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "diemosel-vinothek-traben-trarbach",
+      "name": "dieMOSEL Vinothek and Winebar",
+      "address": "Am Bahnhof 5, 56841 Traben-Trarbach, Germany",
+      "neighborhood": "Traben, Traben-Trarbach",
+      "varietals_focus": ["Riesling", "Elbling", "Spatburgunder"],
+      "pricing": "Vinothek tasting flights and by-the-glass pours in the historic cellar",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": null,
+      "description": "Vinothek and wine bar behind thick slate walls in the former cellar of an 1890 wine-trade villa in art-nouveau Traben-Trarbach. Curated Mosel selection with a small soulfood kitchen alongside.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://shop-diemosel-wine.myshopify.com/en",
+        "address_quoted": "Am Bahnhof 5, D-56841 Traben-Trarbach",
+        "open_status": "open",
+        "open_evidence_url": "https://www.traben-trarbach.de/en/wine.html",
+        "cuisine_evidence_url": "https://shop-diemosel-wine.myshopify.com/en/pages/weinhandlung-1",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "vinothek-zum-landsknecht-bernkastel",
+      "name": "Vinothek Zum Landsknecht",
+      "address": "Gestade 13, 54470 Bernkastel-Kues, Germany",
+      "neighborhood": "Bernkastel old town",
+      "varietals_focus": ["Riesling", "Spatburgunder", "Weissburgunder"],
+      "pricing": "Walk-in tasting flights and by-the-glass pours on the Mosel promenade",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": null,
+      "description": "Riverside vinothek on the Gestade promenade in Bernkastel, pairing a rotating Mosel by-the-glass list with light plates. A relaxed walk-in counter steps from the medieval Marktplatz.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://landsknecht-bks.de/vinothek",
+        "address_quoted": "Gestade 13",
+        "open_status": "open",
+        "open_evidence_url": "https://en.bernkastel.de/eating-and-drinking-in-bernkastel-kues",
+        "cuisine_evidence_url": "https://en.bernkastel.de/moselle-wine-savour/vinotheks",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "weingut-schleimer-olewig-trier",
+      "name": "Weingut und Weinstube Schleimer",
+      "address": "Olewiger Strasse 96, 54295 Trier, Germany",
+      "neighborhood": "Olewig, Trier",
+      "varietals_focus": ["Riesling", "Spatburgunder", "Weissburgunder"],
+      "pricing": "Estate tastings and Weinstube by-the-glass pours, ten minutes from Trier centre",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": null,
+      "description": "Third-generation family estate and wine tavern in the Olewig valley at the foot of Trier's vineyards. Tastings of the house Rieslings and Pinots in a relaxed Weinstube setting.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://weingut-schleimer.de/",
+        "address_quoted": "Olewiger Straße 96",
+        "open_status": "open",
+        "open_evidence_url": "https://www.trier-info.de/en/wine-experience/wine-shops-wine-restaurants-wine-cellar",
+        "cuisine_evidence_url": "https://www.dastelefonbuch.de/Branchen/Wein/Trier--Olewig",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "georg-fritz-von-nell-trier",
+      "name": "Weingut Georg Fritz von Nell",
+      "address": "Im Tiergarten 12, 54295 Trier, Germany",
+      "neighborhood": "Olewig, Trier",
+      "varietals_focus": ["Riesling", "Spatburgunder", "Sekt"],
+      "pricing": "Estate tastings and wine sales on site; sparkling Sekt and Mosel Rieslings",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": null,
+      "description": "Long-established Trier-Olewig estate where visitors can taste and buy the house Mosel wines, including traditional-method Sekt, in the family Weinstube and cellar.",
+      "editorial_score": 4.1,
+      "verified": {
+        "source_url": "https://www.vonnell.de/",
+        "address_quoted": "Im Tiergarten 12",
+        "open_status": "open",
+        "open_evidence_url": "https://www.trier-info.de/en/wine-experience/wine-shops-wine-restaurants-wine-cellar",
+        "cuisine_evidence_url": "https://www.dastelefonbuch.de/Branchen/Wein/Trier--Olewig",
+        "checked_on": "2026-05-26"
+      }
+    }
+  ]
+}

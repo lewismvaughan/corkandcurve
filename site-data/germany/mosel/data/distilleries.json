@@ -1,0 +1,142 @@
+{
+  "distilleries": [
+    {
+      "slug": "brennerei-mees-briedel",
+      "name": "Brennerei Mees",
+      "address": "Gartenstrasse 24, 56867 Briedel, Germany",
+      "neighborhood": "Briedel, Middle Mosel",
+      "classification": "Mosel Edelbrand and whisky",
+      "spirits_produced": [
+        "Tresterbrand (grape marc)",
+        "Obstbrand (fruit brandy)",
+        "Mosel Dry Gin",
+        "Mosel single malt whisky",
+        "Fruit liqueurs"
+      ],
+      "description": "Small family manufactory in Briedel with over nine decades of distilling. Michael Mees works from regional fruit and Mosel grape marc, producing brandies, a Mosel gin and single malt whisky alongside liqueurs.",
+      "distillation_method": "Small-batch pot distillation from regional fruit and grape pomace",
+      "visit_available": true,
+      "tasting_program": "Visitors can watch the distilling, tour the manufactory and taste the range from fruit brandy to gin and whisky",
+      "booking_url": "https://brennerei-mees.de/",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://brennerei-mees.de/",
+        "address_quoted": "Gartenstraße 24 | 56867 Briedel (Mosel)",
+        "open_status": "open",
+        "open_evidence_url": "https://www.conalco.de/the-mosel-distillers/",
+        "cuisine_evidence_url": "https://brennerei-mees.de/shop/tresterbrand/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "brennerei-hubertus-vallendar-kail",
+      "name": "Brennerei Hubertus Vallendar",
+      "address": "Hauptstrasse 11, 56829 Kail, Germany",
+      "neighborhood": "Kail, Lower Mosel",
+      "classification": "Edelbrand and spirits",
+      "spirits_produced": [
+        "Obstbrand (fruit brandy)",
+        "Forest raspberry brandy",
+        "Orange spirit",
+        "Hazelnut spirit",
+        "Herbal bitters and liqueurs"
+      ],
+      "description": "Respected Lower Mosel distillery in Kail known for precise fruit brandies and spirits. A modern Destithek tasting hall and the Vallendar Academy offer visits and hands-on distilling courses.",
+      "distillation_method": "Pot-still distillation of carefully selected regional and exotic fruits",
+      "visit_available": true,
+      "tasting_program": "Tasting hall (Destithek) open to visitors; distilling courses through the Vallendar Academy",
+      "booking_url": "https://vallendar.de/",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://vallendar.de/",
+        "address_quoted": "Hauptstr. 11 • 56829 Kail",
+        "open_status": "open",
+        "open_evidence_url": "https://brandgeister.de/auswahl/vallendar/",
+        "cuisine_evidence_url": "https://vallendar.de/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "springiersbacher-hof-ediger",
+      "name": "Brennerei Springiersbacher Hof",
+      "address": "Oberbachstrasse 30, 56814 Ediger-Eller, Germany",
+      "neighborhood": "Ediger-Eller, near the Calmont",
+      "classification": "Tresterbrand and Obstbrand",
+      "spirits_produced": [
+        "Eiswein Tresterbrand",
+        "Mirabellenbrand",
+        "Fruit brandies (Obstbrand)",
+        "Liqueurs"
+      ],
+      "description": "Estate distillery attached to the town wall of Ediger near the steep Calmont. The Borchert family distils grape marc and fruit brandies, including an ice-wine Tresterbrand, and explains the process to visitors over a tasting.",
+      "distillation_method": "Pot-still distillation of grape marc and orchard fruit",
+      "visit_available": true,
+      "tasting_program": "Distillery visits with the Borchert family, who serve fruit brandies and liqueurs while explaining distillation",
+      "booking_url": "https://www.ediger-mosel.de/weingut-brennerei/brennerei-destille/",
+      "editorial_score": 4.1,
+      "verified": {
+        "source_url": "https://www.ediger-mosel.de/weingut-brennerei/brennerei-destille/",
+        "address_quoted": "Oberbachstraße 30 | 56814 Ediger/Mosel",
+        "open_status": "open",
+        "open_evidence_url": "https://www.faszinationmosel.info/aktuelles/projekte/brennertag/",
+        "cuisine_evidence_url": "https://www.ediger-mosel.de/weingut-brennerei/brennerei-destille/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "weingut-brennerei-kdm-kroev",
+      "name": "Weingut und Brennerei KDM",
+      "address": "Plenterstraße 57, 54536 Kröv, Germany",
+      "neighborhood": "Kroev, Middle Mosel",
+      "classification": "Mosel-Trester and craft spirits",
+      "spirits_produced": [
+        "Mosel-Trester / Grappa",
+        "Fruit brandies",
+        "Vinum Persicum gin (grape and peach)",
+        "Barrel-aged spirits",
+        "Nut and herbal liqueurs"
+      ],
+      "description": "Combined wine estate and distillery of Kerstin and Detlef Mueller in Kroev. Distils Mosel grape marc into grappa-style spirit plus a grape-and-peach gin and cask-aged expressions, all from estate fruit.",
+      "distillation_method": "Pot distillation of estate grape pomace and fruit; cask ageing in various wood types",
+      "visit_available": true,
+      "tasting_program": "Visits and tastings by arrangement (Buchungsanfrage)",
+      "booking_url": "https://kdm.wine/brennerei/",
+      "editorial_score": 4.1,
+      "verified": {
+        "source_url": "https://kdm.wine/brennerei/",
+        "address_quoted": "Plenterstr. 57, 54536 Kröv",
+        "open_status": "open",
+        "open_evidence_url": "https://brennerei-mees.de/",
+        "cuisine_evidence_url": "https://kdm.wine/brennerei/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "weinhaus-beth-brennerei-kroev",
+      "name": "Weingut und Edelbranntwein-Brennerei Hans Beth",
+      "address": "Moselweinstraße 58, 54536 Kröv, Germany",
+      "neighborhood": "Kroev, Middle Mosel",
+      "classification": "Edelbrand and Tresterbrand",
+      "spirits_produced": [
+        "Tresterbrand (grape marc)",
+        "Obstbrand (fruit brandy)",
+        "Fruit liqueurs",
+        "Mosel Sekt"
+      ],
+      "description": "Generations-old Kroev wine and brandy house combining a working winery with a fruit-brandy distillery. The shop pours and sells its Mosel wines, Sekt, grape marc and fruit brandies and liqueurs on site.",
+      "distillation_method": "Traditional pot distillation of grape pomace and orchard fruit",
+      "visit_available": true,
+      "tasting_program": "Tasting and sales of spirits and wines at the on-site Weinladen",
+      "booking_url": "https://beth.de/LIKOERE-BRAENDE/",
+      "editorial_score": 4.0,
+      "verified": {
+        "source_url": "https://beth.de/UEBER-UNS/Weinverkauf/",
+        "address_quoted": "Moselweinstraße 58 in Kröv",
+        "open_status": "open",
+        "open_evidence_url": "https://www.hofladen-bauernladen.info/adressen/weinbau-brennerei-kroev-beth__25879.php",
+        "cuisine_evidence_url": "https://beth.de/LIKOERE-BRAENDE/Edelbraende/",
+        "checked_on": "2026-05-26"
+      }
+    }
+  ]
+}

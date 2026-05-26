@@ -68,7 +68,7 @@ def generate_state_page(country_slug: str, state_slug: str, state_name: str,
         'seo': {
             'base_url': 'https://tablejourney.com',
             'shared': {
-                'og_image': f'https://tablejourney.com/og/{country_slug}.jpg',
+                'og_image': f'https://corkandcurve.com/og/{country_slug}.jpg',
                 'og_image_alt': f'{state_name} food guide on TableJourney',
             },
             'geo': {
@@ -80,7 +80,7 @@ def generate_state_page(country_slug: str, state_slug: str, state_name: str,
             },
             'pages': {
                 'index': {
-                    'title': f'{state_name} Food Guide: Where to Eat City by City | TableJourney',
+                    'title': f'{state_name} Food Guide: Where to Eat City by City | Cork & Curve',
                     'description': (
                         f'Where to eat in {state_name}, city by city: restaurants, signature dishes, '
                         f'markets, hidden gems and the food culture of each {state_name} town.'

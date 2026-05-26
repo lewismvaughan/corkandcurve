@@ -1,0 +1,33 @@
+{
+  "destination": {
+    "slug": "germany",
+    "name": "Germany",
+    "country": "Germany",
+    "country_slug": "germany",
+    "type": "country",
+    "tagline": "Steep-slope Riesling, Spatburgunder reds and 13 cool-climate Anbaugebiete",
+    "overview": "Germany's wine regions are built around Riesling on slate and limestone, from the vertiginous Mosel and the grand Rheingau to the warm Pfalz, volcanic Nahe and shell-limestone Franken. The Ahr and Baden make serious Spatburgunder, Wurttemberg pours Trollinger and Lemberger, and traditional-method Sekt sparkles nationwide.",
+    "hero_image": "https://images.unsplash.com/photo-1604042815301-6bc6b1ab9954?w=1600&h=900&fit=crop&auto=format",
+    "hero_image_source_url": "https://unsplash.com/photos/2ExH2WpDpSQ",
+    "hero_image_credit": "Photo by Matthew on Unsplash",
+    "hero_image_alt": "German vineyard landscape, the Mosel river loop at Bremm with steep Riesling slopes in autumn",
+    "hero_image_source": "Unsplash",
+    "hero_image_photographer": "Matthew",
+    "hero_image_license": "Unsplash License"
+  },
+  "seo": {
+    "pages": {
+      "index": {
+        "title": "Germany wine regions | Cork & Curve",
+        "description": "Wine regions across Germany on Cork & Curve, by editors who taste in person."
+      }
+    },
+    "geo": {
+      "country_code": "DE"
+    }
+  },
+  "_metadata": {
+    "type": "country",
+    "status": "live"
+  }
+}

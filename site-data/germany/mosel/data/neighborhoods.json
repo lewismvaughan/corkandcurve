@@ -1,0 +1,427 @@
+{
+  "neighborhoods": [
+    {
+      "slug": "mittelmosel",
+      "name": "Mittelmosel (Middle Mosel)",
+      "address": "Mittelmosel, between Trier and Zell, 54470 Mosel, Germany",
+      "classification": "Mosel",
+      "description": "The heartland of the Mosel, running roughly from Trittenheim through Piesport, Brauneberg, Bernkastel, Graach, Wehlen, Zeltingen, Urzig and Erden. Home to the region's most famous blue-slate single vineyards and the densest concentration of top Riesling estates.",
+      "key_varietals": [
+        "Riesling",
+        "Muller-Thurgau"
+      ],
+      "sub_communes": [
+        "Bernkastel-Kues",
+        "Wehlen",
+        "Graach",
+        "Zeltingen-Rachtig",
+        "Urzig",
+        "Erden",
+        "Piesport",
+        "Brauneberg",
+        "Lieser"
+      ],
+      "famous_producers": [
+        "joh-jos-pruem",
+        "dr-loosen",
+        "fritz-haag",
+        "willi-schaefer",
+        "selbach-oster",
+        "markus-molitor"
+      ],
+      "aliases": [
+        "Mittelmosel",
+        "Middle Mosel",
+        "Mosel"
+      ],
+      "vibe": "Slate cliffs, sundial vineyards and half-timbered wine villages strung along the river's tightest loops; the postcard Mosel.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.weinland-mosel.de/",
+        "address_quoted": "Mittelmosel, Mosel, Germany",
+        "open_status": "open",
+        "open_evidence_url": "https://en.visitmosel.de/",
+        "cuisine_evidence_url": "https://winefolly.com/deep-dive/mosel-valley-wine-guide/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "saar",
+      "name": "Saar",
+      "address": "Saar valley, around Wiltingen and Saarburg, 54459 Mosel, Germany",
+      "classification": "Mosel",
+      "description": "The cool tributary valley south of Trier, source of some of Germany's most precise, mineral and long-lived Rieslings. Slow ripening on grey Devonian slate gives steely, high-acid wines in cooler years and profound Auslese in warm ones, anchored by the legendary Scharzhofberg above Wiltingen.",
+      "key_varietals": [
+        "Riesling"
+      ],
+      "sub_communes": [
+        "Wiltingen",
+        "Saarburg",
+        "Ayl",
+        "Kanzem",
+        "Oberemmel",
+        "Serrig"
+      ],
+      "famous_producers": [
+        "egon-muller-scharzhof",
+        "van-volxem",
+        "forstmeister-geltz-zilliken",
+        "peter-lauer",
+        "von-hoevel",
+        "hofgut-falkenstein"
+      ],
+      "aliases": [
+        "Saar",
+        "Saar valley",
+        "Mosel-Saar-Ruwer"
+      ],
+      "vibe": "Quiet, cool side-valley of steely Riesling and the cathedral-like Scharzhofberg; the Mosel's most ageworthy wines.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.saar-obermosel.de/en/",
+        "address_quoted": "Saar, Germany",
+        "open_status": "open",
+        "open_evidence_url": "https://www.weinland-mosel.de/",
+        "cuisine_evidence_url": "https://www.saar-obermosel.de/en/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "ruwer",
+      "name": "Ruwer",
+      "address": "Ruwer valley, around Mertesdorf and Eitelsbach, 54318 Mosel, Germany",
+      "classification": "Mosel",
+      "description": "A tiny tributary valley north-east of Trier with only a handful of estates but outsized fame, thanks to the monastic-rooted Maximin Grunhaus and Karthauserhof. Light, filigree, intensely aromatic Rieslings with delicate acidity and herbal lift from cool, sheltered slate slopes.",
+      "key_varietals": [
+        "Riesling"
+      ],
+      "sub_communes": [
+        "Mertesdorf",
+        "Eitelsbach",
+        "Kasel",
+        "Morscheid"
+      ],
+      "famous_producers": [
+        "maximin-gruenhaus",
+        "karthaeuserhof",
+        "reichsgraf-von-kesselstatt"
+      ],
+      "aliases": [
+        "Ruwer",
+        "Ruwertal",
+        "Mosel-Saar-Ruwer"
+      ],
+      "vibe": "Monastic estates and feather-light Riesling in a hidden valley most visitors never reach.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.ruwer-riesling.de/",
+        "address_quoted": "Ruwer, Germany",
+        "open_status": "open",
+        "open_evidence_url": "https://www.weinland-mosel.de/",
+        "cuisine_evidence_url": "https://www.ruwer-riesling.de/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "terrassenmosel",
+      "name": "Terrassenmosel (Lower Mosel)",
+      "address": "Terrassenmosel, around Winningen, 56333 Mosel, Germany",
+      "classification": "Mosel",
+      "description": "The terraced Lower Mosel between Zell and Koblenz, where vines grow on dramatic dry-stone terraces and the steepest slope in Europe, the Bremmer Calmont. A stronghold of powerful, dry Riesling pioneered by Heymann-Lowenstein and Knebel on warm, mineral slate.",
+      "key_varietals": [
+        "Riesling",
+        "Weissburgunder"
+      ],
+      "sub_communes": [
+        "Winningen",
+        "Bremm",
+        "Hatzenport",
+        "Kobern-Gondorf"
+      ],
+      "famous_producers": [
+        "heymann-loewenstein",
+        "knebel"
+      ],
+      "aliases": [
+        "Terrassenmosel",
+        "Lower Mosel",
+        "Untermosel"
+      ],
+      "vibe": "Vertiginous dry-stone terraces and Europe's steepest vineyard, the Calmont; home of dry Mosel Riesling.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.weinland-mosel.de/",
+        "address_quoted": "Terrassenmosel, Mosel, Germany",
+        "open_status": "open",
+        "open_evidence_url": "https://en.visitmosel.de/",
+        "cuisine_evidence_url": "https://www.weinland-mosel.de/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "obermosel",
+      "name": "Obermosel (Upper Mosel)",
+      "address": "Obermosel, Luxembourg border, 54439 Mosel, Germany",
+      "classification": "Mosel",
+      "description": "The Upper Mosel on the Luxembourg frontier, set apart from the rest of the region by its shell-limestone soils rather than slate. The historic home of the Roman-era Elbling grape and a source of crisp Burgunder-family whites and base wine for Sekt.",
+      "key_varietals": [
+        "Elbling",
+        "Weissburgunder"
+      ],
+      "sub_communes": [
+        "Nittel",
+        "Wincheringen",
+        "Palzem",
+        "Konz"
+      ],
+      "famous_producers": [],
+      "aliases": [
+        "Obermosel",
+        "Upper Mosel"
+      ],
+      "vibe": "Limestone hills, ancient Elbling vines and quiet border villages; the Mosel's most overlooked corner.",
+      "editorial_score": 4.1,
+      "verified": {
+        "source_url": "https://www.saar-obermosel.de/en/",
+        "address_quoted": "Obermosel, Germany",
+        "open_status": "open",
+        "open_evidence_url": "https://www.weinland-mosel.de/",
+        "cuisine_evidence_url": "https://www.saar-obermosel.de/en/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "bernkastel-kues",
+      "name": "Bernkastel-Kues",
+      "address": "Bernkastel-Kues, 54470 Mosel, Germany",
+      "classification": "Mosel",
+      "description": "The tourism capital of the Mittelmosel, a half-timbered town straddling the river and home to the world-famous Bernkasteler Doctor vineyard, one of Germany's most expensive sites. The base for visiting the central Mosel estates and the September wine festival.",
+      "key_varietals": [
+        "Riesling"
+      ],
+      "sub_communes": [
+        "Bernkastel",
+        "Kues",
+        "Andel"
+      ],
+      "famous_producers": [
+        "dr-loosen",
+        "dr-pauly-bergweiler",
+        "wwe-dr-h-thanisch-erben-mueller-burggraef"
+      ],
+      "aliases": [
+        "Bernkastel-Kues",
+        "Bernkastel",
+        "Berncastel"
+      ],
+      "vibe": "Market square, medieval gables and the Doctor vineyard rising straight above the rooftops.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://en.visitmosel.de/",
+        "address_quoted": "Bernkastel-Kues, Mosel, Germany",
+        "open_status": "open",
+        "open_evidence_url": "https://www.weinland-mosel.de/",
+        "cuisine_evidence_url": "https://en.visitmosel.de/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "wehlen",
+      "name": "Wehlen",
+      "address": "Bernkastel-Wehlen, 54470 Mosel, Germany",
+      "classification": "Mosel",
+      "description": "A small riverside village whose Wehlener Sonnenuhr, named for the giant slate sundial set into the slope, is among the most celebrated vineyards on earth. The home of J.J. Prum, whose long-lived, reductive Rieslings define the village's reputation.",
+      "key_varietals": [
+        "Riesling"
+      ],
+      "sub_communes": [
+        "Wehlen"
+      ],
+      "famous_producers": [
+        "joh-jos-pruem",
+        "sa-pruem",
+        "studert-pruem",
+        "kerpen"
+      ],
+      "aliases": [
+        "Wehlen",
+        "Bernkastel-Wehlen",
+        "Wehlener Sonnenuhr"
+      ],
+      "vibe": "The sundial vineyard, riverside villas and a cluster of Prum estates within a few hundred metres.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.weinland-mosel.de/",
+        "address_quoted": "Bernkastel-Wehlen, Mosel, Germany",
+        "open_status": "open",
+        "open_evidence_url": "https://en.visitmosel.de/",
+        "cuisine_evidence_url": "https://www.weinland-mosel.de/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "graach",
+      "name": "Graach",
+      "address": "Graach an der Mosel, 54470 Mosel, Germany",
+      "classification": "Mosel",
+      "description": "A tiny village between Bernkastel and Wehlen whose Graacher Himmelreich and Domprobst sites yield deeply mineral, structured Rieslings. Home to Willi Schaefer, widely regarded as one of the Mosel's most precise small growers.",
+      "key_varietals": [
+        "Riesling"
+      ],
+      "sub_communes": [
+        "Graach"
+      ],
+      "famous_producers": [
+        "willi-schaefer"
+      ],
+      "aliases": [
+        "Graach",
+        "Graach an der Mosel",
+        "Graacher Himmelreich"
+      ],
+      "vibe": "Compact slate slopes, the Domprobst and Himmelreich, and one legendary small grower.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.weinland-mosel.de/",
+        "address_quoted": "Graach an der Mosel, Mosel, Germany",
+        "open_status": "open",
+        "open_evidence_url": "https://en.visitmosel.de/",
+        "cuisine_evidence_url": "https://www.weinland-mosel.de/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "piesport",
+      "name": "Piesport",
+      "address": "Piesport, 54498 Mosel, Germany",
+      "classification": "Mosel",
+      "description": "Set in a great amphitheatre of slate, Piesport's Goldtropfchen is one of the Mosel's most aromatic sites, giving exotic, peach-and-citrus Rieslings. The village's Roman-era press house underscores nearly two millennia of winegrowing here.",
+      "key_varietals": [
+        "Riesling"
+      ],
+      "sub_communes": [
+        "Piesport",
+        "Niederemmel"
+      ],
+      "famous_producers": [
+        "reinhold-haart"
+      ],
+      "aliases": [
+        "Piesport",
+        "Piesporter Goldtropfchen"
+      ],
+      "vibe": "A natural slate amphitheatre, Roman press ruins and perfumed Goldtropfchen Riesling.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.weinland-mosel.de/",
+        "address_quoted": "Piesport, Mosel, Germany",
+        "open_status": "open",
+        "open_evidence_url": "https://en.visitmosel.de/",
+        "cuisine_evidence_url": "https://www.weinland-mosel.de/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "brauneberg",
+      "name": "Brauneberg",
+      "address": "Brauneberg, 54472 Mosel, Germany",
+      "classification": "Mosel",
+      "description": "Facing south across the river, the Brauneberger Juffer and Juffer-Sonnenuhr were prized as the Mosel's finest sites in the 19th century. Warm, full-bodied yet racy Rieslings, defined today by the Haag family at Fritz Haag.",
+      "key_varietals": [
+        "Riesling"
+      ],
+      "sub_communes": [
+        "Brauneberg",
+        "Filzen"
+      ],
+      "famous_producers": [
+        "fritz-haag"
+      ],
+      "aliases": [
+        "Brauneberg",
+        "Brauneberger Juffer"
+      ],
+      "vibe": "The river's grandest south-facing wall, the Juffer, and a dynasty of Haag growers.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.weinland-mosel.de/",
+        "address_quoted": "Brauneberg, Mosel, Germany",
+        "open_status": "open",
+        "open_evidence_url": "https://en.visitmosel.de/",
+        "cuisine_evidence_url": "https://www.weinland-mosel.de/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "urzig-erden",
+      "name": "Urzig and Erden",
+      "address": "Urzig, 54539 Mosel, Germany",
+      "classification": "Mosel",
+      "description": "Twin villages downstream of Zeltingen famous for their red-slate and volcanic soils, unusual on the Mosel. Urziger Wurzgarten gives spicy, exotic Riesling while Erdener Pralat and Treppchen are among the most coveted (and steepest) sites in the region.",
+      "key_varietals": [
+        "Riesling"
+      ],
+      "sub_communes": [
+        "Urzig",
+        "Erden"
+      ],
+      "famous_producers": [
+        "dr-loosen",
+        "joh-jos-christoffel-erben",
+        "moenchhof",
+        "dr-hermann"
+      ],
+      "aliases": [
+        "Urzig",
+        "Erden",
+        "Urziger Wurzgarten",
+        "Erdener Pralat"
+      ],
+      "vibe": "Red-rock crags, the spicy Wurzgarten and the cliffside Pralat squeezed between road and river.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.weinland-mosel.de/",
+        "address_quoted": "Urzig, Mosel, Germany",
+        "open_status": "open",
+        "open_evidence_url": "https://en.visitmosel.de/",
+        "cuisine_evidence_url": "https://www.weinland-mosel.de/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "trier",
+      "name": "Trier",
+      "address": "Trier, 54290 Mosel, Germany",
+      "classification": "Mosel",
+      "description": "Germany's oldest city and the historic capital of Mosel wine, where Roman emperors drank local Riesling and the great charitable foundations still own vineyards. Base for the Saar and Ruwer, with monumental ancient cellars beneath the city.",
+      "key_varietals": [
+        "Riesling"
+      ],
+      "sub_communes": [
+        "Trier",
+        "Eitelsbach",
+        "Olewig"
+      ],
+      "famous_producers": [
+        "vereinigte-hospitien",
+        "bischoefliche-weinguter-trier",
+        "karthaeuserhof"
+      ],
+      "aliases": [
+        "Trier",
+        "Treves",
+        "Augusta Treverorum"
+      ],
+      "vibe": "Roman gates, vast antique wine cellars and charitable foundation estates in the Mosel's capital.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://en.visitmosel.de/",
+        "address_quoted": "Trier, Mosel, Germany",
+        "open_status": "open",
+        "open_evidence_url": "https://www.weinland-mosel.de/",
+        "cuisine_evidence_url": "https://en.visitmosel.de/",
+        "checked_on": "2026-05-26"
+      }
+    }
+  ]
+}

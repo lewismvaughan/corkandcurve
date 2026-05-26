@@ -1,0 +1,232 @@
+{
+  "signature_wines": [
+    {
+      "slug": "egon-muller-scharzhofberger-auslese",
+      "name": "Scharzhofberger Riesling Auslese",
+      "producer": "egon-muller-scharzhof",
+      "varietals": [
+        "Riesling"
+      ],
+      "style": "still sweet Saar Riesling Auslese",
+      "vintage_range": "approachable from 10, cellar 20 to 50",
+      "price_band": "EUR 300 to 900 at retail",
+      "tasting_notes": "Botrytis-laced Scharzhofberg Auslese of extraordinary concentration and near-immortal cellar life. Wine Advocate 97 points (2018 vintage, reviewed 2020). Source: egon-mueller.de.",
+      "editorial_score": 5.0,
+      "description": "Botrytis-laced Scharzhofberg Auslese of extraordinary concentration and near-immortal cellar life, among the world's great sweet wines.",
+      "verified": {
+        "source_url": "https://www.egon-mueller.de/en_US/wines",
+        "open_status": "open",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "egon-muller-scharzhofberger-tba",
+      "name": "Scharzhofberger Riesling Trockenbeerenauslese",
+      "producer": "egon-muller-scharzhof",
+      "varietals": [
+        "Riesling"
+      ],
+      "style": "botrytised Saar Riesling Trockenbeerenauslese",
+      "vintage_range": "cellar 20 to 100",
+      "price_band": "EUR 5000 to 15000 at retail",
+      "tasting_notes": "An intensely botrytised Scharzhofberg TBA of liqueur-like concentration, regularly the most expensive young white wine in the world. Source: egon-mueller.de.",
+      "editorial_score": 5.0,
+      "description": "An intensely botrytised Scharzhofberg Trockenbeerenauslese of liqueur-like concentration, one of the rarest and most expensive white wines made.",
+      "verified": {
+        "source_url": "https://www.egon-mueller.de/en_US/wines",
+        "open_status": "open",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "jj-pruem-wehlener-sonnenuhr-spatlese",
+      "name": "Wehlener Sonnenuhr Riesling Spatlese",
+      "producer": "joh-jos-pruem",
+      "varietals": [
+        "Riesling"
+      ],
+      "style": "still sweet Mosel Riesling Spatlese",
+      "vintage_range": "approachable from 6, cellar 10 to 30",
+      "price_band": "EUR 40 to 75 at retail",
+      "tasting_notes": "The archetypal J.J. Prum fruity-style Spatlese from the Wehlener Sonnenuhr, famously reductive young and ageing for decades into honeyed complexity. Wine Advocate 94 points (2019, reviewed 2021). Source: vdp.de.",
+      "editorial_score": 4.8,
+      "description": "A profound fruity-style Spatlese from the Wehlener Sonnenuhr that ages for decades into honeyed complexity.",
+      "verified": {
+        "source_url": "https://www.vdp.de/de/die-winzer/mosel/j-j-pruem",
+        "open_status": "open",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "fritz-haag-brauneberger-juffer-sonnenuhr-gg",
+      "name": "Brauneberger Juffer-Sonnenuhr Riesling GG",
+      "producer": "fritz-haag",
+      "varietals": [
+        "Riesling"
+      ],
+      "style": "still dry Mosel Riesling Grosses Gewachs",
+      "vintage_range": "approachable from 4, cellar 8 to 18",
+      "price_band": "EUR 40 to 65 at retail",
+      "tasting_notes": "The flagship dry Grosses Gewachs from the steep Brauneberger Juffer-Sonnenuhr, crystalline and intensely mineral. Wine Advocate 93 points (2020, reviewed 2022). Source: weingut-fritz-haag.de.",
+      "editorial_score": 4.7,
+      "description": "The flagship dry Grosses Gewachs from the steep Brauneberger Juffer-Sonnenuhr, crystalline and intensely mineral.",
+      "verified": {
+        "source_url": "https://weingut-fritz-haag.de/en/wines/vdp-grosse-lage/",
+        "open_status": "open",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "zilliken-rausch-gg",
+      "name": "Saarburger Rausch Riesling GG",
+      "producer": "forstmeister-geltz-zilliken",
+      "varietals": [
+        "Riesling"
+      ],
+      "style": "still dry Saar Riesling Grosses Gewachs",
+      "vintage_range": "approachable from 5, cellar 6 to 25",
+      "price_band": "EUR 45 to 75 at retail",
+      "tasting_notes": "The flagship dry Grosses Gewachs from the Saarburger Rausch, with dried pear, candied lemon and orange blossom over smoky reduction and razor-sharp precision. Source: zilliken-vdp.de.",
+      "editorial_score": 4.7,
+      "description": "The flagship dry Grosses Gewachs from the Saarburger Rausch, taut and deeply mineral with great racy length.",
+      "verified": {
+        "source_url": "https://www.zilliken-vdp.de/en/wines/2023/rausch-riesling-grosses-gewaechs.html",
+        "open_status": "open",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "maximin-gruenhaus-abtsberg-gg",
+      "name": "Abtsberg Riesling Grosses Gewachs",
+      "producer": "maximin-gruenhaus",
+      "varietals": [
+        "Riesling"
+      ],
+      "style": "still dry Ruwer Riesling Grosses Gewachs",
+      "vintage_range": "approachable from 4, cellar 6 to 25",
+      "price_band": "EUR 40 to 70 at retail",
+      "tasting_notes": "The flagship dry Grosses Gewachs from the Abtsberg monopole, finely structured with refined terroir aroma and delicate fruit. Wine Advocate 94 points (2020, reviewed 2022). Source: maximingruenhaus.de.",
+      "editorial_score": 4.7,
+      "description": "The flagship dry Grosses Gewachs from the Abtsberg monopole, finely structured with refined terroir aroma.",
+      "verified": {
+        "source_url": "https://maximingruenhaus.de/en/vineyards",
+        "open_status": "open",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "clemens-busch-marienburg-falkenlay-gg",
+      "name": "Marienburg Falkenlay Riesling GG",
+      "producer": "clemens-busch",
+      "varietals": [
+        "Riesling"
+      ],
+      "style": "still dry biodynamic Mosel Riesling Grosses Gewachs",
+      "vintage_range": "approachable from 4, cellar 6 to 25",
+      "price_band": "EUR 45 to 75 at retail",
+      "tasting_notes": "A dry Grosses Gewachs from the blue-slate Falkenlay parcel of the Marienburg, deep, spicy and densely mineral, farmed biodynamically. Wine Advocate 93 points (2020, reviewed 2022). Source: clemens-busch.de.",
+      "editorial_score": 4.6,
+      "description": "A dry Grosses Gewachs from the blue-slate Falkenlay parcel of the Marienburg, deep, spicy and densely mineral.",
+      "verified": {
+        "source_url": "https://clemens-busch.de/index.php?p=28",
+        "open_status": "open",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "van-volxem-scharzhofberger-gg",
+      "name": "Scharzhofberger Riesling GG",
+      "producer": "van-volxem",
+      "varietals": [
+        "Riesling"
+      ],
+      "style": "still dry Saar Riesling Grosses Gewachs",
+      "vintage_range": "approachable from 4, cellar 6 to 25",
+      "price_band": "EUR 60 to 110 at retail",
+      "tasting_notes": "A concentrated dry Grosses Gewachs from the Scharzhofberg, with dark spice, ripe citrus and firm slaty minerality. Wine Advocate 93 points (2017, reviewed 2018). Source: vanvolxem.com.",
+      "editorial_score": 4.7,
+      "description": "A concentrated dry Grosses Gewachs from the Scharzhofberg with dark spice, ripe citrus and firm slaty minerality.",
+      "verified": {
+        "source_url": "https://vanvolxem.com/en/produkt/scharzhofberger-riesling/",
+        "open_status": "open",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "heymann-loewenstein-uhlen-laubach",
+      "name": "Uhlen Laubach Riesling GG",
+      "producer": "heymann-loewenstein",
+      "varietals": [
+        "Riesling"
+      ],
+      "style": "still dry Terrassenmosel Riesling Grosses Gewachs",
+      "vintage_range": "approachable from 5, cellar 6 to 25",
+      "price_band": "EUR 45 to 75 at retail",
+      "tasting_notes": "A dry Grosses Gewachs from the Laubach terraces of the Winninger Uhlen, with peach and citrus over cool, taut minerality. Wine Advocate 94 points (2018, reviewed 2020). Source: hl.wine.",
+      "editorial_score": 4.7,
+      "description": "A dry Grosses Gewachs from the Laubach terraces of the Winninger Uhlen, with peach and citrus over cool, taut minerality.",
+      "verified": {
+        "source_url": "https://www.hl.wine/en/uhlen-laubach",
+        "open_status": "open",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "schloss-lieser-niederberg-helden-gg",
+      "name": "Lieserer Niederberg Helden Riesling GG",
+      "producer": "schloss-lieser",
+      "varietals": [
+        "Riesling"
+      ],
+      "style": "still dry Mosel Riesling Grosses Gewachs",
+      "vintage_range": "approachable from 4, cellar 6 to 22",
+      "price_band": "EUR 35 to 55 at retail",
+      "tasting_notes": "Thomas Haag's home-vineyard dry Grosses Gewachs from the Lieserer Niederberg Helden, precise, taut and minerally. Source: weingut-schloss-lieser.de.",
+      "editorial_score": 4.6,
+      "description": "Thomas Haag's home-vineyard dry Grosses Gewachs from the Lieserer Niederberg Helden, precise, taut and minerally.",
+      "verified": {
+        "source_url": "https://www.weingut-schloss-lieser.de/en/wines/",
+        "open_status": "open",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "dr-loosen-erdener-treppchen-gg",
+      "name": "Erdener Treppchen Riesling GG Alte Reben",
+      "producer": "dr-loosen",
+      "varietals": [
+        "Riesling"
+      ],
+      "style": "still dry Mosel Riesling Grosses Gewachs",
+      "vintage_range": "approachable from 4, cellar 5 to 20",
+      "price_band": "EUR 45 to 70 at retail",
+      "tasting_notes": "Dry Grosses Gewachs from ungrafted old vines on the red slate of the Erdener Treppchen, with peach, apricot and salty slate minerality. Wine Advocate 93 points (2019, reviewed 2021). Source: drloosen.de.",
+      "editorial_score": 4.7,
+      "description": "Dry Grosses Gewachs Riesling from ungrafted old vines on the red slate of the Erdener Treppchen, made by Ernst Loosen.",
+      "verified": {
+        "source_url": "https://drloosen.de/en/collections/vdp-grosse-lage/products/dr-loosen-erdener-treppchen-riesling-trocken-gg-alte-reben",
+        "open_status": "open",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "daniel-twardowski-pinot-noix",
+      "name": "Pinot Noix Spatburgunder",
+      "producer": "daniel-twardowski",
+      "varietals": [
+        "Spatburgunder (Pinot Noir)"
+      ],
+      "style": "still red Mosel Pinot Noir",
+      "vintage_range": "approachable from 3, cellar 5 to 18",
+      "price_band": "EUR 40 to 70 at retail",
+      "tasting_notes": "A cult Mosel Pinot Noir grown on Devonian slate in a low-yield Burgundian style, bright red-fruited with fine tannins. Falstaff 93 points (2019, reviewed 2022). Source: pinot-noix.com.",
+      "editorial_score": 4.5,
+      "description": "A cult Mosel Pinot Noir grown on Devonian slate in a low-yield Burgundian style, bright red-fruited with fine tannins.",
+      "verified": {
+        "source_url": "https://wp.pinot-noix.com/",
+        "open_status": "open",
+        "checked_on": "2026-05-26"
+      }
+    }
+  ]
+}

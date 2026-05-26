@@ -1,0 +1,187 @@
+{
+  "wine_restaurants": [
+    {
+      "slug": "schanz-restaurant-piesport",
+      "name": "schanz. restaurant.",
+      "address": "Bahnhofstrasse 8a, 54498 Piesport, Germany",
+      "neighborhood": "Piesport, Middle Mosel",
+      "cuisine": "Modern fine dining with a classic French base; tasting menus engineered for the cellar, with the family estate's own Piesporter Rieslings on the list",
+      "cellar_size": null,
+      "awards": [
+        { "source": "Michelin (one star)", "year": 2012 },
+        { "source": "Michelin (two stars)", "year": 2015 },
+        { "source": "Michelin", "year": 2024 }
+      ],
+      "description": "Thomas Schanz's destination restaurant in Piesport, home of the Goldtroepfchen vineyard. The cellar, run with sommelier Aleks Petrovic, is deep in aged Mosel Riesling including the family's own estate wines.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.schanz-restaurant.de/en/",
+        "address_quoted": "bahnhofstraße 8a, 54498 piesport",
+        "open_status": "open",
+        "open_evidence_url": "https://guide.michelin.com/us/en/rheinland-pfalz/piesport/restaurant/schanz-restaurant",
+        "cuisine_evidence_url": "https://starwinelist.com/wine-place/schanz",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "beckers-restaurant-trier",
+      "name": "BECKER'S Restaurant",
+      "address": "Olewiger Strasse 206, 54295 Trier, Germany",
+      "neighborhood": "Olewig, Trier",
+      "cuisine": "Contemporary fine dining in a minimalist room; four- to six-course menus with a wine list led by the chef-patron's own Olewig estate wines",
+      "cellar_size": null,
+      "awards": [
+        { "source": "Michelin (one star)", "year": 2024 }
+      ],
+      "description": "Trier's only Michelin-starred restaurant, run by chef-patron and trained winemaker Wolfgang Becker alongside winemaker-sommelier Christine Becker. The list features the family's own Olewig vineyard wines.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.beckers-trier.de/en/",
+        "address_quoted": "olewiger street 206, 54295 trier",
+        "open_status": "open",
+        "open_evidence_url": "https://guide.michelin.com/us/en/rheinland-pfalz/trier/restaurant/becker-s",
+        "cuisine_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187394-d2314748-Reviews-BECKERS_Restaurant-Trier_Rhineland_Palatinate.html",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "beckers-weinhaus-trier",
+      "name": "BECKER'S Weinhaus",
+      "address": "Olewiger Strasse 206, 54295 Trier, Germany",
+      "neighborhood": "Olewig, Trier",
+      "cuisine": "Regional Mosel cuisine in a traditional wine house, built around the family's own Becker estate wines",
+      "cellar_size": null,
+      "awards": [
+        { "source": "Michelin Guide listing", "year": 2024 }
+      ],
+      "description": "The relaxed Weinhaus sister venue to Becker's starred restaurant in Trier-Olewig, serving regional plates with the family's own vineyard wines from their 20,000-vine estate.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.beckers-trier.de/en/",
+        "address_quoted": "olewiger street 206, 54295 trier",
+        "open_status": "open",
+        "open_evidence_url": "https://guide.michelin.com/us/en/rheinland-pfalz/trier/restaurant/becker-s-weinhaus",
+        "cuisine_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187394-d2314748-Reviews-BECKERS_Restaurant-Trier_Rhineland_Palatinate.html",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "waldhotel-sonnora-dreis",
+      "name": "Waldhotel Sonnora",
+      "address": "Auf'm Eichelfeld 1, 54518 Dreis, Germany",
+      "neighborhood": "Dreis, near Wittlich (Mosel hinterland)",
+      "cuisine": "Classic French haute cuisine; an extensive wine list especially deep in German Riesling, with 34 wines by the glass",
+      "cellar_size": null,
+      "awards": [
+        { "source": "Michelin (three stars)", "year": 2024 }
+      ],
+      "description": "Three-Michelin-star institution in Dreis near Wittlich, in the Mosel hinterland. Classic French cooking with a wine list rich in German Riesling and an unusually broad by-the-glass programme.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://guide.michelin.com/en/rheinland-pfalz/dreis/restaurant/waldhotel-sonnora",
+        "address_quoted": "Auf'm Eichelfeld 1, 54518 Dreis",
+        "open_status": "open",
+        "open_evidence_url": "https://www.theworlds50best.com/discovery/Establishments/Germany/Dreis/Waldhotel-Sonnora.html",
+        "cuisine_evidence_url": "https://www.andyhayler.com/restaurant/waldhotel-sonnora",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "bagatelle-trier",
+      "name": "Restaurant Bagatelle",
+      "address": "Zurlaubener Ufer 78, 54292 Trier, Germany",
+      "neighborhood": "Zurlauben, Trier",
+      "cuisine": "Modern fine dining on the Mosel bank with a wine list focused on Mosel-area producers",
+      "cellar_size": null,
+      "awards": [
+        { "source": "Michelin (one star)", "year": 2024 }
+      ],
+      "description": "Michelin-starred restaurant from chef Gerald Schoeberl, set directly on the Mosel at Zurlauben in Trier. The wine selection is built around Mosel-area growers.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.deutschlandgourmet.info/trier/restaurant-bagatelle/",
+        "address_quoted": "Zurlaubener Ufer 78, 54292 Trier",
+        "open_status": "open",
+        "open_evidence_url": "https://guide.michelin.com/en/rheinland-pfalz/trier/restaurant/bagatelle",
+        "cuisine_evidence_url": "https://en.visitmosel.de/wine-cuisine/a-culinary-voyage-of-discovery/culinary-delights",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "zum-domstein-trier",
+      "name": "Restaurant Zum Domstein",
+      "address": "Hauptmarkt 5, 54290 Trier, Germany",
+      "neighborhood": "Trier Hauptmarkt",
+      "cuisine": "Regional and Roman-inspired cuisine over a Roman cellar; large list of mainly local Mosel wines with regular tastings",
+      "cellar_size": null,
+      "awards": [],
+      "description": "Trier landmark on the Hauptmarkt built over a Roman cellar rediscovered during renovation. A large, mainly local Mosel wine list, displayed bottles in the basement, and frequent wine-tasting events.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://domstein.de/?lang=en",
+        "address_quoted": "Hauptmarkt 5, Trier",
+        "open_status": "open",
+        "open_evidence_url": "https://www.yelp.com/biz/zum-domstein-trier-2",
+        "cuisine_evidence_url": "https://www.trier-info.de/en/wine-experience/wine-shops-wine-restaurants-wine-cellar",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "das-weinhaus-trier",
+      "name": "Das Weinhaus by Otti Buesching",
+      "address": "Brückenstrasse 7, 54290 Trier, Germany",
+      "neighborhood": "Trier city centre",
+      "cuisine": "Family-run restaurant where wine is the focus; a remarkable Mosel-led list spanning all the region's vineyards plus international bottles",
+      "cellar_size": null,
+      "awards": [],
+      "description": "Family restaurant and wine shop in central Trier where the wine takes top billing. Mosel wines from across the region's vineyards anchor a remarkable list, with bottles from Italy, France and beyond alongside.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://weinhaus-trier.de/",
+        "address_quoted": "Brückenstr. 7, 54290 Trier",
+        "open_status": "open",
+        "open_evidence_url": "https://www.yelp.com/biz/das-weinhaus-trier",
+        "cuisine_evidence_url": "https://www.falstaff.com/en/restaurants/das-weinhaus-trier",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "alte-thorschenke-cochem",
+      "name": "Rainer's Restaurant Alte Thorschenke",
+      "address": "Brückenstrasse 3, 56812 Cochem, Germany",
+      "neighborhood": "Cochem old town",
+      "cuisine": "Regional Mosel cooking in a historic wine tavern serving local Moselle wines, set in the medieval town gate",
+      "cellar_size": null,
+      "awards": [],
+      "description": "Restaurant in the Alte Thorschenke, a 1332 inn forming part of Cochem's town wall and gate. Local Moselle wines are served in the cosy wine tavern alongside regional dishes.",
+      "editorial_score": 4.1,
+      "verified": {
+        "source_url": "https://restaurantguru.com/Alte-Thorschenke-Cochem",
+        "address_quoted": "Brückenstraße 3, 56812 Cochem",
+        "open_status": "open",
+        "open_evidence_url": "https://www.mosel.de/index.php?id=240&L=1&tx_ttnews%5Btt_news%5D=557&cHash=4c7d97e16022fbecf4bfdcd1a8097c30",
+        "cuisine_evidence_url": "https://www.tripadvisor.com/Hotel_Review-g198637-d1812361-Reviews-Alte_Thorschenke-Cochem_Rhineland_Palatinate.html",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "gutsweinschaenke-muellers-kroev",
+      "name": "Gutsweinschaenke Muellers",
+      "address": "Robert-Schuman-Strasse 59, 54536 Kroev, Germany",
+      "neighborhood": "Kroev, Middle Mosel",
+      "cuisine": "Estate wine tavern serving regional Mosel dishes paired with the house wines, with grower-led wine seminars",
+      "cellar_size": null,
+      "awards": [],
+      "description": "Estate Gutsweinschaenke in the centre of the wine village of Kroev, pairing regional Mosel plates with its own wines and offering small-group wine seminars led by the winemaker.",
+      "editorial_score": 4.0,
+      "verified": {
+        "source_url": "https://www.gutsweinschaenke-muellers.de/weinschaenke",
+        "address_quoted": "Robert Schuman Straße 59",
+        "open_status": "open",
+        "open_evidence_url": "https://en.moselregion.com/gastro/gutsweinschaenke-muellers-1",
+        "cuisine_evidence_url": "https://en.visitmosel.de/wine-cuisine/gastro/gutsweinschaenke-muellers",
+        "checked_on": "2026-05-26"
+      }
+    }
+  ]
+}

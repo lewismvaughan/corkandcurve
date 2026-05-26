@@ -27,7 +27,7 @@ from utils.template_renderer import TemplateRenderer, FOOD_TOPIC_NAV  # noqa: E4
 REPO_ROOT = Path(__file__).resolve().parent.parent
 SITE_DATA = REPO_ROOT / "site-data"
 CONTENT = REPO_ROOT / "content"
-BASE = "https://tablejourney.com"
+BASE = "https://corkandcurve.com"
 
 
 COUNTRY_NAMES = {
@@ -214,14 +214,14 @@ def render_chrome(renderer, *, slug, title, meta_description, h1, subtitle, body
             "og_url": canonical,
             "og_type": "website",
             "og_image": f"{BASE}/og/default.jpg",
-            "og_image_alt": "TableJourney food guide",
+            "og_image_alt": "Cork & Curve wine guide",
             "og_locale": "en_US",
         },
         "twitter": {
             "twitter_title": title,
             "twitter_description": meta_description,
             "twitter_image": f"{BASE}/og/default.jpg",
-            "twitter_image_alt": "TableJourney food guide",
+            "twitter_image_alt": "Cork & Curve wine guide",
         },
         "structured_data": {"breadcrumb_items": breadcrumb},
         "alternates": [],
@@ -844,7 +844,7 @@ def render_topic_cross_city(renderer, topic, cities):
     return render_chrome(
         renderer,
         slug=f"topics/{slug}",
-        title=f"{title} | TableJourney",
+        title=f"{title} | Cork & Curve",
         meta_description=lede,
         h1=page_h1,
         subtitle=lede,
@@ -1046,7 +1046,7 @@ def render_404_page(renderer):
     return render_chrome(
         renderer,
         slug="404",
-        title="Page not found | TableJourney",
+        title="Page not found | Cork & Curve",
         meta_description="The page you are looking for has moved, never existed, or has been retired. Here are some better doors in: home, all cities, all topics, search.",
         h1="Page not found",
         subtitle="404. Let's get you back to the table.",
@@ -1076,7 +1076,7 @@ def build_feed(cities):
       <link>{city_url}</link>
       <guid isPermaLink="true">{city_url}</guid>
       <pubDate>{now}</pubDate>
-      <description>{xml_escape(f"The TableJourney food guide to {c['name']}: restaurants, dishes, markets, hidden gems and food culture, edited in person.")}</description>
+      <description>{xml_escape(f"The Cork & Curve wine guide to {c['name']}: restaurants, dishes, markets, hidden gems and food culture, edited in person.")}</description>
     </item>""")
         # Also add a couple of the most read topics
         for topic_slug in ("restaurants", "signature-dishes", "hidden-gems"):

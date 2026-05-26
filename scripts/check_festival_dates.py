@@ -39,7 +39,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 SITE_DATA = REPO_ROOT / "site-data"
 TIMEOUT = 15
 WORKERS = 6
-UA = "TableJourney-FestivalChecker/1.0 (+https://tablejourney.com)"
+UA = "CorkAndCurve-FestivalChecker/1.0 (+https://corkandcurve.com)"
 
 MONTHS = (
     "january", "february", "march", "april", "may", "june",

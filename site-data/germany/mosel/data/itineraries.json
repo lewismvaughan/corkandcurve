@@ -1,0 +1,148 @@
+{
+  "itineraries": [
+    {
+      "slug": "middle-mosel-classic-weekend",
+      "name": "Middle Mosel classic weekend",
+      "length_days": 2,
+      "theme": "First-time Middle Mosel: the sundial villages from Bernkastel to Zeltingen and Wehlen",
+      "base": "Bernkastel-Kues",
+      "days": [
+        {
+          "day": 1,
+          "morning": "Start in Bernkastel-Kues with the medieval market square, then a late-morning tasting at Weingut Dr. Loosen at St. Johannishof above the town, focused on the steep slate sites of the Bernkasteler Lay and beyond.",
+          "lunch": "Lunch in the Bernkastel old town, then a glass at the candle-lit Weinstube Spitzhaeuschen in its leaning 1416 cottage.",
+          "afternoon": "Cross to Wehlen for an afternoon tasting at Weingut Joh. Jos. Prum below the famous Wehlener Sonnenuhr sundial, the benchmark address for off-dry Mosel Kabinett and Spaetlese.",
+          "evening": "Aperitif and dinner back in Bernkastel, with a nightcap Riesling at the Ratskeller's Tresor Wine & Bar on the market square.",
+          "accommodation": "Riverside stay at DEINHARD's hotel in Bernkastel-Kues.",
+          "venues": [
+            "dr-loosen",
+            "joh-jos-pruem"
+          ]
+        },
+        {
+          "day": 2,
+          "morning": "Drive downriver to Zeltingen for a morning at Weingut Selbach-Oster, a 400-year family estate, tasting dry and off-dry Riesling from the Zeltinger Sonnenuhr and Schlossberg.",
+          "lunch": "Picnic on the Zeltingen riverbank or a light lunch in the village.",
+          "afternoon": "Continue to Brauneberg for an afternoon visit at Weingut Fritz Haag below the Juffer-Sonnenuhr, one of the Middle Mosel's most precise dry and sweet Riesling addresses.",
+          "evening": "Return toward Bernkastel and the world's largest Mosel-Riesling vinothek in the St Nicholas Hospital cellars for a final self-pour flight.",
+          "accommodation": "Second night in Bernkastel-Kues.",
+          "venues": [
+            "selbach-oster",
+            "fritz-haag"
+          ]
+        }
+      ],
+      "description": "Two-day Middle Mosel route through the sundial villages from Bernkastel to Wehlen, Zeltingen and Brauneberg, with four classic estate visits and the great vinothek.",
+      "tip": "Book Joh. Jos. Prum and Fritz Haag at least a week ahead; both prefer small, appointed tastings over walk-ins.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://en.bernkastel.de/moselle-wine-savour/wine-tasting",
+        "address_quoted": "Bernkastel-Kues",
+        "open_status": "open",
+        "open_evidence_url": "https://drloosen.de/en",
+        "cuisine_evidence_url": "https://selbach-oster.de/en/home-2/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "saar-ruwer-three-days",
+      "name": "Saar and Ruwer three-day deep dive",
+      "length_days": 3,
+      "theme": "The two great tributaries: cool, mineral Riesling from the Saar and the Ruwer around Trier",
+      "base": "Trier",
+      "days": [
+        {
+          "day": 1,
+          "morning": "Begin in Trier with the Roman Porta Nigra and the wine-ship relief, then taste at Weingut Reichsgraf von Kesselstatt, whose holdings span the Mosel, Saar and Ruwer.",
+          "lunch": "Lunch at the estate's Weinstube Kesselstatt garden beside the Liebfrauenkirche.",
+          "afternoon": "Drive south to the Ruwer and Mertesdorf for an afternoon at Weingut Maximin Gruenhaus, the historic monopole estate on the Abtsberg, Herrenberg and Bruderberg.",
+          "evening": "Return to Trier for dinner and a by-the-glass evening at Weinsinnig.",
+          "accommodation": "Trier old town.",
+          "venues": [
+            "reichsgraf-von-kesselstatt",
+            "maximin-gruenhaus"
+          ]
+        },
+        {
+          "day": 2,
+          "morning": "Head to the Saar and Wiltingen for a morning at Weingut Van Volxem, tasting mineral Saar Riesling in the panorama lounge over the Saar loop.",
+          "lunch": "Lunch in Wiltingen or a riverside stop, then a tasting flight at the Vinothek Wiltingen showcasing Saar growers.",
+          "afternoon": "Continue to the Scharzhofberg for an appointed visit at Weingut Egon Muller - Scharzhof, the most storied address on the Saar.",
+          "evening": "Drive to Saarburg for the floodlit waterfall and a Saar flight at Bonsai & Wein, the Vinothek der Saar.",
+          "accommodation": "Saarburg or back to Trier.",
+          "venues": [
+            "van-volxem",
+            "egon-muller-scharzhof"
+          ]
+        },
+        {
+          "day": 3,
+          "morning": "A relaxed final morning at Weingut Forstmeister Geltz-Zilliken in Saarburg, tasting Saarburger Rausch Riesling, with a look into the deep cold cellar.",
+          "lunch": "Lunch in Saarburg's old town below the castle.",
+          "afternoon": "Optional stop at Weingut Peter Lauer in Ayl for its single-cask Saar Rieslings before the drive home.",
+          "evening": "Final dinner in Trier or onward travel.",
+          "accommodation": "Departure.",
+          "venues": [
+            "forstmeister-geltz-zilliken",
+            "peter-lauer"
+          ]
+        }
+      ],
+      "description": "Three days on the Mosel's two great tributaries, from Trier and the Ruwer monopole of Maximin Gruenhaus to the mineral Saar estates around Wiltingen and Saarburg.",
+      "tip": "Egon Muller and Geltz-Zilliken visits must be arranged well ahead; the Saar's top estates are not walk-in cellars.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.trier-info.de/en/wine-experience/wine-shops-wine-restaurants-wine-cellar",
+        "address_quoted": "Trier",
+        "open_status": "open",
+        "open_evidence_url": "https://vanvolxem.com/en/tastings/",
+        "cuisine_evidence_url": "https://maximingruenhaus.de/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "biodynamic-and-natural-mosel",
+      "name": "Biodynamic and natural Mosel",
+      "length_days": 2,
+      "theme": "Low-intervention slate Riesling: biodynamic and natural estates of the lower Middle Mosel",
+      "base": "Traben-Trarbach",
+      "days": [
+        {
+          "day": 1,
+          "morning": "Start at Weingut Clemens Busch in Puenderich for a morning among the biodynamic Marienburg parcels, tasting the grey-, blue- and red-slate Rieslings side by side.",
+          "lunch": "Lunch in Puenderich or along the river toward Reil.",
+          "afternoon": "Continue to Reil for an afternoon at Weingut Melsheimer, Demeter-certified since 2013, tasting hand-farmed Mullay-Hofberg Riesling and the skin-contact Vade Retro wines.",
+          "evening": "Dinner in Traben-Trarbach and a Mosel-only by-the-glass evening at Die Mosel Vinothek & Winebar in its 1890 villa.",
+          "accommodation": "Traben-Trarbach.",
+          "venues": [
+            "clemens-busch",
+            "melsheimer"
+          ]
+        },
+        {
+          "day": 2,
+          "morning": "Morning at Weingut Weiser-Kuenstler in Trarbach, tasting hand-farmed, organic-certified Riesling from the Trarbacher Schlossberg and Ellergrub.",
+          "lunch": "Lunch in Traben-Trarbach old town.",
+          "afternoon": "Drive to Kinheim for the natural-wine pioneers Rita and Rudolf Trossen, tasting the Pyramide Purus Rieslings made entirely without added sulphur.",
+          "evening": "Wind down with a candle-lit tasting evening at Ulli Stein's Haus Waldfrieden above Alf.",
+          "accommodation": "Traben-Trarbach or Alf.",
+          "venues": [
+            "weiser-kuenstler",
+            "weingut-stein"
+          ]
+        }
+      ],
+      "description": "Two days among the Mosel's biodynamic and natural estates, from the Marienburg of Clemens Busch and Demeter-certified Melsheimer to Trossen's zero-sulphur Riesling.",
+      "tip": "These are small, hands-on estates; arrange every visit directly in advance and expect intimate, unhurried tastings.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://clemens-busch.de/",
+        "address_quoted": "Puenderich",
+        "open_status": "open",
+        "open_evidence_url": "https://melsheimer-riesling.de/en/",
+        "cuisine_evidence_url": "https://www.littlewine.io/winemaker-magazine/rita-rudolf-trossen",
+        "checked_on": "2026-05-26"
+      }
+    }
+  ]
+}

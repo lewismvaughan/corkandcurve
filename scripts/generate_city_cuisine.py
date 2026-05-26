@@ -38,7 +38,7 @@ from utils.cuisine import canonicalise as _canon_cuisine  # noqa: E402
 REPO_ROOT = Path(__file__).resolve().parent.parent
 SITE_DATA = REPO_ROOT / "site-data"
 CONTENT = REPO_ROOT / "content"
-BASE = "https://tablejourney.com"
+BASE = "https://corkandcurve.com"
 
 # Threshold gates thin pages. >=2 is the same bar we use for city × dietary;
 # below this the page is too sparse to compete vs the city's restaurants/
@@ -159,7 +159,7 @@ def _render_page(renderer: TemplateRenderer, *, country_slug: str, country_name:
     n = len(entries)
 
     canonical = f"{BASE}/{country_slug}/{city_slug}/cuisine/{cuisine_slug}/"
-    title = f"{cuisine_display} restaurants in {city_name}: {n} rooms | TableJourney"
+    title = f"{cuisine_display} restaurants in {city_name}: {n} rooms | Cork & Curve"
     description = (
         f"{n} {cuisine_display.lower()} rooms in {city_name} worth booking, with "
         f"editor scores, neighborhoods and what each kitchen does best. "
@@ -255,8 +255,8 @@ def _render_page(renderer: TemplateRenderer, *, country_slug: str, country_name:
             "og_description": description,
             "og_url": canonical,
             "og_type": "website",
-            "og_image": "https://tablejourney.com/og/default.jpg",
-            "og_image_alt": "TableJourney food guide",
+            "og_image": "https://corkandcurve.com/og/default.jpg",
+            "og_image_alt": "Cork & Curve wine guide",
             "og_locale": "en_US",
         },
         "twitter": {"twitter_title": title, "twitter_description": description},

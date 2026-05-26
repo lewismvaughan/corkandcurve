@@ -1,0 +1,99 @@
+{
+  "wine_retailers": [
+    {
+      "slug": "moselland-vinothek-bernkastel",
+      "name": "Vinothek der Moselland eG",
+      "address": "Bornwiese 2, 54470 Bernkastel-Kues, Germany",
+      "neighborhood": "Kues, Bernkastel-Kues",
+      "description": "Retail vinothek beside the head office of the Moselland eG winegrowers' cooperative, the largest in the region. Sells the cooperative's own wines from the Mosel, Nahe, Pfalz and Rheinhessen.",
+      "speciality": "Cooperative Mosel Riesling and Sekt, plus Nahe, Pfalz and Rheinhessen ranges",
+      "online_shop": true,
+      "en_primeur": false,
+      "editorial_score": 4.1,
+      "verified": {
+        "source_url": "https://en.moselland.de/wine-shop-bernkastel-en/",
+        "address_quoted": "Bornwiese 2, D-54470 Bernkastel-Kues",
+        "open_status": "open",
+        "open_evidence_url": "https://en.bernkastel.de/poi/moselland-eg-winegrowers-cooperative/poi.html",
+        "cuisine_evidence_url": "https://www.rlp-tourismus.com/en/infosystem/infosystem/Vinothek-der-Moselland-eG-Winzergenossenschaft_B/infosystem.html",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "das-weinhaus-shop-trier",
+      "name": "Das Weinhaus Trier",
+      "address": "Brückenstrasse 7, 54290 Trier, Germany",
+      "neighborhood": "Trier city centre",
+      "description": "Family-run wine shop and restaurant in central Trier holding what it calls the largest selection of Mosel, Saar and Ruwer wines in the city, at winery prices, plus international bottles.",
+      "speciality": "Mosel, Saar and Ruwer wines from across the region at estate prices",
+      "online_shop": true,
+      "en_primeur": false,
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://weinhaus-trier.de/",
+        "address_quoted": "Brückenstr. 7, 54290 Trier",
+        "open_status": "open",
+        "open_evidence_url": "https://www.yelp.com/biz/das-weinhaus-trier",
+        "cuisine_evidence_url": "https://www.trier-info.de/en/wine-experience/wine-shops-wine-restaurants-wine-cellar",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "diemosel-weinhandlung-traben-trarbach",
+      "name": "dieMOSEL Weinhandlung",
+      "address": "Rissbacher Strasse 13, 56841 Traben-Trarbach, Germany",
+      "neighborhood": "Traben, Traben-Trarbach",
+      "description": "Wine shop in a heritage 1890 wine-merchant villa on the Traben-Trarbach riverbank, stocking over 200 wines from across the whole Mosel region, with an attached vinothek and bar.",
+      "speciality": "Curated Mosel range of over 200 wines from small and well-known growers",
+      "online_shop": true,
+      "en_primeur": false,
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://shop-diemosel-wine.myshopify.com/en/pages/weinhandlung-1",
+        "address_quoted": "Rißbacher Str. 13, 56841 Traben-Trarbach",
+        "open_status": "open",
+        "open_evidence_url": "https://www.traben-trarbach.de/de/wein.html",
+        "cuisine_evidence_url": "https://shop-diemosel-wine.myshopify.com/en/pages/about",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "gebrueder-weber-weinhandel-trier",
+      "name": "Gebrueder Weber Weinhandel",
+      "address": "Olewiger Strasse 133, 54295 Trier, Germany",
+      "neighborhood": "Olewig, Trier",
+      "description": "Long-established Trier wine merchant with retail and wholesale arms, selling Mosel wines alongside ranges from France, Italy, Austria, Portugal and Spain from its Olewig house of wines.",
+      "speciality": "Mosel wines plus a broad European range; retail and wholesale",
+      "online_shop": true,
+      "en_primeur": false,
+      "editorial_score": 4.0,
+      "verified": {
+        "source_url": "https://www.weber-trier.de/",
+        "address_quoted": "Olewiger Str. 133 54295 Trier",
+        "open_status": "open",
+        "open_evidence_url": "https://www.trier-info.de/en/wine-experience/wine-shops-wine-restaurants-wine-cellar",
+        "cuisine_evidence_url": "https://www.dastelefonbuch.de/Branchen/Wein/Trier--Olewig",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "beths-weinladen-kroev",
+      "name": "Beth's Weinladen",
+      "address": "Moselweinstraße 58, 54536 Kröv, Germany",
+      "neighborhood": "Kroev, Middle Mosel",
+      "description": "Estate wine shop of Weinhaus Beth in Kroev, selling the family's Mosel Rieslings, reds and Sekt alongside its own fruit brandies and liqueurs from generations of winemaking and distilling.",
+      "speciality": "Estate Mosel Riesling, Kroever Nacktarsch, Sekt and house Edelbrand",
+      "online_shop": true,
+      "en_primeur": false,
+      "editorial_score": 4.0,
+      "verified": {
+        "source_url": "https://beth.de/UEBER-UNS/Weinverkauf/",
+        "address_quoted": "Moselweinstraße 58 in Kröv",
+        "open_status": "open",
+        "open_evidence_url": "https://www.hofladen-bauernladen.info/adressen/weinbau-brennerei-kroev-beth__25879.php",
+        "cuisine_evidence_url": "https://beth.de/ONLINE-SHOP/",
+        "checked_on": "2026-05-26"
+      }
+    }
+  ]
+}

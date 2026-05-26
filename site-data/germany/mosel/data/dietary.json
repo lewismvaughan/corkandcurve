@@ -1,0 +1,157 @@
+{
+  "dietary": {
+    "biodynamic": [
+      {
+        "slug": "melsheimer-biodynamic",
+        "name": "Weingut Melsheimer",
+        "vineyard_ref": "melsheimer",
+        "address": "Dorfstrasse 21, 56861 Reil an der Mosel, Germany",
+        "neighborhood": "Reil",
+        "biodynamic_status": "demeter_certified",
+        "biodynamic_certifier": "Demeter",
+        "organic_status": "organic_certified",
+        "certified_year": 2013,
+        "description": "Reil estate organic from the 1990s, fully biodynamic from 2009 and Demeter-certified in 2013, working the steep Mullay-Hofberg slate by hand for pure Riesling.",
+        "tip": "The long-skin-contact Vade Retro bottlings show the biodynamic fruit at its most expressive; the classic Mullay-Hofberg Rieslings are the calling card.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://melsheimer-riesling.de/en/our-values/",
+          "address_quoted": "Dorfstrasse 21, 56861 Reil an der Mosel",
+          "open_status": "open",
+          "open_evidence_url": "https://www.winetourism.com/winery/weingut-melsheimer/",
+          "cuisine_evidence_url": "https://www.lofiwines.com/producers/melsheimer",
+          "checked_on": "2026-05-26"
+        }
+      },
+      {
+        "slug": "clemens-busch-biodynamic",
+        "name": "Weingut Clemens Busch",
+        "vineyard_ref": "clemens-busch",
+        "address": "Kirchstrasse 37, 56862 Puenderich, Germany",
+        "neighborhood": "Puenderich (Marienburg)",
+        "biodynamic_status": "biodynamic_practicing",
+        "biodynamic_certifier": "respekt-BIODYN",
+        "organic_status": "organic_certified",
+        "certified_year": 2005,
+        "description": "Biodynamic since 2005, the Busch family farm the Puenderich Marienburg by respekt-BIODYN guidelines and bottle its slate parcels separately as a terroir study.",
+        "tip": "The grey-, blue- and red-slate Marienburg GGs read the same biodynamic farming across three soils; taste them together.",
+        "editorial_score": 4.7,
+        "verified": {
+          "source_url": "https://clemens-busch.de/index.php?lang=e&p=7",
+          "address_quoted": "Kirchstrasse 37, 56862 Puenderich",
+          "open_status": "open",
+          "open_evidence_url": "https://www.vdp.de/en/die-winzer/mosel/vdpestate-clemens-busch",
+          "cuisine_evidence_url": "https://wineguide.wein.plus/weingut-clemens-busch",
+          "checked_on": "2026-05-26"
+        }
+      }
+    ],
+    "organic": [
+      {
+        "slug": "weiser-kunstler-organic",
+        "name": "Weingut Weiser-Kuenstler",
+        "vineyard_ref": "weiser-kuenstler",
+        "address": "Wilhelmstrasse 11, 56841 Traben-Trarbach, Germany",
+        "neighborhood": "Traben-Trarbach (Trarbach)",
+        "biodynamic_status": "biodynamic_practicing",
+        "organic_status": "organic_certified",
+        "certified_year": 2017,
+        "description": "Konstantin Weiser and Alexandra Kuenstler hand-farm the steep Trarbacher Schlossberg with no herbicides, their main organic-certified sites giving clear Riesling.",
+        "tip": "Tiny production and cult demand mean the organic-certified Schlossberg Kabinett sells out fast; buy through the importer on release.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://www.lebendigeweine.de/en/weiser-kuenstler/",
+          "address_quoted": "Wilhelmstrasse 11, 56841 Traben-Trarbach",
+          "open_status": "open",
+          "open_evidence_url": "https://www.larscarlberg.com/producer/weiser-kunstler/",
+          "cuisine_evidence_url": "https://www.vomboden.com/growers/weiser-kunstler/",
+          "checked_on": "2026-05-26"
+        }
+      }
+    ],
+    "natural": [
+      {
+        "slug": "trossen-natural",
+        "name": "Weingut Rita und Rudolf Trossen",
+        "vineyard_ref": "trossen",
+        "address": "Bahnhofstrasse 7, 54538 Kinheim-Kindel, Germany",
+        "neighborhood": "Kinheim-Kindel",
+        "biodynamic_status": "biodynamic_practicing",
+        "organic_status": "organic_certified",
+        "natural_wine": true,
+        "description": "Natural-wine pioneers in Kinheim since 1976, the Trossens make slate Riesling with no added yeast; from 2010 the Pyramide Purus line uses no added sulphur.",
+        "tip": "The Pyramide Purus Rieslings are the zero-sulphur cuvees; start with a classic bottling to read the slate before the wild ferment.",
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://trossen-weine.de/",
+          "address_quoted": "Kinheim",
+          "open_status": "open",
+          "open_evidence_url": "https://www.pieksman.com/en/collections/trossen",
+          "cuisine_evidence_url": "https://morenaturalwine.com/collections/rudolf-trossen",
+          "checked_on": "2026-05-26"
+        }
+      },
+      {
+        "slug": "weingut-stein-natural",
+        "name": "Weingut Stein",
+        "vineyard_ref": "weingut-stein",
+        "address": "Brautrockstrasse 40, 56859 Bullay, Germany",
+        "neighborhood": "Bullay and St. Aldegund",
+        "natural_wine": true,
+        "description": "Ulli Stein farms steep slate ecologically with cover crops and no herbicides; his light, dry slate Riesling and rare Elbling are natural-wine-scene darlings.",
+        "tip": "Stein's wines are built for the table; the Elbling and steep St. Aldegunder Rieslings drink best young and lightly chilled.",
+        "editorial_score": 4.2,
+        "verified": {
+          "source_url": "https://stein-weine.de/",
+          "address_quoted": "Brautrockstrasse 40, 56859 Bullay",
+          "open_status": "open",
+          "open_evidence_url": "https://en.visitmosel.de/wine-cuisine/gastro/weingut-stein-haus-waldfrieden",
+          "cuisine_evidence_url": "https://mysa.wine/collections/stein",
+          "checked_on": "2026-05-26"
+        }
+      }
+    ],
+    "vegan_winemaking": [
+      {
+        "slug": "dr-loosen-vegan",
+        "name": "Weingut Dr. Loosen",
+        "vineyard_ref": "dr-loosen",
+        "address": "St. Johannishof, 54470 Bernkastel-Kues, Germany",
+        "neighborhood": "Bernkastel-Kues",
+        "vegan": true,
+        "description": "Dr. Loosen's Rieslings are vegan-friendly, with no animal products and bentonite-clay fining where needed, one of the most widely available vegan Mosel ranges.",
+        "tip": "The entry Dr. L and the estate Rieslings are all vegan-friendly, an easy, affordable choice for plant-based drinkers exploring the Mosel.",
+        "editorial_score": 4.2,
+        "verified": {
+          "source_url": "https://drloosen.de/en",
+          "address_quoted": "Bernkastel",
+          "open_status": "open",
+          "open_evidence_url": "https://drloosen.de/en",
+          "cuisine_evidence_url": "https://www.barnivore.com/products/3909-dr-loosen-wine",
+          "checked_on": "2026-05-26"
+        }
+      }
+    ],
+    "lowsulfite": [
+      {
+        "slug": "trossen-purus-lowsulfite",
+        "name": "Trossen Pyramide Purus",
+        "vineyard_ref": "trossen",
+        "address": "Bahnhofstrasse 7, 54538 Kinheim-Kindel, Germany",
+        "neighborhood": "Kinheim-Kindel",
+        "natural_wine": true,
+        "description": "The Trossens' Pyramide Purus Rieslings, made since 2010, are bottled with no filtration or sulfur addition, a benchmark of no-sulphur natural Mosel wine.",
+        "tip": "Zero-sulphur wines are alive and variable; store cold and drink Purus on the younger side for its purest slate-and-orchard expression.",
+        "editorial_score": 4.3,
+        "verified": {
+          "source_url": "https://trossen-weine.de/",
+          "address_quoted": "Kinheim",
+          "open_status": "open",
+          "open_evidence_url": "https://www.pieksman.com/en/collections/trossen",
+          "cuisine_evidence_url": "https://leonandsonwine.com/products/2022-rita-rudolf-trossen-pyramide-purus-riesling-mosel-germany",
+          "checked_on": "2026-05-26"
+        }
+      }
+    ]
+  }
+}

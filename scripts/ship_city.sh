@@ -249,11 +249,11 @@ python3 scripts/generate_search_index.py
 
 step "10/12  chmod content/ for Caddy"
 if command -v sshp >/dev/null 2>&1; then
-    sshp host 'echo "${TJ_SUDO_PASS:?TJ_SUDO_PASS not set; source .env.local first}" | sudo -S chmod -R a+rX /opt/claude-stations/tablejourney/repo/content' >/dev/null
+    sshp host 'echo "${TJ_SUDO_PASS:?TJ_SUDO_PASS not set; source .env.local first}" | sudo -S chmod -R a+rX /opt/claude-stations/corkandcurve/repo/content' >/dev/null
     echo "chmod a+rX applied via sshp host"
 else
     echo "WARNING: 'sshp' not on PATH, skipping chmod. New files will 404 publicly until you run:"
-    echo "  sshp host 'echo "${TJ_SUDO_PASS:?TJ_SUDO_PASS not set; source .env.local first}" | sudo -S chmod -R a+rX /opt/claude-stations/tablejourney/repo/content'"
+    echo "  sshp host 'echo "${TJ_SUDO_PASS:?TJ_SUDO_PASS not set; source .env.local first}" | sudo -S chmod -R a+rX /opt/claude-stations/corkandcurve/repo/content'"
 fi
 
 step "11/12  validate rendered HTML (hard gate on em/en dashes + placeholders)"
@@ -271,12 +271,12 @@ if command -v sshp >/dev/null 2>&1; then
         "/${COUNTRY}/${CITY}/signature-dishes/"
     )
     for url in "${URLS[@]}"; do
-        code=$(sshp host "curl -sS -o /dev/null -w '%{http_code}' https://tablejourney.com${url}" 2>/dev/null || echo "ERR")
-        echo "  ${code}  https://tablejourney.com${url}"
+        code=$(sshp host "curl -sS -o /dev/null -w '%{http_code}' https://corkandcurve.com${url}" 2>/dev/null || echo "ERR")
+        echo "  ${code}  https://corkandcurve.com${url}"
     done
 else
     echo "  (sshp not available; skipping live smoke test)"
 fi
 
 echo ""
-echo "DONE: ${COUNTRY}/${CITY} shipped. Pages live at https://tablejourney.com/${COUNTRY}/${CITY}/"
+echo "DONE: ${COUNTRY}/${CITY} shipped. Pages live at https://corkandcurve.com/${COUNTRY}/${CITY}/"

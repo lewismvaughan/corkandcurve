@@ -13,6 +13,18 @@
       ]
     },
     {
+      "slug": "natural",
+      "display": "Natural",
+      "regions": [
+        {
+          "country_slug": "germany",
+          "region_slug": "mosel",
+          "region_name": "Mosel",
+          "n": 1
+        }
+      ]
+    },
+    {
       "slug": "sparkling",
       "display": "Sparkling",
       "regions": [
@@ -21,6 +33,12 @@
           "region_slug": "champagne",
           "region_name": "Champagne",
           "n": 39
+        },
+        {
+          "country_slug": "germany",
+          "region_slug": "mosel",
+          "region_name": "Mosel",
+          "n": 2
         },
         {
           "country_slug": "italy",
@@ -53,6 +71,12 @@
           "n": 17
         },
         {
+          "country_slug": "germany",
+          "region_slug": "mosel",
+          "region_name": "Mosel",
+          "n": 42
+        },
+        {
           "country_slug": "italy",
           "region_slug": "piedmont",
           "region_name": "Piedmont",
@@ -81,6 +105,12 @@
           "region_slug": "bordeaux",
           "region_name": "Bordeaux",
           "n": 3
+        },
+        {
+          "country_slug": "germany",
+          "region_slug": "mosel",
+          "region_name": "Mosel",
+          "n": 10
         },
         {
           "country_slug": "italy",

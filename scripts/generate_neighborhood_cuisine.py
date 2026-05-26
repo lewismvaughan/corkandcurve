@@ -41,7 +41,7 @@ from utils.filter_search import filter_search_widget  # noqa: E402
 REPO_ROOT = Path(__file__).resolve().parent.parent
 SITE_DATA = REPO_ROOT / "site-data"
 CONTENT = REPO_ROOT / "content"
-BASE = "https://tablejourney.com"
+BASE = "https://corkandcurve.com"
 
 MIN_ENTITIES = 1
 TOP_N = 20
@@ -181,7 +181,7 @@ def _render(renderer: TemplateRenderer, *, country_slug: str, country_name: str,
     cuisine_display = _cuisine_display(cuisine_slug)
     n = len(entries)
     canonical = f"{BASE}/neighborhood/{city_slug}/{nbhd_slug}/{cuisine_slug}/"
-    title = f"{cuisine_display} in {nbhd_name}, {city_name}: {n} rooms | TableJourney"
+    title = f"{cuisine_display} in {nbhd_name}, {city_name}: {n} rooms | Cork & Curve"
     description = (
         f"The best {n} {cuisine_display.lower()} rooms in {nbhd_name}, {city_name}, "
         f"editor-picked with what to order, who to ask for, and what to skip."
@@ -263,8 +263,8 @@ def _render(renderer: TemplateRenderer, *, country_slug: str, country_name: str,
         "meta": {"title": title, "description": description, "canonical_url": canonical,
                  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"},
         "open_graph": {"og_title": title, "og_description": description, "og_url": canonical,
-                       "og_type": "website", "og_image": "https://tablejourney.com/og/default.jpg",
-                       "og_image_alt": "TableJourney food guide", "og_locale": "en_US"},
+                       "og_type": "website", "og_image": "https://corkandcurve.com/og/default.jpg",
+                       "og_image_alt": "Cork & Curve wine guide", "og_locale": "en_US"},
         "twitter": {"twitter_title": title, "twitter_description": description},
         "structured_data": {"breadcrumb_items": breadcrumb}, "alternates": [],
     }
@@ -306,7 +306,7 @@ def _inject_cuisine_block_into_neighborhood_index(
         )
         idx_path.write_text(
             '<!doctype html><html lang="en"><head>'
-            f'<meta charset="utf-8"><title>{html.escape(nbhd_name)} | TableJourney</title>'
+            f'<meta charset="utf-8"><title>{html.escape(nbhd_name)} | Cork & Curve</title>'
             f'<link rel="canonical" href="{BASE}/neighborhood/{city_slug}/{nbhd_slug}/">'
             '<meta name="robots" content="index, follow">'
             '<link rel="stylesheet" href="/css/base.css">'

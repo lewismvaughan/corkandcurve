@@ -1,0 +1,151 @@
+{
+  "day_trips_wine": [
+    {
+      "slug": "saar-valley-riesling",
+      "name": "The Saar valley (Saar Riesling)",
+      "distance_km": 40,
+      "travel_time": "40 min by car from Trier",
+      "destination_country": "Germany",
+      "destination_region": "Saar",
+      "signature_pours": [
+        "Saar Riesling Kabinett",
+        "Saar Grosses Gewaechs"
+      ],
+      "recommended_vineyards": [],
+      "description": "The Saar tributary makes Germany's most piercing, mineral Riesling around Wiltingen and Saarburg, cooler and racier than the Middle Mosel and slow to ripen.",
+      "tip": "Base the day around Wiltingen and Saarburg; pair a top estate visit with the floodlit waterfall in Saarburg's town centre.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.saar-obermosel.de/en/wine-cuisine/weinguide-saar-obermosel/is/Van-Volxem-Weinmanufaktur_Wiltingen",
+        "address_quoted": "Wiltingen",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Riesling",
+        "cuisine_evidence_url": "https://vanvolxem.com/en/tastings/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "ruwer-valley-mertesdorf",
+      "name": "The Ruwer valley (Mertesdorf and Kasel)",
+      "distance_km": 15,
+      "travel_time": "20 min by car from Trier",
+      "destination_country": "Germany",
+      "destination_region": "Ruwer",
+      "signature_pours": [
+        "Ruwer Riesling Kabinett",
+        "Abtsberg Riesling GG"
+      ],
+      "recommended_vineyards": [],
+      "description": "A short hop from Trier, the tiny Ruwer makes ageless cool-climate Riesling, with Mertesdorf home to the historic Maximin Gruenhaus monopole and Kasel nearby.",
+      "tip": "The Ruwer is small enough to fold into a Trier afternoon; combine a Mertesdorf estate with the Roman monuments in the city.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.vdp.de/en/die-winzer/mosel/vdpestate-maximin-gruenhaus",
+        "address_quoted": "Mertesdorf",
+        "open_status": "open",
+        "open_evidence_url": "https://maximingruenhaus.de/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Ruwer_(wine_region)",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "trier-roman-city",
+      "name": "Trier (Roman wine city)",
+      "distance_km": 50,
+      "travel_time": "50 min by car from Bernkastel-Kues",
+      "destination_country": "Germany",
+      "destination_region": "Trier",
+      "signature_pours": [
+        "Mosel Riesling",
+        "Saar Riesling",
+        "Ruwer Riesling"
+      ],
+      "recommended_vineyards": [],
+      "description": "Germany's oldest city and the region's Roman capital pairs the Porta Nigra with charity wine cellars on Roman foundations and historic Mosel, Saar and Ruwer estates.",
+      "tip": "See the Roman wine-ship relief in the Rheinisches Landesmuseum, then taste in a city Weinstube; Trier links all three river valleys.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.trier-info.de/en/wine-experience/wine-shops-wine-restaurants-wine-cellar",
+        "address_quoted": "Trier",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Trier",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Mosel_(wine_region)",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "nahe-bad-kreuznach",
+      "name": "The Nahe (Bad Kreuznach)",
+      "distance_km": 90,
+      "travel_time": "1h 15m by car from Bernkastel-Kues",
+      "destination_country": "Germany",
+      "destination_region": "Nahe",
+      "signature_pours": [
+        "Nahe Riesling trocken",
+        "Nahe Weissburgunder"
+      ],
+      "recommended_vineyards": [],
+      "description": "Between the Mosel and Rheinhessen, the Nahe makes Riesling now ranked beside the best Mosel and Rheingau, on varied volcanic and slate soils around Bad Kreuznach.",
+      "tip": "The Nahe's varied soils make for striking side-by-side tasting; it is a longer drive, so make it a full day rather than a half.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.winesofgermany.com/our-regions/growing-area/73/nahe",
+        "address_quoted": "Bad Kreuznach",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Nahe_(wine_region)",
+        "cuisine_evidence_url": "https://wineguide.wein.plus/wine-regions/nahe",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "luxembourg-moselle",
+      "name": "Luxembourg Moselle (Remich and Grevenmacher)",
+      "distance_km": 55,
+      "travel_time": "45 min by car from Trier",
+      "destination_country": "Luxembourg",
+      "destination_region": "Luxembourg Moselle",
+      "signature_pours": [
+        "Cremant de Luxembourg",
+        "Riesling",
+        "Auxerrois",
+        "Pinot Gris"
+      ],
+      "recommended_vineyards": [],
+      "description": "Across the border the same river becomes Luxembourg's Moselle, focused on traditional-method Cremant and Auxerrois, with riverside towns Remich and Grevenmacher.",
+      "tip": "Visit the rock-cut cellars at Grevenmacher or Remich for Cremant; the contrast with Mosel Riesling makes a rewarding cross-border day.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.visitluxembourg.com/destinations/regions/moselle",
+        "address_quoted": "Remich",
+        "open_status": "open",
+        "open_evidence_url": "https://www.visitmoselle.lu/wine-terroir/wine-hikes-tastings",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Luxembourg_wine",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "rheingau-riesling",
+      "name": "The Rheingau (Ruedesheim)",
+      "distance_km": 130,
+      "travel_time": "1h 45m by car from Bernkastel-Kues",
+      "destination_country": "Germany",
+      "destination_region": "Rheingau",
+      "signature_pours": [
+        "Rheingau Riesling trocken",
+        "Rheingau Spaetburgunder"
+      ],
+      "recommended_vineyards": [],
+      "description": "Down the Rhine from Koblenz, the Rheingau is Germany's other Riesling heartland, fuller than the Mosel, with Ruedesheim and the Kloster Eberbach monastery.",
+      "tip": "A long day or better an overnight; ride the Ruedesheim cable car for vineyard views and taste at Kloster Eberbach for the historical contrast.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.winesofgermany.com/our-regions/growing-area/73/nahe",
+        "address_quoted": "Ruedesheim",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Rheingau",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Rheingau_(wine_region)",
+        "checked_on": "2026-05-26"
+      }
+    }
+  ]
+}

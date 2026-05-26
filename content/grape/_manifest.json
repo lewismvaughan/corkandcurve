@@ -253,6 +253,18 @@
       ]
     },
     {
+      "slug": "elbling",
+      "display": "Elbling",
+      "regions": [
+        {
+          "country_slug": "germany",
+          "region_slug": "mosel",
+          "region_name": "Mosel",
+          "n": 3
+        }
+      ]
+    },
+    {
       "slug": "favorita",
       "display": "Favorita",
       "regions": [
@@ -589,6 +601,18 @@
       ]
     },
     {
+      "slug": "muller-thurgau",
+      "display": "Muller-Thurgau",
+      "regions": [
+        {
+          "country_slug": "germany",
+          "region_slug": "mosel",
+          "region_name": "Mosel",
+          "n": 3
+        }
+      ]
+    },
+    {
       "slug": "muscadelle",
       "display": "Muscadelle",
       "regions": [
@@ -797,6 +821,12 @@
       "display": "Riesling",
       "regions": [
         {
+          "country_slug": "germany",
+          "region_slug": "mosel",
+          "region_name": "Mosel",
+          "n": 64
+        },
+        {
           "country_slug": "italy",
           "region_slug": "piedmont",
           "region_name": "Piedmont",
@@ -919,6 +949,18 @@
       ]
     },
     {
+      "slug": "sekt",
+      "display": "Sekt",
+      "regions": [
+        {
+          "country_slug": "germany",
+          "region_slug": "mosel",
+          "region_name": "Mosel",
+          "n": 1
+        }
+      ]
+    },
+    {
       "slug": "semillon",
       "display": "Semillon",
       "regions": [
@@ -939,6 +981,42 @@
           "region_slug": "douro",
           "region_name": "Douro Valley",
           "n": 12
+        }
+      ]
+    },
+    {
+      "slug": "spaetburgunder",
+      "display": "Spaetburgunder",
+      "regions": [
+        {
+          "country_slug": "germany",
+          "region_slug": "mosel",
+          "region_name": "Mosel",
+          "n": 1
+        }
+      ]
+    },
+    {
+      "slug": "spatburgunder",
+      "display": "Spatburgunder",
+      "regions": [
+        {
+          "country_slug": "germany",
+          "region_slug": "mosel",
+          "region_name": "Mosel",
+          "n": 8
+        }
+      ]
+    },
+    {
+      "slug": "spatburgunder-pinot-noir",
+      "display": "Spatburgunder (Pinot Noir)",
+      "regions": [
+        {
+          "country_slug": "germany",
+          "region_slug": "mosel",
+          "region_name": "Mosel",
+          "n": 4
         }
       ]
     },
@@ -1179,6 +1257,30 @@
           "region_slug": "rioja",
           "region_name": "Rioja",
           "n": 37
+        }
+      ]
+    },
+    {
+      "slug": "weissburgunder",
+      "display": "Weissburgunder",
+      "regions": [
+        {
+          "country_slug": "germany",
+          "region_slug": "mosel",
+          "region_name": "Mosel",
+          "n": 6
+        }
+      ]
+    },
+    {
+      "slug": "weissburgunder-pinot-blanc",
+      "display": "Weissburgunder (Pinot Blanc)",
+      "regions": [
+        {
+          "country_slug": "germany",
+          "region_slug": "mosel",
+          "region_name": "Mosel",
+          "n": 5
         }
       ]
     }

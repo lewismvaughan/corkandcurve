@@ -1,0 +1,156 @@
+{
+  "wine_bars": [
+    {
+      "slug": "weinstube-spitzhaeuschen-bernkastel",
+      "name": "Weinstube Spitzhaeuschen",
+      "address": "Karlstrasse 13, 54470 Bernkastel-Kues, Germany",
+      "neighborhood": "Bernkastel old town",
+      "wine_program": "Estate Weinstube of Weingut Schmitz pouring over 50 Mosel Rieslings and reds in the oldest half-timbered house on the Middle Mosel; by-the-glass and bottle",
+      "glass_count": 12,
+      "signature_pours": ["Bernkasteler Riesling", "Doctorberg Riesling", "Spatburgunder"],
+      "description": "Wine tavern inside a leaning 1416 half-timbered landmark off the Marktplatz, run as a Weinstube by the Schmitz-Herges family since 1970. Over 50 regional Rieslings and reds in cramped, characterful rooms.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.spitzhaeuschen.de/",
+        "address_quoted": "Karlstr. 13",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g198633-d4085777-Reviews-Spitzhaeuschen-Bernkastel_Kues_Rhineland_Palatinate.html",
+        "cuisine_evidence_url": "https://www.atlasobscura.com/places/spitzhauschen",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "tresor-wine-bar-bernkastel",
+      "name": "Tresor Wine & Bar",
+      "address": "Gestade 3b, 54470 Bernkastel-Kues, Germany",
+      "neighborhood": "Bernkastel old town",
+      "wine_program": "Selected Mosel wines by the glass alongside a cocktail list, served on the Gestade promenade in a vault-themed room",
+      "glass_count": 14,
+      "signature_pours": ["Mosel Riesling trocken", "Mosel Riesling feinherb", "Sekt"],
+      "description": "Contemporary wine and cocktail bar on the Bernkastel river promenade, pairing a curated Mosel by-the-glass list with mixed drinks in an unusual safe-vault ambience.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://tresor-bernkastel.de/",
+        "address_quoted": "Gestade 3b, 54470 Bernkastel-Kues",
+        "open_status": "open",
+        "open_evidence_url": "https://www.falstaff.com/en/winebars/tresor",
+        "cuisine_evidence_url": "https://en.bernkastel.de/poi/tresor-wine-bar/poi.html",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "weinsinnig-trier",
+      "name": "Weinsinnig",
+      "address": "Palaststrasse 12, 54290 Trier, Germany",
+      "neighborhood": "Trier city centre",
+      "wine_program": "Region-in-the-bottle list of local Mosel wines from young, innovative vintners, served alongside flammkuchen near the cathedral",
+      "glass_count": 16,
+      "signature_pours": ["Mosel Riesling", "Elbling", "Weissburgunder"],
+      "description": "Central Trier wine bar focused on regional Mosel growers, especially young, experimental vintners. A relaxed by-the-glass programme with flammkuchen, steps from the Dom St. Peter.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://weinsinnig.com",
+        "address_quoted": "Palaststraße 12, Trier",
+        "open_status": "open",
+        "open_evidence_url": "https://www.yelp.de/biz/weinsinnig-trier",
+        "cuisine_evidence_url": "https://www.tripadvisor.de/Restaurant_Review-g187394-d2554974-Reviews-Weinsinnig-Trier_Rhineland_Palatinate.html",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "weinstube-kesselstatt-trier",
+      "name": "Weinstube Kesselstatt",
+      "address": "Liebfrauenstrasse 10, 54290 Trier, Germany",
+      "neighborhood": "Trier cathedral quarter",
+      "wine_program": "Estate Gutsausschank of Weingut Reichsgraf von Kesselstatt, pouring the house Mosel, Saar and Ruwer Rieslings by the glass in cellars beneath Palais Kesselstatt",
+      "glass_count": 18,
+      "signature_pours": ["Kesselstatt Riesling", "Scharzhofberger Riesling", "Josephshofer Riesling"],
+      "description": "Wine tavern of the 675-year-old Kesselstatt estate beside Trier's Dom and Liebfrauen cathedral. Historic vaulted rooms and a garden terrace pour the estate's Mosel and Saar Rieslings.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.weinstube-kesselstatt.de/",
+        "address_quoted": "Liebfrauenstr. 10, Trier",
+        "open_status": "open",
+        "open_evidence_url": "https://www.yelp.com/biz/weinstube-kesselstatt-trier",
+        "cuisine_evidence_url": "https://www.kesselstatt.de/gluehweinstand_weinstube",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "weingut-weinstube-deutschherrenhof-trier",
+      "name": "Weingut und Weinstube Deutschherrenhof",
+      "address": "Olewiger Strasse 181, 54295 Trier, Germany",
+      "neighborhood": "Olewig, Trier",
+      "wine_program": "Estate wine tavern pouring the house Olewig and Trier Rieslings and Pinots by the glass, with winegrower-led tastings and cellar visits",
+      "glass_count": 12,
+      "signature_pours": ["Trierer Riesling", "Weissburgunder", "Spatburgunder"],
+      "description": "Family estate Weinstube in Trier-Olewig, three kilometres from the centre, pouring its own Mosel wines by the glass and offering grower-commented tastings along a wine education path.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.oechsle-weinhaus.de/de/weingut/deutschherrenhof",
+        "address_quoted": "Olewiger Straße 181, 54295 Trier",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187394-d2687768-Reviews-Weingut_Weinstube_Deutschherrenhof-Trier_Rhineland_Palatinate.html",
+        "cuisine_evidence_url": "https://www.trier-info.de/gastronomie/weingut-deutschherrenhof-anzeige",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "doctor-weinstube-bernkastel",
+      "name": "Doctor Weinstube",
+      "address": "Hebegasse 5, 54470 Bernkastel-Kues, Germany",
+      "neighborhood": "Bernkastel old town",
+      "wine_program": "Wine-tavern list led by Bernkasteler Riesling, including wines from the famed Doctor and Doctorberg sites, served by the glass and in tasting flights",
+      "glass_count": 14,
+      "signature_pours": ["Bernkasteler Doctor Riesling", "Doctorberg Riesling", "Mosel Riesling feinherb"],
+      "description": "Wine tavern in a 1668 former tithe house at the foot of the Bernkasteler Doctor vineyard, expanded into a Weinstube in 1830. Mosel Rieslings by the glass with regional plates and tasting menus.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.doctor-weinstube-bernkastel.de/en/startseite/",
+        "address_quoted": "Hebegasse 5, 54470 Bernkastel-Kues",
+        "open_status": "open",
+        "open_evidence_url": "https://www.falstaff.com/de/restaurants/doctor-weinstube-bernkastel-kues",
+        "cuisine_evidence_url": "https://en.bernkastel.de/accommodation/hotel-restaurant-doctor-weinstube-01/unterkunft.html",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "weinwirtschaft-friedrich-wilhelm-trier",
+      "name": "Weinwirtschaft Friedrich-Wilhelm",
+      "address": "Weberbach 75, 54290 Trier, Germany",
+      "neighborhood": "Trier city centre",
+      "wine_program": "Wine bar and Kost-Bar wine shop with tastings and a large list led by local estates including the Bischoefliche Weingueter and the Friedrich-Wilhelm-Gymnasium estate",
+      "glass_count": 16,
+      "signature_pours": ["Mosel Riesling", "Weissburgunder", "Spatburgunder"],
+      "description": "Wine bar and shop in central Trier with one of the city's prettiest terraces, pouring a large Mosel-led list from local estates alongside regional and Mediterranean tapas.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.weinwirtschaft-fw.de/kontakt",
+        "address_quoted": "Weberbach 75, 54290 Trier",
+        "open_status": "open",
+        "open_evidence_url": "https://www.falstaff.com/en/restaurants/weinwirtschaft-friedrich-wilhelm-trier",
+        "cuisine_evidence_url": "https://www.einkaufserlebnis-trier.de/en/stores/premium/weberbach/weinwirtschaft-friedrich-wilhelm",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "die-mosel-winebar-traben-trarbach",
+      "name": "dieMOSEL Winebar",
+      "address": "Am Bahnhof 5, 56841 Traben-Trarbach, Germany",
+      "neighborhood": "Traben, Traben-Trarbach",
+      "wine_program": "Mosel-focused wine bar in a slate cellar with a rotating by-the-glass list and a small soulfood kitchen",
+      "glass_count": 14,
+      "signature_pours": ["Mosel Riesling trocken", "Elbling", "Spatburgunder"],
+      "description": "Wine bar attached to the dieMOSEL Vinothek in art-nouveau Traben-Trarbach, set in an 1890 merchant villa cellar. Mosel pours by the glass with a relaxed soulfood menu.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://shop-diemosel-wine.myshopify.com/en/pages/restaurant",
+        "address_quoted": "Am Bahnhof 5, D-56841 Traben-Trarbach",
+        "open_status": "open",
+        "open_evidence_url": "https://www.traben-trarbach.de/en/wine.html",
+        "cuisine_evidence_url": "https://shop-diemosel-wine.myshopify.com/en",
+        "checked_on": "2026-05-26"
+      }
+    }
+  ]
+}

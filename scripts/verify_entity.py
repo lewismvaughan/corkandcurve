@@ -50,7 +50,7 @@ from verify_entities import (  # noqa: E402
 import datetime  # noqa: E402
 import urllib.request  # noqa: E402
 
-UA = "TableJourney-Verifier/1.0 (+https://tablejourney.com)"
+UA = "CorkAndCurve-Verifier/1.0 (+https://corkandcurve.com)"
 
 DIETARY_KEYWORDS = {
     "vegan": ["vegan", "plant-based", "plant based"],

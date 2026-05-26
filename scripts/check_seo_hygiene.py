@@ -32,7 +32,7 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 CONTENT = REPO_ROOT / "content"
-BASE = "https://tablejourney.com"
+BASE = "https://corkandcurve.com"
 
 # Anchor text that signals lazy writing. Lowercased + stripped before compare.
 LOW_VALUE_ANCHORS = {
@@ -42,7 +42,7 @@ LOW_VALUE_ANCHORS = {
 }
 
 # Length bands. Title 70 matches the cap used by build_entity_context
-# (the generator already drops " | TableJourney" suffix above 70). Title 30
+# (the generator already drops " | Cork & Curve" suffix above 70). Title 30
 # lower bound stays the same; anything terser is usually intentional (404).
 # Description band is the SERP sweet spot — short descs (130-140) are
 # acceptable but flagged to surface tightening opportunities.

@@ -12,7 +12,7 @@ from pathlib import Path
 
 from playwright.sync_api import sync_playwright
 
-BASE = "https://tablejourney.com"
+BASE = "https://corkandcurve.com"
 PAGES = [
     ("/", "home"),
     ("/france/", "france-country-hub"),

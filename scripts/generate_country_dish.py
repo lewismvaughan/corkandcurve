@@ -33,7 +33,7 @@ from utils.template_renderer import TemplateRenderer, FOOD_TOPIC_NAV  # noqa: E4
 REPO_ROOT = Path(__file__).resolve().parent.parent
 SITE_DATA = REPO_ROOT / "site-data"
 CONTENT = REPO_ROOT / "content"
-BASE = "https://tablejourney.com"
+BASE = "https://corkandcurve.com"
 
 MIN_CITIES = 1  # any dish in any city in the country gets a rollup page
 
@@ -107,7 +107,7 @@ def _render(renderer: TemplateRenderer, *, country_slug: str, country_name: str,
     dish_display = _dish_display(dish_slug)
     n = len(cities)
     canonical = f"{BASE}/{country_slug}/dish/{dish_slug}/"
-    title = f"{dish_display} across {country_name}: where to eat | TableJourney"
+    title = f"{dish_display} across {country_name}: where to eat | Cork & Curve"
     description = (
         f"Where to eat {dish_display} in {country_name}, with each city's "
         f"local variant and {n} city guides linked. Editor-picked by TableJourney."
@@ -154,8 +154,8 @@ def _render(renderer: TemplateRenderer, *, country_slug: str, country_name: str,
         "meta": {"title": title, "description": description, "canonical_url": canonical,
                  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"},
         "open_graph": {"og_title": title, "og_description": description, "og_url": canonical,
-                       "og_type": "website", "og_image": "https://tablejourney.com/og/default.jpg",
-                       "og_image_alt": "TableJourney food guide", "og_locale": "en_US"},
+                       "og_type": "website", "og_image": "https://corkandcurve.com/og/default.jpg",
+                       "og_image_alt": "Cork & Curve wine guide", "og_locale": "en_US"},
         "twitter": {"twitter_title": title, "twitter_description": description},
         "structured_data": {"breadcrumb_items": breadcrumb}, "alternates": [],
     }

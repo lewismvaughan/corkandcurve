@@ -39,7 +39,7 @@ from utils.template_renderer import TemplateRenderer, FOOD_TOPIC_NAV  # noqa: E4
 REPO_ROOT = Path(__file__).resolve().parent.parent
 SITE_DATA = REPO_ROOT / "site-data"
 CONTENT = REPO_ROOT / "content"
-BASE = "https://tablejourney.com"
+BASE = "https://corkandcurve.com"
 
 # Min venue mentions to ship a page. 1 is fine for canonical-version queries.
 MIN_VENUES = 1
@@ -161,7 +161,7 @@ def _render_page(renderer: TemplateRenderer, *, country_slug: str, country_name:
     n = len(resolved)
 
     canonical = f"{BASE}/{country_slug}/{city_slug}/dish/{dish_slug}/"
-    title = f"Where to eat {dish_name} in {city_name}: {n} editor pick{'s' if n != 1 else ''} | TableJourney"
+    title = f"Where to eat {dish_name} in {city_name}: {n} editor pick{'s' if n != 1 else ''} | Cork & Curve"
     description = (
         f"Where to eat the canonical {dish_name} in {city_name}: {n} editor-picked "
         f"room{'s' if n != 1 else ''} that does the dish right, with what to order and how to find it."
@@ -276,7 +276,7 @@ def _render_page(renderer: TemplateRenderer, *, country_slug: str, country_name:
             "og_description": description,
             "og_url": canonical,
             "og_type": "website",
-            "og_image": f"https://tablejourney.com/og/{city_slug}.jpg",
+            "og_image": f"https://corkandcurve.com/og/{city_slug}.jpg",
             "og_image_alt": f"TableJourney {city_name} food guide",
             "og_locale": "en_US",
         },

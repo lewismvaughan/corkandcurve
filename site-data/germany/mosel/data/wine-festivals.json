@@ -1,0 +1,148 @@
+{
+  "wine_festivals": [
+    {
+      "slug": "weinfest-der-mittelmosel",
+      "name": "Weinfest der Mittelmosel",
+      "recurrence_pattern": "annual, five days around the first Sunday in September",
+      "annual": true,
+      "start_month": "September",
+      "duration": "5 days",
+      "host_organization": "Stadt Bernkastel-Kues",
+      "ticket_required": false,
+      "ticket_url": "https://en.bernkastel.de/middle-moselle-wine-festival",
+      "featured_producers": [],
+      "neighborhood": "Bernkastel-Kues",
+      "description": "One of the largest wine festivals on the entire Mosel, held around the first Sunday in September with a wine route, the Mosella crowning, a parade and fireworks.",
+      "tip": "Accommodation in Bernkastel sells out months ahead; stay in a neighbouring village and walk in along the riverside promenade.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://en.bernkastel.de/middle-moselle-wine-festival",
+        "address_quoted": "Bernkastel-Kues",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.weinland-mosel.de/de/veranstaltungen/show/weinfest-der-mittelmosel-in-bernkastel-kues-3",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Bernkastel-Kues",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "mythos-mosel",
+      "name": "Mythos Mosel",
+      "recurrence_pattern": "annual, weekend after Whitsun, late May or June",
+      "annual": true,
+      "start_month": "June",
+      "duration": "3 days",
+      "host_organization": "Moseljuenger young winemakers association",
+      "ticket_required": true,
+      "ticket_url": "https://www.mythos-mosel.de/",
+      "featured_producers": [],
+      "neighborhood": "Middle Mosel (Detzem to Wintrich)",
+      "description": "A grower-run Riesling weekend in which dozens of Middle Mosel estates between Detzem and Wintrich open for vintage tastings, special pours and cellar parties.",
+      "tip": "Buy the wristband in advance and cluster your stations by village; the riverside towns sit close enough to walk or shuttle between several growers.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://magazine.wein.plus/news/myth-mosel-tasting-event-takes-place-from-10-to-12-june-young-winemakers-association-moseljuenger-presents-established-wineries-and-up-and-coming-winemakers",
+        "address_quoted": "Detzem",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.mythos-mosel.de/en/information-faq/",
+        "cuisine_evidence_url": "https://www.mythos-mosel.de/en/moseljuenger/",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "saar-riesling-sommer",
+      "name": "SaarRieslingSommer",
+      "recurrence_pattern": "annual, late August",
+      "annual": true,
+      "start_month": "August",
+      "duration": "2 days",
+      "host_organization": "VDP.Saar and Saar top estates",
+      "ticket_required": true,
+      "ticket_url": "https://www.saar-riesling-sommer.de/",
+      "featured_producers": [],
+      "neighborhood": "Saar valley",
+      "description": "Top Saar estates open stations across the valley for a late-August weekend of Riesling tasting, showcasing the cooler, racier, mineral style of the Saar.",
+      "tip": "This is the easiest weekend to compare the leading Wiltingen and Saarburg growers side by side; ten stations open from midday.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.saar-riesling-sommer.de/",
+        "address_quoted": "Saar",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.rlp-tourismus.com/de/basis-events/saarrieslingsommer/event.html",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Riesling",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "saarweinfest-saarburg",
+      "name": "Saarweinfest Saarburg",
+      "recurrence_pattern": "annual, first weekend in September",
+      "annual": true,
+      "start_month": "September",
+      "duration": "3 days",
+      "host_organization": "Saarweinfest Saarburg",
+      "ticket_required": false,
+      "ticket_url": "https://www.saarweinfest.de/",
+      "featured_producers": [],
+      "neighborhood": "Saarburg",
+      "description": "Saarburg's town wine festival fills the old town and the Saar riverbank below the castle on the first weekend in September, pouring Saar wines with food and music.",
+      "tip": "Pair the festival with the floodlit Saarburg waterfall in the town centre and a climb to the SaarBurg for valley views over the vineyards.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.weinfeste-in-deutschland.de/saarweinfest-in-saarburg.html",
+        "address_quoted": "Saarburg",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.rlp-tourismus.com/de/basis-events/saarweinfest/event.html",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Saarburg",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "weinfest-zeller-schwarze-katz",
+      "name": "Weinfest der Zeller Schwarze Katz",
+      "recurrence_pattern": "annual, last weekend in June",
+      "annual": true,
+      "start_month": "June",
+      "duration": "4 days",
+      "host_organization": "Stadt Zell (Mosel)",
+      "ticket_required": false,
+      "ticket_url": "https://stadt-zell-mosel.de/weinfest",
+      "featured_producers": [],
+      "neighborhood": "Zell (Mosel)",
+      "description": "Held on the last weekend of June around Zell's market square, this festival traditionally opens the Mosel's wine-festival season with a wine-queen crowning.",
+      "tip": "Try the namesake Zeller Schwarze Katz Riesling at its source; this is the first major Mosel fest each summer and less crowded than September's.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://stadt-zell-mosel.de/weinfest",
+        "address_quoted": "Zell (Mosel)",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.zellerland.de/en/event/weinfest-der-zeller-schwarzen-katz",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Zell_(Mosel)",
+        "checked_on": "2026-05-26"
+      }
+    },
+    {
+      "slug": "federweissenfest-cochem",
+      "name": "Federweissenfest Cochem",
+      "recurrence_pattern": "annual, first two November weekends",
+      "annual": true,
+      "start_month": "November",
+      "duration": "2 weekends",
+      "host_organization": "Ferienland Cochem",
+      "ticket_required": false,
+      "ticket_url": "https://cochem.de/kalender/federweissenfest/",
+      "featured_producers": [],
+      "neighborhood": "Cochem",
+      "description": "Cochem closes the wine year over the first two November weekends with a Federweissen festival on the Endertplatz, serving new wine with Zwiebelkuchen onion tart.",
+      "tip": "This is the season-ending festival, all about Federweisser and onion tart; come hungry and dress warm for the November riverside evenings.",
+      "editorial_score": 4.1,
+      "verified": {
+        "source_url": "https://cochem.de/kalender/federweissenfest/",
+        "address_quoted": "Cochem",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.cochem-zell.de/kalender/veranstaltungen-extern/november/2022-11-04-federweisserfest-cochem/",
+        "cuisine_evidence_url": "https://germanfoods.org/german-food-facts/federweisse-and-zwiebelkuchen/",
+        "checked_on": "2026-05-26"
+      }
+    }
+  ]
+}
