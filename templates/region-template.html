@@ -95,6 +95,7 @@
             "@type": "Product", "name": {{ w.name | tojson }}
             {% if w.producer %}, "brand": { "@type": "Brand", "name": {{ w.producer | tojson }} }{% endif %}
             {% if w.description %}, "description": {{ w.description | tojson }}{% endif %}
+            {% if w.editorial_score is number and w.editorial_score >= 1.0 %}, "review": { "@type": "Review", "author": { "@type": "Organization", "name": "Cork & Curve" }, "reviewRating": { "@type": "Rating", "ratingValue": {{ '%.1f' | format(w.editorial_score) }}, "bestRating": 5, "worstRating": 1 } }{% endif %}
         }}{% if not loop.last %},{% endif %}
         {% endfor %}
       ]

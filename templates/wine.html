@@ -99,6 +99,17 @@
         "ratingValue": {{ ((wine.scores | map(attribute='points') | select | list | sum) / (wine.scores | length) if wine.scores | length else 0) | tojson }},
         "ratingCount": {{ wine.scores | length }},
         "bestRating": 100
+      }{% endif %}{% if wine.editorial_score is number and wine.editorial_score >= 1.0 %},
+      "review": {
+        "@type": "Review",
+        "author": { "@type": "Organization", "name": "Cork & Curve" },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": {{ '%.1f' | format(wine.editorial_score) }},
+          "bestRating": 5,
+          "worstRating": 1
+        }{% if wine.description %},
+        "reviewBody": {{ wine.description | tojson }}{% endif %}
       }{% endif %}
     },
     {
