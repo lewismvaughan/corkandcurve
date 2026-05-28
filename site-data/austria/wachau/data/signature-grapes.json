@@ -1,0 +1,164 @@
+{
+  "signature_grapes": [
+    {
+      "slug": "gruner-veltliner",
+      "name": "Grüner Veltliner",
+      "style_focus": "white",
+      "regions_grown": ["wachau", "kremstal", "kamptal", "wagram", "weinviertel"],
+      "description": "Austria's flagship white grape accounts for roughly 50 percent of national vineyard area and reaches its apex of complexity in the Wachau, Kremstal and Kamptal. In the Wachau the variety produces wines of remarkable longevity on loess and primary rock: textured Smaragd expressions from Achleiten, Loibenberg or Honivogl develop white pepper, lanolin, stone fruit, mineral and herbal character over years of bottle age. At Steinfeder and Federspiel tiers it is fresh, spritzy and apple-driven. Grüner Veltliner is almost exclusively dry in Austrian winemaking tradition. The Wachau classification Smaragd is the grape's spiritual home for age-worthy expressions.",
+      "key_producers": ["fx-pichler", "emmerich-knoll", "prager", "rudi-pichler", "domaene-wachau", "alzinger"],
+      "verified": {
+        "source_url": "https://www.austrianwine.com/our-wine/grape-varieties/white-wine/gruener-veltliner",
+        "address_quoted": "Austrian Wine Marketing Board, Prinz-Eugen-Straße 34, 1040 Vienna",
+        "open_status": "open",
+        "open_evidence_url": "https://winefolly.com/grapes/gruner-veltliner/",
+        "cuisine_evidence_url": "https://www.austrianwine.com/our-wine/winegrowing-regions/niederoesterreich-lower-austria/wachau",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "riesling",
+      "name": "Riesling",
+      "style_focus": "white",
+      "regions_grown": ["wachau", "kremstal", "kamptal", "mosel", "alsace", "rheingau"],
+      "description": "The Wachau's second flagship variety, occupying the steepest, most difficult-to-farm terrace plots on primary granite, gneiss and mica schist. Wachau Riesling is a world apart from German styles: dry to the core, with stony minerality, citrus pith, white peach and an electrifying acid spine that enables decades of ageing. The Singerriedel above Spitz and the Kellerberg in Loiben are the Wachau's benchmark Riesling crus. At Smaragd level, Wachau Riesling is internationally recognised for its complexity and longevity among dry Rieslings.",
+      "key_producers": ["fx-pichler", "emmerich-knoll", "prager", "franz-hirtzberger", "alzinger", "nikolaihof"],
+      "verified": {
+        "source_url": "https://www.austrianwine.com/our-wine/grape-varieties/white-wine/riesling",
+        "address_quoted": "Austrian Wine Marketing Board, Prinz-Eugen-Straße 34, 1040 Vienna",
+        "open_status": "open",
+        "open_evidence_url": "https://www.openingabottle.com/first-taste-guide-to-wachau-riesling/",
+        "cuisine_evidence_url": "https://www.vinea-wachau.at/en/the-wine-region/wachau-dac",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "neuburger",
+      "name": "Neuburger",
+      "style_focus": "white",
+      "regions_grown": ["wachau", "kremstal", "thermenregion"],
+      "description": "A historic variety considered indigenous to the Wachau, Neuburger is a natural crossing of Roter Veltliner and Sylvaner. It produces full-bodied, nutty whites with low acidity and almond, hazelnut and cream notes. It was far more widely planted in the early 20th century; today only a handful of Wachau producers including Donabaum, Lagler, Nothnagl and Özelt still work it. Neuburger's gentle acidity makes it a natural partner for rich fish dishes and white meats.",
+      "key_producers": ["donabaum", "lagler", "nothnagl", "ozelt"],
+      "verified": {
+        "source_url": "https://www.austrianwine.com/our-wine/grape-varieties/white-wine/neuburger",
+        "address_quoted": "Austrian Wine Marketing Board, Prinz-Eugen-Straße 34, 1040 Vienna",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vinea-wachau.at/en/the-wine-region/wachau-dac",
+        "cuisine_evidence_url": "https://www.laglers.at/shop/weine",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "gelber-muskateller",
+      "name": "Gelber Muskateller",
+      "style_focus": "white",
+      "regions_grown": ["wachau", "kremstal", "styria", "alsace"],
+      "description": "Yellow Muscat is a minority variety in the Wachau but one with devoted producers including F.X. Pichler and Lagler. At its Wachau best it is intensely floral (rose petal, orange blossom, fresh grape), silkily textured and often made in the lighter Steinfeder or Federspiel tiers. F.X. Pichler's small-parcel Gelber Muskateller is poured at the best Viennese restaurants as an aperitif style. It lacks the ageing potential of Riesling or Grüner Veltliner but delivers immediate aromatic pleasure.",
+      "key_producers": ["fx-pichler", "lagler", "hofstaetter"],
+      "verified": {
+        "source_url": "https://www.austrianwine.com/our-wine/grape-varieties/white-wine/gelber-muskateller",
+        "address_quoted": "Austrian Wine Marketing Board, Prinz-Eugen-Straße 34, 1040 Vienna",
+        "open_status": "open",
+        "open_evidence_url": "https://fx-pichler.at/en/vineyards-wines/wachau-dac/",
+        "cuisine_evidence_url": "https://www.laglers.at/shop/weine",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "weissburgunder",
+      "name": "Weissburgunder (Pinot Blanc)",
+      "style_focus": "white",
+      "regions_grown": ["wachau", "kremstal", "styria", "alsace", "burgundy"],
+      "description": "Pinot Blanc in the Wachau is called Weissburgunder and is planted in small quantities at estates including Rudi Pichler (5 percent of plantings), Lagler and Özelt. It produces a rounder, less peppery style than Grüner Veltliner (softer acidity, more stone-fruit and cream) and is typically bottled in the Federspiel tier for earlier drinking. A minority variety in the Wachau but respected as a food-friendly, approachable white.",
+      "key_producers": ["rudi-pichler", "lagler", "ozelt"],
+      "verified": {
+        "source_url": "https://www.austrianwine.com/our-wine/grape-varieties/white-wine/weissburgunder",
+        "address_quoted": "Austrian Wine Marketing Board, Prinz-Eugen-Straße 34, 1040 Vienna",
+        "open_status": "open",
+        "open_evidence_url": "https://www.rudipichler.at/en/",
+        "cuisine_evidence_url": "https://www.laglers.at/shop/weine",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "fruehroter-veltliner",
+      "name": "Frühroter Veltliner",
+      "style_focus": "white",
+      "regions_grown": ["wachau", "thermenregion", "carnuntum"],
+      "description": "Early-ripening red Veltliner (the name means Early-Red Veltliner, despite being a white wine) is a historically documented Austrian variety with records predating phylloxera. It is almost exclusively confined to the Wachau and Thermenregion; today only a handful of Wachau estates such as Özelt maintain commercial plantings. The wine is aromatic, round and medium-bodied with spice, coriander and chamomile notes. It represents a direct link to the pre-phylloxera Wachau viticultural tradition.",
+      "key_producers": ["ozelt", "lagler", "hofstaetter"],
+      "verified": {
+        "source_url": "https://www.austrianwine.com/our-wine/grape-varieties/white-wine/fruehroter-veltliner",
+        "address_quoted": "Austrian Wine Marketing Board, Prinz-Eugen-Straße 34, 1040 Vienna",
+        "open_status": "open",
+        "open_evidence_url": "https://www.weingut-oezelt.at/weingut/weinkategorien",
+        "cuisine_evidence_url": "https://wineguide.wein.plus/weingut-hofstaetter",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "roter-veltliner",
+      "name": "Roter Veltliner",
+      "style_focus": "white",
+      "regions_grown": ["wachau", "wagram", "thermenregion"],
+      "description": "The parent of Grüner Veltliner (itself a natural crossing), Roter Veltliner (Red Veltliner, though the wine is white) is nearly extinct. The Wachau DAC permits it under the Gebietswein tier. A handful of very old vine parcels remain in the region, producing a broad, spicy, herbal white of historical significance. It is largely a collector's curiosity today, though the Wagram region to the east is its main remaining stronghold.",
+      "key_producers": ["nothnagl"],
+      "verified": {
+        "source_url": "https://www.austrianwine.com/our-wine/grape-varieties/white-wine/roter-veltliner",
+        "address_quoted": "Austrian Wine Marketing Board, Prinz-Eugen-Straße 34, 1040 Vienna",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vinea-wachau.at/en/the-wine-region/wachau-dac",
+        "cuisine_evidence_url": "https://www.austrianwine.com/our-wine/winegrowing-regions/niederoesterreich-lower-austria/wachau",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "muller-thurgau",
+      "name": "Müller-Thurgau",
+      "style_focus": "white",
+      "regions_grown": ["wachau", "weinviertel", "germany-mosel", "switzerland"],
+      "description": "A Riesling-Madeleine Royale crossing widely planted in Austria through the mid-20th century, Müller-Thurgau has declined sharply in favour of Grüner Veltliner and Riesling. In the Wachau it persists at a handful of estates, most often bottled as a fresh Steinfeder for easy early drinking. The variety offers floral, muscat-like aromas and relatively low acidity. Permitted under the Wachau DAC Gebietswein tier.",
+      "key_producers": ["lagler"],
+      "verified": {
+        "source_url": "https://www.austrianwine.com/our-wine/grape-varieties/white-wine/mueller-thurgau",
+        "address_quoted": "Austrian Wine Marketing Board, Prinz-Eugen-Straße 34, 1040 Vienna",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vinea-wachau.at/en/the-wine-region/wachau-dac",
+        "cuisine_evidence_url": "https://www.laglers.at/shop/weine",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "chardonnay",
+      "name": "Chardonnay (Morillon)",
+      "style_focus": "white",
+      "regions_grown": ["wachau", "kremstal", "styria", "burgundy", "napa"],
+      "description": "Known as Morillon in Styria and by its international name in the Wachau, Chardonnay is a minor variety permitted under the Wachau DAC. A small number of estates (including Hutter and Winzer Krems in neighbouring Kremstal) produce it, typically in an unoaked or lightly oaked style. Not a signature of the Wachau but present as a versatile white option.",
+      "key_producers": ["hutter", "winzer-krems"],
+      "verified": {
+        "source_url": "https://www.austrianwine.com/our-wine/grape-varieties/white-wine/chardonnay",
+        "address_quoted": "Austrian Wine Marketing Board, Prinz-Eugen-Straße 34, 1040 Vienna",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vinea-wachau.at/en/the-wine-region/wachau-dac",
+        "cuisine_evidence_url": "https://www.winzerkrems.at/en/wine",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "sauvignon-blanc",
+      "name": "Sauvignon Blanc",
+      "style_focus": "white",
+      "regions_grown": ["wachau", "styria", "marlborough", "loire"],
+      "description": "A small but growing presence in the Wachau, Sauvignon Blanc is bottled by a handful of estates including Höllmüller in Joching. Permitted under the Wachau DAC Gebietswein and Ortswein tiers, it typically shows cooler-climate green herb, lime zest and fresh-cut grass character. It is not a traditional Wachau variety (Styria is Austria's Sauvignon Blanc home) but it finds a place at a few open-minded producers.",
+      "key_producers": ["hoellmueller"],
+      "verified": {
+        "source_url": "https://www.austrianwine.com/our-wine/grape-varieties/white-wine/sauvignon-blanc",
+        "address_quoted": "Austrian Wine Marketing Board, Prinz-Eugen-Straße 34, 1040 Vienna",
+        "open_status": "open",
+        "open_evidence_url": "https://weingut-hoellmueller.at/produkt/sauvignon-blance-wachau-dac-joching-2023/",
+        "cuisine_evidence_url": "https://www.vinea-wachau.at/en/the-wine-region/wachau-dac",
+        "checked_on": "2026-05-28"
+      }
+    }
+  ]
+}

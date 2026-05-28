@@ -1,0 +1,340 @@
+{
+  "tasting_rooms": [
+    {
+      "slug": "domaene-wachau-vinothek",
+      "name": "Domäne Wachau Vinothek",
+      "address": "Domäne Wachau Nr. 107, 3601 Dürnstein, Austria",
+      "neighborhood": "Dürnstein",
+      "varietals_focus": ["Grüner Veltliner", "Riesling", "Grüner Veltliner Smaragd"],
+      "pricing": "Cellar tour with 4-wine tasting EUR 32 per person; individual wines by the glass from EUR 4",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": "domaene-wachau",
+      "description": "The modernly designed vinotheque beneath the baroque Kellerschlössel in Dürnstein stocks the complete Domäne Wachau range. Guided cellar tours run Fridays at 14:00 and Saturdays at 11:00 from April to October.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.domaene-wachau.at/en/distribution/tasting-room/",
+        "address_quoted": "Domäne Wachau Nr. 107, 3601 Dürnstein",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.donau.com/en/gastronomy/vinothek-domaene-wachau",
+        "cuisine_evidence_url": "https://www.donau.com/en/wachau-nibelungengau-kremstal/imx/wine-shop/vinothek-domaene-wachau/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "weingut-nikolaihof-salon-77",
+      "name": "Salon 77 - Nikolaihof Wachau",
+      "address": "Nikolaigasse 3, 3512 Mautern an der Donau, Austria",
+      "neighborhood": "Mautern",
+      "varietals_focus": ["Grüner Veltliner", "Riesling", "Neuburger"],
+      "pricing": "Walk-in glass tastings from EUR 5; guided tasting flights by arrangement",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": "nikolaihof-wachau",
+      "description": "The on-estate tasting salon at Austria's oldest biodynamic winery, operating by Demeter principles since 1971. Open Wednesday to Saturday for walk-in tastings of current vintages plus rare back-vintages from the Resereve Cellar.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.nikolaihof.at/en/wine-tavern/",
+        "address_quoted": "Nikolaigasse 3, 3512 Mautern an der Donau",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.lower-austria.info/infrastructure/a-nikolaihof-wachau",
+        "cuisine_evidence_url": "https://www.nikolaihof.at/weingut/salon-77/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "weingut-emmerich-knoll-tasting",
+      "name": "Weingut Emmerich Knoll Tasting Room",
+      "address": "Unterloiben 132, 3601 Dürnstein, Austria",
+      "neighborhood": "Unterloiben",
+      "varietals_focus": ["Riesling", "Grüner Veltliner", "Loess Veltliner"],
+      "pricing": "By appointment; tasting flights arranged with the family, pricing on request",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "weingut-emmerich-knoll",
+      "description": "The stylish tasting room in a new cellar building directly opposite the historic Knoll family home in Unterloiben. The Knoll family personally guides visitors through benchmark Smaragd Rieslings and Veltliners from the Kellerberg and Schutt vineyards.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.lower-austria.info/infrastructure/weingut-emmerich-knoll",
+        "address_quoted": "Unterloiben 132, 3601 Unterloiben",
+        "open_status": "open",
+        "open_evidence_url": "https://www.donau.com/en/infrastructure/weingut-emmerich-knoll",
+        "cuisine_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g190421-d6598043-Reviews-Weingut_Emmerich_Knoll-Durnstein_Lower_Austria.html",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "weingut-fx-pichler-tasting",
+      "name": "Weingut F.X. Pichler Tasting Room",
+      "address": "Oberloiben 57, 3601 Dürnstein, Austria",
+      "neighborhood": "Oberloiben",
+      "varietals_focus": ["Grüner Veltliner", "Riesling"],
+      "pricing": "By appointment only; tasting fees by arrangement",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "weingut-fx-pichler",
+      "description": "The sleek modern winery of F.X. Pichler sits among the terraced vineyards just outside Oberloiben. Tastings are strictly by prior appointment at this pilgrimage destination for serious Austrian wine collectors.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.winekeller.com/blog/austria/wachau-duernstein-loiben-villages",
+        "address_quoted": "Oberloiben 57, Durnstein",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attractions-g190421-Activities-c36-t132-Durnstein_Lower_Austria.html",
+        "cuisine_evidence_url": "https://www.vinea-wachau.at/en/mywachau/companies",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "weingut-pichler-krutzler-tasting",
+      "name": "Weingut Pichler-Krutzler Tasting Room",
+      "address": "Rothenhof 2, 3601 Dürnstein, Austria",
+      "neighborhood": "Dürnstein",
+      "varietals_focus": ["Grüner Veltliner", "Riesling", "Chardonnay"],
+      "pricing": "By appointment; sales Monday to Friday with prior arrangement",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "weingut-pichler-krutzler",
+      "description": "State-of-the-art cellar embedded in a restored medieval estate at the entrance to the Wachau. Elisabeth Pichler-Krutzler's precise Smaragd whites from the Ried Ried Kellerberg and Loibenberg vineyards are poured in the quiet tasting room.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.pichler-krutzler.at/en/winery/",
+        "address_quoted": "Rothenhof 2, 3601 Dürnstein",
+        "open_status": "open",
+        "open_evidence_url": "https://www.falstaff.com/en/wineries/weingut-pichler-krutzler",
+        "cuisine_evidence_url": "https://www.duernstein.at/en/vacation-in-duernstein/wineries/wineries",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "winzer-krems-sandgrube13",
+      "name": "Winzer Krems Sandgrube 13",
+      "address": "Sandgrube 13, 3500 Krems an der Donau, Austria",
+      "neighborhood": "Krems",
+      "varietals_focus": ["Grüner Veltliner", "Riesling", "Zweigelt"],
+      "pricing": "Wein.Sinn cellar experience EUR 12 per person; individual tastings from EUR 3",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": null,
+      "description": "The flagship tasting space of the Winzer Krems cooperative, the largest wine producer in Lower Austria. The immersive Sandgrube 13 Wein.Sinn experience moves through eight interactive cellar stations culminating in a 4-D film. Open Monday to Saturday.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.winzerkrems.at/en/about-us/locations",
+        "address_quoted": "Sandgrube 13, 3500 Krems an der Donau",
+        "open_status": "open",
+        "open_evidence_url": "https://www.donau.com/en/wachau-nibelungengau-kremstal/imx/wine-shop/weingut-stadt-krems/",
+        "cuisine_evidence_url": "https://www.winzerkrems.at/en/wine",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "weingut-stadt-krems-taste-krems",
+      "name": "Taste Krems - Weingut Stadt Krems",
+      "address": "Stadtgraben 11, 3500 Krems an der Donau, Austria",
+      "neighborhood": "Krems",
+      "varietals_focus": ["Grüner Veltliner", "Riesling", "Pinot Blanc"],
+      "pricing": "Taste Krems Basic EUR 25 (6 wines + sparkling welcome); Masterclass EUR 55 (8 wines + foods)",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": null,
+      "description": "A joint tasting experience operated by Weingut Stadt Krems (founded 1452) and Weingut Stift Göttweig (founded 1083) in the historic Stadtgraben cellar. Two structured programmes pair wines from both estates with artisanal regional foods.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.taste-krems.at/",
+        "address_quoted": "Stadtgraben 11, 3500 Krems an der Donau",
+        "open_status": "open",
+        "open_evidence_url": "https://www.weingutstadtkrems.at/home",
+        "cuisine_evidence_url": "https://www.donau.com/en/the-danube-in-lower-austria/imx/winery/weingut-stadt-krems/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "vinothek-thal-wachau",
+      "name": "Vinothek Thal Wachau",
+      "address": "Wachaustraße 242, 3610 Weißenkirchen in der Wachau, Austria",
+      "neighborhood": "Weißenkirchen",
+      "varietals_focus": ["Grüner Veltliner", "Riesling", "Neuburger", "Pinot Blanc"],
+      "pricing": "Daily tastings of featured winemaker included free; bottles from EUR 10",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": null,
+      "description": "The communal wine shop of 14 Weißenkirchen winegrowers. A different member producer pours daily from April to October, making this the most practical tasting stop for the central Wachau without booking ahead.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.weissenkirchen-wachau.at/en/holiday-in-weissenkirchen/wine/vinothek-thal-wachau",
+        "address_quoted": "Wachaustraße 242, 3610 Weißenkirchen in der Wachau",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.donau.com/en/the-danube-in-lower-austria/imx/wine-shop/vinothek-thal-wachau/",
+        "cuisine_evidence_url": "https://www.lower-austria.info/public-inns-and-restaurants/a-vinothek-thal-wachau",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "weingut-stift-goettweig-tasting",
+      "name": "Weingut Stift Göttweig Tasting Room",
+      "address": "Göttweig 1, 3511 Furth bei Göttweig, Austria",
+      "neighborhood": "Göttweig",
+      "varietals_focus": ["Grüner Veltliner", "Riesling", "Pinot Noir"],
+      "pricing": "Individual glass tastings EUR 1 per sample (waived on purchase); guided tour packages on request",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": "weingut-stift-goettweig",
+      "description": "The farm-gate tasting room of the Benedictine Stift Göttweig, founded 1083 and commanding sweeping views over the Danube Valley. The abbey has produced wine continuously for over 900 years; the cellar experience tour links viniculture history with current releases.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.weingutstiftgoettweig.at/en/besuch",
+        "address_quoted": "Göttweig 1, 3511 Furth / Göttweig",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g190422-d23257799-Reviews-Weingut_Stift_Gottweig-Gottweig_Lower_Austria.html",
+        "cuisine_evidence_url": "https://www.weingutstiftgoettweig.at/en/weingut",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "weingut-tegernseerhof-tasting",
+      "name": "Weingut Tegernseerhof",
+      "address": "Unterloiben 10, 3601 Dürnstein, Austria",
+      "neighborhood": "Unterloiben",
+      "varietals_focus": ["Grüner Veltliner", "Riesling", "Chardonnay"],
+      "pricing": "By appointment; sales at the lovely courtyard tasting room",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "weingut-tegernseerhof",
+      "description": "Martin Mittelbach's fifth-generation estate in Unterloiben, dating more than 1,000 years. The peaceful courtyard tasting room lets visitors sample the current Smaragd and Federspiel range directly with the family.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.vinea-wachau.at/en/mywachau/companies/company-details/myw_company/tegernseerhof",
+        "address_quoted": "Unterloiben 10, 3601 Dürnstein",
+        "open_status": "open",
+        "open_evidence_url": "https://www.winekeller.com/blog/austria/wachau-duernstein-loiben-villages",
+        "cuisine_evidence_url": "https://www.falstaff.com/en/wineries/weingut-knoll",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "domane-wachau-kellerschloessl-heuriger",
+      "name": "Domäne Wachau Kellerschlössl Heuriger",
+      "address": "Domäne Wachau Nr. 107, 3601 Dürnstein, Austria",
+      "neighborhood": "Dürnstein",
+      "varietals_focus": ["Grüner Veltliner", "Riesling", "Weissburgunder"],
+      "pricing": "No fixed admission; wines by the glass from EUR 5; traditional Heuriger platter from EUR 15",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": "domaene-wachau",
+      "description": "The pop-up Heuriger tavern in the baroque Kellerschlössel garden, open on select summer weekends. Guests enjoy the full Domäne Wachau portfolio alongside regional charcuterie with a view over the iconic Kellerberg Riesling terraces.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.domaene-wachau.at/en/visit/heuriger/",
+        "address_quoted": "Dürnstein 107, 3601 Dürnstein",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.falstaff.com/en/winetaverns/kellerschloessel-heuriger-domaene-wachau",
+        "cuisine_evidence_url": "https://www.donau.com/en/wachau-nibelungengau-kremstal/imx/wine-shop/vinothek-domaene-wachau/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "weinhimmel-vinothek-krems",
+      "name": "Weinhimmel Wein & Genuss",
+      "address": "Untere Landstraße 35, 3500 Krems an der Donau, Austria",
+      "neighborhood": "Krems",
+      "varietals_focus": ["Grüner Veltliner", "Riesling", "Zweigelt"],
+      "pricing": "Tastings from EUR 4 per glass; curated flights by winemaker Wolfgang Gansdorfer on request",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": null,
+      "description": "A wine boutique and tasting bar in central Krems with more than 200 Austrian and international wines. Winemaker Wolfgang Gansdorfer runs themed tastings with truffle, ham and cheese accompaniments; a regional standout for browsing and walk-in pours.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://weinhimmel.at/",
+        "address_quoted": "Untere Landstraße 35, 3500 Krems an der Donau",
+        "open_status": "open",
+        "open_evidence_url": "https://www.donau.com/en/wachau-nibelungengau-kremstal/imx/wine-shop/weinhimmel-wein-genuss/",
+        "cuisine_evidence_url": "https://www.falstaff.com/en/winebars/weinhimmel",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "steigenberger-smaragd-wine-bar",
+      "name": "Steigenberger Smaragd Wine Bar & Vinotheque",
+      "address": "Am Goldberg 2, 3500 Krems an der Donau, Austria",
+      "neighborhood": "Krems",
+      "varietals_focus": ["Grüner Veltliner", "Riesling", "Wachau wines"],
+      "pricing": "By the glass from EUR 7; structured Wachau tasting flights from EUR 30",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": null,
+      "description": "The hotel wine bar at Steigenberger Hotel & Spa Krems, positioned on a vineyard rise with panoramic views of the Wachau UNESCO landscape. The Smaragd bar and vinotheque curate a focused selection of regional Vinea Wachau producers alongside international wines.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://hrewards.com/en/steigenberger-hotel-spa-krems",
+        "address_quoted": "Am Goldberg 2, 3500, Krems an der Donau",
+        "open_status": "open",
+        "open_evidence_url": "https://www.lower-austria.info/selected-stays-1/steigenberger-hotel-and-spa-krems",
+        "cuisine_evidence_url": "https://www.donau.com/en/selected/steigenberger-hotel-and-spa-krems",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "wero-wine-shop-spitz",
+      "name": "W.E.R.O. Wine Shop",
+      "address": "Marktstraße 5, 3620 Spitz an der Donau, Austria",
+      "neighborhood": "Spitz",
+      "varietals_focus": ["Grüner Veltliner", "Riesling"],
+      "pricing": "Walk-in tasting samples from EUR 3; bottles from EUR 12",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": null,
+      "description": "A curated wine boutique on the main street of Spitz featuring artisanal Vinea Wachau producers across six estates. The compact shop focuses exclusively on Grüner Veltliner and Riesling in the Steinfeder, Federspiel and Smaragd classifications.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.wero-wine.eu/en/",
+        "address_quoted": "Markstraße 5, 3620 Spitz an der Donau",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wero-wine.eu/en/region-wachau/",
+        "cuisine_evidence_url": "https://www.wero-wine.eu/en/vinea-wachau/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "weingut-donabaum-weinspitz-vinotheque",
+      "name": "Boutiquehotel WeinSpitz Vinotheque - Weingut Donabaum",
+      "address": "In der Spitz 3, 3620 Spitz an der Donau, Austria",
+      "neighborhood": "Spitz",
+      "varietals_focus": ["Grüner Veltliner", "Riesling"],
+      "pricing": "Walk-in wine shop; in-house tasting for hotel guests included; non-guests by arrangement",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "weingut-donabaum",
+      "description": "The floor-to-ceiling glass vinotheque and wine lounge in Weingut Donabaum's boutique hotel, overlooking the Setzberg vineyard. Martin and Alexandra Donabaum's Smaragd whites from the Strawanzer vineyard are the centrepiece of the tasting list.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://donabaum.at/en/boutiquehotel-weinspitz/",
+        "address_quoted": "In der Spitz 3, 3620 Spitz an der Donau",
+        "open_status": "open",
+        "open_evidence_url": "https://www.donau.com/unterkunft/weingut-donabaum",
+        "cuisine_evidence_url": "https://www.falstaff.com/en/hotels/boutiquehotel-weinspitz-1",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "vinothek-leopold-krems",
+      "name": "Leopold Weinbar & Vinothek",
+      "address": "Utzstraße 1, 3500 Krems an der Donau, Austria",
+      "neighborhood": "Krems",
+      "varietals_focus": ["Grüner Veltliner", "Riesling", "Zweigelt", "Blaufränkisch"],
+      "pricing": "By the glass from EUR 4.50; over 100 wines at shop prices for sit-in consumption",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": null,
+      "description": "A wine bar and vinothek in the heart of Krems, open Monday to Saturday from 16:00 until midnight. More than 100 labels from Wachau, Kamptal, Kremstal, Traisental and Wagram are poured at vinothek prices alongside a warm kitchen until late.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.vinothek-leopold.at/",
+        "address_quoted": "Utzstraße 1, 3500 Krems",
+        "open_status": "open",
+        "open_evidence_url": "https://www.krems.info/en/wine-shops-and-wine-bars",
+        "cuisine_evidence_url": "https://www.falstaff.com/en/winebars/weinhimmel",
+        "checked_on": "2026-05-28"
+      }
+    }
+  ]
+}

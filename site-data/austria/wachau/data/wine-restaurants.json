@@ -1,0 +1,240 @@
+{
+  "wine_restaurants": [
+    {
+      "slug": "landhaus-bacher-mautern",
+      "name": "Landhaus Bacher",
+      "address": "Südtiroler Platz 2, 3512 Mautern an der Donau, Austria",
+      "neighborhood": "Mautern",
+      "cuisine": "Austrian with Mediterranean influences; Wachau seasonal produce",
+      "cellar_size": null,
+      "awards": [
+        { "source": "Michelin Guide Austria", "year": 2025 },
+        { "source": "Gault Millau Austria", "year": 2024 }
+      ],
+      "description": "Founded by chef Lisl Wagner-Bacher in 1979 and continued by Thomas Dorfer from 2010. Awarded 2 Michelin stars in 2025. Klaus Wagner and daughter Susanne curate an exceptional wine list strong in Wachau, Bordeaux and Burgundy.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.landhaus-bacher.at/en/",
+        "address_quoted": "Südtiroler Platz 2, 3512 Mautern an der Donau",
+        "open_status": "open",
+        "open_evidence_url": "https://guide.michelin.com/en/niederosterreich/mautern-an-der-donau_1050463/restaurant/landhaus-bacher",
+        "cuisine_evidence_url": "https://starwinelist.com/wine-place/landhaus-bacher",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "hofmeisterei-hirtzberger",
+      "name": "Hofmeisterei Hirtzberger",
+      "address": "Hauptstraße 74, 3610 Wösendorf in der Wachau, Austria",
+      "neighborhood": "Wösendorf / Weißenkirchen",
+      "cuisine": "Modern Austrian with Wachau seasonal produce; set menus of 4-7 courses",
+      "cellar_size": 2100,
+      "awards": [
+        { "source": "Michelin Guide Austria", "year": 2024 },
+        { "source": "Gault Millau Austria", "year": 2024 }
+      ],
+      "description": "Located in a 1320-built monastery building, the Hofmeisterei opened in 2014 as the restaurant arm of Weingut Franz Hirtzberger. Over 2,100 labels cover the wine list, with the Veltliner and champagne sections especially strong.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://guide.michelin.com/us/en/niederosterreich/wosendorf-in-der-wachau_7770373/restaurant/hofmeisterei-hirtzberger",
+        "address_quoted": "Wösendorf 74, Weißenkirchen in der Wachau",
+        "open_status": "open",
+        "open_evidence_url": "https://starwinelist.com/wine-place/hofmeisterei-hirtzberger",
+        "cuisine_evidence_url": "https://www.falstaff.com/en/restaurants/hofmeisterei-hirtzberger-skikda",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "loibnerhof-duernstein",
+      "name": "Loibnerhof",
+      "address": "Unterloiben 7, 3601 Dürnstein, Austria",
+      "neighborhood": "Unterloiben",
+      "cuisine": "Classical Austrian regional with contemporary touches; heuriger-restaurant hybrid",
+      "cellar_size": null,
+      "awards": [],
+      "description": "A 400-year-old vaulted inn in Unterloiben serving Emmerich Knoll wines exclusively. The Biedermeier interior and seasonal garden garden rank among the most picturesque restaurant settings in the Wachau, with a kitchen open Wednesday to Sunday.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.loibnerhof.at/",
+        "address_quoted": "Unterloiben 7, 3601 Dürnstein",
+        "open_status": "open",
+        "open_evidence_url": "https://www.falstaff.com/en/restaurants/loibnerhof-duernstein",
+        "cuisine_evidence_url": "https://www.vinea-wachau.at/mywachau/betriebe/betriebs-details/myw_company/loibnerhof/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "weinstube-nikolaihof-restaurant",
+      "name": "Weinstube Nikolaihof Wachau",
+      "address": "Nikolaigasse 3, 3512 Mautern an der Donau, Austria",
+      "neighborhood": "Mautern",
+      "cuisine": "Traditional Austrian organic cuisine; biodynamic Demeter-certified ingredients",
+      "cellar_size": null,
+      "awards": [
+        { "source": "Gault Millau Austria biodynamic recognition", "year": 2024 }
+      ],
+      "description": "Christine Saahs' organic wine restaurant at Austria's oldest winery. Open late April to early November from Wednesday, the kitchen pairs Wachau biodynamic cuisine with Nikolaihof's own estate wines under a century-old tree in the garden.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.nikolaihof.at/en/wine-tavern/",
+        "address_quoted": "Nikolaigasse 3, 3512 Mautern an der Donau",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.donau.com/en/the-danube-in-lower-austria/imx/restaurants/nikolaihof-wachau/",
+        "cuisine_evidence_url": "https://www.lower-austria.info/public-inns-and-restaurants/a-nikolaihof-wachau",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "schloss-duernstein-restaurant",
+      "name": "Restaurant Schloss Dürnstein",
+      "address": "3601 Dürnstein 2, Wachau, Austria",
+      "neighborhood": "Dürnstein",
+      "cuisine": "Fine Austrian with Danube terrace views; seasonal Wachau regional produce",
+      "cellar_size": null,
+      "awards": [],
+      "description": "The restaurant of the only 5-star hotel in Lower Austria, set in a 17th-century palace above the Danube. The terrace is open to non-hotel guests from late March. The historic cellar holds hundreds of different bottles with a strong Wachau focus.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.schloss.at/en",
+        "address_quoted": "3601 Dürnstein 2",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://wachauinside.at/empfehlung/restaurant-im-hotel-schloss-duernstein/",
+        "cuisine_evidence_url": "https://www.schloss.at/en/wachau/viticulture",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "richard-loewenherz-restaurant",
+      "name": "Restaurant Löwenherz - Hotel Richard Löwenherz",
+      "address": "3601 Dürnstein 8, Dürnstein, Austria",
+      "neighborhood": "Dürnstein",
+      "cuisine": "Austrian regional; Danube fish, seasonal game, Wachau vegetables",
+      "cellar_size": null,
+      "awards": [],
+      "description": "The restaurant of the 4-star Hotel Richard Löwenherz in a former convent on the Danube bank in Dürnstein. Third-generation Thiery family hospitality pairs carefully sourced regional produce with a Wachau-forward wine list.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.richardloewenherz.at/en/",
+        "address_quoted": "3601 Dürnstein 8, Dürnstein",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.schlosshotels.co.at/en/restaurants/restaurant-hotel-richard-loewenherz/",
+        "cuisine_evidence_url": "https://www.richardloewenherz.at/en/wachau/wine/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "wachauerstube-loiben-restaurant",
+      "name": "Wachauerstube Loiben",
+      "address": "Unterloiben 24, 3601 Dürnstein, Austria",
+      "neighborhood": "Unterloiben",
+      "cuisine": "Upscale Austrian tavern; Danube fish, local game, seasonal Wachau produce",
+      "cellar_size": null,
+      "awards": [],
+      "description": "A renovated country inn serving refined tavern cuisine with a wine list built around Tegernseerhof and other Unterloiben producers. The kitchen runs Friday to Tuesday from 11:30 and the quiet garden terrace seats wine-tour cyclists.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.wachauerstube.at/",
+        "address_quoted": "3601 Dürnstein, Unterloiben 24",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g190421-d1913231-Reviews-Wachauerstuben_Loiben-Durnstein_Lower_Austria.html",
+        "cuisine_evidence_url": "https://www.wirtshausfuehrer.at/wachauerstube-loiben-duernstein/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "florianihof-mautern",
+      "name": "Florianihof",
+      "address": "Wienerstraße 4, 3512 Mautern an der Donau, Austria",
+      "neighborhood": "Mautern",
+      "cuisine": "Austrian regional; seasonal menu with Danube fish and local produce",
+      "cellar_size": null,
+      "awards": [],
+      "description": "A well-regarded family restaurant in Mautern near the Danube crossing, serving Austrian classics with an emphasis on local sourcing. The wine list draws on Wachau and Kremstal estates and the kitchen focuses on seasonal availability.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.florianihof.at/",
+        "address_quoted": "Wienerstraße 4, 3512 Mautern an der Donau",
+        "open_status": "open",
+        "open_evidence_url": "https://www.lower-austria.info/wachau",
+        "cuisine_evidence_url": "https://insiderei.com/oesterreich/niederoesterreich/best-of-restaurants-lokale-wachau-donau",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "landgasthof-schickh-klein-wien",
+      "name": "Landgasthof Schickh",
+      "address": "Klein-Wien 69, 3512 Mautern an der Donau, Austria",
+      "neighborhood": "Klein-Wien / Mautern",
+      "cuisine": "Contemporary Austrian bourgeois; Wachau market produce, duck liver, Danube fish",
+      "cellar_size": null,
+      "awards": [],
+      "description": "One of the most beautiful garden-restaurants in the Wachau, in the hamlet of Klein-Wien near Mautern. Traditional specialties including duck liver terrine, fish soup and veal butter schnitzel, paired with Wachau estate wines.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://insiderei.com/oesterreich/niederoesterreich/best-of-restaurants-lokale-wachau-donau",
+        "address_quoted": "Klein-Wien, Mautern an der Donau",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wirtshausfuehrer.at/wachauerstube-loiben-duernstein/",
+        "cuisine_evidence_url": "https://www.winera.com/blog/wine-lifestyle-7/wachau-wine-region-141",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "pfeffel-genuss-restaurant",
+      "name": "Gartenhotel Pfeffel Genuss-Restaurant",
+      "address": "3601 Dürnstein, Wachau, Austria",
+      "neighborhood": "Dürnstein",
+      "cuisine": "Regional Austrian; own garden produce, Wachau seasonal vegetables and game",
+      "cellar_size": null,
+      "awards": [],
+      "description": "The gourmet restaurant of the family-run Gartenhotel & Weingut Pfeffel, open daily March to December. Own-garden and own-vineyard produce drives the kitchen; wine list drawn exclusively from the estate's Steinfeder, Federspiel and Smaragd range.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.pfeffel.at/en/wachau-culinary/",
+        "address_quoted": "3601 Dürnstein, Wachau, Austria",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.lower-austria.info/accommodation/gartenhotel-weingut-pfeffel",
+        "cuisine_evidence_url": "https://www.pfeffel.at/en/vinery/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "gourmet-restaurant-sanger-blondel",
+      "name": "Restaurant Sänger Blondel",
+      "address": "3601 Dürnstein 64, Dürnstein, Austria",
+      "neighborhood": "Dürnstein",
+      "cuisine": "Traditional Austrian with seasonal Wachau ingredients; apricot specialties",
+      "cellar_size": null,
+      "awards": [],
+      "description": "The garden restaurant of Hotel Sänger Blondel in Dürnstein, named for the troubadour who found Richard the Lionheart imprisoned in the hilltop fortress. Seasonal specialties include rostbraten, apricot dumplings and strudel, with a Wachau-dominant wine list.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://saengerblondel.at/",
+        "address_quoted": "3601 Dürnstein 64",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.schlosshotels.co.at/en/castle-hotels/hotel-richard-loewenherz/",
+        "cuisine_evidence_url": "https://www.winekeller.com/blog/austria/wachau-duernstein-loiben-villages",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "weinspitz-donabaum-restaurant",
+      "name": "WeinSpitz Restaurant - Weingut Donabaum",
+      "address": "In der Spitz 3, 3620 Spitz an der Donau, Austria",
+      "neighborhood": "Spitz",
+      "cuisine": "Austrian estate cuisine paired with Donabaum Wachau wines; seasonal tasting menus",
+      "cellar_size": null,
+      "awards": [],
+      "description": "The in-house restaurant of Boutiquehotel WeinSpitz, the estate hotel of Weingut Donabaum in Spitz. Exclusive estate wines from the Strawanzer and Setzberg vineyards are poured alongside tasting menus using local Wachau produce.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://donabaum.at/en/boutiquehotel-weinspitz/",
+        "address_quoted": "In der Spitz 3, 3620 Spitz an der Donau",
+        "open_status": "open",
+        "open_evidence_url": "https://www.donau.com/unterkunft/weingut-donabaum",
+        "cuisine_evidence_url": "https://www.falstaff.com/en/hotels/boutiquehotel-weinspitz-1",
+        "checked_on": "2026-05-28"
+      }
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "neighborhoods": [
+    {
+      "slug": "spitz",
+      "name": "Spitz an der Donau",
+      "type": "village",
+      "description": "The westernmost wine village of the Wachau, sitting at the mouth of the Spitzer Graben valley where the Danube curves sharply. Granite and gneiss primary rock dominates, giving the most mineral and coolest-climate wines. Home to the Singerriedel cru (a granite-gneiss grand cru site) and the Tausendeimerberg (Thousand-Bucket Hill, a historic Riesling slope). Franz Hirtzberger, Lagler, Gritsch and Donabaum are key producers.",
+      "signature_wine": "Singerriedel Riesling Smaragd",
+      "signature_grape": "Riesling",
+      "key_producers": ["franz-hirtzberger", "lagler", "donabaum", "gritsch-mauritiushof", "veyder-malberg"],
+      "locating_fact": "The ruined castle of Hinterhaus looms directly above the village; the Danube bends 90 degrees here, and the Spitzer Graben side-valley extends north toward the Waldviertel plateau.",
+      "verified": {
+        "source_url": "https://www.vinea-wachau.at/en/mywachau/companies/",
+        "address_quoted": "Spitz an der Donau, Wachau, Lower Austria",
+        "open_status": "open",
+        "open_evidence_url": "https://www.spitz-wachau.com/wein-kulinarik/winzer-heurige/",
+        "cuisine_evidence_url": "https://www.wineenthusiast.com/culture/wine/five-best-vineyards-austria-wachau-valley/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "woesendorf",
+      "name": "Wösendorf in der Wachau",
+      "type": "village",
+      "description": "A small but wine-dense village midway along the Wachau north bank, home to Rudi Pichler, Weinhofmeisterei Mathias Hirtzberger, Machherndl and Schrey. The Hochrain, Bruck and Kollmütz sites above the village produce structured Grüner Veltliner and Riesling Smaragd. The modern Rudi Pichler winery opened here in 2004.",
+      "signature_wine": "Hochrain Riesling Smaragd",
+      "signature_grape": "Grüner Veltliner",
+      "key_producers": ["rudi-pichler", "weinhofmeisterei-hirtzberger", "machherndl", "schrey"],
+      "locating_fact": "Wösendorf is one of the narrowest points of the Wachau valley; the Danube cycle path runs directly through the village, making it popular with cycling visitors.",
+      "verified": {
+        "source_url": "https://www.rudipichler.at/en/",
+        "address_quoted": "3610 Wösendorf in der Wachau",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vinea-wachau.at/en/mywachau/companies/",
+        "cuisine_evidence_url": "https://www.rudipichler.at/en/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "joching",
+      "name": "Joching",
+      "type": "village",
+      "description": "A picturesque village between Wösendorf and Weissenkirchen, known for the Josef Jamek estate (founded 1912, riverside restaurant) and the Holzapfel Prandtauerhof (700-year-old Baroque farmhouse). The Höllmüller, Schmelz, Miesbauer and Mayr estates also operate here. Joching is the gateway to the Höhereck cru.",
+      "signature_wine": "Klaus Riesling Smaragd",
+      "signature_grape": "Riesling",
+      "key_producers": ["josef-jamek", "holzapfel", "schmelz", "hoellmueller"],
+      "locating_fact": "The Baroque Prandtauerhof courtyard, designed by Jakob Prandtauer (architect of Melk Monastery), is in the centre of Joching and is now a boutique hotel and restaurant.",
+      "verified": {
+        "source_url": "https://www.holzapfel.at/weingut-holzapfel/",
+        "address_quoted": "Prandtauerplatz 36, 3610 Joching",
+        "open_status": "open",
+        "open_evidence_url": "https://www.jamekwein.at/restaurant/",
+        "cuisine_evidence_url": "https://www.vinea-wachau.at/en/mywachau/companies/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "weissenkirchen",
+      "name": "Weissenkirchen in der Wachau",
+      "type": "village",
+      "description": "The fortified wine village at the heart of the Wachau, home to the Achleiten and Klaus grand cru sites. Prager, Jamek, Holzapfel, Bruch, Bayer, Bernhard and Schneeweiss are all based in or around the village. The Weissenkirchen wine trail connects 7 kilometres of terraced vines with views to Dürnstein.",
+      "signature_wine": "Achleiten Grüner Veltliner Smaragd",
+      "signature_grape": "Grüner Veltliner",
+      "key_producers": ["prager", "bruch", "erich-bayer", "bernhard-wachau", "schneeweiss"],
+      "locating_fact": "The fortified Gothic church in Weissenkirchen was built to provide refuge during 15th-century Turkish raids; the village square with its painted house facades is one of the Wachau's most photographed scenes.",
+      "verified": {
+        "source_url": "https://weingutprager.at/",
+        "address_quoted": "3610 Weißenkirchen in der Wachau",
+        "open_status": "open",
+        "open_evidence_url": "https://www.weissenkirchen-wachau.at/urlaub-in-weissenkirchen/wein/weinbaubetriebe",
+        "cuisine_evidence_url": "https://www.winekeller.com/blog/austria/wachau-weissenkirchen",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "duernstein",
+      "name": "Dürnstein",
+      "type": "village",
+      "description": "The most visited town in the Wachau, distinguished by its blue-and-white Baroque church tower and the castle ruins above (where Richard the Lionheart was held captive in 1192-93). The Domäne Wachau Vinothek, Alzinger, Tegernseerhof and F.X. Pichler all cluster in or near Dürnstein. The Loibenberg, Pfaffenberg and Höhereck Rieden produce concentrated Riesling and Grüner Veltliner Smaragd.",
+      "signature_wine": "Loibenberg Riesling Smaragd",
+      "signature_grape": "Riesling",
+      "key_producers": ["domaene-wachau", "alzinger", "tegernseerhof", "fx-pichler"],
+      "locating_fact": "The castle of Dürnstein, where England's Richard I was imprisoned from 1192 to 1193, stands directly above the Loibenberg vineyard. The famous blue tower of the Augustinian church is the most recognisable landmark of the Wachau.",
+      "verified": {
+        "source_url": "https://www.domaene-wachau.at/en/the-winery/",
+        "address_quoted": "A-3601 Dürnstein 107",
+        "open_status": "open",
+        "open_evidence_url": "https://www.duernstein.at/en/vacation-in-duernstein/wineries/wineries",
+        "cuisine_evidence_url": "https://www.donau.com/en/gastronomy/vinothek-domaene-wachau",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "loiben",
+      "name": "Loiben (Unterloiben and Oberloiben)",
+      "type": "village",
+      "description": "The twin hamlets of Unterloiben and Oberloiben between Dürnstein and Krems are the epicentre of top-end Wachau wine. F.X. Pichler (Oberloiben), Emmerich Knoll (Unterloiben), Alzinger (Unterloiben) and Tegernseerhof (Unterloiben) all have their cellars here. The Kellerberg, Loibenberg, Steinertal and Schütt Rieden cluster around the village.",
+      "signature_wine": "Kellerberg Riesling Smaragd",
+      "signature_grape": "Riesling",
+      "key_producers": ["fx-pichler", "emmerich-knoll", "alzinger", "tegernseerhof"],
+      "locating_fact": "Loiben is where the Battle of Loiben was fought in 1805 during Napoleon's campaign. A stone tablet on the village road commemorates the Austrian victory. The F.X. Pichler cellar in Oberloiben operated from its original address until the 2008 vintage.",
+      "verified": {
+        "source_url": "https://fx-pichler.at/en/winery/family/",
+        "address_quoted": "Oberloiben 27, 3601 Dürnstein",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://alzinger.at/en/wachau/",
+        "cuisine_evidence_url": "https://www.vinea-wachau.at/en/mywachau/companies/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "mautern",
+      "name": "Mautern an der Donau",
+      "type": "village",
+      "description": "The main south-bank wine village, directly opposite Krems. Home to Nikolaihof, the oldest documented winery in Austria (Demeter biodynamic since 1971). Mautern's terroir on the south-facing Danube bank is slightly warmer than the north bank, producing rounder Grüner Veltliner with more stone-fruit character. The Kellerschlössel Baroque cellar at Domäne Wachau is also nearby.",
+      "signature_wine": "Vom Stein Riesling Smaragd",
+      "signature_grape": "Grüner Veltliner",
+      "key_producers": ["nikolaihof", "hutter"],
+      "locating_fact": "Mautern was the Roman garrison town of Favianis; the Nikolaihof estate sits on the foundations of a Roman-era wine cellar, with nearly 2,000 years of documented viticulture on the site.",
+      "verified": {
+        "source_url": "https://www.nikolaihof.at/en/home/",
+        "address_quoted": "Nikolaigasse 3, 3512 Mautern, Wachau, Austria",
+        "open_status": "open",
+        "open_evidence_url": "https://www.lower-austria.info/infrastructure/a-nikolaihof-wachau",
+        "cuisine_evidence_url": "https://www.nikolaihof.at/en/vineyard/demeter/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "rossatz",
+      "name": "Rossatz",
+      "type": "village",
+      "description": "A quiet south-bank village opposite Weissenkirchen, accessible by ferry in summer. Warmer south-facing aspect compared with the north bank produces fuller-bodied Grüner Veltliner. Several small family estates operate here alongside apricot orchards. Josef Fischer and the Rehrl-Fischer estates are Rossatz representatives.",
+      "signature_wine": "Grüner Veltliner Federspiel Rossatz",
+      "signature_grape": "Grüner Veltliner",
+      "key_producers": ["grabner-wachau"],
+      "locating_fact": "Rossatz is accessible from Weissenkirchen via a seasonal car ferry (Fähre Weissenkirchen-Rossatz), one of several Danube crossings that make the south bank accessible to cyclists on the Donauradweg cycle route.",
+      "verified": {
+        "source_url": "https://www.vinea-wachau.at/mywachau/betriebe/",
+        "address_quoted": "Rossatz, 3602 Rossatz-Arnsdorf",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.lower-austria.info/wachau",
+        "cuisine_evidence_url": "https://www.lower-austria.info/wachau",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "achleiten",
+      "name": "Ried Achleiten",
+      "type": "single-vineyard",
+      "description": "A grand cru vineyard of the Wachau, stretching across the slope above Weissenkirchen on amphibolite-rich gneiss soils. Prager's Wachstum Bodenstein originates here; Domäne Wachau, Rudi Pichler and several smaller estates also hold parcels. Achleiten gives Grüner Veltliner wines of extraordinary mineral depth, white pepper and lanolin texture.",
+      "signature_wine": "Achleiten Grüner Veltliner Smaragd",
+      "signature_grape": "Grüner Veltliner",
+      "key_producers": ["prager", "rudi-pichler", "domaene-wachau"],
+      "locating_fact": "Achleiten is one of 157 designated Riedenwein single-vineyard sites under the 2020 Wachau DAC. Prager's Wachstum Bodenstein cuvée draws on multiple clonal selections within Achleiten including 110 Grüner Veltliner clones.",
+      "verified": {
+        "source_url": "https://www.winebow.com/our-brands/prager",
+        "address_quoted": "Ried Achleiten, Weißenkirchen in der Wachau",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vinea-wachau.at/en/mywachau/companies/",
+        "cuisine_evidence_url": "https://www.wineenthusiast.com/culture/wine/five-best-vineyards-austria-wachau-valley/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "singerriedel",
+      "name": "Ried Singerriedel",
+      "type": "single-vineyard",
+      "description": "A south-southwest-facing granite and mica-schist site above Spitz, producing some of the Wachau's most age-worthy Riesling. The Hirtzberger family led recultivation in the 1980s after decades of abandonment. Elevations reach 200 metres; cool winds from the Waldviertel preserve electrifying acidity. One of 157 designated DAC Riedenwein sites.",
+      "signature_wine": "Singerriedel Riesling Smaragd",
+      "signature_grape": "Riesling",
+      "key_producers": ["franz-hirtzberger", "gritsch-mauritiushof"],
+      "locating_fact": "Singerriedel's name derives from the Singerin, a local term for the Wachau valley wall at this point. The vineyard was largely abandoned in the cold 1950s-60s before Franz Hirtzberger senior began restoring the drystone terrace walls in the 1980s.",
+      "verified": {
+        "source_url": "https://www.vinea-wachau.at/mywachau/rieden/rieden-details/myw_vineyard/singerriedel",
+        "address_quoted": "Ried Singerriedel, Spitz an der Donau",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wineenthusiast.com/culture/wine/five-best-vineyards-austria-wachau-valley/",
+        "cuisine_evidence_url": "https://www.vinea-wachau.at/en/mywachau/companies/company-details/myw_company/weingut-franz-hirtzberger",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "kellerberg",
+      "name": "Ried Kellerberg",
+      "type": "single-vineyard",
+      "description": "The benchmark Riesling site of the Loiben cluster, dominated by F.X. Pichler and Domäne Wachau. Deep gneiss soils with loess overlay on a sheltered south-facing slope. Produces the Pichler Kellerberg Smaragd, one of the Wachau's most recognised single-vineyard Rieslings. The name means Cellar Hill, referencing the historic cellars cut into the rock beneath the vines.",
+      "signature_wine": "Kellerberg Riesling Smaragd",
+      "signature_grape": "Riesling",
+      "key_producers": ["fx-pichler", "domaene-wachau"],
+      "locating_fact": "The Kellerberg site sits directly beneath Oberloiben, the hamlet where F.X. Pichler's original cellar operated until 2008. Emmerich Knoll's adjacent Loibnerhof address is historically linked to the Kellerberg-area cellars.",
+      "verified": {
+        "source_url": "https://fx-pichler.at/en/vineyards-wines/wachau-dac/",
+        "address_quoted": "Ried Kellerberg, 3601 Dürnstein",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vinea-wachau.at/en/mywachau/companies/",
+        "cuisine_evidence_url": "https://www.wineenthusiast.com/culture/wine/five-best-vineyards-austria-wachau-valley/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "loibenberg",
+      "name": "Ried Loibenberg",
+      "type": "single-vineyard",
+      "description": "The most worked hillside above Loiben, shared by F.X. Pichler, Emmerich Knoll, Tegernseerhof and Alzinger. Loess over primary rock gives a broader, warmer Grüner Veltliner character than the pure-gneiss Kellerberg or Singerriedel. The Bergdistel cuvée from Tegernseerhof is an Ortswein expression of the Loibenberg site.",
+      "signature_wine": "Loibenberg Grüner Veltliner Smaragd",
+      "signature_grape": "Grüner Veltliner",
+      "key_producers": ["fx-pichler", "emmerich-knoll", "tegernseerhof", "alzinger"],
+      "locating_fact": "Loibenberg is the largest single named Ried in the Loiben cluster; the hilltop at 320m gives panoramic views across the Danube bend to the Göttweig monastery on the south bank.",
+      "verified": {
+        "source_url": "https://www.tegernseerhof.at/en/weingut.html",
+        "address_quoted": "Ried Loibenberg, 3601 Dürnstein",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vinea-wachau.at/en/mywachau/companies/",
+        "cuisine_evidence_url": "https://www.thesourceimports.com/producers/weingut-tegernseerhof/",
+        "checked_on": "2026-05-28"
+      }
+    }
+  ]
+}

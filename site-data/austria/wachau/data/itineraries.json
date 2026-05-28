@@ -1,0 +1,206 @@
+{
+  "itineraries": [
+    {
+      "slug": "three-day-wachau-triangle-loiben-durnstein-spitz",
+      "name": "3-Day Wachau Triangle: Loiben, Durnstein, and Spitz",
+      "length_days": 3,
+      "theme": "Complete Wachau Smaragd experience from east to west",
+      "description": "A three-day driving and cycling itinerary covering the three village clusters that define Wachau wine character: the Loiben/Unterloiben zone in the east (F.X. Pichler, Rudi Pichler, Knoll), the Durnstein cluster in the centre (Domane Wachau, Tegernseerhof), and the Spitz/Weissenkirchen zone in the west (Hirtzberger, Prager, Veyder-Malberg). Each day is structured around cellar visits in the morning, lunch at a Heuriger, and an afternoon scenic walk on the vineyard trails above the Danube.",
+      "days": [
+        {
+          "day": 1,
+          "morning": "Arrive Krems. Pick up bicycle at Krems station or rent a car. Drive or cycle west along the Danube to Unterloiben. Visit morning tasting at F.X. Pichler by appointment.",
+          "lunch": "Lunch at Loibnerhof Restaurant, Unterloiben, with Federspiel wines.",
+          "afternoon": "Continue west to Durnstein. Walk the terraced vineyard trail above the village to the Kuenringer castle ruins. Views across the valley.",
+          "evening": "Dinner at one of the Durnstein restaurant-hotels. Taste current-release Smaragd from Domane Wachau at the cellar shop before it closes.",
+          "accommodation": "Hotel Schloss Durnstein or Hotel Richard Lowenherz, Durnstein.",
+          "venues": ["fx-pichler", "emmerich-knoll", "domaene-wachau"]
+        },
+        {
+          "day": 2,
+          "morning": "Morning visit to Domane Wachau in Durnstein: the cooperative offers open tasting without appointment. Explore the Durnstein village and the blue Augustinian church tower.",
+          "lunch": "Lunch at a Heuriger in Weissenkirchen. Try the white asparagus (spring) or Brettljause (cold-cut platter) with Federspiel Gruner Veltliner.",
+          "afternoon": "Cellar visits in Weissenkirchen and Joching: Prager and Jamek are both based here. Book in advance.",
+          "evening": "Drive or cycle to Spitz for dinner at a riverside restaurant. Taste a Hirtzberger Singerriedel Riesling if available at the local wine bar.",
+          "accommodation": "Gasthaus in Spitz or Weissenkirchen.",
+          "venues": ["domaene-wachau", "prager", "josef-jamek", "nikolaihof"]
+        },
+        {
+          "day": 3,
+          "morning": "Morning visit to Weingut Hirtzberger or Veyder-Malberg in Spitz (by appointment only). The steep terraced parcels above Spitz are accessible on foot via the vineyard trail.",
+          "lunch": "Riverside lunch at Spitz with a glass of Tausendeimerberg Gruner Veltliner.",
+          "afternoon": "Optional: extend west to Melk (30 minutes) to visit the Baroque abbey and taste Stift Melk's own Wachau wines at the monastery shop. Or return east to Krems via the north-bank road through Aggsbach and Weissenkirchen for different valley perspectives.",
+          "evening": "Depart from Krems by train to Vienna (1 hour) or continue westward.",
+          "accommodation": "Return to base in Krems or onward to Vienna.",
+          "venues": ["franz-hirtzberger", "veyder-malberg", "alzinger"]
+        }
+      ],
+      "verified": {
+        "source_url": "https://www.vinea-wachau.at/en/wachau/",
+        "address_quoted": "Wachau, Niederosterreich",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wachau.at/en/wine/",
+        "cuisine_evidence_url": "https://www.weinausoesterreich.at/en/wine/wachau/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "four-day-lower-austria-triangle-wachau-kremstal-kamptal",
+      "name": "4-Day Lower Austria Triangle: Wachau, Kremstal, and Kamptal",
+      "length_days": 4,
+      "theme": "Comparing three DAC appellations of Lower Austria in one trip",
+      "description": "A four-day circuit through the three major white wine appellations of Lower Austria. Starting in the Wachau for the dramatic terroir and Smaragd wines, moving east into Kremstal for the city of Krems and its rounder-style Rieslings, then north into Kamptal for Langenlois and the Schloss Gobelsburg cellar, and completing the loop with a return via the Wagram's loess vineyards.",
+      "days": [
+        {
+          "day": 1,
+          "morning": "Arrive Krems by train from Vienna. Collect rental bicycle or car. Begin with a self-guided walk through the Krems-Stein old town wine quarter.",
+          "lunch": "Lunch at a Kremstal Heuriger in Stein with local Gruner Veltliner.",
+          "afternoon": "Drive west along the Danube into the Wachau. First vineyard visit at Durnstein: Domane Wachau cellar shop is walk-in friendly.",
+          "evening": "Stay in Durnstein. Dinner at Loibnerhof or Schloss Durnstein with Smaragd tasting flight.",
+          "accommodation": "Hotel Schloss Durnstein, Durnstein.",
+          "venues": ["domaene-wachau", "tegernseerhof"]
+        },
+        {
+          "day": 2,
+          "morning": "Bicycle from Durnstein to Weissenkirchen along the Danube cycling path. Morning tasting at Prager winery by appointment.",
+          "lunch": "Heuriger in Weissenkirchen or Joching.",
+          "afternoon": "Continue to Spitz for Hirtzberger cellar visit (by appointment) and a walk on the Tausendeimerberg vineyard trail.",
+          "evening": "Return to Krems. Dinner in the Krems-Stein old town.",
+          "accommodation": "Hotel in Krems.",
+          "venues": ["prager", "rudi-pichler", "franz-hirtzberger"]
+        },
+        {
+          "day": 3,
+          "morning": "Drive north from Krems to Langenlois (20 minutes). Morning visit to Schloss Gobelsburg: historic Cistercian cellar tour followed by tasting.",
+          "lunch": "Lunch at Loisium wine hotel restaurant, Langenlois.",
+          "afternoon": "Visit Weingut Brundlmayer in Langenlois for a tasting flight across their Kamptal DAC range.",
+          "evening": "Return to Langenlois or Krems. Dinner at a Kamptal wine restaurant.",
+          "accommodation": "Hotel in Langenlois or return to Krems.",
+          "venues": ["stift-goettweig"]
+        },
+        {
+          "day": 4,
+          "morning": "Drive southwest from Langenlois to the Wagram (40 minutes) for a Roter Veltliner tasting at Bernhard Ott.",
+          "lunch": "Mostheuriger or Heuriger near Feuersbrunn.",
+          "afternoon": "Return to Vienna via the Wagram and the Danube road. Stop at Klosterneuburg for a brief visit to the Augustinian monastery and a glass of Chorherren Wachau wine.",
+          "evening": "Arrive Vienna. Optional dinner in a Heuriger in Grinzing or Nussdorf to compare the Wien Gemischter Satz with the day's wines.",
+          "accommodation": "Vienna.",
+          "venues": ["winzer-krems"]
+        }
+      ],
+      "verified": {
+        "source_url": "https://www.weinausoesterreich.at/en/wine/wachau/",
+        "address_quoted": "Wachau, Niederosterreich",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wachau.at/en/",
+        "cuisine_evidence_url": "https://www.gobelsburg.at/en/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "weekend-vienna-danube-cruise-wachau",
+      "name": "Weekend: Vienna to Wachau by Danube cruise",
+      "length_days": 2,
+      "theme": "Arriving the scenic way: river cruise from Vienna upstream to the Wachau",
+      "description": "A two-day weekend itinerary combining the DDSG Blue Danube boat service from Vienna to Krems or Durnstein with a focused Wachau wine visit. The cruise arrives in the early afternoon allowing time for a cellar visit before dinner, and the return is by train (1 hour) on Sunday evening.",
+      "days": [
+        {
+          "day": 1,
+          "morning": "Board DDSG Blue Danube morning cruise from Vienna Schwedenplatz. Journey upstream to Krems (approximately 4 hours with scenic stops at Tulln and the Wachau entry).",
+          "lunch": "Lunch on board or at riverside on arrival in Krems. Taste a Kremstal Riesling as an aperitif to the Wachau ahead.",
+          "afternoon": "Collect bicycle or transfer to Durnstein. Visit Domane Wachau cellar shop for current-release tasting.",
+          "evening": "Dinner at a Durnstein hotel restaurant with a Smaragd Gruner Veltliner flight.",
+          "accommodation": "Hotel Schloss Durnstein or Gästehaus in Durnstein.",
+          "venues": ["domaene-wachau", "nikolaihof"]
+        },
+        {
+          "day": 2,
+          "morning": "Morning cycling along the Danube cycling path from Durnstein toward Weissenkirchen. Stop at Heuriger for a glass of the estate's own Federspiel.",
+          "lunch": "Lunch at a Weissenkirchen Heuriger. Watch the cruise boats pass from the riverside terrace.",
+          "afternoon": "Return to Krems by bicycle along the south bank or by the Danube ferry at Spitz. Catch the direct train from Krems to Vienna Franz-Josefs-Bahnhof.",
+          "evening": "Arrive Vienna in time for dinner. Optional: visit a natural wine bar in the 7th or 4th district to compare Vienna's Gemischter Satz with the Wachau.",
+          "accommodation": "Vienna.",
+          "venues": ["alzinger", "tegernseerhof"]
+        }
+      ],
+      "verified": {
+        "source_url": "https://www.ddsg-blue-danube.at/en/",
+        "address_quoted": "Vienna to Wachau, Niederosterreich",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.wachau.at/en/getting-here/boat/",
+        "cuisine_evidence_url": "https://www.domaene-wachau.at/en/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "apricot-blossom-weekend-itinerary-april",
+      "name": "Apricot Blossom Weekend, April",
+      "length_days": 2,
+      "theme": "Spring blossom season combined with new-vintage Steinfeder and Federspiel release",
+      "description": "April's apricot blossom transforms the Wachau valley into a mass of pink-white flowers. This two-day itinerary aligns the natural spectacle with the wine calendar: Steinfeder wines are released for the new season, and selected producers pour the first Federspiel of the vintage. The cycling path from Krems to Spitz is at its most scenic during blossom peak.",
+      "days": [
+        {
+          "day": 1,
+          "morning": "Take the morning train from Vienna to Krems. Rent a bicycle. Cycle west on the Danube cycling path through Stein, Unterloiben, and Durnstein, watching the apricot trees in full blossom on the lower slopes.",
+          "lunch": "Heuriger in Weissenkirchen with a new Steinfeder Gruner Veltliner and seasonal Wachau asparagus.",
+          "afternoon": "Continue west by bicycle to Spitz. Walk up the Tausendeimerberg vineyard trail for panoramic blossom views over the Danube bend.",
+          "evening": "Return to Weissenkirchen or Durnstein for dinner. Ask producers for the first Federspiel bottles of the season.",
+          "accommodation": "Gästehaus in Weissenkirchen or Durnstein.",
+          "venues": ["emmerich-knoll", "tegernseerhof", "gritsch-mauritiushof"]
+        },
+        {
+          "day": 2,
+          "morning": "Visit Domane Wachau cellar shop in Durnstein, which stocks the widest range of current-release Steinfeder and Federspiel wines from across the appellation.",
+          "lunch": "Lunch at a Heuriger in Spitz or Joching. The apricot blossom is visible from most Heuriger gardens.",
+          "afternoon": "Bicycle back to Krems along the north-bank route for a different perspective. Stop at the Kremser Stadtgraben vineyard at the edge of Krems city for a taste of the urban Kremstal wine.",
+          "evening": "Train back to Vienna. Purchase a bottle of Domane Wachau Terrassen Federspiel as a souvenir of the blossom season.",
+          "accommodation": "Vienna.",
+          "venues": ["domaene-wachau", "winzer-krems"]
+        }
+      ],
+      "verified": {
+        "source_url": "https://www.wachau.at/en/culture-history/wachauer-marille/",
+        "address_quoted": "Wachau, Niederosterreich",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.domaene-wachau.at/en/",
+        "cuisine_evidence_url": "https://www.vinea-wachau.at/en/events/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "smaragd-versus-federspiel-tasting-deep-dive",
+      "name": "Smaragd vs Federspiel Deep Dive: 2-Day Vertical Tasting",
+      "length_days": 2,
+      "theme": "Understanding the Wachau Codex tier system through producer vertical tastings",
+      "description": "A focused two-day itinerary for wine-educated visitors wanting to understand the differences between the Wachau's three Codex tiers across multiple producers. The structure is vertical: morning and afternoon sessions at individual producers, tasting Steinfeder, Federspiel, and Smaragd of the same grape and site from the same producer before moving to the next. Three producers per day provides a thorough comparative perspective.",
+      "days": [
+        {
+          "day": 1,
+          "morning": "Appointment tasting at Prager in Weissenkirchen: taste the Steinfeder, Hinter der Burg Federspiel, and Wachstum Bodenstein Smaragd Riesling as a three-tier vertical from the same terroir.",
+          "lunch": "Lunch in Weissenkirchen at a local Heuriger. Rest the palate.",
+          "afternoon": "Afternoon appointment at Emmerich Knoll in Unterloiben: taste the Federspiel and Kellerberg Smaragd Gruner Veltliner to compare with the Prager Riesling-dominant range.",
+          "evening": "Dinner in Durnstein. Compare notes: Prager Riesling vertical versus Knoll Gruner Veltliner vertical across the tiers.",
+          "accommodation": "Hotel in Durnstein.",
+          "venues": ["prager", "emmerich-knoll", "rudi-pichler"]
+        },
+        {
+          "day": 2,
+          "morning": "Domane Wachau open tasting in Durnstein: the cooperative's range shows Steinfeder through Smaragd across both Gruner Veltliner and Riesling without an appointment requirement, ideal for a systematic tier comparison at scale.",
+          "lunch": "Lunch at the cooperative's cellar restaurant or a nearby Heuriger.",
+          "afternoon": "Optional: appointment at F.X. Pichler in Oberloiben to complete the producer range with the tier comparison. F.X. Pichler's Loibenberg Gruner Veltliner Smaragd is one of the appellation's definitive upper-tier wines.",
+          "evening": "Return to Vienna by train from Krems. Debrief dinner in Vienna with a bottle of Wachau Smaragd from a Vienna wine shop.",
+          "accommodation": "Vienna.",
+          "venues": ["domaene-wachau", "fx-pichler", "nikolaihof"]
+        }
+      ],
+      "verified": {
+        "source_url": "https://www.vinea-wachau.at/en/codex/",
+        "address_quoted": "Wachau, Niederosterreich",
+        "open_status": "open",
+        "open_evidence_url": "https://www.domaene-wachau.at/en/",
+        "cuisine_evidence_url": "https://www.weingutprager.at/en/wines/",
+        "checked_on": "2026-05-28"
+      }
+    }
+  ]
+}

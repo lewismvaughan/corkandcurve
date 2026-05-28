@@ -1,0 +1,268 @@
+{
+  "signature_wines": [
+    {
+      "slug": "fx-pichler-kellerberg-riesling-smaragd",
+      "name": "F.X. Pichler Riesling Smaragd Kellerberg",
+      "producer": "fx-pichler",
+      "varietals": [
+        "Riesling"
+      ],
+      "style": "still-white",
+      "vintage_range": "1980-present",
+      "price_band": "EUR 70-110 at retail",
+      "tasting_notes": "Racy, stony Smaragd Riesling from gneiss bedrock above Oberloiben. Slate mineral, lime zest and dried apricot on the nose; saline mineral and citrus pith on the palate with exceptional length.",
+      "description": "Single-vineyard Riesling Smaragd from the Kellerberg Ried above Oberloiben. Slate mineral, lime zest and dried apricot with long ageing potential.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://fx-pichler.at/en/vineyards-wines/wachau-dac/",
+        "address_quoted": "Oberloiben 27, 3601 Dürnstein",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.vinea-wachau.at/en/mywachau/companies/company-details/myw_company/fx-pichler",
+        "cuisine_evidence_url": "https://fx-pichler.at/en/vineyards-wines/wachau-dac/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "fx-pichler-loibenberg-gruner-smaragd",
+      "name": "F.X. Pichler Grüner Veltliner Smaragd Loibenberg",
+      "producer": "fx-pichler",
+      "varietals": [
+        "Grüner Veltliner"
+      ],
+      "style": "still-white",
+      "vintage_range": "1980-present",
+      "price_band": "EUR 60-90 at retail",
+      "tasting_notes": "Full-bodied Smaragd Grüner Veltliner from the Loibenberg Ried: ripe stone fruit and white-pepper spice on a mineral backbone with persistent finish.",
+      "description": "Full-bodied Smaragd Grüner Veltliner from the Loibenberg Ried: ripe stone fruit and white-pepper spice on a broad mineral backbone with persistent finish.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://fx-pichler.at/en/vineyards-wines/wachau-dac/",
+        "address_quoted": "Oberloiben 27, 3601 Dürnstein",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.vinea-wachau.at/en/mywachau/companies/company-details/myw_company/fx-pichler",
+        "cuisine_evidence_url": "https://fx-pichler.at/en/vineyards-wines/wachau-dac/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "knoll-loibenberg-riesling-smaragd",
+      "name": "Emmerich Knoll Riesling Smaragd Loibenberg",
+      "producer": "emmerich-knoll",
+      "varietals": [
+        "Riesling"
+      ],
+      "style": "still-white",
+      "vintage_range": "1975-present",
+      "price_band": "EUR 50-75 at retail",
+      "tasting_notes": "Benchmark Wachau Smaragd Riesling: ripe stone fruit, chalk mineral and bright acidity from Fuder ageing that rewards 8-12 years of bottle age.",
+      "description": "Benchmark Smaragd Riesling from the Loibenberg Ried: apricot, chalk mineral and bright acidity. Fuder-aged; rewarding 8-12 years of bottle age.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.vinea-wachau.at/en/mywachau/companies/company-details/myw_company/weingut-knoll",
+        "address_quoted": "Unterloiben 132, 3601 Dürnstein",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.lower-austria.info/infrastructure/weingut-emmerich-knoll",
+        "cuisine_evidence_url": "https://www.laywheeler.com/our-producers/weingut-emmerich-knoll",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "knoll-schutt-riesling-smaragd",
+      "name": "Emmerich Knoll Riesling Smaragd Schütt",
+      "producer": "emmerich-knoll",
+      "varietals": [
+        "Riesling"
+      ],
+      "style": "still-white",
+      "vintage_range": "1978-present",
+      "price_band": "EUR 55-80 at retail",
+      "tasting_notes": "Structured Smaragd Riesling from the Schütt Ried in Loiben: peach skin, chalk mineral and firm acidity with a long finish.",
+      "description": "Structured Smaragd Riesling from the Schütt Ried above Loiben: Fuder-aged with stone-fruit depth, chalk mineral and firm, persistent acidity.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.vinea-wachau.at/en/mywachau/companies/company-details/myw_company/weingut-knoll",
+        "address_quoted": "Unterloiben 132, 3601 Dürnstein",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.lower-austria.info/infrastructure/weingut-emmerich-knoll",
+        "cuisine_evidence_url": "https://www.laywheeler.com/our-producers/weingut-emmerich-knoll",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "prager-achleiten-riesling-smaragd",
+      "name": "Prager Riesling Smaragd Achleiten",
+      "producer": "prager",
+      "varietals": [
+        "Riesling"
+      ],
+      "style": "still-white",
+      "vintage_range": "1975-present",
+      "price_band": "EUR 55-80 at retail",
+      "tasting_notes": "Riesling Smaragd from the Achleiten Ried on amphibolite and gneiss: apricot, crushed granite and exotic spice with ripe stone fruit and firm acidity.",
+      "description": "Prager Achleiten Riesling Smaragd from the celebrated amphibolite-gneiss Ried: apricot, crushed granite and exotic spice with firm, structured acidity.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://weingutprager.at/",
+        "address_quoted": "Wachaustrasse 48, A-3610 Weissenkirchen in der Wachau",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.vinea-wachau.at/mywachau/betriebe/betriebs-details/myw_company/weingut-prager/",
+        "cuisine_evidence_url": "https://www.winebow.com/our-brands/prager",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "prager-wachstum-bodenstein-gruner-smaragd",
+      "name": "Prager Grüner Veltliner Smaragd Wachstum Bodenstein",
+      "producer": "prager",
+      "varietals": [
+        "Grüner Veltliner"
+      ],
+      "style": "still-white",
+      "vintage_range": "1985-present",
+      "price_band": "EUR 70-120 at retail",
+      "tasting_notes": "Reserve selection Grüner Veltliner Smaragd from the Achleiten Ried's amphibolite parcels: intense concentration, pepper spice and stone fruit with very long mineral finish.",
+      "description": "Reserve Grüner Veltliner Smaragd from Prager's select Achleiten parcels: intense pepper spice, concentrated stone fruit and exceptional mineral length.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://weingutprager.at/",
+        "address_quoted": "Wachaustrasse 48, A-3610 Weissenkirchen in der Wachau",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.vinea-wachau.at/mywachau/betriebe/betriebs-details/myw_company/weingut-prager/",
+        "cuisine_evidence_url": "https://www.winebow.com/our-brands/prager",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "hirtzberger-singerriedel-riesling-smaragd",
+      "name": "Riesling Smaragd Singerriedel",
+      "producer": "franz-hirtzberger",
+      "varietals": [
+        "Riesling"
+      ],
+      "style": "still-white",
+      "vintage_range": "1983-present",
+      "price_band": "EUR 60-90 at retail",
+      "tasting_notes": "Granite-driven Riesling Smaragd from steep gneiss terraces above Spitz: white peach, crushed stone, citrus zest and dried apricot with crystalline acidity and persistent mineral finish.",
+      "description": "Single-vineyard Riesling Smaragd from Hirtzberger's Singerriedel site on gneiss-granite terraces above Spitz; the estate's top Riesling expression.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://weygandtmetzler.com/prod-focus-v201.php?producer=franz-hirtzberger&x=71&y=51",
+        "address_quoted": "Kremserstraße 8, 3620 Spitz",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.vinea-wachau.at/en/mywachau/companies/company-details/myw_company/weingut-franz-hirtzberger",
+        "cuisine_evidence_url": "https://weygandtmetzler.com/prod-focus-v201.php?producer=franz-hirtzberger&x=71&y=51",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "hirtzberger-honivogl-gruner-smaragd",
+      "name": "Grüner Veltliner Smaragd Honivogl",
+      "producer": "franz-hirtzberger",
+      "varietals": [
+        "Grüner Veltliner"
+      ],
+      "style": "still-white",
+      "vintage_range": "1985-present",
+      "price_band": "EUR 55-80 at retail",
+      "tasting_notes": "Full-bodied Grüner Veltliner Smaragd from the warm south-facing Honivogl site above Spitz: white pepper, ripe grapefruit and stone fruit with a long peppery finish.",
+      "description": "Grüner Veltliner Smaragd from the warm south-facing Honivogl site above Spitz; classic white-pepper and stone-fruit character with full body.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://weygandtmetzler.com/prod-focus-v201.php?producer=franz-hirtzberger&x=71&y=51",
+        "address_quoted": "Kremserstraße 8, 3620 Spitz",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.vinea-wachau.at/en/mywachau/companies/company-details/myw_company/weingut-franz-hirtzberger",
+        "cuisine_evidence_url": "https://weygandtmetzler.com/prod-focus-v201.php?producer=franz-hirtzberger&x=71&y=51",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "nikolaihof-vom-stein-riesling-smaragd",
+      "name": "Nikolaihof Vom Stein Riesling Smaragd",
+      "producer": "nikolaihof",
+      "varietals": [
+        "Riesling"
+      ],
+      "style": "still-white",
+      "vintage_range": "1978-present",
+      "price_band": "EUR 45-70 at retail",
+      "tasting_notes": "Demeter-certified biodynamic Riesling Smaragd from the south-bank Vom Stein Ried: limestone mineral, lime blossom and herbal spice on a firm, austere palate with long mineral finish.",
+      "description": "Demeter biodynamic Riesling Smaragd from the Vom Stein Ried: limestone mineral, lime blossom and herbal spice with firm acidity. Estate Demeter-certified since 1971.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.nikolaihof.at/en/vineyard/demeter/",
+        "address_quoted": "Nikolaigasse 3, 3512 Mautern, Wachau, Austria",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vinea-wachau.at/en/mywachau/companies/company-details/myw_company/nikolaihof-wachau/",
+        "cuisine_evidence_url": "https://www.nikolaihof.at/en/vineyard/demeter/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "alzinger-steinertal-riesling-smaragd",
+      "name": "Alzinger Riesling Smaragd Steinertal",
+      "producer": "alzinger",
+      "varietals": [
+        "Riesling"
+      ],
+      "style": "still-white",
+      "vintage_range": "1985-present",
+      "price_band": "EUR 55-80 at retail",
+      "tasting_notes": "Mineral Smaragd Riesling from the Steinertal Ried in Unterloiben: primary-rock stone, lime oil and herbal spice on a taut, racy palate with extraordinary length.",
+      "description": "Benchmark mineral Smaragd Riesling from Alzinger's Steinertal Ried: primary-rock stone, lime oil and herbal spice with racy acidity and exceptional length.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://alzinger.at/en/wines/",
+        "address_quoted": "Unterloiben 11, 3601 Dürnstein, Wachau, Austria",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.vinea-wachau.at/en/mywachau/companies/company-details/myw_company/weingut-alzinger",
+        "cuisine_evidence_url": "https://alzinger.at/en/wines/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "rudi-pichler-hochrain-riesling-smaragd",
+      "name": "Riesling Smaragd Hochrain",
+      "producer": "rudi-pichler",
+      "varietals": [
+        "Riesling"
+      ],
+      "style": "still-white",
+      "vintage_range": "1995-present",
+      "price_band": "EUR 50-75 at retail",
+      "tasting_notes": "Rudi Pichler's top Riesling Smaragd from the Hochrain terraces above Wösendorf; full body, racy acidity and granite-mineral depth. A distinct Wösendorf expression, separate from the F.X. Pichler estate in Loiben.",
+      "description": "Rudi Pichler's Riesling Smaragd from the Hochrain terraces above Wösendorf; full-bodied with racy acidity and granite-mineral character.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.rudipichler.at/en/",
+        "address_quoted": "Marienfeldweg 122, 3610 Wösendorf/Wachau",
+        "open_status": "open",
+        "open_evidence_url": "https://www.rudipichler.at/en/sales/",
+        "cuisine_evidence_url": "https://www.vinea-wachau.at/en/mywachau/companies/company-details/myw_company/weingut-rudi-pichler",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "veyder-malberg-brandstatt-riesling-smaragd",
+      "name": "Riesling Smaragd Brandstatt",
+      "producer": "veyder-malberg",
+      "varietals": [
+        "Riesling"
+      ],
+      "style": "still-white",
+      "vintage_range": "2010-present",
+      "price_band": "EUR 50-75 at retail",
+      "tasting_notes": "Biodynamic Riesling Smaragd from ancient terraces above Spitz restored by Peter Veyder-Malberg from 2008. Old-barrel fermentation adds texture to the racy citrus and chalk-mineral profile.",
+      "description": "Biodynamic Riesling Smaragd from the ancient Brandstatt terraces above Spitz by Peter Veyder-Malberg; chalk-mineral and citrus character with old-barrel texture.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://veyder.malberg.at/en/",
+        "address_quoted": "Vorderarnsdorf 10, 3610 Spitz",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.vinea-wachau.at/en/mywachau/companies/company-details/myw_company/weingut-veyder-malberg",
+        "cuisine_evidence_url": "https://veyder.malberg.at/en/viessling-2/",
+        "checked_on": "2026-05-28"
+      }
+    }
+  ]
+}

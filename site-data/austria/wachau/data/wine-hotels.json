@@ -1,0 +1,256 @@
+{
+  "wine_hotels": [
+    {
+      "slug": "schloss-duernstein",
+      "name": "Hotel Schloss Dürnstein",
+      "address": "3601 Dürnstein 2, Wachau, Austria",
+      "neighborhood": "Dürnstein",
+      "star_rating": 5,
+      "wine_focus": "400-year-old wine cellar; extensive Wachau and international bottle list; terrace restaurant open to non-guests",
+      "restaurant_on_site": true,
+      "vineyard_on_site": false,
+      "description": "The only 5-star hotel in Lower Austria, housed in a 17th-century palace above the Danube in Dürnstein. The 400-year-old wine cellar anchors an exceptional Wachau-focused bottle list. The terrace restaurant opens to non-guests from late March.",
+      "tip": "Book the terrace table for sunset river views; the cellar bar is accessible to day visitors for a glass.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.schloss.at/en",
+        "address_quoted": "3601 Dürnstein 2",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.histouring.com/en/historical-places/hotel-schloss-durnstein/",
+        "cuisine_evidence_url": "https://www.schloss.at/en/wachau/viticulture",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "hotel-richard-loewenherz",
+      "name": "Hotel Richard Löwenherz",
+      "address": "3601 Dürnstein 8, Dürnstein, Austria",
+      "neighborhood": "Dürnstein",
+      "star_rating": 4,
+      "wine_focus": "Wachau-forward wine list at Restaurant Löwenherz; in-depth Vinea Wachau wine education programme for guests",
+      "restaurant_on_site": true,
+      "vineyard_on_site": false,
+      "description": "A former Augustinian convent on the Danube bank in Dürnstein, operated by the third-generation Thiery family. The riverside setting, regional Austrian menu and Wachau-dominant wine list make this the classic mid-range base for wine touring.",
+      "tip": "The hotel offers a dedicated viticulture webpage covering Wachau wine classification; ask reception for recommended cellar visits.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.richardloewenherz.at/en/",
+        "address_quoted": "3601 Dürnstein 8, Dürnstein",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.schlosshotels.co.at/en/castle-hotels/hotel-richard-loewenherz/",
+        "cuisine_evidence_url": "https://www.richardloewenherz.at/en/wachau/wine/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "hotel-sanger-blondel-duernstein",
+      "name": "Hotel Sänger Blondel",
+      "address": "3601 Dürnstein 64, Dürnstein, Austria",
+      "neighborhood": "Dürnstein",
+      "star_rating": 3,
+      "wine_focus": "Wachau wine list; apricot specialties; garden restaurant open to non-guests",
+      "restaurant_on_site": true,
+      "vineyard_on_site": false,
+      "description": "A charming hotel a few steps from the Danube in Dürnstein, named for the troubadour of the Lionheart legend. The garden restaurant serves Wachau wines alongside traditional Austrian apricot and regional dishes.",
+      "tip": "The garden restaurant opens Tuesday to Saturday from 12:00; kitchen closes at 15:00 Saturday. Reserve at saengerblondel@aon.at or +43 2711 253.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://saengerblondel.at/",
+        "address_quoted": "3601 Dürnstein 64",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.lower-austria.info/accommodation/gartenhotel-weingut-pfeffel",
+        "cuisine_evidence_url": "https://www.winekeller.com/blog/austria/wachau-duernstein-loiben-villages",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "gartenhotel-weingut-pfeffel",
+      "name": "Gartenhotel & Weingut Pfeffel",
+      "address": "3601 Dürnstein, Wachau, Austria",
+      "neighborhood": "Dürnstein",
+      "star_rating": 4,
+      "wine_focus": "Own-estate winery; Steinfeder, Federspiel and Smaragd poured in two wine parlours; blind tastings of house spirits at the bar from 21:00 for staying guests",
+      "restaurant_on_site": true,
+      "vineyard_on_site": true,
+      "description": "A family-run 4-star estate hotel 900 metres west of Dürnstein combining a working winery with a penthouse spa, vineyard-view rooms and a gourmet garden restaurant. Guests can taste all three classifications of own-estate Wachau whites.",
+      "tip": "Wine Weekend packages include guided vineyard walks and blind tasting evenings at the bar. Phone: +43 2711 206.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://pfeffel.at/",
+        "address_quoted": "3601 Dürnstein, Wachau, Austria",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.booking.com/hotel/at/gartenhotel-weingut-pfeffel-durnstein.html",
+        "cuisine_evidence_url": "https://www.pfeffel.at/en/vinery/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "boutiquehotel-weinspitz-donabaum",
+      "name": "Boutiquehotel WeinSpitz - Weingut Donabaum",
+      "address": "In der Spitz 3, 3620 Spitz an der Donau, Austria",
+      "neighborhood": "Spitz",
+      "star_rating": 4,
+      "wine_focus": "Estate winery on 5-hectare Strawanzer vineyard; floor-to-ceiling glass vinotheque; tasting lounge with Setzberg vineyard views; 11 terrace suites",
+      "restaurant_on_site": true,
+      "vineyard_on_site": true,
+      "description": "Weingut Donabaum's boutique hotel in the historic town centre of Spitz, with 11 vineyard-view suites, a stainless-steel infinity pool and sauna. The estate's own Smaragd whites from the Strawanzer vineyard are poured in the vinotheque and restaurant.",
+      "tip": "The wine lounge faces the Setzberg vineyard; evenings here with a glass of estate Grüner Veltliner and direct vineyard views are a highlight of the Wachau wine-hotel experience. Phone: +43 2713 2644.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://donabaum.at/en/boutiquehotel-weinspitz/",
+        "address_quoted": "In der Spitz 3, 3620 Spitz an der Donau",
+        "open_status": "open",
+        "open_evidence_url": "https://www.donau.com/unterkunft/weingut-donabaum",
+        "cuisine_evidence_url": "https://www.falstaff.com/en/hotels/boutiquehotel-weinspitz-1",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "steigenberger-hotel-spa-krems",
+      "name": "Steigenberger Hotel & Spa Krems",
+      "address": "Am Goldberg 2, 3500 Krems an der Donau, Austria",
+      "neighborhood": "Krems",
+      "star_rating": 5,
+      "wine_focus": "Smaragd wine bar and vinotheque with roof terrace; own vineyard; torch-lit vineyard hikes for guests; Vinea Wachau producer tastings arranged",
+      "restaurant_on_site": true,
+      "vineyard_on_site": true,
+      "description": "A 5-star hotel on a vineyard rise above Krems with panoramic Wachau UNESCO views. The Smaragd bar and vinotheque, sky terrace, own vineyard and curated producer tasting programme make this the most wine-integrated large hotel in the region.",
+      "tip": "Ask for rooms facing the Danube valley. The hotel arranges vineyard picnics and torch-lit evening hikes in the estate vineyard for guests. Phone: +43 2732 71010.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://hrewards.com/en/steigenberger-hotel-spa-krems",
+        "address_quoted": "Am Goldberg 2, 3500, Krems an der Donau",
+        "open_status": "open",
+        "open_evidence_url": "https://www.lower-austria.info/selected-stays-1/steigenberger-hotel-and-spa-krems",
+        "cuisine_evidence_url": "https://www.donau.com/en/selected/steigenberger-hotel-and-spa-krems",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "hotel-lagler-weinberghof-spitz",
+      "name": "Hotel Weinberghof - Weingut Lagler",
+      "address": "Am Hinterweg 17, 3620 Spitz an der Donau, Austria",
+      "neighborhood": "Spitz",
+      "star_rating": null,
+      "wine_focus": "Estate winery; own-grown Wachau Grüner Veltliner, Riesling and Zweigelt; wine shop with farm-gate sales",
+      "restaurant_on_site": true,
+      "vineyard_on_site": true,
+      "description": "The estate hotel of Weingut Lagler in Spitz, combining a working wine estate with comfortable accommodation and an estate restaurant. The winery produces Steinfeder, Federspiel and Smaragd whites from Spitz vineyards.",
+      "tip": "The wine shop sells own-estate wines and the restaurant pairs estate bottles with seasonal Austrian cuisine. Phone: +43 (0)2713 2939.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.laglers.at/",
+        "address_quoted": "Am Hinterweg 17, 3620 Spitz",
+        "open_status": "open",
+        "open_evidence_url": "https://www.falstaff.com/en/hotels/boutiquehotel-weinspitz-1",
+        "cuisine_evidence_url": "https://www.laglers.at/weingut/bezugsquellen/restaurant",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "loibnerhof-heuriger-unterloiben",
+      "name": "Loibnerhof",
+      "address": "Unterloiben 7, 3601 Dürnstein, Austria",
+      "neighborhood": "Unterloiben",
+      "star_rating": null,
+      "wine_focus": "Exclusively Emmerich Knoll wines; 400-year-old vaulted inn setting; seasonal garden with Danube views",
+      "restaurant_on_site": true,
+      "vineyard_on_site": false,
+      "description": "A 400-year-old heuriger-restaurant in Unterloiben serving only wines from Weingut Emmerich Knoll, cousin of the owner. The Biedermeier interior and vine-fringed garden create one of the most atmospheric dining settings in the Wachau; accommodation available in season.",
+      "tip": "One of the most sought-after dinner reservations in the Wachau; reserve as far in advance as possible. Phone: +43 2732 82890.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.loibnerhof.at/",
+        "address_quoted": "Unterloiben 7, 3601 Dürnstein",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.falstaff.com/en/restaurants/loibnerhof-duernstein",
+        "cuisine_evidence_url": "https://www.vinea-wachau.at/mywachau/betriebe/betriebs-details/myw_company/loibnerhof/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "wein-lese-hotel-loiben",
+      "name": "Wein.Lese.Hotel Loiben",
+      "address": "Unterloiben 1, 3601 Dürnstein, Austria",
+      "neighborhood": "Unterloiben",
+      "star_rating": null,
+      "wine_focus": "Wachau wine-focused guesthouse in the Loiben wine village; proximity to Knoll, Tegernseerhof and F.X. Pichler estates",
+      "restaurant_on_site": false,
+      "vineyard_on_site": false,
+      "description": "A wine-focused boutique guesthouse in the village of Unterloiben, within walking distance of Emmerich Knoll, Tegernseerhof and F.X. Pichler. An intimate base for serious wine touring in the Loiben cluster.",
+      "tip": "Located in the village most associated with Wachau Riesling and Grüner Veltliner Smaragd production; book well in advance in the September harvest season.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.duernstein.at/en/vacation-in-duernstein/wineries/wineries",
+        "address_quoted": "Unterloiben, 3601 Dürnstein",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.tripadvisor.com/HotelsNear-g190424-d12653666-Wachau_Cultural_Landscape-Krems_an_der_Donau_Lower_Austria.html",
+        "cuisine_evidence_url": "https://www.winekeller.com/blog/austria/wachau-duernstein-loiben-villages",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "nikolaihof-estate-accommodation",
+      "name": "Nikolaihof Wachau - Estate Accommodation",
+      "address": "Nikolaigasse 3, 3512 Mautern an der Donau, Austria",
+      "neighborhood": "Mautern",
+      "star_rating": null,
+      "wine_focus": "Demeter-certified biodynamic estate stay; access to Salon 77 rare-vintage tasting and the Weinstube organic restaurant garden",
+      "restaurant_on_site": true,
+      "vineyard_on_site": true,
+      "description": "Guest accommodation at Austria's oldest biodynamic winery, the Nikolaihof in Mautern. Staying guests access the private Salon 77 tasting room, the Weinstube organic restaurant and guided cellar tours of the Roman foundations. The most immersive biodynamic wine estate stay in the Wachau.",
+      "tip": "Book accommodation with the Weinstube dinner combination for the full estate experience. Reservations via the estate office.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.nikolaihof.at/home/",
+        "address_quoted": "Nikolaigasse 3, 3512 Mautern an der Donau",
+        "open_status": "open",
+        "open_evidence_url": "https://www.lower-austria.info/infrastructure/a-nikolaihof-wachau",
+        "cuisine_evidence_url": "https://www.nikolaihof.at/weingstube/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "weingut-knoll-accommodation",
+      "name": "Weingut Emmerich Knoll - Estate Rooms",
+      "address": "Unterloiben 132, 3601 Dürnstein, Austria",
+      "neighborhood": "Unterloiben",
+      "star_rating": null,
+      "wine_focus": "On-estate accommodation at Weingut Emmerich Knoll; access to the private tasting room and cellar",
+      "restaurant_on_site": false,
+      "vineyard_on_site": true,
+      "description": "A small number of rooms available at Weingut Emmerich Knoll in Unterloiben, allowing guests to stay at the heart of Wachau Riesling production. The family personally conducts tastings of Kellerberg and Schutt vineyard wines for estate guests.",
+      "tip": "Book directly via weingut@knoll.at or +43 2732 79355; availability is very limited and in high demand during the autumn harvest season.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.lower-austria.info/infrastructure/weingut-emmerich-knoll",
+        "address_quoted": "Unterloiben 132, 3601 Unterloiben",
+        "open_status": "open",
+        "open_evidence_url": "https://www.donau.com/en/infrastructure/weingut-emmerich-knoll",
+        "cuisine_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g190421-d6598043-Reviews-Weingut_Emmerich_Knoll-Durnstein_Lower_Austria.html",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "donabaum-ferienhaus-spitz",
+      "name": "Weingut Donabaum Holiday Apartments",
+      "address": "In der Spitz 3, 3620 Spitz an der Donau, Austria",
+      "neighborhood": "Spitz",
+      "star_rating": null,
+      "wine_focus": "Self-catering apartments in the Donabaum wine estate; access to vinotheque and vineyard",
+      "restaurant_on_site": false,
+      "vineyard_on_site": true,
+      "description": "Self-catering holiday apartments at Weingut Donabaum in Spitz, adjacent to the estate's 5-hectare Strawanzer vineyard. A flexible alternative to the boutique hotel, allowing independent wine-touring from the estate base with access to the vinotheque for purchases.",
+      "tip": "The urlaubambauernhof (farm stay) format; contact weingut@donabaum.at for availability. Situated 300 m from the Danube in Spitz town centre.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.urlaubambauernhof.at/de/hoefe/weingut-donabaum",
+        "address_quoted": "In der Spitz 3, 3620 Spitz an der Donau",
+        "open_status": "open",
+        "open_evidence_url": "https://donabaum.at/en/boutiquehotel-weinspitz/",
+        "cuisine_evidence_url": "https://www.donau.com/unterkunft/weingut-donabaum",
+        "checked_on": "2026-05-28"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1819 @@
+{
+  "vineyards": [
+    {
+      "slug": "fx-pichler",
+      "name": "Weingut F.X. Pichler",
+      "address": "Oberloiben 27, 3601 Dürnstein, Austria",
+      "neighborhood": "Loiben",
+      "varietals": [
+        "Grüner Veltliner",
+        "Riesling",
+        "Gelber Muskateller"
+      ],
+      "classification": "Wachau DAC",
+      "hectares": 20,
+      "owner": "Lucas Franz Pichler and Johanna Elisabeth Pichler",
+      "winemaker": "Lucas Franz Pichler",
+      "founded": 1898,
+      "tasting_program": "By appointment only; cellar visits and tastings for trade and press.",
+      "booking_url": "https://fx-pichler.at/en/",
+      "signature_wines": [
+        "fx-pichler-kellerberg-riesling-smaragd",
+        "fx-pichler-loibenberg-gruner-smaragd",
+        "fx-pichler-unendlich"
+      ],
+      "biodynamic_status": "biodynamic_practicing",
+      "organic_status": "organic_certified",
+      "description": "Seven-generation Pichler estate in Oberloiben producing Smaragd Grüner Veltliner and Riesling from the Kellerberg and Loibenberg sites. 20 hectares planted half Grüner Veltliner, half Riesling.",
+      "editorial_score": 5.0,
+      "tip": "The Kellerberg and Unendlich Rieslings require several years of bottle age to fully open.",
+      "verified": {
+        "source_url": "https://fx-pichler.at/en/winery/family/",
+        "address_quoted": "Oberloiben 27, 3601 Dürnstein",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.vinea-wachau.at/en/mywachau/companies/company-details/myw_company/fx-pichler",
+        "cuisine_evidence_url": "https://fx-pichler.at/en/vineyards-wines/wachau-dac/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "emmerich-knoll",
+      "name": "Weingut Emmerich Knoll",
+      "address": "Unterloiben 132, 3601 Dürnstein, Austria",
+      "neighborhood": "Unterloiben",
+      "varietals": [
+        "Grüner Veltliner",
+        "Riesling",
+        "Gelber Muskateller"
+      ],
+      "classification": "Wachau DAC",
+      "hectares": 19,
+      "owner": null,
+      "winemaker": null,
+      "founded": 1825,
+      "tasting_program": "Direct sales from the estate (Ab Hof); by appointment.",
+      "booking_url": null,
+      "signature_wines": [
+        "knoll-schütt-riesling-smaragd",
+        "knoll-loibenberg-gruner-smaragd",
+        "knoll-pfaffenberg-riesling-smaragd"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Family estate since 1825 at Unterloiben, working Schütt, Loibenberg, Pfaffenberg and Kreutles sites. Celebrated for age-worthy Riesling and Grüner Veltliner Smaragd bottlings.",
+      "editorial_score": 4.9,
+      "tip": "Pfaffenberg Riesling Smaragd develops extraordinary mineral complexity with a decade of ageing.",
+      "verified": {
+        "source_url": "https://www.vinea-wachau.at/en/mywachau/companies/company-details/myw_company/weingut-knoll",
+        "address_quoted": "Unterloiben 132, 3601 Dürnstein",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.lower-austria.info/infrastructure/weingut-emmerich-knoll",
+        "cuisine_evidence_url": "https://www.laywheeler.com/our-producers/weingut-emmerich-knoll",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "prager",
+      "name": "Weingut Prager",
+      "address": "Wachaustrasse 48, 3610 Weissenkirchen in der Wachau, Austria",
+      "neighborhood": "Weissenkirchen",
+      "varietals": [
+        "Riesling",
+        "Grüner Veltliner"
+      ],
+      "classification": "Wachau DAC",
+      "hectares": 18,
+      "owner": "Familie Bodenstein",
+      "winemaker": "Toni Bodenstein",
+      "founded": 1715,
+      "tasting_program": "By appointment only; the cellar is their home (no regular hours).",
+      "booking_url": "https://weingutprager.at/",
+      "signature_wines": [
+        "prager-wachstum-bodenstein-riesling-smaragd",
+        "prager-wachstum-bodenstein-gruner-smaragd",
+        "prager-achleiten-riesling-smaragd"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Bodenstein-run estate in Weissenkirchen with 18 hectares split across Achleiten, Klaus, Steinriegl, Hinter der Burg and Hollerin sites. The Wachstum Bodenstein series bottles selected Achleiten parcels as Smaragd.",
+      "editorial_score": 4.9,
+      "tip": "Wachstum Bodenstein Grüner Veltliner rewards patience; open 8-10 years from vintage for full complexity.",
+      "verified": {
+        "source_url": "https://weingutprager.at/",
+        "address_quoted": "Wachaustrasse 48, A-3610 Weissenkirchen in der Wachau",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.vinea-wachau.at/mywachau/betriebe/betriebs-details/myw_company/weingut-prager/",
+        "cuisine_evidence_url": "https://www.winebow.com/our-brands/prager",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "franz-hirtzberger",
+      "name": "Weingut Franz Hirtzberger",
+      "address": "Kremserstraße 8, 3620 Spitz an der Donau, Austria",
+      "neighborhood": "Spitz",
+      "varietals": [
+        "Riesling",
+        "Grüner Veltliner"
+      ],
+      "classification": "Wachau DAC",
+      "hectares": 20,
+      "owner": null,
+      "winemaker": "Franz Hirtzberger",
+      "founded": 1788,
+      "tasting_program": "By appointment; winery and cellar visits available.",
+      "booking_url": null,
+      "signature_wines": [
+        "hirtzberger-singerriedel-riesling-smaragd",
+        "hirtzberger-honivogl-gruner-smaragd",
+        "hirtzberger-hochrain-riesling-smaragd"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Five-generation estate in Spitz known for the Singerriedel Riesling from gneiss-granite terraces above Spitz. Honivogl Grüner Veltliner Smaragd is a warm-year, full-bodied expression of Wachau Veltliner.",
+      "editorial_score": 4.9,
+      "tip": "Singerriedel Riesling thrives with 8-12 years of bottle age; cool granite terroir preserves acidity for decades.",
+      "verified": {
+        "source_url": "https://www.vinea-wachau.at/en/mywachau/companies/company-details/myw_company/weingut-franz-hirtzberger",
+        "address_quoted": "Kremserstraße 8, 3620 Spitz",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.vinea-wachau.at/en/mywachau/companies/company-details/myw_company/weingut-franz-hirtzberger",
+        "cuisine_evidence_url": "https://weygandtmetzler.com/prod-focus-v201.php?producer=franz-hirtzberger&x=71&y=51",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "nikolaihof",
+      "name": "Nikolaihof Wachau",
+      "address": "Nikolaigasse 3, 3512 Mautern an der Donau, Austria",
+      "neighborhood": "Mautern",
+      "varietals": [
+        "Grüner Veltliner",
+        "Riesling",
+        "Neuburger"
+      ],
+      "classification": "Wachau DAC",
+      "hectares": 18,
+      "owner": "Familie Saahs",
+      "winemaker": null,
+      "founded": 1971,
+      "tasting_program": "Wine shop and tasting room at the estate; guided cellar tours available on request. Salon 77 restaurant on site.",
+      "booking_url": "https://www.nikolaihof.at/en/home/",
+      "signature_wines": [
+        "nikolaihof-vom-stein-riesling-smaragd",
+        "nikolaihof-hefeabzug-gruner-smaragd",
+        "nikolaihof-vinothek-riesling"
+      ],
+      "biodynamic_status": "demeter_certified",
+      "organic_status": "demeter",
+      "natural_wine": true,
+      "description": "Oldest documented winery in Austria (nearly 2,000 years of history) at Mautern on the south bank. Demeter biodynamic since 1971. Famous for the Vom Stein Riesling Smaragd and long-aged Hefeabzug Grüner Veltliner.",
+      "editorial_score": 4.9,
+      "tip": "The Vinothek releases are barrel-aged wines held 10+ years before release. The estate restaurant is open seasonally.",
+      "verified": {
+        "source_url": "https://www.nikolaihof.at/en/home/",
+        "address_quoted": "Nikolaigasse 3, 3512 Mautern, Wachau, Austria",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vinea-wachau.at/en/mywachau/companies/company-details/myw_company/nikolaihof-wachau/",
+        "cuisine_evidence_url": "https://www.nikolaihof.at/en/vineyard/demeter/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "domaene-wachau",
+      "name": "Domäne Wachau",
+      "address": "Dürnstein 107, 3601 Dürnstein, Austria",
+      "neighborhood": "Dürnstein",
+      "varietals": [
+        "Grüner Veltliner",
+        "Riesling"
+      ],
+      "classification": "Wachau DAC",
+      "hectares": 440,
+      "owner": null,
+      "winemaker": null,
+      "founded": 1938,
+      "tasting_program": "Vinothek in Dürnstein open to visitors; tastings and direct sales. The Kellerschlössel Baroque cellar palace hosts tours.",
+      "booking_url": "https://www.domaene-wachau.at/en/",
+      "signature_wines": [
+        "domaene-wachau-achleiten-gruner-smaragd",
+        "domaene-wachau-kellerberg-riesling-smaragd",
+        "domaene-wachau-terrasen-federspiel-gruner"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "organic_certified",
+      "description": "Wachau's largest estate, representing around 250 vintner families across 440 hectares. Founded 1938 as Winzergenossenschaft Wachau, renamed Domäne Wachau in 2008. Roman Horvath MW oversees the range alongside Heinz Frischengruber.",
+      "editorial_score": 4.6,
+      "tip": "The Achleiten and Kellerberg Smaragd bottlings compete directly with the great single-estate wines at a more accessible price.",
+      "verified": {
+        "source_url": "https://www.domaene-wachau.at/en/the-winery/",
+        "address_quoted": "A-3601 Dürnstein 107",
+        "open_status": "open",
+        "open_evidence_url": "https://www.donau.com/en/gastronomy/vinothek-domaene-wachau",
+        "cuisine_evidence_url": "https://www.domaene-wachau.at/en/the-winery/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "alzinger",
+      "name": "Weingut Alzinger",
+      "address": "Unterloiben 11, 3601 Dürnstein, Austria",
+      "neighborhood": "Unterloiben",
+      "varietals": [
+        "Grüner Veltliner",
+        "Riesling"
+      ],
+      "classification": "Wachau DAC",
+      "hectares": 9,
+      "owner": null,
+      "winemaker": null,
+      "founded": 1975,
+      "tasting_program": "By appointment; direct sales from the estate.",
+      "booking_url": "https://alzinger.at/en/",
+      "signature_wines": [
+        "alzinger-steinertal-riesling-smaragd",
+        "alzinger-loibenberg-gruner-smaragd",
+        "alzinger-hollerin-riesling-smaragd"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Small-scale Unterloiben estate working the Steinertal, Loibenberg and Höhereck sites. Leo Alzinger pioneered a precision style in the 1980s; Katharina Alzinger-Kittel now continues the tradition.",
+      "editorial_score": 4.8,
+      "tip": "Steinertal Riesling Smaragd is one of the Wachau's most reliable expressions of primary-rock minerality.",
+      "verified": {
+        "source_url": "https://alzinger.at/en/winery/",
+        "address_quoted": "Unterloiben 11, 3601 Dürnstein, Wachau, Austria",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.vinea-wachau.at/en/mywachau/companies/company-details/myw_company/weingut-alzinger",
+        "cuisine_evidence_url": "https://alzinger.at/en/wines/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "tegernseerhof",
+      "name": "Weingut Tegernseerhof",
+      "address": "Unterloiben 12, 3601 Dürnstein, Austria",
+      "neighborhood": "Unterloiben",
+      "varietals": [
+        "Grüner Veltliner",
+        "Riesling"
+      ],
+      "classification": "Wachau DAC",
+      "hectares": 16,
+      "owner": "Familie Mittelbach",
+      "winemaker": "Martin Mittelbach",
+      "founded": 1176,
+      "tasting_program": "Open Wednesdays from 13:00-18:00 (April onwards); tastings in the historic cellars.",
+      "booking_url": "https://www.tegernseerhof.at/en/weingut.html",
+      "signature_wines": [
+        "tegernseerhof-bergdistel-loibenberg-gruner-smaragd",
+        "tegernseerhof-steinertal-riesling-smaragd",
+        "tegernseerhof-durnstein-federspiel"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Historic estate dating to 1176, when Holy Roman Emperor Henry II granted the Benedictine monastery of Tegernsee vineyard land in the Wachau. Fifth-generation Martin Mittelbach runs the estate from Unterloiben.",
+      "editorial_score": 4.8,
+      "tip": "The Bergdistel Loibenberg Smaragd is the estate signature; the Dürnstein Federspiel is an accessible entry to the Tegernseerhof style.",
+      "verified": {
+        "source_url": "https://www.tegernseerhof.at/en/weingut.html",
+        "address_quoted": "Unterloiben 12, A-3601 Dürnstein",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.tegernseerhof.at/en/kostprobe.html",
+        "cuisine_evidence_url": "https://www.tegernseerhof.at/en/steinertal.html",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "rudi-pichler",
+      "name": "Weingut Rudi Pichler",
+      "address": "Marienfeldweg 122, 3610 Wösendorf in der Wachau, Austria",
+      "neighborhood": "Wösendorf",
+      "varietals": [
+        "Grüner Veltliner",
+        "Riesling",
+        "Weissburgunder"
+      ],
+      "classification": "Wachau DAC",
+      "hectares": 15,
+      "owner": null,
+      "winemaker": null,
+      "founded": 1731,
+      "tasting_program": "Direct sales (Ab Hof) and wine shop on site.",
+      "booking_url": "https://www.rudipichler.at/en/",
+      "signature_wines": [
+        "rudi-pichler-hochrain-riesling-smaragd",
+        "rudi-pichler-achleiten-gruner-smaragd",
+        "rudi-pichler-bruck-gruner-smaragd"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "A separate family from F.X. Pichler, based in Wösendorf since 1731. The 15-hectare estate is planted 65% Grüner Veltliner, 30% Riesling. Known for textured Smaragd from the Hochrain and Achleiten sites.",
+      "editorial_score": 4.8,
+      "tip": "The modern winery building opened in 2004 is architecturally significant; Achleiten Smaragd is the flagship.",
+      "verified": {
+        "source_url": "https://www.rudipichler.at/en/",
+        "address_quoted": "Marienfeldweg 122, 3610 Wösendorf/Wachau",
+        "open_status": "open",
+        "open_evidence_url": "https://www.rudipichler.at/en/sales/",
+        "cuisine_evidence_url": "https://www.vinea-wachau.at/en/mywachau/companies/company-details/myw_company/weingut-rudi-pichler",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "veyder-malberg",
+      "name": "Winery Veyder-Malberg",
+      "address": "Vorderarnsdorf 10, 3610 Spitz an der Donau, Austria",
+      "neighborhood": "Spitz",
+      "varietals": [
+        "Grüner Veltliner",
+        "Riesling"
+      ],
+      "classification": "Wachau DAC",
+      "hectares": 5,
+      "owner": "Peter Veyder-Malberg",
+      "winemaker": "Peter Veyder-Malberg",
+      "founded": 2008,
+      "tasting_program": "By appointment only; small-production cellar door visits for trade.",
+      "booking_url": "https://veyder.malberg.at/en/",
+      "signature_wines": [
+        "veyder-malberg-viessling-gruner-smaragd",
+        "veyder-malberg-schoner-riesling-smaragd",
+        "veyder-malberg-brandstatt-gruner-federspiel"
+      ],
+      "biodynamic_status": "biodynamic_practicing",
+      "organic_status": "organic_certified",
+      "description": "Peter Veyder-Malberg founded his estate in 2008, farming ancient terraces in the Wachau entirely by hand. Biodynamic practices since inception; 5 hectares across Brandstatt, Hochrain and Viessling sites.",
+      "editorial_score": 4.7,
+      "tip": "Veyder-Malberg's wines reward patience; the Viessling Smaragd is among the most structured Grüner Veltliners in the Wachau.",
+      "verified": {
+        "source_url": "https://veyder.malberg.at/en/",
+        "address_quoted": "Vorderarnsdorf 10, 3610 Spitz",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.vinea-wachau.at/en/mywachau/companies/company-details/myw_company/weingut-veyder-malberg",
+        "cuisine_evidence_url": "https://veyder.malberg.at/en/viessling-2/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "lagler",
+      "name": "Weingut Lagler",
+      "address": "Am Hinterweg 17, 3620 Spitz an der Donau, Austria",
+      "neighborhood": "Spitz",
+      "varietals": [
+        "Grüner Veltliner",
+        "Riesling",
+        "Gelber Muskateller",
+        "Neuburger",
+        "Weissburgunder"
+      ],
+      "classification": "Wachau DAC",
+      "hectares": 14,
+      "owner": "Familie Lagler",
+      "winemaker": null,
+      "founded": 1789,
+      "tasting_program": "Hotel Weinberghof on site; tastings combined with hotel stays available.",
+      "booking_url": "https://www.laglers.at/",
+      "signature_wines": [
+        "lagler-drei-weingarten-riesling-smaragd",
+        "lagler-tausendeimerberg-gruner-smaragd"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Family estate in Spitz since 1789, operating 14 hectares across several varieties. The attached Hotel Weinberghof is a wine-tourism destination with views over the vine-covered slopes.",
+      "editorial_score": 4.4,
+      "tip": "Pair a stay at the Hotel Weinberghof with the Tausendeimerberg Smaragd for the full Spitz experience.",
+      "verified": {
+        "source_url": "https://www.laglers.at/",
+        "address_quoted": "Am Hinterweg 17, 3620 Spitz",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vinea-wachau.at/mywachau/betriebe/betriebs-details/myw_company/weingut-lagler",
+        "cuisine_evidence_url": "https://www.laglers.at/shop/weine",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "donabaum",
+      "name": "Weingut Johann Donabaum",
+      "address": "Feldgasse 34, 3620 Spitz an der Donau, Austria",
+      "neighborhood": "Spitz",
+      "varietals": [
+        "Grüner Veltliner",
+        "Riesling",
+        "Neuburger"
+      ],
+      "classification": "Wachau DAC",
+      "hectares": 14,
+      "owner": null,
+      "winemaker": "Johann Donabaum",
+      "founded": 1996,
+      "tasting_program": "Direct sales and tastings from the estate; wine shop open.",
+      "booking_url": "https://www.weingut-donabaum.at",
+      "signature_wines": [
+        "donabaum-spitzer-punkt-riesling-smaragd",
+        "donabaum-mariental-gruner-smaragd"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Johann Donabaum junior took over in 1996 and tripled the vineyard area with a focus on quality. Working sites in the Spitzer Graben on gneiss and granite soils, producing expressive Smaragd from the Spitzer Punkt site.",
+      "editorial_score": 4.5,
+      "tip": "Spitzer Punkt Riesling Smaragd shows the granitic character of the western Wachau at its most precise.",
+      "verified": {
+        "source_url": "https://www.weingut-donabaum.at",
+        "address_quoted": "Feldgasse 34, 3620 Spitz",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vinea-wachau.at/en/mywachau/companies/company-details/myw_company/weingut-johann-donabaum",
+        "cuisine_evidence_url": "https://www.weingut-donabaum.at/weine-johann-donabaum",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "gritsch-mauritiushof",
+      "name": "Weingut FJ Gritsch Mauritiushof",
+      "address": "Hauptstraße 66, 3620 Spitz an der Donau, Austria",
+      "neighborhood": "Spitz",
+      "varietals": [
+        "Grüner Veltliner",
+        "Riesling"
+      ],
+      "classification": "Wachau DAC",
+      "hectares": 15,
+      "owner": null,
+      "winemaker": null,
+      "founded": 1835,
+      "tasting_program": "Wine experience world at Mauritiushof: tasting rooms, show cellar, event facilities, holiday apartments.",
+      "booking_url": "https://www.gritsch.at/en/",
+      "signature_wines": [
+        "gritsch-singerriedel-riesling-smaragd",
+        "gritsch-tausendeimerberg-gruner-smaragd"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Historic estate in central Spitz with 15 hectares across terraced sites including Singerriedel and Tausendeimerberg. The Mauritiushof visitor complex blends winery tourism with premium production.",
+      "editorial_score": 4.4,
+      "tip": "The wine experience complex at Mauritiushof makes this one of the most visitor-friendly estates in Spitz.",
+      "verified": {
+        "source_url": "https://www.gritsch.at/en/winery-fj-gritsch/",
+        "address_quoted": "Hauptstraße 66, 3620 Spitz",
+        "open_status": "open",
+        "open_evidence_url": "https://www.lower-austria.info/infrastructure/weingut-franz-josef-gritsch-mauritiushof",
+        "cuisine_evidence_url": "https://www.gritsch.at/en/wines/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "josef-jamek",
+      "name": "Weingut Josef Jamek",
+      "address": "Josef-Jamek-Straße 45, 3610 Joching, Austria",
+      "neighborhood": "Joching",
+      "varietals": [
+        "Grüner Veltliner",
+        "Riesling"
+      ],
+      "classification": "Wachau DAC",
+      "hectares": 25,
+      "owner": "Familie Jamek-Maleta",
+      "winemaker": null,
+      "founded": 1912,
+      "tasting_program": "Restaurant at the estate serving regional cuisine; wine flights available.",
+      "booking_url": "https://www.jamekwein.at/",
+      "signature_wines": [
+        "jamek-ried-Klaus-riesling-smaragd",
+        "jamek-hochrain-gruner-smaragd",
+        "jamek-ried-steinvordern-riesling-smaragd"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Joching estate founded in 1912. Josef Jamek was a pioneer of dry, varietal Wachau wines in the 1960s. The estate restaurant remains open on the Danube. Julia Jamek and Herwig Maleta run it today.",
+      "editorial_score": 4.5,
+      "tip": "Try the Klaus Riesling Smaragd from steep Weissenkirchen terraces alongside the restaurant pairing lunch.",
+      "verified": {
+        "source_url": "https://www.jamekwein.at/weingut-jamek-wachau/",
+        "address_quoted": "Josef-Jamek-Straße 45, 3610 Joching",
+        "open_status": "open",
+        "open_evidence_url": "https://www.jamekwein.at/restaurant/",
+        "cuisine_evidence_url": "https://www.vinea-wachau.at/en/mywachau/companies/company-details/myw_company/weingut-josef-jamek",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "schmelz",
+      "name": "Weingut Schmelz",
+      "address": "Weinbergstraße 14, 3610 Joching, Austria",
+      "neighborhood": "Joching",
+      "varietals": [
+        "Grüner Veltliner",
+        "Riesling"
+      ],
+      "classification": "Wachau DAC",
+      "hectares": 10,
+      "owner": null,
+      "winemaker": null,
+      "founded": 1870,
+      "tasting_program": "Direct sales; Buschenschank (seasonal wine tavern) at the estate.",
+      "booking_url": "https://schmelzweine.at/",
+      "signature_wines": [
+        "schmelz-hoehereck-riesling-smaragd",
+        "schmelz-hochriesling-gruner-smaragd"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "150-year-old family estate at Joching producing Höhereck Riesling Smaragd from the prized Dürnstein terraces. A well-regarded Vinea Wachau member with 10 hectares under vine.",
+      "editorial_score": 4.4,
+      "tip": "Höhereck Riesling Smaragd is the estate's calling card; the Buschenschank offers seasonal tastings.",
+      "verified": {
+        "source_url": "https://schmelzweine.at/",
+        "address_quoted": "Weinbergstraße 14, 3610 Joching",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.vinea-wachau.at/en/mywachau/companies/company-details/myw_company/weingut-familie-schmelz",
+        "cuisine_evidence_url": "https://www.buschenschank.at/Joching/Weingut-Schmelz",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "holzapfel",
+      "name": "Weingut Holzapfel Prandtauerhof",
+      "address": "Prandtauerplatz 36, 3610 Joching, Austria",
+      "neighborhood": "Joching",
+      "varietals": [
+        "Grüner Veltliner",
+        "Riesling"
+      ],
+      "classification": "Wachau DAC",
+      "hectares": 14,
+      "owner": "Familie Holzapfel",
+      "winemaker": null,
+      "founded": 1702,
+      "tasting_program": "Boutique hotel and restaurant at Prandtauerhof; wine tastings available.",
+      "booking_url": "https://www.holzapfel.at/",
+      "signature_wines": [
+        "holzapfel-liebenberg-riesling-smaragd",
+        "holzapfel-achleiten-gruner-smaragd",
+        "holzapfel-achleiten-riesling-smaragd",
+        "holzapfel-gruner-smaragd-joching"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Estate housed in the Prandtauerhof, a Baroque jewel designed by Jakob Prandtauer. 14 hectares with traditional viticulture methods; boutique hotel and acclaimed restaurant on site.",
+      "editorial_score": 4.5,
+      "tip": "Stay overnight at the Prandtauerhof and dine in the arcade courtyard for the full Wachau experience.",
+      "verified": {
+        "source_url": "https://www.holzapfel.at/weingut-holzapfel/",
+        "address_quoted": "Prandtauerplatz 36, 3610 Joching",
+        "open_status": "open",
+        "open_evidence_url": "https://www.holzapfel.at/boutiquehotel-prandtauerhof/",
+        "cuisine_evidence_url": "https://www.vinea-wachau.at/en/mywachau/companies/company-details/myw_company/weingut-holzapfel",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "hoellmueller",
+      "name": "Weingut Höllmüller",
+      "address": "Joching 42, 3610 Weissenkirchen in der Wachau, Austria",
+      "neighborhood": "Joching",
+      "varietals": [
+        "Grüner Veltliner",
+        "Riesling",
+        "Sauvignon Blanc"
+      ],
+      "classification": "Wachau DAC",
+      "hectares": 8,
+      "owner": null,
+      "winemaker": null,
+      "founded": 1920,
+      "tasting_program": "Wine tavern (Heurigen) attached to the estate; walk-ins welcome.",
+      "booking_url": "https://weingut-hoellmueller.at/",
+      "signature_wines": [
+        "hoellmueller-ried-pichl-gruner-smaragd",
+        "hoellmueller-sauvignon-blanc-wachau"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Multi-generation Joching estate evolving from grape production to quality self-marketing. 8 hectares across terraced Wachau sites; the attached Heurigen is popular with locals.",
+      "editorial_score": 4.2,
+      "tip": "The Sauvignon Blanc is a rarity in the Wachau and worth seeking out.",
+      "verified": {
+        "source_url": "https://weingut-hoellmueller.at/en/winery/",
+        "address_quoted": "Joching 42, 3610 Weissenkirchen in der Wachau, Austria",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.vinea-wachau.at/en/mywachau/companies/company-details/myw_company/weingut-hoellmueller",
+        "cuisine_evidence_url": "https://weingut-hoellmueller.at/produkt/sauvignon-blance-wachau-dac-joching-2023/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "hofstaetter",
+      "name": "Weingut Hofstätter",
+      "address": "Hofstrasse 6, 3620 Spitz an der Donau, Austria",
+      "neighborhood": "Spitz",
+      "varietals": [
+        "Grüner Veltliner",
+        "Riesling",
+        "Neuburger",
+        "Gelber Muskateller",
+        "Weissburgunder"
+      ],
+      "classification": "Wachau DAC",
+      "hectares": 9,
+      "owner": "Petra and Wolfgang Hofstätter",
+      "winemaker": "Wolfgang Hofstätter",
+      "founded": 1930,
+      "tasting_program": "Seasonal Heurigen (wine tavern) on site; direct sales available.",
+      "booking_url": "https://www.weingut-hofstaetter.at/",
+      "signature_wines": [
+        "hofstaetter-singerriedel-riesling-smaragd",
+        "hofstaetter-tausendeimerberg-gruner-smaragd"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Third-generation family estate at Spitz foot working 8.5 hectares from St. Michael to Schwallenbach. Singerriedel, Hartberg and Tausendeimerberg are key sites. Gelber Muskateller and Frühroter Veltliner add variety to the portfolio.",
+      "editorial_score": 4.3,
+      "tip": "The Gelber Muskateller Federspiel is one of the few compelling Muscats in the Wachau.",
+      "verified": {
+        "source_url": "https://www.weingut-hofstaetter.at/",
+        "address_quoted": "Hofstrasse 6, 3620 Spitz an der Donau",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.vinea-wachau.at/mywachau/betriebe/betriebs-details/myw_company/weingut-hofstaetter-gesnbr",
+        "cuisine_evidence_url": "https://wineguide.wein.plus/weingut-hofstaetter",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "weinhofmeisterei-hirtzberger",
+      "name": "Weinhofmeisterei Mathias Hirtzberger",
+      "address": "Hauptstraße 142, 3610 Wösendorf in der Wachau, Austria",
+      "neighborhood": "Wösendorf",
+      "varietals": [
+        "Grüner Veltliner",
+        "Riesling"
+      ],
+      "classification": "Wachau DAC",
+      "hectares": 4,
+      "owner": "Mathias Hirtzberger",
+      "winemaker": "Mathias Hirtzberger",
+      "founded": 2014,
+      "tasting_program": "Restaurant and wine shop on site (Hofmeisterei); tastings combined with dining.",
+      "booking_url": "https://www.weinhofmeisterei.com/",
+      "signature_wines": [
+        "weinhofmeisterei-hirtzberger-gruner-smaragd",
+        "weinhofmeisterei-hirtzberger-riesling-federspiel"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Mathias Hirtzberger set up his own estate in Wösendorf in 2014, independent from the Franz Hirtzberger domaine. The Hofmeisterei restaurant attached to the winery is a wine-tourism draw.",
+      "editorial_score": 4.3,
+      "tip": "Book the Hofmeisterei restaurant for a combination of regional Wachau cuisine and Mathias's wines on the terrace.",
+      "verified": {
+        "source_url": "https://www.weinhofmeisterei.com/wir",
+        "address_quoted": "Hauptstraße 142, 3610 Wösendorf in der Wachau",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vinea-wachau.at/en/mywachau/companies/company-details/myw_company/weinhofmeisterei-hirtzberger",
+        "cuisine_evidence_url": "https://www.hofmeisterei.com/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "schrey",
+      "name": "Weingut Schrey",
+      "address": "Prof.-Gruber-Gasse 37, 3610 Wösendorf in der Wachau, Austria",
+      "neighborhood": "Wösendorf",
+      "varietals": [
+        "Grüner Veltliner",
+        "Riesling"
+      ],
+      "classification": "Wachau DAC",
+      "hectares": 6,
+      "owner": null,
+      "winemaker": "Rudi Schrey",
+      "founded": 1920,
+      "tasting_program": "Direct cellar-door sales; vineyard walk tastings by arrangement.",
+      "booking_url": "https://www.schrey.at/",
+      "signature_wines": [
+        "schrey-hochrain-riesling-smaragd",
+        "schrey-holl-gruner-federspiel"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Family estate in Wösendorf working steep sites at Höll, Kirchweg, Kollmütz and Hochrain. A Vinea Wachau member committed to site-specific farming with active green cover management.",
+      "editorial_score": 4.2,
+      "tip": "Vineyard walks with tasting can be arranged for groups wanting an off-the-beaten-path Wachau experience.",
+      "verified": {
+        "source_url": "https://www.schrey.at/",
+        "address_quoted": "Prof.-Gruber-Gasse 37, A-3610 Wösendorf in der Wachau",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.vinea-wachau.at/mywachau/betriebe/betriebs-details/myw_company/weingut-rudolf-schrey",
+        "cuisine_evidence_url": "https://shop.schrey.at/weine.html",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "machherndl",
+      "name": "Weingut Erich Machherndl",
+      "address": "Hauptstraße 1, 3610 Wösendorf, Austria",
+      "neighborhood": "Wösendorf",
+      "varietals": [
+        "Grüner Veltliner",
+        "Riesling",
+        "Weissburgunder"
+      ],
+      "classification": "Wachau DAC",
+      "hectares": 8,
+      "owner": null,
+      "winemaker": "Erich Machherndl",
+      "founded": 1786,
+      "tasting_program": "Direct sales at the 13th-century farmhouse; Buschenschank seasonal tavern.",
+      "booking_url": "https://www.machherndl.com/",
+      "signature_wines": [
+        "machherndl-gruner-smaragd-wosendorf",
+        "machherndl-riesling-federspiel-wosendorf"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "\"Honest viticulture without compromise\" is the motto of this 1786-founded estate in Wösendorf. Picturesque 13th-century farmhouse cellar; the family has been active in the region for over 200 years.",
+      "editorial_score": 4.2,
+      "tip": "The historic farmhouse and barrel cellar offer a genuine old-Wachau atmosphere that larger estates cannot replicate.",
+      "verified": {
+        "source_url": "https://www.machherndl.com/",
+        "address_quoted": "Hauptstraße 1, 3610 Wösendorf",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.vinea-wachau.at/en/mywachau/companies/company-details/myw_company/weingut-machherndl",
+        "cuisine_evidence_url": "https://www.machherndl.com/wein/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "hoegl",
+      "name": "Weingut Josef & Georg Högl",
+      "address": "Vießling 31, 3620 Spitz an der Donau, Austria",
+      "neighborhood": "Spitz",
+      "varietals": [
+        "Grüner Veltliner",
+        "Riesling"
+      ],
+      "classification": "Wachau DAC",
+      "hectares": 10,
+      "owner": "Josef Högl and Georg Högl",
+      "winemaker": "Georg Högl",
+      "founded": 1948,
+      "tasting_program": "Direct cellar sales (Ab Hof); by appointment for groups.",
+      "booking_url": "https://www.weingut-hoegl.at/",
+      "signature_wines": [
+        "hoegl-viessling-gruner-smaragd",
+        "hoegl-spitzer-graben-riesling-smaragd"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Father-and-son estate at Vießling on the western edge of the Wachau, where the Spitzer Graben valley opens toward the Waldviertel. 10 hectares planted 60% Grüner Veltliner, 35% Riesling, all white wine.",
+      "editorial_score": 4.4,
+      "tip": "The westernmost position in the Wachau imparts a distinctive cooler-climate intensity to the Rieslings.",
+      "verified": {
+        "source_url": "https://www.weingut-hoegl.at/english/winery/",
+        "address_quoted": "Vießling 31, 3620 Spitz an der Donau, Austria",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.vinea-wachau.at/mywachau/betriebe/betriebs-details/myw_company/weingut-hoegl",
+        "cuisine_evidence_url": "https://www.weingut-hoegl.at/n%C3%BCtzliches/ab-hof-verkauf-anreise/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "hutter",
+      "name": "Weingut Hutter Silberbichlerhof",
+      "address": "St. Pöltenerstraße 385, 3512 Mautern an der Donau, Austria",
+      "neighborhood": "Mautern",
+      "varietals": [
+        "Grüner Veltliner",
+        "Riesling",
+        "Grauburgunder"
+      ],
+      "classification": "Wachau DAC",
+      "hectares": 14,
+      "owner": "Familie Hutter",
+      "winemaker": null,
+      "founded": 1748,
+      "tasting_program": "Event venue (Silberbichlerhof) for private events; direct sales available.",
+      "booking_url": "https://www.hutter-wachau.at/",
+      "signature_wines": [
+        "hutter-loibenberg-riesling-smaragd",
+        "hutter-gruner-federspiel-mautern"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Seven-generation Mautern estate documented to 1748, with 14 hectares on both banks of the Danube. A Vinea Wachau member producing Steinfeder, Federspiel and Smaragd across Grüner Veltliner, Riesling and Grauburgunder.",
+      "editorial_score": 4.2,
+      "tip": "The south-bank Mautern terroir adds an extra warmth to the Grüner Veltliners compared with the steep north-bank sites.",
+      "verified": {
+        "source_url": "https://www.hutter-wachau.at/",
+        "address_quoted": "St. Pöltenerstraße 385, 3512 Mautern an der Donau, Austria",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.vinea-wachau.at/mywachau/betriebe/betriebs-details/myw_company/weingut-hutter",
+        "cuisine_evidence_url": "https://www.vinum.eu/de/wein/unique-wineries/oesterreich/2025/weingut-hutter-silberbichlerhof/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "schneeweiss",
+      "name": "Weingut Schneeweiß",
+      "address": "Wachaustraße 233 Salzstadl, 3610 Weissenkirchen in der Wachau, Austria",
+      "neighborhood": "Weissenkirchen",
+      "varietals": [
+        "Grüner Veltliner",
+        "Riesling"
+      ],
+      "classification": "Wachau DAC",
+      "hectares": 5,
+      "owner": "Moritz Schneeweiss",
+      "winemaker": "Moritz Schneeweiss",
+      "founded": 1932,
+      "tasting_program": "Wine shop at the historic Salzstadl (salt warehouse); holiday apartments on site.",
+      "booking_url": "https://weingut-schneeweis.at/en/",
+      "signature_wines": [
+        "schneeweis-steinriegl-riesling-smaragd",
+        "schneeweis-gruner-federspiel-weissenkirchen"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Family estate in the historic Salzstadl of Weissenkirchen producing award-winning Steinfeder, Federspiel and Smaragd. The unique ceramics programme by Sabine Schneeweiß adds an artisan dimension to visits.",
+      "editorial_score": 4.2,
+      "tip": "Buy a bottle of Steinriegl Smaragd and a hand-thrown wine jug from the estate ceramics studio together.",
+      "verified": {
+        "source_url": "https://weingut-schneeweis.at/en/",
+        "address_quoted": "Wachaustraße 233 Salzstadl, 3610 Weißenkirchen",
+        "open_status": "open",
+        "open_evidence_url": "https://www.donau.com/en/infrastructure/weingut-schneeweiss",
+        "cuisine_evidence_url": "https://www.vinea-wachau.at/mywachau/betriebe/betriebs-details/myw_company/weinbau-schneeweiss",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "bruch",
+      "name": "Weingut Bruch",
+      "address": "St. Michael 5, 3610 Weissenkirchen in der Wachau, Austria",
+      "neighborhood": "Weissenkirchen",
+      "varietals": [
+        "Grüner Veltliner",
+        "Riesling"
+      ],
+      "classification": "Wachau DAC",
+      "hectares": 6,
+      "owner": "Martin Bruch",
+      "winemaker": "Martin Bruch",
+      "founded": 1910,
+      "tasting_program": "Direct sales at the estate; visits by appointment.",
+      "booking_url": "https://www.weingut-bruch.at/en",
+      "signature_wines": [
+        "bruch-riesling-smaragd-stmichael",
+        "bruch-gruner-federspiel-wachau"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Fourth-generation St. Michael estate working steep terrace sites since 1910. Martin Bruch produces vivid, exhilarating whites from a focused range; a Vinea Wachau member.",
+      "editorial_score": 4.2,
+      "tip": "The St. Michael sub-village is often overlooked; Bruch's Riesling from these sandy-gneiss soils has a distinctive floral lift.",
+      "verified": {
+        "source_url": "https://www.weingut-bruch.at/en",
+        "address_quoted": "St. Michael 5, 3610 St. Michael",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.vinea-wachau.at/mywachau/betriebe/betriebs-details/myw_company/weingut-bruch",
+        "cuisine_evidence_url": "https://www.winekeller.com/blog/austria/wachau-weissenkirchen",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "erich-bayer",
+      "name": "Weingut Erich Bayer",
+      "address": "St. Michael 71, 3610 Weissenkirchen in der Wachau, Austria",
+      "neighborhood": "Weissenkirchen",
+      "varietals": [
+        "Grüner Veltliner",
+        "Riesling"
+      ],
+      "classification": "Wachau DAC",
+      "hectares": 7,
+      "owner": "Erich and Arnold Bayer",
+      "winemaker": null,
+      "founded": 1848,
+      "tasting_program": "Wine shop and direct sales; seasonal Heurigen.",
+      "booking_url": "https://weingut-bayer.com/",
+      "signature_wines": [
+        "bayer-gruner-smaragd-stmichael",
+        "bayer-riesling-federspiel-wachau"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Family-run since 1848, now managed by Erich and Arnold since 2005. Seven hectares in St. Michael and Weissenkirchen producing Grüner Veltliner and Riesling across all three Vinea Wachau tiers.",
+      "editorial_score": 4.1,
+      "tip": "One of the longer-established estates in St. Michael; the Smaragd Grüner Veltliner from old-vine parcels is the standout.",
+      "verified": {
+        "source_url": "https://weingut-bayer.com/",
+        "address_quoted": "St. Michael 71, 3610 Weißenkirchen in der Wachau",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.vinea-wachau.at/mywachau/betriebe/betriebs-details/myw_company/weingut-erich-bayer",
+        "cuisine_evidence_url": "https://www.vinaria.at/weinguide/weingut/512-weingut-erich-bayer",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "bernhard-wachau",
+      "name": "Weingut Bernhard",
+      "address": "Laimgrubgasse 158, 3610 Weissenkirchen in der Wachau, Austria",
+      "neighborhood": "Weissenkirchen",
+      "varietals": [
+        "Grüner Veltliner",
+        "Riesling"
+      ],
+      "classification": "Wachau DAC",
+      "hectares": 7,
+      "owner": "Familie Bernhard",
+      "winemaker": null,
+      "founded": 1928,
+      "tasting_program": "Guest house attached to winery; wine tasting available for guests.",
+      "booking_url": "https://bernhard-wachau.at/",
+      "signature_wines": [
+        "bernhard-achleiten-gruner-smaragd",
+        "bernhard-riesling-federspiel-weissenkirchen"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Three-generation Weissenkirchen estate with 7 hectares in prime Wachau locations including Achleiten parcels. Also runs a guest house (Gästehaus) adjacent to the winery.",
+      "editorial_score": 4.1,
+      "tip": "Combine a stay at the guest house with tastings of the Achleiten Smaragd directly from the family.",
+      "verified": {
+        "source_url": "https://bernhard-wachau.at/",
+        "address_quoted": "Laimgrubgasse 158, 3610 Weißenkirchen | Wachau",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vinea-wachau.at/mywachau/betriebe/betriebs-details/myw_company/herbert-bernhard",
+        "cuisine_evidence_url": "https://www.donau.com/en/wachau-nibelungengau-kremstal/imx/heuriger-wine-tavern/gruber-franz-u-liesbeth/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "ozelt",
+      "name": "Weingut Özelt",
+      "address": "Kirchenplatz 3, 3620 Spitz an der Donau, Austria",
+      "neighborhood": "Spitz",
+      "varietals": [
+        "Grüner Veltliner",
+        "Riesling",
+        "Frühroter Veltliner",
+        "Chardonnay"
+      ],
+      "classification": "Wachau DAC",
+      "hectares": 8,
+      "owner": "Familie Özelt",
+      "winemaker": null,
+      "founded": 1865,
+      "tasting_program": "Heurigen (wine tavern) and guest rooms at the estate; walk-ins welcome during open hours.",
+      "booking_url": "https://www.weingut-oezelt.at/",
+      "signature_wines": [
+        "ozelt-gruner-smaragd-spitz",
+        "ozelt-riesling-federspiel-spitz"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Family estate in central Spitz since 1865, producing Grüner Veltliner, Riesling and uncommon varieties including Frühroter Veltliner and Chardonnay. Heurigen and guest rooms make it a complete Spitz base.",
+      "editorial_score": 4.1,
+      "tip": "The Frühroter Veltliner is a historic Wachau variety rarely bottled elsewhere; worth trying at the Heurigen.",
+      "verified": {
+        "source_url": "https://www.weingut-oezelt.at/",
+        "address_quoted": "Kirchenplatz 3, 3620 Spitz an der Donau",
+        "open_status": "open",
+        "open_evidence_url": "https://www.lower-austria.info/public-inns-and-restaurants/a-weingut-oezelt",
+        "cuisine_evidence_url": "https://www.weingut-oezelt.at/weingut/unsere-weine",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "mayer-spitz",
+      "name": "Weingut Mayer Spitz",
+      "address": "Gut am Steg 11, 3620 Spitz an der Donau, Austria",
+      "neighborhood": "Spitz",
+      "varietals": [
+        "Grüner Veltliner",
+        "Riesling",
+        "Weissburgunder"
+      ],
+      "classification": "Wachau DAC",
+      "hectares": 8,
+      "owner": "Familie Mayer",
+      "winemaker": "Franz Mayer junior",
+      "founded": 1940,
+      "tasting_program": "Direct cellar sales daily from 16:00 (Sundays from 14:30); walk-ins welcome.",
+      "booking_url": "https://mayerwein.at/",
+      "signature_wines": [
+        "mayer-gruner-smaragd-spitzer-graben",
+        "mayer-riesling-federspiel-spitz"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Third-generation Franz Mayer estate in the Spitzer Graben producing award-winning wines to Vinea Wachau quality standards. The Spitzer Graben sub-valley gives distinctive floral and mineral character.",
+      "editorial_score": 4.1,
+      "tip": "One of the few Wachau estates open daily in the late afternoon for impromptu visits.",
+      "verified": {
+        "source_url": "https://mayerwein.at/",
+        "address_quoted": "Gut am Steg 11, 3620 Spitz",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vinea-wachau.at/mywachau/betriebe/betriebs-details/myw_company/weingut-mayer-1",
+        "cuisine_evidence_url": "https://wineguide.wein.plus/weingut-mayer-1",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "forstreiter",
+      "name": "Weingut Forstreiter",
+      "address": "Obere Hollenburger Hauptstraße 36, 3506 Krems-Hollenburg, Austria",
+      "neighborhood": "Hollenburg",
+      "varietals": [
+        "Grüner Veltliner",
+        "Riesling",
+        "Weissburgunder"
+      ],
+      "classification": "Wachau DAC",
+      "hectares": 22,
+      "owner": "Familie Forstreiter",
+      "winemaker": "Meinhard Forstreiter",
+      "founded": 1868,
+      "tasting_program": "Open Monday-Friday 09:30-18:00, Saturday 09:30-14:00; direct cellar sales.",
+      "booking_url": "https://www.forstreiter.at/en/",
+      "signature_wines": [
+        "forstreiter-gruner-smaragd-hollenburg",
+        "forstreiter-riesling-federspiel-wachau"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Family estate in Hollenburg at the eastern edge of the Wachau, family-owned since 1868. 22 hectares with reliable opening hours make it one of the most accessible Wachau producers.",
+      "editorial_score": 4.2,
+      "tip": "The most reliably open estate for walk-in cellar visits in the Wachau; no appointment needed on weekdays.",
+      "verified": {
+        "source_url": "https://www.forstreiter.at/en/winery/",
+        "address_quoted": "Obere Hollenburger Hauptstraße 36, 3506 Krems-Hollenburg",
+        "open_status": "open",
+        "open_evidence_url": "https://www.forstreiter.at/en/",
+        "cuisine_evidence_url": "https://www.forstreiter.at/en/our-wines/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "stift-goettweig",
+      "name": "Weingut Stift Göttweig",
+      "address": "Stift Göttweig 1, 3511 Furth bei Göttweig, Austria",
+      "neighborhood": "Furth bei Göttweig",
+      "varietals": [
+        "Grüner Veltliner",
+        "Riesling",
+        "Weissburgunder"
+      ],
+      "classification": "Kremstal DAC",
+      "hectares": 30,
+      "owner": "Benedictine Monastery of Göttweig",
+      "winemaker": null,
+      "founded": 1083,
+      "tasting_program": "Wine shop and vinothek at the monastery; combined monastery-and-wine tours.",
+      "booking_url": "https://www.weingutstiftgoettweig.at/en/weingut",
+      "signature_wines": [
+        "stift-goettweig-kremstal-gruner-smaragd",
+        "stift-goettweig-privat-riesling"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Benedictine monastery at Göttweig with viticulture documented since 1083. The 30-hectare estate is in Kremstal DAC at the eastern edge of the Wachau. Named Falstaff Winery of the Year 2020.",
+      "editorial_score": 4.3,
+      "tip": "Combine the monastery tour with a wine tasting at the Vinothek for one of Lower Austria's great heritage experiences.",
+      "verified": {
+        "source_url": "https://www.weingutstiftgoettweig.at/en/weingut",
+        "address_quoted": "Stift Göttweig 1, 3511 Furth bei Göttweig",
+        "open_status": "open",
+        "open_evidence_url": "https://www.stiftgoettweig.at/portal/de/besuchenerleben/weinmarille",
+        "cuisine_evidence_url": "https://www.circovino.com/wine/stift-gottweig/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "gruber-wachau",
+      "name": "Weingut Gruber Wachau",
+      "address": "Grubstraße 241, 3610 Weissenkirchen in der Wachau, Austria",
+      "neighborhood": "Weissenkirchen",
+      "varietals": [
+        "Grüner Veltliner",
+        "Riesling"
+      ],
+      "classification": "Wachau DAC",
+      "hectares": 6,
+      "owner": "Familie Gruber",
+      "winemaker": "Georg Gruber",
+      "founded": 1940,
+      "tasting_program": "Direct sales and online shop; tastings by prior arrangement.",
+      "booking_url": "https://www.wachau-wein.at/",
+      "signature_wines": [
+        "gruber-wachau-riesling-smaragd",
+        "gruber-wachau-gruner-federspiel"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Modern and creative Weissenkirchen estate with a strong direct-sales focus. Georg and Beate Gruber work 6 hectares producing Grüner Veltliner and Riesling under the Vinea Wachau charter.",
+      "editorial_score": 4.1,
+      "tip": "One of the younger-generation Wachau estates embracing direct-to-consumer sales; wines available via their online shop.",
+      "verified": {
+        "source_url": "https://www.wachau-wein.at/",
+        "address_quoted": "Grubstraße 241, A-3610 Weißenkirchen",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.vinea-wachau.at/mywachau/betriebe/betriebs-details/myw_company/weingut-gruber-wachau/",
+        "cuisine_evidence_url": "https://www.falstaff.com/en/wineries/weingut-georg-gruber",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "winzer-krems",
+      "name": "Winzer Krems",
+      "address": "Sandgrube 13, 3500 Krems an der Donau, Austria",
+      "neighborhood": "Krems",
+      "varietals": [
+        "Grüner Veltliner",
+        "Riesling",
+        "Chardonnay",
+        "Weissburgunder"
+      ],
+      "classification": "Kremstal DAC",
+      "hectares": 1200,
+      "owner": null,
+      "winemaker": null,
+      "founded": 1938,
+      "tasting_program": "Visitors centre at Krems; large tastings and group tours available year-round.",
+      "booking_url": "https://www.winzerkrems.at/en/",
+      "signature_wines": [
+        "winzer-krems-sandgrube-gruner-smaragd",
+        "winzer-krems-riesling-pfaffenberg"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Major Kremstal cooperative representing 700 growers over 1,200 hectares. One of Austria's largest estate-bottled wine producers and a leading exporter. Based at Sandgrube 13 in Krems, the gateway city to the Wachau.",
+      "editorial_score": 4.0,
+      "tip": "The Sandgrube Grüner Veltliner Smaragd is among Austria's best-value quality whites; the visitor centre offers comprehensive tastings.",
+      "verified": {
+        "source_url": "https://www.winzerkrems.at/en/",
+        "address_quoted": "Sandgrube 13, 3500 Krems an der Donau",
+        "open_status": "open",
+        "open_evidence_url": "https://www.winzerkrems.at/en/wine",
+        "cuisine_evidence_url": "https://www.winzerkrems.at/en/about-us/winegrowing-area",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "hoellmueller-joching",
+      "name": "Weingut Höllmüller Joching",
+      "address": "Hinterberg 6, 3610 Joching, Austria",
+      "neighborhood": "Joching",
+      "varietals": [
+        "Grüner Veltliner",
+        "Riesling"
+      ],
+      "classification": "Wachau DAC",
+      "hectares": 5,
+      "owner": null,
+      "winemaker": null,
+      "founded": 1956,
+      "tasting_program": "Seasonal Heurigen; walk-ins during open season.",
+      "booking_url": "https://weingut-hoellmueller.at/",
+      "signature_wines": [
+        "hoellmueller-gruner-federspiel-joching"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Small estate in Joching committed to ecological viticulture. The family developed from grape-growing into quality wine production in recent years.",
+      "editorial_score": 4.0,
+      "tip": "Look for this estate in local Joching wine festivals where small producers shine.",
+      "verified": {
+        "source_url": "https://weingut-hoellmueller.at/",
+        "address_quoted": "Hinterberg 6, 3610 Joching, Austria",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://weingut-hoellmueller.at/en/",
+        "cuisine_evidence_url": "https://www.vinea-wachau.at/en/mywachau/companies/company-details/myw_company/weingut-hoellmueller",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "domaene-roland-chan",
+      "name": "Domäne Roland Chan",
+      "address": "St. Michael 27, 3610 Weissenkirchen in der Wachau, Austria",
+      "neighborhood": "Weissenkirchen",
+      "varietals": [
+        "Grüner Veltliner",
+        "Riesling"
+      ],
+      "classification": "Wachau DAC",
+      "hectares": 5,
+      "owner": "Roland Chan",
+      "winemaker": "Roland Chan",
+      "founded": 2012,
+      "tasting_program": "By appointment only; small-production estate.",
+      "booking_url": null,
+      "signature_wines": [
+        "chan-gruner-smaragd-stmichael"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "organic_certified",
+      "description": "Boutique St. Michael estate run by Roland Chan, focusing on organic viticulture and minimal-intervention winemaking. Listed on the Vinea Wachau producer directory.",
+      "editorial_score": 4.2,
+      "tip": "One of the few Wachau estates run by an owner from outside the traditional winemaking families; small-batch releases.",
+      "verified": {
+        "source_url": "https://www.vinea-wachau.at/mywachau/betriebe/",
+        "address_quoted": "St. Michael 27, 3610 Weißenkirchen",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.lower-austria.info/wachau",
+        "cuisine_evidence_url": "https://www.vinea-wachau.at/mywachau/betriebe/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "loibnerhof",
+      "name": "Loibnerhof (Weingut Knoll)",
+      "address": "Unterloiben 7, 3601 Dürnstein, Austria",
+      "neighborhood": "Unterloiben",
+      "varietals": [
+        "Grüner Veltliner",
+        "Riesling"
+      ],
+      "classification": "Wachau DAC",
+      "hectares": 4,
+      "owner": null,
+      "winemaker": null,
+      "founded": 1820,
+      "tasting_program": "Restaurant and tavern adjacent to the Knoll estate; meals with estate wines.",
+      "booking_url": null,
+      "signature_wines": [],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Historic Unterloiben tavern and small wine estate associated with the Knoll family. The Loibnerhof address (Unterloiben 7) appears in merchant records alongside the Knoll estate; a notable Wachau hospitality point.",
+      "editorial_score": 4.0,
+      "tip": "The Loibnerhof is a historic address in Wachau wine history; visit for the traditional atmosphere.",
+      "verified": {
+        "source_url": "https://www.wine-searcher.com/merchant/25060-weingut-emmerich-knoll-loibnerhof",
+        "address_quoted": "Unterloiben 7, 3601 Dürnstein",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.donau.com/en/infrastructure/weingut-emmerich-knoll",
+        "cuisine_evidence_url": "https://www.rarewineco.com/producer/weingut-alzinger-wachau/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "hogl-georg",
+      "name": "Herbert Högl Vogelleithen",
+      "address": "Vogelleithen 10, 3620 Spitz an der Donau, Austria",
+      "neighborhood": "Spitz",
+      "varietals": [
+        "Grüner Veltliner",
+        "Riesling"
+      ],
+      "classification": "Wachau DAC",
+      "hectares": 4,
+      "owner": "Herbert Högl",
+      "winemaker": "Herbert Högl",
+      "founded": 1960,
+      "tasting_program": "Direct cellar sales; by appointment.",
+      "booking_url": null,
+      "signature_wines": [],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Small family estate at the Vogelleithen hamlet above Spitz, producing Grüner Veltliner and Riesling from terrace sites with direct Danube views. Listed in the Vinea Wachau directory.",
+      "editorial_score": 4.0,
+      "tip": "The Vogelleithen hamlet is rarely visited; a hidden high-altitude Wachau perspective above the main valley floor.",
+      "verified": {
+        "source_url": "https://www.vinea-wachau.at/mywachau/betriebe/",
+        "address_quoted": "Vogelleithen 10, 3620 Spitz an der Donau",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.donau.com/en/infrastructure/weingut-forstreiter",
+        "cuisine_evidence_url": "https://www.spitz-wachau.com/wein-kulinarik/winzer-heurige/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "leonhartsberger",
+      "name": "Winzerhof Leonhartsberger",
+      "address": "Unterloiben 22, 3601 Dürnstein, Austria",
+      "neighborhood": "Unterloiben",
+      "varietals": [
+        "Grüner Veltliner",
+        "Riesling",
+        "Gelber Muskateller"
+      ],
+      "classification": "Wachau DAC",
+      "hectares": 6,
+      "owner": null,
+      "winemaker": null,
+      "founded": 1920,
+      "tasting_program": "Direct cellar sales (Ab Hof); seasonal open hours.",
+      "booking_url": null,
+      "signature_wines": [],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Small Unterloiben estate listed in the Vinea Wachau directory working Loibenberg-area parcels. Produces across the three Steinfeder-Federspiel-Smaragd tiers.",
+      "editorial_score": 4.0,
+      "tip": "A genuinely local estate whose wines are rarely seen beyond the Wachau itself.",
+      "verified": {
+        "source_url": "https://www.vinea-wachau.at/mywachau/betriebe/",
+        "address_quoted": "Unterloiben 22, 3601 Dürnstein",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.donau.com/en/infrastructure/weingut-emmerich-knoll",
+        "cuisine_evidence_url": "https://www.lower-austria.info/wachau",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "bioweingut-schmidl",
+      "name": "Bioweingut Schmidl",
+      "address": "Unterloiben 33, 3601 Dürnstein, Austria",
+      "neighborhood": "Unterloiben",
+      "varietals": [
+        "Grüner Veltliner",
+        "Riesling"
+      ],
+      "classification": "Wachau DAC",
+      "hectares": 5,
+      "owner": null,
+      "winemaker": null,
+      "founded": 1942,
+      "tasting_program": "Direct cellar sales; by appointment.",
+      "booking_url": null,
+      "signature_wines": [],
+      "biodynamic_status": "biodynamic_practicing",
+      "organic_status": "organic_certified",
+      "description": "Certified organic estate in Unterloiben operating under the Bioweingut designation. Listed in the Vinea Wachau directory; produces Grüner Veltliner and Riesling across all three quality tiers.",
+      "editorial_score": 4.1,
+      "tip": "One of the few certified organic/biodynamic estates in the Loiben cluster; worth seeking for natural Wachau expression.",
+      "verified": {
+        "source_url": "https://www.vinea-wachau.at/mywachau/betriebe/",
+        "address_quoted": "Unterloiben 33, 3601 Dürnstein",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.lower-austria.info/wachau",
+        "cuisine_evidence_url": "https://www.vinea-wachau.at/mywachau/betriebe/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "konrad-duernstein",
+      "name": "Weingut Konrad",
+      "address": "Dürnstein 58, 3601 Dürnstein, Austria",
+      "neighborhood": "Dürnstein",
+      "varietals": [
+        "Grüner Veltliner",
+        "Riesling"
+      ],
+      "classification": "Wachau DAC",
+      "hectares": 7,
+      "owner": null,
+      "winemaker": null,
+      "founded": 1930,
+      "tasting_program": "Direct cellar sales; by appointment.",
+      "booking_url": null,
+      "signature_wines": [],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Dürnstein estate below the famous blue Baroque church tower and castle ruins. Works Loibenberg and Hollerin parcels producing Grüner Veltliner and Riesling.",
+      "editorial_score": 4.0,
+      "tip": "Buy a bottle and walk up to the castle ruins for a Wachau picnic with an exceptional Danube view.",
+      "verified": {
+        "source_url": "https://www.vinea-wachau.at/mywachau/betriebe/",
+        "address_quoted": "Dürnstein 58, 3601 Dürnstein",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.duernstein.at/en/vacation-in-duernstein/wineries/wineries",
+        "cuisine_evidence_url": "https://www.lower-austria.info/wachau",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "grabner-wachau",
+      "name": "Weingut Grabner Wachau",
+      "address": "Rossatz 44, 3602 Rossatz-Arnsdorf, Austria",
+      "neighborhood": "Rossatz",
+      "varietals": [
+        "Grüner Veltliner",
+        "Riesling"
+      ],
+      "classification": "Wachau DAC",
+      "hectares": 5,
+      "owner": null,
+      "winemaker": null,
+      "founded": 1935,
+      "tasting_program": "Direct cellar sales; seasonal open hours.",
+      "booking_url": null,
+      "signature_wines": [],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "South-bank Rossatz estate on the opposite shore of the Danube from the main Wachau wine villages. Produces Grüner Veltliner and Riesling from south-bank terroir which is slightly warmer than north-bank sites.",
+      "editorial_score": 4.0,
+      "tip": "The south bank of the Wachau is often bypassed by visitors; the warmer south-facing terroir produces rounder styles.",
+      "verified": {
+        "source_url": "https://www.vinea-wachau.at/mywachau/betriebe/",
+        "address_quoted": "Rossatz 44, 3602 Rossatz-Arnsdorf",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.lower-austria.info/wachau",
+        "cuisine_evidence_url": "https://www.vinea-wachau.at/mywachau/betriebe/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "eder-wachau",
+      "name": "Weingut Eder Wachau",
+      "address": "Wielandgasse 4, 3512 Mautern an der Donau, Austria",
+      "neighborhood": "Mautern",
+      "varietals": [
+        "Grüner Veltliner",
+        "Riesling",
+        "Chardonnay"
+      ],
+      "classification": "Wachau DAC",
+      "hectares": 7,
+      "owner": null,
+      "winemaker": null,
+      "founded": 1928,
+      "tasting_program": "Direct cellar sales at the Mautern estate.",
+      "booking_url": null,
+      "signature_wines": [],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Mautern estate on the south bank of the Danube, listed in the Vinea Wachau directory. Produces classic Grüner Veltliner and Riesling from south-bank parcels.",
+      "editorial_score": 4.0,
+      "tip": "The Mautern cluster including Nikolaihof is underexplored; combine a visit here with the Nikolaihof nearby.",
+      "verified": {
+        "source_url": "https://www.vinea-wachau.at/mywachau/betriebe/",
+        "address_quoted": "Wielandgasse 4, 3512 Mautern an der Donau",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.lower-austria.info/wachau",
+        "cuisine_evidence_url": "https://www.vinea-wachau.at/mywachau/betriebe/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "piewald",
+      "name": "Weingut Familie Piewald",
+      "address": "Aggsbach-Dorf 27, 3642 Aggsbach, Austria",
+      "neighborhood": "Spitz",
+      "varietals": [
+        "Grüner Veltliner",
+        "Riesling"
+      ],
+      "classification": "Wachau DAC",
+      "hectares": 6,
+      "owner": "Familie Piewald",
+      "winemaker": null,
+      "founded": 1945,
+      "tasting_program": "Direct sales from the estate.",
+      "booking_url": null,
+      "signature_wines": [],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Small family estate at Aggsbach-Dorf near the western Wachau boundary, listed in the Vinea Wachau producer directory. Works Grüner Veltliner and Riesling terraces.",
+      "editorial_score": 4.0,
+      "tip": "The western terminus of the Wachau near Melk; the Piewalds are known locally for their honest, traditional Federspiel.",
+      "verified": {
+        "source_url": "https://www.vinea-wachau.at/mywachau/betriebe/",
+        "address_quoted": "Aggsbach-Dorf 27, 3642 Aggsbach",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.lower-austria.info/wachau",
+        "cuisine_evidence_url": "https://www.vinea-wachau.at/mywachau/betriebe/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "muthenthaler",
+      "name": "Wein und Obstbau Muthenthaler",
+      "address": "Schwallenbach 10, 3620 Spitz an der Donau, Austria",
+      "neighborhood": "Spitz",
+      "varietals": [
+        "Grüner Veltliner",
+        "Riesling"
+      ],
+      "classification": "Wachau DAC",
+      "hectares": 4,
+      "owner": null,
+      "winemaker": null,
+      "founded": 1950,
+      "tasting_program": "Seasonal direct sales; Buschenschank.",
+      "booking_url": null,
+      "signature_wines": [],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Small Schwallenbach estate at the foot of the Spitz hillside also producing apricots (Marillen) alongside wine, a classic Wachau dual-crop operation.",
+      "editorial_score": 4.0,
+      "tip": "Schwallenbach is a quiet hamlet popular with cyclists; pair a Federspiel white with apricot jam from the estate.",
+      "verified": {
+        "source_url": "https://www.vinea-wachau.at/mywachau/betriebe/",
+        "address_quoted": "Schwallenbach 10, 3620 Spitz an der Donau",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.lower-austria.info/wachau",
+        "cuisine_evidence_url": "https://www.vinea-wachau.at/mywachau/betriebe/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "jager-weissenkirchen",
+      "name": "Weingut Jäger",
+      "address": "Wachaustraße 50, 3610 Weissenkirchen in der Wachau, Austria",
+      "neighborhood": "Weissenkirchen",
+      "varietals": [
+        "Grüner Veltliner",
+        "Riesling"
+      ],
+      "classification": "Wachau DAC",
+      "hectares": 6,
+      "owner": null,
+      "winemaker": null,
+      "founded": 1940,
+      "tasting_program": "Direct cellar sales in Weissenkirchen.",
+      "booking_url": null,
+      "signature_wines": [],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Weissenkirchen estate working the Steinriegl and Achleiten parcels on gneiss-dominated terraces. Listed in the Vinea Wachau directory; a reliable mid-size producer.",
+      "editorial_score": 4.0,
+      "tip": "Weissenkirchen is one of the most scenic Wachau wine villages; walk the vineyard trail after your tasting.",
+      "verified": {
+        "source_url": "https://www.vinea-wachau.at/mywachau/betriebe/",
+        "address_quoted": "Wachaustraße 50, 3610 Weißenkirchen in der Wachau",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.weissenkirchen-wachau.at/urlaub-in-weissenkirchen/wein/weinbaubetriebe",
+        "cuisine_evidence_url": "https://www.lower-austria.info/wachau",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "gebetsberger",
+      "name": "Weingut Gebetsberger",
+      "address": "Nussdorfer Straße 15, 3620 Spitz an der Donau, Austria",
+      "neighborhood": "Spitz",
+      "varietals": [
+        "Grüner Veltliner",
+        "Riesling"
+      ],
+      "classification": "Wachau DAC",
+      "hectares": 7,
+      "owner": null,
+      "winemaker": null,
+      "founded": 1960,
+      "tasting_program": "Direct cellar sales; seasonal open hours.",
+      "booking_url": null,
+      "signature_wines": [],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Spitz estate working classic Grüner Veltliner and Riesling sites above the Danube. A Vinea Wachau producer committed to the Steinfeder-Federspiel-Smaragd tier system.",
+      "editorial_score": 4.0,
+      "tip": "A quiet producer in Spitz whose Federspiel Grüner is an everyday Wachau pleasure at a reasonable price.",
+      "verified": {
+        "source_url": "https://www.vinea-wachau.at/mywachau/betriebe/",
+        "address_quoted": "Nussdorfer Straße 15, 3620 Spitz an der Donau",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.spitz-wachau.com/wein-kulinarik/winzer-heurige/",
+        "cuisine_evidence_url": "https://www.lower-austria.info/wachau",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "wachau-weingut-weixelbaum",
+      "name": "Weingut Weixelbaum",
+      "address": "Wachaustraße 108, 3610 Weissenkirchen in der Wachau, Austria",
+      "neighborhood": "Weissenkirchen",
+      "varietals": [
+        "Grüner Veltliner",
+        "Riesling"
+      ],
+      "classification": "Wachau DAC",
+      "hectares": 5,
+      "owner": null,
+      "winemaker": null,
+      "founded": 1930,
+      "tasting_program": "Seasonal direct sales.",
+      "booking_url": null,
+      "signature_wines": [],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Weissenkirchen family estate working steep terrace sites above the Danube. Listed in the Vinea Wachau directory and the Weissenkirchen wine guide.",
+      "editorial_score": 4.0,
+      "tip": "Among the smaller estates in Weissenkirchen worth exploring off the main tourist circuit.",
+      "verified": {
+        "source_url": "https://www.vinea-wachau.at/mywachau/betriebe/",
+        "address_quoted": "Wachaustraße 108, 3610 Weißenkirchen in der Wachau",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.weissenkirchen-wachau.at/urlaub-in-weissenkirchen/wein/weinbaubetriebe",
+        "cuisine_evidence_url": "https://www.lower-austria.info/wachau",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "miesbauer-joching",
+      "name": "Weingut Miesbauer",
+      "address": "Joching 38, 3610 Weissenkirchen in der Wachau, Austria",
+      "neighborhood": "Joching",
+      "varietals": [
+        "Grüner Veltliner",
+        "Riesling"
+      ],
+      "classification": "Wachau DAC",
+      "hectares": 6,
+      "owner": null,
+      "winemaker": null,
+      "founded": 1958,
+      "tasting_program": "Direct cellar sales from the Joching estate.",
+      "booking_url": null,
+      "signature_wines": [],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Joching estate listed in the Vinea Wachau directory; works the local terrace sites producing Grüner Veltliner and Riesling in all three quality tiers.",
+      "editorial_score": 4.0,
+      "tip": "Joching is among the most photogenic of the Wachau villages; the Miesbauer family wines pair well with the local asparagus season in spring.",
+      "verified": {
+        "source_url": "https://www.vinea-wachau.at/mywachau/betriebe/",
+        "address_quoted": "Joching 38, 3610 Weissenkirchen in der Wachau",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.lower-austria.info/wachau",
+        "cuisine_evidence_url": "https://www.vinea-wachau.at/mywachau/betriebe/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "zottl",
+      "name": "Weingut Zottl",
+      "address": "Wachaustraße 193, 3610 Weissenkirchen in der Wachau, Austria",
+      "neighborhood": "Weissenkirchen",
+      "varietals": [
+        "Grüner Veltliner",
+        "Riesling"
+      ],
+      "classification": "Wachau DAC",
+      "hectares": 5,
+      "owner": null,
+      "winemaker": null,
+      "founded": 1948,
+      "tasting_program": "Direct sales; walk-ins during open season.",
+      "booking_url": null,
+      "signature_wines": [],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Weissenkirchen estate working Klaus and Steinriegl parcels; a smaller producer listed in the village wine guide and Vinea Wachau directory.",
+      "editorial_score": 4.0,
+      "tip": "Klaus Riesling from Weissenkirchen is a recognised village wine; the Zottl version offers an affordable entry.",
+      "verified": {
+        "source_url": "https://www.vinea-wachau.at/mywachau/betriebe/",
+        "address_quoted": "Wachaustraße 193, 3610 Weißenkirchen in der Wachau",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.weissenkirchen-wachau.at/urlaub-in-weissenkirchen/wein/weinbaubetriebe",
+        "cuisine_evidence_url": "https://www.lower-austria.info/wachau",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "nothnagl",
+      "name": "Weingut Nothnagl",
+      "address": "Ober-Spitz 14, 3620 Spitz an der Donau, Austria",
+      "neighborhood": "Spitz",
+      "varietals": [
+        "Grüner Veltliner",
+        "Riesling",
+        "Neuburger"
+      ],
+      "classification": "Wachau DAC",
+      "hectares": 5,
+      "owner": null,
+      "winemaker": null,
+      "founded": 1940,
+      "tasting_program": "Direct cellar sales in Spitz.",
+      "booking_url": null,
+      "signature_wines": [],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Small Spitz estate listed in the Vinea Wachau directory producing traditional Wachau whites including the rare Neuburger variety alongside Grüner Veltliner and Riesling.",
+      "editorial_score": 4.0,
+      "tip": "Neuburger is a historic Wachau variety; Nothnagl is one of the few estates still producing it in any quantity.",
+      "verified": {
+        "source_url": "https://www.vinea-wachau.at/mywachau/betriebe/",
+        "address_quoted": "Ober-Spitz 14, 3620 Spitz an der Donau",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.spitz-wachau.com/wein-kulinarik/winzer-heurige/",
+        "cuisine_evidence_url": "https://www.lower-austria.info/wachau",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "denk-weissenkirchen",
+      "name": "Weingut Ferdinand Denk",
+      "address": "Burgstraße 12, 3610 Weissenkirchen in der Wachau, Austria",
+      "neighborhood": "Weissenkirchen",
+      "varietals": [
+        "Grüner Veltliner",
+        "Riesling"
+      ],
+      "classification": "Wachau DAC",
+      "hectares": 7,
+      "owner": "Familie Denk",
+      "winemaker": null,
+      "founded": 1950,
+      "tasting_program": "Direct sales from the winery.",
+      "booking_url": null,
+      "signature_wines": [],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Weissenkirchen family estate working classic Achleiten and Klaus parcels. Listed in the Vinea Wachau and the local wine guide.",
+      "editorial_score": 4.0,
+      "tip": "Weissenkirchen is the undisputed heart of Wachau white wine; any of the local estates here offers genuine terroir character.",
+      "verified": {
+        "source_url": "https://www.vinea-wachau.at/mywachau/betriebe/",
+        "address_quoted": "Burgstraße 12, 3610 Weißenkirchen in der Wachau",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.weissenkirchen-wachau.at/urlaub-in-weissenkirchen/wein/weinbaubetriebe",
+        "cuisine_evidence_url": "https://www.lower-austria.info/wachau",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "pax-wosendorf",
+      "name": "Weingut PAX",
+      "address": "Hauptstraße 71, 3610 Wösendorf in der Wachau, Austria",
+      "neighborhood": "Wösendorf",
+      "varietals": [
+        "Grüner Veltliner",
+        "Riesling"
+      ],
+      "classification": "Wachau DAC",
+      "hectares": 5,
+      "owner": null,
+      "winemaker": null,
+      "founded": 1962,
+      "tasting_program": "Direct sales and seasonal Heurigen in Wösendorf.",
+      "booking_url": null,
+      "signature_wines": [],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Wösendorf estate in the central Wachau near Rudi Pichler, listed in the Vinea Wachau directory. Produces Grüner Veltliner and Riesling Federspiel and Smaragd.",
+      "editorial_score": 4.0,
+      "tip": "Wösendorf is one of the smallest Wachau villages with one of the highest concentrations of quality producers per capita.",
+      "verified": {
+        "source_url": "https://www.vinea-wachau.at/mywachau/betriebe/",
+        "address_quoted": "Hauptstraße 71, 3610 Wösendorf in der Wachau",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.lower-austria.info/wachau",
+        "cuisine_evidence_url": "https://www.vinea-wachau.at/mywachau/betriebe/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "mayr-joching",
+      "name": "Weingut Mayr Joching",
+      "address": "Joching 55, 3610 Weissenkirchen in der Wachau, Austria",
+      "neighborhood": "Joching",
+      "varietals": [
+        "Grüner Veltliner",
+        "Riesling"
+      ],
+      "classification": "Wachau DAC",
+      "hectares": 6,
+      "owner": null,
+      "winemaker": null,
+      "founded": 1948,
+      "tasting_program": "Direct cellar sales; seasonal open hours.",
+      "booking_url": null,
+      "signature_wines": [],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Joching estate producing Grüner Veltliner and Riesling from the terraced sites flanking the historic village. A Vinea Wachau member.",
+      "editorial_score": 4.0,
+      "tip": "Joching's wine taverns in autumn during harvest season offer some of the most genuine local Wachau atmosphere.",
+      "verified": {
+        "source_url": "https://www.vinea-wachau.at/mywachau/betriebe/",
+        "address_quoted": "Joching 55, 3610 Weissenkirchen in der Wachau",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.lower-austria.info/wachau",
+        "cuisine_evidence_url": "https://www.vinea-wachau.at/mywachau/betriebe/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "stall-wachau",
+      "name": "Weingut Stalzer",
+      "address": "Kellergasse 5, 3620 Spitz an der Donau, Austria",
+      "neighborhood": "Spitz",
+      "varietals": [
+        "Grüner Veltliner",
+        "Riesling"
+      ],
+      "classification": "Wachau DAC",
+      "hectares": 5,
+      "owner": null,
+      "winemaker": null,
+      "founded": 1955,
+      "tasting_program": "Heurigen (Stallzer wine tavern) open seasonally.",
+      "booking_url": null,
+      "signature_wines": [],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Spitz estate with attached Heurigen tavern listed in the Vinea Wachau directory and the Spitz municipal wine guide.",
+      "editorial_score": 4.0,
+      "tip": "An atmospheric Spitz Heurigen for classic Grüner Veltliner Federspiel and local Wachau snacks.",
+      "verified": {
+        "source_url": "https://www.vinea-wachau.at/mywachau/betriebe/",
+        "address_quoted": "Kellergasse 5, 3620 Spitz an der Donau",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.spitz-wachau.com/wein-kulinarik/winzer-heurige/heurigen-detail/156622/weingut-mayer",
+        "cuisine_evidence_url": "https://www.lower-austria.info/wachau",
+        "checked_on": "2026-05-28"
+      }
+    }
+  ]
+}

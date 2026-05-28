@@ -1,0 +1,164 @@
+{
+  "wine_festivals": [
+    {
+      "slug": "wachau-gourmet-festival",
+      "name": "Wachau Gourmet Festival",
+      "recurrence_pattern": "annual, April to May",
+      "start_month": "April",
+      "duration": "3 to 4 days",
+      "host_organization": "Wachau Tourismus and Vinea Wachau member producers",
+      "featured_producers": ["domane-wachau", "nikolaihof", "fx-pichler", "emmerich-knoll"],
+      "ticket_required": true,
+      "description": "The Wachau Gourmet Festival is the region's flagship wine-and-food event, staged each spring at Loibnerhof and Schloss Durnstein. Visiting chefs collaborate with Wachau producers on multi-course dinners that pair Smaragd and Federspiel wines with seasonal dishes. A cellar walk programme allows day visitors to taste across a range of Vinea Wachau member estates during the festival period.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.donau.com/en/wachau-nibelungengau-kremstal",
+        "address_quoted": "Loiben and Durnstein, Wachau",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.vinea-wachau.at/en/",
+        "cuisine_evidence_url": "https://www.donau.com/en/wachau-nibelungengau-kremstal",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "vinea-wachau-open-cellar-days",
+      "name": "Vinea Wachau Open-Cellar Days",
+      "recurrence_pattern": "annual, October",
+      "start_month": "October",
+      "duration": "2 weekends",
+      "host_organization": "Vinea Wachau Nobilis Districtus",
+      "featured_producers": ["fx-pichler", "emmerich-knoll", "prager", "hirtzberger", "domane-wachau"],
+      "ticket_required": false,
+      "description": "The Vinea Wachau association opens its member cellars each October during the harvest season, inviting visitors to taste directly from tank and barrel at estates across the valley. The event spans Mautern and Durnstein in the east through to Spitz and Weissenkirchen in the west, covering the full geographic range of the appellation. Entry is typically included with a glass purchase at each estate.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.vinea-wachau.at/en/",
+        "address_quoted": "Wachau, Niederosterreich",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.donau.com/en/wachau-nibelungengau-kremstal",
+        "cuisine_evidence_url": "https://www.donau.com/en/wachau-nibelungengau-kremstal",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "weinherbst-niederosterreich-wachau",
+      "name": "Weinherbst Niederosterreich (Lower Austria Wine Autumn)",
+      "recurrence_pattern": "annual, September to October",
+      "start_month": "September",
+      "duration": "6 weeks",
+      "host_organization": "Niederosterreich Tourismus and wine producer associations of Lower Austria",
+      "featured_producers": ["domane-wachau", "nikolaihof", "emmerich-knoll"],
+      "ticket_required": false,
+      "description": "The Lower Austria Wine Autumn is a region-wide celebration running from September through October, encompassing harvest events, open cellars, and wine markets across all of Lower Austria's wine zones including the Wachau, Kremstal, Kamptal, and Wagram. Participating producers offer tastings, vineyard walks, and harvest experiences. The Wachau portion is particularly popular, set against the backdrop of autumn vine colours on the Danube cliffs.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.vinea-wachau.at/en/",
+        "address_quoted": "Niederosterreich, Austria",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.donau.com/en/wachau-nibelungengau-kremstal",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Wachau_wine_region",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "marillenblute-apricot-blossom-festival",
+      "name": "Marillenblute (Apricot Blossom Festival)",
+      "recurrence_pattern": "annual, April",
+      "start_month": "April",
+      "duration": "2 to 3 weeks (blossom-duration dependent)",
+      "host_organization": "Wachau Tourismus and regional municipalities",
+      "featured_producers": ["domane-wachau", "nikolaihof"],
+      "ticket_required": false,
+      "description": "The apricot blossom season in the Wachau transforms the valley into a pink-white floral landscape each April, drawing visitors from Vienna along the Danube by boat and bicycle. Wine cellars open for tasting of the newest Steinfeder and Federspiel releases alongside seasonal food menus featuring the valley's apricot produce. The festival atmosphere extends through villages from Krems to Spitz over several weekends.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.donau.com/en/wachau-nibelungengau-kremstal",
+        "address_quoted": "Wachau, Niederosterreich",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.donau.com/en/wachau-nibelungengau-kremstal",
+        "cuisine_evidence_url": "https://www.donau.com/en/wachau-nibelungengau-kremstal",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "donau-in-flammen-danube-in-flames",
+      "name": "Donau in Flammen (Danube in Flames)",
+      "recurrence_pattern": "annual, July to August (multiple nights across different towns)",
+      "start_month": "July",
+      "duration": "Multiple single-night events across the summer",
+      "host_organization": "Regional municipalities of the Wachau and Nibelungengau",
+      "featured_producers": ["domane-wachau"],
+      "ticket_required": true,
+      "description": "Donau in Flammen is a summer fireworks and illumination series staged on the Danube at successive riverside locations from Krems to Ybbs across multiple nights throughout July and August. Cruise boats and riverside wine stands serve Wachau wines during the evening events, which combine pyrotechnic displays with illuminated castles and abbeys along the river. The Spitz and Durnstein staging nights are the most wine-centric, with producers setting up stands on the riverside promenade.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.donau.com/en/wachau-nibelungengau-kremstal",
+        "address_quoted": "Wachau and Nibelungengau, Niederosterreich",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.domaene-wachau.at/en/",
+        "cuisine_evidence_url": "https://www.donau.com/en/wachau-nibelungengau-kremstal",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "krems-weinstadt-days",
+      "name": "Krems Weinstadt-Tage (Krems Wine City Days)",
+      "recurrence_pattern": "annual, late May to early June",
+      "start_month": "May",
+      "duration": "3 to 4 days",
+      "host_organization": "Stadt Krems and Kremstal DAC producers association",
+      "featured_producers": ["domane-wachau"],
+      "ticket_required": false,
+      "description": "Krems, at the eastern gateway of the Wachau, hosts an annual wine festival in late May to early June celebrating both Kremstal DAC and Wachau wines. The historic inner city becomes an open-air tasting room with producers setting up along the Stadtgraben and in the Kunstmeile arts district. Wachau producers participate alongside their Kremstal counterparts, making this a useful entry point for visitors approaching from Vienna.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.krems.at/",
+        "address_quoted": "Krems an der Donau, Niederosterreich",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.donau.com/en/wachau-nibelungengau-kremstal",
+        "cuisine_evidence_url": "https://www.donau.com/en/wachau-nibelungengau-kremstal",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "welt-der-weine-vienna",
+      "name": "Welt der Weine (Vienna Wine Fair)",
+      "recurrence_pattern": "annual, autumn (September to November, date varies)",
+      "start_month": "October",
+      "duration": "2 to 3 days",
+      "host_organization": "Wein und Co and participating Austrian importers",
+      "featured_producers": ["domane-wachau", "fx-pichler", "emmerich-knoll"],
+      "ticket_required": true,
+      "description": "Welt der Weine is Vienna's major annual wine fair, bringing together Austrian producers including prominent Wachau estates alongside international producers. The fair is held in Vienna and serves as the primary Austrian wine trade event of the autumn, where Wachau producers showcase their new Smaragd releases and back-vintage library wines to the trade, press, and public. The event provides the most concentrated opportunity outside the valley to taste a broad range of Wachau producers in one session.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.weltderweine.at/",
+        "address_quoted": "Vienna, Austria",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.domaene-wachau.at/en/",
+        "cuisine_evidence_url": "https://www.donau.com/en/wachau-nibelungengau-kremstal",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "heuriger-season-opening-martinmas",
+      "name": "Heuriger Season and Martinmas Opening, November",
+      "recurrence_pattern": "annual, November 11 (Saint Martin's Day) marks the traditional new-wine opening",
+      "start_month": "November",
+      "duration": "1 day (Saint Martin's Day) to a week of events",
+      "host_organization": "Individual Wachau Heuriger (producer taverns) and village tourism offices",
+      "featured_producers": ["domane-wachau"],
+      "ticket_required": false,
+      "description": "Saint Martin's Day (November 11) marks the traditional opening of the new wine season across Austrian wine regions including the Wachau. Heuriger (producer taverns serving the estate's own wine) ceremonially open their new vintage wines, and some villages hold public St. Martin's celebrations with Gansl (roast goose) dinners paired with the newest Steinfeder and Federspiel releases. The tradition is deeply embedded in the Lower Austrian calendar.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.donau.com/en/wachau-nibelungengau-kremstal",
+        "address_quoted": "Wachau, Niederosterreich",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.vinea-wachau.at/en/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Heuriger",
+        "checked_on": "2026-05-28"
+      }
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "day_trips_wine": [
+    {
+      "slug": "kremstal-dac-day-trip",
+      "name": "Kremstal DAC: Krems-Stein and the Danube confluence",
+      "distance_km": 10,
+      "travel_time": "15 minutes by car, 30 minutes by bicycle from Durnstein",
+      "signature_pours": ["Kremstal DAC Gruner Veltliner", "Kremstal DAC Riesling", "Loisium Wine World tastings"],
+      "recommended_vineyards": [],
+      "description": "The Kremstal DAC appellation begins at the eastern boundary of the Wachau and centres on the city of Krems and the Stein quarter. Kremstal Riesling tends toward rounder fruit than Wachau, with slightly warmer growing conditions at lower elevation. The Loisium Wine World in Langenlois (just north of Krems) offers architecture, a subterranean cellar tour, and a comprehensive wine spa combining the regional visit with wellness. Krems-Stein's old town wine bars and the Kunstmeile galleries make this a half-day culture-and-wine combination.",
+      "travel_tip": "Take the Westbahn regional train from Vienna to Krems and rent a bicycle at the station to reach Wachau villages in either direction; no car required.",
+      "verified": {
+        "source_url": "https://www.weinausoesterreich.at/en/wine/kremstal/",
+        "address_quoted": "Krems an der Donau, Niederosterreich",
+        "open_status": "open",
+        "open_evidence_url": "https://www.loisium.com/en/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Kremstal",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "kamptal-dac-langenlois-day-trip",
+      "name": "Kamptal DAC: Langenlois and Schloss Gobelsburg",
+      "distance_km": 25,
+      "travel_time": "30 minutes by car from Krems",
+      "signature_pours": ["Kamptal DAC Gruner Veltliner Reserve", "Kamptal DAC Riesling", "Schloss Gobelsburg Cistercian-method wines"],
+      "recommended_vineyards": [],
+      "description": "The Kamptal DAC, centred on Langenlois and the Kamp river valley, is home to Schloss Gobelsburg (the Cistercian-heritage estate with a historic cellar), Weingut Bründlmayer, and a cluster of ambitious younger producers. Kamptal Gruner Veltliner has a different character to Wachau, grown on loess and crystalline soils on gentler slopes, producing richer, more aromatic wines. Langenlois town itself has a lively wine-bar quarter and the Loisium hotel and spa complex.",
+      "travel_tip": "Schloss Gobelsburg and Bründlmayer both accept visitors; book ahead for the cellar tour at Gobelsburg, which passes through the historic Cistercian vaulted cellars.",
+      "verified": {
+        "source_url": "https://www.weinausoesterreich.at/en/wine/kamptal/",
+        "address_quoted": "Langenlois, Kamptal, Niederosterreich",
+        "open_status": "open",
+        "open_evidence_url": "https://www.gobelsburg.at/en/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Kamptal",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "wagram-dac-bernhard-ott-day-trip",
+      "name": "Wagram DAC: Roter Veltliner and Bernhard Ott",
+      "distance_km": 40,
+      "travel_time": "45 minutes by car from Krems",
+      "signature_pours": ["Wagram DAC Gruner Veltliner", "Roter Veltliner (Wagram specialty)", "Feuersbrunn village wines"],
+      "recommended_vineyards": [],
+      "description": "The Wagram is a plateau appellation overlooking the Danube to the west of Vienna, best known for its loess-rich soils and as the home of Bernhard Ott, whose Wagram Gruner Veltliner is a benchmark for the appellation. The region also grows Roter Veltliner, a distinct pink-skinned variety producing full-bodied whites with almond and herb notes, largely unique to this corner of Lower Austria. A contrast to the granite-and-gneiss terroir of the Wachau.",
+      "travel_tip": "Feuersbrunn village is the Wagram's most concentrated tasting cluster; the local Heuriger circuit opens on weekends and provides an authentic low-key alternative to the tourist-heavy Wachau.",
+      "verified": {
+        "source_url": "https://www.weinausoesterreich.at/en/wine/wagram/",
+        "address_quoted": "Wagram, Niederosterreich",
+        "open_status": "open",
+        "open_evidence_url": "https://www.weingut-ott.at/en/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Wagram_(wine_region)",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "stift-gottweig-monastery-day-trip",
+      "name": "Stift Gottweig: Benedictine monastery vineyard",
+      "distance_km": 15,
+      "travel_time": "20 minutes by car from Krems",
+      "signature_pours": ["Stift Gottweig Gottweiger Berg Riesling", "Stift Gottweig Gruner Veltliner"],
+      "recommended_vineyards": [],
+      "description": "Stift Gottweig is a Baroque Benedictine monastery founded in 1083 that crowns a hill overlooking the eastern Wachau and the Danube valley. The monastery still operates a wine estate on its south-facing terraced slopes, producing Riesling and Gruner Veltliner sold at the cellar shop. The monastery tour includes the historic library, the Kaisertreppe imperial staircase, and a panoramic view across the Wachau and Kremstal. The abbey restaurant serves regional food with the monastery's own wines.",
+      "travel_tip": "Visit in the morning before the coach-tour crowds arrive; the abbey restaurant terrace at lunchtime with a glass of Gottweiger Berg Riesling is a Wachau highlight.",
+      "verified": {
+        "source_url": "https://www.stiftgottweig.at/en/",
+        "address_quoted": "Stift Gottweig, 3511 Furth bei Gottweig",
+        "open_status": "open",
+        "open_evidence_url": "https://www.stiftgottweig.at/en/wine/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Gottweig_Abbey",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "melk-abbey-day-trip",
+      "name": "Melk Abbey: western gateway of the Wachau",
+      "distance_km": 35,
+      "travel_time": "35 minutes by car from Krems, or Danube cruise west from Durnstein",
+      "signature_pours": ["Stift Melk Wachau Gruner Veltliner", "Stift Melk Wachau Riesling"],
+      "recommended_vineyards": [],
+      "description": "Stift Melk, the Benedictine monastery perched dramatically on a promontory above the western end of the Wachau, is one of the most visited sites in Austria. The monastery maintains vineyard plots on the terraced slopes below the abbey and produces Wachau DAC wines sold in the monastery shop. A visit combines the UNESCO World Heritage monastery tour with tasting from their own Wachau hillside vines, providing a direct link between the Wachau's monastic heritage and its present-day wine production.",
+      "travel_tip": "The Danube cruise from Durnstein to Melk (westward against current, about 2.5 hours) arrives in time for an afternoon abbey visit and a glass of Stift Melk wine at the courtyard cafe.",
+      "verified": {
+        "source_url": "https://www.stiftmelk.at/en/",
+        "address_quoted": "Abt-Berthold-Dietmayr-Strasse 1, 3390 Melk",
+        "open_status": "open",
+        "open_evidence_url": "https://www.stiftmelk.at/en/winery/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Melk_Abbey",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "vienna-heuriger-day-trip",
+      "name": "Vienna: Heuriger wine taverns and the Wien DAC",
+      "distance_km": 80,
+      "travel_time": "1 hour by train from Krems (direct Westbahn connection)",
+      "signature_pours": ["Wiener Gemischter Satz DAC", "Nussberg Riesling", "Heuriger young Gruner Veltliner from the tap"],
+      "recommended_vineyards": [],
+      "description": "Vienna is the only capital city in the world with significant commercial vineyards within its municipal boundaries. The Wien DAC Wiener Gemischter Satz (a field blend of multiple white varieties grown and fermented together) is a unique local wine style, and the Heuriger wine-tavern tradition of Vienna's wine villages (Grinzing, Nussdorf, Gumpoldskirchen fringe) is a distinct wine-cultural experience from the Wachau's cellar-door visits. Vienna is also the hub for Austrian wine trade events and the Viennese Gemischter Satz Renaissance of the 2010s.",
+      "travel_tip": "The D-Tram from central Vienna to Grinzing gives easy access to the Heuriger cluster in the northern vineyards without a car; combine with a dinner booking at one of the listed Heuriger for a full evening.",
+      "cross_site_ref": "austria/vienna",
+      "verified": {
+        "source_url": "https://www.weinausoesterreich.at/en/wine/wien/",
+        "address_quoted": "Vienna, Austria",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wien.gv.at/english/leisure/gastronomy/heuriger.html",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Heuriger",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "burgenland-rust-ausbruch-day-trip",
+      "name": "Burgenland: Blaufränkisch and Ruster Ausbruch",
+      "distance_km": 130,
+      "travel_time": "1 hour 30 minutes by car from Krems via Vienna",
+      "signature_pours": ["Blaufränkisch Mittelburgenland DAC", "Ruster Ausbruch (dessert wine)", "Zweigelt"],
+      "recommended_vineyards": [],
+      "description": "Burgenland, to the southeast of Vienna on the Hungarian border, is Austria's principal red wine region and home to the Blaufränkisch grape, which produces structured, spiced reds in the Mittelburgenland DAC. The town of Rust on the Neusiedlersee produces Ruster Ausbruch, one of Austria's historic noble-sweet wines made from botrytised grapes. A day trip contrasts the Wachau's white-wine focus with Austrian red wine and dessert wine production.",
+      "travel_tip": "Combine the Burgenland visit with a stopover in Vienna; the train connection from Vienna Praterstern to Neusiedl am See takes 45 minutes and provides access to the lake-region wine villages.",
+      "verified": {
+        "source_url": "https://www.weinausoesterreich.at/en/wine/burgenland/",
+        "address_quoted": "Burgenland, Austria",
+        "open_status": "open",
+        "open_evidence_url": "https://www.pannobile.at/en/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Burgenland_wine_region",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "mostviertel-cider-perry-contrast",
+      "name": "Mostviertel: cider, perry, and pear orchards",
+      "distance_km": 50,
+      "travel_time": "50 minutes by car from Krems heading northwest",
+      "signature_pours": ["Mostviertler Birnenmost (pear cider)", "Apfelmost (apple cider)", "Mostviertel pear schnapps"],
+      "recommended_vineyards": [],
+      "description": "The Mostviertel (Most = cider/must country) is a hilly region immediately north of the Wachau where pear and apple orchards dominate rather than vines. Local Mostviertler Birnenmost (fermented pear juice) is a regional specialty with a long tradition of farmhouse production. A half-day trip to a Mostheuriger (cider tavern) in the Amstetten or Waidhofen area provides a vivid contrast to the Wachau wine experience, showcasing the diversity of Austrian fermentation culture within a small geographic radius.",
+      "travel_tip": "Look for farms displaying the green pine branch (Buschen) outside, which indicates the Heuriger/Mostheuriger is currently open for direct sales and tastings.",
+      "verified": {
+        "source_url": "https://www.mostviertel.at/en/",
+        "address_quoted": "Mostviertel, Niederosterreich",
+        "open_status": "open",
+        "open_evidence_url": "https://www.niederoesterreich.at/mostviertel",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Mostviertel",
+        "checked_on": "2026-05-28"
+      }
+    }
+  ]
+}

@@ -1,0 +1,273 @@
+{
+  "dietary": {
+    "biodynamic": [
+      {
+        "slug": "nikolaihof-biodynamic",
+        "name": "Nikolaihof",
+        "address": "Nikolaigasse 3, 3512 Mautern an der Donau",
+        "neighborhood": "Mautern",
+        "varietals": ["Gruner Veltliner", "Riesling"],
+        "classification": "Wachau DAC",
+        "biodynamic_status": "demeter_certified",
+        "organic_status": "demeter",
+        "certifier": "Demeter International",
+        "certification_basis": "Demeter-certified since 1971; estate website and Demeter International registry list Nikolaihof as a certified biodynamic producer. The Saahs family documents the 1971 start of biodynamic farming on the estate history page.",
+        "description": "Austria's oldest wine estate with documented history to 985 AD, Nikolaihof in Mautern is also Austria's earliest Demeter-certified biodynamic wine producer. The Saahs family farms all vineyard plots without synthetic inputs, following the biodynamic agricultural calendar.",
+        "editorial_score": 4.8,
+        "verified": {
+          "source_url": "https://www.nikolaihof.at/en/",
+          "address_quoted": "Nikolaigasse 3, 3512 Mautern an der Donau",
+          "open_status": "open",
+          "open_evidence_url": "https://www.winesearcher.com/find/nikolaihof+wachau",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Nikolaihof_Wachau",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "veyder-malberg-biodynamic",
+        "name": "Weingut Veyder-Malberg",
+        "address": "Spitz an der Donau, 3620 Spitz, Wachau",
+        "neighborhood": "Spitz",
+        "varietals": ["Gruner Veltliner", "Riesling"],
+        "classification": "Wachau DAC",
+        "biodynamic_status": "biodynamic_practicing",
+        "organic_status": "none",
+        "certifier": "Practices biodynamic agriculture; external certification status not confirmed on current producer website. Do not apply Demeter or other certifier without current verification.",
+        "certification_basis": "Producer website and importer (Louis/Dressner Selections) describe biodynamic farming practices. Current formal certification status should be confirmed directly with the estate.",
+        "description": "Peter Veyder-Malberg farms steep terraced parcels above Spitz using biodynamic principles, with a focus on site purity and minimal cellar intervention. Imported to the US by Louis/Dressner Selections, who document the biodynamic approach.",
+        "editorial_score": 4.6,
+        "verified": {
+          "source_url": "https://www.veyder-malberg.at/en/",
+          "address_quoted": "Spitz an der Donau",
+          "open_status": "open",
+          "open_evidence_url": "https://www.louisdressner.com/producers/veyder-malberg/",
+          "cuisine_evidence_url": "https://www.weinausoesterreich.at/en/wine/wachau/",
+          "checked_on": "2026-05-28"
+        }
+      }
+    ],
+    "organic": [
+      {
+        "slug": "domane-wachau-organic-range",
+        "name": "Domane Wachau (organic vineyard programme)",
+        "address": "Durnstein 107, 3601 Durnstein, Wachau",
+        "neighborhood": "Durnstein",
+        "varietals": ["Gruner Veltliner", "Riesling"],
+        "classification": "Wachau DAC",
+        "organic_status": "organic_certified",
+        "certifier": "AMA Biosiegel (Austria Bio Garantie) or Bio Austria; verify current label for specific certifier as the cooperative works with multiple certification bodies depending on vineyard plot",
+        "certification_basis": "Domane Wachau documents ongoing conversion of member vineyard plots to certified organic management. The cooperative's annual report and wine labels indicate organic certification for specific cuvees from certified plots.",
+        "description": "The Domane Wachau cooperative has been progressively converting member vineyard plots to certified organic management and producing specific cuvees from these plots under organic certification. Current certification body and specific cuvees should be confirmed on the estate website.",
+        "editorial_score": 4.2,
+        "verified": {
+          "source_url": "https://www.domaene-wachau.at/en/",
+          "address_quoted": "Durnstein 107, 3601 Durnstein",
+          "open_status": "open",
+          "open_evidence_url": "https://www.winesearcher.com/find/domane+wachau+organic",
+          "cuisine_evidence_url": "https://www.weinausoesterreich.at/en/wine/wachau/",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "weingut-lagler-organic",
+        "name": "Weingut Lagler (organic)",
+        "address": "Joching 37, 3610 Joching, Wachau",
+        "neighborhood": "Joching",
+        "varietals": ["Gruner Veltliner", "Riesling"],
+        "classification": "Wachau DAC",
+        "organic_status": "organic_certified",
+        "certifier": "Bio Austria; noted in importer and trade documentation as a Bio Austria certified producer. Verify current certification status on producer website.",
+        "certification_basis": "Weingut Lagler is referenced in Austrian natural wine trade documentation as an organic-certified Wachau producer. Specific certifier should be verified directly with the estate.",
+        "description": "Karl Lagler in Joching farms his terraced Wachau plots under organic certification and uses minimal-intervention methods in the cellar. A small-production estate whose wines are primarily found in the Austrian domestic market.",
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://www.winesearcher.com/find/lagler+wachau",
+          "address_quoted": "Joching 37, 3610 Joching",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Wachau_wine_region",
+          "cuisine_evidence_url": "https://www.weinausoesterreich.at/en/wine/wachau/",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "weingut-nikolaihof-organic",
+        "name": "Nikolaihof (Demeter and organic)",
+        "address": "Nikolaigasse 3, 3512 Mautern an der Donau",
+        "neighborhood": "Mautern",
+        "varietals": ["Gruner Veltliner", "Riesling"],
+        "classification": "Wachau DAC",
+        "organic_status": "demeter",
+        "certifier": "Demeter International",
+        "certification_basis": "Demeter certification encompasses organic farming requirements; Nikolaihof is certified by Demeter International and meets organic standards as a subset of the biodynamic certification. Producer website confirms Demeter status.",
+        "description": "Nikolaihof's Demeter certification covers both the biodynamic and organic dimensions of its farming. The estate operates without any synthetic pesticides or fertilisers and has maintained Demeter-certified biodynamic farming continuously since 1971.",
+        "editorial_score": 4.8,
+        "verified": {
+          "source_url": "https://www.nikolaihof.at/en/",
+          "address_quoted": "Nikolaigasse 3, 3512 Mautern an der Donau",
+          "open_status": "open",
+          "open_evidence_url": "https://www.winesearcher.com/find/nikolaihof+wachau",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Nikolaihof_Wachau",
+          "checked_on": "2026-05-28"
+        }
+      }
+    ],
+    "natural": [
+      {
+        "slug": "veyder-malberg-natural",
+        "name": "Weingut Veyder-Malberg (natural wine)",
+        "address": "Spitz an der Donau, 3620 Spitz, Wachau",
+        "neighborhood": "Spitz",
+        "varietals": ["Gruner Veltliner", "Riesling"],
+        "classification": "Wachau DAC",
+        "natural_wine": true,
+        "description": "Veyder-Malberg's minimal-intervention approach in both vineyard (biodynamic practices) and cellar (no additions beyond minimal sulfur at bottling) places his wines in the natural wine category as understood by importers and natural wine bars internationally. Listed on Raisin.app and stocked by natural wine specialists.",
+        "editorial_score": 4.6,
+        "verified": {
+          "source_url": "https://www.veyder-malberg.at/en/",
+          "address_quoted": "Spitz an der Donau",
+          "open_status": "open",
+          "open_evidence_url": "https://www.louisdressner.com/producers/veyder-malberg/",
+          "cuisine_evidence_url": "https://www.weinausoesterreich.at/en/wine/wachau/",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "weingut-lagler-natural",
+        "name": "Weingut Lagler (natural wine)",
+        "address": "Joching 37, 3610 Joching, Wachau",
+        "neighborhood": "Joching",
+        "varietals": ["Gruner Veltliner", "Riesling"],
+        "classification": "Wachau DAC",
+        "natural_wine": true,
+        "description": "Karl Lagler's Joching estate uses organic-certified farming and minimal-intervention winemaking. His wines are distributed by natural wine specialist importers. The approach focuses on site transparency and avoids additives beyond minimal sulfur.",
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://www.winesearcher.com/find/lagler+wachau",
+          "address_quoted": "Joching 37, 3610 Joching",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Wachau_wine_region",
+          "cuisine_evidence_url": "https://www.weinausoesterreich.at/en/wine/wachau/",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "nikolaihof-vinothek-natural",
+        "name": "Nikolaihof Vinothek (aged natural wine library)",
+        "address": "Nikolaigasse 3, 3512 Mautern an der Donau",
+        "neighborhood": "Mautern",
+        "varietals": ["Gruner Veltliner", "Riesling"],
+        "classification": "Wachau DAC",
+        "natural_wine": true,
+        "description": "Nikolaihof's Vinothek library wines represent aged expressions of their Demeter-certified biodynamic Wachau wines. The Saahs family holds back a portion of each vintage for extended ageing before release, producing some of the most distinctive low-intervention aged whites in the Austrian natural wine context.",
+        "editorial_score": 4.8,
+        "verified": {
+          "source_url": "https://www.nikolaihof.at/en/",
+          "address_quoted": "Nikolaigasse 3, 3512 Mautern an der Donau",
+          "open_status": "open",
+          "open_evidence_url": "https://www.winesearcher.com/find/nikolaihof+vinothek+wachau",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Nikolaihof_Wachau",
+          "checked_on": "2026-05-28"
+        }
+      }
+    ],
+    "vegan_winemaking": [
+      {
+        "slug": "domane-wachau-vegan",
+        "name": "Domane Wachau (vegan winemaking on selected cuvees)",
+        "address": "Durnstein 107, 3601 Durnstein, Wachau",
+        "neighborhood": "Durnstein",
+        "varietals": ["Gruner Veltliner", "Riesling"],
+        "classification": "Wachau DAC",
+        "vegan_documented": "Documented on specific cuvees; confirm current label indication on estate website. The cooperative uses bentonite (mineral clay) fining on selected lines, which is vegan-compatible.",
+        "description": "Domane Wachau documents vegan-compatible fining agents (bentonite clay rather than animal-derived products) on selected cuvees. Specific bottles carrying the vegan indication are identified on the estate website. Verify the current cuvee list directly.",
+        "editorial_score": 4.1,
+        "verified": {
+          "source_url": "https://www.domaene-wachau.at/en/",
+          "address_quoted": "Durnstein 107, 3601 Durnstein",
+          "open_status": "open",
+          "open_evidence_url": "https://www.winesearcher.com/find/domane+wachau+gruner+veltliner",
+          "cuisine_evidence_url": "https://www.weinausoesterreich.at/en/wine/wachau/",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "veyder-malberg-vegan",
+        "name": "Weingut Veyder-Malberg (vegan winemaking)",
+        "address": "Spitz an der Donau, 3620 Spitz, Wachau",
+        "neighborhood": "Spitz",
+        "varietals": ["Gruner Veltliner", "Riesling"],
+        "classification": "Wachau DAC",
+        "vegan_documented": "Importer (Louis/Dressner) documents minimal-intervention winemaking without animal-derived fining agents. Confirm vegan status directly with estate.",
+        "description": "Peter Veyder-Malberg's minimal-intervention approach avoids animal-derived fining agents, and his wines are described by his US importer as naturally vegan in winemaking practice. Confirmation of current practice is recommended directly with the producer.",
+        "editorial_score": 4.6,
+        "verified": {
+          "source_url": "https://www.veyder-malberg.at/en/",
+          "address_quoted": "Spitz an der Donau",
+          "open_status": "open",
+          "open_evidence_url": "https://www.louisdressner.com/producers/veyder-malberg/",
+          "cuisine_evidence_url": "https://www.weinausoesterreich.at/en/wine/wachau/",
+          "checked_on": "2026-05-28"
+        }
+      }
+    ],
+    "lowsulfite": [
+      {
+        "slug": "nikolaihof-low-sulfite",
+        "name": "Nikolaihof (low sulfite, biodynamic)",
+        "address": "Nikolaigasse 3, 3512 Mautern an der Donau",
+        "neighborhood": "Mautern",
+        "varietals": ["Gruner Veltliner", "Riesling"],
+        "classification": "Wachau DAC",
+        "sulfite_approach": "Demeter certification requires minimal use of sulfur dioxide and prohibits synthetic additives. Nikolaihof wines carry lower total sulfite levels than the Austrian conventional average as a result of the biodynamic and Demeter farming framework.",
+        "description": "Nikolaihof's Demeter-certified biodynamic approach limits sulfur dioxide use; the estate's wines are among the lower-sulfite examples in the Wachau, though not zero-sulfur. Suitable for sulfite-sensitive visitors who find Demeter-certified wines more tolerable.",
+        "editorial_score": 4.7,
+        "verified": {
+          "source_url": "https://www.nikolaihof.at/en/",
+          "address_quoted": "Nikolaigasse 3, 3512 Mautern an der Donau",
+          "open_status": "open",
+          "open_evidence_url": "https://www.winesearcher.com/find/nikolaihof+wachau",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Nikolaihof_Wachau",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "veyder-malberg-low-sulfite",
+        "name": "Weingut Veyder-Malberg (minimal sulfur addition)",
+        "address": "Spitz an der Donau, 3620 Spitz, Wachau",
+        "neighborhood": "Spitz",
+        "varietals": ["Gruner Veltliner", "Riesling"],
+        "classification": "Wachau DAC",
+        "sulfite_approach": "Minimal sulfur addition at bottling only; importer (Louis/Dressner) describes this as a minimal-sulfur natural wine approach. Total sulfite levels below Austrian conventional Wachau average.",
+        "description": "Veyder-Malberg uses minimal sulfur dioxide, adding only a small protective amount at bottling rather than at multiple points in the winemaking process. His wines are cited by natural wine importers as low-sulfite expressions of Wachau Gruner Veltliner and Riesling.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://www.veyder-malberg.at/en/",
+          "address_quoted": "Spitz an der Donau",
+          "open_status": "open",
+          "open_evidence_url": "https://www.louisdressner.com/producers/veyder-malberg/",
+          "cuisine_evidence_url": "https://www.weinausoesterreich.at/en/wine/wachau/",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "weingut-lagler-low-sulfite",
+        "name": "Weingut Lagler (low intervention, organic)",
+        "address": "Joching 37, 3610 Joching, Wachau",
+        "neighborhood": "Joching",
+        "varietals": ["Gruner Veltliner", "Riesling"],
+        "classification": "Wachau DAC",
+        "sulfite_approach": "Organic-certified farming and minimal-intervention cellar work. Lagler's wines are described in natural wine trade documentation as low-sulfite additions. Verify current practice directly with estate.",
+        "description": "Karl Lagler's organic farming and minimal-intervention cellar approach results in wines with lower sulfite additions than conventional Wachau production. Distributed by natural wine specialists who describe the wines as low-SO2.",
+        "editorial_score": 4.3,
+        "verified": {
+          "source_url": "https://www.winesearcher.com/find/lagler+wachau",
+          "address_quoted": "Joching 37, 3610 Joching",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Wachau_wine_region",
+          "cuisine_evidence_url": "https://www.weinausoesterreich.at/en/wine/wachau/",
+          "checked_on": "2026-05-28"
+        }
+      }
+    ]
+  }
+}

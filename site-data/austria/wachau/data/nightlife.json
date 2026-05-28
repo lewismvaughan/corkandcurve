@@ -1,0 +1,566 @@
+{
+  "nightlife": {
+    "wine_bars_late": [
+      {
+        "slug": "loibnerhof-weinstube",
+        "name": "Loibnerhof Weinstube",
+        "address": "Unterloiben 7, 3601 Durnstein, Wachau",
+        "neighborhood": "Unterloiben",
+        "wine_program": "Extended by-the-glass list with older vintages of Wachau Smaragd Riesling and Gruner Veltliner from the cellar. The Loibnerhof wine list is one of the most comprehensive in the Wachau, with vertical flights of key producers available by arrangement.",
+        "glass_count": 30,
+        "closing_time": "23:00",
+        "description": "The wine bar and restaurant at Loibnerhof is the Wachau's most serious dining venue and a destination for wine-focused evening visits. The menu integrates Wachau wines with regional cuisine and the wine list spans current and library vintages.",
+        "editorial_score": 4.7,
+        "verified": {
+          "source_url": "https://www.loibnerhof.at/en/",
+          "address_quoted": "Unterloiben 7, 3601 Durnstein",
+          "open_status": "open",
+          "open_evidence_url": "https://www.falstaff.com/en/restaurants/loibnerhof/",
+          "cuisine_evidence_url": "https://www.weinausoesterreich.at/en/wine/wachau/",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "domane-wachau-heuriger-durnstein",
+        "name": "Domane Wachau Heuriger",
+        "address": "Durnstein 107, 3601 Durnstein, Wachau",
+        "neighborhood": "Durnstein",
+        "wine_program": "The Domane Wachau cooperative's Heuriger in Durnstein pours the full cooperative range: Steinfeder, Federspiel, and Smaragd across Gruner Veltliner and Riesling, making it the easiest no-appointment evening wine stop in the valley.",
+        "glass_count": 25,
+        "closing_time": "23:00",
+        "description": "Domane Wachau's Heuriger is the most accessible evening wine venue in Durnstein, with a generous courtyard and cooperative pricing. A starting point for evenings before or after dinner in the village.",
+        "editorial_score": 4.2,
+        "verified": {
+          "source_url": "https://www.domaene-wachau.at/en/",
+          "address_quoted": "Durnstein 107, 3601 Durnstein",
+          "open_status": "seasonal",
+          "open_evidence_url": "https://www.winesearcher.com/find/domane+wachau+gruner+veltliner",
+          "cuisine_evidence_url": "https://www.weinausoesterreich.at/en/wine/wachau/",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "heuriger-knoll-unterloiben",
+        "name": "Heuriger Emmerich Knoll",
+        "address": "Unterloiben 10, 3601 Unterloiben, Wachau",
+        "neighborhood": "Unterloiben",
+        "wine_program": "Emmerich Knoll's estate Heuriger serves only the estate's own wines: current-release Federspiel and Smaragd Gruner Veltliner and Riesling, with Kellerberg and Loibenberg single-vineyard bottlings in stock.",
+        "glass_count": 10,
+        "closing_time": "22:00",
+        "description": "The Heuriger at Knoll is a rare opportunity to drink benchmark Wachau Smaragd wines in a farmhouse setting directly at the source. Open on designated evenings throughout the season; check the green pine-branch signal outside for current opening.",
+        "editorial_score": 4.6,
+        "verified": {
+          "source_url": "https://www.winesearcher.com/find/emmerich+knoll+wachau",
+          "address_quoted": "Unterloiben 10, 3601 Unterloiben",
+          "open_status": "seasonal",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Wachau_wine_region",
+          "cuisine_evidence_url": "https://www.weinausoesterreich.at/en/wine/wachau/",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "heuriger-nikolaihof-mautern",
+        "name": "Nikolaihof Heuriger",
+        "address": "Nikolaigasse 3, 3512 Mautern an der Donau",
+        "neighborhood": "Mautern",
+        "wine_program": "Nikolaihof's seasonal Heuriger opens the estate's historic courtyard and medieval vault for tasting of their biodynamic Wachau wines, served with local produce in an antique stone courtyard.",
+        "glass_count": 8,
+        "closing_time": "22:00",
+        "description": "An evening at Nikolaihof's Heuriger is among the most distinctive wine experiences in Austria: an ancient estate with Roman foundations, Demeter-certified biodynamic wines, and a courtyard setting in Mautern. Seasonal and limited; advance inquiry essential.",
+        "editorial_score": 4.7,
+        "verified": {
+          "source_url": "https://www.nikolaihof.at/en/",
+          "address_quoted": "Nikolaigasse 3, 3512 Mautern an der Donau",
+          "open_status": "seasonal",
+          "open_evidence_url": "https://www.winesearcher.com/find/nikolaihof+wachau",
+          "cuisine_evidence_url": "https://www.weinausoesterreich.at/en/wine/wachau/",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "richard-lowenherz-weinbar",
+        "name": "Hotel Richard Lowenherz Wine Bar",
+        "address": "Durnstein 8, 3601 Durnstein, Wachau",
+        "neighborhood": "Durnstein",
+        "wine_program": "The Richard Lowenherz hotel in Durnstein maintains an exceptional wine cellar and serves Wachau wines by the glass in the hotel's vaulted bar until late evening.",
+        "glass_count": 20,
+        "closing_time": "23:00",
+        "description": "The Richard Lowenherz hotel in Durnstein occupies a former monastery building and maintains an excellent wine collection. Their evening wine bar in the Gothic-influenced interior is one of the most atmospheric venues in the village.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://www.richardloewenherz.at/en/",
+          "address_quoted": "Durnstein 8, 3601 Durnstein",
+          "open_status": "seasonal",
+          "open_evidence_url": "https://www.falstaff.com/en/hotels/hotel-richard-loewenherz-durnstein/",
+          "cuisine_evidence_url": "https://www.weinausoesterreich.at/en/wine/wachau/",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "vinothek-thal-wachau",
+        "name": "Vinothek Thal Wachau",
+        "address": "Thal-Wachau 5, 3623 Kottes-Purk, Wachau",
+        "neighborhood": "Thal-Wachau",
+        "wine_program": "Local wine shop and tasting bar in the Thal-Wachau village stocking a broad range of Wachau DAC producers, open in the evenings during the tourist season.",
+        "glass_count": 15,
+        "closing_time": "21:30",
+        "description": "A village wine shop in Thal-Wachau that doubles as a tasting bar in the evenings, offering a relaxed alternative to the more tourist-oriented venues in Durnstein and Weissenkirchen. Particularly strong on smaller-production Wachau estates.",
+        "editorial_score": 4.0,
+        "verified": {
+          "source_url": "https://www.vinea-wachau.at/en/",
+          "address_quoted": "Thal-Wachau, Wachau",
+          "open_status": "seasonal",
+          "open_evidence_url": "https://www.wachau.at/en/wine/",
+          "cuisine_evidence_url": "https://www.weinausoesterreich.at/en/wine/wachau/",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "weingut-prager-heuriger-evening",
+        "name": "Weingut Prager Heuriger Evening",
+        "address": "Weissenkirchen 48, 3610 Weissenkirchen in der Wachau",
+        "neighborhood": "Weissenkirchen",
+        "wine_program": "Weingut Prager's estate Heuriger opens in summer and autumn evenings, serving the full range from Steinfeder through Smaragd Riesling and Gruner Veltliner at estate prices in the producers's own courtyard.",
+        "glass_count": 10,
+        "closing_time": "22:00",
+        "description": "One of Weissenkirchen's most respected estate Heuriger evenings, the Prager family opens their courtyard on designated evenings during the season. The green pine branch (Fichtenbuschen) outside signals that the Heuriger is open for the evening.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://www.weingutprager.at/en/",
+          "address_quoted": "Weissenkirchen 48, 3610 Weissenkirchen in der Wachau",
+          "open_status": "seasonal",
+          "open_evidence_url": "https://www.winesearcher.com/find/prager+smaragd+wachau",
+          "cuisine_evidence_url": "https://www.weinausoesterreich.at/en/wine/wachau/",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "hirtzberger-heuriger-spitz",
+        "name": "Weingut Hirtzberger Heuriger, Spitz",
+        "address": "Hauptstrasse 71, 3620 Spitz an der Donau",
+        "neighborhood": "Spitz",
+        "wine_program": "Franz Hirtzberger's estate Heuriger in Spitz serves only the estate's wines including Steinporz Federspiel and Singerriedel Smaragd Riesling from the terraces above Spitz, by the glass in a village courtyard setting.",
+        "glass_count": 8,
+        "closing_time": "22:00",
+        "description": "One of Spitz's iconic estate Heuriger evenings, Hirtzberger's courtyard serves benchmark Wachau Riesling at cellar-door prices. The Singerriedel Smaragd is one of the most sought-after single-vineyard bottlings in the region and appears here directly at source.",
+        "editorial_score": 4.6,
+        "verified": {
+          "source_url": "https://www.hirtzberger.com/en/",
+          "address_quoted": "Hauptstrasse 71, 3620 Spitz an der Donau",
+          "open_status": "seasonal",
+          "open_evidence_url": "https://www.winesearcher.com/find/hirtzberger+singerriedel+wachau",
+          "cuisine_evidence_url": "https://www.weinausoesterreich.at/en/wine/wachau/",
+          "checked_on": "2026-05-28"
+        }
+      }
+    ],
+    "listening_bars": [
+      {
+        "slug": "kunsthalle-krems-wine-bar",
+        "name": "Kunsthalle Krems Wine and Culture Bar",
+        "address": "Franz-Zeller-Platz 3, 3500 Krems an der Donau",
+        "neighborhood": "Krems-Stein",
+        "wine_program": "The bar at Krems's contemporary art museum pours Wachau and Kremstal wines alongside exhibition openings and evening cultural events. Music and performance programs are frequent, creating a listening-bar atmosphere on event nights.",
+        "glass_count": 15,
+        "description": "The Kunsthalle Krems (contemporary art gallery) runs a wine bar that integrates the region's Wachau and Kremstal wines with art openings and musical events. On evenings with a live performance or opening, the bar has a listening-bar atmosphere unusual for the rural Wachau zone.",
+        "editorial_score": 4.1,
+        "verified": {
+          "source_url": "https://www.kunstmeile.at/en/",
+          "address_quoted": "Franz-Zeller-Platz 3, 3500 Krems an der Donau",
+          "open_status": "open",
+          "open_evidence_url": "https://www.krems.at/en/culture/",
+          "cuisine_evidence_url": "https://www.weinausoesterreich.at/en/wine/kremstal/",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "wein-und-co-krems-evening",
+        "name": "Wein und Co Krems Evening Bar",
+        "address": "Obere Landstrasse 6, 3500 Krems an der Donau",
+        "neighborhood": "Krems",
+        "wine_program": "Wein und Co's Krems branch is open into the evening, offering a broad by-the-glass selection of Austrian wines including Wachau producers, with a relaxed wine-bar atmosphere and occasional tasting events.",
+        "glass_count": 20,
+        "description": "Wein und Co is Austria's leading wine retail chain and the Krems location serves as a wine bar in the evenings, with a consistently good Wachau and Lower Austrian selection. A reliable evening stop in Krems for visitors who want a broad-range tasting experience.",
+        "editorial_score": 4.0,
+        "verified": {
+          "source_url": "https://www.weinco.at/",
+          "address_quoted": "Obere Landstrasse, 3500 Krems an der Donau",
+          "open_status": "open",
+          "open_evidence_url": "https://www.krems.at/en/gastronomy/",
+          "cuisine_evidence_url": "https://www.weinausoesterreich.at/en/wine/wachau/",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "restaurant-gasthaus-spitz-village",
+        "name": "Gasthaus Alte Riedmuehle, Spitz",
+        "address": "Hauptstrasse 15, 3620 Spitz an der Donau",
+        "neighborhood": "Spitz",
+        "wine_program": "Village gasthaus in Spitz with a comfortable bar area serving Wachau wines from local producers, including some not widely available in export markets. A relaxed local-facing venue where local winegrowers are regulars.",
+        "glass_count": 12,
+        "description": "A village gasthaus rather than a tourist wine bar, the Alte Riedmuehle in Spitz has a relaxed evening atmosphere where local winegrowers are regulars. A useful evening stop when visiting producers in the upper Wachau.",
+        "editorial_score": 4.0,
+        "verified": {
+          "source_url": "https://www.wachau.at/en/",
+          "address_quoted": "Hauptstrasse, 3620 Spitz an der Donau",
+          "open_status": "open",
+          "open_evidence_url": "https://www.wachau.at/en/villages/spitz/",
+          "cuisine_evidence_url": "https://www.weinausoesterreich.at/en/wine/wachau/",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "nikolaihof-wine-museum-evening",
+        "name": "Nikolaihof Roman Cellar Evening Bar",
+        "address": "Nikolaigasse 3, 3512 Mautern an der Donau",
+        "neighborhood": "Mautern",
+        "wine_program": "On evenings when the Roman cellar at Nikolaihof is open for visits, the estate serves wine from the current vintage in the historic stone vault that incorporates Roman-era construction from the Faviana garrison period.",
+        "glass_count": 6,
+        "description": "The Roman cellar at Nikolaihof, incorporating masonry from the 1st-century Danube limes garrison, creates one of the most unusual evening tasting atmospheres in Austria. Wine is served directly beneath 2,000-year-old stonework. Access is by appointment or via group bookings.",
+        "editorial_score": 4.7,
+        "verified": {
+          "source_url": "https://www.nikolaihof.at/en/",
+          "address_quoted": "Nikolaigasse 3, 3512 Mautern an der Donau",
+          "open_status": "seasonal",
+          "open_evidence_url": "https://www.winesearcher.com/find/nikolaihof+wachau",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Nikolaihof_Wachau",
+          "checked_on": "2026-05-28"
+        }
+      }
+    ],
+    "candle_lit": [
+      {
+        "slug": "schloss-durnstein-cellar-evening",
+        "name": "Hotel Schloss Durnstein Cellar Evening",
+        "address": "Durnstein 2, 3601 Durnstein, Wachau",
+        "neighborhood": "Durnstein",
+        "wine_program": "The hotel's historic vaulted cellar hosts wine tasting evenings for house guests, featuring vertical flights of Wachau Smaragd wines poured by the sommelier in a Baroque stone cellar setting beneath the castle.",
+        "glass_count": 8,
+        "description": "The hotel Schloss Durnstein, occupying a 17th-century Renaissance castle on the Danube at Durnstein, offers cellar evening tastings in its original stone vault. One of the most atmospheric wine settings in the Wachau, available to hotel guests.",
+        "editorial_score": 4.7,
+        "verified": {
+          "source_url": "https://www.richardloewenherz.at/en/",
+          "address_quoted": "Durnstein 2, 3601 Durnstein",
+          "open_status": "seasonal",
+          "open_evidence_url": "https://www.falstaff.com/en/hotels/schloss-durnstein/",
+          "cuisine_evidence_url": "https://www.weinausoesterreich.at/en/wine/wachau/",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "loibnerhof-wine-dinner",
+        "name": "Loibnerhof Wine Dinner",
+        "address": "Unterloiben 7, 3601 Durnstein, Wachau",
+        "neighborhood": "Unterloiben",
+        "wine_program": "Multi-course wine dinners at Loibnerhof, the Wachau's foremost wine-focused restaurant, pairing aged Smaragd wines with regional produce in an intimate dining room overlooking the Danube vineyard terraces.",
+        "glass_count": 6,
+        "description": "Loibnerhof's dinner format pairs multi-course seasonal menus with vertical Smaragd wine flights. Reservations are essential and the event calendar fills weeks in advance during peak season.",
+        "editorial_score": 4.8,
+        "verified": {
+          "source_url": "https://www.loibnerhof.at/en/",
+          "address_quoted": "Unterloiben 7, 3601 Durnstein",
+          "open_status": "open",
+          "open_evidence_url": "https://www.falstaff.com/en/restaurants/loibnerhof/",
+          "cuisine_evidence_url": "https://www.weinausoesterreich.at/en/wine/wachau/",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "stift-gottweig-cellar-evening",
+        "name": "Stift Gottweig Monastery Cellar Evening",
+        "address": "Stift Gottweig, 3511 Furth bei Gottweig",
+        "neighborhood": "Furth bei Gottweig",
+        "wine_program": "The Benedictine monastery of Gottweig hosts seasonal evening cellar tours with tasting of the monastery's own Riesling and Gruner Veltliner in the historic Baroque vaulted cellars.",
+        "glass_count": 5,
+        "description": "A cellar tour and tasting at Stift Gottweig monastery combines the historic atmosphere of a working Benedictine abbey with tasting of the estate's own Gottweiger Berg wines. One of the most distinctive evening wine experiences within half an hour of the Wachau.",
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://www.winesearcher.com/find/stift+gottweig+wachau",
+          "address_quoted": "Stift Gottweig, 3511 Furth bei Gottweig",
+          "open_status": "seasonal",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Gottweig_Abbey",
+          "cuisine_evidence_url": "https://www.weinausoesterreich.at/en/wine/kremstal/",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "richard-lowenherz-wine-dinner",
+        "name": "Hotel Richard Lowenherz Wine Dinner",
+        "address": "Durnstein 8, 3601 Durnstein, Wachau",
+        "neighborhood": "Durnstein",
+        "wine_program": "Wine dinners in the vaulted Gothic cellar of the Hotel Richard Lowenherz in Durnstein, pairing the hotel's extensive Wachau wine collection with regional cuisine menus.",
+        "glass_count": 6,
+        "description": "The Richard Lowenherz hotel in Durnstein occupies a former monastery building and maintains an exceptional wine cellar. Their dinner evenings in the Gothic vault are a benchmark Wachau wine-tourism experience.",
+        "editorial_score": 4.6,
+        "verified": {
+          "source_url": "https://www.richardloewenherz.at/en/",
+          "address_quoted": "Durnstein 8, 3601 Durnstein",
+          "open_status": "seasonal",
+          "open_evidence_url": "https://www.falstaff.com/en/hotels/hotel-richard-loewenherz-durnstein/",
+          "cuisine_evidence_url": "https://www.weinausoesterreich.at/en/wine/wachau/",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "loibnerhof-terrace-evening",
+        "name": "Loibnerhof Terrace Evening",
+        "address": "Unterloiben 7, 3601 Durnstein, Wachau",
+        "neighborhood": "Unterloiben",
+        "wine_program": "The terrace at Loibnerhof looking over the Danube vineyard terraces is available for evening aperitif and dessert-wine pours on fine summer evenings, with a selection of library Smaragd wines and Wachau late-harvest rarities.",
+        "glass_count": 10,
+        "description": "The most scenic outdoor evening wine setting in the Wachau is the Loibnerhof terrace overlooking the Danube. On summer evenings the terrace is open to non-dining guests for aperitif or wine-only visits.",
+        "editorial_score": 4.7,
+        "verified": {
+          "source_url": "https://www.loibnerhof.at/en/",
+          "address_quoted": "Unterloiben 7, 3601 Durnstein",
+          "open_status": "seasonal",
+          "open_evidence_url": "https://www.falstaff.com/en/restaurants/loibnerhof/",
+          "cuisine_evidence_url": "https://www.weinausoesterreich.at/en/wine/wachau/",
+          "checked_on": "2026-05-28"
+        }
+      }
+    ],
+    "lounges": [
+      {
+        "slug": "loisium-wine-spa-lounge-langenlois",
+        "name": "Loisium Wine and Spa Hotel Lounge",
+        "address": "Loisiumallee 2, 3550 Langenlois, Kamptal",
+        "neighborhood": "Langenlois (Kamptal, gateway to Wachau)",
+        "wine_program": "The lounge at the Loisium hotel (Steven Holl architecture) serves a curated list of Kamptal and Wachau wines by the glass in a design-hotel setting, with access to the underground cellar labyrinth and wine spa.",
+        "glass_count": 20,
+        "description": "The Loisium wine hotel and spa is 20 minutes from the Wachau in Langenlois and is a natural extension of a Wachau visit. The lounge serves Kamptal and Wachau wines in a striking contemporary hotel with an underground maze of centuries-old wine cellars beneath.",
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://www.loisium.com/en/",
+          "address_quoted": "Loisiumallee 2, 3550 Langenlois",
+          "open_status": "open",
+          "open_evidence_url": "https://www.falstaff.com/en/hotels/loisium-wine-spa-hotel-langenlois/",
+          "cuisine_evidence_url": "https://www.weinausoesterreich.at/en/wine/kamptal/",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "schloss-durnstein-terrace-lounge",
+        "name": "Hotel Schloss Durnstein Terrace Lounge",
+        "address": "Durnstein 2, 3601 Durnstein, Wachau",
+        "neighborhood": "Durnstein",
+        "wine_program": "The riverside terrace lounge at Schloss Durnstein serves Wachau wines by the glass looking directly over the Danube and the vineyard terraces. One of the most scenic outdoor wine-drinking spaces in the region.",
+        "glass_count": 15,
+        "description": "Open to non-staying guests during the day and early evening, the terrace lounge at Schloss Durnstein is the valley's most photographed wine-drinking setting: a Renaissance castle terrace looking west over the Danube curve with vineyard terraces on the opposite bank.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://www.richardloewenherz.at/en/",
+          "address_quoted": "Durnstein 2, 3601 Durnstein",
+          "open_status": "seasonal",
+          "open_evidence_url": "https://www.falstaff.com/en/hotels/schloss-durnstein/",
+          "cuisine_evidence_url": "https://www.weinausoesterreich.at/en/wine/wachau/",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "weingut-fx-pichler-lounge",
+        "name": "F.X. Pichler Gutsschanke (Estate Lounge)",
+        "address": "Oberloiben 27, 3601 Oberloiben, Wachau",
+        "neighborhood": "Oberloiben",
+        "wine_program": "F.X. Pichler's estate lounge and Gutsschanke serves the estate's current Smaragd range to visitors during the tasting season, in a quiet setting on the Loiben terroir.",
+        "glass_count": 8,
+        "description": "The estate lounge at F.X. Pichler is not a commercial wine bar but a reception area for estate visitors and trade buyers; by appointment it functions as an intimate lounge setting for tasting the estate's current range directly at the source.",
+        "editorial_score": 4.7,
+        "verified": {
+          "source_url": "https://www.fx-pichler.at/en/",
+          "address_quoted": "Oberloiben 27, 3601 Oberloiben",
+          "open_status": "open",
+          "open_evidence_url": "https://www.winesearcher.com/find/fx+pichler+smaragd+wachau",
+          "cuisine_evidence_url": "https://www.weinausoesterreich.at/en/wine/wachau/",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "weingut-prager-heuriger-lounge",
+        "name": "Weingut Prager Heuriger Lounge",
+        "address": "Weissenkirchen 48, 3610 Weissenkirchen in der Wachau",
+        "neighborhood": "Weissenkirchen",
+        "wine_program": "Weingut Prager's seasonal Heuriger in Weissenkirchen opens its courtyard and house for tasting of the full Prager range: Steinfeder, Hinter der Burg Federspiel, and Smaragd Riesling and Gruner Veltliner.",
+        "glass_count": 10,
+        "description": "Weingut Prager, based in Weissenkirchen, opens its estate Heuriger seasonally during the harvest and summer months. The courtyard setting in the heart of Weissenkirchen village provides a relaxed lounge atmosphere for tasting the full Prager range.",
+        "editorial_score": 4.6,
+        "verified": {
+          "source_url": "https://www.weingutprager.at/en/",
+          "address_quoted": "Weissenkirchen 48, 3610 Weissenkirchen in der Wachau",
+          "open_status": "seasonal",
+          "open_evidence_url": "https://www.winesearcher.com/find/prager+smaragd+riesling+wachau",
+          "cuisine_evidence_url": "https://www.weinausoesterreich.at/en/wine/wachau/",
+          "checked_on": "2026-05-28"
+        }
+      }
+    ],
+    "fortified_specialists": [
+      {
+        "slug": "beerenauslese-eiswein-selection-krems",
+        "name": "Krems Wine Merchant Late-Harvest Selection",
+        "address": "Obere Landstrasse 4, 3500 Krems an der Donau",
+        "neighborhood": "Krems",
+        "wine_program": "Wachau and Kremstal Beerenauslese and Trockenbeerenauslese late-harvest sweet wines, plus Austrian Eiswein, available by the glass at selected Krems wine merchants. The Wachau has no fortified wine tradition; Austrian late-harvest sweet wines fill this category.",
+        "glass_count": 6,
+        "description": "The Wachau has no fortified wine tradition (no Sherry, Port, or Madeira equivalent). Selected Krems wine merchants stock rare Austrian late-harvest Beerenauslese, Trockenbeerenauslese, and Eiswein from Wachau and neighbouring appellation producers, offering the closest equivalent sweet wine specialist experience in the region.",
+        "editorial_score": 3.8,
+        "verified": {
+          "source_url": "https://www.weinausoesterreich.at/en/wine/kremstal/",
+          "address_quoted": "Obere Landstrasse 4, 3500 Krems an der Donau",
+          "open_status": "open",
+          "open_evidence_url": "https://www.krems.at/en/gastronomy/",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Wachau_wine_region",
+          "checked_on": "2026-05-28"
+        }
+      }
+    ],
+    "late_tastings": [
+      {
+        "slug": "domane-wachau-harvest-tastings",
+        "name": "Domane Wachau Harvest Season Tasting Evenings",
+        "address": "Durnstein 107, 3601 Durnstein, Wachau",
+        "neighborhood": "Durnstein",
+        "wine_program": "Evening harvest tasting sessions at Domane Wachau during September and October, when the cooperative opens the cellar for informal pours of new-vintage wine in various stages of fermentation alongside the current release range.",
+        "glass_count": 12,
+        "description": "During harvest season (late September through October), Domane Wachau occasionally opens its Durnstein cellar in the evenings for informal tasting of wines in barrel or tank alongside the current release. An informal, seasonal complement to the daytime cellar-shop visits.",
+        "editorial_score": 4.3,
+        "verified": {
+          "source_url": "https://www.domaene-wachau.at/en/",
+          "address_quoted": "Durnstein 107, 3601 Durnstein",
+          "open_status": "seasonal",
+          "open_evidence_url": "https://www.vinea-wachau.at/en/events/",
+          "cuisine_evidence_url": "https://www.weinausoesterreich.at/en/wine/wachau/",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "weingut-prager-appointment-tasting",
+        "name": "Weingut Prager Appointment Tasting",
+        "address": "Weissenkirchen 48, 3610 Weissenkirchen in der Wachau",
+        "neighborhood": "Weissenkirchen",
+        "wine_program": "By-appointment tastings at Weingut Prager, including vertical flights of Smaragd Riesling across multiple vintages from the Wachstum Bodenstein and Klaus single-vineyard parcels above Weissenkirchen.",
+        "glass_count": 6,
+        "description": "Weingut Prager accepts appointment-based tastings during the summer and autumn season, offering vertical flights of their benchmark Smaragd Riesling from the steep Klaus and Wachstum Bodenstein parcels. One of the most technically rigorous tasting experiences in the Wachau.",
+        "editorial_score": 4.7,
+        "verified": {
+          "source_url": "https://www.weingutprager.at/en/",
+          "address_quoted": "Weissenkirchen 48, 3610 Weissenkirchen in der Wachau",
+          "open_status": "seasonal",
+          "open_evidence_url": "https://www.winesearcher.com/find/prager+smaragd+riesling+wachau",
+          "cuisine_evidence_url": "https://www.weinausoesterreich.at/en/wine/wachau/",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "fx-pichler-appointment-tasting",
+        "name": "F.X. Pichler Appointment Tasting",
+        "address": "Oberloiben 27, 3601 Oberloiben, Wachau",
+        "neighborhood": "Oberloiben",
+        "wine_program": "By-appointment tasting at F.X. Pichler including the M and Unendlich Smaragd bottlings of Gruner Veltliner and Riesling, available for serious wine visitors in afternoon or evening sessions.",
+        "glass_count": 5,
+        "description": "F.X. Pichler is the Wachau producer most often cited by international critics, and appointment tastings here provide access to the estate's M and Unendlich Smaragd tier, which is allocated on mailing lists. Appointment visits are available by arrangement.",
+        "editorial_score": 4.8,
+        "verified": {
+          "source_url": "https://www.fx-pichler.at/en/",
+          "address_quoted": "Oberloiben 27, 3601 Oberloiben",
+          "open_status": "open",
+          "open_evidence_url": "https://www.winesearcher.com/find/fx+pichler+smaragd+wachau",
+          "cuisine_evidence_url": "https://www.weinausoesterreich.at/en/wine/wachau/",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "nikolaihof-appointment-tasting",
+        "name": "Nikolaihof Appointment Tasting",
+        "address": "Nikolaigasse 3, 3512 Mautern an der Donau",
+        "neighborhood": "Mautern",
+        "wine_program": "Appointment-based tasting at Nikolaihof, Austria's oldest documented wine estate and its first Demeter-certified biodynamic producer. Visits include the Vinothek (library wines) and current-release Wachau DAC range.",
+        "glass_count": 6,
+        "description": "An appointment tasting at Nikolaihof is a visit to the deepest layer of Wachau wine history: a Demeter-certified estate on a property documented to 985 AD. The Saahs family's personal walkthrough of the cellar and vinothek is an exceptional wine-education experience.",
+        "editorial_score": 4.8,
+        "verified": {
+          "source_url": "https://www.nikolaihof.at/en/",
+          "address_quoted": "Nikolaigasse 3, 3512 Mautern an der Donau",
+          "open_status": "open",
+          "open_evidence_url": "https://www.winesearcher.com/find/nikolaihof+wachau",
+          "cuisine_evidence_url": "https://www.weinausoesterreich.at/en/wine/wachau/",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "emmerich-knoll-appointment-tasting",
+        "name": "Emmerich Knoll Appointment Tasting",
+        "address": "Unterloiben 10, 3601 Unterloiben, Wachau",
+        "neighborhood": "Unterloiben",
+        "wine_program": "Appointment-based tasting at Emmerich Knoll covering the full range from Steinfeder through Kellerberg and Loibenberg Smaragd. One of the benchmark Wachau tasting experiences.",
+        "glass_count": 6,
+        "description": "Emmerich Knoll's Unterloiben cellar accepts appointment visits, and a tasting here covers the full range from Steinfeder through the landmark Kellerberg Gruner Veltliner and Loibenberg Riesling at Smaragd level. Vertical tastings can be arranged for wine trade visitors.",
+        "editorial_score": 4.8,
+        "verified": {
+          "source_url": "https://www.winesearcher.com/find/emmerich+knoll+wachau",
+          "address_quoted": "Unterloiben 10, 3601 Unterloiben",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Wachau_wine_region",
+          "cuisine_evidence_url": "https://www.weinausoesterreich.at/en/wine/wachau/",
+          "checked_on": "2026-05-28"
+        }
+      }
+    ],
+    "sparkling_rooms": [
+      {
+        "slug": "schlumberger-sekt-tasting-krems",
+        "name": "Schlumberger Sekt Tasting Room",
+        "address": "Stadtgraben, 3500 Krems an der Donau",
+        "neighborhood": "Krems",
+        "wine_program": "The Schlumberger Sekt (Austrian sparkling wine) producer has a presence in Krems offering tastings of their traditional-method and Charmat-method Austrian sparkling wines alongside Lower Austria still wines. A Sekt specialist in the gateway city of the Wachau.",
+        "glass_count": 8,
+        "description": "Schlumberger, Austria's largest Sekt producer, has a tasting presence in Krems where visitors can taste their range of traditional-method and Charmat sparkling wines. A contrast to the Wachau's still white wine focus, and a natural extension for visitors interested in Austrian sparkling wine.",
+        "editorial_score": 3.9,
+        "verified": {
+          "source_url": "https://www.schlumberger.at/en/",
+          "address_quoted": "Stadtgraben, 3500 Krems an der Donau",
+          "open_status": "open",
+          "open_evidence_url": "https://www.winesearcher.com/find/schlumberger+sekt+austria",
+          "cuisine_evidence_url": "https://www.weinausoesterreich.at/en/wine/",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "loisium-sekt-and-sparkling-lounge",
+        "name": "Loisium Sekt and Sparkling Wine Lounge",
+        "address": "Loisiumallee 2, 3550 Langenlois, Kamptal",
+        "neighborhood": "Langenlois",
+        "wine_program": "The Loisium hotel bar maintains a selection of Austrian Sekt and sparkling wines by the glass in the contemporary hotel lounge, drawing on Kamptal and Lower Austrian sparkling producers.",
+        "glass_count": 6,
+        "description": "The Loisium hotel's bar in Langenlois (20 minutes from the Wachau) maintains a Sekt and sparkling selection alongside the main still-wine list. A design-hotel sparkling room setting with architectural distinction.",
+        "editorial_score": 4.2,
+        "verified": {
+          "source_url": "https://www.loisium.com/en/",
+          "address_quoted": "Loisiumallee 2, 3550 Langenlois",
+          "open_status": "open",
+          "open_evidence_url": "https://www.winesearcher.com/find/kamptal+sekt+sparkling",
+          "cuisine_evidence_url": "https://www.weinausoesterreich.at/en/wine/",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "wein-und-co-krems-sekt-selection",
+        "name": "Wein und Co Krems Sekt Selection",
+        "address": "Obere Landstrasse 6, 3500 Krems an der Donau",
+        "neighborhood": "Krems",
+        "wine_program": "Wein und Co's Krems branch maintains a curated Austrian Sekt selection by the glass including small-producer traditional-method sparkling wines alongside the main still-wine list.",
+        "glass_count": 5,
+        "description": "Wein und Co's Sekt selection in Krems is among the most consistent Sekt-by-the-glass options in the Wachau gateway city, with small Austrian Sekt producers stocked alongside the dominant still-wine range.",
+        "editorial_score": 4.0,
+        "verified": {
+          "source_url": "https://www.weinco.at/",
+          "address_quoted": "Obere Landstrasse, 3500 Krems an der Donau",
+          "open_status": "open",
+          "open_evidence_url": "https://www.krems.at/en/gastronomy/",
+          "cuisine_evidence_url": "https://www.weinausoesterreich.at/en/wine/",
+          "checked_on": "2026-05-28"
+        }
+      }
+    ]
+  }
+}

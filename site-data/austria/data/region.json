@@ -1,0 +1,30 @@
+{
+  "destination": {
+    "slug": "austria",
+    "name": "Austria",
+    "country": "Austria",
+    "country_slug": "austria",
+    "type": "country",
+    "tagline": "Danube terraces, Alpine cellars, the Smaragd in your glass",
+    "overview": "Austria is a compact wine country whose grape-growing is concentrated in the far east and northeast, where the continental climate (warm Pannonian summers, cold nights, ample sunshine) produces wines of marked precision. Over 99 percent of Austrian wine is white, and the two national flagships, Grüner Veltliner and Riesling, account for the majority of quality plantings. Grüner Veltliner is Austria's signature variety: planted on about 14,000 hectares nationwide, mostly in Lower Austria.\n\nThe DAC (Districtus Austriae Controllatus) system has brought geographical precision to Austrian wine since 2002, when Weinviertel became the first appellation. Today 18 DACs cover the country's main wine zones. The Wachau, Kremstal and Kamptal triangle in Lower Austria produces internationally distributed dry whites; Burgenland (Blaufränkisch country and the historic centre of Austria's Süsswein tradition at Neusiedlersee) provides a red-wine counterbalance. Styria in the south grows Sauvignon Blanc and Muskateller on slate hillsides. Vienna is unusual as a world capital with significant wine production within its city limits.\n\nThe Heuriger culture (the seasonal wine tavern where growers sell the current vintage by the glass alongside simple food) is a long-standing Austrian institution. The Heurigen of Grinzing, Neustift and Stammersdorf in Vienna, or of Dürnstein and Weissenkirchen in the Wachau, offer a direct link between producer and drinker. A visit to an Austrian wine region is as much about this culture of hospitality as it is about the bottle.\n\nAustria's wine quality reform began after the 1985 glycol scandal, which (though it affected only a small number of producers) prompted sweeping regulatory change and a collective commitment to quality that has held since. The generation of winemakers who emerged in the 1990s and 2000s established export distribution for Central European white wine that continues to expand.",
+    "hero_image": "https://images.unsplash.com/photo-1693301232742-3b547455a632?w=1600&h=900&fit=crop&auto=format",
+    "hero_image_source_url": "https://unsplash.com/photos/kSIQoOoix0I",
+    "hero_image_credit": "Photo by Eric Bolliger on Unsplash",
+    "hero_image_alt": "Austrian vineyard landscape with scenic view in the Wachau wine region"
+  },
+  "seo": {
+    "pages": {
+      "index": {
+        "title": "Austria wine regions | Cork & Curve",
+        "description": "Wine regions across Austria on Cork & Curve. Wachau DAC Grüner Veltliner and Riesling, Kremstal, Kamptal, Burgenland reds and Styrian Sauvignon Blanc, by editors who taste in person."
+      }
+    },
+    "geo": {
+      "country_code": "AT"
+    }
+  },
+  "_metadata": {
+    "type": "country",
+    "status": "live"
+  }
+}

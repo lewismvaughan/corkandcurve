@@ -217,6 +217,18 @@
       ]
     },
     {
+      "slug": "blaufrankisch",
+      "display": "Blaufränkisch",
+      "regions": [
+        {
+          "country_slug": "austria",
+          "region_slug": "wachau",
+          "region_name": "Wachau",
+          "n": 1
+        }
+      ]
+    },
+    {
       "slug": "bourboulenc",
       "display": "Bourboulenc",
       "regions": [
@@ -441,6 +453,12 @@
           "region_slug": "veneto",
           "region_name": "Veneto",
           "n": 3
+        },
+        {
+          "country_slug": "austria",
+          "region_slug": "wachau",
+          "region_name": "Wachau",
+          "n": 5
         }
       ]
     },
@@ -685,6 +703,18 @@
       ]
     },
     {
+      "slug": "fruhroter-veltliner",
+      "display": "Frühroter Veltliner",
+      "regions": [
+        {
+          "country_slug": "austria",
+          "region_slug": "wachau",
+          "region_name": "Wachau",
+          "n": 1
+        }
+      ]
+    },
+    {
       "slug": "fruit-spirits",
       "display": "Fruit Spirits",
       "regions": [
@@ -753,6 +783,18 @@
           "region_slug": "ribera-del-duero",
           "region_name": "Ribera del Duero",
           "n": 4
+        }
+      ]
+    },
+    {
+      "slug": "gelber-muskateller",
+      "display": "Gelber Muskateller",
+      "regions": [
+        {
+          "country_slug": "austria",
+          "region_slug": "wachau",
+          "region_name": "Wachau",
+          "n": 5
         }
       ]
     },
@@ -853,6 +895,18 @@
       ]
     },
     {
+      "slug": "grauburgunder",
+      "display": "Grauburgunder",
+      "regions": [
+        {
+          "country_slug": "austria",
+          "region_slug": "wachau",
+          "region_name": "Wachau",
+          "n": 1
+        }
+      ]
+    },
+    {
       "slug": "grecanico",
       "display": "Grecanico",
       "regions": [
@@ -925,6 +979,30 @@
       ]
     },
     {
+      "slug": "gruner-veltliner",
+      "display": "Grüner Veltliner",
+      "regions": [
+        {
+          "country_slug": "austria",
+          "region_slug": "wachau",
+          "region_name": "Wachau",
+          "n": 78
+        }
+      ]
+    },
+    {
+      "slug": "gruner-veltliner-smaragd",
+      "display": "Grüner Veltliner Smaragd",
+      "regions": [
+        {
+          "country_slug": "austria",
+          "region_slug": "wachau",
+          "region_name": "Wachau",
+          "n": 1
+        }
+      ]
+    },
+    {
       "slug": "inzolia",
       "display": "Inzolia",
       "regions": [
@@ -933,6 +1011,18 @@
           "region_slug": "sicily",
           "region_name": "Sicily",
           "n": 18
+        }
+      ]
+    },
+    {
+      "slug": "loess-veltliner",
+      "display": "Loess Veltliner",
+      "regions": [
+        {
+          "country_slug": "austria",
+          "region_slug": "wachau",
+          "region_name": "Wachau",
+          "n": 1
         }
       ]
     },
@@ -1393,6 +1483,18 @@
       ]
     },
     {
+      "slug": "neuburger",
+      "display": "Neuburger",
+      "regions": [
+        {
+          "country_slug": "austria",
+          "region_slug": "wachau",
+          "region_name": "Wachau",
+          "n": 7
+        }
+      ]
+    },
+    {
       "slug": "nocera",
       "display": "Nocera",
       "regions": [
@@ -1527,6 +1629,12 @@
           "region_slug": "champagne",
           "region_name": "Champagne",
           "n": 4
+        },
+        {
+          "country_slug": "austria",
+          "region_slug": "wachau",
+          "region_name": "Wachau",
+          "n": 2
         }
       ]
     },
@@ -1623,6 +1731,12 @@
           "region_slug": "champagne",
           "region_name": "Champagne",
           "n": 57
+        },
+        {
+          "country_slug": "austria",
+          "region_slug": "wachau",
+          "region_name": "Wachau",
+          "n": 1
         }
       ]
     },
@@ -1677,6 +1791,12 @@
           "region_slug": "piedmont",
           "region_name": "Piedmont",
           "n": 3
+        },
+        {
+          "country_slug": "austria",
+          "region_slug": "wachau",
+          "region_name": "Wachau",
+          "n": 78
         }
       ]
     },
@@ -1820,6 +1940,12 @@
           "country_slug": "italy",
           "region_slug": "veneto",
           "region_name": "Veneto",
+          "n": 1
+        },
+        {
+          "country_slug": "austria",
+          "region_slug": "wachau",
+          "region_name": "Wachau",
           "n": 1
         }
       ]
@@ -2287,6 +2413,18 @@
       ]
     },
     {
+      "slug": "wachau-wines",
+      "display": "Wachau wines",
+      "regions": [
+        {
+          "country_slug": "austria",
+          "region_slug": "wachau",
+          "region_name": "Wachau",
+          "n": 1
+        }
+      ]
+    },
+    {
       "slug": "weissburgunder",
       "display": "Weissburgunder",
       "regions": [
@@ -2295,6 +2433,12 @@
           "region_slug": "mosel",
           "region_name": "Mosel",
           "n": 6
+        },
+        {
+          "country_slug": "austria",
+          "region_slug": "wachau",
+          "region_name": "Wachau",
+          "n": 9
         }
       ]
     },
@@ -2319,6 +2463,18 @@
           "region_slug": "sicily",
           "region_name": "Sicily",
           "n": 14
+        }
+      ]
+    },
+    {
+      "slug": "zweigelt",
+      "display": "Zweigelt",
+      "regions": [
+        {
+          "country_slug": "austria",
+          "region_slug": "wachau",
+          "region_name": "Wachau",
+          "n": 3
         }
       ]
     }

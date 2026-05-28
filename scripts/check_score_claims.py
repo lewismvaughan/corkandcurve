@@ -71,7 +71,7 @@ RE_RANK = re.compile(
 # wines of the Burgos sector", "the legendary Unico", "put the region on
 # the world map", "regarded as the defining natural-wine producer in the
 # appellation", "the most prestigious postal code in Ribera del Duero".
-SOFT_ADJ = r"(?:celebrated|prominent|important|iconic|defining|prestigious|storied|legendary|celebrated|renowned|concentrated)"
+SOFT_ADJ = r"(?:celebrated|prominent|important|iconic|defining|prestigious|storied|legendary|celebrated|renowned|concentrated|benchmark|reference)"
 COUNTRIES = r"(?:spain|italy|france|portugal|germany|austria|chile|argentina|south\s*africa|australia|new\s*zealand|hungary|greece)"
 RE_SOFT_RANK = re.compile(
     # "<country>'s most <adj>" / "the world's most <adj>"
@@ -94,6 +94,24 @@ RE_SOFT_RANK = re.compile(
     re.I,
 )
 
+# Additional adjective-noun benchmark phrases (Wachau Opus 2026-05-28 caught
+# 21 surviving). These don't fit the "one of the most X" template but carry
+# the same ranking implication.
+RE_BENCHMARK_NOUN = re.compile(
+    r"\b(?:the\s+)?benchmark\s+(?:wine|riesling|gr[uü]ner|tempranillo|"
+    r"chardonnay|amarone|barolo|champagne|cabernet|syrah|nebbiolo|"
+    r"sangiovese|merlot|pinot|gamay|carignan|grenache|examples?|expression|estate)\b"
+    r"|\bthe\s+village\s+benchmark\b"
+    r"|\bnot\s+to\s+be\s+missed\b"
+    r"|\bthe\s+reference\s+(?:wine|producer|estate|expression)\b",
+    re.I,
+)
+
+# Double-hyphen as em-dash substitute (Wachau Opus 2026-05-28 caught 6 in
+# long-form prose). The em-dash ban is already on real em-dashes; this
+# catches the ASCII-typewriter workaround.
+RE_DOUBLE_HYPHEN = re.compile(r"(?<!\w)--(?!\w)")
+
 # First-name-only chef/sommelier/winemaker attribution risk.
 # "Chef Marina" / "sommelier Roberto" without a verifiable last name +
 # source is a fabrication risk (Ribera 2026-05-28 — Ambivium's fabricated
@@ -114,6 +132,10 @@ def _scan_text(s: str) -> str | None:
         return "ranking-claim"
     if RE_SOFT_RANK.search(s):
         return "soft-superlative"
+    if RE_BENCHMARK_NOUN.search(s):
+        return "benchmark-noun"
+    if RE_DOUBLE_HYPHEN.search(s):
+        return "double-hyphen-emdash"
     if RE_FIRSTNAME_ATTRIB.search(s):
         return "firstname-only-attribution"
     return None
