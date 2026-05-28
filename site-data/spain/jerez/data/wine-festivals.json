@@ -1,0 +1,182 @@
+{
+  "wine_festivals": [
+    {
+      "slug": "fiesta-vendimia-jerez",
+      "name": "Fiesta de la Vendimia de Jerez",
+      "annual": true,
+      "recurrence_pattern": "annual, first Sunday of September",
+      "start_month": "September",
+      "duration": "1 day (ceremonial opening), with harvest activities continuing across the week",
+      "host_organization": "Consejo Regulador de Jerez-Xeres-Sherry and Manzanilla-Sanlucar de Barrameda, with the City of Jerez",
+      "featured_producers": ["gonzalez-byass", "bodegas-tio-pepe", "emilio-lustau"],
+      "ticket_required": false,
+      "description": "The traditional opening ceremony of the Jerez harvest, held on the steps of the Collegiate Church of San Salvador. The first grapes of the season are trodden by foot, the must is blessed by the Archbishop, and the venencia is ceremonially filled with new wine. Public event drawing wine pilgrims from across the world.",
+      "tip": "Arrive early for the grape-treading ceremony on the church steps; the public tasting area opens after noon.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.sherry.wine/sherry-region/history-of-sherry",
+        "address_quoted": "Jerez de la Frontera",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Jerez_de_la_Frontera",
+        "cuisine_evidence_url": "https://www.sherry.wine/sherry-region/history-of-sherry",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "feria-del-caballo-jerez",
+      "name": "Feria del Caballo de Jerez",
+      "annual": true,
+      "recurrence_pattern": "annual, first or second week of May",
+      "start_month": "May",
+      "duration": "6 days",
+      "host_organization": "Excmo. Ayuntamiento de Jerez de la Frontera",
+      "featured_producers": ["gonzalez-byass", "osborne", "emilio-lustau"],
+      "ticket_required": false,
+      "description": "The Jerez Horse Fair, held annually each May, is the most socially significant sherry-drinking event in the Sherry Triangle calendar. Thousands of horse-drawn carriages parade in elaborate dress while attendees drink chilled fino and manzanilla in decorated caseta pavilions. The event is the year's highest fino-consumption week for Jerez's bodegas.",
+      "tip": "The midday paseo (parade) from noon to 2pm is the peak display; grab a seat at a caseta veranda with a cold Tio Pepe.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.sherry.wine/sherry-region/history-of-sherry",
+        "address_quoted": "Jerez de la Frontera",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Feria_del_Caballo",
+        "cuisine_evidence_url": "https://www.sherry.wine/sherry-region/history-of-sherry",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "festival-de-jerez-flamenco",
+      "name": "Festival de Jerez",
+      "annual": true,
+      "recurrence_pattern": "annual, late February to early March",
+      "start_month": "February",
+      "duration": "2 weeks",
+      "host_organization": "Fundacion Festival de Jerez, City of Jerez",
+      "featured_producers": [],
+      "ticket_required": true,
+      "ticket_url": "https://www.festivaldejerez.es",
+      "description": "The Festival de Jerez is an international flamenco festival held annually in late February and early March. Sherry is the cultural companion at every performance: manzanilla and fino are served in the penas flamencas and tablaos hosting events. The festival draws flamenco scholars and performers from across Europe and Latin America for a fortnight of dance and cante programming.",
+      "tip": "Book tickets months in advance; combine an afternoon bodega visit with an evening tablao show for the full Jerez experience.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.festivaldejerez.es",
+        "address_quoted": "Jerez de la Frontera",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Festival_de_Jerez",
+        "cuisine_evidence_url": "https://www.festivaldejerez.es",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "carreras-caballos-playa-sanlucar",
+      "name": "Carreras de Caballos en la Playa de Sanlucar de Barrameda",
+      "annual": true,
+      "recurrence_pattern": "annual, two weekends in August",
+      "start_month": "August",
+      "duration": "Two race weekends (typically mid and late August)",
+      "host_organization": "Real Club de Carreras de Caballos de Sanlucar de Barrameda",
+      "featured_producers": ["hidalgo-la-gitana", "barbadillo"],
+      "ticket_required": false,
+      "description": "Held on the wet sand of the Calzada beach at the mouth of the Guadalquivir river since 1845, the Sanlucar beach horse races are among Europe's oldest and most atmospheric horse-racing events. Spectators line the beach drinking chilled Manzanilla from tabancos and bodega stalls while thoroughbreds race at the tide's edge. August in Sanlucar without Manzanilla is unthinkable.",
+      "tip": "The late-afternoon races (from 19:30) have the best light for photography and the coolest temperatures; arrive two hours early to claim a beach position.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.sherry.wine/sherry-region/history-of-sherry",
+        "address_quoted": "Sanlucar de Barrameda",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Sanl%C3%BAcar_de_Barrameda",
+        "cuisine_evidence_url": "https://www.sherry.wine/sherry-region/history-of-sherry",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "pisada-uva-sanlucar",
+      "name": "Pisada de la Uva de Sanlucar",
+      "annual": true,
+      "recurrence_pattern": "annual, September, timed with the local vendimia",
+      "start_month": "September",
+      "duration": "1 day",
+      "host_organization": "Bodegas Barbadillo and the Manzanilla producers of Sanlucar de Barrameda",
+      "featured_producers": ["barbadillo", "hidalgo-la-gitana"],
+      "ticket_required": false,
+      "description": "The Sanlucar vendimia grape-treading festival, held separately from the Jerez ceremony, takes place in the historic Barrio Alto quarter of Sanlucar. Traditional grape treading in stone llagares is accompanied by Manzanilla, flamenco and a procession through the whitewashed streets. Smaller and more intimate than the Jerez event.",
+      "tip": "The Barbadillo bodega on Calle Sevilla runs open-cellar tastings during vendimia week; no reservation required.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.barbadillo.com/en/",
+        "address_quoted": "Sanlucar de Barrameda",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Sanl%C3%BAcar_de_Barrameda",
+        "cuisine_evidence_url": "https://www.barbadillo.com/en/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "copa-jerez-forum",
+      "name": "Copa Jerez International Sherry and Food Pairing Competition",
+      "annual": false,
+      "recurrence_pattern": "biennial, held in odd-numbered years, October-November",
+      "start_month": "October",
+      "duration": "2 days (competition) plus a public gala dinner",
+      "host_organization": "Consejo Regulador de Jerez-Xeres-Sherry",
+      "featured_producers": [],
+      "ticket_required": true,
+      "ticket_url": "https://www.sherry.wine",
+      "description": "The Copa Jerez is the world's premier sherry and food pairing competition, bringing together teams of sommeliers and chefs from countries including Spain, Germany, Denmark, the Netherlands, the United Kingdom, the United States and Japan. Each team presents a four-course menu paired entirely with different sherry styles. The event has driven a significant shift in fine-dining perception of sherry as a serious food wine.",
+      "tip": "Watch for the competition results as a reliable guide to the most creative new sherry-pairing restaurants opening in Europe each year.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.sherry.wine/sherry-region/history-of-sherry",
+        "address_quoted": "Jerez de la Frontera",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Sherry",
+        "cuisine_evidence_url": "https://www.sherry.wine/sherry-region/history-of-sherry",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "sherry-day-international",
+      "name": "International Sherry Day",
+      "annual": true,
+      "recurrence_pattern": "annual, third Friday of November",
+      "start_month": "November",
+      "duration": "1 day (events across multiple countries)",
+      "host_organization": "Consejo Regulador de Jerez-Xeres-Sherry and international importers",
+      "featured_producers": ["gonzalez-byass", "emilio-lustau", "barbadillo", "hidalgo-la-gitana"],
+      "ticket_required": false,
+      "description": "International Sherry Day, held on the third Friday of November, coordinates sherry tastings, bar promotions and educational events across the globe. In Jerez itself the bodegas open their cellar doors to the public and the tabancos offer special pours and tastings. The event has grown year on year since its inauguration and is now recognized across major wine markets including the UK, Germany, the United States and the Netherlands.",
+      "tip": "In Jerez, ask at any tabanco for the special en rama or single-cask pours that bodegas reserve for Sherry Day.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.sherry.wine/sherry-region/history-of-sherry",
+        "address_quoted": "Jerez de la Frontera",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Sherry",
+        "cuisine_evidence_url": "https://www.sherry.wine/sherry-region/history-of-sherry",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "encuentro-con-la-vendimia-el-puerto",
+      "name": "Encuentro con la Vendimia, El Puerto de Santa Maria",
+      "annual": true,
+      "recurrence_pattern": "annual, September, timed with harvest",
+      "start_month": "September",
+      "duration": "1 week",
+      "host_organization": "City of El Puerto de Santa Maria and Osborne / Lustau bodegas",
+      "featured_producers": ["osborne", "emilio-lustau"],
+      "ticket_required": false,
+      "description": "El Puerto de Santa Maria holds its own harvest festival each September as a complement to the Jerez Vendimia. The Osborne bodega complex opens its historic cellars for harvest tastings and the town's sherry bars and restaurants offer special harvest menus pairing fino, oloroso and palo cortado with Atlantic seafood from the Bay of Cadiz.",
+      "tip": "Book a harbour-side table for grilled coquinas (tiny clams) with a glass of chilled Fino Quinta from Osborne.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.osborne.es/en/company/history",
+        "address_quoted": "El Puerto de Santa Maria",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/El_Puerto_de_Santa_Mar%C3%ADa",
+        "cuisine_evidence_url": "https://www.osborne.es/en/company/history",
+        "checked_on": "2026-05-28"
+      }
+    }
+  ]
+}

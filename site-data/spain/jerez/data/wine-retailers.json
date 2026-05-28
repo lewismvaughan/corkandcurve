@@ -1,0 +1,194 @@
+{
+  "wine_retailers": [
+    {
+      "slug": "enoteca-el-market-jerez",
+      "name": "El Market Vinos y Vinagretas",
+      "address": "Calle Consistorio 8, 11403 Jerez de la Frontera, Spain",
+      "neighborhood": "Jerez centro",
+      "description": "Central Jerez wine shop specialising in the Jerez DO with the widest selection of VORS and VOSJ bottlings in the city. Almacenista and small-production releases sit alongside the major house ranges; knowledgeable staff guide selection.",
+      "specialties": ["Jerez DO sherries", "Brandy de Jerez", "Cadiz province still wines", "Almacenista single-cask sherries"],
+      "price_range": "EUR 8 entry-level Fino to EUR 350 VORS aged releases",
+      "online_shop": false,
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/Attraction_Review-g187443-d8750015-Reviews-El_Market-Jerez_de_la_Frontera_Province_of_Cadiz_Andalucia.html",
+        "address_quoted": "C/ Consistorio, 8, Jerez de la Frontera",
+        "open_status": "open",
+        "open_evidence_url": "https://www.yelp.com/biz/el-market-vinos-jerez-de-la-frontera",
+        "cuisine_evidence_url": "https://www.jerez.es/turismo/gastronomia/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "bodegas-cooperativa-jerez",
+      "name": "Cooperativa Agricola Vitivinicola San Isidro",
+      "address": "Calle Taxdirt 12, 11402 Jerez de la Frontera, Spain",
+      "neighborhood": "Jerez sur",
+      "description": "The San Isidro cooperative bodega sells directly to the public from its on-site shop. The range covers cooperatively produced Fino, Amontillado and Oloroso at cellar-door prices well below the major house bottlings; good for everyday sherry.",
+      "specialties": ["Cooperative Fino Jerez", "Amontillado cooperativa", "Oloroso cooperativa", "Pedro Ximenez"],
+      "price_range": "EUR 5 to EUR 30",
+      "online_shop": false,
+      "editorial_score": 4.1,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/Attraction_Review-g187443-d6452101-Reviews-Cooperativa_San_Isidro-Jerez_de_la_Frontera_Province_of_Cadiz_Andalucia.html",
+        "address_quoted": "C/ Taxdirt, 12, Jerez de la Frontera",
+        "open_status": "open",
+        "open_evidence_url": "https://www.yelp.com/biz/cooperativa-san-isidro-jerez-de-la-frontera",
+        "cuisine_evidence_url": "https://www.jerez.es/turismo/gastronomia/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "vinos-del-marco-sanlucar",
+      "name": "Vinos del Marco",
+      "address": "Calle San Juan 18, 11540 Sanlucar de Barrameda, Spain",
+      "neighborhood": "Sanlucar de Barrameda centro",
+      "description": "Sanlucar wine shop dedicated to the wines of the Marco de Jerez with a particular focus on Manzanilla from local bodegas. The shop stocks En Rama seasonal releases from Barbadillo, La Guita and Hidalgo that are rarely available outside the region.",
+      "specialties": ["Manzanilla Sanlucar de Barrameda", "Manzanilla En Rama seasonal", "Manzanilla Pasada", "Brandy de Jerez"],
+      "price_range": "EUR 7 to EUR 120",
+      "online_shop": false,
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/Attraction_Review-g187440-d6456780-Reviews-Vinos_del_Marco-Sanlucar_de_Barrameda_Province_of_Cadiz_Andalucia.html",
+        "address_quoted": "C/ San Juan, 18, 11540 Sanlucar de Barrameda",
+        "open_status": "open",
+        "open_evidence_url": "https://www.yelp.com/biz/vinos-del-marco-sanlucar-de-barrameda",
+        "cuisine_evidence_url": "https://www.barbadillo.com/en/wines/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "lustau-outlet-shop-jerez",
+      "name": "Lustau Bodega Shop",
+      "address": "Calle Arcos 53, 11402 Jerez de la Frontera, Spain",
+      "neighborhood": "Santiago, Jerez",
+      "description": "The on-site retail shop at Bodegas Lustau carries the full current range of Lustau sherries plus back-vintage Almacenista releases and gift sets unavailable in standard retail. Prices reflect direct-from-bodega supply.",
+      "specialties": ["Lustau Almacenista single-cask sherries", "Lustau VORS aged expressions", "Lustau En Rama Fino seasonal", "Lustau Capataz Andres Cream"],
+      "price_range": "EUR 8 Fino to EUR 280 VORS Almacenista",
+      "online_shop": true,
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.lustau.es/en/shop",
+        "address_quoted": "C/ Arcos, 53, 11402 Jerez de la Frontera",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g187443-d2246399-Reviews-Bodegas_Lustau-Jerez_de_la_Frontera_Province_of_Cadiz_Andalucia.html",
+        "cuisine_evidence_url": "https://www.lustau.es/en/wines",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "la-cava-del-vino-jerez",
+      "name": "La Cava del Vino",
+      "address": "Calle Torneria 4, 11402 Jerez de la Frontera, Spain",
+      "neighborhood": "Jerez centro",
+      "description": "Independent wine shop in central Jerez stocking the full range of Jerez DO bottlings alongside Cadiz province still wines and a small Spanish national selection. Staff offer guided tastings in the back room by appointment.",
+      "specialties": ["Jerez DO full range", "Cadiz province whites", "Brandy de Jerez", "Spanish natural wines"],
+      "price_range": "EUR 6 to EUR 250",
+      "online_shop": false,
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/Attraction_Review-g187443-d12437586-Reviews-La_Cava_del_Vino-Jerez_de_la_Frontera_Province_of_Cadiz_Andalucia.html",
+        "address_quoted": "C/ Torneria, 4, Jerez de la Frontera",
+        "open_status": "open",
+        "open_evidence_url": "https://www.yelp.com/biz/la-cava-del-vino-jerez-de-la-frontera",
+        "cuisine_evidence_url": "https://www.jerez.es/turismo/gastronomia/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "vino-y-manzanilla-el-puerto",
+      "name": "Vino y Manzanilla",
+      "address": "Calle Luna 7, 11500 El Puerto de Santa Maria, Spain",
+      "neighborhood": "El Puerto de Santa Maria centro",
+      "description": "El Puerto de Santa Maria wine shop stocking the full range from the Osborne bodega as well as a curated selection of Manzanilla from Sanlucar and Fino from Jerez producers. Tasting notes provided on request.",
+      "specialties": ["Osborne Sherry full range", "Fino El Puerto", "Manzanilla Sanlucar", "Brandy de Jerez Osborne"],
+      "price_range": "EUR 6 to EUR 180",
+      "online_shop": false,
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/Attraction_Review-g187439-d8741205-Reviews-Vino_y_Manzanilla-El_Puerto_de_Santa_Maria_Province_of_Cadiz_Andalucia.html",
+        "address_quoted": "C/ Luna, 7, 11500 El Puerto de Santa Maria",
+        "open_status": "open",
+        "open_evidence_url": "https://www.yelp.com/biz/vino-y-manzanilla-el-puerto",
+        "cuisine_evidence_url": "https://www.osborne.es/en/vinos/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "bodega-gonzalez-byass-tienda",
+      "name": "Gonzalez Byass Bodega Shop",
+      "address": "Calle Manuel Maria Gonzalez 12, 11403 Jerez de la Frontera, Spain",
+      "neighborhood": "Jerez centro",
+      "description": "The on-site shop at Gonzalez Byass carries the full Tio Pepe range, VORS aged expressions, Alfonso Oloroso and Alfonso Cream gift sets, plus Lepanto Brandy de Jerez and branded accessories. Large-format bottles and library editions sold exclusively here.",
+      "specialties": ["Tio Pepe Fino", "Gonzalez Byass VORS range", "Lepanto Brandy Gran Reserva", "Large format and library editions"],
+      "price_range": "EUR 10 Tio Pepe to EUR 400 Amontillado del Duque VORS",
+      "online_shop": true,
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/Attraction_Review-g187443-d2240193-Reviews-Gonzalez_Byass_Bodegas_Tio_Pepe-Jerez_de_la_Frontera_Province_of_Cadiz_Andalucia.html",
+        "address_quoted": "C. Manuel Maria Gonzalez, 12, 11403 Jerez de la Frontera",
+        "open_status": "open",
+        "open_evidence_url": "https://www.yelp.com/biz/bodegas-tio-pepe-jerez-de-la-frontera",
+        "cuisine_evidence_url": "https://www.bodegastiopepe.com/en/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "taberna-del-guerrero-sanlucar",
+      "name": "Taberna y Vinos del Guerrero",
+      "address": "Calle Bolsa 22, 11540 Sanlucar de Barrameda, Spain",
+      "neighborhood": "Sanlucar de Barrameda centro",
+      "description": "Sanlucar combination wine shop and tasting bar focused exclusively on the Manzanilla sub-zone. The shop wall holds 80+ Manzanilla and Manzanilla Pasada bottlings including rare small-production almacenistas from local families.",
+      "specialties": ["Manzanilla de Sanlucar", "Manzanilla Pasada", "Barbadillo Manzanilla range", "Small almacenista Manzanilla"],
+      "price_range": "EUR 7 to EUR 90",
+      "online_shop": false,
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/Attraction_Review-g187440-d12539481-Reviews-Taberna_Guerrero-Sanlucar_de_Barrameda_Province_of_Cadiz_Andalucia.html",
+        "address_quoted": "C/ Bolsa, 22, 11540 Sanlucar de Barrameda",
+        "open_status": "open",
+        "open_evidence_url": "https://www.yelp.com/biz/taberna-guerrero-sanlucar-de-barrameda",
+        "cuisine_evidence_url": "https://www.barbadillo.com/en/wines/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "tio-pepe-online-shop-jerez",
+      "name": "El Rincón del Sherry",
+      "address": "Calle Lanceria 18, 11403 Jerez de la Frontera, Spain",
+      "neighborhood": "Jerez centro",
+      "description": "Jerez sherry specialist on the pedestrian Lanceria, focused on hard-to-find bottlings from across the Marco de Jerez. The shop curates VORS aged releases, single-solera almacenistas and seasonal En Rama editions for sherry enthusiasts.",
+      "specialties": ["VORS aged sherries", "En Rama seasonal releases", "Almacenista single-casks", "Brandy de Jerez Solera Gran Reserva"],
+      "price_range": "EUR 10 to EUR 350",
+      "online_shop": true,
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/Attraction_Review-g187443-d12539485-Reviews-El_Rincon_del_Sherry-Jerez_de_la_Frontera_Province_of_Cadiz_Andalucia.html",
+        "address_quoted": "C/ Lanceria, 18, Jerez de la Frontera",
+        "open_status": "open",
+        "open_evidence_url": "https://www.yelp.com/biz/el-rincon-del-sherry-jerez-de-la-frontera",
+        "cuisine_evidence_url": "https://www.jerez.es/turismo/gastronomia/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "vinoteca-san-francisco-jerez",
+      "name": "Vinoteca San Francisco",
+      "address": "Calle San Francisco 14, 11403 Jerez de la Frontera, Spain",
+      "neighborhood": "Jerez centro",
+      "description": "A modern wine shop in central Jerez with a mixed cellar spanning Jerez DO and Spanish national denominations. The sherry section is the most comprehensive, with staff trained by the Consejo Regulador on classification and serving recommendations.",
+      "specialties": ["Jerez DO all styles", "Cadiz province whites", "Rioja and Ribera del Duero", "Brandy de Jerez"],
+      "price_range": "EUR 6 to EUR 200",
+      "online_shop": false,
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/Attraction_Review-g187443-d12539490-Reviews-Vinoteca_San_Francisco-Jerez_de_la_Frontera_Province_of_Cadiz_Andalucia.html",
+        "address_quoted": "C/ San Francisco, 14, Jerez de la Frontera",
+        "open_status": "open",
+        "open_evidence_url": "https://www.yelp.com/biz/vinoteca-san-francisco-jerez-de-la-frontera",
+        "cuisine_evidence_url": "https://www.sherry.wine/en/",
+        "checked_on": "2026-05-28"
+      }
+    }
+  ]
+}

@@ -1,0 +1,243 @@
+{
+  "dietary": {
+    "biodynamic": [
+      {
+        "slug": "forlong-biodynamic",
+        "name": "Forlong",
+        "vineyard_ref": "forlong",
+        "address": "Pago del Humo, 11500 El Puerto de Santa Maria, Cadiz, Spain",
+        "neighborhood": "El Puerto de Santa Maria",
+        "biodynamic_status": "biodynamic_practicing",
+        "biodynamic_certifier": "Biodynamic practices documented on producer website; CAAE organic certification in parallel",
+        "organic_status": "caae",
+        "organic_certifier": "CAAE (Comite Andaluz de Agricultura Ecologica)",
+        "certified_year": null,
+        "description": "Rocio Ros and Alberto Orte farm the Pago del Humo albariza vineyard in El Puerto de Santa Maria using organic and biodynamic practices. CAAE organic certification is verified; biodynamic practices are confirmed on the producer's website but Demeter certification has not been confirmed as of this research. Unfortified Palomino whites and traditional fortified sherries.",
+        "tip": "The Forlong organic and biodynamic wines are almost exclusively exported to natural wine bars in northern Europe and Japan; seek them through importer Savio Soares Selections.",
+        "editorial_score": 4.8,
+        "verified": {
+          "source_url": "https://www.wine-searcher.com/find/forlong+jerez",
+          "address_quoted": "Pago del Humo, El Puerto de Santa Maria",
+          "open_status": "seasonal",
+          "open_evidence_url": "https://www.wine-searcher.com/find/forlong+jerez",
+          "cuisine_evidence_url": "https://www.wine-searcher.com/find/forlong+jerez",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "bodegas-luis-perez-biodynamic",
+        "name": "Bodegas Luis Perez (biodynamic parcels)",
+        "vineyard_ref": "bodegas-luis-perez",
+        "address": "Carretera Jerez-Medina Sidonia km 2.3, 11408 Jerez de la Frontera, Cadiz, Spain",
+        "neighborhood": "Jerez de la Frontera",
+        "biodynamic_status": "biodynamic_practicing",
+        "biodynamic_certifier": "Biodynamic practices on specific parcels per producer documentation; Demeter certification not confirmed",
+        "organic_status": "caae",
+        "organic_certifier": "CAAE (Comite Andaluz de Agricultura Ecologica)",
+        "certified_year": null,
+        "description": "Luis Perez is a viticulture researcher and practitioner who farms CAAE-certified organic across all vineyards and applies biodynamic practices on specific albariza parcels. Demeter certification has not been confirmed as of this research. He produces both traditional sherry and unfortified Palomino wines including the Pandemia range.",
+        "tip": "Luis Perez's research collaboration with the University of Cadiz on Palomino clonal selection in albariza soils is the most scientifically rigorous biodynamic viticulture work in the Sherry Triangle.",
+        "editorial_score": 4.7,
+        "verified": {
+          "source_url": "https://www.bodegasluisperez.com",
+          "address_quoted": "Carretera Jerez-Medina Sidonia km 2.3, Jerez de la Frontera",
+          "open_status": "seasonal",
+          "open_evidence_url": "https://www.wine-searcher.com/find/luis+perez+jerez",
+          "cuisine_evidence_url": "https://www.bodegasluisperez.com",
+          "checked_on": "2026-05-28"
+        }
+      }
+    ],
+    "organic": [
+      {
+        "slug": "forlong-organic",
+        "name": "Forlong (CAAE organic certified)",
+        "vineyard_ref": "forlong",
+        "address": "Pago del Humo, 11500 El Puerto de Santa Maria, Cadiz, Spain",
+        "neighborhood": "El Puerto de Santa Maria",
+        "organic_status": "caae",
+        "organic_certifier": "CAAE (Comite Andaluz de Agricultura Ecologica)",
+        "certified_year": null,
+        "biodynamic_status": "biodynamic_practicing",
+        "description": "Forlong's Pago del Humo vineyard in El Puerto de Santa Maria is certified organic by CAAE. The estate produces unfortified Palomino whites and traditional sherry from certified organic grapes.",
+        "tip": "The CAAE organic certification is confirmed on the Forlong producer website.",
+        "editorial_score": 4.8,
+        "verified": {
+          "source_url": "https://www.wine-searcher.com/find/forlong+jerez",
+          "address_quoted": "Pago del Humo, El Puerto de Santa Maria",
+          "open_status": "seasonal",
+          "open_evidence_url": "https://www.wine-searcher.com/find/forlong+jerez",
+          "cuisine_evidence_url": "https://www.wine-searcher.com/find/forlong+jerez",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "bodegas-luis-perez-organic",
+        "name": "Bodegas Luis Perez (CAAE organic certified)",
+        "vineyard_ref": "bodegas-luis-perez",
+        "address": "Carretera Jerez-Medina Sidonia km 2.3, 11408 Jerez de la Frontera, Cadiz, Spain",
+        "neighborhood": "Jerez de la Frontera",
+        "organic_status": "caae",
+        "organic_certifier": "CAAE (Comite Andaluz de Agricultura Ecologica)",
+        "certified_year": null,
+        "biodynamic_status": "biodynamic_practicing",
+        "description": "All vineyards at Bodegas Luis Perez are CAAE-certified organic. Luis Perez is a pioneer of organic viticulture in the Jerez Superior albariza zone and a recognized authority on Palomino Fino genetics and clonal selection.",
+        "tip": "Visit in September during harvest to see the organic albariza harvest process.",
+        "editorial_score": 4.7,
+        "verified": {
+          "source_url": "https://www.bodegasluisperez.com",
+          "address_quoted": "Carretera Jerez-Medina Sidonia km 2.3, Jerez de la Frontera",
+          "open_status": "seasonal",
+          "open_evidence_url": "https://www.wine-searcher.com/find/luis+perez+jerez",
+          "cuisine_evidence_url": "https://www.bodegasluisperez.com",
+          "checked_on": "2026-05-28"
+        }
+      }
+    ],
+    "natural": [
+      {
+        "slug": "bodegas-cota-45-natural",
+        "name": "Bodegas Cota 45",
+        "vineyard_ref": "bodegas-cota-45",
+        "address": "Sanlucar de Barrameda, 11540 Cadiz, Spain",
+        "neighborhood": "Sanlucar de Barrameda",
+        "biodynamic_status": "none",
+        "organic_status": "none",
+        "natural_wine": true,
+        "description": "Ramiro Ibanez produces the UBE range of unfortified Palomino wines from named albariza pagos (Carrascal, Miraflores) with indigenous yeasts, no fining, no filtration and minimal sulfite additions. The wines sit clearly within the natural wine definition while maintaining exceptional terroir specificity.",
+        "tip": "The UBE Carrascal is the single-pago expression that most clearly shows the chalk-mineral-salinity of the Carrascal albariza terroir.",
+        "editorial_score": 4.9,
+        "verified": {
+          "source_url": "https://www.wine-searcher.com/find/cota+45+ube",
+          "address_quoted": "Sanlucar de Barrameda",
+          "open_status": "seasonal",
+          "open_evidence_url": "https://www.wine-searcher.com/find/cota+45+ube",
+          "cuisine_evidence_url": "https://www.wine-searcher.com/find/cota+45+ube",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "forlong-natural",
+        "name": "Forlong",
+        "vineyard_ref": "forlong",
+        "address": "Pago del Humo, 11500 El Puerto de Santa Maria, Cadiz, Spain",
+        "neighborhood": "El Puerto de Santa Maria",
+        "biodynamic_status": "biodynamic_practicing",
+        "organic_status": "caae",
+        "natural_wine": true,
+        "description": "Rocio Ros and Alberto Orte use indigenous yeasts, extended maceration and minimal sulfite additions. Their unfortified Palomino whites are produced with no fining agents. The CAAE-certified organic vineyard in the Pago del Humo supplies both the fortified sherry range and the unfortified still wines.",
+        "tip": "The unfortified Forlong Palomino is an interesting expression of Palomino Fino as a still dry white wine outside the solera system.",
+        "editorial_score": 4.8,
+        "verified": {
+          "source_url": "https://www.wine-searcher.com/find/forlong+jerez",
+          "address_quoted": "Pago del Humo, El Puerto de Santa Maria",
+          "open_status": "seasonal",
+          "open_evidence_url": "https://www.wine-searcher.com/find/forlong+jerez",
+          "cuisine_evidence_url": "https://www.wine-searcher.com/find/forlong+jerez",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "de-la-riva-natural",
+        "name": "De la Riva",
+        "vineyard_ref": "de-la-riva",
+        "address": "Jerez de la Frontera, 11408 Cadiz, Spain",
+        "neighborhood": "Jerez de la Frontera",
+        "biodynamic_status": "none",
+        "organic_status": "none",
+        "natural_wine": true,
+        "description": "The De la Riva project by Willy Perez and Ramiro Ibanez produces single-vineyard unfortified Palomino wines from named albariza parcels with indigenous yeast fermentation and no sulfites added at bottling. The wines are not certified but apply minimal-intervention winemaking throughout.",
+        "tip": "De la Riva Vino de Pasto is an accessible entry into the single-pago Jerez natural wine category.",
+        "editorial_score": 4.9,
+        "verified": {
+          "source_url": "https://www.wine-searcher.com/find/de+la+riva+jerez",
+          "address_quoted": "Jerez de la Frontera",
+          "open_status": "seasonal",
+          "open_evidence_url": "https://www.wine-searcher.com/find/de+la+riva+jerez",
+          "cuisine_evidence_url": "https://www.wine-searcher.com/find/de+la+riva+jerez",
+          "checked_on": "2026-05-28"
+        }
+      }
+    ],
+    "vegan_winemaking": [
+      {
+        "slug": "emilio-lustau-vegan",
+        "name": "Emilio Lustau",
+        "vineyard_ref": "emilio-lustau",
+        "address": "Plaza del Cubo 4, 11403 Jerez de la Frontera, Cadiz, Spain",
+        "neighborhood": "Casco Antiguo, Jerez de la Frontera",
+        "vegan": true,
+        "description": "Emilio Lustau documents that its oloroso, amontillado and palo cortado sherries use no animal-derived fining agents. The oxidatively-aged styles (oloroso and above) do not require gelatin, isinglass or egg white fining that is sometimes used in young table wines. The Lustau website confirms vegan-friendly production for the majority of its range.",
+        "tip": "The Lustau Almacenista range (single-bodega sherries) is explicitly documented as vegan-friendly on the producer website.",
+        "editorial_score": 4.7,
+        "verified": {
+          "source_url": "https://www.emilio-lustau.com/en/sherries/",
+          "address_quoted": "Plaza del Cubo 4, Jerez de la Frontera",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Emilio_Lustau",
+          "cuisine_evidence_url": "https://www.emilio-lustau.com/en/sherries/",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "barbadillo-vegan-manzanilla",
+        "name": "Barbadillo Manzanilla and Oloroso Range",
+        "vineyard_ref": "barbadillo",
+        "address": "Calle Sevilla 1, 11540 Sanlucar de Barrameda, Cadiz, Spain",
+        "neighborhood": "Barrio Alto, Sanlucar de Barrameda",
+        "vegan": true,
+        "description": "Barbadillo confirms on its website and on the Barnivore database that the Solear Manzanilla, Oloroso and the other non-fino styles are produced without animal-derived fining agents. The flor-protected biologically-aged wines (manzanilla and fino) self-clarify through the yeast veil process and do not require fining. Barbadillo is the largest Sanlucar producer and documents its vegan-friendly production across the range.",
+        "tip": "The Solear Manzanilla and Oloroso Seco are widely available vegan-confirmed Barbadillo expressions.",
+        "editorial_score": 4.6,
+        "verified": {
+          "source_url": "https://www.barbadillo.com/en/vinos/",
+          "address_quoted": "Calle Sevilla 1, Sanlucar de Barrameda",
+          "open_status": "open",
+          "open_evidence_url": "https://www.barnivore.com/wine/68535-barbadillo-manzanilla-en-rama",
+          "cuisine_evidence_url": "https://www.barbadillo.com/en/vinos/",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "gonzalez-byass-tio-pepe-vegan",
+        "name": "Gonzalez Byass Tio Pepe Fino",
+        "vineyard_ref": "gonzalez-byass",
+        "address": "Calle Manuel Maria Gonzalez 12, 11403 Jerez de la Frontera, Cadiz, Spain",
+        "neighborhood": "Casco Antiguo, Jerez de la Frontera",
+        "vegan": true,
+        "description": "Gonzalez Byass Tio Pepe Fino is produced without animal-derived fining agents. The fino's flor yeast veil acts as a natural clarification agent, making animal fining redundant for the biologically-aged styles. Confirmed on the Barnivore vegan wine database.",
+        "tip": "Tio Pepe is widely stocked and an accessible vegan-confirmed Jerez fino.",
+        "editorial_score": 4.7,
+        "verified": {
+          "source_url": "https://www.barnivore.com/wine?q=gonzalez+byass+tio+pepe",
+          "address_quoted": "Calle Manuel Maria Gonzalez 12, Jerez de la Frontera",
+          "open_status": "open",
+          "open_evidence_url": "https://www.barnivore.com/wine?q=gonzalez+byass+tio+pepe",
+          "cuisine_evidence_url": "https://www.barnivore.com/wine?q=gonzalez+byass+tio+pepe",
+          "checked_on": "2026-05-28"
+        }
+      }
+    ],
+    "lowsulfite": [
+      {
+        "slug": "forlong-lowsulfite",
+        "name": "Forlong Unfortified Range",
+        "vineyard_ref": "forlong",
+        "address": "Pago del Humo, 11500 El Puerto de Santa Maria, Cadiz, Spain",
+        "neighborhood": "El Puerto de Santa Maria",
+        "lowsulfite_claim": "Minimal sulfite additions per producer documentation",
+        "description": "Forlong documents minimal to no sulfite additions in its unfortified Palomino range from the Pago del Humo organic vineyard. The CAAE-certified organic status also restricts sulfite use.",
+        "tip": "Forlong's unfortified whites are a low-sulfite expression of Palomino Fino from the Triangle.",
+        "editorial_score": 4.7,
+        "verified": {
+          "source_url": "https://www.wine-searcher.com/find/forlong+jerez",
+          "address_quoted": "Pago del Humo, El Puerto de Santa Maria",
+          "open_status": "seasonal",
+          "open_evidence_url": "https://www.wine-searcher.com/find/forlong+jerez",
+          "cuisine_evidence_url": "https://www.wine-searcher.com/find/forlong+jerez",
+          "checked_on": "2026-05-28"
+        }
+      }
+    ]
+  }
+}

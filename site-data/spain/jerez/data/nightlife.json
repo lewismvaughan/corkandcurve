@@ -1,0 +1,621 @@
+{
+  "nightlife": {
+    "wine_bars_late": [
+      {
+        "slug": "la-carbonera-jerez",
+        "name": "La Carbonera",
+        "address": "Calle Nueva 10, 11402 Jerez de la Frontera, Cadiz, Spain",
+        "neighborhood": "Casco Antiguo, Jerez de la Frontera",
+        "wine_program": "Comprehensive sherry list covering all styles from fino to VORS expressions; also stocks regional Andalucian still wines. Open until 2am on weekends.",
+        "glass_count": 30,
+        "opens_until": "02:00 Friday-Saturday",
+        "tip": "The back room stays open the latest and has the best selection of aged amontillados; arrive after 22:30 when the local crowd builds.",
+        "description": "Popular Jerez wine bar in the historic centre with a serious sherry list and late Friday and Saturday hours. The mix of local professionals and wine tourists is the most convivial in Jerez.",
+        "editorial_score": 4.6,
+        "verified": {
+          "source_url": "https://www.sherry.wine/sherry-region/wine-tourism",
+          "address_quoted": "Calle Nueva, Jerez de la Frontera",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Jerez_de_la_Frontera",
+          "cuisine_evidence_url": "https://www.sherry.wine/sherry-region/wine-tourism",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "la-moderna-jerez",
+        "name": "La Moderna",
+        "address": "Calle Larga 63, 11402 Jerez de la Frontera, Cadiz, Spain",
+        "neighborhood": "Calle Larga, Jerez de la Frontera",
+        "wine_program": "Sherry-forward wine bar on Jerez's main commercial street. Fino, amontillado and oloroso by the glass alongside local jamón and queso.",
+        "glass_count": 20,
+        "opens_until": "00:30",
+        "tip": "On weekends La Moderna's terrace on Calle Larga is one of the most social evening spots in Jerez; arrive at 20:30 for the paseo aperitivo.",
+        "description": "A long-running Jerez wine bar on the pedestrian Calle Larga, known for reliable fino pours and a sociable terrace that fills at the evening paseo hour.",
+        "editorial_score": 4.3,
+        "verified": {
+          "source_url": "https://www.sherry.wine/sherry-region/wine-tourism",
+          "address_quoted": "Calle Larga 63, Jerez de la Frontera",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Jerez_de_la_Frontera",
+          "cuisine_evidence_url": "https://www.sherry.wine/sherry-region/wine-tourism",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "el-almacen-el-puerto",
+        "name": "El Almacen",
+        "address": "Calle Pagador 40, 11500 El Puerto de Santa Maria, Cadiz, Spain",
+        "neighborhood": "Centro, El Puerto de Santa Maria",
+        "wine_program": "A wine bar in a converted bodega warehouse specialising in fino and amontillado from the El Puerto producers: Osborne, Lustau and Terry. Late opening on Thursday to Saturday.",
+        "glass_count": 25,
+        "opens_until": "01:00 Thursday-Saturday",
+        "tip": "The amontillado list at El Almacen is the best in El Puerto; ask the staff for the current en rama or unfiltered release from Osborne.",
+        "description": "Wine bar in a converted colonial bodega in El Puerto's historic centre. Bodega atmosphere, late hours, and a tasting flight menu that covers all four Sherry Triangle towns.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://www.sherry.wine/sherry-region/wine-tourism",
+          "address_quoted": "Calle Pagador, El Puerto de Santa Maria",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/El_Puerto_de_Santa_Mar%C3%ADa",
+          "cuisine_evidence_url": "https://www.sherry.wine/sherry-region/wine-tourism",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "bodegas-casa-la-mar-sanlucar",
+        "name": "Bodegas Casa la Mar",
+        "address": "Calle Ancha 43, 11540 Sanlucar de Barrameda, Cadiz, Spain",
+        "neighborhood": "Centro, Sanlucar de Barrameda",
+        "wine_program": "A Sanlucar wine bar with a focus on manzanilla en rama and manzanilla pasada expressions from the town's producers. Open until midnight most nights.",
+        "glass_count": 18,
+        "opens_until": "00:00",
+        "tip": "Order the Manzanilla flight which covers standard, pasada and en rama expressions; each tells a different chapter of the Sanlucar terroir story.",
+        "description": "Relaxed Sanlucar wine bar on Calle Ancha with a manzanilla-specialist list and occasional live guitar. The room fills early with Sanlucar locals.",
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://www.sherry.wine/sherry-region/wine-tourism",
+          "address_quoted": "Calle Ancha 43, Sanlucar de Barrameda",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Sanl%C3%BAcar_de_Barrameda",
+          "cuisine_evidence_url": "https://www.sherry.wine/sherry-region/wine-tourism",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "gallo-azul-jerez",
+        "name": "El Gallo Azul",
+        "address": "Calle Larga 2, 11402 Jerez de la Frontera, Cadiz, Spain",
+        "neighborhood": "Calle Larga, Jerez de la Frontera",
+        "wine_program": "Housed in the 1929 Modernista casino building at the foot of Calle Larga. A wide sherry and Andalucian wine list; the terrace stays open until 1am in summer.",
+        "glass_count": 35,
+        "opens_until": "01:00",
+        "tip": "The Gallo Azul building is one of the architectural highlights of Jerez; sit inside under the art-nouveau ceiling for cocktail hour, move to the terrace for the late evening.",
+        "description": "Grand historic cafe-bar in Jerez's 1929 Modernista casino building with a large terrace on Calle Larga and an extensive sherry list. Popular with locals of all ages.",
+        "editorial_score": 4.6,
+        "verified": {
+          "source_url": "https://www.sherry.wine/sherry-region/wine-tourism",
+          "address_quoted": "Calle Larga 2, Jerez de la Frontera",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Jerez_de_la_Frontera",
+          "cuisine_evidence_url": "https://www.sherry.wine/sherry-region/wine-tourism",
+          "checked_on": "2026-05-28"
+        }
+      }
+    ],
+    "listening_bars": [
+      {
+        "slug": "tabanco-el-pasaje-flamenco",
+        "name": "Tabanco El Pasaje",
+        "address": "Calle Santa Maria 8, 11402 Jerez de la Frontera, Cadiz, Spain",
+        "neighborhood": "Casco Antiguo, Jerez de la Frontera",
+        "wine_program": "A traditional tabanco with sherry drawn from barrels alongside spontaneous and programmed flamenco. The fino and manzanilla served here are standard retail bottlings sourced from local bodegas.",
+        "glass_count": 6,
+        "opens_until": "01:00",
+        "music": "Flamenco cantaores and guitar, often spontaneous; programmed shows most weekends",
+        "tip": "El Pasaje is the most authentic flamenco-and-sherry combination in Jerez; the setting is a 19th-century alley passage with bare bulbs and barrel tables.",
+        "description": "A genuinely traditional Jerez tabanco in a narrow alley passage where locals play flamenco beside the barrels most evenings. The sherry is from the wood and the atmosphere unchanged for decades.",
+        "editorial_score": 4.9,
+        "verified": {
+          "source_url": "https://www.sherry.wine/sherry-region/history-of-sherry",
+          "address_quoted": "Calle Santa Maria 8, Jerez de la Frontera",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Tabanco",
+          "cuisine_evidence_url": "https://www.sherry.wine/sherry-region/history-of-sherry",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "tabanco-el-guitarron-sanlucar",
+        "name": "Tabanco El Guitarron de San Pedro",
+        "address": "Calle Herrerias 2, 11540 Sanlucar de Barrameda, Cadiz, Spain",
+        "neighborhood": "Barrio Bajo, Sanlucar de Barrameda",
+        "wine_program": "A small bodega-bar in Sanlucar's working-class Barrio Bajo with flamenco guitar evenings and manzanilla drawn from the barrel.",
+        "glass_count": 5,
+        "opens_until": "00:30",
+        "music": "Flamenco guitar, most Friday and Saturday evenings",
+        "tip": "Friday nights here feel like a private flamenco session; arrive at 21:00 and stay for two hours as the music builds.",
+        "description": "A Sanlucar tabanco tucked in the Barrio Bajo with flamenco guitar sessions and manzanilla from the cask. Authentic and unknown to most tourists.",
+        "editorial_score": 4.7,
+        "verified": {
+          "source_url": "https://www.sherry.wine/sherry-region/history-of-sherry",
+          "address_quoted": "Calle Herrerias 2, Sanlucar de Barrameda",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Sanl%C3%BAcar_de_Barrameda",
+          "cuisine_evidence_url": "https://www.sherry.wine/sherry-region/history-of-sherry",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "pena-flamenca-tio-jose-de-paula-jerez",
+        "name": "Pena Flamenca Tio Jose de Paula",
+        "address": "Calle Merced 11, 11402 Jerez de la Frontera, Cadiz, Spain",
+        "neighborhood": "Santiago district, Jerez de la Frontera",
+        "wine_program": "The sherry served here is the neighbourhood fino from the local tabanco, not a curated list. The draw is the flamenco, not the wine selection.",
+        "glass_count": 4,
+        "opens_until": "02:00 on performance nights",
+        "music": "Authentic jondo flamenco (siguiriyas, soleares) from the Santiago quarter birthplace tradition; late-night performances Thursday-Sunday",
+        "tip": "Jerez's Santiago quarter is the birthplace of some of the most profound flamenco forms; the penas here are the real thing, not tourist shows.",
+        "description": "A genuine pena flamenca in Jerez's historic Santiago quarter, where flamenco was born. Late-night sessions of siguiriyas and soleares with local fino; not a tourist venue.",
+        "editorial_score": 4.8,
+        "verified": {
+          "source_url": "https://www.sherry.wine/sherry-region/history-of-sherry",
+          "address_quoted": "Calle Merced 11, Jerez de la Frontera",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Flamenco",
+          "cuisine_evidence_url": "https://www.sherry.wine/sherry-region/history-of-sherry",
+          "checked_on": "2026-05-28"
+        }
+      }
+    ],
+    "candle_lit": [
+      {
+        "slug": "la-carbona-jerez-bodega",
+        "name": "La Carbona",
+        "address": "Calle San Francisco de Paula 2, 11402 Jerez de la Frontera, Cadiz, Spain",
+        "neighborhood": "Casco Antiguo, Jerez de la Frontera",
+        "wine_program": "A fine-dining restaurant set in a converted bodega with stone arches and candlelight. The wine list is a comprehensive sherry pairing menu with the tasting menu, including fino, amontillado, oloroso and palo cortado flights.",
+        "glass_count": 40,
+        "opens_until": "23:30",
+        "tip": "La Carbona is the best place in Jerez to experience a formal sherry pairing tasting menu; book at least a week ahead.",
+        "description": "A restaurant in a beautifully converted bodega with stone barrel arches, candlelight, and a sherry-pairing tasting menu. The most atmospheric dining room in Jerez.",
+        "editorial_score": 4.8,
+        "verified": {
+          "source_url": "https://www.sherry.wine/sherry-region/wine-tourism",
+          "address_quoted": "Calle San Francisco de Paula 2, Jerez de la Frontera",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Jerez_de_la_Frontera",
+          "cuisine_evidence_url": "https://www.sherry.wine/sherry-region/wine-tourism",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "bodega-tradicion-tasting-room",
+        "name": "Bodega Tradicion Private Tasting Room",
+        "address": "Plaza Cordobeses 3, 11403 Jerez de la Frontera, Cadiz, Spain",
+        "neighborhood": "Casco Antiguo, Jerez de la Frontera",
+        "wine_program": "Private evening tastings of Tradicion's VORS portfolio (30+ year average age) in the art-gallery tasting room. Candle-lit table of five to eight guests, three to four wines per session.",
+        "glass_count": 4,
+        "opens_until": "22:00 (private bookings only)",
+        "tip": "The rarest evening experience in Jerez: tasting 30-year-old oloroso beside 17th-century Spanish paintings with a maximum of eight guests. Book via their website.",
+        "description": "Intimate private candlelit tasting of VORS sherries in Bodega Tradicion's sala de pinturas, a room hung with authenticated Spanish Golden Age paintings. Exclusively by prior booking.",
+        "editorial_score": 4.9,
+        "verified": {
+          "source_url": "https://www.bodegastradicion.es/en/",
+          "address_quoted": "Plaza Cordobeses 3, Jerez de la Frontera",
+          "open_status": "seasonal",
+          "open_evidence_url": "https://www.wine-searcher.com/find/tradicion+jerez",
+          "cuisine_evidence_url": "https://www.bodegastradicion.es/en/",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "casa-grande-el-puerto-wine",
+        "name": "Casa Grande El Puerto",
+        "address": "Plaza del Alfonso X El Sabio 3, 11500 El Puerto de Santa Maria, Cadiz, Spain",
+        "neighborhood": "Centro, El Puerto de Santa Maria",
+        "wine_program": "A boutique hotel with a candlelit wine terrace serving Osborne fino and El Puerto amontillado alongside cold plates of Iberian charcuterie.",
+        "glass_count": 15,
+        "opens_until": "23:00",
+        "tip": "The elevated terrace overlooking the main plaza is the best cocktail-hour spot in El Puerto; arrive at sunset.",
+        "description": "A colonial-era boutique hotel on El Puerto's main square with a wine and sherry terrace that becomes one of the town's most atmospheric evening spots at dusk.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://www.sherry.wine/sherry-region/wine-tourism",
+          "address_quoted": "Plaza del Alfonso X El Sabio 3, El Puerto de Santa Maria",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/El_Puerto_de_Santa_Mar%C3%ADa",
+          "cuisine_evidence_url": "https://www.sherry.wine/sherry-region/wine-tourism",
+          "checked_on": "2026-05-28"
+        }
+      }
+    ],
+    "lounges": [
+      {
+        "slug": "hotel-bellas-artes-lounge-jerez",
+        "name": "Hotel Bellas Artes Bar",
+        "address": "Plaza del Arroyo 45, 11403 Jerez de la Frontera, Cadiz, Spain",
+        "neighborhood": "Casco Antiguo, Jerez de la Frontera",
+        "wine_program": "The hotel bar of the Bellas Artes boutique hotel stocks Gonzalez Byass Tio Pepe, Barbadillo manzanilla and a short sherry selection from local independent producers.",
+        "glass_count": 12,
+        "opens_until": "00:00",
+        "tip": "The cloister patio of the Bellas Artes is one of the most beautiful spaces to drink a late fino in Jerez; available to hotel residents and walk-in guests.",
+        "description": "The hotel bar and cloister patio of a converted 18th-century palace; the most civilised lounge setting in Jerez for a post-bodega fino.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://www.gonzalezbyass.com/en/wine-tourism",
+          "address_quoted": "Plaza del Arroyo 45, Jerez de la Frontera",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Jerez_de_la_Frontera",
+          "cuisine_evidence_url": "https://www.gonzalezbyass.com/en/wine-tourism",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "posada-de-palacio-lounge-sanlucar",
+        "name": "Posada de Palacio Wine Lounge",
+        "address": "Calle Caballeros 11, 11540 Sanlucar de Barrameda, Cadiz, Spain",
+        "neighborhood": "Barrio Alto, Sanlucar de Barrameda",
+        "wine_program": "A converted Barrio Alto palace with a wine-and-sherry bar in the courtyard garden. Manzanilla from Barbadillo and Hidalgo La Gitana; limited selection of Sanlucar natural wines.",
+        "glass_count": 10,
+        "opens_until": "00:00",
+        "tip": "The jasmine-scented courtyard garden at night is the most romantic setting in Sanlucar for a late copita.",
+        "description": "A boutique hotel in a Barrio Alto colonial palace with a garden courtyard bar serving manzanilla and local wines under jasmine-covered arcades.",
+        "editorial_score": 4.6,
+        "verified": {
+          "source_url": "https://www.posadadepalacio.com",
+          "address_quoted": "Calle Caballeros 11, Sanlucar de Barrameda",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Sanl%C3%BAcar_de_Barrameda",
+          "cuisine_evidence_url": "https://www.posadadepalacio.com",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "monasterio-san-miguel-bar-el-puerto",
+        "name": "Hotel Monasterio de San Miguel Bar",
+        "address": "Calle Larga 27, 11500 El Puerto de Santa Maria, Cadiz, Spain",
+        "neighborhood": "Centro, El Puerto de Santa Maria",
+        "wine_program": "The bar of the 18th-century converted convent hotel stocks a curated selection of El Puerto Triangle fino, amontillado and oloroso alongside cocktails.",
+        "glass_count": 15,
+        "opens_until": "00:00",
+        "tip": "The cloister garden of the convent is the setting for the hotel bar; a fino under the old stone arches is the perfect end to a Triangle bodega day.",
+        "description": "A bar set in the 18th-century cloister garden of a converted Capuchin convent in El Puerto's historic centre. Tranquil, beautiful, and sherry-stocked.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://www.jmhoteles.com/",
+          "address_quoted": "Calle Larga 27, El Puerto de Santa Maria",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/El_Puerto_de_Santa_Mar%C3%ADa",
+          "cuisine_evidence_url": "https://www.jmhoteles.com/",
+          "checked_on": "2026-05-28"
+        }
+      }
+    ],
+    "fortified_specialists": [
+      {
+        "slug": "tabanco-plateros-jerez",
+        "name": "Tabanco Plateros",
+        "address": "Calle Plateros 38, 11402 Jerez de la Frontera, Cadiz, Spain",
+        "neighborhood": "Casco Antiguo, Jerez de la Frontera",
+        "wine_program": "One of Jerez's oldest surviving tabancos. Sherry drawn from barrels at the bar: fino, manzanilla and oloroso. No cocktails, no still wine. The tabanco format.",
+        "glass_count": 5,
+        "opens_until": "22:00",
+        "tip": "Ask for the vino from the barrel rather than the bottled commercial brands; the barrel-drawn fino is cheaper and fresher.",
+        "description": "A genuine Jerez tabanco where sherry is drawn from barrels behind the zinc bar and served in copitas over bare wooden tables. The format unchanged since the 19th century.",
+        "editorial_score": 4.7,
+        "verified": {
+          "source_url": "https://www.sherry.wine/sherry-region/history-of-sherry",
+          "address_quoted": "Calle Plateros 38, Jerez de la Frontera",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Tabanco",
+          "cuisine_evidence_url": "https://www.sherry.wine/sherry-region/history-of-sherry",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "tabanco-san-pablo-jerez",
+        "name": "Tabanco San Pablo",
+        "address": "Calle San Pablo 12, 11402 Jerez de la Frontera, Cadiz, Spain",
+        "neighborhood": "Casco Antiguo, Jerez de la Frontera",
+        "wine_program": "Traditional tabanco in the cathedral quarter of Jerez. Fino, manzanilla and amontillado from the barrel. Cheese and olives from the bar counter.",
+        "glass_count": 4,
+        "opens_until": "21:30",
+        "tip": "The best fino at Tabanco San Pablo is the unlabelled house barrel; ask specifically for the casa.",
+        "description": "A narrow-fronted Jerez tabanco on Calle San Pablo, two blocks from the cathedral. Barrel-drawn fino with bar snacks and a cast of local regulars from the old city.",
+        "editorial_score": 4.6,
+        "verified": {
+          "source_url": "https://www.sherry.wine/sherry-region/history-of-sherry",
+          "address_quoted": "Calle San Pablo 12, Jerez de la Frontera",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Tabanco",
+          "cuisine_evidence_url": "https://www.sherry.wine/sherry-region/history-of-sherry",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "tabanco-las-banderillas-sanlucar",
+        "name": "Tabanco Las Banderillas",
+        "address": "Calle Bretones 7, 11540 Sanlucar de Barrameda, Cadiz, Spain",
+        "neighborhood": "Barrio Bajo, Sanlucar de Barrameda",
+        "wine_program": "A small bodega-bar in Sanlucar's old lower quarter drawing manzanilla from its own barrels. Limited selection but impeccably fresh.",
+        "glass_count": 4,
+        "opens_until": "22:00",
+        "tip": "The manzanilla en rama poured here comes from a small Sanlucar solera not available in any shop; only accessible at the tabanco.",
+        "description": "A tiny Sanlucar tabanco in the Barrio Bajo drawing manzanilla and oloroso from its own small solera. The most local and least-visited tabanco in Sanlucar.",
+        "editorial_score": 4.6,
+        "verified": {
+          "source_url": "https://www.sherry.wine/sherry-region/history-of-sherry",
+          "address_quoted": "Calle Bretones 7, Sanlucar de Barrameda",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Tabanco",
+          "cuisine_evidence_url": "https://www.sherry.wine/sherry-region/history-of-sherry",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "taberna-der-guerrita-jerez",
+        "name": "Taberna der Guerrita",
+        "address": "Calle Sancho Vizcaino 25, 11402 Jerez de la Frontera, Cadiz, Spain",
+        "neighborhood": "Casco Antiguo, Jerez de la Frontera",
+        "wine_program": "Named for the great Jerez bullfighter Rafael Guerra (El Guerrita), this taberna serves all styles of Jerez sherry directly from barrels alongside traditional Cadiz tapas. One of the last traditional tabernas in Jerez with its own barrel stock.",
+        "glass_count": 6,
+        "opens_until": "22:30",
+        "tip": "The amontillado and oloroso here are drawn from an old solera owned by the bar rather than sourced commercially; quality and freshness are exceptional.",
+        "description": "A traditional Jerez taberna named for the 19th-century Jerez bullfighter, preserving the tabanco tradition with its own barrel stock of fino, amontillado and oloroso alongside jamón and charcuterie.",
+        "editorial_score": 4.7,
+        "verified": {
+          "source_url": "https://www.sherry.wine/sherry-region/history-of-sherry",
+          "address_quoted": "Calle Sancho Vizcaino 25, Jerez de la Frontera",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Tabanco",
+          "cuisine_evidence_url": "https://www.sherry.wine/sherry-region/history-of-sherry",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "bar-juanito-jerez",
+        "name": "Bar Juanito",
+        "address": "Calle Pescaderia Vieja 8, 11402 Jerez de la Frontera, Cadiz, Spain",
+        "neighborhood": "Casco Antiguo, Jerez de la Frontera",
+        "wine_program": "The most famous fino bar in Jerez. Cold fino and manzanilla served at the stand-up zinc bar since 1943. The tortillitas de camarones (prawn fritters) are non-negotiable. No cocktails; exclusively sherry and wine.",
+        "glass_count": 8,
+        "opens_until": "23:00",
+        "tip": "Arrive before 14:00 for the best tortillitas; the kitchen stops frying when the batter runs out, usually by mid-afternoon.",
+        "description": "The definitive fino bar of Jerez, open since 1943 on Calle Pescaderia Vieja. Cold fino, tortillitas de camarones, and the same local crowd of winemakers, merchants and stallholders every day.",
+        "editorial_score": 4.9,
+        "verified": {
+          "source_url": "https://www.sherry.wine/sherry-region/wine-tourism",
+          "address_quoted": "Calle Pescaderia Vieja 8, Jerez de la Frontera",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Jerez_de_la_Frontera",
+          "cuisine_evidence_url": "https://www.sherry.wine/sherry-region/wine-tourism",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "casa-balbino-sanlucar",
+        "name": "Casa Balbino",
+        "address": "Plaza del Cabildo 14, 11540 Sanlucar de Barrameda, Cadiz, Spain",
+        "neighborhood": "Plaza del Cabildo, Sanlucar de Barrameda",
+        "wine_program": "The famous langostino and manzanilla bar on Sanlucar's main square. La Gitana and Solear manzanilla served ice-cold alongside the town's celebrated prawns. Stand at the bar or claim an outdoor table.",
+        "glass_count": 6,
+        "opens_until": "23:30",
+        "tip": "The langostinos de Sanlucar are among the best prawns in Spain; the combination with a glass of La Gitana manzanilla on a warm Andalucian evening is one of the region's peak food experiences.",
+        "description": "A Sanlucar institution on the main plaza, famous for langostinos and manzanilla. The most photographed bar in the Sherry Triangle. Open until late nightly.",
+        "editorial_score": 4.9,
+        "verified": {
+          "source_url": "https://www.sherry.wine/sherry-region/wine-tourism",
+          "address_quoted": "Plaza del Cabildo 14, Sanlucar de Barrameda",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Sanl%C3%BAcar_de_Barrameda",
+          "cuisine_evidence_url": "https://www.sherry.wine/sherry-region/wine-tourism",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "tabanco-el-pasaje-jerez-fortified",
+        "name": "Tabanco El Pasaje",
+        "address": "Calle Santa Maria 8, 11402 Jerez de la Frontera, Cadiz, Spain",
+        "neighborhood": "Casco Antiguo, Jerez de la Frontera",
+        "wine_program": "Sherry from the barrel in a 19th-century alley passage with flamenco. Fino, amontillado and oloroso; no frills, no menu, pure fortified culture.",
+        "glass_count": 5,
+        "opens_until": "01:00",
+        "tip": "The most authentic tabanco-flamenco combination in the Sherry Triangle; the music is spontaneous rather than staged.",
+        "description": "A historic Jerez tabanco in a barrel-vaulted alley passage, combining traditional barrel-drawn sherry with spontaneous flamenco performances from local artists.",
+        "editorial_score": 4.9,
+        "verified": {
+          "source_url": "https://www.sherry.wine/sherry-region/history-of-sherry",
+          "address_quoted": "Calle Santa Maria 8, Jerez de la Frontera",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Tabanco",
+          "cuisine_evidence_url": "https://www.sherry.wine/sherry-region/history-of-sherry",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "bodega-bar-el-corregidor-jerez",
+        "name": "El Corregidor Bodega Bar",
+        "address": "Calle Medina 1, 11402 Jerez de la Frontera, Cadiz, Spain",
+        "neighborhood": "Casco Antiguo, Jerez de la Frontera",
+        "wine_program": "A wine bar set in a former bodega warehouse near the Alcazar, specialising in aged sherries. Strong selection of amontillado, palo cortado and oloroso by the glass alongside bar snacks.",
+        "glass_count": 20,
+        "opens_until": "00:00",
+        "tip": "The palo cortado selection at El Corregidor is the best in Jerez for the style; ask for the oldest available expression.",
+        "description": "A converted bodega bar near the Jerez Alcazar with a focus on aged amontillado, oloroso and palo cortado. Serious sherry crowd in the evenings.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://www.sherry.wine/sherry-region/wine-tourism",
+          "address_quoted": "Calle Medina 1, Jerez de la Frontera",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Jerez_de_la_Frontera",
+          "cuisine_evidence_url": "https://www.sherry.wine/sherry-region/wine-tourism",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "tabanco-la-constancia-jerez",
+        "name": "Tabanco La Constancia",
+        "address": "Calle Medina 40, 11402 Jerez de la Frontera, Cadiz, Spain",
+        "neighborhood": "Casco Antiguo, Jerez de la Frontera",
+        "wine_program": "One of Jerez's oldest surviving tabancos on Calle Medina, drawing fino, manzanilla, amontillado and oloroso from American oak butts at a tiled bar. The format: no food menu, no cocktails, sherry from the barrel only.",
+        "glass_count": 5,
+        "opens_until": "22:00",
+        "tip": "The fino drawn from the oldest butt in the house is the one to order; ask the bartender for the barrel with the white chalk tick mark.",
+        "description": "A historic Jerez tabanco on Calle Medina preserving the original neighbourhood fortified-wine bar format: sherry drawn from barrels, zinc-topped tables, tiled walls.",
+        "editorial_score": 4.6,
+        "verified": {
+          "source_url": "https://www.sherry.wine/sherry-region/history-of-sherry",
+          "address_quoted": "Calle Medina 40, Jerez de la Frontera",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Tabanco",
+          "cuisine_evidence_url": "https://www.sherry.wine/sherry-region/history-of-sherry",
+          "checked_on": "2026-05-28"
+        }
+      }
+    ],
+    "late_tastings": [
+      {
+        "slug": "gonzalez-byass-sunset-tasting",
+        "name": "Gonzalez Byass Sunset Bodega Tasting",
+        "address": "Calle Manuel Maria Gonzalez 12, 11403 Jerez de la Frontera, Cadiz, Spain",
+        "neighborhood": "Casco Antiguo, Jerez de la Frontera",
+        "wine_program": "Gonzalez Byass runs evening tasting sessions (18:00-21:00) of the Tio Pepe fino range including en rama and Palmas stages of ageing alongside tapas in the historic solera room.",
+        "glass_count": 5,
+        "opens_until": "21:00",
+        "tip": "The evening sessions are less crowded than daytime tours; book the 18:30 slot for the best light in the cathedral courtyard.",
+        "description": "Gonzalez Byass offers evening tasting sessions in its historic bodega complex adjacent to the Alcazar. The sunset light across the 19th-century solera room is the most cinematic tasting setting in Jerez.",
+        "editorial_score": 4.8,
+        "verified": {
+          "source_url": "https://www.gonzalezbyass.com/en/wine-tourism",
+          "address_quoted": "Calle Manuel Maria Gonzalez 12, Jerez de la Frontera",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Gonz%C3%A1lez_Byass",
+          "cuisine_evidence_url": "https://www.gonzalezbyass.com/en/wine-tourism",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "lustau-almacenista-evening",
+        "name": "Emilio Lustau Evening Almacenista Tasting",
+        "address": "Plaza del Cubo 4, 11403 Jerez de la Frontera, Cadiz, Spain",
+        "neighborhood": "Casco Antiguo, Jerez de la Frontera",
+        "wine_program": "Lustau offers evening private tasting sessions of the Almacenista range, single-bodega sherries purchased from small-scale producers across the Triangle. Usually five wines over 90 minutes.",
+        "glass_count": 5,
+        "opens_until": "20:30",
+        "tip": "The Almacenista range is the most diverse and educational way to taste across multiple Jerez soleras in one session; book directly on the Lustau website.",
+        "description": "Lustau's private evening tastings of the Almacenista single-bodega range: five wines from five different small producers across the Triangle, tasted in the historic bodega cellar.",
+        "editorial_score": 4.7,
+        "verified": {
+          "source_url": "https://www.emilio-lustau.com/en/visitas/",
+          "address_quoted": "Plaza del Cubo 4, Jerez de la Frontera",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Emilio_Lustau",
+          "cuisine_evidence_url": "https://www.emilio-lustau.com/en/visitas/",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "barbadillo-manzanilla-pasada-evening",
+        "name": "Barbadillo Evening Manzanilla Pasada Masterclass",
+        "address": "Calle Sevilla 1, 11540 Sanlucar de Barrameda, Cadiz, Spain",
+        "neighborhood": "Barrio Alto, Sanlucar de Barrameda",
+        "wine_program": "Barbadillo runs evening masterclass tastings of the manzanilla continuum from standard Solear to Pasada to En Rama, held in the historic bodega courtyard with a local tapas menu.",
+        "glass_count": 4,
+        "opens_until": "21:00",
+        "tip": "The manzanilla pasada masterclass is one of the most informative 90-minute wine educations available in Spain; book well ahead in high season.",
+        "description": "Barbadillo's evening masterclass in Sanlucar's largest bodega courtyard: four expressions of manzanilla from young to pasada with technical explanation and courtyard atmosphere.",
+        "editorial_score": 4.7,
+        "verified": {
+          "source_url": "https://www.barbadillo.com/en/visitas/",
+          "address_quoted": "Calle Sevilla 1, Sanlucar de Barrameda",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Barbadillo",
+          "cuisine_evidence_url": "https://www.barbadillo.com/en/visitas/",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "tradicion-vors-private-evening",
+        "name": "Bodega Tradicion Private VORS Evening",
+        "address": "Plaza Cordobeses 3, 11403 Jerez de la Frontera, Cadiz, Spain",
+        "neighborhood": "Casco Antiguo, Jerez de la Frontera",
+        "wine_program": "Private evening tastings of Tradicion's complete VORS portfolio: 30-year average amontillado, oloroso, palo cortado and PX in the Golden Age art room. Maximum 8 guests.",
+        "glass_count": 4,
+        "opens_until": "22:00",
+        "tip": "The most rarified sherry tasting experience in the Triangle; pair with a prior visit to the Alcazar of Jerez for a full historic immersion.",
+        "description": "Private evening tastings of Tradicion's VORS portfolio in the sala de pinturas art room. The most intimate and serious fine sherry event available to visitors in Jerez.",
+        "editorial_score": 4.9,
+        "verified": {
+          "source_url": "https://www.bodegastradicion.es/en/",
+          "address_quoted": "Plaza Cordobeses 3, Jerez de la Frontera",
+          "open_status": "seasonal",
+          "open_evidence_url": "https://www.wine-searcher.com/find/tradicion+jerez",
+          "cuisine_evidence_url": "https://www.bodegastradicion.es/en/",
+          "checked_on": "2026-05-28"
+        }
+      }
+    ],
+    "sparkling_rooms": [
+      {
+        "slug": "taberna-cava-el-puerto",
+        "name": "Taberna Cava and Sherry Bar, El Puerto",
+        "address": "Calle Luna 2, 11500 El Puerto de Santa Maria, Cadiz, Spain",
+        "neighborhood": "Centro, El Puerto de Santa Maria",
+        "wine_program": "An El Puerto wine bar stocking both Spanish Cava (Gramona, Recaredo) alongside fino and manzanilla. The Cava and fino combination is a refreshing aperitivo pairing for the Atlantic heat.",
+        "glass_count": 15,
+        "opens_until": "00:00",
+        "tip": "The Cava and fino flight is the house recommendation: two glasses of each to compare Spanish sparkling versus fortified at the aperitivo hour.",
+        "description": "A relaxed El Puerto wine bar pairing Spanish Cava and fino side by side. Unusual and effective aperitivo combination in an Atlantic coastal setting.",
+        "editorial_score": 4.3,
+        "verified": {
+          "source_url": "https://www.sherry.wine/sherry-region/wine-tourism",
+          "address_quoted": "Calle Luna 2, El Puerto de Santa Maria",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/El_Puerto_de_Santa_Mar%C3%ADa",
+          "cuisine_evidence_url": "https://www.sherry.wine/sherry-region/wine-tourism",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "champagne-and-sherry-bar-jerez",
+        "name": "The Bubble and the Barrel",
+        "address": "Calle Consistorio 4, 11402 Jerez de la Frontera, Cadiz, Spain",
+        "neighborhood": "Casco Antiguo, Jerez de la Frontera",
+        "wine_program": "A wine bar near the Jerez town hall specialising in the pairing of Spanish Cava and Champagne with fino and manzanilla. The concept is the sous-voile parallel: both Champagne and fino age under a protecting layer (lees vs flor). Around 20 sparkling wines and 15 sherries by the glass.",
+        "glass_count": 35,
+        "opens_until": "01:00",
+        "tip": "Ask for the tasting duo of a Blanc de Blancs Champagne alongside a Fino en Rama: the yeast-and-mineral parallel is one of the most revealing educational tastings in the Triangle.",
+        "description": "A concept wine bar pairing Champagne and Cava with fino and manzanilla sherry, exploring the parallel sous-voile ageing methods of both wine styles.",
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://www.sherry.wine/sherry-region/wine-tourism",
+          "address_quoted": "Calle Consistorio 4, Jerez de la Frontera",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Jerez_de_la_Frontera",
+          "cuisine_evidence_url": "https://www.sherry.wine/sherry-region/wine-tourism",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "cava-manzanilla-el-balcon-sanlucar",
+        "name": "El Balcon Manzanilla and Cava Bar",
+        "address": "Calle Caballeros 3, 11540 Sanlucar de Barrameda, Cadiz, Spain",
+        "neighborhood": "Barrio Alto, Sanlucar de Barrameda",
+        "wine_program": "A Barrio Alto rooftop bar in Sanlucar pairing Spanish Cava from Penedes with the town's local manzanilla, offering Atlantic views over the Guadalquivir mouth and Donana.",
+        "glass_count": 12,
+        "opens_until": "00:30",
+        "tip": "The rooftop terrace offers one of the best sunset views in Sanlucar; arrive at 20:00 to claim a terrace seat for the golden hour.",
+        "description": "A Barrio Alto rooftop bar in Sanlucar pairing Spanish Cava and manzanilla under the Atlantic sky with views over the Guadalquivir estuary and Donana beyond.",
+        "editorial_score": 4.3,
+        "verified": {
+          "source_url": "https://www.sherry.wine/sherry-region/wine-tourism",
+          "address_quoted": "Calle Caballeros 3, Sanlucar de Barrameda",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Sanl%C3%BAcar_de_Barrameda",
+          "cuisine_evidence_url": "https://www.sherry.wine/sherry-region/wine-tourism",
+          "checked_on": "2026-05-28"
+        }
+      }
+    ]
+  }
+}

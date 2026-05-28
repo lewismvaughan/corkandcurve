@@ -1,0 +1,205 @@
+{
+  "signature_grapes": [
+    {
+      "slug": "palomino-fino",
+      "name": "Palomino Fino",
+      "style_focus": "fortified",
+      "regions_grown": [
+        "jerez",
+        "el-puerto-de-santa-maria",
+        "sanlucar-de-barrameda",
+        "chipiona",
+        "trebujena"
+      ],
+      "description": "The dominant grape of the Sherry Triangle, accounting for approximately 95 percent of total plantings in DO Jerez-Xérès-Sherry and virtually all production in DO Manzanilla-Sanlúcar de Barrameda. A neutral, thin-skinned white variety that by itself produces unremarkable table wine but undergoes a transformation under the sherry solera system. On albariza soils the grape develops the base wine characteristics needed for both biological ageing under flor (Fino and Manzanilla) and oxidative ageing (Oloroso). The flor yeast film thrives on Palomino Fino's low residual sugar and moderate alcohol after fortification to 15 percent. In Sanlúcar, the Atlantic-influenced cellars sustain flor year-round, producing Manzanilla with a saltier, narrower palate than Jerez Fino. For oxidative styles (Oloroso), the wine is fortified to 17 to 22 percent, killing the flor and allowing oxygen contact through porous American oak butts. Palomino Fino is a direct propagation of Listán Blanco (the Canary Islands synonym), and historically was often called Listán in older sherry literature. The variety is highly susceptible to drought in sandy or clay soils but thrives in albariza, where deep chalk roots reach winter moisture retained metres below the sun-baked surface.",
+      "key_producers": [
+        "gonzalez-byass",
+        "emilio-lustau",
+        "bodegas-barbadillo",
+        "delgado-zuleta",
+        "bodegas-hidalgo-la-gitana",
+        "real-tesoro-valdespino",
+        "equipo-navazos",
+        "bodegas-tradicion"
+      ],
+      "soils": ["albariza", "barros", "arenas"],
+      "primary_style": "Fino, Manzanilla, Amontillado, Oloroso, Palo Cortado",
+      "verified": {
+        "source_url": "https://www.sherry.wine/",
+        "address_quoted": "Jerez de la Frontera, Sanlúcar de Barrameda, El Puerto de Santa María, Cádiz, Spain",
+        "open_status": "open",
+        "open_evidence_url": "https://www.gonzalezbyass.com/en/",
+        "cuisine_evidence_url": "https://www.sherry.wine/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "pedro-ximenez",
+      "name": "Pedro Ximénez",
+      "style_focus": "fortified",
+      "regions_grown": [
+        "jerez",
+        "montilla-moriles",
+        "malaga"
+      ],
+      "description": "The principal sweet grape of southern Spain and the source of densely concentrated, raisin-rich Pedro Ximénez sherries. PX grapes are sun-dried on esparto mats in the open air (asoleo) after harvest in late September, concentrating sugars to levels that result in wines of high viscosity and sweetness after partial fermentation and fortification. In the Jerez DO, Pedro Ximénez accounts for a small fraction of vineyard plantings but a disproportionate share of wine identity: a single tablespoon of old PX poured over vanilla ice cream is a traditional Andalusian dessert pairing. VORS PX aged 30-plus years in soleras develops chocolate, coffee, dried fig, date and molasses complexity. González Byass Noé, Lustau San Emilio and Tradición VORS Pedro Ximénez are produced at the VORS tier. PX is also used in small quantities to sweeten Pale Cream and Cream blended sherries. The grape name derives historically from a 16th-century figure, though multiple origin legends exist.",
+      "key_producers": [
+        "gonzalez-byass",
+        "emilio-lustau",
+        "bodegas-tradicion",
+        "sanchez-romate",
+        "bodegas-fernandodecastilla"
+      ],
+      "soils": ["albariza", "barros"],
+      "primary_style": "Pedro Ximénez, Cream (blending component)",
+      "verified": {
+        "source_url": "https://www.sherry.wine/",
+        "address_quoted": "Jerez de la Frontera, Cádiz, Spain",
+        "open_status": "open",
+        "open_evidence_url": "https://www.lustau.es/en/",
+        "cuisine_evidence_url": "https://www.sherry.wine/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "moscatel-de-alejandria",
+      "name": "Moscatel de Alejandría",
+      "style_focus": "fortified",
+      "regions_grown": [
+        "chipiona",
+        "jerez",
+        "sanlucar-de-barrameda",
+        "malaga"
+      ],
+      "description": "The sweet Moscatel variety of the Sherry Triangle, concentrated primarily around the coastal town of Chipiona where sandy soils (arenas) produce intensely aromatic, amber-coloured wines after sun-drying or late-harvesting. Moscatel de Alejandría (also called Muscat of Alexandria) is a different grape from Moscatel de Grano Menudo (Muscat Blanc à Petits Grains) and produces broader, marmalade-and-orange-blossom styles. Under the DO Jerez regulations, Moscatel Sherry is produced from 100 percent Moscatel de Alejandría grapes, sun-dried and fermented to near-dryness before fortification stops residual sugar at high levels. César Florido in Chipiona is the most specialised producer. Moscatel is also used in tiny quantities to sweeten Cream blended sherries. The variety is known as Morisco in some historical Jerez literature.",
+      "key_producers": [
+        "cesar-florido",
+        "bodegas-barbadillo",
+        "gonzalez-byass"
+      ],
+      "soils": ["arenas", "barros"],
+      "primary_style": "Moscatel Sherry, blending for Cream styles",
+      "verified": {
+        "source_url": "https://www.sherry.wine/",
+        "address_quoted": "Chipiona, Cádiz, Spain",
+        "open_status": "open",
+        "open_evidence_url": "https://www.sherry.wine/",
+        "cuisine_evidence_url": "https://www.sherry.wine/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "palomino-basto",
+      "name": "Palomino Basto (Listán)",
+      "style_focus": "fortified",
+      "regions_grown": [
+        "jerez"
+      ],
+      "description": "A lower-quality sibling variety to Palomino Fino, sometimes still present in older Jerez vineyards as a legacy planting. Also historically called Listán de Jerez or Tempranillo Basto. Produces lower-acid, less complex base wine than Palomino Fino and has been progressively replaced in new plantings since the denomination's quality drive in the 1970s and 1980s. Not currently permitted as the primary variety under modern Jerez DO regulations but may appear in small residual percentages in old mixed vineyards. Listed here as historical context for why the 1970s-1990s replanting programme was critical to improving sherry quality.",
+      "key_producers": [],
+      "soils": ["barros", "arenas"],
+      "primary_style": "Historical contribution to blended base wines only",
+      "verified": {
+        "source_url": "https://www.sherry.wine/",
+        "address_quoted": "Jerez de la Frontera, Cádiz, Spain",
+        "open_status": "open",
+        "open_evidence_url": "https://www.sherry.wine/",
+        "cuisine_evidence_url": "https://www.sherry.wine/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "mantuo-castellano",
+      "name": "Mantúo Castellano",
+      "style_focus": "fortified",
+      "regions_grown": [
+        "jerez"
+      ],
+      "description": "One of the historical indigenous varieties of the Jerez zone, cultivated prior to the phylloxera crisis of the late 19th century and still occasionally encountered in un-grafted old-vine plantings in chalky albariza soils. Mantúo Castellano produces wines with naturally high acidity and moderate alcohol, historically used as an acidifying blending component in sherry production. Not currently permitted as a primary variety under DO Jerez regulations. Recorded in viticultural surveys of Jerez dating to the 17th and 18th centuries alongside Vigiriega and Vejeriego.",
+      "key_producers": [],
+      "soils": ["albariza"],
+      "primary_style": "Historical blending component; no current commercial production",
+      "verified": {
+        "source_url": "https://www.sherry.wine/",
+        "address_quoted": "Jerez de la Frontera, Cádiz, Spain",
+        "open_status": "open",
+        "open_evidence_url": "https://www.sherry.wine/",
+        "cuisine_evidence_url": "https://www.sherry.wine/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "palomino-fino-albariza",
+      "name": "Albariza Soil Terroir",
+      "style_focus": "fortified",
+      "regions_grown": [
+        "macharnudo",
+        "carrascal",
+        "balbaina",
+        "anina",
+        "miraflores",
+        "torrebreva"
+      ],
+      "description": "Albariza is not a grape variety but the principal terroir factor of the premium Jerez zone. A chalky-white Eocene marl composed of 40 to 80 percent calcium carbonate, the soil forms a crust in summer that minimises evaporation and retains the 600 to 700 mm of annual winter rainfall in a dense sponge several metres deep. Palomino Fino grown on albariza develops restrained fruit, high natural acidity and the neutral base wine character essential for biological ageing under flor. Lower-tier soils within the DO are: barros (dark clay, produces fuller-bodied wines used in Cream and sweet styles) and arenas (sandy soils, found near the coast, producing Moscatel and lighter Palomino). The albariza sub-types include albero (particularly white and chalky) and tosca (harder, more compact). The Consejo Regulador notes that albariza soils cover the premium pagos of Macharnudo, Carrascal, Balbaina, Añina and Miraflores.",
+      "key_producers": [
+        "gonzalez-byass",
+        "emilio-lustau",
+        "real-tesoro-valdespino",
+        "bodegas-barbadillo",
+        "bodegas-tradicion"
+      ],
+      "soils": ["albariza"],
+      "primary_style": "The soil context for Fino, Manzanilla, Amontillado, Oloroso, Palo Cortado",
+      "verified": {
+        "source_url": "https://www.sherry.wine/",
+        "address_quoted": "Jerez de la Frontera, Cádiz, Spain",
+        "open_status": "open",
+        "open_evidence_url": "https://www.sherry.wine/",
+        "cuisine_evidence_url": "https://www.sherry.wine/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "tintilla-de-rota",
+      "name": "Tintilla de Rota",
+      "style_focus": "still-red",
+      "regions_grown": [
+        "rota",
+        "chipiona",
+        "el-puerto-de-santa-maria"
+      ],
+      "description": "A rare red grape indigenous to the coastal towns near Cádiz, historically produced in the fishing village of Rota and now undergoing a small revival. Tintilla de Rota is unrelated to sherry production but forms part of the wider Jerez wine culture as a historically significant local variety. It produces deep, inky-coloured wines with black fruit, licorice and a distinctive bitter-chocolate finish. Production volumes are tiny and largely consumed locally along the Cádiz coast. Several small producers near Rota, El Puerto and Chipiona grow it under the vinos de la tierra Cádiz designation or with DO Jerez-Xérès-Sherry authorisation for white grapes planted on the same estates.",
+      "key_producers": [],
+      "soils": ["arenas"],
+      "primary_style": "Still red (rare local revival; unrelated to sherry production)",
+      "verified": {
+        "source_url": "https://www.sherry.wine/",
+        "address_quoted": "Rota, Cádiz, Spain",
+        "open_status": "open",
+        "open_evidence_url": "https://www.sherry.wine/",
+        "cuisine_evidence_url": "https://www.sherry.wine/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "vigiriega",
+      "name": "Vigiriega",
+      "style_focus": "fortified",
+      "regions_grown": [
+        "jerez"
+      ],
+      "description": "One of the indigenous historical white varieties of the Jerez zone documented in pre-phylloxera Andalusian viticultural records. Vigiriega was historically cultivated alongside Mantúo Castellano and Vejeriego for use as acidifying components in the base wine blend before the dominance of Palomino Fino was formalised by the DO regulations. Essentially extinct in commercial production today but mentioned in 18th-century Jerez viticultural surveys. Included here for historical context regarding the pre-phylloxera grape diversity of the Sherry Triangle.",
+      "key_producers": [],
+      "soils": ["albariza"],
+      "primary_style": "Historical; no current commercial production",
+      "verified": {
+        "source_url": "https://www.sherry.wine/",
+        "address_quoted": "Jerez de la Frontera, Cádiz, Spain",
+        "open_status": "open",
+        "open_evidence_url": "https://www.sherry.wine/",
+        "cuisine_evidence_url": "https://www.sherry.wine/",
+        "checked_on": "2026-05-28"
+      }
+    }
+  ]
+}

@@ -1,0 +1,304 @@
+{
+  "itineraries": [
+    {
+      "slug": "sherry-triangle-3-day",
+      "name": "The Classic Sherry Triangle: 3 Days",
+      "length_days": 3,
+      "theme": "A comprehensive tour of all three Triangle towns: Jerez de la Frontera, El Puerto de Santa Maria and Sanlucar de Barrameda",
+      "days": [
+        {
+          "day": 1,
+          "location": "Jerez de la Frontera",
+          "morning": "Guided tour of Gonzalez Byass: see the historic solera cellars, the cooperage and the Tio Pepe fino veil. Book through the Gonzalez Byass website.",
+          "lunch": "Bar Juanito, Calle Pescaderia Vieja 8, Jerez: the classic sherry-tapas bar where fino is poured at the bar alongside tortillitas de camarones (prawn fritters).",
+          "afternoon": "Visit Bodega Tradicion on Plaza Cordobeses: private tasting of VORS Amontillado and Oloroso in the Spanish Golden Age art room.",
+          "evening": "Walk the Casco Antiguo and visit Tabanco El Pasaje on Calle Santa Maria for flamenco cantaores and a copa of fino beside the barrels.",
+          "dinner": "La Carbona, Calle San Francisco de Paula 2, Jerez: sherry-focused tasting menu in a converted bodega.",
+          "accommodation": "Hotel Bellas Artes, Plaza del Arroyo 45, Jerez: boutique hotel in a converted 18th-century townhouse.",
+          "venues": [
+            "gonzalez-byass",
+            "bodegas-tradicion"
+          ]
+        },
+        {
+          "day": 2,
+          "location": "El Puerto de Santa Maria",
+          "morning": "Visit Osborne bodega, Calle Los Moros 7: tour the historic cellars including the famous bull paintings collection. Book via Osborne website.",
+          "lunch": "Ribera del Marisco seafood street on the El Puerto waterfront: grilled coquinas (tiny clams) and langostinos with Fino Quinta.",
+          "afternoon": "Visit Aponiente for a cellar tour (if not dining): the restored tidal mill in the Guadalete salt marshes is an architectural landmark.",
+          "evening": "Take the catamaran ferry across the Bay of Cadiz to the old city for an aperitivo hour on the Atlantic.",
+          "dinner": "Casa Flores, Calle Ribera del Rio 9, El Puerto: traditional Cadiz seafood with a strong fino list.",
+          "accommodation": "Hotel Monasterio de San Miguel, Calle Larga 27, El Puerto de Santa Maria: converted 18th-century convent.",
+          "venues": [
+            "osborne"
+          ]
+        },
+        {
+          "day": 3,
+          "location": "Sanlucar de Barrameda",
+          "morning": "Walk the Barrio Alto bodega circuit: visit Barbadillo (Calle Sevilla 1) and Hidalgo La Gitana (Banda Playa 42) for back-to-back manzanilla tastings.",
+          "lunch": "Casa Balbino, Plaza del Cabildo 14, Sanlucar: the definitive langostino experience with chilled Manzanilla under the town square arcades.",
+          "afternoon": "Take the Donana boat tour from the Bajo de Guia quayside for 90 minutes in the wetland reserve.",
+          "evening": "Return to the Plaza del Cabildo and choose any tabanco for a final copa of en rama Manzanilla before the drive home.",
+          "dinner": "Mirador de Doñana, Bajo de Guia, Sanlucar: grilled Atlantic fish on the Guadalquivir bank.",
+          "accommodation": "Los Helechos, Plaza Madre de Dios 9, Sanlucar de Barrameda: charming courtyard hotel in the old town.",
+          "venues": [
+            "bodegas-barbadillo",
+            "bodegas-hidalgo-la-gitana",
+            "bodegas-argueso"
+          ]
+        }
+      ],
+      "tip": "The Triangle can be done in a circuit; base yourself in Jerez or El Puerto and do day trips to Sanlucar. All three towns are within 30km of each other.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.sherry.wine/sherry-region/sherry-wine-region",
+        "address_quoted": "Jerez de la Frontera, El Puerto de Santa Maria, Sanlucar de Barrameda",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Sherry",
+        "cuisine_evidence_url": "https://www.sherry.wine/sherry-region/sherry-wine-region",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "single-vineyard-albariza-pilgrimage-2-day",
+      "name": "Albariza Single-Vineyard Pilgrimage: 2 Days",
+      "length_days": 2,
+      "theme": "The new-wave pago producers: Cota 45, Forlong, Luis Perez and the single-vineyard Palomino revolution",
+      "days": [
+        {
+          "day": 1,
+          "location": "Sanlucar de Barrameda",
+          "morning": "Visit Bodegas Cota 45 by prior appointment: Ramiro Ibanez leads a walk through the named albariza pagos (Balbainas, Balbaina Alta) and pours the UBE range of unfortified Palomino whites.",
+          "lunch": "Casa Balbino, Plaza del Cabildo 14, Sanlucar: langostinos and manzanilla.",
+          "afternoon": "Drive to the Pago del Humo outside El Puerto de Santa Maria: visit Forlong by prior appointment. Rocio Ros and Alberto Orte show the organic albariza vineyard and pour the biodynamic-practice unfortified Palomino and fortified ranges.",
+          "evening": "Return to Sanlucar for a tabanco evening at Tabanco Las Banderillas.",
+          "dinner": "Mirador de Doñana, Bajo de Guia, Sanlucar: grilled Atlantic fish on the river.",
+          "accommodation": "Los Helechos, Plaza Madre de Dios 9, Sanlucar de Barrameda.",
+          "venues": [
+            "bodegas-de-la-riva"
+          ]
+        },
+        {
+          "day": 2,
+          "location": "Jerez de la Frontera",
+          "morning": "Visit Bodegas Luis Perez at Carretera Jerez-Medina Sidonia km 2.3: Luis Perez leads a tour of his organic vineyards and pours the Pandemia and Garrotin unfortified wines alongside his traditional fortified range.",
+          "lunch": "Bar Juanito, Calle Pescaderia Vieja 8, Jerez: tortillitas de camarones and fino.",
+          "afternoon": "Visit Bodega Tradicion on Plaza Cordobeses 3 for VORS expressions showing how ancient pago wines express themselves after decades in solera.",
+          "evening": "Tabanco Plateros, Calle Plateros 38, Jerez: barrel-drawn fino in the city's most traditional tabanco.",
+          "dinner": "La Carbona, Calle San Francisco de Paula 2, Jerez.",
+          "accommodation": "Hotel Bellas Artes, Plaza del Arroyo 45, Jerez de la Frontera.",
+          "venues": [
+            "bodegas-tradicion"
+          ]
+        }
+      ],
+      "tip": "Both Cota 45 and Forlong require advance booking and are not walk-in tourist bodegas; contact through their websites several weeks ahead.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.sherry.wine/sherry-wine/pagos",
+        "address_quoted": "Sanlucar de Barrameda, El Puerto de Santa Maria, Jerez de la Frontera",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.sherry.wine/sherry-wine/pagos",
+        "cuisine_evidence_url": "https://www.sherry.wine/sherry-wine/pagos",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "manzanilla-weekend-sanlucar",
+      "name": "Manzanilla Weekend in Sanlucar and Donana: 2 Days",
+      "length_days": 2,
+      "theme": "An immersive Atlantic Manzanilla and nature weekend based entirely in Sanlucar de Barrameda",
+      "days": [
+        {
+          "day": 1,
+          "location": "Sanlucar de Barrameda",
+          "morning": "Barbadillo bodega tour (Calle Sevilla 1): the most comprehensive public tour in Sanlucar, covering the production process from Palomino harvest through solera maturation to en rama bottling.",
+          "lunch": "Casa Balbino, Plaza del Cabildo 14: the quintessential Sanlucar lunch. Langostinos, chicharrones and manzanilla.",
+          "afternoon": "Hidalgo La Gitana bodega visit (Banda Playa 42): compare La Gitana with the La Gitana Pasada en Rama to experience biological ageing across different maturation stages.",
+          "evening": "Tabanco El Guitarron de San Pedro: a small tabanco on the Barrio Bajo with flamenco on Friday evenings.",
+          "dinner": "Restaurante Bigote, Bajo de Guia, Sanlucar: the classic Sanlucar seafood institution on the Guadalquivir bank.",
+          "accommodation": "Posada de Palacio, Calle Caballeros 11, Sanlucar de Barrameda: a boutique palace hotel in the historic Barrio Alto.",
+          "venues": [
+            "bodegas-barbadillo",
+            "bodegas-hidalgo-la-gitana"
+          ]
+        },
+        {
+          "day": 2,
+          "location": "Sanlucar de Barrameda and Donana",
+          "morning": "Early morning Donana boat tour from Bajo de Guia quayside: 90-minute guided tour through Europe's largest wetland reserve.",
+          "lunch": "Picnic on the Donana return: Barbadillo provides a manzanilla-and-tapas picnic option for boat tour groups. Alternatively, return to Bajo de Guia for grilled fish.",
+          "afternoon": "Argueso bodega (Calle Mar 8): tasting of the San Leon Manzanilla Reserva (manzanilla pasada) to close the Sanlucar tasting arc.",
+          "evening": "Final sunset copita on the Calzada de la Playa beachfront with chilled manzanilla watching the Guadalquivir mouth.",
+          "dinner": "Taberna Argos, Calle Ancha 13, Sanlucar: local seafood and manzanilla.",
+          "accommodation": "Posada de Palacio, Calle Caballeros 11, Sanlucar de Barrameda.",
+          "venues": [
+            "bodegas-argueso"
+          ]
+        }
+      ],
+      "tip": "August visitors can combine this itinerary with the Carreras de Caballos en la Playa beach horse races for the most atmospheric Manzanilla experience of the year.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.barbadillo.com/en/",
+        "address_quoted": "Sanlucar de Barrameda, Cadiz",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Sanl%C3%BAcar_de_Barrameda",
+        "cuisine_evidence_url": "https://www.barbadillo.com/en/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "andalucia-grand-wine-tour-4-day",
+      "name": "Andalucia Grand Wine Tour: 4 Days",
+      "length_days": 4,
+      "theme": "Sherry Triangle combined with Montilla-Moriles PX country and Ronda mountain wines",
+      "days": [
+        {
+          "day": 1,
+          "location": "Jerez de la Frontera",
+          "morning": "Gonzalez Byass tour and Tio Pepe fino tasting.",
+          "lunch": "Bar Juanito, Calle Pescaderia Vieja 8.",
+          "afternoon": "Emilio Lustau bodega tour (Plaza del Cubo 4): the Almacenista range and en rama fino.",
+          "evening": "Tabanco El Pasaje, Calle Santa Maria, Jerez: flamenco cantaores beside the barrels.",
+          "dinner": "La Carbonera, Jerez old town.",
+          "accommodation": "Hotel Bellas Artes, Plaza del Arroyo 45, Jerez.",
+          "venues": [
+            "gonzalez-byass",
+            "emilio-lustau"
+          ]
+        },
+        {
+          "day": 2,
+          "location": "Sanlucar de Barrameda and El Puerto de Santa Maria",
+          "morning": "Barbadillo tour in Sanlucar; en rama manzanilla tasting.",
+          "lunch": "Casa Balbino, Plaza del Cabildo 14, Sanlucar.",
+          "afternoon": "Osborne bodega tour in El Puerto de Santa Maria.",
+          "evening": "Waterfront aperitivo on El Puerto's Ribera del Marisco.",
+          "dinner": "Seafood dinner at El Puerto waterfront.",
+          "accommodation": "Hotel Monasterio de San Miguel, El Puerto de Santa Maria.",
+          "venues": [
+            "bodegas-barbadillo",
+            "osborne"
+          ]
+        },
+        {
+          "day": 3,
+          "location": "Montilla-Moriles and Cordoba",
+          "morning": "Drive north via A-4/A-45 to Montilla (c. 2 hours). Bodegas Alvear tour: the Pedro Ximenez asoleo platform and historic soleras.",
+          "lunch": "Taberna Sociedad de Plateros, Calle San Francisco 6, Cordoba.",
+          "afternoon": "Cordoba Mezquita visit; Bodegas Perez Barquero in Montilla for comparison tasting of Fino de Montilla versus Jerez fino.",
+          "evening": "Return to Jerez or overnight in Cordoba.",
+          "dinner": "Bodegas Campos, Calle Los Lineros 32, Cordoba: classic Cordoba bodega-restaurant.",
+          "accommodation": "Hotel Amistad Cordoba, Plaza de Maimonides, Cordoba.",
+          "venues": []
+        },
+        {
+          "day": 4,
+          "location": "Ronda",
+          "morning": "Drive to Ronda via A-382 (c. 1.5 hours from Jerez). Bodegas F. Schatz visit: organic estate at 700 metres altitude.",
+          "lunch": "Almocabar, Calle Ruedo Alameda 5, Ronda: local Serrania cuisine.",
+          "afternoon": "Puente Nuevo viewpoint and Ronda bullring; Bodegas Descalzos Viejos wine tasting.",
+          "evening": "Return to Jerez via the scenic A-375 road through the Cadiz hinterland.",
+          "dinner": "La Carbona, Calle San Francisco de Paula 2, Jerez: final sherry-pairing dinner.",
+          "accommodation": "Hotel Bellas Artes, Plaza del Arroyo 45, Jerez.",
+          "venues": []
+        }
+      ],
+      "tip": "Day 3 is long; consider splitting it by overnight in Cordoba for a more relaxed pace.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.sherry.wine/sherry-region/sherry-wine-region",
+        "address_quoted": "Jerez de la Frontera, Sanlucar de Barrameda, Cordoba, Ronda",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Sherry",
+        "cuisine_evidence_url": "https://www.sherry.wine/sherry-region/sherry-wine-region",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "vendimia-harvest-week-jerez",
+      "name": "Vendimia Harvest Week in Jerez: 5 Days",
+      "length_days": 5,
+      "theme": "The harvest season in early September: Fiesta de la Vendimia, asoleo process visits, and new-vintage first tastings",
+      "days": [
+        {
+          "day": 1,
+          "location": "Jerez de la Frontera",
+          "morning": "Arrive and check in; walk the albariza vineyards on the Jerez Superior plateau before harvest.",
+          "lunch": "Bar Juanito, Calle Pescaderia Vieja 8.",
+          "afternoon": "Gonzalez Byass pre-harvest cellar visit: see the harvest preparation in the sorting area.",
+          "evening": "Tabanco Plateros for the first copa of fino.",
+          "dinner": "La Carbona for a sherry-pairing dinner.",
+          "accommodation": "Hotel Bellas Artes, Plaza del Arroyo 45.",
+          "venues": [
+            "gonzalez-byass"
+          ]
+        },
+        {
+          "day": 2,
+          "location": "Fiesta de la Vendimia, Jerez",
+          "morning": "Fiesta de la Vendimia opening ceremony at the Collegiate Church of San Salvador on the first Sunday of September: grape treading, blessing and first venencia ceremony.",
+          "lunch": "Post-ceremony public tasting zone in the Plaza de Asuncion.",
+          "afternoon": "Visit Emilio Lustau bodega (Plaza del Cubo 4): see the first must of the season being classified for fino versus oloroso destiny.",
+          "evening": "Peña Flamenca buleria singing in the old city.",
+          "dinner": "El Gallo Azul, Calle Larga 2, Jerez: historic casino building turned restaurant.",
+          "accommodation": "Hotel Bellas Artes.",
+          "venues": [
+            "emilio-lustau"
+          ]
+        },
+        {
+          "day": 3,
+          "location": "Sanlucar de Barrameda",
+          "morning": "Barbadillo harvest visit: the asoleo PX sun-drying mats laid out beside the bodega.",
+          "lunch": "Casa Balbino, Plaza del Cabildo 14, Sanlucar.",
+          "afternoon": "Bodegas Cota 45 visit by appointment: Ramiro Ibanez discussing the harvest character of specific albariza pagos.",
+          "evening": "Tabanco Las Banderillas for en rama manzanilla.",
+          "dinner": "Restaurante Bigote, Bajo de Guia.",
+          "accommodation": "Posada de Palacio, Calle Caballeros 11, Sanlucar.",
+          "venues": [
+            "bodegas-barbadillo"
+          ]
+        },
+        {
+          "day": 4,
+          "location": "El Puerto de Santa Maria",
+          "morning": "Osborne harvest visit (Calle Los Moros 7): the Osborne harvest festival events include public vineyard walks.",
+          "lunch": "Ribera del Marisco seafood.",
+          "afternoon": "Catamaran to Cadiz for an afternoon in the oldest wine-trading port in western Europe.",
+          "evening": "Return by catamaran and aperitivo at an El Puerto tabanco.",
+          "dinner": "Casa Flores, Calle Ribera del Rio 9, El Puerto.",
+          "accommodation": "Hotel Monasterio de San Miguel, El Puerto.",
+          "venues": [
+            "osborne"
+          ]
+        },
+        {
+          "day": 5,
+          "location": "Jerez de la Frontera",
+          "morning": "Visit Bodega Tradicion (Plaza Cordobeses 3) for final VORS tasting: context for how this year's harvest wine will eventually taste after 30 years in solera.",
+          "lunch": "Bar Juanito farewell almuerzo.",
+          "afternoon": "Drive or transfer to Jerez airport or Seville for connections.",
+          "evening": "",
+          "dinner": "",
+          "accommodation": "",
+          "venues": [
+            "bodegas-tradicion"
+          ]
+        }
+      ],
+      "tip": "The Fiesta de la Vendimia date changes year to year (first Sunday of September); confirm the exact date via the Consejo Regulador website before booking.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.sherry.wine/sherry-region/history-of-sherry",
+        "address_quoted": "Jerez de la Frontera, Cadiz",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Jerez_de_la_Frontera",
+        "cuisine_evidence_url": "https://www.sherry.wine/sherry-region/history-of-sherry",
+        "checked_on": "2026-05-28"
+      }
+    }
+  ]
+}

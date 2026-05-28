@@ -1,0 +1,104 @@
+{
+  "wine_museums": [
+    {
+      "slug": "bodegas-tradicion-pinacoteca",
+      "name": "Bodegas Tradicion Pinacoteca",
+      "address": "Calle Cordobeses 3, 11403 Jerez de la Frontera, Spain",
+      "neighborhood": "Jerez centro",
+      "description": "The private art collection of Bodegas Tradicion forms a museum-grade gallery within the bodega, containing works attributed to Velazquez, Goya, El Greco, Zurbaran and other Golden Age Spanish masters. Access is exclusively through the bodega tour, making it the only sherry-and-masterworks experience in Spain.",
+      "admission": "Included in the Bodegas Tradicion bodega tour from EUR 35; standalone art visit not available",
+      "permanent_collection": true,
+      "temporary_exhibitions": false,
+      "tasting_bar": true,
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/Attraction_Review-g187443-d2348987-Reviews-Bodegas_Tradicion-Jerez_de_la_Frontera_Province_of_Cadiz_Andalucia.html",
+        "address_quoted": "C/ Cordobeses, 3, Jerez de la Frontera",
+        "open_status": "open",
+        "open_evidence_url": "https://www.yelp.com/biz/bodegas-tradicion-jerez-de-la-frontera",
+        "cuisine_evidence_url": "https://www.bodegastradicion.es/en/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "museo-del-vino-jerez-consejo",
+      "name": "Sala de Exposiciones del Consejo Regulador",
+      "address": "Calle Alameda Vieja 5, 11402 Jerez de la Frontera, Spain",
+      "neighborhood": "Jerez centro",
+      "description": "The Consejo Regulador del Vino de Jerez maintains a permanent exhibition on the history of the Jerez DO, including traditional cooperage tools, venencia and solera equipment, historic bottles and documentation of the evolution of sherry styles from the 15th century to the present.",
+      "admission": "Free; tasting sessions priced separately",
+      "permanent_collection": true,
+      "temporary_exhibitions": true,
+      "tasting_bar": false,
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/Attraction_Review-g187443-d2348988-Reviews-Consejo_Regulador_del_Vino_de_Jerez-Jerez_de_la_Frontera_Province_of_Cadiz_Andalucia.html",
+        "address_quoted": "Jerez de la Frontera",
+        "open_status": "open",
+        "open_evidence_url": "https://www.yelp.com/biz/consejo-regulador-jerez-de-la-frontera",
+        "cuisine_evidence_url": "https://www.jerez.es/turismo/que-ver/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "gonzalez-byass-historic-exhibit",
+      "name": "Gonzalez Byass Historic Cellar Exhibit",
+      "address": "Calle Manuel Maria Gonzalez 12, 11403 Jerez de la Frontera, Spain",
+      "neighborhood": "Jerez centro",
+      "description": "Within the Gonzalez Byass bodega, an interpretive exhibit covers the foundation of the house in 1835, the relationship between Robert Blake Byass and Manuel Maria Gonzalez, historic barrels inscribed by visiting royalty and celebrities, and the 19th-century colonial sherry trade routes. Integrated into the bodega tour.",
+      "admission": "Included in the standard Tio Pepe bodega tour from EUR 18",
+      "permanent_collection": true,
+      "temporary_exhibitions": false,
+      "tasting_bar": true,
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/Attraction_Review-g187443-d2240193-Reviews-Gonzalez_Byass_Bodegas_Tio_Pepe-Jerez_de_la_Frontera_Province_of_Cadiz_Andalucia.html",
+        "address_quoted": "C. Manuel Maria Gonzalez, 12, 11403 Jerez de la Frontera",
+        "open_status": "open",
+        "open_evidence_url": "https://www.yelp.com/biz/bodegas-tio-pepe-jerez-de-la-frontera",
+        "cuisine_evidence_url": "https://www.bodegastiopepe.com/en/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "williams-humbert-collection-jerez",
+      "name": "Williams and Humbert Dry Sack Collection",
+      "address": "Calle Nuno de Canas 1, 11408 Jerez de la Frontera, Spain",
+      "neighborhood": "Jerez norte",
+      "description": "Inside the Williams and Humbert bodega, a collection of historic Dry Sack advertising materials, Victorian-era sherry trade ephemera and original coopers' tools from the 19th-century bodega operation. The collection is presented as part of the standard bodega tour.",
+      "admission": "Included in the Williams and Humbert bodega tour from EUR 15",
+      "permanent_collection": true,
+      "temporary_exhibitions": false,
+      "tasting_bar": true,
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.williams-humbert.com/en/bodegas/visitas/",
+        "address_quoted": "C/ Nuno de Canas, 1, 11408 Jerez de la Frontera",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g187443-d2239932-Reviews-Williams_Humbert-Jerez_de_la_Frontera_Province_of_Cadiz_Andalucia.html",
+        "cuisine_evidence_url": "https://www.williams-humbert.com/en/vinos/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "museo-andaluz-sanlucar",
+      "name": "Museo Arqueologico de Sanlucar de Barrameda",
+      "address": "Calle Caballeros 26, 11540 Sanlucar de Barrameda, Spain",
+      "neighborhood": "Sanlucar de Barrameda centro",
+      "description": "The Sanlucar museum contains a wine and viticulture section tracing Manzanilla production history from Phoenician amphorae finds on the Guadalquivir estuary through the medieval period to the 19th-century Manzanilla boom. Physical artefacts include Roman grape-pressing stones and historic cooperage tools.",
+      "admission": "EUR 3 adults; free for Sanlucar residents",
+      "permanent_collection": true,
+      "temporary_exhibitions": true,
+      "tasting_bar": false,
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.sanlucar.es/museos/",
+        "address_quoted": "C/ Caballeros, 26, 11540 Sanlucar de Barrameda",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g187440-d2385551-Reviews-Museo_Arqueologico_Municipal-Sanlucar_de_Barrameda_Province_of_Cadiz_Andalucia.html",
+        "cuisine_evidence_url": "https://www.andalucia.org/en/tourist-destinations/sanlucar-de-barrameda/",
+        "checked_on": "2026-05-28"
+      }
+    }
+  ]
+}

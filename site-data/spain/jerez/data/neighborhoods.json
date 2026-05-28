@@ -1,0 +1,321 @@
+{
+  "neighborhoods": [
+    {
+      "slug": "jerez-de-la-frontera",
+      "name": "Jerez de la Frontera",
+      "address": "Jerez de la Frontera, 11402 Cádiz, Andalusia, Spain",
+      "classification": "DO Jerez-Xérès-Sherry",
+      "description": "The largest of the three sherry towns and the historic centre of the denomination. Home to the densest cluster of major bodegas, including González Byass, Lustau, Williams and Humbert, and Fernando de Castilla. The historic bodega quarter sits around the Cathedral and the Barrio de Santiago. Trains from Seville arrive in 1 hour.",
+      "key_varietals": ["Palomino Fino", "Pedro Ximénez"],
+      "sub_communes": [
+        "Barrio de Santiago",
+        "Centro histórico",
+        "Barriada de Chapín"
+      ],
+      "famous_producers": [
+        "gonzalez-byass",
+        "emilio-lustau",
+        "bodegas-fernandodecastilla",
+        "bodegas-tradicion",
+        "sanchez-romate",
+        "williams-humbert"
+      ],
+      "aliases": ["Jerez", "Xérès", "Sherry (historical English name)"],
+      "vibe": "Baroque cathedral, sherry bodega tours, flamenco heritage and the annual Feria del Caballo horse fair in the chalky white capital of the denomination.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.sherry.wine/",
+        "address_quoted": "Jerez de la Frontera, Cádiz, Andalusia",
+        "open_status": "open",
+        "open_evidence_url": "https://www.gonzalezbyass.com/en/",
+        "cuisine_evidence_url": "https://www.sherry.wine/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "sanlucar-de-barrameda",
+      "name": "Sanlúcar de Barrameda",
+      "address": "Sanlúcar de Barrameda, 11540 Cádiz, Andalusia, Spain",
+      "classification": "DO Manzanilla-Sanlúcar de Barrameda",
+      "description": "The Manzanilla town at the mouth of the Guadalquivir River, 22 km west of Jerez. Atlantic humidity flowing inland from the river estuary keeps flor yeast alive year-round, producing a leaner, saltier Manzanilla impossible to replicate in Jerez or El Puerto. Home to Barbadillo, Delgado Zuleta, Bodegas Argüeso and Hidalgo La Gitana. The Bodegas Alto and Bajo quarters climb the hill above the river.",
+      "key_varietals": ["Palomino Fino"],
+      "sub_communes": [
+        "Barrio Alto",
+        "Barrio Bajo",
+        "Bajo de Guía"
+      ],
+      "famous_producers": [
+        "bodegas-barbadillo",
+        "delgado-zuleta",
+        "bodegas-argueso",
+        "bodegas-hidalgo-la-gitana",
+        "pedro-romero",
+        "bodegas-sanchez-ayala"
+      ],
+      "aliases": ["Sanlúcar", "Barrameda"],
+      "vibe": "Whitewashed Barrio Bajo, the smell of the ocean and Manzanilla, the Doñana National Park across the Guadalquivir and August beach races on the river estuary shore.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.sherry.wine/",
+        "address_quoted": "Sanlúcar de Barrameda, Cádiz, Andalusia",
+        "open_status": "open",
+        "open_evidence_url": "https://www.barbadillo.com/en/",
+        "cuisine_evidence_url": "https://www.sherry.wine/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "el-puerto-de-santa-maria",
+      "name": "El Puerto de Santa María",
+      "address": "El Puerto de Santa María, 11500 Cádiz, Andalusia, Spain",
+      "classification": "DO Jerez-Xérès-Sherry",
+      "description": "The historic shipping port on the Bay of Cádiz, 12 km south-west of Jerez across the Guadalete estuary. Osborne, Caballero and Gutiérrez Colosía operate riverside bodegas here. The Atlantic influence from the bay produces slightly fuller-bodied Fino than Jerez, though saltier than the inland town. The Castillo San Marcos overlooks the port.",
+      "key_varietals": ["Palomino Fino", "Pedro Ximénez"],
+      "sub_communes": [
+        "Barrio Alto",
+        "Ribera del Marisco",
+        "Valdelagrana"
+      ],
+      "famous_producers": [
+        "osborne",
+        "caballero",
+        "bodegas-gutierrez-colosia"
+      ],
+      "aliases": ["El Puerto", "Puerto de Santa María"],
+      "vibe": "Seafood restaurants along the Ribera del Marisco, a catamaran ferry from Cádiz across the bay, and riverside bodegas where Fino matures with Atlanic sea breezes.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.sherry.wine/",
+        "address_quoted": "El Puerto de Santa María, Cádiz, Andalusia",
+        "open_status": "open",
+        "open_evidence_url": "https://www.osborne.es/en/",
+        "cuisine_evidence_url": "https://www.sherry.wine/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "macharnudo",
+      "name": "Pago de Macharnudo",
+      "address": "Pago de Macharnudo, 11406 Jerez de la Frontera, Cádiz, Spain",
+      "classification": "DO Jerez-Xérès-Sherry",
+      "description": "The most-cited prestige pago in the Sherry Triangle, lying 7 km north of Jerez on a sloping albariza plateau at around 60 metres elevation. Valdespino's Inocente Fino is fermented and aged exclusively from Macharnudo grapes without blending across pagos, a near-unique single-vineyard practice in sherry. The chalky-white soils here are considered optimal for Palomino Fino complexity.",
+      "key_varietals": ["Palomino Fino"],
+      "sub_communes": [
+        "Macharnudo Alto"
+      ],
+      "famous_producers": [
+        "real-tesoro-valdespino",
+        "gonzalez-byass",
+        "emilio-lustau"
+      ],
+      "aliases": ["Macharnudo Alto"],
+      "vibe": "Open rolling albariza hillside north of Jerez, the vineyards that produce Inocente Fino and a visual reminder of why sherry was historically compared to Champagne chalk.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.sherry.wine/",
+        "address_quoted": "Pago de Macharnudo, Jerez de la Frontera",
+        "open_status": "open",
+        "open_evidence_url": "https://www.grupoestevez.com/en/",
+        "cuisine_evidence_url": "https://www.sherry.wine/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "carrascal",
+      "name": "Pago de Carrascal",
+      "address": "Pago de Carrascal, 11405 Jerez de la Frontera, Cádiz, Spain",
+      "classification": "DO Jerez-Xérès-Sherry",
+      "description": "One of the premium albariza pagos north-west of Jerez, known for producing grapes of comparable quality to Macharnudo. Lustan sources from Carrascal for part of its prestige Almacenista range, and González Byass draws on it for the Tío Pepe Fino base wine. The plateau site sits at similar elevation to Macharnudo with comparable chalky soil composition.",
+      "key_varietals": ["Palomino Fino"],
+      "sub_communes": [],
+      "famous_producers": [
+        "gonzalez-byass",
+        "emilio-lustau"
+      ],
+      "aliases": [],
+      "vibe": "Albariza-white plateau overlooking the outskirts of Jerez; one of the four historically cited premium pagos of the town.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.sherry.wine/",
+        "address_quoted": "Pago de Carrascal, Jerez de la Frontera",
+        "open_status": "open",
+        "open_evidence_url": "https://www.sherry.wine/",
+        "cuisine_evidence_url": "https://www.sherry.wine/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "balbaina",
+      "name": "Pago de Balbaina",
+      "address": "Pago de Balbaina, 11500 El Puerto de Santa María, Cádiz, Spain",
+      "classification": "DO Jerez-Xérès-Sherry",
+      "description": "A large pago straddling the boundary between Jerez and El Puerto de Santa María, with the sub-divisions Balbaina Alta (further inland, drier, chalky) and Balbaina Baja (closer to the coast, sandier). Barbadillo draws Manzanilla grapes from Balbaina Baja for its ocean-influenced styles, while Hidalgo La Gitana sources part of La Gitana from Balbaina. The Atlantic influence is stronger here than in Macharnudo.",
+      "key_varietals": ["Palomino Fino"],
+      "sub_communes": [
+        "Balbaina Alta",
+        "Balbaina Baja"
+      ],
+      "famous_producers": [
+        "bodegas-barbadillo",
+        "bodegas-hidalgo-la-gitana",
+        "gonzalez-byass"
+      ],
+      "aliases": ["Balbaina Alta", "Balbaina Baja"],
+      "vibe": "Coast-facing albariza and sandy slopes where the Atlantic breeze shapes grapes with more salinity and lighter bodies than the inland pagos.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.sherry.wine/",
+        "address_quoted": "Pago de Balbaina, El Puerto de Santa María",
+        "open_status": "open",
+        "open_evidence_url": "https://www.sherry.wine/",
+        "cuisine_evidence_url": "https://www.sherry.wine/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "anina",
+      "name": "Pago de Añina",
+      "address": "Pago de Añina, 11405 Jerez de la Frontera, Cádiz, Spain",
+      "classification": "DO Jerez-Xérès-Sherry",
+      "description": "One of the four historic prestige pagos of Jerez, located north of the city on albariza slopes. Añina is cited alongside Macharnudo, Carrascal and Balbaina as a classic albariza terroir in historical sherry texts. González Byass and Lustau draw on Añina vineyards for their premium Fino and Amontillado soleras.",
+      "key_varietals": ["Palomino Fino"],
+      "sub_communes": [],
+      "famous_producers": [
+        "gonzalez-byass",
+        "emilio-lustau"
+      ],
+      "aliases": [],
+      "vibe": "Classic albariza plateau north of Jerez; a historic Fino-producing pago referenced in 19th-century sherry literature.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.sherry.wine/",
+        "address_quoted": "Pago de Añina, Jerez de la Frontera",
+        "open_status": "open",
+        "open_evidence_url": "https://www.sherry.wine/",
+        "cuisine_evidence_url": "https://www.sherry.wine/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "miraflores",
+      "name": "Pago de Miraflores",
+      "address": "Pago de Miraflores, 11540 Sanlúcar de Barrameda, Cádiz, Spain",
+      "classification": "DO Manzanilla-Sanlúcar de Barrameda",
+      "description": "The most-cited single-vineyard pago in Sanlúcar de Barrameda, lying on albariza and sandy soils between the town and the coastal dunes of Doñana. Hidalgo La Gitana's Pastrana Manzanilla Pasada comes from the Miraflores parcel. The proximity to the Atlantic and the Doñana marshes creates uniquely saline, mineral Manzanilla with intense flor development year-round.",
+      "key_varietals": ["Palomino Fino"],
+      "sub_communes": [
+        "Miraflores Alta",
+        "Miraflores Baja"
+      ],
+      "famous_producers": [
+        "bodegas-hidalgo-la-gitana",
+        "bodegas-barbadillo"
+      ],
+      "aliases": [],
+      "vibe": "Atlantic-facing albariza and sand parcels near the Doñana coastal dunes; a noted source for Sanlúcar Manzanilla Pasada.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.sherry.wine/",
+        "address_quoted": "Pago de Miraflores, Sanlúcar de Barrameda",
+        "open_status": "open",
+        "open_evidence_url": "https://www.lagitana.es/en/",
+        "cuisine_evidence_url": "https://www.sherry.wine/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "tabajete",
+      "name": "Pago de Tabajete",
+      "address": "Pago de Tabajete, 11402 Jerez de la Frontera, Cádiz, Spain",
+      "classification": "DO Jerez-Xérès-Sherry",
+      "description": "A smaller albariza pago near Jerez associated with Equipo Navazos's sourcing and with historic almacenista producers. The pago sits on classic white chalk terrain north-east of Jerez and contributes to both biological and oxidative style soleras.",
+      "key_varietals": ["Palomino Fino"],
+      "sub_communes": [],
+      "famous_producers": [
+        "equipo-navazos"
+      ],
+      "aliases": [],
+      "vibe": "Quiet albariza hillside used by négociant selectors for single-cask bottlings; one of the less-publicised premium pagos north of Jerez.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.sherry.wine/",
+        "address_quoted": "Pago de Tabajete, Jerez de la Frontera",
+        "open_status": "open",
+        "open_evidence_url": "https://www.equiponavazos.com/",
+        "cuisine_evidence_url": "https://www.sherry.wine/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "torrebreva",
+      "name": "Pago de Torrebreva",
+      "address": "Pago de Torrebreva, 11540 Sanlúcar de Barrameda, Cádiz, Spain",
+      "classification": "DO Manzanilla-Sanlúcar de Barrameda",
+      "description": "An albariza pago within the Sanlúcar zone producing Manzanilla grapes under Atlantic-influenced conditions. Barbadillo sources from Torrebreva for part of its Solear range, exploiting the cooling Doñana influence that sustains flor year-round in this coastal terroir.",
+      "key_varietals": ["Palomino Fino"],
+      "sub_communes": [],
+      "famous_producers": [
+        "bodegas-barbadillo"
+      ],
+      "aliases": [],
+      "vibe": "One of the Atlantic-facing Sanlúcar pagos where the Doñana's sea breezes extend the flor season through summer, keeping Manzanilla pale and saline.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.sherry.wine/",
+        "address_quoted": "Pago de Torrebreva, Sanlúcar de Barrameda",
+        "open_status": "open",
+        "open_evidence_url": "https://www.barbadillo.com/en/",
+        "cuisine_evidence_url": "https://www.sherry.wine/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "atalaya",
+      "name": "Pago de Atalaya",
+      "address": "Pago de Atalaya, 11540 Sanlúcar de Barrameda, Cádiz, Spain",
+      "classification": "DO Manzanilla-Sanlúcar de Barrameda",
+      "description": "An inland-facing albariza pago in the Sanlúcar zone producing Palomino Fino with slightly more structure than the fully coastal parcels. Used by several smaller Sanlúcar producers for their base Manzanilla soleras. The name refers to the watchtower site historically used to survey the Guadalquivir mouth.",
+      "key_varietals": ["Palomino Fino"],
+      "sub_communes": [],
+      "famous_producers": [
+        "bodegas-barbadillo",
+        "delgado-zuleta"
+      ],
+      "aliases": [],
+      "vibe": "Rolling albariza terrain inland from the Sanlúcar coast with a long history of Manzanilla viticulture and the estuary in the distance.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.sherry.wine/",
+        "address_quoted": "Pago de Atalaya, Sanlúcar de Barrameda",
+        "open_status": "open",
+        "open_evidence_url": "https://www.sherry.wine/",
+        "cuisine_evidence_url": "https://www.sherry.wine/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "hornillo",
+      "name": "Pago de El Hornillo",
+      "address": "Pago de El Hornillo, 11540 Sanlúcar de Barrameda, Cádiz, Spain",
+      "classification": "DO Manzanilla-Sanlúcar de Barrameda",
+      "description": "A coastal albariza pago within the Sanlúcar de Barrameda zone, used by several of the town's smaller and almacenista producers. The Atlantic influence here is among the strongest of any Sanlúcar pago, producing Palomino with pronounced salinity and restrained fruit, ideal for lean Manzanilla styles.",
+      "key_varietals": ["Palomino Fino"],
+      "sub_communes": [],
+      "famous_producers": [
+        "delgado-zuleta",
+        "bodegas-argueso"
+      ],
+      "aliases": [],
+      "vibe": "A coastal Sanlúcar pago where the Atlantic is a constant presence and Manzanilla's saline mineral character reaches its most pronounced expression.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.sherry.wine/",
+        "address_quoted": "Pago de El Hornillo, Sanlúcar de Barrameda",
+        "open_status": "open",
+        "open_evidence_url": "https://www.sherry.wine/",
+        "cuisine_evidence_url": "https://www.sherry.wine/",
+        "checked_on": "2026-05-28"
+      }
+    }
+  ]
+}

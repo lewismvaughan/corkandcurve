@@ -160,16 +160,29 @@ def check_city(country: str, city: str, strict: bool = False) -> int:
         print(f"[{country}/{city}] no such city")
         return 1
     hits = []
-    for fname in ("wines.json", "vineyards.json", "signature-wines.json"):
-        f = data_dir / fname
-        if not f.exists():
-            continue
+    # Scan ALL JSON files in the region's data/ dir, not just wines/vineyards/
+    # signature-wines (Jerez 2026-05-28 Opus found 14 soft-superlatives leaked
+    # into wine-festivals/wine-history/neighborhoods/budget-wines/day-trips/
+    # distilleries/region.json because they weren't scanned). The same
+    # categorical C0 ban applies to every prose field on every entity.
+    for f in sorted(data_dir.glob("*.json")):
+        fname = f.name
         try:
             d = json.loads(f.read_text(encoding="utf-8"))
         except (OSError, json.JSONDecodeError):
             continue
-        top = d.get("wines") or d.get("vineyards") or d.get("signature_wines") or d
-        entries = top if isinstance(top, list) else [d]
+        # Find list-of-entity payloads at the top level (entities are inside).
+        # Some files (region.json) are a single dict — scan as one entity.
+        entries = []
+        if isinstance(d, dict):
+            list_payloads = [v for v in d.values() if isinstance(v, list)]
+            if list_payloads:
+                for arr in list_payloads:
+                    entries.extend(x for x in arr if isinstance(x, dict))
+            else:
+                entries = [d]
+        elif isinstance(d, list):
+            entries = [x for x in d if isinstance(x, dict)]
         for e in entries:
             if not isinstance(e, dict):
                 continue

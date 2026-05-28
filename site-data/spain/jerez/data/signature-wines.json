@@ -1,0 +1,305 @@
+{
+  "signature_wines": [
+    {
+      "slug": "gonzalez-byass-tio-pepe-fino",
+      "name": "Tío Pepe Fino",
+      "producer": "gonzalez-byass",
+      "producer_name": "González Byass",
+      "varietals": [
+        "Palomino Fino"
+      ],
+      "style": "fortified-sherry",
+      "sweetness": "dry",
+      "classification": "DO Jerez-Xérès-Sherry",
+      "vintage_range": "NV (solera established 1844)",
+      "price_band": "€10-18 at retail",
+      "tasting_notes": "Bone dry and pale with green apple, fresh almond, sea breeze and chamomile aromatics; the solera ageing under a thick flor yeast blanket gives a consistently saline, refreshing finish.",
+      "region_context": "Uno de los Finos más distribuidos del mundo; la expresión bajo-albariza y flor que define el estilo canónico de Jerez.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.gonzalezbyass.com/en/wine/tio-pepe-fino/",
+        "address_quoted": "Manuel María González 12, 11403 Jerez de la Frontera, Cádiz",
+        "open_status": "open",
+        "open_evidence_url": "https://www.sherry.wine/bodegas-and-wines/sherry/jerez-xeres-sherry/gonzalez-byass/",
+        "cuisine_evidence_url": "https://www.gonzalezbyass.com/en/wine/tio-pepe-fino/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "valdespino-inocente-fino",
+      "name": "Inocente Fino",
+      "producer": "real-tesoro-valdespino",
+      "producer_name": "Bodegas Real Tesoro y Valdespino",
+      "varietals": [
+        "Palomino Fino"
+      ],
+      "style": "fortified-sherry",
+      "sweetness": "dry",
+      "classification": "DO Jerez-Xérès-Sherry",
+      "vintage_range": "NV (solera ongoing since 1874)",
+      "price_band": "€18-28 at retail",
+      "tasting_notes": "Single-vineyard Fino from the Macharnudo Alto albariza pago, fermented in seasoned American oak butts without blending from other plots. Fresh almonds, apple blossom, beeswax and a long, focused clean finish.",
+      "region_context": "The only single-vineyard, single-pago Fino aged exclusively in oak; a study in Macharnudo terroir that stands apart from multi-pago blends.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.valdespino.com/",
+        "address_quoted": "Calle Pizarro 10, 11402 Jerez de la Frontera, Cádiz",
+        "open_status": "open",
+        "open_evidence_url": "https://www.valdespino.es/en/vinos/inocente/",
+        "cuisine_evidence_url": "https://www.valdespino.com/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "la-gitana-manzanilla",
+      "name": "La Gitana Manzanilla",
+      "producer": "bodegas-hidalgo-la-gitana",
+      "producer_name": "Bodegas Hidalgo La Gitana",
+      "varietals": [
+        "Palomino Fino"
+      ],
+      "style": "fortified-sherry",
+      "sweetness": "dry",
+      "classification": "DO Manzanilla-Sanlúcar de Barrameda",
+      "vintage_range": "NV (house founded 1792)",
+      "price_band": "€7-11 at retail",
+      "tasting_notes": "Delicate and saline with chamomile, sea spray, fresh apple and a briny Atlantic finish; the Miraflores pago in Sanlúcar provides a fine-boned flor character that is lighter and more fragrant than Jerez Finos.",
+      "region_context": "Sanlúcar's maritime microclimate produces thinner, more active flor; La Gitana is the entry point for Manzanilla worldwide, showing the appellation style at accessible price.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.lagitana.es/en/manzanilla-la-gitana/",
+        "address_quoted": "Banda Playa 42, 11540 Sanlúcar de Barrameda, Cádiz",
+        "open_status": "open",
+        "open_evidence_url": "https://www.sherry.wine/bodegas-and-wines/sherry/manzanilla-sanlucar/bodegas-hidalgo-la-gitana/",
+        "cuisine_evidence_url": "https://www.lagitana.es/en/manzanilla-la-gitana/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "goya-xl-manzanilla-en-rama",
+      "name": "Goya XL Manzanilla En Rama",
+      "producer": "delgado-zuleta",
+      "producer_name": "Delgado Zuleta",
+      "varietals": [
+        "Palomino Fino"
+      ],
+      "style": "fortified-sherry",
+      "sweetness": "dry",
+      "classification": "DO Manzanilla-Sanlúcar de Barrameda",
+      "vintage_range": "Annual spring release (first bottling 2005)",
+      "price_band": "€14-22 at retail",
+      "tasting_notes": "Unfiltered and unlightened en rama release from the La Goya solera; richer in texture and flor-yeast character than the standard La Goya, with live yeast, sea air, fuller doughy body and vibrant citrus oil.",
+      "region_context": "The en rama format captures Manzanilla closest to its cellar state; the spring release timing coincides with maximum flor activity after the cool Sanlúcar winter.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.delgadozuleta.com/en/wines/goya-xl/",
+        "address_quoted": "Juan Antonio Pacheco 12, 11540 Sanlúcar de Barrameda, Cádiz",
+        "open_status": "open",
+        "open_evidence_url": "https://www.sherry.wine/bodegas-and-wines/sherry/manzanilla-sanlucar/delgado-zuleta/",
+        "cuisine_evidence_url": "https://www.delgadozuleta.com/en/wines/goya-xl/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "sanchez-romate-npu-amontillado-vors",
+      "name": "NPU Amontillado VORS",
+      "producer": "sanchez-romate",
+      "producer_name": "Sánchez Romate",
+      "varietals": [
+        "Palomino Fino"
+      ],
+      "style": "fortified-sherry",
+      "sweetness": "dry",
+      "classification": "DO Jerez-Xérès-Sherry",
+      "vintage_range": "NV VORS (minimum 30 years average solera age; solera since 1922)",
+      "price_band": "€50-85 at retail",
+      "tasting_notes": "Deep amber with old walnut, dried orange rind, antique furniture wax and tobacco on the nose; the palate brings bitter almond oil, toffee and woody spice before a very long, austere dry finish.",
+      "region_context": "VORS (Very Old Rare Sherry) classification requires a minimum 30-year average age certified by the Consejo Regulador. NPU is one of Jerez's longest-established Amontillado soleras.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://sanchezromate.com/en/",
+        "address_quoted": "Lealas 26-30, 11403 Jerez de la Frontera, Cádiz",
+        "open_status": "open",
+        "open_evidence_url": "https://sanchezromate.com/en/vinos/npu/",
+        "cuisine_evidence_url": "https://sanchezromate.com/en/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "lustau-capataz-andres-amontillado",
+      "name": "Capataz Andrés Amontillado",
+      "producer": "emilio-lustau",
+      "producer_name": "Emilio Lustau",
+      "varietals": [
+        "Palomino Fino"
+      ],
+      "style": "fortified-sherry",
+      "sweetness": "dry",
+      "classification": "DO Jerez-Xérès-Sherry",
+      "vintage_range": "NV Solera Reserva (average 12 years dual ageing; first bottling 1978)",
+      "price_band": "€16-24 at retail",
+      "price_note": "Part of the Lustau Solera Reserva range, an accessible introduction to aged Amontillado style.",
+      "tasting_notes": "Complex Solera Reserva Amontillado with dual ageing: first biological under flor, then oxidative in American oak. Toasted hazelnuts, toffee, tangerine peel and dry spice; walnut and bitter caramel on the finish.",
+      "region_context": "Lustau's Solera Reserva tier showcases aged Amontillado character at mid-range pricing, demonstrating the hazelnut-and-toffee profile that emerges from prolonged dual-ageing.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.lustau.es/en/product/capataz-andres-amontillado/",
+        "address_quoted": "Plaza del Cubo 4, 11403 Jerez de la Frontera, Cádiz",
+        "open_status": "open",
+        "open_evidence_url": "https://www.sherry.wine/bodegas-and-wines/sherry/jerez-xeres-sherry/emilio-lustau/",
+        "cuisine_evidence_url": "https://www.lustau.es/en/product/capataz-andres-amontillado/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "faraon-oloroso-hidalgo",
+      "name": "Faraón Oloroso",
+      "producer": "bodegas-hidalgo-la-gitana",
+      "producer_name": "Bodegas Hidalgo La Gitana",
+      "varietals": [
+        "Palomino Fino"
+      ],
+      "style": "fortified-sherry",
+      "sweetness": "dry",
+      "classification": "DO Manzanilla-Sanlúcar de Barrameda",
+      "vintage_range": "NV VORS (30-plus years average solera age; house founded 1792)",
+      "price_band": "€45-90 at retail",
+      "tasting_notes": "Intensely concentrated VORS Oloroso from Sanlúcar with dark dried fruit, roasted coffee, toasted oak and leather; the characteristic saline mineral of the appellation persists through the full oxidative weight of 30-plus years.",
+      "region_context": "Faraón demonstrates that Oloroso aged in Sanlúcar carries a distinct saline depth from the Atlantic influence, contrasting with the drier, more austere profile of inland Jerez Olorosos.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.lagitana.es/en/faraon-oloroso/",
+        "address_quoted": "Banda Playa 42, 11540 Sanlúcar de Barrameda, Cádiz",
+        "open_status": "open",
+        "open_evidence_url": "https://www.sherry.wine/bodegas-and-wines/sherry/manzanilla-sanlucar/bodegas-hidalgo-la-gitana/",
+        "cuisine_evidence_url": "https://www.lagitana.es/en/faraon-oloroso/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "lustau-don-nuno-oloroso",
+      "name": "Don Nuño Oloroso",
+      "producer": "emilio-lustau",
+      "producer_name": "Emilio Lustau",
+      "varietals": [
+        "Palomino Fino"
+      ],
+      "style": "fortified-sherry",
+      "sweetness": "dry",
+      "classification": "DO Jerez-Xérès-Sherry",
+      "vintage_range": "NV Solera Reserva (average 10 years oxidative ageing; first bottling 1980)",
+      "price_band": "€14-22 at retail",
+      "tasting_notes": "Rich, full Oloroso from the Lustau Solera Reserva: dark amber with roasted walnuts, tobacco, dark dried fruit and toasted oak on the nose; dark coffee, caramel, dried plum and smoky wood spice on a long dry finish.",
+      "region_context": "Don Nuño offers an accessible entry into dry Oloroso, showing the characteristic nutty-oxidative depth of Jerez without the age premium of VORS bottlings.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.lustau.es/en/product/don-nuno-oloroso/",
+        "address_quoted": "Plaza del Cubo 4, 11403 Jerez de la Frontera, Cádiz",
+        "open_status": "open",
+        "open_evidence_url": "https://www.sherry.wine/bodegas-and-wines/sherry/jerez-xeres-sherry/emilio-lustau/",
+        "cuisine_evidence_url": "https://www.lustau.es/en/product/don-nuno-oloroso/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "lustau-palo-cortado-peninsula",
+      "name": "Peninsula Palo Cortado",
+      "producer": "emilio-lustau",
+      "producer_name": "Emilio Lustau",
+      "varietals": [
+        "Palomino Fino"
+      ],
+      "style": "fortified-sherry",
+      "sweetness": "dry",
+      "classification": "DO Jerez-Xérès-Sherry",
+      "vintage_range": "NV Solera Reserva (average 15 years; first bottling 1985)",
+      "price_band": "€18-28 at retail",
+      "tasting_notes": "A well-documented example of Palo Cortado: Amontillado-like elegance on the nose with orange bitters, mahogany and roasted hazelnuts; Oloroso depth on the palate with bitter walnut, dry orange peel, dark spice and a long tea-tannin finish.",
+      "region_context": "Palo Cortado is the rarest Sherry style, arising when a wine developing under flor unexpectedly shifts to oxidative ageing. Peninsula is a reliable expression of this dual character.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.lustau.es/en/product/peninsula-palo-cortado/",
+        "address_quoted": "Plaza del Cubo 4, 11403 Jerez de la Frontera, Cádiz",
+        "open_status": "open",
+        "open_evidence_url": "https://www.sherry.wine/bodegas-and-wines/sherry/jerez-xeres-sherry/emilio-lustau/",
+        "cuisine_evidence_url": "https://www.lustau.es/en/product/peninsula-palo-cortado/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "gonzalez-byass-noe-vors-pedro-ximenez",
+      "name": "Noé Pedro Ximénez VORS",
+      "producer": "gonzalez-byass",
+      "producer_name": "González Byass",
+      "varietals": [
+        "Pedro Ximénez"
+      ],
+      "style": "fortified-sherry",
+      "sweetness": "sweet",
+      "classification": "DO Jerez-Xérès-Sherry",
+      "vintage_range": "NV VORS (minimum 30 years average solera age; solera since 1830)",
+      "price_band": "€50-80 at retail",
+      "tasting_notes": "Near-black and viscous VORS PX of extreme concentration: compressed dried raisins, tar, black coffee, leather and dried tobacco on the nose; the palate delivers tar, black figs, treacle and salted caramel with an extraordinarily long, glycerol-rich finish.",
+      "region_context": "The VORS minimum 30-year age requirement, combined with the natural grape-raisin sweetness of sun-dried Pedro Ximénez, produces a depth of concentration that cannot be replicated in younger PX bottlings.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.gonzalezbyass.com/en/wine/noe/",
+        "address_quoted": "Manuel María González 12, 11403 Jerez de la Frontera, Cádiz",
+        "open_status": "open",
+        "open_evidence_url": "https://www.sherry.wine/bodegas-and-wines/sherry/jerez-xeres-sherry/gonzalez-byass/",
+        "cuisine_evidence_url": "https://www.gonzalezbyass.com/en/wine/noe/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "sanchez-romate-cardenal-cisneros-pedro-ximenez",
+      "name": "Cardenal Cisneros Pedro Ximénez",
+      "producer": "sanchez-romate",
+      "producer_name": "Sánchez Romate",
+      "varietals": [
+        "Pedro Ximénez"
+      ],
+      "style": "fortified-sherry",
+      "sweetness": "sweet",
+      "classification": "DO Jerez-Xérès-Sherry",
+      "vintage_range": "NV (solera established circa 1920)",
+      "price_band": "€16-25 at retail",
+      "tasting_notes": "Rich, intensely sweet PX from a century-old solera: deep black-brown with dark raisins, roasted coffee, toffee and dates on the nose; concentrated figs, dark molasses, caramel and warm spice on a long warm finish.",
+      "region_context": "Named in honour of Cardinal Cisneros, this PX is an accessible and deeply traditional expression of the sun-dried Pedro Ximénez grape that has been central to the Jerez sweet-wine tradition for generations.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.sherry.wine/bodegas-and-wines/sherry/jerez-xeres-sherry/sanchez-romate/",
+        "address_quoted": "Lealas 26-30, 11403 Jerez de la Frontera, Cádiz",
+        "open_status": "open",
+        "open_evidence_url": "https://sanchezromate.com/en/vinos/cardenal-cisneros/",
+        "cuisine_evidence_url": "https://www.sherry.wine/bodegas-and-wines/sherry/jerez-xeres-sherry/sanchez-romate/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "equipo-navazos-la-bota-fino",
+      "name": "La Bota de Fino",
+      "producer": "equipo-navazos",
+      "producer_name": "Equipo Navazos",
+      "varietals": [
+        "Palomino Fino"
+      ],
+      "style": "fortified-sherry",
+      "sweetness": "dry",
+      "classification": "DO Jerez-Xérès-Sherry",
+      "vintage_range": "Numbered single-cask releases (first release 2005)",
+      "price_band": "€25-50 at retail",
+      "tasting_notes": "Single-cask unfiltered Fino selected from an exceptional bota in a Jerez bodega: chamomile, toasted almonds, beeswax and light herbs on the nose; saline minerals, lemon zest, almond cream and natural flor complexity on the palate.",
+      "region_context": "Equipo Navazos was founded by a group of Sherry scholars who began sourcing and bottling exceptional individual casks direct from bodegas in 2005. Their numbered La Bota series brought single-cask Sherry to wider specialist attention.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.equiponavazos.com/en/",
+        "address_quoted": "C/ Divina Pastora 2, 11403 Jerez de la Frontera, Cádiz",
+        "open_status": "open",
+        "open_evidence_url": "https://www.sherry.wine/bodegas-and-wines/sherry/jerez-xeres-sherry/equipo-navazos/",
+        "cuisine_evidence_url": "https://www.equiponavazos.com/en/",
+        "checked_on": "2026-05-28"
+      }
+    }
+  ]
+}

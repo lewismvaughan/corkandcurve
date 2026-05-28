@@ -1303,6 +1303,30 @@
       ]
     },
     {
+      "slug": "moscatel",
+      "display": "Moscatel",
+      "regions": [
+        {
+          "country_slug": "spain",
+          "region_slug": "jerez",
+          "region_name": "Jerez & Sherry",
+          "n": 3
+        }
+      ]
+    },
+    {
+      "slug": "moscatel-de-alejandria",
+      "display": "Moscatel de Alejandría",
+      "regions": [
+        {
+          "country_slug": "spain",
+          "region_slug": "jerez",
+          "region_name": "Jerez & Sherry",
+          "n": 6
+        }
+      ]
+    },
+    {
       "slug": "moscatel-galego-branco",
       "display": "Moscatel Galego Branco",
       "regions": [
@@ -1515,6 +1539,30 @@
           "region_slug": "veneto",
           "region_name": "Veneto",
           "n": 14
+        }
+      ]
+    },
+    {
+      "slug": "palomino-fino",
+      "display": "Palomino Fino",
+      "regions": [
+        {
+          "country_slug": "spain",
+          "region_slug": "jerez",
+          "region_name": "Jerez & Sherry",
+          "n": 78
+        }
+      ]
+    },
+    {
+      "slug": "pedro-ximenez",
+      "display": "Pedro Ximénez",
+      "regions": [
+        {
+          "country_slug": "spain",
+          "region_slug": "jerez",
+          "region_name": "Jerez & Sherry",
+          "n": 43
         }
       ]
     },
@@ -2169,6 +2217,18 @@
           "region_slug": "douro",
           "region_name": "Douro Valley",
           "n": 56
+        }
+      ]
+    },
+    {
+      "slug": "tintilla-de-rota",
+      "display": "Tintilla de Rota",
+      "regions": [
+        {
+          "country_slug": "spain",
+          "region_slug": "jerez",
+          "region_name": "Jerez & Sherry",
+          "n": 1
         }
       ]
     },

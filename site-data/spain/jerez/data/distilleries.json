@@ -1,0 +1,265 @@
+{
+  "distilleries": [
+    {
+      "slug": "osborne-brandy-el-puerto",
+      "name": "Osborne Brandy de Jerez",
+      "address": "Calle Los Moros 7, 11500 El Puerto de Santa Maria, Spain",
+      "neighborhood": "El Puerto de Santa Maria",
+      "classification": "Brandy de Jerez DOP",
+      "spirits_produced": [
+        "Veterano Brandy Solera",
+        "Magno Solera Gran Reserva",
+        "Carlos I Imperial brandy",
+        "Carlos I Solera Gran Reserva",
+        "Gran Reserva 1866"
+      ],
+      "description": "Osborne produces a widely distributed Brandy de Jerez range, with Veterano among the most widely sold branded brandies in Spain. The aguardiente is distilled from La Mancha Airen grapes and aged in Osborne sherry butts under the solera system at the El Puerto complex.",
+      "distillation_method": "Continuous column distillation of Airen grape spirit; aged in Palomino Fino sherry butts under solera criadera system",
+      "visit_available": true,
+      "tasting_program": "Brandy and sherry combined tour with Gran Reserva and standard tasting from EUR 20; private Magno Solera Gran Reserva vertical on request",
+      "booking_url": "https://www.osborne.es/en/bodegas/visitas/",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.osborne.es/en/brandies/",
+        "address_quoted": "C/ Los Moros, 7, 11500 El Puerto de Santa Maria",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g187439-d2240191-Reviews-Bodegas_Osborne-El_Puerto_de_Santa_Maria_Province_of_Cadiz_Andalucia.html",
+        "cuisine_evidence_url": "https://www.osborne.es/en/brandies/veterano/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "gonzalez-byass-lepanto-brandy",
+      "name": "Gonzalez Byass Lepanto Brandy de Jerez",
+      "address": "Calle Manuel Maria Gonzalez 12, 11403 Jerez de la Frontera, Spain",
+      "neighborhood": "Jerez centro",
+      "classification": "Brandy de Jerez DOP",
+      "spirits_produced": [
+        "Soberano Solera Brandy",
+        "Lepanto Brandy Solera",
+        "Lepanto Solera Gran Reserva",
+        "Lepanto Pedro Ximenez"
+      ],
+      "description": "Gonzalez Byass produces the Lepanto range of Brandy de Jerez alongside the mass-market Soberano. The Lepanto Solera Gran Reserva is aged in the same La Concha cellar as Tio Pepe, using only sherry butts from the house's own range for the final ageing stage.",
+      "distillation_method": "Holandas (pot still) distillation for Lepanto premium range; column still for Soberano; aged in Palomino Fino and Pedro Ximenez solera butts",
+      "visit_available": true,
+      "tasting_program": "Brandy element included in standard bodega tour; Lepanto Solera Gran Reserva premium tasting available as add-on from EUR 25",
+      "booking_url": null,
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/Attraction_Review-g187443-d2240193-Reviews-Gonzalez_Byass_Bodegas_Tio_Pepe-Jerez_de_la_Frontera_Province_of_Cadiz_Andalucia.html",
+        "address_quoted": "C. Manuel Maria Gonzalez, 12, 11403 Jerez de la Frontera",
+        "open_status": "open",
+        "open_evidence_url": "https://www.yelp.com/biz/bodegas-tio-pepe-jerez-de-la-frontera",
+        "cuisine_evidence_url": "https://www.bodegastiopepe.com/en/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "williams-humbert-gran-duque-alba",
+      "name": "Williams and Humbert Gran Duque de Alba",
+      "address": "Calle Nuno de Canas 1, 11408 Jerez de la Frontera, Spain",
+      "neighborhood": "Jerez norte",
+      "classification": "Brandy de Jerez DOP",
+      "spirits_produced": [
+        "Gran Duque de Alba Solera Gran Reserva",
+        "Gran Duque de Alba Oro",
+        "Gran Duque de Alba XO"
+      ],
+      "description": "The Gran Duque de Alba range from Williams and Humbert is among the most decorated Brandy de Jerez Solera Gran Reserva expressions. Spirit is aged exclusively in Williams and Humbert Palo Cortado and Oloroso butts for a minimum of ten years.",
+      "distillation_method": "Holandas pot still distillation; maturation exclusively in Williams and Humbert sherry butts under criadera and solera system",
+      "visit_available": true,
+      "tasting_program": "Gran Duque de Alba tasting included in premium tour option; standalone brandy session from EUR 25",
+      "booking_url": "https://www.williams-humbert.com/en/bodegas/visitas/",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.williams-humbert.com/en/gran-duque-de-alba/",
+        "address_quoted": "C/ Nuno de Canas, 1, 11408 Jerez de la Frontera",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g187443-d2239932-Reviews-Williams_Humbert-Jerez_de_la_Frontera_Province_of_Cadiz_Andalucia.html",
+        "cuisine_evidence_url": "https://www.williams-humbert.com/en/brandies/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "sanchez-romate-cardenal-mendoza",
+      "name": "Sanchez Romate Cardenal Mendoza",
+      "address": "Calle Lealas 26, 11403 Jerez de la Frontera, Spain",
+      "neighborhood": "Jerez centro",
+      "classification": "Brandy de Jerez DOP",
+      "spirits_produced": [
+        "Cardenal Mendoza Solera Gran Reserva",
+        "Cardenal Mendoza Carta Real",
+        "Cardenal Mendoza Anada 1908",
+        "NPU Amontillado (sherry companion)"
+      ],
+      "description": "Sanchez Romate's Cardenal Mendoza is a long-established Brandy de Jerez Solera Gran Reserva label widely distributed in Spain and export markets. The spirit is aged a minimum of twelve years in Romate's own Oloroso and Amontillado solera butts, producing a complex, mahogany-coloured spirit.",
+      "distillation_method": "Holandas pot still distillation from Airen grapes; minimum 12 years in Romate sherry butts under triple-criadera solera",
+      "visit_available": true,
+      "tasting_program": "Cardenal Mendoza tasting included in premium bodega visit; Carta Real and Anada 1908 comparison session on request",
+      "booking_url": null,
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.romate.com/en/brandy/cardenal-mendoza/",
+        "address_quoted": "C/ Lealas, 26, 11403 Jerez de la Frontera",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g187443-d2385552-Reviews-Bodegas_Romate-Jerez_de_la_Frontera_Province_of_Cadiz_Andalucia.html",
+        "cuisine_evidence_url": "https://www.romate.com/en/brandy/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "fundador-domecq-brandy",
+      "name": "Fundador Domecq Brandy de Jerez",
+      "address": "Calle San Ildefonso 3, 11403 Jerez de la Frontera, Spain",
+      "neighborhood": "Jerez centro",
+      "classification": "Brandy de Jerez DOP",
+      "spirits_produced": [
+        "Fundador Solera Brandy",
+        "Carlos I Solera Gran Reserva",
+        "Carlos I Imperial XO",
+        "Centenario Brandy Solera Gran Reserva"
+      ],
+      "description": "The Fundador brand, now under Beam Suntory, continues the Pedro Domecq brandy tradition from the historic Jerez cellar complex. Carlos I Solera Gran Reserva and the Centenario range represent the premium tier of the Fundador portfolio.",
+      "distillation_method": "Column and pot still distillation; Solera Gran Reserva aged minimum 10 years in Domecq sherry butts under the solera system",
+      "visit_available": true,
+      "tasting_program": "Brandy and sherry combined tour including Fundador and Carlos I from EUR 16",
+      "booking_url": null,
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/Attraction_Review-g187443-d2385554-Reviews-Bodegas_Domecq-Jerez_de_la_Frontera_Province_of_Cadiz_Andalucia.html",
+        "address_quoted": "C/ San Ildefonso, 3, Jerez de la Frontera",
+        "open_status": "open",
+        "open_evidence_url": "https://www.yelp.com/biz/bodegas-domecq-jerez-de-la-frontera",
+        "cuisine_evidence_url": "https://www.fundador.es/en/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "bodegas-tradicion-brandy",
+      "name": "Bodegas Tradicion Brandy de Jerez",
+      "address": "Calle Cordobeses 3, 11403 Jerez de la Frontera, Spain",
+      "neighborhood": "Jerez centro",
+      "classification": "Brandy de Jerez DOP",
+      "spirits_produced": [
+        "Tradicion Brandy Solera Gran Reserva",
+        "Tradicion Brandy Reserva"
+      ],
+      "description": "Bodegas Tradicion produces a Brandy de Jerez Solera Gran Reserva aged in the same 30-year-minimum solera butts that contain its VORS sherries. The brandy production is small and sold primarily through the bodega shop and the tasting room visit.",
+      "distillation_method": "Holandas pot still distillation; aged exclusively in old Tradicion sherry butts, minimum 10 years Solera Gran Reserva",
+      "visit_available": true,
+      "tasting_program": "Brandy included as an optional addition to the standard VORS sherry visit; combined sherry and brandy vertical from EUR 55",
+      "booking_url": "https://www.bodegastradicion.es/en/visit/",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/Attraction_Review-g187443-d2348987-Reviews-Bodegas_Tradicion-Jerez_de_la_Frontera_Province_of_Cadiz_Andalucia.html",
+        "address_quoted": "C/ Cordobeses, 3, Jerez de la Frontera",
+        "open_status": "open",
+        "open_evidence_url": "https://www.yelp.com/biz/bodegas-tradicion-jerez-de-la-frontera",
+        "cuisine_evidence_url": "https://www.bodegastradicion.es/en/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "bobadilla-jerez-brandy",
+      "name": "Bobadilla Gran Capitan Brandy de Jerez",
+      "address": "Calle Beato Juan Grande 1, 11403 Jerez de la Frontera, Spain",
+      "neighborhood": "Jerez centro",
+      "classification": "Brandy de Jerez DOP",
+      "spirits_produced": [
+        "Gran Capitan Solera Brandy",
+        "Gran Capitan Solera Reserva",
+        "103 ETiQUETA Blanca Brandy"
+      ],
+      "description": "Bobadilla produces the Gran Capitan and 103 ranges of Brandy de Jerez from its Jerez cellar, now part of the Beam Suntory portfolio alongside Fundador. The 103 Etiqueta Blanca is among the most widely sold brandy brands in Spain by volume.",
+      "distillation_method": "Column distillation from Airen and Palomino grapes; solera ageing in sherry butts",
+      "visit_available": false,
+      "tasting_program": "Available by prior arrangement for trade groups",
+      "booking_url": null,
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/Attraction_Review-g187443-d14541286-Reviews-Bobadilla-Jerez_de_la_Frontera_Province_of_Cadiz_Andalucia.html",
+        "address_quoted": "Jerez de la Frontera",
+        "open_status": "open",
+        "open_evidence_url": "https://www.yelp.com/biz/bobadilla-jerez-de-la-frontera",
+        "cuisine_evidence_url": "https://www.fundador.es/en/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "lustau-brandy-de-jerez",
+      "name": "Bodegas Lustau Brandy de Jerez",
+      "address": "Calle Arcos 53, 11402 Jerez de la Frontera, Spain",
+      "neighborhood": "Santiago, Jerez",
+      "classification": "Brandy de Jerez DOP",
+      "spirits_produced": [
+        "Solera Reserva Brandy",
+        "Solera Gran Reserva Brandy"
+      ],
+      "description": "Lustau produces a Brandy de Jerez Solera and Solera Gran Reserva from its Santiago quarter bodega, using the same oak infrastructure as the almacenista sherry operation. The Lustau Solera Gran Reserva is aged a minimum of fifteen years in Lustau's own Oloroso and Amontillado butts.",
+      "distillation_method": "Holandas pot still distillation; Solera Gran Reserva minimum 15 years in Lustau sherry butts",
+      "visit_available": true,
+      "tasting_program": "Brandy tasting available as add-on to standard Lustau bodega tour from EUR 15",
+      "booking_url": "https://www.lustau.es/en/visits",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/Attraction_Review-g187443-d2246399-Reviews-Bodegas_Lustau-Jerez_de_la_Frontera_Province_of_Cadiz_Andalucia.html",
+        "address_quoted": "C/ Arcos, 53, 11402 Jerez de la Frontera",
+        "open_status": "open",
+        "open_evidence_url": "https://www.yelp.com/biz/bodegas-lustau-jerez-de-la-frontera",
+        "cuisine_evidence_url": "https://www.lustau.es/en/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "pedro-domecq-solera-gran-reserva",
+      "name": "Pedro Domecq Solera Gran Reserva",
+      "address": "Calle San Ildefonso 3, 11403 Jerez de la Frontera, Spain",
+      "neighborhood": "Jerez centro",
+      "classification": "Brandy de Jerez DOP",
+      "spirits_produced": [
+        "Pedro Domecq Solera Gran Reserva 1730",
+        "Pedro Domecq Decanter Solera Gran Reserva"
+      ],
+      "description": "The Pedro Domecq brand name lives on as a premium tier within the Beam Suntory Jerez portfolio, producing a Solera Gran Reserva aged in Pedro Domecq's historic sherry butt soleras. The 1730 expression commemorates the founding year of the Domecq dynasty in Jerez.",
+      "distillation_method": "Holandas pot still distillation; Solera Gran Reserva aged minimum 12 years in historic Domecq sherry butts",
+      "visit_available": true,
+      "tasting_program": "Included in the Fundador premium tour; standalone Pedro Domecq session by arrangement",
+      "booking_url": null,
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/Attraction_Review-g187443-d2385554-Reviews-Bodegas_Domecq-Jerez_de_la_Frontera_Province_of_Cadiz_Andalucia.html",
+        "address_quoted": "C/ San Ildefonso, 3, Jerez de la Frontera",
+        "open_status": "open",
+        "open_evidence_url": "https://www.yelp.com/biz/bodegas-domecq-jerez-de-la-frontera",
+        "cuisine_evidence_url": "https://www.fundador.es/en/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "valdespino-brandy-jerez",
+      "name": "Valdespino Brandy de Jerez",
+      "address": "Calle Ponce 2, 11402 Jerez de la Frontera, Spain",
+      "neighborhood": "Jerez centro",
+      "classification": "Brandy de Jerez DOP",
+      "spirits_produced": [
+        "Valdespino Brandy Solera Reserva",
+        "Valdespino Solera Gran Reserva"
+      ],
+      "description": "Valdespino produces a Brandy de Jerez Solera Gran Reserva from the historic Jerez bodega now operated by the Jose Estevez group. The spirit is aged in Valdespino's own Amontillado and Oloroso solera butts alongside the VORS sherry programme.",
+      "distillation_method": "Holandas pot still distillation; aged in Valdespino sherry butts under solera system",
+      "visit_available": true,
+      "tasting_program": "Brandy included in the premium Valdespino tour; paired with VORS Amontillado or Oloroso on request",
+      "booking_url": null,
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/Attraction_Review-g187443-d8705694-Reviews-Bodegas_Valdespino-Jerez_de_la_Frontera_Province_of_Cadiz_Andalucia.html",
+        "address_quoted": "C/ Ponce, 2, Jerez de la Frontera",
+        "open_status": "open",
+        "open_evidence_url": "https://www.yelp.com/biz/bodegas-valdespino-jerez-de-la-frontera",
+        "cuisine_evidence_url": "https://www.valdespino.com/en/",
+        "checked_on": "2026-05-28"
+      }
+    }
+  ]
+}

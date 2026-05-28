@@ -1,0 +1,224 @@
+{
+  "budget_wines": [
+    {
+      "slug": "tio-pepe-fino-gonzalez-byass",
+      "name": "Tio Pepe Fino Muy Seco",
+      "producer": "gonzalez-byass",
+      "varietals": ["Palomino Fino"],
+      "classification": "DO Jerez-Xeres-Sherry",
+      "style": "Fino",
+      "price_band": "7-10 EUR retail",
+      "typical_price": "8 EUR at Spanish supermarket; 10-12 EUR at UK wine shop",
+      "where_to_buy": "Gonzalez Byass bodega shop, Calle Manuel Maria Gonzalez 12, Jerez de la Frontera; widely stocked at supermarkets across Spain, UK and Germany.",
+      "description": "The world's best-selling fino sherry. Dry, saline, almond-touched; aged under flor in the historic Gonzalez Byass solera in Jerez. An extraordinary value at under ten euros.",
+      "tip": "Serve in a chilled narrow copita at 7-9 degrees Celsius alongside salted almonds or jamón ibérico.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.gonzalezbyass.com/en/wine-tourism",
+        "address_quoted": "Jerez de la Frontera",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wine-searcher.com/find/tio+pepe+fino",
+        "cuisine_evidence_url": "https://www.gonzalezbyass.com/en/wine-tourism",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "la-gitana-manzanilla-hidalgo",
+      "name": "La Gitana Manzanilla",
+      "producer": "hidalgo-la-gitana",
+      "varietals": ["Palomino Fino"],
+      "classification": "DO Manzanilla-Sanlucar de Barrameda",
+      "style": "Manzanilla",
+      "price_band": "7-11 EUR retail",
+      "typical_price": "8 EUR at Spanish supermarket; 9-12 EUR at specialist wine shops",
+      "where_to_buy": "Hidalgo La Gitana bodega, Banda Playa 42, Sanlucar de Barrameda; widely distributed across Spain, UK, Germany, Benelux, US.",
+      "description": "Among the most widely distributed Manzanillas internationally. Crisp, bone-dry, ocean-salty with chamomile and green apple; aged under flor in Sanlucar de Barrameda's Atlantic humidity. Strong value.",
+      "tip": "A classic entry-point Manzanilla for introducing guests to the style; pour very cold and finish the bottle within a few days of opening.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.sherry.wine/sherry-wine/dry-sherry-wines/manzanilla",
+        "address_quoted": "Banda Playa 42, Sanlucar de Barrameda",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wine-searcher.com/find/la+gitana+manzanilla",
+        "cuisine_evidence_url": "https://www.sherry.wine/sherry-wine/dry-sherry-wines/manzanilla",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "don-nuno-oloroso-lustau",
+      "name": "Lustau Don Nuno Dry Oloroso",
+      "producer": "emilio-lustau",
+      "varietals": ["Palomino Fino"],
+      "classification": "DO Jerez-Xeres-Sherry",
+      "style": "Oloroso",
+      "price_band": "10-14 EUR retail",
+      "typical_price": "11 EUR at specialist Spanish wine shop; 13-16 EUR in UK",
+      "where_to_buy": "Lustau Bodega, Plaza del Cubo 4, Jerez de la Frontera; widely distributed across Europe and North America.",
+      "description": "Full, rich, dry oloroso from Emilio Lustau's solera. Walnut, dried fig, dark chocolate and leather aromas; medium-bodied with a long nutty finish. Outstanding value in the dry fortified category.",
+      "tip": "Pair with manchego, Iberian charcuterie, or dark chocolate; serves well slightly cool at 14-16 degrees Celsius.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.emilio-lustau.com/en/sherries/don-nuno-dry-oloroso/",
+        "address_quoted": "Plaza del Cubo 4, Jerez de la Frontera",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wine-searcher.com/find/lustau+don+nuno+oloroso",
+        "cuisine_evidence_url": "https://www.emilio-lustau.com/en/sherries/don-nuno-dry-oloroso/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "solear-manzanilla-barbadillo",
+      "name": "Barbadillo Solear Manzanilla",
+      "producer": "barbadillo",
+      "varietals": ["Palomino Fino"],
+      "classification": "DO Manzanilla-Sanlucar de Barrameda",
+      "style": "Manzanilla",
+      "price_band": "8-12 EUR retail",
+      "typical_price": "9 EUR at Spanish wine shops; 11-14 EUR in northern European markets",
+      "where_to_buy": "Barbadillo bodega shop, Calle Sevilla 1, Sanlucar de Barrameda; available at specialist wine shops across Spain, UK and Germany.",
+      "description": "The flagship Manzanilla of Bodegas Barbadillo, Sanlucar de Barrameda's largest producer. Pale gold, saline, with delicate floral notes and a clean dry finish. Consistent year-round expression of the Manzanilla style.",
+      "tip": "Ask for the Solear en Rama spring edition when available; the unfiltered version shows the style at its most expressive.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.barbadillo.com/en/vinos/solear/",
+        "address_quoted": "Calle Sevilla 1, Sanlucar de Barrameda",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wine-searcher.com/find/barbadillo+solear+manzanilla",
+        "cuisine_evidence_url": "https://www.barbadillo.com/en/vinos/solear/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "dry-sack-oloroso-williams-humbert",
+      "name": "Williams and Humbert Dry Sack Medium Oloroso",
+      "producer": "williams-humbert",
+      "varietals": ["Palomino Fino", "Pedro Ximenez"],
+      "classification": "DO Jerez-Xeres-Sherry",
+      "style": "Medium Oloroso",
+      "price_band": "9-13 EUR retail",
+      "typical_price": "10 EUR at Spanish wine shops; 12-15 EUR in UK and German markets",
+      "where_to_buy": "Williams and Humbert bodega, Carretera Nacional IV, km 641.75, Jerez de la Frontera; widely distributed across Europe.",
+      "description": "A classic semi-seco medium oloroso blend of Palomino and Pedro Ximenez, aged in the Williams and Humbert solera system. Rich, round, with dried fruit sweetness balanced by walnut bitterness and a long amber finish.",
+      "tip": "Serve slightly chilled as an aperitivo or with blue cheese and walnuts.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.williams-humbert.com/en/",
+        "address_quoted": "Carretera Nacional IV, Jerez de la Frontera",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wine-searcher.com/find/williams+humbert+dry+sack",
+        "cuisine_evidence_url": "https://www.williams-humbert.com/en/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "quinta-fino-osborne",
+      "name": "Osborne Fino Quinta",
+      "producer": "osborne",
+      "varietals": ["Palomino Fino"],
+      "classification": "DO Jerez-Xeres-Sherry",
+      "style": "Fino",
+      "price_band": "7-10 EUR retail",
+      "typical_price": "8 EUR at Spanish wine shops",
+      "where_to_buy": "Osborne bodega shop, Calle Los Moros 7, El Puerto de Santa Maria; available at Spanish supermarkets and specialist shops.",
+      "description": "Osborne's entry-level fino from El Puerto de Santa Maria, light and dry with almond, citrus zest and a saline mineral finish. Aged under flor in the Osborne solera, one of the oldest in the Triangle.",
+      "tip": "A reliable fino at a bargain price; order it in any bar in El Puerto and it will be freshly poured from an open bottle that day.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.osborne.es/en/wines/sherry/",
+        "address_quoted": "El Puerto de Santa Maria",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wine-searcher.com/find/osborne+quinta+fino",
+        "cuisine_evidence_url": "https://www.osborne.es/en/wines/sherry/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "san-leon-manzanilla-argueso",
+      "name": "Argueso San Leon Manzanilla Reserva",
+      "producer": "argueso",
+      "varietals": ["Palomino Fino"],
+      "classification": "DO Manzanilla-Sanlucar de Barrameda",
+      "style": "Manzanilla Pasada",
+      "price_band": "9-14 EUR retail",
+      "typical_price": "10 EUR at Sanlucar specialist shops; 13-16 EUR in export markets",
+      "where_to_buy": "Bodegas Argueso, Calle Mar 8, Sanlucar de Barrameda; available via specialist sherry importers in UK, Germany and the United States.",
+      "description": "A slightly aged manzanilla pasada (between standard manzanilla and amontillado in character) from the Argueso solera in Sanlucar. More oxidative and nutty than a young manzanilla while retaining flor freshness. Distinctive toasted bread, dried chamomile and sea salt profile.",
+      "tip": "San Leon Reserva is the step up from La Gitana for those who want more depth without losing Sanlucar salinity.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.argueso.es/en/wines/san-leon/",
+        "address_quoted": "Calle Mar 8, Sanlucar de Barrameda",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wine-searcher.com/find/argueso+san+leon+manzanilla",
+        "cuisine_evidence_url": "https://www.argueso.es/en/wines/san-leon/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "cardenal-cisneros-pedro-ximenez-romate",
+      "name": "Sanchez Romate Cardenal Cisneros Pedro Ximenez",
+      "producer": "sanchez-romate",
+      "varietals": ["Pedro Ximenez"],
+      "classification": "DO Jerez-Xeres-Sherry",
+      "style": "Pedro Ximenez",
+      "price_band": "9-14 EUR retail (50cl)",
+      "typical_price": "10 EUR at Jerez wine shops for the 50cl bottle",
+      "where_to_buy": "Sanchez Romate bodega, Calle Lealas 26, Jerez de la Frontera; specialist wine retailers across Spain and northern Europe.",
+      "description": "Rich, deeply concentrated Pedro Ximenez from one of Jerez's oldest independent bodegas. Jet-black colour, aromas of dried figs, raisins, coffee and dark chocolate; 400-plus grams per litre of natural sweetness. One of the best-value PX expressions in the Sherry Triangle.",
+      "tip": "Serve a small pour over good vanilla ice cream for the simplest luxury dessert in Andalucia.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.romate.com/en/sherries/",
+        "address_quoted": "Calle Lealas 26, Jerez de la Frontera",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wine-searcher.com/find/sanchez+romate+cardenal+cisneros",
+        "cuisine_evidence_url": "https://www.romate.com/en/sherries/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "aurora-manzanilla-pedro-romero",
+      "name": "Pedro Romero Aurora Manzanilla",
+      "producer": "pedro-romero",
+      "varietals": ["Palomino Fino"],
+      "classification": "DO Manzanilla-Sanlucar de Barrameda",
+      "style": "Manzanilla",
+      "price_band": "8-12 EUR retail",
+      "typical_price": "9 EUR at Sanlucar wine shops",
+      "where_to_buy": "Bodegas Pedro Romero, Calle Trasbolsa 84, Sanlucar de Barrameda; available through specialist importers in the UK and Germany.",
+      "description": "A light, delicate Manzanilla from the venerable Pedro Romero bodega in Sanlucar, producers of some of the most traditional Atlantic-influenced sherries in the appellation. Pale straw colour, fresh brine and white flower aromas, clean and dry on the palate.",
+      "tip": "One of the best values at local Sanlucar bars; ask for it by name for a more traditional Manzanilla than the mass-market brands.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.bodegaspedroromero.com/en/",
+        "address_quoted": "Calle Trasbolsa 84, Sanlucar de Barrameda",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wine-searcher.com/find/pedro+romero+aurora+manzanilla",
+        "cuisine_evidence_url": "https://www.bodegaspedroromero.com/en/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "leyenda-amontillado-williams-humbert",
+      "name": "Williams and Humbert Leyenda Amontillado",
+      "producer": "williams-humbert",
+      "varietals": ["Palomino Fino"],
+      "classification": "DO Jerez-Xeres-Sherry",
+      "style": "Amontillado",
+      "price_band": "10-14 EUR retail",
+      "typical_price": "11 EUR at Spanish wine shops; 13-17 EUR in export markets",
+      "where_to_buy": "Williams and Humbert bodega shop, Jerez de la Frontera; specialist sherry importers across Europe.",
+      "description": "A medium-aged amontillado with amber colour, hazelnuts, dried apricot and a characteristically long saline finish. The Leyenda range from Williams and Humbert represents some of the most consistent and fairly priced amontillado in the Jerez market.",
+      "tip": "Amontillado is the most food-versatile sherry style; serve slightly chilled with charcuterie, strong cheeses or roast chicken.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.williams-humbert.com/en/",
+        "address_quoted": "Carretera Nacional IV, Jerez de la Frontera",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wine-searcher.com/find/williams+humbert+leyenda+amontillado",
+        "cuisine_evidence_url": "https://www.williams-humbert.com/en/",
+        "checked_on": "2026-05-28"
+      }
+    }
+  ]
+}

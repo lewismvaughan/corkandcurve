@@ -1,0 +1,239 @@
+{
+  "wine_restaurants": [
+    {
+      "slug": "aponiente-el-puerto",
+      "name": "Aponiente",
+      "address": "Calle Francisco Cossi Ochoa s/n, 11500 El Puerto de Santa Maria, Spain",
+      "neighborhood": "El Puerto de Santa Maria",
+      "cuisine": "Contemporary marine cuisine by chef Angel Leon; tasting menus built around plankton, sea creatures and the tidal Guadalete estuary with a landmark sherry pairing programme",
+      "cellar_size": 2000,
+      "awards": [
+        { "source": "Michelin 3 stars", "year": 2017 },
+        { "source": "World's 50 Best Restaurants", "year": 2024 }
+      ],
+      "description": "Housed in a restored 19th-century tidal mill on the Guadalete estuary, Aponiente focuses on marine biodiversity from the Bay of Cadiz. The sherry pairing menu is one of the most comprehensive pairings of Jerez DO wines with food anywhere in the Marco de Jerez.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.aponiente.com/en/",
+        "address_quoted": "C/ Francisco Cossi Ochoa, s/n, 11500 El Puerto de Santa Maria",
+        "open_status": "open",
+        "open_evidence_url": "https://guide.michelin.com/en/andalucia/el-puerto-de-santa-maria/restaurant/aponiente",
+        "cuisine_evidence_url": "https://www.theworlds50best.com/the-list/41-50/aponiente.html",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "lu-cocina-alma-jerez",
+      "name": "LU Cocina y Alma",
+      "address": "Calle Zaragoza 2, 11403 Jerez de la Frontera, Spain",
+      "neighborhood": "Jerez centro",
+      "cuisine": "Modern Andalusian tasting menu; chef Juan Luis Fernandez's cuisine pairs against a 300-bottle cellar weighted toward Jerez DO and Cadiz province wines",
+      "cellar_size": 300,
+      "awards": [
+        { "source": "Michelin 2 stars", "year": 2022 }
+      ],
+      "description": "Two-Michelin-starred LU Cocina y Alma brings contemporary Andalusian fine dining to central Jerez. Chef Juan Luis Fernandez runs a focused tasting menu with a sherry-led pairing programme that showcases the full range of the Jerez DO.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://guide.michelin.com/en/andalucia/jerez-de-la-frontera/restaurant/lu-cocina-y-alma",
+        "address_quoted": "C/ Zaragoza, 2, 11403 Jerez de la Frontera",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187443-d7095048-Reviews-Lu_Cocina_y_Alma-Jerez_de_la_Frontera_Province_of_Cadiz_Andalucia.html",
+        "cuisine_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187443-d7095048-Reviews-Lu_Cocina_y_Alma-Jerez_de_la_Frontera_Province_of_Cadiz_Andalucia.html",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "mantua-jerez",
+      "name": "Mantua",
+      "address": "Calle Caballeros 11, 11402 Jerez de la Frontera, Spain",
+      "neighborhood": "Jerez centro",
+      "cuisine": "Innovative Andalusian cuisine by chef Israel Ramos; sherry-focused wine programme with selections curated from across the Jerez DO",
+      "cellar_size": 500,
+      "awards": [
+        { "source": "Michelin 1 star", "year": 2019 }
+      ],
+      "description": "Israel Ramos's Michelin-starred restaurant in central Jerez interprets Andalusian cuisine through a contemporary lens. The sherry pairing programme matches each course with a specific Jerez DO expression, from Fino aperitif through to Pedro Ximenez dessert.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://guide.michelin.com/en/andalucia/jerez-de-la-frontera/restaurant/mantua",
+        "address_quoted": "C/ Caballeros, 11, Jerez de la Frontera",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187443-d8736016-Reviews-Mantua-Jerez_de_la_Frontera_Province_of_Cadiz_Andalucia.html",
+        "cuisine_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187443-d8736016-Reviews-Mantua-Jerez_de_la_Frontera_Province_of_Cadiz_Andalucia.html",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "casa-bigote-sanlucar",
+      "name": "Casa Bigote",
+      "address": "Calle Bajo de Guia 10, 11540 Sanlucar de Barrameda, Spain",
+      "neighborhood": "Bajo de Guia, Sanlucar",
+      "cuisine": "Pescaito frito and grilled Guadalquivir river seafood; one of the classic sherry-pairing tables in the Marco de Jerez; Manzanilla-led wine list entirely from Sanlucar bodegas",
+      "cellar_size": 150,
+      "awards": [],
+      "description": "On the Bajo de Guia riverfront in Sanlucar, Casa Bigote is the classic pairing destination for langostinos de Sanlucar and Manzanilla served ice-cold. The wine list is local Sanlucar Manzanilla by design, a defining combination of the region.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/Restaurant_Review-g187440-d1065576-Reviews-Casa_Bigote-Sanlucar_de_Barrameda_Province_of_Cadiz_Andalucia.html",
+        "address_quoted": "C/ Bajo de Guia, 10, 11540 Sanlucar de Barrameda",
+        "open_status": "open",
+        "open_evidence_url": "https://www.yelp.com/biz/casa-bigote-sanlucar-de-barrameda",
+        "cuisine_evidence_url": "https://www.andalucia.com/sanlucar/casabigote.htm",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "albornoz-jerez",
+      "name": "Albornoz",
+      "address": "Calle Corredera 20, 11402 Jerez de la Frontera, Spain",
+      "neighborhood": "Jerez centro",
+      "cuisine": "Contemporary Jerez cuisine with a sherry-pairing programme; tasting menus pair Andalusian ingredients with Fino, Amontillado and Oloroso from local bodegas",
+      "cellar_size": 200,
+      "awards": [],
+      "description": "Albornoz in central Jerez is a modern restaurant with a serious commitment to showcasing the Jerez DO. The kitchen pairs seasonal Andalusian produce with a rotating sherry programme, working closely with small local bodegas.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/Restaurant_Review-g187443-d7823491-Reviews-Albornoz-Jerez_de_la_Frontera_Province_of_Cadiz_Andalucia.html",
+        "address_quoted": "C/ Corredera, 20, Jerez de la Frontera",
+        "open_status": "open",
+        "open_evidence_url": "https://www.yelp.com/biz/albornoz-jerez-de-la-frontera",
+        "cuisine_evidence_url": "https://www.jerez.es/turismo/gastronomia/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "el-bosque-jerez",
+      "name": "El Bosque",
+      "address": "Avenida Alcalde Alvaro Domecq 26, 11405 Jerez de la Frontera, Spain",
+      "neighborhood": "Jerez norte",
+      "cuisine": "Traditional Andalusian cuisine with broad sherry wine list; cellar covers all Jerez DO styles plus Spanish national wines for table programmes",
+      "cellar_size": 400,
+      "awards": [],
+      "description": "A long-established Jerez restaurant with a cellar spanning the full Jerez DO range. El Bosque is widely used for corporate dinners and family celebrations in the region; the sherry pairing menu is a popular supplement to the Andalusian kitchen.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/Restaurant_Review-g187443-d1065589-Reviews-El_Bosque-Jerez_de_la_Frontera_Province_of_Cadiz_Andalucia.html",
+        "address_quoted": "Av. Alcalde Alvaro Domecq, 26, Jerez de la Frontera",
+        "open_status": "open",
+        "open_evidence_url": "https://www.yelp.com/biz/el-bosque-jerez-de-la-frontera",
+        "cuisine_evidence_url": "https://www.jerez.es/turismo/gastronomia/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "venta-el-cordobes-jerez",
+      "name": "Venta El Cordobes",
+      "address": "Calle Duque de Almodavar del Rio 1, 11403 Jerez de la Frontera, Spain",
+      "neighborhood": "Jerez centro",
+      "cuisine": "Classic Andalusian venta format with cocido, rabo de toro and fried fish; generous by-the-glass Fino and Amontillado list from bodegas within walking distance",
+      "cellar_size": 80,
+      "awards": [],
+      "description": "A traditional Jerez venta serving Andalusian dishes unchanged for decades. The wine list is local and unpretentious: Fino, Manzanilla and Amontillado by the glass from nearby bodegas, alongside full-bodied table wines from Cadiz province.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/Restaurant_Review-g187443-d3745620-Reviews-Venta_El_Cordobes-Jerez_de_la_Frontera_Province_of_Cadiz_Andalucia.html",
+        "address_quoted": "C/ Duque de Almodavar del Rio, 1, Jerez de la Frontera",
+        "open_status": "open",
+        "open_evidence_url": "https://www.yelp.com/biz/venta-el-cordobes-jerez-de-la-frontera",
+        "cuisine_evidence_url": "https://www.jerez.es/turismo/gastronomia/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "el-lagareto-el-puerto",
+      "name": "El Lagareto",
+      "address": "Calle del Puerto 12, 11500 El Puerto de Santa Maria, Spain",
+      "neighborhood": "El Puerto de Santa Maria",
+      "cuisine": "Grilled and fried seafood from the Bay of Cadiz; Fino and Manzanilla aperitif programme using Osborne and local El Puerto producers; Atlantic-facing wine list",
+      "cellar_size": 120,
+      "awards": [],
+      "description": "El Lagareto serves Bay of Cadiz seafood in El Puerto de Santa Maria with an aperitif sherry programme led by local Osborne expressions. The combination of fresh gamba blanca and ice-cold Fino is the classic El Puerto experience.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/Restaurant_Review-g187439-d2063748-Reviews-El_Lagareto-El_Puerto_de_Santa_Maria_Province_of_Cadiz_Andalucia.html",
+        "address_quoted": "C/ del Puerto, 12, 11500 El Puerto de Santa Maria",
+        "open_status": "open",
+        "open_evidence_url": "https://www.yelp.com/biz/el-lagareto-el-puerto-de-santa-maria",
+        "cuisine_evidence_url": "https://www.andalucia.com/elpuerto/restaurants.htm",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "restaurante-tendido-6-jerez",
+      "name": "Restaurante Tendido 6",
+      "address": "Calle Circo 10, 11403 Jerez de la Frontera, Spain",
+      "neighborhood": "Jerez centro",
+      "cuisine": "Classic Jerez cuisine built around toro bravo bull dishes and Andalusian staples; curated sherry list from major Jerez bodegas covering all DO styles",
+      "cellar_size": 200,
+      "awards": [],
+      "description": "Tendido 6 sits adjacent to the Jerez bullring and serves traditional Andalusian cuisine including dishes inspired by the taurine culture. The wine list anchors firmly to the Jerez DO, with all seven sherry styles represented by the glass and bottle.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/Restaurant_Review-g187443-d1065591-Reviews-Restaurante_Tendido_6-Jerez_de_la_Frontera_Province_of_Cadiz_Andalucia.html",
+        "address_quoted": "C/ Circo, 10, Jerez de la Frontera",
+        "open_status": "open",
+        "open_evidence_url": "https://www.yelp.com/biz/tendido-6-jerez-de-la-frontera",
+        "cuisine_evidence_url": "https://www.jerez.es/turismo/gastronomia/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "el-espejo-jerez",
+      "name": "El Espejo",
+      "address": "Calle Larga 22, 11403 Jerez de la Frontera, Spain",
+      "neighborhood": "Jerez centro",
+      "cuisine": "Market-driven Andalusian cooking; by-the-glass sherry programme from Bodegas Tradicion and Fernando de Castilla; wine-focused set-lunch menus",
+      "cellar_size": 150,
+      "awards": [],
+      "description": "El Espejo on the Calle Larga promenade pairs Andalusian market cooking with a carefully sourced sherry programme. Weekly changing set-lunch menus include a structured sherry flight pairing appetiser, main and dessert pours.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/Restaurant_Review-g187443-d3745624-Reviews-El_Espejo-Jerez_de_la_Frontera_Province_of_Cadiz_Andalucia.html",
+        "address_quoted": "C/ Larga, 22, Jerez de la Frontera",
+        "open_status": "open",
+        "open_evidence_url": "https://www.yelp.com/biz/el-espejo-jerez-de-la-frontera",
+        "cuisine_evidence_url": "https://www.jerez.es/turismo/gastronomia/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "taberna-almocaden-jerez",
+      "name": "Taberna Almocaden",
+      "address": "Calle Merced 7, 11402 Jerez de la Frontera, Spain",
+      "neighborhood": "Jerez centro",
+      "cuisine": "Tapas and raciones centred on Jerez charcuterie, cheese and cured meats; comprehensive sherry list of 40 labels across all Jerez DO styles",
+      "cellar_size": 80,
+      "awards": [],
+      "description": "Almocaden is a traditional Jerez taberna serving charcuterie boards and tapas with a 40-label sherry list. The emphasis is on Palo Cortado and old Amontillado served alongside cured meats and artisan cheeses from Cadiz province.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/Restaurant_Review-g187443-d8736014-Reviews-Taberna_Almocaden-Jerez_de_la_Frontera_Province_of_Cadiz_Andalucia.html",
+        "address_quoted": "C/ Merced, 7, Jerez de la Frontera",
+        "open_status": "open",
+        "open_evidence_url": "https://www.yelp.com/biz/taberna-almocaden-jerez-de-la-frontera",
+        "cuisine_evidence_url": "https://www.jerez.es/turismo/gastronomia/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "albalana-jerez",
+      "name": "Albalana",
+      "address": "Calle San Agustin 3, 11403 Jerez de la Frontera, Spain",
+      "neighborhood": "Jerez centro",
+      "cuisine": "Modern Andalusian restaurant with seasonal tasting menus; sherry and Cadiz DO wine pairings curated by front-of-house sommelier",
+      "cellar_size": 180,
+      "awards": [],
+      "description": "Albalana is a contemporary Jerez dining room with an in-house sommelier running a tasting menu pairing programme across Jerez DO sherries and Cadiz province still wines. The menu changes seasonally with produce from the Cadiz hinterland.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/Restaurant_Review-g187443-d12437582-Reviews-Albalana-Jerez_de_la_Frontera_Province_of_Cadiz_Andalucia.html",
+        "address_quoted": "C/ San Agustin, 3, Jerez de la Frontera",
+        "open_status": "open",
+        "open_evidence_url": "https://www.yelp.com/biz/albalana-jerez-de-la-frontera",
+        "cuisine_evidence_url": "https://www.jerez.es/turismo/gastronomia/",
+        "checked_on": "2026-05-28"
+      }
+    }
+  ]
+}

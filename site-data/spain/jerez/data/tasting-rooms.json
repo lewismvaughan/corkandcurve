@@ -1,0 +1,361 @@
+{
+  "tasting_rooms": [
+    {
+      "slug": "gonzalez-byass-tio-pepe-tasting",
+      "name": "Gonzalez Byass Tio Pepe Tasting Room",
+      "address": "Calle Manuel Maria Gonzalez 12, 11403 Jerez de la Frontera, Spain",
+      "neighborhood": "Jerez centro",
+      "varietals_focus": [
+        "Palomino Fino",
+        "Pedro Ximenez",
+        "Moscatel"
+      ],
+      "pricing": "Guided tour with 3-wine tasting from EUR 18; premium Palo Cortado and VORS flight from EUR 45",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "gonzalez-byass",
+      "description": "The flagship tasting experience of Gonzalez Byass, covering the La Concha circular bodega and historic cellars. Guided flights progress from Fino Tio Pepe through Amontillado, Oloroso and the VORS aged sherries.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/Attraction_Review-g187443-d2240193-Reviews-Gonzalez_Byass_Bodegas_Tio_Pepe-Jerez_de_la_Frontera_Province_of_Cadiz_Andalucia.html",
+        "address_quoted": "C. Manuel Maria Gonzalez, 12, 11403 Jerez de la Frontera",
+        "open_status": "open",
+        "open_evidence_url": "https://www.yelp.com/biz/bodegas-tio-pepe-jerez-de-la-frontera",
+        "cuisine_evidence_url": "https://www.bodegastiopepe.com/en/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "lustau-almacenista-tasting",
+      "name": "Bodegas Lustau Tasting Room",
+      "address": "Calle Arcos 53, 11402 Jerez de la Frontera, Spain",
+      "neighborhood": "Santiago, Jerez",
+      "varietals_focus": [
+        "Palomino Fino",
+        "Pedro Ximenez",
+        "Moscatel"
+      ],
+      "pricing": "Bodega tour and tasting from EUR 20; Almacenista cellar tasting from EUR 35",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "bodegas-lustau",
+      "description": "Lustau's historic almacenista-style bodega in the Santiago quarter. The tasting room introduces the full range from Jarana Fino through the Almacenista single-cask series; the vaulted cathedral cellars form the backdrop.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/Attraction_Review-g187443-d2246399-Reviews-Bodegas_Lustau-Jerez_de_la_Frontera_Province_of_Cadiz_Andalucia.html",
+        "address_quoted": "C/ Arcos, 53, 11402 Jerez de la Frontera",
+        "open_status": "open",
+        "open_evidence_url": "https://www.yelp.com/biz/bodegas-lustau-jerez-de-la-frontera",
+        "cuisine_evidence_url": "https://www.lustau.es/en/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "bodegas-tradicion-tasting",
+      "name": "Bodegas Tradicion Tasting Room",
+      "address": "Calle Cordobeses 3, 11403 Jerez de la Frontera, Spain",
+      "neighborhood": "Jerez centro",
+      "varietals_focus": [
+        "Palomino Fino"
+      ],
+      "pricing": "Bodega tour with art collection visit and tasting from EUR 35; VORS vertical tasting from EUR 65",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "bodegas-tradicion",
+      "description": "Tradicion's cellar visit combines a tasting of old-solera VORS Fino, Amontillado, Palo Cortado and Oloroso with a walk through the private Pinacoteca art collection. A combined wine-and-art visit unusual in the Sherry triangle.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/Attraction_Review-g187443-d2348987-Reviews-Bodegas_Tradicion-Jerez_de_la_Frontera_Province_of_Cadiz_Andalucia.html",
+        "address_quoted": "C/ Cordobeses, 3, 11403 Jerez de la Frontera",
+        "open_status": "open",
+        "open_evidence_url": "https://www.yelp.com/biz/bodegas-tradicion-jerez-de-la-frontera",
+        "cuisine_evidence_url": "https://www.bodegastradicion.es/en/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "williams-humbert-tasting",
+      "name": "Williams and Humbert Tasting Room",
+      "address": "Calle Nuno de Canas 1, 11408 Jerez de la Frontera, Spain",
+      "neighborhood": "Jerez norte",
+      "varietals_focus": [
+        "Palomino Fino",
+        "Pedro Ximenez"
+      ],
+      "pricing": "Standard bodega tour with tasting from EUR 15; premium VORS and brandy flight from EUR 35",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "williams-humbert",
+      "description": "Williams and Humbert welcome visitors to their vast bodega, one of the largest in Jerez. The tasting room covers Dry Sack Medium and the Dos Cortados range, plus the Gran Duque de Alba Brandy de Jerez.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.williams-humbert.com/en/bodegas/visitas/",
+        "address_quoted": "C/ Nuno de Canas, 1, 11408 Jerez de la Frontera",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g187443-d2239932-Reviews-Williams_Humbert-Jerez_de_la_Frontera_Province_of_Cadiz_Andalucia.html",
+        "cuisine_evidence_url": "https://www.williams-humbert.com/en/vinos/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "hidalgo-la-gitana-tasting-sanlucar",
+      "name": "Hidalgo La Gitana Tasting Room",
+      "address": "Calle Banda Playa 42, 11540 Sanlucar de Barrameda, Spain",
+      "neighborhood": "Sanlucar de Barrameda centro",
+      "varietals_focus": [
+        "Palomino Fino"
+      ],
+      "pricing": "Cellar and vineyard tour with Manzanilla tasting from EUR 18; extended VORS session from EUR 40",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "hidalgo-la-gitana",
+      "description": "The Hidalgo family bodega in Sanlucar de Barrameda, home of La Gitana Manzanilla. Visitors walk through the flor-covered barrels in the albariza-floored cellar and taste the full portfolio including Napoleon Amontillado.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/Attraction_Review-g187440-d2448780-Reviews-Bodegas_Hidalgo_La_Gitana-Sanlucar_de_Barrameda_Province_of_Cadiz_Andalucia.html",
+        "address_quoted": "Sanlucar de Barrameda",
+        "open_status": "open",
+        "open_evidence_url": "https://www.yelp.com/biz/bodegas-hidalgo-la-gitana-sanlucar-de-barrameda",
+        "cuisine_evidence_url": "https://www.lagitana.es/en/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "barbadillo-tasting-sanlucar",
+      "name": "Bodegas Barbadillo Tasting Room",
+      "address": "Calle Luis de Eguilaz 11, 11540 Sanlucar de Barrameda, Spain",
+      "neighborhood": "Sanlucar de Barrameda centro",
+      "varietals_focus": [
+        "Palomino Fino",
+        "Moscatel"
+      ],
+      "pricing": "Standard tour and tasting from EUR 15; Castillo de San Diego white wine and Manzanilla tasting from EUR 25",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "bodegas-barbadillo",
+      "description": "Barbadillo, Sanlucar's largest Manzanilla producer, offers cellar tours through the Castle of Santiago complex. The tasting room covers the Solear Manzanilla, Oloroso and the Castillo de San Diego Palomino still white.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/Attraction_Review-g187440-d2246379-Reviews-Bodegas_Barbadillo-Sanlucar_de_Barrameda_Province_of_Cadiz_Andalucia.html",
+        "address_quoted": "C/ Luis de Eguilaz, 11, Sanlucar de Barrameda",
+        "open_status": "open",
+        "open_evidence_url": "https://www.yelp.com/biz/bodegas-barbadillo-sanlucar-de-barrameda",
+        "cuisine_evidence_url": "https://www.barbadillo.com/en/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "valdespino-tasting-jerez",
+      "name": "Valdespino Tasting Room",
+      "address": "Calle Ponce 2, 11402 Jerez de la Frontera, Spain",
+      "neighborhood": "Jerez centro",
+      "varietals_focus": [
+        "Palomino Fino",
+        "Pedro Ximenez"
+      ],
+      "pricing": "Tour and tasting from EUR 20; Inocente single-vineyard and Toneles VORS experience from EUR 55",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "valdespino",
+      "description": "Valdespino's historic Jerez bodega, now part of the Jose Estevez group. Tasting room sessions cover the Inocente Fino (single-vineyard, aged in old butts), Pedro Ximenez Noe and the Toneles range.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.valdespino.com/en/visit/",
+        "address_quoted": "C/ Ponce, 2, 11402 Jerez de la Frontera",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g187443-d8705694-Reviews-Bodegas_Valdespino-Jerez_de_la_Frontera_Province_of_Cadiz_Andalucia.html",
+        "cuisine_evidence_url": "https://www.valdespino.com/en/wines/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "fernando-de-castilla-tasting",
+      "name": "Bodegas Fernando de Castilla Tasting Room",
+      "address": "Calle Jardinillo 7, 11404 Jerez de la Frontera, Spain",
+      "neighborhood": "Jerez centro",
+      "varietals_focus": [
+        "Palomino Fino",
+        "Pedro Ximenez"
+      ],
+      "pricing": "Classic tour and tasting from EUR 18; Antique VORS vertical from EUR 50",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "fernando-de-castilla",
+      "description": "Fernando de Castilla's boutique bodega in central Jerez, known for the Antique range of single-solera VORS expressions. The tasting room introduces Classic Fino alongside Antique Fino, Amontillado, Palo Cortado and Oloroso.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/Attraction_Review-g187443-d2393474-Reviews-Bodegas_Fernando_de_Castilla-Jerez_de_la_Frontera_Province_of_Cadiz_Andalucia.html",
+        "address_quoted": "Jerez de la Frontera",
+        "open_status": "open",
+        "open_evidence_url": "https://www.yelp.com/biz/bodegas-fernando-de-castilla-jerez-de-la-frontera",
+        "cuisine_evidence_url": "https://www.fernandodecastilla.com/en/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "sandeman-tasting-jerez",
+      "name": "Bodegas Sandeman Tasting Room",
+      "address": "Calle Pizarro 10, 11403 Jerez de la Frontera, Spain",
+      "neighborhood": "Jerez centro",
+      "varietals_focus": [
+        "Palomino Fino",
+        "Pedro Ximenez"
+      ],
+      "pricing": "Bodega visit with Fino and Amontillado tasting from EUR 15; Don collection tasting from EUR 30",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "sandeman-jerez",
+      "description": "Sandeman's Jerez bodega, part of the Sogrape group, offers guided visits through the historic cellar and the production of its Armada Cream and Don Fino ranges. The iconic Don silhouette features throughout the visit.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/Attraction_Review-g187443-d2385553-Reviews-Bodegas_Sandeman-Jerez_de_la_Frontera_Province_of_Cadiz_Andalucia.html",
+        "address_quoted": "C/ Pizarro, 10, Jerez de la Frontera",
+        "open_status": "open",
+        "open_evidence_url": "https://www.yelp.com/biz/bodegas-sandeman-jerez-de-la-frontera",
+        "cuisine_evidence_url": "https://www.sandeman.com/en/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "maestro-sierra-tasting",
+      "name": "Maestro Sierra Tasting Room",
+      "address": "Calle Ponce 1, 11402 Jerez de la Frontera, Spain",
+      "neighborhood": "Jerez centro",
+      "varietals_focus": [
+        "Palomino Fino"
+      ],
+      "pricing": "Private tasting sessions by appointment from EUR 40 per person; single-cask Oloroso experiences on request",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "maestro-sierra",
+      "description": "One of Jerez's smallest and most traditional bodegas, Maestro Sierra releases all-Oloroso wines from old soleras founded in 1830. Private tasting sessions showcase the rare single-cask bottlings and aged VORS Oloroso.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.maestrosierra.com/en/",
+        "address_quoted": "Jerez de la Frontera",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g187443-d6826213-Reviews-Bodegas_Maestro_Sierra-Jerez_de_la_Frontera_Province_of_Cadiz_Andalucia.html",
+        "cuisine_evidence_url": "https://www.maestrosierra.com/en/wines/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "sanchez-romate-tasting",
+      "name": "Sanchez Romate Tasting Room",
+      "address": "Calle Lealas 26, 11403 Jerez de la Frontera, Spain",
+      "neighborhood": "Jerez centro",
+      "varietals_focus": [
+        "Palomino Fino",
+        "Pedro Ximenez"
+      ],
+      "pricing": "Bodega tour with sherry and brandy tasting from EUR 20; Cardenal Mendoza and NPU aged programme from EUR 45",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "sanchez-romate",
+      "description": "Sanchez Romate's 1781-founded bodega is home to the Cardenal Mendoza Brandy de Jerez and NPU Amontillado. Tasting sessions cover the full sherry range plus the Cardenal Mendoza Solera Gran Reserva brandy.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/Attraction_Review-g187443-d2385552-Reviews-Bodegas_Romate-Jerez_de_la_Frontera_Province_of_Cadiz_Andalucia.html",
+        "address_quoted": "C/ Lealas, 26, Jerez de la Frontera",
+        "open_status": "open",
+        "open_evidence_url": "https://www.yelp.com/biz/bodegas-romate-jerez-de-la-frontera",
+        "cuisine_evidence_url": "https://www.romate.com/en/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "domecq-fundador-tasting",
+      "name": "Fundador Bodega Tasting Room",
+      "address": "Calle San Ildefonso 3, 11403 Jerez de la Frontera, Spain",
+      "neighborhood": "Jerez centro",
+      "varietals_focus": [
+        "Palomino Fino",
+        "Pedro Ximenez"
+      ],
+      "pricing": "Guided tour with Fino and brandy tasting from EUR 16; Carlos I and Centenario brandy tasting add-on from EUR 25",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "fundador-domecq",
+      "description": "The historic Domecq cellars, now operating under the Fundador brand and Beam Suntory, represent one of Jerez's oldest bodega complexes. Visits cover the Fino La Ina and the Fundador and Carlos I Brandy de Jerez lines.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/Attraction_Review-g187443-d2385554-Reviews-Bodegas_Domecq-Jerez_de_la_Frontera_Province_of_Cadiz_Andalucia.html",
+        "address_quoted": "C/ San Ildefonso, 3, Jerez de la Frontera",
+        "open_status": "open",
+        "open_evidence_url": "https://www.yelp.com/biz/bodegas-domecq-jerez-de-la-frontera",
+        "cuisine_evidence_url": "https://www.fundador.es/en/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "osborne-tasting-el-puerto",
+      "name": "Osborne Bodega Tasting Room",
+      "address": "Calle Los Moros 7, 11500 El Puerto de Santa Maria, Spain",
+      "neighborhood": "El Puerto de Santa Maria",
+      "varietals_focus": [
+        "Palomino Fino",
+        "Pedro Ximenez"
+      ],
+      "pricing": "Guided tour with sherry tasting from EUR 18; Osborne VORS and Veterano brandy session from EUR 40",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "osborne-el-puerto",
+      "description": "Osborne's flagship El Puerto bodega offers guided tours through vast cathedral cellars. The tasting room covers Fino Quinta, Amontillado, Oloroso and the iconic Veterano and Magno Brandy de Jerez range.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.osborne.es/en/bodegas/visitas/",
+        "address_quoted": "C/ Los Moros, 7, 11500 El Puerto de Santa Maria",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g187439-d2240191-Reviews-Bodegas_Osborne-El_Puerto_de_Santa_Maria_Province_of_Cadiz_Andalucia.html",
+        "cuisine_evidence_url": "https://www.osborne.es/en/vinos/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "real-tesoro-tasting-jerez",
+      "name": "Bodegas Real Tesoro Tasting Room",
+      "address": "Calle Divina Pastora 1, 11402 Jerez de la Frontera, Spain",
+      "neighborhood": "Jerez centro",
+      "varietals_focus": [
+        "Palomino Fino"
+      ],
+      "pricing": "Bodega tour and tasting from EUR 15",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "real-tesoro",
+      "description": "Bodegas Real Tesoro in central Jerez presents the Marques del Real Tesoro sherry range including Fino Inocente and VORS aged expressions. Part of the Jose Estevez group alongside Valdespino.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/Attraction_Review-g187443-d2393472-Reviews-Bodegas_Real_Tesoro-Jerez_de_la_Frontera_Province_of_Cadiz_Andalucia.html",
+        "address_quoted": "Jerez de la Frontera",
+        "open_status": "open",
+        "open_evidence_url": "https://www.yelp.com/biz/bodegas-real-tesoro-jerez-de-la-frontera",
+        "cuisine_evidence_url": "https://www.valdespino.com/en/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "la-guita-tasting-sanlucar",
+      "name": "La Guita Manzanilla Tasting",
+      "address": "Calle Misericordia 37, 11540 Sanlucar de Barrameda, Spain",
+      "neighborhood": "Sanlucar de Barrameda centro",
+      "varietals_focus": [
+        "Palomino Fino"
+      ],
+      "pricing": "Tasting and cellar visit from EUR 15",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "hijos-de-rainera-perez-marin",
+      "description": "The bodega of Hijos de Rainera Perez Marin, producers of La Guita Manzanilla in Sanlucar. The cellar visit explores the En Rama and standard expressions of this Manzanilla, with Sanlucar albariza geology on show.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/Attraction_Review-g187440-d8762400-Reviews-Bodega_La_Guita-Sanlucar_de_Barrameda_Province_of_Cadiz_Andalucia.html",
+        "address_quoted": "Sanlucar de Barrameda",
+        "open_status": "open",
+        "open_evidence_url": "https://www.yelp.com/biz/bodegas-la-guita-sanlucar-de-barrameda",
+        "cuisine_evidence_url": "https://www.laguita.com/en/",
+        "checked_on": "2026-05-28"
+      }
+    }
+  ]
+}
