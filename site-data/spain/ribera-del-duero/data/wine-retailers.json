@@ -1,0 +1,195 @@
+{
+  "wine_retailers": [
+    {
+      "slug": "vinosribera-gourmet-centre",
+      "name": "VinosRibera.com Gourmet and Tasting Centre",
+      "address": "Ctra. N-1 Km. 153.5, 09471 Fuentespina, Burgos, Spain",
+      "neighborhood": "Fuentespina",
+      "description": "Self-described largest representative centre of DO Ribera del Duero wines and gastronomic products. Over 100 wineries from the denomination represented; climate-controlled cellar; tasting area; gourmet food products.",
+      "specialist_focus": "DO Ribera del Duero multi-producer; also Rueda, Cigales and Castilla y Leon DOs",
+      "price_range": "EUR 6-500+",
+      "online_ordering": true,
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.vinosribera.com/en/stores",
+        "address_quoted": "Ctra. N-1, km. 153,5 (Exit 152-153 A-1), 09471 Fuentespina - Burgos, Spain",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vinosribera.com/en/content/wine-store-ribera-del-duero",
+        "cuisine_evidence_url": "https://www.vinosribera.com/en/content/about-us",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "enoteca-agropal-penafiel",
+      "name": "Enoteca Agropal",
+      "address": "Carretera Pesquera 34, 47300 Penafiel, Valladolid, Spain",
+      "neighborhood": "Penafiel",
+      "description": "Wine retail shop in a renovated 1953 grain silo on the Pesquera road in Penafiel. DO Ribera del Duero and other Castilla y Leon designations; adjacent gourmet supermarket with Iberian products, cheeses and regional specialities.",
+      "specialist_focus": "DO Ribera del Duero and Castilla y Leon; gourmet regional products",
+      "price_range": "EUR 5-150",
+      "online_ordering": false,
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://rutadelvinoriberadelduero.es/en/directories/agropal-wine-cellar/",
+        "address_quoted": "Carretera Pesquera, 34, 47300 Penafiel, Valladolid",
+        "open_status": "open",
+        "open_evidence_url": "https://equalitasvitae.com/turismo-accesible/vinoteca-agropal/",
+        "cuisine_evidence_url": "https://www.turismoribera.com/enotecas/agropal-penafiel",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "vinoteca-zaguan-penafiel",
+      "name": "Vinoteca y Artesania Zaguan",
+      "address": "Plaza Espana s/n, 47300 Penafiel, Valladolid, Spain",
+      "neighborhood": "Penafiel",
+      "description": "Wine shop near the Plaza del Coso in central Penafiel. Over 450 references from DO Ribera del Duero, Rueda, Cigales, Toro and Tierra de Castilla y Leon; wine accessories and traditional regional food products.",
+      "specialist_focus": "DO Ribera del Duero and Castilla y Leon multi-appellation",
+      "price_range": "EUR 5-200",
+      "online_ordering": false,
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://rutadelvinoriberadelduero.es/en/directories/handicrafts-wine-bar-zaguan/",
+        "address_quoted": "Plaza Espana s/n, 47300 Penafiel, Valladolid",
+        "open_status": "open",
+        "open_evidence_url": "https://turismopenafiel.es/enoteca.php?id=1",
+        "cuisine_evidence_url": "https://www.winetravelguides.com/spain/ribera-del-duero",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "bodega-historica-don-carlos-shop",
+      "name": "Bodega Historica Don Carlos Wine Shop",
+      "address": "C/ Isilla s/n, 09400 Aranda de Duero, Burgos, Spain",
+      "neighborhood": "Aranda de Duero historic centre",
+      "description": "Wine retail attached to the Bodega Historica Don Carlos underground cellar tour venue in the centre of Aranda de Duero. Wide variety of small-producer Ribera del Duero wines available to purchase; accessible retail after the underground cave tour.",
+      "specialist_focus": "Small-producer DO Ribera del Duero; artisan producers from across the zone",
+      "price_range": "EUR 8-80",
+      "online_ordering": false,
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://rutadelvinoriberadelduero.es/en/underground-cellar-districts-to-visit-in-ribera-del-duero-i/",
+        "address_quoted": "C. Isilla, Aranda de Duero, Burgos",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/AttractionProductReview-g1058614-d13429727-Ribera_del_Duero_Underground_Cellar_Wine_Tasting_Experience-Aranda_de_Duero_Provi.html",
+        "cuisine_evidence_url": "https://www.civitatis.com/en/aranda-de-duero/underground-wine-cellar-tour/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "bodegas-felix-callejo-shop",
+      "name": "Bodegas Felix Callejo Estate Shop",
+      "address": "Avenida del Cid Km. 16, 09441 Sotillo de la Ribera, Burgos, Spain",
+      "neighborhood": "Sotillo de la Ribera",
+      "description": "Cellar-door retail at Bodegas Felix Callejo in Sotillo de la Ribera. Full range of Callejo estate wines including Flores de Callejo, Callejo Crianza, Reserva and the single-parcel Majuelos de Callejo; also available for online order.",
+      "specialist_focus": "Callejo estate wines; old-vine single-parcel Tempranillo",
+      "price_range": "EUR 12-80",
+      "online_ordering": true,
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.bodegasfelixcallejo.com/en/contact/",
+        "address_quoted": "Avenida del Cid, Km. 16, 09441 Sotillo de la Ribera, Burgos, Espana",
+        "open_status": "open",
+        "open_evidence_url": "https://rutadelvinoriberadelduero.es/en/directories/bodegas-felix-callejo/",
+        "cuisine_evidence_url": "https://www.turismocastillayleon.com/en/enotourism-gastronomy/visitable-wineries/bodegas-felix-callejo",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "bodegas-emilio-moro-shop",
+      "name": "Bodegas Emilio Moro Estate Shop",
+      "address": "Ctra. Penafiel-Vitoria s/n, 47315 Pesquera de Duero, Valladolid, Spain",
+      "neighborhood": "Pesquera de Duero",
+      "cuisine_evidence_url": "https://www.emiliomoro.com/en/nuestros-vinos/la-revelia/",
+      "description": "Cellar-door retail at Bodegas Emilio Moro on the Golden Mile. Full estate range from La Revelia joven to La Felisa single-vineyard; available to purchase after winery visits or directly at the estate shop.",
+      "specialist_focus": "Emilio Moro estate wines; single-vineyard Tempranillo from the Golden Mile",
+      "price_range": "EUR 12-100",
+      "online_ordering": true,
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.emiliomoro.com/en/visitas-y-catas-ribera-del-duero/",
+        "address_quoted": "Ctra. Penafiel-Vitoria, S/N, 47315 Pesquera de Duero, Valladolid",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g2571837-d4051145-Reviews-Bodegas_Emilio_Moro-Pesquera_de_Duero_Province_of_Valladolid_Castile_and_Leon.html",
+        "cuisine_evidence_url": "https://www.emiliomoro.com/en/nuestros-vinos/la-revelia/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "bodegas-protos-shop",
+      "name": "Bodegas Protos Gourmet Shop",
+      "address": "C/ Bodegas Protos 24-28, 47300 Penafiel, Valladolid, Spain",
+      "neighborhood": "Penafiel",
+      "description": "Estate shop in the Agora of the Richard Rogers-designed Bodegas Protos complex in Penafiel. Full Protos range including limited releases; wine accessories, local food products and the Protos cookbook.",
+      "specialist_focus": "Bodegas Protos estate wines; DO Ribera del Duero accessories and gifts",
+      "price_range": "EUR 8-120",
+      "online_ordering": true,
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.bodegasprotos.com/es/",
+        "address_quoted": "C/ Bodegas Protos, 24-28, 47300 Penafiel (Valladolid)",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g1026109-d578116-Reviews-Bodegas_Protos-Penafiel_Province_of_Valladolid_Castile_and_Leon.html",
+        "cuisine_evidence_url": "https://rutadelvinoriberadelduero.es/en/directories/protos-winery/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "bodegas-portia-shop",
+      "name": "Bodegas Portia Gourmet Shop",
+      "address": "Antigua Carretera Nacional 1 Km. 170, 09370 Gumiel de Izan, Burgos, Spain",
+      "neighborhood": "Gumiel de Izan",
+      "description": "Gourmet shop within the Norman Foster Bodegas Portia complex in Gumiel de Izan. Full Portia range including Triennia, Summa, Crianza and Roble; wine accessories and Ribera del Duero artisan products.",
+      "specialist_focus": "Portia estate wines; Ribera del Duero artisan products",
+      "price_range": "EUR 9-60",
+      "online_ordering": true,
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.bodegasportia.com/",
+        "address_quoted": "Antigua Carretera Nacional 1 Km. 170, 09370 Gumiel de Izan, Burgos, Spain",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g2559485-d2322483-Reviews-Bodegas_Portia-Gumiel_de_Hizan_Province_of_Burgos_Castile_and_Leon.html",
+        "cuisine_evidence_url": "https://www.riberadelduero.es/en/node/622",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "consejo-regulador-tienda-roa",
+      "name": "Consejo Regulador Ribera del Duero Tienda",
+      "address": "C/ Hospital 6, 09300 Roa de Duero, Burgos, Spain",
+      "neighborhood": "Roa de Duero",
+      "description": "The regulatory council of DO Ribera del Duero in Roa de Duero, located in the 16th-century Hospital de San Juan Bautista building. The council office maintains an information and promotional retail point for the denomination; direct source for DO registry information.",
+      "specialist_focus": "DO Ribera del Duero information and select promotional bottles; regulatory reference for the designation",
+      "price_range": "EUR 10-80",
+      "online_ordering": false,
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.riberadelduero.es/en/node/2518",
+        "address_quoted": "C/ Hospital, 6 - 09300 Roa de Duero (Burgos)",
+        "open_status": "open",
+        "open_evidence_url": "https://rutadelvinoriberadelduero.es/en/directories/roa-de-duero/",
+        "cuisine_evidence_url": "https://www.riberadelduero.es/en",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "bodegas-arzuaga-shop",
+      "name": "Bodegas Arzuaga Navarro Estate Shop",
+      "address": "Carretera N-122 Km 325, 47350 Quintanilla de Onesimo, Valladolid, Spain",
+      "neighborhood": "Golden Mile",
+      "description": "Estate retail shop at Hotel and Spa Arzuaga on the Golden Mile. Full Arzuaga portfolio from young Roble to aged Gran Reserva and single-vineyard Finca La Planta; wine and food gifts from the estate.",
+      "specialist_focus": "Arzuaga estate wines; Ribera del Duero and La Mancha estate bottles",
+      "price_range": "EUR 10-150",
+      "online_ordering": true,
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://rutadelvinoriberadelduero.es/en/directories/arzuaga-navarro-winery/",
+        "address_quoted": "Carretera N-122, 325, 47350 Quintanilla de Onesimo, Valladolid",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g1072462-d2663333-Reviews-Bodegas_Arzuaga_Navarro-Quintanilla_de_Onesimo_Province_of_Valladolid_Castile_and_Leon.html",
+        "cuisine_evidence_url": "https://www.turismocastillayleon.com/en/enotourism-gastronomy/visitable-wineries/bodegas-arzuaga-navarro",
+        "checked_on": "2026-05-28"
+      }
+    }
+  ]
+}

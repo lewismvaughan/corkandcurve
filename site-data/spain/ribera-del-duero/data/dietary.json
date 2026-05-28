@@ -1,0 +1,250 @@
+{
+  "dietary": {
+    "biodynamic": [
+      {
+        "slug": "finca-torremilanos-biodynamic",
+        "name": "Finca Torremilanos",
+        "address": "Finca Torremilanos, 09400 Aranda de Duero, Burgos",
+        "neighborhood": "Aranda de Duero, Burgos",
+        "description": "Founded in 1903, Finca Torremilanos is Ribera del Duero's most prominent Demeter-certified biodynamic estate. The 200-hectare property has held full Demeter certification for biodynamic agriculture since 2014, making it one of the first and largest certified biodynamic vineyards in Castile. The estate produces Tinto Fino-based reds across its Cyclo and Montecastrillo ranges, and in 2026 debuted its first certified natural wines at the Salon Gourmets. Biodynamic practice here encompasses homeopathic preparations, lunar planting calendars, livestock integration, and herb-based compost.",
+        "editorial_score": 4.5,
+        "varietals": [
+          "Tinto Fino"
+        ],
+        "classification": "DO Ribera del Duero",
+        "biodynamic_status": "demeter_certified",
+        "organic_status": "organic_certified",
+        "natural_wine": true,
+        "verified": {
+          "source_url": "https://www.torremilanos.com/en/biodynamic-vineyard-in-ribera-del-duero/",
+          "address_quoted": "Finca Torremilanos, Aranda de Duero",
+          "open_status": "open",
+          "open_evidence_url": "https://www.gourmets.net/salon-gourmets/2026/exhibitors-catalogue/finca-torremilanos/natural-wine-certified-organic-and-biodynamic",
+          "cuisine_evidence_url": "https://www.skurnik.com/sku/ribera-del-duero-cyclo-finca-torremilanos-3-2-2-2-2/",
+          "checked_on": "2026-05-28"
+        }
+      }
+    ],
+    "organic": [
+      {
+        "slug": "dominio-del-aguila-organic",
+        "name": "Dominio del Aguila",
+        "address": "La Aguilera, 09315 La Aguilera, Burgos",
+        "neighborhood": "La Aguilera, Burgos",
+        "description": "Founded in 2010 by Jorge Monzon and Isabel Rodero, Dominio del Aguila farms 66 hectares of old-vine Tinto Fino under certified organic status, verified by the Consejo Ecologico de Castilla y Leon (the regional organic certification authority). Winemaking is low-intervention: natural yeast fermentations, whole-cluster co-fermentations, foot treading, and ageing in restored 15th-century cellars. The Picaro del Aguila and Reserva are the estate's signature bottlings. Organic certification confirmed on the producer's own site and importers' pages.",
+        "editorial_score": 4.7,
+        "varietals": [
+          "Tinto Fino",
+          "Albillo Mayor"
+        ],
+        "classification": "DO Ribera del Duero",
+        "biodynamic_status": "none",
+        "organic_status": "organic_certified",
+        "natural_wine": false,
+        "verified": {
+          "source_url": "https://www.europeancellars.com/producer/dominio-del-aguila/",
+          "address_quoted": null,
+          "open_status": "seasonal",
+          "open_evidence_url": "https://www.virginwines.co.uk/wine/Z43402103578/Dominio-del-Aguila-Picaro-del-Aguila-Ribera-del-Duero-Tinto-Organic",
+          "cuisine_evidence_url": "https://www.decantalo.com/us/en/dominio-del-aguila-reserva.html",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "bodegas-la-horra-organic",
+        "name": "Bodegas La Horra (Corimbo)",
+        "address": "La Horra, 09311 La Horra, Burgos",
+        "neighborhood": "La Horra, Burgos",
+        "description": "Bodegas La Horra - the Ribera del Duero project of Rioja house Roda - farms certified organic Tinto Fino vineyards in La Horra and Roa de Duero (Burgos). Bush vines averaging 25-30 years old on limestone and chalk soils are hand-harvested into 16 kg crates. The Corimbo and Corimbo I wines carry certified organic status. The estate also holds the Spanish Wine Federation's Sustainable Wineries for Climate Protection certification. Organic viticulture is confirmed on the producer's own website.",
+        "editorial_score": 4.6,
+        "varietals": [
+          "Tinto Fino"
+        ],
+        "classification": "DO Ribera del Duero",
+        "biodynamic_status": "none",
+        "organic_status": "organic_certified",
+        "natural_wine": false,
+        "verified": {
+          "source_url": "https://bodegaslahorra.es/en/winery/about-corimbo",
+          "address_quoted": "La Horra, Burgos",
+          "open_status": "seasonal",
+          "open_evidence_url": "https://bodegaslahorra.es/en/",
+          "cuisine_evidence_url": "https://bodegaslahorra.es/en/wines/corimbo",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "bodegas-protos-organic-parcelas",
+        "name": "Bodegas Protos (Organic Range)",
+        "address": "Calle Bodegas Protos 24-28, 47300 Peñafiel, Valladolid",
+        "neighborhood": "Peñafiel, Valladolid",
+        "description": "Bodegas Protos produces an organically farmed range of wines from specific parcelas under its standard estate. The '9 Meses Ecologico' and 'Tinto Fino' labels carry an Ecologico designation, indicating organically farmed fruit. Protos is one of the few large-scale Ribera del Duero producers with a dedicated organic-farmed range, making this style broadly accessible at EUR 14-18 retail. The certifying body is not named on the producer website or importer pages; this entry reflects organically farmed status without confirmed third-party certification name.",
+        "editorial_score": 4.2,
+        "varietals": [
+          "Tinto Fino"
+        ],
+        "classification": "DO Ribera del Duero",
+        "biodynamic_status": "none",
+        "organic_status": "organic_practicing",
+        "natural_wine": false,
+        "verified": {
+          "source_url": "https://www.bodegasprotos.com/en/wines/",
+          "address_quoted": "Calle Bodegas Protos 24-28, 47300 Peñafiel, Valladolid",
+          "open_status": "open",
+          "open_evidence_url": "https://www.vino-vi.com/en/red-wine/3304-protos-9-meses-ecologico-2022.html",
+          "cuisine_evidence_url": "https://www.bodegasprotos.com/en/ribera-del-duero-vineyards/",
+          "checked_on": "2026-05-28"
+        }
+      }
+    ],
+    "natural": [
+      {
+        "slug": "goyo-garcia-viadero-natural",
+        "name": "Goyo Garcia Viadero",
+        "address": "Ribera del Duero, Valladolid province",
+        "neighborhood": "Valladolid sub-zone",
+        "description": "Goyo Garcia Viadero has made natural wine in Ribera del Duero since 2003 on 40 organically farmed hectares (10 ha under his own label). Inspired by Pierre Overnoy of the Jura, all of his wines are fermented exclusively with wild (spontaneous) yeast, de-stemmed, aged only in old barrels, unfined, unfiltered, and made with zero added sulfites. The Clarete, Joven de Vinas Viejas, and single-parcel Finca bottlings are exported by Vine Trail (UK) and Chambers Street Wines (US) to the natural-wine trade.",
+        "editorial_score": 4.7,
+        "varietals": [
+          "Tinto Fino",
+          "Albillo Mayor"
+        ],
+        "classification": "DO Ribera del Duero",
+        "biodynamic_status": "none",
+        "organic_status": "organic_certified",
+        "natural_wine": true,
+        "verified": {
+          "source_url": "https://www.vinetrail.co.uk/growers/goyo-garcia-viadero",
+          "address_quoted": null,
+          "open_status": "seasonal",
+          "open_evidence_url": "https://www.vinetrail.co.uk/growers/goyo-garcia-viadero/goyo-garcia-viadero-ribera-del-duero-finca-los-quemados",
+          "cuisine_evidence_url": "https://chambersstwines.com/blogs/articles/the-wines-of-goyo-garcia-viadero",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "finca-torremilanos-natural",
+        "name": "Finca Torremilanos (Natural Wine Range)",
+        "address": "Finca Torremilanos, 09400 Aranda de Duero, Burgos",
+        "neighborhood": "Aranda de Duero",
+        "description": "As of 2026, Finca Torremilanos (Demeter-certified biodynamic) debuted its first certified natural wines at the Salon Gourmets, extending its low-intervention philosophy from organic and biodynamic viticulture to minimal-sulfite, unfined, unfiltered winemaking. The natural range sits alongside the existing Cyclo and Montecastrillo labels. One of only a handful of producers in Ribera del Duero where biodynamic and natural certifications coexist.",
+        "editorial_score": 4.4,
+        "varietals": [
+          "Tinto Fino"
+        ],
+        "classification": "DO Ribera del Duero",
+        "biodynamic_status": "demeter_certified",
+        "organic_status": "organic_certified",
+        "natural_wine": true,
+        "verified": {
+          "source_url": "https://www.torremilanos.com/en/torremilanos-wines/",
+          "address_quoted": "Finca Torremilanos, Aranda de Duero",
+          "open_status": "open",
+          "open_evidence_url": "https://www.gourmets.net/salon-gourmets/2026/exhibitors-catalogue/finca-torremilanos/natural-wine-certified-organic-and-biodynamic",
+          "cuisine_evidence_url": "https://www.gourmets.net/salon-gourmets/2026/exhibitors-catalogue/finca-torremilanos/natural-wine-certified-organic-and-biodynamic",
+          "checked_on": "2026-05-28"
+        }
+      }
+    ],
+    "vegan_winemaking": [
+      {
+        "slug": "goyo-garcia-viadero-vegan",
+        "name": "Goyo Garcia Viadero (Vegan Winemaking)",
+        "address": "Ribera del Duero, Valladolid province",
+        "neighborhood": "Valladolid sub-zone",
+        "description": "Goyo Garcia Viadero's no-additive winemaking philosophy explicitly excludes animal-derived fining agents. All wines are unfined (no egg white, casein, isinglass, or other animal-derived fining) and unfiltered. The Vine Trail (UK importer) confirms no additions during elevage. His Clarete and Joven de Vinas Viejas are among the most easily sourced vegan-friendly Ribera del Duero bottles outside Spain.",
+        "editorial_score": 4.7,
+        "varietals": [
+          "Tinto Fino"
+        ],
+        "classification": "DO Ribera del Duero",
+        "biodynamic_status": "none",
+        "organic_status": "organic_certified",
+        "natural_wine": true,
+        "vegan": true,
+        "verified": {
+          "source_url": "https://www.vinetrail.co.uk/growers/goyo-garcia-viadero",
+          "address_quoted": null,
+          "open_status": "seasonal",
+          "open_evidence_url": "https://www.vinetrail.co.uk/growers/goyo-garcia-viadero/goyo-garcia-viadero-ribera-del-duero-finca-los-quemados",
+          "cuisine_evidence_url": "https://www.goldenagewine.com/products/2019-goyo-garcia-viadero-joven-de-vinas-viejas-ribera-del-duero",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "dominio-del-aguila-vegan",
+        "name": "Dominio del Aguila (Vegan Winemaking)",
+        "address": "La Aguilera, 09315 La Aguilera, Burgos",
+        "neighborhood": "La Aguilera, Burgos",
+        "description": "Dominio del Aguila's certified-organic winemaking protocol is documented by UK importer Virgin Wines and US importer European Cellars as vegan-friendly: no animal-derived fining agents are used. Foot-treading (pigeage) replaces mechanical punch-down, and no fining is performed before bottling. Their wines are sold with organic labelling in the UK retail market. Vegan status is attributable to the organic-certified, minimal-intervention winemaking process.",
+        "editorial_score": 4.7,
+        "varietals": [
+          "Tinto Fino",
+          "Albillo Mayor"
+        ],
+        "classification": "DO Ribera del Duero",
+        "biodynamic_status": "none",
+        "organic_status": "organic_certified",
+        "natural_wine": false,
+        "vegan": true,
+        "verified": {
+          "source_url": "https://www.europeancellars.com/producer/dominio-del-aguila/",
+          "address_quoted": null,
+          "open_status": "seasonal",
+          "open_evidence_url": "https://www.virginwines.co.uk/wine/Z43402103578/Dominio-del-Aguila-Picaro-del-Aguila-Ribera-del-Duero-Tinto-Organic",
+          "cuisine_evidence_url": "https://www.bbr.com/products-20158204871-2015-penas-aladas-gran-reserva-dominio-del-aguila-ribera-del-duero-spain",
+          "checked_on": "2026-05-28"
+        }
+      }
+    ],
+    "lowsulfite": [
+      {
+        "slug": "goyo-garcia-viadero-lowsulfite",
+        "name": "Goyo Garcia Viadero (Zero Added Sulfite)",
+        "address": "Ribera del Duero, Valladolid province",
+        "neighborhood": "Valladolid sub-zone",
+        "description": "Goyo Garcia Viadero is documented by importers and the Vine Trail (UK) as producing wines with zero added sulfites ('sin azufre anadido') across all bottlings. No SO2 is added at any stage - including during elevage or bottling. Wines rely on phenolic structure, low pH, and minimal oxygen contact during transfer for stability. This is one of the most rigorous low-sulfite regimes in Ribera del Duero, and has been confirmed by multiple independent importer statements.",
+        "editorial_score": 4.7,
+        "varietals": [
+          "Tinto Fino",
+          "Albillo Mayor"
+        ],
+        "classification": "DO Ribera del Duero",
+        "biodynamic_status": "none",
+        "organic_status": "organic_certified",
+        "natural_wine": true,
+        "verified": {
+          "source_url": "https://www.vinetrail.co.uk/growers/goyo-garcia-viadero",
+          "address_quoted": null,
+          "open_status": "seasonal",
+          "open_evidence_url": "https://chambersstwines.com/blogs/articles/the-wines-of-goyo-garcia-viadero",
+          "cuisine_evidence_url": "https://chambersstwines.com/blogs/articles/the-wines-of-goyo-garcia-viadero",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "finca-torremilanos-lowsulfite",
+        "name": "Finca Torremilanos (Low-Sulfite Natural Range)",
+        "address": "Finca Torremilanos, 09400 Aranda de Duero, Burgos",
+        "neighborhood": "Aranda de Duero",
+        "description": "Finca Torremilanos's natural wine range, debuted at the 2026 Salon Gourmets and produced alongside the Demeter-certified biodynamic portfolio, is made with minimal or no added sulfites, consistent with its natural wine certification status. The estate's Demeter biodynamic certification restricts synthetic inputs throughout viticulture; the natural wine extension applies this logic to the cellar. The specific sulfite addition levels for the natural range are documented in the producer's Gourmets catalogue entry and the estate website.",
+        "editorial_score": 4.4,
+        "varietals": [
+          "Tinto Fino"
+        ],
+        "classification": "DO Ribera del Duero",
+        "biodynamic_status": "demeter_certified",
+        "organic_status": "organic_certified",
+        "natural_wine": true,
+        "verified": {
+          "source_url": "https://www.torremilanos.com/en/torremilanos-wines/",
+          "address_quoted": "Finca Torremilanos, Aranda de Duero",
+          "open_status": "open",
+          "open_evidence_url": "https://www.gourmets.net/salon-gourmets/2026/exhibitors-catalogue/finca-torremilanos/natural-wine-certified-organic-and-biodynamic",
+          "cuisine_evidence_url": "https://www.gourmets.net/salon-gourmets/2026/exhibitors-catalogue/finca-torremilanos/natural-wine-certified-organic-and-biodynamic",
+          "checked_on": "2026-05-28"
+        }
+      }
+    ]
+  }
+}

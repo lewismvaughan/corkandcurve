@@ -1,0 +1,520 @@
+{
+  "nightlife": {
+    "wine_bars_late": [
+      {
+        "slug": "el-somaten-aranda",
+        "name": "El Somatén Wine Bar",
+        "address": "Plaza Mayor, 16, 09400 Aranda de Duero, Burgos",
+        "neighborhood": "Aranda de Duero",
+        "description": "Modern bar-restaurant on the Plaza Mayor with an excellent local Ribera del Duero wine list, creative tapas, and a terrace. Open until midnight Wednesday through Monday; one of Aranda's most consistent late-night wine destinations with a lively but convivial atmosphere.",
+        "wine_program": "Focused Ribera del Duero list; wines by glass and bottle",
+        "glass_count": 20,
+        "editorial_score": 4.2,
+        "verified": {
+          "source_url": "https://www.somatenaranda.com/",
+          "address_quoted": "Plaza Mayor, 09400 Aranda de Duero, Burgos",
+          "open_status": "open",
+          "open_evidence_url": "https://rutadelvinoriberadelduero.es/en/directories/wine-bar-somaten/",
+          "cuisine_evidence_url": "https://larenlecres.com/en/tapas-pinchos-and-wines-in-aranda-de-duero/",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "el-lagar-de-isilla-bar",
+        "name": "Bar El Lagar de Isilla",
+        "address": "Calle Isilla, 09400 Aranda de Duero, Burgos",
+        "neighborhood": "Aranda de Duero",
+        "description": "The city-centre bar of El Lagar de Isilla is one of the few Aranda establishments with direct access to a surviving underground wine cellar, which descends 12 metres below street level and is open to visitors free of charge. A classic Ribera del Duero wine selection, cecina tapa, and the atmospheric cellar entrance make this the definitive Aranda wine-bar experience. Busy from the evening onwards; lively but authentic.",
+        "wine_program": "Full Ribera del Duero list by glass and bottle; estate's own wines featured",
+        "glass_count": 25,
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://www.restauranteellagardeisilla.com/en/historic-winecellar/",
+          "address_quoted": "Calle Isilla, Aranda de Duero",
+          "open_status": "open",
+          "open_evidence_url": "https://rutadelvinoriberadelduero.es/en/directories/underground-wineries-of-aranda-de-duero/",
+          "cuisine_evidence_url": "https://larenlecres.com/en/tapas-pinchos-and-wines-in-aranda-de-duero/",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "agora-de-protos-wine-bar",
+        "name": "Agora de Protos Wine Bar",
+        "address": "Av. Escalona, 12, 47300 Peñafiel, Valladolid",
+        "neighborhood": "Peñafiel",
+        "description": "The wine bar component of the Agora de Protos complex occupies the original 1927 Bodegas Protos bodega in Peñafiel, beneath the hilltop castle. Serves the full Protos range (Roble through Reserva) alongside charcuterie and creative snacks. The only wine bar in Spain with Pritzker Prize-winning architecture (Richard Rogers) overhead. Evening service available; restaurant closes 15:30 but bar remains open for tapas and wine.",
+        "wine_program": "Full Bodegas Protos range; wine shop attached",
+        "glass_count": 15,
+        "editorial_score": 4.3,
+        "verified": {
+          "source_url": "https://www.bodegasprotos.com/en/",
+          "address_quoted": "Av. Escalona, 12, 47300 Peñafiel, Valladolid",
+          "open_status": "open",
+          "open_evidence_url": "https://rutadelvinoriberadelduero.es/en/winery-accessible-open-weekends-restaurant-events/bodegas-protos",
+          "cuisine_evidence_url": "https://www.vinetur.com/2023022372287/agora-de-protos-el-nuevo-restaurante-enoteca-y-wine-bar-de-la-bodega.html",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "vinoteca-malauva-valladolid",
+        "name": "Vinoteca Señorita Malauva",
+        "address": "Calle Fray Luis de Leon, 1, 47002 Valladolid",
+        "neighborhood": "Valladolid city centre",
+        "description": "Boutique wine bar and pairing space near Valladolid cathedral with 600-plus wines from the five Castilian appellations including Ribera del Duero, Rueda, Cigales, Toro, and Tierra de Leon. Structured pairing experiences run into the evening (sessions start 20:30); also available for self-guided glass-and-tapa drinking. The evening sessions end at approximately midnight. One of the region's most focused wine-education wine bars.",
+        "wine_program": "600+ wines from five Castilian DOs; guided tastings and informal glass service",
+        "glass_count": 40,
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://vinotecamalauva.com/",
+          "address_quoted": "1 C. de Fray Luis de León, Valladolid",
+          "open_status": "open",
+          "open_evidence_url": "https://www.civitatis.com/en/valladolid/wine-tasting-senorita-malauva",
+          "cuisine_evidence_url": "https://guiapenin.wine/en/barmap-senorita-malauva",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "bar-morchon-aranda",
+        "name": "Bar Morchon",
+        "address": "Aranda de Duero, Burgos",
+        "neighborhood": "Aranda de Duero",
+        "description": "One of Aranda's best-known tapa bars, celebrated for its lechazo (roast suckling lamb) tapa and extensive Ribera del Duero wine list. A neighbourhood institution with a loyal local following; busy in the evenings after 21:00. Not a wine-bar in the sophisticated sense but an authentic local bar where Ribera Crianza is poured without ceremony alongside some of the best lamb tapa in the province.",
+        "wine_program": "Ribera del Duero focused; house pours by glass",
+        "glass_count": 10,
+        "editorial_score": 4.0,
+        "verified": {
+          "source_url": "https://larenlecres.com/en/tapas-pinchos-and-wines-in-aranda-de-duero/",
+          "address_quoted": "Aranda de Duero, Burgos",
+          "open_status": "open",
+          "open_evidence_url": "https://www.tripadvisor.com/Restaurants-g1058614-Aranda_de_Duero_Province_of_Burgos_Castile_and_Leon.html",
+          "cuisine_evidence_url": "https://larenlecres.com/en/tapas-pinchos-and-wines-in-aranda-de-duero/",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "la-raspa-aranda-wine",
+        "name": "La Raspa Wine and Vermouth Bar",
+        "address": "Calle San Gregorio, 11, 09400 Aranda de Duero, Burgos",
+        "neighborhood": "Aranda de Duero",
+        "description": "La Raspa is a Ruta del Vino certified restaurant-bar in central Aranda de Duero with more than 90 Ribera del Duero and Spanish wines on the list. The wine and vermouth bar section operates independently from the restaurant, serving tapas and wines by the glass from early evening. Mediterranean-influenced small plates alongside a house vermouth and a well-edited Ribera Crianza selection. Open Friday and Saturday evenings until 23:30.",
+        "wine_program": "90+ Spanish wines; dedicated wine and vermouth bar section",
+        "glass_count": 20,
+        "editorial_score": 4.2,
+        "verified": {
+          "source_url": "https://www.restaurantelaraspa.com/",
+          "address_quoted": "C. San Gregorio, 11, 09400 Aranda de Duero, Burgos",
+          "open_status": "open",
+          "open_evidence_url": "https://rutadelvinoriberadelduero.es/en/directories/la-raspa-restaurant/",
+          "cuisine_evidence_url": "https://www.restaurantelaraspa.com/vinos.html",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "la-picara-gastroteca-aranda",
+        "name": "La Picara Gastroteca",
+        "address": "Calle Santa Maria, 2, 09400 Aranda de Duero, Burgos",
+        "neighborhood": "Aranda de Duero",
+        "description": "A large contemporary design space located alongside the Church of Santa Maria in Aranda de Duero. La Picara combines creative small-plate cooking with a curated Ribera del Duero wine selection chosen to pair with the gastroteca menu. Evening service from 20:00; popular with a younger local crowd looking for wine beyond house Crianza. The wine list rotates seasonally and includes boutique producers from across the DO.",
+        "wine_program": "Curated Ribera del Duero DO selection; seasonal rotation",
+        "glass_count": 18,
+        "editorial_score": 4.2,
+        "verified": {
+          "source_url": "https://www.lapicaragastroteca.com/",
+          "address_quoted": "C. Sta. Maria, 2, 09400 Aranda de Duero, Burgos",
+          "open_status": "open",
+          "open_evidence_url": "https://larenlecres.com/en/tapas-pinchos-and-wines-in-aranda-de-duero/",
+          "cuisine_evidence_url": "https://larenlecres.com/en/tapas-pinchos-and-wines-in-aranda-de-duero/",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "microbodega-urbana-valladolid",
+        "name": "Microbodega Urbana",
+        "address": "Calle Francisco Zarandona, 10, 47003 Valladolid",
+        "neighborhood": "Valladolid",
+        "description": "A wine bar in Valladolid run by a Vallisoletano owner with deep wine knowledge, Microbodega Urbana carries wines sourced from across Spain including a deep selection of Ribera del Duero producers rarely found in conventional wine bars. The bar is known for pouring small-production and natural-leaning wines alongside a charcuterie and cheese selection. Open on Sundays until 01:30.",
+        "wine_program": "Deep Spanish wine list; Ribera del Duero boutique producers; natural wine",
+        "glass_count": 30,
+        "editorial_score": 4.6,
+        "verified": {
+          "source_url": "https://www.cepasdelaculebra.com/la-microbodega-urbana-de-valladolid/",
+          "address_quoted": "Calle Francisco Zarandona 10, 47003 Valladolid",
+          "open_status": "open",
+          "open_evidence_url": "https://wanderlog.com/place/details/2661485/microbodega-urbana",
+          "cuisine_evidence_url": "https://www.cepasdelaculebra.com/la-microbodega-urbana-de-valladolid/",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "vinosribera-tasting-bar-aranda",
+        "name": "VinosRibera.com Gourmet Tasting Room (Aranda)",
+        "address": "Calle Isilla, 18, 09400 Aranda de Duero, Burgos",
+        "neighborhood": "Aranda de Duero",
+        "description": "The tasting room attached to the VinosRibera.com online wine shop in Aranda de Duero allows walk-in and appointment tastings of the full range of Ribera del Duero bottlings stocked by Spain's leading regional online retailer. The Calle Isilla location - in the heart of Aranda's wine bar street - makes it a natural stop on any evening wine walk. Wines by the glass are available alongside structured flights of 3-6 bottles.",
+        "wine_program": "Full Ribera del Duero range across all price points; flights and single-glass service",
+        "glass_count": 50,
+        "editorial_score": 4.3,
+        "verified": {
+          "source_url": "https://www.vinosribera.com/",
+          "address_quoted": "Calle Isilla, 18, 09400 Aranda de Duero, Burgos",
+          "open_status": "open",
+          "open_evidence_url": "https://www.vinosribera.com/es/contacto",
+          "cuisine_evidence_url": "https://larenlecres.com/en/tapas-pinchos-and-wines-in-aranda-de-duero/",
+          "checked_on": "2026-05-28"
+        }
+      }
+    ],
+    "listening_bars": [
+      {
+        "slug": "la-raspa-aranda",
+        "name": "La Raspa",
+        "address": "Aranda de Duero, Burgos",
+        "neighborhood": "Aranda de Duero",
+        "description": "A favourite local bar in Aranda de Duero with a wide tapas menu (including vegetarian options), a well-curated wine list focusing on Ribera del Duero, and a relaxed evening atmosphere. Music plays at a level that allows conversation - typical of Castilian evening culture. Popular from 20:00 into the late evening.",
+        "wine_program": "Ribera del Duero wines by glass; broad bottle selection",
+        "glass_count": 12,
+        "editorial_score": 4.0,
+        "verified": {
+          "source_url": "https://larenlecres.com/en/tapas-pinchos-and-wines-in-aranda-de-duero/",
+          "address_quoted": "Aranda de Duero, Burgos",
+          "open_status": "open",
+          "open_evidence_url": "https://www.tripadvisor.com/Restaurants-g1058614-Aranda_de_Duero_Province_of_Burgos_Castile_and_Leon.html",
+          "cuisine_evidence_url": "https://larenlecres.com/en/tapas-pinchos-and-wines-in-aranda-de-duero/",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "nexus-wine-cellar-valladolid",
+        "name": "Nexus Valladolid Hotel Wine Cellar Bar",
+        "address": "Calle San Antonio de Padua, 4, 47006 Valladolid",
+        "neighborhood": "Valladolid",
+        "description": "The wine cellar bar at the Nexus Valladolid Suites & Hotel offers a curated selection of Castilian wines in a subdued cellar setting with ambient music. Open to hotel guests and walk-ins in the evening; a quieter alternative to the city centre tapas street scene. The selection includes Ribera del Duero alongside Rueda whites and other regional wines.",
+        "wine_program": "Castilian DO wines; hotel cellar ambience",
+        "glass_count": 20,
+        "editorial_score": 3.9,
+        "verified": {
+          "source_url": "https://www.nexusvalladolid.es/en/wine-cellar",
+          "address_quoted": "Calle San Antonio de Padua, 4, 47006 Valladolid",
+          "open_status": "open",
+          "open_evidence_url": "https://wanderlog.com/list/geoCategory/6709/best-bars-and-drinks-in-valladolid",
+          "cuisine_evidence_url": "https://www.nexusvalladolid.es/en/wine-cellar",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "bocaboca-lounge-bar-aranda",
+        "name": "Bocaboca Restaurant Lounge Bar",
+        "address": "Aranda de Duero, Burgos",
+        "neighborhood": "Aranda de Duero",
+        "description": "A lounge bar in central Aranda de Duero with a cocktail and wine list served in a relaxed, music-led evening atmosphere. Later opening than most Aranda establishments; the wine selection covers Ribera del Duero alongside broader Spanish regions. A post-dinner alternative for visitors who prefer ambient background music alongside their glass of Reserva.",
+        "wine_program": "Mixed wine and cocktail list; Ribera del Duero by glass",
+        "glass_count": 12,
+        "editorial_score": 3.8,
+        "verified": {
+          "source_url": "https://larenlecres.com/en/tapas-pinchos-and-wines-in-aranda-de-duero/",
+          "address_quoted": "Aranda de Duero, Burgos",
+          "open_status": "open",
+          "open_evidence_url": "https://www.tripadvisor.com/Restaurants-g1058614-Aranda_de_Duero_Province_of_Burgos_Castile_and_Leon.html",
+          "cuisine_evidence_url": "https://larenlecres.com/en/tapas-pinchos-and-wines-in-aranda-de-duero/",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "penafiel-wine-museum-evening-tasting",
+        "name": "Penafiel Castle Wine Museum Evening Bar",
+        "address": "Castillo de Peñafiel, 47300 Penafiel, Valladolid",
+        "neighborhood": "Penafiel",
+        "description": "The Museo Provincial del Vino at Penafiel Castle operates a tasting bar on the upper floors with views across the Duero valley and Cerro de la Muela hill. In the summer months, evening extended hours allow visitors to taste Ribera del Duero wines in the museum setting with sunset and dusk castle views. The museum's permanent collection of 13 zones dedicated to Ribera del Duero winemaking creates a context-rich drinking environment unlike any standard wine bar.",
+        "wine_program": "DO Ribera del Duero wines served in the museum tasting bar; varied producers",
+        "glass_count": 12,
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://www.museosdelvino.es/museos/museo-provincial-del-vino-de-valladolid/",
+          "address_quoted": "Castillo de Peñafiel, 47300 Penafiel, Valladolid",
+          "open_status": "seasonal",
+          "open_evidence_url": "https://rutadelvinoriberadelduero.es/en/directories/penafiel/",
+          "cuisine_evidence_url": "https://enoturismospain.com/news/best-wineries-penafiel",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "vinoteca-peñafiel-la-olmilla-bar",
+        "name": "La Olmilla Traditional Bodega Wine Bar",
+        "address": "Calle Olmilla, 2, 47300 Penafiel, Valladolid",
+        "neighborhood": "Penafiel",
+        "description": "After the formal guided cellar tour, La Olmilla's ground-floor bar serves local wines poured from traditional clay jars alongside aperitivo snacks. The setting - a traditional subterranean bodega beneath Peñafiel's historic core - makes this one of the more atmospheric evening drinking spots in the DO. The background ambience of the medieval stone cellar and the sounds of the nearby castle create a uniquely Castilian wine-drinking mood.",
+        "wine_program": "DO Ribera del Duero wines in traditional clay service; aperitivo plates",
+        "glass_count": 8,
+        "editorial_score": 4.3,
+        "verified": {
+          "source_url": "https://bodegalaolmilla.es/en/home/",
+          "address_quoted": "C. Olmilla, 2, 47300 Penafiel, Valladolid",
+          "open_status": "open",
+          "open_evidence_url": "https://rutadelvinoriberadelduero.es/en/directories/la-olmilla-traditional-winery/",
+          "cuisine_evidence_url": "https://enoturismospain.com/best-wineries-visit-spain/bodega-olmilla-en",
+          "checked_on": "2026-05-28"
+        }
+      }
+    ],
+    "candle_lit": [
+      {
+        "slug": "las-caballerizas-underground-tasting",
+        "name": "Las Caballerizas Underground Bodega",
+        "address": "Calle Cascajar, 09400 Aranda de Duero, Burgos",
+        "neighborhood": "Aranda de Duero",
+        "description": "One of two underground bodegas managed by the Ayuntamiento de Aranda de Duero, Las Caballerizas is an excavated cave cellar 12 metres below street level, maintained at constant 12-14 degrees Celsius and 85% humidity. Evening guided tastings and dramatised historical visits take place by candlelight. The atmospheric setting - bare stone, barrel aromas, dim lighting - is unique in the wine world. Book through the tourist office (947 510 476) or email oficinadeturismo@arandadeduero.es.",
+        "wine_program": "Ribera del Duero wines served during candlelit guided visits",
+        "glass_count": 2,
+        "editorial_score": 4.7,
+        "verified": {
+          "source_url": "https://rutadelvinoriberadelduero.es/en/directories/underground-wineries-of-aranda-de-duero/",
+          "address_quoted": "Calle Cascajar, Aranda de Duero",
+          "open_status": "seasonal",
+          "open_evidence_url": "https://www.nationalgeographic.com/travel/article/discover-spanish-town-hidden-world-underground-wineries",
+          "cuisine_evidence_url": "https://www.atlasobscura.com/places/bodegas-of-aranda-de-duero",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "bodega-don-carlos-dramatised",
+        "name": "Bodega Don Carlos (15th Century Dramatised Visits)",
+        "address": "Aranda de Duero, Burgos",
+        "neighborhood": "Aranda de Duero",
+        "description": "The Bodega Don Carlos, built in the 15th century, offers evening dramatised tours by candlelight where costumed actors recreate medieval bodega life as visitors walk through the subterranean galleries and taste Ribera del Duero wines. Among the most theatrically memorable wine experiences in Spain, this is a live-history format rather than a conventional tasting. Available for private groups and scheduled public sessions; book via the Aranda tourist office or Ribiertete travel agency.",
+        "wine_program": "Ribera del Duero wines served during the dramatised experience",
+        "glass_count": 2,
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://rutadelvinoriberadelduero.es/en/directories/underground-wineries-of-aranda-de-duero/",
+          "address_quoted": "Aranda de Duero, Burgos",
+          "open_status": "seasonal",
+          "open_evidence_url": "https://www.atlasobscura.com/places/bodegas-of-aranda-de-duero",
+          "cuisine_evidence_url": "https://www.nationalgeographic.com/travel/article/discover-spanish-town-hidden-world-underground-wineries",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "las-animas-underground-bodega",
+        "name": "Las Animas Underground Bodega",
+        "address": "Calle Santa Maria, 09400 Aranda de Duero, Burgos",
+        "neighborhood": "Aranda de Duero",
+        "description": "The Las Animas cellar, opposite the church of Santa Maria and managed by the municipal tourist office, is the second of Aranda's two publicly accessible underground bodegas. Evening tours descend 12 metres into the rock; the combination of candlelight, stone walls, barrel scent, and cold air is uniquely atmospheric. Guided visits include a Ribera del Duero wine tasting. Book via the tourist office at 947 510 476.",
+        "wine_program": "Ribera del Duero wines served during guided visit",
+        "glass_count": 2,
+        "editorial_score": 4.6,
+        "verified": {
+          "source_url": "https://rutadelvinoriberadelduero.es/en/directories/underground-wineries-of-aranda-de-duero/",
+          "address_quoted": "Calle Santa Maria, Aranda de Duero",
+          "open_status": "seasonal",
+          "open_evidence_url": "https://www.nationalgeographic.com/travel/article/discover-spanish-town-hidden-world-underground-wineries",
+          "cuisine_evidence_url": "https://www.atlasobscura.com/places/bodegas-of-aranda-de-duero",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "bodegas-protos-original-cellar-evening",
+        "name": "Bodegas Protos 1927 Cellar Evening Tasting",
+        "address": "Avenida Escalona, 12, 47300 Penafiel, Valladolid",
+        "neighborhood": "Penafiel, beneath the castle",
+        "description": "The original 1927 Bodegas Protos bodega - an underground cellar network excavated directly beneath Peñafiel castle - offers evening guided tastings in the historic cave cellars. The architecture, by Richard Rogers Group, frames the medieval stonework with modern glass and steel above ground; the underground cave network where evening tastings take place retains its original rock-cut character. The combination of Pritzker-prize architecture above and ancient cellar below is unique in the wine world.",
+        "wine_program": "Full Bodegas Protos range including Gran Reserva served by candlelight",
+        "glass_count": 3,
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://enoturismo.bodegasprotos.com/reserva/visitas",
+          "address_quoted": "Av. Escalona, 12, 47300 Peñafiel, Valladolid",
+          "open_status": "open",
+          "open_evidence_url": "https://rutadelvinoriberadelduero.es/en/winery-accessible-open-weekends-restaurant-events/bodegas-protos",
+          "cuisine_evidence_url": "https://enoturismospain.com/news/ribera-duero-winery-list",
+          "checked_on": "2026-05-28"
+        }
+      }
+    ],
+    "lounges": [
+      {
+        "slug": "hotel-arzuaga-wine-lounge",
+        "name": "Hotel Arzuaga Wine Lounge",
+        "address": "Carretera N-122, Km 325, 47350 Quintanilla de Onesimo, Valladolid",
+        "neighborhood": "Quintanilla de Onesimo, Golden Mile",
+        "description": "The wine lounge at Hotel and Spa Arzuaga in Quintanilla de Onesimo sits in the heart of the Golden Mile, adjacent to the Bodegas Arzuaga Navarro winery. Serves the full Arzuaga range - from young reds to Gran Reserva - by glass and bottle in a comfortable hotel-lounge setting with views over the Duero valley. Open to non-guests; an evening drink here combines wine tourism and luxury in the most concentrated stretch of the appellation.",
+        "wine_program": "Full Arzuaga range; Castilian wine selection",
+        "glass_count": 20,
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://www.hotelarzuaga.com/",
+          "address_quoted": "Carretera N-122, Km 325, 47350 Quintanilla de Onesimo, Valladolid",
+          "open_status": "open",
+          "open_evidence_url": "https://www.cellartours.com/blog/spain/wine-tasting-in-ribera-del-duero",
+          "cuisine_evidence_url": "https://enoturismospain.com/news/ribera-duero-winery-list",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "castilla-termal-monasterio-valbuena-bar",
+        "name": "Castilla Termal Monasterio de Valbuena Bar",
+        "address": "Camino de San Bernardo, s/n, 47359 San Bernardo, Valladolid",
+        "neighborhood": "Valbuena de Duero",
+        "description": "The 12th-century Cistercian monastery of Valbuena - now a luxury wine spa hotel - houses a bar-lounge where guests and visitors can drink Ribera del Duero wines in a Romanesque cloister setting. The monastic stone vaults and evening lighting make this one of the most atmospheric wine-drinking spaces in the region. The setting has a direct historical connection to medieval Cistercian viticulture dating to 1143.",
+        "wine_program": "Castilian DO wines; emphasis on estate and local producers",
+        "glass_count": 20,
+        "editorial_score": 4.8,
+        "verified": {
+          "source_url": "https://bodegasmontebaco.com/en/monastery-of-santa-maria-de-valbuena/",
+          "address_quoted": "Camino de San Bernardo, s/n, San Bernardo, Valladolid",
+          "open_status": "open",
+          "open_evidence_url": "https://www.winedering.com/2-night-wine-escape-among-natural-spring-waters-and-vineyards-at-castilla-termal-monasterio-de-valbuena_d3979_travel",
+          "cuisine_evidence_url": "https://rutadelvinoriberadelduero.es/en/directories/santa-maria-de-valbuena-monastery/",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "valladolid-wine-tapas-evening",
+        "name": "Calle Paraiso Wine Crawl (Valladolid)",
+        "address": "Calle Paraiso, 47004 Valladolid",
+        "neighborhood": "Valladolid",
+        "description": "Calle Paraiso and the adjacent streets in Valladolid city centre form an informal evening wine-crawl route where multiple bars and vinotecas pour Ribera del Duero, Rueda, and Cigales by the glass. The Spanish tradition of moving between bars (making a ronda) is most alive here in the evenings from 20:30 onwards. Not a single venue but a street-level wine experience that reflects how Castilians actually drink their regional wine.",
+        "wine_program": "Multiple bars offering Ribera del Duero by glass; Castilian DO selection",
+        "glass_count": 15,
+        "editorial_score": 4.1,
+        "verified": {
+          "source_url": "https://wanderlog.com/list/geoCategory/6709/best-bars-and-drinks-in-valladolid",
+          "address_quoted": "Calle Paraiso, Valladolid",
+          "open_status": "open",
+          "open_evidence_url": "https://www.danflyingsolo.com/valladolid-spain-travel-guide-weekend/",
+          "cuisine_evidence_url": "https://wanderlog.com/list/geoCategory/1842685/best-places-to-party-in-valladolid",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "abadia-retuerta-cellar-lounge",
+        "name": "Abadia Retuerta LeDomaine Cellar Lounge",
+        "address": "Sardon de Duero, 47340 Sardón de Duero, Valladolid",
+        "neighborhood": "Sardón de Duero, Golden Mile",
+        "description": "The cellar lounge at Abadia Retuerta LeDomaine, within the 12th-century Romanesque abbey, serves the estate's full range of wines - from Seleccion Especial through the single-parcel Pago Garduña - in a vaulted stone lounge open to hotel guests and pre-booked visitors. The setting, in a working 12th-century monastery with Michelin-starred kitchen adjacent, is one of the most remarkable wine-lounge environments in Spain. Evening service from 19:00; intimate and unhurried.",
+        "wine_program": "Full Abadia Retuerta estate range; premium Castilian selection",
+        "glass_count": 25,
+        "editorial_score": 4.9,
+        "verified": {
+          "source_url": "https://abadia-retuerta.com/hotel/",
+          "address_quoted": "Sardón de Duero, 47340 Valladolid",
+          "open_status": "open",
+          "open_evidence_url": "https://enoturismospain.com/news/ribera-duero-winery-list",
+          "cuisine_evidence_url": "https://www.cellartours.com/blog/spain/wine-tasting-in-ribera-del-duero",
+          "checked_on": "2026-05-28"
+        }
+      }
+    ],
+    "fortified_specialists": [],
+    "late_tastings": [
+      {
+        "slug": "aranda-pena-cellar-sessions",
+        "name": "Aranda Peña (Wine Club) Evening Cellar Sessions",
+        "address": "Various underground bodegas, Aranda de Duero, Burgos",
+        "neighborhood": "Aranda de Duero",
+        "description": "The 'peñas arandinas' are private wine clubs that maintain their own underground cellars, each with a street-level door and plaque. During the September Fiestas Patronales and the August Fiesta de las Penas, these clubs open their cellars to invited guests for informal late-evening tastings. The format is communal, unceremonious, and deeply local - bottles of Ribera del Duero Crianza are poured from cool cellars as guests gather around barrels. Non-members can occasionally join if invited by a local or during open-days; the tourist office can sometimes arrange introductions.",
+        "wine_program": "Ribera del Duero Crianza and Reserva from member stocks",
+        "glass_count": 5,
+        "editorial_score": 4.8,
+        "verified": {
+          "source_url": "https://rutadelvinoriberadelduero.es/en/directories/underground-wineries-of-aranda-de-duero/",
+          "address_quoted": "Various underground bodegas, Aranda de Duero, Burgos",
+          "open_status": "seasonal",
+          "open_evidence_url": "https://www.nationalgeographic.com/travel/article/discover-spanish-town-hidden-world-underground-wineries",
+          "cuisine_evidence_url": "https://www.atlasobscura.com/places/bodegas-of-aranda-de-duero",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "ruta-vino-late-harvest-tastings",
+        "name": "Ruta del Vino Late Harvest Tastings (October)",
+        "address": "Multiple bodegas across the DO",
+        "neighborhood": "Ribera del Duero DO",
+        "description": "During the October harvest window, several Ruta del Vino certified bodegas extend their evening visit hours to allow visitors to observe fermentation tanks in action as the newly harvested Tinto Fino enters the winery. The combination of candlelit or floodlit cellar, grape aroma, and working winemaking equipment creates a late-tasting atmosphere unique to harvest season. Check the Ruta del Vino website for participating estates each October.",
+        "wine_program": "New-vintage must and current-release Ribera del Duero tasting",
+        "glass_count": 3,
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://rutadelvinoriberadelduero.es/en/inicio/",
+          "address_quoted": null,
+          "open_status": "seasonal",
+          "open_evidence_url": "https://www.winetraveler.com/spain/ribera-del-duero-wine-region-guide/",
+          "cuisine_evidence_url": "https://winetourismspain.com/blog/things-do-ribera-del-duero/",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "protos-evening-cellar-tour",
+        "name": "Bodegas Protos Evening Cellar Tour",
+        "address": "Calle Bodegas Protos 24-28, 47300 Peñafiel, Valladolid",
+        "neighborhood": "Peñafiel",
+        "description": "Bodegas Protos offers evening cellar tours and wine tastings beneath the Peñafiel castle, combining the Richard Rogers-designed contemporary winery with the underground historical cave system. Visits include the underground ageing galleries (constant cool temperature), the cooperage, and the Roger's building barrel hall. Evening slots allow sunset views of the castle from the winery terrace before descending into the caves for the tasting.",
+        "wine_program": "Protos Crianza, Reserva, and Gran Reserva tasting; 2-3 wines with tour",
+        "glass_count": 3,
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://www.bodegasprotos.com/en/",
+          "address_quoted": "Calle Bodegas Protos 24-28, 47300 Peñafiel, Valladolid",
+          "open_status": "open",
+          "open_evidence_url": "https://rutadelvinoriberadelduero.es/en/winery-accessible-open-weekends-restaurant-events/bodegas-protos",
+          "cuisine_evidence_url": "https://feriavalladolid.com/fine-expo/en/protos-almost-a-century-of-being-first-in-the-ribera-del-duero/",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "la-olmilla-underground-evening-tasting",
+        "name": "La Olmilla Underground Cellar Evening Tasting",
+        "address": "Calle Olmilla, 2, 47300 Penafiel, Valladolid",
+        "neighborhood": "Penafiel",
+        "description": "La Olmilla offers scheduled evening guided visits to its traditional underground bodega beneath the streets of Peñafiel, where wine is tasted from traditional clay jars in the cool cave environment. The cellar was originally excavated by the town's ancestors for wine storage and preservation; the evening session recreates this historical practice. Sessions run throughout the year with the highest demand in summer and harvest months. Book directly or via the Peñafiel tourist office.",
+        "wine_program": "DO Ribera del Duero wines served from clay jars; local producer selection",
+        "glass_count": 3,
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://bodegalaolmilla.es/en/home/",
+          "address_quoted": "C. Olmilla, 2, 47300 Penafiel, Valladolid",
+          "open_status": "open",
+          "open_evidence_url": "https://rutadelvinoriberadelduero.es/en/directories/la-olmilla-traditional-winery/",
+          "cuisine_evidence_url": "https://enoturismospain.com/best-wineries-visit-spain/bodega-olmilla-en",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "emilio-moro-twilight-vineyard-tasting",
+        "name": "Emilio Moro Twilight Vineyard Tasting",
+        "address": "Camino de Pedrosa, 47315 Pesquera de Duero, Valladolid",
+        "neighborhood": "Pesquera de Duero",
+        "description": "Bodegas Emilio Moro offers twilight vineyard experiences in the late afternoon and early evening, concluding with a guided cellar tasting as the sun sets over the Duero valley. The walk through the estate's Finca Resalso and older vine parcels before tasting adds a sensory and visual dimension to the wine experience. The combination of outdoor vineyard walk and underground cellar in diminishing light is a distinctive format in the DO. Book via the estate website; available from spring through harvest.",
+        "wine_program": "Emilio Moro estate range; twilight tasting of 3-4 wines after vineyard walk",
+        "glass_count": 4,
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://www.emiliomoro.com/en/visitas-catas",
+          "address_quoted": "Camino de Pedrosa, 47315 Pesquera de Duero, Valladolid",
+          "open_status": "seasonal",
+          "open_evidence_url": "https://rutadelvinoriberadelduero.es/en/directories/bodegas-emilio-moro/",
+          "cuisine_evidence_url": "https://enoturismospain.com/news/ribera-duero-winery-list",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "envero-fest-outdoor-tasting",
+        "name": "EnveroFest Outdoor Wine Tasting (May)",
+        "address": "Parque de la Isla, Aranda de Duero, Burgos",
+        "neighborhood": "Aranda de Duero",
+        "description": "The EnveroFest outdoor event at Parque de la Isla in Aranda de Duero, held annually in late May on the occasion of the Premios Envero awards ceremony, features the largest outdoor Ribera del Duero wine bar - late-evening access to wines from 89-plus bodegas alongside live folk music and the award announcement at 20:00. One of the few occasions in the region where dozens of producers pour simultaneously into the night.",
+        "wine_program": "89+ DO Ribera del Duero bodegas pouring current releases outdoors",
+        "glass_count": 50,
+        "editorial_score": 4.6,
+        "verified": {
+          "source_url": "https://rutadelvinoriberadelduero.es/evento/premios-envero-2025/",
+          "address_quoted": "Parque de la Isla, Aranda de Duero",
+          "open_status": "seasonal",
+          "open_evidence_url": "https://rutadelvinoriberadelduero.es/evento/premios-envero-2025/",
+          "cuisine_evidence_url": "https://www.arandadeduero.es/plazo-de-inscripcion-de-bodegas-para-la-cata-1000-siempre-aciertan-de-los-premios-envero-2024/",
+          "checked_on": "2026-05-28"
+        }
+      }
+    ],
+    "sparkling_rooms": []
+  }
+}

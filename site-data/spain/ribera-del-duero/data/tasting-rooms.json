@@ -1,0 +1,319 @@
+{
+  "tasting_rooms": [
+    {
+      "slug": "bodegas-protos-penafiel",
+      "name": "Bodegas Protos",
+      "address": "C/ Bodegas Protos, 24-28, 47300 Penafiel, Valladolid, Spain",
+      "neighborhood": "Penafiel",
+      "varietals_focus": ["Tempranillo"],
+      "pricing": "Guided tour with tasting from EUR 12; premium flights available",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "bodegas-protos",
+      "description": "Ribera del Duero cooperative founded 1927, now housed in a landmark Richard Rogers building beside Penafiel Castle. Tour spans the 14th-century underground cellars and the modern above-ground winery; flights include 2-3 DO Ribera del Duero wines.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.bodegasprotos.com/es/enoturismo-ribera-del-duero/",
+        "address_quoted": "C/ Bodegas Protos, 24-28, 47300 Penafiel (Valladolid)",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g1026109-d578116-Reviews-Bodegas_Protos-Penafiel_Province_of_Valladolid_Castile_and_Leon.html",
+        "cuisine_evidence_url": "https://rutadelvinoriberadelduero.es/en/directories/protos-winery/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "pago-de-carraovejas-tasting",
+      "name": "Pago de Carraovejas",
+      "address": "Camino de Carraovejas s/n, 47300 Penafiel, Valladolid, Spain",
+      "neighborhood": "Penafiel",
+      "varietals_focus": ["Tempranillo", "Cabernet Sauvignon", "Merlot"],
+      "pricing": "6 Senses visit approx EUR 80; 6 Senses with tasting menu approx EUR 150",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "pago-de-carraovejas",
+      "description": "Estate tasting programme launched in 2013. Guided visits explore vineyard, cellar and barrel room with panoramic views of the Duero valley. Tasting accompanied by a gastronomic proposal from the Ambivium team. One of Ribera del Duero's most in-demand estate experiences.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.pagodecarraovejas.com/en/enotourism/visit/",
+        "address_quoted": "Camino de Carraovejas, s/n, 47300 Penafiel, Valladolid, Espana",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g1026109-d7008600-Reviews-Pago_de_Carraovejas_Winery-Penafiel_Province_of_Valladolid_Castile_and_Leon.html",
+        "cuisine_evidence_url": "https://almacarraovejas.com/en/pago-de-carraovejas-winery/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "bodegas-emilio-moro-tasting",
+      "name": "Bodegas Emilio Moro",
+      "address": "Ctra. Penafiel-Vitoria s/n, 47315 Pesquera de Duero, Valladolid, Spain",
+      "neighborhood": "Pesquera de Duero",
+      "varietals_focus": ["Tempranillo"],
+      "pricing": "Wine Speaks to You from EUR 25; Taste our Ribera from EUR 40; gastronomic experience from EUR 80",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "bodegas-emilio-moro",
+      "description": "Family estate on the Golden Mile offering three tasting formats from vineyard walk plus three wines to a full gastronomy experience with roast suckling lamb. Glass-enclosed wine bar terrace overlooks the estate vines.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.emiliomoro.com/en/visitas-y-catas-ribera-del-duero/",
+        "address_quoted": "Ctra. Penafiel-Vitoria, S/N, 47315 Pesquera de Duero, Valladolid",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g2571837-d4051145-Reviews-Bodegas_Emilio_Moro-Pesquera_de_Duero_Province_of_Valladolid_Castile_and_Leon.html",
+        "cuisine_evidence_url": "https://www.winalist.com/hosts/2847/bodegas-emilio-moro",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "bodegas-legaris-tasting",
+      "name": "Bodegas Legaris",
+      "address": "Ctra. Penafiel-Encinas de Esgueva Km. 2,5, Curiel de Duero, Valladolid, Spain",
+      "neighborhood": "Curiel de Duero",
+      "varietals_focus": ["Tempranillo"],
+      "pricing": "Classic 90-min tour and 3-wine tasting EUR 28; barrel experience EUR 35",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "bodegas-legaris",
+      "description": "Codorniu Group winery surrounded by vineyards and medieval castles. Classic guided tour covers winemaking facilities and estate vineyards; barrel tasting workshop available for deeper exploration of blending.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://rutadelvinoriberadelduero.es/en/directories/protos-winery/",
+        "address_quoted": "Ctra. Penafiel-Encinas de Esgueva, Km. 2,5, Curiel de Duero, Valladolid",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g1991467-d3655265-Reviews-Bodegas_Legaris-Curiel_de_Duero_Province_of_Valladolid_Castile_and_Leon.html",
+        "cuisine_evidence_url": "https://www.15bodegas.com/es_en/visit-legaris",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "bodegas-comenge-tasting",
+      "name": "Bodegas Comenge",
+      "address": "Camino del Castillo s/n, 47346 Curiel del Duero, Valladolid, Spain",
+      "neighborhood": "Curiel de Duero",
+      "varietals_focus": ["Tempranillo", "Cabernet Sauvignon"],
+      "pricing": "Guided visit and tasting from EUR 20; picnic in vineyard garden available on request",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "bodegas-comenge",
+      "description": "Organic-viticulture winery founded 1999 by Jaime Comenge Puig at the foot of Curiel de Duero castle. Panoramic restaurant and garden host tastings; Saturday morning slots are popular for groups discovering the organic estate program.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.comenge.com/en/enoturismo-ribera-del-duero/",
+        "address_quoted": "Camino del Castillo s/n, 47346 Curiel del Duero, Spain",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g1991467-d3750507-Reviews-Bodegas_Comenge-Curiel_de_Duero_Province_of_Valladolid_Castile_and_Leon.html",
+        "cuisine_evidence_url": "https://rutadelvinoriberadelduero.es/en/directories/comenge-winery/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "bodegas-arzuaga-navarro-tasting",
+      "name": "Bodegas Arzuaga Navarro",
+      "address": "Carretera N-122, Km 325, 47350 Quintanilla de Onesimo, Valladolid, Spain",
+      "neighborhood": "Golden Mile",
+      "varietals_focus": ["Tempranillo", "Cabernet Sauvignon", "Merlot", "Albillo Mayor"],
+      "pricing": "Classic cellar tour and 3-wine tasting from EUR 25; wine bar walk-in pours from EUR 5",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": "bodegas-arzuaga-navarro",
+      "description": "Golden Mile estate with hotel, spa, restaurant and wine bar under one roof. Tasting room open to walk-ins for by-the-glass pours from the Arzuaga DO Ribera del Duero range; guided cellar tours include vintage vertical flights on request.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.turismocastillayleon.com/en/enotourism-gastronomy/visitable-wineries/bodegas-arzuaga-navarro",
+        "address_quoted": "Carretera N-122, 325, 47350 Quintanilla de Onesimo, Valladolid",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g1072462-d2663333-Reviews-Bodegas_Arzuaga_Navarro-Quintanilla_de_Onesimo_Province_of_Valladolid_Castile_and_Leon.html",
+        "cuisine_evidence_url": "https://rutadelvinoriberadelduero.es/en/directories/arzuaga-navarro-winery/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "finca-villacreces-tasting",
+      "name": "Finca Villacreces",
+      "address": "Carretera Soria (N-122) Km. 322, 47350 Quintanilla de Onesimo, Valladolid, Spain",
+      "neighborhood": "Golden Mile",
+      "varietals_focus": ["Tempranillo", "Cabernet Sauvignon"],
+      "pricing": "Villacreces Tour from EUR 30; e-bike vineyard tour from EUR 45",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "finca-villacreces",
+      "description": "115-hectare estate in organic viticulture since 2017, bordered by Vega Sicilia and bicentennial pine forest. Guided visit covers winery and vineyards; distinctive e-bike tour of the 4.5 km estate loop available.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://villacreces.com/en/wine-tourism/villacreces-tour",
+        "address_quoted": "Carretera Soria (N-122) Km. 322, 47350 Quintanilla de Onesimo, Valladolid, Espana",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g1072462-d7235673-Reviews-Finca_Villacreces-Quintanilla_de_Onesimo_Province_of_Valladolid_Castile_and_Leon.html",
+        "cuisine_evidence_url": "https://www.provinciadevalladolid.com/en/-/finca-villacreces-2",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "bodegas-felix-callejo-tasting",
+      "name": "Bodegas Felix Callejo",
+      "address": "Avenida del Cid, Km. 16, 09441 Sotillo de la Ribera, Burgos, Spain",
+      "neighborhood": "Sotillo de la Ribera",
+      "varietals_focus": ["Tempranillo"],
+      "pricing": "Visit and 4-wine tasting EUR 33; private family-led experience EUR 55",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "bodegas-felix-callejo",
+      "description": "Family estate in Sotillo de la Ribera specialising in single-vineyard Tempranillo from old vines. Tastings led by the Callejo family; programme covers fermentation hall, barrel cellar and bottling line with estate-grown appetisers.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.bodegasfelixcallejo.com/en/contact/",
+        "address_quoted": "Avenida del Cid, Km. 16, 09441 Sotillo de la Ribera, Burgos, Espana",
+        "open_status": "open",
+        "open_evidence_url": "https://www.turismocastillayleon.com/en/enotourism-gastronomy/visitable-wineries/bodegas-felix-callejo",
+        "cuisine_evidence_url": "https://rutadelvinoriberadelduero.es/en/directories/bodegas-felix-callejo/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "bodegas-nabal-tasting",
+      "name": "Bodegas Nabal",
+      "address": "A1 Highway exit 168, Valle de Nabal, 09370 Gumiel de Izan, Burgos, Spain",
+      "neighborhood": "Gumiel de Izan",
+      "varietals_focus": ["Tempranillo"],
+      "pricing": "60-min tour and tasting from EUR 18; extended wine bar pours by the glass",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": "bodegas-nabal",
+      "description": "Family winery founded by the Navarro Balbas family in Gumiel de Izan, sourcing grapes from near-century-old vines. Covered porch overlooks the valley; cosy wine bar open after guided tours for further by-the-glass exploration.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://bodegasnabal.com/en/nabal-winery/",
+        "address_quoted": "A1 Highway exit 168, Valle de Nabal, 09370 Gumiel de Izan, Burgos",
+        "open_status": "open",
+        "open_evidence_url": "https://rutadelvinoriberadelduero.es/en/directories/nabal-wineries/",
+        "cuisine_evidence_url": "https://www.tripadvisor.in/Attraction_Review-g2559485-d26635776-Reviews-Bodegas_Nabal-Gumiel_de_Hizan_Province_of_Burgos_Castile_and_Leon.html",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "dominio-lubiano-tasting",
+      "name": "Velvety Wines - Dominio Lubiano",
+      "address": "Ctr Pesquera-Valbuena Polig 9 Parc 66, 47315 Pesquera de Duero, Valladolid, Spain",
+      "neighborhood": "Golden Mile",
+      "varietals_focus": ["Tempranillo"],
+      "pricing": "Winery tour and 3 tastings with tapa from EUR 20; Golden Mile viewpoint experience EUR 30",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "dominio-lubiano",
+      "description": "Small family winery on the Golden Mile with avant-garde glass-and-concrete architecture. Co-owner and winemaker Monica leads informal tours with panoramic viewpoint tasting overlooking the 12th-century Valbuena monastery.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://dominiolubiano.com/en/homeen/",
+        "address_quoted": "CTR PESQUERA - VALBUENA POLG 9 PARC.66, 47315 Pesquera de Duero, Valladolid",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g2571837-d23684214-Reviews-Velvety_Wines_Dominio_Lubiano-Pesquera_de_Duero_Province_of_Valladolid_Castile_.html",
+        "cuisine_evidence_url": "https://www.turismocastillayleon.com/en/services/get-know/tourist-activities/velvety-wines-dominio-lubiano",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "tinto-pesquera-tasting",
+      "name": "Alejandro Fernandez - Tinto Pesquera",
+      "address": "C/ Real 2, 47315 Pesquera de Duero, Valladolid, Spain",
+      "neighborhood": "Pesquera de Duero",
+      "varietals_focus": ["Tempranillo"],
+      "pricing": "Guided visit and 3-wine tasting from EUR 22; minimum 7 persons or equivalent",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "alejandro-fernandez-tinto-pesquera",
+      "description": "Founded 1972 by Alejandro Fernandez, one of Ribera del Duero's pioneering modern estates. Tour covers the 16th-century press where original vintages were made, the modern cellar and barrel room; tasting features wines from the Familia Fernandez Rivera range.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://familiafernandezrivera.com/en/bodegas/tinto-pesquera/",
+        "address_quoted": "C/ Real, 2, Pesquera de Duero 47315 Valladolid",
+        "open_status": "open",
+        "open_evidence_url": "https://rutadelvinoriberadelduero.es/en/directories/tinto-pesquera-winery/",
+        "cuisine_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g2571837-d7655498-Reviews-Familia_Fernandez_Rivera-Pesquera_de_Duero_Province_of_Valladolid_Castile_and_Le.html",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "bodega-portia-tasting",
+      "name": "Bodegas Portia",
+      "address": "Antigua Carretera Nacional 1 Km. 170, 09370 Gumiel de Izan, Burgos, Spain",
+      "neighborhood": "Gumiel de Izan",
+      "varietals_focus": ["Tempranillo"],
+      "pricing": "Guided visit and 2-wine tasting EUR 12; premium tasting options available",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "bodegas-portia",
+      "description": "Faustino Group winery in a Norman Foster-designed three-armed star building (2010). Tour visits both the production and ageing areas; the central Agora area houses a wine bar with tapas, gourmet shop and auditorium with vineyard views.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.bodegasportia.com/",
+        "address_quoted": "Antigua Carretera Nacional 1 Km. 170, 09370 Gumiel de Izan, Burgos, Spain",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g2559485-d2322483-Reviews-Bodegas_Portia-Gumiel_de_Hizan_Province_of_Burgos_Castile_and_Leon.html",
+        "cuisine_evidence_url": "https://www.riberadelduero.es/en/node/622",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "bodega-emina-tasting",
+      "name": "Bodega Emina Ribera",
+      "address": "Ctra. San Bernardo s/n, 47359 Valbuena de Duero, Valladolid, Spain",
+      "neighborhood": "Valbuena de Duero",
+      "varietals_focus": ["Tempranillo"],
+      "pricing": "Origen Matarromera experience from EUR 25; premium vertical tasting EUR 45",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "bodega-emina",
+      "description": "Matarromera Group winery in Valbuena de Duero presenting wine as art and culture. Semi-buried barrel park with Duero valley views; guided tour includes the winemaking hall and underground cellar finishes with structured tasting of Emina and Matarromera labels.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://enoturismo.matarromera.es/",
+        "address_quoted": "Ctra. San Bernardo, s/n. Valbuena de Duero",
+        "open_status": "open",
+        "open_evidence_url": "https://www.turismocastillayleon.com/en/enotourism-gastronomy/visitable-wineries/bodega-emina",
+        "cuisine_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g7786258-d13546912-Reviews-Bodega_Matarromera-Valbuena_de_Duero_Province_of_Valladolid_Castile_and_Leon.html",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "bodega-historica-don-carlos-tasting",
+      "name": "Bodega Historica Don Carlos s. XV",
+      "address": "C/ Isilla s/n, 09400 Aranda de Duero, Burgos, Spain",
+      "neighborhood": "Aranda de Duero historic centre",
+      "varietals_focus": ["Tempranillo"],
+      "pricing": "Underground cellar tour and 6-wine tasting from EUR 18",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": null,
+      "description": "15th-century underground bodega in the historic labyrinth below Aranda de Duero. Guided descent through stone-carved corridors leads to a curated tasting of six wines from small Ribera del Duero producers. Also home to the Ribiertete escape-room experience.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/AttractionProductReview-g1058614-d13429727-Ribera_del_Duero_Underground_Cellar_Wine_Tasting_Experience-Aranda_de_Duero_Provi.html",
+        "address_quoted": "C. Isilla, Aranda de Duero, Burgos",
+        "open_status": "open",
+        "open_evidence_url": "https://rutadelvinoriberadelduero.es/en/underground-cellar-districts-to-visit-in-ribera-del-duero-i/",
+        "cuisine_evidence_url": "https://www.civitatis.com/en/aranda-de-duero/underground-wine-cellar-tour/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "abadia-retuerta-cellar-tasting",
+      "name": "Abadia Retuerta LeDomaine Cellar Visits",
+      "address": "Monasterio de Santa Maria, 122 Km. 332.5, 47340 Sardon de Duero, Valladolid, Spain",
+      "neighborhood": "Sardon de Duero",
+      "varietals_focus": ["Tempranillo", "Cabernet Sauvignon", "Syrah", "Petit Verdot"],
+      "pricing": "Estate cellar visit and tasting from EUR 35; Connoisseur experience from EUR 75",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "abadia-retuerta",
+      "description": "12th-century Augustinian abbey winery producing pago-classified wines outside the DO Ribera del Duero. Cellar visits explore the original abbey architecture, underground barrel hall and library of experimental barrel vinifications; tasting showcases Petit Verdot, Seleccion Especial and single-pago wines.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://abadia-retuerta.com/en/hotel/",
+        "address_quoted": "Sardon de Duero, 47340 Valladolid, Spain",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Hotel_Review-g2018267-d2354351-Reviews-Abadia_Retuerta_LeDomaine-Sardon_de_Duero_Province_of_Valladolid_Castile_and_Leon.html",
+        "cuisine_evidence_url": "https://www.smoothred.com/destinations/spain/ribera-del-duero/accommodation/abadia-retuerta-ledomaine/",
+        "checked_on": "2026-05-28"
+      }
+    }
+  ]
+}

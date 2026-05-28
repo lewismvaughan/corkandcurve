@@ -1,0 +1,243 @@
+{
+  "wine_restaurants": [
+    {
+      "slug": "ambivium",
+      "name": "Ambivium",
+      "address": "Camino de Carraovejas s/n, 47300 Penafiel, Valladolid, Spain",
+      "neighborhood": "Penafiel",
+      "cuisine": "Creative Spanish with Ribera del Duero wine focus; seasonal tasting menus built around food preservation and hyperlocal produce",
+      "cellar_size": 5600,
+      "awards": [
+        {"source": "Michelin Guide Spain", "year": 2022}
+      ],
+      "description": "One Michelin star restaurant at Pago de Carraovejas estate in Penafiel. Tasting menus are built around food preservation methods and hyperlocal seasonal produce; 5,600-label cellar anchored by the estate's own Ribera del Duero wines.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.restauranteambivium.com/en/restaurante-eng/",
+        "address_quoted": "Camino de Carraovejas, s/n, 47300 Penafiel, Valladolid, Espana",
+        "open_status": "open",
+        "open_evidence_url": "https://guide.michelin.com/us/en/castilla-y-leon/penafiel/restaurant/ambivium",
+        "cuisine_evidence_url": "https://www.restauranteambivium.com/en/n-122-valle-del-duero-a-dream-destination/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "refectorio-abadia-retuerta",
+      "name": "Refectorio",
+      "address": "Monasterio de Santa Maria, 122 Km. 332.5, 47340 Sardon de Duero, Valladolid, Spain",
+      "neighborhood": "Sardon de Duero",
+      "cuisine": "Creative market cuisine in 12th-century abbey refectory; seasonal Terroir, Origin and Legacy tasting menus",
+      "cellar_size": 500,
+      "awards": [
+        {"source": "Michelin Guide Spain", "year": 2014},
+        {"source": "Michelin Green Star", "year": 2020}
+      ],
+      "description": "Michelin-starred restaurant in the original 12th-century refectory of the Abadia Retuerta abbey in Sardon de Duero. Terroir, Origin and Legacy tasting menus; 500-wine list spans estate pagos and a broad selection of Spanish and international bottles.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://abadia-retuerta.com/en/gastronomy/refectory/",
+        "address_quoted": "Monasterio de Santa Maria, 122 Km. 332, 5, 47340 Retuerta, Valladolid, Spain",
+        "open_status": "open",
+        "open_evidence_url": "https://guide.michelin.com/us/en/castilla-y-leon/sardon-de-duero/restaurant/refectorio",
+        "cuisine_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g2018267-d8505838-Reviews-Restaurante_Refectorio-Sardon_de_Duero_Province_of_Valladolid_Castile_and_Leon.html",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "taller-arzuaga",
+      "name": "Taller Arzuaga",
+      "address": "Carretera N-122 Km 325, 47350 Quintanilla de Onesimo, Valladolid, Spain",
+      "neighborhood": "Golden Mile",
+      "cuisine": "Creative wine-country cuisine with produce from the estate organic garden; two tasting menu formats",
+      "cellar_size": null,
+      "awards": [
+        {"source": "Michelin Guide Spain", "year": 2019}
+      ],
+      "description": "One Michelin star and one Sol Repsol restaurant at the Arzuaga estate on the Golden Mile. Creative menu drawing on the organic garden and estate terroir; wine list showcases Arzuaga Ribera del Duero ranges alongside Spanish classics.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.turismocastillayleon.com/en/gastronomy-wine-tourism/michelin-star-restaurants/taller-arzuaga",
+        "address_quoted": "Carretera N-122, Quintanilla de Onesimo, 47350, Spain",
+        "open_status": "open",
+        "open_evidence_url": "https://guide.michelin.com/us/en/castilla-y-leon/quintanilla-de-onesimo/restaurant/taller",
+        "cuisine_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g1072462-d12652372-Reviews-Taller_Arzuaga-Quintanilla_de_Onesimo_Province_of_Valladolid_Castile_and_Leon.html",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "casa-florencio",
+      "name": "Asador Casa Florencio",
+      "address": "C/ Isilla 14, 09400 Aranda de Duero, Burgos, Spain",
+      "neighborhood": "Aranda de Duero historic centre",
+      "cuisine": "Traditional Castilian asador; lechazo asado (roast suckling lamb) in wood-fired oven; IGP Lechazo de Castilla y Leon certified",
+      "cellar_size": null,
+      "awards": [
+        {"source": "IGP Lechazo de Castilla y Leon quality mark", "year": 2000}
+      ],
+      "description": "Family asador in Aranda de Duero since 1949. Roast suckling lamb from IGP-certified Lechazo de Castilla y Leon, cooked in a wood-fired oven; wine list focuses on DO Ribera del Duero including Callejo estate wines. A classic pairing address in the heart of the zone.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.lechazo.es/asador/asador-casa-florencio/",
+        "address_quoted": "C/ Isilla 14, 09400 Aranda de Duero, BURGOS",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g1058614-d3640356-Reviews-Casa_Florencio-Aranda_de_Duero_Province_of_Burgos_Castile_and_Leon.html",
+        "cuisine_evidence_url": "https://rutadelvinoriberadelduero.es/en/directories/asador-casa-florencio/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "el-lagar-de-isilla-restaurant",
+      "name": "El Lagar de Isilla",
+      "address": "C/ Isilla 18, 09400 Aranda de Duero, Burgos, Spain",
+      "neighborhood": "Aranda de Duero historic centre",
+      "cuisine": "Castilian grill and asador; roast suckling lamb; wine list of 450+ references in 13th-century underground cellar",
+      "cellar_size": 450,
+      "awards": [],
+      "description": "Aranda de Duero grill-restaurant with a 450-reference wine list preserved 12 m below street level in 13th-century underground cellars. Free cellar visit during service; the wine offering spans DO Ribera del Duero, Rioja, Rueda and beyond.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.restauranteellagardeisilla.com/en/location-and-contact/",
+        "address_quoted": "C. Isilla, 18, 09400 Aranda de Duero, Burgos, Spain",
+        "open_status": "open",
+        "open_evidence_url": "https://rutadelvinoriberadelduero.es/en/directories/el-lagar-de-isilla-grill-restaurant/",
+        "cuisine_evidence_url": "https://www.restauranteellagardeisilla.com/en/historic-winecellar/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "el-converso-castilla-termal",
+      "name": "El Converso at Castilla Termal Monasterio de Valbuena",
+      "address": "San Bernardo s/n, 47359 Valbuena de Duero, Valladolid, Spain",
+      "neighborhood": "Valbuena de Duero",
+      "cuisine": "Creative regional cuisine in a 12th-century Cistercian monastery; tasting menus of 6-10 courses; Converso estate wine on the list",
+      "cellar_size": null,
+      "awards": [],
+      "description": "Restaurant in the historic Cistercian Monasterio de Valbuena, one of Europe's best-preserved 12th-century monasteries. Tasting menus present classic Castilian dishes with modern technique; the hotel's own Converso Tempranillo features prominently on the regional wine list.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.castillatermal.com/en/hotels/castile-and-leon/castilla-termal-monasterio-de-valbuena/rooms/",
+        "address_quoted": "San Bernardo, Valbuena de Duero, Valladolid",
+        "open_status": "open",
+        "open_evidence_url": "https://grapeescapes.net/destinations/ribera-del-duero/the-tours/ribera-del-duero-wine-tour-and-spa-castilla-termal-monasterio-de-valbuena/",
+        "cuisine_evidence_url": "https://www.winepaths.com/destination/spain/ribera-del-duero/castilla-termal-monasterio-de-valbuena",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "molino-de-palacios",
+      "name": "Molino de Palacios",
+      "address": "Av. de la Constitucion 16, 47300 Penafiel, Valladolid, Spain",
+      "neighborhood": "Penafiel",
+      "cuisine": "Castilian grill in a 16th-century restored flour mill; roast lamb, game and mushroom specialties; extensive Ribera del Duero wine list",
+      "cellar_size": null,
+      "awards": [
+        {"source": "Asociacion Chefs de Castilla y Leon", "year": 2010}
+      ],
+      "description": "Restored 16th-century flour mill on the Duraton river in Penafiel. Member of the Castile and Leon Master Chefs Association; wood-fired roast lamb, marinated game and seasonal mushrooms paired with an extensive DO Ribera del Duero wine list.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://molinodepalacios.com/bodega/",
+        "address_quoted": "Av. de la Constitucion, 16, 47300 - Penafiel, Valladolid, Spain",
+        "open_status": "open",
+        "open_evidence_url": "https://rutadelvinoriberadelduero.es/en/directories/molino-de-palacios-grill-restaurant/",
+        "cuisine_evidence_url": "https://www.provinciadevalladolid.com/en/-/molino-de-palacios",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "restaurante-emilio-moro",
+      "name": "Restaurante Emilio Moro",
+      "address": "Ctra. Penafiel-Vitoria s/n, 47315 Pesquera de Duero, Valladolid, Spain",
+      "neighborhood": "Pesquera de Duero",
+      "cuisine": "Castilian wine-country cuisine; roast suckling lamb; complete Emilio Moro estate wine list",
+      "cellar_size": null,
+      "awards": [],
+      "description": "Estate restaurant at Bodegas Emilio Moro on the Golden Mile. Gastronomic experience package includes the full winery visit followed by a seasonal menu with roast lechazo; exclusively the Emilio Moro wine range paired with each course.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.emiliomoro.com/en/visitas-y-catas-ribera-del-duero/",
+        "address_quoted": "Ctra. Penafiel-Vitoria, S/N, 47315 Pesquera de Duero, Valladolid",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g2571837-d25411393-Reviews-Restaurante_Emilio_Moro-Pesquera_de_Duero_Province_of_Valladolid_Castile_.html",
+        "cuisine_evidence_url": "https://www.emiliomoro.com/en/bodegas-emilio-moro-presents-an-exceptional-gastronomic-experience-for-wine-tourism-lovers/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "restaurante-torremilanos",
+      "name": "Restaurante Torremilanos",
+      "address": "Nacional 122 Km. 274, 09400 Aranda de Duero, Burgos, Spain",
+      "neighborhood": "Aranda de Duero",
+      "cuisine": "Traditional Castilian cuisine and creative dishes; roast suckling lamb; wine list from the estate and wider Ribera del Duero DO",
+      "cellar_size": null,
+      "awards": [],
+      "description": "Restaurant within the Finca Torremilanos estate hotel in Aranda de Duero, one of the founding producers of the DO Ribera del Duero. Traditional roast lamb alongside creative seasonal dishes; the estate's own biodynamic wines anchor the list.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.hoteltorremilanos.es/en/restaurant-in-aranda-duero-gastronomy-in-torremilanos/",
+        "address_quoted": "Nacional 122, km. 274, 09400 Aranda de Duero, Burgos",
+        "open_status": "open",
+        "open_evidence_url": "https://rutadelvinoriberadelduero.es/en/directories/finca-torremilanos/",
+        "cuisine_evidence_url": "https://www.torremilanos.com/en/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "guyot-lavida",
+      "name": "Guyot at LaVida",
+      "address": "Plaza Mayor 1, Torre de Penafiel, 47300 Penafiel, Valladolid, Spain",
+      "neighborhood": "Torre de Penafiel",
+      "cuisine": "Regional wine-country cuisine in a 17th-century village wine press; focus on Castilla y Leon terroir; vinotherapy spa hotel setting",
+      "cellar_size": null,
+      "awards": [],
+      "description": "Restaurant within the LaVida Vino Spa Hotel in Torre de Penafiel, set inside the restored 17th-century communal wine press of the village. Wine-focused menu drawing on the Ribera del Duero zone; vinotherapy treatments available in the adjacent spa.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://lavida.es/en/",
+        "address_quoted": "Plaza Mayor No 1, Torre De Penafiel, Spain",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Hotel_Review-g1026109-d1069891-Reviews-Lavida_Vino_Spa_Hotel-Penafiel_Province_of_Valladolid_Castile_and_Leon.html",
+        "cuisine_evidence_url": "https://rutadelvinoriberadelduero.es/en/directories/lavida-vino-spa-hotel-rural/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "restaurante-comenge",
+      "name": "Restaurante Comenge",
+      "address": "Camino del Castillo s/n, 47346 Curiel del Duero, Valladolid, Spain",
+      "neighborhood": "Curiel de Duero",
+      "cuisine": "Quality gastronomy with local organic produce; panoramic views from the castle-side terrace; exclusive Comenge organic wine list",
+      "cellar_size": null,
+      "awards": [],
+      "description": "Panoramic restaurant at Bodegas Comenge at the base of Curiel de Duero castle. Reservation required; quality cuisine paired exclusively with the organic Comenge estate range; castle and vine views from the terrace.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.comenge.com/en/enoturismo-ribera-del-duero/",
+        "address_quoted": "Camino del Castillo s/n, 47346 Curiel del Duero, Spain",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g1991467-d3750507-Reviews-Bodegas_Comenge-Curiel_de_Duero_Province_of_Valladolid_Castile_and_Leon.html",
+        "cuisine_evidence_url": "https://rutadelvinoriberadelduero.es/en/directories/comenge-winery/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "restaurante-pago-capellanes",
+      "name": "Restaurante Pago de los Capellanes",
+      "address": "Camino de los Capellanes s/n, 09314 Pedrosa de Duero, Burgos, Spain",
+      "neighborhood": "Pedrosa de Duero",
+      "cuisine": "Wine-pairing cellar restaurant in a barrel-aged room; seasonal menu designed around Ribera del Duero Tempranillo",
+      "cellar_size": null,
+      "awards": [],
+      "description": "Estate restaurant at the Pago de los Capellanes winery in Pedrosa de Duero. Seasonal menus designed to complement the estate's Crianza, Reserva and single-parcel wines; underground barrel cellar provides the dining setting.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.winepaths.com/wine/spain/ribera-del-duero/restaurants",
+        "address_quoted": "Pedrosa de Duero, Burgos, Spain",
+        "open_status": "unknown",
+        "open_evidence_url": "https://www.tripadvisor.com/Restaurants-g187490-oa0-Castile_and_Leon.html",
+        "cuisine_evidence_url": "https://www.cellartours.com/blog/spain/wine-tasting-in-ribera-del-duero",
+        "checked_on": "2026-05-28"
+      }
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "day_trips_wine": [
+    {
+      "slug": "burgos-city",
+      "name": "Burgos",
+      "distance_km": 90,
+      "travel_time": "1 hour by car from Aranda de Duero",
+      "description": "The Gothic capital of Old Castile is the nearest major city to the Burgos sub-zone of Ribera del Duero. The cathedral (a UNESCO World Heritage Site, a notable example of High Gothic architecture) pairs naturally with a morning of wine tasting at nearby estates before an afternoon in the city. Burgos is also the gateway to the Atapuerca archaeological sites (pre-human fossils, UNESCO Heritage). The city's signature dish is morcilla (blood sausage), which pairs classically with local Roble and Crianza. Several restaurants near the cathedral pour Ribera del Duero wines by the glass.",
+      "signature_pours": ["DO Ribera del Duero Crianza from local Burgos-province bodegas", "Morcilla de Burgos paired with young Tinto Fino"],
+      "recommended_vineyards": ["bodegas-tarsus", "garcia-figuero", "bodegas-hermanos-sastre"],
+      "highlights": ["Burgos Cathedral (UNESCO)", "Atapuerca archaeological site (UNESCO)", "Morcilla de Burgos gastronomy"],
+      "verified": {
+        "source_url": "https://winetourismspain.com/blog/how-get-ribera-del-duero/",
+        "address_quoted": null,
+        "open_status": "open",
+        "open_evidence_url": "https://rutadelvinoriberadelduero.es/en/inicio/",
+        "cuisine_evidence_url": "https://www.spain.info/en/oenology/wine-route-ribera-duero/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "valladolid-castile-capital",
+      "name": "Valladolid",
+      "distance_km": 65,
+      "travel_time": "50 minutes by car from Aranda de Duero",
+      "description": "The capital of Castilla y Leon and Castile's former royal city sits at the western edge of the Ribera del Duero DO. The Museo Nacional de Escultura (polychrome religious sculpture) and the Plaza Mayor are central attractions. Valladolid has a serious wine culture: several wine bars and restaurants specialise in DO Ribera del Duero and the neighbouring DO Rueda whites. The annual Vino + Tapas event in May takes place on Calle Acera de Recoletos. Day-trip visitors commonly combine a winery visit on the 'Golden Mile' (Quintanilla de Onesimo - Pesquera corridor) with lunch or dinner in the city.",
+      "signature_pours": ["DO Ribera del Duero Reserva at city wine bars", "DO Rueda Verdejo (neighbouring appellation)"],
+      "recommended_vineyards": ["bodegas-vega-sicilia", "bodegas-arzuaga-navarro", "bodegas-aalto"],
+      "highlights": ["Museo Nacional de Escultura", "Plaza Mayor", "Semana Santa processions (Easter)", "Vino + Tapas event (May)"],
+      "verified": {
+        "source_url": "https://winetourismspain.com/blog/how-get-ribera-del-duero/",
+        "address_quoted": null,
+        "open_status": "open",
+        "open_evidence_url": "https://www.riberadelduero.es/en/ribera-del-duero",
+        "cuisine_evidence_url": "https://enoturismo.matarromera.es/valladolid/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "segovia-aqueduct-region",
+      "name": "Segovia",
+      "distance_km": 120,
+      "travel_time": "1.5 hours by car from Aranda de Duero",
+      "description": "Segovia's Roman aqueduct (2,000-year-old engineering landmark, UNESCO Heritage) and the Alcazar castle combine with one of Spain's most celebrated food traditions: cochinillo asado (roast suckling pig). The Segovia province is the southernmost tip of the Ribera del Duero DO; some estates in this sub-zone can be visited en route. Segovia's main restaurants pour Ribera del Duero alongside the local dish. An easy half-day extension to a Ribera visit from Madrid; alternatively, base in Segovia and day-trip north to the Ribera estates.",
+      "signature_pours": ["DO Ribera del Duero (from Segovia sub-zone estates)", "Cochinillo asado paired with Ribera Crianza"],
+      "recommended_vineyards": [],
+      "highlights": ["Roman Aqueduct (UNESCO)", "Alcazar de Segovia", "Cochinillo asado (roast suckling pig, regional speciality)"],
+      "verified": {
+        "source_url": "https://winetourismspain.com/wine-regions/ribera-del-duero/",
+        "address_quoted": null,
+        "open_status": "open",
+        "open_evidence_url": "https://www.spain.info/en/oenology/wine-route-ribera-duero/",
+        "cuisine_evidence_url": "https://epicureanways.com/ribera-del-duero-wine-tour",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "salamanca-city",
+      "name": "Salamanca",
+      "distance_km": 160,
+      "travel_time": "1 hour 45 minutes by car from Aranda de Duero",
+      "description": "Salamanca - the 'golden city' of warm sandstone cathedrals and one of Europe's oldest universities (founded 1218) - is a logical extension of a longer Ribera del Duero trip. Though not itself a wine-producing town, Salamanca's restaurants and tapas bars near the Plaza Mayor pour excellent Ribera del Duero alongside Toro, Rueda, and Arribes wines. The twin cathedrals and the baroque Palacio de Montarco are architectural highlights. Particularly worthwhile in combination with a Toro day-trip: drive west from Aranda through Valladolid to Toro, then continue to Salamanca for the evening.",
+      "signature_pours": ["DO Toro and DO Ribera del Duero at Salamanca tapas bars"],
+      "recommended_vineyards": ["hacienda-zorita"],
+      "highlights": ["Universidad de Salamanca (13th century)", "Plaza Mayor", "Catedral Nueva and Catedral Vieja"],
+      "verified": {
+        "source_url": "https://winetourismspain.com/wine-regions/ribera-del-duero/",
+        "address_quoted": null,
+        "open_status": "open",
+        "open_evidence_url": "https://www.spain.info/en/oenology/wine-route-ribera-duero/",
+        "cuisine_evidence_url": "https://www.turismocastillayleon.com/en/enotourism-gastronomy/wine-routes/ribera-del-duero-wine-route",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "madrid-capital",
+      "name": "Madrid",
+      "distance_km": 160,
+      "travel_time": "1 hour 45 minutes to 2 hours by car from Aranda de Duero; 2-3 hours by bus",
+      "description": "Madrid is the natural urban terminus for a Ribera del Duero trip, reachable by direct bus (2-3 hours) or car from Aranda de Duero. The capital's wine bar scene is extensive, and numerous Ribera del Duero producers maintain Madrid relationships through hotel-restaurant accounts and specialist wine retailers. For dining, Madrid offers everything from classic Castilian cocido to Michelin-starred modern Spanish cooking. Wine-curious visitors can combine an afternoon at the Prado or Reina Sofia with an evening at one of Madrid's specialist Ribera del Duero wine bars.",
+      "signature_pours": ["DO Ribera del Duero by the glass at Madrid specialist wine bars", "Jamón Iberico paired with Reserva"],
+      "recommended_vineyards": ["bodegas-protos", "pago-de-carraovejas"],
+      "highlights": ["Museo del Prado", "Museo Reina Sofia", "Mercado de San Miguel tapas", "El Rastro Sunday market"],
+      "verified": {
+        "source_url": "https://winetourismspain.com/blog/how-get-ribera-del-duero/",
+        "address_quoted": null,
+        "open_status": "open",
+        "open_evidence_url": "https://www.riberadelduero.es/en/ribera-del-duero",
+        "cuisine_evidence_url": "https://madridwine.com/ribera-del-duero-tours/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "soria-atauta-old-vines",
+      "name": "Soria and the Atauta Valley",
+      "distance_km": 75,
+      "travel_time": "1 hour by car east from Aranda de Duero",
+      "description": "The provincial capital of Soria is a gateway to the easternmost sub-zone of Ribera del Duero - the high-altitude Atauta valley where pre-phylloxera Tinto Fino vines, some 150-180 years old, survive on sandy soils that repelled the louse in 1909. The drive from Aranda along the N-122 follows the Duero river and passes through the heart of the DO. Soria itself is one of Spain's smallest provincial capitals with a well-preserved medieval centre. Dominio de Atauta and related old-vine producers can be visited; the Ruta del Vino lists approved cellar visits in the Soria sub-zone.",
+      "signature_pours": ["Dominio de Atauta old-vine Tinto Fino", "DO Ribera del Duero Soria sub-zone wines"],
+      "recommended_vineyards": ["dominio-de-atauta"],
+      "highlights": ["Numancia archaeological site (Celtiberian fortress)", "Soria medieval city centre", "Pre-phylloxera vine landscapes of Atauta"],
+      "verified": {
+        "source_url": "https://spanishwinelover.com/soria-where-old-vines-make-a-difference-in-ribera-del-duero",
+        "address_quoted": null,
+        "open_status": "open",
+        "open_evidence_url": "https://rutadelvinoriberadelduero.es/en/directories/dominio-de-atauta-winery/",
+        "cuisine_evidence_url": "https://spanishwinelover.com/dominio-de-atauta-making-wine-in-a-paradise-of-hundred-year-old-vines",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "do-toro-zamora",
+      "name": "DO Toro",
+      "distance_km": 150,
+      "travel_time": "1 hour 45 minutes by car from Aranda de Duero via Valladolid",
+      "description": "DO Toro in Zamora province is the westernmost major Tempranillo appellation on the Duero before it crosses into Portugal. The Toro clone of Tempranillo (Tinta de Toro) produces characteristically richer, more tannic wines than Ribera del Duero, with a distinctive mineral iron quality. Several prestigious Ribera producers also have Toro projects (Vega Sicilia's Pintia, Mariano Garcia's Mauro-dos). The town of Toro has a fine Romanesque collegiate church. A logical western extension for visitors tracing the full Duero wine corridor.",
+      "signature_pours": ["DO Toro Tinta de Toro (Bodega Numanthia, Pintia by Vega Sicilia)", "Ribera-Toro comparison tasting"],
+      "recommended_vineyards": [],
+      "highlights": ["Colegiata de Santa Maria la Mayor (Toro)", "Duero river landscape", "Romanesque architecture corridor"],
+      "verified": {
+        "source_url": "https://www.cellartours.com/spain/spanish-wine-regions/toro",
+        "address_quoted": null,
+        "open_status": "open",
+        "open_evidence_url": "https://www.bbr.com/region-1469-toro",
+        "cuisine_evidence_url": "https://vinous.com/articles/duero-from-ribera-to-toro-via-rueda-and-a-few-other-detours-jun-2025",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "rioja-wine-region",
+      "name": "La Rioja Wine Region",
+      "distance_km": 190,
+      "travel_time": "2 hours by car north from Aranda de Duero via Burgos",
+      "description": "Spain's most internationally recognised wine appellation is a 2-hour drive north via Burgos, making it a feasible long day trip or the natural overnight extension of a Ribera del Duero visit. Haro, Logrono, and Laguardia are the main wine towns, with the Frank Gehry-designed Marques de Riscal hotel, the Dinastia Vivanco wine museum, and the limestone cliff villages of the Rioja Alavesa all offering strong contrasts to Ribera's Castilian meseta character. Rioja's soft, vanilla-rich Tempranillo (here called simply Tempranillo or Garnacha-blended) sets up useful comparative tastings against Ribera's more structured Tinto Fino style.",
+      "signature_pours": ["DOCa Rioja Reserva and Gran Reserva", "Rioja vs Ribera del Duero Tempranillo comparative tasting"],
+      "recommended_vineyards": [],
+      "highlights": ["Marques de Riscal (Frank Gehry architecture)", "Dinastia Vivanco Museum of Wine Culture", "Laguardia cliff village", "Haro wine district"],
+      "verified": {
+        "source_url": "https://winetourismspain.com/wine-regions/ribera-del-duero/",
+        "address_quoted": null,
+        "open_status": "open",
+        "open_evidence_url": "https://riojawinetrips.com/how-get-to-rioja/",
+        "cuisine_evidence_url": "https://winetoursrioja.com/plan-trip-to-rioja-wine-region/",
+        "checked_on": "2026-05-28"
+      }
+    }
+  ]
+}

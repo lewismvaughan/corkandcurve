@@ -1,0 +1,164 @@
+{
+  "wine_festivals": [
+    {
+      "slug": "gran-fiesta-vendimia-ribera-del-duero",
+      "name": "Gran Fiesta de la Vendimia DO Ribera del Duero",
+      "recurrence_pattern": "annual, early September",
+      "start_month": "September",
+      "duration": "4 days",
+      "host_organization": "Consejo Regulador DO Ribera del Duero and Ayuntamiento de Aranda de Duero",
+      "location": "Aranda de Duero, Burgos",
+      "description": "The DO's flagship harvest festival, held annually in Aranda de Duero since 2018 (eighth edition in 2025). Features winery booths in the Plaza Mayor offering tastings, traditional grape-treading ceremony, live music, and lechazo gastronomy. Multiple bodegas participate; tasting wristbands give access to all producer stands. A cultural programme accompanies the wine content.",
+      "featured_producers": ["Consejo Regulador member bodegas across the DO"],
+      "ticket_required": true,
+      "verified": {
+        "source_url": "https://www.riberadelduero.es/en/node/2835",
+        "address_quoted": null,
+        "open_status": "open",
+        "open_evidence_url": "https://rutadelvinoriberadelduero.es/evento/viii-gran-fiesta-de-la-vendimia/",
+        "cuisine_evidence_url": "https://vinosdo.wine/noticias/vino-tradicion-y-cultura-la-d-o-ribera-del-duero-celebra-la-viii-edicion-de-su-gran-fiesta-de-la-vendimia/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "premios-envero",
+      "name": "Premios Envero y EnveroFest",
+      "recurrence_pattern": "annual, late May (tasting and awards) + early June (gala)",
+      "start_month": "May",
+      "duration": "Weekend event (tasting) + separate gala evening",
+      "host_organization": "Ayuntamiento de Aranda de Duero",
+      "location": "Aranda de Duero, Burgos",
+      "description": "Now in its 26th edition (2025), the Premios Envero is the region's premier consumer wine competition. The flagship 'mil siempre aciertan' format recruits 1,000 blind tasters to assess all submitted DO wines; the winners are announced at the outdoor EnveroFest at Parque de la Isla on the last Saturday of May, with live folk music and the largest outdoor Ribera del Duero wine bar. A formal awards gala follows in early June. In 2024, 89 wineries submitted 248 samples. Entry is ticketed for tasting; the awards ceremony is ticketed separately.",
+      "featured_producers": ["All DO Ribera del Duero member bodegas (open submission)"],
+      "ticket_required": true,
+      "verified": {
+        "source_url": "https://premiosenvero.arandadeduero.es/enverofest.php",
+        "address_quoted": null,
+        "open_status": "open",
+        "open_evidence_url": "https://rutadelvinoriberadelduero.es/evento/premios-envero-2025/",
+        "cuisine_evidence_url": "https://www.arandadeduero.es/plazo-de-inscripcion-de-bodegas-para-la-cata-1000-siempre-aciertan-de-los-premios-envero-2024/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "fiestas-patronales-aranda-septiembre",
+      "name": "Fiestas Patronales de Aranda de Duero",
+      "recurrence_pattern": "annual, early September",
+      "start_month": "September",
+      "duration": "8 days",
+      "host_organization": "Ayuntamiento de Aranda de Duero",
+      "location": "Aranda de Duero, Burgos",
+      "description": "Aranda de Duero's main town festival overlaps with the harvest season and includes wine-themed events, peñas (private wine clubs) celebrations in the underground bodegas, and the 'Fiesta de las Penas' where wine clubs open their subterranean cellars to members and invited guests. The underground bodega network - 136 catalogued cellars with 4.2 km of galleries - is at its most socially active during the September festivities. Lechazo (roast suckling lamb) is the centrepiece gastronomy, paired with local Ribera reds.",
+      "featured_producers": ["Peñas arandinas (private wine clubs); local bodega open-door events"],
+      "ticket_required": false,
+      "verified": {
+        "source_url": "https://www.arandadeduero.es/concejalia/promocion/",
+        "address_quoted": null,
+        "open_status": "open",
+        "open_evidence_url": "https://rutadelvinoriberadelduero.es/en/directories/underground-wineries-of-aranda-de-duero/",
+        "cuisine_evidence_url": "https://larenlecres.com/en/tapas-pinchos-and-wines-in-aranda-de-duero/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "feria-penafiel-agosto",
+      "name": "Ferias y Fiestas de Peñafiel",
+      "recurrence_pattern": "annual, August",
+      "start_month": "August",
+      "duration": "5 days",
+      "host_organization": "Ayuntamiento de Peñafiel",
+      "location": "Peñafiel, Valladolid",
+      "description": "Peñafiel's annual town festival held beneath the hilltop castle - itself home to the Museo Provincial del Vino. Wine is inseparable from the celebrations: the castle's museum hosts special evening tastings and Bodegas Protos, whose cellars extend beneath the castle walls, often opens for extended visits during the fair. The event coincides with the weeks before harvest, when the grapes hanging on the terraced vineyards below the castle are approaching full ripeness.",
+      "featured_producers": ["Bodegas Protos", "Local Peñafiel-area bodegas"],
+      "ticket_required": false,
+      "verified": {
+        "source_url": "https://www.bodegasprotos.com/en/",
+        "address_quoted": null,
+        "open_status": "open",
+        "open_evidence_url": "https://rutadelvinoriberadelduero.es/en/winery-accessible-open-weekends-restaurant-events/bodegas-protos",
+        "cuisine_evidence_url": "https://www.tripadvisor.com/Attractions-g1026109-Activities-c36-t132-Penafiel_Province_of_Valladolid_Castile_and_Leon.html",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "vino-tapas-valladolid",
+      "name": "Ribera del Duero en Vino + Tapas, Valladolid",
+      "recurrence_pattern": "annual, mid-May",
+      "start_month": "May",
+      "duration": "3 days",
+      "host_organization": "DO Ribera del Duero Consejo Regulador",
+      "location": "Calle Acera de Recoletos, Valladolid",
+      "description": "The Ribera del Duero DO takes part annually in the Vino + Tapas event on Valladolid's main promenade. Winery stands pour current releases - Roble, Crianza, and Reserva - alongside local tapas producers. The three-day street event draws trade buyers and consumers and functions as a spring showcase of newly released vintages. The 2025 edition ran 16-18 May on Calle Acera de Recoletos.",
+      "featured_producers": ["Multiple DO Ribera del Duero member bodegas"],
+      "ticket_required": false,
+      "verified": {
+        "source_url": "https://www.riberadelduero.es/en/ribera-del-duero",
+        "address_quoted": null,
+        "open_status": "open",
+        "open_evidence_url": "https://rutadelvinoriberadelduero.es/en/inicio/",
+        "cuisine_evidence_url": "https://www.facebook.com/Riberadelduero/posts/ribera-del-duero-en-vino-tapas-en-valladolid-2025-del-16-al-18-de-mayo-la-acera-/1088177926676955/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "ruta-del-vino-open-cellars",
+      "name": "Ruta del Vino Ribera del Duero Open-Cellar Weekends",
+      "recurrence_pattern": "multiple weekends annually, spring and autumn",
+      "start_month": "April",
+      "duration": "Individual weekends (varied across the year)",
+      "host_organization": "Ruta del Vino Ribera del Duero (certified Spanish wine route)",
+      "location": "Multiple bodegas across the DO (Burgos, Valladolid, Soria, Segovia provinces)",
+      "description": "The Ruta del Vino Ribera del Duero coordinates open-cellar and tasting weekends across its certified member bodegas throughout the year, with concentrations in spring (April-May) and post-harvest (October-November). Individual estates announce open days for self-guided visitors; the Ruta's website lists participating bodegas and dates. Events range from guided cellar tours with two-wine flights to multi-course harvest lunches at estate restaurants. Some events require advance booking through the Ruta's central platform.",
+      "featured_producers": ["All Ruta del Vino certified member bodegas (50+ estates)"],
+      "ticket_required": true,
+      "verified": {
+        "source_url": "https://rutadelvinoriberadelduero.es/en/inicio/",
+        "address_quoted": null,
+        "open_status": "open",
+        "open_evidence_url": "https://www.spain.info/en/oenology/wine-route-ribera-duero/",
+        "cuisine_evidence_url": "https://www.turismocastillayleon.com/en/enotourism-gastronomy/wine-routes/ribera-del-duero-wine-route",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "castilla-leon-wine-days",
+      "name": "Wine Days in Castilla y Leon (Dia del Enoturismo)",
+      "recurrence_pattern": "annual, November",
+      "start_month": "November",
+      "duration": "1-2 days (varies by bodega)",
+      "host_organization": "Junta de Castilla y Leon and regional wine routes",
+      "location": "Multiple estates across Castilla y Leon, including Ribera del Duero DO",
+      "description": "The regional government of Castilla y Leon organises an annual Dia del Enoturismo (Wine Tourism Day) in November to promote off-season visits to the region's wine routes. Participating bodegas in Ribera del Duero offer free or discounted tours, tastings, and harvest-season events. The initiative aims to extend the tourism season beyond summer and harvest. Specific participating bodegas vary year by year; the Ruta del Vino website publishes the programme in October each year.",
+      "featured_producers": ["Participating Ruta del Vino member bodegas (varies annually)"],
+      "ticket_required": false,
+      "verified": {
+        "source_url": "https://www.turismocastillayleon.com/en/enotourism-gastronomy/wine-routes/ribera-del-duero-wine-route",
+        "address_quoted": null,
+        "open_status": "open",
+        "open_evidence_url": "https://rutadelvinoriberadelduero.es/en/inicio/",
+        "cuisine_evidence_url": "https://www.spain.info/en/oenology/wine-route-ribera-duero/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "feria-roa-burgos",
+      "name": "Ferias de Roa (Harvest Week)",
+      "recurrence_pattern": "annual, late September - early October",
+      "start_month": "September",
+      "duration": "3 days",
+      "host_organization": "Ayuntamiento de Roa de Duero",
+      "location": "Roa de Duero, Burgos",
+      "description": "Roa de Duero, a historic hilltop wine town in the heart of the Burgos sub-zone, holds its annual town fair in late September coinciding with the start of Tinto Fino harvest. Wine-oriented events include cooperative open tastings, local bodega visits, and traditional folk celebrations. Roa is also notable as the birthplace of Francisco Jimenez de Cisneros (Cardinal Cisneros) and has a medieval wine history predating the DO. The town's cooperative manages a significant share of the local harvest.",
+      "featured_producers": ["Bodegas Roda (nearby)", "Local Roa-area cooperatives"],
+      "ticket_required": false,
+      "verified": {
+        "source_url": "https://winetourismspain.com/wine-regions/ribera-del-duero/",
+        "address_quoted": null,
+        "open_status": "open",
+        "open_evidence_url": "https://rutadelvinoriberadelduero.es/en/inicio/",
+        "cuisine_evidence_url": "https://www.riberadelduero.es/en/ribera-del-duero",
+        "checked_on": "2026-05-28"
+      }
+    }
+  ]
+}

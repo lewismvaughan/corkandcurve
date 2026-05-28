@@ -54,7 +54,7 @@ RE_POINTS = re.compile(r"\b(?:9[0-9]|100)\s*\+?\s*(?:point|pt|pts|punti|/\s*100)
 # A critic/publication name within ~25 chars of a high (85-100) number.
 RE_CRITIC_NUM = re.compile(r"(?:" + "|".join(CRITICS) + r")\D{0,25}\b(?:8[5-9]|9[0-9]|100)\b", re.I)
 RE_NUM_CRITIC = re.compile(r"\b(?:8[5-9]|9[0-9]|100)\b\D{0,25}(?:" + "|".join(CRITICS) + r")", re.I)
-# Ranking phrases.
+# Ranking phrases (hard ranking claims).
 RE_RANK = re.compile(
     r"\btop\s*\d+\b(?:[^.]{0,40}\bwines?\b)?"
     r"|world'?s\s+\d+\s+(?:greatest|best|finest)"
@@ -62,6 +62,44 @@ RE_RANK = re.compile(
     r"|best\b[^.]{0,40}\bin the world\b"
     r"|top\s+\d+\s+[^.]{0,30}(?:wine|dessert|sweet|sparkling)",
     re.I,
+)
+
+# Soft-superlative phrases (added 2026-05-28 after Ribera Opus found 12).
+# Same categorical C0 ban applies — these belong to the same fabrication class
+# as the hard rankings, just dressed softer. Examples Opus stripped:
+# "Spain's most storied red", "anywhere in the world", "one of the great
+# wines of the Burgos sector", "the legendary Unico", "put the region on
+# the world map", "regarded as the defining natural-wine producer in the
+# appellation", "the most prestigious postal code in Ribera del Duero".
+SOFT_ADJ = r"(?:celebrated|prominent|important|iconic|defining|prestigious|storied|legendary|celebrated|renowned|concentrated)"
+COUNTRIES = r"(?:spain|italy|france|portugal|germany|austria|chile|argentina|south\s*africa|australia|new\s*zealand|hungary|greece)"
+RE_SOFT_RANK = re.compile(
+    # "<country>'s most <adj>" / "the world's most <adj>"
+    rf"\b(?:{COUNTRIES}|the\s+world)'?s\s+most\s+\w+"
+    # "anywhere in the world", "best ... in the world"
+    rf"|\banywhere\s+in\s+the\s+world\b"
+    # "one of the great <category>", "one of the most <adj> <X>"
+    rf"|\bone\s+of\s+the\s+(?:great|most\s+{SOFT_ADJ})\b"
+    # "the legendary <entity>"
+    rf"|\bthe\s+legendary\s+\w+"
+    # "put <region> on the (world) map"
+    rf"|\bput\s+(?:the\s+)?\w[\w\s-]{{0,30}}?\s+on\s+the\s+(?:world\s+)?map\b"
+    # "regarded as the defining", "the defining X"
+    rf"|\bregarded\s+as\s+the\s+defining\b"
+    rf"|\bthe\s+defining\s+\w[\w-]*\s+(?:in|of)\b"
+    # "the most prestigious X"
+    rf"|\bthe\s+most\s+prestigious\s+\w+"
+    # "synonymous with <country>'s great X"
+    rf"|\bsynonymous\s+with\s+(?:one\s+of\s+)?{COUNTRIES}'?s\s+(?:great|greatest)\b",
+    re.I,
+)
+
+# First-name-only chef/sommelier/winemaker attribution risk.
+# "Chef Marina" / "sommelier Roberto" without a verifiable last name +
+# source is a fabrication risk (Ribera 2026-05-28 — Ambivium's fabricated
+# "Chef Cristobal Munoz" was actually Marina de la Hoz).
+RE_FIRSTNAME_ATTRIB = re.compile(
+    r"\b(?:chef|sommelier|owner|winemaker|head\s*chef)\s+[A-Z][a-z]+\b(?!\s+[A-Z])",
 )
 
 
@@ -74,6 +112,10 @@ def _scan_text(s: str) -> str | None:
         return "critic-name-near-score"
     if RE_RANK.search(s):
         return "ranking-claim"
+    if RE_SOFT_RANK.search(s):
+        return "soft-superlative"
+    if RE_FIRSTNAME_ATTRIB.search(s):
+        return "firstname-only-attribution"
     return None
 
 

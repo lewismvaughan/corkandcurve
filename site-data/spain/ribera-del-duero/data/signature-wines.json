@@ -1,0 +1,236 @@
+{
+  "signature_wines": [
+    {
+      "slug": "vega-sicilia-unico",
+      "name": "Vega Sicilia Unico",
+      "producer": "bodegas-vega-sicilia",
+      "varietals": [
+        "Tinto Fino",
+        "Cabernet Sauvignon"
+      ],
+      "style": "still red Tinto Fino blend, extended oak-and-bottle aged",
+      "vintage_range": "released after a minimum of 10 years; 1915 first vintage",
+      "price_band": "EUR 300 to 600 at retail",
+      "tasting_notes": "Dried cherry, cedar and leather over earthy mineral with a very long finish. Extended ageing in large oak vats, American casks and French barriques integrates extraordinary complexity. Source: vega-sicilia.com/en/wines/unico/.",
+      "editorial_score": 5.0,
+      "description": "Tinto Fino-led blend from the estate founded in 1864 at Valbuena de Duero. Aged a minimum of ten years before release, each vintage is held back until the winery considers it ready.",
+      "verified": {
+        "source_url": "https://www.vega-sicilia.com/en/wines/unico/",
+        "open_status": "open",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "vega-sicilia-valbuena-5",
+      "name": "Valbuena 5 Grado",
+      "producer": "bodegas-vega-sicilia",
+      "varietals": [
+        "Tinto Fino",
+        "Merlot"
+      ],
+      "style": "still red Tinto Fino and Merlot blend, five-year oak-aged",
+      "vintage_range": "five years of oak ageing before release; produced since 1915",
+      "price_band": "EUR 100 to 200 at retail",
+      "tasting_notes": "Dark cherry and cedar over vanilla and mineral spice, with firm structure and a long finish. Named for its five years of American and French oak ageing. Source: vega-sicilia.com/en/wines/valbuena/.",
+      "editorial_score": 4.8,
+      "description": "Vega Sicilia's earlier-release sibling to Unico, blending Tinto Fino and Merlot from the same Valbuena de Duero estate. Five years of oak ageing produce a structured, complex red offering an earlier window into the estate's character.",
+      "verified": {
+        "source_url": "https://www.vega-sicilia.com/en/wines/valbuena/",
+        "open_status": "open",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "alion-reserva",
+      "name": "Alion Reserva",
+      "producer": "bodegas-alion",
+      "varietals": [
+        "Tinto Fino"
+      ],
+      "style": "still red 100 percent Tinto Fino Reserva, French-oak aged",
+      "vintage_range": "approachable from 5 to 12 years, cellar 20; first vintage 1991",
+      "price_band": "EUR 60 to 100 at retail",
+      "tasting_notes": "Blackberry and blueberry over cedar, violet and toasted oak, with a clean graphite-mineral finish. Aged 14 months in new French barriques, contrasting with the traditional American-oak style of Unico. Source: vega-sicilia.com/en/wines/alion/.",
+      "editorial_score": 4.8,
+      "description": "100 percent Tinto Fino Reserva from the Vega Sicilia group's second estate, Bodegas Alion, founded in 1991 at Padilla de Duero. Aged in new French oak, it presents a modern counterpart to the classical Unico style.",
+      "verified": {
+        "source_url": "https://www.vega-sicilia.com/en/wines/alion/",
+        "open_status": "open",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "pingus",
+      "name": "Pingus",
+      "producer": "dominio-de-pingus",
+      "varietals": [
+        "Tinto Fino"
+      ],
+      "style": "still red 100 percent old-vine Tinto Fino, micro-production",
+      "vintage_range": "approachable from 10 to 15 years, cellar 30; first vintage 1995",
+      "price_band": "EUR 800 to 2000 at retail",
+      "tasting_notes": "Concentrated dark cherry, blackberry and truffle over graphite and mineral depth, with dense ripe tannins and a very long finish. From pre-phylloxera ungrafted old vines in La Horra, biodynamically farmed. Source: pingus.es/wines/pingus/.",
+      "editorial_score": 5.0,
+      "description": "Peter Sisseck's flagship micro-cuvee from pre-phylloxera Tinto Fino vines in La Horra, first made in 1995. Produced in tiny quantities and aged approximately 18 months in new French oak for extreme concentration and mineral depth.",
+      "verified": {
+        "source_url": "https://pingus.es/wines/pingus/",
+        "open_status": "open",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "flor-de-pingus",
+      "name": "Flor de Pingus",
+      "producer": "dominio-de-pingus",
+      "varietals": [
+        "Tinto Fino"
+      ],
+      "style": "still red 100 percent Tinto Fino, second label of Dominio de Pingus",
+      "vintage_range": "approachable from 5 to 8 years, cellar 20; first vintage 1996",
+      "price_band": "EUR 80 to 150 at retail",
+      "tasting_notes": "Dark cherry and plum over cedar, earth and mineral, with firm tannins and a long finish. Produced from purchased old-vine Tinto Fino across the DO, sharing the estate's biodynamic philosophy. Source: pingus.es/wines/flor-de-pingus/.",
+      "editorial_score": 4.7,
+      "description": "The second label of Dominio de Pingus, produced from purchased old-vine Tinto Fino fruit across DO Ribera del Duero since 1996. Aged approximately 12 months in French oak barriques, it delivers concentrated dark fruit with mineral depth.",
+      "verified": {
+        "source_url": "https://pingus.es/wines/flor-de-pingus/",
+        "open_status": "open",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "tinto-pesquera-gran-reserva",
+      "name": "Tinto Pesquera Gran Reserva",
+      "producer": "tinto-pesquera",
+      "varietals": [
+        "Tinto Fino"
+      ],
+      "style": "still red 100 percent Tinto Fino Gran Reserva, American oak aged",
+      "vintage_range": "exceptional vintages only; approachable from 8 to 12 years, cellar 20; first vintage 1982",
+      "price_band": "EUR 50 to 100 at retail",
+      "tasting_notes": "Dried cherry, tobacco and cedar over leather, graphite and chocolate, with an extended American-oak finish. Produced only in exceptional vintages by Alejandro Fernandez, the winemaker who helped establish the DO in 1982. Source: tintopesquera.com/en/wines/.",
+      "editorial_score": 4.7,
+      "description": "The summit of the Alejandro Fernandez estate range, produced only in top vintages from Pesquera de Duero. Extended American oak ageing over a minimum of 24 months produces a wine of dried fruit, leather and tobacco depth.",
+      "verified": {
+        "source_url": "https://tintopesquera.com/en/wines/",
+        "open_status": "open",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "tinto-pesquera-janus-gran-reserva",
+      "name": "Pesquera Janus Gran Reserva",
+      "producer": "tinto-pesquera",
+      "varietals": [
+        "Tinto Fino"
+      ],
+      "style": "still red 100 percent Tinto Fino prestige label, multi-year American oak aged",
+      "vintage_range": "exceptional vintages only, extended cellar at the winery; first vintage 1982",
+      "price_band": "EUR 120 to 300 at retail",
+      "tasting_notes": "Dried cherry, dried plum, cedar, tobacco and sandalwood over dark fruit preserve and graphite mineral, with a very long finish. Released in tiny quantities years after harvest, only in exceptional years. Source: tintopesquera.com/en/wines/.",
+      "editorial_score": 4.9,
+      "description": "Tinto Pesquera's rare prestige label, produced only in exceptional years and aged beyond the Gran Reserva requirement. First made with the inaugural DO Ribera del Duero 1982 vintage. A collector's wine of concentrated dried fruit and tobacco complexity.",
+      "verified": {
+        "source_url": "https://tintopesquera.com/en/wines/",
+        "open_status": "open",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "aalto-ps",
+      "name": "Aalto PS",
+      "producer": "bodegas-aalto",
+      "varietals": [
+        "Tinto Fino"
+      ],
+      "style": "still red 100 percent old-vine Tinto Fino, Pagos Seleccionados",
+      "vintage_range": "approachable from 8 to 12 years, cellar 25; first vintage 1999",
+      "price_band": "EUR 80 to 130 at retail",
+      "tasting_notes": "Concentrated blackberry, cedar and truffle over dark plum, graphite and dark chocolate, with very high acidity and a very long mineral finish. From the oldest Tinto Fino plots at Quintanilla de Arriba, aged 20 months in new French oak. Source: aalto.es/en/wines/.",
+      "editorial_score": 4.9,
+      "description": "Aalto PS (Pagos Seleccionados) is the prestige single-plot cuvee from Bodegas Aalto, founded in 1999 by former Vega Sicilia winemaker Mariano Garcia. Sourced from the oldest Tinto Fino vines in the estate, it delivers greater concentration and ageing potential than the flagship Aalto.",
+      "verified": {
+        "source_url": "https://www.aalto.es/en/wines/",
+        "open_status": "open",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "el-anejon-de-carraovejas",
+      "name": "El Anejon de Carraovejas",
+      "producer": "pago-de-carraovejas",
+      "varietals": [
+        "Tinto Fino",
+        "Cabernet Sauvignon",
+        "Merlot"
+      ],
+      "style": "still red Tinto Fino and Bordeaux blend, prestige single-vineyard",
+      "vintage_range": "approachable from 10 to 12 years, cellar 30; first vintage 1999",
+      "price_band": "EUR 120 to 200 at retail",
+      "tasting_notes": "Concentrated black fruit, cedar and truffle over dark plum, graphite and licorice with a very long mineral finish. Sourced from the oldest parcels at the estate near Penafiel, aged 22 months in new French oak. Source: pagodecarraovejas.com/en/wines/.",
+      "editorial_score": 4.9,
+      "description": "Pago de Carraovejas's prestige single-vineyard cuvee from the oldest parcels on the estate near Penafiel, first produced in 1999. A Tinto Fino and Bordeaux blend aged 22 months in new French oak with extraordinary concentration and longevity.",
+      "verified": {
+        "source_url": "https://www.pagodecarraovejas.com/en/wines/",
+        "open_status": "open",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "malleolus-de-valderramiro",
+      "name": "Malleolus de Valderramiro",
+      "producer": "bodegas-emilio-moro",
+      "varietals": [
+        "Tinto Fino"
+      ],
+      "style": "still red 100 percent single-vineyard Tinto Fino",
+      "vintage_range": "approachable from 8 to 12 years, cellar 25; first vintage 2000",
+      "price_band": "EUR 80 to 130 at retail",
+      "tasting_notes": "Dark cherry, blackberry and cedar over black fruit, graphite and earthy mineral, with high tannins, high acidity and a very long finish. From the Valderramiro single-vineyard parcel at Pesquera de Duero, aged 18 months in new French oak. Source: emiliomoro.com/en/wines/.",
+      "editorial_score": 4.9,
+      "description": "Emilio Moro's single-vineyard flagship from the Valderramiro parcel at Pesquera de Duero, first produced in 2000. Aged 18 months in new French oak, it delivers mineral depth and structure that reward long cellaring.",
+      "verified": {
+        "source_url": "https://www.emiliomoro.com/en/wines/",
+        "open_status": "open",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "dominio-del-aguila-reserva",
+      "name": "Dominio del Aguila Reserva",
+      "producer": "dominio-del-aguila",
+      "varietals": [
+        "Tinto Fino"
+      ],
+      "style": "still red Tinto Fino Reserva, organic, large-foudre aged",
+      "vintage_range": "approachable from 5 to 8 years, cellar 20; first vintage 2010",
+      "price_band": "EUR 40 to 70 at retail",
+      "tasting_notes": "Dark cherry, wild herbs and earth over plum, dried herbs and mineral, with firm tannins and a long finish. From certified-organic old vines at La Aguilera, aged in large French oak foudres. Source: dominiodelaguila.com/en/wines/.",
+      "editorial_score": 4.7,
+      "description": "The estate Reserva from Jorge Monzon's certified-organic winery at La Aguilera, Burgos. Old Tinto Fino vines aged in large foudres produce a mineral, structured wine of real high-altitude terroir character, first made in 2010.",
+      "verified": {
+        "source_url": "https://www.dominiodelaguila.com/en/wines/",
+        "open_status": "open",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "pesus",
+      "name": "Pesus",
+      "producer": "bodegas-hermanos-sastre",
+      "varietals": [
+        "Tinto Fino"
+      ],
+      "style": "still red 100 percent old-vine Tinto Fino, boutique micro-production",
+      "vintage_range": "approachable from 10 to 12 years, cellar 30; first vintage 1997",
+      "price_band": "EUR 150 to 300 at retail",
+      "tasting_notes": "Concentrated dark cherry, blackberry and cedar over tobacco, mineral and dried roses, with high tannins and a very long earthy finish. From old Tinto Fino vines at La Horra, aged 22 months in new French oak. Source: bodegashermanos.com/en/wines/.",
+      "editorial_score": 4.9,
+      "description": "The Sastre brothers' cult single-vineyard Tinto Fino from old La Horra vines, first produced in 1997. Made in tiny quantities and aged 22 months in new French oak, Pesus quickly attracted a following as one of the reference wines of the Burgos sub-zone.",
+      "verified": {
+        "source_url": "https://www.bodegashermanos.com/en/wines/",
+        "open_status": "open",
+        "checked_on": "2026-05-28"
+      }
+    }
+  ]
+}

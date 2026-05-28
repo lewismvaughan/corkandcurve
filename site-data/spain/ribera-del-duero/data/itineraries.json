@@ -1,0 +1,244 @@
+{
+  "itineraries": [
+    {
+      "slug": "classic-golden-mile-weekend",
+      "name": "Classic Golden Mile Weekend",
+      "length_days": 2,
+      "theme": "The Quintanilla-Pesquera corridor: Ribera del Duero's most concentrated stretch of prestige estates",
+      "days": [
+        {
+          "day": 1,
+          "morning": "Arrive in Valladolid or Aranda de Duero and drive to Quintanilla de Onesimo. Visit Vega Sicilia (booking essential months in advance) for the classic cellar tour. Taste current Valbuena 5 and, if available, a Unico.",
+          "lunch": "Lunch at Pago de Carraovejas estate restaurant (Michelin-starred; booking required).",
+          "afternoon": "Continue to Pago de los Capellanes in Pedrosa de Duero and Bodegas Alion (Vega Sicilia's second estate). Drive to Peñafiel and check in to a hotel with views of the hilltop castle.",
+          "evening": "Walk the old town of Peñafiel. Evening tapa and wine at Agora de Protos wine bar (Calle Bodegas Protos, Peñafiel).",
+          "dinner": "Dinner at a local restaurant specialising in lechazo (Castilian roast lamb).",
+          "accommodation": "Hotel near Peñafiel castle or estate hotel in the Golden Mile corridor.",
+          "venues": ["bodegas-vega-sicilia", "pago-de-carraovejas", "pago-de-los-capellanes", "bodegas-alion"]
+        },
+        {
+          "day": 2,
+          "morning": "Morning visit to Bodegas Protos beneath Peñafiel castle, including the Richard Rogers-designed contemporary winery. Tour the underground cellars and taste the Crianza and Reserva range.",
+          "lunch": "Lunch in Pesquera de Duero at a village restaurant.",
+          "afternoon": "Visit Bodegas Tinto Pesquera (Familia Fernandez Rivera) - the bodega that launched Ribera's modern era. Continue along the N-122 east toward Aranda de Duero.",
+          "evening": "Explore Aranda's underground bodega network via the Las Caballerizas or Las Animas municipal cellars (book through the tourist office). Evening wine and tapas at El Lagar de Isilla bar.",
+          "dinner": "Lechazo at one of Aranda de Duero's traditional roasting restaurants.",
+          "accommodation": "Return to Valladolid or Madrid, or overnight in Aranda.",
+          "venues": ["bodegas-protos", "tinto-pesquera"]
+        }
+      ],
+      "verified": {
+        "source_url": "https://rutadelvinoriberadelduero.es/en/inicio/",
+        "address_quoted": null,
+        "open_status": "open",
+        "open_evidence_url": "https://www.winewithpaige.com/ribera-del-duero-four-day-itinerary/",
+        "cuisine_evidence_url": "https://www.cellartours.com/blog/spain/wine-tasting-in-ribera-del-duero",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "aranda-underground-bodegas-lechazo-weekend",
+      "name": "Aranda Underground Bodegas and Lechazo Weekend",
+      "length_days": 2,
+      "theme": "Medieval underground cellars, peña culture, and Castilian roast lamb: Aranda de Duero from below ground",
+      "days": [
+        {
+          "day": 1,
+          "morning": "Arrive in Aranda de Duero and check into a central hotel. Morning visit to CIAVIN (Plaza Mayor) for the virtual reality tour of the 136-strong underground bodega network.",
+          "lunch": "Lechazo asado at one of Aranda's classic roasting restaurants (Casa el Cura, Meson de la Villa, or similar).",
+          "afternoon": "Guided tour of the Las Caballerizas municipal underground cellar (book via tourist office, 947 510 476) or visit the dramatised historical tour at the Bodega Don Carlos (15th century). Browse wine at the Vinoteca El Lagar.",
+          "evening": "Join the evening paseo on Calle Isilla. Wine and cecina tapa at El Lagar de Isilla bar-restaurant.",
+          "dinner": "Informal tapas and Ribera wines at Bar Morchon or La Raspa.",
+          "accommodation": "Central Aranda de Duero hotel.",
+          "venues": []
+        },
+        {
+          "day": 2,
+          "morning": "Drive west along the N-122 to visit two or three village bodegas (Gumiel de Mercado area, Burgos sub-zone) for morning cellar tastings.",
+          "lunch": "Village restaurant lunch with Crianza and Reserva by the glass.",
+          "afternoon": "Return to Aranda for the afternoon session at the Fiesta de las Penas if visiting during September festival period. Otherwise, visit the Gothic collegiate church of Santa Maria la Real (15th century) and the central market.",
+          "evening": "Evening drinks at El Somatén tapas bar or Bar La Raspa.",
+          "dinner": "Dinner and full lechazo experience at a traditional Aranda restaurant.",
+          "accommodation": "Aranda de Duero or depart for Madrid (1 hour 45 minutes south).",
+          "venues": ["bodegas-portia"]
+        }
+      ],
+      "verified": {
+        "source_url": "https://rutadelvinoriberadelduero.es/en/directories/underground-wineries-of-aranda-de-duero/",
+        "address_quoted": null,
+        "open_status": "open",
+        "open_evidence_url": "https://www.nationalgeographic.com/travel/article/discover-spanish-town-hidden-world-underground-wineries",
+        "cuisine_evidence_url": "https://larenlecres.com/en/tapas-pinchos-and-wines-in-aranda-de-duero/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "madrid-ribera-rioja-4-day",
+      "name": "Madrid to Ribera del Duero to Rioja (4-Day Circuit)",
+      "length_days": 4,
+      "theme": "Spain's two leading Tempranillo appellations in a single loop from Madrid, with the Castilian landscape as context",
+      "days": [
+        {
+          "day": 1,
+          "morning": "Depart Madrid north on the A-1 motorway, arriving in Aranda de Duero after 1 hour 45 minutes. Check in and explore the underground bodegas on foot.",
+          "lunch": "Lechazo lunch in Aranda de Duero.",
+          "afternoon": "Drive the Ruta del Vino east toward Peñafiel. Afternoon visit to Bodegas Protos.",
+          "evening": "Sunset views of Peñafiel castle from the Duero valley. Wine and tapa on the main square.",
+          "dinner": "Dinner in Peñafiel.",
+          "accommodation": "Peñafiel area hotel.",
+          "venues": ["bodegas-protos"]
+        },
+        {
+          "day": 2,
+          "morning": "Drive the Golden Mile from Peñafiel west through Quintanilla de Onesimo. Morning visit to an estate on this stretch (Arzuaga Navarro, Finca Villacreces, or similar - booking required).",
+          "lunch": "Lunch at the estate restaurant or in Valladolid (45 minutes west).",
+          "afternoon": "Drive north from Valladolid or the Duero corridor toward Burgos (1 hour). Brief stop at the Gothic cathedral.",
+          "evening": "Continue north to Rioja - the Haro or Laguardia area (1 hour from Burgos). Check in.",
+          "dinner": "Dinner in Haro.",
+          "accommodation": "Haro or Logrono, Rioja.",
+          "venues": ["bodegas-arzuaga-navarro"]
+        },
+        {
+          "day": 3,
+          "morning": "Full Rioja day: morning tasting at a classic Rioja estate (Muga, Lopez de Heredia, CVNE) in Haro.",
+          "lunch": "Lunch in Haro or drive to Laguardia for lunch in the cliff village.",
+          "afternoon": "Visit the Marques de Riscal hotel and winery (Frank Gehry architecture) or the Dinastia Vivanco Museum of Wine Culture.",
+          "evening": "Evening pintxos in Logrono on Calle Laurel (pintxos capital of Rioja).",
+          "dinner": "Full dinner at a Rioja restaurant.",
+          "accommodation": "Logrono or Laguardia.",
+          "venues": []
+        },
+        {
+          "day": 4,
+          "morning": "Drive south toward Madrid via Burgos and Aranda. Morning stop at one more Ribera del Duero estate on the return to highlight the contrast between the two appellations.",
+          "lunch": "Farewell lunch at an estate restaurant or roadside restaurant en route.",
+          "afternoon": "Return to Madrid by mid-afternoon via A-1.",
+          "evening": "Evening in Madrid.",
+          "dinner": "Dinner in Madrid.",
+          "accommodation": "Madrid.",
+          "venues": ["bodegas-perez-pascuas"]
+        }
+      ],
+      "verified": {
+        "source_url": "https://winetourismspain.com/wine-regions/ribera-del-duero/ribera-del-duero-itineraries/",
+        "address_quoted": null,
+        "open_status": "open",
+        "open_evidence_url": "https://epicureanways.com/ribera-del-duero-wine-tour",
+        "cuisine_evidence_url": "https://www.cellartours.com/spain/wine-tours/ribera-del-duero",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "soria-old-vines-atauta-3-day",
+      "name": "Soria Old-Vine Discovery (3 Days)",
+      "length_days": 3,
+      "theme": "The eastern frontier: pre-phylloxera old vines, high-altitude Soria terroir, and the Atauta valley",
+      "days": [
+        {
+          "day": 1,
+          "morning": "Drive from Aranda de Duero east along the N-122, following the Duero river into the Soria sub-zone. Arrive at Dominio de Atauta (book in advance via rutadelvinoriberadelduero.es) for a cellar tour and old-vine parcela walk.",
+          "lunch": "Lunch in the Atauta valley or in San Esteban de Gormaz.",
+          "afternoon": "Continue to the village of Atauta. Walk the vine parcelas in the late afternoon; the landscape of ungrafted bush vines at 1,000 metres is unlike any other in Spain.",
+          "evening": "Drive to Soria city (40 minutes east of Atauta). Check in.",
+          "dinner": "Dinner in Soria.",
+          "accommodation": "Hotel in Soria city.",
+          "venues": ["dominio-de-atauta"]
+        },
+        {
+          "day": 2,
+          "morning": "Morning in Soria: visit the Numancia archaeological site (Celtiberian settlement, 2nd century BCE) and the medieval city centre with Romanesque churches.",
+          "lunch": "Traditional Soriano lunch (migas pastoriles, lechazo).",
+          "afternoon": "Drive west through the Duero corridor exploring the Burgos sub-zone. Visit one of the Gumiel de Mercado or La Horra area bodegas (Bodegas Valduero, Cillar de Silos - booking required).",
+          "evening": "Arrive in Aranda de Duero for the evening.",
+          "dinner": "Wine and tapas in Aranda.",
+          "accommodation": "Aranda de Duero.",
+          "venues": ["cillar-de-silos", "bodegas-valdubon"]
+        },
+        {
+          "day": 3,
+          "morning": "Morning at leisure in Aranda. Underground bodega tour via the tourist office if not already done.",
+          "lunch": "Lechazo farewell lunch at a classic Aranda restaurant.",
+          "afternoon": "Drive back to Madrid or Valladolid.",
+          "evening": null,
+          "dinner": null,
+          "accommodation": "Return to base.",
+          "venues": []
+        }
+      ],
+      "verified": {
+        "source_url": "https://spanishwinelover.com/soria-where-old-vines-make-a-difference-in-ribera-del-duero",
+        "address_quoted": null,
+        "open_status": "open",
+        "open_evidence_url": "https://rutadelvinoriberadelduero.es/en/directories/dominio-de-atauta-winery/",
+        "cuisine_evidence_url": "https://spanishwinelover.com/dominio-de-atauta-making-wine-in-a-paradise-of-hundred-year-old-vines",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "harvest-season-full-week",
+      "name": "Harvest Week in Ribera del Duero (5 Days)",
+      "length_days": 5,
+      "theme": "October harvest: vendimia hands-on, Gran Fiesta de la Vendimia (if early September), and the full arc from Valladolid to Soria",
+      "days": [
+        {
+          "day": 1,
+          "morning": "Fly into Madrid. Drive north to Valladolid (1 hour 45 minutes). Check in and explore the city centre.",
+          "lunch": "Lunch at a Valladolid restaurant with Ribera del Duero wine focus.",
+          "afternoon": "Drive the 45 minutes into the Golden Mile western end - Quintanilla de Onesimo area. Walk vineyard rows with ripe grapes hanging.",
+          "evening": "Return to Valladolid for the evening.",
+          "dinner": "Dinner in Valladolid.",
+          "accommodation": "Valladolid.",
+          "venues": []
+        },
+        {
+          "day": 2,
+          "morning": "Early start for Vega Sicilia harvest tour (booking essential, months in advance). Understand the blending philosophy and timing decisions at the founding 1864 cellar.",
+          "lunch": "Estate lunch at Vega Sicilia or nearby.",
+          "afternoon": "Continue to Pago de Carraovejas for afternoon tasting.",
+          "evening": "Check in at Peñafiel area hotel or estate.",
+          "dinner": "Dinner at estate restaurant if available.",
+          "accommodation": "Peñafiel or Golden Mile estate hotel.",
+          "venues": ["bodegas-vega-sicilia", "pago-de-carraovejas"]
+        },
+        {
+          "day": 3,
+          "morning": "Drive to Peñafiel: Bodegas Protos morning cellar visit including fermentation tanks in action during harvest week.",
+          "lunch": "Lunch in Peñafiel.",
+          "afternoon": "Drive east along the N-122 toward Aranda de Duero. Check in and explore the underground bodega network.",
+          "evening": "Tapas and wine at El Lagar de Isilla.",
+          "dinner": "Lechazo at a classic Aranda roasting house.",
+          "accommodation": "Aranda de Duero.",
+          "venues": ["bodegas-protos"]
+        },
+        {
+          "day": 4,
+          "morning": "Drive east to the Soria sub-zone. Morning visit to Dominio de Atauta - the most atmospheric estate during harvest as ancient vines are hand-picked by small crews.",
+          "lunch": "Lunch in the Soria countryside.",
+          "afternoon": "Continue to Soria city. Walk the Numancia archaeological site and the medieval Romanesque corridor.",
+          "evening": "Return to Aranda for the evening.",
+          "dinner": "Dinner and final Ribera tasting in Aranda.",
+          "accommodation": "Aranda de Duero.",
+          "venues": ["dominio-de-atauta"]
+        },
+        {
+          "day": 5,
+          "morning": "Final morning at leisure in Aranda. Wine shop for bottles to take home.",
+          "lunch": "Farewell lunch.",
+          "afternoon": "Drive to Madrid (1 hour 45 minutes) for evening flight.",
+          "evening": null,
+          "dinner": null,
+          "accommodation": "Depart.",
+          "venues": []
+        }
+      ],
+      "verified": {
+        "source_url": "https://rutadelvinoriberadelduero.es/en/inicio/",
+        "address_quoted": null,
+        "open_status": "open",
+        "open_evidence_url": "https://www.winetraveler.com/spain/ribera-del-duero-wine-region-guide/",
+        "cuisine_evidence_url": "https://www.winewithpaige.com/ribera-del-duero-four-day-itinerary/",
+        "checked_on": "2026-05-28"
+      }
+    }
+  ]
+}

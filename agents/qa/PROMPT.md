@@ -115,6 +115,27 @@ critic-style ranking copy. Strip any clause matching `greatest`,
 `finest`, `best ... in the world`, `among the world's`, `regarded as
 one of the`, `mythic` — even on Chave / Rayas / Beaucastel.
 
+**Soft-superlative tier — strip these too (added 2026-05-28 after
+Ribera).** Opus found 12 ranking clauses that QA1+QA2 missed because
+the explicit strip-list above didn't enumerate the softer variants.
+Same categorical rule applies; expand the strip pattern to ALSO match:
+- `<country>'s most <adj>` (e.g. "Spain's most storied", "Italy's most celebrated")
+- `the world's most <adj>` (e.g. "the world's most concentrated")
+- `anywhere in the world`, `in the world`-tail boasts
+- `one of the great <category>` (e.g. "one of the great wines of Burgos")
+- `the legendary <entity>` (e.g. "the legendary Unico")
+- `put <region> on the (world) map`
+- `regarded as the defining`, `the defining <category>`, `the defining ... in the region`
+- `the most prestigious <X>` (e.g. "the most prestigious postal code in Ribera")
+- `one of the most {celebrated|prominent|important|iconic|defining|prestigious|storied} <X>`
+- `synonymous with one of <country>'s great <X>`
+Also: a first-name-only `chef|sommelier|owner|winemaker` attribution
+("sommelier Roberto", "chef Marina") without a verifiable last name on
+the producer/restaurant site is a fabrication risk — require a
+last-name+source or strip the personal attribution. Mechanical backstop:
+`scripts/check_score_claims.py` now also scans for these patterns and
+surfaces them in ship_safety (WARN); use --strict to enforce.
+
 **C2 — NUMERIC verification on top scores (added 2026-05-22).**
 For every score with `points >= 99`, you must verify the
 `(reviewer, points, vintage, year)` tuple against a real, citeable

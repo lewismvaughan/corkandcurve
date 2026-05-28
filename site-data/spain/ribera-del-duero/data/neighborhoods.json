@@ -1,0 +1,433 @@
+{
+  "neighborhoods": [
+    {
+      "slug": "la-horra",
+      "name": "La Horra",
+      "address": "La Horra, 09311 La Horra, Burgos, Spain",
+      "classification": "DO Ribera del Duero",
+      "description": "The most celebrated village in the Burgos sector, sitting at around 900 metres on calcareous clay and chalk-gravel soils that produce Tinto Fino of exceptional depth and tannic architecture. Home to Dominio de Pingus, Dominio del Aguila, Hermanos Sastre, Tarsus and Garcia Figuero, and widely considered the grand cru heartland of the appellation.",
+      "key_varietals": [
+        "Tinto Fino",
+        "Albillo Mayor"
+      ],
+      "sub_communes": [
+        "La Horra",
+        "La Aguilera",
+        "Quintanamanvirgo",
+        "Villalbilla de Gumiel"
+      ],
+      "famous_producers": [
+        "dominio-de-pingus",
+        "dominio-del-aguila",
+        "bodegas-hermanos-sastre",
+        "bodegas-tarsus",
+        "garcia-figuero",
+        "goyo-garcia-viadero"
+      ],
+      "aliases": [
+        "La Horra",
+        "Burgos heartland"
+      ],
+      "vibe": "Wind-swept limestone plateau at 900 metres with a cluster of small estates producing some of the appellation's most sought-after old-vine Tinto Fino.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.riberadelduero.es/en",
+        "address_quoted": "La Horra, Burgos",
+        "open_status": "open",
+        "open_evidence_url": "https://www.bodegasfelixcallejo.com/en/",
+        "cuisine_evidence_url": "https://www.riberadelduero.es/en",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "roa-de-duero",
+      "name": "Roa de Duero",
+      "address": "Roa de Duero, 09300 Roa de Duero, Burgos, Spain",
+      "classification": "DO Ribera del Duero",
+      "description": "The main town of the western Burgos plateau and the administrative seat of the Consejo Regulador, surrounded by old-vine Tinto Fino on chalky limestone. Home to Bodegas Protos's secondary Burgos holdings and a number of smaller family estates in the Roa sub-zone.",
+      "key_varietals": [
+        "Tinto Fino"
+      ],
+      "sub_communes": [
+        "Roa de Duero",
+        "Hoyales de Roa",
+        "Berlangas de Roa",
+        "Fuentelcésped",
+        "Anguix"
+      ],
+      "famous_producers": [
+        "bodegas-o-fournier",
+        "bodegas-briego",
+        "bodegas-aster",
+        "bodegas-condado-de-haza"
+      ],
+      "aliases": [
+        "Roa",
+        "Roa de Duero"
+      ],
+      "vibe": "A compact historic town at the heart of the Burgos plateau, known for old-vine Tinto Fino, roast lamb restaurants and easy access to the major La Horra estates.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.riberadelduero.es/en",
+        "address_quoted": "Roa de Duero, Burgos",
+        "open_status": "open",
+        "open_evidence_url": "https://www.comenge.com/en/",
+        "cuisine_evidence_url": "https://www.riberadelduero.es/en",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "pedrosa-de-duero",
+      "name": "Pedrosa de Duero",
+      "address": "Pedrosa de Duero, 09314 Pedrosa de Duero, Burgos, Spain",
+      "classification": "DO Ribera del Duero",
+      "description": "A Burgos-sector village on the limestone plateau south of Roa, closely associated with the Pérez Pascuas family (Viña Pedrosa) and Pago de los Capellanes. The village gives its name to the Viña Pedrosa label and sits at around 850 metres on soils of clay-limestone with pebble lenses that favour structured, age-worthy Tinto Fino.",
+      "key_varietals": [
+        "Tinto Fino",
+        "Cabernet Sauvignon"
+      ],
+      "sub_communes": [
+        "Pedrosa de Duero",
+        "Sotillo de la Ribera",
+        "Mambrilla de Castrejón"
+      ],
+      "famous_producers": [
+        "bodegas-perez-pascuas",
+        "pago-de-los-capellanes",
+        "bodegas-carmelo-rodero",
+        "bodegas-felix-callejo",
+        "bodegas-vizcarra",
+        "bodegas-reyes"
+      ],
+      "aliases": [
+        "Pedrosa",
+        "Viña Pedrosa territory"
+      ],
+      "vibe": "A plateau village where the Pérez Pascuas dynasty and several top Burgos estates anchor a cluster of structured, cellar-worthy Tinto Fino producers.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.perezpascuas.com/en/",
+        "address_quoted": "Pedrosa de Duero",
+        "open_status": "open",
+        "open_evidence_url": "https://www.riberadelduero.es/en",
+        "cuisine_evidence_url": "https://www.perezpascuas.com/en/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "aranda-de-duero",
+      "name": "Aranda de Duero",
+      "address": "Aranda de Duero, 09400 Aranda de Duero, Burgos, Spain",
+      "classification": "DO Ribera del Duero",
+      "description": "The main commercial and gastronomic city of the appellation and the gateway for visitors arriving from Madrid on the A-1. Famous for its labyrinth of medieval underground cellars beneath the city, roast lamb restaurants and the annual Fiesta del Vino. Surrounded by several estates in the eastern Burgos sub-zone including Bodegas Portia and Condado de Haza.",
+      "key_varietals": [
+        "Tinto Fino"
+      ],
+      "sub_communes": [
+        "Aranda de Duero",
+        "Gumiel de Izán",
+        "Villalba de Duero",
+        "Castrillo de la Vega",
+        "Hontangas"
+      ],
+      "famous_producers": [
+        "bodegas-portia",
+        "bodegas-condado-de-haza",
+        "bodegas-neo",
+        "hacienda-solano"
+      ],
+      "aliases": [
+        "Aranda",
+        "La Ribera de Aranda"
+      ],
+      "vibe": "A lively market city with medieval underground cellars beneath its streets, the best roast lamb in Castile and easy weekend access from Madrid.",
+      "editorial_score": 4.7,
+      "tip": "Book ahead at one of the underground wine-cellar restaurants in the old town for lechazo (roast suckling lamb) with a Ribera Crianza.",
+      "verified": {
+        "source_url": "https://www.riberadelduero.es/en",
+        "address_quoted": "Aranda de Duero, Burgos",
+        "open_status": "open",
+        "open_evidence_url": "https://www.bodegasprotos.com/en/",
+        "cuisine_evidence_url": "https://www.riberadelduero.es/en",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "penafiel",
+      "name": "Peñafiel",
+      "address": "Peñafiel, 47300 Peñafiel, Valladolid, Spain",
+      "classification": "DO Ribera del Duero",
+      "description": "The historic wine capital of the Valladolid sector, dominated by its elongated castle atop a narrow ridge that now houses the Museo Provincial del Vino. Bodegas Protos sits directly under the castle walls; Pago de Carraovejas and Resalte de Peñafiel are nearby. The town hosts an annual harvest festival in September.",
+      "key_varietals": [
+        "Tinto Fino",
+        "Cabernet Sauvignon",
+        "Albillo Mayor"
+      ],
+      "sub_communes": [
+        "Peñafiel",
+        "Padilla de Duero"
+      ],
+      "famous_producers": [
+        "bodegas-protos",
+        "pago-de-carraovejas",
+        "resalte-de-penafiel",
+        "bodegas-tamaral",
+        "convento-de-oreja",
+        "bodegas-emina",
+        "finca-museum"
+      ],
+      "aliases": [
+        "Peñafiel",
+        "Castillo de Peñafiel"
+      ],
+      "vibe": "A castle-crowned wine town where Protos's famous winery sits beneath the battlements and the castle itself is now a wine museum open to the public.",
+      "editorial_score": 4.8,
+      "tip": "Combine the Museo Provincial del Vino inside the castle with a tour of Bodegas Protos immediately below.",
+      "verified": {
+        "source_url": "https://www.bodegasprotos.com/en/",
+        "address_quoted": "C/Bodegas Protos, 24-28, E-47300",
+        "open_status": "open",
+        "open_evidence_url": "https://www.riberadelduero.es/en",
+        "cuisine_evidence_url": "https://www.bodegasprotos.com/en/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "pesquera-de-duero",
+      "name": "Pesquera de Duero",
+      "address": "Pesquera de Duero, 47315 Pesquera de Duero, Valladolid, Spain",
+      "classification": "DO Ribera del Duero",
+      "description": "The Valladolid village where Alejandro Fernandez launched Tinto Pesquera in the 1970s, effectively introducing the region to international wine critics. Emilio Moro and Cepa 21 are also based here. The valley floor around Pesquera provides clay-limestone soils at 750 to 800 metres that yield the fruit-forward style for which the area is known.",
+      "key_varietals": [
+        "Tinto Fino"
+      ],
+      "sub_communes": [
+        "Pesquera de Duero"
+      ],
+      "famous_producers": [
+        "tinto-pesquera",
+        "bodegas-emilio-moro",
+        "bodegas-cepa-21",
+        "hacienda-monasterio"
+      ],
+      "aliases": [
+        "Pesquera",
+        "Alejandro Fernandez country"
+      ],
+      "vibe": "The village that launched Ribera del Duero's international reputation, still home to Tinto Pesquera and Emilio Moro's celebrated wine-tourism complex.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.emiliomoro.com/en/",
+        "address_quoted": "Ctra. Peñafiel-Valoria, S/N, 47315 Pesquera de Duero, Valladolid",
+        "open_status": "open",
+        "open_evidence_url": "https://www.riberadelduero.es/en",
+        "cuisine_evidence_url": "https://www.emiliomoro.com/en/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "quintanilla-de-onesimo",
+      "name": "Quintanilla de Onésimo",
+      "address": "Quintanilla de Onésimo, 47350 Quintanilla de Onésimo, Valladolid, Spain",
+      "classification": "DO Ribera del Duero",
+      "description": "The Valladolid village closest to Vega Sicilia's estate, and therefore the most prestigious address in the appellation for tasting tourists. Arzuaga Navarro's hotel complex, Aalto's estate and Alonso del Yerro are all within a few kilometres, making this the highest concentration of premium Valladolid-sector producers.",
+      "key_varietals": [
+        "Tinto Fino",
+        "Cabernet Sauvignon",
+        "Merlot",
+        "Malbec"
+      ],
+      "sub_communes": [
+        "Quintanilla de Onésimo",
+        "Quintanilla de Arriba"
+      ],
+      "famous_producers": [
+        "bodegas-vega-sicilia",
+        "bodegas-arzuaga-navarro",
+        "bodegas-aalto",
+        "aalto-pago-sanvicente",
+        "telmo-rodriguez-matallana",
+        "bodegas-y-vinedos-alonso-del-yerro"
+      ],
+      "aliases": [
+        "Quintanilla de Onésimo",
+        "Vega Sicilia country"
+      ],
+      "vibe": "A sleepy Duero-valley village flanked by Vega Sicilia's estate on one side and Arzuaga's hotel on the other, at the centre of the Golden Mile stretch.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.aalto.es/la-bodega/",
+        "address_quoted": "Paraje Vallejo de Carril s/n, Quintanilla de Arriba, Valladolid 47360",
+        "open_status": "open",
+        "open_evidence_url": "https://www.riberadelduero.es/en",
+        "cuisine_evidence_url": "https://www.riberadelduero.es/en",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "valbuena-de-duero",
+      "name": "Valbuena de Duero",
+      "address": "Valbuena de Duero, 47359 Valbuena de Duero, Valladolid, Spain",
+      "classification": "DO Ribera del Duero",
+      "description": "The Valladolid village that gives its name to Vega Sicilia's Valbuena 5 Grado release. Matarromera and Bodegas Montebaco are based here, with the surrounding riverine clay-limestone soils producing wines of medium body and freshness compared to the higher-altitude Burgos plateau.",
+      "key_varietals": [
+        "Tinto Fino",
+        "Albillo Mayor"
+      ],
+      "sub_communes": [
+        "Valbuena de Duero"
+      ],
+      "famous_producers": [
+        "bodegas-alion",
+        "bodegas-montebaco",
+        "matarromera",
+        "vega-real"
+      ],
+      "aliases": [
+        "Valbuena",
+        "Valbuena de Duero"
+      ],
+      "vibe": "A quiet Duero-riverside village whose name appears on Vega Sicilia's Valbuena 5 release, surrounded by clay-limestone vineyards and the Alión estate.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.bodegasmontebaco.com/en/",
+        "address_quoted": "Finca Monte Alto, 47359 Valbuena de Duero, Valladolid",
+        "open_status": "open",
+        "open_evidence_url": "https://www.riberadelduero.es/en",
+        "cuisine_evidence_url": "https://www.riberadelduero.es/en",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "curiel-de-duero",
+      "name": "Curiel de Duero",
+      "address": "Curiel de Duero, 47316 Curiel de Duero, Valladolid, Spain",
+      "classification": "DO Ribera del Duero",
+      "description": "A hilltop Valladolid village with a medieval castle and spectacular views over the Duero gorge, home to Comenge and Legaris (Torres). The castle and village are a draw for wine-tourism visitors combining estate visits with the scenic landscape, and Comenge's organic estate sits at the foot of the castle hill.",
+      "key_varietals": [
+        "Tinto Fino",
+        "Albillo Mayor",
+        "Cabernet Sauvignon"
+      ],
+      "sub_communes": [
+        "Curiel de Duero",
+        "Padilla de Duero"
+      ],
+      "famous_producers": [
+        "comenge",
+        "legaris"
+      ],
+      "aliases": [
+        "Curiel",
+        "Curiel de Duero"
+      ],
+      "vibe": "A castle village perched above a dramatic gorge section of the Duero, with Comenge's organic estate and Torres-owned Legaris drawing visitors for combined cellar-and-views excursions.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.comenge.com/en/",
+        "address_quoted": "Camino del Castillo s/n, 47316 Curiel del Duero - Valladolid",
+        "open_status": "open",
+        "open_evidence_url": "https://www.riberadelduero.es/en",
+        "cuisine_evidence_url": "https://www.comenge.com/en/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "bocos-de-duero",
+      "name": "Bocos de Duero",
+      "address": "Bocos de Duero, 47315 Bocos de Duero, Valladolid, Spain",
+      "classification": "DO Ribera del Duero",
+      "description": "A small Valladolid-sector village on the Duero plateau west of Peñafiel, known for old-vine Tinto Fino parcels at around 750 metres on sandy clay. A quieter sub-zone that several natural-wine and small-production artisan producers have chosen for the relative obscurity and competitive land costs.",
+      "key_varietals": [
+        "Tinto Fino"
+      ],
+      "sub_communes": [
+        "Bocos de Duero"
+      ],
+      "famous_producers": [
+        "bodegas-trus"
+      ],
+      "aliases": [
+        "Bocos"
+      ],
+      "vibe": "An off-the-beaten-track Valladolid village with modest old Tinto Fino parcels on sandy clay, attracting small artisan producers and natural-wine enthusiasts.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.riberadelduero.es/en",
+        "address_quoted": "Bocos de Duero, Valladolid",
+        "open_status": "open",
+        "open_evidence_url": "https://www.riberadelduero.es/en",
+        "cuisine_evidence_url": "https://www.riberadelduero.es/en",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "sardon-de-duero",
+      "name": "Sardón de Duero",
+      "address": "Sardón de Duero, 47340 Sardón de Duero, Valladolid, Spain",
+      "classification": "DO Ribera del Duero",
+      "description": "The westernmost village in the Valladolid sector, adjacent to Tudela del Duero where Bodegas Mauro is based. Some estates in the Sardón area produce DO Ribera del Duero while others, including Mauro's main range, fall just outside the DO boundary and are classified as VT Castilla y León because their vineyard parcels cross provincial lines.",
+      "key_varietals": [
+        "Tinto Fino",
+        "Garnacha Tinta"
+      ],
+      "sub_communes": [
+        "Sardón de Duero",
+        "Tudela del Duero"
+      ],
+      "famous_producers": [
+        "bodegas-mauro"
+      ],
+      "aliases": [
+        "Sardón",
+        "Tudela del Duero area"
+      ],
+      "vibe": "The western fringe of the appellation where DO and VT Castilla y Leon territories meet, home to Bodegas Mauro and the gateway from Valladolid city to wine country.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.bodegasmauro.com/en/",
+        "address_quoted": "Carretera de Villabáñez, Km 1, 47320 Tudela del Duero (Valladolid)",
+        "open_status": "open",
+        "open_evidence_url": "https://www.riberadelduero.es/en",
+        "cuisine_evidence_url": "https://www.bodegasmauro.com/en/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "soria-sub-zone",
+      "name": "Soria Sub-zone (Atauta)",
+      "address": "Atauta, 42312 Atauta, Soria, Spain",
+      "classification": "DO Ribera del Duero",
+      "description": "The easternmost and highest sub-zone of Ribera del Duero, centred on the village of Atauta in Soria province at over 1000 metres above sea level. Home to the oldest ungrafted pre-phylloxera Tinto Fino vines in the appellation, vinified by Dominio de Atauta and a tiny group of specialists. The extreme altitude produces wines of striking acidity and longevity compared to lower-elevation sectors.",
+      "key_varietals": [
+        "Tinto Fino",
+        "Albillo Mayor"
+      ],
+      "sub_communes": [
+        "Atauta",
+        "San Esteban de Gormaz",
+        "Rejas de San Esteban",
+        "Peñaranda de Duero"
+      ],
+      "famous_producers": [
+        "dominio-de-atauta"
+      ],
+      "aliases": [
+        "Soria sector",
+        "Atauta",
+        "Eastern Ribera"
+      ],
+      "vibe": "The wild eastern frontier of the appellation at 1000 metres, where pre-phylloxera ungrafted vines on crumbling red clays produce the rarest and most age-worthy Tinto Finos in Spain.",
+      "editorial_score": 4.8,
+      "tip": "Dominio de Atauta is the essential producer here; their Llanos del Almendro and La Mala single-parcel wines are only produced in small quantities.",
+      "verified": {
+        "source_url": "https://www.riberadelduero.es/en",
+        "address_quoted": "Atauta, Soria",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.riberadelduero.es/en",
+        "cuisine_evidence_url": "https://www.riberadelduero.es/en",
+        "checked_on": "2026-05-28"
+      }
+    }
+  ]
+}

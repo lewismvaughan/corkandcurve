@@ -49,6 +49,30 @@
       ]
     },
     {
+      "slug": "albillo",
+      "display": "Albillo",
+      "regions": [
+        {
+          "country_slug": "spain",
+          "region_slug": "ribera-del-duero",
+          "region_name": "Ribera del Duero",
+          "n": 1
+        }
+      ]
+    },
+    {
+      "slug": "albillo-mayor",
+      "display": "Albillo Mayor",
+      "regions": [
+        {
+          "country_slug": "spain",
+          "region_slug": "ribera-del-duero",
+          "region_name": "Ribera del Duero",
+          "n": 11
+        }
+      ]
+    },
+    {
       "slug": "alicante",
       "display": "Alicante",
       "regions": [
@@ -215,6 +239,12 @@
           "n": 46
         },
         {
+          "country_slug": "spain",
+          "region_slug": "ribera-del-duero",
+          "region_name": "Ribera del Duero",
+          "n": 1
+        },
+        {
           "country_slug": "italy",
           "region_slug": "sicily",
           "region_name": "Sicily",
@@ -249,6 +279,12 @@
           "region_slug": "piedmont",
           "region_name": "Piedmont",
           "n": 1
+        },
+        {
+          "country_slug": "spain",
+          "region_slug": "ribera-del-duero",
+          "region_name": "Ribera del Duero",
+          "n": 18
         },
         {
           "country_slug": "italy",
@@ -709,6 +745,18 @@
       ]
     },
     {
+      "slug": "garnacha-tinta",
+      "display": "Garnacha Tinta",
+      "regions": [
+        {
+          "country_slug": "spain",
+          "region_slug": "ribera-del-duero",
+          "region_name": "Ribera del Duero",
+          "n": 4
+        }
+      ]
+    },
+    {
       "slug": "glera",
       "display": "Glera",
       "regions": [
@@ -897,6 +945,12 @@
           "region_slug": "bordeaux",
           "region_name": "Bordeaux",
           "n": 2
+        },
+        {
+          "country_slug": "spain",
+          "region_slug": "ribera-del-duero",
+          "region_name": "Ribera del Duero",
+          "n": 2
         }
       ]
     },
@@ -1083,6 +1137,12 @@
           "region_slug": "piedmont",
           "region_name": "Piedmont",
           "n": 1
+        },
+        {
+          "country_slug": "spain",
+          "region_slug": "ribera-del-duero",
+          "region_name": "Ribera del Duero",
+          "n": 7
         },
         {
           "country_slug": "italy",
@@ -1413,6 +1473,12 @@
           "region_slug": "bordeaux",
           "region_name": "Bordeaux",
           "n": 18
+        },
+        {
+          "country_slug": "spain",
+          "region_slug": "ribera-del-duero",
+          "region_name": "Ribera del Duero",
+          "n": 1
         },
         {
           "country_slug": "italy",
@@ -1865,6 +1931,12 @@
           "n": 75
         },
         {
+          "country_slug": "spain",
+          "region_slug": "ribera-del-duero",
+          "region_name": "Ribera del Duero",
+          "n": 3
+        },
+        {
           "country_slug": "italy",
           "region_slug": "sicily",
           "region_name": "Sicily",
@@ -1888,6 +1960,12 @@
       "slug": "tempranillo",
       "display": "Tempranillo",
       "regions": [
+        {
+          "country_slug": "spain",
+          "region_slug": "ribera-del-duero",
+          "region_name": "Ribera del Duero",
+          "n": 15
+        },
         {
           "country_slug": "spain",
           "region_slug": "rioja",
@@ -1977,6 +2055,18 @@
           "region_slug": "douro",
           "region_name": "Douro Valley",
           "n": 9
+        }
+      ]
+    },
+    {
+      "slug": "tinto-fino",
+      "display": "Tinto Fino",
+      "regions": [
+        {
+          "country_slug": "spain",
+          "region_slug": "ribera-del-duero",
+          "region_name": "Ribera del Duero",
+          "n": 74
         }
       ]
     },

@@ -1,0 +1,289 @@
+{
+  "wine_bars": [
+    {
+      "slug": "el-lagar-de-isilla-wine-bar",
+      "name": "El Lagar de Isilla",
+      "address": "C/ Isilla 18, 09400 Aranda de Duero, Burgos, Spain",
+      "neighborhood": "Aranda de Duero historic centre",
+      "wine_program": "450-reference cellar spanning DO Ribera del Duero, Rioja, Rueda and other Spanish regions; wines served in 13th-century underground cellar 12 m below street level; free cellar visit during opening hours",
+      "glass_count": 30,
+      "signature_pours": ["Ribera del Duero Reserva by-the-glass", "Albillo Mayor whites", "Aged Crianza pours from cellar stock"],
+      "description": "Restaurant and wine bar with a 450-reference list preserved in natural-condition 13th-century underground cellars in Aranda de Duero. Cellar visit included during service; one of the most atmosphere-rich wine stops in the region.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.restauranteellagardeisilla.com/en/historic-winecellar/",
+        "address_quoted": "C. Isilla, 18, 09400 Aranda de Duero, Burgos, Spain",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g1058614-d1770210-Reviews-El_Lagar_De_Isilla-Aranda_de_Duero_Province_of_Burgos_Castile_and_Leon.html",
+        "cuisine_evidence_url": "https://rutadelvinoriberadelduero.es/en/directories/el-lagar-de-isilla-grill-restaurant/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "agora-protos-wine-bar",
+      "name": "Agora de Protos Wine Bar",
+      "address": "C/ Bodegas Protos 24-28, 47300 Penafiel, Valladolid, Spain",
+      "neighborhood": "Penafiel",
+      "wine_program": "Full Bodegas Protos range by the glass including Crianza, Reserva and Gran Reserva; tapas and pintxos; indoor and outdoor terrace overlooking the Richard Rogers winery building",
+      "glass_count": 15,
+      "signature_pours": ["Protos Reserva", "Protos Gran Reserva", "Protos Seleccion"],
+      "description": "Wine bar in the central Agora of the Bodegas Protos visitor complex, open to non-tour visitors for glass pours and pintxos. Terrace commands views of Penafiel castle and the Richard Rogers-designed winery.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.bodegasprotos.com/es/",
+        "address_quoted": "C/ Bodegas Protos, 24-28, 47300 Penafiel (Valladolid)",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g1026109-d578116-Reviews-Bodegas_Protos-Penafiel_Province_of_Valladolid_Castile_and_Leon.html",
+        "cuisine_evidence_url": "https://rutadelvinoriberadelduero.es/en/directories/protos-winery/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "arzuaga-wine-bar",
+      "name": "Arzuaga Wine Bar",
+      "address": "Carretera N-122 Km 325, 47350 Quintanilla de Onesimo, Valladolid, Spain",
+      "neighborhood": "Golden Mile",
+      "wine_program": "Full Arzuaga range by the glass from Roble to Gran Reserva; Pago Florentino and La Planta labels also available; integrated with Hotel and Spa Arzuaga",
+      "glass_count": 20,
+      "signature_pours": ["Arzuaga Reserva", "Arzuaga Fanio", "Gran Arzuaga"],
+      "description": "Wine bar within the Arzuaga estate complex on the Golden Mile. Walk-in pours available throughout the day; located adjacent to the Michelin-starred Taller by Amaya Arzuaga restaurant.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://rutadelvinoriberadelduero.es/en/directories/arzuaga-navarro-winery/",
+        "address_quoted": "Carretera N-122, 325, 47350 Quintanilla de Onesimo, Valladolid",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Hotel_Review-g1072462-d605160-Reviews-Hotel_Spa_Arzuaga-Quintanilla_de_Onesimo_Province_of_Valladolid_Castile_and_Leon.html",
+        "cuisine_evidence_url": "https://www.turismocastillayleon.com/en/enotourism-gastronomy/visitable-wineries/bodegas-arzuaga-navarro",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "emina-wine-bar",
+      "name": "Bodega Emina Wine Bar",
+      "address": "Ctra. San Bernardo s/n, 47359 Valbuena de Duero, Valladolid, Spain",
+      "neighborhood": "Valbuena de Duero",
+      "wine_program": "Matarromera Group portfolio by the glass including Emina, Matarromera and Cyan labels; wine-and-art themed space with views towards the Cistercian Valbuena monastery",
+      "glass_count": 18,
+      "signature_pours": ["Emina Reserva", "Emina Prestigio", "Matarromera Gran Reserva"],
+      "description": "Wine bar and cultural space within the Bodega Emina visitor centre in Valbuena de Duero. Part of the Matarromera Group; terrace views of the 12th-century Cistercian monastery across the valley.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://enoturismo.matarromera.es/",
+        "address_quoted": "Ctra. San Bernardo, s/n. Valbuena de Duero",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g7786258-d4080118-Reviews-Emina_Fine_Wines-Valbuena_de_Duero_Province_of_Valladolid_Castile_and_Leon.html",
+        "cuisine_evidence_url": "https://www.turismocastillayleon.com/en/enotourism-gastronomy/visitable-wineries/bodega-emina",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "nabal-wine-bar",
+      "name": "Bodegas Nabal Wine Bar",
+      "address": "A1 Highway exit 168, Valle de Nabal, 09370 Gumiel de Izan, Burgos, Spain",
+      "neighborhood": "Gumiel de Izan",
+      "wine_program": "Nabal estate wines and curated Ribera del Duero producer selection; covered porch with valley views; tapas including Iberian charcuterie and Burgos cheeses",
+      "glass_count": 12,
+      "signature_pours": ["Nabal Crianza", "Nabal Reserva", "Nabal Roble"],
+      "description": "Covered porch wine bar at the Nabal winery. Sourcing grapes from near-century-old vines in Gumiel de Izan; family-estate pours served with Iberian ham and regional cheeses. Easy A1 motorway access.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://bodegasnabal.com/en/nabal-winery/",
+        "address_quoted": "A1 Highway exit 168, Valle de Nabal, 09370 Gumiel de Izan, Burgos",
+        "open_status": "open",
+        "open_evidence_url": "https://rutadelvinoriberadelduero.es/en/directories/nabal-wineries/",
+        "cuisine_evidence_url": "https://thegetawine.com/en/producto/winemaking-visit-bodegas-nabal/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "comenge-wine-bar",
+      "name": "Bodegas Comenge Wine Bar",
+      "address": "Camino del Castillo s/n, 47346 Curiel del Duero, Valladolid, Spain",
+      "neighborhood": "Curiel de Duero",
+      "wine_program": "Comenge organic estate wines by the glass; panoramic restaurant and terrace with Curiel de Duero castle views; garden picnic tastings by reservation",
+      "glass_count": 12,
+      "signature_pours": ["Don Miguel Comenge", "Comenge Crianza", "Buenas Noches Comenge"],
+      "description": "Wine bar and panoramic terrace at the Comenge organic winery at the foot of Curiel de Duero castle. Garden picnics and art installations complement the wine programme; weekend morning visits popular.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.comenge.com/en/enoturismo-ribera-del-duero/",
+        "address_quoted": "Camino del Castillo s/n, 47346 Curiel del Duero, Spain",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g1991467-d3750507-Reviews-Bodegas_Comenge-Curiel_de_Duero_Province_of_Valladolid_Castile_and_Leon.html",
+        "cuisine_evidence_url": "https://rutadelvinoriberadelduero.es/en/directories/comenge-winery/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "dominio-lubiano-wine-bar",
+      "name": "Dominio Lubiano Wine Bar",
+      "address": "Ctr Pesquera-Valbuena Polig 9 Parc 66, 47315 Pesquera de Duero, Valladolid, Spain",
+      "neighborhood": "Golden Mile",
+      "wine_program": "Estate wines by the glass and curated regional pours; glass-and-concrete bar with Golden Mile viewpoint; small-group tastings led by co-owner Monica",
+      "glass_count": 10,
+      "signature_pours": ["Dominio Lubiano Roble", "Dominio Lubiano Reserva", "Velvety Wines Crianza"],
+      "description": "Avant-garde wine bar at this family estate on the Golden Mile. Views from the terrace take in the 18th-century hermitage and 12th-century Valbuena Cistercian monastery; informal service from the winemaking family.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://dominiolubiano.com/en/homeen/",
+        "address_quoted": "CTR PESQUERA - VALBUENA POLG 9 PARC.66, 47315 Pesquera de Duero, Valladolid",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g2571837-d23684214-Reviews-Velvety_Wines_Dominio_Lubiano-Pesquera_de_Duero_Province_of_Valladolid_Castile_.html",
+        "cuisine_evidence_url": "https://www.turismocastillayleon.com/en/services/get-know/tourist-activities/velvety-wines-dominio-lubiano",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "abadia-retuerta-cellar-lounge",
+      "name": "Abadia Retuerta Cellar Lounge",
+      "address": "Monasterio de Santa Maria, 122 Km. 332.5, 47340 Sardon de Duero, Valladolid, Spain",
+      "neighborhood": "Sardon de Duero",
+      "wine_program": "Full pago catalog by the glass including Seleccion Especial, Petit Verdot and single-pago labels; library vintages; Romanesque vaulted interiors; exclusive to hotel guests and reservation visitors",
+      "glass_count": 25,
+      "signature_pours": ["Abadia Retuerta Seleccion Especial", "Pago Negralada", "Pago Valdebellotas"],
+      "description": "Wine lounge in the vaulted cellars of the 12th-century Abadia Retuerta abbey. Full estate pago catalog including library vintages; the Romanesque stone setting is unmatched in the Ribera del Duero wine zone.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://abadia-retuerta.com/en/hotel/",
+        "address_quoted": "Sardon de Duero, 47340 Valladolid, Spain",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Hotel_Review-g2018267-d2354351-Reviews-Abadia_Retuerta_LeDomaine-Sardon_de_Duero_Province_of_Valladolid_Castile_and_Leon.html",
+        "cuisine_evidence_url": "https://www.smoothred.com/destinations/spain/ribera-del-duero/accommodation/abadia-retuerta-ledomaine/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "castilla-termal-monks-cellar",
+      "name": "Castilla Termal Monks Wine Cellar",
+      "address": "San Bernardo s/n, 47359 Valbuena de Duero, Valladolid, Spain",
+      "neighborhood": "Valbuena de Duero",
+      "wine_program": "DO Ribera del Duero selection and the hotel's own Converso label; food-pairing flights curated by the sommelier; Gothic-frescoed monastery setting",
+      "glass_count": 20,
+      "signature_pours": ["Converso Tinto Reserva", "DO Ribera del Duero Grand Cru flight", "Valbuena cellar selection"],
+      "description": "The Monks Wine Cellar within Castilla Termal Monasterio de Valbuena. Guests taste regional and international wines paired with dishes; the hotel's own Converso wine is an internationally-awarded limited production Tempranillo.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.castillatermal.com/en/hotels/castile-and-leon/castilla-termal-monasterio-de-valbuena/rooms/",
+        "address_quoted": "San Bernardo, Valbuena de Duero, Valladolid",
+        "open_status": "open",
+        "open_evidence_url": "https://grapeescapes.net/destinations/ribera-del-duero/the-tours/ribera-del-duero-wine-tour-and-spa-castilla-termal-monasterio-de-valbuena/",
+        "cuisine_evidence_url": "https://www.winepaths.com/destination/spain/ribera-del-duero/castilla-termal-monasterio-de-valbuena",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "vinoteca-zaguan-penafiel",
+      "name": "Vinoteca y Artesania Zaguan",
+      "address": "Plaza Espana s/n, 47300 Penafiel, Valladolid, Spain",
+      "neighborhood": "Penafiel",
+      "wine_program": "450-reference selection of DO Ribera del Duero, Rueda, Cigales, Toro and Tierra de Castilla y Leon; wine by the glass and bottle; artisan food products alongside",
+      "glass_count": 20,
+      "signature_pours": ["Ribera del Duero Crianza selection", "Cigales rosado", "Rueda Verdejo"],
+      "description": "Wine retail bar in central Penafiel with 450 references from the key Castilla y Leon designations. Convenient before or after visiting Penafiel castle; wine accessories and regional delicacies also stocked.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://rutadelvinoriberadelduero.es/en/directories/handicrafts-wine-bar-zaguan/",
+        "address_quoted": "Plaza Espana s/n, 47300 Penafiel, Valladolid",
+        "open_status": "open",
+        "open_evidence_url": "https://turismopenafiel.es/enoteca.php?id=1",
+        "cuisine_evidence_url": "https://www.winetravelguides.com/spain/ribera-del-duero",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "vinosribera-tasting-bar",
+      "name": "VinosRibera.com Gourmet Centre Wine Bar",
+      "address": "Ctra. N-1 Km. 153.5, 09471 Fuentespina, Burgos, Spain",
+      "neighborhood": "Fuentespina",
+      "wine_program": "Over 100 Ribera del Duero producers; climate-controlled cellar; by-the-glass and structured vertical tastings; gourmet products from Castilla y Leon alongside",
+      "glass_count": 40,
+      "signature_pours": ["Multi-producer Ribera flights", "Old vine Tempranillo verticals", "Single-village DO pours"],
+      "description": "Largest commercial wine showcase in Ribera del Duero, on the A1 road at Fuentespina. Represents over 100 producers with a tasting bar, conditioned cellar and gourmet shop; an ideal first stop for visitors entering the wine zone.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.vinosribera.com/en/stores",
+        "address_quoted": "Ctra. N-1, km. 153,5 (Exit 152-153 A-1), 09471 Fuentespina - Burgos, Spain",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vinosribera.com/en/content/wine-store-ribera-del-duero",
+        "cuisine_evidence_url": "https://www.vinosribera.com/en/content/about-us",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "portia-agora-wine-bar",
+      "name": "Bodegas Portia Agora Wine Bar",
+      "address": "Antigua Carretera Nacional 1 Km. 170, 09370 Gumiel de Izan, Burgos, Spain",
+      "neighborhood": "Gumiel de Izan",
+      "wine_program": "Portia estate range by the glass including Triennia, Summa, Crianza and Roble; tapas and pintxos; Norman Foster building provides the dramatic backdrop",
+      "glass_count": 15,
+      "signature_pours": ["Portia Roble", "Portia Crianza", "Portia Summa"],
+      "description": "Wine bar in the central Agora of the Bodegas Portia Norman Foster complex in Gumiel de Izan. Open to walk-in visitors outside guided tour times; star-shaped architectural interior is itself a draw.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.bodegasportia.com/",
+        "address_quoted": "Antigua Carretera Nacional 1 Km. 170, 09370 Gumiel de Izan, Burgos, Spain",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g2559485-d2322483-Reviews-Bodegas_Portia-Gumiel_de_Hizan_Province_of_Burgos_Castile_and_Leon.html",
+        "cuisine_evidence_url": "https://www.riberadelduero.es/en/node/622",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "agropal-enoteca-bar",
+      "name": "Enoteca Agropal Wine Bar",
+      "address": "Carretera Pesquera 34, 47300 Penafiel, Valladolid, Spain",
+      "neighborhood": "Penafiel",
+      "wine_program": "DO Ribera del Duero and other Castilla y Leon designations by the glass; set in renovated 1953 grain silo with gourmet supermarket; Iberian products and cheeses alongside",
+      "glass_count": 25,
+      "signature_pours": ["Ribera del Duero Crianza flight", "Rueda Verdejo whites", "Cigales rosado"],
+      "description": "Wine bar inside the renovated 1953 FEGA grain silo on the Pesquera road in Penafiel. Opened October 2022; accessible car park; combines a tasting bar with a gourmet supermarket of Castilla y Leon products.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://rutadelvinoriberadelduero.es/en/directories/agropal-wine-cellar/",
+        "address_quoted": "Carretera Pesquera, 34, 47300 Penafiel, Valladolid",
+        "open_status": "open",
+        "open_evidence_url": "https://equalitasvitae.com/turismo-accesible/vinoteca-agropal/",
+        "cuisine_evidence_url": "https://www.turismoribera.com/enotecas/agropal-penafiel",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "felix-callejo-tasting-bar",
+      "name": "Bodegas Felix Callejo Tasting Bar",
+      "address": "Avenida del Cid Km. 16, 09441 Sotillo de la Ribera, Burgos, Spain",
+      "neighborhood": "Sotillo de la Ribera",
+      "wine_program": "Callejo estate range including Callejo, Flores de Callejo and single-parcel Majuelos de Callejo by the glass; Burgos charcuterie pairings",
+      "glass_count": 12,
+      "signature_pours": ["Callejo Crianza", "Gran Callejo Reserva", "Flores de Callejo Joven"],
+      "description": "Family tasting bar at the Callejo winery in Sotillo de la Ribera. Personal service from the Callejo family; old-vine Tempranillo pours; charcuterie board with Burgos morcilla and Iberian cuts.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.bodegasfelixcallejo.com/en/contact/",
+        "address_quoted": "Avenida del Cid, Km. 16, 09441 Sotillo de la Ribera, Burgos, Espana",
+        "open_status": "open",
+        "open_evidence_url": "https://rutadelvinoriberadelduero.es/en/directories/bodegas-felix-callejo/",
+        "cuisine_evidence_url": "https://www.turismocastillayleon.com/en/enotourism-gastronomy/visitable-wineries/bodegas-felix-callejo",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "finca-villacreces-wine-terrace",
+      "name": "Finca Villacreces Wine Terrace",
+      "address": "Carretera Soria (N-122) Km. 322, 47350 Quintanilla de Onesimo, Valladolid, Spain",
+      "neighborhood": "Golden Mile",
+      "wine_program": "Estate wines from organic viticulture by the glass including Pruno and Finca Villacreces labels; seasonal terrace with Duero river and pine forest views",
+      "glass_count": 10,
+      "signature_pours": ["Finca Villacreces Crianza", "Pruno Joven", "Nebro single-vineyard"],
+      "description": "Terrace wine bar at Finca Villacreces, bordered by the Duero river and bicentennial pines adjacent to Vega Sicilia. Organic estate pours; post-e-bike-tour tasting is a signature offer here.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://villacreces.com/en/wine-tourism/villacreces-tour",
+        "address_quoted": "Carretera Soria (N-122) Km. 322, 47350 Quintanilla de Onesimo, Valladolid, Espana",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g1072462-d7235673-Reviews-Finca_Villacreces-Quintanilla_de_Onesimo_Province_of_Valladolid_Castile_and_Leon.html",
+        "cuisine_evidence_url": "https://www.provinciadevalladolid.com/en/-/finca-villacreces-2",
+        "checked_on": "2026-05-28"
+      }
+    }
+  ]
+}

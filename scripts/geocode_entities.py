@@ -37,6 +37,23 @@ from pathlib import Path
 # Forward-looking entries (cities on the roadmap or likely candidates) are
 # seeded from public knowledge — they cost nothing if unused, and they
 # enable v4 guard to work the first time a new city ships.
+# ISO-3166 country code per country slug. Constrains Nominatim queries to
+# the right country and prevents the homonym-fallback class of bug:
+# Rhône 2026-05-28 sent 136 producers to "Rhone Valley Way" in California;
+# Ribera del Duero 2026-05-28 sent 26 producers to "Urbanización Ribera
+# del Duero" in Simancas (both via the postcode_centroid fallback querying
+# "<postcode>, <region_name>" without a country anchor).
+COUNTRY_ISO: dict[str, str] = {
+    "france": "fr", "italy": "it", "spain": "es", "portugal": "pt",
+    "germany": "de", "austria": "at", "hungary": "hu", "greece": "gr",
+    "united-kingdom": "gb", "united-states": "us", "usa": "us",
+    "argentina": "ar", "chile": "cl", "australia": "au",
+    "new-zealand": "nz", "south-africa": "za", "georgia": "ge",
+    "canada": "ca", "mexico": "mx", "japan": "jp", "switzerland": "ch",
+    "netherlands": "nl", "belgium": "be", "ireland": "ie", "poland": "pl",
+    "czech-republic": "cz", "denmark": "dk", "sweden": "se",
+}
+
 CITY_CENTROIDS: dict[tuple[str, str], tuple[float, float]] = {
     # ===== SHIPPED CITIES (sourced from existing pins.json medians) =====
     ("austria", "vienna"):           (48.20707, 16.3684),
@@ -739,12 +756,22 @@ def _save_cache(cache: dict) -> None:
     CACHE_PATH.write_text(json.dumps(cache, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
-def _nominatim_query(q: str) -> dict | None:
+def _nominatim_query(q: str, country_code: str | None = None) -> dict | None:
     """Single Nominatim call. Returns {'lat':..., 'lon':..., 'queried': q}
-    on a hit or None on a miss / error."""
-    params = urllib.parse.urlencode({
-        "q": q, "format": "json", "limit": "1", "addressdetails": "1",
-    })
+    on a hit or None on a miss / error.
+
+    `country_code` constrains the search to a specific ISO-3166 country
+    (e.g. "fr", "es"). This prevents the postcode_centroid fallback class
+    of bug where `"<postcode>, <region_name>"` matches a homonym in a
+    different country — Rhône 2026-05-28 sent 136 producers to a "Rhone
+    Valley Way" road in Chula Vista, California; Ribera del Duero
+    2026-05-28 sent 26 producers to a "Urbanización Ribera del Duero"
+    residential subdivision in Simancas (wrong centroid). Always pass
+    the region's country_code when you know it."""
+    payload = {"q": q, "format": "json", "limit": "1", "addressdetails": "1"}
+    if country_code:
+        payload["countrycodes"] = country_code.lower()
+    params = urllib.parse.urlencode(payload)
     url = f"{NOMINATIM_URL}?{params}"
     try:
         req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
@@ -904,7 +931,8 @@ def _smart_city_join(address: str, destination_city: str) -> str:
 
 
 def _geocode_one(address: str, city_name: str,
-                  city_centroid: tuple[float, float] | None = None) -> dict | None:
+                  city_centroid: tuple[float, float] | None = None,
+                  country_code: str | None = None) -> dict | None:
     """v4 geocoder fallback chain with city-centroid sanity check. Returns
     {'lat', 'lon', ...} or None.
 
@@ -1111,7 +1139,7 @@ def _geocode_one(address: str, city_name: str,
     def _try(q: str, strategy: str, sleep_first: bool = False) -> dict | None:
         if sleep_first:
             time.sleep(SLEEP_SECONDS)
-        hit = _nominatim_query(q)
+        hit = _nominatim_query(q, country_code=country_code)
         if hit:
             hit["strategy"] = strategy
             if _ok(hit):
@@ -1182,8 +1210,8 @@ def _geocode_one(address: str, city_name: str,
     return None
 
 
-def _collect_entities(only_city: str | None = None) -> list[tuple[str, str, str, str, tuple[float, float] | None]]:
-    """Return list of (entity_slug, address, city_name, source_file_rel, city_centroid).
+def _collect_entities(only_city: str | None = None) -> list[tuple[str, str, str, str, tuple[float, float] | None, str | None]]:
+    """Return list of (entity_slug, address, city_name, source_file_rel, city_centroid, country_code).
 
     Walks every entity-bearing JSON file. Skips entities with no slug or
     no address. Dedups by (address, city_name) — many entities share an
@@ -1191,9 +1219,13 @@ def _collect_entities(only_city: str | None = None) -> list[tuple[str, str, str,
 
     city_centroid is the (lat, lng) tuple from CITY_CENTROIDS for the
     sanity-check guard in _geocode_one; None when unknown city.
+
+    country_code is the ISO-3166 code from COUNTRY_ISO (e.g. "fr", "es"),
+    passed to Nominatim to prevent homonym-fallback bugs; None when the
+    country slug isn't mapped.
     """
     seen: set[tuple[str, str]] = set()
-    out: list[tuple[str, str, str, str, tuple[float, float] | None]] = []
+    out: list[tuple[str, str, str, str, tuple[float, float] | None, str | None]] = []
     for country_dir in sorted(SITE_DATA.iterdir()):
         if not country_dir.is_dir():
             continue
@@ -1211,6 +1243,7 @@ def _collect_entities(only_city: str | None = None) -> list[tuple[str, str, str,
                 continue
             city_name = (rdata.get("destination") or {}).get("name") or city_dir.name.replace("-", " ").title()
             centroid = CITY_CENTROIDS.get((country_dir.name, city_dir.name))
+            country_code = COUNTRY_ISO.get(country_dir.name)
             for f in sorted((city_dir / "data").glob("*.json")):
                 if f.name == "region.json":
                     continue
@@ -1231,7 +1264,7 @@ def _collect_entities(only_city: str | None = None) -> list[tuple[str, str, str,
                                 if key in seen:
                                     continue
                                 seen.add(key)
-                                out.append((e["slug"], addr, city_name, str(f.relative_to(REPO)), centroid))
+                                out.append((e["slug"], addr, city_name, str(f.relative_to(REPO)), centroid, country_code))
                             elif isinstance(e, dict):
                                 stack.append(e)
                     elif isinstance(node, dict):
@@ -1262,7 +1295,7 @@ def main() -> int:
     cache_hits = 0
     misses = 0
     recovered = 0  # prior failures we successfully geocoded this run
-    for slug, addr, city_name, src, centroid in targets:
+    for slug, addr, city_name, src, centroid, country_code in targets:
         if args.limit is not None and queried >= args.limit:
             print(f"  --limit {args.limit} reached; stopping.")
             break
@@ -1291,7 +1324,7 @@ def main() -> int:
                 cache_hits += 1
                 continue
         was_prior_failure = bool(cached) and not cached.get("ok")
-        result = _geocode_one(addr, city_name, city_centroid=centroid)
+        result = _geocode_one(addr, city_name, city_centroid=centroid, country_code=country_code)
         if result is None:
             cache[ck] = {"address": addr, "city": city_name, "ok": False, "source": "nominatim"}
             misses += 1

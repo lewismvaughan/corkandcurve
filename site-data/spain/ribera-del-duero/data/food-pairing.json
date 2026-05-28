@@ -1,0 +1,130 @@
+{
+  "food_pairing": [
+    {
+      "slug": "ribera-unico-cocido-madrileno",
+      "name": "Ribera del Duero Reserva with cocido madrileno",
+      "pairing": "Ribera del Duero Reserva or Gran Reserva with cocido madrileno, Madrid's three-course chickpea and meat stew",
+      "tablejourney_ref": "spain/madrid/dish/cocido-madrileno",
+      "wine_entities": [
+        "vega-sicilia-unico",
+        "tinto-pesquera-reserva",
+        "aalto"
+      ],
+      "description": "Madrid's defining slow stew combines chickpeas with beef, chicken, chorizo and morcilla served in three courses. The wine's dried-fruit depth and firm tannic frame complement the layered meatiness without overwhelming the broth.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://tablejourney.com/spain/madrid/dish/cocido-madrileno/",
+        "open_status": "open",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "ribera-reserva-cochinillo-botin",
+      "name": "Ribera del Duero Reserva with cochinillo at Sobrino de Botin",
+      "pairing": "Ribera del Duero Reserva with cochinillo asado (roasted suckling pig) at Sobrino de Botin",
+      "tablejourney_ref": "spain/madrid/restaurants/sobrino-de-botin",
+      "wine_entities": [
+        "tinto-pesquera-gran-reserva",
+        "vega-sicilia-valbuena-5",
+        "alion-reserva"
+      ],
+      "description": "Sobrino de Botin's cochinillo asado, roasted in a wood-fired oven operating since 1725, is the Castilian benchmark for suckling pig. A Ribera del Duero Reserva's structure and dark fruit balance the caramelised fat and delicate meat.",
+      "editorial_score": 5.0,
+      "verified": {
+        "source_url": "https://tablejourney.com/spain/madrid/restaurants/sobrino-de-botin/",
+        "open_status": "open",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "pingus-cordero-asado-lechazo",
+      "name": "Pingus-tier Tinto Fino with lechazo (Castilian milk-fed lamb)",
+      "pairing": "Top Ribera del Duero Tinto Fino with cordero asado (lechazo), Castilian wood-fired milk-fed lamb",
+      "tablejourney_ref": "spain/madrid/dish/cordero-asado",
+      "wine_entities": [
+        "pingus",
+        "flor-de-pingus",
+        "aalto-ps",
+        "pesus"
+      ],
+      "description": "Lechazo is the Castilian region's most revered roast: a milk-fed lamb of 25 days old, cooked whole in a clay wood-fired oven. The wine's concentration, mineral depth and dense tannins are scaled to the grandeur of this preparation.",
+      "editorial_score": 5.0,
+      "verified": {
+        "source_url": "https://tablejourney.com/spain/madrid/dish/cordero-asado/",
+        "open_status": "open",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "ribera-crianza-callos-madrilena",
+      "name": "Ribera del Duero Crianza with callos a la madrilena",
+      "pairing": "Ribera del Duero Crianza with callos a la madrilena, Madrid's tripe stew with chorizo and morcilla",
+      "tablejourney_ref": "spain/madrid/dish/callos-a-la-madrilena",
+      "wine_entities": [
+        "tinto-pesquera-crianza",
+        "emilio-moro-crianza",
+        "dominio-del-aguila-reserva"
+      ],
+      "description": "Callos a la madrilena is a winter clay-pot staple: tripe slow-cooked with chorizo, morcilla, ham hock and spiced tomato. The wine's oak spice and cherry fruit echo the chorizo's paprika while its medium body handles the gelatinous richness of the stew.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://tablejourney.com/spain/madrid/dish/callos-a-la-madrilena/",
+        "open_status": "open",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "ribera-gran-reserva-huevos-rotos",
+      "name": "Young Ribera del Duero with huevos rotos at Casa Lucio",
+      "pairing": "Ribera del Duero Roble or accessible Tinto Fino with huevos rotos at Casa Lucio",
+      "tablejourney_ref": "spain/madrid/restaurants/casa-lucio",
+      "wine_entities": [
+        "tinto-pesquera-crianza",
+        "flor-de-pingus",
+        "psi"
+      ],
+      "description": "Casa Lucio's huevos rotos has been Madrid's most-ordered taberna dish since 1974: fried eggs broken over thick fried potatoes with Iberian chorizo. A youthful Ribera del Duero brings enough fruit and acidity to cut the richness without requiring cellared complexity.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://tablejourney.com/spain/madrid/restaurants/casa-lucio/",
+        "open_status": "open",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "ribera-blanco-bocadillo-calamares",
+      "name": "Albillo Mayor white with bocadillo de calamares",
+      "pairing": "Ribera del Duero Albillo Mayor white with bocadillo de calamares, Madrid's battered squid roll",
+      "tablejourney_ref": "spain/madrid/dish/bocadillo-de-calamares",
+      "wine_entities": [
+        "dominio-del-aguila-albillo"
+      ],
+      "description": "The bocadillo de calamares is Madrid's working-class street sandwich: battered squid rings in a fresh roll from the stalls around Plaza Mayor. The Albillo Mayor's saline mineral finish and high acidity cut cleanly through the fried squid, making a pairing rarely explored outside Castile.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://tablejourney.com/spain/madrid/dish/bocadillo-de-calamares/",
+        "open_status": "open",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "ribera-reserva-cochinillo-asado",
+      "name": "Ribera del Duero Reserva with cochinillo asado",
+      "pairing": "Ribera del Duero Reserva with cochinillo asado (wood-roasted suckling pig), the Castilian classic",
+      "tablejourney_ref": "spain/madrid/dish/cochinillo-asado",
+      "wine_entities": [
+        "vega-sicilia-valbuena-5",
+        "aalto",
+        "el-anejon-de-carraovejas",
+        "tinto-pesquera-reserva"
+      ],
+      "description": "Cochinillo asado, a 21-day-old suckling pig roasted whole in a wood-fired oven and carved with a ceramic plate, is Castile's most celebrated table centerpiece. A Ribera del Duero Reserva's structure and dark fruit handle the caramelised crackling and delicate meat.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://tablejourney.com/spain/madrid/dish/cochinillo-asado/",
+        "open_status": "open",
+        "checked_on": "2026-05-28"
+      }
+    }
+  ]
+}
