@@ -1,0 +1,146 @@
+{
+  "food_pairing": [
+    {
+      "slug": "condrieu-quenelle-brochet",
+      "name": "Condrieu with quenelle de brochet",
+      "pairing": "Condrieu Viognier with quenelle de brochet sauce Nantua",
+      "tablejourney_ref": "france/lyon/dish/quenelle-de-brochet",
+      "wine_entities": [
+        "vernay-condrieu-coteau-de-vernon",
+        "cuilleron-condrieu-les-chaillets",
+        "perret-condrieu-coteau-chery"
+      ],
+      "description": "The Lyonnais pike dumpling in its classic crayfish-cream sauce finds a natural partner in Condrieu. The wine's apricot, honey and floral richness mirrors the sweetness of crayfish while its weight handles the cream sauce without being overwhelmed.",
+      "editorial_score": 5.0,
+      "verified": {
+        "source_url": "https://tablejourney.com/france/lyon/dish/quenelle-de-brochet/",
+        "open_status": "open",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "cornas-andouillette-lyonnaise",
+      "name": "Cornas with andouillette lyonnaise",
+      "pairing": "Cornas Syrah with andouillette a la lyonnaise",
+      "tablejourney_ref": "france/lyon/dish/andouillette-lyonnaise",
+      "wine_entities": [
+        "clape-cornas",
+        "allemand-cornas-reynard",
+        "paris-cornas-granit-60"
+      ],
+      "description": "The pungent, minerally andouillette sausage of Lyon demands a wine of equal intensity. Cornas Syrah on granite brings iron, smoked meat and dark fruit that hold their own against the sausage's assertive charcuterie character.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://tablejourney.com/france/lyon/dish/andouillette-lyonnaise/",
+        "open_status": "open",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "hermitage-rouge-tablier-de-sapeur",
+      "name": "Hermitage rouge with tablier de sapeur",
+      "pairing": "Hermitage or Saint-Joseph rouge with tablier de sapeur",
+      "tablejourney_ref": "france/lyon/dish/tablier-de-sapeur",
+      "wine_entities": [
+        "chave-hermitage-rouge",
+        "chave-saint-joseph-rouge",
+        "gonon-saint-joseph-rouge"
+      ],
+      "description": "The breaded and pan-fried tripe preparation of Lyon needs a structured Northern Rhone red. Hermitage and Saint-Joseph Syrah bring firm tannins and savoury iron mineral that cut the richness of the offal without overwhelming its delicate flavour.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://tablejourney.com/france/lyon/dish/tablier-de-sapeur/",
+        "open_status": "open",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "tavel-saucisson-de-lyon",
+      "name": "Tavel rose with saucisson de Lyon",
+      "pairing": "Tavel AOC rose with saucisson de Lyon and charcuterie",
+      "tablejourney_ref": "france/lyon/dish/saucisson-de-lyon",
+      "wine_entities": [
+        "mordoree-dame-rousse-tavel",
+        "aqueria-tavel"
+      ],
+      "description": "The structured, full-bodied dry rose of Tavel is the ideal companion for a Lyonnais charcuterie spread anchored by saucisson. The wine's garrigue freshness, mineral backbone and red-fruit brightness balance the salt and fat of coarse pork sausage.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://tablejourney.com/france/lyon/dish/saucisson-de-lyon/",
+        "open_status": "open",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "cote-rotie-salade-lyonnaise",
+      "name": "Cote-Rotie with salade lyonnaise",
+      "pairing": "Cote-Rotie Syrah with salade lyonnaise",
+      "tablejourney_ref": "france/lyon/dish/salade-lyonnaise",
+      "wine_entities": [
+        "jamet-cote-rotie",
+        "rostaing-cote-rotie-la-landonne",
+        "guigal-cote-rotie-la-mouline"
+      ],
+      "description": "The warm frisee, lardons, croutons and poached egg of the salade lyonnaise call for a supple, perfumed red. A village-level or approachable Cote-Rotie brings violet, white pepper and red fruit that flatter the bacon without competing with the egg.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://tablejourney.com/france/lyon/dish/salade-lyonnaise/",
+        "open_status": "open",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "chateauneuf-pate-en-croute",
+      "name": "Chateauneuf-du-Pape rouge with pate en croute lyonnais",
+      "pairing": "Chateauneuf-du-Pape rouge with pate en croute lyonnais",
+      "tablejourney_ref": "france/lyon/dish/pate-en-croute-lyonnais",
+      "wine_entities": [
+        "vieux-telegraphe-la-crau",
+        "clos-des-papes-rouge",
+        "tardieu-laurent-chateauneuf-vv"
+      ],
+      "description": "The pastry-wrapped terrine of Lyon, stuffed with pistachio and foie gras, meets a natural partner in a Southern Rhone red. Chateauneuf-du-Pape's garrigue warmth, dark fruit and generous body complement the richness of the filling without over-powering the delicate crust.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://tablejourney.com/france/lyon/dish/pate-en-croute-lyonnais/",
+        "open_status": "open",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "viognier-cervelle-de-canut",
+      "name": "Condrieu or Saint-Peray blanc with cervelle de canut",
+      "pairing": "Northern Rhone white (Condrieu or Marsanne) with cervelle de canut",
+      "tablejourney_ref": "france/lyon/dish/cervelle-de-canut",
+      "wine_entities": [
+        "vernay-condrieu-coteau-de-vernon",
+        "chave-hermitage-blanc",
+        "gonon-saint-joseph-blanc"
+      ],
+      "description": "The herbed, garlicky fromage blanc of Lyon is a classic muse venue plate. A rich, aromatic Northern Rhone white brings floral peach or beeswax texture that harmonises with the creamy cheese while its mineral finish cuts the cream.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://tablejourney.com/france/lyon/dish/cervelle-de-canut/",
+        "open_status": "open",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "rasteau-vdn-tarte-pralines",
+      "name": "Rasteau VDN with tarte aux pralines",
+      "pairing": "Rasteau Vin Doux Naturel with tarte aux pralines",
+      "tablejourney_ref": "france/lyon/dish/tarte-aux-pralines",
+      "wine_entities": [
+        "soumade-rasteau-vdn",
+        "tardieu-laurent-rasteau"
+      ],
+      "description": "The bright-pink praline tart of Lyon, rich with caramelised sugar and almond cream, finds a harmonious counterpart in the sweet, oxidative Rasteau VDN. The wine's fig, coffee and dried cherry notes echo the nutty-caramel sweetness of the pralines.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://tablejourney.com/france/lyon/dish/tarte-aux-pralines/",
+        "open_status": "open",
+        "checked_on": "2026-05-28"
+      }
+    }
+  ]
+}

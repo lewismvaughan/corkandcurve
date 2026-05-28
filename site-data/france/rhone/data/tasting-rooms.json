@@ -1,0 +1,319 @@
+{
+  "tasting_rooms": [
+    {
+      "slug": "chapoutier-tain-tasting",
+      "name": "M. Chapoutier Tasting Cellar",
+      "address": "18 avenue du Docteur Paul Durand, 26600 Tain-l'Hermitage, France",
+      "neighborhood": "Tain-l'Hermitage, Northern Rhône",
+      "varietals_focus": ["Syrah", "Marsanne", "Roussanne", "Grenache", "Viognier"],
+      "pricing": "Complimentary tasting of 5 wines; premium Hermitage flights from EUR 30",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": "m-chapoutier",
+      "description": "M. Chapoutier's flagship tasting cellar at Tain-l'Hermitage, showcasing the full range from Crozes-Hermitage to iconic single-parcel Ermitage cuvees. Braille-labelled bottles displayed throughout.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.chapoutier.com/en/oenotourism/cellar-visit/",
+        "address_quoted": "18 avenue du Docteur Paul Durand, 26600 Tain-l'Hermitage",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g668046-d2105453-Reviews-M_Chapoutier-Tain_l_Hermitage_Drome_Auvergne_Rhone_Alpes.html",
+        "cuisine_evidence_url": "https://www.chapoutier.com/en/wines/hermitage/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "guigal-ampuis-tasting",
+      "name": "E. Guigal Tasting Room",
+      "address": "1 route de Bordeaux, 69420 Ampuis, France",
+      "neighborhood": "Ampuis, Côte-Rôtie",
+      "varietals_focus": ["Syrah", "Viognier", "Grenache", "Mourvèdre"],
+      "pricing": "By appointment; standard tasting EUR 25; La La wines premium tasting EUR 80",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "e-guigal",
+      "description": "E. Guigal's historic cellars and tasting room in Ampuis, home of the legendary La Landonne, La Mouline and La Turque single-vineyard Côte-Rôties. Guided cellar tour with vertical tasting available.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.guigal.com/en/",
+        "address_quoted": "1 route de Bordeaux, 69420 Ampuis",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g188874-d6688476-Reviews-E_Guigal-Ampuis_Isere_Auvergne_Rhone_Alpes.html",
+        "cuisine_evidence_url": "https://www.guigal.com/en/wines/cote-rotie",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "delas-freres-tasting",
+      "name": "Delas Freres Tasting Cellar",
+      "address": "ZA de l'Olivet, 07300 Saint-Jean-de-Muzols, France",
+      "neighborhood": "Saint-Jean-de-Muzols, Saint-Joseph",
+      "varietals_focus": ["Syrah", "Marsanne", "Roussanne", "Viognier"],
+      "pricing": "Standard visit EUR 15; prestige cuvee tasting EUR 35",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "delas-freres",
+      "description": "Delas Freres winery and tasting space in Saint-Jean-de-Muzols offering guided visits through cellars with tastings of Saint-Joseph, Cornas and Hermitage single-parcel wines.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.delas.com/en/",
+        "address_quoted": "ZA de l'Olivet, 07300 Saint-Jean-de-Muzols",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g1518399-d6820048-Reviews-Delas_Freres-Saint_Jean_de_Muzols_Ardeche_Auvergne_Rhone_Alpes.html",
+        "cuisine_evidence_url": "https://www.delas.com/en/our-wines/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "paul-jaboulet-aine-tasting",
+      "name": "Paul Jaboulet Aine Tasting Room",
+      "address": "Les Jalets, Route Nationale 7, 26600 La Roche-de-Glun, France",
+      "neighborhood": "La Roche-de-Glun, Crozes-Hermitage",
+      "varietals_focus": ["Syrah", "Marsanne", "Grenache", "Mourvèdre"],
+      "pricing": "Visit and tasting from EUR 18; La Chapelle prestige tasting EUR 45",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "paul-jaboulet-aine",
+      "description": "The historic home of La Chapelle Hermitage, now owned by the Frey family. Cellar tours at La Roche-de-Glun cover the full Jaboulet range including the iconic Hermitage La Chapelle.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.jaboulet.com/",
+        "address_quoted": "Les Jalets, Route Nationale 7, 26600 La Roche-de-Glun",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g15802165-d2318698-Reviews-Paul_Jaboulet_Aine-La_Roche_de_Glun_Drome_Auvergne_Rhone_Alpes.html",
+        "cuisine_evidence_url": "https://www.jaboulet.com/en/wines/hermitage/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "chateau-beaucastel-tasting",
+      "name": "Chateau de Beaucastel Tasting Room",
+      "address": "Chemin de Beaucastel, 84350 Courthezon, France",
+      "neighborhood": "Courthezon, Chateauneuf-du-Pape",
+      "varietals_focus": ["Grenache", "Mourvèdre", "Syrah", "Cinsault", "Roussanne"],
+      "pricing": "By appointment; estate tasting EUR 20; Hommage a Jacques Perrin vertical EUR 75",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "chateau-beaucastel",
+      "description": "The Perrin family estate in Courthezon, one of only two Chateauneuf-du-Pape estates to use all 13 permitted grape varieties. Guided tours of historic cellars with structured tastings of the estate range.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.beaucastel.com/en/",
+        "address_quoted": "Chemin de Beaucastel, 84350 Courthezon",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g12843424-d2307226-Reviews-Chateau_Beaucastel-Courthezon_Vaucluse_Provence_Alpes_Cote_d_Azur.html",
+        "cuisine_evidence_url": "https://www.beaucastel.com/en/wines/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "domaine-du-vieux-telegraphe-tasting",
+      "name": "Domaine du Vieux Telegraphe Tasting",
+      "address": "3 route de Chateauneuf-du-Pape, 84370 Bedarrides, France",
+      "neighborhood": "La Crau plateau, Chateauneuf-du-Pape",
+      "varietals_focus": ["Grenache", "Syrah", "Mourvèdre", "Cinsault", "Clairette"],
+      "pricing": "By appointment; La Crau vertical tasting EUR 35; Grand Tasting EUR 60",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "domaine-du-vieux-telegraphe",
+      "description": "The Brunier family's landmark estate on La Crau plateau, one of Chateauneuf-du-Pape's finest terroirs. Cellar visits showcase the La Crau single-vineyard lineup alongside estate Gigondas and Telegramme cuvees.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.vieux-telegraphe.fr/en/cellar-door",
+        "address_quoted": "3 route de Chateauneuf-du-Pape, 84370 Bedarrides",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g17176843-d8540726-Reviews-Domaine_Du_Vieux_Telegraphe-Bedarrides_Vaucluse_Provence_Alpes_Cote_d_Azur.html",
+        "cuisine_evidence_url": "https://www.vieux-telegraphe.fr/en/wines",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "maison-brotte-tasting",
+      "name": "Maison Brotte Espace Viniculture",
+      "address": "Chemin de la Gironde, 84230 Chateauneuf-du-Pape, France",
+      "neighborhood": "Chateauneuf-du-Pape",
+      "varietals_focus": ["Grenache", "Syrah", "Mourvèdre", "Roussanne", "Clairette"],
+      "pricing": "Walk-in tasting from EUR 10; guided cave visit and tasting EUR 22",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": "maison-brotte",
+      "description": "Maison Brotte's purpose-built visitor centre next to the Pere Anselme Wine Museum. Wide range of Chateauneuf-du-Pape, Gigondas, Vacqueyras and Cotes du Rhone open for daily tasting.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/Attraction_Review-g187924-d2283477-Reviews-Maison_Brotte-Chateauneuf_du_Pape_Vaucluse_Provence_Alpes_Cote_d_Azur.html",
+        "address_quoted": "Chemin de la Gironde, 84230 Chateauneuf-du-Pape",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g187924-d2283477-Reviews-Maison_Brotte-Chateauneuf_du_Pape_Vaucluse_Provence_Alpes_Cote_d_Azur.html",
+        "cuisine_evidence_url": "https://www.brotte.com/en/our-wines/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "inter-rhone-maison-des-vins-avignon",
+      "name": "Maison des Vins du Rhone Avignon",
+      "address": "6 rue des Trois Faucons, 84000 Avignon, France",
+      "neighborhood": "Centre historique, Avignon",
+      "varietals_focus": ["Grenache", "Syrah", "Viognier", "Marsanne", "Roussanne"],
+      "pricing": "Tasting from EUR 5 per glass; regional discovery flight EUR 18",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": null,
+      "description": "The Rhone Valley wine trade body's urban tasting bar in Avignon's historic centre. The rotating selection spans the full Rhone Valley from Condrieu to Chateauneuf-du-Pape with over 300 references.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.inter-rhone.com/en/the-rhone-valley-wines/oenotourism/",
+        "address_quoted": "6 rue des Trois Faucons, 84000 Avignon",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g187916-d12918644-Reviews-Maison_des_Vins_du_Rhone-Avignon_Vaucluse_Provence_Alpes_Cote_d_Azur.html",
+        "cuisine_evidence_url": "https://www.inter-rhone.com/en/the-rhone-valley-wines/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "domaine-clape-tasting",
+      "name": "Domaine Clape Tasting",
+      "address": "146 route Nationale, 07130 Cornas, France",
+      "neighborhood": "Cornas, Northern Rhône",
+      "varietals_focus": ["Syrah"],
+      "pricing": "By appointment only; private cellar visit and tasting",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "domaine-clape",
+      "description": "The Clape family's legendary Cornas estate cellar, producing some of the Rhone's most sought-after 100% Syrah wines. Pierre-Marie Clape receives small groups by appointment for tasting from barrel and bottle.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.wine-searcher.com/find/clape+cornas/1/france",
+        "address_quoted": "146 route Nationale, 07130 Cornas",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.decanter.com/wine/wine-regions/rhone/rhone-appellations/cornas/",
+        "cuisine_evidence_url": "https://www.winespectator.com/news/54609",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "clos-des-papes-tasting",
+      "name": "Clos des Papes Tasting Room",
+      "address": "13 avenue Pierre de Luxembourg, 84230 Chateauneuf-du-Pape, France",
+      "neighborhood": "Chateauneuf-du-Pape village",
+      "varietals_focus": ["Grenache", "Mourvèdre", "Syrah", "Vaccarese", "Roussanne"],
+      "pricing": "By appointment; cellar and estate tasting EUR 25",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "clos-des-papes",
+      "description": "The Avril family's Clos des Papes in the village of Chateauneuf-du-Pape. Known for consistently scoring among the appellation's highest-rated estates, offering intimate visits to their village chai.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.clos-des-papes.fr/",
+        "address_quoted": "13 avenue Pierre de Luxembourg, 84230 Chateauneuf-du-Pape",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g187924-d8574230-Reviews-Clos_des_Papes-Chateauneuf_du_Pape_Vaucluse_Provence_Alpes_Cote_d_Azur.html",
+        "cuisine_evidence_url": "https://www.clos-des-papes.fr/en/wines",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "gigondas-la-cave-tasting",
+      "name": "Gigondas La Cave Tasting Bar",
+      "address": "1 place du Portail, 84190 Gigondas, France",
+      "neighborhood": "Gigondas village, Southern Rhône",
+      "varietals_focus": ["Grenache", "Syrah", "Mourvèdre", "Clairette"],
+      "pricing": "Walk-in tasting from EUR 6; guided flight with AOC overview EUR 20",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": null,
+      "description": "The cooperative cellar shop and tasting bar in Gigondas village, offering the region's broadest access to appellation wines from over 40 local producers. The central port of call for any Gigondas visit.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/Attraction_Review-g1186451-d12342677-Reviews-Gigondas_La_Cave-Gigondas_Vaucluse_Provence_Alpes_Cote_d_Azur.html",
+        "address_quoted": "1 place du Portail, 84190 Gigondas",
+        "open_status": "open",
+        "open_evidence_url": "https://www.yelp.com/biz/gigondas-la-cave-gigondas",
+        "cuisine_evidence_url": "https://www.inter-rhone.com/en/the-rhone-valley-wines/appellations/gigondas/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "cave-de-tain-tasting-centre",
+      "name": "Cave de Tain Tasting Centre",
+      "address": "22 route de Larnage, 26600 Tain-l'Hermitage, France",
+      "neighborhood": "Tain-l'Hermitage, Northern Rhône",
+      "varietals_focus": ["Syrah", "Marsanne", "Roussanne", "Grenache"],
+      "pricing": "Walk-in tasting free; Hermitage and Cornas premium flight EUR 25",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": "cave-de-tain",
+      "description": "Cave de Tain cooperative's visitor centre and tasting room, one of Northern Rhone's largest producers. Full range from Crozes-Hermitage to Hermitage and Cornas, including the Nobles Rives prestige tier.",
+      "editorial_score": 4.1,
+      "verified": {
+        "source_url": "https://www.cavedetain.com/",
+        "address_quoted": "22 route de Larnage, 26600 Tain-l'Hermitage",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g668046-d2299278-Reviews-Cave_de_Tain-Tain_l_Hermitage_Drome_Auvergne_Rhone_Alpes.html",
+        "cuisine_evidence_url": "https://www.cavedetain.com/en/our-wines/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "domaine-yves-cuilleron-tasting",
+      "name": "Domaine Yves Cuilleron Tasting Room",
+      "address": "58 route de Verlieu, 42410 Chavanay, France",
+      "neighborhood": "Chavanay, Saint-Joseph / Condrieu",
+      "varietals_focus": ["Viognier", "Syrah", "Marsanne", "Roussanne"],
+      "pricing": "Walk-in tasting Mon-Sat; guided flights EUR 15 to EUR 40 for Condrieu verticals",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": "domaine-yves-cuilleron",
+      "description": "Yves Cuilleron's modern winery and tasting room in Chavanay at the southern edge of Condrieu appellation. Noted for expressive Condrieu whites and structured Saint-Joseph reds from old-vine Syrah.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.cuilleron.com/en/",
+        "address_quoted": "58 route de Verlieu, 42410 Chavanay",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g1136268-d8448236-Reviews-Domaine_Yves_Cuilleron-Chavanay_Loire_Auvergne_Rhone_Alpes.html",
+        "cuisine_evidence_url": "https://www.cuilleron.com/en/wines/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "chateau-mont-redon-tasting",
+      "name": "Chateau Mont-Redon Tasting Room",
+      "address": "Route de l'Orange, 84230 Chateauneuf-du-Pape, France",
+      "neighborhood": "Chateauneuf-du-Pape",
+      "varietals_focus": ["Grenache", "Syrah", "Mourvèdre", "Cinsault", "Roussanne"],
+      "pricing": "Walk-in tasting from EUR 10; estate tour and tasting EUR 22",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": "chateau-mont-redon",
+      "description": "One of the oldest and largest estates in Chateauneuf-du-Pape with a welcoming daily tasting room. The Fabre-Diffre family has owned the property since 1923, and the tasting covers both Chateauneuf-du-Pape and Lirac.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/Attraction_Review-g187924-d2261162-Reviews-Chateau_Mont_Redon-Chateauneuf_du_Pape_Vaucluse_Provence_Alpes_Cote_d_Azur.html",
+        "address_quoted": "Route de l'Orange, 84230 Chateauneuf-du-Pape",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g187924-d2261162-Reviews-Chateau_Mont_Redon-Chateauneuf_du_Pape_Vaucluse_Provence_Alpes_Cote_d_Azur.html",
+        "cuisine_evidence_url": "https://www.chateaumontredon.fr/en/our-wines/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "domaine-les-pallieres-tasting",
+      "name": "Domaine Les Pallieres Tasting",
+      "address": "2 chemin des Pallieres, 84190 Gigondas, France",
+      "neighborhood": "Gigondas, Southern Rhône",
+      "varietals_focus": ["Grenache", "Syrah", "Mourvèdre", "Clairette"],
+      "pricing": "By appointment; tasting and estate walk EUR 20",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "domaine-les-pallieres",
+      "description": "Historic Gigondas estate jointly owned by Brunier family of Vieux Telegraphe and Kermit Lynch. Old-vine Grenache on Triassic limestone soils produces one of Gigondas's finest expressions. Intimate appointment visits.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.kermitlynch.com/our-producers/les-pallieres/",
+        "address_quoted": "2 chemin des Pallieres, 84190 Gigondas",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.wine-searcher.com/find/les+pallieres+gigondas/1/france",
+        "cuisine_evidence_url": "https://www.kermitlynch.com/our-producers/les-pallieres/",
+        "checked_on": "2026-05-28"
+      }
+    }
+  ]
+}

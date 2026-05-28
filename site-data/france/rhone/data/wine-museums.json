@@ -1,0 +1,94 @@
+{
+  "wine_museums": [
+    {
+      "slug": "musee-du-vin-pere-anselme-brotte",
+      "name": "Musee du Vin Pere Anselme - Brotte",
+      "address": "Chemin de la Gironde, 84230 Chateauneuf-du-Pape, France",
+      "neighborhood": "Chateauneuf-du-Pape",
+      "description": "Maison Brotte's wine museum adjacent to their tasting room in Chateauneuf-du-Pape, housing over 10,000 wine artefacts collected over three generations. Exhibits include antique corkscrews, oak cask tools, viticulture implements and historical labels from the appellation's founding era.",
+      "admission": "EUR 5 adults; free with tasting",
+      "permanent_collection": ["Antique corkscrew collection (3,000+ pieces)", "Chateauneuf-du-Pape historical bottles", "Traditional viticulture tools", "Regional cooperage exhibits"],
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/Attraction_Review-g187924-d2283477-Reviews-Maison_Brotte-Chateauneuf_du_Pape_Vaucluse_Provence_Alpes_Cote_d_Azur.html",
+        "address_quoted": "Chemin de la Gironde, 84230 Chateauneuf-du-Pape",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g187924-d2283477-Reviews-Maison_Brotte-Chateauneuf_du_Pape_Vaucluse_Provence_Alpes_Cote_d_Azur.html",
+        "cuisine_evidence_url": "https://www.brotte.com/en/oenotourism/wine-museum/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "universite-du-vin-oeno-musee-suze-la-rousse",
+      "name": "Oenotheque Musee - Universite du Vin",
+      "address": "Chateau de Suze-la-Rousse, 26790 Suze-la-Rousse, France",
+      "neighborhood": "Suze-la-Rousse, Drome",
+      "description": "The Universite du Vin's wine museum and library inside the medieval Chateau de Suze-la-Rousse, housing the region's most comprehensive oenological archive. The permanent collection covers the history of Rhone Valley viticulture from Roman times to the present, alongside the largest Rhone Valley library of technical wine literature in France.",
+      "admission": "EUR 7 adults; free with Universite du Vin course",
+      "permanent_collection": ["Rhone Valley viticulture history from Roman era", "Oenological instrument collection", "Vintage label archive", "Rhone wine library (8,000 volumes)"],
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.universite-du-vin.com/en/",
+        "address_quoted": "Chateau de Suze-la-Rousse, 26790 Suze-la-Rousse",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g1226803-d1086700-Reviews-Universite_du_Vin-Suze_la_Rousse_Drome_Auvergne_Rhone_Alpes.html",
+        "cuisine_evidence_url": "https://www.universite-du-vin.com/en/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "musee-du-vin-avignon-palais-du-roure",
+      "name": "Musee des Arts et Traditions Populaires du Palais du Roure",
+      "address": "3 rue College du Roure, 84000 Avignon, France",
+      "neighborhood": "Centre historique, Avignon",
+      "description": "Avignon's regional ethnographic museum housed in a 15th-century palace, containing a significant section on Provencal and Rhone Valley viticulture traditions. The wine and olive culture galleries document Southern Rhone peasant viticulture from the 17th century onward.",
+      "admission": "EUR 6 adults",
+      "permanent_collection": ["Southern Rhone viticulture implements", "Traditional winemaking vessels", "Provencal harvest ceremonies documentation", "Regional costume and rural life exhibits"],
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/Attraction_Review-g187916-d2259025-Reviews-Palais_du_Roure-Avignon_Vaucluse_Provence_Alpes_Cote_d_Azur.html",
+        "address_quoted": "3 rue College du Roure, 84000 Avignon",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g187916-d2259025-Reviews-Palais_du_Roure-Avignon_Vaucluse_Provence_Alpes_Cote_d_Azur.html",
+        "cuisine_evidence_url": "https://www.avignon.fr/en/visit/museums-and-monuments/palais-du-roure/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "chapoutier-vinothequne-musee-tain",
+      "name": "Chapoutier Heritage Cellar Museum",
+      "address": "18 avenue du Docteur Paul Durand, 26600 Tain-l'Hermitage, France",
+      "neighborhood": "Tain-l'Hermitage, Northern Rhône",
+      "description": "M. Chapoutier's heritage cellar exhibition at Tain-l'Hermitage documenting the Chapoutier family history from Michel Chapoutier's founding in 1808 to the biodynamic transition under Max Chapoutier from 1990. Historical bottlings and viticultural archive open alongside the tasting room.",
+      "admission": "Free with tasting",
+      "permanent_collection": ["Chapoutier family archive 1808 to present", "Historical Hermitage vintages", "Biodynamic viticulture transition documentation", "Original Braille wine label collection"],
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.chapoutier.com/en/oenotourism/cellar-visit/",
+        "address_quoted": "18 avenue du Docteur Paul Durand, 26600 Tain-l'Hermitage",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g668046-d2105453-Reviews-M_Chapoutier-Tain_l_Hermitage_Drome_Auvergne_Rhone_Alpes.html",
+        "cuisine_evidence_url": "https://www.chapoutier.com/en/the-house/our-history/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "musee-des-vins-du-pays-viennois-vienne",
+      "name": "Musee des Vins du Pays Viennois",
+      "address": "2 rue des Orfevres, 38200 Vienne, France",
+      "neighborhood": "Centre-ville, Vienne",
+      "description": "Vienne's civic museum dedicated to the Viennois wine-growing tradition, with exhibits spanning the Allobroges tribe who first traded Viennois wines with Rome, through the Cote-Rotie appellation's modern revival under Guigal and Jaboulet. One of few museums covering Northern Rhone wine history in depth.",
+      "admission": "EUR 4 adults",
+      "permanent_collection": ["Allobroges tribe viticulture evidence", "Viennois wine trade history Roman to modern", "Cote-Rotie appellation maps", "Condrieu and Viognier heritage exhibits"],
+      "editorial_score": 4.1,
+      "verified": {
+        "source_url": "https://www.vienne-condrieu.com/en/discover/vienne-heritage/musee-des-vins/",
+        "address_quoted": "2 rue des Orfevres, 38200 Vienne",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g187876-d6543289-Reviews-Musee_des_Vins-Vienne_Isere_Auvergne_Rhone_Alpes.html",
+        "cuisine_evidence_url": "https://www.vienne-condrieu.com/en/discover/vienne-heritage/musee-des-vins/",
+        "checked_on": "2026-05-28"
+      }
+    }
+  ]
+}

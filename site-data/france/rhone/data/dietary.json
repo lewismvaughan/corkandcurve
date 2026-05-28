@@ -1,0 +1,285 @@
+{
+  "dietary": {
+    "biodynamic": [
+      {
+        "slug": "chateau-beaucastel-biodynamic",
+        "name": "Chateau de Beaucastel",
+        "vineyard_ref": "chateau-de-beaucastel",
+        "address": "Route de Courthezon, 84350 Courthezon, Vaucluse, France",
+        "neighborhood": "Chateauneuf-du-Pape AOC",
+        "biodynamic_status": "demeter_certified",
+        "biodynamic_certifier": "Demeter",
+        "organic_status": "organic_certified",
+        "organic_certifier": "Ecocert",
+        "certified_year": 1974,
+        "description": "Chateau de Beaucastel, owned by the Perrin family, has been certified biodynamic (Demeter) since the mid-1970s, making it one of the earliest major wine estates in France to embrace formal biodynamic certification. The estate uses all 13 Chateauneuf-du-Pape permitted varieties and is farmed entirely biodynamically across its 130 hectares.",
+        "tip": "Beaucastel offers guided biodynamic vineyard tours by appointment, demonstrating the compost preparations and lunar calendar farming schedule.",
+        "editorial_score": 4.9,
+        "verified": {
+          "source_url": "https://www.beaucastel.com/",
+          "address_quoted": "Route de Courthezon, 84350 Courthezon",
+          "open_status": "open",
+          "open_evidence_url": "https://www.demeter.net/",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Biodynamic_agriculture",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "domaine-de-marcoux-demeter",
+        "name": "Domaine de Marcoux",
+        "vineyard_ref": "domaine-de-marcoux",
+        "address": "Route d'Orange, 84100 Orange, Vaucluse, France",
+        "neighborhood": "Chateauneuf-du-Pape AOC",
+        "biodynamic_status": "demeter_certified",
+        "biodynamic_certifier": "Demeter",
+        "organic_status": "organic_certified",
+        "organic_certifier": "Ecocert",
+        "certified_year": 1995,
+        "description": "Domaine de Marcoux, owned by Sophie and Catherine Armenier, was one of the first Chateauneuf-du-Pape estates to receive Demeter biodynamic certification in the 1990s. The estate produces Chateauneuf-du-Pape rouge and blanc from old-vine Grenache on clay and galets roulants soils, farmed strictly biodynamically.",
+        "tip": "The Domaine de Marcoux Vieilles Vignes Chateauneuf is a benchmark for biodynamic Grenache; visits by appointment from Orange.",
+        "editorial_score": 4.8,
+        "verified": {
+          "source_url": "https://www.wine-searcher.com/find/domaine+de+marcoux+chateauneuf",
+          "address_quoted": "Route d'Orange, 84100 Orange, Vaucluse",
+          "open_status": "open",
+          "open_evidence_url": "https://www.demeter.net/",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Biodynamic_agriculture",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "m-chapoutier-demeter-tain",
+        "name": "M. Chapoutier",
+        "vineyard_ref": "m-chapoutier",
+        "address": "18 avenue du Docteur Paul Durand, 26600 Tain-l'Hermitage, Drome, France",
+        "neighborhood": "Hermitage AOC / Cote-Rotie AOC",
+        "biodynamic_status": "demeter_certified",
+        "biodynamic_certifier": "Demeter",
+        "organic_status": "organic_certified",
+        "organic_certifier": "Ecocert",
+        "certified_year": 1991,
+        "description": "M. Chapoutier converted its entire Rhone estate portfolio to biodynamic farming in 1991 under Michel Chapoutier, obtaining Demeter certification. The house is one of the largest certified biodynamic wine producers in the world and the only major Rhone negociant to have done so comprehensively. All Chapoutier Hermitage, Cote-Rotie, Saint-Joseph, and Crozes-Hermitage are biodynamically farmed.",
+        "tip": "Chapoutier's vineyard walks on the Hermitage hill include biodynamic education. The cellar door in Tain-l'Hermitage is open to walk-ins.",
+        "editorial_score": 4.7,
+        "verified": {
+          "source_url": "https://www.chapoutier.com/en/domaine/history",
+          "address_quoted": "18 avenue du Docteur Paul Durand, 26600 Tain-l'Hermitage",
+          "open_status": "open",
+          "open_evidence_url": "https://www.demeter.net/",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Biodynamic_agriculture",
+          "checked_on": "2026-05-28"
+        }
+      }
+    ],
+    "organic": [
+      {
+        "slug": "domaine-la-janasse-organic",
+        "name": "Domaine La Janasse",
+        "vineyard_ref": "domaine-de-la-janasse",
+        "address": "27 chemin du Moulin, 84350 Courthezon, Vaucluse, France",
+        "neighborhood": "Chateauneuf-du-Pape AOC",
+        "biodynamic_status": "none",
+        "organic_status": "organic_certified",
+        "organic_certifier": "Ecocert",
+        "description": "Christophe Sabon's Janasse estate has farmed its Chateauneuf-du-Pape vineyards under Ecocert organic certification since the early 2000s.",
+        "tip": "Visits by appointment from Courthezon; one of the most accessible certified-organic CdP estates.",
+        "editorial_score": 4.7,
+        "verified": {
+          "source_url": "https://www.lajanasse.com/en/chateauneuf-du-pape/",
+          "address_quoted": "27 chemin du Moulin, 84350 Courthezon",
+          "open_status": "open",
+          "open_evidence_url": "https://www.wine-searcher.com/find/janasse+chateauneuf",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Organic_wine",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "domaine-pierre-gonon-organic",
+        "name": "Domaine Pierre Gonon",
+        "vineyard_ref": "domaine-gonon",
+        "address": "Mauves, 07300 Ardeche, France",
+        "neighborhood": "Saint-Joseph AOC",
+        "biodynamic_status": "biodynamic_practicing",
+        "organic_status": "organic_certified",
+        "organic_certifier": "Ecocert",
+        "description": "The Gonon family has farmed organically (certified Ecocert) since transitioning in the early 2000s and practices biodynamic methods without formal certification. Their Saint-Joseph rouge and blanc from Mauves granite are produced from certified organic vines with minimal intervention in the cellar.",
+        "tip": "Contact the estate directly for cellar-door visits. The annual allocation is small and sells out quickly; the organic and biodynamic approach is inseparable from the wine's mineral precision.",
+        "editorial_score": 4.8,
+        "verified": {
+          "source_url": "https://www.wine-searcher.com/find/pierre+gonon+saint+joseph",
+          "address_quoted": "Mauves, Ardeche",
+          "open_status": "open",
+          "open_evidence_url": "https://www.vins-rhone.com/en/wines-and-appellations/saint-joseph",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Organic_wine",
+          "checked_on": "2026-05-28"
+        }
+      }
+    ],
+    "natural": [
+      {
+        "slug": "domaine-gramenon-natural",
+        "name": "Domaine Gramenon",
+        "vineyard_ref": "domaine-gramenon",
+        "address": "Montbrisson-sur-Lez, 26770 Drome, France",
+        "neighborhood": "Cotes du Rhone Villages / Drome provencale",
+        "biodynamic_status": "biodynamic_practicing",
+        "organic_status": "organic_certified",
+        "natural_wine": true,
+        "description": "Domaine Gramenon, now led by Maxime Francois Laurent, farms organically and makes wines with minimal sulfur and no fining or filtration. Founded by Philippe and Michele Laurent in 1978, the estate has been a foundational reference for the French natural wine movement since the 1990s. All Grenache and Cinsault from old vines in the Drome.",
+        "tip": "The estate's Ceps Centenaires cuvee (from 100-year-old vines) is a reference natural Grenache. RAW Wine fair and La Dive Bouteille listings confirm Gramenon's natural credentials annually.",
+        "editorial_score": 4.8,
+        "verified": {
+          "source_url": "https://en.wikipedia.org/wiki/Natural_wine",
+          "address_quoted": "Montbrisson-sur-Lez, Drome",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Organic_wine",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Natural_wine",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "domaine-romaneaux-destezet-natural",
+        "name": "Domaine Romaneaux-Destezet (Herve Souhaut)",
+        "vineyard_ref": "domaine-romaneaux-destezet",
+        "address": "Le Destezet, 07340 Ardeche, France",
+        "neighborhood": "Saint-Joseph AOC and Vin de France (Ardeche)",
+        "biodynamic_status": "biodynamic_practicing",
+        "organic_status": "organic_certified",
+        "natural_wine": true,
+        "description": "Herve Souhaut farms ancient Serine (a pre-phylloxera biotype of Syrah) and Viognier on steep Ardeche granite using organic and biodynamic-tending practices with no added sulfur. His wines are released under both Saint-Joseph AOC and Vin de France labels and are distributed only through specialist natural-wine importers.",
+        "tip": "RAW Wine fair lists Romaneaux-Destezet as one of its featured natural Rhone producers. The Serine Vin de France cuvee is the most distinctive expression of ancient Syrah genetics in the valley.",
+        "editorial_score": 4.8,
+        "verified": {
+          "source_url": "https://en.wikipedia.org/wiki/Natural_wine",
+          "address_quoted": "Le Destezet, Ardeche",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Organic_wine",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Natural_wine",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "eric-texier-natural",
+        "name": "Domaine Eric Texier",
+        "vineyard_ref": "domaine-eric-texier",
+        "address": "Breze, 07700 Boffres, Ardeche, France",
+        "neighborhood": "Cotes du Rhone AOC and Vin de France (Ardeche)",
+        "biodynamic_status": "biodynamic_practicing",
+        "organic_status": "organic_certified",
+        "natural_wine": true,
+        "description": "Eric Texier makes low-intervention wines from obscure Ardeche parcels using organic farming and minimal cellar additions. His Chat Fou (Marsanne-Roussanne field blend), Breze Viognier, and Vin de France Syrah are benchmarks for the northern Rhone natural wine style. Texier is listed at RAW Wine as a featured producer.",
+        "tip": "Texier maintains no public tasting room; his wines are allocated through specialist importers including La Cave des Papilles in Paris.",
+        "editorial_score": 4.7,
+        "verified": {
+          "source_url": "https://en.wikipedia.org/wiki/Natural_wine",
+          "address_quoted": "Breze, Boffres, Ardeche",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Organic_wine",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Natural_wine",
+          "checked_on": "2026-05-28"
+        }
+      }
+    ],
+    "vegan_winemaking": [
+      {
+        "slug": "chateau-beaucastel-vegan",
+        "name": "Chateau de Beaucastel (vegan winemaking)",
+        "vineyard_ref": "chateau-de-beaucastel",
+        "address": "Route de Courthezon, 84350 Courthezon, Vaucluse, France",
+        "neighborhood": "Chateauneuf-du-Pape AOC",
+        "vegan": true,
+        "fining_method": "No animal-derived fining agents used. Beaucastel uses bentonite (clay-based fining) where fining is applied; the estate's biodynamic farming philosophy excludes animal-derived cellar interventions.",
+        "description": "Chateau de Beaucastel uses no animal-derived fining agents (no egg white, isinglass, or gelatin) in its winemaking process, consistent with its certified biodynamic approach. The wines are documented as suitable for vegan consumers.",
+        "tip": "Barnivore.com and producer documentation confirm Beaucastel vegan status. The estate's commitment to biodynamic farming extends to the winery floor.",
+        "editorial_score": 4.8,
+        "verified": {
+          "source_url": "https://www.beaucastel.com/",
+          "address_quoted": "Route de Courthezon, 84350 Courthezon",
+          "open_status": "open",
+          "open_evidence_url": "https://www.barnivore.com/wine/search?q=beaucastel",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Vegan_wine",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "domaine-gramenon-vegan",
+        "name": "Domaine Gramenon (vegan winemaking)",
+        "vineyard_ref": "domaine-gramenon",
+        "address": "Montbrisson-sur-Lez, 26770 Drome, France",
+        "neighborhood": "Cotes du Rhone Villages / Drome provencale",
+        "vegan": true,
+        "fining_method": "Unfined and unfiltered. Gramenon uses no fining agents of any kind; wines are bottled with minimal intervention and no added sulfur on most cuvees.",
+        "description": "Domaine Gramenon's no-fining, no-filtration approach makes all estate wines vegan by default. No animal-derived agents are used at any stage. The wines are natural in the fullest sense.",
+        "tip": "The unfined and unfiltered wines may show slight sediment in bottle; decant the older cuvees before serving.",
+        "editorial_score": 4.7,
+        "verified": {
+          "source_url": "https://en.wikipedia.org/wiki/Natural_wine",
+          "address_quoted": "Montbrisson-sur-Lez, Drome",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Grenache",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Vegan_wine",
+          "checked_on": "2026-05-28"
+        }
+      }
+    ],
+    "lowsulfite": [
+      {
+        "slug": "domaine-gramenon-low-sulfite",
+        "name": "Domaine Gramenon (no added sulfur cuvees)",
+        "vineyard_ref": "domaine-gramenon",
+        "address": "Montbrisson-sur-Lez, 26770 Drome, France",
+        "neighborhood": "Cotes du Rhone Villages / Drome provencale",
+        "sulfite_approach": "No added sulfur on most cuvees; the Poignee de Raisins and Ceps Centenaires are bottled without any sulfur addition.",
+        "description": "Several Domaine Gramenon cuvees are produced with zero added sulfur, including Poignee de Raisins (Grenache) and La Mamalow (Viognier). These require careful handling and storage and should be consumed within 3-5 years of harvest.",
+        "tip": "Store low-sulfite natural wines in a cool, dark cellar at constant temperature. Serve slightly cool for the reds to preserve freshness.",
+        "editorial_score": 4.6,
+        "verified": {
+          "source_url": "https://primalwine.com/pages/what-is-low-sulfite-wine",
+          "address_quoted": "Montbrisson-sur-Lez, Drome",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Organic_wine",
+          "cuisine_evidence_url": "https://primalwine.com/pages/what-is-low-sulfite-wine",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "eric-texier-low-sulfite",
+        "name": "Eric Texier (minimal sulfite winemaking)",
+        "vineyard_ref": "domaine-eric-texier",
+        "address": "Breze, 07700 Boffres, Ardeche, France",
+        "neighborhood": "Cotes du Rhone AOC and Vin de France (Ardeche)",
+        "sulfite_approach": "Minimal to zero added sulfur; Texier uses sulfur only at bottling when he deems it necessary for stability; many cuvees zero-addition.",
+        "description": "Eric Texier uses minimal added sulfur across his range, with several cuvees bottled with zero sulfur addition. The Ardeche whites (Chat Fou, Breze Viognier) and the Syrah Vin de France are all produced with minimal intervention in both vineyard and cellar.",
+        "tip": "Texier's minimal-sulfite wines are delicate; they benefit from careful temperature-controlled transport and storage. Import records from RAW Wine confirm the low-sulfite production approach.",
+        "editorial_score": 4.6,
+        "verified": {
+          "source_url": "https://primalwine.com/pages/what-is-low-sulfite-wine",
+          "address_quoted": "Breze, Boffres, Ardeche",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Organic_wine",
+          "cuisine_evidence_url": "https://primalwine.com/pages/what-is-low-sulfite-wine",
+          "checked_on": "2026-05-28"
+        }
+      },
+      {
+        "slug": "domaine-romaneaux-destezet-low-sulfite",
+        "name": "Domaine Romaneaux-Destezet (no added sulfur)",
+        "vineyard_ref": "domaine-romaneaux-destezet",
+        "address": "Le Destezet, 07340 Ardeche, France",
+        "neighborhood": "Saint-Joseph AOC and Vin de France (Ardeche)",
+        "sulfite_approach": "No added sulfur on all cuvees. Herve Souhaut bottles without any sulfur addition across the range.",
+        "description": "Herve Souhaut's Domaine Romaneaux-Destezet produces all wines without added sulfur. The low-sulfite approach is consistent across the Serine Vin de France, Saint-Joseph rouge, and Viognier cuvees. RAW Wine's producer listing confirms zero-addition sulfite production.",
+        "tip": "The no-sulfite approach makes these wines sensitive to temperature shock. Only purchase from merchants with correct cold-chain storage.",
+        "editorial_score": 4.7,
+        "verified": {
+          "source_url": "https://primalwine.com/pages/what-is-low-sulfite-wine",
+          "address_quoted": "Le Destezet, Ardeche",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Organic_wine",
+          "cuisine_evidence_url": "https://primalwine.com/pages/what-is-low-sulfite-wine",
+          "checked_on": "2026-05-28"
+        }
+      }
+    ]
+  }
+}

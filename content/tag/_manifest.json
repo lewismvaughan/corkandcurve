@@ -4,12 +4,17 @@
       "slug": "old-world",
       "display": "Old World",
       "axis": "world",
-      "count": 1279,
+      "count": 1445,
       "regions": [
         {
           "country_slug": "italy",
           "region_slug": "sicily",
           "count": 176
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 166
         },
         {
           "country_slug": "italy",
@@ -62,8 +67,13 @@
       "slug": "dry",
       "display": "Dry",
       "axis": "sweetness",
-      "count": 1075,
+      "count": 1235,
       "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 160
+        },
         {
           "country_slug": "italy",
           "region_slug": "sicily",
@@ -120,7 +130,7 @@
       "slug": "high-acid",
       "display": "High acidity",
       "axis": "acidity",
-      "count": 866,
+      "count": 932,
       "regions": [
         {
           "country_slug": "italy",
@@ -159,6 +169,11 @@
         },
         {
           "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 66
+        },
+        {
+          "country_slug": "france",
           "region_slug": "bordeaux",
           "count": 53
         },
@@ -178,7 +193,7 @@
       "slug": "occasion-special",
       "display": "Special occasion",
       "axis": "occasion",
-      "count": 718,
+      "count": 784,
       "regions": [
         {
           "country_slug": "italy",
@@ -204,6 +219,11 @@
           "country_slug": "italy",
           "region_slug": "sicily",
           "count": 76
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 66
         },
         {
           "country_slug": "italy",
@@ -233,73 +253,20 @@
       ]
     },
     {
-      "slug": "cellar-worthy",
-      "display": "Cellar-worthy",
-      "axis": "ageing",
-      "count": 678,
-      "regions": [
-        {
-          "country_slug": "germany",
-          "region_slug": "mosel",
-          "count": 100
-        },
-        {
-          "country_slug": "france",
-          "region_slug": "burgundy",
-          "count": 94
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "tuscany",
-          "count": 89
-        },
-        {
-          "country_slug": "spain",
-          "region_slug": "rioja",
-          "count": 87
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "piedmont",
-          "count": 74
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "veneto",
-          "count": 60
-        },
-        {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
-          "count": 59
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "sicily",
-          "count": 45
-        },
-        {
-          "country_slug": "france",
-          "region_slug": "champagne",
-          "count": 36
-        },
-        {
-          "country_slug": "portugal",
-          "region_slug": "douro",
-          "count": 34
-        }
-      ]
-    },
-    {
       "slug": "still-red",
       "display": "Still red",
       "axis": "style",
-      "count": 644,
+      "count": 766,
       "regions": [
         {
           "country_slug": "italy",
           "region_slug": "tuscany",
           "count": 142
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 122
         },
         {
           "country_slug": "spain",
@@ -344,11 +311,79 @@
       ]
     },
     {
+      "slug": "cellar-worthy",
+      "display": "Cellar-worthy",
+      "axis": "ageing",
+      "count": 743,
+      "regions": [
+        {
+          "country_slug": "germany",
+          "region_slug": "mosel",
+          "count": 100
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "burgundy",
+          "count": 94
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 89
+        },
+        {
+          "country_slug": "spain",
+          "region_slug": "rioja",
+          "count": 87
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "piedmont",
+          "count": 74
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 65
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "count": 60
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 59
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "sicily",
+          "count": 45
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "champagne",
+          "count": 36
+        },
+        {
+          "country_slug": "portugal",
+          "region_slug": "douro",
+          "count": 34
+        }
+      ]
+    },
+    {
       "slug": "full-body",
       "display": "Full-bodied",
       "axis": "body",
-      "count": 621,
+      "count": 741,
       "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 120
+        },
         {
           "country_slug": "italy",
           "region_slug": "tuscany",
@@ -376,17 +411,17 @@
         },
         {
           "country_slug": "france",
-          "region_slug": "bordeaux",
-          "count": 55
-        },
-        {
-          "country_slug": "france",
           "region_slug": "champagne",
           "count": 55
         },
         {
           "country_slug": "portugal",
           "region_slug": "douro",
+          "count": 55
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
           "count": 55
         },
         {
@@ -402,73 +437,20 @@
       ]
     },
     {
-      "slug": "mood-elegant",
-      "display": "Elegant",
-      "axis": "mood",
-      "count": 596,
-      "regions": [
-        {
-          "country_slug": "italy",
-          "region_slug": "tuscany",
-          "count": 105
-        },
-        {
-          "country_slug": "france",
-          "region_slug": "burgundy",
-          "count": 90
-        },
-        {
-          "country_slug": "spain",
-          "region_slug": "rioja",
-          "count": 73
-        },
-        {
-          "country_slug": "france",
-          "region_slug": "champagne",
-          "count": 66
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "piedmont",
-          "count": 59
-        },
-        {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
-          "count": 57
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "veneto",
-          "count": 52
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "sicily",
-          "count": 38
-        },
-        {
-          "country_slug": "germany",
-          "region_slug": "mosel",
-          "count": 37
-        },
-        {
-          "country_slug": "portugal",
-          "region_slug": "douro",
-          "count": 19
-        }
-      ]
-    },
-    {
       "slug": "pairs-with-red-meat",
       "display": "Red meat",
       "axis": "pairing",
-      "count": 553,
+      "count": 662,
       "regions": [
         {
           "country_slug": "italy",
           "region_slug": "tuscany",
           "count": 129
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 109
         },
         {
           "country_slug": "spain",
@@ -508,15 +490,83 @@
       ]
     },
     {
+      "slug": "mood-elegant",
+      "display": "Elegant",
+      "axis": "mood",
+      "count": 656,
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 105
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "burgundy",
+          "count": 90
+        },
+        {
+          "country_slug": "spain",
+          "region_slug": "rioja",
+          "count": 73
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "champagne",
+          "count": 66
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 60
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "piedmont",
+          "count": 59
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 57
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "count": 52
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "sicily",
+          "count": 38
+        },
+        {
+          "country_slug": "germany",
+          "region_slug": "mosel",
+          "count": 37
+        },
+        {
+          "country_slug": "portugal",
+          "region_slug": "douro",
+          "count": 19
+        }
+      ]
+    },
+    {
       "slug": "occasion-dinner-party",
       "display": "Dinner party",
       "axis": "occasion",
-      "count": 540,
+      "count": 637,
       "regions": [
         {
           "country_slug": "italy",
           "region_slug": "tuscany",
           "count": 99
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 97
         },
         {
           "country_slug": "italy",
@@ -566,69 +616,16 @@
       ]
     },
     {
-      "slug": "medium-body",
-      "display": "Medium-bodied",
-      "axis": "body",
-      "count": 511,
-      "regions": [
-        {
-          "country_slug": "italy",
-          "region_slug": "sicily",
-          "count": 83
-        },
-        {
-          "country_slug": "germany",
-          "region_slug": "mosel",
-          "count": 76
-        },
-        {
-          "country_slug": "spain",
-          "region_slug": "rioja",
-          "count": 66
-        },
-        {
-          "country_slug": "france",
-          "region_slug": "burgundy",
-          "count": 62
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "veneto",
-          "count": 47
-        },
-        {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
-          "count": 44
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "tuscany",
-          "count": 41
-        },
-        {
-          "country_slug": "france",
-          "region_slug": "champagne",
-          "count": 38
-        },
-        {
-          "country_slug": "portugal",
-          "region_slug": "douro",
-          "count": 38
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "piedmont",
-          "count": 16
-        }
-      ]
-    },
-    {
       "slug": "occasion-cellar",
       "display": "Cellar candidate",
       "axis": "occasion",
-      "count": 504,
+      "count": 586,
       "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 82
+        },
         {
           "country_slug": "italy",
           "region_slug": "piedmont",
@@ -682,10 +679,199 @@
       ]
     },
     {
+      "slug": "medium-body",
+      "display": "Medium-bodied",
+      "axis": "body",
+      "count": 556,
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "sicily",
+          "count": 83
+        },
+        {
+          "country_slug": "germany",
+          "region_slug": "mosel",
+          "count": 76
+        },
+        {
+          "country_slug": "spain",
+          "region_slug": "rioja",
+          "count": 66
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "burgundy",
+          "count": 62
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "count": 47
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 45
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 44
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 41
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "champagne",
+          "count": 38
+        },
+        {
+          "country_slug": "portugal",
+          "region_slug": "douro",
+          "count": 38
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "piedmont",
+          "count": 16
+        }
+      ]
+    },
+    {
+      "slug": "medium-term",
+      "display": "Medium-term ageing",
+      "axis": "ageing",
+      "count": 527,
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "sicily",
+          "count": 104
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 82
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 62
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "champagne",
+          "count": 53
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "count": 45
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "burgundy",
+          "count": 41
+        },
+        {
+          "country_slug": "germany",
+          "region_slug": "mosel",
+          "count": 39
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 39
+        },
+        {
+          "country_slug": "spain",
+          "region_slug": "rioja",
+          "count": 28
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "piedmont",
+          "count": 17
+        },
+        {
+          "country_slug": "portugal",
+          "region_slug": "douro",
+          "count": 17
+        }
+      ]
+    },
+    {
+      "slug": "pairs-with-game",
+      "display": "Game",
+      "axis": "pairing",
+      "count": 506,
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 110
+        },
+        {
+          "country_slug": "spain",
+          "region_slug": "rioja",
+          "count": 75
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "piedmont",
+          "count": 67
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 66
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 44
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "burgundy",
+          "count": 37
+        },
+        {
+          "country_slug": "portugal",
+          "region_slug": "douro",
+          "count": 34
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "count": 32
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "sicily",
+          "count": 29
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "champagne",
+          "count": 11
+        },
+        {
+          "country_slug": "germany",
+          "region_slug": "mosel",
+          "count": 1
+        }
+      ]
+    },
+    {
       "slug": "pairs-with-aged-cheese",
       "display": "Aged cheese",
       "axis": "pairing",
-      "count": 486,
+      "count": 500,
       "regions": [
         {
           "country_slug": "italy",
@@ -726,122 +912,11 @@
           "country_slug": "france",
           "region_slug": "bordeaux",
           "count": 22
-        }
-      ]
-    },
-    {
-      "slug": "medium-term",
-      "display": "Medium-term ageing",
-      "axis": "ageing",
-      "count": 445,
-      "regions": [
-        {
-          "country_slug": "italy",
-          "region_slug": "sicily",
-          "count": 104
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "tuscany",
-          "count": 62
         },
         {
           "country_slug": "france",
-          "region_slug": "champagne",
-          "count": 53
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "veneto",
-          "count": 45
-        },
-        {
-          "country_slug": "france",
-          "region_slug": "burgundy",
-          "count": 41
-        },
-        {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
-          "count": 39
-        },
-        {
-          "country_slug": "germany",
-          "region_slug": "mosel",
-          "count": 39
-        },
-        {
-          "country_slug": "spain",
-          "region_slug": "rioja",
-          "count": 28
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "piedmont",
-          "count": 17
-        },
-        {
-          "country_slug": "portugal",
-          "region_slug": "douro",
-          "count": 17
-        }
-      ]
-    },
-    {
-      "slug": "pairs-with-game",
-      "display": "Game",
-      "axis": "pairing",
-      "count": 440,
-      "regions": [
-        {
-          "country_slug": "italy",
-          "region_slug": "tuscany",
-          "count": 110
-        },
-        {
-          "country_slug": "spain",
-          "region_slug": "rioja",
-          "count": 75
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "piedmont",
-          "count": 67
-        },
-        {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
-          "count": 44
-        },
-        {
-          "country_slug": "france",
-          "region_slug": "burgundy",
-          "count": 37
-        },
-        {
-          "country_slug": "portugal",
-          "region_slug": "douro",
-          "count": 34
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "veneto",
-          "count": 32
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "sicily",
-          "count": 29
-        },
-        {
-          "country_slug": "france",
-          "region_slug": "champagne",
-          "count": 11
-        },
-        {
-          "country_slug": "germany",
-          "region_slug": "mosel",
-          "count": 1
+          "region_slug": "rhone",
+          "count": 14
         }
       ]
     },
@@ -849,8 +924,13 @@
       "slug": "price-premium",
       "display": "Premium (€30-75)",
       "axis": "price",
-      "count": 430,
+      "count": 498,
       "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 68
+        },
         {
           "country_slug": "germany",
           "region_slug": "mosel",
@@ -862,13 +942,13 @@
           "count": 61
         },
         {
-          "country_slug": "italy",
-          "region_slug": "piedmont",
+          "country_slug": "france",
+          "region_slug": "champagne",
           "count": 49
         },
         {
-          "country_slug": "france",
-          "region_slug": "champagne",
+          "country_slug": "italy",
+          "region_slug": "piedmont",
           "count": 49
         },
         {
@@ -907,7 +987,7 @@
       "slug": "firm-tannin",
       "display": "Firm tannin",
       "axis": "tannin",
-      "count": 420,
+      "count": 486,
       "regions": [
         {
           "country_slug": "italy",
@@ -918,6 +998,11 @@
           "country_slug": "italy",
           "region_slug": "piedmont",
           "count": 71
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 66
         },
         {
           "country_slug": "italy",
@@ -955,7 +1040,7 @@
       "slug": "single-vineyard",
       "display": "Single-vineyard",
       "axis": "editorial",
-      "count": 393,
+      "count": 443,
       "regions": [
         {
           "country_slug": "germany",
@@ -966,6 +1051,11 @@
           "country_slug": "italy",
           "region_slug": "piedmont",
           "count": 59
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 50
         },
         {
           "country_slug": "italy",
@@ -1013,7 +1103,7 @@
       "slug": "mood-contemplative",
       "display": "Contemplative",
       "axis": "mood",
-      "count": 383,
+      "count": 431,
       "regions": [
         {
           "country_slug": "italy",
@@ -1029,6 +1119,11 @@
           "country_slug": "italy",
           "region_slug": "tuscany",
           "count": 51
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 48
         },
         {
           "country_slug": "italy",
@@ -1071,7 +1166,7 @@
       "slug": "iconic",
       "display": "Iconic",
       "axis": "editorial",
-      "count": 360,
+      "count": 405,
       "regions": [
         {
           "country_slug": "france",
@@ -1087,6 +1182,11 @@
           "country_slug": "italy",
           "region_slug": "tuscany",
           "count": 47
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 45
         },
         {
           "country_slug": "italy",
@@ -1129,7 +1229,7 @@
       "slug": "price-trade-up",
       "display": "Trade-up (€15-30)",
       "axis": "price",
-      "count": 346,
+      "count": 394,
       "regions": [
         {
           "country_slug": "italy",
@@ -1140,6 +1240,11 @@
           "country_slug": "germany",
           "region_slug": "mosel",
           "count": 63
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 48
         },
         {
           "country_slug": "italy",
@@ -1179,126 +1284,20 @@
       ]
     },
     {
-      "slug": "still-white",
-      "display": "Still white",
-      "axis": "style",
-      "count": 328,
-      "regions": [
-        {
-          "country_slug": "germany",
-          "region_slug": "mosel",
-          "count": 125
-        },
-        {
-          "country_slug": "france",
-          "region_slug": "burgundy",
-          "count": 70
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "sicily",
-          "count": 52
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "veneto",
-          "count": 33
-        },
-        {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
-          "count": 16
-        },
-        {
-          "country_slug": "spain",
-          "region_slug": "rioja",
-          "count": 14
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "tuscany",
-          "count": 10
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "piedmont",
-          "count": 6
-        },
-        {
-          "country_slug": "portugal",
-          "region_slug": "douro",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "slug": "pairs-with-poultry",
-      "display": "Poultry",
-      "axis": "pairing",
-      "count": 321,
-      "regions": [
-        {
-          "country_slug": "germany",
-          "region_slug": "mosel",
-          "count": 76
-        },
-        {
-          "country_slug": "france",
-          "region_slug": "burgundy",
-          "count": 66
-        },
-        {
-          "country_slug": "france",
-          "region_slug": "champagne",
-          "count": 44
-        },
-        {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
-          "count": 38
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "tuscany",
-          "count": 31
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "piedmont",
-          "count": 26
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "sicily",
-          "count": 15
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "veneto",
-          "count": 11
-        },
-        {
-          "country_slug": "spain",
-          "region_slug": "rioja",
-          "count": 10
-        },
-        {
-          "country_slug": "portugal",
-          "region_slug": "douro",
-          "count": 4
-        }
-      ]
-    },
-    {
       "slug": "value-pick",
       "display": "Value pick",
       "axis": "editorial",
-      "count": 316,
+      "count": 379,
       "regions": [
         {
           "country_slug": "italy",
           "region_slug": "sicily",
           "count": 69
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 63
         },
         {
           "country_slug": "spain",
@@ -1348,10 +1347,131 @@
       ]
     },
     {
+      "slug": "pairs-with-poultry",
+      "display": "Poultry",
+      "axis": "pairing",
+      "count": 369,
+      "regions": [
+        {
+          "country_slug": "germany",
+          "region_slug": "mosel",
+          "count": 76
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "burgundy",
+          "count": 66
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 48
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "champagne",
+          "count": 44
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 38
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 31
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "piedmont",
+          "count": 26
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "sicily",
+          "count": 15
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "count": 11
+        },
+        {
+          "country_slug": "spain",
+          "region_slug": "rioja",
+          "count": 10
+        },
+        {
+          "country_slug": "portugal",
+          "region_slug": "douro",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "slug": "still-white",
+      "display": "Still white",
+      "axis": "style",
+      "count": 361,
+      "regions": [
+        {
+          "country_slug": "germany",
+          "region_slug": "mosel",
+          "count": 125
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "burgundy",
+          "count": 70
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "sicily",
+          "count": 52
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 33
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "count": 33
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 16
+        },
+        {
+          "country_slug": "spain",
+          "region_slug": "rioja",
+          "count": 14
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 10
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "piedmont",
+          "count": 6
+        },
+        {
+          "country_slug": "portugal",
+          "region_slug": "douro",
+          "count": 2
+        }
+      ]
+    },
+    {
       "slug": "occasion-weeknight",
       "display": "Weeknight",
       "axis": "occasion",
-      "count": 303,
+      "count": 353,
       "regions": [
         {
           "country_slug": "italy",
@@ -1362,6 +1482,11 @@
           "country_slug": "italy",
           "region_slug": "veneto",
           "count": 66
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 50
         },
         {
           "country_slug": "france",
@@ -1404,7 +1529,7 @@
       "slug": "pairs-with-white-fish",
       "display": "White fish",
       "axis": "pairing",
-      "count": 299,
+      "count": 329,
       "regions": [
         {
           "country_slug": "france",
@@ -1429,6 +1554,11 @@
         {
           "country_slug": "france",
           "region_slug": "champagne",
+          "count": 30
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
           "count": 30
         },
         {
@@ -1459,60 +1589,40 @@
       ]
     },
     {
-      "slug": "mood-refreshing",
-      "display": "Refreshing",
-      "axis": "mood",
-      "count": 276,
+      "slug": "medium-acid",
+      "display": "Medium acidity",
+      "axis": "acidity",
+      "count": 311,
       "regions": [
         {
-          "country_slug": "germany",
-          "region_slug": "mosel",
-          "count": 76
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "sicily",
-          "count": 48
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "veneto",
-          "count": 45
-        },
-        {
           "country_slug": "france",
-          "region_slug": "burgundy",
-          "count": 30
-        },
-        {
-          "country_slug": "france",
-          "region_slug": "champagne",
-          "count": 25
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "piedmont",
-          "count": 16
-        },
-        {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
-          "count": 13
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "tuscany",
-          "count": 9
-        },
-        {
-          "country_slug": "spain",
-          "region_slug": "rioja",
-          "count": 7
+          "region_slug": "rhone",
+          "count": 96
         },
         {
           "country_slug": "portugal",
           "region_slug": "douro",
-          "count": 7
+          "count": 66
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "sicily",
+          "count": 64
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 45
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "count": 31
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "piedmont",
+          "count": 9
         }
       ]
     },
@@ -1520,7 +1630,7 @@
       "slug": "medium-tannin",
       "display": "Medium tannin",
       "axis": "tannin",
-      "count": 267,
+      "count": 307,
       "regions": [
         {
           "country_slug": "spain",
@@ -1534,17 +1644,22 @@
         },
         {
           "country_slug": "france",
-          "region_slug": "burgundy",
-          "count": 30
+          "region_slug": "rhone",
+          "count": 40
         },
         {
           "country_slug": "france",
-          "region_slug": "bordeaux",
+          "region_slug": "burgundy",
           "count": 30
         },
         {
           "country_slug": "italy",
           "region_slug": "tuscany",
+          "count": 30
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
           "count": 30
         },
         {
@@ -1573,7 +1688,7 @@
       "slug": "pairs-with-shellfish",
       "display": "Shellfish",
       "axis": "pairing",
-      "count": 263,
+      "count": 295,
       "regions": [
         {
           "country_slug": "italy",
@@ -1594,6 +1709,11 @@
           "country_slug": "italy",
           "region_slug": "veneto",
           "count": 36
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 32
         },
         {
           "country_slug": "france",
@@ -1628,232 +1748,65 @@
       ]
     },
     {
-      "slug": "mood-easygoing",
-      "display": "Easygoing",
+      "slug": "mood-refreshing",
+      "display": "Refreshing",
       "axis": "mood",
-      "count": 223,
+      "count": 289,
       "regions": [
-        {
-          "country_slug": "italy",
-          "region_slug": "sicily",
-          "count": 61
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "veneto",
-          "count": 56
-        },
-        {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
-          "count": 35
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "tuscany",
-          "count": 29
-        },
-        {
-          "country_slug": "portugal",
-          "region_slug": "douro",
-          "count": 16
-        },
-        {
-          "country_slug": "spain",
-          "region_slug": "rioja",
-          "count": 11
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "piedmont",
-          "count": 8
-        },
-        {
-          "country_slug": "france",
-          "region_slug": "champagne",
-          "count": 7
-        }
-      ]
-    },
-    {
-      "slug": "mood-savoury",
-      "display": "Savoury",
-      "axis": "mood",
-      "count": 216,
-      "regions": [
-        {
-          "country_slug": "spain",
-          "region_slug": "rioja",
-          "count": 69
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "tuscany",
-          "count": 46
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "sicily",
-          "count": 24
-        },
-        {
-          "country_slug": "france",
-          "region_slug": "champagne",
-          "count": 24
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "veneto",
-          "count": 20
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "piedmont",
-          "count": 18
-        },
-        {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
-          "count": 11
-        },
         {
           "country_slug": "germany",
           "region_slug": "mosel",
-          "count": 3
-        },
-        {
-          "country_slug": "portugal",
-          "region_slug": "douro",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "slug": "medium-acid",
-      "display": "Medium acidity",
-      "axis": "acidity",
-      "count": 215,
-      "regions": [
-        {
-          "country_slug": "portugal",
-          "region_slug": "douro",
-          "count": 66
+          "count": 76
         },
         {
           "country_slug": "italy",
           "region_slug": "sicily",
-          "count": 64
+          "count": 48
         },
         {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
+          "country_slug": "italy",
+          "region_slug": "veneto",
           "count": 45
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "veneto",
-          "count": 31
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "piedmont",
-          "count": 9
-        }
-      ]
-    },
-    {
-      "slug": "mood-bold",
-      "display": "Bold",
-      "axis": "mood",
-      "count": 210,
-      "regions": [
-        {
-          "country_slug": "italy",
-          "region_slug": "tuscany",
-          "count": 41
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "sicily",
-          "count": 37
-        },
-        {
-          "country_slug": "spain",
-          "region_slug": "rioja",
-          "count": 33
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "veneto",
-          "count": 26
-        },
-        {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
-          "count": 21
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "piedmont",
-          "count": 15
-        },
-        {
-          "country_slug": "portugal",
-          "region_slug": "douro",
-          "count": 15
-        },
-        {
-          "country_slug": "germany",
-          "region_slug": "mosel",
-          "count": 14
-        },
-        {
-          "country_slug": "france",
-          "region_slug": "champagne",
-          "count": 8
-        }
-      ]
-    },
-    {
-      "slug": "racy-acid",
-      "display": "Racy acidity",
-      "axis": "acidity",
-      "count": 196,
-      "regions": [
-        {
-          "country_slug": "germany",
-          "region_slug": "mosel",
-          "count": 125
-        },
-        {
-          "country_slug": "france",
-          "region_slug": "champagne",
-          "count": 22
         },
         {
           "country_slug": "france",
           "region_slug": "burgundy",
-          "count": 21
+          "count": 30
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "champagne",
+          "count": 25
         },
         {
           "country_slug": "italy",
-          "region_slug": "sicily",
+          "region_slug": "piedmont",
+          "count": 16
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
           "count": 13
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "veneto",
-          "count": 12
         },
         {
           "country_slug": "france",
           "region_slug": "bordeaux",
-          "count": 2
+          "count": 13
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 9
         },
         {
           "country_slug": "spain",
           "region_slug": "rioja",
-          "count": 1
+          "count": 7
+        },
+        {
+          "country_slug": "portugal",
+          "region_slug": "douro",
+          "count": 7
         }
       ]
     },
@@ -1861,8 +1814,13 @@
       "slug": "mood-rustic",
       "display": "Rustic",
       "axis": "mood",
-      "count": 192,
+      "count": 265,
       "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 73
+        },
         {
           "country_slug": "italy",
           "region_slug": "veneto",
@@ -1906,60 +1864,234 @@
       ]
     },
     {
-      "slug": "price-fine",
-      "display": "Fine (€75-200)",
-      "axis": "price",
-      "count": 187,
+      "slug": "mood-easygoing",
+      "display": "Easygoing",
+      "axis": "mood",
+      "count": 260,
       "regions": [
         {
           "country_slug": "italy",
-          "region_slug": "tuscany",
+          "region_slug": "sicily",
+          "count": 61
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "count": 56
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 37
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
           "count": 35
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 29
+        },
+        {
+          "country_slug": "portugal",
+          "region_slug": "douro",
+          "count": 16
+        },
+        {
+          "country_slug": "spain",
+          "region_slug": "rioja",
+          "count": 11
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "piedmont",
+          "count": 8
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "champagne",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "slug": "old-vines",
+      "display": "Old vines",
+      "axis": "editorial",
+      "count": 258,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 91
+        },
+        {
+          "country_slug": "spain",
+          "region_slug": "rioja",
+          "count": 35
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "sicily",
+          "count": 34
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "count": 24
+        },
+        {
+          "country_slug": "germany",
+          "region_slug": "mosel",
+          "count": 17
         },
         {
           "country_slug": "france",
           "region_slug": "burgundy",
+          "count": 14
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 13
+        },
+        {
+          "country_slug": "portugal",
+          "region_slug": "douro",
+          "count": 13
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 7
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "piedmont",
+          "count": 6
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "champagne",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "slug": "mood-bold",
+      "display": "Bold",
+      "axis": "mood",
+      "count": 252,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 42
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 41
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "sicily",
+          "count": 37
+        },
+        {
+          "country_slug": "spain",
+          "region_slug": "rioja",
           "count": 33
         },
         {
           "country_slug": "italy",
           "region_slug": "veneto",
-          "count": 27
-        },
-        {
-          "country_slug": "france",
-          "region_slug": "champagne",
           "count": 26
         },
         {
           "country_slug": "france",
           "region_slug": "bordeaux",
-          "count": 25
+          "count": 21
         },
         {
           "country_slug": "italy",
           "region_slug": "piedmont",
-          "count": 16
+          "count": 15
         },
         {
           "country_slug": "portugal",
           "region_slug": "douro",
-          "count": 14
-        },
-        {
-          "country_slug": "spain",
-          "region_slug": "rioja",
-          "count": 7
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "sicily",
-          "count": 2
+          "count": 15
         },
         {
           "country_slug": "germany",
           "region_slug": "mosel",
-          "count": 2
+          "count": 14
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "champagne",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "slug": "mood-savoury",
+      "display": "Savoury",
+      "axis": "mood",
+      "count": 245,
+      "regions": [
+        {
+          "country_slug": "spain",
+          "region_slug": "rioja",
+          "count": 69
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 46
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 29
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "sicily",
+          "count": 24
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "champagne",
+          "count": 24
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "count": 20
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "piedmont",
+          "count": 18
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 11
+        },
+        {
+          "country_slug": "germany",
+          "region_slug": "mosel",
+          "count": 3
+        },
+        {
+          "country_slug": "portugal",
+          "region_slug": "douro",
+          "count": 1
         }
       ]
     },
@@ -1967,21 +2099,26 @@
       "slug": "pairs-with-charcuterie",
       "display": "Charcuterie",
       "axis": "pairing",
-      "count": 181,
+      "count": 226,
       "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 45
+        },
         {
           "country_slug": "spain",
           "region_slug": "rioja",
           "count": 35
         },
         {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
+          "country_slug": "italy",
+          "region_slug": "tuscany",
           "count": 28
         },
         {
-          "country_slug": "italy",
-          "region_slug": "tuscany",
+          "country_slug": "france",
+          "region_slug": "bordeaux",
           "count": 28
         },
         {
@@ -2017,10 +2154,154 @@
       ]
     },
     {
+      "slug": "price-fine",
+      "display": "Fine (€75-200)",
+      "axis": "price",
+      "count": 212,
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 35
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "burgundy",
+          "count": 33
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "count": 27
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "champagne",
+          "count": 26
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 25
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 25
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "piedmont",
+          "count": 16
+        },
+        {
+          "country_slug": "portugal",
+          "region_slug": "douro",
+          "count": 14
+        },
+        {
+          "country_slug": "spain",
+          "region_slug": "rioja",
+          "count": 7
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "sicily",
+          "count": 2
+        },
+        {
+          "country_slug": "germany",
+          "region_slug": "mosel",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "slug": "racy-acid",
+      "display": "Racy acidity",
+      "axis": "acidity",
+      "count": 197,
+      "regions": [
+        {
+          "country_slug": "germany",
+          "region_slug": "mosel",
+          "count": 125
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "champagne",
+          "count": 22
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "burgundy",
+          "count": 21
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "sicily",
+          "count": 13
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "count": 12
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 2
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 1
+        },
+        {
+          "country_slug": "spain",
+          "region_slug": "rioja",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "slug": "organic",
+      "display": "Organic",
+      "axis": "production",
+      "count": 188,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 92
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "sicily",
+          "count": 56
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 23
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "count": 12
+        },
+        {
+          "country_slug": "germany",
+          "region_slug": "mosel",
+          "count": 5
+        }
+      ]
+    },
+    {
       "slug": "occasion-aperitivo",
       "display": "Aperitivo",
       "axis": "occasion",
-      "count": 175,
+      "count": 187,
       "regions": [
         {
           "country_slug": "italy",
@@ -2041,6 +2322,11 @@
           "country_slug": "germany",
           "region_slug": "mosel",
           "count": 15
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 12
         },
         {
           "country_slug": "france",
@@ -2078,7 +2364,7 @@
       "slug": "price-everyday",
       "display": "Everyday (under €15)",
       "axis": "price",
-      "count": 169,
+      "count": 177,
       "regions": [
         {
           "country_slug": "italy",
@@ -2106,6 +2392,11 @@
           "count": 13
         },
         {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 8
+        },
+        {
           "country_slug": "italy",
           "region_slug": "tuscany",
           "count": 8
@@ -2128,60 +2419,123 @@
       ]
     },
     {
-      "slug": "old-vines",
-      "display": "Old vines",
-      "axis": "editorial",
-      "count": 167,
+      "slug": "drink-young",
+      "display": "Drink young",
+      "axis": "ageing",
+      "count": 175,
       "regions": [
-        {
-          "country_slug": "spain",
-          "region_slug": "rioja",
-          "count": 35
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "sicily",
-          "count": 34
-        },
         {
           "country_slug": "italy",
           "region_slug": "veneto",
-          "count": 24
-        },
-        {
-          "country_slug": "germany",
-          "region_slug": "mosel",
-          "count": 17
-        },
-        {
-          "country_slug": "france",
-          "region_slug": "burgundy",
-          "count": 14
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "tuscany",
-          "count": 13
+          "count": 57
         },
         {
           "country_slug": "portugal",
           "region_slug": "douro",
-          "count": 13
+          "count": 43
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "sicily",
+          "count": 27
         },
         {
           "country_slug": "france",
-          "region_slug": "bordeaux",
-          "count": 7
+          "region_slug": "rhone",
+          "count": 19
         },
         {
           "country_slug": "italy",
           "region_slug": "piedmont",
-          "count": 6
+          "count": 7
+        },
+        {
+          "country_slug": "spain",
+          "region_slug": "rioja",
+          "count": 5
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 5
         },
         {
           "country_slug": "france",
           "region_slug": "champagne",
           "count": 4
+        },
+        {
+          "country_slug": "germany",
+          "region_slug": "mosel",
+          "count": 4
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "burgundy",
+          "count": 2
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "slug": "occasion-summer",
+      "display": "Summer drinking",
+      "axis": "occasion",
+      "count": 171,
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "sicily",
+          "count": 54
+        },
+        {
+          "country_slug": "germany",
+          "region_slug": "mosel",
+          "count": 35
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "count": 28
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 12
+        },
+        {
+          "country_slug": "spain",
+          "region_slug": "rioja",
+          "count": 9
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "piedmont",
+          "count": 8
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "burgundy",
+          "count": 7
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 7
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 6
+        },
+        {
+          "country_slug": "portugal",
+          "region_slug": "douro",
+          "count": 5
         }
       ]
     },
@@ -2219,113 +2573,45 @@
       ]
     },
     {
-      "slug": "occasion-summer",
-      "display": "Summer drinking",
+      "slug": "occasion-gift",
+      "display": "Gift",
       "axis": "occasion",
-      "count": 159,
+      "count": 155,
       "regions": [
         {
           "country_slug": "italy",
-          "region_slug": "sicily",
-          "count": 54
-        },
-        {
-          "country_slug": "germany",
-          "region_slug": "mosel",
-          "count": 35
-        },
-        {
-          "country_slug": "italy",
           "region_slug": "veneto",
+          "count": 33
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 31
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
           "count": 28
         },
         {
-          "country_slug": "spain",
-          "region_slug": "rioja",
-          "count": 9
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "piedmont",
-          "count": 8
-        },
-        {
-          "country_slug": "france",
-          "region_slug": "burgundy",
-          "count": 7
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "tuscany",
-          "count": 7
-        },
-        {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
-          "count": 6
-        },
-        {
-          "country_slug": "portugal",
-          "region_slug": "douro",
-          "count": 5
-        }
-      ]
-    },
-    {
-      "slug": "drink-young",
-      "display": "Drink young",
-      "axis": "ageing",
-      "count": 156,
-      "regions": [
-        {
-          "country_slug": "italy",
-          "region_slug": "veneto",
-          "count": 57
-        },
-        {
-          "country_slug": "portugal",
-          "region_slug": "douro",
-          "count": 43
-        },
-        {
           "country_slug": "italy",
           "region_slug": "sicily",
-          "count": 27
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "piedmont",
-          "count": 7
+          "count": 25
         },
         {
           "country_slug": "spain",
           "region_slug": "rioja",
-          "count": 5
+          "count": 15
+        },
+        {
+          "country_slug": "portugal",
+          "region_slug": "douro",
+          "count": 13
         },
         {
           "country_slug": "italy",
           "region_slug": "tuscany",
-          "count": 5
-        },
-        {
-          "country_slug": "france",
-          "region_slug": "champagne",
-          "count": 4
-        },
-        {
-          "country_slug": "germany",
-          "region_slug": "mosel",
-          "count": 4
-        },
-        {
-          "country_slug": "france",
-          "region_slug": "burgundy",
-          "count": 2
-        },
-        {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
-          "count": 2
+          "count": 10
         }
       ]
     },
@@ -2333,7 +2619,7 @@
       "slug": "light-body",
       "display": "Light-bodied",
       "axis": "body",
-      "count": 147,
+      "count": 148,
       "regions": [
         {
           "country_slug": "italy",
@@ -2362,12 +2648,17 @@
         },
         {
           "country_slug": "france",
-          "region_slug": "bordeaux",
+          "region_slug": "rhone",
           "count": 1
         },
         {
           "country_slug": "portugal",
           "region_slug": "douro",
+          "count": 1
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
           "count": 1
         }
       ]
@@ -2391,10 +2682,73 @@
       ]
     },
     {
+      "slug": "pairs-with-mushroom",
+      "display": "Mushroom dishes",
+      "axis": "pairing",
+      "count": 143,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "burgundy",
+          "count": 50
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 23
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "count": 18
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "sicily",
+          "count": 16
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 16
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 8
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "champagne",
+          "count": 5
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "piedmont",
+          "count": 2
+        },
+        {
+          "country_slug": "spain",
+          "region_slug": "rioja",
+          "count": 2
+        },
+        {
+          "country_slug": "germany",
+          "region_slug": "mosel",
+          "count": 2
+        },
+        {
+          "country_slug": "portugal",
+          "region_slug": "douro",
+          "count": 1
+        }
+      ]
+    },
+    {
       "slug": "pairs-with-pasta-red-sauce",
       "display": "Pasta with red sauce",
       "axis": "pairing",
-      "count": 141,
+      "count": 143,
       "regions": [
         {
           "country_slug": "italy",
@@ -2420,6 +2774,11 @@
           "country_slug": "france",
           "region_slug": "bordeaux",
           "count": 6
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 2
         },
         {
           "country_slug": "portugal",
@@ -2457,320 +2816,29 @@
       ]
     },
     {
-      "slug": "occasion-gift",
-      "display": "Gift",
-      "axis": "occasion",
-      "count": 127,
-      "regions": [
-        {
-          "country_slug": "italy",
-          "region_slug": "veneto",
-          "count": 33
-        },
-        {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
-          "count": 31
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "sicily",
-          "count": 25
-        },
-        {
-          "country_slug": "spain",
-          "region_slug": "rioja",
-          "count": 15
-        },
-        {
-          "country_slug": "portugal",
-          "region_slug": "douro",
-          "count": 13
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "tuscany",
-          "count": 10
-        }
-      ]
-    },
-    {
-      "slug": "pairs-with-mushroom",
-      "display": "Mushroom dishes",
-      "axis": "pairing",
-      "count": 127,
-      "regions": [
-        {
-          "country_slug": "france",
-          "region_slug": "burgundy",
-          "count": 50
-        },
-        {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
-          "count": 23
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "veneto",
-          "count": 18
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "sicily",
-          "count": 16
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "tuscany",
-          "count": 8
-        },
-        {
-          "country_slug": "france",
-          "region_slug": "champagne",
-          "count": 5
-        },
-        {
-          "country_slug": "spain",
-          "region_slug": "rioja",
-          "count": 2
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "piedmont",
-          "count": 2
-        },
-        {
-          "country_slug": "germany",
-          "region_slug": "mosel",
-          "count": 2
-        },
-        {
-          "country_slug": "portugal",
-          "region_slug": "douro",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "slug": "pinot-noir",
-      "display": "Pinot Noir",
+      "slug": "syrah",
+      "display": "Syrah",
       "axis": "grape",
-      "count": 125,
+      "count": 134,
       "regions": [
         {
           "country_slug": "france",
-          "region_slug": "burgundy",
-          "count": 67
-        },
-        {
-          "country_slug": "france",
-          "region_slug": "champagne",
-          "count": 58
-        }
-      ]
-    },
-    {
-      "slug": "sweet",
-      "display": "Sweet",
-      "axis": "sweetness",
-      "count": 123,
-      "regions": [
-        {
-          "country_slug": "portugal",
-          "region_slug": "douro",
-          "count": 60
-        },
-        {
-          "country_slug": "germany",
-          "region_slug": "mosel",
-          "count": 33
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "veneto",
-          "count": 14
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "sicily",
-          "count": 11
+          "region_slug": "rhone",
+          "count": 118
         },
         {
           "country_slug": "italy",
           "region_slug": "tuscany",
-          "count": 3
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "piedmont",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "slug": "cabernet-sauvignon",
-      "display": "Cabernet Sauvignon",
-      "axis": "grape",
-      "count": 116,
-      "regions": [
-        {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
-          "count": 63
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "tuscany",
-          "count": 38
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "veneto",
-          "count": 8
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "sicily",
-          "count": 4
-        },
-        {
-          "country_slug": "spain",
-          "region_slug": "rioja",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "slug": "grand-cru",
-      "display": "Grand cru",
-      "axis": "editorial",
-      "count": 113,
-      "regions": [
-        {
-          "country_slug": "france",
-          "region_slug": "burgundy",
-          "count": 67
-        },
-        {
-          "country_slug": "france",
-          "region_slug": "champagne",
-          "count": 21
-        },
-        {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
-          "count": 20
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "veneto",
-          "count": 5
-        }
-      ]
-    },
-    {
-      "slug": "pairs-with-soft-cheese",
-      "display": "Soft cheese",
-      "axis": "pairing",
-      "count": 113,
-      "regions": [
-        {
-          "country_slug": "france",
-          "region_slug": "burgundy",
-          "count": 47
-        },
-        {
-          "country_slug": "france",
-          "region_slug": "champagne",
-          "count": 27
-        },
-        {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
-          "count": 13
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "piedmont",
           "count": 9
         },
         {
           "country_slug": "italy",
-          "region_slug": "tuscany",
-          "count": 7
-        },
-        {
-          "country_slug": "italy",
           "region_slug": "sicily",
           "count": 6
         },
         {
           "country_slug": "italy",
           "region_slug": "veneto",
-          "count": 3
-        },
-        {
-          "country_slug": "portugal",
-          "region_slug": "douro",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "slug": "pairs-with-aperitif",
-      "display": "Aperitif (no food)",
-      "axis": "pairing",
-      "count": 112,
-      "regions": [
-        {
-          "country_slug": "italy",
-          "region_slug": "veneto",
-          "count": 51
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "sicily",
-          "count": 28
-        },
-        {
-          "country_slug": "france",
-          "region_slug": "champagne",
-          "count": 11
-        },
-        {
-          "country_slug": "spain",
-          "region_slug": "rioja",
-          "count": 6
-        },
-        {
-          "country_slug": "portugal",
-          "region_slug": "douro",
-          "count": 5
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "tuscany",
-          "count": 4
-        },
-        {
-          "country_slug": "germany",
-          "region_slug": "mosel",
-          "count": 3
-        },
-        {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
-          "count": 2
-        },
-        {
-          "country_slug": "france",
-          "region_slug": "burgundy",
-          "count": 1
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "piedmont",
           "count": 1
         }
       ]
@@ -2779,7 +2847,7 @@
       "slug": "hidden-gem",
       "display": "Hidden gem",
       "axis": "editorial",
-      "count": 111,
+      "count": 130,
       "regions": [
         {
           "country_slug": "italy",
@@ -2790,6 +2858,11 @@
           "country_slug": "italy",
           "region_slug": "veneto",
           "count": 35
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 19
         },
         {
           "country_slug": "italy",
@@ -2824,35 +2897,63 @@
       ]
     },
     {
-      "slug": "pairs-with-truffles",
-      "display": "Truffles",
-      "axis": "pairing",
-      "count": 106,
+      "slug": "sweet",
+      "display": "Sweet",
+      "axis": "sweetness",
+      "count": 128,
       "regions": [
         {
-          "country_slug": "italy",
-          "region_slug": "piedmont",
-          "count": 35
+          "country_slug": "portugal",
+          "region_slug": "douro",
+          "count": 60
         },
         {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
-          "count": 28
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "tuscany",
-          "count": 27
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "sicily",
-          "count": 8
+          "country_slug": "germany",
+          "region_slug": "mosel",
+          "count": 33
         },
         {
           "country_slug": "italy",
           "region_slug": "veneto",
-          "count": 8
+          "count": 14
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "sicily",
+          "count": 11
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 5
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 3
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "piedmont",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "slug": "pinot-noir",
+      "display": "Pinot Noir",
+      "axis": "grape",
+      "count": 125,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "burgundy",
+          "count": 67
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "champagne",
+          "count": 58
         }
       ]
     },
@@ -2860,11 +2961,16 @@
       "slug": "cult-wine",
       "display": "Cult wine",
       "axis": "editorial",
-      "count": 100,
+      "count": 124,
       "regions": [
         {
           "country_slug": "france",
           "region_slug": "burgundy",
+          "count": 24
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
           "count": 24
         },
         {
@@ -2915,28 +3021,116 @@
       ]
     },
     {
-      "slug": "tempranillo",
-      "display": "Tempranillo",
-      "axis": "grape",
-      "count": 99,
+      "slug": "pairs-with-truffles",
+      "display": "Truffles",
+      "axis": "pairing",
+      "count": 124,
       "regions": [
         {
-          "country_slug": "spain",
-          "region_slug": "rioja",
-          "count": 99
+          "country_slug": "italy",
+          "region_slug": "piedmont",
+          "count": 35
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 28
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 27
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 18
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "sicily",
+          "count": 8
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "count": 8
         }
       ]
     },
     {
-      "slug": "sparkling-traditional",
-      "display": "Traditional-method sparkling (Champagne / Cava / Franciacorta / Crémant)",
-      "axis": "style",
-      "count": 98,
+      "slug": "grand-cru",
+      "display": "Grand cru",
+      "axis": "editorial",
+      "count": 121,
       "regions": [
         {
           "country_slug": "france",
+          "region_slug": "burgundy",
+          "count": 67
+        },
+        {
+          "country_slug": "france",
           "region_slug": "champagne",
-          "count": 93
+          "count": 21
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 20
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 8
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "slug": "pairs-with-aperitif",
+      "display": "Aperitif (no food)",
+      "axis": "pairing",
+      "count": 117,
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "count": 51
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "sicily",
+          "count": 28
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "champagne",
+          "count": 11
+        },
+        {
+          "country_slug": "spain",
+          "region_slug": "rioja",
+          "count": 6
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 5
+        },
+        {
+          "country_slug": "portugal",
+          "region_slug": "douro",
+          "count": 5
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 4
         },
         {
           "country_slug": "germany",
@@ -2944,8 +3138,147 @@
           "count": 3
         },
         {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 2
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "burgundy",
+          "count": 1
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "piedmont",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "slug": "pairs-with-soft-cheese",
+      "display": "Soft cheese",
+      "axis": "pairing",
+      "count": 117,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "burgundy",
+          "count": 47
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "champagne",
+          "count": 27
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 13
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "piedmont",
+          "count": 9
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 7
+        },
+        {
           "country_slug": "italy",
           "region_slug": "sicily",
+          "count": 6
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 4
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "count": 3
+        },
+        {
+          "country_slug": "portugal",
+          "region_slug": "douro",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "slug": "cabernet-sauvignon",
+      "display": "Cabernet Sauvignon",
+      "axis": "grape",
+      "count": 116,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 63
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 38
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "count": 8
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "sicily",
+          "count": 4
+        },
+        {
+          "country_slug": "spain",
+          "region_slug": "rioja",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "slug": "low-tannin",
+      "display": "Low tannin",
+      "axis": "tannin",
+      "count": 106,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 29
+        },
+        {
+          "country_slug": "portugal",
+          "region_slug": "douro",
+          "count": 29
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "count": 28
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "sicily",
+          "count": 8
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "piedmont",
+          "count": 5
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 5
+        },
+        {
+          "country_slug": "spain",
+          "region_slug": "rioja",
           "count": 2
         }
       ]
@@ -2954,7 +3287,7 @@
       "slug": "pairs-with-pork",
       "display": "Pork",
       "axis": "pairing",
-      "count": 97,
+      "count": 103,
       "regions": [
         {
           "country_slug": "italy",
@@ -2982,6 +3315,11 @@
           "count": 9
         },
         {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 6
+        },
+        {
           "country_slug": "portugal",
           "region_slug": "douro",
           "count": 2
@@ -2994,38 +3332,10 @@
       ]
     },
     {
-      "slug": "organic",
-      "display": "Organic",
-      "axis": "production",
-      "count": 96,
-      "regions": [
-        {
-          "country_slug": "italy",
-          "region_slug": "sicily",
-          "count": 56
-        },
-        {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
-          "count": 23
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "veneto",
-          "count": 12
-        },
-        {
-          "country_slug": "germany",
-          "region_slug": "mosel",
-          "count": 5
-        }
-      ]
-    },
-    {
       "slug": "pairs-with-fruit-desserts",
       "display": "Fruit desserts",
       "axis": "pairing",
-      "count": 95,
+      "count": 100,
       "regions": [
         {
           "country_slug": "portugal",
@@ -3054,6 +3364,11 @@
         },
         {
           "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 5
+        },
+        {
+          "country_slug": "france",
           "region_slug": "bordeaux",
           "count": 5
         },
@@ -3075,41 +3390,43 @@
       ]
     },
     {
-      "slug": "touriga-franca",
-      "display": "Touriga Franca",
-      "axis": "grape",
-      "count": 86,
+      "slug": "sparkling-traditional",
+      "display": "Traditional-method sparkling (Champagne / Cava / Franciacorta / Crémant)",
+      "axis": "style",
+      "count": 99,
       "regions": [
         {
-          "country_slug": "portugal",
-          "region_slug": "douro",
-          "count": 86
+          "country_slug": "france",
+          "region_slug": "champagne",
+          "count": 93
+        },
+        {
+          "country_slug": "germany",
+          "region_slug": "mosel",
+          "count": 3
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "sicily",
+          "count": 2
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 1
         }
       ]
     },
     {
-      "slug": "touriga-nacional",
-      "display": "Touriga Nacional",
+      "slug": "tempranillo",
+      "display": "Tempranillo",
       "axis": "grape",
-      "count": 86,
+      "count": 99,
       "regions": [
         {
-          "country_slug": "portugal",
-          "region_slug": "douro",
-          "count": 86
-        }
-      ]
-    },
-    {
-      "slug": "tinta-roriz",
-      "display": "Tinta Roriz",
-      "axis": "grape",
-      "count": 83,
-      "regions": [
-        {
-          "country_slug": "portugal",
-          "region_slug": "douro",
-          "count": 83
+          "country_slug": "spain",
+          "region_slug": "rioja",
+          "count": 99
         }
       ]
     },
@@ -3117,11 +3434,16 @@
       "slug": "price-luxury",
       "display": "Luxury (€200-500)",
       "axis": "price",
-      "count": 80,
+      "count": 96,
       "regions": [
         {
           "country_slug": "france",
           "region_slug": "burgundy",
+          "count": 16
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
           "count": 16
         },
         {
@@ -3172,6 +3494,88 @@
       ]
     },
     {
+      "slug": "touriga-franca",
+      "display": "Touriga Franca",
+      "axis": "grape",
+      "count": 86,
+      "regions": [
+        {
+          "country_slug": "portugal",
+          "region_slug": "douro",
+          "count": 86
+        }
+      ]
+    },
+    {
+      "slug": "touriga-nacional",
+      "display": "Touriga Nacional",
+      "axis": "grape",
+      "count": 86,
+      "regions": [
+        {
+          "country_slug": "portugal",
+          "region_slug": "douro",
+          "count": 86
+        }
+      ]
+    },
+    {
+      "slug": "occasion-celebration",
+      "display": "Celebration",
+      "axis": "occasion",
+      "count": 83,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "champagne",
+          "count": 36
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 19
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "count": 9
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "sicily",
+          "count": 8
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 5
+        },
+        {
+          "country_slug": "germany",
+          "region_slug": "mosel",
+          "count": 4
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "piedmont",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "slug": "tinta-roriz",
+      "display": "Tinta Roriz",
+      "axis": "grape",
+      "count": 83,
+      "regions": [
+        {
+          "country_slug": "portugal",
+          "region_slug": "douro",
+          "count": 83
+        }
+      ]
+    },
+    {
       "slug": "cabernet-franc",
       "display": "Cabernet Franc",
       "axis": "grape",
@@ -3200,82 +3604,6 @@
       ]
     },
     {
-      "slug": "occasion-celebration",
-      "display": "Celebration",
-      "axis": "occasion",
-      "count": 78,
-      "regions": [
-        {
-          "country_slug": "france",
-          "region_slug": "champagne",
-          "count": 36
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "tuscany",
-          "count": 19
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "veneto",
-          "count": 9
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "sicily",
-          "count": 8
-        },
-        {
-          "country_slug": "germany",
-          "region_slug": "mosel",
-          "count": 4
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "piedmont",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "slug": "low-tannin",
-      "display": "Low tannin",
-      "axis": "tannin",
-      "count": 77,
-      "regions": [
-        {
-          "country_slug": "portugal",
-          "region_slug": "douro",
-          "count": 29
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "veneto",
-          "count": 28
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "sicily",
-          "count": 8
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "piedmont",
-          "count": 5
-        },
-        {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
-          "count": 5
-        },
-        {
-          "country_slug": "spain",
-          "region_slug": "rioja",
-          "count": 2
-        }
-      ]
-    },
-    {
       "slug": "nebbiolo",
       "display": "Nebbiolo",
       "axis": "grape",
@@ -3297,7 +3625,7 @@
       "slug": "pairs-with-oysters",
       "display": "Oysters",
       "axis": "pairing",
-      "count": 74,
+      "count": 75,
       "regions": [
         {
           "country_slug": "france",
@@ -3330,9 +3658,47 @@
           "count": 1
         },
         {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 1
+        },
+        {
           "country_slug": "germany",
           "region_slug": "mosel",
           "count": 1
+        }
+      ]
+    },
+    {
+      "slug": "biodynamic",
+      "display": "Biodynamic",
+      "axis": "production",
+      "count": 74,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 33
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "sicily",
+          "count": 20
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 14
+        },
+        {
+          "country_slug": "germany",
+          "region_slug": "mosel",
+          "count": 5
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "count": 2
         }
       ]
     },
@@ -3368,10 +3734,23 @@
       ]
     },
     {
+      "slug": "grenache",
+      "display": "Grenache",
+      "axis": "grape",
+      "count": 72,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 72
+        }
+      ]
+    },
+    {
       "slug": "price-collector",
       "display": "Collector (€500+)",
       "axis": "price",
-      "count": 67,
+      "count": 68,
       "regions": [
         {
           "country_slug": "france",
@@ -3384,13 +3763,13 @@
           "count": 13
         },
         {
-          "country_slug": "italy",
-          "region_slug": "piedmont",
+          "country_slug": "france",
+          "region_slug": "champagne",
           "count": 4
         },
         {
-          "country_slug": "france",
-          "region_slug": "champagne",
+          "country_slug": "italy",
+          "region_slug": "piedmont",
           "count": 4
         },
         {
@@ -3399,18 +3778,23 @@
           "count": 4
         },
         {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 1
+        },
+        {
           "country_slug": "germany",
           "region_slug": "mosel",
           "count": 1
         },
         {
-          "country_slug": "portugal",
-          "region_slug": "douro",
+          "country_slug": "italy",
+          "region_slug": "veneto",
           "count": 1
         },
         {
-          "country_slug": "italy",
-          "region_slug": "veneto",
+          "country_slug": "portugal",
+          "region_slug": "douro",
           "count": 1
         }
       ]
@@ -3442,23 +3826,10 @@
       ]
     },
     {
-      "slug": "fortified-port",
-      "display": "Port",
-      "axis": "style",
-      "count": 62,
-      "regions": [
-        {
-          "country_slug": "portugal",
-          "region_slug": "douro",
-          "count": 62
-        }
-      ]
-    },
-    {
       "slug": "pairs-with-chocolate",
       "display": "Chocolate",
       "axis": "pairing",
-      "count": 62,
+      "count": 63,
       "regions": [
         {
           "country_slug": "portugal",
@@ -3482,8 +3853,69 @@
         },
         {
           "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 1
+        },
+        {
+          "country_slug": "france",
           "region_slug": "bordeaux",
           "count": 1
+        }
+      ]
+    },
+    {
+      "slug": "fortified-port",
+      "display": "Port",
+      "axis": "style",
+      "count": 62,
+      "regions": [
+        {
+          "country_slug": "portugal",
+          "region_slug": "douro",
+          "count": 62
+        }
+      ]
+    },
+    {
+      "slug": "occasion-picnic",
+      "display": "Picnic",
+      "axis": "occasion",
+      "count": 62,
+      "regions": [
+        {
+          "country_slug": "germany",
+          "region_slug": "mosel",
+          "count": 32
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 11
+        },
+        {
+          "country_slug": "spain",
+          "region_slug": "rioja",
+          "count": 6
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 6
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "piedmont",
+          "count": 3
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "sicily",
+          "count": 2
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 2
         }
       ]
     },
@@ -3511,6 +3943,87 @@
       ]
     },
     {
+      "slug": "pairs-with-foie-gras",
+      "display": "Foie gras",
+      "axis": "pairing",
+      "count": 58,
+      "regions": [
+        {
+          "country_slug": "germany",
+          "region_slug": "mosel",
+          "count": 31
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 12
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 9
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "count": 3
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "sicily",
+          "count": 2
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "champagne",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "slug": "pairs-with-vegetable-forward",
+      "display": "Vegetable-forward",
+      "axis": "pairing",
+      "count": 55,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 18
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "sicily",
+          "count": 16
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "count": 9
+        },
+        {
+          "country_slug": "germany",
+          "region_slug": "mosel",
+          "count": 6
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 3
+        },
+        {
+          "country_slug": "spain",
+          "region_slug": "rioja",
+          "count": 2
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "piedmont",
+          "count": 1
+        }
+      ]
+    },
+    {
       "slug": "tinta-barroca",
       "display": "Tinta Barroca",
       "axis": "grape",
@@ -3524,48 +4037,10 @@
       ]
     },
     {
-      "slug": "occasion-picnic",
-      "display": "Picnic",
-      "axis": "occasion",
-      "count": 51,
-      "regions": [
-        {
-          "country_slug": "germany",
-          "region_slug": "mosel",
-          "count": 32
-        },
-        {
-          "country_slug": "spain",
-          "region_slug": "rioja",
-          "count": 6
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "tuscany",
-          "count": 6
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "piedmont",
-          "count": 3
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "sicily",
-          "count": 2
-        },
-        {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
-          "count": 2
-        }
-      ]
-    },
-    {
       "slug": "pairs-with-blue-cheese",
       "display": "Blue cheese",
       "axis": "pairing",
-      "count": 51,
+      "count": 54,
       "regions": [
         {
           "country_slug": "portugal",
@@ -3591,6 +4066,24 @@
           "country_slug": "italy",
           "region_slug": "sicily",
           "count": 4
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "slug": "mourvedre",
+      "display": "Mourvedre",
+      "axis": "grape",
+      "count": 53,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 53
         }
       ]
     },
@@ -3598,7 +4091,7 @@
       "slug": "pairs-with-oily-fish",
       "display": "Oily fish",
       "axis": "pairing",
-      "count": 49,
+      "count": 51,
       "regions": [
         {
           "country_slug": "italy",
@@ -3622,8 +4115,8 @@
         },
         {
           "country_slug": "france",
-          "region_slug": "bordeaux",
-          "count": 1
+          "region_slug": "rhone",
+          "count": 2
         },
         {
           "country_slug": "italy",
@@ -3634,52 +4127,54 @@
           "country_slug": "portugal",
           "region_slug": "douro",
           "count": 1
-        }
-      ]
-    },
-    {
-      "slug": "corvinone",
-      "display": "Corvinone",
-      "axis": "grape",
-      "count": 46,
-      "regions": [
-        {
-          "country_slug": "italy",
-          "region_slug": "veneto",
-          "count": 46
-        }
-      ]
-    },
-    {
-      "slug": "pairs-with-foie-gras",
-      "display": "Foie gras",
-      "axis": "pairing",
-      "count": 46,
-      "regions": [
-        {
-          "country_slug": "germany",
-          "region_slug": "mosel",
-          "count": 31
         },
         {
           "country_slug": "france",
           "region_slug": "bordeaux",
-          "count": 9
+          "count": 1
+        }
+      ]
+    },
+    {
+      "slug": "mood-festive",
+      "display": "Festive",
+      "axis": "mood",
+      "count": 50,
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "sicily",
+          "count": 18
         },
         {
           "country_slug": "italy",
           "region_slug": "veneto",
-          "count": 3
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "sicily",
-          "count": 2
+          "count": 11
         },
         {
           "country_slug": "france",
           "region_slug": "champagne",
-          "count": 1
+          "count": 8
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 5
+        },
+        {
+          "country_slug": "germany",
+          "region_slug": "mosel",
+          "count": 3
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 3
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "piedmont",
+          "count": 2
         }
       ]
     },
@@ -3687,7 +4182,7 @@
       "slug": "pairs-with-pizza",
       "display": "Pizza",
       "axis": "pairing",
-      "count": 46,
+      "count": 49,
       "regions": [
         {
           "country_slug": "italy",
@@ -3711,46 +4206,79 @@
         },
         {
           "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 3
+        },
+        {
+          "country_slug": "france",
           "region_slug": "bordeaux",
           "count": 1
         }
       ]
     },
     {
-      "slug": "mood-festive",
-      "display": "Festive",
+      "slug": "mood-fruity",
+      "display": "Fruity",
       "axis": "mood",
-      "count": 45,
+      "count": 47,
       "regions": [
         {
-          "country_slug": "italy",
-          "region_slug": "sicily",
-          "count": 18
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "veneto",
-          "count": 11
+          "country_slug": "spain",
+          "region_slug": "rioja",
+          "count": 13
         },
         {
           "country_slug": "france",
           "region_slug": "champagne",
-          "count": 8
+          "count": 7
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 6
         },
         {
           "country_slug": "france",
           "region_slug": "bordeaux",
-          "count": 3
-        },
-        {
-          "country_slug": "germany",
-          "region_slug": "mosel",
-          "count": 3
+          "count": 6
         },
         {
           "country_slug": "italy",
           "region_slug": "piedmont",
+          "count": 5
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "sicily",
+          "count": 3
+        },
+        {
+          "country_slug": "portugal",
+          "region_slug": "douro",
+          "count": 3
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
           "count": 2
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "slug": "corvinone",
+      "display": "Corvinone",
+      "axis": "grape",
+      "count": 46,
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "count": 46
         }
       ]
     },
@@ -3784,7 +4312,7 @@
       "slug": "medium-sweet",
       "display": "Medium sweet",
       "axis": "sweetness",
-      "count": 42,
+      "count": 43,
       "regions": [
         {
           "country_slug": "germany",
@@ -3797,6 +4325,11 @@
           "count": 4
         },
         {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 1
+        },
+        {
           "country_slug": "italy",
           "region_slug": "veneto",
           "count": 1
@@ -3804,72 +4337,29 @@
       ]
     },
     {
-      "slug": "biodynamic",
-      "display": "Biodynamic",
-      "axis": "production",
+      "slug": "pairs-with-digestif",
+      "display": "Digestif (no food)",
+      "axis": "pairing",
       "count": 41,
       "regions": [
-        {
-          "country_slug": "italy",
-          "region_slug": "sicily",
-          "count": 20
-        },
-        {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
-          "count": 14
-        },
-        {
-          "country_slug": "germany",
-          "region_slug": "mosel",
-          "count": 5
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "veneto",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "slug": "mood-fruity",
-      "display": "Fruity",
-      "axis": "mood",
-      "count": 41,
-      "regions": [
-        {
-          "country_slug": "spain",
-          "region_slug": "rioja",
-          "count": 13
-        },
-        {
-          "country_slug": "france",
-          "region_slug": "champagne",
-          "count": 7
-        },
-        {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
-          "count": 6
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "piedmont",
-          "count": 5
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "sicily",
-          "count": 3
-        },
         {
           "country_slug": "portugal",
           "region_slug": "douro",
-          "count": 3
+          "count": 27
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "sicily",
+          "count": 7
         },
         {
           "country_slug": "italy",
           "region_slug": "tuscany",
+          "count": 3
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
           "count": 2
         },
         {
@@ -3889,34 +4379,6 @@
           "country_slug": "spain",
           "region_slug": "rioja",
           "count": 39
-        }
-      ]
-    },
-    {
-      "slug": "pairs-with-digestif",
-      "display": "Digestif (no food)",
-      "axis": "pairing",
-      "count": 39,
-      "regions": [
-        {
-          "country_slug": "portugal",
-          "region_slug": "douro",
-          "count": 27
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "sicily",
-          "count": 7
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "tuscany",
-          "count": 3
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "veneto",
-          "count": 2
         }
       ]
     },
@@ -3952,39 +4414,44 @@
       ]
     },
     {
-      "slug": "pairs-with-vegetable-forward",
-      "display": "Vegetable-forward",
+      "slug": "pairs-with-creme-brulee",
+      "display": "Crème brûlée / custards",
       "axis": "pairing",
       "count": 37,
       "regions": [
         {
-          "country_slug": "italy",
-          "region_slug": "sicily",
-          "count": 16
+          "country_slug": "portugal",
+          "region_slug": "douro",
+          "count": 17
         },
         {
           "country_slug": "italy",
           "region_slug": "veneto",
-          "count": 9
+          "count": 6
         },
         {
-          "country_slug": "germany",
-          "region_slug": "mosel",
-          "count": 6
+          "country_slug": "italy",
+          "region_slug": "sicily",
+          "count": 5
         },
         {
           "country_slug": "france",
           "region_slug": "bordeaux",
-          "count": 3
-        },
-        {
-          "country_slug": "spain",
-          "region_slug": "rioja",
-          "count": 2
+          "count": 4
         },
         {
           "country_slug": "italy",
           "region_slug": "piedmont",
+          "count": 2
+        },
+        {
+          "country_slug": "germany",
+          "region_slug": "mosel",
+          "count": 2
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
           "count": 1
         }
       ]
@@ -4087,44 +4554,6 @@
       ]
     },
     {
-      "slug": "pairs-with-creme-brulee",
-      "display": "Crème brûlée / custards",
-      "axis": "pairing",
-      "count": 36,
-      "regions": [
-        {
-          "country_slug": "portugal",
-          "region_slug": "douro",
-          "count": 17
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "veneto",
-          "count": 6
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "sicily",
-          "count": 5
-        },
-        {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
-          "count": 4
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "piedmont",
-          "count": 2
-        },
-        {
-          "country_slug": "germany",
-          "region_slug": "mosel",
-          "count": 2
-        }
-      ]
-    },
-    {
       "slug": "garganega",
       "display": "Garganega",
       "axis": "grape",
@@ -4160,6 +4589,44 @@
           "country_slug": "france",
           "region_slug": "champagne",
           "count": 32
+        }
+      ]
+    },
+    {
+      "slug": "mood-romantic",
+      "display": "Romantic",
+      "axis": "mood",
+      "count": 31,
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "count": 11
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "sicily",
+          "count": 7
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 6
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "champagne",
+          "count": 3
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 3
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "piedmont",
+          "count": 1
         }
       ]
     },
@@ -4213,14 +4680,37 @@
           "count": 2
         },
         {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "count": 1
+        },
+        {
           "country_slug": "spain",
           "region_slug": "rioja",
           "count": 1
+        }
+      ]
+    },
+    {
+      "slug": "biodynamic-certified",
+      "display": "Biodynamic (Demeter-certified)",
+      "axis": "production",
+      "count": 29,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 23
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 4
         },
         {
           "country_slug": "italy",
           "region_slug": "veneto",
-          "count": 1
+          "count": 2
         }
       ]
     },
@@ -4234,6 +4724,29 @@
           "country_slug": "italy",
           "region_slug": "tuscany",
           "count": 28
+        }
+      ]
+    },
+    {
+      "slug": "viognier",
+      "display": "Viognier",
+      "axis": "grape",
+      "count": 28,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 25
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "sicily",
+          "count": 2
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 1
         }
       ]
     },
@@ -4254,7 +4767,7 @@
       "slug": "mood-funky",
       "display": "Funky / wild",
       "axis": "mood",
-      "count": 25,
+      "count": 26,
       "regions": [
         {
           "country_slug": "italy",
@@ -4272,6 +4785,11 @@
           "count": 3
         },
         {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 1
+        },
+        {
           "country_slug": "germany",
           "region_slug": "mosel",
           "count": 1
@@ -4279,34 +4797,44 @@
       ]
     },
     {
-      "slug": "mood-romantic",
-      "display": "Romantic",
-      "axis": "mood",
+      "slug": "pairs-with-salad",
+      "display": "Salads",
+      "axis": "pairing",
       "count": 25,
       "regions": [
         {
           "country_slug": "italy",
-          "region_slug": "veneto",
-          "count": 11
+          "region_slug": "sicily",
+          "count": 10
+        },
+        {
+          "country_slug": "germany",
+          "region_slug": "mosel",
+          "count": 6
         },
         {
           "country_slug": "italy",
-          "region_slug": "sicily",
-          "count": 7
+          "region_slug": "veneto",
+          "count": 3
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 2
         },
         {
           "country_slug": "france",
           "region_slug": "bordeaux",
-          "count": 3
+          "count": 2
         },
         {
           "country_slug": "france",
-          "region_slug": "champagne",
-          "count": 3
+          "region_slug": "burgundy",
+          "count": 1
         },
         {
           "country_slug": "italy",
-          "region_slug": "piedmont",
+          "region_slug": "tuscany",
           "count": 1
         }
       ]
@@ -4353,39 +4881,52 @@
       ]
     },
     {
-      "slug": "pairs-with-salad",
-      "display": "Salads",
-      "axis": "pairing",
+      "slug": "cinsault",
+      "display": "Cinsault",
+      "axis": "grape",
       "count": 23,
       "regions": [
         {
-          "country_slug": "italy",
-          "region_slug": "sicily",
-          "count": 10
-        },
-        {
-          "country_slug": "germany",
-          "region_slug": "mosel",
-          "count": 6
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "veneto",
-          "count": 3
-        },
-        {
           "country_slug": "france",
-          "region_slug": "bordeaux",
-          "count": 2
-        },
+          "region_slug": "rhone",
+          "count": 23
+        }
+      ]
+    },
+    {
+      "slug": "field-blend",
+      "display": "Field blend",
+      "axis": "editorial",
+      "count": 22,
+      "regions": [
         {
-          "country_slug": "france",
-          "region_slug": "burgundy",
-          "count": 1
+          "country_slug": "portugal",
+          "region_slug": "douro",
+          "count": 9
         },
         {
           "country_slug": "italy",
           "region_slug": "tuscany",
+          "count": 4
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "count": 4
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "sicily",
+          "count": 2
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 2
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "champagne",
           "count": 1
         }
       ]
@@ -4463,39 +5004,6 @@
       ]
     },
     {
-      "slug": "field-blend",
-      "display": "Field blend",
-      "axis": "editorial",
-      "count": 20,
-      "regions": [
-        {
-          "country_slug": "portugal",
-          "region_slug": "douro",
-          "count": 9
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "tuscany",
-          "count": 4
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "veneto",
-          "count": 4
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "sicily",
-          "count": 2
-        },
-        {
-          "country_slug": "france",
-          "region_slug": "champagne",
-          "count": 1
-        }
-      ]
-    },
-    {
       "slug": "pairs-with-fried-food",
       "display": "Fried food",
       "axis": "pairing",
@@ -4507,23 +5015,23 @@
           "count": 5
         },
         {
-          "country_slug": "italy",
-          "region_slug": "piedmont",
-          "count": 5
-        },
-        {
           "country_slug": "france",
           "region_slug": "champagne",
           "count": 5
         },
         {
-          "country_slug": "portugal",
-          "region_slug": "douro",
-          "count": 2
+          "country_slug": "italy",
+          "region_slug": "piedmont",
+          "count": 5
         },
         {
           "country_slug": "italy",
           "region_slug": "veneto",
+          "count": 2
+        },
+        {
+          "country_slug": "portugal",
+          "region_slug": "douro",
           "count": 2
         }
       ]
@@ -4606,6 +5114,19 @@
       ]
     },
     {
+      "slug": "roussanne",
+      "display": "Roussanne",
+      "axis": "grape",
+      "count": 17,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 17
+        }
+      ]
+    },
+    {
       "slug": "carricante",
       "display": "Carricante",
       "axis": "grape",
@@ -4619,25 +5140,30 @@
       ]
     },
     {
-      "slug": "syrah",
-      "display": "Syrah",
-      "axis": "grape",
+      "slug": "high-tannin",
+      "display": "High tannin",
+      "axis": "tannin",
       "count": 16,
       "regions": [
         {
-          "country_slug": "italy",
-          "region_slug": "tuscany",
-          "count": 9
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "sicily",
+          "country_slug": "france",
+          "region_slug": "rhone",
           "count": 6
         },
         {
           "country_slug": "italy",
+          "region_slug": "sicily",
+          "count": 4
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 3
+        },
+        {
+          "country_slug": "italy",
           "region_slug": "veneto",
-          "count": 1
+          "count": 3
         }
       ]
     },
@@ -4664,6 +5190,80 @@
           "country_slug": "spain",
           "region_slug": "rioja",
           "count": 15
+        }
+      ]
+    },
+    {
+      "slug": "marsanne",
+      "display": "Marsanne",
+      "axis": "grape",
+      "count": 13,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 13
+        }
+      ]
+    },
+    {
+      "slug": "occasion-bbq",
+      "display": "BBQ",
+      "axis": "occasion",
+      "count": 12,
+      "regions": [
+        {
+          "country_slug": "italy",
+          "region_slug": "sicily",
+          "count": 6
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 3
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 2
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "slug": "still-rose",
+      "display": "Still rosé",
+      "axis": "style",
+      "count": 12,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 4
+        },
+        {
+          "country_slug": "spain",
+          "region_slug": "rioja",
+          "count": 3
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "sicily",
+          "count": 2
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "veneto",
+          "count": 2
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "tuscany",
+          "count": 1
         }
       ]
     },
@@ -4707,6 +5307,19 @@
       ]
     },
     {
+      "slug": "clairette",
+      "display": "Clairette",
+      "axis": "grape",
+      "count": 10,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 10
+        }
+      ]
+    },
+    {
       "slug": "frappato",
       "display": "Frappato",
       "axis": "grape",
@@ -4720,29 +5333,6 @@
       ]
     },
     {
-      "slug": "high-tannin",
-      "display": "High tannin",
-      "axis": "tannin",
-      "count": 10,
-      "regions": [
-        {
-          "country_slug": "italy",
-          "region_slug": "sicily",
-          "count": 4
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "veneto",
-          "count": 3
-        },
-        {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
-          "count": 3
-        }
-      ]
-    },
-    {
       "slug": "inzolia",
       "display": "Inzolia",
       "axis": "grape",
@@ -4752,29 +5342,6 @@
           "country_slug": "italy",
           "region_slug": "sicily",
           "count": 10
-        }
-      ]
-    },
-    {
-      "slug": "occasion-bbq",
-      "display": "BBQ",
-      "axis": "occasion",
-      "count": 10,
-      "regions": [
-        {
-          "country_slug": "italy",
-          "region_slug": "sicily",
-          "count": 6
-        },
-        {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
-          "count": 3
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "tuscany",
-          "count": 1
         }
       ]
     },
@@ -4841,30 +5408,15 @@
       ]
     },
     {
-      "slug": "still-rose",
-      "display": "Still rosé",
-      "axis": "style",
+      "slug": "grenache-blanc",
+      "display": "Grenache Blanc",
+      "axis": "grape",
       "count": 8,
       "regions": [
         {
-          "country_slug": "spain",
-          "region_slug": "rioja",
-          "count": 3
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "sicily",
-          "count": 2
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "veneto",
-          "count": 2
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "tuscany",
-          "count": 1
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 8
         }
       ]
     },
@@ -4918,19 +5470,42 @@
       ]
     },
     {
-      "slug": "biodynamic-certified",
-      "display": "Biodynamic (Demeter-certified)",
-      "axis": "production",
-      "count": 6,
+      "slug": "dessert-late-harvest",
+      "display": "Late-harvest dessert",
+      "axis": "style",
+      "count": 7,
       "regions": [
         {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
+          "country_slug": "italy",
+          "region_slug": "sicily",
           "count": 4
         },
         {
           "country_slug": "italy",
           "region_slug": "veneto",
+          "count": 2
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "slug": "fortified-vdn",
+      "display": "Vin doux naturel",
+      "axis": "style",
+      "count": 7,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 5
+        },
+        {
+          "country_slug": "portugal",
+          "region_slug": "douro",
           "count": 2
         }
       ]
@@ -4945,24 +5520,6 @@
           "country_slug": "italy",
           "region_slug": "tuscany",
           "count": 6
-        }
-      ]
-    },
-    {
-      "slug": "dessert-late-harvest",
-      "display": "Late-harvest dessert",
-      "axis": "style",
-      "count": 6,
-      "regions": [
-        {
-          "country_slug": "italy",
-          "region_slug": "sicily",
-          "count": 4
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "veneto",
-          "count": 2
         }
       ]
     },
@@ -5029,6 +5586,19 @@
       ]
     },
     {
+      "slug": "bourboulenc",
+      "display": "Bourboulenc",
+      "axis": "grape",
+      "count": 5,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 5
+        }
+      ]
+    },
+    {
       "slug": "first-growth",
       "display": "First growth",
       "axis": "editorial",
@@ -5051,6 +5621,24 @@
           "country_slug": "portugal",
           "region_slug": "douro",
           "count": 5
+        }
+      ]
+    },
+    {
+      "slug": "low-acid",
+      "display": "Low acidity",
+      "axis": "acidity",
+      "count": 5,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 3
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "sicily",
+          "count": 2
         }
       ]
     },
@@ -5198,6 +5786,42 @@
       ]
     },
     {
+      "slug": "muscat-blanc-a-petits-grains",
+      "display": "Muscat Blanc A Petits Grains",
+      "axis": "grape",
+      "count": 4,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "slug": "pairs-with-burgers",
+      "display": "Burgers",
+      "axis": "pairing",
+      "count": 4,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "bordeaux",
+          "count": 2
+        },
+        {
+          "country_slug": "italy",
+          "region_slug": "sicily",
+          "count": 1
+        },
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 1
+        }
+      ]
+    },
+    {
       "slug": "pinot-bianco",
       "display": "Pinot Bianco",
       "axis": "grape",
@@ -5268,6 +5892,19 @@
       ]
     },
     {
+      "slug": "counoise",
+      "display": "Counoise",
+      "axis": "grape",
+      "count": 3,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "count": 3
+        }
+      ]
+    },
+    {
       "slug": "fiano",
       "display": "Fiano",
       "axis": "grape",
@@ -5314,24 +5951,6 @@
     {
       "slug": "pairs-with-bbq",
       "display": "BBQ",
-      "axis": "pairing",
-      "count": 3,
-      "regions": [
-        {
-          "country_slug": "france",
-          "region_slug": "bordeaux",
-          "count": 2
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "sicily",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "slug": "pairs-with-burgers",
-      "display": "Burgers",
       "axis": "pairing",
       "count": 3,
       "regions": [
@@ -5400,24 +6019,6 @@
       ]
     },
     {
-      "slug": "viognier",
-      "display": "Viognier",
-      "axis": "grape",
-      "count": 3,
-      "regions": [
-        {
-          "country_slug": "italy",
-          "region_slug": "sicily",
-          "count": 2
-        },
-        {
-          "country_slug": "italy",
-          "region_slug": "tuscany",
-          "count": 1
-        }
-      ]
-    },
-    {
       "slug": "aligote",
       "display": "Aligote",
       "axis": "grape",
@@ -5470,19 +6071,6 @@
       ]
     },
     {
-      "slug": "fortified-vdn",
-      "display": "Vin doux naturel",
-      "axis": "style",
-      "count": 2,
-      "regions": [
-        {
-          "country_slug": "portugal",
-          "region_slug": "douro",
-          "count": 2
-        }
-      ]
-    },
-    {
       "slug": "garnacha-blanca",
       "display": "Garnacha Blanca",
       "axis": "grape",
@@ -5491,19 +6079,6 @@
         {
           "country_slug": "spain",
           "region_slug": "rioja",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "slug": "low-acid",
-      "display": "Low acidity",
-      "axis": "acidity",
-      "count": 2,
-      "regions": [
-        {
-          "country_slug": "italy",
-          "region_slug": "sicily",
           "count": 2
         }
       ]
@@ -5567,13 +6142,13 @@
       "count": 2,
       "regions": [
         {
-          "country_slug": "france",
-          "region_slug": "champagne",
+          "country_slug": "italy",
+          "region_slug": "veneto",
           "count": 1
         },
         {
-          "country_slug": "italy",
-          "region_slug": "veneto",
+          "country_slug": "france",
+          "region_slug": "champagne",
           "count": 1
         }
       ]
@@ -5599,12 +6174,12 @@
       "regions": [
         {
           "country_slug": "italy",
-          "region_slug": "tuscany",
+          "region_slug": "sicily",
           "count": 1
         },
         {
           "country_slug": "italy",
-          "region_slug": "sicily",
+          "region_slug": "tuscany",
           "count": 1
         }
       ]
@@ -5644,6 +6219,19 @@
         {
           "country_slug": "italy",
           "region_slug": "veneto",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "slug": "vaccarese",
+      "display": "Vaccarese",
+      "axis": "grape",
+      "count": 2,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
           "count": 2
         }
       ]
@@ -5904,6 +6492,19 @@
         {
           "country_slug": "italy",
           "region_slug": "veneto",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "slug": "muscardin",
+      "display": "Muscardin",
+      "axis": "grape",
+      "count": 1,
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
           "count": 1
         }
       ]

@@ -1,0 +1,224 @@
+{
+  "wine_festivals": [
+    {
+      "slug": "decouverte-vallee-du-rhone",
+      "name": "Decouverte en Vallee du Rhone",
+      "recurrence_pattern": "annual, April",
+      "start_month": "April",
+      "duration": "2 days",
+      "host_organization": "Inter Rhone (Syndicat General des Vignerons de la Vallee du Rhone)",
+      "ticket_required": true,
+      "ticket_url": "https://www.interrhone.fr/en/rhone-valley-wines/",
+      "featured_producers": [
+        "m-chapoutier",
+        "e-guigal",
+        "chateau-beaucastel",
+        "jaboulet",
+        "vieux-telegraphe"
+      ],
+      "neighborhood": "Avignon",
+      "description": "Inter Rhone's flagship professional tasting event assembles around 200 producers from across the Rhone Valley in Avignon each April. The event is the definitive trade and press showcase for new Rhone releases, covering all appellations from Cote-Rotie to Chateauneuf-du-Pape and Tavel. Trade and press credentials required for entry.",
+      "tip": "Apply for credentials via the Inter Rhone website by February. The event is held at the Palais des Congres or equivalent central Avignon venue.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.interrhone.fr/en/rhone-valley-wines/",
+        "address_quoted": "Avignon, Vaucluse",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.vins-rhone.com/en/discover/events",
+        "cuisine_evidence_url": "https://www.vins-rhone.com/en/discover/the-rhone-valley-winegrowing-region/appellations",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "fete-de-la-veraison-chateauneuf",
+      "name": "Fete de la Veraison, Chateauneuf-du-Pape",
+      "recurrence_pattern": "annual, first weekend of August",
+      "start_month": "August",
+      "duration": "2 days",
+      "host_organization": "Commune de Chateauneuf-du-Pape and the appellation syndicat",
+      "ticket_required": true,
+      "ticket_url": "https://www.fete-veraison.com/",
+      "featured_producers": [
+        "chateau-beaucastel",
+        "chateau-rayas",
+        "domaine-du-vieux-telegraphe",
+        "domaine-du-pegau"
+      ],
+      "neighborhood": "Chateauneuf-du-Pape",
+      "description": "Chateauneuf-du-Pape's medieval festival celebrates the veraison (grape colour change) each August. The village dresses in medieval costume, processions wind through the ruined papal chateau, and the appellation's producers pour their current releases. Medieval banquets, grape-treading contests, and archery displays complete the programme. One of the most atmospheric wine festivals in France.",
+      "tip": "Accommodation in the village is extremely limited. Base in Avignon (20 minutes by car) and book shuttle services. Medieval banquet tickets often sell out months in advance.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.fete-veraison.com/",
+        "address_quoted": "Chateauneuf-du-Pape, Vaucluse",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.chateauneuf.com/en/events/",
+        "cuisine_evidence_url": "https://www.vins-rhone.com/en/discover/events",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "marathon-des-cotes-du-rhone",
+      "name": "Marathon des Cotes du Rhone",
+      "recurrence_pattern": "annual, October",
+      "start_month": "October",
+      "duration": "1 day",
+      "host_organization": "Association Marathon des Cotes du Rhone",
+      "ticket_required": true,
+      "ticket_url": "https://www.marathondesvinsdecotesdurhone.com/",
+      "featured_producers": [
+        "m-chapoutier",
+        "jaboulet",
+        "guigal-cotes-du-rhone"
+      ],
+      "neighborhood": "Tain-l'Hermitage and Tournon-sur-Rhone",
+      "description": "A half-marathon and marathon running race staged through the vineyards of Tain-l'Hermitage and Tournon-sur-Rhone each autumn, with wine tastings at aid stations along the route. Runners sample Crozes-Hermitage, Saint-Joseph, and Hermitage wines at designated tasting stops and receive a wine-tasting package at the finish. One of several 'wine marathons' in France, combining sport and cellar tourism.",
+      "tip": "Register in spring as places fill quickly. The scenic route through the terraced Hermitage hill is unforgettable from a pace below 6 minutes per kilometre.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.marathondesvinsdecotesdurhone.com/",
+        "address_quoted": "Tain-l'Hermitage, Drome",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.vins-rhone.com/en/discover/events",
+        "cuisine_evidence_url": "https://www.vins-rhone.com/en/wines-and-appellations/crozes-hermitage",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "fete-des-vins-tain-hermitage",
+      "name": "Fete des Vins de Tain l'Hermitage",
+      "recurrence_pattern": "annual, late October",
+      "start_month": "October",
+      "duration": "2 days",
+      "host_organization": "Commune de Tain-l'Hermitage and the Syndicat des producteurs",
+      "ticket_required": false,
+      "ticket_url": "https://www.tain-hermitage.fr/",
+      "featured_producers": [
+        "m-chapoutier",
+        "jaboulet",
+        "delas-freres",
+        "belle-pere-et-fils"
+      ],
+      "neighborhood": "Tain-l'Hermitage",
+      "description": "The annual wine festival of Tain-l'Hermitage brings together the producers of Hermitage, Crozes-Hermitage, and Saint-Joseph for two days of public tastings in the town centre. The backdrop of the Hermitage hill terraces makes this one of the most visually striking wine-town festivals in the northern Rhone. Artisan food stalls, cellar visits, and helicopter flights over the hill are offered alongside producer tastings.",
+      "tip": "Most Tain domaines open their cellars during the festival weekend, making it the best opportunity of the year for private-visitor tastings at smaller estates.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.tain-hermitage.fr/",
+        "address_quoted": "Tain-l'Hermitage, Drome",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.chapoutier.com/en/visits/events",
+        "cuisine_evidence_url": "https://www.vins-rhone.com/en/wines-and-appellations/hermitage",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "marche-aux-vins-gigondas",
+      "name": "Marche aux Vins de Gigondas",
+      "recurrence_pattern": "annual, Pentecost weekend (May or June)",
+      "start_month": "May",
+      "duration": "3 days",
+      "host_organization": "Syndicat des producteurs de Gigondas",
+      "ticket_required": false,
+      "ticket_url": "https://www.vins-rhone.com/en/discover/events",
+      "featured_producers": [
+        "domaine-raspail-ay",
+        "les-pallieroudas",
+        "domaine-santa-duc"
+      ],
+      "neighborhood": "Gigondas",
+      "description": "The Gigondas wine market, held over the Pentecost long weekend, is the village's annual celebration of its Grenache-dominant reds and the more limited blanc production. Producers set up tables in the main square and surrounding streets. Gigondas itself, perched below the rocky Dentelles de Montmirail, is one of the most scenic wine villages in Provence and the festival draws both trade and wine-curious tourists.",
+      "tip": "Combine the festival with a morning hike through the Dentelles de Montmirail limestone spires before the afternoon heat sets in. Accommodation in Gigondas is limited; Vaison-la-Romaine or Orange are practical bases.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.vins-rhone.com/en/discover/events",
+        "address_quoted": "Gigondas, Vaucluse",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.interrhone.fr/en/rhone-valley-wines/",
+        "cuisine_evidence_url": "https://www.vins-rhone.com/en/wines-and-appellations/gigondas",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "fetes-de-saint-joseph-tournon",
+      "name": "Fetes de Saint-Joseph, Tournon-sur-Rhone",
+      "recurrence_pattern": "annual, late February to early March (saint's day region)",
+      "start_month": "February",
+      "duration": "1 to 2 days",
+      "host_organization": "Syndicat AOC Saint-Joseph and Commune de Tournon-sur-Rhone",
+      "ticket_required": false,
+      "ticket_url": "https://www.vins-rhone.com/en/discover/events",
+      "featured_producers": [
+        "pierre-gonon",
+        "yves-cuilleron",
+        "domaine-coursodon"
+      ],
+      "neighborhood": "Tournon-sur-Rhone",
+      "description": "Saint-Joseph AOC celebrates its patron saint's feast day each year with producer tastings in Tournon and the surrounding village cellars. The event brings together the appellation's diverse growers producing Syrah reds, Marsanne whites, and Marsanne-Roussanne blends across the broad west-bank corridor. An unpretentious, local-oriented event contrasting with the larger Avignon and Tain festivals.",
+      "tip": "The event is a good opportunity to taste the range of Saint-Joseph styles, from the leaner, mineral Tournon end to the richer, more structured Mauves and Saint-Jean-de-Muzols bottlings.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.vins-rhone.com/en/discover/events",
+        "address_quoted": "Tournon-sur-Rhone, Ardeche",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.interrhone.fr/en/rhone-valley-wines/",
+        "cuisine_evidence_url": "https://www.vins-rhone.com/en/wines-and-appellations/saint-joseph",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "equinoxe-du-rhone-spring-tasting",
+      "name": "Equinoxe du Rhone spring tasting",
+      "recurrence_pattern": "annual, late March",
+      "start_month": "March",
+      "duration": "2 days",
+      "host_organization": "Groupement des producteurs Cotes du Rhone and associated appellations",
+      "ticket_required": true,
+      "ticket_url": "https://www.vins-rhone.com/en/discover/events",
+      "featured_producers": [
+        "domaine-gramenon",
+        "eric-texier",
+        "domaine-la-janasse"
+      ],
+      "neighborhood": "Southern Rhone, rotating venue",
+      "description": "The Equinoxe du Rhone is a spring tasting event for Cotes du Rhone and Cotes du Rhone Villages producers, with emphasis on organic, biodynamic, and natural-leaning estates. The event rotates between southern Rhone villages but is typically held around the spring equinox (late March). It attracts a wine-trade and specialist-consumer audience interested in the Rhone's low-intervention producers alongside more conventional Grenache-based Cotes du Rhone.",
+      "tip": "Check the Inter Rhone events calendar in January for venue confirmation. The event is smaller and less formal than Decouverte, making direct producer conversation easier.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.vins-rhone.com/en/discover/events",
+        "address_quoted": "Southern Rhone Valley, France",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.interrhone.fr/en/rhone-valley-wines/",
+        "cuisine_evidence_url": "https://www.vins-rhone.com/en/discover/the-rhone-valley-winegrowing-region/appellations",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "beaumes-de-venise-muscat-festival",
+      "name": "Festival du Muscat, Beaumes-de-Venise",
+      "recurrence_pattern": "annual, November",
+      "start_month": "November",
+      "duration": "1 to 2 days",
+      "host_organization": "Cave de Beaumes-de-Venise and commune",
+      "ticket_required": false,
+      "ticket_url": "https://en.wikipedia.org/wiki/Muscat_de_Beaumes-de-Venise",
+      "featured_producers": [
+        "cave-beaumes-de-venise",
+        "domaine-de-durban",
+        "domaine-les-goubert"
+      ],
+      "neighborhood": "Beaumes-de-Venise",
+      "description": "Beaumes-de-Venise celebrates its Muscat de Beaumes-de-Venise VDN (Vin Doux Naturel) each November following the harvest. The village cave cooperative and a handful of independent domaines pour the new vintage alongside the previous year's release, together with the red Beaumes-de-Venise AOC (Grenache-dominant). Food producers from the Vaucluse set up stalls in the village square.",
+      "tip": "Muscat de Beaumes-de-Venise is both a dessert wine and an aperitif in the local tradition. The cave co-operative produces the most accessible version at a price point that makes direct-buy cases worthwhile.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://en.wikipedia.org/wiki/Muscat_de_Beaumes-de-Venise",
+        "address_quoted": "Beaumes-de-Venise, Vaucluse",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Beaumes-de-Venise",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Muscat_de_Beaumes-de-Venise",
+        "checked_on": "2026-05-28"
+      }
+    }
+  ]
+}

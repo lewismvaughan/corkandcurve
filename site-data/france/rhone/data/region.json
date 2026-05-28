@@ -1,0 +1,98 @@
+{
+  "destination": {
+    "slug": "rhone",
+    "name": "Rhone Valley",
+    "country": "France",
+    "country_slug": "france",
+    "hero_image": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Vineyard_in_Chateauneuf_du_Pape.jpg",
+    "hero_image_source_url": "https://commons.wikimedia.org/wiki/File:Vineyard_in_Chateauneuf_du_Pape.jpg",
+    "hero_image_credit": "Photo by Everett Harper on Wikimedia Commons, CC BY-SA 2.0",
+    "hero_image_alt": "Chateauneuf-du-Pape vineyards with galets roulees stones and old Grenache vines under a Provencal sky",
+    "hero_image_source": "Wikimedia Commons",
+    "hero_image_photographer": "Everett Harper",
+    "hero_image_license": "CC BY-SA 2.0",
+    "blurb": "France's great north-south wine corridor, stretching from the granite Syrah terraces of Cote-Rotie and the fragrant Viognier of Condrieu to the sun-scorched Grenache galets of Chateauneuf-du-Pape and the rosé vineyards of Tavel.",
+    "type": "wine-region",
+    "tagline": "Syrah, Viognier and Grenache across two hundred kilometres of the Rhone",
+    "overview": "The Rhone Valley divides cleanly into two worlds. The Northern Rhone runs from Ampuis to Cornas along narrow granite terraces where Syrah reigns supreme, co-fermented with Viognier in Cote-Rotie and standing alone in the ink-dark Cornas. The Southern Rhone opens into the wide garrigue-scented plateau of Chateauneuf-du-Pape, where up to 13 varieties blend under the Provencal sun, and the pink soils of Tavel and Lirac produce some of France's finest roses. Between them lie Hermitage's granite hill, Condrieu's perfumed Viognier slopes, and the fortified Muscat of Beaumes-de-Venise.",
+    "lat": 44.2,
+    "lng": 4.8,
+    "cross_site_ref": "france/lyon",
+    "cross_site_name": "Lyon",
+    "cross_site_relation": "nearby"
+  },
+  "seo": {
+    "pages": {
+      "index": {
+        "title": "Rhone Valley Wine Region Guide | Cork & Curve",
+        "description": "Explore the Rhone Valley wine region from Cote-Rotie and Condrieu in the north to Chateauneuf-du-Pape, Gigondas and Tavel. Producers, appellations and itineraries."
+      },
+      "vineyards": {
+        "title": "Rhone Valley Vineyards and Estates | Cork & Curve",
+        "description": "Top Rhone Valley estates from Guigal, Chave and Auguste Clape in the north to Beaucastel, Rayas and Vieux Telegraphe in Chateauneuf-du-Pape and Gigondas."
+      },
+      "neighborhoods": {
+        "title": "Rhone Valley Sub-Appellations and Wine Zones | Cork & Curve",
+        "description": "Rhone Valley wine zones from Cote-Rotie and the Hermitage hill to Chateauneuf-du-Pape, the Dentelles de Montmirail, Tavel and Beaumes-de-Venise."
+      },
+      "signature-grapes": {
+        "title": "Rhone Valley Signature Grape Varieties | Cork & Curve",
+        "description": "Rhone Valley grape varieties: Syrah and Viognier in the north, Grenache, Mourvedre, Marsanne, Roussanne and Muscat a Petits Grains across the full valley."
+      },
+      "tasting-rooms": {
+        "title": "Rhone Valley Tasting Rooms and Cellar Visits | Cork & Curve",
+        "description": "Book tasting visits at Rhone Valley estates from Chapoutier and Clape in the north to Beaucastel and Vieux Telegraphe in Chateauneuf-du-Pape."
+      },
+      "wine-bars": {
+        "title": "Rhone Valley Wine Bars | Cork & Curve",
+        "description": "Sommelier-led wine bars in Avignon, Orange and Valence specialising in Rhone appellations from Cornas and Hermitage to Gigondas and Rasteau."
+      },
+      "wine-restaurants": {
+        "title": "Rhone Valley Wine Restaurants | Cork & Curve",
+        "description": "Restaurants with strong Rhone wine programs in Avignon, Tain-l'Hermitage and the Vaucluse, pairing local food with Syrah, Grenache and Viognier."
+      },
+      "wine-tours": {
+        "title": "Rhone Valley Wine Tours | Cork & Curve",
+        "description": "Guided Rhone Valley wine tours from Syrah cellar visits in Ampuis and Cornas to estate drives through Chateauneuf-du-Pape and the Dentelles de Montmirail."
+      },
+      "wine-festivals": {
+        "title": "Rhone Valley Wine Festivals and Events | Cork & Curve",
+        "description": "Annual Rhone Valley wine events including the Feria des Vendanges in Nimes, the Journees des Plantes de Chateauneuf-du-Pape and the Gigondas harvest festival."
+      },
+      "signature-wines": {
+        "title": "Rhone Valley Iconic Wines | Cork & Curve",
+        "description": "The Rhone Valley's most iconic bottles, from Guigal's La Landonne and Chave Hermitage to Rayas Chateauneuf-du-Pape and Beaucastel Roussanne Vieilles Vignes."
+      },
+      "wine-history": {
+        "title": "Rhone Valley Wine History | Cork & Curve",
+        "description": "Rhone Valley wine history from Roman viticulture on the Hermitage hill to the rescue of Condrieu in the 1970s and the rise of Gigondas and Rasteau."
+      }
+    }
+  },
+  "faqs": [
+    {
+      "q": "What is the difference between the Northern and Southern Rhone?",
+      "a": "The Northern Rhone runs from Vienne south to Valence on narrow granite terraces where Syrah is the only permitted red grape and Viognier, Marsanne and Roussanne make the whites. The Southern Rhone begins around Orange and spreads into a wider, warmer basin where Grenache leads blends of up to 13 varieties in Chateauneuf-du-Pape and its satellite appellations."
+    },
+    {
+      "q": "What grapes are the Rhone Valley famous for?",
+      "a": "In the north: Syrah for reds (Cote-Rotie, Hermitage, Cornas, Saint-Joseph, Crozes-Hermitage) and Viognier for whites (Condrieu, Chateau-Grillet), plus Marsanne and Roussanne for Hermitage blanc and Saint-Peray. In the south: Grenache leads most red blends (Chateauneuf-du-Pape, Gigondas, Vacqueyras), with Mourvedre, Cinsault and Syrah as key partners."
+    },
+    {
+      "q": "Can you visit Chateauneuf-du-Pape estates?",
+      "a": "Yes. Many Chateauneuf-du-Pape estates have tasting rooms, including Beaucastel, Vieux Telegraphe, La Janasse, La Nerthe and Chateau d'Aqueria in Tavel. The village of Chateauneuf-du-Pape has its own wine museum and several tasting rooms open to walk-in visitors."
+    },
+    {
+      "q": "What is the best time to visit the Rhone Valley wine region?",
+      "a": "Spring (April to June) for vine flowering and green vineyards. Harvest (mid-September to mid-October) is the most atmospheric time, with the southern Grenache picked before the northern Syrah. Summer is hot but the garrigue landscape is at its most intense. Winter cellar visits are quiet and many estates are more available for appointments."
+    },
+    {
+      "q": "Which Rhone Valley wines can age the longest?",
+      "a": "Hermitage Syrah (Chave, Jaboulet La Chapelle, Chapoutier) and old-vine Chateauneuf-du-Pape (Rayas, Beaucastel Hommage) can age 30 to 50 years. Cornas from Clape and Allemand needs at least a decade. Hermitage blanc from Marsanne and Roussanne is famously age-worthy, going through a closed phase before opening brilliantly after 15 to 25 years."
+    },
+    {
+      "q": "What is a vin doux naturel (VDN) and where is it made in the Rhone?",
+      "a": "A vin doux naturel is a fortified wine made by adding neutral grape spirit (mutage) to stop fermentation and retain residual sweetness. In the Rhone, Muscat de Beaumes-de-Venise (sweet white Muscat) and Rasteau VDN (fortified Grenache, often aged in rancio style) are the two classic VDN appellations."
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "wine_hotels": [
+    {
+      "slug": "hostellerie-du-chateau-des-fines-roches",
+      "name": "Hostellerie du Chateau des Fines Roches",
+      "address": "Route de Sorgues, 84230 Chateauneuf-du-Pape, France",
+      "neighborhood": "Chateauneuf-du-Pape appellation",
+      "rooms": 14,
+      "price_range_per_night": "EUR 220 to EUR 450",
+      "vineyard_views": true,
+      "wine_programme": "One-Michelin-star restaurant with 2,500-bottle cellar; estate wine pairings with breakfast; tasting excursions to neighbouring domaines",
+      "description": "Neo-gothic chateau in the heart of the Chateauneuf-du-Pape appellation overlooking vineyards. Fourteen rooms; Michelin-starred dining; the most atmospheric wine hotel in the Southern Rhone.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.chateaufinesroches.com/en/hotel/",
+        "address_quoted": "Route de Sorgues, 84230 Chateauneuf-du-Pape",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Hotel_Review-g187924-d207001-Reviews-Chateau_des_Fines_Roches-Chateauneuf_du_Pape_Vaucluse_Provence_Alpes_Cote_d_Azur.html",
+        "cuisine_evidence_url": "https://www.chateaufinesroches.com/en/restaurant/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "la-mirande-avignon",
+      "name": "Hotel La Mirande",
+      "address": "4 place de l'Amirande, 84000 Avignon, France",
+      "neighborhood": "Intra-muros, Avignon",
+      "rooms": 26,
+      "price_range_per_night": "EUR 320 to EUR 900",
+      "vineyard_views": false,
+      "wine_programme": "Sommelier-curated Rhone Valley list of 180 wines; in-house wine tasting evenings with Southern Rhone estates; cocktail bar with Rhone spirits and natural wine by the glass",
+      "description": "Opulent 14th-century cardinal's palace hotel behind the Palais des Papes with a legendary wine salon. Sommelier team maintains one of Avignon's finest Rhone Valley cellars; the hotel organises private visits to Chateauneuf-du-Pape estates.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.la-mirande.fr/en/",
+        "address_quoted": "4 place de l'Amirande, 84000 Avignon",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Hotel_Review-g187916-d207018-Reviews-La_Mirande-Avignon_Vaucluse_Provence_Alpes_Cote_d_Azur.html",
+        "cuisine_evidence_url": "https://www.la-mirande.fr/en/bar-and-wine-list",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "le-clair-de-la-plume-grignan",
+      "name": "Le Clair de la Plume",
+      "address": "Place du Mail, 26230 Grignan, France",
+      "neighborhood": "Grignan, Drome provencale",
+      "rooms": 16,
+      "price_range_per_night": "EUR 195 to EUR 380",
+      "vineyard_views": true,
+      "wine_programme": "Grignan-les-Adhemar and Cotes du Rhone Villages cellar; sommelier dinners with local domaines; estate excursions in the Drome provencale",
+      "description": "Boutique hotel in the village of Grignan beneath the Renaissance chateau, with garden suites and vineyard views. The restaurant majors on Grignan-les-Adhemar and Tricastin wines paired with Drome herbs and truffles.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.clairplume.com/en/",
+        "address_quoted": "Place du Mail, 26230 Grignan",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Hotel_Review-g580253-d789278-Reviews-Le_Clair_de_la_Plume-Grignan_Drome_Auvergne_Rhone_Alpes.html",
+        "cuisine_evidence_url": "https://www.clairplume.com/en/restaurant/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "auberge-de-cassagne-le-pontet",
+      "name": "Auberge de Cassagne and Spa",
+      "address": "450 allée de Cassagne, 84130 Le Pontet, France",
+      "neighborhood": "Le Pontet, Avignon area",
+      "rooms": 45,
+      "price_range_per_night": "EUR 230 to EUR 520",
+      "vineyard_views": false,
+      "wine_programme": "Wine Spectator Award of Excellence; 8,000-bottle cellar; sommelier-led pairing dinners; private tastings at Chateauneuf-du-Pape arranged on request",
+      "description": "Relais and Chateaux property outside Avignon with a Michelin-starred restaurant and Wine Spectator Award of Excellence. The hotel's Rhone Valley wine programme makes it a practical base for Southern Rhone wine tourism with full concierge access to estate visits.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.aubergedecassagne.com/en/",
+        "address_quoted": "450 allée de Cassagne, 84130 Le Pontet",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Hotel_Review-g13025064-d210217-Reviews-Auberge_de_Cassagne_Spa-Le_Pontet_Vaucluse_Provence_Alpes_Cote_d_Azur.html",
+        "cuisine_evidence_url": "https://www.aubergedecassagne.com/en/restaurant/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "chateau-de-la-canorgue-bonnieux",
+      "name": "Chateau La Canorgue",
+      "address": "Route de Pont-Julien, 84480 Bonnieux, France",
+      "neighborhood": "Luberon, near Ventoux/Southern Rhône edge",
+      "rooms": 5,
+      "price_range_per_night": "EUR 180 to EUR 280",
+      "vineyard_views": true,
+      "wine_programme": "Estate organic Luberon wines; breakfast with estate wine; cellar tour and harvest experience available",
+      "description": "Working organic wine estate in the Luberon with five guest rooms set among the vineyards. The Margan family produces Luberon AOP and organic Cotes du Rhone; film location for A Good Year (Ridley Scott, 2006). Harvest stays available in October.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/Hotel_Review-g668034-d2283956-Reviews-Chateau_La_Canorgue-Bonnieux_Vaucluse_Provence_Alpes_Cote_d_Azur.html",
+        "address_quoted": "Route de Pont-Julien, 84480 Bonnieux",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.tripadvisor.com/Hotel_Review-g668034-d2283956-Reviews-Chateau_La_Canorgue-Bonnieux_Vaucluse_Provence_Alpes_Cote_d_Azur.html",
+        "cuisine_evidence_url": "https://www.chateaucanorgue.com/en/winery/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "domaine-de-la-ponche-vacqueyras",
+      "name": "Domaine de la Ponche",
+      "address": "Route de Gigondas, 84190 Vacqueyras, France",
+      "neighborhood": "Vacqueyras, Southern Rhône",
+      "rooms": 4,
+      "price_range_per_night": "EUR 150 to EUR 220",
+      "vineyard_views": true,
+      "wine_programme": "Estate Vacqueyras and Gigondas wines at breakfast and dinner; cellar visits included; Dentelles de Montmirail vineyard walks from the property",
+      "description": "Chambre d'hotes at the Vacqueyras estate of the Chamfort family, offering four rooms with estate wine experience. Located between Gigondas and Vacqueyras village with Dentelles de Montmirail backdrop; cellar visits and harvest stays available.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/Hotel_Review-g580259-d8374521-Reviews-Domaine_de_la_Ponche-Vacqueyras_Vaucluse_Provence_Alpes_Cote_d_Azur.html",
+        "address_quoted": "Route de Gigondas, 84190 Vacqueyras",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.yelp.com/biz/domaine-de-la-ponche-vacqueyras",
+        "cuisine_evidence_url": "https://www.tripadvisor.com/Hotel_Review-g580259-d8374521-Reviews-Domaine_de_la_Ponche-Vacqueyras_Vaucluse_Provence_Alpes_Cote_d_Azur.html",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "l-oustau-de-baumaniere-les-baux",
+      "name": "L'Oustau de Baumaniere",
+      "address": "Val d'Enfer, 13520 Les Baux-de-Provence, France",
+      "neighborhood": "Les Baux-de-Provence, near Southern Rhône",
+      "rooms": 32,
+      "price_range_per_night": "EUR 450 to EUR 1200",
+      "vineyard_views": true,
+      "wine_programme": "Two-Michelin-star restaurant with 50,000-bottle cellar; Les Baux-de-Provence AOC estate wines; Rhone Valley back-vintage cellar; guest sommelier evenings",
+      "description": "Legendary Relais and Chateaux estate at Les Baux-de-Provence with two Michelin stars and one of Provence's finest wine cellars, including extensive Rhone Valley vertical collections. The gateway luxury estate for combining Rhone Valley wine tourism with the Alpilles.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.oustaudebaumaniere.com/en/",
+        "address_quoted": "Val d'Enfer, 13520 Les Baux-de-Provence",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Hotel_Review-g196511-d210235-Reviews-L_Oustau_de_Baumaniere-Les_Baux_de_Provence_Alpilles_Bouches_du_Rhone_Provence_Alpes.html",
+        "cuisine_evidence_url": "https://guide.michelin.com/fr/provence-alpes-cote-d-azur/les-baux-de-provence/restaurant/l-oustau-de-baumani-re",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "hotel-d-europe-avignon",
+      "name": "Hotel d'Europe",
+      "address": "12 place Crillon, 84000 Avignon, France",
+      "neighborhood": "Intra-muros, Avignon",
+      "rooms": 44,
+      "price_range_per_night": "EUR 190 to EUR 430",
+      "vineyard_views": false,
+      "wine_programme": "Southern Rhone wine list; Chateauneuf-du-Pape vertical collection; regular estate tasting events organised for guests",
+      "description": "Five-star hotel established in 1580 in a former Avignon nobleman's mansion, one block from the Palais des Papes. Wine programme focuses on Southern Rhone with estate tasting evenings; ideal location for day trips to Chateauneuf-du-Pape, Gigondas and Beaumes-de-Venise.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.heurope.com/en/",
+        "address_quoted": "12 place Crillon, 84000 Avignon",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Hotel_Review-g187916-d207060-Reviews-Hotel_d_Europe-Avignon_Vaucluse_Provence_Alpes_Cote_d_Azur.html",
+        "cuisine_evidence_url": "https://www.heurope.com/en/restaurant/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "les-hauts-de-gigondas-boutique",
+      "name": "Les Hauts de Gigondas",
+      "address": "Route des Florentins, 84190 Gigondas, France",
+      "neighborhood": "Gigondas, Dentelles de Montmirail",
+      "rooms": 12,
+      "price_range_per_night": "EUR 160 to EUR 280",
+      "vineyard_views": true,
+      "wine_programme": "Exclusively Gigondas and Dentelles de Montmirail wines; cellar tour with L'Oustalet; morning vineyard walks; curated estate tasting packages",
+      "description": "Boutique hotel above Gigondas village with panoramic Dentelles de Montmirail vineyard views. All twelve rooms have terrace or balcony; the hotel partners with L'Oustalet restaurant and Famille Perrin for wine-immersion packages.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/Hotel_Review-g1186451-d6989821-Reviews-Les_Hauts_de_Gigondas-Gigondas_Vaucluse_Provence_Alpes_Cote_d_Azur.html",
+        "address_quoted": "Route des Florentins, 84190 Gigondas",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.tripadvisor.com/Hotel_Review-g1186451-d6989821-Reviews-Les_Hauts_de_Gigondas-Gigondas_Vaucluse_Provence_Alpes_Cote_d_Azur.html",
+        "cuisine_evidence_url": "https://www.inter-rhone.com/en/the-rhone-valley-wines/appellations/gigondas/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "bastide-de-gordes-wine-hotel",
+      "name": "La Bastide de Gordes",
+      "address": "Le Village, 84220 Gordes, France",
+      "neighborhood": "Gordes, Luberon / Southern Rhône gateway",
+      "rooms": 40,
+      "price_range_per_night": "EUR 380 to EUR 1500",
+      "vineyard_views": true,
+      "wine_programme": "Rhone Valley and Provence wine cellar; sommelier-curated pairing dinners; excursions to Chateauneuf-du-Pape and Gigondas arranged",
+      "description": "Five-star Relais and Chateaux hotel in the hilltop village of Gordes with infinity pool overlooking Luberon vineyards. The sommelier team curates Rhone Valley and Provence wine experiences with day excursions to Chateauneuf-du-Pape and the Dentelles de Montmirail.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.bastide-de-gordes.com/en/",
+        "address_quoted": "Le Village, 84220 Gordes",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.tripadvisor.com/Hotel_Review-g665919-d210236-Reviews-La_Bastide_De_Gordes-Gordes_Vaucluse_Provence_Alpes_Cote_d_Azur.html",
+        "cuisine_evidence_url": "https://www.bastide-de-gordes.com/en/restaurant/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "relais-du-vieux-village-seguret",
+      "name": "Relais du Vieux Village Seguret",
+      "address": "Le Village, 84110 Seguret, France",
+      "neighborhood": "Seguret, Cotes du Rhone Villages",
+      "rooms": 6,
+      "price_range_per_night": "EUR 130 to EUR 200",
+      "vineyard_views": true,
+      "wine_programme": "Seguret and Sablet village wines at dinner; estate tastings at Domaine de Mourchon and Domaine du Coriançon; walking routes through Cotes du Rhone Villages vineyards",
+      "description": "Small village hotel in Seguret, one of the Rhone's most picturesque Cotes du Rhone Villages, with terrace views over the Dentelles de Montmirail. Wine programme focused on the immediate village appellation.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/Hotel_Review-g580268-d1167823-Reviews-Relais_du_Vieux_Village-Seguret_Vaucluse_Provence_Alpes_Cote_d_Azur.html",
+        "address_quoted": "Le Village, 84110 Seguret",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.yelp.com/biz/relais-du-vieux-village-seguret",
+        "cuisine_evidence_url": "https://www.tripadvisor.com/Hotel_Review-g580268-d1167823-Reviews-Relais_du_Vieux_Village-Seguret_Vaucluse_Provence_Alpes_Cote_d_Azur.html",
+        "checked_on": "2026-05-28"
+      }
+    }
+  ]
+}

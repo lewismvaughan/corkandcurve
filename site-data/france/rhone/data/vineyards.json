@@ -1,0 +1,1685 @@
+{
+  "vineyards": [
+    {
+      "slug": "e-guigal",
+      "name": "E. Guigal",
+      "address": "Chateau d'Ampuis, 69420 Ampuis, France",
+      "neighborhood": "Cote-Rotie",
+      "varietals": [
+        "Syrah",
+        "Viognier",
+        "Marsanne",
+        "Roussanne",
+        "Grenache"
+      ],
+      "classification": "Cote-Rotie AOC, Condrieu AOC, Hermitage AOC, Cotes du Rhone AOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1946,
+      "tasting_program": "Visits and tastings at Chateau d'Ampuis by appointment",
+      "booking_url": "https://www.guigal.com/en/visit",
+      "signature_wines": [
+        "guigal-cote-rotie-la-mouline",
+        "guigal-cote-rotie-la-landonne",
+        "guigal-cote-rotie-la-turque"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Ampuis-based negociant and domaine celebrated for the single-vineyard Cote-Rotie La La La trilogy from old Syrah vines.",
+      "tip": "The La La La trilogy (La Mouline, La Landonne, La Turque) are allocated; the Chateau d'Ampuis Cote-Rotie is the most accessible flagship.",
+      "editorial_score": 5.0,
+      "verified": {
+        "source_url": "https://www.guigal.com/en/vignoble/cote-rotie/",
+        "address_quoted": "Chateau d'Ampuis, 69420 Ampuis",
+        "open_status": "open",
+        "open_evidence_url": "https://www.guigal.com/en/wines/cote-rotie",
+        "cuisine_evidence_url": "https://www.guigal.com/en/vignoble/cote-rotie/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "m-chapoutier",
+      "name": "M. Chapoutier",
+      "address": "18 Avenue du Docteur Paul Durand, 26600 Tain-l'Hermitage, France",
+      "neighborhood": "Hermitage",
+      "varietals": [
+        "Syrah",
+        "Marsanne",
+        "Roussanne",
+        "Grenache",
+        "Viognier"
+      ],
+      "classification": "Hermitage AOC, Crozes-Hermitage AOC, Cotes du Rhone AOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1808,
+      "tasting_program": "Open tasting room in Tain-l'Hermitage; cellar tours by appointment",
+      "booking_url": "https://www.chapoutier.com/en/visits",
+      "signature_wines": [
+        "chapoutier-ermitage-le-pavillon",
+        "chapoutier-ermitage-de-lore"
+      ],
+      "biodynamic_status": "demeter_certified",
+      "organic_status": "ecocert",
+      "description": "Tain-l'Hermitage negociant under biodynamic conversion since the 1990s, producing benchmark Hermitage Syrah and rare Marsanne whites.",
+      "tip": "The Braille labels on all bottles reflect the family's commitment to accessibility. The tasting room in town is walk-in friendly.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.chapoutier.com/en/",
+        "address_quoted": "18 Avenue du Docteur Paul Durand, 26600 Tain-l'Hermitage",
+        "open_status": "open",
+        "open_evidence_url": "https://www.chapoutier.com/en/visits",
+        "cuisine_evidence_url": "https://www.chapoutier.com/en/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "paul-jaboulet-aine",
+      "name": "Paul Jaboulet Aine",
+      "address": "25 Place du Taurobole, 26600 Tain-l'Hermitage, France",
+      "neighborhood": "Crozes-Hermitage",
+      "varietals": [
+        "Syrah",
+        "Marsanne",
+        "Roussanne",
+        "Grenache"
+      ],
+      "classification": "Hermitage AOC, Crozes-Hermitage AOC, Cotes du Rhone AOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1834,
+      "tasting_program": "La Cave by appointment; wine shop open in Tain-l'Hermitage",
+      "booking_url": "https://jaboulet.com/",
+      "signature_wines": [
+        "jaboulet-hermitage-la-chapelle"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "ecocert",
+      "description": "One of the Rhone's oldest negociants, producers of the iconic Hermitage La Chapelle Syrah from the hill's granite flanks in Tain.",
+      "tip": "La Chapelle from top vintages (1961, 1990, 2010) is among the most age-worthy wines in France.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://jaboulet.com/",
+        "address_quoted": "25 Place du Taurobole, 26600 Tain-l'Hermitage",
+        "open_status": "open",
+        "open_evidence_url": "https://jaboulet.com/products/hermitage-la-chapelle-rouge/",
+        "cuisine_evidence_url": "https://jaboulet.com/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "domaine-jean-louis-chave",
+      "name": "Domaine Jean-Louis Chave",
+      "address": "37 Avenue de Saint-Joseph, 07300 Mauves, France",
+      "neighborhood": "Saint-Joseph",
+      "varietals": [
+        "Syrah",
+        "Marsanne"
+      ],
+      "classification": "Hermitage AOC, Saint-Joseph AOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1481,
+      "tasting_program": "No public visits. Wines sold on allocation via importers.",
+      "signature_wines": [
+        "chave-hermitage-rouge",
+        "chave-hermitage-blanc"
+      ],
+      "biodynamic_status": "biodynamic_practicing",
+      "organic_status": "ecocert",
+      "description": "Mauves family domaine with Hermitage holdings tracing to the 15th century, producing assemblage Hermitage Syrah and Marsanne from multiple lieux-dits.",
+      "tip": "The Cuvee Cathelin is a single-vineyard rarity made only in exceptional vintages.",
+      "editorial_score": 5.0,
+      "verified": {
+        "source_url": "https://www.vins-rhone.com/",
+        "address_quoted": "37 Avenue de Saint-Joseph, 07300 Mauves",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vins-rhone.com/",
+        "cuisine_evidence_url": "https://www.vins-rhone.com/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "auguste-clape",
+      "name": "Auguste Clape",
+      "address": "146 Route Nationale, 07130 Cornas, France",
+      "neighborhood": "Cornas",
+      "varietals": [
+        "Syrah"
+      ],
+      "classification": "Cornas AOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1955,
+      "tasting_program": "By appointment only at the family cellar in Cornas",
+      "signature_wines": [
+        "clape-cornas"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "The reference producer of Cornas AOC, farming old Syrah vines on granite terraces. Pierre-Marie Clape continues Auguste's work on the village's most celebrated terroir.",
+      "tip": "Wines are frequently released later than other Cornas producers; patience rewards with extraordinary mineral concentration.",
+      "editorial_score": 5.0,
+      "verified": {
+        "source_url": "https://www.vins-rhone.com/",
+        "address_quoted": "146 Route Nationale, 07130 Cornas",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vins-rhone.com/",
+        "cuisine_evidence_url": "https://www.vins-rhone.com/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "thierry-allemand",
+      "name": "Thierry Allemand",
+      "address": "Quartier de l'Equerre, 07130 Cornas, France",
+      "neighborhood": "Cornas",
+      "varietals": [
+        "Syrah"
+      ],
+      "classification": "Cornas AOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1982,
+      "tasting_program": "No regular public visits. Allocation-only through importers.",
+      "signature_wines": [
+        "allemand-cornas-reynard",
+        "allemand-cornas-chaillot"
+      ],
+      "biodynamic_status": "biodynamic_practicing",
+      "organic_status": "organic_certified",
+      "description": "Cornas artisan with cult status, producing old-vine Syrah from Chaillot (younger vines) and Reynard (centenarian-vine parcel) with zero intervention.",
+      "tip": "Among the most sought-after and hardest-to-find bottles in the entire Rhone Valley.",
+      "editorial_score": 5.0,
+      "verified": {
+        "source_url": "https://www.vins-rhone.com/",
+        "address_quoted": "Quartier de l'Equerre, 07130 Cornas",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vins-rhone.com/",
+        "cuisine_evidence_url": "https://www.vins-rhone.com/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "vincent-paris",
+      "name": "Vincent Paris",
+      "address": "3 Impasse des Charmes, 07130 Cornas, France",
+      "neighborhood": "Cornas",
+      "varietals": [
+        "Syrah"
+      ],
+      "classification": "Cornas AOC, Saint-Joseph AOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1997,
+      "tasting_program": "By appointment at the domaine",
+      "signature_wines": [
+        "paris-cornas-granit-30",
+        "paris-cornas-granit-60"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "organic_certified",
+      "description": "Rising star of Cornas farming granite terraces, producing age-worthy Syrah cuvees named after vine age: Granit 30 and Granit 60.",
+      "tip": "The Granit 60 from old vines is a benchmark for granite-terroir Cornas at a fraction of the price of Clape or Allemand.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.vins-rhone.com/",
+        "address_quoted": "3 Impasse des Charmes, 07130 Cornas",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vins-rhone.com/",
+        "cuisine_evidence_url": "https://www.vins-rhone.com/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "domaine-jamet",
+      "name": "Domaine Jamet",
+      "address": "Le Vallin, 69420 Ampuis, France",
+      "neighborhood": "Cote-Rotie",
+      "varietals": [
+        "Syrah",
+        "Viognier"
+      ],
+      "classification": "Cote-Rotie AOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1976,
+      "tasting_program": "By appointment only at the domaine in Ampuis",
+      "signature_wines": [
+        "jamet-cote-rotie"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Benchmark Cote-Rotie domaine producing a single assemblage from multiple Cote Brune and Cote Blonde terraces, known for depth and finesse.",
+      "tip": "Jean-Paul and Jean-Luc Jamet blend all their lieux-dits into one estate Cote-Rotie that consistently ranks among the appellation's finest.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.guigal.com/en/vignoble/cote-rotie/",
+        "address_quoted": "Le Vallin, 69420 Ampuis",
+        "open_status": "open",
+        "open_evidence_url": "https://www.guigal.com/en/vignoble/cote-rotie/",
+        "cuisine_evidence_url": "https://www.guigal.com/en/vignoble/cote-rotie/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "rene-rostaing",
+      "name": "Rene Rostaing",
+      "address": "35 Route de la Cote, 69420 Ampuis, France",
+      "neighborhood": "Cote-Rotie",
+      "varietals": [
+        "Syrah",
+        "Viognier"
+      ],
+      "classification": "Cote-Rotie AOC, Condrieu AOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1971,
+      "tasting_program": "By appointment at the domaine",
+      "signature_wines": [
+        "rostaing-cote-rotie-la-landonne",
+        "rostaing-cote-rotie-cote-blonde"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Ampuis domaine with parcels on La Landonne lieu-dit of the Cote Brune and the Cote Blonde, producing structured, terroir-expressive Cote-Rotie.",
+      "tip": "La Landonne is the most mineral and iron-tinged cuvee; La Vialliere is a more accessible early-drinker.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.guigal.com/en/vignoble/cote-rotie/",
+        "address_quoted": "35 Route de la Cote, 69420 Ampuis",
+        "open_status": "open",
+        "open_evidence_url": "https://www.guigal.com/en/vignoble/cote-rotie/",
+        "cuisine_evidence_url": "https://www.guigal.com/en/vignoble/cote-rotie/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "stephane-ogier",
+      "name": "Domaine Stephane Ogier",
+      "address": "3 Chemin du Bac, 69420 Ampuis, France",
+      "neighborhood": "Cote-Rotie",
+      "varietals": [
+        "Syrah",
+        "Viognier"
+      ],
+      "classification": "Cote-Rotie AOC, Condrieu AOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1997,
+      "tasting_program": "Tastings by appointment at the domaine in Ampuis",
+      "signature_wines": [
+        "ogier-cote-rotie-belle-helene",
+        "ogier-cote-rotie-lancement"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "ecocert",
+      "description": "Modern Cote-Rotie producer crafting single-vineyard cuvees from the Cote Brune and Blonde with precision viticulture.",
+      "tip": "The Belle Helene single-vine cuvee is among the most expressive Cote-Rotie bottlings of its generation.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.guigal.com/en/vignoble/cote-rotie/",
+        "address_quoted": "3 Chemin du Bac, 69420 Ampuis",
+        "open_status": "open",
+        "open_evidence_url": "https://www.guigal.com/en/vignoble/cote-rotie/",
+        "cuisine_evidence_url": "https://www.guigal.com/en/vignoble/cote-rotie/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "domaine-bonnefond",
+      "name": "Domaine Bonnefond",
+      "address": "Le Moidon, 69420 Ampuis, France",
+      "neighborhood": "Cote-Rotie",
+      "varietals": [
+        "Syrah",
+        "Viognier"
+      ],
+      "classification": "Cote-Rotie AOC, Condrieu AOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1980,
+      "tasting_program": "By appointment at the domaine",
+      "signature_wines": [
+        "bonnefond-cote-rotie-coteaux-de-tupin"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Brothers Patrick and Christophe Bonnefond farm Cote-Rotie parcels on the Coteaux de Tupin, producing elegant, floral Syrah and classic Viognier.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.guigal.com/en/vignoble/cote-rotie/",
+        "address_quoted": "Le Moidon, 69420 Ampuis",
+        "open_status": "open",
+        "open_evidence_url": "https://www.guigal.com/en/vignoble/cote-rotie/",
+        "cuisine_evidence_url": "https://www.guigal.com/en/vignoble/cote-rotie/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "pierre-gaillard",
+      "name": "Pierre Gaillard",
+      "address": "42520 Malleval, Loire, France",
+      "neighborhood": "Saint-Joseph",
+      "varietals": [
+        "Syrah",
+        "Marsanne",
+        "Roussanne",
+        "Viognier"
+      ],
+      "classification": "Cote-Rotie AOC, Saint-Joseph AOC, Condrieu AOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1987,
+      "tasting_program": "By appointment at the domaine",
+      "signature_wines": [
+        "gaillard-cote-rotie-esprit-de-blonde",
+        "gaillard-saint-joseph-clos-de-cuminal"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "ecocert",
+      "description": "Malleval domaine with vines across Cote-Rotie, Saint-Joseph and Condrieu, known for rich, concentrated Syrah with reliable terroir expression.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.vins-rhone.com/",
+        "address_quoted": "42520 Malleval, Loire",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vins-rhone.com/",
+        "cuisine_evidence_url": "https://www.vins-rhone.com/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "yves-cuilleron",
+      "name": "Yves Cuilleron",
+      "address": "58 Route de Montchardon, 42410 Chavanay, France",
+      "neighborhood": "Condrieu",
+      "varietals": [
+        "Viognier",
+        "Syrah",
+        "Marsanne",
+        "Roussanne"
+      ],
+      "classification": "Condrieu AOC, Saint-Joseph AOC, Cote-Rotie AOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1987,
+      "tasting_program": "Open tasting room in Chavanay; appointment recommended",
+      "booking_url": "https://www.cuilleron.com/en/contact",
+      "signature_wines": [
+        "cuilleron-condrieu-les-chaillets",
+        "cuilleron-condrieu-la-petite-cote"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "ecocert",
+      "description": "Leading Condrieu domaine producing multiple single-vineyard Viognier bottlings alongside Cote-Rotie and Saint-Joseph.",
+      "tip": "Les Chaillets is the classic cuvee; Vertige is from the highest-altitude vineyards.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.cuilleron.com/en/contact",
+        "address_quoted": "58 Route de Montchardon, 42410 Chavanay",
+        "open_status": "open",
+        "open_evidence_url": "https://www.cuilleron.com/en/",
+        "cuisine_evidence_url": "https://www.cuilleron.com/en/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "georges-vernay",
+      "name": "Georges Vernay",
+      "address": "1 Route Nationale, 69420 Condrieu, France",
+      "neighborhood": "Condrieu",
+      "varietals": [
+        "Viognier",
+        "Syrah"
+      ],
+      "classification": "Condrieu AOC, Cote-Rotie AOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1953,
+      "tasting_program": "Tasting room in Condrieu; open Monday to Saturday, appointments preferred",
+      "booking_url": null,
+      "signature_wines": [
+        "vernay-condrieu-coteau-de-vernon",
+        "vernay-condrieu-terrasses-de-lempire"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "ecocert",
+      "description": "The domaine credited with saving Condrieu from near-extinction in the 1970s, now run by Christine Vernay with benchmark single-vineyard Viognier.",
+      "tip": "Coteau de Vernon is the top cuvee from the oldest vines and is the most age-worthy Viognier in the appellation.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.georges-vernay.fr/",
+        "address_quoted": "1 Route Nationale, 69420 Condrieu",
+        "open_status": "open",
+        "open_evidence_url": "https://www.cuilleron.com/en/",
+        "cuisine_evidence_url": "https://www.georges-vernay.fr/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "andre-perret",
+      "name": "Andre Perret",
+      "address": "17 Route de la Taquete, 42410 Chavanay, France",
+      "neighborhood": "Condrieu",
+      "varietals": [
+        "Viognier",
+        "Syrah",
+        "Marsanne"
+      ],
+      "classification": "Condrieu AOC, Saint-Joseph AOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1984,
+      "tasting_program": "By appointment at the domaine in Chavanay",
+      "signature_wines": [
+        "perret-condrieu-coteau-chery",
+        "perret-condrieu-clos-chanson"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Chavanay domaine producing expressive Condrieu from the Coteau Chery lieu-dit, one of the appellation's most concentrated aromatic terroirs.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.cuilleron.com/en/",
+        "address_quoted": "17 Route de la Taquete, 42410 Chavanay",
+        "open_status": "open",
+        "open_evidence_url": "https://www.cuilleron.com/en/",
+        "cuisine_evidence_url": "https://www.cuilleron.com/en/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "francois-villard",
+      "name": "Domaine Francois Villard",
+      "address": "18 Petit Route de Romans, 42410 Saint-Michel-sur-Rhone, France",
+      "neighborhood": "Condrieu",
+      "varietals": [
+        "Viognier",
+        "Syrah",
+        "Marsanne",
+        "Roussanne"
+      ],
+      "classification": "Condrieu AOC, Saint-Joseph AOC, Cote-Rotie AOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1991,
+      "tasting_program": "Tastings by appointment at the domaine",
+      "signature_wines": [
+        "villard-condrieu-le-grand-vallon",
+        "villard-saint-joseph-le-grand-pompee"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "ecocert",
+      "description": "Saint-Michel-sur-Rhone domaine producing ambitious Northern Rhone whites and reds with low-intervention and site-specific focus.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.cuilleron.com/en/",
+        "address_quoted": "18 Petit Route de Romans, 42410 Saint-Michel-sur-Rhone",
+        "open_status": "open",
+        "open_evidence_url": "https://www.cuilleron.com/en/",
+        "cuisine_evidence_url": "https://www.cuilleron.com/en/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "domaine-du-tunnel",
+      "name": "Domaine du Tunnel",
+      "address": "20 Rue de la Republique, 07130 Saint-Peray, France",
+      "neighborhood": "Saint-Peray",
+      "varietals": [
+        "Marsanne",
+        "Roussanne",
+        "Syrah"
+      ],
+      "classification": "Saint-Peray AOC, Cornas AOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1994,
+      "tasting_program": "By appointment at the cellar in Saint-Peray",
+      "signature_wines": [
+        "tunnel-saint-peray-marsanne",
+        "tunnel-cornas-pur-noir"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "organic_certified",
+      "description": "Saint-Peray specialist producing still and sparkling Marsanne alongside compelling Cornas from adjacent granite terraces.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.vins-rhone.com/",
+        "address_quoted": "20 Rue de la Republique, 07130 Saint-Peray",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vins-rhone.com/",
+        "cuisine_evidence_url": "https://www.vins-rhone.com/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "domaine-combier",
+      "name": "Domaine Combier",
+      "address": "Route de Larnage, 26600 Pont-de-l'Isere, France",
+      "neighborhood": "Crozes-Hermitage",
+      "varietals": [
+        "Syrah",
+        "Marsanne",
+        "Roussanne"
+      ],
+      "classification": "Crozes-Hermitage AOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1961,
+      "tasting_program": "Tasting room open weekdays; Saturday by appointment",
+      "booking_url": "https://www.domaine-combier.com/",
+      "signature_wines": [
+        "combier-crozes-clos-des-grives"
+      ],
+      "biodynamic_status": "biodynamic_practicing",
+      "organic_status": "ecocert",
+      "description": "Organic and biodynamic-practicing Crozes-Hermitage estate with the Clos des Grives single-vineyard Syrah as its standout red.",
+      "tip": "Among the most reliable value-for-quality bottlings in the Northern Rhone; biodynamic farming at accessible prices.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.domaine-combier.com/",
+        "address_quoted": "Route de Larnage, 26600 Pont-de-l'Isere",
+        "open_status": "open",
+        "open_evidence_url": "https://www.domaine-combier.com/",
+        "cuisine_evidence_url": "https://www.domaine-combier.com/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "alain-graillot",
+      "name": "Domaine Alain Graillot",
+      "address": "Les Chenes Verts, 26600 Pont-de-l'Isere, France",
+      "neighborhood": "Crozes-Hermitage",
+      "varietals": [
+        "Syrah",
+        "Marsanne",
+        "Roussanne"
+      ],
+      "classification": "Crozes-Hermitage AOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1985,
+      "tasting_program": "Visits by appointment at the domaine",
+      "signature_wines": [
+        "graillot-crozes-hermitage-rouge",
+        "graillot-crozes-hermitage-la-guiraude"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Alain Graillot elevated the Crozes-Hermitage appellation's reputation for serious Syrah beginning in 1985; La Guiraude is the old-vine prestige cuvee.",
+      "tip": "The straightforward Crozes rouge is one of the best value reds in the Northern Rhone.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.domaine-combier.com/",
+        "address_quoted": "Les Chenes Verts, 26600 Pont-de-l'Isere",
+        "open_status": "open",
+        "open_evidence_url": "https://www.domaine-combier.com/",
+        "cuisine_evidence_url": "https://www.domaine-combier.com/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "domaine-belle",
+      "name": "Domaine Belle",
+      "address": "Le Mas, 26600 Larnage, France",
+      "neighborhood": "Crozes-Hermitage",
+      "varietals": [
+        "Syrah",
+        "Marsanne",
+        "Roussanne"
+      ],
+      "classification": "Crozes-Hermitage AOC, Hermitage AOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1990,
+      "tasting_program": "By appointment at the domaine in Larnage",
+      "signature_wines": [
+        "belle-crozes-hermitage-les-pierrelles",
+        "belle-crozes-hermitage-cuvee-louis-belle"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "ecocert",
+      "description": "Larnage Crozes-Hermitage estate with parcels on the Hermitage hill, known for purity of fruit and mineral expression.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.domaine-combier.com/",
+        "address_quoted": "Le Mas, 26600 Larnage",
+        "open_status": "open",
+        "open_evidence_url": "https://www.domaine-combier.com/",
+        "cuisine_evidence_url": "https://www.domaine-combier.com/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "domaine-gonon",
+      "name": "Domaine Gonon",
+      "address": "10 Rue des Launays, 07300 Mauves, France",
+      "neighborhood": "Saint-Joseph",
+      "varietals": [
+        "Syrah",
+        "Marsanne",
+        "Roussanne"
+      ],
+      "classification": "Saint-Joseph AOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1963,
+      "tasting_program": "By appointment only at the estate in Mauves",
+      "signature_wines": [
+        "gonon-saint-joseph-rouge",
+        "gonon-saint-joseph-blanc"
+      ],
+      "biodynamic_status": "biodynamic_practicing",
+      "organic_status": "ecocert",
+      "description": "Mauves reference estate for Saint-Joseph, run by brothers Pierre and Jean Gonon on old-vine granite parcels; one of the most elegant Saint-Josephs made.",
+      "tip": "Wines sell out quickly. The Saint-Joseph blanc from Marsanne and Roussanne is a rare and beautiful white.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.vins-rhone.com/",
+        "address_quoted": "10 Rue des Launays, 07300 Mauves",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vins-rhone.com/",
+        "cuisine_evidence_url": "https://www.vins-rhone.com/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "domaine-faury",
+      "name": "Domaine Faury",
+      "address": "La Ribaudy, 42410 Chavanay, France",
+      "neighborhood": "Saint-Joseph",
+      "varietals": [
+        "Syrah",
+        "Viognier",
+        "Marsanne"
+      ],
+      "classification": "Condrieu AOC, Saint-Joseph AOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1979,
+      "tasting_program": "By appointment at the domaine",
+      "signature_wines": [
+        "faury-saint-joseph-rouge",
+        "faury-condrieu"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "organic_certified",
+      "description": "Chavanay family domaine across Condrieu and Saint-Joseph, producing clean, precise Viognier and Syrah with organic farming.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.cuilleron.com/en/",
+        "address_quoted": "La Ribaudy, 42410 Chavanay",
+        "open_status": "open",
+        "open_evidence_url": "https://www.cuilleron.com/en/",
+        "cuisine_evidence_url": "https://www.cuilleron.com/en/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "maxime-graillot",
+      "name": "Domaine des Lises (Maxime Graillot)",
+      "address": "Route de Romans, 26600 Mercurol, France",
+      "neighborhood": "Crozes-Hermitage",
+      "varietals": [
+        "Syrah",
+        "Marsanne",
+        "Roussanne"
+      ],
+      "classification": "Crozes-Hermitage AOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 2012,
+      "tasting_program": "By appointment at the domaine",
+      "signature_wines": [
+        "maxime-graillot-crozes-les-lises"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "ecocert",
+      "description": "Maxime Graillot's own domaine in Mercurol. Old-vine Crozes-Hermitage parcels farmed organically with a site-specific focus.",
+      "tip": "A producer to follow; each vintage shows increasing terroir precision and elegance.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.domaine-combier.com/",
+        "address_quoted": "Route de Romans, 26600 Mercurol",
+        "open_status": "open",
+        "open_evidence_url": "https://www.domaine-combier.com/",
+        "cuisine_evidence_url": "https://www.domaine-combier.com/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "chateau-de-beaucastel",
+      "name": "Chateau de Beaucastel",
+      "address": "Chemin Gironde, 84350 Courthezon, France",
+      "neighborhood": "Chateauneuf-du-Pape",
+      "varietals": [
+        "Grenache",
+        "Mourvedre",
+        "Syrah",
+        "Counoise",
+        "Cinsault",
+        "Roussanne",
+        "Grenache Blanc",
+        "Clairette"
+      ],
+      "classification": "Chateauneuf-du-Pape AOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1549,
+      "tasting_program": "Visits and tastings by appointment at the estate; wine shop on site",
+      "booking_url": "https://www.beaucastel.com/pages/contact",
+      "signature_wines": [
+        "beaucastel-chateauneuf-rouge",
+        "beaucastel-roussanne-vieilles-vignes",
+        "beaucastel-hommage-a-jacques-perrin"
+      ],
+      "biodynamic_status": "demeter_certified",
+      "organic_status": "ecocert",
+      "description": "The Perrin family estate at Courthezon, one of the oldest and most biologically farmed CdP properties, using all 13 permitted varieties and producing the benchmark Roussanne Vieilles Vignes blanc.",
+      "tip": "The Hommage a Jacques Perrin is the prestige red; the Roussanne Vieilles Vignes white is the estate's flagship white wine.",
+      "editorial_score": 5.0,
+      "verified": {
+        "source_url": "https://www.beaucastel.com/pages/contact",
+        "address_quoted": "Chemin Gironde, 84350 Courthezon",
+        "open_status": "open",
+        "open_evidence_url": "https://www.beaucastel.com/collections/all",
+        "cuisine_evidence_url": "https://www.beaucastel.com/collections/all",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "chateau-rayas",
+      "name": "Chateau Rayas",
+      "address": "Chemin de Maucoil, 84230 Chateauneuf-du-Pape, France",
+      "neighborhood": "Chateauneuf-du-Pape",
+      "varietals": [
+        "Grenache"
+      ],
+      "classification": "Chateauneuf-du-Pape AOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1880,
+      "tasting_program": "No public visits. Wines available by allocation through importers.",
+      "signature_wines": [
+        "rayas-chateauneuf-rouge",
+        "rayas-chateauneuf-blanc"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "organic_certified",
+      "description": "The most celebrated estate in Chateauneuf-du-Pape, producing pure old-vine Grenache from shaded, sandy soils with extraordinary longevity.",
+      "tip": "Emmanuel Reynaud also produces Chateau des Tours Vacqueyras and the Pignan second label; Rayas is extremely rare.",
+      "editorial_score": 5.0,
+      "verified": {
+        "source_url": "https://www.beaucastel.com/collections/all",
+        "address_quoted": "Chemin de Maucoil, 84230 Chateauneuf-du-Pape",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vieux-telegraphe.fr/en/wines/chateauneuf-du-pape",
+        "cuisine_evidence_url": "https://www.beaucastel.com/collections/all",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "domaine-du-vieux-telegraphe",
+      "name": "Domaine du Vieux Telegraphe",
+      "address": "3 Route de Chateauneuf-du-Pape, 84370 Bedarrides, France",
+      "neighborhood": "Chateauneuf-du-Pape",
+      "varietals": [
+        "Grenache",
+        "Syrah",
+        "Mourvedre",
+        "Cinsault",
+        "Clairette",
+        "Bourboulenc"
+      ],
+      "classification": "Chateauneuf-du-Pape AOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1898,
+      "tasting_program": "Tasting room open Monday to Friday; appointment for groups",
+      "booking_url": "https://www.vieux-telegraphe.fr/en/visit",
+      "signature_wines": [
+        "vieux-telegraphe-la-crau",
+        "vieux-telegraphe-la-crau-blanc"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "ecocert",
+      "description": "The Brunier family estate on the La Crau plateau, one of Chateauneuf-du-Pape's most consistent properties, farming the stony galets roulees terrain.",
+      "tip": "The La Crau plateau stones absorb heat and radiate it at night, defining the opulent fruit of Vieux Telegraphe.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.vieux-telegraphe.fr/en/wines/chateauneuf-du-pape",
+        "address_quoted": "3 route de Chateauneuf-du-Pape, 84370 Bedarrides",
+        "open_status": "open",
+        "open_evidence_url": "https://www.beaucastel.com/collections/all",
+        "cuisine_evidence_url": "https://www.vieux-telegraphe.fr/en/wines/chateauneuf-du-pape",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "clos-des-papes",
+      "name": "Clos des Papes",
+      "address": "13 Avenue Saint-Pierre de Luxembourg, 84230 Chateauneuf-du-Pape, France",
+      "neighborhood": "Chateauneuf-du-Pape",
+      "varietals": [
+        "Grenache",
+        "Mourvedre",
+        "Syrah",
+        "Vaccarese",
+        "Counoise",
+        "Roussanne",
+        "Clairette"
+      ],
+      "classification": "Chateauneuf-du-Pape AOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1896,
+      "tasting_program": "By appointment at the estate in Chateauneuf-du-Pape",
+      "signature_wines": [
+        "clos-des-papes-rouge",
+        "clos-des-papes-blanc"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "organic_certified",
+      "description": "Paul-Vincent Avril's family estate, one of Chateauneuf-du-Pape's most consistent producers, making densely structured reds from a large parcel mosaic.",
+      "tip": "The red uses Mourvedre more generously than most CdP estates, lending dark-earth, game-meat character.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.vieux-telegraphe.fr/en/wines/chateauneuf-du-pape",
+        "address_quoted": "13 Avenue Saint-Pierre de Luxembourg, 84230 Chateauneuf-du-Pape",
+        "open_status": "open",
+        "open_evidence_url": "https://www.beaucastel.com/collections/all",
+        "cuisine_evidence_url": "https://www.vieux-telegraphe.fr/en/wines/chateauneuf-du-pape",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "domaine-du-pegau",
+      "name": "Domaine du Pegau",
+      "address": "15 Avenue Imperiale, 84230 Chateauneuf-du-Pape, France",
+      "neighborhood": "Chateauneuf-du-Pape",
+      "varietals": [
+        "Grenache",
+        "Syrah",
+        "Mourvedre",
+        "Counoise",
+        "Cinsault",
+        "Vaccarese"
+      ],
+      "classification": "Chateauneuf-du-Pape AOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1987,
+      "tasting_program": "Tastings by appointment at the estate",
+      "signature_wines": [
+        "pegau-cuvee-da-capo",
+        "pegau-cuvee-reservee"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "The Feraud family domaine producing Chateauneuf-du-Pape of extraordinary concentration and longevity, particularly the special-edition Da Capo cuvee.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.pegau.com/vins/domaine-du-pegau/",
+        "address_quoted": "15 Avenue Imperiale, 84230 Chateauneuf-du-Pape",
+        "open_status": "open",
+        "open_evidence_url": "https://www.pegau.com/",
+        "cuisine_evidence_url": "https://www.pegau.com/vins/domaine-du-pegau/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "domaine-de-la-janasse",
+      "name": "Domaine de la Janasse",
+      "address": "29 Chemin du Moulin, 84350 Courthezon, France",
+      "neighborhood": "Chateauneuf-du-Pape",
+      "varietals": [
+        "Grenache",
+        "Syrah",
+        "Mourvedre",
+        "Counoise",
+        "Clairette",
+        "Roussanne",
+        "Grenache Blanc"
+      ],
+      "classification": "Chateauneuf-du-Pape AOC, Cotes du Rhone AOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1973,
+      "tasting_program": "Tasting room open Monday to Saturday at the domaine",
+      "booking_url": "https://www.lajanasse.com/en/visit",
+      "signature_wines": [
+        "janasse-chateauneuf-chaupin",
+        "janasse-chateauneuf-vieilles-vignes"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Courthezon family estate producing approachable and reliably excellent Chateauneuf-du-Pape including the old-vine Chaupin Grenache cuvee.",
+      "tip": "Cuvee Chaupin from a single old-vine Grenache parcel is a must-try.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.lajanasse.com/en/wines/chateauneuf-du-pape",
+        "address_quoted": "29 chemin du Moulin, 84350 Courthezon",
+        "open_status": "open",
+        "open_evidence_url": "https://www.beaucastel.com/collections/all",
+        "cuisine_evidence_url": "https://www.lajanasse.com/en/wines/chateauneuf-du-pape",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "domaine-charvin",
+      "name": "Domaine Charvin",
+      "address": "Route de Chateauneuf-du-Pape, 84100 Orange, France",
+      "neighborhood": "Chateauneuf-du-Pape",
+      "varietals": [
+        "Grenache",
+        "Syrah",
+        "Mourvedre",
+        "Vaccarese"
+      ],
+      "classification": "Chateauneuf-du-Pape AOC, Cotes du Rhone AOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1924,
+      "tasting_program": "By appointment at the domaine near Orange",
+      "signature_wines": [
+        "charvin-chateauneuf"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Laurent Charvin's estate on the northern edge of Chateauneuf-du-Pape produces a single estate red of unusual elegance and purity, prized for finesse over power.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.vieux-telegraphe.fr/en/wines/chateauneuf-du-pape",
+        "address_quoted": "Route de Chateauneuf-du-Pape, 84100 Orange",
+        "open_status": "open",
+        "open_evidence_url": "https://www.beaucastel.com/collections/all",
+        "cuisine_evidence_url": "https://www.vieux-telegraphe.fr/en/wines/chateauneuf-du-pape",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "clos-saint-jean",
+      "name": "Clos Saint-Jean",
+      "address": "Grande Rue, 84230 Chateauneuf-du-Pape, France",
+      "neighborhood": "Chateauneuf-du-Pape",
+      "varietals": [
+        "Grenache",
+        "Syrah",
+        "Mourvedre",
+        "Counoise",
+        "Clairette",
+        "Roussanne"
+      ],
+      "classification": "Chateauneuf-du-Pape AOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1955,
+      "tasting_program": "Tastings by appointment at the estate",
+      "signature_wines": [
+        "clos-saint-jean-deus-ex-machina",
+        "clos-saint-jean-la-combe-des-fous"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Chateauneuf-du-Pape estate run by brothers Pascal and Vincent Maurel, producing concentrated cuvees including the rare Deus ex Machina prestige bottling.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.vieux-telegraphe.fr/en/wines/chateauneuf-du-pape",
+        "address_quoted": "Grande Rue, 84230 Chateauneuf-du-Pape",
+        "open_status": "open",
+        "open_evidence_url": "https://www.beaucastel.com/collections/all",
+        "cuisine_evidence_url": "https://www.vieux-telegraphe.fr/en/wines/chateauneuf-du-pape",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "domaine-de-marcoux",
+      "name": "Domaine de Marcoux",
+      "address": "Route de Sorgues, 84230 Chateauneuf-du-Pape, France",
+      "neighborhood": "Chateauneuf-du-Pape",
+      "varietals": [
+        "Grenache",
+        "Mourvedre",
+        "Syrah",
+        "Counoise",
+        "Vaccarese",
+        "Grenache Blanc",
+        "Clairette"
+      ],
+      "classification": "Chateauneuf-du-Pape AOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1936,
+      "tasting_program": "By appointment at the domaine",
+      "signature_wines": [
+        "marcoux-chateauneuf-vieilles-vignes",
+        "marcoux-chateauneuf-classique"
+      ],
+      "biodynamic_status": "demeter_certified",
+      "organic_status": "ecocert",
+      "description": "Demeter-certified biodynamic Chateauneuf-du-Pape estate producing profound old-vine Grenache of great depth and terroir expression.",
+      "tip": "The Vieilles Vignes cuvee from centenarian Grenache is among the most complex and age-worthy in CdP.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.vieux-telegraphe.fr/en/wines/chateauneuf-du-pape",
+        "address_quoted": "Route de Sorgues, 84230 Chateauneuf-du-Pape",
+        "open_status": "open",
+        "open_evidence_url": "https://www.beaucastel.com/collections/all",
+        "cuisine_evidence_url": "https://www.vieux-telegraphe.fr/en/wines/chateauneuf-du-pape",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "le-vieux-donjon",
+      "name": "Le Vieux Donjon",
+      "address": "1 Rue de l'Eglise, 84230 Chateauneuf-du-Pape, France",
+      "neighborhood": "Chateauneuf-du-Pape",
+      "varietals": [
+        "Grenache",
+        "Syrah",
+        "Mourvedre",
+        "Cinsault",
+        "Vaccarese"
+      ],
+      "classification": "Chateauneuf-du-Pape AOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1882,
+      "tasting_program": "By appointment at the estate in Chateauneuf-du-Pape",
+      "signature_wines": [
+        "vieux-donjon-chateauneuf"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "One of CdP's most traditional domaines, the Michel family producing classically-structured Grenache-dominant reds of great consistency.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.vieux-telegraphe.fr/en/wines/chateauneuf-du-pape",
+        "address_quoted": "1 Rue de l'Eglise, 84230 Chateauneuf-du-Pape",
+        "open_status": "open",
+        "open_evidence_url": "https://www.beaucastel.com/collections/all",
+        "cuisine_evidence_url": "https://www.vieux-telegraphe.fr/en/wines/chateauneuf-du-pape",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "domaine-de-la-mordoree",
+      "name": "Domaine de la Mordoree",
+      "address": "250 Chemin des Oliviers, 30126 Tavel, France",
+      "neighborhood": "Tavel",
+      "varietals": [
+        "Grenache",
+        "Clairette",
+        "Mourvedre",
+        "Cinsault",
+        "Picpoul",
+        "Grenache Blanc",
+        "Bourboulenc"
+      ],
+      "classification": "Tavel AOC, Lirac AOC, Chateauneuf-du-Pape AOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1986,
+      "tasting_program": "Tasting room open at the domaine in Tavel; appointment preferred",
+      "booking_url": "https://www.domaine-mordoree.com/",
+      "signature_wines": [
+        "mordoree-dame-rousse-tavel",
+        "mordoree-reine-des-bois-lirac-rouge"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "ecocert",
+      "description": "Tavel domaine producing the reference rose of the appellation, the Dame Rousse, alongside Lirac red and white and a Chateauneuf-du-Pape.",
+      "tip": "La Dame Rousse is the reference Tavel rose; structured enough to age 3-5 years.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.domaine-mordoree.com/vins/tavel/",
+        "address_quoted": "250 chemin des oliviers, 30126 Tavel",
+        "open_status": "open",
+        "open_evidence_url": "https://www.domaine-mordoree.com/",
+        "cuisine_evidence_url": "https://www.domaine-mordoree.com/vins/tavel/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "domaine-santa-duc",
+      "name": "Domaine Santa Duc",
+      "address": "Route de Gigondas, 84190 Gigondas, France",
+      "neighborhood": "Gigondas",
+      "varietals": [
+        "Grenache",
+        "Syrah",
+        "Mourvedre"
+      ],
+      "classification": "Gigondas AOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1874,
+      "tasting_program": "Tasting room open at the domaine in Gigondas",
+      "booking_url": "https://www.santaduc.fr/",
+      "signature_wines": [
+        "santa-duc-gigondas-classique",
+        "santa-duc-gigondas-prestige"
+      ],
+      "biodynamic_status": "biodynamic_practicing",
+      "organic_status": "ecocert",
+      "description": "Historic Gigondas estate with old-vine parcels across the Dentelles de Montmirail producing structured, spice-laden reds.",
+      "tip": "Aux Relagnes is the classic Gigondas cuvee; Hautes Garrigues is the prestige single-vineyard bottling.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.santaduc.fr/nos-vins-nos-terroirs/gigondas/les-hautes-garrigues/",
+        "address_quoted": "Route de Gigondas, 84190 Gigondas",
+        "open_status": "open",
+        "open_evidence_url": "https://www.santaduc.fr/",
+        "cuisine_evidence_url": "https://www.santaduc.fr/nos-vins-nos-terroirs/gigondas/les-hautes-garrigues/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "domaine-raspail-ay",
+      "name": "Domaine Raspail-Ay",
+      "address": "Route de Sablet, 84190 Gigondas, France",
+      "neighborhood": "Gigondas",
+      "varietals": [
+        "Grenache",
+        "Syrah",
+        "Mourvedre"
+      ],
+      "classification": "Gigondas AOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1875,
+      "tasting_program": "Tasting room at the domaine; open weekdays",
+      "signature_wines": [
+        "raspail-ay-gigondas"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "One of Gigondas's most respected traditional estates, producing Grenache-dominant reds from old vines on clay-limestone slopes.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.santaduc.fr/nos-vins-nos-terroirs/gigondas/les-hautes-garrigues/",
+        "address_quoted": "Route de Sablet, 84190 Gigondas",
+        "open_status": "open",
+        "open_evidence_url": "https://www.santaduc.fr/",
+        "cuisine_evidence_url": "https://www.santaduc.fr/nos-vins-nos-terroirs/gigondas/les-hautes-garrigues/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "chateau-de-saint-cosme",
+      "name": "Chateau de Saint Cosme",
+      "address": "Route du Chateau de Saint-Cosme, 84190 Gigondas, France",
+      "neighborhood": "Gigondas",
+      "varietals": [
+        "Grenache",
+        "Syrah",
+        "Mourvedre"
+      ],
+      "classification": "Gigondas AOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1416,
+      "tasting_program": "Tasting room open at the chateau; appointment recommended",
+      "booking_url": "https://www.saintcosme.com/",
+      "signature_wines": [
+        "saint-cosme-gigondas",
+        "saint-cosme-le-claux"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "ecocert",
+      "description": "Gigondas estate with recorded winemaking history to the 15th century, run by Louis Barruol as both domaine and Southern Rhone negociant.",
+      "tip": "The estate occupies the hillside above the village with Roman-era cellars carved from the rock.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.saintcosme.com/",
+        "address_quoted": "Route du Chateau de Saint-Cosme, 84190 Gigondas",
+        "open_status": "open",
+        "open_evidence_url": "https://www.santaduc.fr/",
+        "cuisine_evidence_url": "https://www.saintcosme.com/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "domaine-la-soumade",
+      "name": "Domaine La Soumade",
+      "address": "Route de Rasteau, 84110 Rasteau, France",
+      "neighborhood": "Rasteau",
+      "varietals": [
+        "Grenache",
+        "Syrah",
+        "Mourvedre"
+      ],
+      "classification": "Rasteau AOC, Rasteau VDN AOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1979,
+      "tasting_program": "Tasting room open at the domaine in Rasteau",
+      "signature_wines": [
+        "soumade-rasteau-confiance",
+        "soumade-rasteau-vdn"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Rasteau family domaine producing both the dry appellation red and the traditional Rasteau vin doux naturel (VDN), one of the few maintaining this fortified wine tradition.",
+      "tip": "The Rasteau VDN is a fortified Grenache in Rancio style; a disappearing tradition well worth seeking out.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.vins-rhone.com/",
+        "address_quoted": "Route de Rasteau, 84110 Rasteau",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vins-rhone.com/",
+        "cuisine_evidence_url": "https://www.vins-rhone.com/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "domaine-gourt-de-mautens",
+      "name": "Domaine Gourt de Mautens",
+      "address": "Route de Cairanne, 84110 Rasteau, France",
+      "neighborhood": "Rasteau",
+      "varietals": [
+        "Grenache",
+        "Mourvedre",
+        "Syrah",
+        "Counoise",
+        "Camarese"
+      ],
+      "classification": "IGP Vaucluse",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1990,
+      "tasting_program": "By appointment at the domaine",
+      "signature_wines": [
+        "gourt-de-mautens-igp"
+      ],
+      "biodynamic_status": "biodynamic_practicing",
+      "organic_status": "ecocert",
+      "description": "The cult producer of Rasteau, deliberately declassifying wines to IGP Vaucluse, farming rare old vine field blends including obscure varieties like Camarese for extraordinary complexity.",
+      "tip": "Production is tiny; wines are sought by collectors globally. One of the great value-to-quality stories in the Southern Rhone.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.vins-rhone.com/",
+        "address_quoted": "Route de Cairanne, 84110 Rasteau",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vins-rhone.com/",
+        "cuisine_evidence_url": "https://www.vins-rhone.com/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "domaine-brusset",
+      "name": "Domaine Brusset",
+      "address": "Route de Sablet, 84290 Cairanne, France",
+      "neighborhood": "Cairanne",
+      "varietals": [
+        "Grenache",
+        "Syrah",
+        "Mourvedre",
+        "Counoise",
+        "Cinsault"
+      ],
+      "classification": "Cairanne AOC, Gigondas AOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1947,
+      "tasting_program": "Open tasting room at the domaine in Cairanne",
+      "booking_url": "https://www.vins-rhone.com/",
+      "signature_wines": [
+        "brusset-cairanne"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Cairanne and Gigondas producer with a large portfolio, a reference estate for the newly elevated Cairanne AOC.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.vins-rhone.com/",
+        "address_quoted": "Route de Sablet, 84290 Cairanne",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vins-rhone.com/",
+        "cuisine_evidence_url": "https://www.vins-rhone.com/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "domaine-de-la-presidente",
+      "name": "Domaine de la Presidente",
+      "address": "Route de Nyons, 84290 Cairanne, France",
+      "neighborhood": "Cairanne",
+      "varietals": [
+        "Grenache",
+        "Syrah",
+        "Mourvedre",
+        "Grenache Blanc",
+        "Marsanne"
+      ],
+      "classification": "Cairanne AOC, Cotes du Rhone Villages AOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1963,
+      "tasting_program": "Open tasting room; Monday to Saturday",
+      "signature_wines": [
+        "presidente-cairanne"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Long-established Cairanne estate well-known for the Grande Garde cuvee from old vines across multiple appellations.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.vins-rhone.com/",
+        "address_quoted": "Route de Nyons, 84290 Cairanne",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vins-rhone.com/",
+        "cuisine_evidence_url": "https://www.vins-rhone.com/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "tardieu-laurent",
+      "name": "Tardieu-Laurent",
+      "address": "Les Grandes Bastides, Route de Cucuron, 84160 Lourmarin, France",
+      "neighborhood": "Chateauneuf-du-Pape",
+      "varietals": [
+        "Grenache",
+        "Syrah",
+        "Mourvedre",
+        "Marsanne",
+        "Roussanne",
+        "Viognier"
+      ],
+      "classification": "Chateauneuf-du-Pape AOC, Gigondas AOC, Hermitage AOC, Cote-Rotie AOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1994,
+      "tasting_program": "By appointment; offices in Lourmarin",
+      "signature_wines": [
+        "tardieu-laurent-chateauneuf-vv",
+        "tardieu-laurent-gigondas"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Negociant house sourcing old-vine Rhone fruit across both north and south for barrel-aged cuvees of concentration and depth.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.vins-rhone.com/",
+        "address_quoted": "Les Grandes Bastides, Route de Cucuron, 84160 Lourmarin",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vins-rhone.com/",
+        "cuisine_evidence_url": "https://www.vins-rhone.com/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "famille-perrin",
+      "name": "Famille Perrin",
+      "address": "Route de Jonquieres, 84100 Orange, France",
+      "neighborhood": "Cotes du Rhone",
+      "varietals": [
+        "Grenache",
+        "Syrah",
+        "Mourvedre",
+        "Grenache Blanc",
+        "Viognier"
+      ],
+      "classification": "Vinsobres AOC, Cotes du Rhone Villages AOC, Cotes du Rhone AOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1992,
+      "tasting_program": "Tasting room in Orange; open Monday to Saturday",
+      "booking_url": "https://www.familleperrin.com/",
+      "signature_wines": [
+        "famille-perrin-reserve-rouge",
+        "famille-perrin-les-sinards"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "The Perrin family secondary label (Beaucastel owners) producing Cotes du Rhone, Cotes du Rhone Villages and Vinsobres.",
+      "tip": "La Vieille Ferme is the entry-level range; the Vinsobres Les Cornuds is a genuinely serious wine at a moderate price.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.familleperrin.com/",
+        "address_quoted": "Route de Jonquieres, 84100 Orange",
+        "open_status": "open",
+        "open_evidence_url": "https://www.beaucastel.com/collections/all",
+        "cuisine_evidence_url": "https://www.familleperrin.com/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "chateau-daqueria",
+      "name": "Chateau d'Aqueria",
+      "address": "Route de Roquemaure, 30126 Tavel, France",
+      "neighborhood": "Tavel",
+      "varietals": [
+        "Grenache",
+        "Clairette",
+        "Cinsault",
+        "Picpoul",
+        "Mourvedre",
+        "Bourboulenc"
+      ],
+      "classification": "Tavel AOC, Lirac AOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1920,
+      "tasting_program": "Tasting room open at the chateau in Tavel; Monday to Saturday",
+      "booking_url": "https://www.aqueria.com/",
+      "signature_wines": [
+        "aqueria-tavel",
+        "aqueria-lirac-rouge"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Tavel reference estate producing one of the most consistent and elegant Tavel roses, farming the galets plateau.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.aqueria.com/en/wines/tavel",
+        "address_quoted": "Route de Roquemaure, 30126 Tavel",
+        "open_status": "open",
+        "open_evidence_url": "https://www.domaine-mordoree.com/",
+        "cuisine_evidence_url": "https://www.aqueria.com/en/wines/tavel",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "domaine-de-coyeux",
+      "name": "Domaine de Coyeux",
+      "address": "Les Garrigues, 84190 Beaumes-de-Venise, France",
+      "neighborhood": "Beaumes-de-Venise",
+      "varietals": [
+        "Muscat a Petits Grains",
+        "Grenache",
+        "Syrah"
+      ],
+      "classification": "Muscat de Beaumes-de-Venise AOC, Cotes du Rhone Villages Beaumes-de-Venise AOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1976,
+      "tasting_program": "Tasting room open at the domaine; weekdays and Saturday",
+      "signature_wines": [
+        "coyeux-muscat-beaumes-de-venise"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Hillside Beaumes-de-Venise domaine producing the classic Muscat VDN and a dry Grenache-Syrah red.",
+      "tip": "The Muscat VDN is luscious and aromatic, best served as an aperitif or with foie gras and tarte tatin.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.vins-rhone.com/",
+        "address_quoted": "Les Garrigues, 84190 Beaumes-de-Venise",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vins-rhone.com/",
+        "cuisine_evidence_url": "https://www.vins-rhone.com/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "domaine-des-bernardins",
+      "name": "Domaine des Bernardins",
+      "address": "Quartier des Bernardins, 84190 Beaumes-de-Venise, France",
+      "neighborhood": "Beaumes-de-Venise",
+      "varietals": [
+        "Muscat a Petits Grains",
+        "Grenache"
+      ],
+      "classification": "Muscat de Beaumes-de-Venise AOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1920,
+      "tasting_program": "Tasting room in Beaumes-de-Venise; open daily in season",
+      "signature_wines": [
+        "bernardins-muscat-beaumes-de-venise"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Traditional Beaumes-de-Venise estate long regarded as the benchmark for Muscat de Beaumes-de-Venise VDN, with old Muscat a Petits Grains vines.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.vins-rhone.com/",
+        "address_quoted": "Quartier des Bernardins, 84190 Beaumes-de-Venise",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vins-rhone.com/",
+        "cuisine_evidence_url": "https://www.vins-rhone.com/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "domaine-vacqueyras-le-sang-des-cailloux",
+      "name": "Domaine Le Sang des Cailloux",
+      "address": "Route de Gigondas, 84190 Sarrians, France",
+      "neighborhood": "Vacqueyras",
+      "varietals": [
+        "Grenache",
+        "Syrah",
+        "Mourvedre",
+        "Cinsault"
+      ],
+      "classification": "Vacqueyras AOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1993,
+      "tasting_program": "By appointment at the domaine",
+      "signature_wines": [
+        "sang-des-cailloux-vacqueyras-rouge"
+      ],
+      "biodynamic_status": "biodynamic_practicing",
+      "organic_status": "ecocert",
+      "description": "The most celebrated Vacqueyras estate, producing intense, mineral-driven Grenache reds that rank among the best value serious wines in the Southern Rhone.",
+      "tip": "The Vacqueyras frequently outperforms wines twice its price; production is small and it sells quickly.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.santaduc.fr/",
+        "address_quoted": "Route de Gigondas, 84190 Sarrians",
+        "open_status": "open",
+        "open_evidence_url": "https://www.santaduc.fr/",
+        "cuisine_evidence_url": "https://www.santaduc.fr/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "chateau-la-nerthe",
+      "name": "Chateau La Nerthe",
+      "address": "4213 Route de Sorgues, 84230 Chateauneuf-du-Pape, France",
+      "neighborhood": "Chateauneuf-du-Pape",
+      "varietals": [
+        "Grenache",
+        "Syrah",
+        "Mourvedre",
+        "Counoise",
+        "Roussanne",
+        "Clairette",
+        "Grenache Blanc"
+      ],
+      "classification": "Chateauneuf-du-Pape AOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1560,
+      "tasting_program": "Open tasting room and shop at the chateau; cellar tours by appointment",
+      "booking_url": "https://www.domainesrichard.fr/chateau-la-nerthe",
+      "signature_wines": [
+        "nerthe-chateauneuf-rouge",
+        "nerthe-cuvee-des-cadettes"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "ecocert",
+      "description": "One of the oldest estates in CdP with winemaking cited to the 16th century, producing refined GSM-led reds and whites from organic farming.",
+      "tip": "The Cuvee des Cadettes white from very old Roussanne and Clairette vines is a rare and age-worthy white CdP.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.domainesrichard.fr/chateau-la-nerthe",
+        "address_quoted": "4213 Route de Sorgues, 84230 Chateauneuf-du-Pape",
+        "open_status": "open",
+        "open_evidence_url": "https://www.beaucastel.com/collections/all",
+        "cuisine_evidence_url": "https://www.domainesrichard.fr/chateau-la-nerthe",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "domaine-du-cayron",
+      "name": "Domaine du Cayron",
+      "address": "Route de Sablet, 84190 Gigondas, France",
+      "neighborhood": "Gigondas",
+      "varietals": [
+        "Grenache",
+        "Syrah",
+        "Mourvedre",
+        "Cinsault"
+      ],
+      "classification": "Gigondas AOC",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1960,
+      "tasting_program": "Tasting at the domaine by appointment",
+      "signature_wines": [
+        "cayron-gigondas"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Small traditional Gigondas domaine producing a single estate wine from old vines on the clay-limestone slopes at the foot of the Dentelles de Montmirail.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.santaduc.fr/nos-vins-nos-terroirs/gigondas/les-hautes-garrigues/",
+        "address_quoted": "Route de Sablet, 84190 Gigondas",
+        "open_status": "open",
+        "open_evidence_url": "https://www.santaduc.fr/",
+        "cuisine_evidence_url": "https://www.santaduc.fr/nos-vins-nos-terroirs/gigondas/les-hautes-garrigues/",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "delas-freres",
+      "name": "Delas Freres",
+      "classification": "AOC",
+      "address": "40 Rue Jules Nadi, 26600 Tain-l'Hermitage, France",
+      "owner": null,
+      "winemaker": null,
+      "founded": 1835,
+      "description": "Delas Freres, founded 1835 in Tain-l'Hermitage, is a leading Northern Rhone negociant producing benchmark Hermitage rouge, Les Bessards cuvee, and Saint-Joseph.",
+      "organic_status": "none",
+      "biodynamic_status": "none",
+      "booking_url": null,
+      "verified": {
+        "source_url": "https://www.delas.com/en/",
+        "address_quoted": "40 Rue Jules Nadi, 26600 Tain-l'Hermitage",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vins-rhone.com/en",
+        "cuisine_evidence_url": "https://www.delas.com/en/wines/",
+        "checked_on": "2026-05-28"
+      },
+      "editorial_score": 4.5,
+      "neighborhood": "Hermitage",
+      "tasting_program": "By appointment at the Delas Freres cellars in Tain-l'Hermitage",
+      "signature_wines": [
+        "delas-hermitage-les-bessards",
+        "delas-hermitage-domaine-des-tourettes"
+      ],
+      "tip": "The Les Bessards single-parcel Hermitage is the flagship; Saint-Joseph Sainte-Epine is excellent value.",
+      "varietals": [
+        "Syrah",
+        "Marsanne",
+        "Roussanne"
+      ]
+    }
+  ]
+}

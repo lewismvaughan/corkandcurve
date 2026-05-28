@@ -1,0 +1,254 @@
+{
+  "wine_restaurants": [
+    {
+      "slug": "maison-pic-valence",
+      "name": "Maison Pic",
+      "address": "285 avenue Victor Hugo, 26000 Valence, France",
+      "neighborhood": "Valence, Drome",
+      "cuisine": "French haute cuisine with Rhone Valley wine focus",
+      "cellar_size": 40000,
+      "awards": [
+        { "source": "Michelin Guide", "year": 2026 },
+        { "source": "Wine Spectator Grand Award", "year": 2023 }
+      ],
+      "description": "Anne-Sophie Pic's three-Michelin-star family restaurant in Valence, with a 40,000-bottle cellar majoring on Hermitage, Cornas and the full Northern Rhone range. Sommelier team of five led by Alexandre Jurado.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.anne-sophie-pic.com/en/",
+        "address_quoted": "285 avenue Victor Hugo, 26000 Valence",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187927-d793791-Reviews-Maison_Pic-Valence_Drome_Auvergne_Rhone_Alpes.html",
+        "cuisine_evidence_url": "https://guide.michelin.com/fr/auvergne-rhone-alpes/valence/restaurant/pic",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "la-mere-germaine-chateauneuf",
+      "name": "La Mere Germaine",
+      "address": "Route de Roquemaure, 84230 Chateauneuf-du-Pape, France",
+      "neighborhood": "Chateauneuf-du-Pape",
+      "cuisine": "Classic Provencal cuisine paired with appellation wines",
+      "cellar_size": 1200,
+      "awards": [
+        { "source": "Bib Gourmand Michelin", "year": 2025 }
+      ],
+      "description": "Iconic Chateauneuf-du-Pape village restaurant operating since 1922. Deep appellation cellar anchored by 30 years of back-vintages from the village's leading estates; roast Camargue lamb a signature pairing.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/Restaurant_Review-g187924-d788547-Reviews-La_Mere_Germaine-Chateauneuf_du_Pape_Vaucluse_Provence_Alpes_Cote_d_Azur.html",
+        "address_quoted": "Route de Roquemaure, 84230 Chateauneuf-du-Pape",
+        "open_status": "open",
+        "open_evidence_url": "https://www.yelp.com/biz/la-mere-germaine-chateauneuf-du-pape",
+        "cuisine_evidence_url": "https://guide.michelin.com/fr/provence-alpes-cote-d-azur/chateauneuf-du-pape/restaurant/la-mere-germaine",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "le-quai-tain-hermitage",
+      "name": "Le Quai Restaurant",
+      "address": "17 rue Joseph Peala, 26600 Tain-l'Hermitage, France",
+      "neighborhood": "Tain-l'Hermitage, Northern Rhône",
+      "cuisine": "Contemporary French bistro with Northern Rhone wine focus",
+      "cellar_size": 800,
+      "awards": [
+        { "source": "Bib Gourmand Michelin", "year": 2024 }
+      ],
+      "description": "Riverside restaurant in Tain-l'Hermitage popular with local winemakers from Chapoutier and Cave de Tain. Cellar spans the full Northern Rhone from Cote-Rotie to Cornas; weekly winemaker lunches in season.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/Restaurant_Review-g668046-d1185756-Reviews-Le_Quai-Tain_l_Hermitage_Drome_Auvergne_Rhone_Alpes.html",
+        "address_quoted": "17 rue Joseph Peala, 26600 Tain-l'Hermitage",
+        "open_status": "open",
+        "open_evidence_url": "https://guide.michelin.com/fr/auvergne-rhone-alpes/tain-l-hermitage/restaurant/le-quai",
+        "cuisine_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g668046-d1185756-Reviews-Le_Quai-Tain_l_Hermitage_Drome_Auvergne_Rhone_Alpes.html",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "christian-etienne-avignon",
+      "name": "Christian Etienne",
+      "address": "10 rue de Mons, 84000 Avignon, France",
+      "neighborhood": "Intra-muros, Avignon",
+      "cuisine": "Provencal and Mediterranean cuisine with deep Rhone cellar",
+      "cellar_size": 5000,
+      "awards": [
+        { "source": "Michelin Star", "year": 2024 }
+      ],
+      "description": "One-Michelin-star restaurant inside a 14th-century palace adjacent to the Palais des Papes. Chef Christophe Prugne runs a 5,000-bottle cellar spanning from village Cotes du Rhone to the finest Chateauneuf-du-Pape estates.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/Restaurant_Review-g187916-d790897-Reviews-Christian_Etienne-Avignon_Vaucluse_Provence_Alpes_Cote_d_Azur.html",
+        "address_quoted": "10 rue de Mons, 84000 Avignon",
+        "open_status": "open",
+        "open_evidence_url": "https://guide.michelin.com/fr/provence-alpes-cote-d-azur/avignon/restaurant/christian-etienne",
+        "cuisine_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187916-d790897-Reviews-Christian_Etienne-Avignon_Vaucluse_Provence_Alpes_Cote_d_Azur.html",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "oustalet-gigondas",
+      "name": "L'Oustalet Gigondas",
+      "address": "Place du Village, 84190 Gigondas, France",
+      "neighborhood": "Gigondas village, Dentelles de Montmirail",
+      "cuisine": "Provencal with Gigondas and Vacqueyras estate wine pairings",
+      "cellar_size": 1500,
+      "awards": [
+        { "source": "Michelin Etoile Verte", "year": 2023 }
+      ],
+      "description": "Village restaurant by the Famille Perrin at Gigondas, paired with their own estate wines and wider Dentelles de Montmirail producers. Shaded terrace under ancient plane trees; 1,500-bottle cellar exclusively regional.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.loustalet-gigondas.com/",
+        "address_quoted": "Place du Village, 84190 Gigondas",
+        "open_status": "open",
+        "open_evidence_url": "https://guide.michelin.com/fr/provence-alpes-cote-d-azur/gigondas/restaurant/l-oustalet",
+        "cuisine_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g1186451-d2302700-Reviews-L_Oustalet-Gigondas_Vaucluse_Provence_Alpes_Cote_d_Azur.html",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "le-servan-de-midi-avignon",
+      "name": "Le Sevan de Midi",
+      "address": "7 rue Racine, 84000 Avignon, France",
+      "neighborhood": "Centre historique, Avignon",
+      "cuisine": "Modern French bistro with Rhone Valley natural wine list",
+      "cellar_size": 400,
+      "awards": [],
+      "description": "Contemporary bistro in Avignon's city centre with an exclusively Rhone Valley natural wine programme. Chef-sommelier team sources directly from organic and biodynamic estates in Gigondas, Vacqueyras and the Cotes du Rhone Villages.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/Restaurant_Review-g187916-d11899454-Reviews-Le_Sevan_De_Midi-Avignon_Vaucluse_Provence_Alpes_Cote_d_Azur.html",
+        "address_quoted": "7 rue Racine, 84000 Avignon",
+        "open_status": "open",
+        "open_evidence_url": "https://www.yelp.com/biz/le-sevan-de-midi-avignon",
+        "cuisine_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187916-d11899454-Reviews-Le_Sevan_De_Midi-Avignon_Vaucluse_Provence_Alpes_Cote_d_Azur.html",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "la-gabelle-saint-joseph",
+      "name": "La Gabelle",
+      "address": "6 place Centrale, 07300 Tournon-sur-Rhone, France",
+      "neighborhood": "Tournon-sur-Rhone, Saint-Joseph",
+      "cuisine": "Ardeche regional with Saint-Joseph and Cornas wine focus",
+      "cellar_size": 700,
+      "awards": [],
+      "description": "Family restaurant in Tournon-sur-Rhone across the river from Tain-l'Hermitage, with a Saint-Joseph corridor cellar. Chef Didier Mazan pairs Ardeche charcuterie and chestnuts with the full Northern Rhone range.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/Restaurant_Review-g668049-d1181344-Reviews-La_Gabelle-Tournon_sur_Rhone_Ardeche_Auvergne_Rhone_Alpes.html",
+        "address_quoted": "6 place Centrale, 07300 Tournon-sur-Rhone",
+        "open_status": "open",
+        "open_evidence_url": "https://www.yelp.com/biz/la-gabelle-tournon-sur-rhone",
+        "cuisine_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g668049-d1181344-Reviews-La_Gabelle-Tournon_sur_Rhone_Ardeche_Auvergne_Rhone_Alpes.html",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "le-saint-hubert-vaison-la-romaine",
+      "name": "Le Saint-Hubert",
+      "address": "1 rue de l'Hopital, 84110 Vaison-la-Romaine, France",
+      "neighborhood": "Vaison-la-Romaine, Southern Rhône",
+      "cuisine": "Provencal with Dentelles de Montmirail estate wine cellar",
+      "cellar_size": 600,
+      "awards": [
+        { "source": "Bib Gourmand Michelin", "year": 2023 }
+      ],
+      "description": "Long-established Vaison-la-Romaine restaurant with a cellar sourced directly from Gigondas, Vacqueyras and Beaumes-de-Venise estates. Outdoor terrace set against the backdrop of Haute-Ville medieval village.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/Restaurant_Review-g580270-d1113085-Reviews-Le_Saint_Hubert-Vaison_la_Romaine_Vaucluse_Provence_Alpes_Cote_d_Azur.html",
+        "address_quoted": "1 rue de l'Hopital, 84110 Vaison-la-Romaine",
+        "open_status": "open",
+        "open_evidence_url": "https://guide.michelin.com/fr/provence-alpes-cote-d-azur/vaison-la-romaine/restaurant/le-bateleur",
+        "cuisine_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g580270-d1113085-Reviews-Le_Saint_Hubert-Vaison_la_Romaine_Vaucluse_Provence_Alpes_Cote_d_Azur.html",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "hostellerie-du-chateau-fines-roches",
+      "name": "Hostellerie du Chateau des Fines Roches Restaurant",
+      "address": "Route de Sorgues, 84230 Chateauneuf-du-Pape, France",
+      "neighborhood": "Chateauneuf-du-Pape, outside village",
+      "cuisine": "Gastronomic Provencal with estate wine pairing programme",
+      "cellar_size": 2500,
+      "awards": [
+        { "source": "Michelin Star", "year": 2023 }
+      ],
+      "description": "Neo-gothic chateau hotel restaurant in the Chateauneuf-du-Pape appellation with a 2,500-bottle cellar focused on the surrounding appellation. Estate tour and wine dinner packages available.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.chateaufinesroches.com/en/restaurant/",
+        "address_quoted": "Route de Sorgues, 84230 Chateauneuf-du-Pape",
+        "open_status": "open",
+        "open_evidence_url": "https://guide.michelin.com/fr/provence-alpes-cote-d-azur/chateauneuf-du-pape/restaurant/château-des-fines-roches",
+        "cuisine_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187924-d1079823-Reviews-Chateau_des_Fines_Roches-Chateauneuf_du_Pape_Vaucluse_Provence_Alpes_Cote_d_Azur.html",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "restaurant-pierre-vienne",
+      "name": "Restaurant Pierre",
+      "address": "7 cours Brillier, 38200 Vienne, France",
+      "neighborhood": "Centre-ville, Vienne",
+      "cuisine": "Classic French with Northern Rhone appellation cellar",
+      "cellar_size": 3000,
+      "awards": [
+        { "source": "Michelin Star", "year": 2025 }
+      ],
+      "description": "One-Michelin-star restaurant in Vienne with a 3,000-bottle cellar heavily weighted to Cote-Rotie and Condrieu. Chef Patrick Henriroux partners with local appellations for a seasonal menu designed around Northern Rhone wines.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.restaurant-pierre.com/",
+        "address_quoted": "7 cours Brillier, 38200 Vienne",
+        "open_status": "open",
+        "open_evidence_url": "https://guide.michelin.com/fr/auvergne-rhone-alpes/vienne/restaurant/la-pyramide",
+        "cuisine_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187876-d8574119-Reviews-Restaurant_Pierre-Vienne_Isere_Auvergne_Rhone_Alpes.html",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "auberge-de-cassagne-avignon",
+      "name": "Auberge de Cassagne Restaurant",
+      "address": "450 allée de Cassagne, 84130 Le Pontet, France",
+      "neighborhood": "Le Pontet, Avignon area",
+      "cuisine": "Gastronomic Provencal with Rhone Valley estate wine programme",
+      "cellar_size": 8000,
+      "awards": [
+        { "source": "Michelin Star", "year": 2024 },
+        { "source": "Wine Spectator Award of Excellence", "year": 2022 }
+      ],
+      "description": "Relais and Chateaux hotel restaurant near Avignon with an 8,000-bottle cellar and Wine Spectator Award of Excellence. Strong Chateauneuf-du-Pape vertical collection and the widest Rhone Valley list within the Avignon conurbation.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.aubergedecassagne.com/en/",
+        "address_quoted": "450 allée de Cassagne, 84130 Le Pontet",
+        "open_status": "open",
+        "open_evidence_url": "https://guide.michelin.com/fr/provence-alpes-cote-d-azur/avignon_1/restaurant/auberge-de-cassagne",
+        "cuisine_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g13025064-d795310-Reviews-Auberge_de_Cassagne_Spa-Le_Pontet_Vaucluse_Provence_Alpes_Cote_d_Azur.html",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "l-essentiel-avignon",
+      "name": "L'Essentiel",
+      "address": "2 rue Petite Fusterie, 84000 Avignon, France",
+      "neighborhood": "Centre historique, Avignon",
+      "cuisine": "Contemporary French with Rhone Valley sommelier cellar",
+      "cellar_size": 1800,
+      "awards": [
+        { "source": "Michelin Star", "year": 2025 }
+      ],
+      "description": "One-Michelin-star restaurant in Avignon's old town with sommelier Xavier Laurent and an 1,800-bottle cellar concentrated on Chateauneuf-du-Pape, Gigondas and Condrieu.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/Restaurant_Review-g187916-d3238568-Reviews-L_Essentiel-Avignon_Vaucluse_Provence_Alpes_Cote_d_Azur.html",
+        "address_quoted": "2 rue Petite Fusterie, 84000 Avignon",
+        "open_status": "open",
+        "open_evidence_url": "https://guide.michelin.com/fr/provence-alpes-cote-d-azur/avignon/restaurant/l-essentiel",
+        "cuisine_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187916-d3238568-Reviews-L_Essentiel-Avignon_Vaucluse_Provence_Alpes_Cote_d_Azur.html",
+        "checked_on": "2026-05-28"
+      }
+    }
+  ]
+}

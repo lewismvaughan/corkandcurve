@@ -227,6 +227,15 @@ failures; do NOT repeat them:
    domain root is live. If you cannot confirm a specific sub-page,
    anchor to the verified site root or its real localized landing
    (`/en/`). Every deeper path must be HEAD-checked individually.
+   **Patterns are especially dangerous on consortium / association sites.**
+   Rhône 2026-05-28: the research agent synthesized 37 cuvée URLs as
+   `vins-rhone.com/en/cuvee/<slug>` from a "sensible" pattern; the entire
+   namespace was fabricated (the real cuvée-page structure does not
+   exist on that site). When a consortium hosts only appellation pages
+   (`/en/cotes-du-rhone-cru-aoc-cornas/`) it does not also host per-wine
+   pages — anchor to the appellation page or to the producer's verified
+   per-wine page. A plausible URL pattern on a live domain is still a
+   fabrication if you did not HEAD-verify the specific path.
 3. **Re-verify at research time.** Wine domains move on ownership /
    operator transitions (Caudalie's `sources-caudalie.com` ->
    `sources-hotels.com`; `cordeillan-bages.com` -> COMO). A remembered

@@ -100,6 +100,21 @@ milestone (don't try to source it). KEEP genuine non-numeric awards that
 you can confirm (e.g. Gambero Rosso "Tre Bicchieri", Decanter medal) and
 factual milestones (DOC granted, first vintage, replanting).
 
+**The "greatest" superlative class is categorical — no exceptions, not
+even for marquee wines (added 2026-05-28).** Rhône QA1 retained 9
+"France's greatest red wine" / "one of France's greatest white wines"
+/ "greatest Rhône reds ever produced" clauses on Chave Hermitage,
+Chapoutier Le Pavillon, Jaboulet La Chapelle, Beaucastel HJP etc. as
+"factual historical reputation statements." Opus removed them all.
+There is no "factual" version of an unfalsifiable superlative ranking,
+even when the wine genuinely is generally regarded as one of the
+greatest — write that with a sourceable concrete fact (first vintage,
+Tre Bicchieri count, Demeter conversion year) instead. Reputation is
+conveyed via `editorial_score` + tags + verified milestones, NOT via
+critic-style ranking copy. Strip any clause matching `greatest`,
+`finest`, `best ... in the world`, `among the world's`, `regarded as
+one of the`, `mythic` — even on Chave / Rayas / Beaucastel.
+
 **C2 — NUMERIC verification on top scores (added 2026-05-22).**
 For every score with `points >= 99`, you must verify the
 `(reviewer, points, vintage, year)` tuple against a real, citeable
@@ -230,6 +245,15 @@ and confirm:
   this, the fix is to locate the real per-wine page; only if none exists
   do you remove the taste block. Verify by actually opening 2-3 of the
   cited URLs and confirming the descriptor text is on the page.
+- **If you remove a taste block because the cited URL is dead (4xx) or
+  doesn't substantiate, ALSO reassign `verified.source_url` away from
+  that dead URL to a confirmed-200 substitute (the producer's verified
+  per-wine page on a different path, the appellation's consortium page,
+  or the producer site root). Do NOT leave a 404 URL in `source_url`
+  after stripping the taste — that ships a broken citation (Rhône
+  2026-05-28: QA2 stripped 37 taste blocks for dead `vins-rhone.com/en/
+  cuvee/<slug>` URLs but left the 404 source_url; Opus had to swap them
+  to the real appellation pages).**
 - The descriptors aren't all generic mass-market vocabulary ("notes
   of red fruit" with no specificity).
 

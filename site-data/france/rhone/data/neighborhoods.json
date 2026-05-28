@@ -1,0 +1,391 @@
+{
+  "neighborhoods": [
+    {
+      "slug": "cote-rotie",
+      "name": "Cote-Rotie",
+      "address": "Cote-Rotie, 69420 Ampuis, Rhone, France",
+      "classification": "Cote-Rotie AOC",
+      "description": "The Northern Rhone's northernmost appellation, a steep south-facing hill above the town of Ampuis divided into the iron-rich Cote Brune and the sandier Cote Blonde. Only Syrah is permitted for reds, with up to 20 percent Viognier co-fermented to add floral lift. The most prized single-vineyard parcels include La Mouline, La Landonne and La Turque, grown by Guigal.",
+      "key_varietals": ["Syrah", "Viognier"],
+      "sub_communes": [
+        "Ampuis",
+        "Saint-Cyr-sur-le-Rhone",
+        "Tupin-et-Semons"
+      ],
+      "area_ha": 340,
+      "famous_producers": [
+        "e-guigal",
+        "domaine-jamet",
+        "rene-rostaing",
+        "stephane-ogier",
+        "domaine-bonnefond"
+      ],
+      "aliases": ["Cote Rotie", "Rotie"],
+      "vibe": "Vertiginous terraced granite above the Rhone, where hand-harvested Syrah co-fermented with fragrant Viognier produces some of the world's most complex and aromatic red wines.",
+      "editorial_score": 5.0,
+      "verified": {
+        "source_url": "https://www.vins-rhone.com/en/appellations/cote-rotie",
+        "address_quoted": "Cote-Rotie, Ampuis, Rhone",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vins-rhone.com/en/appellations/cote-rotie",
+        "cuisine_evidence_url": "https://www.vins-rhone.com/en/appellations/cote-rotie",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "condrieu-chateau-grillet",
+      "name": "Condrieu and Chateau-Grillet",
+      "address": "Condrieu, 69420 Rhone, France",
+      "classification": "Condrieu AOC, Chateau-Grillet AOC",
+      "description": "The world's great Viognier territory, occupying a narrow band of granitic schist south of Cote-Rotie. Condrieu produces the most fragrant and peach-and-apricot-scented dry white wines in France from a patchwork of lieux-dits including Coteau de Vernon, Coteau Chery and Les Chaillets. Chateau-Grillet is a single-estate monopole (4 ha), one of France's smallest AOCs, producing a more mineral and age-worthy Viognier.",
+      "key_varietals": ["Viognier"],
+      "sub_communes": [
+        "Condrieu",
+        "Verin",
+        "Chateau-Grillet"
+      ],
+      "area_ha": 140,
+      "famous_producers": [
+        "georges-vernay",
+        "yves-cuilleron",
+        "andre-perret",
+        "francois-villard",
+        "domaine-faury"
+      ],
+      "aliases": ["Condrieu", "Chateau-Grillet"],
+      "vibe": "Fragrant schist terraces where the world's most expressive Viognier grows above the Rhone, filling the air with peach blossom and apricot.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.vins-rhone.com/en/appellations/condrieu",
+        "address_quoted": "Condrieu, Rhone",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vins-rhone.com/en/appellations/condrieu",
+        "cuisine_evidence_url": "https://www.vins-rhone.com/en/appellations/condrieu",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "saint-joseph-corridor",
+      "name": "Saint-Joseph Corridor",
+      "address": "Saint-Joseph, 07300 Mauves, Ardeche, France",
+      "classification": "Saint-Joseph AOC",
+      "description": "The Rhone's longest appellation, a 60-kilometre ribbon of granite and schist on the right bank from Chavanay south to Guilherand-Granges. Saint-Joseph red (Syrah) is lighter and more fragrant than Hermitage or Cornas; the white from Marsanne and Roussanne is one of the Northern Rhone's most underrated styles. Key communes include Mauves, Tournon, Guilherand and Chavanay.",
+      "key_varietals": ["Syrah", "Marsanne", "Roussanne"],
+      "sub_communes": [
+        "Chavanay",
+        "Mauves",
+        "Tournon-sur-Rhone",
+        "Saint-Jean-de-Muzols"
+      ],
+      "area_ha": 1200,
+      "famous_producers": [
+        "domaine-gonon",
+        "domaine-jean-louis-chave",
+        "pierre-gaillard",
+        "domaine-faury",
+        "francois-villard"
+      ],
+      "aliases": ["Saint-Joseph", "Saint Joseph"],
+      "vibe": "A long north-south granite corridor where fresh, aromatic Syrah and floral Marsanne-Roussanne whites grow far from the hype and prices of Hermitage, offering some of the Northern Rhone's best value.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.vins-rhone.com/en/appellations/saint-joseph",
+        "address_quoted": "Saint-Joseph, Mauves, Ardeche",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vins-rhone.com/en/appellations/saint-joseph",
+        "cuisine_evidence_url": "https://www.vins-rhone.com/en/appellations/saint-joseph",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "hermitage-hill",
+      "name": "Hermitage Hill",
+      "address": "Hermitage, 26600 Tain-l'Hermitage, Drome, France",
+      "classification": "Hermitage AOC",
+      "description": "A single south-facing granite hill above Tain-l'Hermitage, 136 hectares, dividing into named lieux-dits: Les Bessards (most granite, darkest Syrah), Le Meal (galets, most powerful), Les Greffieux and L'Ermite (highest, most mineral). The hill produces both the Northern Rhone's greatest Syrah and a rare Marsanne-Roussanne white of extraordinary longevity. Chapoutier, Jaboulet and Chave all farm here.",
+      "key_varietals": ["Syrah", "Marsanne", "Roussanne"],
+      "sub_communes": [
+        "Les Bessards",
+        "Le Meal",
+        "Les Greffieux",
+        "L'Ermite",
+        "Les Murets"
+      ],
+      "area_ha": 136,
+      "famous_producers": [
+        "m-chapoutier",
+        "paul-jaboulet-aine",
+        "domaine-jean-louis-chave"
+      ],
+      "aliases": ["Hermitage", "Tain l'Hermitage"],
+      "vibe": "A lone granite hill dominating a bend in the Rhone, visible for miles, where the most age-worthy Syrah and Marsanne whites in France grow on a tapestry of named lieux-dits.",
+      "editorial_score": 5.0,
+      "verified": {
+        "source_url": "https://www.vins-rhone.com/en/appellations/hermitage",
+        "address_quoted": "Tain-l'Hermitage, Drome",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vins-rhone.com/en/appellations/hermitage",
+        "cuisine_evidence_url": "https://www.vins-rhone.com/en/appellations/hermitage",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "crozes-hermitage-plateau",
+      "name": "Crozes-Hermitage Plateau",
+      "address": "Crozes-Hermitage, 26600 Pont-de-l'Isere, Drome, France",
+      "classification": "Crozes-Hermitage AOC",
+      "description": "The large appellation surrounding but not including the Hermitage hill itself. Ranges from the granitic northern sector around Gervans and Crozes to flatter alluvial plains south and east of Tain. The best parcels on free-draining glacial soils (notably Les Chassis and Pontaix) produce Syrah of genuine depth; whites from Marsanne and Roussanne are clean and age-worthy.",
+      "key_varietals": ["Syrah", "Marsanne", "Roussanne"],
+      "sub_communes": [
+        "Pont-de-l'Isere",
+        "Larnage",
+        "Crozes",
+        "Mercurol",
+        "Gervans"
+      ],
+      "area_ha": 1700,
+      "famous_producers": [
+        "alain-graillot",
+        "domaine-combier",
+        "domaine-belle",
+        "maxime-graillot",
+        "m-chapoutier"
+      ],
+      "aliases": ["Crozes-Hermitage", "Crozes"],
+      "vibe": "The approachable face of the Hermitage zone: wide plateaux and alluvial flats producing Crozes-Hermitage Syrah and Marsanne at prices that make the Northern Rhone accessible.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.vins-rhone.com/en/appellations/crozes-hermitage",
+        "address_quoted": "Pont-de-l'Isere, Drome",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vins-rhone.com/en/appellations/crozes-hermitage",
+        "cuisine_evidence_url": "https://www.vins-rhone.com/en/appellations/crozes-hermitage",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "cornas-saint-peray",
+      "name": "Cornas and Saint-Peray",
+      "address": "Cornas, 07130 Ardeche, France",
+      "classification": "Cornas AOC, Saint-Peray AOC",
+      "description": "The southernmost Northern Rhone appellations. Cornas (126 ha of pure granite) is the only Northern Rhone AOC permitting no other grape in its reds; Syrah here is the most tannic, darkest and most mineral of the north. Adjacent Saint-Peray grows Marsanne and Roussanne for both a still and a traditional-method sparkling white. Together they form the Northern Rhone's southern gateway before the valley opens into the south.",
+      "key_varietals": ["Syrah", "Marsanne", "Roussanne"],
+      "sub_communes": [
+        "Cornas",
+        "Saint-Peray"
+      ],
+      "area_ha": 250,
+      "famous_producers": [
+        "auguste-clape",
+        "thierry-allemand",
+        "vincent-paris",
+        "domaine-du-tunnel"
+      ],
+      "aliases": ["Cornas", "Saint-Peray"],
+      "vibe": "Cornas is granite intensity at its most uncompromising, dark and brooding Syrah from an amphitheatre of vines; Saint-Peray offers the only white appellation of the Southern Northern Rhone.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.vins-rhone.com/en/appellations/cornas",
+        "address_quoted": "Cornas, Ardeche",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vins-rhone.com/en/appellations/cornas",
+        "cuisine_evidence_url": "https://www.vins-rhone.com/en/appellations/cornas",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "chateauneuf-du-pape-zone",
+      "name": "Chateauneuf-du-Pape",
+      "address": "Chateauneuf-du-Pape, 84230 Vaucluse, France",
+      "classification": "Chateauneuf-du-Pape AOC",
+      "description": "The most famous appellation in the Southern Rhone, spread across seven communes on the Gard and Vaucluse banks. Three soil types define the wines: galets roulees (large rolled pebbles that retain heat), sandy soils (producing elegant Grenache as at Rayas) and clay-limestone. Up to 13 grape varieties are permitted; the dominant trio is Grenache, Mourvedre and Syrah. Red and white CdP are produced. The village itself has a ruined Avignon-era papal castle and multiple tasting rooms.",
+      "key_varietals": ["Grenache", "Mourvedre", "Syrah", "Roussanne", "Grenache Blanc", "Clairette"],
+      "sub_communes": [
+        "Chateauneuf-du-Pape",
+        "Courthezon",
+        "Bedarrides",
+        "Orange",
+        "Sorgues",
+        "Chateauneuf-du-Pape village"
+      ],
+      "area_ha": 3200,
+      "famous_producers": [
+        "chateau-de-beaucastel",
+        "chateau-rayas",
+        "domaine-du-vieux-telegraphe",
+        "clos-des-papes",
+        "domaine-du-pegau",
+        "domaine-de-la-janasse",
+        "domaine-charvin",
+        "chateau-la-nerthe"
+      ],
+      "aliases": ["Chateauneuf-du-Pape", "CdP"],
+      "vibe": "Medieval papal grandeur and sun-bleached galets roulees on the plateau, producing the Southern Rhone's most complex and profound Grenache-led reds alongside rare age-worthy whites.",
+      "editorial_score": 5.0,
+      "verified": {
+        "source_url": "https://www.vins-rhone.com/en/appellations/chateauneuf-du-pape",
+        "address_quoted": "Chateauneuf-du-Pape, Vaucluse",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vins-rhone.com/en/appellations/chateauneuf-du-pape",
+        "cuisine_evidence_url": "https://www.vins-rhone.com/en/appellations/chateauneuf-du-pape",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "dentelles-de-montmirail",
+      "name": "Dentelles de Montmirail (Gigondas and Vacqueyras)",
+      "address": "Gigondas, 84190 Vaucluse, France",
+      "classification": "Gigondas AOC, Vacqueyras AOC",
+      "description": "The jagged white limestone ridge of the Dentelles de Montmirail rises above the villages of Gigondas and Vacqueyras, providing a dramatic backdrop and a cool microclimate for the vineyards below. Gigondas (appellation since 1971) produces the most structured and age-worthy reds of the cluster from clay-limestone, sandstone and sandy soils. Vacqueyras (appellation since 1990) is slightly warmer and lower, producing generous, early-approachable Grenache reds.",
+      "key_varietals": ["Grenache", "Syrah", "Mourvedre"],
+      "sub_communes": [
+        "Gigondas",
+        "Vacqueyras",
+        "Sablet",
+        "Suzette"
+      ],
+      "area_ha": 1500,
+      "famous_producers": [
+        "domaine-santa-duc",
+        "domaine-raspail-ay",
+        "chateau-de-saint-cosme",
+        "domaine-du-cayron",
+        "domaine-vacqueyras-le-sang-des-cailloux"
+      ],
+      "aliases": ["Dentelles de Montmirail", "Gigondas", "Vacqueyras"],
+      "vibe": "Dramatic limestone pinnacles above garrique-covered hillsides, where Gigondas produces some of the Southern Rhone's most age-worthy structured reds alongside the more approachable Vacqueyras.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.vins-rhone.com/en/appellations/gigondas",
+        "address_quoted": "Gigondas, Vaucluse",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vins-rhone.com/en/appellations/gigondas",
+        "cuisine_evidence_url": "https://www.vins-rhone.com/en/appellations/gigondas",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "cairanne-rasteau",
+      "name": "Cairanne and Rasteau",
+      "address": "Cairanne, 84290 Vaucluse, France",
+      "classification": "Cairanne AOC, Rasteau AOC, Rasteau VDN AOC",
+      "description": "Two village appellations in the eastern Cotes du Rhone Villages zone, elevated to their own AOC status (Rasteau in 2010, Cairanne in 2016). Cairanne grows Grenache, Syrah and Mourvedre on clay and sandstone, producing structured, herb-and-olive reds. Rasteau is notable for both its dry red AOC and the fortified Rasteau VDN from Grenache, one of France's last traditional vins doux naturels in Rancio style.",
+      "key_varietals": ["Grenache", "Syrah", "Mourvedre"],
+      "sub_communes": [
+        "Cairanne",
+        "Rasteau",
+        "Roaix"
+      ],
+      "area_ha": 900,
+      "famous_producers": [
+        "domaine-brusset",
+        "domaine-de-la-presidente",
+        "domaine-la-soumade",
+        "domaine-gourt-de-mautens"
+      ],
+      "aliases": ["Cairanne", "Rasteau"],
+      "vibe": "Hill villages of the eastern Rhone plateau, making concentrated Grenache reds and one of France's last traditional fortified wine styles at prices that reward discovery.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.vins-rhone.com/en/appellations/cairanne",
+        "address_quoted": "Cairanne, Vaucluse",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vins-rhone.com/en/appellations/cairanne",
+        "cuisine_evidence_url": "https://www.vins-rhone.com/en/appellations/cairanne",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "tavel-lirac",
+      "name": "Tavel and Lirac",
+      "address": "Tavel, 30126 Gard, France",
+      "classification": "Tavel AOC, Lirac AOC",
+      "description": "On the Gard (west) bank of the Rhone, Tavel is France's only AOC producing exclusively rose wine, from Grenache-dominant blends on a galets-covered plateau. Tavel rose is more structured and vinous than most Provence roses, capable of ageing 2-5 years. Adjacent Lirac makes red, white and rose, with its sandy and stony soils producing elegant Grenache reds and surprisingly age-worthy whites from Clairette and Bourboulenc.",
+      "key_varietals": ["Grenache", "Clairette", "Mourvedre", "Cinsault", "Bourboulenc"],
+      "sub_communes": [
+        "Tavel",
+        "Lirac",
+        "Roquemaure"
+      ],
+      "area_ha": 1600,
+      "famous_producers": [
+        "domaine-de-la-mordoree",
+        "chateau-daqueria"
+      ],
+      "aliases": ["Tavel", "Lirac", "Gard bank"],
+      "vibe": "The west bank of the Rhone below the Pont du Gard, producing France's finest structured roses in Tavel and a trio of red, white and rose in Lirac.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.vins-rhone.com/en/appellations/tavel",
+        "address_quoted": "Tavel, Gard",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vins-rhone.com/en/appellations/tavel",
+        "cuisine_evidence_url": "https://www.vins-rhone.com/en/appellations/tavel",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "beaumes-de-venise-vinsobres",
+      "name": "Beaumes-de-Venise and Vinsobres",
+      "address": "Beaumes-de-Venise, 84190 Vaucluse, France",
+      "classification": "Muscat de Beaumes-de-Venise AOC, Beaumes-de-Venise AOC, Vinsobres AOC",
+      "description": "Beaumes-de-Venise produces both the famous Muscat de Beaumes-de-Venise VDN (fortified Muscat a Petits Grains, sweet and intensely floral) and a separate red AOC from Grenache and Syrah. The village sits below the Dentelles' eastern flank. Vinsobres, 20 km north, is the Rhone's most northerly southern village appellation, producing structured Grenache-Syrah reds on black limestone soils at altitude.",
+      "key_varietals": ["Muscat a Petits Grains", "Grenache", "Syrah"],
+      "sub_communes": [
+        "Beaumes-de-Venise",
+        "Lafare",
+        "Suzette",
+        "Vinsobres"
+      ],
+      "area_ha": 700,
+      "famous_producers": [
+        "domaine-de-coyeux",
+        "domaine-des-bernardins",
+        "famille-perrin"
+      ],
+      "aliases": ["Beaumes-de-Venise", "Vinsobres"],
+      "vibe": "The sweet Muscat VDN from Beaumes-de-Venise is an aperitif classic of the southern Rhone; Vinsobres produces the most altitude-cooled and structured reds of the eastern Vaucluse.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.vins-rhone.com/en/appellations/muscat-de-beaumes-de-venise",
+        "address_quoted": "Beaumes-de-Venise, Vaucluse",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vins-rhone.com/en/appellations/muscat-de-beaumes-de-venise",
+        "cuisine_evidence_url": "https://www.vins-rhone.com/en/appellations/muscat-de-beaumes-de-venise",
+        "checked_on": "2026-05-28"
+      }
+    },
+    {
+      "slug": "cotes-du-rhone-villages-regional",
+      "name": "Cotes du Rhone Villages (Regional)",
+      "address": "Cotes du Rhone Villages, Vaucluse and Gard, France",
+      "classification": "Cotes du Rhone Villages AOC, Cotes du Rhone AOC",
+      "description": "The broad appellation encompassing the named-village and general Cotes du Rhone Villages wines across the southern Rhone. Numerous villages can append their name to the label (including Sablet, Plan de Dieu, Signargues, Massif d'Uchaux), forming an intermediate tier between plain Cotes du Rhone and the village AOCs of Gigondas, Cairanne and Rasteau. The entry point to the Southern Rhone's style at very approachable prices.",
+      "key_varietals": ["Grenache", "Syrah", "Mourvedre", "Cinsault", "Grenache Blanc"],
+      "sub_communes": [
+        "Sablet",
+        "Plan de Dieu",
+        "Signargues",
+        "Massif d'Uchaux",
+        "Visan"
+      ],
+      "area_ha": 6500,
+      "famous_producers": [
+        "famille-perrin",
+        "domaine-brusset",
+        "domaine-de-la-presidente"
+      ],
+      "aliases": ["Cotes du Rhone Villages", "CDR Villages"],
+      "vibe": "The accessible heart of the southern Rhone, where dozens of villages make honest, garrigue-scented Grenache and Syrah blends that put the region's character within everyday reach.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.vins-rhone.com/en/appellations/cotes-du-rhone-villages",
+        "address_quoted": "Cotes du Rhone Villages, Vaucluse and Gard",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vins-rhone.com/en/appellations/cotes-du-rhone-villages",
+        "cuisine_evidence_url": "https://www.vins-rhone.com/en/appellations/cotes-du-rhone-villages",
+        "checked_on": "2026-05-28"
+      }
+    }
+  ]
+}

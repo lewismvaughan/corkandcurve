@@ -193,6 +193,18 @@
       ]
     },
     {
+      "slug": "bourboulenc",
+      "display": "Bourboulenc",
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "region_name": "Rhone Valley",
+          "n": 3
+        }
+      ]
+    },
+    {
       "slug": "cabernet-franc",
       "display": "Cabernet Franc",
       "regions": [
@@ -259,6 +271,18 @@
       ]
     },
     {
+      "slug": "camarese",
+      "display": "Camarese",
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "region_name": "Rhone Valley",
+          "n": 1
+        }
+      ]
+    },
+    {
       "slug": "canaiolo",
       "display": "Canaiolo",
       "regions": [
@@ -279,6 +303,18 @@
           "region_slug": "tuscany",
           "region_name": "Tuscany",
           "n": 5
+        }
+      ]
+    },
+    {
+      "slug": "carignan",
+      "display": "Carignan",
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "region_name": "Rhone Valley",
+          "n": 1
         }
       ]
     },
@@ -385,6 +421,30 @@
       ]
     },
     {
+      "slug": "cinsault",
+      "display": "Cinsault",
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "region_name": "Rhone Valley",
+          "n": 16
+        }
+      ]
+    },
+    {
+      "slug": "clairette",
+      "display": "Clairette",
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "region_name": "Rhone Valley",
+          "n": 16
+        }
+      ]
+    },
+    {
       "slug": "colorino",
       "display": "Colorino",
       "regions": [
@@ -459,6 +519,18 @@
           "region_slug": "veneto",
           "region_name": "Veneto",
           "n": 26
+        }
+      ]
+    },
+    {
+      "slug": "counoise",
+      "display": "Counoise",
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "region_name": "Rhone Valley",
+          "n": 9
         }
       ]
     },
@@ -757,6 +829,30 @@
       ]
     },
     {
+      "slug": "grenache",
+      "display": "Grenache",
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "region_name": "Rhone Valley",
+          "n": 51
+        }
+      ]
+    },
+    {
+      "slug": "grenache-blanc",
+      "display": "Grenache Blanc",
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "region_name": "Rhone Valley",
+          "n": 9
+        }
+      ]
+    },
+    {
       "slug": "grignolino",
       "display": "Grignolino",
       "regions": [
@@ -909,6 +1005,18 @@
           "region_slug": "tuscany",
           "region_name": "Tuscany",
           "n": 4
+        }
+      ]
+    },
+    {
+      "slug": "marsanne",
+      "display": "Marsanne",
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "region_name": "Rhone Valley",
+          "n": 29
         }
       ]
     },
@@ -1099,6 +1207,18 @@
       ]
     },
     {
+      "slug": "mourvedre",
+      "display": "Mourvedre",
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "region_name": "Rhone Valley",
+          "n": 38
+        }
+      ]
+    },
+    {
       "slug": "muller-thurgau",
       "display": "Muller-Thurgau",
       "regions": [
@@ -1119,6 +1239,18 @@
           "region_slug": "bordeaux",
           "region_name": "Bordeaux",
           "n": 5
+        }
+      ]
+    },
+    {
+      "slug": "muscat-a-petits-grains",
+      "display": "Muscat a Petits Grains",
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "region_name": "Rhone Valley",
+          "n": 2
         }
       ]
     },
@@ -1287,6 +1419,18 @@
           "region_slug": "tuscany",
           "region_name": "Tuscany",
           "n": 7
+        }
+      ]
+    },
+    {
+      "slug": "picpoul",
+      "display": "Picpoul",
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "region_name": "Rhone Valley",
+          "n": 2
         }
       ]
     },
@@ -1495,6 +1639,18 @@
       ]
     },
     {
+      "slug": "roussanne",
+      "display": "Roussanne",
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "region_name": "Rhone Valley",
+          "n": 30
+        }
+      ]
+    },
+    {
       "slug": "ruche",
       "display": "Ruche",
       "regions": [
@@ -1639,6 +1795,18 @@
       ]
     },
     {
+      "slug": "serine-ancient-syrah-clone",
+      "display": "Serine (ancient Syrah clone)",
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "region_name": "Rhone Valley",
+          "n": 1
+        }
+      ]
+    },
+    {
       "slug": "sousao",
       "display": "Sousao",
       "regions": [
@@ -1690,6 +1858,12 @@
       "slug": "syrah",
       "display": "Syrah",
       "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "region_name": "Rhone Valley",
+          "n": 75
+        },
         {
           "country_slug": "italy",
           "region_slug": "sicily",
@@ -1885,6 +2059,18 @@
       ]
     },
     {
+      "slug": "vaccarese",
+      "display": "Vaccarese",
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "region_name": "Rhone Valley",
+          "n": 6
+        }
+      ]
+    },
+    {
       "slug": "verdejo",
       "display": "Verdejo",
       "regions": [
@@ -1966,6 +2152,12 @@
       "slug": "viognier",
       "display": "Viognier",
       "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "rhone",
+          "region_name": "Rhone Valley",
+          "n": 22
+        },
         {
           "country_slug": "italy",
           "region_slug": "sicily",
