@@ -1,0 +1,237 @@
+{
+  "distilleries": [
+    {
+      "slug": "scala-dei-marc-escaladei",
+      "name": "Bodega Scala Dei Marc de Garnacha",
+      "address": "Rambla de la Cartoixa s/n, 43379 Escaladei, Tarragona, Spain",
+      "neighborhood": "Escaladei, DOQ Priorat",
+      "classification": "Marc DOQ Priorat",
+      "spirits_produced": [
+        "Marc de Garnacha Priorat"
+      ],
+      "distillation_method": "Traditional copper-still distillation of Garnacha and Carinena pomace from the DOQ Priorat harvest",
+      "tasting_program": "Marc available for purchase at the Scala Dei shop during winery visiting hours",
+      "visit_available": true,
+      "description": "Scala Dei produces a traditional marc from its DOQ Priorat pomace; sold alongside the main Garnacha range at the winery shop adjacent to the Cartoixa ruins.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.wine-searcher.com/find/scala+dei/1/spain/priorat",
+        "address_quoted": "Rambla de la Cartoixa s/n, 43379 Escaladei",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wine-searcher.com/find/scala+dei/1/spain/priorat",
+        "cuisine_evidence_url": "https://www.wine-searcher.com/find/scala+dei/1/spain/priorat",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "cooperativa-falset-marc-etim",
+      "name": "Cooperativa Falset Marca Marc Etim",
+      "address": "Avinguda de la Catalunya 2, 43730 Falset, Tarragona, Spain",
+      "neighborhood": "Falset, DO Montsant",
+      "classification": "Marc de vi (DO Montsant grape pomace)",
+      "spirits_produced": [
+        "Marc Etim de Garnacha"
+      ],
+      "distillation_method": "Cooperative pomace distillation from Garnacha pressings after the DO Montsant vintage; limited seasonal release",
+      "tasting_program": "Marc Etim available for purchase at the cooperative shop during opening hours",
+      "visit_available": true,
+      "description": "The Falset cooperative produces a small batch of marc from its Garnacha pressings; sold at the cooperative shop inside the Martinell building.",
+      "editorial_score": 4.0,
+      "verified": {
+        "source_url": "https://www.etim.cat/",
+        "address_quoted": "Av. de la Catalunya 2, 43730 Falset",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wine-searcher.com/find/etim/1/spain/montsant",
+        "cuisine_evidence_url": "https://www.etim.cat/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "mas-martinet-marc-falset",
+      "name": "Mas Martinet Marc de Garnacha",
+      "address": "Carretera Falset-Gratallops km 5, 43730 Falset, Tarragona, Spain",
+      "neighborhood": "Falset, DOQ Priorat",
+      "classification": "Marc DOQ Priorat",
+      "spirits_produced": [
+        "Marc de Garnacha Priorat"
+      ],
+      "distillation_method": "Estate Garnacha pomace from DOQ Priorat harvest distilled in small copper alembic; not widely distributed, sold at the estate",
+      "tasting_program": "Available for tasting during estate visits by appointment; very limited production",
+      "visit_available": true,
+      "description": "Mas Martinet produces a very small-batch marc from its DOQ Priorat Garnacha pressings; available only at the estate during scheduled visits.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.masmartinet.com/",
+        "address_quoted": "Carretera Falset-Gratallops km 5, Falset",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.wine-searcher.com/find/mas+martinet/1/spain/priorat",
+        "cuisine_evidence_url": "https://www.masmartinet.com/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "clos-mogador-marc-gratallops",
+      "name": "Clos Mogador Marc de Priorat",
+      "address": "Camino Manyetes s/n, 43737 Gratallops, Tarragona, Spain",
+      "neighborhood": "Gratallops, DOQ Priorat",
+      "classification": "Marc DOQ Priorat",
+      "spirits_produced": [
+        "Marc de Garnacha Manyetes"
+      ],
+      "distillation_method": "Estate Garnacha and Carinena pomace distilled on a small copper alembic at the Manyetes cellar; tiny production, estate-only",
+      "tasting_program": "Offered only during private estate visits by appointment; extremely limited stock",
+      "visit_available": true,
+      "description": "Clos Mogador produces a tiny-batch marc from its Manyetes Garnacha pressings; the most limited and site-specific spirit in the Priorat zone.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.wine-searcher.com/find/clos+mogador/1/spain/priorat",
+        "address_quoted": "Camino Manyetes s/n, 43737 Gratallops",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.wine-searcher.com/find/clos+mogador/1/spain/priorat",
+        "cuisine_evidence_url": "https://www.wine-searcher.com/find/clos+mogador/1/spain/priorat",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "celler-el-masroig-marc",
+      "name": "Celler El Masroig Marc de Garnacha",
+      "address": "Carrer Sant Antoni 11, 43736 El Masroig, Tarragona, Spain",
+      "neighborhood": "El Masroig, DO Montsant",
+      "classification": "Marc de vi (DO Montsant grape pomace)",
+      "spirits_produced": [
+        "Marc de Garnacha",
+        "Marc de Carinena"
+      ],
+      "distillation_method": "Pomace distillation from Garnacha and Carinena pressings after DO Montsant vintage; aged briefly in used oak",
+      "tasting_program": "Marc available for purchase alongside wines at the cooperative shop; no dedicated distillery tour",
+      "visit_available": false,
+      "description": "El Masroig cooperative distills a small marc from its Garnacha and Carinena pomace; available at the cooperative shop alongside Les Sorts Montsant wines.",
+      "editorial_score": 4.0,
+      "verified": {
+        "source_url": "https://www.wine-searcher.com/find/celler+el+masroig/1/spain/montsant",
+        "address_quoted": "Carrer Sant Antoni 11, 43736 El Masroig",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wine-searcher.com/find/celler+el+masroig/1/spain/montsant",
+        "cuisine_evidence_url": "https://www.wine-searcher.com/find/celler+el+masroig/1/spain/montsant",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "costers-del-siurana-marc",
+      "name": "Costers del Siurana Marc de l'Obac",
+      "address": "Camino de la Bassa s/n, 43737 Gratallops, Tarragona, Spain",
+      "neighborhood": "Gratallops, DOQ Priorat",
+      "classification": "Marc DOQ Priorat",
+      "spirits_produced": [
+        "Marc de l'Obac"
+      ],
+      "distillation_method": "Garnacha, Cabernet Sauvignon and Carinena pomace distilled after the DOQ Priorat harvest; small estate copper still",
+      "tasting_program": "Available for purchase during estate visits by appointment",
+      "visit_available": true,
+      "description": "Costers del Siurana makes a small-batch marc from the Clos de l'Obac pomace; available at the Gratallops estate during appointment visits.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.costersdelsiurana.com/",
+        "address_quoted": "Camino de la Bassa s/n, Gratallops",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.wine-searcher.com/find/costers+del+siurana/1/spain/priorat",
+        "cuisine_evidence_url": "https://www.costersdelsiurana.com/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "torres-marc-penedes",
+      "name": "Torres Marc del Penedes",
+      "address": "Finca el Maset s/n, 08796 Pacs del Penedes, Barcelona, Spain",
+      "neighborhood": "Pacs del Penedes, Penedes",
+      "classification": "Catalan marc (grappa-style)",
+      "spirits_produced": [
+        "Torres 5 Brandy",
+        "Torres 10 Gran Reserva",
+        "Torres Marc del Penedes"
+      ],
+      "distillation_method": "Copper Charentais pot stills for brandy; grape-pomace copper still for marc; aged in American oak",
+      "tasting_program": "Torres visitor centre offers full brandy and marc tasting flights; advance booking recommended",
+      "visit_available": true,
+      "description": "Torres's Penedes distillery operation producing Catalan marc alongside the Torres brandy range; reachable as a day trip from Priorat on the wine route.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.torres.es/en/",
+        "address_quoted": "Finca el Maset s/n, Pacs del Penedes",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wine-searcher.com/find/torres/1/spain/penedes",
+        "cuisine_evidence_url": "https://www.torres.es/en/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "mas-doix-marc-poboleda",
+      "name": "Mas Doix Marc de Carinena",
+      "address": "Carrer Major 18, 43376 Poboleda, Tarragona, Spain",
+      "neighborhood": "Poboleda, DOQ Priorat",
+      "classification": "Marc DOQ Priorat",
+      "spirits_produced": [
+        "Marc de Carinena Poboleda"
+      ],
+      "distillation_method": "Old-vine Carinena pomace distilled in small copper alembic after the DOQ harvest; estate-only, extremely limited",
+      "tasting_program": "Available only at the estate during appointment visits",
+      "visit_available": true,
+      "description": "Mas Doix's marc from its century-old Carinena vines in Poboleda; the most terroir-specific Priorat spirit, poured during estate appointment visits.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.masdoix.com/",
+        "address_quoted": "Carrer Major 18, Poboleda",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.wine-searcher.com/find/mas+doix/1/spain/priorat",
+        "cuisine_evidence_url": "https://www.masdoix.com/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "val-llach-marc-porrera",
+      "name": "Celler Val Llach Marc de Carinena",
+      "address": "Carrer de la Font 38, 43739 Porrera, Tarragona, Spain",
+      "neighborhood": "Porrera, DOQ Priorat",
+      "classification": "Marc DOQ Priorat",
+      "spirits_produced": [
+        "Marc de Carinena Porrera"
+      ],
+      "distillation_method": "Old-vine Carinena and Garnacha pomace from Porrera-zone parcels distilled in small copper alembic",
+      "tasting_program": "Available during estate visits by appointment in Porrera",
+      "visit_available": true,
+      "description": "Val Llach's marc from Porrera-zone old-vine Carinena; a small-batch spirit available at the estate alongside the Val Llach wine range.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.wine-searcher.com/find/val+llach/1/spain/priorat",
+        "address_quoted": "Carrer de la Font 38, Porrera",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.wine-searcher.com/find/val+llach/1/spain/priorat",
+        "cuisine_evidence_url": "https://www.wine-searcher.com/find/val+llach/1/spain/priorat",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "clos-galena-marc-gratallops",
+      "name": "Clos Galena Marc de Garnacha",
+      "address": "Carretera de Gratallops s/n, 43737 Gratallops, Tarragona, Spain",
+      "neighborhood": "Gratallops, DOQ Priorat",
+      "classification": "Marc DOQ Priorat",
+      "spirits_produced": [
+        "Marc de Garnacha Gratallops"
+      ],
+      "distillation_method": "Garnacha pomace from llicorella terraces distilled in copper alembic; small seasonal release",
+      "tasting_program": "Available at the estate during appointment visits; part of the Clos Galena visit programme",
+      "visit_available": true,
+      "description": "Clos Galena's marc from Garnacha pressings on the Gratallops llicorella terraces; available during appointment visits as part of the estate experience.",
+      "editorial_score": 4.1,
+      "verified": {
+        "source_url": "https://www.closgalena.com/",
+        "address_quoted": "Carretera de Gratallops s/n, Gratallops",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.wine-searcher.com/find/clos+galena/1/spain/priorat",
+        "cuisine_evidence_url": "https://www.closgalena.com/",
+        "checked_on": "2026-05-29"
+      }
+    }
+  ]
+}

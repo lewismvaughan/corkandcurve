@@ -41,8 +41,13 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 SITE_DATA = REPO_ROOT / "site-data"
 
 # Free-text fields worth scanning across any entity dict.
+# Priorat 2026-05-29: Opus found 11 soft-superlatives surviving in looser-
+# register colour-copy fields (`vibe`, `what_locals_love`, `wine_program`,
+# `where_to_buy`) where research agents tuck "punchy takes" — added below.
 TEXT_FIELDS = ("event", "description", "summary", "tip", "note", "history",
-               "blurb", "why", "headline", "intro")
+               "blurb", "why", "headline", "intro",
+               "vibe", "what_locals_love", "wine_program", "where_to_buy",
+               "highlight", "atmosphere", "scene", "service")
 
 CRITICS = (r"parker", r"wine\s*advocate", r"\bWA\b", r"wine\s*spectator",
            r"\bWS\b", r"james\s*suckling", r"\bJS\b", r"vinous", r"galloni",

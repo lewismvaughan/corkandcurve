@@ -1,0 +1,386 @@
+{
+  "tasting_rooms": [
+    {
+      "slug": "clos-mogador-tasting-gratallops",
+      "name": "Clos Mogador",
+      "address": "Camino Manyetes s/n, 43737 Gratallops, Tarragona, Spain",
+      "neighborhood": "Gratallops, DOQ Priorat",
+      "varietals_focus": [
+        "Garnacha",
+        "Cabernet Sauvignon",
+        "Syrah",
+        "Carinena"
+      ],
+      "pricing": "Guided cellar visit with tasting by appointment; contact winery for current rates",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "clos-mogador",
+      "description": "Rene Barbier's original 1989 revival estate on llicorella slate terraces above Gratallops; tasting visits explore the Manyetes vineyards and the historic cellar.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.wine-searcher.com/find/clos+mogador/1/spain/priorat",
+        "address_quoted": "Camino Manyetes s/n, 43737 Gratallops",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.wine-searcher.com/find/clos+mogador/1/spain/priorat",
+        "cuisine_evidence_url": "https://www.wine-searcher.com/find/clos+mogador/1/spain/priorat",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "alvaro-palacios-tasting-gratallops",
+      "name": "Alvaro Palacios Winery",
+      "address": "Carretera de Gratallops a la Vilella Baixa km 1, 43737 Gratallops, Tarragona, Spain",
+      "neighborhood": "Gratallops, DOQ Priorat",
+      "varietals_focus": [
+        "Garnacha",
+        "Carinena"
+      ],
+      "pricing": "Visits strictly by appointment; contact via website",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "alvaro-palacios",
+      "description": "Home of Finca Dofi and L'Ermita, Alvaro Palacios's Gratallops cellar offers appointment-only tours of the llicorella terraces and the barrel room.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.alvaropalacios.com/",
+        "address_quoted": "Carretera de Gratallops a la Vilella Baixa km 1, Gratallops",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.wine-searcher.com/find/alvaro+palacios/1/spain/priorat",
+        "cuisine_evidence_url": "https://www.alvaropalacios.com/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "mas-martinet-tasting-falset",
+      "name": "Mas Martinet",
+      "address": "Carretera Falset-Gratallops km 5, 43730 Falset, Tarragona, Spain",
+      "neighborhood": "Falset, DOQ Priorat",
+      "varietals_focus": [
+        "Garnacha",
+        "Carinena",
+        "Syrah",
+        "Cabernet Sauvignon"
+      ],
+      "pricing": "Appointment-only guided visits with tasting; details via email",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "mas-martinet",
+      "description": "Sara Perez's family estate on the Falset-Gratallops road; winery visits combine llicorella terrace walks with tasting of Clos Martinet and the Camino range.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.masmartinet.com/",
+        "address_quoted": "Carretera Falset-Gratallops km 5, Falset",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.wine-searcher.com/find/mas+martinet/1/spain/priorat",
+        "cuisine_evidence_url": "https://www.masmartinet.com/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "costers-del-siurana-tasting-gratallops",
+      "name": "Costers del Siurana (Clos de l'Obac)",
+      "address": "Camino de la Bassa s/n, 43737 Gratallops, Tarragona, Spain",
+      "neighborhood": "Gratallops, DOQ Priorat",
+      "varietals_focus": [
+        "Garnacha",
+        "Cabernet Sauvignon",
+        "Merlot",
+        "Syrah",
+        "Carinena"
+      ],
+      "pricing": "Guided vineyard and cellar tour with tasting by appointment; rates on request",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "costers-del-siurana",
+      "description": "Carles Pastrana's Gratallops estate, one of the 1989 founding five; tours take in the Obac terraces, the barrel cellar and a tasting of Miserere and Clos de l'Obac.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.costersdelsiurana.com/",
+        "address_quoted": "Camino de la Bassa s/n, Gratallops",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.wine-searcher.com/find/costers+del+siurana/1/spain/priorat",
+        "cuisine_evidence_url": "https://www.costersdelsiurana.com/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "celler-val-llach-tasting-porrera",
+      "name": "Celler Val Llach",
+      "address": "Carrer de la Font 38, 43739 Porrera, Tarragona, Spain",
+      "neighborhood": "Porrera, DOQ Priorat",
+      "varietals_focus": [
+        "Carinena",
+        "Garnacha",
+        "Merlot",
+        "Cabernet Sauvignon"
+      ],
+      "pricing": "Cellar visit with tasting by appointment; fees on inquiry",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "celler-val-llach",
+      "description": "Founded by musician Lluis Llach and Enric Costa, this Porrera cellar champions old-vine Carinena; visits include the village cellar and a tasting of Embruix and Val Llach.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.wine-searcher.com/find/val+llach/1/spain/priorat",
+        "address_quoted": "Carrer de la Font 38, Porrera",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.wine-searcher.com/find/val+llach/1/spain/priorat",
+        "cuisine_evidence_url": "https://www.wine-searcher.com/find/val+llach/1/spain/priorat",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "mas-doix-tasting-poboleda",
+      "name": "Mas Doix",
+      "address": "Carrer Major 18, 43376 Poboleda, Tarragona, Spain",
+      "neighborhood": "Poboleda, DOQ Priorat",
+      "varietals_focus": [
+        "Carinena",
+        "Garnacha"
+      ],
+      "pricing": "Private guided tasting by appointment; contact bodega directly",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "mas-doix",
+      "description": "Llicorella-terrace estate in Poboleda tended by the Doix family; its Salanques and Mas Doix labels draw from vines over 100 years old.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.masdoix.com/",
+        "address_quoted": "Carrer Major 18, Poboleda",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.wine-searcher.com/find/mas+doix/1/spain/priorat",
+        "cuisine_evidence_url": "https://www.masdoix.com/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "cellers-cecilio-tasting-gratallops",
+      "name": "Cellers Cecilio",
+      "address": "Carrer Major 4, 43737 Gratallops, Tarragona, Spain",
+      "neighborhood": "Gratallops, DOQ Priorat",
+      "varietals_focus": [
+        "Garnacha",
+        "Carinena",
+        "Syrah"
+      ],
+      "pricing": "Cellar visit and tasting in the historic village cellar; by appointment",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "cellers-cecilio",
+      "description": "Historic family cellar in the heart of Gratallops village with stone surroundings and Garnacha-dominant Priorat in a traditional village setting.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.vivino.com/wineries/cellers-cecilio",
+        "address_quoted": "Carrer Major 4, Gratallops",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wine-searcher.com/find/cellers+cecilio/1/spain/priorat",
+        "cuisine_evidence_url": "https://www.wine-searcher.com/find/cellers+cecilio/1/spain/priorat",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "cooperativa-falset-marca-tasting",
+      "name": "Cooperativa Falset Marca (Etim)",
+      "address": "Avinguda de la Catalunya 2, 43730 Falset, Tarragona, Spain",
+      "neighborhood": "Falset, DO Montsant",
+      "varietals_focus": [
+        "Garnacha",
+        "Carinena",
+        "Syrah",
+        "Merlot"
+      ],
+      "pricing": "Guided tour of the 1919 modernist cooperative building with tasting; walk-in welcome during opening hours",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": "cooperativa-falset-marca",
+      "description": "Cesar Martinell-designed 1919 cooperative in Falset producing the Etim range; its modernist wine-cathedral architecture is as compelling as the Garnacha inside.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.etim.cat/",
+        "address_quoted": "Av. de la Catalunya 2, 43730 Falset",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wine-searcher.com/find/etim/1/spain/montsant",
+        "cuisine_evidence_url": "https://www.etim.cat/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "scala-dei-tasting-escaladei",
+      "name": "Bodega Scala Dei",
+      "address": "Rambla de la Cartoixa s/n, 43379 Escaladei, Tarragona, Spain",
+      "neighborhood": "Escaladei, DOQ Priorat",
+      "varietals_focus": [
+        "Garnacha",
+        "Carinena",
+        "Syrah"
+      ],
+      "pricing": "Guided tour of the historic winery adjacent to the Cartoixa ruins with tasting; open most days, reservation recommended",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": "scala-dei",
+      "description": "Founded 1973 next to the Cartoixa d'Escaladei ruins; one of Priorat's earliest modern wineries with a tasting programme at the original Carthusian vine site.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.wine-searcher.com/find/scala+dei/1/spain/priorat",
+        "address_quoted": "Rambla de la Cartoixa s/n, 43379 Escaladei",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wine-searcher.com/find/scala+dei/1/spain/priorat",
+        "cuisine_evidence_url": "https://www.wine-searcher.com/find/scala+dei/1/spain/priorat",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "clos-erasmus-tasting-gratallops",
+      "name": "Clos Erasmus",
+      "address": "Carrer de l'Era 7, 43737 Gratallops, Tarragona, Spain",
+      "neighborhood": "Gratallops, DOQ Priorat",
+      "varietals_focus": [
+        "Garnacha",
+        "Syrah",
+        "Cabernet Sauvignon"
+      ],
+      "pricing": "Private visits by appointment only; very limited capacity",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "clos-erasmus",
+      "description": "Daphne Glorian's boutique Gratallops estate and one of the original five from 1989; tiny quantities of Clos Erasmus and Laurel produced in the village cellar.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.wine-searcher.com/find/clos+erasmus/1/spain/priorat",
+        "address_quoted": "Carrer de l'Era 7, Gratallops",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.vivino.com/wineries/clos-erasmus",
+        "cuisine_evidence_url": "https://www.wine-searcher.com/find/clos+erasmus/1/spain/priorat",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "celler-el-masroig-tasting",
+      "name": "Celler El Masroig",
+      "address": "Carrer Sant Antoni 11, 43736 El Masroig, Tarragona, Spain",
+      "neighborhood": "El Masroig, DO Montsant",
+      "varietals_focus": [
+        "Garnacha",
+        "Carinena",
+        "Syrah",
+        "Ull de Llebre"
+      ],
+      "pricing": "Group tastings and visits by appointment; cooperative pricing",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "celler-el-masroig",
+      "description": "El Masroig cooperative offering tastings of its Les Sorts and Sola Fred range from Montsant terraces along the southern DOQ Priorat boundary.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.wine-searcher.com/find/celler+el+masroig/1/spain/montsant",
+        "address_quoted": "Carrer Sant Antoni 11, 43736 El Masroig",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wine-searcher.com/find/celler+el+masroig/1/spain/montsant",
+        "cuisine_evidence_url": "https://www.wine-searcher.com/find/celler+el+masroig/1/spain/montsant",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "torres-salmos-tasting-gratallops",
+      "name": "Torres Salmos",
+      "address": "Camino de la Vilella s/n, 43737 Gratallops, Tarragona, Spain",
+      "neighborhood": "Gratallops, DOQ Priorat",
+      "varietals_focus": [
+        "Garnacha",
+        "Carinena",
+        "Syrah",
+        "Cabernet Sauvignon"
+      ],
+      "pricing": "Visits as part of Torres enoturismo programme; booking via Torres website",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "torres-salmos",
+      "description": "The Torres family Priorat project; Salmos winery visits can be arranged through Torres enoturismo, combining llicorella terraces with the Salmos tasting portfolio.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.torres.es/en/",
+        "address_quoted": "Camino de la Vilella s/n, Gratallops",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.wine-searcher.com/find/torres+salmos/1/spain/priorat",
+        "cuisine_evidence_url": "https://www.torres.es/en/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "venus-la-universal-tasting-falset",
+      "name": "Venus la Universal",
+      "address": "Carrer de Santa Creu 8, 43730 Falset, Tarragona, Spain",
+      "neighborhood": "Falset, DO Montsant",
+      "varietals_focus": [
+        "Garnacha",
+        "Carinena",
+        "Syrah"
+      ],
+      "pricing": "Tasting by appointment; contact via website",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "venus-la-universal",
+      "description": "Sara Perez and Rene Barbier Jr's Falset project on DO Montsant with a natural-winemaking approach; old-vine Garnacha and Carinena at accessible price points.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.venuslauniversal.com/",
+        "address_quoted": "Carrer de Santa Creu 8, Falset",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.wine-searcher.com/find/venus+la+universal/1/spain/montsant",
+        "cuisine_evidence_url": "https://www.venuslauniversal.com/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "clos-galena-tasting-gratallops",
+      "name": "Clos Galena",
+      "address": "Carretera de Gratallops s/n, 43737 Gratallops, Tarragona, Spain",
+      "neighborhood": "Gratallops, DOQ Priorat",
+      "varietals_focus": [
+        "Garnacha",
+        "Carinena",
+        "Syrah",
+        "Cabernet Sauvignon"
+      ],
+      "pricing": "Guided winery and vineyard visits by appointment; rates on inquiry",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "clos-galena",
+      "description": "Family winery run by Marc Ribo near Gratallops producing layered DOQ Priorat from old-vine llicorella terraces; tours focus on sustainable viticulture.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.closgalena.com/",
+        "address_quoted": "Carretera de Gratallops s/n, Gratallops",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.wine-searcher.com/find/clos+galena/1/spain/priorat",
+        "cuisine_evidence_url": "https://www.closgalena.com/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "mas-den-brunell-tasting-el-lloar",
+      "name": "Mas den Brunell",
+      "address": "Carretera T-702 km 4.5, 43739 El Lloar, Tarragona, Spain",
+      "neighborhood": "El Lloar, DOQ Priorat",
+      "varietals_focus": [
+        "Garnacha",
+        "Carinena",
+        "Syrah"
+      ],
+      "pricing": "Tasting visits by appointment; contact bodega directly",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "mas-den-brunell",
+      "description": "El Lloar estate on DOQ Priorat terraces producing a mineral single-village style from llicorella and slate soils; intimate tasting by appointment.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.wine-searcher.com/find/mas+den+brunell/1/spain/priorat",
+        "address_quoted": "Carretera T-702 km 4.5, El Lloar",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.vivino.com/wineries/mas-d-en-brunell",
+        "cuisine_evidence_url": "https://www.wine-searcher.com/find/mas+den+brunell/1/spain/priorat",
+        "checked_on": "2026-05-29"
+      }
+    }
+  ]
+}

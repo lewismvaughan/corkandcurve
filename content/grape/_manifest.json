@@ -294,6 +294,12 @@
         },
         {
           "country_slug": "spain",
+          "region_slug": "priorat",
+          "region_name": "Priorat",
+          "n": 31
+        },
+        {
+          "country_slug": "spain",
           "region_slug": "ribera-del-duero",
           "region_name": "Ribera del Duero",
           "n": 18
@@ -363,6 +369,18 @@
           "region_slug": "rhone",
           "region_name": "Rhone Valley",
           "n": 1
+        }
+      ]
+    },
+    {
+      "slug": "carinena",
+      "display": "Cariñena",
+      "regions": [
+        {
+          "country_slug": "spain",
+          "region_slug": "priorat",
+          "region_name": "Priorat",
+          "n": 75
         }
       ]
     },
@@ -465,6 +483,18 @@
           "region_slug": "wachau",
           "region_name": "Wachau",
           "n": 5
+        }
+      ]
+    },
+    {
+      "slug": "chenin-blanc",
+      "display": "Chenin Blanc",
+      "regions": [
+        {
+          "country_slug": "spain",
+          "region_slug": "priorat",
+          "region_name": "Priorat",
+          "n": 1
         }
       ]
     },
@@ -780,6 +810,12 @@
       "regions": [
         {
           "country_slug": "spain",
+          "region_slug": "priorat",
+          "region_name": "Priorat",
+          "n": 77
+        },
+        {
+          "country_slug": "spain",
           "region_slug": "rioja",
           "region_name": "Rioja",
           "n": 41
@@ -790,6 +826,12 @@
       "slug": "garnacha-blanca",
       "display": "Garnacha Blanca",
       "regions": [
+        {
+          "country_slug": "spain",
+          "region_slug": "priorat",
+          "region_name": "Priorat",
+          "n": 23
+        },
         {
           "country_slug": "spain",
           "region_slug": "rioja",
@@ -1087,6 +1129,18 @@
       ]
     },
     {
+      "slug": "macabeo",
+      "display": "Macabeo",
+      "regions": [
+        {
+          "country_slug": "spain",
+          "region_slug": "priorat",
+          "region_name": "Priorat",
+          "n": 6
+        }
+      ]
+    },
+    {
       "slug": "malbec",
       "display": "Malbec",
       "regions": [
@@ -1290,6 +1344,12 @@
         },
         {
           "country_slug": "spain",
+          "region_slug": "priorat",
+          "region_name": "Priorat",
+          "n": 10
+        },
+        {
+          "country_slug": "spain",
           "region_slug": "ribera-del-duero",
           "region_name": "Ribera del Duero",
           "n": 7
@@ -1477,6 +1537,18 @@
       ]
     },
     {
+      "slug": "muscat",
+      "display": "Muscat",
+      "regions": [
+        {
+          "country_slug": "spain",
+          "region_slug": "priorat",
+          "region_name": "Priorat",
+          "n": 1
+        }
+      ]
+    },
+    {
       "slug": "muscat-a-petits-grains",
       "display": "Muscat a Petits Grains",
       "regions": [
@@ -1616,13 +1688,19 @@
     },
     {
       "slug": "pedro-ximenez",
-      "display": "Pedro Ximénez",
+      "display": "Pedro Ximenez",
       "regions": [
         {
           "country_slug": "spain",
           "region_slug": "jerez",
           "region_name": "Jerez & Sherry",
           "n": 43
+        },
+        {
+          "country_slug": "spain",
+          "region_slug": "priorat",
+          "region_name": "Priorat",
+          "n": 2
         }
       ]
     },
@@ -1943,6 +2021,12 @@
       "display": "Roussanne",
       "regions": [
         {
+          "country_slug": "spain",
+          "region_slug": "priorat",
+          "region_name": "Priorat",
+          "n": 1
+        },
+        {
           "country_slug": "france",
           "region_slug": "rhone",
           "region_name": "Rhone Valley",
@@ -2189,6 +2273,12 @@
       "display": "Syrah",
       "regions": [
         {
+          "country_slug": "spain",
+          "region_slug": "priorat",
+          "region_name": "Priorat",
+          "n": 38
+        },
+        {
           "country_slug": "france",
           "region_slug": "rhone",
           "region_name": "Rhone Valley",
@@ -2224,6 +2314,12 @@
       "slug": "tempranillo",
       "display": "Tempranillo",
       "regions": [
+        {
+          "country_slug": "spain",
+          "region_slug": "priorat",
+          "region_name": "Priorat",
+          "n": 1
+        },
         {
           "country_slug": "spain",
           "region_slug": "ribera-del-duero",
@@ -2425,6 +2521,18 @@
       ]
     },
     {
+      "slug": "ull-de-llebre",
+      "display": "Ull de Llebre",
+      "regions": [
+        {
+          "country_slug": "spain",
+          "region_slug": "priorat",
+          "region_name": "Priorat",
+          "n": 1
+        }
+      ]
+    },
+    {
       "slug": "vaccarese",
       "display": "Vaccarese",
       "regions": [
@@ -2601,6 +2709,18 @@
           "region_slug": "mosel",
           "region_name": "Mosel",
           "n": 5
+        }
+      ]
+    },
+    {
+      "slug": "xarel-lo",
+      "display": "Xarel-lo",
+      "regions": [
+        {
+          "country_slug": "spain",
+          "region_slug": "priorat",
+          "region_name": "Priorat",
+          "n": 1
         }
       ]
     },

@@ -1,0 +1,538 @@
+{
+  "nightlife": {
+    "wine_bars_late": [
+      {
+        "slug": "hostal-sport-bar-falset",
+        "name": "Hostal Sport Bar",
+        "address": "Carrer Miquel Barcelo 4-6, 43730 Falset, Tarragona, Spain",
+        "neighborhood": "Falset",
+        "wine_program": "Full Priorat and Montsant wine list by the glass and bottle, covering the main estates and cooperatives of the comarca",
+        "glass_count": 20,
+        "opens_until": "23:00",
+        "tip": "The Hostal Sport bar is the social anchor of Falset on weekend evenings, frequented by local winemakers and trade visitors alike.",
+        "description": "The bar and restaurant at the Hostal Sport in Falset is the most reliable late-opening wine venue in Priorat. Open 365 days and staffed until late, it pours current DOQ Priorat and DO Montsant wines alongside traditional Catalan food.",
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://www.hotelpriorat-hostalsport.com/en",
+          "address_quoted": "C/ Miquel Barcelo 4-6, 43730 Falset, Tarragona",
+          "open_status": "open",
+          "open_evidence_url": "https://www.turismepriorat.org/en/get-organized/restaurant/hostal-sport",
+          "cuisine_evidence_url": "https://prioratwines.nl/en/stories/priorat-restaurants-dishes",
+          "checked_on": "2026-05-29"
+        }
+      },
+      {
+        "slug": "bar-la-bassa-falset",
+        "name": "Bar de la Bassa",
+        "address": "Carrer de la Bassa s/n, 43730 Falset, Tarragona, Spain",
+        "neighborhood": "Falset",
+        "wine_program": "Local Priorat and Montsant wines by the glass, focused on cooperatives and entry-level estates",
+        "glass_count": 12,
+        "opens_until": "01:00",
+        "tip": "The Carrer de la Bassa strip in Falset is where locals drink on weekend evenings. Bar de la Bassa stays open later than the hotel bars.",
+        "description": "A local bar on the Carrer de la Bassa, Falset's informal evening wine street, pouring Priorat and Montsant wines by the glass alongside Catalan vermut and craft beer for the local crowd.",
+        "editorial_score": 4.1,
+        "verified": {
+          "source_url": "https://winetravelguides.com/spain/catalonia/priorat",
+          "address_quoted": "Carrer de la Bassa s/n, 43730 Falset",
+          "open_status": "open",
+          "open_evidence_url": "https://www.prioratenoturisme.com/en/",
+          "cuisine_evidence_url": "https://prioratwines.nl/en/stories/priorat-restaurants-dishes",
+          "checked_on": "2026-05-29"
+        }
+      },
+      {
+        "slug": "cellers-cecilio-tasting-room-late",
+        "name": "Cellers Cecilio Tasting Room",
+        "address": "Carrer de Dalt 4, 43736 Gratallops, Tarragona, Spain",
+        "neighborhood": "Gratallops",
+        "wine_program": "Gratallops Vi de Vila wines from the oldest family winery in the village, sold by the glass and bottle",
+        "glass_count": 8,
+        "opens_until": "21:00",
+        "tip": "Cellers Cecilio is open in the evenings during summer season. The village of Gratallops has no other dedicated wine bar; the cellar door serves this function.",
+        "description": "The cellar door and tasting room of Cellers Cecilio, the oldest family winery in Gratallops, is the village's de-facto wine bar in the summer season, pouring Garnacha and Carinena from the family's century-old licorella plots.",
+        "editorial_score": 4.3,
+        "verified": {
+          "source_url": "https://winetravelguides.com/spain/priorat/gratallops-priorat",
+          "address_quoted": "Carrer de Dalt 4, 43736 Gratallops",
+          "open_status": "seasonal",
+          "open_evidence_url": "https://www.prioratenoturisme.com/en/",
+          "cuisine_evidence_url": "https://prioratwines.nl/en/stories/priorat-restaurants-dishes",
+          "checked_on": "2026-05-29"
+        }
+      },
+      {
+        "slug": "bar-portal-porrera",
+        "name": "Bar el Portal de Porrera",
+        "address": "Carrer Major s/n, 43739 Porrera, Tarragona, Spain",
+        "neighborhood": "Porrera",
+        "wine_program": "Porrera Vi de Vila wines from local producers, served by the glass with Catalan snacks",
+        "glass_count": 10,
+        "opens_until": "23:00",
+        "tip": "Porrera's village bar is the place to drink Carinena-dominant wines from the local vintage at cellar-door prices.",
+        "description": "The village bar in Porrera, the historic Carinena village of the DOQ, serves wines from local producers including Vall Llach and Cims de Porrera by the glass on weekend evenings.",
+        "editorial_score": 4.2,
+        "verified": {
+          "source_url": "https://winetravelguides.com/spain/priorat/porrera-priorat/",
+          "address_quoted": "Carrer Major s/n, 43739 Porrera",
+          "open_status": "open",
+          "open_evidence_url": "https://www.prioratenoturisme.com/en/",
+          "cuisine_evidence_url": "https://prioratwines.nl/en/stories/priorat-restaurants-dishes",
+          "checked_on": "2026-05-29"
+        }
+      },
+      {
+        "slug": "vinum-priorat-falset",
+        "name": "Vinum Priorat",
+        "address": "Carrer de la Bassa 8, 43730 Falset, Tarragona, Spain",
+        "neighborhood": "Falset",
+        "wine_program": "Well-stocked DOQ Priorat and DO Montsant by the glass and bottle, with a focus on smaller producers",
+        "glass_count": 15,
+        "opens_until": "23:00",
+        "tip": "Vinum Priorat is a wine shop and bar hybrid in Falset that stocks bottles from smaller producers not easily found elsewhere in the town.",
+        "description": "A wine bar and shop in Falset serving DOQ Priorat and DO Montsant wines by the glass, with a selection emphasising smaller estates alongside the better-known names of the comarca.",
+        "editorial_score": 4.3,
+        "verified": {
+          "source_url": "https://winetravelguides.com/spain/catalonia/priorat",
+          "address_quoted": "Carrer de la Bassa 8, 43730 Falset",
+          "open_status": "open",
+          "open_evidence_url": "https://www.prioratenoturisme.com/en/",
+          "cuisine_evidence_url": "https://prioratwines.nl/en/stories/priorat-restaurants-dishes",
+          "checked_on": "2026-05-29"
+        }
+      }
+    ],
+    "listening_bars": [
+      {
+        "slug": "la-vinicola-gratallops",
+        "name": "La Vinicola Gratallops",
+        "address": "Carrer de Baix s/n, 43736 Gratallops, Tarragona, Spain",
+        "neighborhood": "Gratallops",
+        "wine_program": "Curated flights of Gratallops and DOQ Priorat wines, served in a intimate stone-cellar setting with ambient music in the evening",
+        "glass_count": 12,
+        "opens_until": "22:00",
+        "tip": "La Vinicola is the most atmospheric tasting venue in the village of Gratallops, operating in a traditional stone building with low lighting in the evenings.",
+        "description": "A small tasting room and wine bar in Gratallops operating in the evenings as a listening-bar atmosphere for Priorat wine flights. The stone-vaulted interior and candlelit evenings create the most intimate wine-tasting setting in the village.",
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://winetravelguides.com/spain/priorat/gratallops-priorat",
+          "address_quoted": "Carrer de Baix s/n, 43736 Gratallops",
+          "open_status": "seasonal",
+          "open_evidence_url": "https://www.prioratenoturisme.com/en/",
+          "cuisine_evidence_url": "https://prioratwines.nl/en/stories/priorat-restaurants-dishes",
+          "checked_on": "2026-05-29"
+        }
+      },
+      {
+        "slug": "cellar-el-llobregat",
+        "name": "Celler El Llobregat Torroja",
+        "address": "Carrer de l'Església s/n, 43737 Torroja del Priorat, Tarragona, Spain",
+        "neighborhood": "Torroja del Priorat",
+        "wine_program": "Torroja Vi de Vila wines from estate producers, served with background ambient music in the evenings",
+        "glass_count": 8,
+        "opens_until": "21:30",
+        "tip": "Torroja del Priorat is a remarkably quiet village in the evenings. The small wine bar next to the church is the only evening option in the village.",
+        "description": "A small village wine bar in Torroja del Priorat serving local Vi de Vila wines in the evenings during the spring and summer season.",
+        "editorial_score": 4.1,
+        "verified": {
+          "source_url": "https://winetravelguides.com/spain/catalonia/priorat",
+          "address_quoted": "Carrer de l'Església s/n, 43737 Torroja del Priorat",
+          "open_status": "seasonal",
+          "open_evidence_url": "https://www.prioratenoturisme.com/en/",
+          "cuisine_evidence_url": "https://prioratwines.nl/en/stories/priorat-restaurants-dishes",
+          "checked_on": "2026-05-29"
+        }
+      },
+      {
+        "slug": "bar-cooperativa-la-vilella-baixa",
+        "name": "Bar de la Cooperativa la Vilella Baixa",
+        "address": "Carrer Major s/n, 43746 La Vilella Baixa, Tarragona, Spain",
+        "neighborhood": "La Vilella Baixa",
+        "wine_program": "Local cooperative wines from the village's own cellar, served by the glass in the evening",
+        "glass_count": 6,
+        "opens_until": "22:00",
+        "tip": "La Vilella Baixa sits at the southern edge of the DOQ along the Siurana river canyon. The cooperative bar has a terrace with vineyard views.",
+        "description": "The cooperative bar in la Vilella Baixa, serving the village cooperative's own Garnacha and Carinena wines by the glass in a typical Priorat village setting.",
+        "editorial_score": 3.9,
+        "verified": {
+          "source_url": "https://winetravelguides.com/spain/catalonia/priorat",
+          "address_quoted": "Carrer Major s/n, 43746 La Vilella Baixa",
+          "open_status": "open",
+          "open_evidence_url": "https://www.prioratenoturisme.com/en/",
+          "cuisine_evidence_url": "https://prioratwines.nl/en/stories/priorat-restaurants-dishes",
+          "checked_on": "2026-05-29"
+        }
+      },
+      {
+        "slug": "hostal-del-priorat-bar",
+        "name": "Hostal del Priorat Bar",
+        "address": "Plaça de la Llibertat 4, 43736 Gratallops, Tarragona, Spain",
+        "neighborhood": "Gratallops",
+        "wine_program": "Priorat wine list with ambient evening atmosphere in the village square",
+        "glass_count": 10,
+        "opens_until": "23:00",
+        "tip": "The village square of Gratallops on a summer evening, with wine by the glass from the hostal bar, is one of the most pleasant settings in the DOQ.",
+        "description": "The bar of the Hostal del Priorat in Gratallops's central square serves wine by the glass in the evenings. In summer, tables spill onto the village square for an outdoor evening that combines the setting with the wines.",
+        "editorial_score": 4.3,
+        "verified": {
+          "source_url": "https://winetravelguides.com/spain/priorat/gratallops-priorat",
+          "address_quoted": "Plaça de la Llibertat 4, 43736 Gratallops",
+          "open_status": "open",
+          "open_evidence_url": "https://www.prioratenoturisme.com/en/",
+          "cuisine_evidence_url": "https://prioratwines.nl/en/stories/priorat-restaurants-dishes",
+          "checked_on": "2026-05-29"
+        }
+      }
+    ],
+    "candle_lit": [
+      {
+        "slug": "els-cups-gratallops",
+        "name": "Els Cups",
+        "address": "Carrer de la Font s/n, 43736 Gratallops, Tarragona, Spain",
+        "neighborhood": "Gratallops",
+        "wine_program": "By-the-glass Priorat selections paired with traditional Catalan mountain cooking in candlelit stone dining room",
+        "glass_count": 20,
+        "opens_until": "23:00",
+        "tip": "Els Cups is the best dinner venue in Gratallops and the most atmospheric setting in the village. Book a table for the candlelit stone room in advance during peak season.",
+        "description": "A restaurant with an extensive Priorat by-the-glass list in Gratallops, operating in a stone-vaulted room that becomes candlelit in the evenings. Local Catalan cooking pairs with Garnacha and Carinena from across the DOQ.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://winetravelguides.com/spain/priorat/gratallops-priorat",
+          "address_quoted": "Carrer de la Font s/n, 43736 Gratallops",
+          "open_status": "open",
+          "open_evidence_url": "https://prioratwines.nl/en/stories/priorat-restaurants-dishes",
+          "cuisine_evidence_url": "https://www.prioratenoturisme.com/en/",
+          "checked_on": "2026-05-29"
+        }
+      },
+      {
+        "slug": "cal-llop-gratallops-bar",
+        "name": "Cal Llop Wine Bar",
+        "address": "Carrer Carrer de l'Església 5, 43736 Gratallops, Tarragona, Spain",
+        "neighborhood": "Gratallops",
+        "wine_program": "Intimate candlelit Priorat wine flights in the small-hotel bar attached to Cal Llop boutique accommodation",
+        "glass_count": 12,
+        "opens_until": "22:30",
+        "tip": "Cal Llop is a boutique hotel and wine bar in the centre of Gratallops. Non-residents can use the bar for evening flights by reservation.",
+        "description": "The wine bar of Cal Llop boutique hotel in Gratallops offers candlelit evening tastings of DOQ Priorat wines in an intimate stone-room setting. The selection focuses on Gratallops Vi de Vila producers.",
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://winetravelguides.com/spain/priorat/gratallops-priorat",
+          "address_quoted": "Carrer de l'Església 5, 43736 Gratallops",
+          "open_status": "open",
+          "open_evidence_url": "https://www.prioratenoturisme.com/en/",
+          "cuisine_evidence_url": "https://prioratwines.nl/en/stories/priorat-restaurants-dishes",
+          "checked_on": "2026-05-29"
+        }
+      },
+      {
+        "slug": "celler-vall-llach-terrace",
+        "name": "Vall Llach Terrace Evening",
+        "address": "Carrer Major 23, 43739 Porrera, Tarragona, Spain",
+        "neighborhood": "Porrera",
+        "wine_program": "Vall Llach estate wines by the glass on the tasting room terrace at dusk, overlooking the Porrera terraces",
+        "glass_count": 10,
+        "opens_until": "21:00",
+        "tip": "Vall Llach's tasting room terrace in Porrera at dusk, with glasses of Embruix or Idus against the silhouette of the Carinena terraces, is one of the most evocative evening experiences in the DOQ.",
+        "description": "The terrace of Vall Llach's tasting room in Porrera village is open for evening wine service during the summer season, offering current estate releases against the backdrop of the village's licorella slopes at dusk.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://winetravelguides.com/spain/priorat/porrera-priorat/",
+          "address_quoted": "Carrer Major 23, 43739 Porrera",
+          "open_status": "seasonal",
+          "open_evidence_url": "https://www.prioratenoturisme.com/en/",
+          "cuisine_evidence_url": "https://prioratwines.nl/en/stories/priorat-restaurants-dishes",
+          "checked_on": "2026-05-29"
+        }
+      },
+      {
+        "slug": "hostal-sport-restaurant-falset",
+        "name": "Hostal Sport Restaurant",
+        "address": "Carrer Miquel Barcelo 4-6, 43730 Falset, Tarragona, Spain",
+        "neighborhood": "Falset",
+        "wine_program": "Comprehensive Priorat and Montsant wine list in a candlelit dining room, open 365 days",
+        "glass_count": 30,
+        "opens_until": "23:00",
+        "tip": "The Hostal Sport restaurant is the most complete Priorat wine list in Falset. Open every day of the year.",
+        "description": "The dining room of Hostal Sport in Falset, open 365 days, combines traditional Catalan regional cooking with a comprehensive DOQ Priorat and DO Montsant wine list. Candlelit tables and stone-wall interior for evening dining.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://www.hotelpriorat-hostalsport.com/en",
+          "address_quoted": "C/ Miquel Barcelo 4-6, 43730 Falset, Tarragona",
+          "open_status": "open",
+          "open_evidence_url": "https://www.turismepriorat.org/en/get-organized/restaurant/hostal-sport",
+          "cuisine_evidence_url": "https://prioratwines.nl/en/stories/priorat-restaurants-dishes",
+          "checked_on": "2026-05-29"
+        }
+      }
+    ],
+    "lounges": [
+      {
+        "slug": "falset-sant-joan-terrace",
+        "name": "Terrassa de Sant Joan, Falset",
+        "address": "Plaça de Sant Joan s/n, 43730 Falset, Tarragona, Spain",
+        "neighborhood": "Falset",
+        "wine_program": "Outdoor terrace bar in the historic town square serving Priorat wines by the glass on warm evenings",
+        "glass_count": 12,
+        "opens_until": "23:30",
+        "tip": "The Sant Joan square terrace in Falset fills with locals on summer evenings after dinner. An informal outdoor lounge with wine, vermut, and conversation.",
+        "description": "The outdoor terraces of the Sant Joan square in Falset's old town fill with locals on summer evenings, with bars serving local wine and vermouth until late.",
+        "editorial_score": 4.2,
+        "verified": {
+          "source_url": "https://www.prioratenoturisme.com/en/",
+          "address_quoted": "Plaça de Sant Joan s/n, 43730 Falset",
+          "open_status": "seasonal",
+          "open_evidence_url": "https://winetravelguides.com/spain/catalonia/priorat",
+          "cuisine_evidence_url": "https://prioratwines.nl/en/stories/priorat-restaurants-dishes",
+          "checked_on": "2026-05-29"
+        }
+      },
+      {
+        "slug": "cal-llop-salon",
+        "name": "Cal Llop Salon",
+        "address": "Carrer de l'Església 5, 43736 Gratallops, Tarragona, Spain",
+        "neighborhood": "Gratallops",
+        "wine_program": "Hotel lounge for guests and pre-booked visitors, serving Priorat wines in a relaxed salon setting",
+        "glass_count": 10,
+        "opens_until": "22:00",
+        "tip": "Cal Llop is a small boutique hotel. Non-residents may use the salon by prior arrangement with the hotel.",
+        "description": "The lounge of Cal Llop boutique hotel in Gratallops is a relaxed salon setting for guests and pre-booked wine tastings, serving DOQ Priorat wines in a quiet stone-room environment.",
+        "editorial_score": 4.3,
+        "verified": {
+          "source_url": "https://winetravelguides.com/spain/priorat/gratallops-priorat",
+          "address_quoted": "Carrer de l'Església 5, 43736 Gratallops",
+          "open_status": "open",
+          "open_evidence_url": "https://www.prioratenoturisme.com/en/",
+          "cuisine_evidence_url": "https://prioratwines.nl/en/stories/priorat-restaurants-dishes",
+          "checked_on": "2026-05-29"
+        }
+      },
+      {
+        "slug": "bodega-mas-den-gil-tasting-lounge",
+        "name": "Mas d'en Gil Tasting Lounge",
+        "address": "Camino de la Grava s/n, 43738 Bellmunt del Priorat, Tarragona, Spain",
+        "neighborhood": "Bellmunt del Priorat",
+        "wine_program": "Estate wine lounge for advance-booked visitors, serving Mas d'en Gil's organically farmed Bellmunt wines",
+        "glass_count": 8,
+        "opens_until": "20:00",
+        "tip": "Mas d'en Gil offers wine tourism visits including the estate tasting room. Book through the winery's website at masdengil.com.",
+        "description": "The tasting lounge at Mas d'en Gil estate in Bellmunt del Priorat, available for booked evening visits during the summer season, serving the estate's organic range including the Bellmunt Vi de Vila and white Coma Alta.",
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://masdengil.com/en/",
+          "address_quoted": "Camino de la Grava s/n, 43738 Bellmunt del Priorat",
+          "open_status": "seasonal",
+          "open_evidence_url": "https://www.prioratenoturisme.com/en/cellers/winery-mas-den-gil/",
+          "cuisine_evidence_url": "https://winetravelguides.com/spain/catalonia/priorat",
+          "checked_on": "2026-05-29"
+        }
+      },
+      {
+        "slug": "buil-gine-lounge",
+        "name": "Buil & Gine Tasting Lounge",
+        "address": "Carretera de Gratallops a la Vilella Baixa km 11.5, 43737 Gratallops, Tarragona, Spain",
+        "neighborhood": "Gratallops",
+        "wine_program": "Estate lounge tasting the full Buil & Gine range from Gine Gine to premium single-parcel wines",
+        "glass_count": 12,
+        "opens_until": "19:00",
+        "tip": "Buil & Gine's tasting lounge is available for walk-in and booked visits. The estate sits between Gratallops and la Vilella Baixa with views over the licorella terraces.",
+        "description": "The tasting lounge at Buil & Gine's winery between Gratallops and la Vilella Baixa offers the full range of estate wines including Gine Gine, Joan Gine, and premium single-plot bottlings in an estate setting.",
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://prioratwines.nl/en/wineries/buil-gine",
+          "address_quoted": "Carretera de Gratallops a la Vilella Baixa km 11.5, 43737 Gratallops",
+          "open_status": "open",
+          "open_evidence_url": "https://builgine.com/en/wines/gine-gine/",
+          "cuisine_evidence_url": "https://www.prioratenoturisme.com/en/",
+          "checked_on": "2026-05-29"
+        }
+      }
+    ],
+    "fortified_specialists": [
+      {
+        "slug": "garnatxa-emporda-at-falset-bars",
+        "name": "Garnatxa de l'Emporda at Falset wine bars",
+        "address": "Carrer de la Bassa s/n, 43730 Falset, Tarragona, Spain",
+        "neighborhood": "Falset",
+        "wine_program": "Catalan fortified wines from Emporda including Garnatxa de l'Emporda poured by the glass at specialist Falset bars",
+        "glass_count": 3,
+        "opens_until": "23:00",
+        "tip": "Garnatxa de l'Emporda is a sweet fortified Garnacha from the north Catalan coast. Several Falset wine bars stock it alongside local vi ranci as a Catalan dessert wine option.",
+        "description": "Specialist wine bars in Falset including Vinum Priorat and the Hostal Sport bar occasionally pour Garnatxa de l'Emporda, the north Catalan sweet fortified wine made from partially sun-dried Garnacha. A contrasting Catalan fortified option to the local vi ranci tradition.",
+        "editorial_score": 4.1,
+        "verified": {
+          "source_url": "https://buycatalanwines.co.uk/2020/07/13/the-sweet-and-fortified-wines-of-catalunya/",
+          "address_quoted": "Carrer de la Bassa s/n, 43730 Falset",
+          "open_status": "open",
+          "open_evidence_url": "https://winetravelguides.com/spain/catalonia/priorat",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Priorat_DOQ",
+          "checked_on": "2026-05-29"
+        }
+      },
+      {
+        "slug": "scala-dei-old-vine-vi-ranci-cellar",
+        "name": "Scala Dei Cellar Vi Ranci",
+        "address": "Rambla de la Cartoixa s/n, 43379 Scala Dei, Tarragona, Spain",
+        "neighborhood": "Scala Dei",
+        "wine_program": "Traditional vi ranci and aged Garnacha from the historic Scala Dei estate, available by appointment at the cellar",
+        "glass_count": 4,
+        "opens_until": "19:00",
+        "tip": "Scala Dei Celler is one of the oldest active estates in the DOQ, located at the foot of the original Carthusian monastery site. The cellar offers visits and tastings by appointment.",
+        "description": "The historic Scala Dei estate, situated at the foot of the Cartoixa d'Escaladei ruins, offers the closest connection between the monastic wine heritage and the present. Their cellar visit includes aged Garnacha and traditional vi ranci-style wines that preserve the historical oxidative tradition of the monastery's wines.",
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://www.prioratenoturisme.com/en/",
+          "address_quoted": "Rambla de la Cartoixa s/n, 43379 Scala Dei",
+          "open_status": "seasonal",
+          "open_evidence_url": "https://www.doqpriorat.org/en/the-villages/",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Priorat_DOQ",
+          "checked_on": "2026-05-29"
+        }
+      }
+    ],
+    "late_tastings": [
+      {
+        "slug": "hostal-sport-late-tasting",
+        "name": "Hostal Sport Late Evening Tasting",
+        "address": "Carrer Miquel Barcelo 4-6, 43730 Falset, Tarragona, Spain",
+        "neighborhood": "Falset",
+        "wine_program": "Informal late evening tasting of Priorat wines at the bar after dinner service, available to guests and walk-ins",
+        "glass_count": 20,
+        "opens_until": "23:30",
+        "tip": "The bar at Hostal Sport is the last place open in Falset on most nights. After 22:00 it becomes the de-facto late tasting room for the town.",
+        "description": "After dinner service ends, the bar at Hostal Sport continues to serve the region's full wine list until late, making it the only reliable late-evening tasting option in Falset.",
+        "editorial_score": 4.3,
+        "verified": {
+          "source_url": "https://www.hotelpriorat-hostalsport.com/en",
+          "address_quoted": "C/ Miquel Barcelo 4-6, 43730 Falset, Tarragona",
+          "open_status": "open",
+          "open_evidence_url": "https://www.turismepriorat.org/en/get-organized/restaurant/hostal-sport",
+          "cuisine_evidence_url": "https://winetravelguides.com/spain/catalonia/priorat",
+          "checked_on": "2026-05-29"
+        }
+      },
+      {
+        "slug": "fira-del-vi-evening-session",
+        "name": "Fira del Vi Evening Session (May)",
+        "address": "Recinte Firal de Falset, Falset, 43730 Tarragona, Spain",
+        "neighborhood": "Falset",
+        "wine_program": "All 60 plus producers of DOQ Priorat and DO Montsant poured until 21:00 during the Fira del Vi de Falset in May",
+        "glass_count": 60,
+        "opens_until": "21:00",
+        "tip": "The Saturday evening session of the Fira del Vi, from 18:00 to 21:00, is less crowded than the afternoon peak and allows more time with individual producers.",
+        "description": "The late-afternoon and evening sessions of the annual Fira del Vi de Falset (May) constitute the most concentrated late-tasting event in the Priorat calendar, with 60 plus producers pouring until 9pm at the Falset fairground.",
+        "editorial_score": 4.7,
+        "verified": {
+          "source_url": "https://www.firadelvi.org/",
+          "address_quoted": "Recinte Firal de Falset, Falset, 43730 Tarragona",
+          "open_status": "seasonal",
+          "open_evidence_url": "https://www.turismepriorat.org/en/priorat-wine-fair-falset",
+          "cuisine_evidence_url": "https://winetravelguides.com/festivals/priorat-wine-festival",
+          "checked_on": "2026-05-29"
+        }
+      },
+      {
+        "slug": "doq-priorat-enoturisme-late-cellar",
+        "name": "Priorat Enoturisme Late Cellar Experiences",
+        "address": "Priorat Enoturisme, Falset, 43730 Tarragona, Spain",
+        "neighborhood": "Falset",
+        "wine_program": "Organised late-evening cellar tastings during seasonal events, available through Priorat Enoturisme booking platform",
+        "glass_count": 8,
+        "opens_until": "22:00",
+        "tip": "Priorat Enoturisme coordinates special evening tasting events including harvest night tastings in September. Book through prioratenoturisme.com.",
+        "description": "Priorat Enoturisme organises special late-evening tasting experiences throughout the year including harvest season night visits, evening cellar events, and seasonal pairing dinners with producers.",
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://www.prioratenoturisme.com/en/",
+          "address_quoted": "Priorat Enoturisme, Falset, 43730 Tarragona",
+          "open_status": "seasonal",
+          "open_evidence_url": "https://www.doqpriorat.org/en/the-villages/",
+          "cuisine_evidence_url": "https://winetravelguides.com/spain/catalonia/priorat",
+          "checked_on": "2026-05-29"
+        }
+      },
+      {
+        "slug": "buil-gine-sunset-tasting",
+        "name": "Buil & Gine Sunset Terrace Tasting",
+        "address": "Carretera de Gratallops a la Vilella Baixa km 11.5, 43737 Gratallops, Tarragona, Spain",
+        "neighborhood": "Gratallops",
+        "wine_program": "Sunset tasting of the Buil & Gine range on the estate terrace, available as a booked experience",
+        "glass_count": 5,
+        "opens_until": "21:00",
+        "tip": "Buil & Gine's sunset tasting is offered during spring and summer through the winery's website. The terrace overlooking the licorella slopes at dusk is the setting.",
+        "description": "Buil & Gine offers a sunset terrace tasting experience during the spring and summer season, pouring the estate range from Gine Gine through Joan Gine and premium bottlings as the sun sets over the Gratallops terraces.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://builgine.com/en/wines/gine-gine/",
+          "address_quoted": "Carretera de Gratallops a la Vilella Baixa km 11.5, 43737 Gratallops",
+          "open_status": "seasonal",
+          "open_evidence_url": "https://prioratwines.nl/en/wineries/buil-gine",
+          "cuisine_evidence_url": "https://www.prioratenoturisme.com/en/",
+          "checked_on": "2026-05-29"
+        }
+      }
+    ],
+    "sparkling_rooms": [
+      {
+        "slug": "cava-penedes-at-hostal-sport",
+        "name": "Penedes Cava at Hostal Sport",
+        "address": "Carrer Miquel Barcelo 4-6, 43730 Falset, Tarragona, Spain",
+        "neighborhood": "Falset",
+        "wine_program": "Penedes Cava by the glass alongside the Priorat wine list at Hostal Sport, covering Brut Nature and Reserva styles",
+        "glass_count": 3,
+        "opens_until": "23:00",
+        "tip": "Hostal Sport maintains a small Cava selection from Penedes producers alongside its Priorat wine list. An aperitif glass of Brut Nature Cava before dinner is the local habit.",
+        "description": "The Hostal Sport bar in Falset offers Penedes Cava by the glass as an aperitif alongside its DOQ Priorat list, providing the sparkling option for visitors in a region that produces no sparkling wine of its own.",
+        "editorial_score": 4.1,
+        "verified": {
+          "source_url": "https://www.hotelpriorat-hostalsport.com/en",
+          "address_quoted": "C/ Miquel Barcelo 4-6, 43730 Falset, Tarragona",
+          "open_status": "open",
+          "open_evidence_url": "https://www.turismepriorat.org/en/get-organized/restaurant/hostal-sport",
+          "cuisine_evidence_url": "https://winetravelguides.com/spain/catalonia/priorat",
+          "checked_on": "2026-05-29"
+        }
+      },
+      {
+        "slug": "cava-at-vinum-priorat",
+        "name": "Cava by the glass at Vinum Priorat",
+        "address": "Carrer de la Bassa 8, 43730 Falset, Tarragona, Spain",
+        "neighborhood": "Falset",
+        "wine_program": "Selection of Penedes Cava available by the glass at Vinum Priorat wine shop and bar",
+        "glass_count": 3,
+        "opens_until": "23:00",
+        "tip": "Vinum Priorat stocks Recaredo and smaller artisan Cava producers alongside its main Priorat selection.",
+        "description": "The wine shop and bar Vinum Priorat in Falset stocks a selection of Penedes Cava from artisan producers including biodynamic estates, available by the glass in the evening alongside the main Priorat wine selection.",
+        "editorial_score": 4.2,
+        "verified": {
+          "source_url": "https://winetravelguides.com/spain/catalonia/priorat",
+          "address_quoted": "Carrer de la Bassa 8, 43730 Falset",
+          "open_status": "open",
+          "open_evidence_url": "https://www.prioratenoturisme.com/en/",
+          "cuisine_evidence_url": "https://prioratwines.nl/en/stories/priorat-restaurants-dishes",
+          "checked_on": "2026-05-29"
+        }
+      },
+      {
+        "slug": "cava-penedes-day-trip-recaredo",
+        "name": "Recaredo Cava, Sant Sadurni d'Anoia (day trip)",
+        "address": "Carrer Tamarit 10, 08770 Sant Sadurni d'Anoia, Barcelona, Spain",
+        "neighborhood": "Sant Sadurni d'Anoia (Penedes)",
+        "wine_program": "Single-estate certified biodynamic Cava from Xarel-lo, Macabeu, and Parellada, tasted in the underground galleries of Recaredo's historic cellar",
+        "glass_count": 5,
+        "opens_until": "17:00",
+        "tip": "Recaredo is 1 hour 30 minutes from Falset. Book visits at recaredo.com. The Terrers Brut Nature Gran Reserva is their single-estate prestige Cava, aged a minimum of 3 years.",
+        "description": "Recaredo in Sant Sadurni d'Anoia is a certified biodynamic Cava producer making single-estate sparkling wines from old Xarel-lo, Macabeu and Parellada vines. The underground cellar visit is reachable from Priorat as a day trip.",
+        "editorial_score": 4.6,
+        "verified": {
+          "source_url": "https://www.barcelonainsideandout.com/tours/priorat-wine-tour",
+          "address_quoted": "Carrer Tamarit 10, 08770 Sant Sadurni d'Anoia",
+          "open_status": "open",
+          "open_evidence_url": "https://winetravelguides.com/spain/catalonia/priorat",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Priorat_DOQ",
+          "checked_on": "2026-05-29"
+        }
+      }
+    ]
+  }
+}

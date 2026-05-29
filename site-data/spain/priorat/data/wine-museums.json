@@ -1,0 +1,104 @@
+{
+  "wine_museums": [
+    {
+      "slug": "cartoixa-escaladei-monastery-museum",
+      "name": "Cartoixa d'Escaladei",
+      "address": "Camino de la Cartoixa s/n, 43379 Escaladei, Tarragona, Spain",
+      "neighborhood": "Escaladei, DOQ Priorat",
+      "admission": "Adults EUR 5; reduced EUR 3.50; guided tours available",
+      "permanent_collection": true,
+      "temporary_exhibitions": true,
+      "tasting_bar": false,
+      "description": "The 12th-century Carthusian monastery where Priorat viticulture originated in 1163; the preserved ruins and chapter house tell the story of the appellation's viticultural origins.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://en.wikipedia.org/wiki/Cartoixa_d%27Escaladei",
+        "address_quoted": "Camino de la Cartoixa s/n, Escaladei",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wine-searcher.com/regions/priorat",
+        "cuisine_evidence_url": "https://www.wine-searcher.com/find/scala+dei/1/spain/priorat",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "cooperativa-falset-marca-heritage-museum",
+      "name": "Cooperativa Falset Marca Heritage Museum",
+      "address": "Avinguda de la Catalunya 2, 43730 Falset, Tarragona, Spain",
+      "neighborhood": "Falset",
+      "admission": "Included in cooperative tour fee; adults from EUR 5",
+      "permanent_collection": true,
+      "temporary_exhibitions": false,
+      "tasting_bar": true,
+      "description": "The 1919 Cesar Martinell modernist cooperative building; interpretive panels trace cooperative winemaking history in the Priorat zone from phylloxera recovery to the present.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.etim.cat/",
+        "address_quoted": "Av. de la Catalunya 2, 43730 Falset",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wine-searcher.com/find/etim/1/spain/montsant",
+        "cuisine_evidence_url": "https://www.etim.cat/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "centre-visitants-priorat-falset",
+      "name": "Centre de Visitants del Priorat",
+      "address": "Carrer Major 2, 43730 Falset, Tarragona, Spain",
+      "neighborhood": "Falset",
+      "admission": "Free entry; tasting sessions priced separately",
+      "permanent_collection": true,
+      "temporary_exhibitions": true,
+      "tasting_bar": true,
+      "description": "The DOQ Priorat denomination's official visitor centre in Falset; permanent exhibition on llicorella geology, varietal identification and the 1989 renaissance, plus tasting sessions.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://doqpriorat.org/",
+        "address_quoted": "Carrer Major 2, Falset",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wine-searcher.com/regions/priorat",
+        "cuisine_evidence_url": "https://doqpriorat.org/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "museu-de-les-mines-bellmunt",
+      "name": "Museu de les Mines de Bellmunt del Priorat",
+      "address": "Carrer de la Mina s/n, 43738 Bellmunt del Priorat, Tarragona, Spain",
+      "neighborhood": "Bellmunt del Priorat",
+      "admission": "Adults EUR 5; guided underground tour of lead-mine tunnels and mineral exhibits",
+      "permanent_collection": true,
+      "temporary_exhibitions": false,
+      "tasting_bar": false,
+      "description": "Underground lead-mine museum in Bellmunt explaining how the same llicorella slate that defines Priorat wine was once mined for galena; connects the wine and geological heritage of the zone.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/Attraction_Review-g187427-d8729394-Reviews-Museu_de_les_Mines_de_Bellmunt_del_Priorat-Bellmunt_del_Priorat_Province_of_Tarrag.html",
+        "address_quoted": "Carrer de la Mina s/n, Bellmunt del Priorat",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wine-searcher.com/regions/priorat",
+        "cuisine_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g187427-d8729394-Reviews-Museu_de_les_Mines_de_Bellmunt_del_Priorat-Bellmunt_del_Priorat_Province_of_Tarrag.html",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "museu-comarcal-del-priorat-falset",
+      "name": "Museu Comarcal del Priorat",
+      "address": "Carrer Major 2, 43730 Falset, Tarragona, Spain",
+      "neighborhood": "Falset",
+      "admission": "Adults EUR 3; reduced EUR 1.50; free first Sunday of the month",
+      "permanent_collection": true,
+      "temporary_exhibitions": true,
+      "tasting_bar": false,
+      "description": "The Priorat comarca museum in Falset covering archaeology, ethnology and rural life including viticulture tools and cooperage artefacts from centuries of winemaking in the region.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/Attraction_Review-g1067066-d10025491-Reviews-Museu_Comarcal_del_Priorat-Falset_Catalonia.html",
+        "address_quoted": "Carrer Major 2, 43730 Falset",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wine-searcher.com/regions/priorat",
+        "cuisine_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g1067066-d10025491-Reviews-Museu_Comarcal_del_Priorat-Falset_Catalonia.html",
+        "checked_on": "2026-05-29"
+      }
+    }
+  ]
+}

@@ -1,0 +1,296 @@
+{
+  "dietary": {
+    "biodynamic": [
+      {
+        "slug": "mas-den-gil-biodynamic",
+        "name": "Mas d'en Gil",
+        "vineyard_ref": "mas-den-gil",
+        "address": "Camino de la Grava s/n, 43738 Bellmunt del Priorat, Tarragona, Spain",
+        "neighborhood": "Bellmunt del Priorat",
+        "biodynamic_status": "biodynamic_practicing",
+        "biodynamic_certifier": null,
+        "organic_status": "organic_certified",
+        "organic_certifier": "CCPAE",
+        "certified_year": null,
+        "description": "The Rovira family's 125-hectare estate in Bellmunt del Priorat has been certified organic (CCPAE) and has practised biodynamic farming since the fourth generation introduced it in 2008. The estate covers vineyards, olive groves, almond groves, and Mediterranean woodland. The property is certified organic but has not pursued formal biodynamic certification (Demeter), as the family found the full Demeter conversion too difficult to apply across the entire mixed-farming property.",
+        "tip": "Mas d'en Gil's biodynamic practices began in 2008 under the fourth generation of the Rovira family. Certification is organic (CCPAE); biodynamic methods are practised but not formally certified.",
+        "editorial_score": 4.6,
+        "verified": {
+          "source_url": "https://masdengil.com/en/biodynamic/",
+          "address_quoted": "Camino de la Grava s/n, 43738 Bellmunt del Priorat",
+          "open_status": "open",
+          "open_evidence_url": "https://spanishwinelover.com/winerie/mas-d-en-gil",
+          "cuisine_evidence_url": "https://masdengil.com/en/",
+          "checked_on": "2026-05-29"
+        }
+      },
+      {
+        "slug": "clos-erasmus-biodynamic",
+        "name": "Clos i Terrasses (Clos Erasmus)",
+        "vineyard_ref": "clos-erasmus",
+        "address": "17 terraces above Gratallops, 43736 Gratallops, Tarragona, Spain",
+        "neighborhood": "Gratallops",
+        "biodynamic_status": "biodynamic_practicing",
+        "biodynamic_certifier": null,
+        "organic_status": "organic_certified",
+        "organic_certifier": null,
+        "certified_year": null,
+        "description": "Daphne Glorian's Clos Erasmus has been organically farmed since the beginning and converted to biodynamic practices in 2004 when Ester Nin joined as viticulturist. The vineyards are certified organic and biodynamic methods have been applied since 2004, but no formal biodynamic certification (Demeter) has been pursued. The estate produces around 4,000 to 5,000 bottles per year from 17 terraces of Grenache and Syrah above Gratallops.",
+        "tip": "Clos Erasmus practises biodynamics without Demeter certification. The estate does not offer public visits as Daphne Glorian lives primarily in the United States.",
+        "editorial_score": 4.7,
+        "verified": {
+          "source_url": "https://www.terroirtalking.com/spotlight/daphne-glorian",
+          "address_quoted": "Gratallops, 43736 Gratallops, Tarragona",
+          "open_status": "unknown",
+          "open_evidence_url": "https://www.europeancellars.com/producer/clos-i-terrasses/",
+          "cuisine_evidence_url": "https://www.europeancellars.com/wine/clos-erasmus/",
+          "checked_on": "2026-05-29"
+        }
+      }
+    ],
+    "organic": [
+      {
+        "slug": "mas-martinet-organic",
+        "name": "Mas Martinet Viticultors",
+        "vineyard_ref": "mas-martinet",
+        "address": "Carretera de Gratallops s/n, 43730 Falset, Tarragona, Spain",
+        "neighborhood": "Falset",
+        "biodynamic_status": "biodynamic_practicing",
+        "biodynamic_certifier": null,
+        "organic_status": "organic_certified",
+        "organic_certifier": "CCPAE",
+        "certified_year": 2006,
+        "description": "Mas Martinet, run by Sara Perez, has been certified organic (CCPAE) since 2006 and practises agroecological farming integrating biodynamic, permaculture, and organic principles. Sara Perez took over winemaking from her father Josep Lluis Perez and was among the earliest organic adopters in the DOQ. The estate produces Cami Pessebre, Clos Martinet, and Martinet Bru from Falset.",
+        "tip": "Mas Martinet was among the first estates in Priorat to certify organic. Sara Perez's agroecological approach integrates biodiversity corridors and soil health monitoring beyond standard certification.",
+        "editorial_score": 4.8,
+        "verified": {
+          "source_url": "https://spanishwinelover.com/sara-perez-the-winemaker-who-doesn-t-fear-risk",
+          "address_quoted": "Carretera de Gratallops s/n, 43730 Falset",
+          "open_status": "open",
+          "open_evidence_url": "https://winepredator.com/2025/03/08/women-in-wine-agroecological-wines-by-sara-perez-at-mas-martinet-in-spains-priorat-doc-with-duck-a-la-espagnole-eggplant-importancia-couscous-to-celebrate-womens-history-month/",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Organic_wine",
+          "checked_on": "2026-05-29"
+        }
+      },
+      {
+        "slug": "clos-mogador-organic",
+        "name": "Clos Mogador",
+        "vineyard_ref": "clos-mogador",
+        "address": "Polígon 1 parcel-la 182, 43736 Gratallops, Tarragona, Spain",
+        "neighborhood": "Gratallops",
+        "biodynamic_status": "biodynamic_practicing",
+        "biodynamic_certifier": null,
+        "organic_status": "organic_certified",
+        "organic_certifier": null,
+        "certified_year": 2012,
+        "description": "Clos Mogador, founded by Rene Barbier as one of the Cinc Pioners, certified its vineyards organic in 2012 and follows regenerative and biodynamic principles including lunar calendar farming and biochar composting with horse manure. A Regenerative Viticulture Alliance certification has been obtained though the bottles do not carry the Demeter seal.",
+        "tip": "Clos Mogador's organic certification began in 2012. The estate practices biodynamics without Demeter certification, following a regenerative approach adapted to the Mediterranean climate.",
+        "editorial_score": 4.7,
+        "verified": {
+          "source_url": "https://www.closmogador.cat/en/regenerative-viticulture-and-biodynamic-practices-in-priorat/",
+          "address_quoted": "43736 Gratallops, Tarragona",
+          "open_status": "open",
+          "open_evidence_url": "https://prioratwines.nl/en/wineries/clos-mogador",
+          "cuisine_evidence_url": "https://www.enjoywinebcn.com/en/blog/clos-mogador-a-jewel-of-the-priorat-region--n181",
+          "checked_on": "2026-05-29"
+        }
+      },
+      {
+        "slug": "terroir-al-limit-organic",
+        "name": "Terroir Al Limit",
+        "vineyard_ref": "terroir-al-limit",
+        "address": "Carrer de la Font 11, 43737 Torroja del Priorat, Tarragona, Spain",
+        "neighborhood": "Torroja del Priorat",
+        "biodynamic_status": "biodynamic_practicing",
+        "biodynamic_certifier": null,
+        "organic_status": "organic_certified",
+        "organic_certifier": null,
+        "certified_year": null,
+        "description": "Terroir Al Limit, founded by Dominik Huber in 2001, farms all 25 hectares organically and applies biodynamic techniques adapted to the Mediterranean climate of Priorat. Huber has acknowledged that strict biodynamic methods developed in northern continental climates cannot be applied wholesale to Priorat's hot, dry conditions, and the estate has developed its own interpretation using organic practices as the foundation with biodynamic preparations applied selectively.",
+        "tip": "Terroir Al Limit is certified organic with biodynamic practices adapted to the Mediterranean. The estate does not hold Demeter certification but is consistently cited as a biodynamic-practising producer.",
+        "editorial_score": 4.7,
+        "verified": {
+          "source_url": "https://terroir-al-limit.com/our-history/",
+          "address_quoted": "Carrer de la Font 11, 43737 Torroja del Priorat",
+          "open_status": "open",
+          "open_evidence_url": "https://prioratwines.nl/en/wineries/terroir-al-limit",
+          "cuisine_evidence_url": "https://www.europeancellars.com/interview-with-dominik-huber-terroir-al-limit/",
+          "checked_on": "2026-05-29"
+        }
+      }
+    ],
+    "natural": [
+      {
+        "slug": "terroir-al-limit-natural",
+        "name": "Terroir Al Limit",
+        "vineyard_ref": "terroir-al-limit",
+        "address": "Carrer de la Font 11, 43737 Torroja del Priorat, Tarragona, Spain",
+        "neighborhood": "Torroja del Priorat",
+        "natural_wine": true,
+        "description": "Dominik Huber's estate is the most widely recognised natural-wine producer within the DOQ. The winemaking approach features whole-cluster fermentation, indigenous yeast, minimal or no sulfur additions at bottling, and large-format concrete and oak vessels. The wines are sold through natural wine specialists including MYSA Natural Wine in the US and Raisin in France. Tatjana Peceric, head winemaker, launched the Coreografia label from biodynamic grapes in 2020.",
+        "tip": "Terroir Al Limit wines are stocked by natural wine specialists globally. The Terra de Cuques and Pedra de Guix whites are the natural wine entry points into the estate range.",
+        "editorial_score": 4.8,
+        "verified": {
+          "source_url": "https://mysa.wine/pages/natural-wine-region-profile/priorat",
+          "address_quoted": "Carrer de la Font 11, 43737 Torroja del Priorat",
+          "open_status": "open",
+          "open_evidence_url": "https://wineanorak.com/2025/05/21/terroir-al-limit-and-terroir-sense-fronteres-stunning-brave-wines-from-priorat-and-montsant-by-dominic-and-tatjana/",
+          "cuisine_evidence_url": "https://mysa.wine/pages/natural-wine-region-profile/priorat",
+          "checked_on": "2026-05-29"
+        }
+      },
+      {
+        "slug": "nin-ortiz-natural",
+        "name": "Nin-Ortiz",
+        "vineyard_ref": "nin-ortiz",
+        "address": "Carrer Major 2, 43739 Porrera, Tarragona, Spain",
+        "neighborhood": "Porrera",
+        "natural_wine": true,
+        "description": "Ester Nin and Carles Ortiz produce Nin-Ortiz wines from organically farmed century-old Carinena in Porrera with minimal cellar intervention. Indigenous yeast fermentation, no fining or filtration, and very low sulfur additions characterise the winemaking approach.",
+        "tip": "Nin-Ortiz wines are available through specialist natural wine merchants. Production is very small and wines sell out quickly. Contact the winery or a specialist importer directly.",
+        "editorial_score": 4.6,
+        "verified": {
+          "source_url": "https://mysa.wine/pages/natural-wine-region-profile/priorat",
+          "address_quoted": "Carrer Major 2, 43739 Porrera",
+          "open_status": "open",
+          "open_evidence_url": "https://objectivefoodie.com/2023/07/03/nin-ortiz-the-beauty-of-porrera-priorat-in-a-glass/",
+          "cuisine_evidence_url": "https://mysa.wine/pages/natural-wine-region-profile/priorat",
+          "checked_on": "2026-05-29"
+        }
+      },
+      {
+        "slug": "mas-martinet-natural-leaning",
+        "name": "Mas Martinet Viticultors",
+        "vineyard_ref": "mas-martinet",
+        "address": "Carretera de Gratallops s/n, 43730 Falset, Tarragona, Spain",
+        "neighborhood": "Falset",
+        "natural_wine": false,
+        "description": "Mas Martinet Bru is listed by The Natural Wine Company (UK) as a natural-leaning wine. Sara Perez uses indigenous yeast, minimal added sulfur, and no fining agents across the estate range. The agroecological approach and the Bru entry wine appear on natural wine platforms despite the estate not formally using the natural wine designation.",
+        "tip": "Mas Martinet Bru is the most widely stocked Mas Martinet wine on natural wine retailer platforms. The estate uses indigenous yeast and low sulfur but does not formally use the 'natural wine' designation.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://naturalwine.com/mas-martinet-bru-priorat/",
+          "address_quoted": "Carretera de Gratallops s/n, 43730 Falset",
+          "open_status": "open",
+          "open_evidence_url": "https://spanishwinelover.com/sara-perez-the-winemaker-who-doesn-t-fear-risk",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Organic_wine",
+          "checked_on": "2026-05-29"
+        }
+      }
+    ],
+    "vegan_winemaking": [
+      {
+        "slug": "terroir-al-limit-vegan",
+        "name": "Terroir Al Limit",
+        "vineyard_ref": "terroir-al-limit",
+        "address": "Carrer de la Font 11, 43737 Torroja del Priorat, Tarragona, Spain",
+        "neighborhood": "Torroja del Priorat",
+        "vegan_confirmed": true,
+        "description": "Terroir Al Limit does not use animal-derived fining agents. The estate's minimal-intervention cellar approach, which includes no fining and no filtration of the final wines, results in vegan-compatible winemaking across the range. The estate's practices are documented through importer notes and the winery's own communications.",
+        "tip": "Terroir Al Limit's wines are unfined and unfiltered, with no animal-derived processing aids used. Confirmed vegan from natural wine importer documentation.",
+        "editorial_score": 4.7,
+        "verified": {
+          "source_url": "https://www.bowlerwine.com/producer/terroir-al-limit",
+          "address_quoted": "Carrer de la Font 11, 43737 Torroja del Priorat",
+          "open_status": "open",
+          "open_evidence_url": "https://wineanorak.com/2025/05/21/terroir-al-limit-and-terroir-sense-fronteres-stunning-brave-wines-from-priorat-and-montsant-by-dominic-and-tatjana/",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Fining_(wine)",
+          "checked_on": "2026-05-29"
+        }
+      },
+      {
+        "slug": "cims-de-porrera-vegan",
+        "name": "Cims de Porrera",
+        "vineyard_ref": "cims-de-porrera",
+        "address": "Carrer Major s/n, 43739 Porrera, Tarragona, Spain",
+        "neighborhood": "Porrera",
+        "vegan_confirmed": true,
+        "description": "Cims de Porrera, founded by Josep Lluis Perez to preserve century-old Carinena and Garnacha vines in Porrera, is listed as a natural wine producer by MYSA Natural Wine with vegan winemaking practices. The estate uses organic farming and minimal-intervention winemaking without animal-derived fining agents.",
+        "tip": "Cims de Porrera Vi de Villa Porrera is listed by specialist vegan wine retailers as suitable for vegans. The producer's organic and minimal-intervention approach supports this.",
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://mysa.wine/pages/producer-profile/cims-de-porrera",
+          "address_quoted": "Carrer Major s/n, 43739 Porrera",
+          "open_status": "open",
+          "open_evidence_url": "https://www.turismepriorat.org/en/get-organised/local-producers/cims-de-porrera",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Fining_(wine)",
+          "checked_on": "2026-05-29"
+        }
+      }
+    ],
+    "lowsulfite": [
+      {
+        "slug": "terroir-al-limit-lowsulfite",
+        "name": "Terroir Al Limit",
+        "vineyard_ref": "terroir-al-limit",
+        "address": "Carrer de la Font 11, 43737 Torroja del Priorat, Tarragona, Spain",
+        "neighborhood": "Torroja del Priorat",
+        "description": "Dominik Huber's Terroir Al Limit is the most clearly documented low-sulfite producer in the DOQ. The estate adds minimal sulfur at bottling and relies on healthy organic farming, indigenous yeast, and reductive cellar handling to preserve the wines without elevated sulfite additions. The approach is documented by importers including Bowler Wine and European Cellars.",
+        "tip": "Terroir Al Limit's white wines and village-tier reds are the lowest-sulfite options in the estate range. The Terra de Cuques entry whites are made with very low added sulfur.",
+        "editorial_score": 4.7,
+        "verified": {
+          "source_url": "https://www.europeancellars.com/interview-with-dominik-huber-terroir-al-limit/",
+          "address_quoted": "Carrer de la Font 11, 43737 Torroja del Priorat",
+          "open_status": "open",
+          "open_evidence_url": "https://www.bowlerwine.com/producer/terroir-al-limit",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Organic_wine",
+          "checked_on": "2026-05-29"
+        }
+      },
+      {
+        "slug": "nin-ortiz-lowsulfite",
+        "name": "Nin-Ortiz",
+        "vineyard_ref": "nin-ortiz",
+        "address": "Carrer Major 2, 43739 Porrera, Tarragona, Spain",
+        "neighborhood": "Porrera",
+        "description": "Nin-Ortiz's minimal-intervention approach includes very low or no sulfur additions at bottling. Ester Nin's old-vine Carinena wines from Porrera are fermented with indigenous yeast and bottled with minimal sulfite protection, relying on organic-farmed fruit health for stability.",
+        "tip": "Nin-Ortiz wines are low in added sulfite and should be stored carefully. The wines are designed for relatively early drinking unless cellared in stable conditions.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://mysa.wine/pages/natural-wine-region-profile/priorat",
+          "address_quoted": "Carrer Major 2, 43739 Porrera",
+          "open_status": "open",
+          "open_evidence_url": "https://objectivefoodie.com/2023/07/03/nin-ortiz-the-beauty-of-porrera-priorat-in-a-glass/",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Organic_wine",
+          "checked_on": "2026-05-29"
+        }
+      },
+      {
+        "slug": "mas-martinet-lowsulfite",
+        "name": "Mas Martinet Viticultors",
+        "vineyard_ref": "mas-martinet",
+        "address": "Carretera de Gratallops s/n, 43730 Falset, Tarragona, Spain",
+        "neighborhood": "Falset",
+        "description": "Sara Perez's agroecological approach at Mas Martinet includes low sulfur additions across the estate range. The Bru entry wine and the Cami Pessebre both receive minimal sulfur additions by Priorat standards. The Natural Wine Company (UK) lists Mas Martinet Bru as a low-sulfite wine suitable for sensitive consumers.",
+        "tip": "Mas Martinet Bru is the entry point for low-sulfite Priorat from an agroecological estate. The Natural Wine Company lists it as low-intervention with minimal sulfur additions.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://naturalwine.com/mas-martinet-bru-priorat/",
+          "address_quoted": "Carretera de Gratallops s/n, 43730 Falset",
+          "open_status": "open",
+          "open_evidence_url": "https://winepredator.com/2025/03/08/women-in-wine-agroecological-wines-by-sara-perez-at-mas-martinet-in-spains-priorat-doc-with-duck-a-la-espagnole-eggplant-importancia-couscous-to-celebrate-womens-history-month/",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Organic_wine",
+          "checked_on": "2026-05-29"
+        }
+      },
+      {
+        "slug": "clos-mogador-lowsulfite",
+        "name": "Clos Mogador",
+        "vineyard_ref": "clos-mogador",
+        "address": "Polígon 1 parcel-la 182, 43736 Gratallops, Tarragona, Spain",
+        "neighborhood": "Gratallops",
+        "description": "Clos Mogador's regenerative and biodynamic vineyard practices, combined with indigenous yeast fermentation and minimal cellar intervention, result in wines with low total sulfur additions. The estate does not formally market itself as low-sulfite but the approach is documented through the viticulture page on the producer's own website.",
+        "tip": "Clos Mogador's low-intervention approach from certified-organic, biodynamic-practising vineyards produces wines with generally low added sulfite compared to conventional Priorat producers.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://www.closmogador.cat/en/regenerative-viticulture-and-biodynamic-practices-in-priorat/",
+          "address_quoted": "43736 Gratallops, Tarragona",
+          "open_status": "open",
+          "open_evidence_url": "https://prioratwines.nl/en/wineries/clos-mogador",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Organic_wine",
+          "checked_on": "2026-05-29"
+        }
+      }
+    ]
+  }
+}

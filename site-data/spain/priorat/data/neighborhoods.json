@@ -1,0 +1,376 @@
+{
+  "neighborhoods": [
+    {
+      "slug": "gratallops",
+      "name": "Gratallops",
+      "address": "Gratallops, 43737 Tarragona, Spain",
+      "classification": "DOQ Priorat Vi de Vila",
+      "description": "The central village of Priorat at 321 metres altitude, home to Clos Mogador, Alvaro Palacios, Clos de l'Obac, Mas Martinet, Buil and Gine and Mas Igneus. The Gratallops Vi de Vila appellation is among the most planted of the 12 village designations.",
+      "key_varietals": [
+        "Garnacha",
+        "Cariñena",
+        "Garnacha Blanca",
+        "Macabeo"
+      ],
+      "sub_communes": [
+        "El Lloar",
+        "La Vilella Alta",
+        "La Vilella Baixa"
+      ],
+      "famous_producers": [
+        "clos-mogador",
+        "alvaro-palacios",
+        "clos-de-lobac",
+        "mas-martinet",
+        "buil-gine",
+        "mas-igneus"
+      ],
+      "aliases": [
+        "Gratallops Vi de Vila"
+      ],
+      "vibe": "The epicentre of modern Priorat, where the 1989 renaissance began. Narrow streets, terraced vineyards and most of the region's top estates all within a few kilometres.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.doqpriorat.org/en/the-villages/",
+        "address_quoted": "Gratallops",
+        "open_status": "open",
+        "open_evidence_url": "https://www.turismepriorat.org/en/region/villages/gratallops",
+        "cuisine_evidence_url": "https://www.doqpriorat.org/en/wineries/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "porrera",
+      "name": "Porrera",
+      "address": "Porrera, 43739 Tarragona, Spain",
+      "classification": "DOQ Priorat Vi de Vila",
+      "description": "The Cariñena heartland of Priorat, where old-vine Samsó on steep terraces produces the region's most structured wines. Home to Celler Vall Llach (Mas de la Rosa Gran Vinya Classificada), Cims de Porrera, Sangenis i Vaque, Celler Cal Pla and Marco Abella.",
+      "key_varietals": [
+        "Cariñena",
+        "Garnacha"
+      ],
+      "sub_communes": [
+        "Gratallops"
+      ],
+      "famous_producers": [
+        "vall-llach",
+        "cims-de-porrera",
+        "sangenis-i-vaque",
+        "celler-cal-pla",
+        "marco-abella"
+      ],
+      "aliases": [
+        "Porrera Vi de Vila"
+      ],
+      "vibe": "Quiet hilltop village with century-old Cariñena parcels on extreme-gradient costers, including the Gran Vinya Classificada Mas de la Rosa.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.doqpriorat.org/en/the-villages/",
+        "address_quoted": "Porrera",
+        "open_status": "open",
+        "open_evidence_url": null,
+        "cuisine_evidence_url": "https://www.doqpriorat.org/en/wineries/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "torroja-del-priorat",
+      "name": "Torroja del Priorat",
+      "address": "Torroja del Priorat, 43737 Tarragona, Spain",
+      "classification": "DOQ Priorat Vi de Vila",
+      "description": "Home to Terroir al Limit and Celler Rotllan Torra, Torroja is a small village on the western side of the Priorat with particularly old Garnacha plots and the historic 17th-century Rotllan Torra cellar originally built by Carthusian monks.",
+      "key_varietals": [
+        "Garnacha",
+        "Cariñena",
+        "Garnacha Blanca"
+      ],
+      "sub_communes": [],
+      "famous_producers": [
+        "terroir-al-limit",
+        "rotllan-torra"
+      ],
+      "aliases": [
+        "Torroja Vi de Vila"
+      ],
+      "vibe": "A peaceful stone village off the main wine route but home to one of the DOQ's most influential minimal-intervention producers and several old-vine parcels of extreme altitude.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.doqpriorat.org/en/the-villages/",
+        "address_quoted": "Torroja del Priorat",
+        "open_status": "open",
+        "open_evidence_url": null,
+        "cuisine_evidence_url": "https://www.doqpriorat.org/en/wineries/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "bellmunt-del-priorat",
+      "name": "Bellmunt del Priorat",
+      "address": "Bellmunt del Priorat, 43738 Tarragona, Spain",
+      "classification": "DOQ Priorat Vi de Vila",
+      "description": "Home to the L'Ermita Gran Vinya Classificada vineyard, a 4.7-hectare northeast-facing slope on llicorella vinified by Alvaro Palacios. Also home to Finca Mas d'en Gil and Costers del Priorat, with organic and CAAE-certified estates.",
+      "key_varietals": [
+        "Garnacha",
+        "Cariñena",
+        "Garnacha Blanca"
+      ],
+      "sub_communes": [],
+      "famous_producers": [
+        "alvaro-palacios",
+        "mas-den-gil",
+        "costers-del-priorat",
+        "celler-la-vinyes-lermita"
+      ],
+      "aliases": [
+        "Bellmunt Vi de Vila"
+      ],
+      "vibe": "A small village on the eastern edge of the DOQ, anchored by the L'Ermita hillside and the 125-hectare Mas d'en Gil estate, combining CAAE-certified organic farming with dramatic valley views.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.doqpriorat.org/en/the-villages/",
+        "address_quoted": "Bellmunt del Priorat",
+        "open_status": "open",
+        "open_evidence_url": null,
+        "cuisine_evidence_url": "https://www.doqpriorat.org/en/wineries/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "escaladei",
+      "name": "Escaladei",
+      "address": "Escaladei, 43379 La Morera de Montsant, Tarragona, Spain",
+      "classification": "DOQ Priorat Vi de Vila",
+      "description": "The historic origin of Priorat wine, where the Carthusian monastery of Cartoixa d'Escaladei was founded in 1163 and introduced organised viticulture. The ruins are open to visitors; Cellers de Scala Dei, established in 1878, continues production on the monastic estate.",
+      "key_varietals": [
+        "Garnacha",
+        "Cariñena"
+      ],
+      "sub_communes": [],
+      "famous_producers": [
+        "cellers-scala-dei",
+        "cartoixa-descaladei"
+      ],
+      "aliases": [
+        "Scala Dei",
+        "Escaladei Vi de Vila"
+      ],
+      "vibe": "Ruined Carthusian cloisters surrounded by high-altitude vineyards at the foot of the Montsant cliffs, where monks first brought wine culture to Priorat in the 12th century.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.doqpriorat.org/en/the-villages/",
+        "address_quoted": "Escaladei",
+        "open_status": "open",
+        "open_evidence_url": "https://www.turismepriorat.org/en/what-to-do/places-of-interest/cartoixa-descaladei-carthusian-monastery-santa-maria-descaladei",
+        "cuisine_evidence_url": "https://cellersdescaladei.com/en",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "la-vilella-alta",
+      "name": "La Vilella Alta",
+      "address": "La Vilella Alta, 43375 Tarragona, Spain",
+      "classification": "DOQ Priorat Vi de Vila",
+      "description": "A remote village at 327 metres altitude on the western edge of the DOQ, home to the Bodegas Mas Alta estate (founded 1999 on the historic Mas Romani parcels), where old-vine Garnacha and Cariñena yield concentrated, mineral wines.",
+      "key_varietals": [
+        "Garnacha",
+        "Cariñena"
+      ],
+      "sub_communes": [],
+      "famous_producers": [
+        "bodegas-mas-alta"
+      ],
+      "aliases": [
+        "La Vilella Alta Vi de Vila"
+      ],
+      "vibe": "One of Priorat's more isolated hamlets, where the altitude and aspect push ripening later than in Gratallops, creating wines of distinct freshness alongside the region's characteristic intensity.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.doqpriorat.org/en/the-villages/",
+        "address_quoted": "La Vilella Alta",
+        "open_status": "open",
+        "open_evidence_url": null,
+        "cuisine_evidence_url": "https://www.doqpriorat.org/en/wineries/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "la-vilella-baixa",
+      "name": "La Vilella Baixa",
+      "address": "La Vilella Baixa, 43375 Tarragona, Spain",
+      "classification": "DOQ Priorat Vi de Vila",
+      "description": "The lower village of the Vilella pair at 218 metres, one of the four communities participating in the Vinicola del Priorat cooperative. Sits on the Siurana river road and is a quieter wine touring base than Gratallops.",
+      "key_varietals": [
+        "Garnacha",
+        "Cariñena",
+        "Macabeo"
+      ],
+      "sub_communes": [],
+      "famous_producers": [
+        "vinicola-del-priorat"
+      ],
+      "aliases": [
+        "La Vilella Baixa Vi de Vila"
+      ],
+      "vibe": "A smaller, less visited village along the winding Siurana valley road, linked to the cooperative network and surrounded by old-vine parcels on lower-gradient terraces.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.doqpriorat.org/en/the-villages/",
+        "address_quoted": "La Vilella Baixa",
+        "open_status": "open",
+        "open_evidence_url": null,
+        "cuisine_evidence_url": "https://www.doqpriorat.org/en/wineries/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "poboleda",
+      "name": "Poboleda",
+      "address": "Poboleda, 43376 Tarragona, Spain",
+      "classification": "DOQ Priorat Vi de Vila",
+      "description": "A quiet hilltop village northeast of Gratallops, home to Celler Mas Doix and its Tossal d'en Bou Gran Vinya Classificada vineyard (planted 1902). The village is also part of the cooperative network and has several small independent producers.",
+      "key_varietals": [
+        "Garnacha",
+        "Cariñena"
+      ],
+      "sub_communes": [],
+      "famous_producers": [
+        "mas-doix",
+        "celler-1902-mas-doix"
+      ],
+      "aliases": [
+        "Poboleda Vi de Vila"
+      ],
+      "vibe": "Compact and authentic, Poboleda is the home of Mas Doix and its century-old vineyard, surrounded by terraced costers where biodynamic farming has been practiced since 2016.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.doqpriorat.org/en/the-villages/",
+        "address_quoted": "Poboleda",
+        "open_status": "open",
+        "open_evidence_url": null,
+        "cuisine_evidence_url": "https://www.doqpriorat.org/en/wineries/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "el-lloar",
+      "name": "El Lloar",
+      "address": "El Lloar, 43736 Tarragona, Spain",
+      "classification": "DOQ Priorat Vi de Vila",
+      "description": "One of the four villages that form the Vinicola del Priorat cooperative, at 210 metres altitude. Small in population but contributing significant volumes of Garnacha and Cariñena to the region's cooperative and independent producers.",
+      "key_varietals": [
+        "Garnacha",
+        "Cariñena",
+        "Garnacha Blanca"
+      ],
+      "sub_communes": [],
+      "famous_producers": [
+        "vinicola-del-priorat"
+      ],
+      "aliases": [
+        "El Lloar Vi de Vila"
+      ],
+      "vibe": "A small cooperative village on the road between Gratallops and Porrera, with old-vine parcels on lower-relief terrain that tend to produce more accessible, earlier-drinking Garnacha.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.doqpriorat.org/en/the-villages/",
+        "address_quoted": "El Lloar",
+        "open_status": "open",
+        "open_evidence_url": null,
+        "cuisine_evidence_url": "https://www.doqpriorat.org/en/wineries/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "la-morera-de-montsant",
+      "name": "La Morera de Montsant",
+      "address": "La Morera de Montsant, 43361 Tarragona, Spain",
+      "classification": "DOQ Priorat Vi de Vila",
+      "description": "A village at the northern edge of the DOQ, at the foot of the Montsant cliffs. Home to Celler Pasanau, which farms organic plots at 540 to 740 metres, and the site of the ancient Cartoixa d'Escaladei ruins nearby. Marks the boundary between DOQ Priorat and the DO Montsant that encircles it.",
+      "key_varietals": [
+        "Garnacha",
+        "Cariñena",
+        "Cabernet Sauvignon"
+      ],
+      "sub_communes": [
+        "Escaladei"
+      ],
+      "famous_producers": [
+        "celler-pasanau"
+      ],
+      "aliases": [
+        "La Morera Vi de Vila"
+      ],
+      "vibe": "The highest and most rugged corner of the DOQ, where the Montsant massif creates a cool microclimate and Celler Pasanau's altitude plots produce wines of distinct freshness.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.doqpriorat.org/en/the-villages/",
+        "address_quoted": "La Morera de Montsant",
+        "open_status": "open",
+        "open_evidence_url": null,
+        "cuisine_evidence_url": "https://www.doqpriorat.org/en/wineries/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "lermita-gran-vinya",
+      "name": "L'Ermita (Gran Vinya Classificada)",
+      "address": "Afores, 43738 Bellmunt del Priorat, Tarragona, Spain",
+      "classification": "DOQ Priorat Gran Vinya Classificada",
+      "description": "A 4.7-hectare northeast-facing vineyard on llicorella slate in Bellmunt del Priorat, first vinified separately in 1993 by Alvaro Palacios. Named for a small chapel on the hilltop, L'Ermita holds Gran Vinya Clasificada status, the highest tier in the DOQ Priorat classification.",
+      "key_varietals": [
+        "Garnacha",
+        "Cariñena"
+      ],
+      "sub_communes": [],
+      "famous_producers": [
+        "alvaro-palacios",
+        "celler-la-vinyes-lermita"
+      ],
+      "aliases": [
+        "L'Ermita",
+        "La Hermitage"
+      ],
+      "vibe": "A hillside hermitage with a small Romanesque chapel above steep terraces, the spiritual and viticultural landmark of modern Priorat and the only site outside Burgundy that has inspired direct Burgundian grand-cru classification comparisons in Spain.",
+      "editorial_score": 5.0,
+      "verified": {
+        "source_url": "https://alvaropalacios.com/",
+        "address_quoted": "Bellmunt del Priorat",
+        "open_status": "open",
+        "open_evidence_url": "https://www.doqpriorat.org/en/thenamesoftheland/",
+        "cuisine_evidence_url": "https://www.cellartracker.com/wine.asp?iWine=4328404",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "manyetes-vi-de-paratge",
+      "name": "Manyetes (Vi de Paratge, Gratallops)",
+      "address": "Cami Manyetes, 43737 Gratallops, Tarragona, Spain",
+      "classification": "DOQ Priorat Vi de Paratge",
+      "description": "The Manyetes parcel in Gratallops is the site of Clos Mogador and the name of Alvaro Palacios's second-tier Vi de Paratge cuvee. The road name appears on both estates' addresses, indicating overlapping historic vineyard land on the northern slopes above Gratallops.",
+      "key_varietals": [
+        "Garnacha",
+        "Cariñena",
+        "Syrah"
+      ],
+      "sub_communes": [],
+      "famous_producers": [
+        "clos-mogador",
+        "alvaro-palacios"
+      ],
+      "aliases": [
+        "Manyetes",
+        "Cami Manyetes"
+      ],
+      "vibe": "A named single-vineyard zone at the northern perimeter of Gratallops, where Clos Mogador and the Manyetes cuvee from Alvaro Palacios both draw on llicorella-slate terraces with east-facing aspects.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.doqpriorat.org/en/thenamesoftheland/",
+        "address_quoted": "Cami Manyetes, 43737 Gratallops",
+        "open_status": "open",
+        "open_evidence_url": "https://prioratwines.nl/en/wineries/clos-mogador",
+        "cuisine_evidence_url": "https://www.doqpriorat.org/en/thenamesoftheland/",
+        "checked_on": "2026-05-29"
+      }
+    }
+  ]
+}
