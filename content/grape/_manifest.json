@@ -420,6 +420,12 @@
       "regions": [
         {
           "country_slug": "france",
+          "region_slug": "beaujolais",
+          "region_name": "Beaujolais",
+          "n": 13
+        },
+        {
+          "country_slug": "france",
           "region_slug": "burgundy",
           "region_name": "Burgundy",
           "n": 59
@@ -730,6 +736,12 @@
       "slug": "gamay",
       "display": "Gamay",
       "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "beaujolais",
+          "region_name": "Beaujolais",
+          "n": 92
+        },
         {
           "country_slug": "france",
           "region_slug": "burgundy",
@@ -1768,6 +1780,12 @@
       "slug": "pinot-noir",
       "display": "Pinot Noir",
       "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "beaujolais",
+          "region_name": "Beaujolais",
+          "n": 1
+        },
         {
           "country_slug": "france",
           "region_slug": "burgundy",

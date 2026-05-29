@@ -1,0 +1,48 @@
+{
+  "distilleries": [
+    {
+      "slug": "distillerie-du-beaujolais-charentay",
+      "name": "Distillerie du Beaujolais",
+      "address": "60 Route des Saint Etienne, 69220 Charentay, France",
+      "neighborhood": "Brouilly",
+      "description": "Industrial grape-marc distillery at the heart of the Beaujolais vineyards, producing Marc du Beaujolais, Marc de Bourgogne, Eau de vie de vin de Bourgogne, Poire, and Mirabelle from by-products collected across multiple wine regions. Several products carry AOP and IGP certification. A boutique on site sells the full range direct to consumers. Open Monday to Friday, 7 am to 5 pm; closed on bank holidays and during August.",
+      "spirits_produced": ["Marc du Beaujolais", "Marc de Bourgogne", "Eau de vie de vin de Bourgogne", "Poire", "Mirabelle"],
+      "certifications": ["AOP Marc du Beaujolais", "IGP Eau de vie de vin de Bourgogne"],
+      "tours_available": false,
+      "tasting_room": true,
+      "price_range": "Direct boutique sales; no fixed tasting charge",
+      "editorial_score": 4.0,
+      "verified": {
+        "source_url": "https://www.beaujolais-tourisme.com/en/en-direct-du-producteur/distillerie-du-beaujolais-6093766.html",
+        "address_quoted": "60 Route des Saint Etienne, 69220 Charentay",
+        "open_status": "open",
+        "open_evidence_url": "https://www.auvergnerhonealpes-tourisme.com/en/fiches/distillery-of-beaujolais/",
+        "cuisine_evidence_url": "https://www.beaujolais-tourisme.com/en/boutiques-vin-et-terroir/distillerie-du-beaujolais-6067016.html",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "distillerie-chenaie-sainte-paule",
+      "name": "Distillerie Artisanale Chenaie",
+      "address": "98 Chemin du Peloux, 69620 Sainte-Paule, France",
+      "neighborhood": "Pierres Dorees",
+      "description": "Artisanal distillery founded in 2021 in the southern Beaujolais Pierres Dorees, producing Beaujolais whisky aged in oak with fruity, floral, and woody notes, alongside fruit brandies from local pear, plum, and mirabelle orchards, and handmade liqueurs. The distillery welcomes visitors for guided tastings and tours explaining the production process and history of their spirits.",
+      "spirits_produced": ["Beaujolais whisky", "Pear brandy", "Plum brandy", "Mirabelle brandy", "Artisanal liqueurs"],
+      "certifications": [],
+      "tours_available": true,
+      "tasting_room": true,
+      "price_range": "Contact for tasting rates",
+      "editorial_score": 4.1,
+      "tip": "The Fine des Pierres Dorees, elaborated from Beaujolais wines and aged in new oak barrels, is a distinctive local spirit worth seeking out.",
+      "verified": {
+        "source_url": "https://distilleriechenaie.fr/distillerie-artisanale-beaujolais/",
+        "address_quoted": "98 Chemin du Peloux, Sainte Paule, 69620",
+        "open_status": "open",
+        "open_evidence_url": "https://www.beaujolais-tourisme.com/en/en-direct-du-producteur/distillerie-du-beaujolais-6093766.html",
+        "cuisine_evidence_url": "https://www.devenir-distillateur.com/pages/repertoire-des-distillateurs/",
+        "checked_on": "2026-05-29"
+      }
+    }
+  ],
+  "_editorial_note": "Beaujolais is not a major spirits region. Only 2 operating distilleries with verifiable street addresses and confirmed visitor access were found within the Beaujolais region scope: the industrial Distillerie du Beaujolais (Charentay) producing Marc-based spirits, and the artisanal Distillerie Chenaie (Sainte-Paule, founded 2021) producing whisky and fruit brandies. This file ships with 2 entries, well below the 10-entry Tier-1 floor. Marc du Beaujolais is produced at estate level by many producers but no additional dedicated distillery premises with confirmed street addresses and open boutiques were found within the strict geographic scope."
+}

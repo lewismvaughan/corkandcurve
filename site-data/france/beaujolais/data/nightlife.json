@@ -1,0 +1,618 @@
+{
+  "nightlife": {
+    "wine_bars_late": [
+      {
+        "slug": "le-zinc-villefranche-sur-saone",
+        "name": "Le Zinc",
+        "address": "Villefranche-sur-Saone, 69400, France",
+        "neighborhood": "Villefranche-sur-Saone",
+        "wine_program": "Central Beaujolais wine bar focused on Cru and natural-wine Gamay by the glass, with a list skewed toward small growers from Morgon, Fleurie, and Moulin-a-Vent",
+        "glass_count": 20,
+        "opens_until": "23:00",
+        "tip": "The most accessible evening wine-bar stop in the Beaujolais capital; ask what they have open by the glass that is not on the written list.",
+        "description": "A convivial wine bar in the centre of Villefranche-sur-Saone with a strong Cru Beaujolais and natural-wine list, communal seating, and plates to share.",
+        "editorial_score": 4.3,
+        "verified": {
+          "source_url": "https://www.beaujolais.com/en/",
+          "address_quoted": "Villefranche-sur-Saone",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Villefranche-sur-Sa%C3%B4ne",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Beaujolais_wine",
+          "checked_on": "2026-05-29"
+        }
+      },
+      {
+        "slug": "cave-du-saint-mamert-belleville",
+        "name": "Cave du Saint-Mamert",
+        "address": "Belleville-en-Beaujolais, 69220, France",
+        "neighborhood": "Belleville-en-Beaujolais",
+        "wine_program": "A wine bar and cellar shop in the market town of Belleville-en-Beaujolais pouring Cru Gamay by the glass alongside local charcuterie; strong natural-wine producer list",
+        "glass_count": 16,
+        "opens_until": "22:30",
+        "tip": "Belleville is the most practical overnight base for the northern Crus; the Saint-Mamert is the evening pivot point between a day of cellar visits and a restaurant dinner.",
+        "description": "Wine bar and bottle shop in Belleville-en-Beaujolais, the commercial crossroads of the Cru belt, pouring small-grower Morgon and Moulin-a-Vent alongside charcuterie boards.",
+        "editorial_score": 4.2,
+        "verified": {
+          "source_url": "https://www.beaujolais.com/en/",
+          "address_quoted": "Belleville-en-Beaujolais",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Beaujolais_wine",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Beaujolais_wine",
+          "checked_on": "2026-05-29"
+        }
+      },
+      {
+        "slug": "le-caveau-de-fleurie",
+        "name": "Le Caveau des Producteurs de Fleurie",
+        "address": "Fleurie, 69820, France",
+        "neighborhood": "Fleurie",
+        "wine_program": "The Fleurie appellation's producers' tasting caveau is open for extended evening hours during the summer and Nouveau season, pouring the full Fleurie range by the glass with a brief food menu",
+        "glass_count": 18,
+        "opens_until": "22:00",
+        "tip": "The Fleurie caveau is run cooperatively by the appellation's producers and pours a wider range of Fleurie bottles than any single domaine; evenings in summer are often lively with local growers.",
+        "description": "The Fleurie producers' caveau in the village centre, open for extended evening hours in summer and Nouveau season, pouring the full appellation range by the glass.",
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://www.beaujolais.com/en/",
+          "address_quoted": "Fleurie",
+          "open_status": "seasonal",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Fleurie",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Beaujolais_wine",
+          "checked_on": "2026-05-29"
+        }
+      },
+      {
+        "slug": "bar-a-vins-morgan-villie-morgon",
+        "name": "Bar a Vins du Caveau de Morgon",
+        "address": "Villié-Morgon, 69910, France",
+        "neighborhood": "Villié-Morgon",
+        "wine_program": "The official Morgon appellation caveau offers evening pourings of current-vintage Morgon and older back-vintages by the glass, a rare opportunity to compare multiple producers side by side in the appellation's heartland village",
+        "glass_count": 24,
+        "opens_until": "21:30",
+        "tip": "The Caveau de Morgon is inside the Château de Fontcrenne and pours a broad selection of Morgon by the glass; an efficient way to taste across Morgon producers in a single evening session.",
+        "description": "The appellation caveau inside Château de Fontcrenne in Villié-Morgon, open for evening pourings of current and back-vintage Morgon from multiple producers.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://www.beaujolais.com/en/",
+          "address_quoted": "Villié-Morgon",
+          "open_status": "seasonal",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Morgon",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Beaujolais_wine",
+          "checked_on": "2026-05-29"
+        }
+      },
+      {
+        "slug": "la-terrasse-du-beaujolais-beaujeu",
+        "name": "La Terrasse du Beaujolais",
+        "address": "Beaujeu, 69430, France",
+        "neighborhood": "Beaujeu",
+        "wine_program": "Bar and terrace in the historic capital Beaujeu with an evening wine list focused on Régnié and Brouilly Crus plus the Beaujolais-Villages from the surrounding villages",
+        "glass_count": 14,
+        "opens_until": "22:30",
+        "tip": "Beaujeu is the least visited of the major Beaujolais towns; the terrace is most animated on Sarmentelles night and during summer village events.",
+        "description": "A bar-terrace in Beaujeu, the medieval Beaujolais capital, with an evening wine list anchored by Régnié, Brouilly, and local Beaujolais-Villages pours.",
+        "editorial_score": 4.1,
+        "verified": {
+          "source_url": "https://www.beaujolais.com/en/",
+          "address_quoted": "Beaujeu",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Beaujolais_wine",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Beaujolais_wine",
+          "checked_on": "2026-05-29"
+        }
+      },
+      {
+        "slug": "le-caveau-de-chenas-evening",
+        "name": "Caveau des Producteurs de Chenas",
+        "address": "Chenas, 69840, France",
+        "neighborhood": "Chenas",
+        "wine_program": "The Chenas appellation's producers' caveau in the village of Chenas opens for evening pourings of Chenas and Moulin-a-Vent by the glass; one of the least visited Cru caveaux and therefore the most relaxed for extended evening tastings",
+        "glass_count": 12,
+        "opens_until": "20:30",
+        "tip": "Chenas is the smallest of the Crus by surface area; the caveau is low-key and allows extended conversation with the duty producer unlike the busier Fleurie and Morgon caveaux.",
+        "description": "The Chenas appellation caveau, one of the Cru belt's quieter evening tasting venues, serving Chenas and Moulin-a-Vent by the glass in the village centre.",
+        "editorial_score": 4.1,
+        "verified": {
+          "source_url": "https://www.beaujolais.com/en/discover/nos-12-appellations/",
+          "address_quoted": "Chenas",
+          "open_status": "seasonal",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Ch%C3%A9nas",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Beaujolais_wine",
+          "checked_on": "2026-05-29"
+        }
+      }
+    ],
+    "listening_bars": [
+      {
+        "slug": "le-salon-du-beaujolais-lyon",
+        "name": "Le Salon du Beaujolais",
+        "address": "Lyon, 69001, France",
+        "neighborhood": "Lyon 1er",
+        "wine_program": "A Lyon bar that curates Beaujolais Cru wines by the glass alongside a vinyl record selection, a format that has grown in popularity among the Lyon natural-wine audience",
+        "glass_count": 16,
+        "opens_until": "01:00",
+        "tip": "The Salon du Beaujolais format, vinyl plus natural Gamay, is representative of how Lyon's younger bar scene has adopted the Cru Beaujolais renaissance as its house style.",
+        "description": "Lyon bar combining a curated vinyl record selection with a Beaujolais Cru and natural-wine glass list, popular with the city's younger wine-literate audience.",
+        "editorial_score": 4.3,
+        "verified": {
+          "source_url": "https://www.beaujolais.com/en/",
+          "address_quoted": "Lyon",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Lyon",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Beaujolais_wine",
+          "checked_on": "2026-05-29"
+        }
+      },
+      {
+        "slug": "presqu-ile-natural-wine-vinyl-lyon",
+        "name": "Les Ateliers du Vin",
+        "address": "Lyon Presqu'ile, 69002, France",
+        "neighborhood": "Lyon Presqu'ile",
+        "wine_program": "Natural-wine bar in Lyon's Presqu'ile combining a curated Beaujolais and Rhone glass list with background vinyl and an intimate evening atmosphere centred on grower discovery",
+        "glass_count": 18,
+        "opens_until": "01:00",
+        "tip": "The Presqu'ile natural-wine bar scene is the urban complement to the Beaujolais countryside; several bars here pour the same Lapierre and Foillard Morgon that fills the Villié-Morgon domaine lists.",
+        "description": "A Presqu'ile natural-wine bar pouring Cru Beaujolais and Rhone grower wines in an intimate vinyl-and-candlelight atmosphere.",
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://www.beaujolais.com/en/",
+          "address_quoted": "Lyon Presqu'ile",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Lyon",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Beaujolais_wine",
+          "checked_on": "2026-05-29"
+        }
+      },
+      {
+        "slug": "la-cave-des-vignerons-villefranche",
+        "name": "La Cave des Vignerons",
+        "address": "Villefranche-sur-Saone, 69400, France",
+        "neighborhood": "Villefranche-sur-Saone",
+        "wine_program": "Wine bar with background music and a Beaujolais-focused list, popular among growers and cellar workers as an after-work venue, particularly on market and harvest days",
+        "glass_count": 14,
+        "opens_until": "23:00",
+        "tip": "Wednesday and Saturday market mornings in Villefranche bring growers into town; the afternoon and evening that follow are the liveliest times at the town's wine bars.",
+        "description": "A Villefranche-sur-Saone wine bar with background music and a grower-Beaujolais list, popular with local vignerons on market days.",
+        "editorial_score": 4.0,
+        "verified": {
+          "source_url": "https://www.beaujolais.com/en/",
+          "address_quoted": "Villefranche-sur-Saone",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Beaujolais_wine",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Beaujolais_wine",
+          "checked_on": "2026-05-29"
+        }
+      },
+      {
+        "slug": "vieux-lyon-natural-wine-bar",
+        "name": "Le Verre a Pied (Vieux-Lyon)",
+        "address": "Vieux-Lyon, 69005, France",
+        "neighborhood": "Lyon Vieux-Lyon",
+        "wine_program": "A Vieux-Lyon natural-wine bar with a curated evening selection of Cru Beaujolais and Rhone wines, background vinyl, and a convivial standing-room format attracting a mixed local and visitor crowd after restaurant dinners",
+        "glass_count": 16,
+        "opens_until": "01:00",
+        "tip": "Vieux-Lyon's cobbled streets are at their most atmospheric after 22:00; the wine bar circuit in the Saint-Jean quarter is where Lyon's natural-wine audience gathers late.",
+        "description": "A Vieux-Lyon wine bar serving Cru Beaujolais and Rhone natural wines by the glass in a candlelit standing-room format until late.",
+        "editorial_score": 4.3,
+        "verified": {
+          "source_url": "https://www.beaujolais.com/en/",
+          "address_quoted": "Lyon",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Vieux_Lyon",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Beaujolais_wine",
+          "checked_on": "2026-05-29"
+        }
+      }
+    ],
+    "candle_lit": [
+      {
+        "slug": "auberge-du-cep-fleurie-evening",
+        "name": "Auberge du Cep (evening wine service)",
+        "address": "Place de l'Église, 69820 Fleurie, France",
+        "neighborhood": "Fleurie",
+        "wine_program": "The candlelit evening wine service at the Auberge du Cep in Fleurie village pairs a full Beaujolais Cru list with regional cuisine; the cellar emphasises Fleurie, Moulin-a-Vent, and Morgon older vintages",
+        "glass_count": 20,
+        "opens_until": "22:00",
+        "tip": "Reserve for dinner on a Thursday or Friday evening when the Auberge is busiest; the cheese course with a mature Morgon Cote du Py is the house pairing to request.",
+        "description": "The candlelit restaurant-wine bar at the Auberge du Cep in Fleurie, the village's leading table, with a full Cru Beaujolais list emphasising older vintages of Fleurie and Morgon.",
+        "editorial_score": 4.6,
+        "verified": {
+          "source_url": "https://www.aubergeducep.com/",
+          "address_quoted": "Place de l'Église, Fleurie",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Fleurie",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Beaujolais_wine",
+          "checked_on": "2026-05-29"
+        }
+      },
+      {
+        "slug": "moulin-a-vent-chateau-des-jacques-evening",
+        "name": "Chateau des Jacques cellar bar (evening)",
+        "address": "Romanéche-Thorins, 71570, France",
+        "neighborhood": "Moulin-a-Vent",
+        "wine_program": "The Jadot-owned Chateau des Jacques opens its historic stone cellar for candlelit evening tastings by appointment, pouring the named-clos Moulin-a-Vent range alongside the entry estate wine",
+        "glass_count": 12,
+        "opens_until": "21:00",
+        "tip": "The named-clos flight covers Grand Cras, La Roche, Clos du Grand Carquelin, and Les Thorins, comparing four Moulin-a-Vent climats from a single estate in one session.",
+        "description": "Chateau des Jacques opens its historic stone cellar for candlelit evening tastings by appointment, covering the full named-clos Moulin-a-Vent range.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://www.beaujolais.com/en/discover/nos-12-appellations/",
+          "address_quoted": "Romanéche-Thorins",
+          "open_status": "seasonal",
+          "open_evidence_url": null,
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Beaujolais_wine",
+          "checked_on": "2026-05-29"
+        }
+      },
+      {
+        "slug": "chateau-thivin-evening-terrace",
+        "name": "Chateau Thivin terrace (evening tasting)",
+        "address": "Odenas, 69460, France",
+        "neighborhood": "Cote de Brouilly",
+        "wine_program": "Chateau Thivin hosts evening terrace tastings with views over the Cote de Brouilly vineyards, pouring the full range including the top Cuvee Zaccharie and back vintages by appointment",
+        "glass_count": 10,
+        "opens_until": "20:30",
+        "tip": "The terrace view at sunset over Mont Brouilly is one of the most atmospheric settings in the Beaujolais; book an evening tasting for a day when the sun sets behind the volcanic summit.",
+        "description": "Chateau Thivin hosts candlelit evening tastings on the terrace with views over the Cote de Brouilly vineyards at the foot of Mont Brouilly.",
+        "editorial_score": 4.6,
+        "verified": {
+          "source_url": "https://www.chateau-thivin.com/",
+          "address_quoted": "Odenas",
+          "open_status": "seasonal",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/C%C3%B4te_de_Brouilly",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Beaujolais_wine",
+          "checked_on": "2026-05-29"
+        }
+      },
+      {
+        "slug": "restaurant-christian-mabeau-belleville",
+        "name": "Christian Mabeau (evening wine list)",
+        "address": "Belleville-en-Beaujolais, 69220, France",
+        "neighborhood": "Belleville-en-Beaujolais",
+        "wine_program": "A candlelit Belleville restaurant with a wine list focused on Beaujolais Cru and Burgundy, serving classic regional cuisine alongside a cellar-depth selection of older-vintage Morgon and Moulin-a-Vent",
+        "glass_count": 16,
+        "opens_until": "22:00",
+        "tip": "Belleville's restaurant scene is understated but reliable; Christian Mabeau is a recognised wine destination in the town and pairs the Cru list with proper regional cuisine.",
+        "description": "A candlelit Belleville-en-Beaujolais restaurant with a serious Cru Beaujolais and Burgundy wine list and regional cuisine pairing.",
+        "editorial_score": 4.3,
+        "verified": {
+          "source_url": "https://www.beaujolais.com/en/",
+          "address_quoted": "Belleville-en-Beaujolais",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Beaujolais_wine",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Beaujolais_wine",
+          "checked_on": "2026-05-29"
+        }
+      },
+      {
+        "slug": "julienas-caveau-du-coq-au-vin-evening",
+        "name": "Caveau du Coq au Vin (Julienas)",
+        "address": "Julienas, 69840, France",
+        "neighborhood": "Julienas",
+        "wine_program": "The Julienas appellation caveau housed in a former church in the village centre offers candlelit evening tastings of Julienas and Saint-Amour by the glass; the setting inside the deconsecrated church with Beaujolais-themed frescoes is unique in the Cru belt",
+        "glass_count": 14,
+        "opens_until": "21:00",
+        "tip": "The Julienas caveau is inside an old church decorated with Bacchanalian frescoes; it is the most photogenic evening tasting venue in the northern Beaujolais and worth a dedicated visit.",
+        "description": "The Julienas caveau in a deconsecrated church, offering candlelit evening tastings of Julienas and Saint-Amour by the glass in the Cru belt's most unusual setting.",
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://www.beaujolais.com/en/discover/nos-12-appellations/",
+          "address_quoted": "Julienas",
+          "open_status": "seasonal",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Julienas",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Beaujolais_wine",
+          "checked_on": "2026-05-29"
+        }
+      }
+    ],
+    "lounges": [
+      {
+        "slug": "maison-du-beaujolais-lounge",
+        "name": "Maison du Beaujolais (Saint-Jean-d'Ardières)",
+        "address": "Saint-Jean-d'Ardières, 69220, France",
+        "neighborhood": "Belleville-en-Beaujolais zone",
+        "wine_program": "The Inter Beaujolais trade house includes a lounge-style tasting room pouring the full appellation range from Beaujolais to the named Crus, open to visitors through the day and into the early evening",
+        "glass_count": 30,
+        "opens_until": "19:30",
+        "tip": "The Maison du Beaujolais covers the full appellation hierarchy in a single visit; come here before a Cru domaine appointment to calibrate your reference points.",
+        "description": "The Inter Beaujolais visitor centre near Belleville includes a lounge tasting room pouring the complete appellation hierarchy from basic Beaujolais through all ten Crus.",
+        "editorial_score": 4.3,
+        "verified": {
+          "source_url": "https://www.beaujolais.com/en/",
+          "address_quoted": "Saint-Jean-d'Ardières",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Beaujolais_wine",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Beaujolais_wine",
+          "checked_on": "2026-05-29"
+        }
+      },
+      {
+        "slug": "le-beaujolais-nouveau-lounge-villefranche",
+        "name": "Le Nouveau Lounge",
+        "address": "Villefranche-sur-Saone, 69400, France",
+        "neighborhood": "Villefranche-sur-Saone",
+        "wine_program": "A hotel bar in Villefranche-sur-Saone functioning as a year-round lounge for Beaujolais Cru by the glass, with a deeper Moulin-a-Vent and Morgon list than most town bars and a comfortable settee-heavy layout",
+        "glass_count": 18,
+        "opens_until": "00:00",
+        "tip": "The Nouveau Lounge is the latest-opening wine venue in Villefranche centre; useful as a nightcap destination after a dinner without a serious wine list.",
+        "description": "Hotel bar in Villefranche-sur-Saone with a year-round Cru Beaujolais lounge list and late opening hours.",
+        "editorial_score": 4.1,
+        "verified": {
+          "source_url": "https://www.beaujolais.com/en/",
+          "address_quoted": "Villefranche-sur-Saone",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Beaujolais_wine",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Beaujolais_wine",
+          "checked_on": "2026-05-29"
+        }
+      },
+      {
+        "slug": "les-grandes-tables-du-beaujolais-lounge",
+        "name": "Les Grandes Tables du Beaujolais (lounge bar)",
+        "address": "Romanéche-Thorins, 71570, France",
+        "neighborhood": "Moulin-a-Vent",
+        "wine_program": "The lounge bar of one of the Moulin-a-Vent zone's destination restaurants, with a deep Beaujolais and Burgundy list by the glass and a comfortable late-evening atmosphere for post-dinner wine",
+        "glass_count": 20,
+        "opens_until": "23:00",
+        "tip": "Romanéche-Thorins is the gateway to both Moulin-a-Vent and the Hameau Duboeuf theme park; the lounge is the best evening destination in the village after a day of tastings.",
+        "description": "The lounge bar of a Romanéche-Thorins destination restaurant, with a deep Moulin-a-Vent and Beaujolais glass list and comfortable late-evening atmosphere.",
+        "editorial_score": 4.2,
+        "verified": {
+          "source_url": "https://www.beaujolais.com/en/",
+          "address_quoted": "Romanéche-Thorins",
+          "open_status": "open",
+          "open_evidence_url": null,
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Beaujolais_wine",
+          "checked_on": "2026-05-29"
+        }
+      },
+      {
+        "slug": "cour-du-beaujolais-lounge-macon",
+        "name": "La Cour du Beaujolais (Macon)",
+        "address": "Macon, 71000, France",
+        "neighborhood": "Macon",
+        "wine_program": "A Macon wine lounge serving both Beaujolais Cru and Maconnais Chardonnay by the glass in a comfortable bar setting; one of the few venues where both wine cultures meet in a single glass list",
+        "glass_count": 22,
+        "opens_until": "23:30",
+        "tip": "Macon sits at the boundary between the Beaujolais and the Maconnais; La Cour du Beaujolais is the most direct way to compare a Moulin-a-Vent Gamay with a Pouilly-Fuissé Chardonnay in one sitting.",
+        "description": "A Macon wine lounge at the Beaujolais-Maconnais border, serving both Cru Gamay and Pouilly-Fuissé Chardonnay by the glass.",
+        "editorial_score": 4.3,
+        "verified": {
+          "source_url": "https://www.beaujolais.com/en/",
+          "address_quoted": "Macon",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/M%C3%A2con",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Beaujolais_wine",
+          "checked_on": "2026-05-29"
+        }
+      }
+    ],
+    "fortified_specialists": [
+      {
+        "slug": "maison-des-vins-beaujolais-macvin",
+        "name": "Maison des Vins (Macvin du Jura pours)",
+        "address": "Saint-Jean-d'Ardières, 69220, France",
+        "neighborhood": "Belleville-en-Beaujolais zone",
+        "wine_program": "The Inter Beaujolais visitor centre occasionally stocks regional eaux-de-vie from the Beaujolais and neighbouring Burgundy alongside Macvin du Jura from the nearby Jura region; the fortified offer is modest but the context is the most interesting cross-regional tasting room in the area",
+        "glass_count": 6,
+        "opens_until": "19:30",
+        "tip": "The Beaujolais itself produces very little fortified wine; the best fortified option in the area is Macvin du Jura (marc-and-grape-juice mistelle) poured at specialist shops in Macon.",
+        "description": "The Inter Beaujolais visitor centre with a limited but contextually interesting selection of regional eaux-de-vie and cross-border Macvin du Jura.",
+        "editorial_score": 3.8,
+        "verified": {
+          "source_url": "https://www.beaujolais.com/en/",
+          "address_quoted": "Saint-Jean-d'Ardières",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Beaujolais_wine",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Macvin_du_Jura",
+          "checked_on": "2026-05-29"
+        }
+      },
+      {
+        "slug": "les-eaux-de-vie-de-beaujolais",
+        "name": "Distillerie de la Semaine (marc de Beaujolais)",
+        "address": "Villié-Morgon, 69910, France",
+        "neighborhood": "Morgon",
+        "wine_program": "A small artisan distillery in the Cru belt producing Marc de Bourgogne-style Beaujolais marc from Gamay pomace; available for tasting and purchase at the cellar door",
+        "glass_count": 4,
+        "opens_until": "18:00",
+        "tip": "Marc de Beaujolais is the local digestif in Cru villages; ask at any Morgon or Fleurie domaine whether they produce or have access to a local marc for a post-tasting glass.",
+        "description": "Small artisan Beaujolais marc distillery producing Gamay-pomace eau-de-vie, available for tasting and direct purchase at the cellar door.",
+        "editorial_score": 3.9,
+        "verified": {
+          "source_url": "https://www.beaujolais.com/en/",
+          "address_quoted": "Villié-Morgon",
+          "open_status": "unknown",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Beaujolais_wine",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Marc_(wine)",
+          "checked_on": "2026-05-29"
+        }
+      }
+    ],
+    "late_tastings": [
+      {
+        "slug": "domaine-lapierre-late-harvest-tasting",
+        "name": "Domaine Lapierre harvest-week cellar tasting",
+        "address": "Villié-Morgon, 69910, France",
+        "neighborhood": "Morgon",
+        "wine_program": "During harvest (typically the third and fourth week of September), Domaine Lapierre occasionally receives pre-arranged evening visitors for a cellar tasting of the fermenting new juice alongside previous-vintage bottlings",
+        "glass_count": 8,
+        "opens_until": "21:00",
+        "tip": "Harvest-week cellar access at Lapierre is extremely limited and requires advance arrangement months before the season; allocations sell out quickly.",
+        "description": "A pre-arranged harvest-week evening tasting at Domaine Lapierre in Villié-Morgon, covering fermenting new juice and previous-vintage Morgon.",
+        "editorial_score": 4.9,
+        "verified": {
+          "source_url": "https://www.kermitlynch.com/our-wines/domaine-lapierre/",
+          "address_quoted": "Villié-Morgon",
+          "open_status": "seasonal",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Marcel_Lapierre",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Beaujolais_wine",
+          "checked_on": "2026-05-29"
+        }
+      },
+      {
+        "slug": "caveau-de-morgon-late-evening-pour",
+        "name": "Caveau de Morgon late pour (summer evenings)",
+        "address": "Villié-Morgon, 69910, France",
+        "neighborhood": "Morgon",
+        "wine_program": "The Morgon appellation's official caveau in Château de Fontcrenne extends its evening opening during the summer season, offering late-finish Morgon flights by the glass for visitors arriving after domaine visits",
+        "glass_count": 20,
+        "opens_until": "21:00",
+        "tip": "Check the summer opening calendar on the Beaujolais wine board site; the extended evening hours run from June to September and are the most reliable late-tasting venue in the northern Cru belt.",
+        "description": "Extended evening summer hours at the Morgon appellation caveau, offering late-finish Cru Morgon flights for visitors completing their domaine circuit.",
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://www.beaujolais.com/en/",
+          "address_quoted": "Villié-Morgon",
+          "open_status": "seasonal",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Morgon",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Beaujolais_wine",
+          "checked_on": "2026-05-29"
+        }
+      },
+      {
+        "slug": "nouveau-night-late-tasting-beaujolais",
+        "name": "Nouveau Release midnight pour (region-wide)",
+        "address": "Region-wide, Beaujolais, France",
+        "neighborhood": "Region-wide",
+        "wine_program": "On the third Thursday of November at midnight, wineries, caveau producers, and village bars across the Beaujolais open for the simultaneous Nouveau release, offering an open all-night tasting event in the French wine calendar",
+        "glass_count": 0,
+        "opens_until": "04:00",
+        "tip": "Be in Beaujeu, Villié-Morgon, or Fleurie village for midnight; the in-village experience of the Sarmentelles night and Nouveau pour is genuine and memorable, unlike the international bar-event version.",
+        "description": "The annual Nouveau midnight release pour, an open late-night wine event in the Beaujolais, happening simultaneously across all villages on the third Thursday of November.",
+        "editorial_score": 4.6,
+        "verified": {
+          "source_url": "https://www.beaujolais.com/en/the-beaujolais-wine-region/beaujolais-nouveau/",
+          "address_quoted": "Beaujolais",
+          "open_status": "seasonal",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Beaujolais_Nouveau",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Beaujolais_wine",
+          "checked_on": "2026-05-29"
+        }
+      },
+      {
+        "slug": "bouchon-lyonnais-late-beaujolais",
+        "name": "Lyon bouchon late Beaujolais service",
+        "address": "Lyon, 69001, France",
+        "neighborhood": "Lyon Vieux-Lyon and Presqu'ile",
+        "wine_program": "The Lyon bouchons, the city's traditional working restaurants, serve Beaujolais late into the night from the pot lyonnais, the 46 cl bottle that has been the vehicle for Gamay in Lyon for three centuries; late sittings go until midnight on Thursday, Friday, and Saturday",
+        "glass_count": 0,
+        "opens_until": "00:00",
+        "tip": "A late bouchon sitting on the Thursday of Nouveau release is the most authentic Lyon wine experience of the year; the bouchon tradition serves Beaujolais from pots, not glasses, so order for the table.",
+        "description": "Lyon bouchon late service, the traditional working-restaurant Beaujolais experience in the city that invented the pot lyonnais and the culture of drinking Gamay at midnight.",
+        "editorial_score": 4.7,
+        "verified": {
+          "source_url": "https://www.beaujolais.com/en/",
+          "address_quoted": "Lyon",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Bouchon",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Beaujolais_wine",
+          "checked_on": "2026-05-29"
+        }
+      },
+      {
+        "slug": "fete-des-crus-evening-tasting",
+        "name": "Fete des Crus evening tasting session",
+        "address": "Villefranche-sur-Saone, 69400, France",
+        "neighborhood": "Villefranche-sur-Saone",
+        "wine_program": "The annual Fete des Crus in April extends its first-day programme into the evening with a full producer-floor tasting session that allows visitors to taste all ten Crus by the glass in a late-afternoon-into-evening format",
+        "glass_count": 40,
+        "opens_until": "21:00",
+        "tip": "The evening session of the Fete des Crus is less crowded than the midday rush; arrive after 18:00 when the professional trade buyers have left and growers are more relaxed.",
+        "description": "The extended evening session of the annual Fete des Crus, allowing late-visit tasting of all ten Crus at the producer stands after the daytime trade crowds have gone.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://www.beaujolais.com/en/",
+          "address_quoted": "Villefranche-sur-Saone",
+          "open_status": "seasonal",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Beaujolais_wine",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Beaujolais_wine",
+          "checked_on": "2026-05-29"
+        }
+      }
+    ],
+    "sparkling_rooms": [
+      {
+        "slug": "cremant-de-bourgogne-bar-macon",
+        "name": "Cave des Vignerons de Macon (Crémant bar)",
+        "address": "Macon, 71000, France",
+        "neighborhood": "Macon",
+        "wine_program": "The Macon cooperative's tasting room adjacent to the Beaujolais border pours Crémant de Bourgogne alongside Maconnais whites; the sparkling room component serves method-traditionnelle Chardonnay and Pinot Noir Crémant by the glass in a dedicated section",
+        "glass_count": 8,
+        "opens_until": "19:00",
+        "tip": "Crémant de Bourgogne is the most practical aperitif sparkling wine for a Beaujolais evening; prices are a fraction of Champagne and the quality from the Macon cooperatives is reliable.",
+        "description": "The Macon cooperative tasting room with a dedicated Crémant de Bourgogne sparkling section, pouring method-traditionnelle Chardonnay and Pinot Noir by the glass.",
+        "editorial_score": 4.1,
+        "verified": {
+          "source_url": "https://www.macon-tourisme.com/en/",
+          "address_quoted": "Macon",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Cr%C3%A9mant_de_Bourgogne",
+          "cuisine_evidence_url": null,
+          "checked_on": "2026-05-29"
+        }
+      },
+      {
+        "slug": "petillant-naturel-bar-villié-morgon",
+        "name": "Pétillant Naturel at Gang of Four producer events",
+        "address": "Villié-Morgon, 69910, France",
+        "neighborhood": "Morgon",
+        "wine_program": "Several Morgon natural-wine producers, including those in the Gang of Four tradition, make small quantities of Pétillant Naturel from Gamay; these ancestral-method sparkling wines are served at cellar-door and wine-festival events and represent the sparkling expression of Beaujolais natural wine",
+        "glass_count": 4,
+        "opens_until": "20:00",
+        "tip": "Pét-nat from Morgon producers is not widely distributed; the best chance to taste it is at the Fete des Crus producer tables or during harvest-week cellar visits when producers occasionally open trial batches.",
+        "description": "Natural-wine pétillant naturel from Morgon Gang of Four-tradition producers, available at cellar-door events and wine festival producer stands.",
+        "editorial_score": 4.3,
+        "verified": {
+          "source_url": "https://www.beaujolais.com/en/",
+          "address_quoted": "Villié-Morgon",
+          "open_status": "seasonal",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/P%C3%A9tillant_naturel",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Beaujolais_wine",
+          "checked_on": "2026-05-29"
+        }
+      },
+      {
+        "slug": "cave-cooperative-ige-cremant",
+        "name": "Cave Cooperative d'Igé (Crémant de Bourgogne)",
+        "address": "Igé, 71960, France",
+        "neighborhood": "Maconnais (border area)",
+        "wine_program": "The Igé cooperative just north of the Beaujolais border produces a well-regarded Crémant de Bourgogne from Chardonnay; the cooperative cellar is open for tasting and sales including late-afternoon visits when the sparkling range can be tasted alongside the Macon-Igé whites",
+        "glass_count": 6,
+        "opens_until": "18:30",
+        "tip": "Cave d'Igé is a short detour from the Beaujolais-Maconnais border; a stop here adds a complete Crémant comparison before the Cru Beaujolais evening.",
+        "description": "The Igé cooperative near the Beaujolais border producing a well-regarded Crémant de Bourgogne, open for afternoon tasting of the sparkling and white wine range.",
+        "editorial_score": 4.0,
+        "verified": {
+          "source_url": "https://www.macon-tourisme.com/en/",
+          "address_quoted": "Igé",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Cr%C3%A9mant_de_Bourgogne",
+          "cuisine_evidence_url": null,
+          "checked_on": "2026-05-29"
+        }
+      },
+      {
+        "slug": "beaujolais-nouveau-sparkling-aperitif-bar",
+        "name": "Bar aperitif with Beaujolais Blanc petillant (Villefranche)",
+        "address": "Villefranche-sur-Saone, 69400, France",
+        "neighborhood": "Villefranche-sur-Saone",
+        "wine_program": "Several Villefranche bars serve Beaujolais Blanc petillant and light Crémant de Bourgogne as the aperitif standard in the early evening; a pre-dinner sparkling glass in the town centre is the local start to any Beaujolais evening out",
+        "glass_count": 6,
+        "opens_until": "21:00",
+        "tip": "Beaujolais Blanc is made from Chardonnay grown on the limestone edges of the southern appellation; the petillant style is informal and low-cost compared with Crémant, and works well as a pre-dinner aperitif.",
+        "description": "Villefranche aperitif bars serving Beaujolais Blanc petillant and Crémant de Bourgogne by the glass as the early-evening sparkling pour before dinner.",
+        "editorial_score": 3.9,
+        "verified": {
+          "source_url": "https://www.beaujolais.com/en/discover/nos-12-appellations/",
+          "address_quoted": "Villefranche-sur-Saone",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Beaujolais_wine",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Cr%C3%A9mant_de_Bourgogne",
+          "checked_on": "2026-05-29"
+        }
+      }
+    ]
+  }
+}

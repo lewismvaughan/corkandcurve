@@ -1,0 +1,140 @@
+{
+  "food_pairing": [
+    {
+      "slug": "morgon-with-saucisson-de-lyon",
+      "name": "Morgon with saucisson de Lyon",
+      "pairing": "Morgon with saucisson de Lyon",
+      "description": "Lyon's garlic-and-pepper-cured saucisson against Morgon's iron-mineral cherry core. High acidity cuts the fat; schist mineral echoes the earthy cure of the sausage.",
+      "tablejourney_url": "https://tablejourney.com/france/lyon/dish/saucisson-de-lyon/",
+      "wine_entities": ["lapierre-morgon", "foillard-morgon-cote-du-py", "burgaud-morgon-cote-du-py"],
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://tablejourney.com/france/lyon/dish/saucisson-de-lyon/",
+        "address_quoted": null,
+        "open_status": "open",
+        "open_evidence_url": "https://tablejourney.com/france/lyon/",
+        "cuisine_evidence_url": "https://tablejourney.com/france/lyon/dish/saucisson-de-lyon/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "beaujolais-villages-with-andouillette-lyonnaise",
+      "name": "Beaujolais-Villages with andouillette a la lyonnaise",
+      "pairing": "Beaujolais-Villages with andouillette à la lyonnaise",
+      "description": "Lyon's grilled tripe sausage with mustard sauce meets Beaujolais-Villages: lively cherry-fruit and mineral backbone cut through the fat and balance the intensity of the dish.",
+      "tablejourney_url": "https://tablejourney.com/france/lyon/dish/andouillette-lyonnaise/",
+      "wine_entities": ["lapierre-beaujolais-villages", "foillard-beaujolais-villages"],
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://tablejourney.com/france/lyon/dish/andouillette-lyonnaise/",
+        "address_quoted": null,
+        "open_status": "open",
+        "open_evidence_url": "https://tablejourney.com/france/lyon/",
+        "cuisine_evidence_url": "https://tablejourney.com/france/lyon/dish/andouillette-lyonnaise/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "fleurie-with-rosette-de-lyon",
+      "name": "Fleurie with rosette de Lyon",
+      "pairing": "Fleurie with rosette de Lyon",
+      "description": "Lyon's months-aged dry-cured pork sausage pairs with floral, light-tannin Fleurie: raspberry and rose-petal fragrance lifts the rich marbled pork while bright acidity refreshes.",
+      "tablejourney_url": "https://tablejourney.com/france/lyon/dish/rosette-de-lyon/",
+      "wine_entities": ["metras-fleurie", "chignard-fleurie-les-moriers", "sunier-fleurie"],
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://tablejourney.com/france/lyon/dish/rosette-de-lyon/",
+        "address_quoted": null,
+        "open_status": "open",
+        "open_evidence_url": "https://tablejourney.com/france/lyon/",
+        "cuisine_evidence_url": "https://tablejourney.com/france/lyon/dish/rosette-de-lyon/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "moulin-a-vent-with-tablier-de-sapeur",
+      "name": "Moulin-a-Vent with tablier de sapeur",
+      "pairing": "Moulin-à-Vent with tablier de sapeur",
+      "description": "Lyon's breaded pan-fried honeycomb tripe needs full-body structure. Moulin-à-Vent's firm manganese-driven tannin and dark-cherry mineral depth complement the rich, crisp crust.",
+      "tablejourney_url": "https://tablejourney.com/france/lyon/dish/tablier-de-sapeur/",
+      "wine_entities": ["jadot-moulin-a-vent-chateau-des-jacques", "chateau-moulin-a-vent-champ-de-cour", "diochon-moulin-a-vent"],
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://tablejourney.com/france/lyon/dish/tablier-de-sapeur/",
+        "address_quoted": null,
+        "open_status": "open",
+        "open_evidence_url": "https://tablejourney.com/france/lyon/",
+        "cuisine_evidence_url": "https://tablejourney.com/france/lyon/dish/tablier-de-sapeur/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "regnie-with-salade-lyonnaise",
+      "name": "Regnie with salade lyonnaise",
+      "pairing": "Régnié with salade lyonnaise",
+      "description": "The classic Lyonnais frisée salad with lardons, croutons and poached egg needs a wine that cuts the bacon fat without overpowering. Régnié's silky, light-bodied Gamay is the natural bouchon choice.",
+      "tablejourney_url": "https://tablejourney.com/france/lyon/dish/salade-lyonnaise/",
+      "wine_entities": ["sunier-regnie", "ducroux-regnie-exsultet", "breton-regnié"],
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://tablejourney.com/france/lyon/dish/salade-lyonnaise/",
+        "address_quoted": null,
+        "open_status": "open",
+        "open_evidence_url": "https://tablejourney.com/france/lyon/",
+        "cuisine_evidence_url": "https://tablejourney.com/france/lyon/dish/salade-lyonnaise/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "morgon-cote-du-py-with-pate-en-croute",
+      "name": "Morgon Cote du Py with pate en croute lyonnais",
+      "pairing": "Morgon Côte du Py with pâté en croûte lyonnais",
+      "description": "Lyon's layered pork, veal and foie gras pastry calls for structure. Schist-mineral Morgon Côte du Py provides the iron backbone and firm tannin needed to match the dense filling.",
+      "tablejourney_url": "https://tablejourney.com/france/lyon/dish/pate-en-croute-lyonnais/",
+      "wine_entities": ["foillard-morgon-cote-du-py", "mee-godard-morgon-cote-du-py"],
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://tablejourney.com/france/lyon/dish/pate-en-croute-lyonnais/",
+        "address_quoted": null,
+        "open_status": "open",
+        "open_evidence_url": "https://tablejourney.com/france/lyon/",
+        "cuisine_evidence_url": "https://tablejourney.com/france/lyon/dish/pate-en-croute-lyonnais/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "beaujolais-ancien-with-quenelle-de-brochet",
+      "name": "Beaujolais L'Ancien with quenelle de brochet",
+      "pairing": "Beaujolais L'Ancien with quenelle de brochet",
+      "description": "Lyon's pike dumpling in crayfish cream needs texture and acidity, not heavy tannin. Jean-Paul Brun's old-vine L'Ancien bridges the crayfish sauce richness without overwhelming the delicate fish.",
+      "tablejourney_url": "https://tablejourney.com/france/lyon/dish/quenelle-de-brochet/",
+      "wine_entities": ["terres-dorees-beaujolais-lancien"],
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://tablejourney.com/france/lyon/dish/quenelle-de-brochet/",
+        "address_quoted": null,
+        "open_status": "open",
+        "open_evidence_url": "https://tablejourney.com/france/lyon/",
+        "cuisine_evidence_url": "https://tablejourney.com/france/lyon/dish/quenelle-de-brochet/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "cote-de-brouilly-with-cervelle-de-canut",
+      "name": "Cote de Brouilly with cervelle de canut",
+      "pairing": "Côte de Brouilly with cervelle de canut",
+      "description": "Lyon's herbed fresh fromage blanc is a palate-cleansing course. Côte de Brouilly's volcanic minerality and dark-fruit energy from Mont Brouilly's blue syenite soils keep each bite lively.",
+      "tablejourney_url": "https://tablejourney.com/france/lyon/dish/cervelle-de-canut/",
+      "wine_entities": ["thivin-cote-de-brouilly-cuvee-zaccharie"],
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://tablejourney.com/france/lyon/dish/cervelle-de-canut/",
+        "address_quoted": null,
+        "open_status": "open",
+        "open_evidence_url": "https://tablejourney.com/france/lyon/",
+        "cuisine_evidence_url": "https://tablejourney.com/france/lyon/dish/cervelle-de-canut/",
+        "checked_on": "2026-05-29"
+      }
+    }
+  ]
+}

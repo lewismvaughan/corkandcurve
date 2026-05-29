@@ -1,0 +1,365 @@
+{
+  "tasting_rooms": [
+    {
+      "slug": "caveau-de-morgon",
+      "name": "Caveau de Morgon",
+      "address": "56 Rue du Chateau Fontcrenne, 69910 Villie-Morgon, France",
+      "neighborhood": "Morgon",
+      "varietals_focus": [
+        "Gamay"
+      ],
+      "pricing": "Walk-in tasting and sales; group machon by reservation",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": null,
+      "description": "The first Beaujolais cru caveau, installed since 1953 in an 18th-century chateau surrounded by a wildlife park. Pours older Morgon vintages alongside regional products; a grand press occupies the reception hall.",
+      "editorial_score": 4.5,
+      "tip": "Ask for an older vintage Morgon; the cellar stocks library bottles rarely found elsewhere.",
+      "verified": {
+        "source_url": "https://www.beaujolais-tourisme.com/en/caveaux-crus-beaujolais/caveau-de-morgon-117625.html",
+        "address_quoted": "56, Rue du Chateau Fontcrenne, 69910 Villie-Morgon",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://rendez-vous.beaujolais.com/maisons-et-domaines-du-beaujolais/caveau-de-morgon/",
+        "cuisine_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g3809781-d12252098-Reviews-Caveau_du_Cru_Morgon-Villie_Morgon_Rhone_Auvergne_Rhone_Alpes.html",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "maison-du-cru-fleurie",
+      "name": "Maison du Cru Fleurie",
+      "address": "38 Rue des Crus, 69820 Fleurie, France",
+      "neighborhood": "Fleurie",
+      "varietals_focus": [
+        "Gamay"
+      ],
+      "pricing": "Free tasting; 4 wines poured daily; wines from 32 estates available to purchase",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": null,
+      "description": "Village-centre boutique pouring wines from 32 Fleurie estates, staffed each day by a different vigneron. Four Fleurie wines offered for tasting, next to the tourist office.",
+      "editorial_score": 4.4,
+      "tip": "The vigneron on duty changes daily so each visit brings a different producer perspective.",
+      "verified": {
+        "source_url": "https://fleurie-vin.com/la-maison-du-cru-fleurie/",
+        "address_quoted": "38 rue des crus, 69820 Fleurie",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.beaujolais-tourisme.com/en/caveaux-crus-beaujolais/caveau-de-morgon-117625.html",
+        "cuisine_evidence_url": "https://fleurie-vin.fr/la-maison-du-cru-fleurie/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "domaine-de-la-madone-tasting",
+      "name": "Domaine de la Madone Tasting Room",
+      "address": "1230 Route de la Madone, 69820 Fleurie, France",
+      "neighborhood": "Fleurie",
+      "varietals_focus": [
+        "Gamay"
+      ],
+      "pricing": "Free walk-in tasting; guided cellar tour EUR 15/person by reservation",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": "domaine-de-la-madone",
+      "description": "Six-generation family estate on the hillside below Fleurie's chapel. A modern tasting room opened in 2023 pours the full Fleurie range from pink granite terroir; panoramic vineyard terrace available.",
+      "editorial_score": 4.6,
+      "tip": "The Grille-Midi cuvee captures the sunnier south-facing slope; ask to compare it with the Madone old-vines.",
+      "verified": {
+        "source_url": "https://www.domaine-de-la-madone.com/english/",
+        "address_quoted": "1230 Route de la Madone, 69820 Fleurie",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g670890-d14112804-Reviews-Domaine_de_la_Madone-Fleurie_Rhone_Auvergne_Rhone_Alpes.html",
+        "cuisine_evidence_url": "https://www.domaine-de-la-madone.com/english/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "cave-fleurie-cooperative",
+      "name": "Cave de Fleurie",
+      "address": "Rue des Vendanges, 69820 Fleurie, France",
+      "neighborhood": "Fleurie",
+      "varietals_focus": [
+        "Gamay",
+        "Chardonnay"
+      ],
+      "pricing": "Tastings by appointment; cooperative range from Fleurie Villages through individual lieu-dit cuvees",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": null,
+      "description": "Founded in 1927, this cooperative assembles four generations of vigneron families in Fleurie. Cuvees include Les Garants, La Chapelle des Bois, and Montgenas from distinct vineyard parcels.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://cavefleurie.com/en/",
+        "address_quoted": "Rue des Vendanges 69820 Fleurie, France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.beaujolais-tourisme.com/en/caveaux-crus-beaujolais/caveau-de-morgon-117625.html",
+        "cuisine_evidence_url": "https://cavefleurie.com/en/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "cave-du-chateau-de-chenas",
+      "name": "Cave du Chateau de Chenas",
+      "address": "910 Route de la Bruyere, 69840 Chenas, France",
+      "neighborhood": "Chenas",
+      "varietals_focus": [
+        "Gamay"
+      ],
+      "pricing": "Direct sales; wines EUR 7-18 per bottle; tastings available",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": null,
+      "description": "Producer cooperative in Chenas pouring the full arc of northern Beaujolais crus: Moulin-a-Vent, Chenas, Morgon, Fleurie, Julienas, Saint-Amour, Brouilly, Chiroubles, Regnié, and a Beaujolais Blanc. Bottles from EUR 7.40 with click-and-collect available.",
+      "editorial_score": 4.1,
+      "verified": {
+        "source_url": "https://www.cavedechenas.com/",
+        "address_quoted": "910 route de la bruyere, 69840 Chenas",
+        "open_status": "open",
+        "open_evidence_url": "https://www.ruedesvignerons.com/en/region/vignoble-beaujolais",
+        "cuisine_evidence_url": "https://www.cavedechenas.com/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "cave-julienas-chaintre",
+      "name": "Cave Cooperative de Julienas Chaintre",
+      "address": "Chateau du Bois de la Salle, 69840 Julienas, France",
+      "neighborhood": "Julienas",
+      "varietals_focus": [
+        "Gamay"
+      ],
+      "pricing": "Walk-in tastings; wines sold direct from the cooperative across 9 appellations",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": null,
+      "description": "Cooperative of 85 growers managing 290 hectares across Chenas, Julienas, Moulin-a-Vent, Fleurie, and Brouilly. The Julienas tasting room is set in the Chateau du Bois de la Salle, a classified 15th-century building.",
+      "editorial_score": 4.3,
+      "tip": "The Chateau du Bois de la Salle itself is a listed monument; worth combining the tasting with a look at the architecture.",
+      "verified": {
+        "source_url": "https://julienas-vin.fr/cave-cooperative-de-julienas-chaintre/",
+        "address_quoted": "Chateau du Bois de la Salle, 69840 Julienas",
+        "open_status": "open",
+        "open_evidence_url": "https://www.beaujolais-tourisme.com/en/caveaux-crus-beaujolais/caveau-de-morgon-117625.html",
+        "cuisine_evidence_url": "https://julienas-vin.fr/cave-cooperative-de-julienas-chaintre/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "vignerons-pierres-dorees-oingt",
+      "name": "Vignerons des Pierres Dorees Caveau de Saint-Laurent-d'Oingt",
+      "address": "76 Place Presberg, 69620 Val d'Oingt, France",
+      "neighborhood": "Pierres Dorees",
+      "varietals_focus": [
+        "Gamay",
+        "Chardonnay"
+      ],
+      "pricing": "Walk-in tastings of full Beaujolais range; regional products boutique on-site",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": null,
+      "description": "Cooperative caveau in the golden-stone village of Val d'Oingt, classified among the most photogenic villages. Pours the full Vignerons des Pierres Dorees range including Terra Iconia, Prestige, and the Fines Bulles sparkling from the southern Beaujolais.",
+      "editorial_score": 4.2,
+      "tip": "The ochre village streets are among the most photogenic in the region; combine the tasting with a walk through the village ramparts.",
+      "verified": {
+        "source_url": "https://www.vignerons-pierres-dorees.fr/",
+        "address_quoted": "76, Place Presberg, 69620 Val d'Oingt",
+        "open_status": "open",
+        "open_evidence_url": "https://www.beaujolais-tourisme.com/en/caveaux-crus-beaujolais/vignerons-des-pierres-dorees-caveau-de-saint-laurent-d-oingt-130002.html",
+        "cuisine_evidence_url": "https://www.vignerons-pierres-dorees.fr/nos-caveaux/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "la-maison-des-beaujolais-caveau",
+      "name": "La Maison des Beaujolais Caveau",
+      "address": "441 Avenue de l'Europe, 69220 Belleville-en-Beaujolais, France",
+      "neighborhood": "Belleville-en-Beaujolais",
+      "varietals_focus": [
+        "Gamay"
+      ],
+      "pricing": "Tasting by the glass; 600+ references at producer prices; guided flights with Master Sommelier available",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": null,
+      "description": "The largest selection of Beaujolais wines in one place: 600+ references covering all 12 appellations at winemaker prices. Master Sommelier Guillaume Mithieux guides visitors through the full regional spectrum from Nouveau to aged Crus.",
+      "editorial_score": 4.6,
+      "tip": "Ask Guillaume to arrange a vertical of Morgon or Moulin-a-Vent across several vintages; the cellar stocks old vintages most visitors never access.",
+      "verified": {
+        "source_url": "https://lamaisondesbeaujolais.fr/caviste-belleville-en-beaujolais-vin/",
+        "address_quoted": "441 avenue de l'Europe, 69220 Belleville-en-Beaujolais",
+        "open_status": "open",
+        "open_evidence_url": "https://www.raisin.digital/fr/la-maison-des-beaujolais-21841/",
+        "cuisine_evidence_url": "https://lamaisondesbeaujolais.fr/bar-a-vin/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "chateau-de-pizay-oenotheque",
+      "name": "Chateau de Pizay Oenotheque",
+      "address": "443 Route du Chateau, 69220 Belleville-en-Beaujolais, France",
+      "neighborhood": "Belleville-en-Beaujolais",
+      "varietals_focus": [
+        "Gamay",
+        "Chardonnay"
+      ],
+      "pricing": "Sensory wine course EUR 20 per adult; 8 interactive workshops; free tasting glass included",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "chateau-de-pizay",
+      "description": "The oenotheque of Beaujolais's largest estate hotel hosts a unique sensory wine course across 8 workshops covering colour, aroma, and flavour. Estate wines from Morgon, Brouilly, and Beaujolais Blanc available at the on-site boutique.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.chateau-pizay.com/en/oenotheque.html",
+        "address_quoted": "443 route du chateau, 69220 Belleville-en-Beaujolais",
+        "open_status": "open",
+        "open_evidence_url": "https://www.beaujolais-tourisme.com/en/caves-et-domaines/chateau-bellevue-morgon-203644.html",
+        "cuisine_evidence_url": "https://www.vins-chateaupizay.com/en/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "chateau-de-la-chaize-cellar-tasting",
+      "name": "Chateau de la Chaize Cellar Tasting",
+      "address": "500 Route de la Chaize, 69460 Odenas, France",
+      "neighborhood": "Brouilly",
+      "varietals_focus": [
+        "Gamay"
+      ],
+      "pricing": "Guided tour and tasting EUR 30-75 per person by appointment; includes historic chai and 108m cellar",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "chateau-de-la-chaize",
+      "description": "The 108-metre cellar of this classified 17th-century monument is the longest in the Beaujolais. Guided tours take in the gardens designed by Le Notre, the 1676 chateau, and the historic chai before a tasting of three estate wines.",
+      "editorial_score": 4.8,
+      "tip": "Weekend visits are by appointment only; book at least a week ahead during summer.",
+      "verified": {
+        "source_url": "https://www.chateaudelachaize.fr/en_US/the-estate",
+        "address_quoted": "500 route de La Chaize - 69460 Odenas",
+        "open_status": "seasonal",
+        "open_evidence_url": null,
+        "cuisine_evidence_url": "https://www.chateaudelachaize.fr/en_US/the-vineyards-know-how",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "chateau-thivin-tasting",
+      "name": "Chateau Thivin Tasting and Cellar",
+      "address": "Chemin du Chateau de Thivin, 69460 Odenas, France",
+      "neighborhood": "Cote de Brouilly",
+      "varietals_focus": [
+        "Gamay",
+        "Chardonnay"
+      ],
+      "pricing": "Tasting and sales at the domain; vineyard walk and cellar visit by appointment",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "chateau-thivin",
+      "description": "The oldest estate on Mont Brouilly, in the Geoffray family for six generations. The cellar features a blue-stone vault; visitors taste Cote de Brouilly and Brouilly cuvees in a setting that dates to the 15th century.",
+      "editorial_score": 4.7,
+      "tip": "Ask to see the chapel on the hilltop above the vines; the view from the summit extends across the entire Beaujolais region.",
+      "verified": {
+        "source_url": "https://www.chateau-thivin.com/en/",
+        "address_quoted": "Chemin du Chateau de Thivin, 69460 Odenas",
+        "open_status": "open",
+        "open_evidence_url": "https://www.ruedesvignerons.com/en/domaine/2255/chateau-thivin",
+        "cuisine_evidence_url": "https://www.chateau-thivin.com/en/wine/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "domaine-augris-tasting",
+      "name": "Domaine Augris Tasting Cellar",
+      "address": "604 Route de Morgon, Morgon le Haut, 69910 Villie-Morgon, France",
+      "neighborhood": "Morgon",
+      "varietals_focus": [
+        "Gamay"
+      ],
+      "pricing": "Oenology workshop EUR 30 per person; tasting room open daily by reservation",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": null,
+      "description": "Oenologist Annie Augris runs workshops on tasting methodology, vine cultivation, and Morgon cru discovery at this family domain in the upper Morgon hamlet. A relaxed, producer-direct experience with older vintages available.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.beaujolais-tourisme.com/en/caves-et-domaines/domaine-augris-144043.html",
+        "address_quoted": "604, route de Morgon, Morgon le Haut, 69910 Villie-Morgon",
+        "open_status": "open",
+        "open_evidence_url": "https://www.beaujolais-tourisme.com/en/ateliers-vins-beaujolais/visites-degustations-au-domaine-augris-5697411.html",
+        "cuisine_evidence_url": "https://www.beaujolais-tourisme.com/en/ateliers-vins-beaujolais/visites-degustations-au-domaine-augris-5697411.html",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "domaine-des-pampres-dor-tasting",
+      "name": "Domaine des Pampres d'Or Tasting and Cellar",
+      "address": "1710 Route de Chatillon, 69210 Saint-Germain-Nuelles, France",
+      "neighborhood": "Pierres Dorees",
+      "varietals_focus": [
+        "Gamay",
+        "Chardonnay"
+      ],
+      "pricing": "Visit and tasting EUR 15-75 per person depending on format; blending workshop EUR 75",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "domaine-des-pampres-dor",
+      "description": "Organic family estate in the golden-stone Beaujolais Pierres Dorees zone. Offers producer-led cellar visits, barrel tastings, blending workshops, and aperitif evenings with local charcuterie and cheese.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "http://www.vignoble-perras.fr",
+        "address_quoted": "1710 Route de Chatillon, 69210 Saint-Germain-Nuelles",
+        "open_status": "open",
+        "open_evidence_url": "https://www.beaujolais-tourisme.com/en/experiences-autour-du-vin/atelier-assemblage-au-domaine-des-pampres-d-or-7172485.html",
+        "cuisine_evidence_url": null,
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "chateau-de-corcelles-tasting",
+      "name": "Chateau de Corcelles Tasting Room",
+      "address": "2330 Route de Villie-Morgon, 69220 Corcelles-en-Beaujolais, France",
+      "neighborhood": "Brouilly",
+      "varietals_focus": [
+        "Gamay",
+        "Chardonnay"
+      ],
+      "pricing": "Audio-guided cellar visit with tasting; direct sales of estate wines from Beaujolais, Brouilly, and Bourgogne Blanc",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": "chateau-de-corcelles",
+      "description": "A 15th-century fortified chateau and classified monument open year-round with an audio-guide covering the ancient cellars and remarkable 15th-century timber carpentry. Owned by the Richard family since 1984, the estate manages 90 hectares across Beaujolais and Brouilly.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.domainesrichard.fr/chateau-de-corcelles/en/committing-to-the-beaujolais-region-a-clear-dedication/",
+        "address_quoted": "2330 route de Villie-Morgon 69220 Corcelles-en-Beaujolais",
+        "open_status": "open",
+        "open_evidence_url": "https://www.beaujolais-tourisme.com/en/chateaux-du-beaujolais/chateau-de-corcelles-151525.html",
+        "cuisine_evidence_url": "https://www.domainesrichard.fr/chateau-de-corcelles/en/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "le-comptoir-beaujolais-beaujeu",
+      "name": "Le Comptoir Beaujolais",
+      "address": "24 Square du Temple de Bacchus, 69430 Beaujeu, France",
+      "neighborhood": "Beaujeu",
+      "varietals_focus": [
+        "Gamay",
+        "Chardonnay"
+      ],
+      "pricing": "Walk-in tastings; wines EUR 7.50-13.00; click-and-collect and nationwide delivery available",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": null,
+      "description": "The tasting cellar of 16 Beaujolais-Villages producers, founded in 1956 in the historic capital of Beaujolais. After a full renovation, the caveau pours the complete arc of appellations from Beaujolais-Villages to the 10 Crus alongside Cremant de Bourgogne.",
+      "editorial_score": 4.3,
+      "tip": "Beaujeu hosts the Sarmentelles Nouveau festival each November third Thursday; arrive a week early and the Comptoir stocks unlabelled primeur samples.",
+      "verified": {
+        "source_url": "https://comptoirbeaujolais.fr/",
+        "address_quoted": "24 Square du Temple de Bacchus, 69430 Beaujeu",
+        "open_status": "open",
+        "open_evidence_url": "https://www.petitfute.co.uk/v35989-beaujeu-69430/c650-produits-gourmands-vins/c1117-vins-alcools-boissons-sans-alcool/c715-caves-maisons-des-vins/153586-le-comptoir-beaujolais.html",
+        "cuisine_evidence_url": "https://comptoirbeaujolais.fr/",
+        "checked_on": "2026-05-29"
+      }
+    }
+  ]
+}

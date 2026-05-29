@@ -32,7 +32,16 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 # scaffolded with a path the actual file lives at, and was mis-pointed
 # for the whole site for months. Both deserve mechanical validation.
 URL_FIELDS = {"booking_url", "affiliate_url", "hero_image_source_url",
-              "hero_image", "og_image", "image"}
+              "hero_image", "og_image", "image",
+              # Beaujolais 2026-05-29 Opus closed the deferred ship_gate Gap 2:
+              # the cited verified.* URLs ROT (39 cuvée source-decay + 125+
+              # consortium directory decay slipped through both QA passes
+              # before Opus HEAD-checked manually). The fields are inside a
+              # `verified` block — the walker matches by KEY name, so adding
+              # them here catches both the verified.source_url and any
+              # top-level source_url. The recurring Rioja/Wachau/Jerez/
+              # Beaujolais shared-URL + decay class is finally gated.
+              "source_url", "open_evidence_url", "cuisine_evidence_url"}
 TIMEOUT = 10  # seconds
 WORKERS = 12  # parallel HEAD requests
 UA = "CorkAndCurve-Validator/1.0 (+https://corkandcurve.com)"

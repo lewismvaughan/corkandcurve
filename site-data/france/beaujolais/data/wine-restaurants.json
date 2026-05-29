@@ -1,0 +1,238 @@
+{
+  "wine_restaurants": [
+    {
+      "slug": "auberge-du-cep-fleurie",
+      "name": "Auberge du Cep",
+      "address": "11 Rue des Quatre Vents, 69820 Fleurie, France",
+      "neighborhood": "Fleurie",
+      "cuisine": "Gastronomic French regional; Beaujolais terroir-driven; exceptional sauces and jus",
+      "cellar_size": null,
+      "awards": [
+        { "source": "Michelin Guide", "year": 2024 }
+      ],
+      "description": "Fleurie's Michelin-starred restaurant on the village square, operated by chef Aurelien Merot. Regional produce drives the kitchen: Beaujolais-sauce preparations, local zander, and seasonal vegetables. Cellar specialises in aged Beaujolais Crus.",
+      "editorial_score": 4.8,
+      "tip": "The lunchtime menu du marche at EUR 33 is one of the best-value Michelin meals in the Beaujolais Crus.",
+      "verified": {
+        "source_url": "https://aubergeducep.com/en/",
+        "address_quoted": "11 Rue des Quatre Vents 69820 Fleurie",
+        "open_status": "open",
+        "open_evidence_url": "https://guide.michelin.com/us/en/auvergne-rhone-alpes/fleurie/restaurant/auberge-du-cep",
+        "cuisine_evidence_url": "https://aubergeducep.com/en/the-chefs-cuisine.html",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "restaurant-le-1030-pizay",
+      "name": "Le 1030 at Chateau de Pizay",
+      "address": "443 Route du Chateau, 69220 Belleville-en-Beaujolais, France",
+      "neighborhood": "Belleville-en-Beaujolais",
+      "cuisine": "French gastronomic; best local products from Beaujolais and Lyon region; paired with estate wines",
+      "cellar_size": null,
+      "awards": [],
+      "description": "The gastronomic restaurant of the 80-hectare Chateau de Pizay wine estate, led by chef Yoann Gasselin. Dishes showcase best local products from Beaujolais and Lyon with a focus on estate wine pairings from six appellations produced on the property.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.chateau-pizay.com/en/",
+        "address_quoted": "443 route du chateau, 69220 Belleville-en-Beaujolais",
+        "open_status": "open",
+        "open_evidence_url": "https://www.icastelli.net/en/chateau-de-pizay",
+        "cuisine_evidence_url": "https://www.vins-chateaupizay.com/en/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "restaurant-lucienne-auberge-paradis",
+      "name": "Lucienne at Auberge du Paradis",
+      "address": "70 Rue des Crus du Beaujolais, 71570 Saint-Amour-Bellevue, France",
+      "neighborhood": "Saint-Amour",
+      "cuisine": "Gourmet gastronomic; 1 Michelin star; regional produce; tasting menus",
+      "cellar_size": null,
+      "awards": [
+        { "source": "Michelin Guide", "year": 2024 }
+      ],
+      "description": "The starred restaurant of Auberge du Paradis in the Saint-Amour cru village. Chef-led tasting menus explore the northern edge of Beaujolais with produce from the Maconnais and Beaujolais borderlands. Exceptional wine list spanning both appellations.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://aubergeduparadis.fr/",
+        "address_quoted": "70 rue des Crus du Beaujolais, 71570 Saint-Amour-Bellevue",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Hotel_Review-g675400-d582637-Reviews-Auberge_du_Paradis-Saint_Amour_Bellevue_Saone_et_Loire_Bourgogne_Franche_Comte.html",
+        "cuisine_evidence_url": "https://aubergeduparadis.fr/on-les-aime/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "le-coq-julienas",
+      "name": "Le Coq a Julienas",
+      "address": "Ancienne Place du Marche, 69840 Julienas, France",
+      "neighborhood": "Julienas",
+      "cuisine": "Bistronomic French; Beaujolais regional terroir; seasonal market produce",
+      "cellar_size": null,
+      "awards": [],
+      "description": "A Beaujolais institution since 1923 on the ancient market square of Julienas, now run by chef Marie Dias. Seasonal bistronomic menus respect classic Beaujolais terroir whilst reinventing traditional dishes. The wine list prioritises local Julienas producers.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://lecoqajulienas.com/en/",
+        "address_quoted": "Ancienne Place du Marche, 69840 Julienas",
+        "open_status": "open",
+        "open_evidence_url": "https://www.beaujolais-tourisme.com/en/restaurants/le-coq-a-julienas-145018.html",
+        "cuisine_evidence_url": "https://lecoqajulienas.com/menu/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "la-table-du-brouilly",
+      "name": "La Table du Brouilly",
+      "address": "26 Montee de la Chapelle, 69220 Saint-Lager, France",
+      "neighborhood": "Brouilly",
+      "cuisine": "Modern bistronomic; natural wine focus; local and seasonal; organic produce",
+      "cellar_size": 100,
+      "awards": [],
+      "description": "A friendly modern bistro at the foot of Mont Brouilly, with over 100 wine references in a self-service cellar. Local seasonal produce prepared with a natural wine ethos; strong Brouilly and Cote de Brouilly focus.",
+      "editorial_score": 4.5,
+      "tip": "The self-service cellar lets you browse the full reference list before choosing your bottle; rare in a formal restaurant setting.",
+      "verified": {
+        "source_url": "https://latabledubrouilly.fr/",
+        "address_quoted": "26 montee de la Chapelle 69220 Saint-Lager",
+        "open_status": "open",
+        "open_evidence_url": "https://www.discoverbeaujolais.com/bistrots/la-table-du-brouilly",
+        "cuisine_evidence_url": "https://www.raisin.digital/en/table-du-brouilly-24134/wines/reds/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "restaurant-noemys-morgon",
+      "name": "Restaurant Noemys Morgon",
+      "address": "275 Boulevard du Parc, 69910 Villie-Morgon, France",
+      "neighborhood": "Morgon",
+      "cuisine": "Regional French; all 10 Beaujolais Crus on the wine list; Beaujolais-inflected seasonal menu",
+      "cellar_size": null,
+      "awards": [],
+      "description": "The hotel restaurant of Noemys Morgon serves regional culinary specialties on a terrace and in a spacious dining room, with a wine list covering all 10 Beaujolais Crus. Dinner menu from EUR 34.50.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://noemys.fr/hotels/en/hotel/noemys-morgon/",
+        "address_quoted": "275 Boulevard du parc 69910 Villie-Morgon",
+        "open_status": "open",
+        "open_evidence_url": "https://www.beaujolais-tourisme.com/en/restaurants/restaurant-noemys-morgon-145193.html",
+        "cuisine_evidence_url": "https://www.auvergnerhonealpes-tourisme.com/en/fiches/restaurant-noemys-morgon/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "restaurant-rouge-blanc-maritonnes",
+      "name": "Restaurant Rouge et Blanc at Les Maritonnes",
+      "address": "513 Route de Fleurie D32, 71570 Romaneche-Thorins, France",
+      "neighborhood": "Moulin-a-Vent",
+      "cuisine": "French brasserie; Bresse chicken; regional products from Burgundy and Beaujolais; wine cellar centrepiece",
+      "cellar_size": null,
+      "awards": [],
+      "description": "The restaurant of Les Maritonnes hotel at the foot of Moulin-a-Vent vineyards, conceived by Georges Blanc. Two prominent wine cellars frame the dining room; local Moulin-a-Vent and Chenas producers feature prominently on the list.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.lesmaritonnes.com/en/",
+        "address_quoted": "513 route de Fleurie - D32, 71570 Romaneche Thorins",
+        "open_status": "open",
+        "open_evidence_url": "https://www.macon-tourisme.com/en/hotels/hotel-les-maritonnes-parc-vignoble/",
+        "cuisine_evidence_url": "https://www.lesmaritonnes.com/en/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "restaurant-la-robe-rouge",
+      "name": "La Robe Rouge",
+      "address": "Le Four a Chaux, 69910 Villie-Morgon, France",
+      "neighborhood": "Morgon",
+      "cuisine": "Plant-forward creative; Beaujolais natural wine list; local seasonal produce",
+      "cellar_size": null,
+      "awards": [],
+      "description": "Chef Thomas Guignier's restaurant in Villie-Morgon pairs plant-forward, instinctive cuisine with a natural Beaujolais wine list drawn from nearby Morgon producers. The attached wine shop allows guests to take bottles home.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.la-robe-rouge.fr/",
+        "address_quoted": "Le Four a Chaux, 69910 Villie-Morgon",
+        "open_status": "open",
+        "open_evidence_url": "https://www.petitfute.co.uk/v36265-villie-morgon-69910/c1165-restaurants/",
+        "cuisine_evidence_url": "https://www.la-robe-rouge.fr/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "auberge-de-la-madone-fleurie",
+      "name": "Auberge de la Madone",
+      "address": "1230 Route de la Madone, 69820 Fleurie, France",
+      "neighborhood": "Fleurie",
+      "cuisine": "Traditional Beaujolais; fresh local produce; panoramic vineyard terrace; menus from EUR 29",
+      "cellar_size": null,
+      "awards": [],
+      "description": "The auberge restaurant of Domaine de la Madone on the Fleurie hillside serves traditional Beaujolais cuisine in a room seating 70 or on a panoramic terrace overlooking the Saone valley and estate vineyards.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.domaine-de-la-madone.com/english/auberge-hebergement-beaujolais.php",
+        "address_quoted": "1230 route de la Madone, 69820 Fleurie",
+        "open_status": "open",
+        "open_evidence_url": "https://www.auvergnerhonealpes-tourisme.com/en/fiches/auberge-du-domaine-de-la-madone/",
+        "cuisine_evidence_url": "https://www.domaine-de-la-madone.com/english/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "le-cote-de-brouilly-odenas",
+      "name": "Le Cote de Brouilly",
+      "address": "27 Rue du Beaujolais, 69460 Odenas, France",
+      "neighborhood": "Brouilly",
+      "cuisine": "Regional French bouchon lyonnais; Beaujolais-country classics; wine list of Brouilly and Cote de Brouilly producers",
+      "cellar_size": null,
+      "awards": [],
+      "description": "A bouchon-style restaurant in the Brouilly village of Odenas serving regional Lyonnais-Beaujolais classics. The wine list concentrates on Brouilly and Cote de Brouilly producers, placing the restaurant firmly in its appellation context.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.rhonetourisme.com/je-prepare/le-gourmand/nos-adresses-gourmandes/109332_le-cote-de-brouilly/",
+        "address_quoted": "27 Rue du Beaujolais, 69460 Odenas",
+        "open_status": "open",
+        "open_evidence_url": "https://www.petitfute.co.uk/v36136-odenas-69460/c1165-restaurants/c1029-cuisine-regionale/c5-bouchon-lyonnais/1571666-le-cote-de-brouilly.html",
+        "cuisine_evidence_url": "https://lacarte.menu/restaurants/odenas/le-cote-de-brouilly",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "la-maison-des-beaujolais-restaurant",
+      "name": "La Maison des Beaujolais Restaurant",
+      "address": "441 Avenue de l'Europe, 69220 Belleville-en-Beaujolais, France",
+      "neighborhood": "Belleville-en-Beaujolais",
+      "cuisine": "Beaujolais brasserie; regional charcuterie; daily menu; open all day",
+      "cellar_size": 600,
+      "awards": [],
+      "description": "The restaurant of La Maison des Beaujolais serves a daily menu of regional Beaujolais cuisine paired with the 600-reference cellar. Traditional macon pates, rosette de Lyon, and Beaujolais-braised dishes feature prominently.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://lamaisondesbeaujolais.fr/",
+        "address_quoted": "441 avenue de l'Europe, 69220 Belleville-en-Beaujolais",
+        "open_status": "open",
+        "open_evidence_url": "https://starwinelist.com/wine-place/la-maison-des-beaujolais",
+        "cuisine_evidence_url": "https://lamaisondesbeaujolais.fr/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "josephine-a-table-auberge-paradis",
+      "name": "Josephine a Table at Auberge du Paradis",
+      "address": "70 Rue des Crus du Beaujolais, 71570 Saint-Amour-Bellevue, France",
+      "neighborhood": "Saint-Amour",
+      "cuisine": "Bistro family cooking; grandmother-style regional dishes; Saint-Amour cru wines by the glass",
+      "cellar_size": null,
+      "awards": [],
+      "description": "The more casual bistro offering within Auberge du Paradis estate, delivering family-style cuisine rooted in Burgundian tradition. Pairs naturally with Saint-Amour cru wines from surrounding estates on the Beaujolais-Maconnais border.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://aubergeduparadis.fr/",
+        "address_quoted": "70 rue des Crus du Beaujolais, 71570 Saint-Amour-Bellevue",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vinotrip.com/en/partners/224-auberge-du-paradis",
+        "cuisine_evidence_url": "https://aubergeduparadis.fr/on-les-aime/",
+        "checked_on": "2026-05-29"
+      }
+    }
+  ]
+}

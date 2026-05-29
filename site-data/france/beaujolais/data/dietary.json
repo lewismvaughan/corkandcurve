@@ -1,0 +1,313 @@
+{
+  "dietary": {
+    "biodynamic": [
+      {
+        "slug": "domaine-lapierre-biodynamic",
+        "name": "Domaine Lapierre",
+        "vineyard_ref": "domaine-marcel-lapierre",
+        "address": "Villié-Morgon, 69910, France",
+        "neighborhood": "Morgon",
+        "biodynamic_status": "biodynamic_practicing",
+        "biodynamic_certifier": null,
+        "organic_status": "organic_certified",
+        "organic_certifier": "Agriculture Biologique (AB label, INAO)",
+        "certified_year": null,
+        "description": "Domaine Lapierre in Villié-Morgon farms organically and applies biodynamic practices, continuing under sons Mathieu and Camille Lapierre with the same zero-sulphur winemaking approach established by Marcel Lapierre. The domaine is the founding estate of the natural Beaujolais movement and internationally recognised as a natural-wine reference.",
+        "tip": "The Lapierre non-sulphite cuvee and the sulphite version are both biodynamically farmed; choose the non-sulphite bottling only if you can ensure cold storage and near-term consumption.",
+        "editorial_score": 4.9,
+        "verified": {
+          "source_url": "https://www.kermitlynch.com/our-wines/domaine-lapierre/",
+          "address_quoted": "Villié-Morgon",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Marcel_Lapierre",
+          "cuisine_evidence_url": "https://www.demeter.fr/",
+          "checked_on": "2026-05-29"
+        }
+      },
+      {
+        "slug": "christian-ducroux-biodynamic",
+        "name": "Christian Ducroux",
+        "vineyard_ref": "domaine-christian-ducroux",
+        "address": "Le Bourg, 69430 Régnié-Durette, France",
+        "neighborhood": "Régnié",
+        "biodynamic_status": "demeter_certified",
+        "biodynamic_certifier": "Demeter France",
+        "organic_status": "organic_certified",
+        "organic_certifier": "Agriculture Biologique (AB label, INAO)",
+        "certified_year": null,
+        "description": "Christian Ducroux in Régnié-Durette has held Demeter biodynamic certification for decades and is one of the earliest committed biodynamic producers in the entire Beaujolais. His Régnié and Beaujolais-Villages are cult items in European natural-wine circles. Ducroux's approach involves zero sulphur and minimal intervention in a Gobelet-trained, ungrafted-root parcels where possible.",
+        "tip": "Ducroux is almost impossible to visit without a direct introduction from the trade; his wines appear in specialist natural-wine shops in Paris, Lyon, and through export importers in the United Kingdom and Germany.",
+        "editorial_score": 4.8,
+        "verified": {
+          "source_url": "https://www.beaujolais.com/en/",
+          "address_quoted": "Régnié-Durette",
+          "open_status": "unknown",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/R%C3%A9gni%C3%A9",
+          "cuisine_evidence_url": "https://www.demeter.fr/",
+          "checked_on": "2026-05-29"
+        }
+      }
+    ],
+    "organic": [
+      {
+        "slug": "jean-foillard-organic",
+        "name": "Jean Foillard",
+        "vineyard_ref": "domaine-jean-foillard",
+        "address": "Villié-Morgon, 69910, France",
+        "neighborhood": "Morgon",
+        "biodynamic_status": "biodynamic_practicing",
+        "biodynamic_certifier": null,
+        "organic_status": "organic_certified",
+        "organic_certifier": "Agriculture Biologique (AB label, INAO)",
+        "certified_year": null,
+        "description": "Jean Foillard farms his Morgon holdings organically and applies biodynamic practices in the vineyard without formal Demeter certification. As one of the founding Gang of Four producers alongside Marcel Lapierre, Foillard's Cote du Py and Corcelette bottlings are vinified without sulphur and without filtration, making his estate an organic reference for the Morgon appellation.",
+        "tip": "Foillard's wines are exported through Kermit Lynch Wine Merchant in the United States and through a network of natural-wine importers in Europe; contact an importer to arrange a domaine visit.",
+        "editorial_score": 4.8,
+        "verified": {
+          "source_url": "https://www.kermitlynch.com/our-wines/domaine-foillard/",
+          "address_quoted": "Villié-Morgon",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Morgon",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Natural_wine",
+          "checked_on": "2026-05-29"
+        }
+      },
+      {
+        "slug": "domaine-du-vissoux-organic",
+        "name": "Domaine du Vissoux",
+        "vineyard_ref": "domaine-du-vissoux",
+        "address": "Le Vissoux, 69620 Saint-Vérand, France",
+        "neighborhood": "Saint-Vérand",
+        "biodynamic_status": "none",
+        "biodynamic_certifier": null,
+        "organic_status": "organic_certified",
+        "organic_certifier": "Agriculture Biologique (AB label, INAO)",
+        "certified_year": null,
+        "description": "Pierre-Marie and Chantal Chermette farm all of Domaine du Vissoux's holdings organically, certified under the French AB label. The estate's Gobelet-trained old Gamay vines in Saint-Vérand and the Fleurie lieux-dits of Poncié and Garants are vinified without sulphur addition and without filtration, producing wines that are organic in the vineyard and natural in the cellar.",
+        "tip": "The Vissoux Beaujolais AOC is well-priced for an organic Gamay; the step up to the Fleurie Poncié shows what certified organic old-vine Gamay can produce on a granite terroir.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://www.beaujolais.com/en/discover/nos-12-appellations/",
+          "address_quoted": "Saint-Vérand",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Beaujolais_wine",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Gamay",
+          "checked_on": "2026-05-29"
+        }
+      },
+      {
+        "slug": "chateau-thivin-organic",
+        "name": "Chateau Thivin",
+        "vineyard_ref": "chateau-thivin",
+        "address": "Odenas, 69460, France",
+        "neighborhood": "Cote de Brouilly",
+        "biodynamic_status": "none",
+        "biodynamic_certifier": null,
+        "organic_status": "organic_certified",
+        "organic_certifier": "Agriculture Biologique (AB label, INAO)",
+        "certified_year": null,
+        "description": "Chateau Thivin in Odenas farms its Cote de Brouilly vineyards organically, certified under the French AB label, and applies biodynamic practices without Demeter certification. The estate's commitment to organic farming across the volcanic blue diorite and granite soils of Mont Brouilly is documented on their producer site.",
+        "tip": "Chateau Thivin's Cote de Brouilly shows structured volcanic-soil Gamay character; the organic certification is verifiable on the producer's site and on the bottle back label.",
+        "editorial_score": 4.6,
+        "verified": {
+          "source_url": "https://www.chateau-thivin.com/",
+          "address_quoted": "Odenas",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/C%C3%B4te_de_Brouilly",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Beaujolais_wine",
+          "checked_on": "2026-05-29"
+        }
+      }
+    ],
+    "natural": [
+      {
+        "slug": "guy-breton-natural",
+        "name": "Guy Breton",
+        "vineyard_ref": "domaine-guy-breton",
+        "address": "Villié-Morgon, 69910, France",
+        "neighborhood": "Morgon",
+        "biodynamic_status": "biodynamic_practicing",
+        "biodynamic_certifier": null,
+        "organic_status": "organic_certified",
+        "organic_certifier": "Agriculture Biologique (AB label, INAO)",
+        "certified_year": null,
+        "description": "Guy Breton, the third member of the original Gang of Four, produces Morgon and Beaujolais-Villages using the Jules Chauvet-inspired zero-sulphur approach. Breton farms organically and applies biodynamic practices in the vineyard; his wines are vinified without chaptalisation, without fining, and without filtration in the tradition established by Lapierre and shared across the four producers.",
+        "tip": "Guy Breton's wines are distributed in smaller quantities than Lapierre and Foillard; they occasionally surface at Paris and Lyon natural-wine bars before any international distribution.",
+        "editorial_score": 4.7,
+        "verified": {
+          "source_url": "https://www.kermitlynch.com/our-wines/guy-breton/",
+          "address_quoted": "Villié-Morgon",
+          "open_status": "unknown",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Morgon",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Natural_wine",
+          "checked_on": "2026-05-29"
+        }
+      },
+      {
+        "slug": "jean-paul-thevenet-natural",
+        "name": "Jean-Paul Thévenet",
+        "vineyard_ref": "domaine-jean-paul-thevenet",
+        "address": "Villié-Morgon, 69910, France",
+        "neighborhood": "Morgon",
+        "biodynamic_status": "biodynamic_practicing",
+        "biodynamic_certifier": null,
+        "organic_status": "organic_certified",
+        "organic_certifier": "Agriculture Biologique (AB label, INAO)",
+        "certified_year": null,
+        "description": "Jean-Paul Thévenet, the fourth member of the Gang of Four, produces Morgon Vieilles Vignes from old Gobelet Gamay using the same Chauvet-derived zero-sulphur, zero-filtration method as his three colleagues. Thévenet's very old vine parcels give a wine with unusual density and texture that ages well beyond the expectations for basic Morgon.",
+        "tip": "Thévenet's Morgon Vieilles Vignes is one of the longest-lived natural Beaujolais; a five to eight year bottle is a revelation compared with the wine as young Gamay.",
+        "editorial_score": 4.7,
+        "verified": {
+          "source_url": "https://www.kermitlynch.com/our-wines/domaine-thevenet/",
+          "address_quoted": "Villié-Morgon",
+          "open_status": "unknown",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Morgon",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Natural_wine",
+          "checked_on": "2026-05-29"
+        }
+      },
+      {
+        "slug": "yvon-metras-natural",
+        "name": "Yvon Métras",
+        "vineyard_ref": "domaine-yvon-metras",
+        "address": "Le Bourg, 69820 Fleurie, France",
+        "neighborhood": "Fleurie",
+        "biodynamic_status": "biodynamic_practicing",
+        "biodynamic_certifier": null,
+        "organic_status": "organic_certified",
+        "organic_certifier": "Agriculture Biologique (AB label, INAO)",
+        "certified_year": null,
+        "description": "Yvon Métras farms just over two hectares in Fleurie biodynamically and organically, producing tiny allocated quantities of zero-sulphur Gamay from old Gobelet vines. His wines reach specialist importers in France, the United Kingdom, and Japan through small annual allocations.",
+        "tip": "Métras Fleurie is not available at the domaine for walk-in visits; contact his importer in advance and join the allocation list months before any vintage release.",
+        "editorial_score": 4.8,
+        "verified": {
+          "source_url": "https://www.beaujolais.com/en/",
+          "address_quoted": "Fleurie",
+          "open_status": "unknown",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Fleurie",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Natural_wine",
+          "checked_on": "2026-05-29"
+        }
+      }
+    ],
+    "vegan_winemaking": [
+      {
+        "slug": "terres-dorees-vegan",
+        "name": "Domaine des Terres Dorees (Jean-Paul Brun)",
+        "vineyard_ref": "domaine-terres-dorees",
+        "address": "Charnay, 69380, France",
+        "neighborhood": "Pierres Dorees",
+        "biodynamic_status": "none",
+        "biodynamic_certifier": null,
+        "organic_status": "organic_certified",
+        "organic_certifier": "Agriculture Biologique (AB label, INAO)",
+        "certified_year": null,
+        "description": "Jean-Paul Brun's Domaine des Terres Dorees produces unfined, unfiltered Beaujolais and Cru wines using organic farming and a no-animal-fining approach. The estate's wines are unchaptalized and carry no fining agents of animal origin, making the range suitable for vegan drinkers. This is documented on the producer's own site and confirmed on bottle back labels.",
+        "tip": "Terres Dorees L'Ancien is widely distributed through organic-focused wine merchants across France and internationally, and is well-priced for a vegan natural Beaujolais.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://www.terres-dorees.com/",
+          "address_quoted": "Charnay",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Beaujolais_wine",
+          "cuisine_evidence_url": "https://primalwine.com/pages/what-is-vegan-wine",
+          "checked_on": "2026-05-29"
+        }
+      },
+      {
+        "slug": "domaine-lapierre-vegan",
+        "name": "Domaine Lapierre (vegan winemaking)",
+        "vineyard_ref": "domaine-marcel-lapierre",
+        "address": "Villié-Morgon, 69910, France",
+        "neighborhood": "Morgon",
+        "biodynamic_status": "biodynamic_practicing",
+        "biodynamic_certifier": null,
+        "organic_status": "organic_certified",
+        "organic_certifier": "Agriculture Biologique (AB label, INAO)",
+        "certified_year": null,
+        "description": "Domaine Lapierre vinifies without fining agents of animal origin; the estate's natural and biodynamic approach involves no addition of animal-derived products in either vinification or cellar treatments. Vegan status is consistent with the zero-sulphur, zero-filtration, zero-chaptalisation protocol documented by the domaine.",
+        "tip": "Lapierre Morgon is widely distributed through natural-wine importers globally; the entry Morgon and the cuvee Marcel Lapierre are both vegan-produced.",
+        "editorial_score": 4.9,
+        "verified": {
+          "source_url": "https://www.kermitlynch.com/our-wines/domaine-lapierre/",
+          "address_quoted": "Villié-Morgon",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Marcel_Lapierre",
+          "cuisine_evidence_url": "https://primalwine.com/pages/what-is-vegan-wine",
+          "checked_on": "2026-05-29"
+        }
+      }
+    ],
+    "lowsulfite": [
+      {
+        "slug": "lapierre-sans-soufre-morgon",
+        "name": "Domaine Lapierre Morgon sans soufre (no-sulphur cuvee)",
+        "vineyard_ref": "domaine-marcel-lapierre",
+        "address": "Villié-Morgon, 69910, France",
+        "neighborhood": "Morgon",
+        "biodynamic_status": "biodynamic_practicing",
+        "biodynamic_certifier": null,
+        "organic_status": "organic_certified",
+        "organic_certifier": "Agriculture Biologique (AB label, INAO)",
+        "certified_year": null,
+        "description": "Domaine Lapierre produces two cuvees of Morgon: one with a minimal sulphite addition at bottling and one with no sulphites added at any stage of production. The sans soufre bottling is available in small quantities and requires cool storage throughout transport and at home. It is the canonical low-sulphite Beaujolais and the wine Marcel Lapierre used to prove that natural Gamay was viable commercially.",
+        "tip": "The Lapierre sans soufre cuvee is distinguishable by a faint label marking; store at below 15 degrees and drink within two years of vintage for maximum freshness.",
+        "editorial_score": 4.9,
+        "verified": {
+          "source_url": "https://www.kermitlynch.com/our-wines/domaine-lapierre/",
+          "address_quoted": "Villié-Morgon",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Marcel_Lapierre",
+          "cuisine_evidence_url": "https://primalwine.com/pages/what-is-low-sulfite-wine",
+          "checked_on": "2026-05-29"
+        }
+      },
+      {
+        "slug": "jean-foillard-sans-soufre",
+        "name": "Jean Foillard Morgon (sans soufre)",
+        "vineyard_ref": "domaine-jean-foillard",
+        "address": "Villié-Morgon, 69910, France",
+        "neighborhood": "Morgon",
+        "biodynamic_status": "biodynamic_practicing",
+        "biodynamic_certifier": null,
+        "organic_status": "organic_certified",
+        "organic_certifier": "Agriculture Biologique (AB label, INAO)",
+        "certified_year": null,
+        "description": "Jean Foillard vinifies all his Morgon cuvees with zero or near-zero sulphur additions, following the Chauvet protocol. The Cote du Py and Corcelette bottlings are both natural-sulphite wines in the sense that no sulphur dioxide is added during vinification or at bottling; only trace amounts from fermentation may be present. They are the low-sulphite reference for Morgon after Lapierre.",
+        "tip": "Foillard's low-sulphite Morgon is slightly more stable than Lapierre's zero-sulphite bottling and handles modest temperature variation better in transit; both benefit from cool-chain handling.",
+        "editorial_score": 4.8,
+        "verified": {
+          "source_url": "https://www.kermitlynch.com/our-wines/domaine-foillard/",
+          "address_quoted": "Villié-Morgon",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Morgon",
+          "cuisine_evidence_url": "https://primalwine.com/pages/what-is-low-sulfite-wine",
+          "checked_on": "2026-05-29"
+        }
+      },
+      {
+        "slug": "coquelet-morgon-sans-soufre",
+        "name": "Damien Coquelet Morgon (sans soufre)",
+        "vineyard_ref": "domaine-damien-coquelet",
+        "address": "Villié-Morgon, 69910, France",
+        "neighborhood": "Morgon",
+        "biodynamic_status": "biodynamic_practicing",
+        "biodynamic_certifier": null,
+        "organic_status": "organic_certified",
+        "organic_certifier": "Agriculture Biologique (AB label, INAO)",
+        "certified_year": null,
+        "description": "Damien Coquelet, stepson of Jean Foillard and the next generation of Morgon natural-wine producers, vinifies his Morgon and Chiroubles without sulphur additions using whole-cluster semi-carbonic maceration. His wines reflect the continuation of the Chauvet tradition into the 2020s.",
+        "tip": "Coquelet represents the natural-wine torch passed from the Gang of Four to younger Beaujolais growers; his Chiroubles and Morgon are available through Cave des Papilles in Paris and their international distribution partners.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://www.beaujolais.com/en/",
+          "address_quoted": "Villié-Morgon",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Natural_wine",
+          "cuisine_evidence_url": "https://primalwine.com/pages/what-is-low-sulfite-wine",
+          "checked_on": "2026-05-29"
+        }
+      }
+    ]
+  }
+}

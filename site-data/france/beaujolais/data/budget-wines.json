@@ -1,0 +1,224 @@
+{
+  "budget_wines": [
+    {
+      "slug": "lapierre-morgon-classique",
+      "name": "Domaine Lapierre Morgon",
+      "producer": "domaine-marcel-lapierre",
+      "varietals": [
+        "Gamay"
+      ],
+      "classification": "Morgon AOC",
+      "price_band": "EUR 18-25 retail",
+      "where_to_buy": "Domaine Lapierre, Villié-Morgon; widely distributed through natural-wine importers including Kermit Lynch Wine Merchant in the United States and Les Caves de Pyrène in the United Kingdom.",
+      "description": "The entry Morgon from Domaine Lapierre, vinified without sulphur dioxide in the tradition established by Marcel Lapierre and continued by sons Mathieu and Camille. Whole-cluster Gamay from Morgon granite gives red-cherry fruit, a violet top note, and a long, clean finish that belies the modest price.",
+      "tip": "The non-sulphite cuvee needs cool storage and should be drunk within two or three years of vintage; if you see the sulphite-free version, note the faint label distinction and keep it in the fridge after opening.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.kermitlynch.com/our-wines/domaine-lapierre/",
+        "address_quoted": "Villié-Morgon",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Marcel_Lapierre",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Morgon",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "foillard-morgon-cote-du-py",
+      "name": "Jean Foillard Morgon Cote du Py",
+      "producer": "domaine-jean-foillard",
+      "varietals": [
+        "Gamay"
+      ],
+      "classification": "Morgon AOC",
+      "price_band": "EUR 20-28 retail",
+      "where_to_buy": "Jean Foillard domaine, Villié-Morgon; imported by Kermit Lynch Wine Merchant (US) and natural-wine merchants across Europe.",
+      "description": "Jean Foillard's Cote du Py Morgon comes from the decomposed volcanic schist of the Py hill, the appellation's named lieu-dit. Whole-cluster carbonic maceration produces a wine with mineral density and dark-fruit depth unusual for the price. A clear Cru terroir expression available under thirty euros.",
+      "tip": "Cote du Py Morgon benefits from an hour of air after opening; it can also age gracefully for five or more years in a cool cellar, bridging the gap between Beaujolais and minor red Burgundy.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.kermitlynch.com/our-wines/domaine-foillard/",
+        "address_quoted": "Villié-Morgon",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Morgon",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Beaujolais_wine",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "terres-dorees-lancien",
+      "name": "Domaine des Terres Dorees (Jean-Paul Brun) Beaujolais L'Ancien",
+      "producer": "domaine-terres-dorees",
+      "varietals": [
+        "Gamay"
+      ],
+      "classification": "Beaujolais AOC",
+      "price_band": "EUR 12-18 retail",
+      "where_to_buy": "Domaine des Terres Dorees, Charnay; distributed through Louis Jadot's import network internationally.",
+      "description": "Jean-Paul Brun sources old Gobelet-trained Gamay vines from the Pierres Dorees area of southern Beaujolais for this unchaptalized, unfined, unfiltered cuvee. It drinks with more substance and grip than standard regional Beaujolais and represents exceptional value for natural Beaujolais at this price.",
+      "tip": "L'Ancien cools well in the fridge for summer drinking; it also improves with a year or two in bottle, a rarity for basic-AOC Beaujolais.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.terres-dorees.com/",
+        "address_quoted": "Charnay",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Beaujolais_wine",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Gamay",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "chignard-fleurie-les-moriers",
+      "name": "Domaine Chignard Fleurie Les Moriers",
+      "producer": "domaine-chignard",
+      "varietals": [
+        "Gamay"
+      ],
+      "classification": "Fleurie AOC",
+      "price_band": "EUR 16-22 retail",
+      "where_to_buy": "Domaine Chignard, Fleurie; distributed through specialist French wine merchants in the United Kingdom and United States.",
+      "description": "Michel and Cécile Chignard's Les Moriers is grown on the sand-granite soils of Fleurie and captures the appellation's signature floral, silky-textured Gamay at an accessible price.",
+      "tip": "Chignard Fleurie is fragrant and approachable within a year or two of vintage; it pairs broadly across charcuterie, poultry, and lighter red-meat dishes.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.beaujolais.com/en/",
+        "address_quoted": "Fleurie",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Fleurie",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Beaujolais_wine",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "jean-marc-burgaud-morgon",
+      "name": "Jean-Marc Burgaud Morgon Cote du Py",
+      "producer": "domaine-jean-marc-burgaud",
+      "varietals": [
+        "Gamay"
+      ],
+      "classification": "Morgon AOC",
+      "price_band": "EUR 14-20 retail",
+      "where_to_buy": "Jean-Marc Burgaud domaine, Villié-Morgon; distributed through independent wine merchants in France, the United Kingdom, Belgium, and the Netherlands.",
+      "description": "Jean-Marc Burgaud's Cote du Py Morgon comes from vines on the volcanic schist hill and is aged in a combination of old wood and concrete. It represents serious Morgon terroir at a price that undercuts many comparably ambitious Cru releases.",
+      "tip": "Burgaud also makes a Regnie and a Beaujolais-Villages that offer similar quality discipline at even lower price points; ask for all three for a comparative tasting.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.beaujolais.com/en/",
+        "address_quoted": "Villié-Morgon",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Morgon",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Beaujolais_wine",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "diochon-moulin-a-vent",
+      "name": "Domaine Diochon Moulin-a-Vent",
+      "producer": "domaine-diochon",
+      "varietals": [
+        "Gamay"
+      ],
+      "classification": "Moulin-a-Vent AOC",
+      "price_band": "EUR 15-22 retail",
+      "where_to_buy": "Domaine Diochon, Romanéche-Thorins; available through Loire and Rhone-focused independent merchants in France and the United Kingdom.",
+      "description": "Domaine Diochon has farmed Moulin-a-Vent for generations on the manganese-rich granite soils that give the appellation its age-worthiness. The wine shows the structured, tannic Gamay that distinguishes Moulin-a-Vent from lighter Crus, with cherry-and-spice depth and a firm finish that develops over three to six years.",
+      "tip": "Moulin-a-Vent is the Cru most often compared to Cote de Nuits Burgundy; Diochon's entry wine delivers that structure at a fraction of the Burgundy price.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.beaujolais.com/en/",
+        "address_quoted": "Romanéche-Thorins",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Moulin-%C3%A0-Vent",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Beaujolais_wine",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "thivin-cote-de-brouilly-zaccharie",
+      "name": "Chateau Thivin Cote de Brouilly Cuvee Zaccharie",
+      "producer": "chateau-thivin",
+      "varietals": [
+        "Gamay"
+      ],
+      "classification": "Cote de Brouilly AOC",
+      "price_band": "EUR 15-22 retail",
+      "where_to_buy": "Chateau Thivin, Odenas; widely distributed through Burgundy specialists in France and export markets.",
+      "description": "Chateau Thivin is the leading estate of the Cote de Brouilly appellation, which covers the volcanic Mont Brouilly summit and gives a more concentrated, mineral Gamay than the surrounding Brouilly AOC. The Cuvee Zaccharie comes from older vines on the blue diorite slopes and has a characteristic grip and spice rarely found at this price in the Beaujolais.",
+      "tip": "The Mont Brouilly summit is a ten-minute walk from the chateau; climb it for a panorama over all ten Beaujolais Crus before tasting the estate wines.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.chateau-thivin.com/",
+        "address_quoted": "Odenas",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/C%C3%B4te_de_Brouilly",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Beaujolais_wine",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "du-vissoux-beaujolais",
+      "name": "Domaine du Vissoux Beaujolais",
+      "producer": "domaine-du-vissoux",
+      "varietals": [
+        "Gamay"
+      ],
+      "classification": "Beaujolais AOC",
+      "price_band": "EUR 10-16 retail",
+      "where_to_buy": "Domaine du Vissoux, Saint-Vérand; distributed through natural-wine merchants in France and internationally via Kermit Lynch and similar importers.",
+      "description": "Pierre-Marie and Chantal Chermette's Domaine du Vissoux in Saint-Vérand produces a Beaujolais AOC from old Gobelet Gamay farmed organically. Zero sulphur additions, minimal intervention, and a freshness that makes it irresistible at ten to sixteen euros.",
+      "tip": "Du Vissoux also makes a Fleurie from the Poncié and Garants plots that offers a clear step-up from this entry Beaujolais to a named Cru.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.beaujolais.com/en/discover/nos-12-appellations/",
+        "address_quoted": "Saint-Vérand",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Beaujolais_wine",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Gamay",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "coquelet-morgon",
+      "name": "Domaine Coquelet Morgon",
+      "producer": "domaine-damien-coquelet",
+      "varietals": [
+        "Gamay"
+      ],
+      "classification": "Morgon AOC",
+      "price_band": "EUR 15-20 retail",
+      "where_to_buy": "Domaine Coquelet, Villié-Morgon; distributed through natural-wine specialists in France and export through Cave des Papilles and similar Paris-based merchants.",
+      "description": "Damien Coquelet, stepson of Jean Foillard, is a young Morgon producer working natural-wine methods in the tradition of the Gang of Four. His Morgon draws from granite soils across the appellation and is vinified without sulphur in whole-cluster semi-carbonic style, resulting in a fresh, crunchy, vivid Gamay that punches above its price.",
+      "tip": "Coquelet also makes a Chiroubles that offers the floral, lighter-bodied side of natural Beaujolais at a similar price; both are worth seeking out in Paris natural-wine bars before a Beaujolais trip.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.beaujolais.com/en/",
+        "address_quoted": "Villié-Morgon",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Morgon",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Beaujolais_wine",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "jadot-chateau-des-jacques-moulin-a-vent",
+      "name": "Louis Jadot Chateau des Jacques Moulin-a-Vent",
+      "producer": "maison-louis-jadot-beaujolais",
+      "varietals": [
+        "Gamay"
+      ],
+      "classification": "Moulin-a-Vent AOC",
+      "price_band": "EUR 18-26 retail",
+      "where_to_buy": "Chateau des Jacques, Romanéche-Thorins; distributed through Louis Jadot's global network. Available at most independent wine merchants and larger supermarkets carrying Beaujolais.",
+      "description": "Chateau des Jacques in Romanéche-Thorins, owned by Louis Jadot, farms 28 hectares on the Moulin-a-Vent appellation's granite and manganese soils. The entry Moulin-a-Vent bottling, aged in Burgundy barrels, delivers the structured, age-worthy Gamay character of the appellation at an accessible price with wide international distribution.",
+      "tip": "The Chateau des Jacques also produces named-clos bottlings from Grand Cras, La Roche, and Clos du Grand Carquelin across the appellation; the entry wine is the gateway to this hierarchy.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.beaujolais.com/en/discover/nos-12-appellations/",
+        "address_quoted": "Romanéche-Thorins",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Moulin-%C3%A0-Vent",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Beaujolais_wine",
+        "checked_on": "2026-05-29"
+      }
+    }
+  ]
+}

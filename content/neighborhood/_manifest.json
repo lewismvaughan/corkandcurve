@@ -1,6 +1,328 @@
 {
   "entries": [
     {
+      "slug": "beaujeu",
+      "display": "Beaujeu",
+      "region_slug": "beaujolais",
+      "region_name": "Beaujolais",
+      "country_slug": "france"
+    },
+    {
+      "slug": "beaujolais-aoc",
+      "display": "Beaujolais AOC",
+      "region_slug": "beaujolais",
+      "region_name": "Beaujolais",
+      "country_slug": "france"
+    },
+    {
+      "slug": "beaujolais-crus",
+      "display": "Beaujolais Crus",
+      "region_slug": "beaujolais",
+      "region_name": "Beaujolais",
+      "country_slug": "france"
+    },
+    {
+      "slug": "beaujolais-crus-all",
+      "display": "Beaujolais Crus",
+      "region_slug": "beaujolais",
+      "region_name": "Beaujolais",
+      "country_slug": "france"
+    },
+    {
+      "slug": "beaujolais-pierres-dorees",
+      "display": "Beaujolais Pierres Dorees",
+      "region_slug": "beaujolais",
+      "region_name": "Beaujolais",
+      "country_slug": "france"
+    },
+    {
+      "slug": "beaujolais-villages",
+      "display": "Beaujolais-Villages",
+      "region_slug": "beaujolais",
+      "region_name": "Beaujolais",
+      "country_slug": "france"
+    },
+    {
+      "slug": "beaujolais-villages-aoc",
+      "display": "Beaujolais-Villages AOC",
+      "region_slug": "beaujolais",
+      "region_name": "Beaujolais",
+      "country_slug": "france"
+    },
+    {
+      "slug": "belleville-en-beaujolais",
+      "display": "Belleville-en-Beaujolais",
+      "region_slug": "beaujolais",
+      "region_name": "Beaujolais",
+      "country_slug": "france"
+    },
+    {
+      "slug": "belleville-en-beaujolais-zone",
+      "display": "Belleville-en-Beaujolais zone",
+      "region_slug": "beaujolais",
+      "region_name": "Beaujolais",
+      "country_slug": "france"
+    },
+    {
+      "slug": "brouilly",
+      "display": "Brouilly",
+      "region_slug": "beaujolais",
+      "region_name": "Beaujolais",
+      "country_slug": "france"
+    },
+    {
+      "slug": "brouilly-aoc",
+      "display": "Brouilly AOC",
+      "region_slug": "beaujolais",
+      "region_name": "Beaujolais",
+      "country_slug": "france"
+    },
+    {
+      "slug": "chenas",
+      "display": "Chenas",
+      "region_slug": "beaujolais",
+      "region_name": "Beaujolais",
+      "country_slug": "france"
+    },
+    {
+      "slug": "chenas-aoc",
+      "display": "Chenas AOC",
+      "region_slug": "beaujolais",
+      "region_name": "Beaujolais",
+      "country_slug": "france"
+    },
+    {
+      "slug": "chiroubles",
+      "display": "Chiroubles",
+      "region_slug": "beaujolais",
+      "region_name": "Beaujolais",
+      "country_slug": "france"
+    },
+    {
+      "slug": "chiroubles-aoc",
+      "display": "Chiroubles AOC",
+      "region_slug": "beaujolais",
+      "region_name": "Beaujolais",
+      "country_slug": "france"
+    },
+    {
+      "slug": "cote-de-brouilly",
+      "display": "Cote de Brouilly",
+      "region_slug": "beaujolais",
+      "region_name": "Beaujolais",
+      "country_slug": "france"
+    },
+    {
+      "slug": "cote-de-brouilly-aoc",
+      "display": "Cote de Brouilly AOC",
+      "region_slug": "beaujolais",
+      "region_name": "Beaujolais",
+      "country_slug": "france"
+    },
+    {
+      "slug": "fleurie",
+      "display": "Fleurie",
+      "region_slug": "beaujolais",
+      "region_name": "Beaujolais",
+      "country_slug": "france"
+    },
+    {
+      "slug": "fleurie-aoc",
+      "display": "Fleurie AOC",
+      "region_slug": "beaujolais",
+      "region_name": "Beaujolais",
+      "country_slug": "france"
+    },
+    {
+      "slug": "julienas",
+      "display": "Julienas",
+      "region_slug": "beaujolais",
+      "region_name": "Beaujolais",
+      "country_slug": "france"
+    },
+    {
+      "slug": "julienas-aoc",
+      "display": "Julienas AOC",
+      "region_slug": "beaujolais",
+      "region_name": "Beaujolais",
+      "country_slug": "france"
+    },
+    {
+      "slug": "lyon-1er",
+      "display": "Lyon 1er",
+      "region_slug": "beaujolais",
+      "region_name": "Beaujolais",
+      "country_slug": "france"
+    },
+    {
+      "slug": "lyon-departing-for-beaujolais-crus",
+      "display": "Lyon",
+      "region_slug": "beaujolais",
+      "region_name": "Beaujolais",
+      "country_slug": "france"
+    },
+    {
+      "slug": "lyon-presqu-ile",
+      "display": "Lyon Presqu'ile",
+      "region_slug": "beaujolais",
+      "region_name": "Beaujolais",
+      "country_slug": "france"
+    },
+    {
+      "slug": "lyon-vieux-lyon",
+      "display": "Lyon Vieux-Lyon",
+      "region_slug": "beaujolais",
+      "region_name": "Beaujolais",
+      "country_slug": "france"
+    },
+    {
+      "slug": "lyon-vieux-lyon-and-presqu-ile",
+      "display": "Lyon Vieux-Lyon and Presqu'ile",
+      "region_slug": "beaujolais",
+      "region_name": "Beaujolais",
+      "country_slug": "france"
+    },
+    {
+      "slug": "macon",
+      "display": "Macon",
+      "region_slug": "beaujolais",
+      "region_name": "Beaujolais",
+      "country_slug": "france"
+    },
+    {
+      "slug": "macon-gateway-to-beaujolais",
+      "display": "Macon",
+      "region_slug": "beaujolais",
+      "region_name": "Beaujolais",
+      "country_slug": "france"
+    },
+    {
+      "slug": "maconnais-border-area",
+      "display": "Maconnais",
+      "region_slug": "beaujolais",
+      "region_name": "Beaujolais",
+      "country_slug": "france"
+    },
+    {
+      "slug": "morgon",
+      "display": "Morgon",
+      "region_slug": "beaujolais",
+      "region_name": "Beaujolais",
+      "country_slug": "france"
+    },
+    {
+      "slug": "morgon-and-fleurie",
+      "display": "Morgon and Fleurie",
+      "region_slug": "beaujolais",
+      "region_name": "Beaujolais",
+      "country_slug": "france"
+    },
+    {
+      "slug": "morgon-aoc",
+      "display": "Morgon AOC",
+      "region_slug": "beaujolais",
+      "region_name": "Beaujolais",
+      "country_slug": "france"
+    },
+    {
+      "slug": "moulin-a-vent",
+      "display": "Moulin-a-Vent",
+      "region_slug": "beaujolais",
+      "region_name": "Beaujolais",
+      "country_slug": "france"
+    },
+    {
+      "slug": "moulin-a-vent-aoc",
+      "display": "Moulin-a-Vent AOC",
+      "region_slug": "beaujolais",
+      "region_name": "Beaujolais",
+      "country_slug": "france"
+    },
+    {
+      "slug": "moulin-a-vent-fleurie-chenas-julienas-villages",
+      "display": "Moulin-a-Vent, Fleurie, Chenas, Julienas villages",
+      "region_slug": "beaujolais",
+      "region_name": "Beaujolais",
+      "country_slug": "france"
+    },
+    {
+      "slug": "pierres-dorees",
+      "display": "Pierres Dorees",
+      "region_slug": "beaujolais",
+      "region_name": "Beaujolais",
+      "country_slug": "france"
+    },
+    {
+      "slug": "region-wide",
+      "display": "Region-wide",
+      "region_slug": "beaujolais",
+      "region_name": "Beaujolais",
+      "country_slug": "france"
+    },
+    {
+      "slug": "region-wide-main-celebrations-in-lyon-and-beaujolais-villages",
+      "display": "Region-wide; main celebrations in Lyon and Beaujolais villages",
+      "region_slug": "beaujolais",
+      "region_name": "Beaujolais",
+      "country_slug": "france"
+    },
+    {
+      "slug": "regnie",
+      "display": "Régnié",
+      "region_slug": "beaujolais",
+      "region_name": "Beaujolais",
+      "country_slug": "france"
+    },
+    {
+      "slug": "regnie-aoc",
+      "display": "Regnié AOC",
+      "region_slug": "beaujolais",
+      "region_name": "Beaujolais",
+      "country_slug": "france"
+    },
+    {
+      "slug": "saint-amour",
+      "display": "Saint-Amour",
+      "region_slug": "beaujolais",
+      "region_name": "Beaujolais",
+      "country_slug": "france"
+    },
+    {
+      "slug": "saint-amour-aoc",
+      "display": "Saint-Amour AOC",
+      "region_slug": "beaujolais",
+      "region_name": "Beaujolais",
+      "country_slug": "france"
+    },
+    {
+      "slug": "saint-verand",
+      "display": "Saint-Vérand",
+      "region_slug": "beaujolais",
+      "region_name": "Beaujolais",
+      "country_slug": "france"
+    },
+    {
+      "slug": "villefranche-sur-saone",
+      "display": "Villefranche-sur-Saone",
+      "region_slug": "beaujolais",
+      "region_name": "Beaujolais",
+      "country_slug": "france"
+    },
+    {
+      "slug": "villefranche-sur-saone-or-rotating-cru-village",
+      "display": "Villefranche-sur-Saone or rotating Cru village",
+      "region_slug": "beaujolais",
+      "region_name": "Beaujolais",
+      "country_slug": "france"
+    },
+    {
+      "slug": "villie-morgon",
+      "display": "Villié-Morgon",
+      "region_slug": "beaujolais",
+      "region_name": "Beaujolais",
+      "country_slug": "france"
+    },
+    {
       "slug": "armagnac-gers",
       "display": "Armagnac, Gers",
       "region_slug": "bordeaux",

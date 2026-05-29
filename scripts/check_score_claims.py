@@ -71,7 +71,7 @@ RE_RANK = re.compile(
 # wines of the Burgos sector", "the legendary Unico", "put the region on
 # the world map", "regarded as the defining natural-wine producer in the
 # appellation", "the most prestigious postal code in Ribera del Duero".
-SOFT_ADJ = r"(?:celebrated|prominent|important|iconic|defining|prestigious|storied|legendary|celebrated|renowned|concentrated|benchmark|reference)"
+SOFT_ADJ = r"(?:celebrated|prominent|important|iconic|defining|prestigious|storied|legendary|celebrated|renowned|concentrated|benchmark|reference|famous|prized|sought-after|coveted|serious|refined|finest|best-known|powerful)"
 COUNTRIES = r"(?:spain|italy|france|portugal|germany|austria|chile|argentina|south\s*africa|australia|new\s*zealand|hungary|greece)"
 RE_SOFT_RANK = re.compile(
     # "<country>'s most <adj>" / "the world's most <adj>"

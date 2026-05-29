@@ -1,0 +1,277 @@
+{
+  "itineraries": [
+    {
+      "slug": "ten-crus-loop-three-days",
+      "name": "The Ten Crus loop: Brouilly to Saint-Amour in three days",
+      "length_days": 3,
+      "theme": "All ten Beaujolais Crus from the volcanic south to the granite north",
+      "base": "Belleville-en-Beaujolais",
+      "days": [
+        {
+          "day": 1,
+          "morning": "Begin at Mont Brouilly, climbing to the chapel at the summit for a panorama over Brouilly and Cote de Brouilly, then taste at Chateau Thivin in Odenas.",
+          "lunch": "Lunch in Odenas or drive north to Belleville-en-Beaujolais for a bouchon lunch.",
+          "afternoon": "Drive north to Régnié-Durette for the tenth and newest Cru, then continue to Villié-Morgon for the afternoon and a walk up the Cote du Py granite hill.",
+          "evening": "Evening in Belleville-en-Beaujolais with a glass of Morgon at a local wine bar.",
+          "accommodation": "Belleville-en-Beaujolais.",
+          "venues": [
+            "chateau-thivin",
+            "domaine-christian-ducroux",
+            "domaine-jean-claude-lapalu"
+          ]
+        },
+        {
+          "day": 2,
+          "morning": "Morning in Villié-Morgon: visit at a Morgon domaine by appointment, then drive north through Chiroubles to Fleurie for a mid-morning tasting.",
+          "lunch": "Lunch in Fleurie village.",
+          "afternoon": "Drive north through Moulin-a-Vent and Chenas to Saint-Amour, the northernmost Cru, tasting at small producers along the route.",
+          "evening": "Dinner in Julienas or Chenas.",
+          "accommodation": "Julienas or Chenas.",
+          "venues": [
+            "domaine-jean-foillard",
+            "domaine-chignard",
+            "chateau-du-moulin-a-vent",
+            "domaine-chenas-les-bureaux",
+            "domaine-manoir-du-carra"
+          ]
+        },
+        {
+          "day": 3,
+          "morning": "Return south through the Beaujolais-Villages zone for a comparative tasting at a cooperative or negociant showing the full appellation range.",
+          "lunch": "Picnic in the vineyards near Beaujeu, the historic capital.",
+          "afternoon": "Visit Beaujeu town: the medieval streets, the Maison du Pays du Beaujolais, and a final Cru tasting before the drive south.",
+          "evening": "Drive to Lyon for a bouchon dinner serving the Beaujolais you have just tasted in its natural restaurant environment.",
+          "accommodation": "Lyon.",
+          "venues": [
+            "domaine-georges-duboeuf",
+            "chateau-de-la-chaize"
+          ]
+        }
+      ],
+      "description": "A three-day circuit from Brouilly in the south to Saint-Amour in the north taking in all ten Beaujolais Cru appellations on a route that passes through the granite heartland of Morgon and Fleurie and ends with a Lyon bouchon dinner.",
+      "tip": "Book domaine visits in Morgon and Fleurie at least two weeks ahead; most small producers do not have permanent tasting rooms and receive visitors by appointment only.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.beaujolais.com/en/",
+        "address_quoted": "Beaujolais",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Beaujolais_wine",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Beaujolais_wine",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "gang-of-four-morgon-natural-wine-two-days",
+      "name": "Gang of Four Morgon natural-wine deep dive, two days",
+      "length_days": 2,
+      "theme": "The origins of the natural-wine movement: Morgon and Villié-Morgon",
+      "base": "Villié-Morgon",
+      "days": [
+        {
+          "day": 1,
+          "morning": "Arrive in Villié-Morgon and walk the Cote du Py volcanic schist hill before a morning appointment at Domaine Lapierre.",
+          "lunch": "Lunch in Villié-Morgon village.",
+          "afternoon": "Afternoon visit at Jean Foillard, whose Morgon Cote du Py represents the most mineral expression of the hill, followed by an evening tasting at Guy Breton.",
+          "evening": "Dinner in the village using ingredients from the local market and a bottle of Morgon opened in the cellar.",
+          "accommodation": "Villié-Morgon B&B.",
+          "venues": [
+            "domaine-marcel-lapierre",
+            "domaine-jean-foillard",
+            "domaine-guy-breton"
+          ]
+        },
+        {
+          "day": 2,
+          "morning": "Morning appointment at Jean-Paul Thévenet, the fourth member of the original Gang, whose Morgon Vielles Vignes comes from very old Gobelet vines.",
+          "lunch": "Lunch in Villié-Morgon before a final walk through the village to understand how concentrated the natural-wine movement is within this single commune.",
+          "afternoon": "Drive east to Lyon for an afternoon exploration of the natural-wine bars where Morgon became an international reference, ending with a bouchon dinner.",
+          "evening": "Natural-wine bar in Lyon's Presqu'ile neighbourhood.",
+          "accommodation": "Lyon.",
+          "venues": [
+            "domaine-jean-paul-thevenet",
+            "domaine-damien-coquelet"
+          ]
+        }
+      ],
+      "description": "A two-day Morgon deep dive into the village where Marcel Lapierre, Jean Foillard, Guy Breton, and Jean-Paul Thévenet created the natural-wine movement, anchored by appointments at each of the four original domaines and ending with Lyon's bouchon culture.",
+      "tip": "All four domaines require appointments and most do not have formal visitor infrastructure; contact each producer directly months ahead and confirm by email that your visit is confirmed.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.beaujolais.com/en/",
+        "address_quoted": "Villié-Morgon",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Marcel_Lapierre",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Natural_wine",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "lyon-beaujolais-maconnais-weekend",
+      "name": "Lyon, Beaujolais, and Maconnais: a three-day wine weekend",
+      "length_days": 3,
+      "theme": "From Burgundy's Chardonnay south through Beaujolais Gamay to Lyon's bouchons",
+      "base": "Lyon",
+      "days": [
+        {
+          "day": 1,
+          "morning": "Arrive in Lyon and spend the morning exploring the Presqu'ile natural-wine bar scene, tasting Beaujolais Cru by the glass before any winery visit.",
+          "lunch": "Lunch at a Lyon bouchon serving Beaujolais from the pot lyonnais.",
+          "afternoon": "Drive north to the Beaujolais: first stop Fleurie village, tasting at a small Fleurie producer, then drive to Villié-Morgon for a late afternoon walk.",
+          "evening": "Dinner in Villié-Morgon or Belleville-en-Beaujolais.",
+          "accommodation": "Belleville-en-Beaujolais.",
+          "venues": [
+            "domaine-yvon-metras",
+            "domaine-chignard",
+            "domaine-lafarge-vial"
+          ]
+        },
+        {
+          "day": 2,
+          "morning": "Morning appointment at a Morgon domaine followed by a drive north to Moulin-a-Vent for comparison between the two most structured Crus.",
+          "lunch": "Lunch in Romanéche-Thorins near Moulin-a-Vent.",
+          "afternoon": "Continue north into the Maconnais, tasting Pouilly-Fuissé at the Roche de Solutre and comparing the limestone Chardonnay with the granite Gamay just tasted.",
+          "evening": "Dinner in Macon or drive back to Belleville.",
+          "accommodation": "Macon or Belleville-en-Beaujolais.",
+          "venues": [
+            "domaine-jean-marc-burgaud",
+            "chateau-du-moulin-a-vent",
+            "maison-louis-jadot-beaujolais"
+          ]
+        },
+        {
+          "day": 3,
+          "morning": "Drive back to Lyon via the Pierres Dorees southern Beaujolais, stopping at a golden-stone village such as Oingt before a final morning wine-bar visit in Lyon.",
+          "lunch": "Final bouchon lunch in Lyon's Vieux-Lyon.",
+          "afternoon": "Afternoon at leisure in Lyon before departure.",
+          "evening": "Departure.",
+          "accommodation": "Lyon.",
+          "venues": [
+            "domaine-terres-dorees"
+          ]
+        }
+      ],
+      "description": "A three-day wine-country weekend that uses Lyon as a base and hub, moving north through the Beaujolais Crus into the Maconnais Chardonnay country and returning via the medieval Pierres Dorees villages.",
+      "tip": "Lyon has a direct TGV connection to Paris (2h) and to most European capitals; the Beaujolais is 40 min by car from the city centre, making a Lyon-based weekend the most flexible logistics for a Beaujolais trip.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.beaujolais.com/en/",
+        "address_quoted": "Beaujolais",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Lyon",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Beaujolais_wine",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "harvest-week-cellar-pilgrimage-september",
+      "name": "Harvest week cellar pilgrimage, early September",
+      "length_days": 4,
+      "theme": "Whole-cluster carbonic maceration, harvest lunches, and cellar immersion across the Crus",
+      "base": "Villié-Morgon",
+      "days": [
+        {
+          "day": 1,
+          "morning": "Arrive in Villié-Morgon during the third or fourth week of September when Morgon harvest is typically underway. Walk the vineyards before the morning picking crew starts.",
+          "lunch": "Harvest crew lunch at a welcoming domaine (arranged by prior invitation).",
+          "afternoon": "Afternoon in the cellar watching whole-cluster sorting and the start of carbonic maceration vats.",
+          "evening": "Evening glass of the previous vintage with the growers.",
+          "accommodation": "Villié-Morgon.",
+          "venues": [
+            "domaine-marcel-lapierre",
+            "domaine-jean-foillard"
+          ]
+        },
+        {
+          "day": 2,
+          "morning": "Morning at a Fleurie domaine during their later harvest (usually one week behind Morgon). See the earlier-ripening Fleurie sand-granite terroir at work.",
+          "lunch": "Village lunch in Fleurie.",
+          "afternoon": "Drive to Moulin-a-Vent, the last Cru to harvest, and taste the previous year's structured Moulin-a-Vent from tank.",
+          "evening": "Dinner at a village restaurant open during harvest.",
+          "accommodation": "Fleurie or Moulin-a-Vent.",
+          "venues": [
+            "domaine-yvon-metras",
+            "domaine-chignard",
+            "chateau-du-moulin-a-vent"
+          ]
+        },
+        {
+          "day": 3,
+          "morning": "Visit Chateau Thivin on Mont Brouilly for a harvest-morning walk through the volcanic diorite vineyards at the top of the appellation.",
+          "lunch": "Picnic on the Mont Brouilly slopes with a previous-vintage Cote de Brouilly.",
+          "afternoon": "Drive back to Morgon for an afternoon barrel-tasting session of the just-fermenting juice in one of the Gang of Four cellars.",
+          "evening": "Harvest dinner in Villié-Morgon.",
+          "accommodation": "Villié-Morgon.",
+          "venues": [
+            "chateau-thivin",
+            "domaine-guy-breton",
+            "domaine-jean-paul-thevenet"
+          ]
+        },
+        {
+          "day": 4,
+          "morning": "Morning at a cooperative or négociant to understand the scale of the Nouveau production operation alongside the Cru program.",
+          "lunch": "Final harvest lunch.",
+          "afternoon": "Drive south to Lyon for departure.",
+          "evening": "Lyon bouchon dinner with a Morgon Cru from the cellar.",
+          "accommodation": "Lyon.",
+          "venues": [
+            "domaine-georges-duboeuf"
+          ]
+        }
+      ],
+      "description": "A four-day September harvest immersion across four Cru appellations, combining cellar and vineyard access during the picking weeks with comparative Cru tastings from previous vintages.",
+      "tip": "Harvest dates vary significantly by vintage and Cru; contact producers in August to confirm their expected picking dates before booking accommodation.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.beaujolais.com/en/",
+        "address_quoted": "Beaujolais",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Beaujolais_wine",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Carbonic_maceration",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "pierres-dorees-golden-stone-weekend",
+      "name": "Pierres Dorees golden-stone village and southern Beaujolais weekend",
+      "length_days": 2,
+      "theme": "Medieval golden-stone villages, limestone-soil Gamay, and the southern Beaujolais off the tourist circuit",
+      "base": "Oingt",
+      "days": [
+        {
+          "day": 1,
+          "morning": "Arrive in Oingt, one of the most beautiful medieval villages in France, and walk the village fortifications before a morning tasting at Domaine des Terres Dorees in Charnay.",
+          "lunch": "Lunch at a village restaurant in Oingt or Theizé.",
+          "afternoon": "Drive the Route des Pierres Dorees via Chatillon d'Azergues, Salles-Arbuissonnas, and the honey-stone villages that give the sub-region its name.",
+          "evening": "Evening aperitif with the local Beaujolais blanc (Chardonnay) at a domaine courtyard tasting.",
+          "accommodation": "Rural gite or chambre d'hotes in the Pierres Dorees.",
+          "venues": [
+            "domaine-terres-dorees"
+          ]
+        },
+        {
+          "day": 2,
+          "morning": "Morning drive north to Villefranche-sur-Saone, the commercial capital of the Beaujolais, for the Saturday morning market and the Maison du Beaujolais wine shop.",
+          "lunch": "Lunch in Villefranche-sur-Saone.",
+          "afternoon": "Drive back south to Lyon via the Saone valley.",
+          "evening": "Lyon dinner with a Beaujolais from the Pierres Dorees producer just visited.",
+          "accommodation": "Lyon.",
+          "venues": [
+            "domaine-des-nugues"
+          ]
+        }
+      ],
+      "description": "A two-day exploration of the southern Beaujolais limestone country and its golden-stone medieval villages, anchored by Jean-Paul Brun's Domaine des Terres Dorees and the Pierres Dorees Route Touristique.",
+      "tip": "The Pierres Dorees is almost never crowded even in summer; it is the most relaxed part of the Beaujolais and genuinely unknown to most wine tourists who focus exclusively on the Cru belt.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.beaujolais.com/en/",
+        "address_quoted": "Oingt",
+        "open_status": "open",
+        "open_evidence_url": null,
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Beaujolais_wine",
+        "checked_on": "2026-05-29"
+      }
+    }
+  ]
+}

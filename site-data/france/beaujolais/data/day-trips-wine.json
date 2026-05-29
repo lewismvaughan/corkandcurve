@@ -1,0 +1,209 @@
+{
+  "day_trips_wine": [
+    {
+      "slug": "lyon-gateway-city",
+      "name": "Lyon",
+      "distance_km": 45,
+      "travel_time": "35 to 45 min by car south from Belleville-en-Beaujolais; 30 min by TGV from Macon",
+      "destination_country": "France",
+      "destination_region": "Lyon",
+      "signature_pours": [
+        "Beaujolais by the glass in bouchons lyonnais",
+        "Côtes du Rhône served at bistros",
+        "Crémant de Bourgogne at wine bars"
+      ],
+      "recommended_vineyards": [],
+      "description": "Lyon is the natural gateway to and from the Beaujolais and has been the primary market for Gamay for centuries. The bouchons lyonnais, the city's traditional working-class restaurants, still serve Beaujolais from a pot lyonnais. The Presqu'ile and Vieux-Lyon neighbourhoods have a growing number of natural-wine bars that pour the Cru appellations alongside biodynamic bottles from across France.",
+      "tip": "Lyon is 30 minutes from the northern Beaujolais by train via Belleville-en-Beaujolais; combine a Cru visit with a Lyon bouchon dinner the same evening.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.beaujolais.com/en/",
+        "address_quoted": "Lyon",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Lyon",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Beaujolais_wine",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "maconnais-pouilly-fuisse",
+      "name": "Maconnais and Pouilly-Fuisse",
+      "distance_km": 40,
+      "travel_time": "35 min by car north from Villié-Morgon toward Macon",
+      "destination_country": "France",
+      "destination_region": "Maconnais",
+      "signature_pours": [
+        "Pouilly-Fuissé",
+        "Saint-Véran",
+        "Viré-Clessé",
+        "Macon-Villages"
+      ],
+      "recommended_vineyards": [],
+      "description": "The Maconnais begins just north of the Beaujolais boundary and switches from Gamay on granite to Chardonnay on limestone. Pouilly-Fuissé beneath the Roche de Solutre is the prestige appellation; Saint-Véran and Viré-Clessé offer the same limestone Chardonnay tension at gentler prices. The visual drama of the Solutre rock makes this the most photogenic extension of a Beaujolais trip.",
+      "tip": "Climb the Roche de Solutre for a panorama over the Pouilly-Fuissé vineyards before a tasting at Domaine Ferret or Château Fuissé; the contrast between the white-wine country and the red-granite Beaujolais is striking.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.macon-tourisme.com/en/",
+        "address_quoted": "Macon",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Pouilly-Fuiss%C3%A9",
+        "cuisine_evidence_url": null,
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "burgundy-cote-de-beaune-cote-de-nuits",
+      "name": "Burgundy Cote de Beaune and Cote de Nuits",
+      "distance_km": 90,
+      "travel_time": "1h 15 min by car north from Villié-Morgon via the D68 and A6",
+      "destination_country": "France",
+      "destination_region": "burgundy",
+      "signature_pours": [
+        "Gevrey-Chambertin",
+        "Nuits-Saint-Georges",
+        "Meursault",
+        "Pommard"
+      ],
+      "recommended_vineyards": [],
+      "description": "Burgundy's Cote d'Or begins north of the Maconnais. The Cote de Beaune, with Meursault, Puligny-Montrachet, and Pommard, is 90 km from central Beaujolais; the Cote de Nuits with Gevrey-Chambertin and Vosne-Romanee adds another 20 km. The contrast between the granite-driven Gamay of Beaujolais and the limestone-driven Pinot Noir of the Cote d'Or illustrates the north-south wine axis of France.",
+      "tip": "Beaune is the most practical base for a Cote d'Or day or half-day from the Beaujolais; the Route des Grands Crus from Beaune to Nuits-Saint-Georges is a scenic two-hour drive.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.burgundy-tourism.com/",
+        "address_quoted": "Burgundy",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Burgundy_wine",
+        "cuisine_evidence_url": null,
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "cluny-maconnais-abbey-wine-villages",
+      "name": "Cluny Abbey and Maconnais wine villages",
+      "distance_km": 55,
+      "travel_time": "50 min by car north-east from Villié-Morgon",
+      "destination_country": "France",
+      "destination_region": "Maconnais",
+      "signature_pours": [
+        "Macon-Cluny",
+        "Saint-Véran",
+        "Pouilly-Loché"
+      ],
+      "recommended_vineyards": [],
+      "description": "The Benedictine Abbey of Cluny, the largest church in Christendom before Saint Peter's Basilica, stands at the centre of Saone-et-Loire wine country. The Macon-Cluny appellation surrounds the town and the smaller satellite appellations of Pouilly-Loché and Pouilly-Vinzelles lie nearby. The medieval architecture and the wine-village circuit of Saint-Vérand, Davayé, and Fuissé make this a full cultural and wine day.",
+      "tip": "The Cluny Abbey museum is free with the Departement Saone-et-Loire museum card; combine the abbey visit with an afternoon tasting at a Pouilly-Fuissé estate for a complete day.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.macon-tourisme.com/en/",
+        "address_quoted": "Cluny",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Cluny_Abbey",
+        "cuisine_evidence_url": null,
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "cotes-du-rhone-septentrionale",
+      "name": "Cotes du Rhone Septentrionale: Cote-Rotie and Condrieu",
+      "distance_km": 70,
+      "travel_time": "1h by car south from Lyon via the N86 along the Rhone",
+      "destination_country": "France",
+      "destination_region": "Rhone",
+      "signature_pours": [
+        "Côte-Rôtie",
+        "Condrieu",
+        "Saint-Joseph",
+        "Crozes-Hermitage"
+      ],
+      "recommended_vineyards": [],
+      "description": "The Northern Rhone appellations of Cote-Rotie and Condrieu begin 50 km south of Lyon along the river and represent the opposite end of French wine from Beaujolais. Syrah on schist at Cote-Rotie and Viognier at Condrieu occupy steep terraced hillsides with no parallel in the flatter Beaujolais. A half-day south from Lyon links Beaujolais Gamay culture to the Northern Rhone's entirely different world.",
+      "tip": "Ampuis, the village at the centre of Cote-Rotie, is the best base for the Northern Rhone day; tasting at Domaine Jamet or Guigal's Les Ampuis is by appointment only but worth arranging weeks ahead.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.vins-rhone.com/en/",
+        "address_quoted": "Côte-Rôtie",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/C%C3%B4te_R%C3%B4tie",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Condrieu",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "les-pierres-dorees-golden-stone-villages",
+      "name": "Les Pierres Dorees southern Beaujolais golden-stone villages",
+      "distance_km": 25,
+      "travel_time": "25 min by car south from Villefranche-sur-Saone",
+      "destination_country": "France",
+      "destination_region": "Beaujolais",
+      "signature_pours": [
+        "Beaujolais AOC from Pierres Dorees limestone-granite soils",
+        "Beaujolais blanc (Chardonnay)",
+        "Beaujolais rosé"
+      ],
+      "recommended_vineyards": [],
+      "description": "The Pierres Dorees is the southern part of the Beaujolais where the geology shifts from the granite of the Crus to limestone-clay that turns the local stone a warm honey-gold colour. The medieval villages of Oingt, Theizé, and Chatillon d'Azergues are among the most beautiful in the region, often described as the Tuscany of the Beaujolais. Jean-Paul Brun's Domaine des Terres Dorees is the leading estate.",
+      "tip": "Oingt is classified as one of Les Plus Beaux Villages de France; combine a walk through the medieval town with a tasting at a Pierres Dorees estate for an afternoon completely different from the granite Cru villages.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.beaujolais.com/en/",
+        "address_quoted": "Oingt",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Beaujolais_wine",
+        "cuisine_evidence_url": null,
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "lac-d-annecy-savoie-wines",
+      "name": "Lac d'Annecy and Savoie wines",
+      "distance_km": 130,
+      "travel_time": "1h 30 min by car east from Villefranche-sur-Saone via the A43",
+      "destination_country": "France",
+      "destination_region": "Savoie",
+      "signature_pours": [
+        "Vin de Savoie Chignin",
+        "Roussette de Savoie",
+        "Apremont",
+        "Jongieux"
+      ],
+      "recommended_vineyards": [],
+      "description": "Lac d'Annecy and the Savoie wine country lie east of Lyon across the Alps. Savoie's mountain appellations produce Jacquere, Altesse, and Mondeuse on steep Alpine terraces in a completely different register from Beaujolais Gamay. The lake, the alpine scenery, and the crisp Savoie whites make this a memorable east-facing extension of a Beaujolais wine trip.",
+      "tip": "Annecy town is one of the most visited in the French Alps; arrive on a weekday in shoulder season to avoid summer crowds at the lake, and taste Savoie wines at the Maison des Vins de Savoie in Aix-les-Bains.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://en.wikipedia.org/wiki/Savoie_wine",
+        "address_quoted": "Savoie",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Savoie_wine",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Lake_Annecy",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "jura-wine-country",
+      "name": "Jura wine country: Arbois and Chateau-Chalon",
+      "distance_km": 120,
+      "travel_time": "1h 20 min by car east-north-east from Macon via the A39",
+      "destination_country": "France",
+      "destination_region": "Jura",
+      "signature_pours": [
+        "Vin Jaune from Chateau-Chalon",
+        "Arbois Poulsard",
+        "Arbois Trousseau",
+        "Cremant du Jura"
+      ],
+      "recommended_vineyards": [],
+      "description": "The Jura wine country east of the Beaujolais offers an entirely different viticultural world: Savagnin under voile aging to produce the oxidative Vin Jaune, Poulsard and Trousseau as pale, mineral reds, and the distinctive Ouillé versus Ouille aging debate that drives modern Jura wine conversation. Arbois, Henri Maire's hometown, is a compact wine village with several acclaimed producers on the main street.",
+      "tip": "Chateau-Chalon has its own AOC (the only Vin Jaune appellation with this status); the village perched above the vineyards is worth the drive alone, but book a Vin Jaune tasting at a Chateau-Chalon producer to taste what 62 cl represents.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.jura-vins.com/en/",
+        "address_quoted": "Arbois",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Jura_wine",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Vin_jaune",
+        "checked_on": "2026-05-29"
+      }
+    }
+  ]
+}

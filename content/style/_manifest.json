@@ -35,6 +35,12 @@
       "display": "Natural",
       "regions": [
         {
+          "country_slug": "france",
+          "region_slug": "beaujolais",
+          "region_name": "Beaujolais",
+          "n": 13
+        },
+        {
           "country_slug": "germany",
           "region_slug": "mosel",
           "region_name": "Mosel",
@@ -124,6 +130,12 @@
       "slug": "still",
       "display": "Still",
       "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "beaujolais",
+          "region_name": "Beaujolais",
+          "n": 59
+        },
         {
           "country_slug": "france",
           "region_slug": "bordeaux",

@@ -1,0 +1,188 @@
+{
+  "wine_festivals": [
+    {
+      "slug": "beaujolais-nouveau-release",
+      "name": "Beaujolais Nouveau Release",
+      "annual": true,
+      "recurrence_pattern": "annual, third Thursday of November",
+      "start_month": "November",
+      "duration": "1 day (midnight launch), multiple days of celebrations",
+      "host_organization": "Inter Beaujolais",
+      "ticket_required": false,
+      "featured_producers": [],
+      "neighborhood": "Region-wide; main celebrations in Lyon and Beaujolais villages",
+      "description": "The third Thursday of November signals the simultaneous global release of Beaujolais Nouveau under the Le Beaujolais Nouveau est arrive banner. Midnight pourings take place in Tokyo, London, New York, and hundreds of French cities. In the Beaujolais itself, local bars, restaurants, and domaines open for the new wine through the night and the following days.",
+      "tip": "The most atmospheric way to experience the release is to be in a Lyon bouchon at midnight; the city still treats Nouveau night as a genuinely festive occasion, unlike much of the international hype.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.beaujolais.com/en/a-world-for-every-beaujolais/nouveau-by-beaujolais/",
+        "address_quoted": "Beaujolais",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Beaujolais_Nouveau",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Beaujolais_wine",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "les-sarmentelles-de-beaujeu",
+      "name": "Les Sarmentelles de Beaujeu",
+      "annual": true,
+      "recurrence_pattern": "annual, the Wednesday evening before Beaujolais Nouveau release (third Thursday of November)",
+      "start_month": "November",
+      "duration": "1 evening and night",
+      "host_organization": "Commune de Beaujeu and local associations",
+      "ticket_required": false,
+      "featured_producers": [],
+      "neighborhood": "Beaujeu",
+      "description": "Les Sarmentelles is held in Beaujeu, the historic medieval capital of the Beaujolais, on the eve of Nouveau release. A torchlight procession winds through the old town, fires are lit, and the clock runs down to midnight when the year's Nouveau is first poured. The event combines medieval theatre and vine-grower celebration in the town that gave the region its name.",
+      "tip": "Beaujeu's medieval architecture is the backdrop for an authentic Nouveau celebration rooted in the town that gave the region its name; arrive for the afternoon market before the evening procession.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.beaujolais.com/en/a-world-for-every-beaujolais/nouveau-by-beaujolais/",
+        "address_quoted": "Beaujeu",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Beaujolais_Nouveau",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Beaujolais_wine",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "fete-des-crus-beaujolais",
+      "name": "Fete des Crus Beaujolais",
+      "annual": true,
+      "recurrence_pattern": "annual, April",
+      "start_month": "April",
+      "duration": "2 days",
+      "host_organization": "Inter Beaujolais",
+      "ticket_required": true,
+      "featured_producers": [],
+      "neighborhood": "Villefranche-sur-Saone or rotating Cru village",
+      "description": "The spring Fete des Crus brings together producers from all ten Beaujolais Cru appellations for public and trade tasting sessions. The event is Inter Beaujolais's flagship spring showcase, deliberately emphasising the quality and diversity of the named Crus rather than the Nouveau image. Tasting tickets give access to producer stands pouring the latest vintage alongside back-vintages.",
+      "tip": "Buy a tasting glass on arrival and work systematically through the ten Crus; the lighter Crus (Chiroubles, Fleurie) are best tasted first before moving to structured Moulin-a-Vent and Morgon.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.beaujolais.com/en/discover/nos-12-appellations/",
+        "address_quoted": "Beaujolais",
+        "open_status": "open",
+        "open_evidence_url": "https://www.beaujolais.com/en/discover/nos-12-appellations/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Gamay",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "marche-aux-vins-de-morgon",
+      "name": "Marche aux Vins de Morgon",
+      "annual": true,
+      "recurrence_pattern": "annual, autumn (typically October)",
+      "start_month": "October",
+      "duration": "1 day",
+      "host_organization": "Mairie de Villié-Morgon and local producers",
+      "ticket_required": false,
+      "featured_producers": [],
+      "neighborhood": "Villié-Morgon",
+      "description": "The autumn Marche aux Vins in Villié-Morgon, the heartland village of the Morgon Cru appellation, brings together local producers for an open-air market tasting in the village square. It is a grassroots event focused on the Morgon appellation and draws visitors seeking direct-from-producer Cote du Py and Corcelette bottlings alongside the village and Beaujolais-Villages range.",
+      "tip": "Villié-Morgon is the home village of the Gang of Four natural-wine producers; combine the market with a walk up to the Cote du Py granite hill for a view over the Morgon vineyards.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.beaujolais.com/en/visit/what-s-on-in-beaujolais-save-the-dates/",
+        "address_quoted": "Villié-Morgon",
+        "open_status": "open",
+        "open_evidence_url": "https://www.beaujolais.com/en/discover/nos-12-appellations/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Beaujolais_wine",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "hospices-de-beaujeu-wine-auction",
+      "name": "Hospices de Beaujeu Wine Auction",
+      "annual": true,
+      "recurrence_pattern": "annual, mid-December",
+      "start_month": "December",
+      "duration": "1 day (auction) plus surrounding tastings",
+      "host_organization": "Hospices de Beaujeu",
+      "ticket_required": true,
+      "featured_producers": [],
+      "neighborhood": "Beaujeu",
+      "description": "Modelled on the Beaune Hospices charity auction, the Hospices de Beaujeu holds its annual barrel auction in December in the medieval town of Beaujeu, with proceeds supporting the local hospital. Cru Beaujolais barrels from the current harvest are sold to the trade and private buyers. The event maintains genuine local character and connects the historic town to the wine charity tradition of Burgundy.",
+      "tip": "The Beaujeu auction is far less crowded than the Beaune event and retains an intimate, working-grower atmosphere; the town's medieval streets and the Maison du Pays du Beaujolais are worth a separate afternoon visit.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://en.wikipedia.org/wiki/Beaujolais_wine",
+        "address_quoted": "Beaujeu",
+        "open_status": "open",
+        "open_evidence_url": "https://www.beaujolais.com/en/discover/nos-12-appellations/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Beaujolais_Nouveau",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "beaujolais-marathon-des-vignes",
+      "name": "Beaujolais Marathon des Vignes",
+      "annual": true,
+      "recurrence_pattern": "annual, October",
+      "start_month": "October",
+      "duration": "2 days (race weekend)",
+      "host_organization": "Association Marathon des Vignes du Beaujolais",
+      "ticket_required": true,
+      "featured_producers": [],
+      "neighborhood": "Moulin-a-Vent, Fleurie, Chenas, Julienas villages",
+      "description": "The Marathon des Vignes routes runners through Cru vineyard paths in the northern Beaujolais between Moulin-a-Vent, Fleurie, Chenas, and Julienas, with wine tasting stations at producer cellar stops along the course. The weekend combines sport, local food, and Cru wines and is a popular wine-themed running event in France.",
+      "tip": "Register months in advance as entries sell out quickly; accommodation in the Cru villages fills for the marathon weekend and must be booked simultaneously.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.beaujolais.com/en/visit/what-s-on-in-beaujolais-save-the-dates/",
+        "address_quoted": "Beaujolais",
+        "open_status": "open",
+        "open_evidence_url": "https://www.beaujolais.com/en/discover/nos-12-appellations/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Beaujolais_wine",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "foire-aux-vins-de-macon",
+      "name": "Foire Nationale des Vins de France a Macon",
+      "annual": true,
+      "recurrence_pattern": "annual, late May",
+      "start_month": "May",
+      "duration": "10 days",
+      "host_organization": "Macon Exposition",
+      "ticket_required": true,
+      "featured_producers": [],
+      "neighborhood": "Macon",
+      "description": "The Foire Nationale des Vins de France held each May in Macon is one of France's oldest wine fairs, drawing producers from across the country including Beaujolais and the Maconnais. While not exclusively Beaujolais, the fair is the nearest large regional wine event and routinely features strong Cru Beaujolais representation at the Burgundy and nearby-region stands.",
+      "tip": "Beaujolais producers exhibit within the Burgundy section; look for the Cru Beaujolais showcase area organised by Inter Beaujolais for the most focused Gamay tasting at the fair.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.macon-tourisme.com/en/",
+        "address_quoted": "Macon",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/M%C3%A2con",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Beaujolais_wine",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "inter-beaujolais-press-tasting-spring",
+      "name": "Inter Beaujolais Annual Press and Trade Tasting",
+      "annual": true,
+      "recurrence_pattern": "annual, March to April",
+      "start_month": "March",
+      "duration": "2 to 3 days",
+      "host_organization": "Inter Beaujolais",
+      "ticket_required": true,
+      "featured_producers": [],
+      "neighborhood": "Villefranche-sur-Saone",
+      "description": "Inter Beaujolais organises a structured professional tasting each spring for wine journalists, importers, and trade buyers, covering all ten Crus in the new vintage. International press interest has grown through the 2010s and 2020s.",
+      "tip": "This is a trade and press event; consumers can access many of the same producers at their domaines during the same week when open-cellar tastings frequently run in parallel.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://en.wikipedia.org/wiki/Beaujolais_wine",
+        "address_quoted": "Beaujolais",
+        "open_status": "open",
+        "open_evidence_url": "https://www.beaujolais.com/en/discover/nos-12-appellations/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Gamay",
+        "checked_on": "2026-05-29"
+      }
+    }
+  ]
+}

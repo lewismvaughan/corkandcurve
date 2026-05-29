@@ -5,6 +5,12 @@
       "display": "Old World",
       "regions": [
         {
+          "region_name": "Beaujolais",
+          "region_slug": "beaujolais",
+          "country_slug": "france",
+          "blurb": "The home of Gamay: ten granite crus from the perfumed queen of Fleurie to the age-worthy king of Moulin-a-Vent, reinvented by a Gang of Four natural-wine movement that sparked a global revolution."
+        },
+        {
           "region_name": "Bordeaux",
           "region_slug": "bordeaux",
           "country_slug": "france",
