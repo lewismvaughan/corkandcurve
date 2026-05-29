@@ -218,6 +218,26 @@ def check_city(country: str, city: str, strict: bool = False) -> int:
         rows.append(row)
         urls_to_fetch.setdefault(url, []).append(row)
 
+    # Gap-1 (closed 2026-05-29 after Beaujolais): detect shared-URL fabrication.
+    # When ≥2 wines cuvées cite the same cuisine_evidence_url, the page is almost
+    # certainly a producer "wines" overview or a consortium directory page, NOT a
+    # per-cuvée tech sheet. The original gate passed mechanically because ANY
+    # descriptor on the page matched ALL sharing cuvées (the Rioja 116/120, Ribera
+    # 66/160, Wachau 84/155, Jerez 87/155, Beaujolais 34/152 recurring class).
+    # Surface the share-count as WARN so QA Section I can adjudicate.
+    wine_share_count: dict[str, int] = {}
+    for url, rs in urls_to_fetch.items():
+        n_wines = sum(1 for r in rs if r["topic"] == "wines")
+        if n_wines >= 2:
+            wine_share_count[url] = n_wines
+    if wine_share_count:
+        total_shared = sum(wine_share_count.values())
+        print(f"[{country}/{city}] WARN: shared-URL pattern on {len(wine_share_count)} URLs "
+              f"covering {total_shared} cuvées — likely producer-overview / consortium "
+              f"directory pages (QA Section I to re-anchor or strip per-cuvée).")
+        for url, n in sorted(wine_share_count.items(), key=lambda kv: -kv[1])[:10]:
+            print(f"    {n}x  {url[:100]}")
+
     print(f"[{country}/{city}] checking {len(urls_to_fetch)} unique cuisine_evidence_urls across {len(rows)} entities...")
 
     fetched: dict[str, tuple[str, str]] = {}

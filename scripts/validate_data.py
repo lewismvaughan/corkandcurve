@@ -321,6 +321,17 @@ def _check_verified_block(fname: str, entry: dict, label: str, issues: list) -> 
         path = re.sub(r"^https?://[^/]+", "", cev)
         if cev and path.strip("/") == "":
             issues.append(("WARN", f"{fname} entry '{label}' verified.cuisine_evidence_url={cev!r} is a bare homepage; cuvée taste evidence must be the specific per-wine page (PROMPT P0 #15)"))
+    # Gap-2b (closed 2026-05-29): festival `annual` must be an explicit
+    # bool (true/false), not null/missing. Wachau 2026-05-28: 5 of 8
+    # festival source_urls were 404 but check_festival_dates silently
+    # PASSed because all 8 had `annual: null` and the script reports
+    # "no annual festivals" then exits 0. The null bypass class is now
+    # mechanically enforced — every festival must declare whether it
+    # recurs annually. Reject null + missing as HARD.
+    if fname == "wine-festivals.json":
+        ann = entry.get("annual", "<MISSING>")
+        if not isinstance(ann, bool):
+            issues.append(("ERR", f"{fname} entry '{label}' annual={ann!r} must be a boolean (true/false); null/missing is a known check_festival_dates bypass"))
 
 
 def _entry_name(entry: dict) -> str:
