@@ -1,0 +1,252 @@
+{
+  "signature_wines": [
+    {
+      "slug": "royal-tokaji-mezes-maly-aszu-6-puttonyos",
+      "name": "Royal Tokaji Mézes Mály Aszú 6 Puttonyos",
+      "producer": "royal-tokaji",
+      "varietals": [
+        "Furmint",
+        "Hárslevelű"
+      ],
+      "style": "dessert-noble-rot",
+      "vintage_range": "Selected years since 1993",
+      "price_band": "€80-140 at retail",
+      "tasting_notes": "Concentrated dried apricot, orange blossom and saffron on the nose; candied orange peel, marmalade and toasted almond on the palate. Full-bodied with racy acidity and a very long finish. From the first-class Mézes Mály dűlő in Tarcal, classified in the 1700 Rákóczi survey.",
+      "verified": {
+        "source_url": "https://royal-tokaji.com/our-wines/",
+        "address_quoted": "Royal Tokaji, Mád, Hungary",
+        "open_status": "open",
+        "open_evidence_url": "https://royal-tokaji.com/our-estate/",
+        "cuisine_evidence_url": "https://royal-tokaji.com/our-wines/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "disznoko-aszu-6-puttonyos",
+      "name": "Disznókő Tokaji Aszú 6 Puttonyos",
+      "producer": "disznoko",
+      "varietals": [
+        "Furmint",
+        "Hárslevelű",
+        "Sárga Muskotály"
+      ],
+      "style": "dessert-noble-rot",
+      "vintage_range": "Selected years since 1993",
+      "price_band": "€50-90 at retail",
+      "tasting_notes": "Dried apricot, orange peel, honeyed flowers and tobacco aromas; marmalade, dried fig, ginger biscuit and roasted coffee on the palate. Rich and layered with racy acidity and a very long finish. From AXA Millésimes' 104-hectare contiguous estate at Mezőzombor.",
+      "verified": {
+        "source_url": "https://disznoko.hu/en/",
+        "address_quoted": "3931 Mezőzombor, Külterület, Hrsz.0202",
+        "open_status": "open",
+        "open_evidence_url": "https://disznoko.hu/en/contact",
+        "cuisine_evidence_url": null,
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "oremus-aszu-6-puttonyos",
+      "name": "Oremus Tokaji Aszú 6 Puttonyos",
+      "producer": "oremus",
+      "varietals": [
+        "Furmint",
+        "Hárslevelű"
+      ],
+      "style": "dessert-noble-rot",
+      "vintage_range": "Selected years since 1993",
+      "price_band": "€55-90 at retail",
+      "tasting_notes": "Dried apricot, orange blossom and honeyed floral aromas; candied stone fruit, caramelised orange peel and walnuts on the palate. Full-bodied with high acidity and a long, spiced finish. From the Vega Sicilia-owned Tolcsva estate.",
+      "verified": {
+        "source_url": "https://oremustokaj.com/home",
+        "address_quoted": "Bajcsy-Zsilinszky Endre utca 45., H-3934 Tolcsva, Hungary",
+        "open_status": "open",
+        "open_evidence_url": "https://oremustokaj.com/home",
+        "cuisine_evidence_url": "https://oremustokaj.com/home",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "szepsy-aszu-5-puttonyos",
+      "name": "Szepsy Tokaji Aszú 5 Puttonyos",
+      "producer": "szepsy",
+      "varietals": [
+        "Furmint",
+        "Hárslevelű"
+      ],
+      "style": "dessert-noble-rot",
+      "vintage_range": "Selected years since 1997",
+      "price_band": "€80-140 at retail",
+      "tasting_notes": "Dried peach, orange blossom, honey and toasted oak on the nose; marmalade, candied citrus and cinnamon on the palate. Full-bodied with high acidity and a long mineral finish. The 5-puttonyos tier from István Szepsy's Mád estate, the more frequently produced expression of his Aszú range.",
+      "verified": {
+        "source_url": "https://szepsy.hu/",
+        "address_quoted": "H-3909 Mád Batthyány u. 59",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.worldsbestvineyards.com/explore/Vineyards/Hungary/Tokaj/Szepsy-Winery.html",
+        "cuisine_evidence_url": "https://szepsy.hu/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "oremus-eszencia",
+      "name": "Oremus Eszencia",
+      "producer": "oremus",
+      "varietals": [
+        "Furmint",
+        "Hárslevelű"
+      ],
+      "style": "dessert-noble-rot",
+      "vintage_range": "Exceptional vintages only; 1999, 2007",
+      "price_band": "€300-800 per 100ml at retail",
+      "tasting_notes": "Concentrated apricot nectar, orange oil, honeycomb and dried spices on the nose; liquid honey and apricot, tropical citrus, candied ginger and aged beeswax on the palate. Near-zero alcohol (2-3%), extraordinary residual sugar above 500 g/l, and a finish of unusual length. Produced from the gravity-drained free-run juice of hand-selected shrivelled Aszú berries.",
+      "verified": {
+        "source_url": "https://oremustokaj.com/home",
+        "address_quoted": "Bajcsy-Zsilinszky Endre utca 45., H-3934 Tolcsva, Hungary",
+        "open_status": "open",
+        "open_evidence_url": "https://oremustokaj.com/home",
+        "cuisine_evidence_url": "https://oremustokaj.com/home",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "szepsy-uradja-furmint",
+      "name": "Szepsy Úrágya Furmint",
+      "producer": "szepsy",
+      "varietals": [
+        "Furmint"
+      ],
+      "style": "still-white",
+      "vintage_range": "Annual since 2002",
+      "price_band": "€40-70 at retail",
+      "tasting_notes": "White peach, flint and graphite, lemon oil and fennel on the nose; stone fruit, chalk mineral, saline tension and tight citrus on the palate. Medium-bodied with racy acidity and a very long finish. From the classified Úrágya dűlő in Mád, first vinified separately in 2002.",
+      "verified": {
+        "source_url": "https://szepsy.hu/",
+        "address_quoted": "H-3909 Mád Batthyány u. 59",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.worldsbestvineyards.com/explore/Vineyards/Hungary/Tokaj/Szepsy-Winery.html",
+        "cuisine_evidence_url": "https://szepsy.hu/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "oremus-mandolas-furmint",
+      "name": "Oremus Mandolás Furmint",
+      "producer": "oremus",
+      "varietals": [
+        "Furmint"
+      ],
+      "style": "still-white",
+      "vintage_range": "Annual since 1993",
+      "price_band": "€20-35 at retail",
+      "tasting_notes": "Ripe peach, almond blossom, citrus zest and flint on the nose; white peach, apricot stone, mineral salt and almond on the palate. Medium-bodied with high acidity and a long finish. From the Mandolás (almond grove) single vineyard near Tolcsva, the Oremus estate's flagship dry-wine expression.",
+      "verified": {
+        "source_url": "https://oremustokaj.com/home",
+        "address_quoted": "Bajcsy-Zsilinszky Endre utca 45., H-3934 Tolcsva, Hungary",
+        "open_status": "open",
+        "open_evidence_url": "https://oremustokaj.com/home",
+        "cuisine_evidence_url": "https://oremustokaj.com/home",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "holdvolgy-notabene-furmint",
+      "name": "Holdvölgy Notabene Furmint",
+      "producer": "holdvolgy",
+      "varietals": [
+        "Furmint"
+      ],
+      "style": "still-white",
+      "vintage_range": "Annual since 2008",
+      "price_band": "€25-45 at retail",
+      "tasting_notes": "White peach, citrus peel, wet stone and almond on the nose; lime zest, stone fruit, saline mineral and light oak spice on the palate. Medium-bodied with racy acidity and a long finish. From Holdvölgy's volcanic-tuff classified plots in Mád, above the estate's 2-km underground cave system.",
+      "verified": {
+        "source_url": "https://holdvolgy.com/en/estate",
+        "address_quoted": "Árpád Street 13, Mád, Hungary",
+        "open_status": "open",
+        "open_evidence_url": "https://holdvolgy.com/en/winetasting",
+        "cuisine_evidence_url": "https://holdvolgy.com/en/estate",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "disznoko-edes-szamorodni",
+      "name": "Disznókő Édes Szamorodni",
+      "producer": "disznoko",
+      "varietals": [
+        "Furmint",
+        "Hárslevelű"
+      ],
+      "style": "dessert-noble-rot",
+      "vintage_range": "Annual since 1995",
+      "price_band": "€20-35 at retail",
+      "tasting_notes": "Dried apricot, honey, orange zest and marzipan on the nose; caramelised apple, preserved lemon, hazelnut and soft spice on the palate. Medium-bodied with high acidity. Whole-cluster harvest of botrytised and healthy grapes aged in gönci oak, representing Tokaj's traditional Szamorodni style.",
+      "verified": {
+        "source_url": "https://disznoko.hu/en/",
+        "address_quoted": "3931 Mezőzombor, Külterület, Hrsz.0202",
+        "open_status": "open",
+        "open_evidence_url": "https://disznoko.hu/en/contact",
+        "cuisine_evidence_url": null,
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "bott-csontos-furmint",
+      "name": "Bott Csontos Furmint",
+      "producer": "bott-pince",
+      "varietals": [
+        "Furmint"
+      ],
+      "style": "still-white",
+      "vintage_range": "Annual since 2008",
+      "price_band": "€25-40 at retail",
+      "tasting_notes": "Wild herbs, citrus peel, flint and apple skin on the nose; tart lemon, green apple, mineral tension and wild-yeast texture on the palate. Medium-bodied with racy acidity and a long finish. Single-vineyard organic Furmint from the Csontos plot on the Erdőbénye-Olaszliszka slopes; native-yeast fermented with no herbicides or enzymes.",
+      "verified": {
+        "source_url": "https://bottfamily.com/",
+        "address_quoted": "Bodrogkisfalud, Hungary",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://danchandgranger.com/producer/bott",
+        "cuisine_evidence_url": "https://bottfamily.com/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "kikelet-harslevelu",
+      "name": "Kikelet Hárslevelű",
+      "producer": "kikelet-pince",
+      "varietals": [
+        "Hárslevelű"
+      ],
+      "style": "still-white",
+      "vintage_range": "Annual since 2006",
+      "price_band": "€20-35 at retail",
+      "tasting_notes": "Linden blossom, ripe pear, lime zest and light spice on the nose; floral honey, lime-pear, delicate herbs and a clean finish on the palate. Light-bodied with high acidity. Varietal Hárslevelű from Tarcal, showing the linden-blossom and lime-zest character of Tokaj's secondary grape variety.",
+      "verified": {
+        "source_url": "https://kikelet.hu/",
+        "address_quoted": "Könyves Kálmán utca 62, Tarcal, Hungary",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://hellohungary.hu/en/gastronomy/tokaj-kikelet-pince-izmuhely",
+        "cuisine_evidence_url": "https://kikelet.hu/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "disznoko-keso-szuretelesu",
+      "name": "Disznókő Késői Szüretelésű",
+      "producer": "disznoko",
+      "varietals": [
+        "Furmint",
+        "Hárslevelű"
+      ],
+      "style": "dessert-late-harvest",
+      "vintage_range": "Annual since 2002",
+      "price_band": "€18-30 at retail",
+      "tasting_notes": "White peach, lychee, honey blossom and citrus on the nose; fresh apricot, peach nectar, light honey and bright citrus on the palate. Medium-bodied with high acidity. Late-harvest entry from the Mezőzombor estate; less concentrated than Aszú and more immediately approachable.",
+      "verified": {
+        "source_url": "https://disznoko.hu/en/",
+        "address_quoted": "3931 Mezőzombor, Külterület, Hrsz.0202",
+        "open_status": "open",
+        "open_evidence_url": "https://disznoko.hu/en/contact",
+        "cuisine_evidence_url": null,
+        "checked_on": "2026-05-29"
+      }
+    }
+  ]
+}

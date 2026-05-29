@@ -1,0 +1,268 @@
+{
+  "wine_hotels": [
+    {
+      "slug": "andrassy-kuria-spa-tarcal",
+      "name": "Andrássy Kúria and Spa",
+      "address": "Fő utca 94, 3915 Tarcal, Hungary",
+      "neighborhood": "Tarcal",
+      "parent_vineyard": null,
+      "category": "5-star luxury wine resort",
+      "rooms": 41,
+      "description": "The only five-star hotel in Borsod-Abaúj-Zemplén County, in a historic Andrássy mansion restored in 2008. Hungary's first vinotherapy wellness centre using grape and grape-seed extracts; Gault and Millau two-hat Talu Restaurant; Bobajka restaurant with a 120-wine all-Tokaj list.",
+      "wine_program": "Bobajka wine bar with 120 Tokaj wines; Michelin Sommelier Award-winning pairing service; VinoSense Spa with vinotherapy treatments",
+      "price_range": "EUR 150-500 per night",
+      "booking_url": null,
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.tokaj.hu/",
+        "address_quoted": "H-3915 Tarcal, Fő u. 94.",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Hotel_Review-g1099212-d1741604-Reviews-Andrassy_Kuria_Spa-Tarcal_Borsod_Abauj_Zemplen_County_Northern_Hungary.html",
+        "cuisine_evidence_url": "https://bobajkaetterem.hu/en/concept/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "grof-degenfeld-kastelyszallo-tarcal",
+      "name": "Gróf Degenfeld Kastélyszálló Superior",
+      "address": "Terézia kert 9, 3915 Tarcal, Hungary",
+      "neighborhood": "Tarcal",
+      "parent_vineyard": "grof-degenfeld",
+      "category": "4-star superior castle hotel with on-site winery",
+      "rooms": 21,
+      "description": "Former manor house at the centre of a 35 ha vineyard estate in Tarcal. Estate winemaker produces Furmint, Hárslevelű, Yellow Muscat, and Aszú wines; cellar visits and tastings of 5, 7, or 8 wines; romantic castle setting.",
+      "wine_program": "Estate Furmint, Hárslevelű, and Aszú tastings; cellar visits with the estate winemaker; vineyard walks",
+      "price_range": "EUR 90-250 per night",
+      "booking_url": "https://grofdegenfeld.com/en/",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://grofdegenfeld.com/en/",
+        "address_quoted": "3915 Tarcal, Terézia kert 9.",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Hotel_Review-g1099212-d1741604-Reviews-Grof_Degenfeld_Castle_Hotel-Tarcal_Borsod_Abauj_Zemplen_County_Northern_Hungary.html",
+        "cuisine_evidence_url": null,
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "minaro-hotel-tokaj-mgallery",
+      "name": "Minaro Hotel Tokaj MGallery",
+      "address": "Csurgó völgyi út, 3910 Tokaj, Hungary",
+      "neighborhood": "Tokaj",
+      "parent_vineyard": null,
+      "category": "5-star boutique hotel among the vineyards",
+      "rooms": 100,
+      "description": "Accor MGallery property among the UNESCO-listed vineyards of Tokaj, with Mayan-inspired architecture and panoramic views. Tortuga Restaurant, Viracocha Bar, 12-week Saturday Wine Tales tasting series, and spa with adventure pools. Wine and gastronomy masterclasses available.",
+      "wine_program": "Weekly Wine Tales Saturday tasting series with Tokaj producers (Béres, Oremus, Sauska); regional bus wine tours; complimentary wine education",
+      "price_range": "EUR 120-380 per night",
+      "booking_url": "https://www.minaromgallery.hu/en/",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.minaromgallery.hu/en/",
+        "address_quoted": "Csurgó völgyi út 3910 TOKAJ HUNGARY",
+        "open_status": "open",
+        "open_evidence_url": "https://mgallery.accor.com/en/hotels/C096.html",
+        "cuisine_evidence_url": "https://mgallery.accor.com/en/hotels/C096/offers/explore-the-tokaj-wine-region.html",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "mercure-tokaj-center",
+      "name": "Mercure Tokaj Center",
+      "address": "Rákóczi utca 5, 3910 Tokaj, Hungary",
+      "neighborhood": "Tokaj town",
+      "parent_vineyard": null,
+      "category": "4-star hotel in Tokaj town centre",
+      "rooms": 55,
+      "description": "Accor Mercure hotel on the main street of Tokaj, between the Tisza and Bodrog rivers. Winestone restaurant with 120 Tokaj wines; balconied rooms with river or hillside views; summer wine terrace; indoor and outdoor pools.",
+      "wine_program": "Winestone restaurant with 120 local wines; seasonal wine terrace on Bodrog riverfront; proximity to Rákóczi cellars and wine museum",
+      "price_range": "EUR 80-180 per night",
+      "booking_url": "https://mercurehoteltokaj.hu/",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://mercurehoteltokaj.hu/",
+        "address_quoted": "Rakoczi utca 5, 3910, Tokaj, Hungary",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.co.uk/Hotel_Review-g657261-d965989-Reviews-Mercure_Tokaj_Center-Tokaj_Borsod_Abauj_Zemplen_County_Northern_Hungary.html",
+        "cuisine_evidence_url": "https://all.accor.com/hotel/B9B1/index.en.shtml",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "barta-aspremont-mansion-mad",
+      "name": "Barta Pince Rákóczi-Aspremont Mansion Suites",
+      "address": "Rákóczi utca 83, 3909 Mád, Hungary",
+      "neighborhood": "Mád",
+      "parent_vineyard": "barta-pince",
+      "category": "Boutique wine estate suites in a 17th-century mansion",
+      "rooms": 3,
+      "description": "Three luxurious period-furnished suites in the first floor of the 17th-century Rákóczi-Aspremont Mansion in Mád, operated by Barta Winery. Immersive Mád wine village location adjacent to the winery; estate wine programme and village cellar access.",
+      "wine_program": "Direct access to Barta Winery organic Furmint range; Mád village cellar walk; estate tasting by arrangement",
+      "price_range": "Contact winery for current rates",
+      "booking_url": "https://bartapince.com/en/accommodation/suites/",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://bartapince.com/en/accommodation/suites/",
+        "address_quoted": "Rákóczi utca 83, 3909 Mád",
+        "open_status": "open",
+        "open_evidence_url": "https://bartapince.com/en/accommodation/",
+        "cuisine_evidence_url": "https://bartapince.com/en/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "barta-guesthouse-mad",
+      "name": "Barta Pince Vendégház",
+      "address": "Rákóczi utca 85, 3909 Mád, Hungary",
+      "neighborhood": "Mád",
+      "parent_vineyard": "barta-pince",
+      "category": "Traditional rural guesthouse adjacent to winery",
+      "rooms": 3,
+      "description": "Renovated three-room peasant house with veranda in Mád, run by Barta Winery. Accommodates up to 6 guests with option for extra beds; authentic rural setting adjacent to the winery; Mád village walking distance to Holdvölgy, Szepsy, among others.",
+      "wine_program": "Barta estate wines available; proximity to Mád's top wineries for self-guided cellar visits",
+      "price_range": "Contact winery for current rates",
+      "booking_url": "https://bartapince.com/en/accommodation/barta-guesthouse/",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://bartapince.com/en/accommodation/barta-guesthouse/",
+        "address_quoted": "Rákóczi utca 85, 3909 Mád",
+        "open_status": "open",
+        "open_evidence_url": "https://bartapince.com/en/accommodation/",
+        "cuisine_evidence_url": "https://bartapince.com/en/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "fueleky-guesthouse-bodrogkeresztur",
+      "name": "Füleky Pincészet Guesthouse",
+      "address": "Iskola köz 15, 3916 Bodrogkeresztúr, Hungary",
+      "neighborhood": "Bodrogkeresztúr",
+      "parent_vineyard": "fuleky",
+      "category": "Wine estate guesthouse in 18th-century Baroque mansion",
+      "rooms": 6,
+      "description": "Six ensuite double bedrooms in the 18th-century Baroque Füleky mansion in Bodrogkeresztúr, next to the Gothic church and modern winery. Cellar visits, dinner menus, and wine events available; estate owns 25 ha in top Tokaj vineyards.",
+      "wine_program": "Füleky estate wines from 25 ha; cellar visits; pairing dinner menus",
+      "price_range": "Contact winery for current rates",
+      "booking_url": "https://bodrogkeresztur.eu/en/venue/fuleky-winery",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://bodrogkeresztur.eu/en/venue/fuleky-winery",
+        "address_quoted": "H-3916 Bodrogkeresztúr, Iskola köz 15",
+        "open_status": "open",
+        "open_evidence_url": "https://tokajiborlovagrend.hu/en/wineries/wineries-2018/fuleky-winery-2018/",
+        "cuisine_evidence_url": null,
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "hotel-botrytis-mad",
+      "name": "Hotel Botrytis",
+      "address": "Mád, Hungary",
+      "neighborhood": "Mád",
+      "parent_vineyard": "mad-wine",
+      "category": "Boutique vineyard hotel",
+      "rooms": 7,
+      "description": "Small boutique hotel associated with Mad Wine in Mád, with four double rooms, two single rooms, and one apartment set among the vineyards. Immersive wine village base for exploring the Mád premier cru appellations.",
+      "wine_program": "Mad Wine estate wines from 20 ha of volcanic-soil vineyards; cellar visits; vineyard walks",
+      "price_range": "Contact winery for current rates",
+      "booking_url": "https://mad-wine.com/en/",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://mad-wine.com/en/",
+        "address_quoted": "Mád, Hungary",
+        "open_status": "open",
+        "open_evidence_url": "https://www.winetourism.com/winery/mad-wine/",
+        "cuisine_evidence_url": null,
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "sauska-tokaj-accommodation",
+      "name": "Sauska Tokaj Guest Accommodation",
+      "address": "Rátka 2722 hrsz., 3917 Rátka, Hungary",
+      "neighborhood": "Rátka",
+      "parent_vineyard": "sauska-tokaj",
+      "category": "Contemporary vineyard hotel",
+      "rooms": null,
+      "description": "Accommodation at the Sauska Tokaj winery complex completed 2024, combining a vat room, Padi restaurant (Michelin Opening of the Year 2025), wine store and bar. Contemporary design on the hillside with panoramic views.",
+      "wine_program": "Sauska sparkling and still Tokaji wines; Padi restaurant tasting menus themed on Tokaj; winery visits",
+      "price_range": "Contact winery for current rates",
+      "booking_url": "https://sauska.hu/en/tokaj/",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://sauska.hu/en/tokaj/",
+        "address_quoted": "Rátka 2722 hrsz",
+        "open_status": "open",
+        "open_evidence_url": "https://guide.michelin.com/en/borsod-abauj-zemplen/ratka_1787427/restaurant/padi",
+        "cuisine_evidence_url": "https://news.tokajtoday.com/2023/11/16/sauskas-padi-wine-bar-has-opened-today-in-ratka/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "beres-vineyards-accommodation",
+      "name": "Béres Vineyards Guest Accommodation",
+      "address": "085/18 hrsz., 3932 Erdőbénye, Hungary",
+      "neighborhood": "Erdőbénye",
+      "parent_vineyard": "beres-vineyards",
+      "category": "Vineyard estate accommodation",
+      "rooms": null,
+      "description": "Accommodation at Béres Vineyards and Winery in Erdőbénye, designed by architect Anthony Gall. Outdoor event space and circular-skylight courtyard; estate-visit programmes including late-harvest and Aszú tastings.",
+      "wine_program": "Béres estate wines from Erdőbénye volcanic soils; cellar visits; wine tastings and diverse events",
+      "price_range": "Contact winery for current rates",
+      "booking_url": "https://www.winetourism.com/winery/beres-vineyards-and-winery/",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.winetourism.com/winery/beres-vineyards-and-winery/",
+        "address_quoted": "3932 Erdőbénye, 085/18 hrsz.",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g2151230-d7001940-Reviews-Beres_Vineyards_and_Winery-Erdobenye_Borsod_Abauj_Zemplen_County_Northern_Hungary.html",
+        "cuisine_evidence_url": "https://www.tastehungary.us/beres-winery/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "tokajicum-borhaz-accommodation",
+      "name": "Tokajicum Borház Guest Accommodation",
+      "address": "Külterület 1, 3915 Tarcal, Hungary",
+      "neighborhood": "Tarcal",
+      "parent_vineyard": "tokajicum",
+      "category": "Mediterranean-style winery guesthouse",
+      "rooms": null,
+      "description": "Guesthouse at the Tokajicum Borház Mediterranean-style wine house in Tarcal, built 2002. Vineyards on the Tarcal-Mád border; near Andrássy Kúria and Gróf Degenfeld; estate tastings include mineral Furmint and late-harvest dessert wines.",
+      "wine_program": "Tokajicum estate wines; single-vineyard Furmint and Hárslevelű; late-harvest selections",
+      "price_range": "Contact winery for current rates",
+      "booking_url": "https://visittokaj.org/tokajicum/",
+      "editorial_score": 4.1,
+      "verified": {
+        "source_url": "https://visittokaj.org/tokajicum/",
+        "address_quoted": "Tarcal, Külterület 1, 3915 Hungary",
+        "open_status": "open",
+        "open_evidence_url": "https://bor.hu/en/boraszatok/tokajicum-borhaz-737/",
+        "cuisine_evidence_url": "https://wineguide.wein.plus/tokajicum-borhaz",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "karacsony-berger-erdobenye",
+      "name": "Karádi-Berger Borászat Guest Accommodation",
+      "address": "Erdőbénye, Hungary",
+      "neighborhood": "Erdőbénye",
+      "parent_vineyard": null,
+      "category": "Small winery guesthouse in Erdőbénye",
+      "rooms": null,
+      "description": "Winery guesthouse in Erdőbénye offering one-week immersive Tokaj wine programmes. Guests live in the wine village, visit neighbouring estates, and participate in guided tastings across the Tokaj-Hegyalja; tailored wine-week itineraries.",
+      "wine_program": "One-week Tokaj wine immersion programme; visits to regional estates; guided tastings of Aszú and dry Furmint",
+      "price_range": "Contact winery for current rates",
+      "booking_url": "https://karadiesberger.hu/en/accomodation/one-week-tokaj/",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://karadiesberger.hu/en/accomodation/one-week-tokaj/",
+        "address_quoted": "Erdőbénye, Hungary",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://tastehungary.com/journal/discovering-tokajs-sweet-secrets-at-home-in-erdobenye/",
+        "cuisine_evidence_url": "https://karadiesberger.hu/en/accomodation/one-week-tokaj/",
+        "checked_on": "2026-05-29"
+      }
+    }
+  ]
+}

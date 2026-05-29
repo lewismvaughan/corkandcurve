@@ -1,0 +1,185 @@
+{
+  "day_trips_wine": [
+    {
+      "slug": "budapest-capital-gateway",
+      "name": "Budapest",
+      "distance_km": 230,
+      "travel_time": "2.5 hours by car or train from Tokaj town",
+      "signature_pours": [
+        "Tokaji Aszú at Budapest wine bars",
+        "Hungarian natural wines",
+        "Egri Bikavér (Bull's Blood) from Eger"
+      ],
+      "recommended_vineyards": [],
+      "description": "Budapest serves as gateway city for most Tokaj visits, served by direct trains from Keleti station and by the M3 motorway. The city has an active wine bar scene, including Bortársaság (a leading independent wine merchant with multiple Budapest locations), DiVino on Szt. István tér, and dozens of restaurants with Tokaj programmes. The Hungarian National Museum and the Jewish Quarter wine bars near Kazinczy utca together form the cultural gateway to understanding the wine regions beyond the city.",
+      "tip": "The Keleti train station direct service to Tokaj runs regularly; a day trip from Budapest to Mád or Tarcal and back is comfortably feasible, allowing a morning cellar visit and return by early evening.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://en.wikipedia.org/wiki/Tokaj_wine_region",
+        "address_quoted": "Budapest, Hungary",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Budapest",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Tokaj_wine_region",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "eger-bulls-blood-region",
+      "name": "Eger wine region (Egri Bikavér / Bull's Blood)",
+      "distance_km": 75,
+      "travel_time": "1.5-2 hours by car west from Tokaj wine region",
+      "signature_pours": [
+        "Egri Bikavér (Bull's Blood)",
+        "Egri Csillag white blend",
+        "Single-variety Kékfrankos",
+        "Egri Leányka white"
+      ],
+      "recommended_vineyards": [],
+      "description": "Eger, the baroque city in the Bükk foothills, is the home of Egri Bikavér (Bull's Blood), a widely exported Hungarian red wine blend. The Eger wine region lies west of Tokaj, and the contrast between Tokaj's white Furmint terroir and Eger's red Kékfrankos-dominant blends makes a combined visit an instructive Hungarian wine tour. Eger itself is a historic city with a castle, thermal baths, and cellars carved into the volcanic tuff of the Szépasszony-völgy (Valley of Beautiful Women).",
+      "tip": "The Szépasszony-völgy cellar valley in Eger is a row of carved-tuff cave cellars open for walk-in tastings; arrive in the afternoon when the cellars are at their most atmospheric.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://en.wikipedia.org/wiki/Eger_wine_region",
+        "address_quoted": "Eger, Heves County, Hungary",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Eger_wine_region",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Eger_wine_region",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "matra-wine-region",
+      "name": "Mátra wine region",
+      "distance_km": 90,
+      "travel_time": "1.5-2 hours by car south-west from Tokaj wine region",
+      "signature_pours": [
+        "Mátraaljai Olaszrizling",
+        "Mátra Furmint",
+        "Mátra Muskotály"
+      ],
+      "recommended_vineyards": [],
+      "description": "The Mátra wine region, in the Mátra mountains south-west of Tokaj, is Hungary's largest by planted area. Primarily focused on lighter white wines from Olaszrizling (Welschriesling) and Muskateller, the region produces accessible everyday whites at price points well below Tokaj. The Mátra landscapes of forested hills and volcanic vineyards provide a scenic contrast to the Hegyalja flatlands, and several estates offer cave-cellar visits in the volcanic rock.",
+      "tip": "The Mátra region is primarily a domestic market destination; it offers good value everyday Hungarian whites that are rarely exported, making cellar-door prices particularly appealing for visitors.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://en.wikipedia.org/wiki/Tokaj_wine_region",
+        "address_quoted": "Mátra, Heves and Nógrád counties, Hungary",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Hungary",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Hungary",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "slovak-tokaj-mala-trna",
+      "name": "Slovak Tokaj (Tokajská vinohradnícka oblasť), Slovakia",
+      "distance_km": 35,
+      "travel_time": "45 minutes by car north from Tokaj wine region across the Slovak border",
+      "signature_pours": [
+        "Slovak Tokaj Furmint dry",
+        "Slovak Tokaj Forditás",
+        "Slovak Tokaj Aszú"
+      ],
+      "recommended_vineyards": [],
+      "description": "Across the Slovak border from the Hungarian Tokaj Hegyalja lies the tiny Slovak Tokaj appellation, centred on the village of Malá Trňa (Kis-Tállya in Hungarian). The Slovak Tokaj PDO produces wines from the same varieties and in the same Aszú tradition as Hungarian Tokaj, governed by a separate Slovak wine law that mirrors the Hungarian classification. The zone is one of Europe's smallest wine appellations, and its cellars in the volcanic tuff have a completely different visitor atmosphere to the better-known Hungarian side.",
+      "tip": "The Slovak Tokaj zone requires crossing the EU Schengen border; no passport check is needed for EU citizens but non-EU visitors should confirm current border requirements. The Malá Trňa village cellar street is small and visits require advance contact with producers.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://en.wikipedia.org/wiki/Tokaj_wine_region",
+        "address_quoted": "Malá Trňa, Trebišov District, Slovakia",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Tokaj_wine_region",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Tokaj_wine_region",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "sarospatak-castle-heritage",
+      "name": "Sárospatak Castle and heritage district",
+      "distance_km": 25,
+      "travel_time": "35 minutes by car north-east from Tokaj town",
+      "signature_pours": [
+        "Rákóczi Cellar Tokaji Aszú",
+        "Szamorodni from Sárospatak producers"
+      ],
+      "recommended_vineyards": [],
+      "description": "Sárospatak, the Renaissance castle town on the Bodrog river, is a historically significant settlement in the Tokaj wine region. The Rákóczi Castle was the seat of the Rákóczi princes who controlled the Tokaj wine trade in the 17th century, and the cellars beneath the castle still produce and display heritage Aszú. The town is also home to the Calvinist College founded in 1531, which played a role in preserving wine records including the first documented Aszú references.",
+      "tip": "The Rákóczi Castle Museum and the castle cellar tasting operate on separate opening schedules; combine the two with lunch at one of the riverside restaurants for a complete half-day excursion from Tokaj town.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://en.wikipedia.org/wiki/S%C3%A1rospatak",
+        "address_quoted": "Sárospatak, Borsod-Abaúj-Zemplén County, Hungary",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/S%C3%A1rospatak",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Tokaj_wine_region",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "bukk-national-park-caves",
+      "name": "Bükk National Park and cave villages",
+      "distance_km": 70,
+      "travel_time": "1.5 hours by car south-west from Tokaj wine region",
+      "signature_pours": [
+        "Eger region whites and reds at nearby wine villages",
+        "Traditional cave-cellar heritage wines"
+      ],
+      "recommended_vineyards": [],
+      "description": "The Bükk National Park, the largest continuous forest in Hungary, lies between the Eger and Tokaj wine regions. The park's volcanic geology produced cave villages where Swabian settlers carved dwellings and cellars directly into the tuff, similar to the Hercegkút cellar village within Tokaj itself. The village of Cserépfalu is the most accessible example; it offers a geological and cultural parallel to the Gombos-hegyi UNESCO cellar street in Hercegkút.",
+      "tip": "A combined day trip taking in the Eger wine region and the Bükk cave villages makes a natural loop from Tokaj; hire a car in Tokaj town and drive the loop via Eger, returning via the Bükk park and Miskolc.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://en.wikipedia.org/wiki/B%C3%BCkk_National_Park",
+        "address_quoted": "Bükk National Park, Heves and Borsod-Abaúj-Zemplén counties, Hungary",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/B%C3%BCkk_National_Park",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Eger_wine_region",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "aggtelek-karst-caves",
+      "name": "Aggtelek Karst and Caves UNESCO World Heritage Site",
+      "distance_km": 80,
+      "travel_time": "1.5 hours by car north from Tokaj wine region",
+      "signature_pours": [
+        "Local Tokaj wines served at Aggtelek visitor centre",
+        "Zemplén wines at local restaurants"
+      ],
+      "recommended_vineyards": [],
+      "description": "The Aggtelek Karst, a UNESCO World Heritage Site, is a system of 712 cave systems straddling the Hungarian-Slovak border, including the Baradla Cave, the longest stalactite cave in Europe at 25 km. As a geological counterpoint to the volcanic tuff of the Tokaj Hegyalja, Aggtelek offers an extraordinary underground landscape of a completely different character. The cave system has hosted concerts and even wine-ageing experiments; it is a half-day geological excursion from the northern Tokaj villages.",
+      "tip": "Baradla Cave tours run at set times throughout the day; book online in advance in summer as tours are limited in size. The cave temperature is a constant 10°C, so bring a layer regardless of the outside temperature.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://en.wikipedia.org/wiki/Aggtelek_National_Park",
+        "address_quoted": "Aggtelek Karst, Borsod-Abaúj-Zemplén County, Hungary",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Aggtelek_National_Park",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Aggtelek_National_Park",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "mezokovessd-matyo-heritage",
+      "name": "Mezőkövesd Matyó heritage",
+      "distance_km": 55,
+      "travel_time": "1 hour by car south from Tokaj wine region",
+      "signature_pours": [
+        "Egri Bikavér paired with traditional Matyó roast dishes",
+        "Mátra white wines"
+      ],
+      "recommended_vineyards": [],
+      "description": "Mezőkövesd is the home of the Matyó, one of Hungary's richest folk-art traditions, recognised on the UNESCO Intangible Cultural Heritage list. The town's Matyó Museum and the surviving embroidery workshops preserve a folk culture that coexisted with the Tokaj wine tradition across the Hortobágy plain. The folk costume and decorative arts of the Matyó are a vivid cultural counterpart to the wine heritage of the Hegyalja, and the town's local restaurants serve traditional dishes that pair naturally with the wines of the neighbouring Eger region.",
+      "tip": "The Matyó embroidery of Mezőkövesd was inscribed on the UNESCO Intangible Cultural Heritage list in 2012; the town's museum is the primary destination, with the best traditional food at the local Hortobágy-influenced restaurants in the main square.",
+      "editorial_score": 4.1,
+      "verified": {
+        "source_url": "https://en.wikipedia.org/wiki/Mez%C5%91k%C3%B6vesd",
+        "address_quoted": "Mezőkövesd, Borsod-Abaúj-Zemplén County, Hungary",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Mez%C5%91k%C3%B6vesd",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Mez%C5%91k%C3%B6vesd",
+        "checked_on": "2026-05-29"
+      }
+    }
+  ]
+}

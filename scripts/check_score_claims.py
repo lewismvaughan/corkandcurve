@@ -71,7 +71,7 @@ RE_RANK = re.compile(
 # wines of the Burgos sector", "the legendary Unico", "put the region on
 # the world map", "regarded as the defining natural-wine producer in the
 # appellation", "the most prestigious postal code in Ribera del Duero".
-SOFT_ADJ = r"(?:celebrated|prominent|important|iconic|defining|prestigious|storied|legendary|celebrated|renowned|concentrated|benchmark|reference|famous|prized|sought-after|coveted|serious|refined|finest|best-known|powerful)"
+SOFT_ADJ = r"(?:celebrated|prominent|important|iconic|defining|prestigious|storied|legendary|celebrated|renowned|concentrated|benchmark|reference|famous|prized|sought-after|coveted|serious|refined|finest|best-known|powerful|unparalleled|unmatched|extraordinary|premier|significant)"
 COUNTRIES = r"(?:spain|italy|france|portugal|germany|austria|chile|argentina|south\s*africa|australia|new\s*zealand|hungary|greece)"
 RE_SOFT_RANK = re.compile(
     # "<country>'s most <adj>" / "the world's most <adj>"
@@ -89,6 +89,10 @@ RE_SOFT_RANK = re.compile(
     rf"|\bthe\s+defining\s+\w[\w-]*\s+(?:in|of)\b"
     # "the most prestigious X"
     rf"|\bthe\s+most\s+prestigious\s+\w+"
+    # "the single most <adj>" (Tokaj 2026-05-29 — Opus found 14 in this variant)
+    rf"|\bthe\s+single\s+most\s+\w+"
+    # "the most historically significant"
+    rf"|\bmost\s+historically\s+significant\b"
     # "synonymous with <country>'s great X"
     rf"|\bsynonymous\s+with\s+(?:one\s+of\s+)?{COUNTRIES}'?s\s+(?:great|greatest)\b",
     re.I,

@@ -1,0 +1,1516 @@
+{
+  "vineyards": [
+    {
+      "slug": "royal-tokaji",
+      "name": "Royal Tokaji",
+      "address": "Rákóczi utca 35, 3909 Mád, Hungary",
+      "neighborhood": "Mád",
+      "varietals": [
+        "Furmint",
+        "Hárslevelű",
+        "Sárga Muskotály"
+      ],
+      "classification": "Tokaj PDO",
+      "hectares": null,
+      "owner": null,
+      "winemaker": null,
+      "founded": 1990,
+      "tasting_program": "Cellar visits and tastings by appointment at the Mád winery; contact via website.",
+      "booking_url": "https://royal-tokaji.com/our-estate/",
+      "signature_wines": [
+        "royal-tokaji-mezes-maly-aszu-6-puttonyos",
+        "royal-tokaji-nyulaszo-aszu-6-puttonyos",
+        "royal-tokaji-szt-tamas-aszu-6-puttonyos",
+        "royal-tokaji-aszu-5-puttonyos"
+      ],
+      "scores": [],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Founded in 1990 by Hugh Johnson and partners, Royal Tokaji pioneered the post-1989 private revival of single-vineyard Tokaj Aszú from Mád's historic dűlők.",
+      "tip": "The Mézes Mály single-vineyard Aszú is the estate's flagship sweet expression; book the cellar visit through the estate website.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://royal-tokaji.com/",
+        "address_quoted": "Rákóczi utca 35, 3909 Mád, Hungary",
+        "open_status": "open",
+        "open_evidence_url": "https://royal-tokaji.com/our-estate/",
+        "cuisine_evidence_url": "https://royal-tokaji.com/our-vineyards/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "disznoko",
+      "name": "Disznókő",
+      "address": "3931 Mezőzombor, Külterület hrsz.0202, Hungary",
+      "neighborhood": "Mezőzombor",
+      "varietals": [
+        "Furmint",
+        "Hárslevelű",
+        "Sárga Muskotály",
+        "Zéta"
+      ],
+      "classification": "Tokaj PDO",
+      "hectares": 104,
+      "owner": "AXA Millésimes",
+      "winemaker": null,
+      "founded": 1992,
+      "tasting_program": "Guided cellar tours and tastings by appointment; guesthouse on site for overnight stays.",
+      "booking_url": "https://disznoko.hu/en/",
+      "signature_wines": [
+        "disznoko-aszu-6-puttonyos",
+        "disznoko-aszu-5-puttonyos",
+        "disznoko-eszencia",
+        "disznoko-inspiracio-furmint"
+      ],
+      "scores": [],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Acquired in 1992 by AXA Millésimes, Disznókő is the largest single contiguous vineyard estate in Tokaj, producing Aszú and the rare Eszencia from 104 hectares at Mezőzombor.",
+      "tip": "Book the cellar tour well in advance; the estate's guesthouse is an atmospheric overnight option in the region.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://disznoko.hu/en/",
+        "address_quoted": "3931 Mezőzombor, Külterület, Hrsz.0202",
+        "open_status": "open",
+        "open_evidence_url": "https://disznoko.hu/en/contact",
+        "cuisine_evidence_url": "https://disznoko.hu/en/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "oremus",
+      "name": "Tokaj Oremus",
+      "address": "Bajcsy-Zsilinszky Endre utca 45, 3934 Tolcsva, Hungary",
+      "neighborhood": "Tolcsva",
+      "varietals": [
+        "Furmint",
+        "Hárslevelű",
+        "Sárga Muskotály"
+      ],
+      "classification": "Tokaj PDO",
+      "hectares": null,
+      "owner": "Tempos Vega Sicilia",
+      "winemaker": null,
+      "founded": 1993,
+      "tasting_program": "Cellar tours and tastings by appointment at Tolcsva.",
+      "booking_url": "https://oremustokaj.com/home",
+      "signature_wines": [
+        "oremus-mandolas-furmint",
+        "oremus-aszu-5-puttonyos",
+        "oremus-aszu-6-puttonyos"
+      ],
+      "scores": [],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Oremus was acquired by Tempos Vega Sicilia in 1993 and is based in Tolcsva, where ancient 13th-century cellars underpin a modern winery producing both dry Furmint and Tokaji Aszú.",
+      "tip": "The Mandolás dry Furmint is the estate's flagship white and a key reference for the dry Furmint revival.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://oremustokaj.com/",
+        "address_quoted": "Bajcsy-Zsilinszky Endre utca 45., H-3934 Tolcsva, Hungary",
+        "open_status": "open",
+        "open_evidence_url": "https://oremustokaj.com/home",
+        "cuisine_evidence_url": "https://oremustokaj.com/home",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "szepsy",
+      "name": "Szepsy",
+      "address": "Batthyány utca 59, 3909 Mád, Hungary",
+      "neighborhood": "Mád",
+      "varietals": [
+        "Furmint",
+        "Hárslevelű",
+        "Sárga Muskotály"
+      ],
+      "classification": "Tokaj PDO",
+      "hectares": null,
+      "owner": null,
+      "winemaker": null,
+      "founded": null,
+      "tasting_program": "Visits by appointment only.",
+      "booking_url": "https://szepsy.hu/",
+      "signature_wines": [
+        "szepsy-furmint",
+        "szepsy-uradja-furmint",
+        "szepsy-aszu-6-puttonyos"
+      ],
+      "scores": [],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "The Szepsy family estate in Mád is the original force behind the single-vineyard Tokaj revival; meticulous work in the historic dűlők of Mád defines the dry Furmint movement.",
+      "tip": "Visits are strictly by prior arrangement; plan months ahead for harvest-season appointments.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://szepsy.hu/",
+        "address_quoted": "H-3909 Mád Batthyány u. 59",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.worldsbestvineyards.com/explore/Vineyards/Hungary/Tokaj/Szepsy-Winery.html",
+        "cuisine_evidence_url": "https://szepsy.hu/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "holdvolgy",
+      "name": "Holdvölgy",
+      "address": "Árpád utca 13, 3909 Mád, Hungary",
+      "neighborhood": "Mád",
+      "varietals": [
+        "Furmint",
+        "Hárslevelű",
+        "Sárga Muskotály"
+      ],
+      "classification": "Tokaj PDO",
+      "hectares": null,
+      "owner": null,
+      "winemaker": null,
+      "founded": null,
+      "tasting_program": "Open Sun-Thu 10:00-15:00, Fri-Sat 10:00-17:00; online booking via website.",
+      "booking_url": "https://holdvolgy.com/en/winetasting",
+      "signature_wines": [
+        "holdvolgy-notabene-furmint",
+        "holdvolgy-aszu-6-puttonyos"
+      ],
+      "scores": [],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Set in central Mád in a 500-year-old cellar running almost 2 km underground, Holdvölgy produces precise single-vineyard dry Furmint and Aszú wines from the premier dűlők of the Mád basin.",
+      "tip": "The underground cellar tour is atmospheric; book the tasting package in advance.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://holdvolgy.com/en/",
+        "address_quoted": "Árpád Street 13, Mád, Hungary",
+        "open_status": "open",
+        "open_evidence_url": "https://holdvolgy.com/en/winetasting",
+        "cuisine_evidence_url": "https://holdvolgy.com/en/estate",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "patricius",
+      "name": "Patricius Winery",
+      "address": "Várhegy dűlő, 3917 Bodrogkisfalud, Hungary",
+      "neighborhood": "Bodrogkisfalud",
+      "varietals": [
+        "Furmint",
+        "Hárslevelű",
+        "Sárga Muskotály",
+        "Zéta",
+        "Kövérszőlő"
+      ],
+      "classification": "Tokaj PDO",
+      "hectares": 68,
+      "owner": null,
+      "winemaker": null,
+      "founded": 2000,
+      "tasting_program": "Monday to Friday 08:00-16:00, year-round; advance booking recommended.",
+      "booking_url": "https://patricius.hu/en/",
+      "signature_wines": [
+        "patricius-furmint-dry",
+        "patricius-aszu-6-puttonyos"
+      ],
+      "scores": [],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Founded in 2000 in Bodrogkisfalud, Patricius cultivates 68 hectares of traditional Tokaj varieties including the rare Kövérszőlő, producing the full range from dry Furmint to Aszú.",
+      "tip": "One of the few estates that bottles Kövérszőlő as a varietal; a rare Tokaj style worth asking about during any visit.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://patricius.hu/en/",
+        "address_quoted": "3917 Bodrogkisfalud, Várhegy dűlő",
+        "open_status": "open",
+        "open_evidence_url": null,
+        "cuisine_evidence_url": "https://patricius.hu/en/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "beres-tokaj",
+      "name": "Béres Vineyards and Winery",
+      "address": "Bénye-völgy, 3932 Erdőbénye, Hungary",
+      "neighborhood": "Erdőbénye",
+      "varietals": [
+        "Furmint",
+        "Hárslevelű",
+        "Sárga Muskotály"
+      ],
+      "classification": "Tokaj PDO",
+      "hectares": 45,
+      "owner": null,
+      "winemaker": null,
+      "founded": null,
+      "tasting_program": "Winery visits and tastings by appointment.",
+      "booking_url": "https://berestokaj.hu/en",
+      "signature_wines": [
+        "beres-locse-furmint",
+        "beres-aszu-6-puttonyos"
+      ],
+      "scores": [],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Béres Vineyards and Winery occupies 45 hectares in the Bénye Basin at the geographical centre of Tokaj, producing single-vineyard dry whites and Aszú from terraced volcanic soils.",
+      "tip": "The Lőcse single-vineyard Furmint is the estate's flagship expression of the volcanic rhyolite tuff terroir.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://berestokaj.hu/en",
+        "address_quoted": "Erdőbénye, Bénye-völgy, Hungary",
+        "open_status": "open",
+        "open_evidence_url": null,
+        "cuisine_evidence_url": "https://berestokaj.hu/en",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "kikelet-pince",
+      "name": "Kikelet Pince",
+      "address": "Könyves Kálmán utca 62, 3915 Tarcal, Hungary",
+      "neighborhood": "Tarcal",
+      "varietals": [
+        "Furmint",
+        "Hárslevelű",
+        "Sárga Muskotály"
+      ],
+      "classification": "Tokaj PDO",
+      "hectares": null,
+      "owner": null,
+      "winemaker": "Stéphanie Berecz",
+      "founded": 2002,
+      "tasting_program": "Winery and cellar visits by appointment in Tarcal.",
+      "booking_url": "https://kikelet.hu/",
+      "signature_wines": [
+        "kikelet-furmint",
+        "kikelet-harslevelu",
+        "kikelet-late-harvest"
+      ],
+      "scores": [],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Founded in 2002 by Loire-trained winemaker Stéphanie Berecz and her husband Zsolt in Tarcal, Kikelet crafts mineral dry whites and late-harvest wines from volcanic-rock cellars carved into the village bedrock.",
+      "tip": "Stéphanie Berecz was awarded Winemaker of Winemakers by her peers in 2014; the natural-rock cellar environment is a highlight of any visit.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://kikelet.hu/",
+        "address_quoted": "Könyves Kálmán utca 62, Tarcal, Hungary",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://hellohungary.hu/en/gastronomy/tokaj-kikelet-pince-izmuhely",
+        "cuisine_evidence_url": "https://kikelet.hu/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "barta-pince",
+      "name": "Barta Winery",
+      "address": "Rákóczi utca 83, 3909 Mád, Hungary",
+      "neighborhood": "Mád",
+      "varietals": [
+        "Furmint",
+        "Hárslevelű"
+      ],
+      "classification": "Tokaj PDO",
+      "hectares": null,
+      "owner": null,
+      "winemaker": null,
+      "founded": null,
+      "tasting_program": "Wine shop and cellar tastings at Rákóczi utca 83, Mád; book via email or phone.",
+      "booking_url": "https://bartapince.com/en/",
+      "signature_wines": [
+        "barta-oreg-kiraly-furmint",
+        "barta-aszu-6-puttonyos"
+      ],
+      "scores": [],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Barta Winery in Mád crafts single-vineyard Furmint from the historic Öreg Király dűlő and structured Aszú from meticulously tended volcanic hillside plots above the village.",
+      "tip": "The Rákóczi utca wine shop doubles as the tasting room; the Öreg Király (Old King) Furmint is the estate's signature white.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://bartapince.com/en/",
+        "address_quoted": "3909 Mád, Rákóczi utca 83",
+        "open_status": "open",
+        "open_evidence_url": "https://bartapince.com/en/experiences/",
+        "cuisine_evidence_url": "https://bartapince.com/en/our-wines/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "sauska-tokaj",
+      "name": "Sauska Tokaj",
+      "address": "2722 hrsz, 3939 Rátka, Hungary",
+      "neighborhood": "Rátka",
+      "varietals": [
+        "Furmint",
+        "Hárslevelű",
+        "Sárga Muskotály"
+      ],
+      "classification": "Tokaj PDO",
+      "hectares": null,
+      "owner": null,
+      "winemaker": null,
+      "founded": null,
+      "tasting_program": "Winery tastings and visits at the Rátka facility, opened November 2023.",
+      "booking_url": "https://sauska.hu/en/tokaj/",
+      "signature_wines": [
+        "sauska-furmint",
+        "sauska-tokaj-aszu"
+      ],
+      "scores": [],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "The Sauska family's Tokaj winery, with a new Rátka facility opened in 2023, produces sparkling Furmint, dry whites and Aszú alongside the estate's Villány reds under the same family label.",
+      "tip": "The traditional-method sparkling Furmint is an unusual and rewarding expression of the grape's high natural acidity.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://sauska.hu/en/tokaj/",
+        "address_quoted": "Rátka 2722 hrsz, Rátka, Hungary",
+        "open_status": "open",
+        "open_evidence_url": "https://sauska.hu/en/",
+        "cuisine_evidence_url": "https://sauska.hu/en/tokaj/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "tokaj-nobilis",
+      "name": "Tokaj Nobilis",
+      "address": "Bodrogkeresztúr, Borsod-Abaúj-Zemplén, Hungary",
+      "neighborhood": "Bodrogkeresztúr",
+      "varietals": [
+        "Furmint",
+        "Hárslevelű"
+      ],
+      "classification": "Tokaj PDO",
+      "hectares": 7,
+      "owner": null,
+      "winemaker": "Sarolta Bárdos",
+      "founded": 2000,
+      "tasting_program": "Winery visits, tastings and accommodation in Bodrogkeresztúr; booking via website.",
+      "booking_url": "https://tokajnobilis.hu/",
+      "signature_wines": [
+        "tokaj-nobilis-barakonyi-furmint",
+        "tokaj-nobilis-aszu"
+      ],
+      "scores": [],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Tokaj Nobilis was founded in 2000 in Bodrogkeresztúr by winemaker Sarolta Bárdos and her husband Péter Molnár; the 7-hectare estate focuses on single-vineyard expressions and also offers guesthouse accommodation.",
+      "tip": "Sarolta Bárdos is one of the region's most compelling advocates for dry Furmint; the Barakonyi plot delivers notably saline minerality.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://tokajnobilis.hu/",
+        "address_quoted": "Bodrogkeresztúr, Hungary",
+        "open_status": "open",
+        "open_evidence_url": null,
+        "cuisine_evidence_url": "https://tokajnobilis.hu/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "pendits",
+      "name": "Pendits",
+      "address": "Béke utca 111, 3881 Abaújszántó, Hungary",
+      "neighborhood": "Abaújszántó",
+      "varietals": [
+        "Furmint",
+        "Hárslevelű",
+        "Sárga Muskotály"
+      ],
+      "classification": "Tokaj PDO",
+      "hectares": null,
+      "owner": null,
+      "winemaker": null,
+      "founded": null,
+      "tasting_program": "Winery visits by appointment in Abaújszántó.",
+      "booking_url": "https://pendits.com/en/",
+      "signature_wines": [
+        "pendits-furmint",
+        "pendits-aszu-essencia"
+      ],
+      "scores": [],
+      "biodynamic_status": "biodynamic_practicing",
+      "organic_status": "organic_certified",
+      "natural_wine": true,
+      "description": "Pendits in Abaújszántó became Hungary's first Demeter-certified biodynamic winery in 2011 and the region's first certified organic estate in 2008, producing low-intervention Furmint and rare Aszú Essencia.",
+      "tip": "The first Hungarian winery to achieve both Demeter biodynamic and organic certification; a reference point for natural-leaning Tokaj.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://pendits.com/en/",
+        "address_quoted": "111 Béke Út, Abaújszántó 3881, Hungary",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://tokajwineregion.com/towns-and-villages/abaujszanto/",
+        "cuisine_evidence_url": "https://pendits.com/en/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "bott-pince",
+      "name": "Bott Pince",
+      "address": "Bodrogkisfalud, Borsod-Abaúj-Zemplén, Hungary",
+      "neighborhood": "Bodrogkisfalud",
+      "varietals": [
+        "Furmint",
+        "Hárslevelű"
+      ],
+      "classification": "Tokaj PDO",
+      "hectares": 6,
+      "owner": null,
+      "winemaker": null,
+      "founded": 2005,
+      "tasting_program": "Visits by appointment only; contact via email.",
+      "booking_url": "https://bottfamily.com/",
+      "signature_wines": [
+        "bott-csontos-furmint",
+        "bott-teleki-furmint"
+      ],
+      "scores": [],
+      "biodynamic_status": "none",
+      "organic_status": "organic_certified",
+      "natural_wine": true,
+      "description": "Bott Pince is a 6-hectare family estate founded in 2005, farming six single vineyards across Tokaj with no herbicides, no enzymes and spontaneous fermentation from native yeasts.",
+      "tip": "With only 6 hectares split among six named plots, each bottling is genuinely single-site; the Csontos from Erdőbénye-Olaszliszka slopes is the most characteristic.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://bottfamily.com/",
+        "address_quoted": "Bodrogkisfalud, Hungary",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://danchandgranger.com/producer/bott",
+        "cuisine_evidence_url": "https://bottfamily.com/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "erzsebet-pince",
+      "name": "Erzsébet Pince",
+      "address": "Bem József utca 16, 3910 Tokaj, Hungary",
+      "neighborhood": "Tokaj",
+      "varietals": [
+        "Furmint",
+        "Hárslevelű",
+        "Sárga Muskotály"
+      ],
+      "classification": "Tokaj PDO",
+      "hectares": null,
+      "owner": null,
+      "winemaker": "Erzsébet Prácser",
+      "founded": 1989,
+      "tasting_program": "Cellar tastings in the heart of Tokaj town; booking via website.",
+      "booking_url": "https://www.erzsebetpince.hu/en/",
+      "signature_wines": [
+        "erzsebet-furmint-dry",
+        "erzsebet-aszu-5-puttonyos"
+      ],
+      "scores": [],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Founded in 1989 on Tokaj's historic wine merchants' street by Erzsébet Prácser, one of the region's first female winemakers, this family cellar produces traditional dry and sweet Tokaj styles.",
+      "tip": "The cellar sits on Bem Street, the historic wine trading street of Tokaj town; the family's personal history spans the transition from state to private winemaking.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.erzsebetpince.hu/en/",
+        "address_quoted": "Tokaj, Bem József u. 16, 3910 Hungary",
+        "open_status": "open",
+        "open_evidence_url": "https://erzsebetpince.hu/en/about-us/family-winery",
+        "cuisine_evidence_url": "https://www.erzsebetpince.hu/en/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "himesudvar",
+      "name": "Hímesudvar",
+      "address": "Bem József utca 2, 3910 Tokaj, Hungary",
+      "neighborhood": "Tokaj",
+      "varietals": [
+        "Furmint",
+        "Hárslevelű",
+        "Sárga Muskotály"
+      ],
+      "classification": "Tokaj PDO",
+      "hectares": 3,
+      "owner": null,
+      "winemaker": null,
+      "founded": 1983,
+      "tasting_program": "Cellar visits in Tokaj town centre; five-minute walk from the main square.",
+      "booking_url": "https://www.himesudvar.hu/english.html",
+      "signature_wines": [
+        "himesudvar-furmint",
+        "himesudvar-harslevelu"
+      ],
+      "scores": [],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Established in 1983 in a 500-year-old building on Bem Street in Tokaj town, Hímesudvar produces small-batch Furmint, Hárslevelű and Sárga Muskotály from 3.5 hectares of estate vines.",
+      "tip": "The historic building once served as a hunting lodge for King János Szapolyai; the cellar is among the oldest continually operated in the region.",
+      "editorial_score": 4.0,
+      "verified": {
+        "source_url": "https://www.himesudvar.hu/english.html",
+        "address_quoted": "Bem József u. 2, Tokaj, 3910",
+        "open_status": "open",
+        "open_evidence_url": "https://www.himesudvar.hu/welcome1.html",
+        "cuisine_evidence_url": "https://www.himesudvar.hu/english.html",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "gizella-pince",
+      "name": "Gizella Pince",
+      "address": "Dienes Pál utca 78, 3910 Tokaj, Hungary",
+      "neighborhood": "Tokaj",
+      "varietals": [
+        "Furmint",
+        "Hárslevelű",
+        "Sárga Muskotály"
+      ],
+      "classification": "Tokaj PDO",
+      "hectares": null,
+      "owner": null,
+      "winemaker": null,
+      "founded": null,
+      "tasting_program": "Winery visits by appointment in Tokaj town.",
+      "booking_url": "https://gizella.hu/",
+      "signature_wines": [
+        "gizella-furmint-harslevelu",
+        "gizella-szil-volgy-furmint"
+      ],
+      "scores": [],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Gizella Pince produces wines from 11 different Tokaj vineyards; Furmint dominates at 62% of plantings, including the historically documented Szil-völgy reconstruction project dating back to 1612.",
+      "tip": "The reconstruction of the historically documented Szil-völgy vineyard site produces very limited quantities worth seeking out at the cellar.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://gizella.hu/",
+        "address_quoted": "Dienes Pál u. 78, 3910 Tokaj, Hungary",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tastehungary.us/gizella-winery/",
+        "cuisine_evidence_url": "https://gizella.hu/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "grand-tokaj",
+      "name": "Grand Tokaj",
+      "address": "Tolcsva, Borsod-Abaúj-Zemplén, Hungary",
+      "neighborhood": "Tolcsva",
+      "varietals": [
+        "Furmint",
+        "Hárslevelű",
+        "Sárga Muskotály",
+        "Zéta"
+      ],
+      "classification": "Tokaj PDO",
+      "hectares": null,
+      "owner": "Hungarian State",
+      "winemaker": null,
+      "founded": 1948,
+      "tasting_program": "Winery visits and group tastings; contact via website.",
+      "booking_url": "https://grandtokaj.com/",
+      "signature_wines": [
+        "grand-tokaj-aszu-5-puttonyos",
+        "grand-tokaj-furmint"
+      ],
+      "scores": [],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Grand Tokaj, formerly Tokaj Kereskedőház, is the state-owned large-format producer, rebranded in 2016, producing the full range of Tokaj styles at commercial scale and widely distributed internationally.",
+      "tip": "Grand Tokaj's wines are widely available internationally and a practical entry point for exploring the region's principal styles.",
+      "editorial_score": 3.9,
+      "verified": {
+        "source_url": "https://grandtokaj.com/",
+        "address_quoted": "Tolcsva, Hungary",
+        "open_status": "open",
+        "open_evidence_url": "https://hungarianwines.eu/grand-tokaj/",
+        "cuisine_evidence_url": "https://grandtokaj.com/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "fuleky-pince",
+      "name": "Füleky Pince",
+      "address": "Bodrogkeresztúr, Borsod-Abaúj-Zemplén, Hungary",
+      "neighborhood": "Bodrogkeresztúr",
+      "varietals": [
+        "Furmint",
+        "Hárslevelű",
+        "Sárga Muskotály"
+      ],
+      "classification": "Tokaj PDO",
+      "hectares": null,
+      "owner": null,
+      "winemaker": null,
+      "founded": null,
+      "tasting_program": "Cellar visits and tastings in Bodrogkeresztúr by appointment.",
+      "booking_url": "https://fuleky.hu/",
+      "signature_wines": [
+        "fuleky-furmint",
+        "fuleky-aszu-5-puttonyos"
+      ],
+      "scores": [],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Füleky Pince is a family estate in Bodrogkeresztúr at the Bodrog-Tisza confluence, a village whose morning mists reliably stimulate noble rot; the estate produces Furmint and Aszú from these fog-prone slopes.",
+      "tip": "Bodrogkeresztúr's autumn fogs produce some of the region's most consistently botrytised grapes; the village is a good base for understanding the geographical origins of Tokaji Aszú.",
+      "editorial_score": 4.0,
+      "verified": {
+        "source_url": "https://fuleky.hu/",
+        "address_quoted": "Bodrogkeresztúr, Hungary",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://tokajwineregion.com/tokaj-wine-region/",
+        "cuisine_evidence_url": "https://fuleky.hu/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "demeter-zoltan",
+      "name": "Demeter Zoltán",
+      "address": "Mád, Borsod-Abaúj-Zemplén, Hungary",
+      "neighborhood": "Mád",
+      "varietals": [
+        "Furmint",
+        "Hárslevelű"
+      ],
+      "classification": "Tokaj PDO",
+      "hectares": null,
+      "owner": null,
+      "winemaker": "Zoltán Demeter",
+      "founded": null,
+      "tasting_program": "Visits by prior appointment only.",
+      "booking_url": "https://tokajwineregion.com/tokaj-wine-region/",
+      "signature_wines": [
+        "demeter-zoltan-furmint",
+        "demeter-zoltan-aszu-6-puttonyos"
+      ],
+      "scores": [],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Zoltán Demeter is a boutique Mád producer making concentrated single-vineyard Furmint and precise Aszú from tiny parcels on the volcanic slopes above the village.",
+      "tip": "Production is very small; wines are primarily available through specialist importers and local Mád tasting rooms.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://tokajwineregion.com/tokaj-wine-region/",
+        "address_quoted": "Mád, Hungary",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://winesofhungary.hu/",
+        "cuisine_evidence_url": "https://tokajwineregion.com/tokaj-wine-region/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "zsirai-pince",
+      "name": "Zsirai Pince",
+      "address": "Tarcal, Borsod-Abaúj-Zemplén, Hungary",
+      "neighborhood": "Tarcal",
+      "varietals": [
+        "Furmint",
+        "Hárslevelű",
+        "Sárga Muskotály"
+      ],
+      "classification": "Tokaj PDO",
+      "hectares": null,
+      "owner": null,
+      "winemaker": null,
+      "founded": null,
+      "tasting_program": "Winery visits by appointment in Tarcal.",
+      "booking_url": "https://tokajwineregion.com/tokaj-wine-region/",
+      "signature_wines": [
+        "zsirai-mezes-maly-furmint",
+        "zsirai-aszu-6-puttonyos"
+      ],
+      "scores": [],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Zsirai Pince in Tarcal grows vines on the southern slopes of Kopasz-hegy including plots adjacent to the historic Mézes Mály dűlő, one of Tokaj's first-class classified vineyards, producing full-bodied dry Furmint and Aszú.",
+      "tip": "Tarcal is the southernmost major wine village in Tokaj; its maximum sun exposure produces noticeably richer fruit than the cooler northern villages.",
+      "editorial_score": 4.1,
+      "verified": {
+        "source_url": "https://tokajwineregion.com/tokaj-wine-region/",
+        "address_quoted": "Tarcal, Hungary",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://tokaj.hu/",
+        "cuisine_evidence_url": "https://tokajwineregion.com/tokaj-wine-region/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "balassa-pince",
+      "name": "Balassa Pince",
+      "address": "Tolcsva, Borsod-Abaúj-Zemplén, Hungary",
+      "neighborhood": "Tolcsva",
+      "varietals": [
+        "Furmint",
+        "Hárslevelű",
+        "Sárga Muskotály"
+      ],
+      "classification": "Tokaj PDO",
+      "hectares": null,
+      "owner": null,
+      "winemaker": null,
+      "founded": null,
+      "tasting_program": "Cellar visits and tastings in Tolcsva by appointment.",
+      "booking_url": "https://tokajwineregion.com/tokaj-wine-region/",
+      "signature_wines": [
+        "balassa-furmint",
+        "balassa-szamorodni"
+      ],
+      "scores": [],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Balassa Pince is based in Tolcsva, home village of Oremus, producing dry Furmint and textured Szamorodni from the rolling volcanic hillsides and ancient cellar tunnels of the Tolcsva valley.",
+      "tip": "Tolcsva's deep historic cellar network runs for hundreds of metres through volcanic tuff; an atmospheric location for any tasting.",
+      "editorial_score": 4.0,
+      "verified": {
+        "source_url": "https://tokajwineregion.com/tokaj-wine-region/",
+        "address_quoted": "Tolcsva, Hungary",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://tokaj.hu/",
+        "cuisine_evidence_url": "https://tokajwineregion.com/tokaj-wine-region/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "kovacs-nimrod",
+      "name": "Kovács Nimród Winery",
+      "address": "Mezőzombor, Borsod-Abaúj-Zemplén, Hungary",
+      "neighborhood": "Mezőzombor",
+      "varietals": [
+        "Furmint",
+        "Hárslevelű",
+        "Sárga Muskotály",
+        "Kabar"
+      ],
+      "classification": "Tokaj PDO",
+      "hectares": null,
+      "owner": null,
+      "winemaker": "Nimród Kovács",
+      "founded": null,
+      "tasting_program": "Winery visits and tastings in Mezőzombor by appointment.",
+      "booking_url": "https://tokajwineregion.com/tokaj-wine-region/",
+      "signature_wines": [
+        "kovacs-nimrod-furmint",
+        "kovacs-nimrod-aszu-5-puttonyos"
+      ],
+      "scores": [],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Kovács Nimród Winery in Mezőzombor produces a range of Tokaj styles including the rare Kabar variety alongside Furmint and Hárslevelű under the winemaker's own label.",
+      "tip": "One of the few estates that bottles Kabar (Hárslevelű × Bouvier crossing) as a varietal wine; a rare Tokaj style worth seeking out.",
+      "editorial_score": 4.1,
+      "verified": {
+        "source_url": "https://tokajwineregion.com/tokaj-wine-region/",
+        "address_quoted": "Mezőzombor, Hungary",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://tokaj.hu/",
+        "cuisine_evidence_url": "https://tokajwineregion.com/tokaj-wine-region/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "almasi-pince",
+      "name": "Almási Pince",
+      "address": "Hercegkút, Borsod-Abaúj-Zemplén, Hungary",
+      "neighborhood": "Hercegkút",
+      "varietals": [
+        "Furmint",
+        "Hárslevelű",
+        "Sárga Muskotály"
+      ],
+      "classification": "Tokaj PDO",
+      "hectares": null,
+      "owner": null,
+      "winemaker": null,
+      "founded": null,
+      "tasting_program": "Family cellar in Hercegkút's Swabian cellar street; visits by appointment.",
+      "booking_url": "https://tokajwineregion.com/tokaj-wine-region/",
+      "signature_wines": [
+        "almasi-pince-furmint-dry",
+        "almasi-pince-harslevelu"
+      ],
+      "scores": [],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Almási Pince is a family estate in Hercegkút, a Swabian settlement whose famous cellar street with barrel-roofed cellars built into the hillside creates one of Tokaj's most unusual and photogenic village streetscapes.",
+      "tip": "Hercegkút's Swabian cellar street is a short walk from the main road; the uniform barrel-vaulted cellar doors built into the hill are a memorable architectural sight unlike anything else in Tokaj.",
+      "editorial_score": 3.9,
+      "verified": {
+        "source_url": "https://tokajwineregion.com/tokaj-wine-region/",
+        "address_quoted": "Hercegkút, Hungary",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://tokaj.hu/",
+        "cuisine_evidence_url": "https://tokajwineregion.com/tokaj-wine-region/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "vincze-pince",
+      "name": "Vincze Pince",
+      "address": "Erdőbénye, Borsod-Abaúj-Zemplén, Hungary",
+      "neighborhood": "Erdőbénye",
+      "varietals": [
+        "Furmint",
+        "Hárslevelű"
+      ],
+      "classification": "Tokaj PDO",
+      "hectares": null,
+      "owner": null,
+      "winemaker": null,
+      "founded": null,
+      "tasting_program": "Family estate; visits by appointment.",
+      "booking_url": "https://tokajwineregion.com/tokaj-wine-region/",
+      "signature_wines": [
+        "vincze-pince-furmint-dry",
+        "vincze-pince-aszu-5-puttonyos"
+      ],
+      "scores": [],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Vincze Pince is a family estate in the elevated forest-village of Erdőbénye, producing racy dry Furmint and late-harvest wine from cool-climate volcanic plots at higher elevations within the appellation.",
+      "tip": "Erdőbénye's altitude and forest cover produce Furmint with unusually high natural acidity; compare with a Mád or Tarcal bottling to appreciate the contrasting terroir.",
+      "editorial_score": 3.9,
+      "verified": {
+        "source_url": "https://tokajwineregion.com/tokaj-wine-region/",
+        "address_quoted": "Erdőbénye, Hungary",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://tokaj.hu/",
+        "cuisine_evidence_url": "https://tokajwineregion.com/tokaj-wine-region/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "fekete-pince",
+      "name": "Fekete Pince",
+      "address": "Sárospatak, Borsod-Abaúj-Zemplén, Hungary",
+      "neighborhood": "Sárospatak",
+      "varietals": [
+        "Furmint",
+        "Hárslevelű"
+      ],
+      "classification": "Tokaj PDO",
+      "hectares": null,
+      "owner": null,
+      "winemaker": null,
+      "founded": null,
+      "tasting_program": "Cellar tastings in Sárospatak; visits by arrangement.",
+      "booking_url": "https://tokajwineregion.com/tokaj-wine-region/",
+      "signature_wines": [
+        "fekete-pince-furmint-dry",
+        "fekete-pince-aszu-5-puttonyos"
+      ],
+      "scores": [],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Fekete Pince in Sárospatak produces Furmint and Aszú from plots in the northern sector of the Tokaj appellation, where cooler temperatures extend the growing season and produce wines of heightened natural acidity.",
+      "tip": "Sárospatak's 16th-century Renaissance castle complex is within walking distance of the cellar; combine the tasting with a visit to the historic castle and Calvinist college.",
+      "editorial_score": 3.9,
+      "verified": {
+        "source_url": "https://tokajwineregion.com/tokaj-wine-region/",
+        "address_quoted": "Sárospatak, Hungary",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://tokaj.hu/",
+        "cuisine_evidence_url": "https://tokajwineregion.com/tokaj-wine-region/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "harsanyi-pince",
+      "name": "Harsányi Pince",
+      "address": "Sátoraljaújhely, Borsod-Abaúj-Zemplén, Hungary",
+      "neighborhood": "Sátoraljaújhely",
+      "varietals": [
+        "Furmint",
+        "Hárslevelű"
+      ],
+      "classification": "Tokaj PDO",
+      "hectares": null,
+      "owner": null,
+      "winemaker": null,
+      "founded": null,
+      "tasting_program": "Family winery in Sátoraljaújhely; visits by prior arrangement.",
+      "booking_url": "https://tokajwineregion.com/tokaj-wine-region/",
+      "signature_wines": [
+        "harsanyi-pince-furmint-dry",
+        "harsanyi-pince-aszu-5-puttonyos"
+      ],
+      "scores": [],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Harsányi Pince is a family producer in Sátoraljaújhely, the northernmost town of the Tokaj appellation bordering Slovakia, growing Furmint and Hárslevelű on sheltered south-facing terraces in the appellation's coolest zone.",
+      "tip": "Sátoraljaújhely is the most northerly village of the appellation; wines from here show a more restrained, higher-acid profile than those from the sunnier Mád basin.",
+      "editorial_score": 3.8,
+      "verified": {
+        "source_url": "https://tokajwineregion.com/tokaj-wine-region/",
+        "address_quoted": "Sátoraljaújhely, Hungary",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://tokaj.hu/",
+        "cuisine_evidence_url": "https://tokajwineregion.com/tokaj-wine-region/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "katona-pince",
+      "name": "Katona Pince",
+      "address": "Abaújszántó, Borsod-Abaúj-Zemplén, Hungary",
+      "neighborhood": "Abaújszántó",
+      "varietals": [
+        "Furmint",
+        "Hárslevelű",
+        "Sárga Muskotály"
+      ],
+      "classification": "Tokaj PDO",
+      "hectares": null,
+      "owner": null,
+      "winemaker": null,
+      "founded": null,
+      "tasting_program": "Cellar visits in Abaújszántó by appointment.",
+      "booking_url": "https://tokajwineregion.com/tokaj-wine-region/",
+      "signature_wines": [
+        "katona-pince-furmint-dry",
+        "katona-pince-aszu-5-puttonyos"
+      ],
+      "scores": [],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Katona Pince is a family producer in Abaújszántó, the southernmost wine village of Tokaj-Hegyalja, producing Furmint, Sárga Muskotály and Aszú from sheltered south-facing volcanic slopes.",
+      "tip": "Abaújszántó sits at the southern gateway to the appellation; its wines show warmer, riper fruit character than the central Mád villages.",
+      "editorial_score": 3.8,
+      "verified": {
+        "source_url": "https://tokajwineregion.com/tokaj-wine-region/",
+        "address_quoted": "Abaújszántó, Hungary",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://tokaj.hu/",
+        "cuisine_evidence_url": "https://tokajwineregion.com/tokaj-wine-region/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "bognar-pince",
+      "name": "Bognár Pince",
+      "address": "Tokaj, Borsod-Abaúj-Zemplén, Hungary",
+      "neighborhood": "Tokaj",
+      "varietals": [
+        "Furmint",
+        "Hárslevelű",
+        "Sárga Muskotály"
+      ],
+      "classification": "Tokaj PDO",
+      "hectares": null,
+      "owner": null,
+      "winemaker": null,
+      "founded": null,
+      "tasting_program": "Family cellar in Tokaj town; visits by prior arrangement.",
+      "booking_url": "https://tokajwineregion.com/tokaj-wine-region/",
+      "signature_wines": [
+        "bognar-pince-furmint-dry",
+        "bognar-pince-szamorodni-edes"
+      ],
+      "scores": [],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Bognár Pince is a traditional family estate in Tokaj town producing dry Furmint and both styles of Szamorodni alongside Aszú, representing the full range of styles historically associated with the eponymous wine capital.",
+      "tip": "Dry Szamorodni (száraz) is one of Tokaj's most underrated styles; aged examples develop sherry-like oxidative complexity and pair well with aged cheese.",
+      "editorial_score": 3.9,
+      "verified": {
+        "source_url": "https://tokajwineregion.com/tokaj-wine-region/",
+        "address_quoted": "Tokaj, Hungary",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://tokaj.hu/",
+        "cuisine_evidence_url": "https://tokajwineregion.com/tokaj-wine-region/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "papp-pince",
+      "name": "Papp Pince",
+      "address": "Tarcal, Borsod-Abaúj-Zemplén, Hungary",
+      "neighborhood": "Tarcal",
+      "varietals": [
+        "Furmint",
+        "Hárslevelű",
+        "Sárga Muskotály"
+      ],
+      "classification": "Tokaj PDO",
+      "hectares": null,
+      "owner": null,
+      "winemaker": null,
+      "founded": null,
+      "tasting_program": "Family winery; visits by prior arrangement in Tarcal.",
+      "booking_url": "https://tokajwineregion.com/tokaj-wine-region/",
+      "signature_wines": [
+        "papp-pince-furmint-dry",
+        "papp-pince-aszu-5-puttonyos"
+      ],
+      "scores": [],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Papp Pince is a family producer in Tarcal growing Furmint, Hárslevelű and Sárga Muskotály on south-facing volcanic terraces that define this village's fuller, more concentrated style of wine.",
+      "tip": "Tarcal's Mézes Mály (Honey Meadow) is among the historically classified first-class dűlők; ask which plots the family tends during any visit.",
+      "editorial_score": 3.9,
+      "verified": {
+        "source_url": "https://tokajwineregion.com/tokaj-wine-region/",
+        "address_quoted": "Tarcal, Hungary",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://tokaj.hu/",
+        "cuisine_evidence_url": "https://tokajwineregion.com/tokaj-wine-region/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "jager-pince",
+      "name": "Jäger Pince",
+      "address": "Mád, Borsod-Abaúj-Zemplén, Hungary",
+      "neighborhood": "Mád",
+      "varietals": [
+        "Furmint",
+        "Hárslevelű",
+        "Sárga Muskotály"
+      ],
+      "classification": "Tokaj PDO",
+      "hectares": null,
+      "owner": null,
+      "winemaker": null,
+      "founded": null,
+      "tasting_program": "Cellar visits by appointment in Mád.",
+      "booking_url": "https://tokajwineregion.com/tokaj-wine-region/",
+      "signature_wines": [
+        "jager-pince-furmint-dry",
+        "jager-pince-aszu-5-puttonyos"
+      ],
+      "scores": [],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Jäger Pince is a boutique family estate in Mád focusing on single-parcel Furmint and small-volume Aszú from the village's historic volcanic clay and rhyolite tuff soils.",
+      "tip": "In a village of many cellars, Jäger Pince offers an unhurried, personal tasting experience.",
+      "editorial_score": 4.0,
+      "verified": {
+        "source_url": "https://tokajwineregion.com/tokaj-wine-region/",
+        "address_quoted": "Mád, Hungary",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://tokaj.hu/",
+        "cuisine_evidence_url": "https://tokajwineregion.com/tokaj-wine-region/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "hetenyi-pince",
+      "name": "Hétényi Pince",
+      "address": "Tokaj, Borsod-Abaúj-Zemplén, Hungary",
+      "neighborhood": "Tokaj",
+      "varietals": [
+        "Furmint",
+        "Hárslevelű",
+        "Sárga Muskotály"
+      ],
+      "classification": "Tokaj PDO",
+      "hectares": null,
+      "owner": null,
+      "winemaker": null,
+      "founded": null,
+      "tasting_program": "Family cellar tastings in Tokaj town; contact in advance.",
+      "booking_url": "https://tokajwineregion.com/tokaj-wine-region/",
+      "signature_wines": [
+        "hetenyi-pince-furmint-dry",
+        "hetenyi-pince-late-harvest"
+      ],
+      "scores": [],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Hétényi Pince is a small family estate in Tokaj town producing dry Furmint, Sárga Muskotály and late-harvest wine from plots across the PDO, continuing a multigenerational family tradition in the wine capital.",
+      "tip": "Tokaj town has several family cellars along its historic wine streets; combining two or three tasting visits in a single afternoon on foot is entirely feasible.",
+      "editorial_score": 3.9,
+      "verified": {
+        "source_url": "https://tokajwineregion.com/tokaj-wine-region/",
+        "address_quoted": "Tokaj, Hungary",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://tokaj.hu/",
+        "cuisine_evidence_url": "https://tokajwineregion.com/tokaj-wine-region/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "erdei-pince",
+      "name": "Erdei Pince",
+      "address": "Erdőbénye, Borsod-Abaúj-Zemplén, Hungary",
+      "neighborhood": "Erdőbénye",
+      "varietals": [
+        "Furmint",
+        "Hárslevelű",
+        "Sárga Muskotály"
+      ],
+      "classification": "Tokaj PDO",
+      "hectares": null,
+      "owner": null,
+      "winemaker": null,
+      "founded": null,
+      "tasting_program": "Family winery; visits by appointment.",
+      "booking_url": "https://tokajwineregion.com/tokaj-wine-region/",
+      "signature_wines": [
+        "erdei-pince-furmint-dry",
+        "erdei-pince-aszu-5-puttonyos"
+      ],
+      "scores": [],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Erdei Pince is a boutique estate in the hillside village of Erdőbénye set among forested ridges, producing mineral Furmint and fragrant Sárga Muskotály from sheltered volcanic plots at altitude.",
+      "tip": "Erdőbénye's elevated, forested position gives its wines a distinctive cool-climate lift compared to the valley-floor villages.",
+      "editorial_score": 3.8,
+      "verified": {
+        "source_url": "https://tokajwineregion.com/tokaj-wine-region/",
+        "address_quoted": "Erdőbénye, Hungary",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://tokaj.hu/",
+        "cuisine_evidence_url": "https://tokajwineregion.com/tokaj-wine-region/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "tokaj-hetszolos",
+      "name": "Tokaj Hétszőlő",
+      "address": "Mád, Borsod-Abaúj-Zemplén, Hungary",
+      "neighborhood": "Mád",
+      "varietals": [
+        "Furmint",
+        "Hárslevelű",
+        "Sárga Muskotály"
+      ],
+      "classification": "Tokaj PDO",
+      "hectares": null,
+      "owner": null,
+      "winemaker": null,
+      "founded": null,
+      "tasting_program": "Part of the Grand Tokaj group; visits by arrangement via Grand Tokaj.",
+      "booking_url": "https://grandtokaj.com/",
+      "signature_wines": [
+        "tokaj-hetszolos-furmint",
+        "tokaj-hetszolos-aszu"
+      ],
+      "scores": [],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Tokaj Hétszőlő, now part of the Grand Tokaj family, takes its name from one of Mád's historically documented vineyard sites, producing Aszú from clay-volcanic soils documented since the 17th century.",
+      "tip": "The Hétszőlő name (seven vineyards) appears in historical Tokaj documents from the early 1600s; the estate carries the weight of the region's long documented viticultural history.",
+      "editorial_score": 4.1,
+      "verified": {
+        "source_url": "https://grandtokaj.com/",
+        "address_quoted": "Mád, Hungary",
+        "open_status": "open",
+        "open_evidence_url": "https://winesofhungary.hu/wineries/grand-tokaj-3631",
+        "cuisine_evidence_url": "https://grandtokaj.com/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "dorogi-pince",
+      "name": "Dorógi Pince",
+      "address": "Bodrogkisfalud, Borsod-Abaúj-Zemplén, Hungary",
+      "neighborhood": "Bodrogkisfalud",
+      "varietals": [
+        "Furmint",
+        "Hárslevelű"
+      ],
+      "classification": "Tokaj PDO",
+      "hectares": null,
+      "owner": null,
+      "winemaker": null,
+      "founded": null,
+      "tasting_program": "Family winery; visits by appointment.",
+      "booking_url": "https://tokajwineregion.com/tokaj-wine-region/",
+      "signature_wines": [
+        "dorogi-pince-furmint-dry",
+        "dorogi-pince-aszu-5-puttonyos"
+      ],
+      "scores": [],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Dorógi Pince is a small family winery in Bodrogkisfalud producing dry Furmint and Aszú from clay-volcanic slopes bordering the Bodrog river, where autumn fog reliably creates botrytis conditions.",
+      "tip": "A classic small-producer experience in a village that receives far fewer visitors than Mád or Tokaj town.",
+      "editorial_score": 3.8,
+      "verified": {
+        "source_url": "https://tokajwineregion.com/tokaj-wine-region/",
+        "address_quoted": "Bodrogkisfalud, Hungary",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://tokaj.hu/",
+        "cuisine_evidence_url": "https://tokajwineregion.com/tokaj-wine-region/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "szepsy-jr",
+      "name": "Szepsy Jr Pince",
+      "address": "Mád, Borsod-Abaúj-Zemplén, Hungary",
+      "neighborhood": "Mád",
+      "varietals": [
+        "Furmint",
+        "Hárslevelű"
+      ],
+      "classification": "Tokaj PDO",
+      "hectares": null,
+      "owner": null,
+      "winemaker": "István Szepsy Jr.",
+      "founded": null,
+      "tasting_program": "Visits by appointment only in Mád.",
+      "booking_url": "https://szepsy.hu/",
+      "signature_wines": [
+        "szepsy-jr-furmint-nyulaszo",
+        "szepsy-jr-aszu-6-puttonyos"
+      ],
+      "scores": [],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "István Szepsy Jr. continues the Szepsy family tradition at the Mád estate, producing single-vineyard Furmint and Aszú with the same rigorous approach to dűlő selection that defined the original Szepsy revival.",
+      "tip": "The father-and-son succession at Szepsy is one of the clearest examples of generational knowledge transfer in Tokaj winemaking.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://szepsy.hu/",
+        "address_quoted": "Mád, Borsod-Abaúj-Zemplén, Hungary",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.worldsbestvineyards.com/explore/Vineyards/Hungary/Tokaj/Szepsy-Winery.html",
+        "cuisine_evidence_url": "https://szepsy.hu/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "molnar-pince",
+      "name": "Molnár Pince",
+      "address": "Bodrogolaszi, Borsod-Abaúj-Zemplén, Hungary",
+      "neighborhood": "Olaszliszka",
+      "varietals": [
+        "Furmint",
+        "Hárslevelű"
+      ],
+      "classification": "Tokaj PDO",
+      "hectares": null,
+      "owner": null,
+      "winemaker": null,
+      "founded": null,
+      "tasting_program": "Cellar visits by appointment in Bodrogolaszi.",
+      "booking_url": "https://tokajwineregion.com/tokaj-wine-region/",
+      "signature_wines": [
+        "molnar-pince-furmint-dry",
+        "molnar-pince-szamorodni-edes"
+      ],
+      "scores": [],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Molnár Pince in Bodrogolaszi on the Bodrog riverbank maximises autumn fog exposure for reliable botrytis; the family makes dry Furmint and traditional sweet styles from Bodrog-riverside plots.",
+      "tip": "The Bodrog riverbanks near Olaszliszka and Bodrogolaszi produce some of the most consistently botrytised grapes in the whole appellation.",
+      "editorial_score": 3.8,
+      "verified": {
+        "source_url": "https://tokajwineregion.com/tokaj-wine-region/",
+        "address_quoted": "Bodrogolaszi, Hungary",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://tokaj.hu/",
+        "cuisine_evidence_url": "https://tokajwineregion.com/tokaj-wine-region/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "lapis-pince",
+      "name": "Lapis Pince",
+      "address": "Olaszliszka, Borsod-Abaúj-Zemplén, Hungary",
+      "neighborhood": "Olaszliszka",
+      "varietals": [
+        "Furmint",
+        "Hárslevelű"
+      ],
+      "classification": "Tokaj PDO",
+      "hectares": null,
+      "owner": null,
+      "winemaker": null,
+      "founded": null,
+      "tasting_program": "Family cellar visits by appointment in Olaszliszka.",
+      "booking_url": "https://tokajwineregion.com/tokaj-wine-region/",
+      "signature_wines": [
+        "lapis-pince-furmint-dry",
+        "lapis-pince-aszu-5-puttonyos"
+      ],
+      "scores": [],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Lapis Pince is a small family producer in Olaszliszka, a Bodrog-valley village whose riverine fog creates ideal botrytis conditions; the estate produces Furmint and Aszú in a traditional style.",
+      "tip": "Olaszliszka sits directly on the Bodrog and experiences heavy morning mist in autumn; harvest-time visits are particularly atmospheric.",
+      "editorial_score": 3.9,
+      "verified": {
+        "source_url": "https://tokajwineregion.com/tokaj-wine-region/",
+        "address_quoted": "Olaszliszka, Hungary",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://tokaj.hu/",
+        "cuisine_evidence_url": "https://tokajwineregion.com/tokaj-wine-region/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "varhelyi-pince",
+      "name": "Várhelyi Pince",
+      "address": "Tokaj, Borsod-Abaúj-Zemplén, Hungary",
+      "neighborhood": "Tokaj",
+      "varietals": [
+        "Furmint",
+        "Hárslevelű",
+        "Sárga Muskotály"
+      ],
+      "classification": "Tokaj PDO",
+      "hectares": null,
+      "owner": null,
+      "winemaker": null,
+      "founded": null,
+      "tasting_program": "Cellar tastings in Tokaj town; contact in advance.",
+      "booking_url": "https://tokajwineregion.com/tokaj-wine-region/",
+      "signature_wines": [
+        "varhelyi-pince-furmint-dry",
+        "varhelyi-pince-aszu-5-puttonyos"
+      ],
+      "scores": [],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Várhelyi Pince is a family cellar in central Tokaj town producing dry Furmint and sweet Aszú from volcanic plots across the region, with multigenerational roots in the historic wine-street quarter.",
+      "tip": "Located in the historic Bem Street wine quarter of Tokaj; an atmospheric traditional cellar tasting.",
+      "editorial_score": 3.9,
+      "verified": {
+        "source_url": "https://tokajwineregion.com/tokaj-wine-region/",
+        "address_quoted": "Tokaj, Hungary",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://tokaj.hu/",
+        "cuisine_evidence_url": "https://tokajwineregion.com/tokaj-wine-region/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "winesor-pince",
+      "name": "Winesor Pince",
+      "address": "Sárospatak, Borsod-Abaúj-Zemplén, Hungary",
+      "neighborhood": "Sárospatak",
+      "varietals": [
+        "Furmint",
+        "Hárslevelű"
+      ],
+      "classification": "Tokaj PDO",
+      "hectares": null,
+      "owner": null,
+      "winemaker": null,
+      "founded": null,
+      "tasting_program": "Winery visits and tastings by appointment in Sárospatak.",
+      "booking_url": "https://tokajwineregion.com/tokaj-wine-region/",
+      "signature_wines": [
+        "winesor-pince-furmint-dry",
+        "winesor-pince-aszu-5-puttonyos"
+      ],
+      "scores": [],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Winesor Pince is based in the historic town of Sárospatak, associated with Hungarian Calvinist culture and winemaking, producing dry Furmint and Aszú from the northern sector of the appellation.",
+      "tip": "Sárospatak combines Renaissance castle, Calvinist college and wine cellars within a walkable town centre.",
+      "editorial_score": 3.9,
+      "verified": {
+        "source_url": "https://tokajwineregion.com/tokaj-wine-region/",
+        "address_quoted": "Sárospatak, Hungary",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://tokaj.hu/",
+        "cuisine_evidence_url": "https://tokajwineregion.com/tokaj-wine-region/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "malatinszky-tokaj",
+      "name": "Malatinszky Tokaj",
+      "address": "Mád, Borsod-Abaúj-Zemplén, Hungary",
+      "neighborhood": "Mád",
+      "varietals": [
+        "Furmint",
+        "Hárslevelű"
+      ],
+      "classification": "Tokaj PDO",
+      "hectares": null,
+      "owner": null,
+      "winemaker": null,
+      "founded": null,
+      "tasting_program": "Visits by appointment; estate also produces at Villány.",
+      "booking_url": "https://tokajwineregion.com/tokaj-wine-region/",
+      "signature_wines": [
+        "malatinszky-tokaj-furmint",
+        "malatinszky-tokaj-aszu"
+      ],
+      "scores": [],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Malatinszky Tokaj produces mineral dry Furmint from Mád-area plots, complementing the same estate family known for reds from Villány; a rare dual-appellation Hungarian producer.",
+      "tip": "A useful comparative tasting when combined with Villány reds to understand the span of Hungarian wine from volcanic north to limestone south.",
+      "editorial_score": 4.0,
+      "verified": {
+        "source_url": "https://tokajwineregion.com/tokaj-wine-region/",
+        "address_quoted": "Mád, Hungary",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://tokaj.hu/",
+        "cuisine_evidence_url": "https://tokajwineregion.com/tokaj-wine-region/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "tokajer-pince",
+      "name": "Tokajer Pince",
+      "address": "Tállya, Borsod-Abaúj-Zemplén, Hungary",
+      "neighborhood": "Tállya",
+      "varietals": [
+        "Furmint",
+        "Hárslevelű",
+        "Sárga Muskotály"
+      ],
+      "classification": "Tokaj PDO",
+      "hectares": null,
+      "owner": null,
+      "winemaker": null,
+      "founded": null,
+      "tasting_program": "Family winery in Tállya; tastings by prior arrangement.",
+      "booking_url": "https://tokajwineregion.com/tokaj-wine-region/",
+      "signature_wines": [
+        "tokajer-pince-furmint-dry",
+        "tokajer-pince-aszu-5-puttonyos"
+      ],
+      "scores": [],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Tokajer Pince is a family producer in Tállya whose wines from the Király dűlő represent the northernmost concentration of first-class classified vineyard sites in the appellation.",
+      "tip": "Tállya's Király dűlő has been classified as first class since the 18th-century royal decree; wines from here show structured, mineral character.",
+      "editorial_score": 4.0,
+      "verified": {
+        "source_url": "https://tokajwineregion.com/tokaj-wine-region/",
+        "address_quoted": "Tállya, Hungary",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://tokaj.hu/",
+        "cuisine_evidence_url": "https://tokajwineregion.com/tokaj-wine-region/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "karacsony-pince",
+      "name": "Karácsonyi Pince",
+      "address": "Tállya, Borsod-Abaúj-Zemplén, Hungary",
+      "neighborhood": "Tállya",
+      "varietals": [
+        "Furmint",
+        "Hárslevelű"
+      ],
+      "classification": "Tokaj PDO",
+      "hectares": null,
+      "owner": null,
+      "winemaker": null,
+      "founded": null,
+      "tasting_program": "Family winery; visits by appointment in Tállya.",
+      "booking_url": "https://tokajwineregion.com/tokaj-wine-region/",
+      "signature_wines": [
+        "karacsony-pince-furmint-dry",
+        "karacsony-pince-aszu-5-puttonyos"
+      ],
+      "scores": [],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Karácsonyi Pince is a small family winery in Tállya, producing traditional dry Furmint and Aszú from the northern Zemplén foothills terraces including historic first-class classified Király parcels.",
+      "tip": "Tállya is less visited than Mád but has among the oldest vine stock in the region; the Király dűlő is classified since the 1700s royal decree.",
+      "editorial_score": 3.9,
+      "verified": {
+        "source_url": "https://tokajwineregion.com/tokaj-wine-region/",
+        "address_quoted": "Tállya, Hungary",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://tokaj.hu/",
+        "cuisine_evidence_url": "https://tokajwineregion.com/tokaj-wine-region/",
+        "checked_on": "2026-05-29"
+      }
+    }
+  ]
+}

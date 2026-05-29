@@ -1,0 +1,374 @@
+{
+  "tasting_rooms": [
+    {
+      "slug": "rakoczi-pince-tokaj",
+      "name": "Rákóczi Pince és Udvarház",
+      "address": "Kossuth tér 15, 3910 Tokaj, Hungary",
+      "neighborhood": "Tokaj town centre",
+      "varietals_focus": [
+        "Furmint",
+        "Hárslevelű",
+        "Sárgamuskotály"
+      ],
+      "pricing": "Guided cellar visit with tasting from HUF 3500; Knight's Hall group tastings available",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": "tokaj-hetszolo",
+      "description": "15th-century cellar complex on Tokaj's main square, with a Knight's Hall measuring 28 m long and 5 m high. Owned by Tokaj-Hétszőlő Organic Vineyard; tastings cover Aszú, Furmint, and Hárslevelű in English and Hungarian.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://tokajhetszolo.com/wine-tasting/",
+        "address_quoted": "H-3910 Tokaj, Kossuth Square 15",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g657261-d6749751-Reviews-Rakoczi_Pince_es_Udvarhaz-Tokaj_Borsod_Abauj_Zemplen_County_Northern_Hungary.html",
+        "cuisine_evidence_url": "https://tokajszuretinapok.hu/index.php/en/gastronomy-tourism/winery/rakoczi-cellar-cellar-visit-with-wine-tasting",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "holdvolgy-mad-cellar",
+      "name": "Holdvölgy Pincészet Tasting Cellar",
+      "address": "Árpád utca 13, 3909 Mád, Hungary",
+      "neighborhood": "Mád",
+      "varietals_focus": [
+        "Furmint",
+        "Hárslevelű",
+        "Sárgamuskotály"
+      ],
+      "pricing": "Treasure Hunt with 6 wines; Aszú vertical tasting 6 vintages; tickets available online",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "holdvolgy",
+      "description": "One of the longest cellar systems in the region, sections dating to the 16th century. Multiple tasting formats including a vertical Aszú tasting and a Treasure Hunt cellar exploration; winner of Best Cellar Visit in Hungary two consecutive years.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://holdvolgy.com/en/winetasting",
+        "address_quoted": "3909 MÁD, ÁRPÁD STR. 13., HUNGARY",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g274903-d7001936-Reviews-Holdvolgy-Mad_Borsod_Abauj_Zemplen_County_Northern_Hungary.html",
+        "cuisine_evidence_url": "https://holdvolgy.com/en/winetasting",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "royal-tokaji-mad-cellar",
+      "name": "Royal Tokaji Cellar and Tasting Room",
+      "address": "Rákóczi utca 35, 3909 Mád, Hungary",
+      "neighborhood": "Mád",
+      "varietals_focus": [
+        "Furmint",
+        "Hárslevelű"
+      ],
+      "pricing": "By appointment; tastings typically EUR 20-40 per person covering dry to Aszú range",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "royal-tokaji",
+      "description": "State-of-the-art winery designed by Csaba Bodonyi, opening 2010, with 13th-century cellars beneath. Tasting programmes cover single-vineyard Furmint and Aszú from the estate's first- and second-growth plots: Mézes Mály, Nyulászó, Betsek, among others.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://royal-tokaji.com/contact/",
+        "address_quoted": "3909 Mád, Rákóczi utca 35.",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g274903-d7001937-Reviews-Royal_Tokaji-Mad_Borsod_Abauj_Zemplen_County_Northern_Hungary.html",
+        "cuisine_evidence_url": "https://royal-tokaji.com/our-estate/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "disznoko-tasting-room",
+      "name": "Disznókő Winery Tasting Room",
+      "address": "Hrsz. 0202, 3931 Mezőzombor, Hungary",
+      "neighborhood": "Mezőzombor",
+      "varietals_focus": [
+        "Furmint",
+        "Hárslevelű",
+        "Sárgamuskotály"
+      ],
+      "pricing": "Classic flight, Eszencia tasting, vertical Aszú tasting; book via borbutik@disznoko.hu",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "disznoko",
+      "description": "Guided tour of terraced UNESCO-listed vineyards, modern winery, and historic cellars, followed by a seated tasting in the historic cellar. Wine shop open May through October.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.disznoko.hu/en/visite/wine-tasting-and-wine-shop",
+        "address_quoted": "Hrsz. 0202., Mezőzombor, Borsod-Abaúj-Zemplén County, 3931, Hungary",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g5601979-d7001935-Reviews-Disznoko-Mezozombor_Borsod_Abauj_Zemplen_County_Northern_Hungary.html",
+        "cuisine_evidence_url": "https://www.disznoko.hu/en/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "oremus-tolcsva-cellar",
+      "name": "Tokaj Oremus Tasting Cellar",
+      "address": "Arany János utca, Hrsz. 31/3, 3934 Tolcsva, Hungary",
+      "neighborhood": "Tolcsva",
+      "varietals_focus": [
+        "Furmint",
+        "Hárslevelű",
+        "Zéta"
+      ],
+      "pricing": "EUR 20 per person (minors EUR 5); Mandolás + Late Harvest + Aszú tasting",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "tokaj-oremus",
+      "description": "Vega Sicilia's Tokaj property, with 115 ha of first-growth vineyards and centuries-old underground cellars. Tasting covers three wines from dry Furmint to Aszú, with cellar and production tour; Monday to Sunday in summer.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://oremustokaj.com/home",
+        "address_quoted": "Tolcsva Arany János u hrsz. 31/3, 3934 Hungary",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g2151231-d7001938-Reviews-Tokaj_Oremus_Pinceszet-Tolcsva_Borsod_Abauj_Zemplen_County_Northern_Hungary.html",
+        "cuisine_evidence_url": "https://www.temposvegasicilia.com/en/terroirs/5/tokaj-oremus",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "demeter-zoltan-vinoteka",
+      "name": "Demeter Zoltán Vinoteka",
+      "address": "Vasvári Pál utca 1-3, 3910 Tokaj, Hungary",
+      "neighborhood": "Tokaj old town",
+      "varietals_focus": [
+        "Furmint",
+        "Hárslevelű"
+      ],
+      "pricing": "Seated tasting of 5 wines with snacks; Thu-Sun from 15:00",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": "demeter-zoltan",
+      "description": "Brand winebar and vinothek of Demeter Zoltán Pincészet in Tokaj old town, opened 2025. Anett Demeter leads afternoon tastings paired with freshly baked bread and local charcuterie; portfolio covers dry Furmint to Aszú.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.demeterzoltan.hu/en/visit-us/",
+        "address_quoted": "Vasvári Pál utca 1-3, H-3910 Tokaj",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g657261-d32766637-Reviews-Demeter_Zoltan_Vinoteka-Tokaj_Borsod_Abauj_Zemplen_County_Northern_Hungary.html",
+        "cuisine_evidence_url": "https://www.demeterzoltan.hu/en/home/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "fueleky-winery-bodrogkeresztur",
+      "name": "Füleky Pincészet Tasting Room",
+      "address": "Iskola köz 15, 3916 Bodrogkeresztúr, Hungary",
+      "neighborhood": "Bodrogkeresztúr",
+      "varietals_focus": [
+        "Furmint",
+        "Hárslevelű",
+        "Sárgamuskotály"
+      ],
+      "pricing": "Cellar visit with tasting; dinner menus by arrangement",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "fuleky",
+      "description": "18th-century Baroque Füleky mansion next to the late-Gothic church in Bodrogkeresztúr, with a modern winery voted Industrial Building of the Year 2011 by ArchDaily. Tastings in the guesthouse; 25 ha in leading Tokaj vineyards.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://bodrogkeresztur.eu/en/venue/fuleky-winery",
+        "address_quoted": "H-3916 Bodrogkeresztúr, Iskola köz 15",
+        "open_status": "open",
+        "open_evidence_url": "https://tokajiborlovagrend.hu/en/wineries/wineries-2018/fuleky-winery-2018/",
+        "cuisine_evidence_url": null,
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "beres-vineyards-erdobenye",
+      "name": "Béres Vineyards and Winery Visitor Centre",
+      "address": "085/18 hrsz., 3932 Erdőbénye, Hungary",
+      "neighborhood": "Erdőbénye",
+      "varietals_focus": [
+        "Furmint",
+        "Hárslevelű",
+        "Sárgamuskotály",
+        "Zéta"
+      ],
+      "pricing": "Wine tastings included in estate visit; outdoor event space",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "beres-vineyards",
+      "description": "Contemporary winery complex in the village of Erdőbénye designed by architect Anthony Gall, completed 2006. The courtyard's circular skylight offers insight into winemaking; diverse tasting programmes including late-harvest and Aszú.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.winetourism.com/winery/beres-vineyards-and-winery/",
+        "address_quoted": "3932 Erdőbénye, 085/18 hrsz.",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g2151230-d7001940-Reviews-Beres_Vineyards_and_Winery-Erdobenye_Borsod_Abauj_Zemplen_County_Northern_Hungary.html",
+        "cuisine_evidence_url": "https://www.tastehungary.us/beres-winery/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "gotz-pinceszet-hercegkut",
+      "name": "Götz Pincészet Cellar Visit",
+      "address": "Petőfi Sándor utca 193, 3958 Hercegkút, Hungary",
+      "neighborhood": "Hercegkút",
+      "varietals_focus": [
+        "Furmint",
+        "Hárslevelű"
+      ],
+      "pricing": "Cellar visit with tasting; groups by appointment; Gombos-hegyi UNESCO cellar row included",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "gotz-pinceszet",
+      "description": "Family winery in the Swabian village of Hercegkút, 3 km from Sárospatak. Visits include the bottling facility then transport to the Gombos-hegyi cellar row, a UNESCO World Heritage site dug into rhyolite-tufa, for tasting.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://gotzpinceszet.hu/en/eng/",
+        "address_quoted": "Petőfi Sándor utca 193, 3958 Hercegkút, Hungary",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g319883-d10375000-Reviews-Gotz_Pinceszet-Sarospatak_Borsod_Abauj_Zemplen_County_Northern_Hungary.html",
+        "cuisine_evidence_url": "https://visitworldheritage.com/en/eu/world-heritage-cellars-of-hercegk%C3%BAt/951c98e8-839f-4e25-aea5-3feafe0dfdd5",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "tokajicum-tarcal-tasting",
+      "name": "Tokajicum Borház Tasting Room",
+      "address": "Külterület 1, 3915 Tarcal, Hungary",
+      "neighborhood": "Tarcal",
+      "varietals_focus": [
+        "Furmint",
+        "Hárslevelű",
+        "Sárgamuskotály"
+      ],
+      "pricing": "Cellar visits and structured tastings; contact winery for current schedule",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "tokajicum",
+      "description": "Mediterranean-style wine house in Tarcal founded 2002, farming nearly 20 ha on the Tarcal-Mád border. Mineral Furmint and Hárslevelű flights from single-vineyard selections to late-harvest dessert wines.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://visittokaj.org/tokajicum/",
+        "address_quoted": "Tarcal, Külterület 1, 3915 Hungary",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g1099212-d7001939-Reviews-Tokajicum-Tarcal_Borsod_Abauj_Zemplen_County_Northern_Hungary.html",
+        "cuisine_evidence_url": "https://bor.hu/en/boraszatok/tokajicum-borhaz-737/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "mad-wine-tasting",
+      "name": "Mad Wine Tasting and Cellar Visit",
+      "address": "Hunyadi János utca 2, 3909 Mád, Hungary",
+      "neighborhood": "Mád",
+      "varietals_focus": [
+        "Furmint",
+        "Hárslevelű",
+        "Sárgamuskotály"
+      ],
+      "pricing": "Vineyard walk and cellar tasting; book via mad-wine.com",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "mad-wine",
+      "description": "Smallholder collective based in Mád, working with local farming families on 20 ha of volcanic soil. Guided vineyard walk followed by cellar visit focusing on Furmint and Hárslevelű; chemical-free viticulture highlighted.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://mad-wine.com/en/",
+        "address_quoted": "Hunyadi János utca 2, Mád 3909 Hungary",
+        "open_status": "open",
+        "open_evidence_url": "https://www.winetourism.com/experience/wine-tasting-and-tour-at-mad-wine/",
+        "cuisine_evidence_url": null,
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "szepsy-mad-cellar",
+      "name": "Szepsy Winery Cellar Visit",
+      "address": "Batthyány utca 59, 3909 Mád, Hungary",
+      "neighborhood": "Mád",
+      "varietals_focus": [
+        "Furmint",
+        "Hárslevelű"
+      ],
+      "pricing": "By appointment only; single-vineyard tasting of dry Furmint and Aszú",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "szepsy",
+      "description": "The Szepsy family's historic cellars in Mád, with winemaking roots to the 16th century and the origins of Aszú production. Appointment-only visits covering the vineyards, historic cellar, and a seated tasting of single-vineyard cuvées.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.worldsbestvineyards.com/explore/Vineyards/Hungary/Tokaj/Szepsy-Winery.html",
+        "address_quoted": "Batthyány utca 59, 3909 Mád, Hungary",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g274903-d7001933-Reviews-Szepsy_Winery-Mad_Borsod_Abauj_Zemplen_County_Northern_Hungary.html",
+        "cuisine_evidence_url": "https://www.tasteatlas.com/szepsy",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "hetszolo-wine-shop-tasting",
+      "name": "Tokaj-Hétszőlő Wine Shop and Tasting Bar",
+      "address": "Bajcsy-Zsilinszky utca 19-21, 3910 Tokaj, Hungary",
+      "neighborhood": "Tokaj town",
+      "varietals_focus": [
+        "Furmint",
+        "Hárslevelű",
+        "Sárgamuskotály"
+      ],
+      "pricing": "Walk-in wine shop and tasting bar; individual glass pours and bottles to buy",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": "tokaj-hetszolo",
+      "description": "Tokaj-Hétszőlő's retail shop in Tokaj town centre, above the Rákóczi cellars. Sells estate wines plus local balsam vinegar and grape-seed oil; tasting bar for walk-in glass pours; open Monday to Sunday.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://tokajhetszolo.com/wine-shop/",
+        "address_quoted": "19-21 Bajcsy Zsilinszky Utca, Tokaj 3910",
+        "open_status": "open",
+        "open_evidence_url": "https://tokajhetszolo.com/wine-tasting/",
+        "cuisine_evidence_url": "https://tokajhetszolo.com/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "percze-mad-experience",
+      "name": "Percze Élményközpont Mád",
+      "address": "Árpád utca 70, 3909 Mád, Hungary",
+      "neighborhood": "Mád",
+      "varietals_focus": [
+        "Furmint",
+        "Hárslevelű"
+      ],
+      "pricing": "Restaurant dining with Szepsy wine list; vineyard experience modes on request",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": "szepsy",
+      "description": "Wine experience centre and restaurant in Mád with full-height windows overlooking the village and vineyards. Comprehensive Szepsy wine list and modern Hungarian cuisine; various modes of exploring the estate's vineyards available.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/Restaurant_Review-g274903-d10374941-Reviews-Percze_Elmenykozpont_Etterem-Mad_Borsod_Abauj_Zemplen_County_Northern_Hungary.html",
+        "address_quoted": "Mád, Árpád u. 70, Hungary",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g274903-d10374941-Reviews-Percze_Elmenykozpont_Etterem-Mad_Borsod_Abauj_Zemplen_County_Northern_Hungary.html",
+        "cuisine_evidence_url": "https://bartapince.com/en/shops-and-restaurants/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "sauska-tokaj-bar",
+      "name": "Sauska Tokaj Bar",
+      "address": "Rátka 2722 hrsz., 3917 Rátka, Hungary",
+      "neighborhood": "Rátka",
+      "varietals_focus": [
+        "Furmint",
+        "Hárslevelű"
+      ],
+      "pricing": "Walk-in bar with Sauska sparkling and still wines by the glass; bar snacks",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": "sauska-tokaj",
+      "description": "Ground-floor wine bar in the striking Sauska Tokaj winery opened 2024, designed with panoramic terraces over the vineyards. Sauska sparkling and still wines by the glass; connects to Padi restaurant upstairs.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://sauska.hu/en/tokaj/",
+        "address_quoted": "Rátka 2722 hrsz",
+        "open_status": "open",
+        "open_evidence_url": "https://news.tokajtoday.com/2023/11/16/sauskas-padi-wine-bar-has-opened-today-in-ratka/",
+        "cuisine_evidence_url": "https://sauska.hu/en/restaurants/bar/",
+        "checked_on": "2026-05-29"
+      }
+    }
+  ]
+}

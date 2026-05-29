@@ -1,0 +1,224 @@
+{
+  "distilleries": [
+    {
+      "slug": "bestillo-distillery-boldogkovaralja",
+      "name": "Bestillo Pálinkaház",
+      "address": "Béke út 31, 3885 Boldogkőváralja, Hungary",
+      "neighborhood": "Boldogkőváralja",
+      "classification": "Pálinka (PDO)",
+      "spirits_produced": ["Gönci Apricot Pálinka (PDO)", "Plum Pálinka", "Raspberry Pálinka", "Sloe Pálinka", "Aged Aszú Törköly Pálinka", "Mrs Millicent Gin"],
+      "description": "Small family distillery in Boldogkőváralja in the Zemplén foothills near the Tokaj wine route. Specialises in Gönci apricot pálinka (protected designation of origin) and Aszú-pomace aged pálinka; also produces a contemporary gin. National awards for quality.",
+      "distillation_method": "Traditional double small-pot distillation; Gönci apricot and local orchard fruits",
+      "visit_available": true,
+      "tasting_program": "Pálinka tastings and complimentary distillery demonstrations; weekdays 8-16; Saturdays 10-18",
+      "booking_url": "https://bestillo.hu/hu/",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://bestillo.hu/hu/",
+        "address_quoted": "Béke út 31., 3885 Boldogkőváralja",
+        "open_status": "open",
+        "open_evidence_url": "https://www.discoverpalinka.com/distilleries/bestillo-distillery",
+        "cuisine_evidence_url": "https://tastehungary.eu/product/tokaji-aszu-palinka-brill/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "szorath-kisusti-palinka",
+      "name": "Szóráth Kisüsti Pálinka",
+      "address": "Perei utca 4, 3881 Abaújszántó, Hungary",
+      "neighborhood": "Abaújszántó",
+      "classification": "Pálinka (PDO)",
+      "spirits_produced": ["Furmint Grape Pálinka", "Hárslevelű Grape Pálinka", "Sárgamuskotály Grape Pálinka", "Gönci Apricot Pálinka", "Furmint Törkölypálinka", "Hárslevelű Törkölypálinka"],
+      "description": "Family distillery operating since the early 1990s across two locations in the UNESCO World Heritage zone of Tokaj-Hegyalja and adjacent Gönci apricot PDO territory. Makes varietal grape and pomace pálinkas from Furmint, Hárslevelű, and Muscat Lunel using traditional double small-pot technique.",
+      "distillation_method": "Traditional double small-pot (kisüsti) distillation; grape and pomace varieties",
+      "visit_available": true,
+      "tasting_program": "Distillery visits by appointment; portfolio includes Tokaj varietal grape and pomace pálinkas",
+      "booking_url": "http://www.nemzetipalinkakivalosag.hu/en/palinkahaz/szorath-kisusti-palinka/",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "http://www.nemzetipalinkakivalosag.hu/en/palinkahaz/szorath-kisusti-palinka/",
+        "address_quoted": "3881 Abaújszántó, Perei u.4.",
+        "open_status": "open",
+        "open_evidence_url": "http://www.nemzetipalinkakivalosag.hu/en/palinkahazak/",
+        "cuisine_evidence_url": "http://www.nemzetipalinkakivalosag.hu/en/palinkahaz/szorath-kisusti-palinka/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "seven-hills-distillery-bodrogkisfalud",
+      "name": "Seven Hills Distillery",
+      "address": "Petőfi út 2/B, 3917 Bodrogkisfalud, Hungary",
+      "neighborhood": "Bodrogkisfalud",
+      "classification": "Craft gin and whisky",
+      "spirits_produced": ["Tokaj Gin", "Furmint Vodka", "Barrel-Aged Gin (Tokaj barrel)", "Smoked Single Malt Whisky", "Rye Single Barrel Whisky"],
+      "description": "Craft distillery established 2020 in a renovated farmhouse in Bodrogkisfalud, on the Bodrog river in the Tokaj wine region. Tokaj Gin, launched 2021, won World's Best Contemporary Style Gin at the World Gin Awards. Also produces Furmint-based vodka and whisky aged in Tokaj barrels.",
+      "distillation_method": "Modern craft distillation; Tokaj wine-region botanicals; Tokaj barrel finishing for gin and whisky",
+      "visit_available": true,
+      "tasting_program": "Distillery tours by appointment weekdays 9-16; Seven Cocktail Bar on-site; spirits tasting sessions",
+      "booking_url": "https://sevenhillsdistillery.com/",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://sevenhillsdistillery.com/",
+        "address_quoted": "3917 Bodrogkisfalud, Petőfi út 2/B, Hungary",
+        "open_status": "open",
+        "open_evidence_url": "https://hellohungary.hu/en/gastronomy/tokaj-and-nyiregyhaza/hospitality/manufacture/artisanal/seven-hills-distillery",
+        "cuisine_evidence_url": "https://tastehungary.eu/product/tokaj-gin-seven-hills/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "panyolai-szilvorium",
+      "name": "Panyolai Szilvórium",
+      "address": "Szilvórium tanya 1, 4913 Panyola, Hungary",
+      "neighborhood": "Panyola, Szabolcs-Szatmár-Bereg county",
+      "classification": "Pálinka (PDO); Szatmári Szilva (PDO fruit)",
+      "spirits_produced": ["Szatmári Plum Pálinka (PDO)", "Aged Elixir Szatmári Plum Pálinka", "Szabolcs Apple Pálinka (PDO)", "Pálinka-based liqueurs", "Aged fruit pálinkas"],
+      "description": "Distillery with a pálinka tradition dating to 1732 in the village of Panyola, Szatmár-Bereg county, adjacent to the Tokaj region. Specialises in aged Szatmári plum pálinka in mulberry casks; multiple Grand Prix awards. The Elixír range ages in mulberry wood for a golden colour and complex flavour.",
+      "distillation_method": "Traditional double distillation; mulberry-cask ageing for the Elixír range; protected-origin Szatmár plum",
+      "visit_available": true,
+      "tasting_program": "Tasting and programme events available; weekdays 8-16:30; contact info@panyolai.hu",
+      "booking_url": "https://panyolai.hu/",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://panyolai.hu/kapcsolat/",
+        "address_quoted": "4913 Panyola, Szilvórium tanya 1.",
+        "open_status": "open",
+        "open_evidence_url": "http://www.nemzetipalinkakivalosag.hu/en/palinkahazak/",
+        "cuisine_evidence_url": "https://en.elesztohaz.hu/stories/the-big-hungarian-palinka-guide/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "tokaj-spirit-distillery",
+      "name": "Tokaj Spirit Hegyaljai Törkölypálinka",
+      "address": "Tokaj-Hegyalja wine region, Hungary",
+      "neighborhood": "Tokaj-Hegyalja",
+      "classification": "Törkölypálinka (Tokaj grape pomace brandy)",
+      "spirits_produced": ["Tokaj Spirit Hegyaljai Törkölypálinka 40%", "Grape Pálinka from Tokaj varieties"],
+      "description": "Producer specialising in törkölypálinka distilled from Tokaj-Hegyalja grape pomace. Makes hegyaljai törkölypálinka from the pressed pomace of Furmint and Hárslevelű, the principal grape varieties of the Tokaj wine region.",
+      "distillation_method": "Pomace distillation from Tokaj-Hegyalja grape varieties",
+      "visit_available": false,
+      "tasting_program": "Products available in Hungarian retail and online",
+      "booking_url": "https://tokajspirit.hu/",
+      "editorial_score": 4.0,
+      "verified": {
+        "source_url": "https://tokajspirit.hu/",
+        "address_quoted": "Tokaj-Hegyalja wine region, Hungary",
+        "open_status": "unknown",
+        "open_evidence_url": "https://drink-ital.hu/termek/tokaj-spirit-hegyaljai-torkolypalinka-05-40/",
+        "cuisine_evidence_url": "https://alkoholshop.hu/brand/tokaj-spirit/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "am-tokaj-palinka",
+      "name": "AM-Tokaj Pálinka and Distillate",
+      "address": "Tokaj-Hegyalja wine region, Hungary",
+      "neighborhood": "Tokaj-Hegyalja",
+      "classification": "Pálinka; Tokaj grape and lees distillate",
+      "spirits_produced": ["Tokaj Grape Pálinka", "Lees Distillate (seprő pálinka)", "Plum, Apricot, and Pear Pálinkas", "Honey-enriched aged pálinka"],
+      "description": "Small Tokaj-area producer making pálinka from Furmint and Hárslevelű grape pomace and lees from the Tokaj-Hegyalja winemaking season. Also makes plum, apricot, and pear varieties; honey-enriched aged expressions.",
+      "distillation_method": "Traditional pomace and lees distillation; honey-bed ageing for specialty variants",
+      "visit_available": false,
+      "tasting_program": "Contact via tokaj@asklepios-med.eu",
+      "booking_url": "https://www.am-tokaj.wine/en/palinka",
+      "editorial_score": 3.9,
+      "verified": {
+        "source_url": "https://www.am-tokaj.wine/en/palinka",
+        "address_quoted": "Tokaj-Hegyalja wine region, Hungary",
+        "open_status": "unknown",
+        "open_evidence_url": "https://www.am-tokaj.wine/en/palinka",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/T%C3%B6rk%C3%B6lyp%C3%A1linka",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "disznoko-torkoly-palinka",
+      "name": "Disznókő Törkölypálinka (Estate Cellar Door)",
+      "address": "Hrsz. 0202, 3931 Mezőzombor, Hungary",
+      "neighborhood": "Mezőzombor",
+      "classification": "Törkölypálinka (Tokaj grape pomace brandy)",
+      "spirits_produced": ["Disznókő Furmint Törkölypálinka", "Disznókő Aszú Pomace Pálinka"],
+      "description": "Disznókő estate produces törkölypálinka from the pressed pomace of its Furmint and Hárslevelű grapes. Available at the estate wine shop and cellar door alongside the full Tokaji wine range. Estate cellar seasonal opening May to October.",
+      "distillation_method": "Grape pomace distillation from Tokaj-Hegyalja varieties",
+      "visit_available": true,
+      "tasting_program": "Available at the wine boutique and Sárga Borház restaurant on-site; seasonal",
+      "booking_url": "https://www.disznoko.hu/en/visite/wine-tasting-and-wine-shop",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.disznoko.hu/en/visite/wine-tasting-and-wine-shop",
+        "address_quoted": "Hrsz. 0202., Mezőzombor, Borsod-Abaúj-Zemplén County, 3931, Hungary",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g5601979-d7001935-Reviews-Disznoko-Mezozombor_Borsod_Abauj_Zemplen_County_Northern_Hungary.html",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/T%C3%B6rk%C3%B6lyp%C3%A1linka",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "brill-palinkahaz-brill-aszu",
+      "name": "Brill Pálinkaház",
+      "address": "Harc, Tolna county, Hungary",
+      "neighborhood": "Harc, Tolna county",
+      "classification": "Pálinka (PDO)",
+      "spirits_produced": ["Tokaji Aszú Törköly Pálinka", "Szilva (Plum) Pálinka", "Kadarka Pomace Pálinka", "Matured Kadarka Pálinka"],
+      "description": "Family-owned distillery operating since 2000 in Harc, Tolna county, making pálinka from carefully selected fruits and Tokaj aszú pomace. Best pálinka title awarded for matured Kadarka Pomace Pálinka; Tokaji Aszú pomace pálinka made from berries sourced from the wine region.",
+      "distillation_method": "Traditional double small-pot distillation; Tokaji aszú pomace and regional orchard fruits",
+      "visit_available": true,
+      "tasting_program": "Family manufactory tours and pálinka tastings",
+      "booking_url": "https://bestillo.hu/hu/",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://tastehungary.eu/product/tokaji-aszu-palinka-brill/",
+        "address_quoted": "Harc, Tolna county, Hungary",
+        "open_status": "open",
+        "open_evidence_url": "https://dailynewshungary.com/best-palinka-of-hungary/",
+        "cuisine_evidence_url": "https://tastehungary.eu/product/tokaji-aszu-palinka-brill/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "hetszolo-grape-palinka",
+      "name": "Tokaj-Hétszőlő Furmint Grape Pálinka",
+      "address": "Bajcsy-Zsilinszky utca 19-21, 3910 Tokaj, Hungary",
+      "neighborhood": "Tokaj town",
+      "classification": "Törkölypálinka",
+      "spirits_produced": ["Furmint Törkölypálinka", "Hárslevelű Törkölypálinka"],
+      "description": "Tokaj-Hétszőlő Organic Vineyard produces estate törkölypálinka from the pomace of its biodynamically farmed Furmint and Hárslevelű grapes. Available at the Rákóczi Pince wine shop in Tokaj town.",
+      "distillation_method": "Organic pomace distillation from biodynamic estate grapes",
+      "visit_available": true,
+      "tasting_program": "Available for tasting at Rákóczi Pince wine shop; cellar visit includes spirits",
+      "booking_url": "https://tokajhetszolo.com/wine-shop/",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://tokajhetszolo.com/wine-shop/",
+        "address_quoted": "19-21 Bajcsy Zsilinszky Utca, Tokaj 3910",
+        "open_status": "open",
+        "open_evidence_url": "https://tokajhetszolo.com/",
+        "cuisine_evidence_url": "https://tokajhetszolo.com/wine-tasting/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "rakoczi-pince-palinka-bar",
+      "name": "Rákóczi Pince Pálinka and Spirits Selection",
+      "address": "Kossuth tér 15, 3910 Tokaj, Hungary",
+      "neighborhood": "Tokaj town",
+      "classification": "Pálinka (PDO); grape distillates",
+      "spirits_produced": ["Tokaj-Hegyalja Grape Pálinka", "Aszú Pomace Pálinka", "Regional fruit pálinkas"],
+      "description": "The Rákóczi Pince cellar complex in Tokaj town offers pálinka alongside its wine tasting programme. The wine shop stocks regional pálinka producers alongside Tokaj wines, offering a comparison between Tokaj grape spirits and the main wine styles.",
+      "distillation_method": "Grape pomace and fruit pálinka from regional producers",
+      "visit_available": true,
+      "tasting_program": "Pálinka tastings available as add-on to cellar wine tasting; wine shop retail",
+      "booking_url": "https://tokajhetszolo.com/wine-tasting/",
+      "editorial_score": 4.1,
+      "verified": {
+        "source_url": "https://tokajhetszolo.com/rakoczi-cellar-events/",
+        "address_quoted": "H-3910 Tokaj, Kossuth Square 15",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g657261-d6749751-Reviews-Rakoczi_Pince_es_Udvarhaz-Tokaj_Borsod_Abauj_Zemplen_County_Northern_Hungary.html",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/P%C3%A1linka",
+        "checked_on": "2026-05-29"
+      }
+    }
+  ]
+}

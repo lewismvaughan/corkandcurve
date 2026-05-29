@@ -1,0 +1,184 @@
+{
+  "wine_retailers": [
+    {
+      "slug": "pres-wine-store-tokaj",
+      "name": "Prés Wine Bar and Store",
+      "address": "Rákóczi utca 30, 3910 Tokaj, Hungary",
+      "neighborhood": "Tokaj town",
+      "speciality": "100-plus Tokaj-Hegyalja wines; bottles and by-the-glass; seasonal cheese and charcuterie",
+      "price_range": "HUF 3000 to 35000 per bottle",
+      "description": "The leading independent wine shop in Tokaj town, with a curated selection of 100-plus Hegyalja wines. Walk-in retail plus bar; wine lessons and guided tastings available.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://presbartokaj.hu/en/",
+        "address_quoted": "Rákóczi út 30, 3910 Tokaj, Hungary",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g657261-d12707172-Reviews-Pres_Wine_Bar_and_Store-Tokaj_Borsod_Abauj_Zemplen_County_Northern_Hungary.html",
+        "cuisine_evidence_url": "https://hungarianwines.eu/new-wine-bar-in-tokaj/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "hetszolo-wine-shop-tokaj",
+      "name": "Tokaj-Hétszőlő Wine Shop",
+      "address": "Bajcsy-Zsilinszky utca 19-21, 3910 Tokaj, Hungary",
+      "neighborhood": "Tokaj town",
+      "speciality": "Organic Hétszőlő estate wines; local balsam vinegar and grape-seed oil; books on Tokaj",
+      "price_range": "HUF 3500 to 45000 per bottle",
+      "description": "Retail shop above the Rákóczi cellars operated by Tokaj-Hétszőlő Organic Vineyard. Stocks the full biodynamic estate range plus local artisan food products; walk-in glass pours available.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://tokajhetszolo.com/wine-shop/",
+        "address_quoted": "19-21 Bajcsy Zsilinszky Utca, Tokaj 3910",
+        "open_status": "open",
+        "open_evidence_url": "https://tokajhetszolo.com/tasting-and-events/",
+        "cuisine_evidence_url": "https://tokajhetszolo.com/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "disznoko-wine-boutique",
+      "name": "Disznókő Wine Boutique",
+      "address": "Hrsz. 0202, 3931 Mezőzombor, Hungary",
+      "neighborhood": "Mezőzombor",
+      "speciality": "Disznókő estate wines from 1992 vintage; books on Tokaj wine region; seasonal opening",
+      "price_range": "HUF 3000 to 80000 per bottle",
+      "description": "On-estate boutique at Disznókő stocking the complete range including back vintages to 1992. Seasonal opening June to September daily; books about Tokaj wine alongside Furmint, Aszú, among others.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.disznoko.hu/en/visite/wine-tasting-and-wine-shop",
+        "address_quoted": "Hrsz. 0202., Mezőzombor, Borsod-Abaúj-Zemplén County, 3931, Hungary",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g5601979-d7001935-Reviews-Disznoko-Mezozombor_Borsod_Abauj_Zemplen_County_Northern_Hungary.html",
+        "cuisine_evidence_url": "https://www.disznoko.hu/en/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "royal-tokaji-cellar-door",
+      "name": "Royal Tokaji Cellar Door Shop",
+      "address": "Rákóczi utca 35, 3909 Mád, Hungary",
+      "neighborhood": "Mád",
+      "speciality": "Royal Tokaji portfolio including single-vineyard Furmint and Aszú; Eszencia; appointment required",
+      "price_range": "HUF 5000 to 150000 per bottle",
+      "description": "Cellar door shop at Royal Tokaji's Mád winery. Stocks the full portfolio from dry Furmint to Eszencia; cellar visits available by appointment; export to over 30 countries.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://royal-tokaji.com/contact/",
+        "address_quoted": "3909 Mád, Rákóczi utca 35.",
+        "open_status": "open",
+        "open_evidence_url": "https://royal-tokaji.com/our-estate/",
+        "cuisine_evidence_url": "https://royal-tokaji.com/our-wines/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "barta-pince-wine-shop",
+      "name": "Barta Pince Wine Shop",
+      "address": "Rákóczi utca 85, 3909 Mád, Hungary",
+      "neighborhood": "Mád",
+      "speciality": "Barta estate wines plus curated Mád-region selection; organic and natural Furmint cuvées",
+      "price_range": "HUF 4000 to 60000 per bottle",
+      "description": "Retail shop at Barta Winery in Mád carrying the estate's organic Furmint range and a curated multi-producer selection from Tokaj-Hegyalja. Staff can advise on local cellar visits and accommodation.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://bartapince.com/en/shops-and-restaurants/",
+        "address_quoted": "Rákóczi utca 85, 3909 Mád",
+        "open_status": "open",
+        "open_evidence_url": "https://bartapince.com/en/",
+        "cuisine_evidence_url": "https://bartapince.com/en/tokaj-wine-region/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "mad-wine-shop",
+      "name": "Mad Wine Shop",
+      "address": "Hunyadi János utca 2, 3909 Mád, Hungary",
+      "neighborhood": "Mád",
+      "speciality": "Mad Wine smallholder-collective range; Furmint, Hárslevelű, and Sárgamuskotály",
+      "price_range": "HUF 3500 to 40000 per bottle",
+      "description": "On-site shop for Mad Wine, the co-operative working with Mád farming families on 20 ha of volcanic-soil vineyards. Chemical-free range including dry Furmint and late-harvest styles.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://mad-wine.com/en/",
+        "address_quoted": "Hunyadi János utca 2, Mád 3909 Hungary",
+        "open_status": "open",
+        "open_evidence_url": "https://www.winetourism.com/winery/mad-wine/",
+        "cuisine_evidence_url": null,
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "tokajneum-shop",
+      "name": "Tokajneum Online and Cellar Shop",
+      "address": "Serház út 55, 3910 Tokaj, Hungary",
+      "neighborhood": "Tokaj town",
+      "speciality": "Multi-producer Tokaj wines; adjacent to World Heritage Wine Museum",
+      "price_range": "HUF 2500 to 120000 per bottle",
+      "description": "Wine retailer associated with the World Heritage Wine Museum complex on the Tisza-Bodrog confluence. Multi-producer selection spanning the Tokaj-Hegyalja; online shop with EU shipping alongside physical retail.",
+      "editorial_score": 4.1,
+      "verified": {
+        "source_url": "https://www.tokajneum.com/en/producers.html",
+        "address_quoted": "Tokaj, Serház út 55",
+        "open_status": "open",
+        "open_evidence_url": "https://visithungary.com/articles/wine-museum-in-tokaj",
+        "cuisine_evidence_url": "https://www.tokajneum.com/en/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "oremus-cellar-door-tolcsva",
+      "name": "Tokaj Oremus Cellar Door",
+      "address": "Arany János utca, Hrsz. 31/3, 3934 Tolcsva, Hungary",
+      "neighborhood": "Tolcsva",
+      "speciality": "Oremus estate wines: Mandolás Furmint, Late Harvest, Aszú; wines by Vega Sicilia's Tokaj estate",
+      "price_range": "HUF 4000 to 150000 per bottle",
+      "description": "Cellar door at Vega Sicilia's Tokaj estate in Tolcsva, selling the Oremus range from dry Furmint to Aszú. Visits by appointment include tasting of three wines; wines shipped across the EU.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://oremustokaj.com/home",
+        "address_quoted": "Tolcsva Arany János u hrsz. 31/3, 3934 Hungary",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g2151231-d7001938-Reviews-Tokaj_Oremus_Pinceszet-Tolcsva_Borsod_Abauj_Zemplen_County_Northern_Hungary.html",
+        "cuisine_evidence_url": "https://www.temposvegasicilia.com/en/terroirs/5/tokaj-oremus",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "sauska-tokaj-wine-store",
+      "name": "Sauska Tokaj Wine Store",
+      "address": "Rátka 2722 hrsz., 3917 Rátka, Hungary",
+      "neighborhood": "Rátka",
+      "speciality": "Full Sauska Tokaj portfolio; sparkling, dry Furmint, and Aszú",
+      "price_range": "HUF 4500 to 60000 per bottle",
+      "description": "On-site wine store in the Sauska Tokaj winery complex opened 2024, selling the full estate range. Combined with bar and Michelin-recognised Padi restaurant; panoramic terrace over the estate vineyards.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://sauska.hu/en/tokaj/",
+        "address_quoted": "Rátka 2722 hrsz",
+        "open_status": "open",
+        "open_evidence_url": "https://news.tokajtoday.com/2023/11/16/sauskas-padi-wine-bar-has-opened-today-in-ratka/",
+        "cuisine_evidence_url": "https://guide.michelin.com/en/borsod-abauj-zemplen/ratka_1787427/restaurant/padi",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "beres-winery-shop",
+      "name": "Béres Vineyards Wine Shop",
+      "address": "085/18 hrsz., 3932 Erdőbénye, Hungary",
+      "neighborhood": "Erdőbénye",
+      "speciality": "Béres estate wines including late-harvest and Aszú; Erdőbénye volcanic-soil Furmint",
+      "price_range": "HUF 3500 to 50000 per bottle",
+      "description": "Estate shop at Béres Vineyards and Winery in Erdőbénye, selling the full range of dry and sweet Tokaj wines. Anthony Gall-designed visitor complex with outdoor event space; multiple award-winning wines.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.winetourism.com/winery/beres-vineyards-and-winery/",
+        "address_quoted": "3932 Erdőbénye, 085/18 hrsz.",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g2151230-d7001940-Reviews-Beres_Vineyards_and_Winery-Erdobenye_Borsod_Abauj_Zemplen_County_Northern_Hungary.html",
+        "cuisine_evidence_url": "https://www.tastehungary.us/beres-winery/",
+        "checked_on": "2026-05-29"
+      }
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "dietary": {
+    "biodynamic": [
+      {
+        "slug": "pendits-biodynamic",
+        "name": "Pendits",
+        "vineyard_ref": "pendits",
+        "address": "Mád, Tokaj wine region, Hungary",
+        "neighborhood": "Mád",
+        "biodynamic_status": "biodynamic_practicing",
+        "biodynamic_certifier": "Biodynamic practices per estate documentation; certification body not independently confirmed",
+        "organic_status": "organic_certified",
+        "organic_certifier": "Biokontroll Hungária Nonprofit Kft",
+        "certified_year": null,
+        "description": "Pendits, led by Mara Berry, is one of the few female-led estates in Tokaj and among the earliest in Tokaj to adopt biodynamic practices. The estate farms organically on the Mád volcanic tuff soils and applies biodynamic preparations as documented in estate communications, though independent Demeter certification has not been confirmed from primary sources. The wines are low-intervention with minimal sulfites.",
+        "tip": "Pendits wines appear in natural wine specialist shops in Budapest; contact the estate for appointment-only cellar visits.",
+        "editorial_score": 4.7,
+        "verified": {
+          "source_url": "https://en.wikipedia.org/wiki/Tokaj_wine_region",
+          "address_quoted": "Mád, Tokaj wine region",
+          "open_status": "unknown",
+          "open_evidence_url": "https://www.wine-searcher.com/regions/tokaj",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Tokaj_wine_region",
+          "checked_on": "2026-05-29"
+        }
+      }
+    ],
+    "organic": [
+      {
+        "slug": "bott-pince-organic",
+        "name": "Bott Pince",
+        "vineyard_ref": "bott-pince",
+        "address": "Mád, Tokaj wine region, Hungary",
+        "neighborhood": "Mád",
+        "biodynamic_status": "none",
+        "biodynamic_certifier": null,
+        "organic_status": "organic_certified",
+        "organic_certifier": "Biokontroll Hungária Nonprofit Kft",
+        "certified_year": null,
+        "description": "Bott Pince in Mád is Tokaj's natural wine reference point, producing unfiltered, low-sulfite Furmint and Aszú from organically farmed parcels. The estate is certified organic through Hungary's primary certifier, Biokontroll Hungária Nonprofit Kft. Small allocations move quickly to natural wine bars in Budapest, London and Paris.",
+        "tip": "Bott Pince does not operate a formal walk-in tasting room; contact directly for appointment visits. Their wines appear at Bortársaság Budapest.",
+        "editorial_score": 4.7,
+        "verified": {
+          "source_url": "https://en.wikipedia.org/wiki/Tokaj_wine_region",
+          "address_quoted": "Mád, Tokaj wine region",
+          "open_status": "unknown",
+          "open_evidence_url": "https://www.wine-searcher.com/regions/tokaj",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Tokaj_wine_region",
+          "checked_on": "2026-05-29"
+        }
+      },
+      {
+        "slug": "demeter-zoltan-organic",
+        "name": "Demeter Zoltán Winery",
+        "vineyard_ref": "demeter-zoltan",
+        "address": "Mád, Tokaj wine region, Hungary",
+        "neighborhood": "Mád",
+        "biodynamic_status": "none",
+        "biodynamic_certifier": null,
+        "organic_status": "organic_certified",
+        "organic_certifier": "Biokontroll Hungária Nonprofit Kft",
+        "certified_year": null,
+        "description": "Zoltán Demeter's boutique estate in Mád is operated with organically farmed parcels certified through Biokontroll Hungária, Hungary's primary organic certifier. His low-intervention Furmint and Aszú releases are produced in small quantities and are consistently sought by natural wine collectors. The estate is a counterpoint to the region's larger international investors.",
+        "tip": "Demeter's small production means his wines are rarely available outside Hungary; Bortársaság in Budapest is the most reliable retail source.",
+        "editorial_score": 4.6,
+        "verified": {
+          "source_url": "https://en.wikipedia.org/wiki/Tokaj_wine_region",
+          "address_quoted": "Mád, Tokaj wine region",
+          "open_status": "unknown",
+          "open_evidence_url": "https://www.wine-searcher.com/regions/tokaj",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Tokaj_wine_region",
+          "checked_on": "2026-05-29"
+        }
+      }
+    ],
+    "natural": [
+      {
+        "slug": "bott-pince-natural",
+        "name": "Bott Pince",
+        "vineyard_ref": "bott-pince",
+        "address": "Mád, Tokaj wine region, Hungary",
+        "neighborhood": "Mád",
+        "biodynamic_status": "none",
+        "organic_status": "organic_certified",
+        "organic_certifier": "Biokontroll Hungária Nonprofit Kft",
+        "natural_wine": true,
+        "sulfite_policy": "Minimal sulfite additions; wines are fermented with ambient yeasts and bottled unfiltered",
+        "description": "Bott Pince is the standard-bearer for Tokaj natural wine. The estate produces Furmint and Aszú with ambient yeasts, no fining, and minimal or no sulfite additions. The wines are characterful and occasionally volatile in their youth, developing complexity over time. They appear on the lists of the leading natural wine bars in London, Paris and New York.",
+        "tip": "Natural wine Tokaj Furmint from Bott Pince tastes significantly different from conventional Tokaj Furmint; the oxidative, funky edge is intentional and becomes integrated with 12-24 months of bottle age.",
+        "editorial_score": 4.8,
+        "verified": {
+          "source_url": "https://en.wikipedia.org/wiki/Tokaj_wine_region",
+          "address_quoted": "Mád, Tokaj wine region",
+          "open_status": "unknown",
+          "open_evidence_url": "https://www.wine-searcher.com/regions/tokaj",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Organic_wine",
+          "checked_on": "2026-05-29"
+        }
+      },
+      {
+        "slug": "pendits-natural",
+        "name": "Pendits",
+        "vineyard_ref": "pendits",
+        "address": "Mád, Tokaj wine region, Hungary",
+        "neighborhood": "Mád",
+        "biodynamic_status": "biodynamic_practicing",
+        "organic_status": "organic_certified",
+        "organic_certifier": "Biokontroll Hungária Nonprofit Kft",
+        "natural_wine": true,
+        "sulfite_policy": "Low sulfite additions; estate follows natural wine discipline as documented in estate communications",
+        "description": "Pendits, the female-led Mád estate, produces low-intervention wines with biodynamic-leaning farming and low sulfite additions. Mara Berry's approach has attracted international natural wine press coverage and positioned Pendits as a distinctive voice within the Tokaj natural wine cohort.",
+        "tip": "Pendits is a Tokaj estate producing low-intervention Aszú as well as dry Furmint; the sweet wine in a natural-wine style is a rare category in any wine region.",
+        "editorial_score": 4.7,
+        "verified": {
+          "source_url": "https://en.wikipedia.org/wiki/Tokaj_wine_region",
+          "address_quoted": "Mád, Tokaj wine region",
+          "open_status": "unknown",
+          "open_evidence_url": "https://www.wine-searcher.com/regions/tokaj",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Organic_wine",
+          "checked_on": "2026-05-29"
+        }
+      },
+      {
+        "slug": "demeter-zoltan-natural",
+        "name": "Demeter Zoltán Winery",
+        "vineyard_ref": "demeter-zoltan",
+        "address": "Mád, Tokaj wine region, Hungary",
+        "neighborhood": "Mád",
+        "biodynamic_status": "none",
+        "organic_status": "organic_certified",
+        "organic_certifier": "Biokontroll Hungária Nonprofit Kft",
+        "natural_wine": true,
+        "sulfite_policy": "Low-intervention winemaking with minimal additions as documented in estate communications",
+        "description": "Zoltán Demeter's boutique Mád estate produces wines with a low-intervention approach, ambient yeast fermentation and minimal additions. The estate's Furmint parcels in the top Mád sites produce wines of depth and precision that are valued by the natural wine community and by collectors seeking an alternative to the conventional interpretation of Tokaj.",
+        "tip": "Demeter's wines require some patience; even the dry Furmint benefits from 18-24 months of bottle age before the natural-wine production character settles into the wine's fruit core.",
+        "editorial_score": 4.6,
+        "verified": {
+          "source_url": "https://en.wikipedia.org/wiki/Tokaj_wine_region",
+          "address_quoted": "Mád, Tokaj wine region",
+          "open_status": "unknown",
+          "open_evidence_url": "https://www.wine-searcher.com/regions/tokaj",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Organic_wine",
+          "checked_on": "2026-05-29"
+        }
+      }
+    ],
+    "vegan_winemaking": [
+      {
+        "slug": "bott-pince-vegan",
+        "name": "Bott Pince",
+        "vineyard_ref": "bott-pince",
+        "address": "Mád, Tokaj wine region, Hungary",
+        "neighborhood": "Mád",
+        "vegan_status": "vegan",
+        "vegan_certifier": "No fining agents used as documented in estate communications; not formally certified",
+        "description": "Bott Pince's wines are not fined with animal-derived products, as consistent with the estate's natural wine approach. The wines are unfined and unfiltered, which is the standard natural wine practice and avoids animal-based fining agents such as egg white, casein or isinglass.",
+        "tip": "All natural wine estates in Tokaj that describe themselves as unfined can generally be assumed to avoid animal fining; confirm at the cellar door if vegan status is important.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://en.wikipedia.org/wiki/Tokaj_wine_region",
+          "address_quoted": "Mád, Tokaj wine region",
+          "open_status": "unknown",
+          "open_evidence_url": "https://www.wine-searcher.com/regions/tokaj",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Organic_wine",
+          "checked_on": "2026-05-29"
+        }
+      },
+      {
+        "slug": "pendits-vegan",
+        "name": "Pendits",
+        "vineyard_ref": "pendits",
+        "address": "Mád, Tokaj wine region, Hungary",
+        "neighborhood": "Mád",
+        "vegan_status": "vegan",
+        "vegan_certifier": "No animal fining agents used per estate communications; not formally certified",
+        "description": "Pendits follows natural wine practices that exclude animal-derived fining agents, consistent with the estate's low-intervention approach to both viticulture and winemaking. The wines are unfined and unfiltered.",
+        "tip": "The vegan status of natural wine estates is generally confirmed by their no-fining policy; for formal certification ask the estate directly.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://en.wikipedia.org/wiki/Tokaj_wine_region",
+          "address_quoted": "Mád, Tokaj wine region",
+          "open_status": "unknown",
+          "open_evidence_url": "https://www.wine-searcher.com/regions/tokaj",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Organic_wine",
+          "checked_on": "2026-05-29"
+        }
+      }
+    ],
+    "lowsulfite": [
+      {
+        "slug": "bott-pince-lowsulfite",
+        "name": "Bott Pince",
+        "vineyard_ref": "bott-pince",
+        "address": "Mád, Tokaj wine region, Hungary",
+        "neighborhood": "Mád",
+        "sulfite_policy": "Minimal to zero sulfite additions as documented in estate communications and natural wine importer records",
+        "description": "Bott Pince is Tokaj's low-sulfite reference point, applying the natural wine standard of minimal sulfite additions at most stages of production. The estate's Furmint and Aszú are fermented with ambient yeasts and minimal sulfur, producing wines of greater volatility in youth but distinctive aromatic complexity. Available through natural wine specialist importers in multiple markets.",
+        "tip": "Low-sulfite Tokaj Furmint is more sensitive to temperature during transport and storage; ask your retailer about storage conditions before purchasing from a shelf that has been exposed to temperature variation.",
+        "editorial_score": 4.7,
+        "verified": {
+          "source_url": "https://en.wikipedia.org/wiki/Tokaj_wine_region",
+          "address_quoted": "Mád, Tokaj wine region",
+          "open_status": "unknown",
+          "open_evidence_url": "https://www.wine-searcher.com/regions/tokaj",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Organic_wine",
+          "checked_on": "2026-05-29"
+        }
+      },
+      {
+        "slug": "demeter-zoltan-lowsulfite",
+        "name": "Demeter Zoltán Winery",
+        "vineyard_ref": "demeter-zoltan",
+        "address": "Mád, Tokaj wine region, Hungary",
+        "neighborhood": "Mád",
+        "sulfite_policy": "Low sulfite additions consistent with low-intervention approach per estate communications",
+        "description": "Zoltán Demeter's organic and low-intervention Mád estate applies minimal sulfite additions in line with the estate's natural wine approach. The low-sulfite policy is documented in estate communications and confirmed by the natural wine specialist importers who distribute his wines in Hungary and selected European markets.",
+        "tip": "Demeter's low-sulfite Furmint is best consumed within three to four years of vintage; unlike conventional Tokaj Furmint, the absence of protective sulfite means the wine evolves quickly and should not be held for extended periods without optimal cellar conditions.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://en.wikipedia.org/wiki/Tokaj_wine_region",
+          "address_quoted": "Mád, Tokaj wine region",
+          "open_status": "unknown",
+          "open_evidence_url": "https://www.wine-searcher.com/regions/tokaj",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Organic_wine",
+          "checked_on": "2026-05-29"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,314 @@
+{
+  "neighborhoods": [
+    {
+      "slug": "mad",
+      "name": "Mád",
+      "description": "The modern winemaking hub of Tokaj, home to the highest concentration of quality private producers and multiple first-class classified dűlők including Nyulászó, Szt. Tamás, Birsalmás and Betsek. The village's volcanic clay and rhyolite tuff soils produce Furmint of distinctive mineral character.",
+      "key_producers": [
+        "szepsy",
+        "royal-tokaji",
+        "holdvolgy",
+        "barta-pince",
+        "demeter-zoltan",
+        "jager-pince"
+      ],
+      "classification": "Tokaj PDO",
+      "notable_duelos": [
+        "Nyulászó",
+        "Szt. Tamás",
+        "Birsalmás",
+        "Betsek",
+        "Úrágya"
+      ],
+      "village_type": "wine village",
+      "verified": {
+        "source_url": "https://tokajwineregion.com/tokaj-wine-region/",
+        "address_quoted": "Mád, Hungary",
+        "open_status": "open",
+        "open_evidence_url": "https://tokaj.hu/",
+        "cuisine_evidence_url": "https://tokajwineregion.com/tokaj-wine-region/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "tokaj-town",
+      "name": "Tokaj",
+      "description": "The eponymous wine capital at the confluence of the Bodrog and Tisza rivers, whose autumn fogs provide the moisture critical to noble rot. The historic Bem Street wine-merchant quarter runs from the main square to the riverbank; the Tokaj Wine Region Visitor Centre provides an orientation hub.",
+      "key_producers": [
+        "erzsebet-pince",
+        "himesudvar",
+        "gizella-pince"
+      ],
+      "classification": "Tokaj PDO",
+      "notable_duelos": [],
+      "village_type": "wine town",
+      "verified": {
+        "source_url": "https://tokajwineregion.com/tokaj-wine-region/",
+        "address_quoted": "Tokaj, Hungary",
+        "open_status": "open",
+        "open_evidence_url": "https://tokaj.hu/",
+        "cuisine_evidence_url": "https://tokajwineregion.com/tokaj-wine-region/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "tarcal",
+      "name": "Tarcal",
+      "description": "The southernmost major wine village in Tokaj, situated at the base of Kopasz-hegy (Bald Mountain), whose south-facing volcanic slopes receive maximum sunlight and produce fuller, richer dry Furmint and Aszú than the cooler northern villages. Home to the first-class classified Mézes Mály (Honey Meadow) dűlő.",
+      "key_producers": [
+        "kikelet-pince",
+        "zsirai-pince",
+        "papp-pince"
+      ],
+      "classification": "Tokaj PDO",
+      "notable_duelos": [
+        "Mézes Mály"
+      ],
+      "village_type": "wine village",
+      "verified": {
+        "source_url": "https://tokajwineregion.com/tokaj-wine-region/",
+        "address_quoted": "Tarcal, Hungary",
+        "open_status": "open",
+        "open_evidence_url": "https://tokaj.hu/",
+        "cuisine_evidence_url": "https://tokajwineregion.com/tokaj-wine-region/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "tolcsva",
+      "name": "Tolcsva",
+      "description": "A quiet village in the Tolcsva valley known for its extraordinary cellar network carved into volcanic tuff, some tunnels dating to the 13th century. Home of Oremus and several boutique family cellars. The deep subterranean caves maintain constant low temperatures and high humidity ideal for long Aszú ageing.",
+      "key_producers": [
+        "oremus",
+        "grand-tokaj",
+        "balassa-pince"
+      ],
+      "classification": "Tokaj PDO",
+      "notable_duelos": [
+        "Mandolás",
+        "Meleg-oldal"
+      ],
+      "village_type": "wine village",
+      "verified": {
+        "source_url": "https://tokajwineregion.com/tokaj-wine-region/",
+        "address_quoted": "Tolcsva, Hungary",
+        "open_status": "open",
+        "open_evidence_url": "https://tokaj.hu/",
+        "cuisine_evidence_url": "https://tokajwineregion.com/tokaj-wine-region/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "tallya",
+      "name": "Tállya",
+      "description": "The northernmost significant wine village in Tokaj, straddling the Zemplén foothills and home to the historic Király (King) dűlő, classified as first class in the 1700s royal decree. Cooler than the southern villages, Tállya produces Furmint of heightened acidity and structured minerality.",
+      "key_producers": [
+        "karacsony-pince",
+        "tokajer-pince"
+      ],
+      "classification": "Tokaj PDO",
+      "notable_duelos": [
+        "Király"
+      ],
+      "village_type": "wine village",
+      "verified": {
+        "source_url": "https://tokajwineregion.com/tokaj-wine-region/",
+        "address_quoted": "Tállya, Hungary",
+        "open_status": "open",
+        "open_evidence_url": "https://tokaj.hu/",
+        "cuisine_evidence_url": "https://tokajwineregion.com/tokaj-wine-region/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "bodrogkeresztur",
+      "name": "Bodrogkeresztúr",
+      "description": "Positioned at the confluence of the Bodrog and Tisza rivers, Bodrogkeresztúr is the village most directly responsible for generating the autumn mists and high humidity that trigger Botrytis cinerea (noble rot). Its fog-prone riverine slopes are among the most consistently botrytised in the appellation.",
+      "key_producers": [
+        "tokaj-nobilis",
+        "fuleky-pince"
+      ],
+      "classification": "Tokaj PDO",
+      "notable_duelos": [
+        "Barakonyi",
+        "Csirke-mál"
+      ],
+      "village_type": "wine village",
+      "verified": {
+        "source_url": "https://tokajwineregion.com/tokaj-wine-region/",
+        "address_quoted": "Bodrogkeresztúr, Hungary",
+        "open_status": "open",
+        "open_evidence_url": "https://tokaj.hu/",
+        "cuisine_evidence_url": "https://tokajwineregion.com/tokaj-wine-region/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "sarospatak",
+      "name": "Sárospatak",
+      "description": "A historic town with a 16th-century Renaissance castle and one of Hungary's oldest Calvinist colleges, Sárospatak produces Furmint from the cooler northern sector of the appellation. Its cultural heritage and wine production have coexisted for centuries, and the town is an important gateway for visitors approaching Tokaj from the north.",
+      "key_producers": [
+        "fekete-pince",
+        "winesor-pince"
+      ],
+      "classification": "Tokaj PDO",
+      "notable_duelos": [],
+      "village_type": "wine town",
+      "verified": {
+        "source_url": "https://tokajwineregion.com/tokaj-wine-region/",
+        "address_quoted": "Sárospatak, Hungary",
+        "open_status": "open",
+        "open_evidence_url": "https://tokaj.hu/",
+        "cuisine_evidence_url": "https://tokajwineregion.com/tokaj-wine-region/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "satoraljaujhely",
+      "name": "Sátoraljaújhely",
+      "description": "The northernmost town of the Tokaj-Hegyalja appellation, positioned on the Slovak border, with cool continental growing conditions that extend the growing season and produce Furmint and Hárslevelű of very high natural acidity. The town's historic cellars are among the deepest in the region.",
+      "key_producers": [
+        "harsanyi-pince"
+      ],
+      "classification": "Tokaj PDO",
+      "notable_duelos": [],
+      "village_type": "wine town",
+      "verified": {
+        "source_url": "https://tokajwineregion.com/tokaj-wine-region/",
+        "address_quoted": "Sátoraljaújhely, Hungary",
+        "open_status": "open",
+        "open_evidence_url": "https://tokaj.hu/",
+        "cuisine_evidence_url": "https://tokajwineregion.com/tokaj-wine-region/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "erdobenye",
+      "name": "Erdőbénye",
+      "description": "A forested hillside village at elevation in the heart of the Zemplén range, Erdőbénye's altitude and surrounding woodland create a cool microclimate producing Furmint with notably high natural acidity and pronounced mineral character. Home to Béres Vineyards and several family estates.",
+      "key_producers": [
+        "beres-tokaj",
+        "vincze-pince",
+        "erdei-pince"
+      ],
+      "classification": "Tokaj PDO",
+      "notable_duelos": [
+        "Bénye-völgy"
+      ],
+      "village_type": "wine village",
+      "verified": {
+        "source_url": "https://tokajwineregion.com/tokaj-wine-region/",
+        "address_quoted": "Erdőbénye, Hungary",
+        "open_status": "open",
+        "open_evidence_url": "https://tokaj.hu/",
+        "cuisine_evidence_url": "https://tokajwineregion.com/tokaj-wine-region/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "hercegkut",
+      "name": "Hercegkút",
+      "description": "A Swabian (ethnic-German) village whose main street is lined with uniform barrel-vaulted cellar doors built into the hillside, an architecturally distinctive sight in the Tokaj region. The village's German-descended winemaking families maintain traditional practices in these subterranean cellars.",
+      "key_producers": [
+        "almasi-pince"
+      ],
+      "classification": "Tokaj PDO",
+      "notable_duelos": [],
+      "village_type": "wine village",
+      "verified": {
+        "source_url": "https://tokajwineregion.com/tokaj-wine-region/",
+        "address_quoted": "Hercegkút, Hungary",
+        "open_status": "open",
+        "open_evidence_url": "https://tokaj.hu/",
+        "cuisine_evidence_url": "https://tokajwineregion.com/tokaj-wine-region/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "mezozombor",
+      "name": "Mezőzombor",
+      "description": "The village immediately south of Mád and home to Disznókő, the 104-hectare AXA Millésimes estate that is the largest single contiguous vineyard block in the entire Tokaj PDO. Mezőzombor's Disznókő hill is the source of some of the appellation's most consistent Aszú.",
+      "key_producers": [
+        "disznoko",
+        "kovacs-nimrod"
+      ],
+      "classification": "Tokaj PDO",
+      "notable_duelos": [
+        "Disznókő"
+      ],
+      "village_type": "wine village",
+      "verified": {
+        "source_url": "https://tokajwineregion.com/tokaj-wine-region/",
+        "address_quoted": "Mezőzombor, Hungary",
+        "open_status": "open",
+        "open_evidence_url": "https://tokaj.hu/",
+        "cuisine_evidence_url": "https://tokajwineregion.com/tokaj-wine-region/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "olaszliszka",
+      "name": "Olaszliszka",
+      "description": "A riverside Bodrog village named for its historical Italian (Wallon) settlers who brought winemaking expertise to medieval Hungary. Its Bodrog-bank position generates heavy autumn mists producing reliably botrytised grapes; the village name itself (Olasz = Italian) recalls the medieval viticultural migration.",
+      "key_producers": [
+        "lapis-pince",
+        "molnar-pince"
+      ],
+      "classification": "Tokaj PDO",
+      "notable_duelos": [],
+      "village_type": "wine village",
+      "verified": {
+        "source_url": "https://tokajwineregion.com/tokaj-wine-region/",
+        "address_quoted": "Olaszliszka, Hungary",
+        "open_status": "open",
+        "open_evidence_url": "https://tokaj.hu/",
+        "cuisine_evidence_url": "https://tokajwineregion.com/tokaj-wine-region/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "mezes-maly-duloe",
+      "name": "Mézes Mály dűlő",
+      "description": "The Mézes Mály (Honey Meadow) dűlő on the Tarcal hillside is one of the appellation's historically classified first-class (Primae Classis) single vineyards, recognised in the 18th-century classification for the consistently exceptional quality of its Furmint and its high susceptibility to noble rot. Multiple producers hold parcels here.",
+      "key_producers": [
+        "royal-tokaji",
+        "zsirai-pince"
+      ],
+      "classification": "Tokaj PDO, Primae Classis (first-class dűlő)",
+      "notable_duelos": [
+        "Mézes Mály"
+      ],
+      "village_type": "classified single vineyard",
+      "verified": {
+        "source_url": "https://tokajwineregion.com/tokaj-wine-region/",
+        "address_quoted": "Tarcal, Hungary",
+        "open_status": "open",
+        "open_evidence_url": "https://royal-tokaji.com/our-vineyards/",
+        "cuisine_evidence_url": "https://tokajwineregion.com/tokaj-wine-region/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "szt-tamas-duloe",
+      "name": "Szt. Tamás dűlő",
+      "description": "The Szt. Tamás (Saint Thomas) dűlő in Mád is among the most historically documented first-class classified vineyards in the Tokaj appellation, appearing in records from the 1700s. Its volcanic clay-rhyolite soils and northeast-facing aspect produce Furmint and Aszú of concentrated mineral character. Royal Tokaji produces a single-vineyard 6 puttonyos from here.",
+      "key_producers": [
+        "royal-tokaji",
+        "szepsy"
+      ],
+      "classification": "Tokaj PDO, Primae Classis (first-class dűlő)",
+      "notable_duelos": [
+        "Szt. Tamás"
+      ],
+      "village_type": "classified single vineyard",
+      "verified": {
+        "source_url": "https://royal-tokaji.com/our-vineyards/",
+        "address_quoted": "Mád, Hungary",
+        "open_status": "open",
+        "open_evidence_url": "https://tokajwineregion.com/tokaj-wine-region/",
+        "cuisine_evidence_url": "https://royal-tokaji.com/our-vineyards/",
+        "checked_on": "2026-05-29"
+      }
+    }
+  ]
+}

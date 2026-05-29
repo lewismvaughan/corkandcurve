@@ -1,0 +1,264 @@
+{
+  "wine_restaurants": [
+    {
+      "slug": "bobajka-tarcal",
+      "name": "Bobajka",
+      "address": "Fő utca 94, 3915 Tarcal, Hungary",
+      "neighborhood": "Tarcal",
+      "cuisine": "Modern Hungarian regional cuisine with Tokaj wine pairings",
+      "cellar_size": 120,
+      "awards": [
+        {
+          "source": "Michelin Guide Hungary",
+          "year": 2023
+        },
+        {
+          "source": "Klasszis TopDesign Restaurant of the Year",
+          "year": 2022
+        },
+        {
+          "source": "Michelin Sommelier Award",
+          "year": 2023
+        }
+      ],
+      "description": "Michelin-recommended restaurant at Andrássy Kúria hotel, named after a 300-year-old Zemplén poppy-seed bread recipe. Exclusively Tokaj wine list of 120 labels curated by Michelin Sommelier Award winner Tamás Langó; local ingredients from regional producers.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://bobajkaetterem.hu/en/concept/",
+        "address_quoted": "Tarcal, Főu. 94, 3915, Hungary",
+        "open_status": "open",
+        "open_evidence_url": "https://guide.michelin.com/en/borsod-abauj-zemplen/tarcal/restaurant/bobajka",
+        "cuisine_evidence_url": "https://bobajkaetterem.hu/en/elmeny/wine-tasting/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "padi-ratka",
+      "name": "Padi",
+      "address": "Rátka 2722 hrsz., 3917 Rátka, Hungary",
+      "neighborhood": "Rátka",
+      "cuisine": "Modern regional Hungarian cuisine; Sauska Tokaj wine-focused tasting menus",
+      "cellar_size": null,
+      "awards": [
+        {
+          "source": "Michelin Guide Hungary",
+          "year": 2024
+        },
+        {
+          "source": "Michelin Opening of the Year",
+          "year": 2025
+        }
+      ],
+      "description": "Michelin Opening of the Year 2025, inside the Sauska Tokaj winery. Chef Máté Gerák's kitchen draws on local produce and Tokaj terroir; two tasting menus, one themed around Tokaj itself. Open-kitchen format with panoramic terrace over the vines.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://sauska.hu/en/restaurants/padi/",
+        "address_quoted": "Rátka 2722 hrsz",
+        "open_status": "open",
+        "open_evidence_url": "https://guide.michelin.com/en/borsod-abauj-zemplen/ratka_1787427/restaurant/padi",
+        "cuisine_evidence_url": "https://sauska.hu/en/tokaj/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "anyukam-mondta-encs",
+      "name": "Anyukám Mondta",
+      "address": "Petőfi út 57, 3860 Encs, Hungary",
+      "neighborhood": "Encs",
+      "cuisine": "Modern Hungarian with Italian and Mediterranean influences; strong Tokaj and Hungarian wine list",
+      "cellar_size": null,
+      "awards": [
+        {
+          "source": "Michelin Guide Bib Gourmand",
+          "year": 2023
+        }
+      ],
+      "description": "Michelin Bib Gourmand restaurant in Encs on the western edge of the Tokaj region. Homemade pizzas and refined modern Italian-Hungarian dishes; wine list begins with a cuvée made by Szepsy the Younger for the restaurant, expanded to Hungarian and international selections.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://anyukammondta.hu/en/",
+        "address_quoted": "3860 Encs, Petőfi út 57, Hungary",
+        "open_status": "open",
+        "open_evidence_url": "https://guide.michelin.com/en/borsod-abauj-zemplen/encs/restaurant/anyukam-mondta",
+        "cuisine_evidence_url": "https://anyukammondta.hu/en/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "talu-restaurant-tarcal",
+      "name": "Talu Restaurant",
+      "address": "Fő utca 94, 3915 Tarcal, Hungary",
+      "neighborhood": "Tarcal",
+      "cuisine": "Regional Hungarian gourmet cuisine; Tokaj-Hegyalja wine program",
+      "cellar_size": null,
+      "awards": [
+        {
+          "source": "Gault and Millau Hungary",
+          "year": 2024
+        }
+      ],
+      "description": "Gault and Millau two-chef-hat restaurant at Andrássy Kúria five-star hotel in Tarcal. Chef brings regional flavours using local ingredients; wine selection focuses on Tokaj-Hegyalja producers, complemented by Hungarian selections.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.tokaj.hu/",
+        "address_quoted": "H-3915 Tarcal, Fő u. 94.",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Hotel_Review-g1099212-d1741604-Reviews-Andrassy_Kuria_Spa-Tarcal_Borsod_Abauj_Zemplen_County_Northern_Hungary.html",
+        "cuisine_evidence_url": "https://www.booking.com/hotel/hu/andrassy-rezidencia-wine-spa.html",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "sarga-borhaz-mezozombor",
+      "name": "Sárga Borház",
+      "address": "Disznókő dűlő, 37-es főút, 3931 Mezőzombor, Hungary",
+      "neighborhood": "Mezőzombor",
+      "cuisine": "Hungarian seasonal cuisine with wine and appetizer pairing menus",
+      "cellar_size": null,
+      "awards": [],
+      "description": "Casual restaurant at the Disznókő estate alongside Route 37, built in a mid-19th-century classical style. Features seasonal table recommendations refreshed continuously; wine-and-appetizer menus pairing dishes with Disznókő and leading Tokaj wines.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://sargaborhaz.hu/",
+        "address_quoted": "Disznókő dűlő, 37-es főút mellett",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g5601979-d7001941-Reviews-Sarga_Borhaz-Mezozombor_Borsod_Abauj_Zemplen_County_Northern_Hungary.html",
+        "cuisine_evidence_url": "https://www.disznoko.hu/en/visite/wine-tasting-and-wine-shop",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "percze-mad-restaurant",
+      "name": "Percze Étterem",
+      "address": "Árpád utca 70, 3909 Mád, Hungary",
+      "neighborhood": "Mád",
+      "cuisine": "Modern Hungarian cuisine with Szepsy wine pairings; vineyard views",
+      "cellar_size": null,
+      "awards": [],
+      "description": "Restaurant and wine experience centre in Mád with panoramic vineyard views through floor-to-ceiling windows. Partnered with Szepsy winery; comprehensive Szepsy wine list with modern Hungarian dishes from fresh local produce.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.tripadvisor.com/Restaurant_Review-g274903-d10374941-Reviews-Percze_Elmenykozpont_Etterem-Mad_Borsod_Abauj_Zemplen_County_Northern_Hungary.html",
+        "address_quoted": "Mád, Árpád u. 70, Hungary",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g274903-d10374941-Reviews-Percze_Elmenykozpont_Etterem-Mad_Borsod_Abauj_Zemplen_County_Northern_Hungary.html",
+        "cuisine_evidence_url": "https://bartapince.com/en/shops-and-restaurants/",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "degenfeld-castle-restaurant",
+      "name": "Gróf Degenfeld Étterem",
+      "address": "Terézia kert 9, 3915 Tarcal, Hungary",
+      "neighborhood": "Tarcal",
+      "cuisine": "Hungarian regional cuisine paired with estate Furmint, Hárslevelű, and Aszú wines",
+      "cellar_size": null,
+      "awards": [],
+      "description": "Restaurant at the Gróf Degenfeld Castle Hotel, set in a vineyard manor in Tarcal. Chef-led pairings with estate wines; cellar visits integrate with dining; 35 ha of estate vines visible from dining room.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://grofdegenfeld.com/en/",
+        "address_quoted": "3915 Tarcal, Terézia kert 9.",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Hotel_Review-g1099212-d1741604-Reviews-Grof_Degenfeld_Castle_Hotel-Tarcal_Borsod_Abauj_Zemplen_County_Northern_Hungary.html",
+        "cuisine_evidence_url": null,
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "winestone-restaurant-tokaj",
+      "name": "Winestone Étterem at Mercure Tokaj Center",
+      "address": "Rákóczi utca 5, 3910 Tokaj, Hungary",
+      "neighborhood": "Tokaj town",
+      "cuisine": "Hungarian and international cuisine; 120-wine Tokaj-focused cellar",
+      "cellar_size": 120,
+      "awards": [],
+      "description": "In-hotel restaurant at the Mercure Tokaj Center on the main street in Tokaj. Cellar-style interior with 120 local wines; Hungarian classics and international dishes; summer riverfront terrace on the Bodrog.",
+      "editorial_score": 4.1,
+      "verified": {
+        "source_url": "https://mercurehoteltokaj.hu/",
+        "address_quoted": "Rakoczi utca 5, 3910, Tokaj, Hungary",
+        "open_status": "open",
+        "open_evidence_url": "https://all.accor.com/hotel/B9B1/index.en.shtml",
+        "cuisine_evidence_url": "https://www.tripadvisor.co.uk/Hotel_Review-g657261-d965989-Reviews-Mercure_Tokaj_Center-Tokaj_Borsod_Abauj_Zemplen_County_Northern_Hungary.html",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "tortuga-restaurant-minaro",
+      "name": "Tortuga Restaurant at Minaro Hotel Tokaj",
+      "address": "Csurgó völgyi út, 3910 Tokaj, Hungary",
+      "neighborhood": "Tokaj",
+      "cuisine": "Modern European and Hungarian gourmet cuisine; Tokaj wine program with regional producers",
+      "cellar_size": null,
+      "awards": [],
+      "description": "Signature restaurant at the five-star Minaro MGallery Hotel with panoramic views of the UNESCO-listed wine region. Gastronomy masterclasses and cooking demonstrations offered alongside wine programmes featuring Béres, Oremus, among others.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.minaromgallery.hu/en/",
+        "address_quoted": "Csurgó völgyi út 3910 TOKAJ HUNGARY",
+        "open_status": "open",
+        "open_evidence_url": "https://mgallery.accor.com/en/hotels/C096.html",
+        "cuisine_evidence_url": "https://mgallery.accor.com/en/hotels/C096/offers/explore-the-tokaj-wine-region.html",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "fueleky-pince-restaurant-bodrogkeresztur",
+      "name": "Füleky Pincészet Guesthouse Restaurant",
+      "address": "Iskola köz 15, 3916 Bodrogkeresztúr, Hungary",
+      "neighborhood": "Bodrogkeresztúr",
+      "cuisine": "Hungarian regional cuisine with estate Tokaj wine pairings; cellar dinners",
+      "cellar_size": null,
+      "awards": [],
+      "description": "Guesthouse restaurant at Füleky winery's 18th-century Baroque mansion in Bodrogkeresztúr. Dinner menus, cellar visits and wine events; six ensuite double bedrooms for overnight guests. Estate owns 25 ha in top Tokaj vineyards.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://bodrogkeresztur.eu/en/venue/fuleky-winery",
+        "address_quoted": "H-3916 Bodrogkeresztúr, Iskola köz 15",
+        "open_status": "open",
+        "open_evidence_url": "https://tokajiborlovagrend.hu/en/wineries/wineries-2018/fuleky-winery-2018/",
+        "cuisine_evidence_url": null,
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "laborbistro-tokaj",
+      "name": "LaBor Bistro",
+      "address": "Rákóczi utca, 3910 Tokaj, Hungary",
+      "neighborhood": "Tokaj town",
+      "cuisine": "Modern bistro with local ingredients and Tokaj-Hegyalja wine pairings",
+      "cellar_size": null,
+      "awards": [],
+      "description": "Modern bistro in central Tokaj focusing on local seasonal ingredients paired with Tokaj-Hegyalja wines. Relaxed contemporary format with a well-curated regional wine list.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.winetravelguides.com/hungary/tokaj/tokaj-hegyalja-tokaj",
+        "address_quoted": "Rákóczi utca, Tokaj",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Restaurants-g657261-Tokaj_Borsod_Abauj_Zemplen_County_Northern_Hungary.html",
+        "cuisine_evidence_url": "https://www.winetravelguides.com/hungary/tokaj/tokaj-hegyalja-tokaj",
+        "checked_on": "2026-05-29"
+      }
+    },
+    {
+      "slug": "barta-pince-restaurant-mad",
+      "name": "Barta Pince Restaurant",
+      "address": "Rákóczi utca 83, 3909 Mád, Hungary",
+      "neighborhood": "Mád",
+      "cuisine": "Hungarian regional cuisine with Barta estate wine programme",
+      "cellar_size": null,
+      "awards": [],
+      "description": "Restaurant associated with Barta Winery and the Rákóczi-Aspremont Mansion in Mád. Estate wines including organic Furmint cuvées are paired with traditional Zemplén dishes; accommodation in the historic 17th-century mansion.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://bartapince.com/en/shops-and-restaurants/",
+        "address_quoted": "Rákóczi utca 83, 3909 Mád",
+        "open_status": "open",
+        "open_evidence_url": "https://bartapince.com/en/",
+        "cuisine_evidence_url": "https://bartapince.com/en/tokaj-wine-region/",
+        "checked_on": "2026-05-29"
+      }
+    }
+  ]
+}

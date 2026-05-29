@@ -733,6 +733,18 @@
       ]
     },
     {
+      "slug": "furmint",
+      "display": "Furmint",
+      "regions": [
+        {
+          "country_slug": "hungary",
+          "region_slug": "tokaj",
+          "region_name": "Tokaj",
+          "n": 74
+        }
+      ]
+    },
+    {
       "slug": "gamay",
       "display": "Gamay",
       "regions": [
@@ -1015,6 +1027,18 @@
       ]
     },
     {
+      "slug": "harslevelu",
+      "display": "Hárslevelű",
+      "regions": [
+        {
+          "country_slug": "hungary",
+          "region_slug": "tokaj",
+          "region_name": "Tokaj",
+          "n": 67
+        }
+      ]
+    },
+    {
       "slug": "inzolia",
       "display": "Inzolia",
       "regions": [
@@ -1023,6 +1047,30 @@
           "region_slug": "sicily",
           "region_name": "Sicily",
           "n": 18
+        }
+      ]
+    },
+    {
+      "slug": "kabar",
+      "display": "Kabar",
+      "regions": [
+        {
+          "country_slug": "hungary",
+          "region_slug": "tokaj",
+          "region_name": "Tokaj",
+          "n": 1
+        }
+      ]
+    },
+    {
+      "slug": "koverszolo",
+      "display": "Kövérszőlő",
+      "regions": [
+        {
+          "country_slug": "hungary",
+          "region_slug": "tokaj",
+          "region_name": "Tokaj",
+          "n": 1
         }
       ]
     },
@@ -1975,6 +2023,30 @@
       ]
     },
     {
+      "slug": "sarga-muskotaly",
+      "display": "Sárga Muskotály",
+      "regions": [
+        {
+          "country_slug": "hungary",
+          "region_slug": "tokaj",
+          "region_name": "Tokaj",
+          "n": 30
+        }
+      ]
+    },
+    {
+      "slug": "sargamuskotaly",
+      "display": "Sárgamuskotály",
+      "regions": [
+        {
+          "country_slug": "hungary",
+          "region_slug": "tokaj",
+          "region_name": "Tokaj",
+          "n": 8
+        }
+      ]
+    },
+    {
       "slug": "sauvignon-blanc",
       "display": "Sauvignon Blanc",
       "regions": [
@@ -2528,6 +2600,18 @@
           "country_slug": "germany",
           "region_slug": "mosel",
           "region_name": "Mosel",
+          "n": 5
+        }
+      ]
+    },
+    {
+      "slug": "zeta",
+      "display": "Zéta",
+      "regions": [
+        {
+          "country_slug": "hungary",
+          "region_slug": "tokaj",
+          "region_name": "Tokaj",
           "n": 5
         }
       ]
