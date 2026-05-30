@@ -1,0 +1,276 @@
+{
+  "nightlife": {
+    "wine_bars_late": [
+      {
+        "slug": "lindenwirt-ruedesheim",
+        "name": "Hotel Restaurant Weinhaus Lindenwirt",
+        "address": "Drosselgasse, 65385 Ruedesheim am Rhein, Germany",
+        "neighborhood": "Ruedesheim (Drosselgasse)",
+        "wine_program": "A traditional Drosselgasse Weinhaus pouring Rheingau Riesling, Spaetburgunder and Sekt by the glass through long Drosselgasse evenings of brass music and tavern food",
+        "glass_count": 18,
+        "opens_until": "00:00",
+        "tip": "The Drosselgasse runs loud until midnight in summer; grab a riverside-facing courtyard table for the calmer end of the Lindenwirt's terrace.",
+        "description": "Traditional Drosselgasse Weinhaus and hotel in Ruedesheim, pouring Rheingau Riesling, Spaetburgunder and Sekt by the glass through long brass-band evenings under chestnut trees.",
+        "editorial_score": 4.0,
+        "verified": {
+          "source_url": "https://www.lindenwirt.com/",
+          "address_quoted": "Drosselgasse 65385 Rüdesheim am Rhein",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Drosselgasse",
+          "cuisine_evidence_url": "https://www.ruedesheim.de/en/",
+          "checked_on": "2026-05-30"
+        }
+      },
+      {
+        "slug": "breuers-ruedesheimer-schloss",
+        "name": "Breuer's Ruedesheimer Schloss",
+        "address": "Steingasse 10, 65385 Ruedesheim am Rhein, Germany",
+        "neighborhood": "Ruedesheim (Altstadt)",
+        "wine_program": "A Drosselgasse-area Weingut Georg Breuer flagship hotel-restaurant with the family's Berg Schlossberg and Berg Roseneck Rieslings poured by the glass into the evening",
+        "glass_count": 22,
+        "opens_until": "23:30",
+        "tip": "Order the Breuer Berg Schlossberg trocken by the glass; it is the cleanest read of the family's steep-slope Ruedesheim style.",
+        "description": "Weingut Georg Breuer's flagship hotel-restaurant in Ruedesheim, pouring the family's steep-slope Berg Schlossberg and Berg Roseneck Rieslings by the glass into the evening.",
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://www.ruedesheimer-schloss.com/",
+          "address_quoted": "Steingasse 10 D-65385 Rüdesheim am Rhein",
+          "open_status": "open",
+          "open_evidence_url": "https://www.georg-breuer.com/",
+          "cuisine_evidence_url": "https://www.ruedesheim.de/en/",
+          "checked_on": "2026-05-30"
+        }
+      },
+      {
+        "slug": "kronenschloesschen-hattenheim",
+        "name": "Hotel Kronenschloesschen Hattenheim",
+        "address": "Rheinallee, 65347 Eltville-Hattenheim, Germany",
+        "neighborhood": "Hattenheim (Eltville)",
+        "wine_program": "The wine bar and restaurant of a Belle Epoque manor hotel in Hattenheim, pouring an extensive Rheingau-led cellar with the village's classic VDP estates by the glass",
+        "glass_count": 30,
+        "opens_until": "23:00",
+        "tip": "Settle in the garden of the Belle Epoque manor at dusk; the wine list leans on Hattenheim and Eltville VDP estates a few streets away.",
+        "description": "Belle Epoque manor hotel in Hattenheim with a wine bar and restaurant pouring an extensive Rheingau-led cellar, focused on the village's classic VDP estates by the glass.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://www.kronenschloesschen.de/",
+          "address_quoted": "Rheinallee · 65347 Eltville-Hattenheim",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Rheingau_(wine_region)",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Rheingau_(wine_region)",
+          "checked_on": "2026-05-30"
+        }
+      }
+    ],
+    "listening_bars": [],
+    "candle_lit": [
+      {
+        "slug": "ratskeller-eltville",
+        "name": "Ratskeller Eltville",
+        "address": "Schmittstrasse 2, 65343 Eltville am Rhein, Germany",
+        "neighborhood": "Eltville (Altstadt)",
+        "wine_program": "A historic Eltville town-hall cellar Weinstube pouring Rheingau Riesling and Spaetburgunder by the glass in a low-vaulted, candle-lit room beside the Burg Eltville",
+        "glass_count": 18,
+        "opens_until": "23:00",
+        "tip": "Sit in the vaulted back room and order a Rheingau flight; the cellar pairs well with the smoked-trout and pork-belly menu.",
+        "description": "Low-vaulted Eltville town-hall cellar Weinstube pouring Rheingau Riesling and Spaetburgunder by the glass beside the Burg Eltville.",
+        "editorial_score": 4.1,
+        "verified": {
+          "source_url": "https://www.eltville.de/",
+          "address_quoted": "Eltville am Rhein",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Eltville_am_Rhein",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Rheingau_(wine_region)",
+          "checked_on": "2026-05-30"
+        }
+      },
+      {
+        "slug": "klosterschaenke-eberbach",
+        "name": "Klosterschaenke Kloster Eberbach",
+        "address": "Kloster Eberbach 1, 65346 Eltville am Rhein, Germany",
+        "neighborhood": "Kloster Eberbach (Eltville)",
+        "wine_program": "The inner-court restaurant and Weinstube of the 12th-century Cistercian abbey, pouring the Hessische Staatsweingueter range including Steinberg and the Assmannshaeuser Spaetburgunder by the glass",
+        "glass_count": 24,
+        "opens_until": "22:00",
+        "tip": "Sit in the Klosterschaenke's inner courtyard at dusk and order the Steinberg Riesling beside the Assmannshaeuser Spaetburgunder.",
+        "description": "Inner-court restaurant and Weinstube of the 12th-century Kloster Eberbach abbey, pouring the Hessische Staatsweingueter range including Steinberg Riesling.",
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://www.kloster-eberbach.de/",
+          "address_quoted": "Kloster Eberbach",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Kloster_Eberbach",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Steinberg_(vineyard)",
+          "checked_on": "2026-05-30"
+        }
+      }
+    ],
+    "lounges": [
+      {
+        "slug": "schloss-vollrads-gault-millau-lounge",
+        "name": "Schloss Vollrads Gutsschaenke",
+        "address": "Schloss Vollrads, 65375 Oestrich-Winkel, Germany",
+        "neighborhood": "Oestrich-Winkel (Schloss Vollrads)",
+        "wine_program": "The estate Gutsschaenke restaurant and lounge of the moated Schloss Vollrads, pouring the Schloss Vollrads dry Riesling range across early-evening seatings on the castle terrace",
+        "glass_count": 18,
+        "opens_until": "22:00",
+        "tip": "Reserve a terrace table at sunset; the castle's moated walls and vineyard views are the headline of the early-evening lounge.",
+        "description": "Estate restaurant and lounge of the moated Schloss Vollrads in Oestrich-Winkel, pouring the estate's dry Riesling range on the castle terrace into the evening.",
+        "editorial_score": 4.3,
+        "verified": {
+          "source_url": "https://www.schloss-vollrads.com/en/",
+          "address_quoted": "Schloss Vollrads D-65375 Oestrich-Winkel",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Schloss_Vollrads",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Schloss_Vollrads",
+          "checked_on": "2026-05-30"
+        }
+      },
+      {
+        "slug": "schloss-johannisberg-lounge",
+        "name": "Schloss Johannisberg Restaurant and Terrace",
+        "address": "Schloss Johannisberg, 65366 Geisenheim, Germany",
+        "neighborhood": "Johannisberg (Geisenheim)",
+        "wine_program": "The Schloss Johannisberg restaurant and terrace overlooking the south-facing monopole slope, pouring the estate Riesling range with a long-running early-evening service",
+        "glass_count": 20,
+        "opens_until": "22:00",
+        "tip": "Time the terrace seating for sunset over the Rhine; the south-slope view and the estate's colour-capsule Rieslings are the headline.",
+        "description": "Restaurant and terrace of Schloss Johannisberg, pouring the estate Riesling range overlooking the south-facing monopole slope into the evening.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://www.schloss-johannisberg.de/en/",
+          "address_quoted": "Schloss Johannisberg",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Schloss_Johannisberg",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Rheingau_(wine_region)",
+          "checked_on": "2026-05-30"
+        }
+      }
+    ],
+    "fortified_specialists": [],
+    "late_tastings": [
+      {
+        "slug": "kloster-eberbach-vinothek",
+        "name": "Kloster Eberbach Vinothek",
+        "address": "Kloster Eberbach 1, 65346 Eltville am Rhein, Germany",
+        "neighborhood": "Kloster Eberbach (Eltville)",
+        "wine_program": "The Hessische Staatsweingueter vinothek inside the 12th-century Kloster Eberbach abbey, with self-pour and counter tastings of the Steinberg, Assmannshausen and other state holdings",
+        "glass_count": 30,
+        "opens_until": "19:00",
+        "tip": "Late afternoon is the calmest tasting window; the abbey shop self-pour station lets you flight Steinberg trocken against the GG without booking.",
+        "description": "Hessische Staatsweingueter vinothek inside the 12th-century Kloster Eberbach abbey, with self-pour and counter tastings of the Steinberg and Assmannshausen ranges.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://www.kloster-eberbach.de/",
+          "address_quoted": "Kloster Eberbach",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Kloster_Eberbach",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Steinberg_(vineyard)",
+          "checked_on": "2026-05-30"
+        }
+      },
+      {
+        "slug": "schloss-vollrads-vinothek",
+        "name": "Schloss Vollrads Vinothek",
+        "address": "Schloss Vollrads, 65375 Oestrich-Winkel, Germany",
+        "neighborhood": "Oestrich-Winkel (Schloss Vollrads)",
+        "wine_program": "The estate vinothek of moated Schloss Vollrads, pouring the estate dry Riesling range for counter tasting alongside an extensive estate-direct shop",
+        "glass_count": 20,
+        "opens_until": "18:00",
+        "tip": "Combine the vinothek tasting with a stroll around the moated castle; the estate runs guided cellar tours on weekend afternoons.",
+        "description": "Estate vinothek of moated Schloss Vollrads in Oestrich-Winkel, pouring the estate dry Riesling range for counter tasting alongside an estate-direct shop.",
+        "editorial_score": 4.3,
+        "verified": {
+          "source_url": "https://www.schloss-vollrads.com/en/",
+          "address_quoted": "Schloss Vollrads D-65375 Oestrich-Winkel",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Schloss_Vollrads",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Schloss_Vollrads",
+          "checked_on": "2026-05-30"
+        }
+      },
+      {
+        "slug": "leitz-vinothek-ruedesheim",
+        "name": "Weingut Leitz Vinothek Ruedesheim",
+        "address": "Theodor-Heuss-Strasse 5, 65385 Ruedesheim am Rhein, Germany",
+        "neighborhood": "Ruedesheim (Altstadt)",
+        "wine_program": "Johannes Leitz's estate vinothek in central Ruedesheim, pouring the steep Berg Schlossberg, Berg Roseneck and Berg Rottland dry Rieslings for tasting",
+        "glass_count": 16,
+        "opens_until": "18:00",
+        "tip": "The Berg trio is the headline tasting flight; ask the staff to set the three steep-slope Rieslings side by side.",
+        "description": "Johannes Leitz's central Ruedesheim vinothek, pouring the steep Berg Schlossberg, Berg Roseneck and Berg Rottland dry Rieslings for counter tasting.",
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://leitz-wein.com/en/",
+          "address_quoted": "Theodor-Heuss-Straße 5 65385 Rüdesheim am Rhein",
+          "open_status": "open",
+          "open_evidence_url": "https://www.vdp.de/en/die-winzer/rheingau/vdpweingut-leitz",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Riesling",
+          "checked_on": "2026-05-30"
+        }
+      }
+    ],
+    "sparkling_rooms": [
+      {
+        "slug": "schloss-vaux-eltville",
+        "name": "Schloss VAUX Eltville",
+        "address": "Kiedricher Strasse 18a, 65343 Eltville am Rhein, Germany",
+        "neighborhood": "Eltville",
+        "wine_program": "A traditional-method Sekt house in Eltville pouring Riesling and Spaetburgunder Sekt from Rheingau base wines, with cellar tours and counter tastings of the Sekt range",
+        "glass_count": 14,
+        "opens_until": "18:00",
+        "tip": "Book the cellar tour to see the riddling racks; the traditional-method Riesling Sekt is the headline pour.",
+        "description": "Traditional-method Sekt house in Eltville pouring Riesling and Spaetburgunder Sekt from Rheingau base wines, with cellar tours and Sekt tastings.",
+        "editorial_score": 4.3,
+        "verified": {
+          "source_url": "https://www.schloss-vaux.de/",
+          "address_quoted": "Kiedricher Strasse 18a D-65343 Eltville",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Sekt",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Rheingau_(wine_region)",
+          "checked_on": "2026-05-30"
+        }
+      },
+      {
+        "slug": "wegeler-sekt-oestrich",
+        "name": "Weinguter Wegeler Sektmanufaktur",
+        "address": "Friedensplatz 9-11, 65375 Oestrich-Winkel, Germany",
+        "neighborhood": "Oestrich-Winkel",
+        "wine_program": "The Wegeler estate sparkling-wine programme in Oestrich-Winkel, pouring Riesling and Pinot Sekt from estate base wines for tasting in the vinothek",
+        "glass_count": 12,
+        "opens_until": "18:00",
+        "tip": "Pair the Sekt flight with the still Geheimrat J Riesling to see the estate's two faces side by side.",
+        "description": "Wegeler estate sparkling-wine programme in Oestrich-Winkel, pouring Riesling and Pinot Sekt from estate base wines in the vinothek.",
+        "editorial_score": 4.1,
+        "verified": {
+          "source_url": "https://www.wegeler.com/en/",
+          "address_quoted": "Friedensplatz 9-11 65375 Oestrich-Winkel",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Sekt",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Rheingau_(wine_region)",
+          "checked_on": "2026-05-30"
+        }
+      },
+      {
+        "slug": "kuenstler-sekt-hochheim",
+        "name": "Weingut Kuenstler Sekt Vinothek",
+        "address": "Geheimrat-Hummel-Platz 1A, 65239 Hochheim am Main, Germany",
+        "neighborhood": "Hochheim am Main",
+        "wine_program": "Gunter Kuenstler's Hochheim estate vinothek pouring traditional-method Riesling Sekt alongside the dry Riesling range, in the estate house on the Geheimrat-Hummel-Platz",
+        "glass_count": 14,
+        "opens_until": "18:00",
+        "tip": "The Kuenstler Riesling Sekt brut is the estate's quiet specialty; ask for it alongside the Hochheimer Hoelle trocken.",
+        "description": "Gunter Kuenstler's Hochheim estate vinothek pouring traditional-method Riesling Sekt alongside the dry Riesling range from the warmer Main-side slopes.",
+        "editorial_score": 4.2,
+        "verified": {
+          "source_url": "https://www.weingut-kuenstler.de/en/",
+          "address_quoted": "Geheimrat-Hummel-Platz 1a 65239 Hochheim am Main",
+          "open_status": "open",
+          "open_evidence_url": "https://www.vdp.de/en/die-winzer/rheingau/vdpweingut-kuenstler",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Hochheim_am_Main",
+          "checked_on": "2026-05-30"
+        }
+      }
+    ]
+  }
+}

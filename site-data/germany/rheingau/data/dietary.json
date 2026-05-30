@@ -1,0 +1,75 @@
+{
+  "dietary": {
+    "biodynamic": [
+      {
+        "slug": "peter-jakob-kuhn-biodynamic",
+        "name": "Weingut Peter Jakob Kuhn",
+        "vineyard_ref": "peter-jakob-kuehn",
+        "address": "Mühlstraße 70, 65375 Oestrich-Winkel, Germany",
+        "neighborhood": "Oestrich-Winkel",
+        "biodynamic_status": "demeter_certified",
+        "biodynamic_certifier": "Demeter",
+        "organic_status": "organic_certified",
+        "certified_year": 2009,
+        "description": "Peter Jakob Kuhn farmed biodynamic from 2004 and was Demeter-certified from 2009, working the Doosberg, Lenchen, Hendelberg and Jungfer for low-intervention dry Riesling and Spaetburgunder in Oestrich.",
+        "tip": "Compare the Doosberg and Lenchen dry Rieslings side by side; the same biodynamic farming reads two single sites a few hundred metres apart.",
+        "editorial_score": 4.6,
+        "verified": {
+          "source_url": "https://www.vdp.de/en/die-winzer/rheingau/vdpweingut-peter-jakob-kuehn",
+          "address_quoted": "Mühlstraße 70 65375 Oestrich",
+          "open_status": "open",
+          "open_evidence_url": "https://www.weingutpjkuehn.de/",
+          "cuisine_evidence_url": "https://demeter.de/",
+          "checked_on": "2026-05-30"
+        }
+      },
+      {
+        "slug": "prinz-biodynamic",
+        "name": "Weingut Prinz",
+        "vineyard_ref": "weingut-prinz",
+        "address": "Im Flachsgarten 5, 65375 Oestrich-Winkel-Hallgarten, Germany",
+        "neighborhood": "Hallgarten (Oestrich-Winkel)",
+        "biodynamic_status": "biodynamic_practicing",
+        "organic_status": "organic_certified",
+        "certified_year": 2013,
+        "description": "Fred Prinz at Hallgarten works the Hendelberg, Jungfer and Schoenhell to biodynamic principles, certified organic from 2013, with the cooler hill-village altitude shaping a sharper, savoury dry-Riesling style.",
+        "tip": "The Hallgartener Hendelberg GG is the wine to find; pair it with neighbour Peter Jakob Kuhn for a back-to-back biodynamic comparison.",
+        "editorial_score": 4.3,
+        "verified": {
+          "source_url": "https://www.weingutprinz.de/",
+          "address_quoted": "Im Flachsgarten 5",
+          "open_status": "open",
+          "open_evidence_url": "https://www.vdp.de/en/die-winzer/rheingau/vdpweingut-prinz",
+          "cuisine_evidence_url": "https://www.vdp.de/en/die-winzer/rheingau/vdpweingut-prinz",
+          "checked_on": "2026-05-30"
+        }
+      }
+    ],
+    "organic": [
+      {
+        "slug": "baron-knyphausen-organic",
+        "name": "Weingut Baron Knyphausen",
+        "vineyard_ref": "baron-knyphausen",
+        "address": "Erbacher Strasse 28, 65346 Eltville-Erbach, Germany",
+        "neighborhood": "Erbach (Eltville)",
+        "biodynamic_status": "none",
+        "organic_status": "organic_certified",
+        "certified_year": 2021,
+        "description": "An Erbach VDP family estate fully transitioned to organic wine production from 2021, with the historic Erbacher Marcobrunn and Kiedrich parcels in the line-up alongside classical dry Riesling and Spaetburgunder.",
+        "tip": "The Marcobrunn GG and Kiedrich Wasseros are the picks; visit the estate vinothek on weekday afternoons for quieter tasting.",
+        "editorial_score": 4.3,
+        "verified": {
+          "source_url": "https://www.vdp.de/en/die-winzer/rheingau/vdpweingut-baron-knyphausen",
+          "address_quoted": "Erbacher Strasse 28 65346 Eltville-Erbach",
+          "open_status": "open",
+          "open_evidence_url": "https://www.baron-knyphausen.de/",
+          "cuisine_evidence_url": "https://baron-knyphausen.de/en/",
+          "checked_on": "2026-05-30"
+        }
+      }
+    ],
+    "natural": [],
+    "vegan_winemaking": [],
+    "lowsulfite": []
+  }
+}

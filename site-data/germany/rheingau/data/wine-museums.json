@@ -1,0 +1,104 @@
+{
+  "wine_museums": [
+    {
+      "slug": "kloster-eberbach-monastery-museum",
+      "name": "Kloster Eberbach Monastery and Wine Cellar Museum",
+      "address": "Kloster Eberbach, 65346 Eltville am Rhein, Germany",
+      "neighborhood": "Kloster Eberbach, Eltville",
+      "description": "The 1136 Cistercian abbey above Eltville with cloisters, dormitory, refectory and historic wine cellars. Tours present Cistercian viticulture and the abbey's role as cradle of Rheingau Riesling.",
+      "admission": "Monastery entry with tour and tasting ticket options; combined Vinothek tasting flights",
+      "permanent_collection": true,
+      "temporary_exhibitions": true,
+      "tasting_bar": true,
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://kloster-eberbach.de/en",
+        "address_quoted": "Kloster Eberbach, 65346 Eltville am Rhein",
+        "open_status": "open",
+        "open_evidence_url": "https://wineinternationalassociation.org/kloster-eberbach-winery/",
+        "cuisine_evidence_url": "https://www.rheingau.com/en/infosystem/klosterschaenke-eberbach/poi.html",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "hochheimer-weinbaumuseum",
+      "name": "Hochheimer Weinbaumuseum",
+      "address": "Burgeffstrasse 30, 65239 Hochheim am Main, Germany",
+      "neighborhood": "Hochheim am Main",
+      "description": "Town wine-growing museum in a 1902 vaulted cellar in Hochheim am Main, opened 2010. Three rooms trace vineyard work, grape pressing and bottling, with special focus on Sekt production begun in Hochheim in 1832.",
+      "admission": "Standard admission EUR 2; museum wine evenings on the third Sunday of the month",
+      "permanent_collection": true,
+      "temporary_exhibitions": false,
+      "tasting_bar": true,
+      "editorial_score": 4.1,
+      "verified": {
+        "source_url": "https://www.hochheim-tourismus.de/wein-und-genuss/hochheimer-weinbaumuseum",
+        "address_quoted": "Burgeffstraße 30/Le Pontet-Platz, 65239 Hochheim am Main",
+        "open_status": "open",
+        "open_evidence_url": "https://www.rheingau.com/en/infosystem/hochheimer-weinbaumuseum/poi.html",
+        "cuisine_evidence_url": "https://www.hochheim-tourismus.de/wein-und-genuss/hochheimer-weinbaumuseum",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "asbach-visitor-centre-museum",
+      "name": "Asbach Visitor Centre",
+      "address": "Ingelheimer Strasse 4, 65385 Ruedesheim am Rhein, Germany",
+      "neighborhood": "Ruedesheim am Rhein",
+      "description": "Visitor centre and museum of the Asbach Weinbrand house founded 1892. Tours and exhibits present the production of Asbach Uralt brandy, from distillation through oak ageing, with tastings of the current range.",
+      "admission": "Guided tour with film, demonstration and tasting; pre-booked Saturdays at 10:00",
+      "permanent_collection": true,
+      "temporary_exhibitions": false,
+      "tasting_bar": true,
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.ruedesheim.de/en/tours/asbach-visitors-centre-01/poi.html",
+        "address_quoted": "Ingelheimer Straße 4, 65385 Rüdesheim am Rhein",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g187345-d6796010-Reviews-Asbach_GmbH-Ruedesheim_am_Rhein_Hesse.html",
+        "cuisine_evidence_url": "https://www.rheingau.com/en/infosystem/fuehrung-im-asbach-besucher-center/poi.html",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "schloss-johannisberg-bibliotheca-subterranea",
+      "name": "Schloss Johannisberg Bibliotheca Subterranea",
+      "address": "Schloss Johannisberg, 65366 Geisenheim-Johannisberg, Germany",
+      "neighborhood": "Johannisberg, Geisenheim",
+      "description": "Cellar museum at Schloss Johannisberg housing 25,000 wine bottles with the oldest from 1748. The Bibliotheca Subterranea forms part of the cellar built around 1100 by Benedictine monks above Geisenheim.",
+      "admission": "Cellar tour with tasting bookable for groups; Vinothek open daily",
+      "permanent_collection": true,
+      "temporary_exhibitions": false,
+      "tasting_bar": true,
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://schloss-johannisberg.de/en/visit-experience/",
+        "address_quoted": "Schloss Johannisberg, 65366 Geisenheim Johannisberg",
+        "open_status": "open",
+        "open_evidence_url": "https://oetker-collection.com/en/the-worlds-50-best-vineyards-2025-schloss-johannisberg-awarded-number-1-in-europe-and-number-2-in-the-world/",
+        "cuisine_evidence_url": "https://vincarta.com/blog/schloss-johannisberg",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "georg-mueller-stiftung-art-cellar",
+      "name": "Georg Mueller Stiftung Art Cellar",
+      "address": "Eberbacher Strasse 7-9, 65347 Eltville-Hattenheim, Germany",
+      "neighborhood": "Hattenheim, Eltville am Rhein",
+      "description": "Art-and-wine museum in the 250-year-old cellar of the Georg Mueller Stiftung estate in Hattenheim, with 1,400 square metres of vaulted cellar housing a contemporary art collection alongside the working winery.",
+      "admission": "Cellar visits and art-cellar tours by arrangement; Vinothek open during shop hours",
+      "permanent_collection": true,
+      "temporary_exhibitions": true,
+      "tasting_bar": true,
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.art-wine-mag.com/wine/georg-muller-stiftung/",
+        "address_quoted": "Eberbacher Straße 7-9, Hattenheim",
+        "open_status": "open",
+        "open_evidence_url": "https://www.georg-mueller-stiftung.de/",
+        "cuisine_evidence_url": "https://wirwinzer.de/weinregionen/rheingau/weingut-georg-mueller-stiftung",
+        "checked_on": "2026-05-30"
+      }
+    }
+  ]
+}

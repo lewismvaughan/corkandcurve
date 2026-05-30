@@ -1,0 +1,229 @@
+{
+  "day_trips_wine": [
+    {
+      "slug": "mosel-riesling",
+      "name": "The Mosel (Bernkastel and the Middle Mosel)",
+      "distance_km": 130,
+      "travel_time": "1h 45m by car from Ruedesheim",
+      "destination_country": "Germany",
+      "destination_region": "Mosel",
+      "signature_pours": [
+        "Mosel Riesling Kabinett",
+        "Mosel Riesling Spaetlese",
+        "Mosel Riesling Grosses Gewaechs"
+      ],
+      "recommended_vineyards": [],
+      "description": "The Rheingau's sister Riesling region west of Koblenz, with the Middle Mosel's steep slate slopes around Bernkastel, Wehlen and Piesport producing featherlight, slatey Riesling at a sharper register than the fuller Rheingau wines.",
+      "tip": "Make it an overnight rather than a day; the Middle Mosel sundial villages need two or three estate stops to read the slate spectrum.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://en.wikipedia.org/wiki/Mosel_(wine_region)",
+        "address_quoted": "Mosel",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Rheingau_(wine_region)",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Riesling",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "rheinhessen-mainz",
+      "name": "Rheinhessen (Mainz, Nierstein, Bingen)",
+      "distance_km": 30,
+      "travel_time": "30 min by car from Ruedesheim",
+      "destination_country": "Germany",
+      "destination_region": "Rheinhessen",
+      "signature_pours": [
+        "Rheinhessen Riesling trocken",
+        "Niersteiner Roter Hang Riesling",
+        "Rheinhessen Spaetburgunder"
+      ],
+      "recommended_vineyards": [],
+      "description": "Directly across the Rhine from the Rheingau, Rheinhessen's Roter Hang slopes between Nierstein and Nackenheim make Germany's other red-slate Riesling, with the urban anchor of Mainz at its eastern edge.",
+      "tip": "Take the Bingen-to-Ruedesheim car ferry across the Rhine; it puts the eastern Roter Hang within a 30-minute drive of any Rheingau base.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://en.wikipedia.org/wiki/Rheinhessen_(wine_region)",
+        "address_quoted": "Rheinhessen",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Rheingau_(wine_region)",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Riesling",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "mittelrhein-loreley",
+      "name": "Mittelrhein (Bacharach and the Loreley)",
+      "distance_km": 35,
+      "travel_time": "35 min by car from Ruedesheim",
+      "destination_country": "Germany",
+      "destination_region": "Mittelrhein",
+      "signature_pours": [
+        "Mittelrhein Riesling trocken",
+        "Bacharacher Riesling",
+        "Mittelrhein Spaetburgunder"
+      ],
+      "recommended_vineyards": [],
+      "description": "Immediately west of the Rheingau down the Rhine, the Mittelrhein runs the Bacharach-Loreley stretch through the UNESCO Upper Middle Rhine Valley, with steep slate vineyards on both banks of the river.",
+      "tip": "Take the boat from Ruedesheim past the Loreley to Bacharach for a vineyard-from-the-river view, then taste at a Bacharach Riesling estate on arrival.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://en.wikipedia.org/wiki/Mittelrhein_(wine_region)",
+        "address_quoted": "Mittelrhein",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Rheingau_(wine_region)",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Riesling",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "nahe-bad-kreuznach",
+      "name": "Nahe (Bad Kreuznach and Schlossboeckelheim)",
+      "distance_km": 60,
+      "travel_time": "55 min by car from Ruedesheim",
+      "destination_country": "Germany",
+      "destination_region": "Nahe",
+      "signature_pours": [
+        "Nahe Riesling trocken",
+        "Schlossboeckelheim Kupfergrube Riesling",
+        "Nahe Spaetburgunder"
+      ],
+      "recommended_vineyards": [],
+      "description": "The Nahe runs west into Bad Kreuznach with volcanic, slate and porphyry soils, making Riesling now ranked beside the Mosel and Rheingau. Schlossboeckelheim Kupfergrube and the Niederhaeuser sites are the headline GG estates.",
+      "tip": "The Nahe's varied soils make for striking side-by-side tasting; group three estates in one afternoon rather than spreading across the valley.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://en.wikipedia.org/wiki/Nahe_(wine_region)",
+        "address_quoted": "Nahe",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Rheingau_(wine_region)",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Riesling",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "pfalz-deidesheim",
+      "name": "Pfalz (Deidesheim and the Mittelhaardt)",
+      "distance_km": 100,
+      "travel_time": "1h 20m by car from Ruedesheim",
+      "destination_country": "Germany",
+      "destination_region": "Pfalz",
+      "signature_pours": [
+        "Pfalz Riesling trocken",
+        "Pfalz Spaetburgunder",
+        "Pfalz Weissburgunder"
+      ],
+      "recommended_vineyards": [],
+      "description": "South of Rheinhessen along the Deutsche Weinstrasse, the Pfalz's Mittelhaardt towns Deidesheim, Forst and Ruppertsberg make fuller, riper Riesling and a serious slice of German Pinot Noir and Pinot Blanc.",
+      "tip": "Pair a Deidesheim Riesling tasting with a Pfalz Pinot Noir stop in Forst or Ruppertsberg; the region runs hotter than the Rheingau and the styles read differently.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://en.wikipedia.org/wiki/Pfalz_(wine_region)",
+        "address_quoted": "Pfalz",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Rheingau_(wine_region)",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Riesling",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "hessische-bergstrasse-bensheim",
+      "name": "Hessische Bergstrasse (Bensheim)",
+      "distance_km": 80,
+      "travel_time": "1h 10m by car from Hochheim",
+      "destination_country": "Germany",
+      "destination_region": "Hessische Bergstrasse",
+      "signature_pours": [
+        "Hessische Bergstrasse Riesling trocken",
+        "Bergstrasse Weissburgunder",
+        "Bergstrasse Spaetburgunder"
+      ],
+      "recommended_vineyards": [],
+      "description": "Southeast of the Rheingau on the warm sandstone slopes between Heppenheim and Darmstadt, the Hessische Bergstrasse covers around 460 hectares across 13 German wine-growing regions, with Bensheim as the anchor town.",
+      "tip": "The Hessische Bergstrasse is small enough for a real half-day; combine Bensheim's Staatsweingut with a Heppenheim village tasting.",
+      "editorial_score": 4.1,
+      "verified": {
+        "source_url": "https://en.wikipedia.org/wiki/Hessische_Bergstrasse",
+        "address_quoted": "Hessische Bergstrasse",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Hessische_Bergstra%C3%9Fe_(wine_region)",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Rheingau_(wine_region)",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "franken-wurzburg",
+      "name": "Franken (Wuerzburg and the Stein)",
+      "distance_km": 200,
+      "travel_time": "2h 10m by car from Hochheim",
+      "destination_country": "Germany",
+      "destination_region": "Franken",
+      "signature_pours": [
+        "Franken Silvaner trocken",
+        "Wuerzburger Stein Silvaner",
+        "Franken Riesling trocken"
+      ],
+      "recommended_vineyards": [],
+      "description": "East of the Rheingau along the Main, Franconia centres on Wuerzburg with the Stein vineyard above the city and a Silvaner-led identity. Bottled in the flat Bocksbeutel, Franken wines run drier and stonier than the Rheingau Rieslings.",
+      "tip": "Make it an overnight in Wuerzburg; the Stein vineyard above the city and the Residenz cellar together earn a full day, not a half.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://en.wikipedia.org/wiki/Franken_(wine_region)",
+        "address_quoted": "Franken",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Rheingau_(wine_region)",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Riesling",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "wiesbaden-spa-city",
+      "name": "Wiesbaden (state capital and spa city)",
+      "distance_km": 25,
+      "travel_time": "25 min by car from Ruedesheim",
+      "destination_country": "Germany",
+      "destination_region": "Wiesbaden",
+      "signature_pours": [
+        "Rheingau Riesling on the Schlossplatz",
+        "Rheingau Spaetburgunder",
+        "Sekt at Henkell Freixenet"
+      ],
+      "recommended_vineyards": [],
+      "description": "Hessen's state capital and a 19th-century spa town just east of the Rheingau, with the Rheingauer Weinwoche on the Schlossplatz in August and the Henkell Freixenet Sekt house on the Wiesbaden-Biebrich edge.",
+      "tip": "Pair Henkell Freixenet's Sektkellerei tour with a Rheingau Riesling night on the Schlossplatz; the city is a 25-minute drive from any river village.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.wiesbaden.de/microsite/rheingauer-weinwoche/index.php",
+        "address_quoted": "Wiesbaden",
+        "open_status": "open",
+        "open_evidence_url": "https://www.henkell-freixenet.com/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Henkell",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "frankfurt-am-main",
+      "name": "Frankfurt am Main (financial capital, Apfelwein and wine bars)",
+      "distance_km": 50,
+      "travel_time": "45 min by car from Hochheim",
+      "destination_country": "Germany",
+      "destination_region": "Frankfurt am Main",
+      "signature_pours": [
+        "Rheingau Riesling at city wine bars",
+        "Frankfurt Apfelwein (apple wine)",
+        "Henkell Sekt"
+      ],
+      "recommended_vineyards": [],
+      "description": "Just east of the Rheingau down the Main, Frankfurt is the urban anchor of the region, with Rheingau-focused wine bars across Sachsenhausen and the Altstadt alongside its own Apfelwein cider tradition.",
+      "tip": "Use Frankfurt as an arrival base; the S-Bahn line out to Hochheim, Wiesbaden and Eltville turns the city into the Rheingau's transport hub.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://en.wikipedia.org/wiki/Frankfurt",
+        "address_quoted": "Frankfurt am Main",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vdp.de/en/",
+        "cuisine_evidence_url": "https://www.wiesbaden.de/microsite/rheingauer-weinwoche/index.php",
+        "checked_on": "2026-05-30"
+      }
+    }
+  ]
+}

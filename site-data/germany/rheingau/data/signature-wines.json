@@ -1,0 +1,634 @@
+{
+  "signature_wines": [
+    {
+      "slug": "silberlack-riesling-gg",
+      "name": "Silberlack Riesling GG",
+      "producer": "schloss-johannisberg",
+      "varietals": [
+        "Riesling"
+      ],
+      "style": "still dry Rheingau Riesling Grosses Gewachs",
+      "vintage_range": "approachable from 5, cellar 5 to 20",
+      "price_band": "EUR 55 to 90 at retail",
+      "tasting_notes": "Schloss Johannisberg's silver-foiled flagship dry Grosses Gewachs from the Johannisberg quartzite slope, with ripe yellow stone fruit, smoky slate and concentrated salty length. Source: schloss-johannisberg.de.",
+      "editorial_score": 4.8,
+      "description": "The silver-foiled flagship dry Grosses Gewachs from the Johannisberg quartzite slope of the 1720 monastic estate.",
+      "verified": {
+        "source_url": "https://schloss-johannisberg.de/en/wines/",
+        "open_status": "open",
+        "checked_on": "2026-05-30",
+        "open_evidence_url": "https://www.vdp.de/de/die-winzer/rheingau/schloss-johannisberg",
+        "cuisine_evidence_url": "https://schloss-johannisberg.de/en/wines/"
+      }
+    },
+    {
+      "slug": "goldlack-riesling-tba",
+      "name": "Goldlack Riesling Trockenbeerenauslese",
+      "producer": "schloss-johannisberg",
+      "varietals": [
+        "Riesling"
+      ],
+      "style": "botrytised Rheingau Riesling Trockenbeerenauslese",
+      "vintage_range": "approachable from 10, cellar 10 to 80",
+      "price_band": "EUR 400 to 900 at retail per 375ml",
+      "tasting_notes": "The gold-foiled Trockenbeerenauslese in the Schloss Johannisberg colour ladder, in the lineage of the 1775 Spaetlese discovery, with liqueur-like candied stone fruit and saffron over racy slate acidity. Source: schloss-johannisberg.de.",
+      "editorial_score": 4.9,
+      "description": "The gold-foiled Schloss Johannisberg Trockenbeerenauslese, late-harvest botrytised Riesling in the 1775 Spaetlese lineage.",
+      "verified": {
+        "source_url": "https://schloss-johannisberg.de/en/wines/",
+        "open_status": "open",
+        "checked_on": "2026-05-30",
+        "open_evidence_url": "https://www.vdp.de/de/die-winzer/rheingau/schloss-johannisberg",
+        "cuisine_evidence_url": "https://www.henkell-freixenet.com/en/news/newsroom/detail/rieslings-since-1720.html"
+      }
+    },
+    {
+      "slug": "gruenlack-riesling-spatlese",
+      "name": "Gruenlack Riesling Spaetlese",
+      "producer": "schloss-johannisberg",
+      "varietals": [
+        "Riesling"
+      ],
+      "style": "fruity-sweet Rheingau Riesling Spaetlese",
+      "vintage_range": "approachable from 4, cellar 5 to 25",
+      "price_band": "EUR 35 to 55 at retail",
+      "tasting_notes": "The green-foiled fruity-style Spaetlese in the Schloss Johannisberg colour ladder, in the lineage of the 1775 Spaetlese discovery, with ripe yellow apple, peach and slate over crisp acidity. Source: schloss-johannisberg.de.",
+      "editorial_score": 4.7,
+      "description": "Schloss Johannisberg's green-foiled fruity-sweet Spaetlese on the Johannisberg quartzite hill.",
+      "verified": {
+        "source_url": "https://schloss-johannisberg.de/en/wines/",
+        "open_status": "open",
+        "checked_on": "2026-05-30",
+        "open_evidence_url": "https://www.vdp.de/de/die-winzer/rheingau/schloss-johannisberg",
+        "cuisine_evidence_url": "https://www.henkell-freixenet.com/en/news/newsroom/detail/rieslings-since-1720.html"
+      }
+    },
+    {
+      "slug": "steinberger-riesling-gg",
+      "name": "Steinberger Riesling GG",
+      "producer": "hessische-staatsweingueter-kloster-eberbach",
+      "varietals": [
+        "Riesling"
+      ],
+      "style": "still dry Rheingau Riesling Grosses Gewachs",
+      "vintage_range": "approachable from 5, cellar 5 to 25",
+      "price_band": "EUR 45 to 70 at retail",
+      "tasting_notes": "The walled-vineyard dry Grosses Gewachs from the 1136 Cistercian Steinberg above Eltville: deep, herbal, smoky Riesling with the structure of a true wall-enclosed cru. Source: kloster-eberbach.de.",
+      "editorial_score": 4.9,
+      "description": "The walled-vineyard dry Grosses Gewachs from the 1136 Cistercian Steinberg above Eltville.",
+      "verified": {
+        "source_url": "https://kloster-eberbach.de/en/wein/weingut",
+        "open_status": "open",
+        "checked_on": "2026-05-30",
+        "open_evidence_url": "https://www.vdp.de/de/die-winzer/rheingau/hessische-staatsweingueter",
+        "cuisine_evidence_url": "https://shop.kloster-eberbach.de/"
+      }
+    },
+    {
+      "slug": "assmannshaeuser-hoellenberg-spatburgunder-gg-staatsweinguter",
+      "name": "Assmannshaeuser Hoellenberg Spaetburgunder GG",
+      "producer": "hessische-staatsweingueter-kloster-eberbach",
+      "varietals": [
+        "Spatburgunder (Pinot Noir)"
+      ],
+      "style": "still dry Rheingau Spaetburgunder Grosses Gewachs",
+      "vintage_range": "approachable from 5, cellar 5 to 25",
+      "price_band": "EUR 50 to 85 at retail",
+      "tasting_notes": "The Hessian state estate's dry Grosses Gewachs Pinot Noir from the red phyllite slate of the Hoellenberg, with sour cherry, red plum and fine slaty grip. Source: kloster-eberbach.de.",
+      "editorial_score": 4.7,
+      "description": "The Hessian state estate's flagship dry Grosses Gewachs Spaetburgunder from the historic German Pinot enclave on red slate.",
+      "verified": {
+        "source_url": "https://kloster-eberbach.de/en/wein/weingut",
+        "open_status": "open",
+        "checked_on": "2026-05-30",
+        "open_evidence_url": "https://www.vdp.de/de/die-winzer/rheingau/hessische-staatsweingueter",
+        "cuisine_evidence_url": "https://kloster-eberbach.de/en/wein/weingut"
+      }
+    },
+    {
+      "slug": "erbacher-marcobrunn-riesling-gg-staatsweinguter",
+      "name": "Erbacher Marcobrunn Riesling GG",
+      "producer": "hessische-staatsweingueter-kloster-eberbach",
+      "varietals": [
+        "Riesling"
+      ],
+      "style": "still dry Rheingau Riesling Grosses Gewachs",
+      "vintage_range": "approachable from 5, cellar 5 to 22",
+      "price_band": "EUR 50 to 80 at retail",
+      "tasting_notes": "The Hessian state estate's dry Grosses Gewachs from the Marcobrunn springwater vineyard on the Erbach bank, dense, broad and mineral. Source: kloster-eberbach.de.",
+      "editorial_score": 4.7,
+      "description": "The Hessian state estate's dry Grosses Gewachs Riesling from the Marcobrunn springwater vineyard.",
+      "verified": {
+        "source_url": "https://kloster-eberbach.de/en/wein/weingut",
+        "open_status": "open",
+        "checked_on": "2026-05-30",
+        "open_evidence_url": "https://www.vdp.de/de/die-winzer/rheingau/hessische-staatsweingueter",
+        "cuisine_evidence_url": "https://shop.kloster-eberbach.de/"
+      }
+    },
+    {
+      "slug": "schlossberg-riesling-gg-vollrads",
+      "name": "Schlossberg Riesling GG",
+      "producer": "schloss-vollrads",
+      "varietals": [
+        "Riesling"
+      ],
+      "style": "still dry Rheingau Riesling Grosses Gewachs",
+      "vintage_range": "approachable from 5, cellar 5 to 22",
+      "price_band": "EUR 45 to 70 at retail",
+      "tasting_notes": "Schloss Vollrads's dry Grosses Gewachs from the steep Schlossberg slope behind the moated Winkel castle, with dense yellow fruit, smoke and slaty length. Source: schlossvollrads.com.",
+      "editorial_score": 4.6,
+      "description": "Schloss Vollrads's dry Grosses Gewachs from the steep Schlossberg slope behind the moated Winkel castle.",
+      "verified": {
+        "source_url": "https://www.schlossvollrads.com/",
+        "open_status": "open",
+        "checked_on": "2026-05-30",
+        "open_evidence_url": "https://www.vdp.de/de/die-winzer/rheingau/schloss-vollrads",
+        "cuisine_evidence_url": "https://www.vdp.de/de/die-winzer/rheingau/schloss-vollrads"
+      }
+    },
+    {
+      "slug": "kiedricher-graefenberg-gg",
+      "name": "Kiedricher Graefenberg Riesling GG",
+      "producer": "robert-weil",
+      "varietals": [
+        "Riesling"
+      ],
+      "style": "still dry Rheingau Riesling Grosses Gewachs",
+      "vintage_range": "approachable from 8, cellar 8 to 30",
+      "price_band": "EUR 70 to 110 at retail",
+      "tasting_notes": "Robert Weil's flagship dry Grosses Gewachs from the steep Kiedricher Graefenberg phyllite slope, deep, smoky and intensely mineral with decades of cellar life. Source: weingut-robert-weil.com.",
+      "editorial_score": 4.9,
+      "description": "Robert Weil's flagship dry Grosses Gewachs from the steep Kiedricher Graefenberg phyllite slope.",
+      "verified": {
+        "source_url": "https://www.weingut-robert-weil.com/en/wines/",
+        "open_status": "open",
+        "checked_on": "2026-05-30",
+        "open_evidence_url": "https://www.vdp.de/de/die-winzer/rheingau/robert-weil",
+        "cuisine_evidence_url": "https://www.weingut-robert-weil.com/en/wines/"
+      }
+    },
+    {
+      "slug": "graefenberg-auslese",
+      "name": "Kiedricher Graefenberg Riesling Auslese",
+      "producer": "robert-weil",
+      "varietals": [
+        "Riesling"
+      ],
+      "style": "botrytised Rheingau Riesling Auslese",
+      "vintage_range": "approachable from 10, cellar 10 to 50",
+      "price_band": "EUR 80 to 160 at retail",
+      "tasting_notes": "Robert Weil's Graefenberg Auslese: botrytised stone-fruit concentration with honey and smoky slate, balanced by racy Kiedrich acidity. Source: weingut-robert-weil.com.",
+      "editorial_score": 4.8,
+      "description": "Robert Weil's botrytised Graefenberg Auslese on the steep Kiedrich phyllite slope.",
+      "verified": {
+        "source_url": "https://www.weingut-robert-weil.com/en/wines/",
+        "open_status": "open",
+        "checked_on": "2026-05-30",
+        "open_evidence_url": "https://www.vdp.de/de/die-winzer/rheingau/robert-weil",
+        "cuisine_evidence_url": "https://www.weingut-robert-weil.com/en/wines/"
+      }
+    },
+    {
+      "slug": "graefenberg-eiswein",
+      "name": "Kiedricher Graefenberg Riesling Eiswein",
+      "producer": "robert-weil",
+      "varietals": [
+        "Riesling"
+      ],
+      "style": "Rheingau Riesling Eiswein",
+      "vintage_range": "approachable from 10, cellar 10 to 60",
+      "price_band": "EUR 400 to 1500 at retail per 375ml",
+      "tasting_notes": "Robert Weil's Eiswein from frozen Riesling berries on the Graefenberg, with candied lemon and frozen peach over razor-sharp acidity. Source: weingut-robert-weil.com.",
+      "editorial_score": 4.9,
+      "description": "Robert Weil's Graefenberg Eiswein from naturally frozen Riesling berries on the Kiedrich phyllite slope.",
+      "verified": {
+        "source_url": "https://www.weingut-robert-weil.com/en/wines/",
+        "open_status": "open",
+        "checked_on": "2026-05-30",
+        "open_evidence_url": "https://www.vdp.de/de/die-winzer/rheingau/robert-weil",
+        "cuisine_evidence_url": "https://www.weingut-robert-weil.com/en/"
+      }
+    },
+    {
+      "slug": "hochheimer-hoelle-gg",
+      "name": "Hochheimer Hoelle Riesling GG",
+      "producer": "weingut-kuenstler",
+      "varietals": [
+        "Riesling"
+      ],
+      "style": "still dry Rheingau Riesling Grosses Gewachs",
+      "vintage_range": "approachable from 5, cellar 5 to 25",
+      "price_band": "EUR 45 to 70 at retail",
+      "tasting_notes": "Gunter Kuenstler's flagship dry Grosses Gewachs from the Hochheim Hoelle chalky loess slope, dense, smoky and intensely savoury. Source: weingut-kuenstler.de.",
+      "editorial_score": 4.8,
+      "description": "Kuenstler's flagship dry Grosses Gewachs Riesling from the Hochheim Hoelle chalky loess slope.",
+      "verified": {
+        "source_url": "https://www.weingut-kuenstler.de/en/vineyards/hochheim/hoelle.html",
+        "open_status": "open",
+        "checked_on": "2026-05-30",
+        "open_evidence_url": "https://www.vdp.de/de/die-winzer/rheingau/kuenstler",
+        "cuisine_evidence_url": "https://www.weingut-kuenstler.de/en/vineyards/hochheim/hoelle.html"
+      }
+    },
+    {
+      "slug": "berg-schlossberg-gg-leitz",
+      "name": "Ruedesheimer Berg Schlossberg Riesling GG",
+      "producer": "leitz",
+      "varietals": [
+        "Riesling"
+      ],
+      "style": "still dry Rheingau Riesling Grosses Gewachs",
+      "vintage_range": "approachable from 6, cellar 6 to 25",
+      "price_band": "EUR 60 to 95 at retail",
+      "tasting_notes": "Johannes Leitz's estate flagship dry Grosses Gewachs from the steep Berg Schlossberg quartzite slope, smoky, taut and intensely mineral with citrus drive. Source: leitz-wein.de.",
+      "editorial_score": 4.8,
+      "description": "Leitz's flagship dry Grosses Gewachs Riesling from the Berg Schlossberg quartzite slope above Ruedesheim.",
+      "verified": {
+        "source_url": "https://www.leitz-wein.de/en/weingut",
+        "open_status": "open",
+        "checked_on": "2026-05-30",
+        "open_evidence_url": "https://www.vdp.de/de/die-winzer/rheingau/leitz",
+        "cuisine_evidence_url": "https://www.leitz-wein.de/en/weingut"
+      }
+    },
+    {
+      "slug": "breuer-berg-schlossberg",
+      "name": "Ruedesheimer Berg Schlossberg Riesling",
+      "producer": "georg-breuer",
+      "varietals": [
+        "Riesling"
+      ],
+      "style": "still dry Rheingau Riesling single-vineyard",
+      "vintage_range": "approachable from 8, cellar 8 to 30",
+      "price_band": "EUR 70 to 110 at retail",
+      "tasting_notes": "Theresa Breuer's flagship dry Riesling from the steep Berg Schlossberg quartzite slope, smoky, taut and intensely mineral with decades of cellar life. Source: georg-breuer.com.",
+      "editorial_score": 4.8,
+      "description": "Theresa Breuer's flagship dry single-vineyard Riesling from the Berg Schlossberg quartzite slope above Ruedesheim.",
+      "verified": {
+        "source_url": "https://www.georg-breuer.com/",
+        "open_status": "open",
+        "checked_on": "2026-05-30",
+        "open_evidence_url": "https://www.ruedesheim.de/en/wineries/weingut-vinothek-georg-breuer/poi.html",
+        "cuisine_evidence_url": "https://www.georg-breuer.com/"
+      }
+    },
+    {
+      "slug": "breuer-rauenthaler-nonnenberg",
+      "name": "Rauenthaler Nonnenberg Riesling",
+      "producer": "georg-breuer",
+      "varietals": [
+        "Riesling"
+      ],
+      "style": "still dry Rheingau Riesling monopole",
+      "vintage_range": "approachable from 5, cellar 5 to 22",
+      "price_band": "EUR 45 to 70 at retail",
+      "tasting_notes": "Breuer's dry Rauenthaler Nonnenberg monopole Riesling: taut, spicy, savoury Riesling with Taunus phyllite minerality. Source: georg-breuer.com.",
+      "editorial_score": 4.6,
+      "description": "Breuer's dry Rauenthaler Nonnenberg monopole Riesling on Taunus phyllite.",
+      "verified": {
+        "source_url": "https://www.georg-breuer.com/",
+        "open_status": "open",
+        "checked_on": "2026-05-30",
+        "open_evidence_url": "https://www.ruedesheim.de/en/wineries/weingut-vinothek-georg-breuer/poi.html",
+        "cuisine_evidence_url": "https://www.georg-breuer.com/"
+      }
+    },
+    {
+      "slug": "kuehn-doosberg-gg",
+      "name": "Oestricher Doosberg Riesling GG",
+      "producer": "peter-jakob-kuehn",
+      "varietals": [
+        "Riesling"
+      ],
+      "style": "biodynamic dry Rheingau Riesling Grosses Gewachs",
+      "vintage_range": "approachable from 5, cellar 5 to 25",
+      "price_band": "EUR 50 to 80 at retail",
+      "tasting_notes": "Peter Jakob Kuhn's biodynamic dry Grosses Gewachs from the Oestricher Doosberg: dense, savoury, salt-driven Riesling under spontaneous fermentation. Source: weingutpjkuehn.de.",
+      "editorial_score": 4.7,
+      "description": "Peter Jakob Kuhn's biodynamic dry Grosses Gewachs Riesling from the Oestricher Doosberg.",
+      "verified": {
+        "source_url": "https://www.weingutpjkuehn.de/",
+        "open_status": "open",
+        "checked_on": "2026-05-30",
+        "open_evidence_url": "https://www.vdp.de/de/die-winzer/rheingau/jakob-kuehn",
+        "cuisine_evidence_url": "https://www.weingutpjkuehn.de/"
+      }
+    },
+    {
+      "slug": "spreitzer-lenchen-gg",
+      "name": "Oestricher Lenchen Riesling GG",
+      "producer": "spreitzer",
+      "varietals": [
+        "Riesling"
+      ],
+      "style": "still dry Rheingau Riesling Grosses Gewachs",
+      "vintage_range": "approachable from 5, cellar 5 to 22",
+      "price_band": "EUR 40 to 60 at retail",
+      "tasting_notes": "The Spreitzer brothers' dry Grosses Gewachs from the Oestricher Lenchen loess and gravel slope: ripe yellow stone fruit and broad mineral palate. Source: weingut-spreitzer.de.",
+      "editorial_score": 4.6,
+      "description": "Spreitzer's dry Grosses Gewachs Riesling from the Oestricher Lenchen.",
+      "verified": {
+        "source_url": "https://www.weingut-spreitzer.de/weine/",
+        "open_status": "open",
+        "checked_on": "2026-05-30",
+        "open_evidence_url": "https://www.vdp.de/de/die-winzer/rheingau/josef-spreitzer",
+        "cuisine_evidence_url": "https://www.weingut-spreitzer.de/weine/"
+      }
+    },
+    {
+      "slug": "fricke-lorcher-krone",
+      "name": "Lorcher Krone Riesling GG",
+      "producer": "eva-fricke",
+      "varietals": [
+        "Riesling"
+      ],
+      "style": "EU-organic dry Rheingau Riesling single-vineyard",
+      "vintage_range": "approachable from 6, cellar 6 to 25",
+      "price_band": "EUR 60 to 95 at retail",
+      "tasting_notes": "Eva Fricke's flagship dry single-vineyard Riesling from the steep Lorcher Krone grey-slate terraces, cool, taut and racy with intense salty minerality. Source: evafricke.com.",
+      "editorial_score": 4.7,
+      "description": "Eva Fricke's flagship dry single-vineyard Riesling from the steep Lorcher Krone grey-slate terraces.",
+      "verified": {
+        "source_url": "https://www.evafricke.com/en/",
+        "open_status": "open",
+        "checked_on": "2026-05-30",
+        "open_evidence_url": "https://www.rheingau-gourmet-festival.de/winzer/weingut-eva-fricke/",
+        "cuisine_evidence_url": "https://www.evafricke.com/en/"
+      }
+    },
+    {
+      "slug": "becker-wallufer-walkenberg",
+      "name": "Wallufer Walkenberg Riesling Spaetlese Trocken",
+      "producer": "weingut-jb-becker",
+      "varietals": [
+        "Riesling"
+      ],
+      "style": "old-school dry Rheingau Riesling Spaetlese Trocken",
+      "vintage_range": "approachable from 8, cellar 8 to 35",
+      "price_band": "EUR 22 to 35 at retail",
+      "tasting_notes": "Hans-Josef Becker's old-school dry Spaetlese Trocken from the Wallufer Walkenberg: dense, savoury, slate-driven Riesling built for decades-long cellar life. Source: jbbecker.de.",
+      "editorial_score": 4.6,
+      "description": "Becker's old-school dry Wallufer Walkenberg Spaetlese Trocken Riesling.",
+      "verified": {
+        "source_url": "https://www.jbbecker.de/",
+        "open_status": "open",
+        "checked_on": "2026-05-30",
+        "open_evidence_url": "https://www.vomboden.com/growers/jb-becker/",
+        "cuisine_evidence_url": "https://www.jbbecker.de/"
+      }
+    },
+    {
+      "slug": "werner-domdechaney-gg",
+      "name": "Hochheimer Domdechaney Riesling GG",
+      "producer": "domdechant-werner",
+      "varietals": [
+        "Riesling"
+      ],
+      "style": "still dry Rheingau Riesling Grosses Gewachs",
+      "vintage_range": "approachable from 5, cellar 5 to 22",
+      "price_band": "EUR 42 to 65 at retail",
+      "tasting_notes": "Domdechant Werner's dry Grosses Gewachs from the Hochheim Domdechaney chalky loess slope: broad, ripe and mineral with yellow stone fruit and smoke. Source: domdechantwerner.com.",
+      "editorial_score": 4.6,
+      "description": "Domdechant Werner's dry Grosses Gewachs Riesling from the Hochheimer Domdechaney.",
+      "verified": {
+        "source_url": "https://domdechantwerner.com/weine/",
+        "open_status": "open",
+        "checked_on": "2026-05-30",
+        "open_evidence_url": "https://www.vdp.de/de/die-winzer/rheingau/domdechant-werner",
+        "cuisine_evidence_url": "https://domdechantwerner.com/"
+      }
+    },
+    {
+      "slug": "krone-hoellenberg-spatburgunder-gg",
+      "name": "Assmannshaeuser Hoellenberg Spaetburgunder GG",
+      "producer": "weingut-krone-assmannshausen",
+      "varietals": [
+        "Spatburgunder (Pinot Noir)"
+      ],
+      "style": "still dry Rheingau Spaetburgunder Grosses Gewachs",
+      "vintage_range": "approachable from 6, cellar 6 to 28",
+      "price_band": "EUR 60 to 100 at retail",
+      "tasting_notes": "Weingut Krone's dry Grosses Gewachs Spaetburgunder from the red phyllite slate of the Hoellenberg: pure red cherry, rose petal and savoury herbs with fine slaty grip. Source: weingut-krone.de.",
+      "editorial_score": 4.8,
+      "description": "Weingut Krone's dry Grosses Gewachs Spaetburgunder from the Assmannshaeuser Hoellenberg.",
+      "verified": {
+        "source_url": "https://www.weingut-krone.de/weine/assmannshaeuser-hoellenberg/",
+        "open_status": "open",
+        "checked_on": "2026-05-30",
+        "open_evidence_url": "https://www.vdp.de/de/die-winzer/rheingau/krone-assmannshausen",
+        "cuisine_evidence_url": "https://www.weingut-krone.de/weine/assmannshaeuser-hoellenberg/"
+      }
+    },
+    {
+      "slug": "kesseler-hoellenberg-spatburgunder-gg",
+      "name": "Assmannshaeuser Hoellenberg Spaetburgunder GG",
+      "producer": "august-kesseler",
+      "varietals": [
+        "Spatburgunder (Pinot Noir)"
+      ],
+      "style": "still dry Rheingau Spaetburgunder Grosses Gewachs",
+      "vintage_range": "approachable from 6, cellar 6 to 30",
+      "price_band": "EUR 65 to 110 at retail",
+      "tasting_notes": "August Kesseler's dry Grosses Gewachs Pinot Noir from the red phyllite slate of the Hoellenberg, with dense red cherry, smoky slate and refined tannin. Source: august-kesseler.de.",
+      "editorial_score": 4.8,
+      "description": "August Kesseler's dry Grosses Gewachs Spaetburgunder from the Hoellenberg red phyllite slate.",
+      "verified": {
+        "source_url": "https://www.august-kesseler.de/weine/assmannshaeuser-hoellenberg-pinot-noir/",
+        "open_status": "open",
+        "checked_on": "2026-05-30",
+        "open_evidence_url": "https://www.vdp.de/de/die-winzer/rheingau/august-kessler",
+        "cuisine_evidence_url": "https://www.august-kesseler.de/weine/assmannshaeuser-hoellenberg-pinot-noir/"
+      }
+    },
+    {
+      "slug": "kesseler-r-spatburgunder",
+      "name": "R Spaetburgunder",
+      "producer": "august-kesseler",
+      "varietals": [
+        "Spatburgunder (Pinot Noir)"
+      ],
+      "style": "still dry Rheingau Spaetburgunder reserve",
+      "vintage_range": "approachable from 8, cellar 8 to 30",
+      "price_band": "EUR 90 to 160 at retail",
+      "tasting_notes": "Kesseler's R reserve Spaetburgunder: dense barrel-aged Pinot Noir with dark cherry, smoky slate and firm tannin built for long cellaring. Source: august-kesseler.de.",
+      "editorial_score": 4.8,
+      "description": "Kesseler's R reserve Spaetburgunder cuvee, made in top vintages.",
+      "verified": {
+        "source_url": "https://www.august-kesseler.de/weine/",
+        "open_status": "open",
+        "checked_on": "2026-05-30",
+        "open_evidence_url": "https://www.vdp.de/de/die-winzer/rheingau/august-kessler",
+        "cuisine_evidence_url": "https://www.august-kesseler.de/weine/"
+      }
+    },
+    {
+      "slug": "chat-sauvage-hoellenberg-spatburgunder",
+      "name": "Assmannshaeuser Hoellenberg Spaetburgunder",
+      "producer": "chat-sauvage",
+      "varietals": [
+        "Spatburgunder (Pinot Noir)"
+      ],
+      "style": "still dry Rheingau Spaetburgunder whole-cluster",
+      "vintage_range": "approachable from 5, cellar 5 to 20",
+      "price_band": "EUR 50 to 85 at retail",
+      "tasting_notes": "Chat Sauvage's whole-cluster Hoellenberg Spaetburgunder: dark cherry, smoky red slate and fine tannin from the historic Pinot enclave. Source: chat-sauvage.de.",
+      "editorial_score": 4.6,
+      "description": "Chat Sauvage's whole-cluster Assmannshaeuser Hoellenberg Spaetburgunder.",
+      "verified": {
+        "source_url": "https://chat-sauvage.de/",
+        "open_status": "open",
+        "checked_on": "2026-05-30",
+        "open_evidence_url": "https://www.rheingau.com/en/infosystem/weingut-chat-sauvage/poi.html",
+        "cuisine_evidence_url": "https://chat-sauvage.de/kontakt/"
+      }
+    },
+    {
+      "slug": "schoenborn-pfaffenberg-gg",
+      "name": "Hattenheimer Pfaffenberg Riesling GG (Monopole)",
+      "producer": "schloss-schoenborn",
+      "varietals": [
+        "Riesling"
+      ],
+      "style": "still dry Rheingau Riesling Grosses Gewachs monopole",
+      "vintage_range": "approachable from 5, cellar 5 to 22",
+      "price_band": "EUR 40 to 60 at retail",
+      "tasting_notes": "Schloss Schoenborn's dry Grosses Gewachs from the wholly-owned Hattenheimer Pfaffenberg monopole: dense, smoky, savoury Riesling. Source: weingut-schloss-schoenborn.de.",
+      "editorial_score": 4.6,
+      "description": "Schoenborn's dry Grosses Gewachs Riesling from the Hattenheimer Pfaffenberg monopole.",
+      "verified": {
+        "source_url": "https://weingut-schloss-schoenborn.de/",
+        "open_status": "open",
+        "checked_on": "2026-05-30",
+        "open_evidence_url": "https://de.wikipedia.org/wiki/Dom%C3%A4nenweingut_Schloss_Sch%C3%B6nborn",
+        "cuisine_evidence_url": "https://de.wikipedia.org/wiki/Dom%C3%A4nenweingut_Schloss_Sch%C3%B6nborn"
+      }
+    },
+    {
+      "slug": "reinhartshausen-marcobrunn",
+      "name": "Erbacher Marcobrunn Riesling Erste Lage",
+      "producer": "schloss-reinhartshausen",
+      "varietals": [
+        "Riesling"
+      ],
+      "style": "still dry Rheingau Riesling Erste Lage",
+      "vintage_range": "approachable from 5, cellar 5 to 25",
+      "price_band": "EUR 45 to 70 at retail",
+      "tasting_notes": "Schloss Reinhartshausen's dry Erbacher Marcobrunn: dense, broad and mineral Riesling from the historic springwater slope on the Erbach bank. Source: schloss-reinhartshausen.de.",
+      "editorial_score": 4.5,
+      "description": "Schloss Reinhartshausen's dry Erbacher Marcobrunn Riesling.",
+      "verified": {
+        "source_url": "https://www.schloss-reinhartshausen.de/en/",
+        "open_status": "open",
+        "checked_on": "2026-05-30",
+        "open_evidence_url": "https://www.rheingau.de/sehenswertes/schloesser/schloss-reinhartshausen",
+        "cuisine_evidence_url": "https://www.rheingau.de/sehenswertes/schloesser/schloss-reinhartshausen"
+      }
+    },
+    {
+      "slug": "wegeler-geheimrat-j",
+      "name": "Geheimrat J Riesling Trocken",
+      "producer": "geheimrat-wegeler",
+      "varietals": [
+        "Riesling"
+      ],
+      "style": "still dry Rheingau Riesling barrel-aged cuvee",
+      "vintage_range": "approachable from 4, cellar 4 to 15",
+      "price_band": "EUR 30 to 45 at retail",
+      "tasting_notes": "Wegeler's Geheimrat J cuvee dry Riesling, named for Dr Julius Wegeler, barrel-aged and drawn from the top Rheingau holdings. Source: wegeler.com.",
+      "editorial_score": 4.6,
+      "description": "Wegeler's barrel-aged dry Riesling cuvee Geheimrat J.",
+      "verified": {
+        "source_url": "https://www.wegeler.com/",
+        "open_status": "open",
+        "checked_on": "2026-05-30",
+        "open_evidence_url": "https://www.vdp.de/de/die-winzer/rheingau/geheimrat-j-wegeler",
+        "cuisine_evidence_url": "https://www.vdp.de/de/die-winzer/rheingau/geheimrat-j-wegeler"
+      }
+    },
+    {
+      "slug": "breuer-sauvage-brut-sekt",
+      "name": "Sauvage Riesling Brut Sekt",
+      "producer": "georg-breuer",
+      "varietals": [
+        "Riesling"
+      ],
+      "style": "traditional-method dry Rheingau Riesling Sekt",
+      "vintage_range": "approachable from 2, cellar 2 to 8",
+      "price_band": "EUR 22 to 32 at retail",
+      "tasting_notes": "Breuer's bone-dry traditional-method Riesling Sekt: bottle-fermented sparkling with green apple, citrus and toasty lees-autolysis brioche. Source: georg-breuer.com.",
+      "editorial_score": 4.6,
+      "description": "Breuer's bone-dry traditional-method Riesling Sekt Sauvage.",
+      "verified": {
+        "source_url": "https://www.georg-breuer.com/",
+        "open_status": "open",
+        "checked_on": "2026-05-30",
+        "open_evidence_url": "https://www.ruedesheim.de/en/wineries/weingut-vinothek-georg-breuer/poi.html",
+        "cuisine_evidence_url": "https://www.georg-breuer.com/"
+      }
+    },
+    {
+      "slug": "flick-koenigin-victoriaberg",
+      "name": "Hochheimer Koenigin Victoriaberg Riesling",
+      "producer": "joachim-flick",
+      "varietals": [
+        "Riesling"
+      ],
+      "style": "still dry Rheingau Riesling monopole",
+      "vintage_range": "approachable from 4, cellar 4 to 15",
+      "price_band": "EUR 25 to 38 at retail",
+      "tasting_notes": "Flick's dry Riesling from the Hochheim Koenigin Victoriaberg monopole: ripe yellow apple and chalky-loess minerality from the slope visited by Queen Victoria in 1850, source of the English term 'hock' for Rhine wine. Source: flick-wein.de.",
+      "editorial_score": 4.5,
+      "description": "Flick's dry Riesling from the historic Hochheim Koenigin Victoriaberg monopole.",
+      "verified": {
+        "source_url": "https://shop.flick-wein.de/en/",
+        "open_status": "open",
+        "checked_on": "2026-05-30",
+        "open_evidence_url": "https://www.vdp.de/de/die-winzer/rheingau/joachim-flick",
+        "cuisine_evidence_url": "https://shop.flick-wein.de/en/"
+      }
+    },
+    {
+      "slug": "kuehn-schlehdorn",
+      "name": "Schlehdorn Riesling",
+      "producer": "peter-jakob-kuehn",
+      "varietals": [
+        "Riesling"
+      ],
+      "style": "biodynamic dry Rheingau Riesling reserve",
+      "vintage_range": "approachable from 6, cellar 6 to 22",
+      "price_band": "EUR 60 to 95 at retail",
+      "tasting_notes": "Kuhn's biodynamic reserve Schlehdorn Riesling cuvee selection: dense, savoury, salt-driven Riesling with spontaneous fermentation and long lees ageing. Source: weingutpjkuehn.de.",
+      "editorial_score": 4.7,
+      "description": "Kuhn's biodynamic reserve Schlehdorn Riesling from the Oestrich holdings.",
+      "verified": {
+        "source_url": "https://www.weingutpjkuehn.de/",
+        "open_status": "open",
+        "checked_on": "2026-05-30",
+        "open_evidence_url": "https://www.vdp.de/de/die-winzer/rheingau/jakob-kuehn",
+        "cuisine_evidence_url": "https://www.vdp.de/de/die-winzer/rheingau/jakob-kuehn"
+      }
+    },
+    {
+      "slug": "rauenthaler-baiken-gg-staatsweinguter",
+      "name": "Rauenthaler Baiken Riesling GG",
+      "producer": "hessische-staatsweingueter-kloster-eberbach",
+      "varietals": [
+        "Riesling"
+      ],
+      "style": "still dry Rheingau Riesling Grosses Gewachs",
+      "vintage_range": "approachable from 5, cellar 5 to 22",
+      "price_band": "EUR 45 to 70 at retail",
+      "tasting_notes": "The Hessian state estate's dry Grosses Gewachs from the Rauenthaler Baiken Taunus phyllite slope: spicy, taut, savoury Riesling with kerosene-and-citrus drive. Source: kloster-eberbach.de.",
+      "editorial_score": 4.6,
+      "description": "The Hessian state estate's dry Grosses Gewachs Riesling from the Rauenthaler Baiken.",
+      "verified": {
+        "source_url": "https://kloster-eberbach.de/en/wein/weingut",
+        "open_status": "open",
+        "checked_on": "2026-05-30",
+        "open_evidence_url": "https://www.vdp.de/de/die-winzer/rheingau/hessische-staatsweingueter",
+        "cuisine_evidence_url": "https://kloster-eberbach.de/en/wein/weingut"
+      }
+    }
+  ]
+}

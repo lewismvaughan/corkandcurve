@@ -1,0 +1,289 @@
+{
+  "tasting_rooms": [
+    {
+      "slug": "schloss-johannisberg-vinothek",
+      "name": "Vinothek Schloss Johannisberg",
+      "address": "Schloss Johannisberg, 65366 Geisenheim-Johannisberg, Germany",
+      "neighborhood": "Johannisberg, Geisenheim",
+      "varietals_focus": [
+        "Riesling"
+      ],
+      "pricing": "Vinothek tasting and purchase; structured cellar tours and tastings bookable in advance",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": "schloss-johannisberg",
+      "description": "Hilltop Vinothek of Schloss Johannisberg above the Rhine in Geisenheim, where Riesling was first documented as a varietal name on the 1720 estate. Tastings of the estate's Riesling range with views over the slopes.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://schloss-johannisberg.de/en/visit-experience/",
+        "address_quoted": "Schloss Johannisberg, 65366 Geisenheim Johannisberg",
+        "open_status": "open",
+        "open_evidence_url": "https://www.rheinsteig.de/en/a-vinothek-schloss-johannisberg",
+        "cuisine_evidence_url": "https://vincarta.com/blog/schloss-johannisberg",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "schloss-vollrads-vinothek",
+      "name": "Vinothek Schloss Vollrads",
+      "address": "Schloss Vollrads, 65375 Oestrich-Winkel, Germany",
+      "neighborhood": "Winkel, Oestrich-Winkel",
+      "varietals_focus": [
+        "Riesling"
+      ],
+      "pricing": "Vinothek pours and shop sales; structured tastings in the coach house bookable through the event office",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": "schloss-vollrads",
+      "description": "Vinothek and tasting venue at the 800-year-old Riesling-only estate above Oestrich-Winkel. Tastings take place in the converted coach house with the orangery and seventeenth-century squire's house alongside.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.schlossvollrads.com/?lang=en",
+        "address_quoted": "Schloss Vollrads GmbH & Co. Besitz KG | 65375 Oestrich-Winkel | Germany",
+        "open_status": "open",
+        "open_evidence_url": "https://www.rheingau.com/en/infosystem/vinothek-schloss-vollrads/poi.html",
+        "cuisine_evidence_url": "https://www.theworlds50best.com/discovery/Establishments/Germany/Rheingau/Schloss-Vollrads.html",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "kloster-eberbach-vinothek",
+      "name": "Vinothek and WineBar1136 Kloster Eberbach",
+      "address": "Kloster Eberbach, 65346 Eltville am Rhein, Germany",
+      "neighborhood": "Kloster Eberbach, Eltville",
+      "varietals_focus": [
+        "Riesling",
+        "Spatburgunder",
+        "Weissburgunder"
+      ],
+      "pricing": "Vinothek and WineBar1136 open daily 10:00 to 19:00; flights and bottle sales of Hessische Staatsweinguter wines",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": "kloster-eberbach",
+      "description": "Vinothek and WineBar1136 in the 1136 Cistercian abbey buildings of Kloster Eberbach. Pours and bottle sales from the Hessische Staatsweinguter, the 200-hectare estate of the abbey foundation.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://kloster-eberbach.de/en/vor-ort/gastronomie/klosterschaenke",
+        "address_quoted": "Kloster Eberbach, 65346 Eltville am Rhein",
+        "open_status": "open",
+        "open_evidence_url": "https://wineinternationalassociation.org/kloster-eberbach-winery/",
+        "cuisine_evidence_url": "https://www.rheingau.com/en/infosystem/klosterschaenke-eberbach/poi.html",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "robert-weil-tasting-room",
+      "name": "Weingut Robert Weil Tasting Room",
+      "address": "Muehlberg 5, 65399 Kiedrich, Germany",
+      "neighborhood": "Kiedrich",
+      "varietals_focus": [
+        "Riesling"
+      ],
+      "pricing": "Tasting room open Monday to Friday and weekend afternoons; private tastings bookable in advance",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": "weingut-robert-weil",
+      "description": "Tasting room of the VDP estate at the foot of the Kiedricher Graefenberg slope. Flights of estate Rieslings including the Graefenberg Grosses Gewaechs and noble-sweet Auslese to Trockenbeerenauslese range.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.weingut-robert-weil.com/en/your-visit/tasting-room",
+        "address_quoted": "Muehlberg 5\n65399 Kiedrich / Rheingau",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vdp.de/en/die-winzer/rheingau/vdpweingut-robert-weil",
+        "cuisine_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g2108601-d2204933-Reviews-Weingut_Robert_Weil-Kiedrich_Hesse.html",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "georg-breuer-vinothek-ruedesheim",
+      "name": "Weingut Georg Breuer Vinothek",
+      "address": "Grabenstrasse 8, 65385 Ruedesheim am Rhein, Germany",
+      "neighborhood": "Ruedesheim am Rhein",
+      "varietals_focus": [
+        "Riesling",
+        "Spatburgunder"
+      ],
+      "pricing": "Breuers Kellerwelt vinothek open daily 10:00 to 18:00; tastings of current collection and Berg Schlossberg flights",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": "weingut-georg-breuer",
+      "description": "Vinothek and 300 square metre Kellerwelt in central Ruedesheim showing labels, glass collections and presses. Tastings of Berg Schlossberg, Berg Roseneck and the estate's Riesling and Pinot range.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://georg-breuer.com/index.php?s=e_vinothek",
+        "address_quoted": "Grabenstrasse 8",
+        "open_status": "open",
+        "open_evidence_url": "https://www.georg-breuer.com/",
+        "cuisine_evidence_url": "https://www.tasteatlas.com/weingut-georg-breuer-berg-schlossberg-riesling",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "leitz-tasting-ruedesheim",
+      "name": "Weingut Leitz Tasting Room",
+      "address": "Theodor-Heuss-Strasse 5, 65385 Ruedesheim am Rhein, Germany",
+      "neighborhood": "Ruedesheim am Rhein",
+      "varietals_focus": [
+        "Riesling"
+      ],
+      "pricing": "Tastings of current vintages on request; flights of Berg Roseneck, Berg Rottland and Eins Zwei Dry style wines",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "weingut-leitz",
+      "description": "Tasting room at Johannes Leitz's Ruedesheim estate, working from VDP Grand Cru parcels in Berg Schlossberg, Berg Roseneck and Berg Rottland. Steep-slope Rieslings shown alongside the Eins Zwei Dry entry range.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.vdp.de/de/die-winzer/rheingau/leitz",
+        "address_quoted": "Theodor-Heuss-Straße 5, 65385 Rüdesheim am Rhein",
+        "open_status": "open",
+        "open_evidence_url": "https://www.heroesofriesling.com/germany/rheingau/leitz",
+        "cuisine_evidence_url": "https://www.leitz-wein.de/en",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "kuenstler-vinothek-hochheim",
+      "name": "Weingut Kuenstler Vinothek",
+      "address": "Geheimrat-Hummel-Platz 1a, 65239 Hochheim am Main, Germany",
+      "neighborhood": "Hochheim am Main",
+      "varietals_focus": [
+        "Riesling",
+        "Spatburgunder",
+        "Chardonnay"
+      ],
+      "pricing": "Vinothek tastings of estate Rieslings and Pinots; structured cellar tours bookable",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": "weingut-kuenstler",
+      "description": "Vinothek and event rooms of the VDP estate in central Hochheim am Main on the eastern edge of the Rheingau. Tastings of Holle and Reichestal Grosse Lage Rieslings and Pinot Noir from the Reichestal and Stein sites.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.weingut-kuenstler.de/en/index.html",
+        "address_quoted": "Geheimrat-Hummel-Platz 1a\n65239 Hochheim am Main",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vdp.de/de/die-winzer/rheingau/kuenstler",
+        "cuisine_evidence_url": "https://www.rheingau.de/weingueter/573",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "spreitzer-vinothek-oestrich-winkel",
+      "name": "Weingut Josef Spreitzer Vinothek",
+      "address": "Rheingaustrasse 86, 65375 Oestrich-Winkel, Germany",
+      "neighborhood": "Oestrich, Oestrich-Winkel",
+      "varietals_focus": [
+        "Riesling",
+        "Spatburgunder"
+      ],
+      "pricing": "Tastings and wine sales at the estate by arrangement; cellar tours on request",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "weingut-spreitzer",
+      "description": "Tasting room and Straussenwirtschaft of the Spreitzer family estate in Oestrich-Winkel, working 17 hectares including the Doosberg, Lenchen, Jesuitengarten and Wisselbrunnen sites with 97 percent Riesling.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.weingut-spreitzer.de/?L=1",
+        "address_quoted": "Weingut Josef Spreitzer, Rheingaustraße 86, 65375 Oestrich-Winkel",
+        "open_status": "open",
+        "open_evidence_url": "https://www.rheingau.com/en/infosystem/strausswirtschaft-weingut-josef-spre/poi.html",
+        "cuisine_evidence_url": "https://www.falstaff.com/en/wineries/spreitzer/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "peter-jakob-kuehn-tasting-oestrich",
+      "name": "Weingut Peter Jakob Kuehn Tasting Room",
+      "address": "Muehlstrasse 70, 65375 Oestrich-Winkel, Germany",
+      "neighborhood": "Oestrich, Oestrich-Winkel",
+      "varietals_focus": [
+        "Riesling",
+        "Spatburgunder"
+      ],
+      "pricing": "Tastings by appointment in advance during opening hours",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "weingut-peter-jakob-kuehn",
+      "description": "Tasting room of the twelfth-generation family estate in Oestrich, Demeter-certified biodynamic since 2009. Riesling across Doosberg, Lenchen, St. Nikolaus, Hendelberg and Jungfer sites with a Pinot Noir program.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.weingutpjkuehn.de/en/home/",
+        "address_quoted": "Mühlstrasse 70\n65375 Oestrich-Winkel",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vdp.de/en/die-winzer/rheingau/vdpweingut-peter-jakob-kuehn",
+        "cuisine_evidence_url": "https://www.weingutpjkuehn.de/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "balthasar-ress-vinothek-hattenheim",
+      "name": "Weingut Balthasar Ress Vinothek",
+      "address": "Rheinallee 50, 65347 Eltville-Hattenheim, Germany",
+      "neighborhood": "Hattenheim, Eltville am Rhein",
+      "varietals_focus": [
+        "Riesling",
+        "Spatburgunder"
+      ],
+      "pricing": "Vinothek open Monday to Friday 9:00 to 18:00 and weekends 12:00 to 18:00; moderated tastings on request",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": "weingut-balthasar-ress",
+      "description": "Vinothek of the VDP estate on the Hattenheim riverfront, founded 1870. Tastings of Hattenheimer Nussbrunnen, Hallgartener Jungfer and other Riesling sites alongside the estate Pinot range.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.rheingau.com/en/infosystem/weingut-balthasar-ress/poi.html",
+        "address_quoted": "Weingut Balthasar Ress\nRheinallee 50\n65347 Eltville-Hattenheim",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vdp.de/en/die-winzer/rheingau/vdpweingut-balthasar-ress",
+        "cuisine_evidence_url": "https://en.balthasar-ress.de/visit-us",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "domdechant-werner-hochheim",
+      "name": "Domdechant Werner Tasting Room",
+      "address": "Rathausstrasse 30, 65239 Hochheim am Main, Germany",
+      "neighborhood": "Hochheim am Main",
+      "varietals_focus": [
+        "Riesling"
+      ],
+      "pricing": "Tastings on request; spring and autumn presentations at the estate",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "weingut-domdechant-werner",
+      "description": "Tasting room of the 1780 VDP estate in central Hochheim am Main, owned by the seventh generation of the founding Michel family. Estate Rieslings from the Kirchenstueck, Holle and Domdechaney Erste Lage sites.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://domdechantwerner.com/?lang=en",
+        "address_quoted": "Rathausstrasse 30, 65239 Hochheim am Main",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vdp.de/en/die-winzer/rheingau/vdpweingut-domdechant-werner",
+        "cuisine_evidence_url": "https://www.enprimeurclub.com/wineries/domdechant-werner-sches-weingut-hochheim-am-main-winery",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "balthasar-ress-weinbar-wiesbaden",
+      "name": "Balthasar Ress Weinbar and Vinothek Wiesbaden",
+      "address": "Mauergasse 10, 65183 Wiesbaden, Germany",
+      "neighborhood": "Wiesbaden city centre",
+      "varietals_focus": [
+        "Riesling",
+        "Spatburgunder"
+      ],
+      "pricing": "By-the-glass pours from the Balthasar Ress range plus partner wineries; bottle sales at estate prices",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": "weingut-balthasar-ress",
+      "description": "Urban vinothek of Weingut Balthasar Ress in the Wiesbaden pedestrian zone, open since 2013. Six days a week of Rheingau Riesling and Spatburgunder by the glass with estate-price bottle sales.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://en.balthasar-ress.de/wine-bar-wiesbaden",
+        "address_quoted": "Mauergasse 10",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wiesbaden.de/en/microsite/blog/weinbars-in-wiesbaden",
+        "cuisine_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187346-d8555020-Reviews-Balthasar_Ress_Weinbar_Vinothek-Wiesbaden_Hesse.html",
+        "checked_on": "2026-05-30"
+      }
+    }
+  ]
+}

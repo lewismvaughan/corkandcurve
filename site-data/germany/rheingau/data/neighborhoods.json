@@ -1,0 +1,495 @@
+{
+  "neighborhoods": [
+    {
+      "slug": "hochheim",
+      "name": "Hochheim am Main",
+      "address": "Hochheim am Main, 65239 Rheingau, Germany",
+      "classification": "Rheingau",
+      "description": "The easternmost Rheingau commune, set on the Main rather than the Rhine, with the VDP.Grosse Lage sites Hochheimer Hölle, Domdechaney, Kirchenstück and Stielweg. The English shorthand 'hock' for Rhine wine derives from Hochheim, and the Hochheimer Königin Victoriaberg, named after Queen Victoria's 1850 visit, supplied the British royal household.",
+      "key_varietals": [
+        "Riesling",
+        "Spatburgunder (Pinot Noir)"
+      ],
+      "sub_communes": [
+        "Hochheim am Main",
+        "Florsheim-Wicker",
+        "Massenheim"
+      ],
+      "famous_producers": [
+        "weingut-kuenstler",
+        "domdechant-werner",
+        "joachim-flick"
+      ],
+      "aliases": [
+        "Hochheim",
+        "Hochheim am Main",
+        "Hochheimer"
+      ],
+      "vibe": "Easternmost Rheingau village on the Main where 'hock' was born, with Victorian royal pedigree and Hochheimer Hölle on chalky loess.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.weingut-kuenstler.de/en/vineyards/hochheim/domdechaney.html",
+        "address_quoted": "Hochheim",
+        "open_status": "open",
+        "open_evidence_url": "https://www.rheingau.com/en/",
+        "cuisine_evidence_url": "https://www.vdp.de/de/die-winzer/rheingau/kuenstler",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "walluf",
+      "name": "Walluf",
+      "address": "Walluf, 65396 Rheingau, Germany",
+      "classification": "Rheingau",
+      "description": "A small village on the Rheingau Riesling-Route just downstream of Wiesbaden, with the VDP.Grosse Lage Wallufer Walkenberg and the Erste Lage Wallufer Oberberg. Home to the traditional J.B. Becker estate, founded in 1893 and known for old-school dry Riesling and Spätburgunder from the Walkenberg site.",
+      "key_varietals": [
+        "Riesling",
+        "Spatburgunder (Pinot Noir)"
+      ],
+      "sub_communes": [
+        "Niederwalluf",
+        "Oberwalluf"
+      ],
+      "famous_producers": [
+        "weingut-jb-becker"
+      ],
+      "aliases": [
+        "Walluf",
+        "Wallufer",
+        "Niederwalluf"
+      ],
+      "vibe": "A compact Riesling commune on the route, with Walkenberg dry Rieslings from a 19th-century family estate next to the Rhine.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.rheingau.com/en/",
+        "address_quoted": "Walluf",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vdp.de/de/die-winzer/rheingau",
+        "cuisine_evidence_url": "https://www.jbbecker.de/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "eltville",
+      "name": "Eltville am Rhein",
+      "address": "Eltville am Rhein, 65343 Rheingau, Germany",
+      "classification": "Rheingau",
+      "description": "The Rheingau's tourism capital and most populous town, gathering the historic Kurfürstliche Burg riverside castle, the Rheingauer Weinwerbung head office and the Hessian state wine estate at neighbouring Kloster Eberbach. Local single vineyards include Sonnenberg, Langenstück and Taubenberg, and the riverfront fills with rose-garden visitors each June.",
+      "key_varietals": [
+        "Riesling",
+        "Spatburgunder (Pinot Noir)"
+      ],
+      "sub_communes": [
+        "Eltville",
+        "Martinsthal",
+        "Rauenthal",
+        "Erbach",
+        "Hattenheim"
+      ],
+      "famous_producers": [
+        "weingut-diefenhardt",
+        "weingut-koegler"
+      ],
+      "aliases": [
+        "Eltville",
+        "Eltville am Rhein",
+        "Eltviller"
+      ],
+      "vibe": "Sandstone riverside castle, June rose gardens and the headquarters of Rheingau wine, with Kloster Eberbach 15 minutes uphill.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.rheingau.com/en/",
+        "address_quoted": "Eltville",
+        "open_status": "open",
+        "open_evidence_url": "https://kloster-eberbach.de/de",
+        "cuisine_evidence_url": "https://www.vdp.de/de/die-winzer/rheingau",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "erbach",
+      "name": "Erbach",
+      "address": "Eltville-Erbach, 65346 Rheingau, Germany",
+      "classification": "Rheingau",
+      "description": "A small riverside village within Eltville, home to the Erbacher Marcobrunn, a celebrated single vineyard whose boundary stone splits the cru between Erbach and Hattenheim. The site has produced monumental dry and noble-sweet Rieslings for two centuries. Schloss Reinhartshausen, the long-running private domain, sits on the riverfront.",
+      "key_varietals": [
+        "Riesling"
+      ],
+      "sub_communes": [
+        "Erbach"
+      ],
+      "famous_producers": [
+        "schloss-reinhartshausen",
+        "baron-knyphausen",
+        "jakob-jung",
+        "von-oetinger"
+      ],
+      "aliases": [
+        "Erbach",
+        "Eltville-Erbach",
+        "Erbacher"
+      ],
+      "vibe": "The Marcobrunn boundary stone, the riverside Schloss Reinhartshausen and a cluster of historic estates around the Erbacher church.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.vdp.de/de/die-winzer/rheingau/baron-knyphausen",
+        "address_quoted": "Erbacher Straße 28, 65346 Eltville-Erbach",
+        "open_status": "open",
+        "open_evidence_url": "https://www.rheingau.com/en/",
+        "cuisine_evidence_url": "https://www.schloss-reinhartshausen.de/en/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "kiedrich",
+      "name": "Kiedrich",
+      "address": "Kiedrich, 65399 Rheingau, Germany",
+      "classification": "Rheingau",
+      "description": "A small hilltop village above Eltville, home to the Kiedricher Gräfenberg, the VDP.Grosse Lage flagship of Weingut Robert Weil, and the late-Gothic Basilica of Saint Valentine. Other prominent single vineyards are Wasseros, Klosterberg and the monopole Turmberg, all on stony phyllite-quartzite slopes facing south to the Rhine.",
+      "key_varietals": [
+        "Riesling"
+      ],
+      "sub_communes": [
+        "Kiedrich"
+      ],
+      "famous_producers": [
+        "robert-weil"
+      ],
+      "aliases": [
+        "Kiedrich",
+        "Kiedricher",
+        "Kiedricher Gräfenberg"
+      ],
+      "vibe": "Hilltop Gothic basilica, the Gräfenberg on phyllite slopes and the Robert Weil estate at the centre of the village.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.weingut-robert-weil.com/en/",
+        "address_quoted": "Mühlberg 5, 65399 Kiedrich",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vdp.de/de/die-winzer/rheingau/robert-weil",
+        "cuisine_evidence_url": "https://www.weingut-robert-weil.com/en/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "rauenthal",
+      "name": "Rauenthal",
+      "address": "Eltville-Rauenthal, 65345 Rheingau, Germany",
+      "classification": "Rheingau",
+      "description": "A hilltop wine village above Eltville, surrounded by the Rauenthaler Baiken, Gehrn, Rothenberg and Wülfen single vineyards on Taunus phyllite. Rated highly in 19th-century Rheingau price lists, Rauenthal sits well above the Rhine, with cool air-drainage from the Taunus forest behind giving especially long-lived, perfumed Rieslings.",
+      "key_varietals": [
+        "Riesling"
+      ],
+      "sub_communes": [
+        "Rauenthal"
+      ],
+      "famous_producers": [
+        "georg-breuer"
+      ],
+      "aliases": [
+        "Rauenthal",
+        "Rauenthaler",
+        "Rauenthaler Baiken"
+      ],
+      "vibe": "Hilltop forest-edge village with Baiken and Rothenberg on phyllite, perfumed cool-air Rieslings prized in 19th-century price lists.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.rheingau.com/en/",
+        "address_quoted": "Rauenthal",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vdp.de/de/die-winzer/rheingau",
+        "cuisine_evidence_url": "https://www.rheingau.com/en/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "hattenheim",
+      "name": "Hattenheim",
+      "address": "Eltville-Hattenheim, 65347 Rheingau, Germany",
+      "classification": "Rheingau",
+      "description": "A half-timbered riverside village between Erbach and Hallgarten, with the VDP.Grosse Lage sites Wisselbrunnen, Pfaffenberg, Engelmannsberg, Nussbrunnen, Schützenhaus and a share of Marcobrunn. Hattenheim is the seat of Schloss Schönborn, owned by the family since 1349, and of the Hessische Staatsweinguter's Steinberg monastery walled vineyard immediately north of the village.",
+      "key_varietals": [
+        "Riesling",
+        "Spatburgunder (Pinot Noir)"
+      ],
+      "sub_communes": [
+        "Hattenheim"
+      ],
+      "famous_producers": [
+        "schloss-schoenborn",
+        "balthasar-ress",
+        "kaufmann",
+        "georg-mueller-stiftung",
+        "barth"
+      ],
+      "aliases": [
+        "Hattenheim",
+        "Hattenheimer",
+        "Eltville-Hattenheim"
+      ],
+      "vibe": "Half-timbered alleys, the walled Steinberg vineyard above the village and a cluster of grand crus from Wisselbrunnen to Pfaffenberg.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://weingut-schloss-schoenborn.de/",
+        "address_quoted": "Hattenheim",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vdp.de/de/die-winzer/rheingau",
+        "cuisine_evidence_url": "https://kloster-eberbach.de/de/wein/weingut",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "hallgarten",
+      "name": "Hallgarten",
+      "address": "Oestrich-Winkel-Hallgarten, 65375 Rheingau, Germany",
+      "classification": "Rheingau",
+      "description": "A hill-set Hallgarten village above Oestrich-Winkel, with the VDP.Grosse Lage Jungfer, Schönhell and Hendelberg single vineyards on phyllite and loess. Hallgarten cultivated altitudes rise to roughly 270 metres, and the cool, late-harvest profile makes for especially racy, slow-developing dry Rieslings.",
+      "key_varietals": [
+        "Riesling",
+        "Spatburgunder (Pinot Noir)"
+      ],
+      "sub_communes": [
+        "Hallgarten"
+      ],
+      "famous_producers": [
+        "weingut-prinz",
+        "bibo-runge"
+      ],
+      "aliases": [
+        "Hallgarten",
+        "Hallgartener",
+        "Hallgartener Jungfer"
+      ],
+      "vibe": "High forest-edge plateau village with cool late harvests and the Jungfer and Schönhell sites on phyllite.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.vdp.de/de/die-winzer/rheingau/prinz",
+        "address_quoted": "Im Flachsgarten 5, 65375 Hallgarten",
+        "open_status": "open",
+        "open_evidence_url": "https://www.rheingau.com/en/",
+        "cuisine_evidence_url": "https://bibo-runge-wein.de/en/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "oestrich-winkel",
+      "name": "Oestrich-Winkel",
+      "address": "Oestrich-Winkel, 65375 Rheingau, Germany",
+      "classification": "Rheingau",
+      "description": "A river-frontage commune that joins Oestrich, Mittelheim and Winkel along three kilometres of riverbank, with the VDP.Grosse Lage Lenchen, Doosberg, Jesuitengarten and Hasensprung sites. Schloss Vollrads sits above Winkel on the Taunus edge, and the village holds a dense concentration of VDP estates including Spreitzer, Peter Jakob Kühn, Wegeler and Allendorf.",
+      "key_varietals": [
+        "Riesling",
+        "Spatburgunder (Pinot Noir)"
+      ],
+      "sub_communes": [
+        "Oestrich",
+        "Mittelheim",
+        "Winkel"
+      ],
+      "famous_producers": [
+        "schloss-vollrads",
+        "spreitzer",
+        "peter-jakob-kuehn",
+        "geheimrat-wegeler",
+        "allendorf",
+        "querbach"
+      ],
+      "aliases": [
+        "Oestrich-Winkel",
+        "Oestrich",
+        "Winkel",
+        "Mittelheim",
+        "Oestricher",
+        "Winkeler"
+      ],
+      "vibe": "Three Rhine-front villages strung together with a dense cluster of VDP estates and Schloss Vollrads above on the Taunus edge.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.vdp.de/de/die-winzer/rheingau",
+        "address_quoted": "Oestrich-Winkel",
+        "open_status": "open",
+        "open_evidence_url": "https://www.rheingau.com/en/",
+        "cuisine_evidence_url": "https://www.schlossvollrads.com/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "johannisberg",
+      "name": "Johannisberg",
+      "address": "Geisenheim-Johannisberg, 65366 Rheingau, Germany",
+      "classification": "Rheingau",
+      "description": "A hilltop wine village above Geisenheim, dominated by Schloss Johannisberg, whose monastic 1720 replanting documents Riesling-only viticulture and whose archives record the 1775 Spätlese courier story. The Johannisberger Hölle and Klaus single vineyards face south on quartzite, and Weingut Chat Sauvage works Pinot Noir and Chardonnay nearby.",
+      "key_varietals": [
+        "Riesling",
+        "Spatburgunder (Pinot Noir)",
+        "Chardonnay"
+      ],
+      "sub_communes": [
+        "Johannisberg",
+        "Grund"
+      ],
+      "famous_producers": [
+        "schloss-johannisberg",
+        "prinz-von-hessen",
+        "johannishof",
+        "chat-sauvage",
+        "weingut-trenz"
+      ],
+      "aliases": [
+        "Johannisberg",
+        "Johannisberger",
+        "Geisenheim-Johannisberg"
+      ],
+      "vibe": "Hilltop village topped by Schloss Johannisberg, with the 1720 Riesling-only planting story and a Chardonnay outpost at Chat Sauvage.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://schloss-johannisberg.de/en/",
+        "address_quoted": "Schloss Johannisberg, 65366 Geisenheim-Johannisberg",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vdp.de/de/die-winzer/rheingau/schloss-johannisberg",
+        "cuisine_evidence_url": "https://chat-sauvage.de/kontakt/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "geisenheim",
+      "name": "Geisenheim",
+      "address": "Geisenheim, 65366 Rheingau, Germany",
+      "classification": "Rheingau",
+      "description": "A river town between Oestrich-Winkel and Rüdesheim, home to the Hochschule Geisenheim University, a wine-and-viticulture research and teaching institution founded in 1872. Local single vineyards include Mäuerchen, Kläuserweg, Rothenberg and the Marienthal vineyards on loess and quartzite.",
+      "key_varietals": [
+        "Riesling",
+        "Spatburgunder (Pinot Noir)"
+      ],
+      "sub_communes": [
+        "Geisenheim",
+        "Marienthal",
+        "Stephanshausen"
+      ],
+      "famous_producers": [
+        "freimuth"
+      ],
+      "aliases": [
+        "Geisenheim",
+        "Geisenheimer"
+      ],
+      "vibe": "Wine-university town with research vineyards and a Rhine ferry to Bingen, between Oestrich-Winkel and Rüdesheim.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.rheingau.com/en/",
+        "address_quoted": "Geisenheim",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vdp.de/de/die-winzer/rheingau",
+        "cuisine_evidence_url": "https://www.vdp.de/de/die-winzer/rheingau/freimuth",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "ruedesheim",
+      "name": "Rüdesheim am Rhein",
+      "address": "Rüdesheim am Rhein, 65385 Rheingau, Germany",
+      "classification": "Rheingau",
+      "description": "A Rheingau tourism hub and gateway to the Rüdesheimer Berg, the south-facing wall of terraced vineyards that holds the VDP.Grosse Lage sites Berg Schlossberg, Berg Rottland, Berg Roseneck and Berg Kaisersteinfels. The Drosselgasse runs through the old town, and the Seilbahn cable car climbs to the 1883 Niederwald monument above the vineyards.",
+      "key_varietals": [
+        "Riesling",
+        "Spatburgunder (Pinot Noir)"
+      ],
+      "sub_communes": [
+        "Rüdesheim",
+        "Eibingen",
+        "Aulhausen",
+        "Presberg"
+      ],
+      "famous_producers": [
+        "leitz",
+        "georg-breuer",
+        "balthasar-ress"
+      ],
+      "aliases": [
+        "Rüdesheim",
+        "Rüdesheim am Rhein",
+        "Rüdesheimer",
+        "Rudesheim"
+      ],
+      "vibe": "Cable car, Drosselgasse and the steep Rüdesheimer Berg terraces with Berg Schlossberg, Rottland and Roseneck above the town.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.rheingau.com/en/",
+        "address_quoted": "Rüdesheim am Rhein",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vdp.de/de/die-winzer/rheingau/leitz",
+        "cuisine_evidence_url": "https://www.leitz-wein.de/en",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "assmannshausen",
+      "name": "Assmannshausen",
+      "address": "Rüdesheim-Assmannshausen, 65385 Rheingau, Germany",
+      "classification": "Rheingau",
+      "description": "A small, separate riverside village downstream of Rüdesheim, set on red phyllite-slate slopes and the historic German home of Spätburgunder. The Höllenberg is the famous VDP.Grosse Lage site, worked by Weingut Krone Assmannshausen, August Kesseler and the Hessische Staatsweinguter's Domäne Assmannshausen. Reds dominate the vineyard around the village.",
+      "key_varietals": [
+        "Spatburgunder (Pinot Noir)",
+        "Riesling"
+      ],
+      "sub_communes": [
+        "Assmannshausen"
+      ],
+      "famous_producers": [
+        "weingut-krone-assmannshausen",
+        "august-kesseler",
+        "hessische-staatsweingueter-kloster-eberbach"
+      ],
+      "aliases": [
+        "Assmannshausen",
+        "Assmannshäuser",
+        "Höllenberg"
+      ],
+      "vibe": "Red-slate Spätburgunder enclave on the Rhine downstream of Rüdesheim, with the steep Höllenberg above the village.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.weingut-krone.de/",
+        "address_quoted": "Niederwaldstrasse 2, 65385 Rüdesheim-Assmannshausen",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vdp.de/de/die-winzer/rheingau/krone-assmannshausen",
+        "cuisine_evidence_url": "https://kloster-eberbach.de/de/wein/weingut",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "lorch",
+      "name": "Lorch and Lorchhausen",
+      "address": "Lorch am Rhein, 65391 Rheingau, Germany",
+      "classification": "Rheingau",
+      "description": "The westernmost Rheingau, where the river turns north and the Mittelrhein UNESCO valley begins. Lorch and Lorchhausen sit on steep grey phyllite-slate and quartzite slopes, distinct from the loess of the central Rheingau, with vineyards including Lorcher Schlossberg, Krone, Pfaffenwies, Kapellenberg and Bodental-Steinberg. Eva Fricke and Graf von Kanitz are the modern reference estates.",
+      "key_varietals": [
+        "Riesling"
+      ],
+      "sub_communes": [
+        "Lorch",
+        "Lorchhausen"
+      ],
+      "famous_producers": [
+        "eva-fricke",
+        "graf-von-kanitz",
+        "weingut-mohr"
+      ],
+      "aliases": [
+        "Lorch",
+        "Lorchhausen",
+        "Lorcher",
+        "Lorch am Rhein"
+      ],
+      "vibe": "Westernmost Rheingau where the river turns north and Riesling grows on grey slate and quartzite at the gate of the Mittelrhein.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.evafricke.com/en/",
+        "address_quoted": "Eltville/Rheingau",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vdp.de/de/die-winzer/rheingau/vdpweingut-graf-von-kanitz",
+        "cuisine_evidence_url": "https://www.weingut-mohr.de/",
+        "checked_on": "2026-05-30"
+      }
+    }
+  ]
+}

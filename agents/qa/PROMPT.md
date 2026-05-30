@@ -155,6 +155,16 @@ hectares across 480 growers", "founded in 1902") instead of the relative
 rank. Mechanical backstop: `scripts/check_score_claims.py` RE_SOFT_RANK
 now catches all of the above patterns.
 
+**Elevation ranks are part of this class (added 2026-05-30 after Rheingau Opus).**
+Opus found 3 surviving elevation-rank clauses ("at one of the highest
+elevations in the Rheingau", "Rheingau's highest", "Germany's classic
+Pinot terroir") that QA1+QA2 missed because they parsed elevation as a
+geographic fact rather than a marketing rank. Same categorical rule:
+state the absolute metric ("at 270 metres", "270m above sea level") and
+strip the relative ranking. `highest` is already in the regex but
+researchers default to letting elevation rankings through; flag and
+strip explicitly.
+
 **C2 — NUMERIC verification on top scores (added 2026-05-22).**
 For every score with `points >= 99`, you must verify the
 `(reviewer, points, vintage, year)` tuple against a real, citeable

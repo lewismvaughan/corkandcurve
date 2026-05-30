@@ -1,0 +1,306 @@
+{
+  "food_pairing": [
+    {
+      "slug": "gg-eisbein",
+      "name": "Rheingau GG with eisbein",
+      "pairing": "Dry Rheingau Riesling Grosses Gewachs with boiled pork knuckle eisbein",
+      "tablejourney_ref": "germany/berlin/dish/eisbein",
+      "tablejourney_url": "https://tablejourney.com/germany/berlin/dish/eisbein/",
+      "wine_entities": [
+        "silberlack-riesling-gg",
+        "steinberger-riesling-gg",
+        "kiedricher-graefenberg-gg"
+      ],
+      "description": "A powerful Rheingau dry Grosses Gewachs has the mineral structure and racy acidity to cut through the gelatinous richness of eisbein with sauerkraut.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://tablejourney.com/germany/berlin/dish/eisbein/",
+        "open_status": "open",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "kabinett-currywurst",
+      "name": "Rheingau Kabinett with currywurst",
+      "pairing": "Off-dry Rheingau Riesling Kabinett with Berlin currywurst",
+      "tablejourney_ref": "germany/berlin/dish/currywurst",
+      "tablejourney_url": "https://tablejourney.com/germany/berlin/dish/currywurst/",
+      "wine_entities": [
+        "vollrads-riesling-kabinett",
+        "steinberger-kabinett-trocken"
+      ],
+      "description": "Curry-ketchup spice and the snap of grilled sausage meet their match in a low-alcohol Rheingau Kabinett whose sweetness cools the heat and acidity slices the fat.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://tablejourney.com/germany/berlin/dish/currywurst/",
+        "open_status": "open",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "spatlese-koenigsberger-klopse",
+      "name": "Rheingau Spaetlese with Konigsberger Klopse",
+      "pairing": "Fruity-style Rheingau Riesling Spaetlese with caper-cream meatballs Konigsberger Klopse",
+      "tablejourney_ref": "germany/berlin/dish/koenigsberger-klopse",
+      "tablejourney_url": "https://tablejourney.com/germany/berlin/dish/koenigsberger-klopse/",
+      "wine_entities": [
+        "gruenlack-riesling-spatlese",
+        "vollrads-riesling-spatlese",
+        "graefenberg-spaetlese"
+      ],
+      "description": "The Spaetlese's sweetness and acidity balance the tangy caper-and-cream sauce, while its stone fruit lifts the delicate veal meatballs.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://tablejourney.com/germany/berlin/dish/koenigsberger-klopse/",
+        "open_status": "open",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "kabinett-weisswurst",
+      "name": "Rheingau Kabinett with weisswurst",
+      "pairing": "Off-dry Rheingau Riesling Kabinett with Munich weisswurst and sweet mustard",
+      "tablejourney_ref": "germany/munich/dish/weisswurst",
+      "tablejourney_url": "https://tablejourney.com/germany/munich/dish/weisswurst/",
+      "wine_entities": [
+        "vollrads-riesling-kabinett",
+        "bronzelack-riesling-auslese"
+      ],
+      "description": "A morning-friendly low-alcohol Kabinett echoes the sweet mustard and refreshes the palate against the delicate veal-and-parsley sausage.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://tablejourney.com/germany/munich/dish/weisswurst/",
+        "open_status": "open",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "trocken-schweinshaxe",
+      "name": "Dry Rheingau Riesling with schweinshaxe",
+      "pairing": "Dry Rheingau Riesling with Bavarian roast pork knuckle schweinshaxe and crackling",
+      "tablejourney_ref": "germany/munich/dish/schweinshaxe",
+      "tablejourney_url": "https://tablejourney.com/germany/munich/dish/schweinshaxe/",
+      "wine_entities": [
+        "gelblack-riesling-trocken",
+        "volratz-riesling-trocken",
+        "leitz-rheingau-riesling"
+      ],
+      "description": "Dry Rheingau Riesling's racy acidity cuts the fat of a roast pork knuckle while ripe stone fruit flatters the crackling and apple-sauce side.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://tablejourney.com/germany/munich/dish/schweinshaxe/",
+        "open_status": "open",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "auslese-obatzda",
+      "name": "Rheingau Auslese with obatzda",
+      "pairing": "Fruity-sweet Rheingau Riesling Auslese with the spiced Bavarian cheese spread obatzda",
+      "tablejourney_ref": "germany/munich/dish/obatzda",
+      "tablejourney_url": "https://tablejourney.com/germany/munich/dish/obatzda/",
+      "wine_entities": [
+        "bronzelack-riesling-auslese",
+        "vollrads-riesling-auslese",
+        "graefenberg-auslese"
+      ],
+      "description": "Honeyed Auslese sweetness tames the paprika and ripe-cheese funk of obatzda, while piercing Rheingau acidity keeps the pairing fresh.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://tablejourney.com/germany/munich/dish/obatzda/",
+        "open_status": "open",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "kabinett-spargel",
+      "name": "Rheingau Riesling Trocken with Spargel",
+      "pairing": "Dry Rheingau Riesling with white asparagus Spargel and hollandaise",
+      "tablejourney_ref": "germany/berlin/dish/spargel",
+      "tablejourney_url": "https://tablejourney.com/germany/berlin/dish/spargel/",
+      "wine_entities": [
+        "gelblack-riesling-trocken",
+        "staatsweinguter-riesling-trocken",
+        "robert-weil-tradition-trocken",
+        "leitz-rheingau-riesling"
+      ],
+      "description": "High-acid dry Rheingau Riesling cuts the herbal bitterness of white asparagus and lifts the buttery hollandaise, a German springtime fixture.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://tablejourney.com/germany/berlin/dish/spargel/",
+        "open_status": "open",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "spatburgunder-sauerbraten",
+      "name": "Assmannshausen Spaetburgunder with sauerbraten",
+      "pairing": "Dry Rheingau Spaetburgunder from Assmannshausen with Cologne sauerbraten",
+      "tablejourney_ref": "germany/cologne/dish/sauerbraten",
+      "tablejourney_url": "https://tablejourney.com/germany/cologne/dish/sauerbraten/",
+      "wine_entities": [
+        "krone-hoellenberg-spatburgunder-gg",
+        "kesseler-hoellenberg-spatburgunder-gg",
+        "assmannshaeuser-hoellenberg-spatburgunder-gg-staatsweinguter"
+      ],
+      "description": "Smoky red slate, sour cherry and fine tannin in a Hoellenberg Spaetburgunder meet the marinated raisin-and-vinegar pot-roast of the Rhineland sauerbraten.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://tablejourney.com/germany/cologne/dish/sauerbraten/",
+        "open_status": "open",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "spatburgunder-halve-hahn",
+      "name": "Rheingau Spaetburgunder with halve Hahn",
+      "pairing": "Dry Rheingau Spaetburgunder with Cologne halve Hahn (rye roll, aged Gouda and mustard)",
+      "tablejourney_ref": "germany/cologne/dish/halve-hahn",
+      "tablejourney_url": "https://tablejourney.com/germany/cologne/dish/halve-hahn/",
+      "wine_entities": [
+        "ress-vom-roten-schiefer",
+        "kesseler-pinot-n",
+        "chat-sauvage-lorcher-schlossberg-spatburgunder"
+      ],
+      "description": "Friendly Rheingau Spaetburgunder with red cherry and fine tannin lifts the aged Gouda and mustard inside the rye-roll Cologne lunch staple.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://tablejourney.com/germany/cologne/dish/halve-hahn/",
+        "open_status": "open",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "trocken-labskaus",
+      "name": "Rheingau Riesling Trocken with labskaus",
+      "pairing": "Dry Rheingau Riesling with Hamburg labskaus (corned beef, beetroot, herring and fried egg)",
+      "tablejourney_ref": "germany/hamburg/dish/labskaus",
+      "tablejourney_url": "https://tablejourney.com/germany/hamburg/dish/labskaus/",
+      "wine_entities": [
+        "staatsweinguter-riesling-trocken",
+        "robert-weil-tradition-trocken",
+        "leitz-eins-zwei-dry-riesling"
+      ],
+      "description": "Racy dry Riesling slices the corned-beef-and-herring richness of the sailor's hash while citrus drive refreshes against beetroot earthiness.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://tablejourney.com/germany/hamburg/dish/labskaus/",
+        "open_status": "open",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "kabinett-matjes",
+      "name": "Rheingau Kabinett with matjes",
+      "pairing": "Off-dry Rheingau Riesling Kabinett with Hamburg salt-cured matjes herring",
+      "tablejourney_ref": "germany/hamburg/dish/matjes",
+      "tablejourney_url": "https://tablejourney.com/germany/hamburg/dish/matjes/",
+      "wine_entities": [
+        "vollrads-riesling-kabinett",
+        "steinberger-kabinett-trocken",
+        "leitz-eins-zwei-dry-riesling"
+      ],
+      "description": "Crisp low-alcohol Riesling Kabinett slices through oily salt-cured herring while gentle residual sweetness softens the onion garnish.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://tablejourney.com/germany/hamburg/dish/matjes/",
+        "open_status": "open",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "sekt-aperitif-berlin",
+      "name": "Rheingau Riesling Sekt as Berlin aperitif",
+      "pairing": "Traditional-method Rheingau Riesling Sekt as Berlin wine-bar aperitif with smoked salmon canapes and charcuterie",
+      "tablejourney_ref": "germany/berlin/wine-bars",
+      "tablejourney_url": "https://tablejourney.com/germany/berlin/wine-bars/",
+      "wine_entities": [
+        "breuer-sauvage-brut-sekt",
+        "kloster-eberbach-riesling-sekt-brut",
+        "barth-pinot-1-sekt",
+        "fbschoenleber-riesling-sekt"
+      ],
+      "description": "Bone-dry Rheingau traditional-method Sekt with toasty lees autolysis and bright acid is the German celebration sparkling on Berlin natural-wine lists.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://tablejourney.com/germany/berlin/wine-bars/",
+        "open_status": "open",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "sekt-aperitivo-munich",
+      "name": "Rheingau Riesling Sekt for Munich aperitivo",
+      "pairing": "Traditional-method Rheingau Riesling Sekt as Munich wine-bar aperitif before dinner",
+      "tablejourney_ref": "germany/munich/wine-bars",
+      "tablejourney_url": "https://tablejourney.com/germany/munich/wine-bars/",
+      "wine_entities": [
+        "breuer-sauvage-brut-sekt",
+        "becker-riesling-brut-sekt",
+        "kloster-eberbach-riesling-sekt-brut"
+      ],
+      "description": "A bottle-fermented Rheingau Riesling Sekt cleanses the palate before a Munich dinner with bubbles and brisk acid, German alternative to Italian Franciacorta.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://tablejourney.com/germany/munich/wine-bars/",
+        "open_status": "open",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "gg-pike-perch",
+      "name": "Rheingau GG with pike-perch (Zander)",
+      "pairing": "Dry Rheingau Riesling Grosses Gewachs with pan-fried Rhine pike-perch and brown butter",
+      "tablejourney_ref": "germany/berlin/restaurants",
+      "tablejourney_url": "https://tablejourney.com/germany/berlin/restaurants/",
+      "wine_entities": [
+        "silberlack-riesling-gg",
+        "steinberger-riesling-gg",
+        "berg-schlossberg-gg-leitz",
+        "breuer-berg-schlossberg"
+      ],
+      "description": "Dry Rheingau GG with citrus drive, smoky slate and broad mineral palate matches pan-fried pike-perch and brown butter, the classic Rhine river-fish course.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://tablejourney.com/germany/berlin/restaurants/",
+        "open_status": "open",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "tba-stilton",
+      "name": "Rheingau TBA with Stilton",
+      "pairing": "Trockenbeerenauslese with Stilton blue cheese and quince",
+      "tablejourney_ref": "germany/berlin/restaurants",
+      "tablejourney_url": "https://tablejourney.com/germany/berlin/restaurants/",
+      "wine_entities": [
+        "goldlack-riesling-tba",
+        "rosalack-riesling-ba"
+      ],
+      "description": "Liqueur-like TBA candied stone fruit and saffron tie together salty Stilton funk and the wine's racy slate acidity.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://tablejourney.com/germany/berlin/restaurants/",
+        "open_status": "open",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "eiswein-tarte-tatin",
+      "name": "Rheingau Eiswein with tarte Tatin",
+      "pairing": "Rheingau Riesling Eiswein with apple tarte Tatin",
+      "tablejourney_ref": "germany/munich/restaurants",
+      "tablejourney_url": "https://tablejourney.com/germany/munich/restaurants/",
+      "wine_entities": [
+        "graefenberg-eiswein"
+      ],
+      "description": "Eiswein from frozen Riesling berries meets caramelised apple in the tart with crystalline acidity and candied yellow-fruit concentration.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://tablejourney.com/germany/munich/restaurants/",
+        "open_status": "open",
+        "checked_on": "2026-05-30"
+      }
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "signature_grapes": [
+    {
+      "slug": "riesling",
+      "name": "Riesling",
+      "style_focus": "white",
+      "regions_grown": [
+        "hochheim",
+        "eltville",
+        "erbach",
+        "kiedrich",
+        "rauenthal",
+        "hattenheim",
+        "hallgarten",
+        "oestrich-winkel",
+        "johannisberg",
+        "geisenheim",
+        "ruedesheim",
+        "lorch"
+      ],
+      "description": "Riesling accounts for around 78 percent of Rheingau plantings according to the German Wine Institute. Schloss Johannisberg documents a 1720 monastic replanting with Riesling alone. The grape spans the legal Pradikat ladder from racy off-dry Kabinett through Spatlese, Auslese and the noble-sweet Beerenauslese, Trockenbeerenauslese and Eiswein, plus the dry VDP.Grosses Gewachs (GG) tier introduced in 2002. Rheingau Riesling typically shows green apple, white peach, citrus zest and slate-driven minerality, with the Hattenheim and Erbach loess sites giving fuller, riper wines and the Lorch grey slate and Rauenthal phyllite producing especially racy, perfumed bottlings. Single vineyards include Berg Schlossberg in Rudesheim, Marcobrunn in Erbach-Hattenheim, Grafenberg in Kiedrich and Holle in Hochheim.",
+      "key_producers": [
+        "schloss-johannisberg",
+        "hessische-staatsweingueter-kloster-eberbach",
+        "robert-weil",
+        "weingut-kuenstler",
+        "leitz",
+        "georg-breuer"
+      ],
+      "verified": {
+        "source_url": "https://www.deutscheweine.de/",
+        "address_quoted": "Rheingau, Germany",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vdp.de/de/die-winzer/rheingau",
+        "cuisine_evidence_url": "https://schloss-johannisberg.de/en/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "spatburgunder",
+      "name": "Spatburgunder (Pinot Noir)",
+      "style_focus": "red",
+      "regions_grown": [
+        "assmannshausen",
+        "ruedesheim",
+        "johannisberg",
+        "hattenheim"
+      ],
+      "description": "The historic German home of Spatburgunder, locally Pinot Noir, is the red-slate Assmannshauser Hollenberg downstream of Rudesheim, where Weingut Krone Assmannshausen, August Kesseler and the Hessische Staatsweinguter's Domane Assmannshausen sit on the slope. The Rheingau grew Pinot Noir from monastic times and the variety now accounts for around 12 percent of plantings, the red share of the regional total. Hollenberg Spatburgunders are typically medium- to full-bodied, with dark cherry, forest-floor and graphite notes from the red phyllite-slate soils; smaller Pinot Noir plots also dot Rudesheim, Johannisberg and the central Rheingau, with Chat Sauvage in Johannisberg producing Burgundy-style whole-cluster fermentations.",
+      "key_producers": [
+        "weingut-krone-assmannshausen",
+        "august-kesseler",
+        "hessische-staatsweingueter-kloster-eberbach",
+        "weingut-robert-koenig",
+        "chat-sauvage"
+      ],
+      "verified": {
+        "source_url": "https://www.vdp.de/de/die-winzer/rheingau/krone-assmannshausen",
+        "address_quoted": "Niederwaldstrasse 2, 65385 Rüdesheim-Assmannshausen",
+        "open_status": "open",
+        "open_evidence_url": "https://kloster-eberbach.de/de/wein/weingut/domaene-assmannshausen",
+        "cuisine_evidence_url": "https://www.weingut-krone.de/weine/assmannshaeuser-hoellenberg/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "weissburgunder",
+      "name": "Weissburgunder (Pinot Blanc)",
+      "style_focus": "white",
+      "regions_grown": [
+        "hattenheim",
+        "erbach",
+        "oestrich-winkel",
+        "johannisberg",
+        "lorch"
+      ],
+      "description": "Pinot Blanc, called Weissburgunder in Germany, is the third grape of the Rheingau after Riesling and Spatburgunder, planted on warmer loess and limestone parcels across the central villages. It produces dry, medium-bodied whites with pear, apple and almond notes and moderate acidity, often vinified bone-dry for the table or used as a Sekt base. Producers including Schloss Reinhartshausen, Jakob Jung and Schumann-Nagler include Weissburgunder in their dry-white programmes alongside Riesling, and the Hochschule Geisenheim has driven much of the recent quality push for German Pinot Blanc.",
+      "key_producers": [
+        "schloss-reinhartshausen",
+        "jakob-jung",
+        "von-oetinger",
+        "weingut-schumann-naegler"
+      ],
+      "verified": {
+        "source_url": "https://www.deutscheweine.de/",
+        "address_quoted": "Rheingau, Germany",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vdp.de/de/die-winzer/rheingau",
+        "cuisine_evidence_url": "https://www.schloss-reinhartshausen.de/en/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "grauburgunder",
+      "name": "Grauburgunder (Pinot Gris)",
+      "style_focus": "white",
+      "regions_grown": [
+        "hattenheim",
+        "erbach",
+        "oestrich-winkel",
+        "ruedesheim"
+      ],
+      "description": "Pinot Gris, called Grauburgunder in Germany, is a small but growing presence in the Rheingau, planted on warmer loess and quartzite parcels for dry, medium-bodied whites with pear, white peach and toasted almond. Schloss Reinhartshausen, Georg Breuer and Weingut Friesenhahn all include the variety alongside Riesling and Pinot Blanc. Yields are usually low and the style tends toward dry, food-friendly whites with moderate acidity, sometimes used in white-Burgundy-style blends. Friesenhahn in Aulhausen is noted in Rheingau press for Pinot Gris from the Rudesheimer Berg.",
+      "key_producers": [
+        "schloss-reinhartshausen",
+        "georg-breuer",
+        "weingut-friesenhahn",
+        "von-oetinger"
+      ],
+      "verified": {
+        "source_url": "https://www.deutscheweine.de/",
+        "address_quoted": "Rheingau, Germany",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vdp.de/de/die-winzer/rheingau",
+        "cuisine_evidence_url": "https://www.georg-breuer.com/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "chardonnay",
+      "name": "Chardonnay",
+      "style_focus": "white",
+      "regions_grown": [
+        "johannisberg",
+        "hochheim"
+      ],
+      "description": "Chardonnay is a recent arrival in the Rheingau, expanding in line with the broader German trend, and is the signature white of Weingut Chat Sauvage in Johannisberg, which planted Pinot Noir and Chardonnay only from 2010 on. Weingut Kunstler in Hochheim also produces Chardonnay alongside Riesling and Spatburgunder. Styles are usually dry and Burgundy-inflected, with whole-cluster pressing, native ferments and barrel ageing, giving stone-fruit, citrus and toasted-almond profiles that contrast with the slate minerality of Rheingau Riesling.",
+      "key_producers": [
+        "chat-sauvage",
+        "weingut-kuenstler",
+        "georg-breuer"
+      ],
+      "verified": {
+        "source_url": "https://chat-sauvage.de/",
+        "address_quoted": "Hohlweg 23, 65366 Geisenheim-Johannisberg",
+        "open_status": "open",
+        "open_evidence_url": "https://www.weingut-kuenstler.de/en/winery.html",
+        "cuisine_evidence_url": "https://chat-sauvage.de/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "fruhburgunder",
+      "name": "Fruhburgunder",
+      "style_focus": "red",
+      "regions_grown": [
+        "assmannshausen"
+      ],
+      "description": "Fruhburgunder is an early-ripening clone of Pinot Noir grown in tiny quantities in the Rheingau, almost entirely on the Assmannshauser Hollenberg. The variety gives darker-fruited, lower-acid red wines than standard Spatburgunder and is treated as a heritage curiosity by the Assmannshausen producers who keep it. Weingut Robert Konig and Weingut Mohr both list Fruhburgunder bottlings from Hollenberg, and the grape is part of the red-slate Assmannshausen Pinot enclave.",
+      "key_producers": [
+        "weingut-robert-koenig",
+        "weingut-mohr"
+      ],
+      "verified": {
+        "source_url": "https://www.weingut-robert-koenig.shop/en",
+        "address_quoted": "Landhaus Kenner 1, D-65385 Rüdesheim - Assmannshausen",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vinsur.de/alle-weinsorten/assmannshaeuser-hoellenberg-fruehburgunder-2020-weingut-robert-koenig",
+        "cuisine_evidence_url": "https://www.weingut-robert-koenig.shop/en",
+        "checked_on": "2026-05-30"
+      }
+    }
+  ]
+}

@@ -133,6 +133,23 @@ RE_BENCHMARK_NOUN = re.compile(
 # catches the ASCII-typewriter workaround.
 RE_DOUBLE_HYPHEN = re.compile(r"(?<!\w)--(?!\w)")
 
+# Critic-attention prose without scores[] (Rheingau Opus 2026-05-30 — Kesseler
+# R Spätburgunder claimed "the R label drew Wine Advocate's attention to
+# Rheingau Pinot Noir in the late 1990s" with no `scores[]` citation). The
+# existing RE_CRITIC_NUM only fires when a number is nearby; bare critic-
+# attention prose ("Parker's attention", "WS focus", "Suckling praise")
+# slips through. This regex flags any critic + attention-verb combination.
+RE_CRITIC_ATTENTION = re.compile(
+    r"\b(?:Parker|Wine\s+Advocate|WA|Wine\s+Spectator|WS|"
+    r"James\s+Suckling|Suckling|Vinous|Galloni|Decanter|"
+    r"Tim\s+Atkin|Gault|Gault\s+Millau|Falstaff|Vinum|"
+    r"Jancis\s+Robinson|Robinson|Eichelmann)(?:'s)?\s+"
+    r"(?:attention|focus|spotlight|praise|review|coverage|"
+    r"interest|notice|nod|seal\s+of\s+approval)\b",
+    re.I,
+)
+
+
 # First-name-only chef/sommelier/winemaker attribution risk.
 # "Chef Marina" / "sommelier Roberto" without a verifiable last name +
 # source is a fabrication risk (Ribera 2026-05-28 — Ambivium's fabricated
@@ -172,6 +189,8 @@ def _scan_text(s: str) -> str | None:
         return "benchmark-noun"
     if RE_DOUBLE_HYPHEN.search(s):
         return "double-hyphen-emdash"
+    if RE_CRITIC_ATTENTION.search(s):
+        return "critic-attention-prose"
     if RE_FIRSTNAME_ATTRIB.search(s):
         return "firstname-only-attribution"
     return None

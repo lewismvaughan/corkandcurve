@@ -1,0 +1,237 @@
+{
+  "itineraries": [
+    {
+      "slug": "rheingau-wine-route-three-days",
+      "name": "Three-day Rheingau wine route, Hochheim to Lorch",
+      "length_days": 3,
+      "theme": "Classic Rheingau Riesling route along the Rhine from the eastern Hochheim slopes to the western Lorch terraces",
+      "base": "Eltville am Rhein",
+      "days": [
+        {
+          "day": 1,
+          "morning": "Start in Hochheim am Main at the eastern Rheingau anchor with a late-morning tasting at Weingut Kuenstler, focused on the warmer Main-side dry Rieslings from the Hochheimer Hoelle and Kirchenstueck.",
+          "lunch": "Lunch in the Hochheim old town.",
+          "afternoon": "Cross to Eltville for an afternoon at Kloster Eberbach with a tour of the 12th-century abbey, the monks' refectory and the Hessische Staatsweingueter cellars below.",
+          "evening": "Dinner in Eltville with a final glass of estate Riesling at one of the riverfront vinotheks.",
+          "accommodation": "Eltville am Rhein.",
+          "venues": [
+            "weingut-kuenstler",
+            "hessische-staatsweingueter-kloster-eberbach"
+          ]
+        },
+        {
+          "day": 2,
+          "morning": "Drive west to Kiedrich for a morning tasting at Weingut Robert Weil, the VDP Kiedrich anchor with the Kiedricher Graefenberg Grosse Lage at the centre of its dry-Riesling range.",
+          "lunch": "Lunch in Kiedrich or down the hill in Eltville.",
+          "afternoon": "Continue to Hattenheim for an afternoon at Weingut Balthasar Ress on the Rheinallee, tasting the Hattenheimer Nussbrunnen and Wisselbrunnen GGs side by side.",
+          "evening": "Drive on to Oestrich-Winkel and a final tasting at Weingut Peter Jakob Kuhn, the Demeter-certified biodynamic Doosberg estate.",
+          "accommodation": "Eltville or Oestrich-Winkel.",
+          "venues": [
+            "robert-weil",
+            "balthasar-ress",
+            "peter-jakob-kuehn"
+          ]
+        },
+        {
+          "day": 3,
+          "morning": "Continue west to Geisenheim for a morning at Schloss Johannisberg, the monopole hilltop estate documented as Riesling-only since 1720 and the home of the 1775 Spaetlese story.",
+          "lunch": "Lunch in Ruedesheim at a Drosselgasse Weinstube.",
+          "afternoon": "Afternoon at Weingut Leitz in Ruedesheim, tasting Johannes Leitz's dry Rieslings from the steep Berg sites including Berg Schlossberg, Berg Roseneck and Berg Rottland.",
+          "evening": "Drive on to Lorch for a final pour at Weingut Eva Fricke, working the western Rheingau slate at Lorcher Krone and Schlossberg.",
+          "accommodation": "Departure or overnight in Ruedesheim.",
+          "venues": [
+            "schloss-johannisberg",
+            "leitz",
+            "eva-fricke"
+          ]
+        }
+      ],
+      "description": "Three days along the Rheingau wine route from Hochheim in the east through Eltville, Hattenheim, Geisenheim and Ruedesheim to the western Lorch terraces, with classic VDP estate visits at each anchor village.",
+      "tip": "Book the major estates ahead, especially Robert Weil and Peter Jakob Kuhn; both prefer appointed tastings over walk-ins.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://en.wikipedia.org/wiki/Rheingau_(wine_region)",
+        "address_quoted": "Rheingau",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vdp.de/en/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Riesling",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "kloster-eberbach-niederwald-two-days",
+      "name": "Two-day Kloster Eberbach and Niederwald deep dive",
+      "length_days": 2,
+      "theme": "The historic and monumental Rheingau: the 12th-century Cistercian abbey and the 19th-century Niederwald monument above Ruedesheim",
+      "base": "Eltville am Rhein",
+      "days": [
+        {
+          "day": 1,
+          "morning": "Morning at Kloster Eberbach with a guided tour of the abbey, basilica, refectory and cellar, including the Cabinet cellar where the Spaetlese sweetness ladder was first formally laid out.",
+          "lunch": "Lunch at the Kloster Eberbach inner-court Klosterschaenke.",
+          "afternoon": "Walk or drive a short distance to the monopole Steinberg site, the walled vineyard begun by Cistercian monks from 1136 and still farmed by the Hessische Staatsweingueter.",
+          "evening": "Dinner in Eltville with a final glass of Rheingau Riesling at a riverside Weinstube.",
+          "accommodation": "Eltville am Rhein.",
+          "venues": [
+            "hessische-staatsweingueter-kloster-eberbach"
+          ]
+        },
+        {
+          "day": 2,
+          "morning": "Drive to Ruedesheim and ride the Seilbahn cable car up the steep Berg slopes to the Niederwald monument above the city, the 1883 statue commemorating the founding of the German Empire.",
+          "lunch": "Lunch on the Drosselgasse in central Ruedesheim.",
+          "afternoon": "Afternoon at Weingut Leitz to taste the steep Berg Schlossberg, Berg Roseneck and Berg Rottland dry Rieslings from the slopes the cable car climbs.",
+          "evening": "Final dinner in Ruedesheim before the drive or train back.",
+          "accommodation": "Departure.",
+          "venues": [
+            "leitz"
+          ]
+        }
+      ],
+      "description": "Two days pairing the Rheingau's 12th-century Cistercian abbey at Kloster Eberbach and the walled Steinberg vineyard with the cable-car climb to the Niederwald monument above Ruedesheim and a Leitz Berg tasting.",
+      "tip": "Pre-book the Kloster Eberbach guided tour; the abbey's themed cellar and refectory tours sell out on summer weekends.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.kloster-eberbach.de/en/",
+        "address_quoted": "Kloster Eberbach",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Kloster_Eberbach",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Niederwalddenkmal",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "rheingau-gg-vertical-two-days",
+      "name": "Two-day Rheingau GG Riesling vertical",
+      "length_days": 2,
+      "theme": "Dry Riesling GG focus: a side-by-side comparison of Grosses Gewaechs from the Rheingau's headline VDP estates",
+      "base": "Oestrich-Winkel",
+      "days": [
+        {
+          "day": 1,
+          "morning": "Morning at Weingut Robert Weil in Kiedrich with a tasting of the Kiedricher Graefenberg GG across recent vintages, the Weil flagship single-site dry Riesling.",
+          "lunch": "Lunch in Kiedrich.",
+          "afternoon": "Afternoon at Weingut Kuenstler in Hochheim, comparing the Hochheimer Hoelle and Kirchenstueck GGs from the warmer Main-side terroir.",
+          "evening": "Dinner in Eltville and a final glass at a riverside Weinstube.",
+          "accommodation": "Oestrich-Winkel.",
+          "venues": [
+            "robert-weil",
+            "weingut-kuenstler"
+          ]
+        },
+        {
+          "day": 2,
+          "morning": "Morning at Schloss Vollrads in Oestrich-Winkel, tasting the Schloss Vollrads dry Riesling range from the historic moated estate.",
+          "lunch": "Lunch in the Schloss Vollrads garden.",
+          "afternoon": "Afternoon at Weingut Spreitzer for the Oestrich Doosberg and Hendelberg GG bottlings from the brothers' modern range, then on to Weingut Peter Jakob Kuhn for the biodynamic Doosberg.",
+          "evening": "Final dinner in Oestrich-Winkel or Eltville.",
+          "accommodation": "Departure.",
+          "venues": [
+            "schloss-vollrads",
+            "spreitzer",
+            "peter-jakob-kuehn"
+          ]
+        }
+      ],
+      "description": "Two days comparing Rheingau Grosse Gewaechs Rieslings side by side, from Kiedricher Graefenberg at Robert Weil and Hochheimer GGs at Kuenstler to Schloss Vollrads, Spreitzer and biodynamic Peter Jakob Kuhn.",
+      "tip": "Tasting GGs back to back is intense; pace with food at lunch and plan no more than two estates per half-day.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://en.wikipedia.org/wiki/Grosses_Gew%C3%A4chs",
+        "address_quoted": "Rheingau",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vdp.de/en/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Rheingau_(wine_region)",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "biodynamic-rheingau-two-days",
+      "name": "Biodynamic Rheingau, two days",
+      "length_days": 2,
+      "theme": "Low-intervention Rheingau: Demeter-certified biodynamic and certified-organic estates across the region",
+      "base": "Oestrich-Winkel",
+      "days": [
+        {
+          "day": 1,
+          "morning": "Morning at Weingut Peter Jakob Kuhn in Oestrich-Winkel, the Demeter-certified biodynamic estate, tasting the Doosberg, Lenchen and Hendelberg dry Rieslings.",
+          "lunch": "Lunch on the Oestrich riverbank.",
+          "afternoon": "Afternoon at Weingut August Eser around the Oestrich Friedensplatz, tasting the certified-organic Doosberg and Lenchen Rieslings under Joachim Eser.",
+          "evening": "Dinner in Oestrich-Winkel and a Riesling nightcap at a village Weinstube.",
+          "accommodation": "Oestrich-Winkel.",
+          "venues": [
+            "peter-jakob-kuehn",
+            "august-eser"
+          ]
+        },
+        {
+          "day": 2,
+          "morning": "Drive west to Lorch for a morning at Weingut Eva Fricke, tasting the certified-organic Lorcher Krone and Schlossberg dry Rieslings from the western Rheingau slate.",
+          "lunch": "Lunch in Ruedesheim before the drive back.",
+          "afternoon": "Optional stop at Weingut Baron Knyphausen in Erbach for the organic-certified Marcobrunn and Kiedrich parcels.",
+          "evening": "Final dinner in Eltville before departure.",
+          "accommodation": "Departure.",
+          "venues": [
+            "eva-fricke",
+            "baron-knyphausen"
+          ]
+        }
+      ],
+      "description": "Two days among the Rheingau's certified-organic and Demeter-biodynamic estates, from Peter Jakob Kuhn and August Eser in Oestrich to Eva Fricke in Lorch and Baron Knyphausen in Erbach.",
+      "tip": "All four estates are small and hands-on; arrange every visit directly in advance and expect intimate, unhurried tastings.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://demeter.de/",
+        "address_quoted": "Demeter",
+        "open_status": "open",
+        "open_evidence_url": "https://www.weingutpjkuehn.de/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Rheingau_(wine_region)",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "spaetburgunder-assmannshausen-two-days",
+      "name": "Two-day Spaetburgunder around Assmannshausen",
+      "length_days": 2,
+      "theme": "Rheingau Pinot Noir focus: red-slate Assmannshausen and the Johannisberg estates working Spaetburgunder",
+      "base": "Ruedesheim am Rhein",
+      "days": [
+        {
+          "day": 1,
+          "morning": "Morning at Weingut August Kesseler in Assmannshausen on the Lorcher Strasse, tasting the red-slate Hoellenberg Spaetburgunder range alongside the Ruedesheim Riesling.",
+          "lunch": "Lunch in Assmannshausen with the floodlit Rhine for company.",
+          "afternoon": "Drive to Geisenheim for an afternoon at Schloss Johannisberg, tasting the estate Spaetburgunder alongside the famous Schloss Johannisberg Riesling range.",
+          "evening": "Drive back to Ruedesheim and dinner on the Drosselgasse.",
+          "accommodation": "Ruedesheim am Rhein.",
+          "venues": [
+            "august-kesseler",
+            "schloss-johannisberg"
+          ]
+        },
+        {
+          "day": 2,
+          "morning": "Morning at Weingut Chat Sauvage in Johannisberg, the Pinot-and-Chardonnay specialist working Lorch and Assmannshausen sites alongside Burgundian varieties.",
+          "lunch": "Lunch in Geisenheim or Ruedesheim.",
+          "afternoon": "Afternoon at the Kloster Eberbach cellars, tasting the Assmannshaeuser Hoellenberg Spaetburgunder from the state-owned Domaene Assmannshausen alongside the Steinberg Riesling.",
+          "evening": "Dinner in Eltville before departure.",
+          "accommodation": "Departure.",
+          "venues": [
+            "chat-sauvage",
+            "hessische-staatsweingueter-kloster-eberbach"
+          ]
+        }
+      ],
+      "description": "Two days on Rheingau Spaetburgunder, from the red-slate Hoellenberg at Assmannshausen with August Kesseler and Chat Sauvage to Schloss Johannisberg and the Kloster Eberbach state Domaene cellars.",
+      "tip": "Book Chat Sauvage and August Kesseler ahead; both run small, appointed tastings rather than walk-in vinothek pours.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://en.wikipedia.org/wiki/Sp%C3%A4tburgunder",
+        "address_quoted": "Spaetburgunder",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Rheingau_(wine_region)",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Rheingau_(wine_region)",
+        "checked_on": "2026-05-30"
+      }
+    }
+  ]
+}

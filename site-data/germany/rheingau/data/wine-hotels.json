@@ -1,0 +1,268 @@
+{
+  "wine_hotels": [
+    {
+      "slug": "hotel-schloss-reinhartshausen-erbach",
+      "name": "Hotel Schloss Reinhartshausen, Vignette Collection",
+      "address": "Hauptstrasse 41, 65346 Eltville-Erbach, Germany",
+      "neighborhood": "Erbach, Eltville am Rhein",
+      "parent_vineyard": "schloss-reinhartshausen",
+      "category": "5-star castle hotel, Vignette Collection by IHG",
+      "rooms": 53,
+      "description": "Historic Rheingau castle hotel reopening as part of IHG's Vignette Collection in January 2026. Fifty-three rooms and suites, three restaurants and a wellness area on the riverbank in Erbach.",
+      "wine_program": "Marcobrunn gourmet restaurant; estate wine programme from Schloss Reinhartshausen, the 680-year-old castle winery",
+      "price_range": "EUR 250-700 per night",
+      "booking_url": "https://www.ihg.com/vignettecollection/hotels/gb/en/eltville-am-rhein-erbach/frasr/hoteldetail",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.ihg.com/vignettecollection/hotels/gb/en/eltville-am-rhein-erbach/frasr/hoteldetail",
+        "address_quoted": "Hotel Schloss Reinhartshausen, Hauptstraße 41, 65346 Eltville-Erbach",
+        "open_status": "open",
+        "open_evidence_url": "https://www.ihgplc.com/en/news-and-media/news-releases/2025/ihg-hotels-and-resorts-signs-third-vignette-collection-in-germany",
+        "cuisine_evidence_url": "https://www.tristan-brandt.de/pressebeitrag/hotel-schloss-reinhartshausen-gourmetrestaurant-marcobrunn-by-tristan-brandt/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "burg-schwarzenstein-geisenheim",
+      "name": "Relais and Chateaux Hotel Burg Schwarzenstein",
+      "address": "Rosengasse 32, 65366 Geisenheim-Johannisberg, Germany",
+      "neighborhood": "Johannisberg, Geisenheim",
+      "parent_vineyard": null,
+      "category": "Relais and Chateaux 5-star boutique hotel",
+      "rooms": 51,
+      "description": "Castle hotel above the Rheingau vineyards in Geisenheim-Johannisberg, with rooms split between the historic castle, Park Residence and Guest House. Vineyard views over the Rhine valley and Burgrestaurant Schwarzenstein.",
+      "wine_program": "On-site Burgrestaurant Schwarzenstein and Brasserie Schwarzenstein; vineyard-view dining with Rheingau wine list",
+      "price_range": "EUR 220-550 per night",
+      "booking_url": "https://www.burg-schwarzenstein.de/en/",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.rheingau.com/unterkunft/burg-gaestehaus-by-schwarzenstein/unterkunft.html",
+        "address_quoted": "Rosengasse 32\n65366 Geisenheim-Johannisberg",
+        "open_status": "open",
+        "open_evidence_url": "https://www.booking.com/hotel/de/relais-amp-chateaux-burg-schwarzenstein.html",
+        "cuisine_evidence_url": "https://guide.michelin.com/us/en/hotels-stays/geisenheim/relais-chateaux-hotel-burg-schwarzenstein-9762",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "kronenschloesschen-hattenheim",
+      "name": "Hotel Kronenschloesschen",
+      "address": "Rheinallee, 65347 Eltville-Hattenheim, Germany",
+      "neighborhood": "Hattenheim, Eltville am Rhein",
+      "parent_vineyard": null,
+      "category": "Family-run 4-star gourmet hotel",
+      "rooms": 18,
+      "description": "Family-run 4-star hotel and gourmet restaurant in central Hattenheim, with a painted-ceiling dining room and head sommelier Florian Richter (Sommelier des Jahres 2023).",
+      "wine_program": "Award-winning wine list led by sommelier Florian Richter; cellar selections across Rheingau, France and beyond",
+      "price_range": "EUR 220-480 per night",
+      "booking_url": "https://www.kronenschloesschen.de/",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.kronenschloesschen.de/",
+        "address_quoted": "Rheinallee · 65347 Eltville-Hattenheim",
+        "open_status": "open",
+        "open_evidence_url": "https://www.booking.com/hotel/de/kronenschlosschen.html",
+        "cuisine_evidence_url": "https://qualitylodgings.com/en/kronenschlosschen",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "hotel-kloster-eberbach",
+      "name": "Hotel Kloster Eberbach",
+      "address": "Kloster Eberbach, 65346 Eltville am Rhein, Germany",
+      "neighborhood": "Kloster Eberbach, Eltville",
+      "parent_vineyard": "kloster-eberbach",
+      "category": "3-star monastery hotel",
+      "rooms": 29,
+      "description": "Hotel in the historic 1136 Cistercian abbey of Kloster Eberbach in the Rheingau hinterland above Eltville. Double, superior and deluxe rooms inside and beside the monastery, with the Vinothek WineBar1136 and Klosterschaenke alongside.",
+      "wine_program": "Vinothek and WineBar1136 onsite; Klosterschaenke restaurant pouring the Hessische Staatsweinguter range",
+      "price_range": "EUR 140-310 per night",
+      "booking_url": "https://kloster-eberbach.de/en/vor-ort/hotel",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://kloster-eberbach.de/en/vor-ort/hotel",
+        "address_quoted": "Kloster Eberbach, 65346 Eltville am Rhein",
+        "open_status": "open",
+        "open_evidence_url": "https://www.booking.com/hotel/de/kloster-eberbach.html",
+        "cuisine_evidence_url": "https://www.tripadvisor.com/Hotel_Review-g983854-d1454099-Reviews-Hotel_Kloster_Eberbach-Eltville_am_Rhein_Hesse.html",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "hotel-schwan-oestrich-winkel",
+      "name": "Hotel Schwan",
+      "address": "Rheinallee 5-7, 65375 Oestrich-Winkel, Germany",
+      "neighborhood": "Oestrich, Oestrich-Winkel",
+      "parent_vineyard": null,
+      "category": "Historic 3-star half-timbered hotel",
+      "rooms": 51,
+      "description": "Riverside half-timbered hotel built in 1628 and owned by the Wenckstern family ever since. Hotel and Gasthaus Ilse share the Rhine view between them, with a cavernous wine cellar where the family wines are served.",
+      "wine_program": "Wenckstern family wines served in the historic vaulted wine cellar; Rheingau list in the restaurant",
+      "price_range": "EUR 110-230 per night",
+      "booking_url": "https://www.hotel-schwan.de/",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.fodors.com/world/europe/germany/the-rhineland/hotels/reviews/hotel-schwan-455728",
+        "address_quoted": "Hotel Schwan, Rheinallee 5-7, Oestrich-Winkel",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Hotel_Review-g651854-d681086-Reviews-Hotel_Schwan-Oestrich_Winkel_Hesse.html",
+        "cuisine_evidence_url": "https://www.kayak.com/Oestrich-Winkel-Hotels-Schwan.181673.ksp",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "zum-krug-hattenheim-hotel",
+      "name": "Weinhaus Zum Krug Hotel",
+      "address": "Hauptstrasse 34, 65347 Eltville-Hattenheim, Germany",
+      "neighborhood": "Hattenheim, Eltville am Rhein",
+      "parent_vineyard": null,
+      "category": "Family-run wine-house hotel",
+      "rooms": 14,
+      "description": "Hotel and wine house in a 1720 half-timbered building in central Hattenheim, run by the Laufer family for three generations. Eight comfort rooms and renovated deluxe rooms with vineyard-themed names alongside a 350-bottle wine list.",
+      "wine_program": "350-bottle Rheingau-led wine list in the restaurant and Vinothek, with a broad selection of Rheingau estates under one roof",
+      "price_range": "EUR 120-220 per night",
+      "booking_url": "https://www.zum-krug-rheingau.de/",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.zum-krug-rheingau.de/",
+        "address_quoted": "Hauptstraße 34, 65347 Hattenheim",
+        "open_status": "open",
+        "open_evidence_url": "https://www.zum-krug-rheingau.de/",
+        "cuisine_evidence_url": "https://www.tripadvisor.com/Hotel_Review-g616148-d607200-Reviews-Weinhaus_Zum_Krug-Hattenheim_Eltville_am_Rhein_Hesse.html",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "adler-wirtschaft-gaestezimmer",
+      "name": "Gaestezimmer der Adler Wirtschaft",
+      "address": "Hauptstrasse 31, 65347 Eltville-Hattenheim, Germany",
+      "neighborhood": "Hattenheim, Eltville am Rhein",
+      "parent_vineyard": null,
+      "category": "Restaurant guesthouse",
+      "rooms": 5,
+      "description": "Five double rooms attached to the Adler Wirtschaft of chef Franz Keller in central Hattenheim. Modern French bistro programme using meat from the family Falkenhof farm and Rheingau wines from neighbouring estates.",
+      "wine_program": "Rheingau wine programme alongside the Adler Wirtschaft restaurant; close to Hattenheim VDP estates",
+      "price_range": "EUR 130-220 per night",
+      "booking_url": "https://www.franzkeller.de/uebernachten",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.franzkeller.de/uebernachten",
+        "address_quoted": "Hauptstraße 31, 65347 Eltville-Hattenheim",
+        "open_status": "open",
+        "open_evidence_url": "https://www.booking.com/hotel/de/gastezimmer-der-adler-wirtschaft.html",
+        "cuisine_evidence_url": "https://guide.michelin.com/us/en/hessen/eltville-am-rhein/restaurant/adler-wirtschaft",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "ruedesheimer-hof-ruedesheim",
+      "name": "Hotel Ruedesheimer Hof",
+      "address": "Geisenheimer Strasse 1, 65385 Ruedesheim am Rhein, Germany",
+      "neighborhood": "Ruedesheim am Rhein",
+      "parent_vineyard": null,
+      "category": "Family-run 3-star Superior hotel",
+      "rooms": 42,
+      "description": "Family-run hotel in central Ruedesheim, run by the fifth generation across the street from Weingut Georg Breuer. Forty-two rooms with 70 beds, breakfast and walking access to the Drosselgasse and the Rhine promenade.",
+      "wine_program": "Walking distance to Weingut Georg Breuer Vinothek opposite; close to the WINEAROUND tasting walk",
+      "price_range": "EUR 110-200 per night",
+      "booking_url": "https://www.ruedesheimer-hof.de/en/",
+      "editorial_score": 4.1,
+      "verified": {
+        "source_url": "https://www.ruedesheimer-hof.de/en/",
+        "address_quoted": "Geisenheimer Straße 1 | 65385 Rüdesheim am Rhein",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.com/Hotel_Review-g187345-d239085-Reviews-Rudesheimer_Hof-Ruedesheim_am_Rhein_Hesse.html",
+        "cuisine_evidence_url": "https://www.ruedesheim.de/en/rhine-culture/hotel-ruedesheimer-hof/unterkunft.html",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "lindenwirt-ruedesheim-hotel",
+      "name": "Hotel Lindenwirt",
+      "address": "Drosselgasse 4, 65385 Ruedesheim am Rhein, Germany",
+      "neighborhood": "Drosselgasse, Ruedesheim am Rhein",
+      "parent_vineyard": null,
+      "category": "Drosselgasse 3-star hotel",
+      "rooms": 60,
+      "description": "Hotel and wine tavern on the Drosselgasse opened 1927 and run by the third generation of the Ohlig family. Sixty rooms around a courtyard, plus the Weinfass option to spend the night inside a giant wine barrel.",
+      "wine_program": "Wine tavern with Rheingau Riesling and Spatburgunder; Drosselgasse vinothek access alongside",
+      "price_range": "EUR 100-180 per night",
+      "booking_url": "https://lindenwirt.com/",
+      "editorial_score": 4.0,
+      "verified": {
+        "source_url": "https://lindenwirt.com/",
+        "address_quoted": "Drosselgasse 4",
+        "open_status": "open",
+        "open_evidence_url": "https://www.ruedesheim.de/en/culinary-delights/hotel-lindenwirt/unterkunft.html",
+        "cuisine_evidence_url": "https://www.rheingau.com/ausgefallen-uebernachten/weinfass-hotel-lindenwirt",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "weinhaus-sinz-hotel-wiesbaden",
+      "name": "Weinhaus Sinz Hotel",
+      "address": "Herrnbergstrasse 17, 65201 Wiesbaden, Germany",
+      "neighborhood": "Frauenstein, Wiesbaden",
+      "parent_vineyard": null,
+      "category": "Family-run wine-house hotel",
+      "rooms": 17,
+      "description": "Hotel attached to the Weinhaus Sinz restaurant in Wiesbaden-Frauenstein, in the middle of the city's vineyards. Seventeen rooms across the main building and three guest houses, with regional Rheingau wines in the dining room.",
+      "wine_program": "Rheingau wine list in the restaurant; estate visits from the Wiesbaden vineyards nearby",
+      "price_range": "EUR 100-170 per night",
+      "booking_url": "https://weinhaus-sinz.com/en/",
+      "editorial_score": 4.1,
+      "verified": {
+        "source_url": "https://weinhaus-sinz.com/en/",
+        "address_quoted": "Herrnbergstraße 17, 65201 Wiesbaden",
+        "open_status": "open",
+        "open_evidence_url": "https://www.falstaff.com/en/restaurants/weinhaus-sinz-wiesbaden",
+        "cuisine_evidence_url": "https://www.tripadvisor.com/Restaurant_Review-g187346-d1178409-Reviews-Weinhaus_Sinz_Restaurant_Hotel-Wiesbaden_Hesse.html",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "balthasar-ress-suite-hattenheim",
+      "name": "Balthasar Ress Suite Hattenheim",
+      "address": "Rheinallee 50, 65347 Eltville-Hattenheim, Germany",
+      "neighborhood": "Hattenheim, Eltville am Rhein",
+      "parent_vineyard": "weingut-balthasar-ress",
+      "category": "Estate suite at the vinothek",
+      "rooms": 2,
+      "description": "Estate suite at Weingut Balthasar Ress on the Hattenheim riverfront, in the former bishop's residence beside the vinothek. Estate Rieslings and Pinot tastings on site at the working VDP winery.",
+      "wine_program": "Estate VDP Rheingau range on tap at the vinothek; in-house tastings and guided cellar visits",
+      "price_range": "EUR 180-300 per night",
+      "booking_url": "https://en.balthasar-ress.de/visit-us",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://en.balthasar-ress.de/visit-us",
+        "address_quoted": "Weingut Balthasar Ress, Rheinallee 50, 65347 Eltville-Hattenheim",
+        "open_status": "open",
+        "open_evidence_url": "https://www.rheingau.com/en/infosystem/weingut-balthasar-ress/poi.html",
+        "cuisine_evidence_url": "https://www.vdp.de/en/die-winzer/rheingau/vdpweingut-balthasar-ress",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "balthasar-ress-guesthouse-hallgarten",
+      "name": "Balthasar Ress Guesthouse Hallgarten",
+      "address": "Hallgarten, 65375 Oestrich-Winkel, Germany",
+      "neighborhood": "Hallgarten, Oestrich-Winkel",
+      "parent_vineyard": "weingut-balthasar-ress",
+      "category": "Estate guesthouse on the vineyard slope",
+      "rooms": 4,
+      "description": "Guesthouse of Weingut Balthasar Ress on the vineyard slope above Hallgarten, run from the Hattenheim estate. Vineyard-view rooms with breakfast and access to the Hallgartener Jungfer parcel that the estate works.",
+      "wine_program": "Estate Hattenheim and Hallgarten Rieslings on the breakfast list; tasting visits to the main winery in Hattenheim",
+      "price_range": "EUR 160-260 per night",
+      "booking_url": "https://en.balthasar-ress.de/visit-us",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://en.balthasar-ress.de/visit-us",
+        "address_quoted": "Hallgarten, Oestrich-Winkel",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vdp.de/en/die-winzer/rheingau/vdpweingut-balthasar-ress",
+        "cuisine_evidence_url": "https://www.rheingau.com/en/infosystem/weingut-balthasar-ress/poi.html",
+        "checked_on": "2026-05-30"
+      }
+    }
+  ]
+}
