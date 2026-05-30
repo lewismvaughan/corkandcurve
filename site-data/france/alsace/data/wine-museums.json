@@ -1,0 +1,124 @@
+{
+  "wine_museums": [
+    {
+      "slug": "musee-vins-alsace-colmar",
+      "name": "Musee des Vins d'Alsace",
+      "address": "12 Place de la Cathedrale, 68000 Colmar, France",
+      "neighborhood": "Colmar old town",
+      "description": "Cathedral-square museum immersing visitors in Alsace terroir and history, with an audio-guided trail in seven languages ending in a three-glass tasting of Riesling, Gewurztraminer and Pinot Noir.",
+      "admission": "Adult EUR 15, reduced EUR 13, children 3-11 EUR 9, under-3 free",
+      "permanent_collection": true,
+      "temporary_exhibitions": true,
+      "tasting_bar": true,
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.museeduvin-colmar.fr/?lang=en",
+        "address_quoted": "12 place de la Cathedrale 68000 Colmar",
+        "open_status": "open",
+        "open_evidence_url": "https://www.explore-grandest.com/en/offerings/activities/arts-culture/alsace-wine-museum/",
+        "cuisine_evidence_url": "https://www.tripadvisor.com/Attraction_Review-g187073-d25327663-Reviews-Musee_des_Vins_d_Alsace-Colmar_Haut_Rhin_Grand_Est.html",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "musee-vignoble-vins-kientzheim",
+      "name": "Musee du Vignoble et des Vins d'Alsace",
+      "address": "1B Grand Rue, 68240 Kientzheim, France",
+      "neighborhood": "Kientzheim",
+      "description": "Inside the Chateau de la Confrerie Saint-Etienne, the heritage museum of Alsace viticulture with antique presses, foudres and 18th-century cellar tools across two thematic floors.",
+      "admission": "Adult EUR 5, reduced EUR 3, children under 16 free",
+      "permanent_collection": true,
+      "temporary_exhibitions": false,
+      "tasting_bar": false,
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://musee-du-vignoble-alsace.fr/en/informations-pratiques",
+        "address_quoted": "Kientzheim (68 - 1b, grand'rue)",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.museesgrandest.org/les-musees/musee-du-vignoble-et-des-vins-dalsace/",
+        "cuisine_evidence_url": "https://www.tourisme-colmar.com/fr/sites-a-visiter-dans-le-grand-pays-de-colmar/F230111610_musee-du-vignoble-et-des-vins-d-alsace-kientzheim",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "cave-historique-hospices-strasbourg",
+      "name": "Cave Historique des Hospices Civils de Strasbourg",
+      "address": "1 Place de l'Hopital, 67091 Strasbourg, France",
+      "neighborhood": "Strasbourg hospital quarter",
+      "description": "1,200 sqm 14th-century medieval cellar inside Strasbourg's Civil Hospital, home to a barrel-aged white wine from 1472 and a working cellar producing Alsace wines.",
+      "admission": "Free entry to cellar; private tasting visits by reservation",
+      "permanent_collection": true,
+      "temporary_exhibitions": true,
+      "tasting_bar": true,
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.vins-des-hospices-de-strasbourg.fr/en/",
+        "address_quoted": "Cave Historique - 1 place de l'hopital 67091 STRASBOURG",
+        "open_status": "open",
+        "open_evidence_url": "https://www.visitstrasbourg.fr/en/historic-wine-cellar-of-strasbourg-hospital/",
+        "cuisine_evidence_url": "https://fr.wikipedia.org/wiki/Cave_historique_des_hospices_de_Strasbourg",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "ecomusee-alsace-ungersheim",
+      "name": "Ecomusee d'Alsace",
+      "address": "Chemin du Grosswald, 68190 Ungersheim, France",
+      "neighborhood": "Ungersheim",
+      "description": "97-hectare open-air museum with more than 80 reconstructed Alsace buildings, including a dedicated wine quarter with old presses, foudres and the vintner workshop.",
+      "admission": "Adult EUR 18, reduced EUR 13, family pass EUR 53",
+      "permanent_collection": true,
+      "temporary_exhibitions": true,
+      "tasting_bar": false,
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.ecomusee.alsace/en/",
+        "address_quoted": "Chemin du Grosswald, 68190 UNGERSHEIM",
+        "open_status": "seasonal",
+        "open_evidence_url": "https://www.pass-alsace.com/en/62-ecomuseum-of-alsace",
+        "cuisine_evidence_url": "https://www.explore-grandest.com/en/offerings/activities/all-things-crafts/ecomuseum-of-alsace/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "musee-eaux-de-vie-lapoutroie",
+      "name": "Musee des Eaux de Vie Lapoutroie",
+      "address": "85 Rue du General Dufieux, 68650 Lapoutroie, France",
+      "neighborhood": "Lapoutroie",
+      "description": "Eau-de-vie museum inside an 1832 post-station building in Lapoutroie, run by Distillerie Paul Devoille. 30th most-visited site in Alsace with copper stills, antique presses and tasting bar.",
+      "admission": "Adult EUR 6, reduced EUR 4, children under 12 free",
+      "permanent_collection": true,
+      "temporary_exhibitions": false,
+      "tasting_bar": true,
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.musee-eaux-de-vie.fr/en/",
+        "address_quoted": "85 rue du General Dufieux - 68650 LAPOUTROIE",
+        "open_status": "open",
+        "open_evidence_url": "https://www.museesgrandest.org/les-musees/musee-des-eaux-de-vie/",
+        "cuisine_evidence_url": "https://www.alsaceavelo.fr/230111608-musee-des-eaux-de-vie/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "bibliotheque-humaniste-selestat",
+      "name": "Bibliotheque Humaniste de Selestat",
+      "address": "1 Place Docteur Maurice Kubler, 67600 Selestat, France",
+      "neighborhood": "Selestat",
+      "description": "UNESCO Memory of the World Register library in Selestat, housing 15th and 16th-century manuscripts on Alsace viticulture and Beatus Rhenanus' humanist library; Ricciotti-designed museum building.",
+      "admission": "Adult EUR 7, reduced EUR 5, children under 18 free",
+      "permanent_collection": true,
+      "temporary_exhibitions": true,
+      "tasting_bar": false,
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.bibliotheque-humaniste.fr/en/",
+        "address_quoted": "1 place Docteur Maurice Kubler, 67600 Selestat",
+        "open_status": "open",
+        "open_evidence_url": "https://www.visit.alsace/en/222006668-the-humanist-library/",
+        "cuisine_evidence_url": "https://www.wineroute.alsace/222006668-the-humanist-library/",
+        "checked_on": "2026-05-30"
+      }
+    }
+  ]
+}

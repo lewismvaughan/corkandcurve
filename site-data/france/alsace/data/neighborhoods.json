@@ -1,0 +1,506 @@
+{
+  "neighborhoods": [
+    {
+      "slug": "marlenheim-westhoffen",
+      "name": "Marlenheim and Westhoffen",
+      "address": "Marlenheim, 67520 Bas-Rhin, France",
+      "classification": "Alsace AOC (Bas-Rhin, north Route des Vins)",
+      "description": "The northern gateway of the Route des Vins, running from Marlenheim through Wangen, Traenheim and Westhoffen. Limestone-clay slopes 20 km west of Strasbourg, home to the Altenberg de Bergbieten Grand Cru and the Bruderthal of Molsheim.",
+      "key_varietals": [
+        "Riesling",
+        "Pinot Gris",
+        "Gewurztraminer",
+        "Sylvaner"
+      ],
+      "sub_communes": [
+        "Marlenheim",
+        "Wangen",
+        "Traenheim",
+        "Westhoffen",
+        "Dahlenheim",
+        "Molsheim",
+        "Bergbieten"
+      ],
+      "area_ha": 850,
+      "famous_producers": [
+        "domaine-romain-fritsch",
+        "domaine-frederic-mochel",
+        "domaine-loew",
+        "domaine-melanie-pfister"
+      ],
+      "aliases": [
+        "Marlenheim",
+        "Westhoffen",
+        "Couronne d'Or"
+      ],
+      "vibe": "The quiet opener of the Route des Vins, an old crown of limestone villages 20 km west of Strasbourg where Riesling and Pinot Gris meet a wider cooler-climate viticulture before the Vosges sharpen south.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.vinsalsace.com/en/grands-crus/bruderthal/",
+        "address_quoted": "Marlenheim",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wineroute.alsace/",
+        "cuisine_evidence_url": "https://www.vinsalsace.com/en/grands-crus/bruderthal/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "barr-mittelbergheim-andlau",
+      "name": "Barr, Mittelbergheim and Andlau",
+      "address": "Barr, 67140 Bas-Rhin, France",
+      "classification": "Alsace AOC (Bas-Rhin, Grand Cru Kastelberg, Wiebelsberg, Moenchberg, Zotzenberg, Kirchberg de Barr)",
+      "description": "The Bas-Rhin heart, a cluster of stone villages on the Vosges flank: Barr's Kirchberg, Mittelbergheim's Zotzenberg the lone Sylvaner Grand Cru, and Andlau's Kastelberg, Wiebelsberg and Moenchberg on schist, sandstone and limestone.",
+      "key_varietals": [
+        "Riesling",
+        "Sylvaner",
+        "Gewurztraminer",
+        "Pinot Gris"
+      ],
+      "sub_communes": [
+        "Barr",
+        "Mittelbergheim",
+        "Andlau",
+        "Heiligenstein",
+        "Eichhoffen"
+      ],
+      "area_ha": 720,
+      "famous_producers": [
+        "domaine-marc-kreydenweiss",
+        "domaine-vincent-stoeffler",
+        "domaine-albert-seltz",
+        "klipfel"
+      ],
+      "aliases": [
+        "Barr",
+        "Mittelbergheim",
+        "Andlau"
+      ],
+      "vibe": "Schist-and-sandstone slopes where Riesling turns saline, Sylvaner reaches its only Grand Cru on Zotzenberg, and Heiligenstein hides the rare Savagnin Rose called Klevener.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.vinsalsace.com/en/grands-crus/kastelberg/",
+        "address_quoted": "Barr",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wineroute.alsace/",
+        "cuisine_evidence_url": "https://www.vinsalsace.com/en/grands-crus/kastelberg/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "dambach-la-ville",
+      "name": "Dambach-la-Ville",
+      "address": "Dambach-la-Ville, 67650 Bas-Rhin, France",
+      "classification": "Alsace AOC (Grand Cru Frankstein)",
+      "description": "A walled medieval bastide on pink granite, source of the Grand Cru Frankstein. The largest wine commune of the Bas-Rhin by area, with a strong Riesling and Pinot Noir vocation on warm granite soils.",
+      "key_varietals": [
+        "Riesling",
+        "Sylvaner",
+        "Pinot Noir",
+        "Gewurztraminer"
+      ],
+      "sub_communes": [
+        "Dambach-la-Ville",
+        "Blienschwiller",
+        "Nothalten",
+        "Epfig",
+        "Itterswiller",
+        "Scherwiller"
+      ],
+      "area_ha": 580,
+      "famous_producers": [
+        "domaine-ostertag",
+        "domaine-beck-hartweg",
+        "domaine-achillee",
+        "domaine-hubert-metz"
+      ],
+      "aliases": [
+        "Dambach-la-Ville",
+        "Dambach"
+      ],
+      "vibe": "Pink-granite Riesling country behind medieval ramparts, with a strong natural-wine current that runs from Domaine Ostertag in Epfig to the straw-bale cellar of Achillee in Scherwiller.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.vinsalsace.com/en/grands-crus/frankstein/",
+        "address_quoted": "Dambach-la-Ville",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wineroute.alsace/",
+        "cuisine_evidence_url": "https://www.vinsalsace.com/en/grands-crus/frankstein/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "ribeauville-hunawihr-bergheim",
+      "name": "Ribeauville, Hunawihr and Bergheim",
+      "address": "Ribeauville, 68150 Haut-Rhin, France",
+      "classification": "Alsace AOC (Grand Cru Geisberg, Kirchberg de Ribeauville, Rosacker, Osterberg, Altenberg de Bergheim, Kanzlerberg)",
+      "description": "A triangle of historic wine villages between Saint-Hippolyte and Bergheim. Six Grands Crus on limestone, marl and red Permian sandstone, and the seat of Trimbach since 1626 with the famed Clos Sainte-Hune at Rosacker.",
+      "key_varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Muscat"
+      ],
+      "sub_communes": [
+        "Ribeauville",
+        "Hunawihr",
+        "Bergheim",
+        "Rorschwihr",
+        "Saint-Hippolyte"
+      ],
+      "area_ha": 920,
+      "famous_producers": [
+        "trimbach",
+        "marcel-deiss",
+        "domaine-gustave-lorentz",
+        "sipp-mack",
+        "rolly-gassmann",
+        "cave-de-ribeauville"
+      ],
+      "aliases": [
+        "Ribeauville",
+        "Hunawihr",
+        "Bergheim"
+      ],
+      "vibe": "The classical heart of Alsace Riesling, where Trimbach's Clos Sainte-Hune climbs the Rosacker hill above Hunawihr and Marcel Deiss in Bergheim makes the case for field-blend climats.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.vinsalsace.com/en/grands-crus/rosacker/",
+        "address_quoted": "Ribeauville",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wineroute.alsace/",
+        "cuisine_evidence_url": "https://www.vinsalsace.com/en/grands-crus/rosacker/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "riquewihr-zellenberg",
+      "name": "Riquewihr and Zellenberg",
+      "address": "Riquewihr, 68340 Haut-Rhin, France",
+      "classification": "Alsace AOC (Grand Cru Schoenenbourg, Sporen, Froehn)",
+      "description": "Riquewihr's bell tower stands above an ocean of vines on the Grand Cru Schoenenbourg, with Sporen on heavier clay-marl giving celebrated late-harvest Gewurztraminer. Zellenberg's hilltop ridge adds Froehn for Muscat.",
+      "key_varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Muscat",
+        "Pinot Gris"
+      ],
+      "sub_communes": [
+        "Riquewihr",
+        "Zellenberg",
+        "Beblenheim",
+        "Ostheim"
+      ],
+      "area_ha": 540,
+      "famous_producers": [
+        "hugel-et-fils",
+        "domaine-marc-tempe",
+        "domaine-jean-becker",
+        "domaine-trapet-alsace",
+        "domaine-bott-geyl",
+        "domaine-agape"
+      ],
+      "aliases": [
+        "Riquewihr",
+        "Zellenberg"
+      ],
+      "vibe": "The picture-book hill town of Alsace, where Hugel has been bottling since 1639 and the Schoenenbourg's marl-and-keuper slope grows Riesling that ages for half a century.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.vinsalsace.com/en/grands-crus/schoenenbourg/",
+        "address_quoted": "Riquewihr",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wineroute.alsace/",
+        "cuisine_evidence_url": "https://www.vinsalsace.com/en/grands-crus/schoenenbourg/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "kaysersberg-kientzheim-sigolsheim",
+      "name": "Kaysersberg, Kientzheim and Sigolsheim",
+      "address": "Kaysersberg, 68240 Haut-Rhin, France",
+      "classification": "Alsace AOC (Grand Cru Schlossberg, Furstentum, Mambourg, Kaefferkopf)",
+      "description": "The amphitheatre of Kaysersberg cradles the granite Schlossberg, Alsace's first ever Grand Cru, named in 1975. Furstentum's terraced limestone above Kientzheim and Sigolsheim's Mambourg complete one of the warmest pockets in the region.",
+      "key_varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Pinot Noir"
+      ],
+      "sub_communes": [
+        "Kaysersberg",
+        "Kientzheim",
+        "Sigolsheim",
+        "Ammerschwihr"
+      ],
+      "area_ha": 740,
+      "famous_producers": [
+        "domaine-weinbach",
+        "domaine-paul-blanck",
+        "domaine-albert-mann",
+        "domaine-christian-binner",
+        "domaine-martin-schaetzel"
+      ],
+      "aliases": [
+        "Kaysersberg",
+        "Kientzheim",
+        "Sigolsheim",
+        "Ammerschwihr"
+      ],
+      "vibe": "Granite Schlossberg meets clay-limestone Furstentum and the warm Mambourg, an amphitheatre that grows everything from chiselled Riesling at the Clos des Capucins to richer Gewurztraminer above Kientzheim.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.vinsalsace.com/en/grands-crus/schlossberg/",
+        "address_quoted": "Kaysersberg",
+        "open_status": "open",
+        "open_evidence_url": "https://www.kaysersberg.com/",
+        "cuisine_evidence_url": "https://www.vinsalsace.com/en/grands-crus/schlossberg/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "turckheim-niedermorschwihr-katzenthal",
+      "name": "Turckheim, Niedermorschwihr and Katzenthal",
+      "address": "Turckheim, 68230 Haut-Rhin, France",
+      "classification": "Alsace AOC (Grand Cru Brand, Sommerberg, Wineck-Schlossberg)",
+      "description": "Steep granite slopes wrapping around the Munster valley: Turckheim's Brand, the south-facing Sommerberg above Niedermorschwihr, and Wineck-Schlossberg behind Katzenthal. Granite Riesling country, with Zind-Humbrecht at the foot of Brand.",
+      "key_varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris"
+      ],
+      "sub_communes": [
+        "Turckheim",
+        "Niedermorschwihr",
+        "Katzenthal",
+        "Wihr-au-Val"
+      ],
+      "area_ha": 480,
+      "famous_producers": [
+        "domaine-zind-humbrecht",
+        "domaine-albert-boxler",
+        "domaine-meyer-fonne",
+        "domaine-schoenheitz",
+        "cave-de-turckheim"
+      ],
+      "aliases": [
+        "Turckheim",
+        "Niedermorschwihr",
+        "Katzenthal"
+      ],
+      "vibe": "Steep granite terraces where Zind-Humbrecht's Brand and Boxler's Sommerberg produce structured, powerful Rieslings, with the Munster valley pressing in behind.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.vinsalsace.com/en/grands-crus/brand/",
+        "address_quoted": "Turckheim",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tourisme-colmar.com/",
+        "cuisine_evidence_url": "https://www.vinsalsace.com/en/grands-crus/brand/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "colmar-wintzenheim-wettolsheim",
+      "name": "Colmar, Wintzenheim and Wettolsheim",
+      "address": "Wettolsheim, 68920 Haut-Rhin, France",
+      "classification": "Alsace AOC (Grand Cru Hengst, Steingrubler)",
+      "description": "The Colmar urban belt and its three wine villages: Wintzenheim's Hengst, Wettolsheim's Steingrubler, and the outskirts of Colmar itself. Marl-limestone slopes producing structured, age-worthy whites.",
+      "key_varietals": [
+        "Riesling",
+        "Pinot Gris",
+        "Gewurztraminer",
+        "Pinot Noir"
+      ],
+      "sub_communes": [
+        "Wintzenheim",
+        "Wettolsheim",
+        "Colmar",
+        "Ingersheim"
+      ],
+      "area_ha": 510,
+      "famous_producers": [
+        "domaine-josmeyer",
+        "domaine-albert-mann",
+        "domaine-barmes-buecher",
+        "domaine-schoffit",
+        "domaine-wunsch-et-mann",
+        "domaine-saint-remy"
+      ],
+      "aliases": [
+        "Colmar",
+        "Wintzenheim",
+        "Wettolsheim"
+      ],
+      "vibe": "Colmar's wine ring, where Wintzenheim's Hengst and Wettolsheim's Steingrubler turn marl-limestone into structured Riesling and Pinot Gris and a thicket of biodynamic estates trades over the lunch hour.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.vinsalsace.com/en/grands-crus/hengst/",
+        "address_quoted": "Wettolsheim",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tourisme-colmar.com/",
+        "cuisine_evidence_url": "https://www.vinsalsace.com/en/grands-crus/hengst/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "eguisheim-husseren",
+      "name": "Eguisheim and Husseren-les-Chateaux",
+      "address": "Eguisheim, 68420 Haut-Rhin, France",
+      "classification": "Alsace AOC (Grand Cru Eichberg, Pfersigberg)",
+      "description": "Three medieval rings of streets around the Saint-Leon castle, the cradle of Alsatian viticulture and home to Leon Beyer since 1580. The Eichberg and Pfersigberg Grands Crus arch above the village on warm marl-limestone soils.",
+      "key_varietals": [
+        "Gewurztraminer",
+        "Riesling",
+        "Pinot Gris",
+        "Muscat"
+      ],
+      "sub_communes": [
+        "Eguisheim",
+        "Husseren-les-Chateaux",
+        "Obermorschwihr"
+      ],
+      "area_ha": 480,
+      "famous_producers": [
+        "leon-beyer",
+        "domaine-emile-beyer",
+        "domaine-bruno-sorg",
+        "domaine-jean-francois-ginglinger",
+        "kuentz-bas",
+        "wolfberger"
+      ],
+      "aliases": [
+        "Eguisheim",
+        "Husseren-les-Chateaux"
+      ],
+      "vibe": "Pastel concentric streets and warm Eichberg marl, the spiritual home of Alsace Gewurztraminer where Leon Beyer's 16th-century cellar sits below the medieval ramparts of the Saint-Leon castle.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.vinsalsace.com/en/grands-crus/eichberg/",
+        "address_quoted": "Eguisheim",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tourisme-colmar.com/",
+        "cuisine_evidence_url": "https://www.vinsalsace.com/en/grands-crus/eichberg/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "rouffach-pfaffenheim-westhalten",
+      "name": "Rouffach, Pfaffenheim and Westhalten",
+      "address": "Rouffach, 68250 Haut-Rhin, France",
+      "classification": "Alsace AOC (Grand Cru Vorbourg, Steinert, Zinnkoepfle)",
+      "description": "The southern reach of the Haut-Rhin around the medieval town of Rouffach: Vorbourg's south-facing limestone, the Steinert plateau, and the steep Zinnkoepfle above Westhalten in the dry Vallee Noble.",
+      "key_varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Sylvaner"
+      ],
+      "sub_communes": [
+        "Rouffach",
+        "Pfaffenheim",
+        "Westhalten",
+        "Gueberschwihr",
+        "Soultzmatt",
+        "Voegtlinshoffen"
+      ],
+      "area_ha": 760,
+      "famous_producers": [
+        "domaine-rene-mure",
+        "domaine-pierre-frick",
+        "domaine-rene-rieffle",
+        "domaine-leon-boesch",
+        "domaine-burn",
+        "domaine-jean-marie-haag",
+        "cave-de-pfaffenheim",
+        "maison-cattin"
+      ],
+      "aliases": [
+        "Rouffach",
+        "Pfaffenheim",
+        "Westhalten"
+      ],
+      "vibe": "Limestone Vorbourg, the dry Zinnkoepfle on the rim of the Vallee Noble, and the strict biodynamic discipline of Pierre Frick and Leon Boesch, a quieter southern Alsace with the region's lowest rainfall.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.vinsalsace.com/en/grands-crus/vorbourg/",
+        "address_quoted": "Rouffach",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tourisme-colmar.com/",
+        "cuisine_evidence_url": "https://www.vinsalsace.com/en/grands-crus/vorbourg/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "guebwiller",
+      "name": "Guebwiller",
+      "address": "Guebwiller, 68500 Haut-Rhin, France",
+      "classification": "Alsace AOC (Grand Cru Kitterle, Kessler, Saering, Spiegel)",
+      "description": "Four Grands Crus stacked above one town: Kitterle's volcanic-sandstone terraces, Kessler's marl, Saering and Spiegel. Together they form the Schlumberger estate's heartland on what is one of the steepest slopes in the region.",
+      "key_varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Pinot Noir"
+      ],
+      "sub_communes": [
+        "Guebwiller",
+        "Bergholtz",
+        "Orschwihr"
+      ],
+      "area_ha": 430,
+      "famous_producers": [
+        "domaines-schlumberger",
+        "domaine-dirler-cade",
+        "domaine-valentin-zusslin",
+        "lucien-albrecht"
+      ],
+      "aliases": [
+        "Guebwiller"
+      ],
+      "vibe": "Four Grands Crus arrayed on one steep hillside, with Schlumberger's 70 hectares of Grand Cru terraces on volcanic Kitterle and the biodynamic neighbours of Bergholtz and Orschwihr completing the cluster.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.vinsalsace.com/en/grands-crus/kitterle/",
+        "address_quoted": "Guebwiller",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tourisme-mulhouse.com/",
+        "cuisine_evidence_url": "https://www.vinsalsace.com/en/grands-crus/kitterle/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "thann-rangen",
+      "name": "Thann and the Rangen",
+      "address": "Thann, 68800 Haut-Rhin, France",
+      "classification": "Alsace AOC (Grand Cru Rangen de Thann)",
+      "description": "The southernmost wine commune of Alsace and the most volcanic. The Rangen de Thann rises in a single steep amphitheatre of dark volcanic soils, terraced at angles up to 90 percent, and is the only Alsace Grand Cru classified across two communes Thann and Vieux-Thann.",
+      "key_varietals": [
+        "Riesling",
+        "Pinot Gris",
+        "Gewurztraminer"
+      ],
+      "sub_communes": [
+        "Thann",
+        "Vieux-Thann"
+      ],
+      "area_ha": 18,
+      "famous_producers": [
+        "domaine-zind-humbrecht",
+        "domaine-schoffit"
+      ],
+      "aliases": [
+        "Thann",
+        "Rangen"
+      ],
+      "vibe": "Alsace's southernmost and steepest vineyard, a volcanic amphitheatre tilted 90 percent above the Thur where Zind-Humbrecht's Clos Saint-Urbain and Schoffit's Clos Saint-Theobald split the Rangen.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.vinsalsace.com/en/grands-crus/rangen/",
+        "address_quoted": "Thann",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tourisme-mulhouse.com/",
+        "cuisine_evidence_url": "https://www.vinsalsace.com/en/grands-crus/rangen/",
+        "checked_on": "2026-05-30"
+      }
+    }
+  ]
+}

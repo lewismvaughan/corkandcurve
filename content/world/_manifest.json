@@ -5,6 +5,12 @@
       "display": "Old World",
       "regions": [
         {
+          "region_name": "Alsace",
+          "region_slug": "alsace",
+          "country_slug": "france",
+          "blurb": "France's mosaic of granite, limestone and volcanic terroirs along the Vosges, where Riesling, Gewurztraminer and Pinot Gris bottle Alsace's 51 Grands Crus and dual French-German village heritage."
+        },
+        {
           "region_name": "Beaujolais",
           "region_slug": "beaujolais",
           "country_slug": "france",

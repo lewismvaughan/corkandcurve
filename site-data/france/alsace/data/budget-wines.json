@@ -1,0 +1,362 @@
+{
+  "budget_wines": [
+    {
+      "slug": "trimbach-riesling-classic",
+      "name": "Trimbach Riesling Classic",
+      "producer": "trimbach",
+      "varietals": [
+        "Riesling"
+      ],
+      "classification": "Alsace AOC",
+      "price_band": "EUR 15-22 retail",
+      "where_to_buy": "Maison Trimbach, Ribeauville; widely distributed across France, the UK and the United States.",
+      "description": "Trimbach's house Riesling, dry, taut and stony, is the easiest serious entry to Alsace. Built on fruit from across Ribeauville's slopes, it remains the benchmark dry Alsace Riesling well under twenty-five euros.",
+      "tip": "This is the wine to drink with choucroute or tarte flambee; the Reserve label is a step up but the basic Riesling is the value buy.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.trimbach.fr/",
+        "address_quoted": "Ribeauville",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Trimbach",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Alsace_wine",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "leon-beyer-riesling-reserve",
+      "name": "Leon Beyer Riesling Reserve",
+      "producer": "leon-beyer",
+      "varietals": [
+        "Riesling"
+      ],
+      "classification": "Alsace AOC",
+      "price_band": "EUR 16-20 retail",
+      "where_to_buy": "Maison Leon Beyer, Eguisheim; distributed across France and major export markets.",
+      "description": "Leon Beyer's flagship cuvee, a dry Riesling built for the restaurant trade in a famously austere house style. Lemon-pith, gunflint and a long mineral finish, served in three-star Michelin rooms across France for decades.",
+      "tip": "Beyer's Riesling is more austere than most rivals; serve a touch cool with shellfish or sushi, and try side by side with a Trimbach to see the village's two great house styles.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.leonbeyer.fr/",
+        "address_quoted": "Eguisheim",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Eguisheim",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Alsace_wine",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "wolfberger-cremant-brut",
+      "name": "Wolfberger Cremant d'Alsace Brut",
+      "producer": "wolfberger",
+      "varietals": [
+        "Pinot Blanc",
+        "Auxerrois"
+      ],
+      "classification": "Cremant d'Alsace AOC",
+      "price_band": "EUR 10-14 retail",
+      "where_to_buy": "Wolfberger cooperative, Eguisheim; very widely distributed in French supermarkets and abroad.",
+      "description": "Wolfberger is a major Cremant d'Alsace producer and the Brut is a reliable supermarket value. Crisp apple and brioche from a Pinot Blanc and Auxerrois base, traditional-method, comfortably under fifteen euros.",
+      "tip": "Use this as the house aperitif fizz; the rose version is also under fifteen euros and useful with charcuterie, while the cuvee Prestige is the small step up.",
+      "editorial_score": 4.0,
+      "verified": {
+        "source_url": "https://www.wolfberger.com/",
+        "address_quoted": "Eguisheim",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Cr%C3%A9mant_d%27Alsace",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Eguisheim",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "cave-pfaffenheim-pinot-blanc",
+      "name": "Cave de Pfaffenheim Pinot Blanc",
+      "producer": "cave-de-pfaffenheim",
+      "varietals": [
+        "Pinot Blanc",
+        "Auxerrois"
+      ],
+      "classification": "Alsace AOC",
+      "price_band": "EUR 9-13 retail",
+      "where_to_buy": "Cave de Pfaffenheim cooperative, Pfaffenheim; distributed through French supermarkets and merchants.",
+      "description": "The cooperative cave at Pfaffenheim turns out a clean, fruit-forward Pinot Blanc at unbeatable price, the easiest weekday white in Alsace. Soft apple and pear with a low-acid finish, comfortably under fifteen euros.",
+      "tip": "Pinot Blanc is the underrated workhorse of Alsace; this bottle is the case for buying it by the case for summer apero use.",
+      "editorial_score": 3.9,
+      "verified": {
+        "source_url": "https://www.pfaffenheim.com/",
+        "address_quoted": "Pfaffenheim",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Alsace_wine",
+        "cuisine_evidence_url": "https://www.vinsalsace.com/en/tastes-and-colours/aoc/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "bestheim-cremant-prestige",
+      "name": "Bestheim Cremant d'Alsace Prestige Brut",
+      "producer": "bestheim",
+      "varietals": [
+        "Pinot Blanc",
+        "Pinot Noir"
+      ],
+      "classification": "Cremant d'Alsace AOC",
+      "price_band": "EUR 12-16 retail",
+      "where_to_buy": "Bestheim cooperative, Bennwihr; widely distributed across France and the UK.",
+      "description": "Bestheim is a major Cremant d'Alsace house and its Prestige Brut is a serious step up from supermarket fizz. Pinot Blanc and Pinot Noir, twelve months on lees, fine bead and brioche-and-pear under twenty euros.",
+      "tip": "The Prestige label is worth the small premium over the basic Bestheim Cremant; pour it as the table fizz for Christmas or a long Sunday lunch.",
+      "editorial_score": 4.1,
+      "verified": {
+        "source_url": "https://www.bestheim.com/",
+        "address_quoted": "Bennwihr",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Cr%C3%A9mant_d%27Alsace",
+        "cuisine_evidence_url": "https://www.vinsalsace.com/en/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "schlumberger-les-princes-abbes-riesling",
+      "name": "Schlumberger Les Princes Abbes Riesling",
+      "producer": "domaines-schlumberger",
+      "varietals": [
+        "Riesling"
+      ],
+      "classification": "Alsace AOC",
+      "price_band": "EUR 16-22 retail",
+      "where_to_buy": "Domaines Schlumberger, Guebwiller; broadly distributed in France and the United States.",
+      "description": "Schlumberger's Les Princes Abbes Riesling sits below the estate's four Grands Crus at Guebwiller and offers a serious Riesling at gentle price. Dry, mineral and racy, with the long stony finish of the Vosges sandstone slopes.",
+      "tip": "Princes Abbes is the smart trade-up from supermarket Riesling; pair with trout or pike-perch in beurre blanc to feel the wine's saline cut.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.domaines-schlumberger.com/",
+        "address_quoted": "Guebwiller",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Alsace_wine",
+        "cuisine_evidence_url": "https://www.vinsalsace.com/en/tastes-and-colours/aoc/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "schlumberger-les-princes-abbes-pinot-gris",
+      "name": "Schlumberger Les Princes Abbes Pinot Gris",
+      "producer": "domaines-schlumberger",
+      "varietals": [
+        "Pinot Gris"
+      ],
+      "classification": "Alsace AOC",
+      "price_band": "EUR 16-22 retail",
+      "where_to_buy": "Domaines Schlumberger, Guebwiller; distributed across France and major export markets.",
+      "description": "The companion Pinot Gris in the Les Princes Abbes range, off-dry with ripe pear and a touch of smoke. A versatile food wine and one of the few sub-twenty-five-euro Pinot Gris that carries house-level Grand-Cru DNA.",
+      "tip": "Off-dry Pinot Gris is the classic partner for foie gras and choucroute royale; serve at twelve degrees to balance the residual sugar with the wine's acidity.",
+      "editorial_score": 4.1,
+      "verified": {
+        "source_url": "https://www.domaines-schlumberger.com/",
+        "address_quoted": "Guebwiller",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Pinot_Gris",
+        "cuisine_evidence_url": "https://www.vinsalsace.com/en/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "kuentz-bas-tradition-riesling",
+      "name": "Kuentz-Bas Tradition Riesling",
+      "producer": "kuentz-bas",
+      "varietals": [
+        "Riesling"
+      ],
+      "classification": "Alsace AOC",
+      "price_band": "EUR 14-19 retail",
+      "where_to_buy": "Kuentz-Bas, Husseren-les-Chateaux; distributed across France and key export markets.",
+      "description": "Kuentz-Bas, biodynamic-certified since 2007, turns out the Tradition Riesling as its entry cuvee. Dry, taut, lemon-lime fruit with a chalky finish, a serious biodynamic Riesling for under twenty euros.",
+      "tip": "Few biodynamic Alsace Rieslings come in this cheap; Kuentz-Bas Tradition is the entry to a serious house whose Pfersigberg Grand Cru pours far higher.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.kuentz-bas.fr/",
+        "address_quoted": "Husseren-les-Chateaux",
+        "open_status": "open",
+        "open_evidence_url": "https://www.biodyvin.com/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Alsace_wine",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "gustave-lorentz-riesling-reserve",
+      "name": "Gustave Lorentz Riesling Reserve",
+      "producer": "gustave-lorentz",
+      "varietals": [
+        "Riesling"
+      ],
+      "classification": "Alsace AOC",
+      "price_band": "EUR 14-19 retail",
+      "where_to_buy": "Gustave Lorentz, Bergheim; broadly distributed in France and major export markets.",
+      "description": "Gustave Lorentz of Bergheim has farmed its estate vineyards organically and the Reserve Riesling is its dry, dependable entry cuvee. Crisp apple, lemon and a touch of saline mineral from the village's limestone-marl soils.",
+      "tip": "Lorentz Reserve is the wine to pair with quiche lorraine or a goat-cheese salad; the Altenberg de Bergheim Grand Cru above the village is the same producer's flagship.",
+      "editorial_score": 4.1,
+      "verified": {
+        "source_url": "https://www.gustavelorentz.com/",
+        "address_quoted": "Bergheim",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Bergheim,_Haut-Rhin",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Alsace_wine",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "josmeyer-mise-du-printemps-pinot-blanc",
+      "name": "Josmeyer Mise du Printemps Pinot Blanc",
+      "producer": "josmeyer",
+      "varietals": [
+        "Pinot Blanc",
+        "Auxerrois"
+      ],
+      "classification": "Alsace AOC",
+      "price_band": "EUR 15-20 retail",
+      "where_to_buy": "Domaine Josmeyer, Wintzenheim; widely distributed in France and the United States.",
+      "description": "Josmeyer of Wintzenheim is Demeter biodynamic and the Mise du Printemps is its spring-release Pinot Blanc and Auxerrois blend. Fresh, low-key, salty and citrusy, the best biodynamic Pinot Blanc under twenty euros on the wine route.",
+      "tip": "Mise du Printemps is released in spring as the name suggests; drink the youngest vintage you can find, ideally as an aperitif on a vineyard terrace.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.josmeyer.com/",
+        "address_quoted": "Wintzenheim",
+        "open_status": "open",
+        "open_evidence_url": "https://www.demeter.fr/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Alsace_wine",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "muller-koeberle-pinot-gris",
+      "name": "Muller-Koeberle Pinot Gris Tradition",
+      "producer": "muller-koeberle",
+      "varietals": [
+        "Pinot Gris"
+      ],
+      "classification": "Alsace AOC",
+      "price_band": "EUR 12-17 retail",
+      "where_to_buy": "Domaine Muller-Koeberle, Saint-Hippolyte; distributed through French specialist merchants and direct from the cellar.",
+      "description": "Muller-Koeberle of Saint-Hippolyte makes a soft, gently off-dry Pinot Gris in the Tradition range. Ripe pear and smoke with light residual sugar, classic Alsace value that holds up to richer fare under twenty euros.",
+      "tip": "Off-dry Pinot Gris is the all-purpose Alsace food wine; pair Muller-Koeberle's Tradition with roast pork, charcuterie or munster cheese.",
+      "editorial_score": 4.0,
+      "verified": {
+        "source_url": "https://www.muller-koeberle.fr/",
+        "address_quoted": "Saint-Hippolyte",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Pinot_Gris",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Alsace_wine",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "bestheim-gewurztraminer",
+      "name": "Bestheim Gewurztraminer Tradition",
+      "producer": "bestheim",
+      "varietals": [
+        "Gewurztraminer"
+      ],
+      "classification": "Alsace AOC",
+      "price_band": "EUR 11-15 retail",
+      "where_to_buy": "Bestheim cooperative, Bennwihr; broadly distributed in France and the UK.",
+      "description": "The cooperative's Gewurztraminer Tradition delivers the variety's lychee, rose-petal and warm-spice signature at supermarket money. Off-dry, low-acid and aromatic, an accessible way to taste Alsace's signature aromatic grape under fifteen euros.",
+      "tip": "Gewurztraminer is the natural foil to munster cheese and Sichuan or Indian food; serve cool to keep the residual sugar from feeling heavy.",
+      "editorial_score": 4.0,
+      "verified": {
+        "source_url": "https://www.bestheim.com/",
+        "address_quoted": "Bennwihr",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Gew%C3%BCrztraminer",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Alsace_wine",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "meyer-fonne-pinot-blanc",
+      "name": "Meyer-Fonne Pinot Blanc",
+      "producer": "meyer-fonne",
+      "varietals": [
+        "Pinot Blanc",
+        "Auxerrois"
+      ],
+      "classification": "Alsace AOC",
+      "price_band": "EUR 14-19 retail",
+      "where_to_buy": "Domaine Meyer-Fonne, Katzenthal; widely distributed by specialist merchants in France and the United States.",
+      "description": "Felix Meyer's small Katzenthal estate is a respected wine-route grower and the village Pinot Blanc is a generous, fleshy take on the variety. Stone fruit, salty finish, a step above supermarket Pinot Blanc.",
+      "tip": "Felix Meyer's Kaefferkopf and Wineck-Schlossberg Grand Crus are the bottles to chase, but the basic Pinot Blanc is the gateway under twenty euros.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.meyer-fonne.com/",
+        "address_quoted": "Katzenthal",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Alsace_wine",
+        "cuisine_evidence_url": "https://www.vinsalsace.com/en/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "stoeffler-pinot-noir",
+      "name": "Vincent Stoeffler Pinot Noir Tradition",
+      "producer": "vincent-stoeffler",
+      "varietals": [
+        "Pinot Noir"
+      ],
+      "classification": "Alsace AOC",
+      "price_band": "EUR 15-20 retail",
+      "where_to_buy": "Domaine Vincent Stoeffler, Barr; distributed by specialist merchants in France, the UK and the United States.",
+      "description": "Vincent Stoeffler of Barr makes a serious, lightly-oaked Pinot Noir Tradition at a friendly price. Red cherry, light grip, a clean cool-climate red, evidence that Alsace's Pinot Noir is now worth taking seriously at every tier.",
+      "tip": "Serve a touch cool to lift the red-cherry fruit; the same domaine's Kirchberg de Barr Grand Cru Pinot Noir is the next step up if you fall for the style.",
+      "editorial_score": 4.1,
+      "verified": {
+        "source_url": "https://www.stoeffler.fr/",
+        "address_quoted": "Barr",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Alsace_wine",
+        "cuisine_evidence_url": "https://www.decanter.com/wine/wine-regions/alsace/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "henry-fuchs-sylvaner",
+      "name": "Henry Fuchs Sylvaner",
+      "producer": "henry-fuchs",
+      "varietals": [
+        "Sylvaner"
+      ],
+      "classification": "Alsace AOC",
+      "price_band": "EUR 10-14 retail",
+      "where_to_buy": "Domaine Henry Fuchs, Ribeauville; sold direct from the cellar and through French wine merchants.",
+      "description": "Ribeauville's Henry Fuchs makes a dry, crisp Sylvaner in the family's old-school style, a wine that has all but disappeared from many domaines' lineups. Green apple and a saline bite under fifteen euros.",
+      "tip": "Sylvaner is the old soul of Alsace; this bottle is the case for not letting the variety drift out of fashion, pair with onion tart or shellfish.",
+      "editorial_score": 4.0,
+      "verified": {
+        "source_url": "https://www.henryfuchs.fr/",
+        "address_quoted": "Ribeauville",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Alsace_wine",
+        "cuisine_evidence_url": "https://www.vinsalsace.com/en/tastes-and-colours/aoc/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "loberger-pinot-blanc",
+      "name": "Domaine Loberger Pinot Blanc",
+      "producer": "domaine-loberger",
+      "varietals": [
+        "Pinot Blanc",
+        "Auxerrois"
+      ],
+      "classification": "Alsace AOC",
+      "price_band": "EUR 11-15 retail",
+      "where_to_buy": "Domaine Loberger, Bergholtz; sold direct from the cellar and through French merchants.",
+      "description": "Bergholtz's Loberger family makes a soft, generous Pinot Blanc that lands as a quiet wine-route bargain. Pear and saline finish, the kind of wine that disappears at table with no fuss for well under fifteen euros.",
+      "tip": "Bergholtz sits in the southern Haut-Rhin near Soultzmatt; Loberger's range is far easier to taste at the cellar than the village's bigger neighbours.",
+      "editorial_score": 4.0,
+      "verified": {
+        "source_url": "https://www.loberger.fr/",
+        "address_quoted": "Bergholtz",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Alsace_wine",
+        "cuisine_evidence_url": "https://www.vinsalsace.com/en/",
+        "checked_on": "2026-05-30"
+      }
+    }
+  ]
+}

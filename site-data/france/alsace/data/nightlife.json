@@ -1,0 +1,221 @@
+{
+  "nightlife": {
+    "wine_bars_late": [
+      {
+        "slug": "le-cercle-des-aromes-colmar",
+        "name": "Le Cercle des Aromes",
+        "address": "Colmar, France",
+        "neighborhood": "Colmar",
+        "wine_program": "A central Colmar wine bar listed on the official Alsace Wine Route's wine-bars page, pouring grower Alsace by the glass alongside small plates",
+        "opens_until": "22:30",
+        "tip": "Listed on the Alsace Wine Route's curated bar selection; ask for a Riesling Grand Cru flight to compare different climats in a single sitting.",
+        "description": "A central Colmar wine bar on the Alsace Wine Route's curated list, pouring grower Riesling and Pinot Gris by the glass with small plates.",
+        "editorial_score": 4.2,
+        "verified": {
+          "source_url": "https://www.lecercledesaromes.fr/",
+          "address_quoted": "Colmar",
+          "open_status": "open",
+          "open_evidence_url": "https://www.wineroute.alsace/wine-bars/",
+          "cuisine_evidence_url": "https://www.routedesvins.alsace/en/",
+          "checked_on": "2026-05-30"
+        }
+      },
+      {
+        "slug": "wineroute-alsace-wine-bars-colmar-strasbourg",
+        "name": "Alsace Wine Route curated wine-bar circuit",
+        "address": "Colmar and Strasbourg, France",
+        "neighborhood": "Colmar, Strasbourg, Obernai, Saverne",
+        "wine_program": "The Alsace Wine Route's official curated wine-bar list, covering Colmar, Strasbourg, Obernai, Saverne, Mulhouse and Vieux-Ferrette with a Vignoble et Decouvertes label",
+        "opens_until": "Varies by venue",
+        "tip": "Use the Alsace Wine Route wine-bar page to plan a city wine-bar circuit; the bars in Strasbourg and Colmar stay open later than the village ones.",
+        "description": "The Alsace Wine Route's official wine-bar selection, the deepest curated list of grower-led bars across the region from Saverne to Mulhouse.",
+        "editorial_score": 4.3,
+        "verified": {
+          "source_url": "https://www.wineroute.alsace/wine-bars/",
+          "address_quoted": "Colmar",
+          "open_status": "open",
+          "open_evidence_url": "https://www.routedesvins.alsace/en/",
+          "cuisine_evidence_url": "https://www.visit.alsace/en/the-alsace-wine-route/",
+          "checked_on": "2026-05-30"
+        }
+      }
+    ],
+    "fortified_specialists": [
+      {
+        "slug": "massenez-eau-de-vie-lapoutroie",
+        "name": "Distillerie Massenez (Eau-de-vie de fruits)",
+        "address": "13 Route du Vin, 67220 Villé, France",
+        "neighborhood": "Vallee de la Bruche",
+        "wine_program": "A historic Alsatian eau-de-vie distillery with tasting flights of kirsch, mirabelle, framboise, poire Williams and rarer fruit spirits, the Alsatian after-dinner pour",
+        "opens_until": "18:30",
+        "tip": "Eau-de-vie is the digestif of Alsace; ask for a flight of kirsch, framboise and mirabelle to see the family's flagship fruit distillations.",
+        "description": "A historic Alsatian fruit-spirit distillery with tasting flights of kirsch, mirabelle and framboise eaux-de-vie, the Alsatian after-dinner pour.",
+        "editorial_score": 4.3,
+        "verified": {
+          "source_url": "https://www.massenez.com/",
+          "address_quoted": "Villé",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Eau-de-vie",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Lapoutroie",
+          "checked_on": "2026-05-30"
+        }
+      },
+      {
+        "slug": "miclo-lapoutroie",
+        "name": "Distillerie G.E. Massenez and Miclo, Lapoutroie",
+        "address": "311 La Gayire, 68650 Lapoutroie, France",
+        "neighborhood": "Lapoutroie",
+        "wine_program": "A long-running Lapoutroie eau-de-vie distillery, with kirsch from local cherry orchards alongside whisky and gin in the modern range",
+        "opens_until": "18:00",
+        "tip": "Lapoutroie is the historic centre of Alsatian eau-de-vie; pair a Miclo visit with the village's farmhouse-cheese makers for a non-wine half-day.",
+        "description": "A Lapoutroie eau-de-vie distillery, the historic heart of Alsatian fruit-spirit production, with kirsch, mirabelle, framboise and modern whisky alongside.",
+        "editorial_score": 4.2,
+        "verified": {
+          "source_url": "https://www.distillerie-miclo.com/",
+          "address_quoted": "Lapoutroie",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Lapoutroie",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Eau-de-vie",
+          "checked_on": "2026-05-30"
+        }
+      },
+      {
+        "slug": "lucien-albrecht-marc-orschwihr",
+        "name": "Lucien Albrecht (Marc d'Alsace)",
+        "address": "9 Grand Rue, 68500 Orschwihr, France",
+        "neighborhood": "Orschwihr",
+        "wine_program": "An Orschwihr house known for Cremant and pomace-distilled Marc d'Alsace de Gewurztraminer, a regional grape-pomace eau-de-vie",
+        "opens_until": "18:00",
+        "tip": "Marc d'Alsace de Gewurztraminer is the region's signature pomace spirit; ask to taste it beside the dry Cremant for the two faces of the same fruit.",
+        "description": "An Orschwihr house with Cremant alongside Marc d'Alsace de Gewurztraminer, the region's distinctive pomace eau-de-vie distilled from Gewurztraminer skins.",
+        "editorial_score": 4.1,
+        "verified": {
+          "source_url": "https://www.albrecht.fr/",
+          "address_quoted": "Orschwihr",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Marc_(spirit)",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Eau-de-vie",
+          "checked_on": "2026-05-30"
+        }
+      }
+    ],
+    "late_tastings": [
+      {
+        "slug": "cave-historique-hospices-strasbourg-evening",
+        "name": "Cave Historique des Hospices de Strasbourg evening tastings",
+        "address": "1 Place de l'Hopital, 67091 Strasbourg, France",
+        "neighborhood": "Strasbourg",
+        "wine_program": "The 1395 cellar of the Hospices de Strasbourg, hosting tastings of more than 30 Alsatian estates' wines under the Hospices label, with the 1472 cask on display",
+        "opens_until": "17:30 weekdays, 12:30 Saturday",
+        "tip": "Closed Sundays; the 1472 cask is the centrepiece of the cellar, and the bottling collection covers major Alsace estates.",
+        "description": "The 1395 hospital cellar of Strasbourg, home of the 1472 cask and a 30-estate Hospices bottling collection, the city's signature historic tasting.",
+        "editorial_score": 4.6,
+        "verified": {
+          "source_url": "https://www.vins-des-hospices-de-strasbourg.fr/",
+          "address_quoted": "Strasbourg",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Strasbourg",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Alsace_wine",
+          "checked_on": "2026-05-30"
+        }
+      },
+      {
+        "slug": "civa-vinsalsace-route-tastings",
+        "name": "CIVA Maison des Vins d'Alsace, Colmar",
+        "address": "12 Avenue de la Foire aux Vins, 68000 Colmar, France",
+        "neighborhood": "Colmar",
+        "wine_program": "The interprofessional CIVA building in Colmar hosts year-round tastings of Alsatian appellations across the wine route, useful for a one-stop introductory flight",
+        "opens_until": "18:00",
+        "tip": "The CIVA's tasting bar in Colmar pours appellation flights from across Alsace, a useful one-stop sampler before driving the wine route.",
+        "description": "The CIVA's interprofessional house in Colmar, where tasting flights cover the full Alsace appellation hierarchy in one room.",
+        "editorial_score": 4.3,
+        "verified": {
+          "source_url": "https://www.vinsalsace.com/en/",
+          "address_quoted": "Colmar",
+          "open_status": "open",
+          "open_evidence_url": "https://www.tourisme-colmar.com/en/eat-drink/wine-related/colmar-the-alsatian-wine-capital",
+          "cuisine_evidence_url": "https://www.routedesvins.alsace/en/",
+          "checked_on": "2026-05-30"
+        }
+      },
+      {
+        "slug": "alsace-wine-route-tastings-circuit",
+        "name": "Alsace Wine Route grower-cellar evening tastings",
+        "address": "Wine route villages, Alsace, France",
+        "neighborhood": "Alsace Wine Route villages",
+        "wine_program": "The Alsace Wine Route's calendar lists hundreds of grower-led evening events through the season, from Parenthese Vigneronne tastings to cellar workshops",
+        "opens_until": "Varies by grower",
+        "tip": "Use the wineroute.alsace events calendar to find evening tastings by date and village; the Parenthese Vigneronne label marks deeper, more curated grower visits.",
+        "description": "The Alsace Wine Route's events calendar curates grower-led evening tastings across the wine villages, from cellar visits to Parenthese Vigneronne deep dives.",
+        "editorial_score": 4.3,
+        "verified": {
+          "source_url": "https://www.wineroute.alsace/wine-events/",
+          "address_quoted": "Alsace",
+          "open_status": "open",
+          "open_evidence_url": "https://www.routedesvins.alsace/en/",
+          "cuisine_evidence_url": "https://www.visit.alsace/en/the-alsace-wine-route/",
+          "checked_on": "2026-05-30"
+        }
+      }
+    ],
+    "sparkling_rooms": [
+      {
+        "slug": "wolfberger-cremant-cellar-eguisheim",
+        "name": "Wolfberger Cremant cellar, Eguisheim",
+        "address": "6 Grand Rue, 68420 Eguisheim, France",
+        "neighborhood": "Eguisheim",
+        "wine_program": "Wolfberger is a major Cremant d'Alsace producer, with a dedicated tasting room at Eguisheim pouring its full traditional-method sparkling range",
+        "opens_until": "18:00",
+        "tip": "Wolfberger's Cremant tasting flight covers a single house's full range from blanc de blancs to blanc de noirs in one sitting.",
+        "description": "The Wolfberger cooperative's Eguisheim cellar, pouring its full Cremant d'Alsace range from entry-level Brut through to vintage cuvees.",
+        "editorial_score": 4.1,
+        "verified": {
+          "source_url": "https://www.wolfberger.com/",
+          "address_quoted": "Eguisheim",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Cr%C3%A9mant_d%27Alsace",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Eguisheim",
+          "checked_on": "2026-05-30"
+        }
+      },
+      {
+        "slug": "bestheim-cremant-cellar-bennwihr",
+        "name": "Bestheim Cremant cellar, Bennwihr",
+        "address": "3 Rue du General de Gaulle, 68630 Bennwihr, France",
+        "neighborhood": "Bennwihr",
+        "wine_program": "Bestheim is a major Cremant d'Alsace house and its Bennwihr cellar runs scheduled tastings of the Prestige and vintage Cremant lineup",
+        "opens_until": "18:00",
+        "tip": "Bestheim's Prestige Cremant is a strong value within the AOC; taste the vintage cuvee alongside it to see what extra lees ageing does to the wine.",
+        "description": "Bestheim's Bennwihr cellar, a major Cremant d'Alsace house, with tasting flights of Prestige and vintage traditional-method sparkling.",
+        "editorial_score": 4.0,
+        "verified": {
+          "source_url": "https://www.bestheim.com/",
+          "address_quoted": "Bennwihr",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Cr%C3%A9mant_d%27Alsace",
+          "cuisine_evidence_url": "https://www.vinsalsace.com/en/",
+          "checked_on": "2026-05-30"
+        }
+      },
+      {
+        "slug": "lucien-albrecht-cremant-orschwihr",
+        "name": "Lucien Albrecht Cremant cellar, Orschwihr",
+        "address": "9 Grand Rue, 68500 Orschwihr, France",
+        "neighborhood": "Orschwihr",
+        "wine_program": "Lucien Albrecht in Orschwihr is a historic Cremant d'Alsace house tied to the AOC's 1976 founding, with cellar tastings of Brut, Brut Rose and Pinot Gris cuvees",
+        "opens_until": "18:00",
+        "tip": "Lucien Albrecht was active in the 1976 founding of the Cremant d'Alsace AOC; the cellar visit puts the regional sparkling story in context.",
+        "description": "The Orschwihr cellar of Lucien Albrecht, a historic Cremant d'Alsace house tied to the 1976 founding of the AOC, with tasting flights from Brut to Brut Rose and Pinot Gris cuvees.",
+        "editorial_score": 4.1,
+        "verified": {
+          "source_url": "https://www.albrecht.fr/",
+          "address_quoted": "Orschwihr",
+          "open_status": "open",
+          "open_evidence_url": "https://en.wikipedia.org/wiki/Cr%C3%A9mant_d%27Alsace",
+          "cuisine_evidence_url": "https://www.vinsalsace.com/en/",
+          "checked_on": "2026-05-30"
+        }
+      }
+    ]
+  }
+}

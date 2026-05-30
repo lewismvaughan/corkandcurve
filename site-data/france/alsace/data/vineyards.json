@@ -1,0 +1,2541 @@
+{
+  "vineyards": [
+    {
+      "slug": "trimbach",
+      "name": "Maison Trimbach",
+      "address": "15 Route de Bergheim, 68150 Ribeauville, France",
+      "neighborhood": "Ribeauville-Hunawihr-Bergheim",
+      "varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Muscat",
+        "Pinot Blanc",
+        "Pinot Noir"
+      ],
+      "classification": "Alsace AOC and Alsace Grand Cru (Geisberg, Osterberg, Rosacker)",
+      "owner": "Trimbach family",
+      "winemaker": "Pierre Trimbach (cellar) with Anne and Julien Trimbach",
+      "founded": 1626,
+      "tasting_program": "Cellar visits and seated tastings by appointment at the Ribeauville maison; reservations through the family website.",
+      "booking_url": "https://www.trimbach.fr/en/",
+      "signature_wines": [
+        "clos-sainte-hune",
+        "frederic-emile",
+        "reserve-personnelle"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Thirteen-generation Ribeauville house founded in 1626, source of Clos Sainte-Hune Riesling from the Rosacker Grand Cru and a long-standing reference for bone-dry Alsace Riesling.",
+      "tip": "Tastings are by appointment; allow time to walk up to the Rosacker hill above Hunawihr where Clos Sainte-Hune sits.",
+      "editorial_score": 5.0,
+      "verified": {
+        "source_url": "https://www.trimbach.fr/en/",
+        "address_quoted": "15 Route de Bergheim - 68150 RIBEAUVILLE",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wineroute.alsace/",
+        "cuisine_evidence_url": "https://www.trimbach.fr/en/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "hugel-et-fils",
+      "name": "Famille Hugel",
+      "address": "3 Rue de la Premiere Armee, 68340 Riquewihr, France",
+      "neighborhood": "Riquewihr-Zellenberg",
+      "varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Muscat",
+        "Pinot Blanc",
+        "Pinot Noir"
+      ],
+      "classification": "Alsace AOC, Alsace Grand Cru (Schoenenbourg, Sporen) and Vendanges Tardives / Selection de Grains Nobles",
+      "hectares": 30,
+      "owner": "Hugel family (Marc, Marc-Andre and Jean-Frederic Hugel)",
+      "founded": 1639,
+      "tasting_program": "Cellar tours and seated tastings at the Riquewihr house; appointments preferred.",
+      "booking_url": "https://m.hugel.com/2497G1XDFG",
+      "signature_wines": [
+        "schoenenbourg",
+        "vendanges-tardives-gewurztraminer",
+        "gentil"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Founded in 1639, the 13th-generation Riquewihr house that led the 1984 reform giving Alsace its Vendanges Tardives and Selection de Grains Nobles laws.",
+      "tip": "The Hugel Schoenenbourg Riesling sits below the family's cellars; the village walking route passes the foot of the Grand Cru.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://m.hugel.com/2497G1XDFG",
+        "address_quoted": "3, rue de la premiere Armee, 68340 Riquewihr",
+        "open_status": "open",
+        "open_evidence_url": "https://pfv.org/en/member/famille-hugel",
+        "cuisine_evidence_url": "https://m.hugel.com/2497G1XDFG",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "leon-beyer",
+      "name": "Leon Beyer",
+      "address": "2 Rue de la Premiere Armee, 68420 Eguisheim, France",
+      "neighborhood": "Eguisheim-Husseren",
+      "varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Muscat",
+        "Pinot Blanc"
+      ],
+      "classification": "Alsace AOC (dry-style focus)",
+      "owner": "Beyer family (Marc and Yann Beyer)",
+      "founded": 1580,
+      "tasting_program": "Tastings by appointment at the Eguisheim house, central to the village ring.",
+      "signature_wines": [
+        "comtes-d-eguisheim-gewurztraminer",
+        "comtes-d-eguisheim-riesling",
+        "cuvee-particuliere"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Eguisheim winegrowers since 1580, the house that built the dry-style reputation of Alsace Gewurztraminer and Riesling and supplies many French three-star tables.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.leonbeyer.fr/",
+        "address_quoted": "2, rue de la premiere armee, 68420 Eguisheim",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wineroute.alsace/253001004-domaine-leon-beyer/",
+        "cuisine_evidence_url": "https://www.leonbeyer.fr/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "domaines-schlumberger",
+      "name": "Domaines Schlumberger",
+      "address": "100 Rue Theodore Deck, 68500 Guebwiller, France",
+      "neighborhood": "Guebwiller",
+      "varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Muscat",
+        "Pinot Blanc",
+        "Pinot Noir"
+      ],
+      "classification": "Alsace AOC and Alsace Grand Cru (Kitterle, Kessler, Saering, Spiegel)",
+      "hectares": 130,
+      "owner": "Schlumberger family",
+      "founded": 1810,
+      "tasting_program": "Daily cellar visits and tastings at the Guebwiller estate; bookings via the website.",
+      "booking_url": "https://www.domaines-schlumberger.com/",
+      "signature_wines": [
+        "kitterle-riesling",
+        "kessler-gewurztraminer",
+        "saering-riesling"
+      ],
+      "biodynamic_status": "biodynamic_practicing",
+      "organic_status": "organic_certified",
+      "description": "Guebwiller estate spanning 130 hectares including 70 hectares of Grand Cru terraces on Kitterle, Kessler, Saering and Spiegel, a substantial Grand Cru holding under single ownership.",
+      "tip": "The Kitterle terraces above the cellar climb at angles up to 50 percent; the cellar visit walks part of the slope before tasting.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.domaines-schlumberger.com/the-estate/",
+        "address_quoted": "100 rue Theodore Deck, 68501 Guebwiller",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tourisme-mulhouse.com/en/offers/schlumberger-domaine-guebwiller-en-5217776/",
+        "cuisine_evidence_url": "https://www.domaines-schlumberger.com/the-estate/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "domaine-weinbach",
+      "name": "Domaine Weinbach",
+      "address": "25 Route du Vin, 68240 Kaysersberg, France",
+      "neighborhood": "Kaysersberg-Kientzheim-Sigolsheim",
+      "varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Muscat",
+        "Pinot Blanc",
+        "Pinot Noir"
+      ],
+      "classification": "Alsace AOC and Alsace Grand Cru (Schlossberg, Furstentum, Mambourg)",
+      "hectares": 31,
+      "owner": "Faller family (Catherine, Eddy and Theo Faller)",
+      "founded": 1898,
+      "tasting_program": "Tastings by appointment at the Clos des Capucins; cellar visits run through the year.",
+      "booking_url": "https://www.domaineweinbach.com/",
+      "signature_wines": [
+        "schlossberg-riesling-cuvee-sainte-catherine",
+        "furstentum-gewurztraminer",
+        "altenbourg-pinot-gris"
+      ],
+      "biodynamic_status": "demeter_certified",
+      "organic_status": "organic_certified",
+      "description": "The Faller family's Clos des Capucins at the foot of Schlossberg in Kaysersberg, biodynamic since the 2000s and one of the touchstones for Alsace Riesling and Pinot Gris.",
+      "tip": "The walled Clos des Capucins surrounds the cellar; visits typically include a walk through the clos before tasting.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.domaineweinbach.com/",
+        "address_quoted": "Clos des Capucins, 25 route du Vin - 68240 Kaysersberg",
+        "open_status": "open",
+        "open_evidence_url": "https://www.routedesvins.alsace/230106773-domaine-weinbach-faller-catherine-et-fils-domaine/",
+        "cuisine_evidence_url": "https://www.domaineweinbach.com/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "domaine-zind-humbrecht",
+      "name": "Domaine Zind-Humbrecht",
+      "address": "4 Route de Colmar, 68230 Turckheim, France",
+      "neighborhood": "Turckheim-Niedermorschwihr-Katzenthal",
+      "varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Muscat",
+        "Pinot Blanc",
+        "Pinot Noir"
+      ],
+      "classification": "Alsace AOC, Alsace Grand Cru (Brand, Hengst, Goldert, Rangen) and Selection de Grains Nobles",
+      "hectares": 40,
+      "owner": "Humbrecht family",
+      "winemaker": "Olivier Humbrecht MW",
+      "founded": 1959,
+      "tasting_program": "Cellar visits and tastings by appointment at the Turckheim winery; reservations via the website.",
+      "booking_url": "https://www.zindhumbrecht.fr/en/",
+      "signature_wines": [
+        "clos-saint-urbain-rangen",
+        "brand-riesling",
+        "clos-windsbuhl-pinot-gris"
+      ],
+      "biodynamic_status": "demeter_certified",
+      "organic_status": "organic_certified",
+      "description": "Turckheim estate built from the 1959 union of the Zind and Humbrecht families and run by Olivier Humbrecht MW, holding parcels in Brand, Hengst and the volcanic Clos Saint-Urbain on the Rangen.",
+      "tip": "Clos Saint-Urbain sits inside the Rangen amphitheatre of Thann; tastings at the Turckheim cellar walk through every Grand Cru in succession.",
+      "editorial_score": 5.0,
+      "verified": {
+        "source_url": "https://www.zindhumbrecht.fr/en/",
+        "address_quoted": "4 Route de Colmar, 68230 Turckheim",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Domaine_Zind-Humbrecht",
+        "cuisine_evidence_url": "https://www.zindhumbrecht.fr/en/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "marcel-deiss",
+      "name": "Domaine Marcel Deiss",
+      "address": "15 Route du Vin, 68750 Bergheim, France",
+      "neighborhood": "Ribeauville-Hunawihr-Bergheim",
+      "varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Muscat",
+        "Pinot Blanc",
+        "Pinot Noir",
+        "Sylvaner"
+      ],
+      "classification": "Alsace AOC, Alsace Grand Cru (Altenberg de Bergheim, Schoenenbourg, Mambourg) and complantation field-blends",
+      "hectares": 32,
+      "owner": "Deiss family (Jean-Michel and Mathieu Deiss)",
+      "founded": 1947,
+      "tasting_program": "Cellar visits and tastings at the Bergheim domaine; bookings via the website.",
+      "booking_url": "https://www.marceldeiss.com/en/",
+      "signature_wines": [
+        "altenberg-de-bergheim",
+        "schoenenbourg",
+        "burlenberg"
+      ],
+      "biodynamic_status": "demeter_certified",
+      "organic_status": "ecocert",
+      "description": "Bergheim estate that revived the Alsace climat tradition with co-planted Grand Cru field-blends, biodynamic since 1998 and Demeter certified, run by Mathieu Deiss with his father Jean-Michel.",
+      "tip": "Deiss bottles many of his Grands Crus as field-blends rather than single varietals; the Altenberg de Bergheim cuvee is a thirteen-variety complantation.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.marceldeiss.com/en/",
+        "address_quoted": "15 Route du Vin, 68750 Bergheim",
+        "open_status": "open",
+        "open_evidence_url": "https://www.skurnik.com/producer/domaine-marcel-deiss/",
+        "cuisine_evidence_url": "https://www.marceldeiss.com/en/cms/1-domain",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "domaine-albert-boxler",
+      "name": "Domaine Albert Boxler",
+      "address": "78 Rue des Trois Epis, 68230 Niedermorschwihr, France",
+      "neighborhood": "Turckheim-Niedermorschwihr-Katzenthal",
+      "varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Pinot Blanc",
+        "Pinot Noir"
+      ],
+      "classification": "Alsace AOC and Alsace Grand Cru (Sommerberg, Brand)",
+      "hectares": 13,
+      "owner": "Boxler family (Jean Boxler and son Jean-Marie)",
+      "founded": 1673,
+      "tasting_program": "Cellar tastings strictly by appointment; the estate is small and allocation-driven.",
+      "signature_wines": [
+        "sommerberg-riesling",
+        "brand-riesling",
+        "sommerberg-pinot-gris"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Single-village Niedermorschwihr estate run by Jean Boxler and his son Jean-Marie, with thirteen hectares almost entirely on the granite Grands Crus Sommerberg and Brand. Allocation only.",
+      "tip": "The Sommerberg climbs straight above the village; book ahead and walk up before tasting.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://kermitlynch.com/grower/albert-boxler",
+        "address_quoted": "78 Rue des Trois Epis, 68230 Niedermorschwihr",
+        "open_status": "open",
+        "open_evidence_url": "https://www.winescholarguild.com/producer-guide/france/alsace/1-domaine-albert-boxler",
+        "cuisine_evidence_url": "https://kermitlynch.com/grower/albert-boxler",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "domaine-josmeyer",
+      "name": "Domaine Josmeyer",
+      "address": "76 Rue Clemenceau, 68920 Wintzenheim, France",
+      "neighborhood": "Colmar-Wintzenheim-Wettolsheim",
+      "varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Pinot Blanc",
+        "Muscat"
+      ],
+      "classification": "Alsace AOC and Alsace Grand Cru (Hengst, Brand)",
+      "hectares": 28,
+      "owner": "Meyer family (Celine and Isabelle Meyer)",
+      "founded": 1854,
+      "tasting_program": "Cellar visits and tastings by appointment; the modern domaine sits in central Wintzenheim.",
+      "booking_url": "https://www.josmeyer.com/",
+      "signature_wines": [
+        "hengst-riesling",
+        "brand-riesling",
+        "le-kottabe"
+      ],
+      "biodynamic_status": "demeter_certified",
+      "organic_status": "organic_certified",
+      "description": "Wintzenheim domaine farmed biodynamically across 28 hectares including Grand Cru Hengst and Brand, run by sisters Celine and Isabelle Meyer.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.josmeyer.com/",
+        "address_quoted": "76 Rue Clemenceau, 68920 Wintzenheim",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wineroute.alsace/235015964-vins-du-domaine-josmeyer/",
+        "cuisine_evidence_url": "https://www.josmeyer.com/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "domaine-albert-mann",
+      "name": "Domaine Albert Mann",
+      "address": "13 Rue du Chateau, 68920 Wettolsheim, France",
+      "neighborhood": "Colmar-Wintzenheim-Wettolsheim",
+      "varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Muscat",
+        "Pinot Blanc",
+        "Pinot Noir"
+      ],
+      "classification": "Alsace AOC and Alsace Grand Cru (Hengst, Schlossberg, Furstentum, Pfersigberg, Steingrubler, Mambourg)",
+      "hectares": 24,
+      "owner": "Barthelme family (Maurice and Jacky Barthelme)",
+      "founded": 1984,
+      "tasting_program": "Cellar visits and tastings by appointment at the Wettolsheim winery.",
+      "booking_url": "https://www.albertmann.com/",
+      "signature_wines": [
+        "schlossberg-riesling",
+        "hengst-pinot-noir-grand-h",
+        "furstentum-gewurztraminer"
+      ],
+      "biodynamic_status": "biodynamic_practicing",
+      "organic_status": "organic_certified",
+      "description": "Wettolsheim domaine run by brothers Maurice and Jacky Barthelme, biodynamic since 1997 with parcels in six Grands Crus across the Colmar belt and Kaysersberg amphitheatre.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.albertmann.com/",
+        "address_quoted": "13 Rue du Chateau, 68920 Wettolsheim",
+        "open_status": "open",
+        "open_evidence_url": "https://www.biodyvin.com/en/our-members/106-domaine-albert-mann.html",
+        "cuisine_evidence_url": "https://www.albertmann.com/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "domaine-bott-geyl",
+      "name": "Domaine Bott-Geyl",
+      "address": "1 Rue du Petit Chateau, 68980 Beblenheim, France",
+      "neighborhood": "Riquewihr-Zellenberg",
+      "varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Muscat",
+        "Pinot Blanc",
+        "Pinot Noir"
+      ],
+      "classification": "Alsace AOC and Alsace Grand Cru (Sonnenglanz, Schoenenbourg, Sporen, Mandelberg, Furstentum, Schlossberg)",
+      "hectares": 18,
+      "owner": "Bott family (Jean-Christophe Bott)",
+      "founded": 1795,
+      "tasting_program": "Cellar visits and tastings at the Beblenheim domaine; appointments preferred.",
+      "booking_url": "https://www.bott-geyl.com/",
+      "signature_wines": [
+        "sonnenglanz-gewurztraminer",
+        "schoenenbourg-riesling",
+        "furstentum-pinot-gris"
+      ],
+      "biodynamic_status": "demeter_certified",
+      "organic_status": "ecocert",
+      "description": "Beblenheim family domaine with parcels in six Grands Crus, converted to organic in 2000 and certified Demeter biodynamic, run by Jean-Christophe Bott.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.bott-geyl.com/",
+        "address_quoted": "1 Rue du Petit Chateau, 68980 Beblenheim",
+        "open_status": "open",
+        "open_evidence_url": "https://www.ruedesvignerons.com/en/domaine/221/domaine-bott-geyl",
+        "cuisine_evidence_url": "https://www.bott-geyl.com/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "domaine-ostertag",
+      "name": "Domaine Ostertag",
+      "address": "87 Rue Finkwiller, 67680 Epfig, France",
+      "neighborhood": "Dambach-la-Ville",
+      "varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Pinot Blanc",
+        "Sylvaner",
+        "Pinot Noir"
+      ],
+      "classification": "Alsace AOC and Alsace Grand Cru (Muenchberg) plus lieux-dits Fronholz, Zellberg, Heissenberg",
+      "hectares": 15,
+      "owner": "Ostertag family (Andre and Arthur Ostertag)",
+      "founded": 1966,
+      "tasting_program": "Cellar visits by appointment at the Epfig domaine.",
+      "signature_wines": [
+        "muenchberg-riesling",
+        "fronholz-pinot-gris",
+        "heissenberg-riesling"
+      ],
+      "biodynamic_status": "demeter_certified",
+      "organic_status": "organic_certified",
+      "description": "Epfig domaine biodynamic since 1996 and Demeter certified, founded by Andre Ostertag and now run with his son Arthur across 88 plots on schist, sandstone and granite.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://kermitlynch.com/files/andre-ostertag.pdf",
+        "address_quoted": "87 Rue Finkwiller, 67680 Epfig",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wineroute.alsace/213007052-domaine-ostertag/",
+        "cuisine_evidence_url": "https://kermitlynch.com/files/andre-ostertag.pdf",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "domaine-rene-mure",
+      "name": "Domaine Mure - Clos Saint-Landelin",
+      "address": "Route du Vin, 68250 Rouffach, France",
+      "neighborhood": "Rouffach-Pfaffenheim-Westhalten",
+      "varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Muscat",
+        "Pinot Noir",
+        "Sylvaner"
+      ],
+      "classification": "Alsace AOC, Alsace Grand Cru (Vorbourg, including monopole Clos Saint-Landelin)",
+      "hectares": 24,
+      "owner": "Mure family (Veronique and Thomas Mure)",
+      "founded": 1648,
+      "tasting_program": "Cellar visits and tastings at the Clos Saint-Landelin cellar on the Vorbourg.",
+      "booking_url": "https://www.mure.com/",
+      "signature_wines": [
+        "clos-saint-landelin-riesling",
+        "clos-saint-landelin-pinot-noir",
+        "vorbourg-pinot-gris"
+      ],
+      "biodynamic_status": "biodynamic_practicing",
+      "organic_status": "organic_certified",
+      "description": "Rouffach domaine owning the monopole Clos Saint-Landelin on the Vorbourg Grand Cru, biodynamic since the 1990s and one of the strongest Alsace Pinot Noir addresses.",
+      "tip": "Clos Saint-Landelin is a 15-hectare south-facing limestone slope at the southern end of Vorbourg; the tasting room sits at the foot of the clos.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.mure.com/",
+        "address_quoted": "Route du Vin, 68250 Rouffach",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wineroute.alsace/253002313-vins-mure-domaine-du-clos-saint-landelin/",
+        "cuisine_evidence_url": "https://www.mure.com/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "domaine-schoffit",
+      "name": "Domaine Schoffit",
+      "address": "66-68 Nonnenholzweg, 68000 Colmar, France",
+      "neighborhood": "Colmar-Wintzenheim-Wettolsheim",
+      "varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Pinot Blanc",
+        "Sylvaner",
+        "Chasselas",
+        "Pinot Noir"
+      ],
+      "classification": "Alsace AOC, Alsace Grand Cru (Rangen de Thann including monopole Clos Saint-Theobald, Sommerberg)",
+      "hectares": 18,
+      "owner": "Schoffit family",
+      "winemaker": "Alexandre Schoffit",
+      "founded": 1959,
+      "tasting_program": "Cellar visits and tastings by appointment at the Colmar winery.",
+      "signature_wines": [
+        "clos-saint-theobald-rangen-riesling",
+        "clos-saint-theobald-rangen-pinot-gris",
+        "harth-vieilles-vignes"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Colmar family estate with the rare Clos Saint-Theobald monopole on the volcanic Rangen de Thann, plus a small Sommerberg holding and the broad Harth lieu-dit at Colmar.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "http://www.alsace-wine.net/p/schoffit.shtml",
+        "address_quoted": "66-68 Nonnenholzweg, 68000 Colmar",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vintageandvine.com/schoffit",
+        "cuisine_evidence_url": "http://www.alsace-wine.net/p/schoffit.shtml",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "domaine-dirler-cade",
+      "name": "Domaine Dirler-Cade",
+      "address": "13 Rue d'Issenheim, 68500 Bergholtz, France",
+      "neighborhood": "Guebwiller",
+      "varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Sylvaner",
+        "Muscat",
+        "Pinot Blanc",
+        "Pinot Noir"
+      ],
+      "classification": "Alsace AOC and Alsace Grand Cru (Spiegel, Saering, Kessler, Kitterle)",
+      "hectares": 18,
+      "owner": "Dirler family (Jean and Ludivine Dirler)",
+      "founded": 1871,
+      "tasting_program": "Cellar visits and tastings by appointment at the Bergholtz winery.",
+      "signature_wines": [
+        "kitterle-riesling",
+        "saering-riesling",
+        "spiegel-gewurztraminer"
+      ],
+      "biodynamic_status": "demeter_certified",
+      "organic_status": "organic_certified",
+      "description": "Bergholtz family domaine biodynamic since 1998 with parcels in four Guebwiller Grands Crus and the only producer alongside Schlumberger holding all four cru in significant quantity.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://dirler-cade.com/en/",
+        "address_quoted": "13 Rue d'Issenheim, 68500 Bergholtz",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wineroute.alsace/232005708-dirler-cade-domaine/",
+        "cuisine_evidence_url": "https://dirler-cade.com/en/the-domain/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "domaine-pierre-frick",
+      "name": "Domaine Pierre Frick",
+      "address": "5 Rue Baer, 68250 Pfaffenheim, France",
+      "neighborhood": "Rouffach-Pfaffenheim-Westhalten",
+      "varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Pinot Blanc",
+        "Sylvaner",
+        "Pinot Noir"
+      ],
+      "classification": "Alsace AOC and Alsace Grand Cru (Steinert, Vorbourg, Eichberg)",
+      "hectares": 12,
+      "owner": "Frick family (Jean-Pierre and Chantal Frick)",
+      "founded": 1768,
+      "tasting_program": "Cellar visits by appointment; the domaine focuses on natural-style bottlings.",
+      "signature_wines": [
+        "steinert-pinot-gris",
+        "vorbourg-riesling",
+        "pinot-blanc-zero-sulfite"
+      ],
+      "biodynamic_status": "demeter_certified",
+      "organic_status": "ecocert",
+      "description": "Pfaffenheim natural-wine producer, Demeter certified since 1981 and an early Alsace biodynamic adopter. Many cuvees released without added sulphur.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.pierrefrick.com/",
+        "address_quoted": "5 Rue Baer, 68250 Pfaffenheim",
+        "open_status": "open",
+        "open_evidence_url": "https://backinalsace.com/producers/pierre-frick/",
+        "cuisine_evidence_url": "https://www.pierrefrick.com/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "domaine-christian-binner",
+      "name": "Domaine Christian Binner",
+      "address": "2 Rue des Romains, 68770 Ammerschwihr, France",
+      "neighborhood": "Kaysersberg-Kientzheim-Sigolsheim",
+      "varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Pinot Blanc",
+        "Muscat",
+        "Pinot Noir"
+      ],
+      "classification": "Alsace AOC and Alsace Grand Cru (Schlossberg, Kaefferkopf)",
+      "hectares": 11,
+      "owner": "Binner family (Christian and Audrey Binner)",
+      "founded": 1770,
+      "tasting_program": "Cellar visits and tastings by appointment at the Ammerschwihr winery.",
+      "booking_url": "https://www.alsace-binner.com/en",
+      "signature_wines": [
+        "schlossberg-riesling",
+        "kaefferkopf-cuvee-beatrice",
+        "saveurs-printanieres"
+      ],
+      "biodynamic_status": "demeter_certified",
+      "organic_status": "organic_certified",
+      "description": "Ammerschwihr family domaine since 1770, a recognised Alsace natural-wine address with low-to-zero sulphur cuvees and a strong skin-contact and orange-style line.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.alsace-binner.com/en/contact",
+        "address_quoted": "2, rue des Romains, 68770 AMMERSCHWIHR",
+        "open_status": "open",
+        "open_evidence_url": "https://www.jennyandfrancois.com/wines-2/france/domaine-binner/",
+        "cuisine_evidence_url": "https://www.alsace-binner.com/en",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "domaine-barmes-buecher",
+      "name": "Domaine Barmes-Buecher",
+      "address": "30 Rue Sainte-Gertrude, 68920 Wettolsheim, France",
+      "neighborhood": "Colmar-Wintzenheim-Wettolsheim",
+      "varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Pinot Blanc",
+        "Muscat",
+        "Pinot Noir"
+      ],
+      "classification": "Alsace AOC and Alsace Grand Cru (Hengst, Steingrubler, Pfersigberg)",
+      "hectares": 18,
+      "owner": "Barmes-Buecher family (Sophie, Genevieve and Maxime Barmes)",
+      "founded": 1985,
+      "tasting_program": "Cellar visits and tastings by appointment at the Wettolsheim winery.",
+      "booking_url": "https://barmes-buecher.com/en/",
+      "signature_wines": [
+        "hengst-riesling",
+        "steingrubler-gewurztraminer",
+        "pfersigberg-pinot-gris"
+      ],
+      "biodynamic_status": "demeter_certified",
+      "organic_status": "organic_certified",
+      "description": "Wettolsheim biodynamic estate certified since 2001, with parcels on Hengst, Steingrubler and Pfersigberg, member of Biodyvin and Renaissance des Appellations.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://barmes-buecher.com/en/",
+        "address_quoted": "30 rue Sainte Gertrude, 68920 Wettolsheim",
+        "open_status": "open",
+        "open_evidence_url": "https://www.sacredthirstselections.com/barmsbuecher",
+        "cuisine_evidence_url": "https://barmes-buecher.com/en/our-wines.html",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "domaine-marc-tempe",
+      "name": "Domaine Marc Tempe",
+      "address": "24 Rue du Schlossberg, 68340 Zellenberg, France",
+      "neighborhood": "Riquewihr-Zellenberg",
+      "varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Pinot Blanc",
+        "Muscat"
+      ],
+      "classification": "Alsace AOC and Alsace Grand Cru (Mambourg, Schoenenbourg, Furstentum, Zinnkoepfle)",
+      "hectares": 9,
+      "owner": "Tempe family (Marc and Anne-Marie Tempe)",
+      "founded": 1993,
+      "tasting_program": "Cellar visits by appointment in Zellenberg.",
+      "signature_wines": [
+        "mambourg-gewurztraminer",
+        "schoenenbourg-riesling",
+        "furstentum-pinot-gris"
+      ],
+      "biodynamic_status": "demeter_certified",
+      "organic_status": "organic_certified",
+      "description": "Zellenberg micro-domaine biodynamic since 1996, run by Marc Tempe with extended elevage in foudre and old Burgundy barrels and a focus on Grand Cru terroir transparency.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.mfwwineco.com/marc-temp",
+        "address_quoted": "24, rue du Schlossberg, Zellenberg",
+        "open_status": "open",
+        "open_evidence_url": "https://vintage59.com/our-portfolio-2/marc_tempe_alsace/",
+        "cuisine_evidence_url": "https://www.mfwwineco.com/marc-temp",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "kuentz-bas",
+      "name": "Kuentz-Bas",
+      "address": "14 Route des Vins, 68420 Husseren-les-Chateaux, France",
+      "neighborhood": "Eguisheim-Husseren",
+      "varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Muscat",
+        "Pinot Blanc",
+        "Pinot Noir"
+      ],
+      "classification": "Alsace AOC and Alsace Grand Cru (Eichberg, Pfersigberg)",
+      "hectares": 14,
+      "owner": "Bas family",
+      "founded": 1795,
+      "tasting_program": "Cellar visits and tastings at the Husseren-les-Chateaux winery on the highest village of the Route des Vins.",
+      "booking_url": "https://www.kuentz-bas.fr/",
+      "signature_wines": [
+        "eichberg-gewurztraminer",
+        "pfersigberg-riesling",
+        "tradition-riesling"
+      ],
+      "biodynamic_status": "demeter_certified",
+      "organic_status": "organic_certified",
+      "description": "Husseren-les-Chateaux house founded in 1795, certified organic since 2007 and biodynamic since 2008, sitting on the highest village of the Route des Vins.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.kuentz-bas.fr/",
+        "address_quoted": "14 Route des Vins, 68420 Husseren-les-Chateaux",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wineroute.alsace/253001087-vins-kuentz-bas-alsace/",
+        "cuisine_evidence_url": "https://www.kuentz-bas.fr/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "domaine-valentin-zusslin",
+      "name": "Domaine Valentin Zusslin",
+      "address": "57 Grand Rue, 68500 Orschwihr, France",
+      "neighborhood": "Guebwiller",
+      "varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Pinot Blanc",
+        "Muscat",
+        "Pinot Noir"
+      ],
+      "classification": "Alsace AOC, Alsace Grand Cru (Pfingstberg) and Cremant d'Alsace",
+      "hectares": 13,
+      "owner": "Zusslin family (Marie and Jean-Paul Zusslin)",
+      "founded": 1691,
+      "tasting_program": "Cellar visits and tastings by appointment at the Orschwihr winery.",
+      "booking_url": "https://www.zusslin.com/en/",
+      "signature_wines": [
+        "pfingstberg-riesling",
+        "clos-liebenberg-riesling",
+        "cremant-pinot-noir"
+      ],
+      "biodynamic_status": "demeter_certified",
+      "organic_status": "ecocert",
+      "description": "Orschwihr family domaine since 1691, biodynamic since 1997 and Demeter certified, run by 13th-generation siblings Marie and Jean-Paul Zusslin with Pfingstberg Grand Cru holdings.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.zusslin.com/en/valentin-zusslin-alsace-wines/",
+        "address_quoted": "57 Grand Rue, 68500 Orschwihr",
+        "open_status": "open",
+        "open_evidence_url": "https://www.ruedesvignerons.com/en/domaine/481/domaine-valentin-zusslin",
+        "cuisine_evidence_url": "https://www.zusslin.com/en/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "domaine-bohn",
+      "name": "Domaine Bohn",
+      "address": "16 Chemin du Leh, 67140 Reichsfeld, France",
+      "neighborhood": "Barr-Mittelbergheim-Andlau",
+      "varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Pinot Blanc",
+        "Sylvaner",
+        "Pinot Noir"
+      ],
+      "classification": "Alsace AOC (slate terroir of Reichsfeld)",
+      "hectares": 9,
+      "owner": "Bohn family (Bernard and Arthur Bohn)",
+      "founded": 1716,
+      "tasting_program": "Cellar visits by appointment at the Reichsfeld estate.",
+      "booking_url": "https://www.domainebohn.com/",
+      "signature_wines": [
+        "riesling-schiste",
+        "pinot-gris-schiste",
+        "gewurztraminer-schiste"
+      ],
+      "biodynamic_status": "biodynamic_practicing",
+      "organic_status": "organic_certified",
+      "description": "Reichsfeld father-and-son estate on a rare slate-and-volcanic terroir at altitude in the Bas-Rhin, organic certified since 2020 and farming without ploughing.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.domainebohn.com/",
+        "address_quoted": "16 Chemin du Leh, 67140 Reichsfeld",
+        "open_status": "open",
+        "open_evidence_url": "https://leclubterroirsandco.com/domaines-vignerons/vins-alsace-bio-biodynamie-nature/bernard-arthur-bohn/",
+        "cuisine_evidence_url": "https://www.domainebohn.com/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "domaine-leon-boesch",
+      "name": "Domaine Leon Boesch",
+      "address": "6 Rue Saint-Blaise, 68250 Westhalten, France",
+      "neighborhood": "Rouffach-Pfaffenheim-Westhalten",
+      "varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Pinot Blanc",
+        "Sylvaner",
+        "Pinot Noir"
+      ],
+      "classification": "Alsace AOC and Alsace Grand Cru (Zinnkoepfle)",
+      "hectares": 15,
+      "owner": "Boesch family (Gerard and Matthieu Boesch)",
+      "founded": 1640,
+      "tasting_program": "Cellar visits and tastings at the bio-climatic stone-and-straw cellar in Westhalten.",
+      "booking_url": "https://domaineboesch.fr/",
+      "signature_wines": [
+        "zinnkoepfle-riesling",
+        "zinnkoepfle-gewurztraminer",
+        "luss-gewurztraminer"
+      ],
+      "biodynamic_status": "demeter_certified",
+      "organic_status": "organic_certified",
+      "description": "Westhalten family domaine since 1640 in the dry Vallee Noble, Demeter certified biodynamic since 2000 with parcels on the steep Zinnkoepfle Grand Cru.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://domaineboesch.fr/",
+        "address_quoted": "6 Rue Saint-Blaise, 68250 Westhalten",
+        "open_status": "open",
+        "open_evidence_url": "https://www.demeter.fr/adherents/domaine-leon-boesch/",
+        "cuisine_evidence_url": "https://domaineboesch.fr/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "rolly-gassmann",
+      "name": "Domaine Rolly Gassmann",
+      "address": "1-2 Place de l'Eglise, 68590 Rorschwihr, France",
+      "neighborhood": "Ribeauville-Hunawihr-Bergheim",
+      "varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Muscat",
+        "Pinot Blanc",
+        "Sylvaner",
+        "Auxerrois"
+      ],
+      "classification": "Alsace AOC (Rorschwihr lieux-dits) and Selection de Grains Nobles",
+      "owner": "Rolly Gassmann family (Pierre and Marie-Therese Gassmann)",
+      "founded": 1611,
+      "tasting_program": "Cellar visits and tastings by appointment at the Rorschwihr winery.",
+      "booking_url": "https://www.rollygassmann.fr/en/",
+      "signature_wines": [
+        "kappelweg-riesling",
+        "moenchreben-gewurztraminer",
+        "stegreben-de-rorschwihr"
+      ],
+      "biodynamic_status": "biodynamic_practicing",
+      "organic_status": "organic_certified",
+      "description": "Rorschwihr family domaine with library cellar stretching back four decades, specialising in long-aged Rorschwihr lieux-dits Riesling, Gewurztraminer and Pinot Gris.",
+      "tip": "Rolly Gassmann releases its wines with extended bottle age; current vintages frequently sit five to ten years behind release.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.rollygassmann.fr/en/",
+        "address_quoted": "1-2 Place de l'Eglise, 68590 Rorschwihr",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wineroute.alsace/229002900-rolly-gassmann/",
+        "cuisine_evidence_url": "https://www.rollygassmann.fr/en/le-vignoble/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "cave-de-ribeauville",
+      "name": "Cave de Ribeauville",
+      "address": "2 Route de Colmar, 68150 Ribeauville, France",
+      "neighborhood": "Ribeauville-Hunawihr-Bergheim",
+      "varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Pinot Blanc",
+        "Muscat",
+        "Sylvaner",
+        "Pinot Noir"
+      ],
+      "classification": "Alsace AOC, Alsace Grand Cru (Geisberg, Osterberg, Kirchberg de Ribeauville, Rosacker, Altenberg de Bergheim) and Cremant d'Alsace",
+      "owner": "Cooperative (40 grower members)",
+      "founded": 1895,
+      "tasting_program": "Daily cellar visits and free tastings at the boutique on Route de Colmar.",
+      "booking_url": "https://www.vins-ribeauville.com/",
+      "signature_wines": [
+        "geisberg-riesling",
+        "osterberg-riesling",
+        "kirchberg-de-ribeauville"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Founded in 1895, an early French wine cooperative pooling Riesling Grand Cru parcels from forty Ribeauville growers across Geisberg, Osterberg and Kirchberg.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.vins-ribeauville.com/",
+        "address_quoted": "2 Route de Colmar, 68150 Ribeauville",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wineroute.alsace/229002794-cooperative-wine-cellar-cave-de-ribeauville/",
+        "cuisine_evidence_url": "https://www.vins-ribeauville.com/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "wolfberger",
+      "name": "Wolfberger",
+      "address": "6 Grand Rue, 68420 Eguisheim, France",
+      "neighborhood": "Eguisheim-Husseren",
+      "varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Pinot Blanc",
+        "Pinot Noir",
+        "Muscat",
+        "Sylvaner"
+      ],
+      "classification": "Alsace AOC, Alsace Grand Cru (Eichberg, Pfersigberg, Hatschbourg, Hengst) and Cremant d'Alsace",
+      "hectares": 1200,
+      "owner": "Cooperative (480 growers)",
+      "founded": 1902,
+      "tasting_program": "Daily cellar visits at the Eguisheim boutique and the eaux-de-vie distillery on site.",
+      "booking_url": "https://www.wolfberger.com/",
+      "signature_wines": [
+        "eichberg-gewurztraminer",
+        "hengst-riesling",
+        "cremant-pinot-noir"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Eguisheim cooperative founded in 1902, pooling 1200 hectares across 480 grower families. Major source of Cremant d'Alsace at volume and a substantial regional eaux-de-vie distiller.",
+      "editorial_score": 4.0,
+      "verified": {
+        "source_url": "https://www.wolfberger.com/",
+        "address_quoted": "6 Grand Rue, 68420 Eguisheim",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wineroute.alsace/253001003-cave-vinicole-wolfberger/",
+        "cuisine_evidence_url": "https://www.wolfberger.com/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "pierre-sparr",
+      "name": "Maison Pierre Sparr Successeurs",
+      "address": "14 Rue de Hoen, 68980 Beblenheim, France",
+      "neighborhood": "Riquewihr-Zellenberg",
+      "varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Pinot Blanc",
+        "Muscat",
+        "Pinot Noir"
+      ],
+      "classification": "Alsace AOC, Alsace Grand Cru (Mambourg, Schlossberg, Brand) and Cremant d'Alsace",
+      "owner": "Wolfberger group",
+      "founded": 1680,
+      "tasting_program": "Cellar visits and tastings at the Beblenheim shop.",
+      "booking_url": "https://www.vins-sparr.com/en/",
+      "signature_wines": [
+        "mambourg-gewurztraminer",
+        "schlossberg-riesling",
+        "reserve-pinot-gris"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Historic 1680 Sigolsheim house now headquartered in Beblenheim, owned since 2018 by the Wolfberger cooperative and a steady source of Mambourg Gewurztraminer.",
+      "editorial_score": 4.1,
+      "verified": {
+        "source_url": "https://www.vins-sparr.com/en/",
+        "address_quoted": "14 rue de Hoen - 68980 Beblenheim",
+        "open_status": "open",
+        "open_evidence_url": "https://www.falstaff.com/en/wineries/pierre-sparr",
+        "cuisine_evidence_url": "https://www.vins-sparr.com/en/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "lucien-albrecht",
+      "name": "Maison Lucien Albrecht",
+      "address": "28 Rue du Printemps, 68500 Orschwihr, France",
+      "neighborhood": "Guebwiller",
+      "varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Pinot Blanc",
+        "Pinot Noir",
+        "Auxerrois"
+      ],
+      "classification": "Alsace AOC, Alsace Grand Cru (Pfingstberg) and Cremant d'Alsace",
+      "owner": "Wolfberger / Bestheim group",
+      "founded": 1698,
+      "tasting_program": "Cellar visits at the Orschwihr house; Cremant tastings are a particular focus.",
+      "booking_url": "https://www.lucien-albrecht.com/",
+      "signature_wines": [
+        "cremant-brut-rose",
+        "pfingstberg-riesling",
+        "cremant-brut-blanc"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Orschwihr Cremant specialist founded by Balthazar Albrecht in 1698, a historic house involved in the 1976 founding of the Cremant d'Alsace AOC.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.lucien-albrecht.com/",
+        "address_quoted": "28 rue du Printemps in Orschwihr",
+        "open_status": "open",
+        "open_evidence_url": "https://www.lucien-albrecht.com/contact/",
+        "cuisine_evidence_url": "https://www.lucien-albrecht.com/our-wines/cremants-alsace-lucien-albrecht/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "domaine-trapet-alsace",
+      "name": "Domaine Trapet Alsace",
+      "address": "16 Rue du 5 Decembre, 68340 Riquewihr, France",
+      "neighborhood": "Riquewihr-Zellenberg",
+      "varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Pinot Blanc"
+      ],
+      "classification": "Alsace AOC and Alsace Grand Cru (Schoenenbourg, Sporen)",
+      "hectares": 9,
+      "owner": "Trapet family (Andree and Jean-Louis Trapet)",
+      "founded": 2002,
+      "tasting_program": "Cellar visits by appointment in Riquewihr; allocation-only releases.",
+      "signature_wines": [
+        "riesling-riquewihr",
+        "schoenenbourg-riesling",
+        "sporen-gewurztraminer"
+      ],
+      "biodynamic_status": "biodynamic_practicing",
+      "organic_status": "organic_certified",
+      "description": "The Burgundian Trapet family's Alsace satellite at Riquewihr, biodynamic and run by Andree Trapet alongside the Gevrey-Chambertin domaine, with parcels on Schoenenbourg and Sporen.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "http://www.domaine-trapet.fr/en/alsace-wines/",
+        "address_quoted": "16 Rue du 5 Decembre, 68340 Riquewihr",
+        "open_status": "open",
+        "open_evidence_url": "https://www.routedesvins.alsace/229002825-domaine-trapet-alsace/",
+        "cuisine_evidence_url": "http://www.domaine-trapet.fr/en/alsace-wines/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "sipp-mack",
+      "name": "Domaine Sipp Mack",
+      "address": "1 Rue des Vosges, 68150 Hunawihr, France",
+      "neighborhood": "Ribeauville-Hunawihr-Bergheim",
+      "varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Muscat",
+        "Pinot Blanc",
+        "Pinot Noir"
+      ],
+      "classification": "Alsace AOC and Alsace Grand Cru (Rosacker, Osterberg)",
+      "hectares": 22,
+      "owner": "Sipp-Mack family (Laura and Jean-Jacques Sipp)",
+      "founded": 1959,
+      "tasting_program": "Cellar visits and tastings at the Hunawihr winery; appointments preferred.",
+      "booking_url": "http://www.sippmack.com/",
+      "signature_wines": [
+        "rosacker-riesling",
+        "osterberg-riesling",
+        "vieilles-vignes-riesling"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "organic_certified",
+      "description": "Hunawihr family domaine with parcels on the Rosacker and Osterberg Grands Crus, certified organic with a consistent mid-priced Riesling line.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "http://www.sippmack.com/",
+        "address_quoted": "1 Rue des Vosges, 68150 Hunawihr",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wineroute.alsace/229003761-sipp-mack-vins-dalsace/",
+        "cuisine_evidence_url": "http://www.sippmack.com/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "cave-de-turckheim",
+      "name": "Cave de Turckheim",
+      "address": "16 Rue des Tuileries, 68230 Turckheim, France",
+      "neighborhood": "Turckheim-Niedermorschwihr-Katzenthal",
+      "varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Pinot Blanc",
+        "Pinot Noir",
+        "Muscat",
+        "Sylvaner"
+      ],
+      "classification": "Alsace AOC, Alsace Grand Cru (Brand, Hengst, Sommerberg, Wineck-Schlossberg) and Cremant d'Alsace",
+      "hectares": 400,
+      "owner": "Cooperative",
+      "founded": 1955,
+      "tasting_program": "Daily cellar visits and tastings at the Turckheim cooperative shop.",
+      "booking_url": "https://www.cave-turckheim.com/",
+      "signature_wines": [
+        "brand-riesling",
+        "hengst-gewurztraminer",
+        "cremant-pinot-noir"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Founded in 1955, a Haut-Rhin cooperative pooling 400 hectares across Turckheim, Niedermorschwihr and Katzenthal with all four local Grands Crus represented.",
+      "editorial_score": 4.1,
+      "verified": {
+        "source_url": "https://www.cave-turckheim.com/",
+        "address_quoted": "16 Rue des Tuileries, 68230 Turckheim",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tourisme-colmar.com/",
+        "cuisine_evidence_url": "https://www.cave-turckheim.com/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "bestheim",
+      "name": "Bestheim",
+      "address": "3 Rue du General de Gaulle, 68630 Bennwihr, France",
+      "neighborhood": "Riquewihr-Zellenberg",
+      "varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Pinot Blanc",
+        "Pinot Noir",
+        "Muscat"
+      ],
+      "classification": "Alsace AOC, Alsace Grand Cru (Marckrain, Mambourg, Furstentum, Sonnenglanz) and Cremant d'Alsace",
+      "owner": "Cooperative",
+      "founded": 1947,
+      "tasting_program": "Daily cellar visits at the Bennwihr boutique; group visits at the Westhalten Cremant cellar.",
+      "booking_url": "https://www.bestheim.com/",
+      "signature_wines": [
+        "marckrain-gewurztraminer",
+        "mambourg-pinot-gris",
+        "cremant-brut-prestige"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Bennwihr-based cooperative born after the wartime destruction of the village, today a major Alsace Cremant producer with two cellars and 1300 hectares under contract.",
+      "editorial_score": 4.0,
+      "verified": {
+        "source_url": "https://www.bestheim.com/",
+        "address_quoted": "3 rue du General de Gaulle, 68630 Bennwihr",
+        "open_status": "open",
+        "open_evidence_url": "https://www.routedesvins.alsace/229002797-bestheim/",
+        "cuisine_evidence_url": "https://www.bestheim.com/en/shops/1-shop-bennwihr",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "cave-de-beblenheim",
+      "name": "Cave de Beblenheim",
+      "address": "14 Rue de Hoen, 68980 Beblenheim, France",
+      "neighborhood": "Riquewihr-Zellenberg",
+      "varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Pinot Blanc",
+        "Muscat",
+        "Sylvaner",
+        "Pinot Noir"
+      ],
+      "classification": "Alsace AOC, Alsace Grand Cru (Sonnenglanz, Mandelberg, Furstentum, Schoenenbourg) and Cremant d'Alsace",
+      "hectares": 285,
+      "owner": "Cooperative (120 members)",
+      "founded": 1952,
+      "tasting_program": "Daily cellar visits and tastings at the Beblenheim boutique; the 15th-century house holds a 1836 wine press.",
+      "booking_url": "https://www.cave-beblenheim.com/",
+      "signature_wines": [
+        "sonnenglanz-gewurztraminer",
+        "mandelberg-riesling",
+        "furstentum-pinot-gris"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Beblenheim cooperative founded in 1952, pooling 285 hectares from 120 growers across Sonnenglanz, Mandelberg and Schoenenbourg Grands Crus.",
+      "editorial_score": 4.0,
+      "verified": {
+        "source_url": "https://www.cave-beblenheim.com/",
+        "address_quoted": "14 Rue de Hoen, 68980 Beblenheim",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wineroute.alsace/229002792-cooperative-wine-cellar-of-beblenheim/",
+        "cuisine_evidence_url": "https://www.cave-beblenheim.com/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "cave-de-pfaffenheim",
+      "name": "Cave des Vignerons de Pfaffenheim",
+      "address": "5 Rue du Chai, 68250 Pfaffenheim, France",
+      "neighborhood": "Rouffach-Pfaffenheim-Westhalten",
+      "varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Pinot Blanc",
+        "Pinot Noir",
+        "Muscat"
+      ],
+      "classification": "Alsace AOC, Alsace Grand Cru (Steinert, Goldert, Hatschbourg, Zinnkoepfle) and Cremant d'Alsace",
+      "owner": "Cooperative",
+      "founded": 1957,
+      "tasting_program": "Cellar visits and tastings at the Pfaffenheim cooperative boutique.",
+      "booking_url": "https://www.pfaffenheim.com/en/",
+      "signature_wines": [
+        "steinert-pinot-gris",
+        "goldert-gewurztraminer",
+        "hatschbourg-pinot-gris"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Pfaffenheim cooperative founded in 1957, marketed under the Pfaff label and a steady source of Steinert, Goldert and Hatschbourg Grand Cru cuvees.",
+      "editorial_score": 4.0,
+      "verified": {
+        "source_url": "https://www.pfaffenheim.com/en/",
+        "address_quoted": "5 Rue du Chai, 68250 Pfaffenheim",
+        "open_status": "open",
+        "open_evidence_url": "https://www.cavescooperatives.com/cave-de-pfaffenheim/",
+        "cuisine_evidence_url": "https://www.pfaffenheim.com/en/our-cellar/presentation",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "domaine-sylvie-spielmann",
+      "name": "Domaine Sylvie Spielmann",
+      "address": "2 Route de Thannenkirch, 68750 Bergheim, France",
+      "neighborhood": "Ribeauville-Hunawihr-Bergheim",
+      "varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Sylvaner",
+        "Pinot Blanc",
+        "Pinot Noir"
+      ],
+      "classification": "Alsace AOC and Alsace Grand Cru (Altenberg de Bergheim, Kanzlerberg)",
+      "hectares": 9,
+      "owner": "Spielmann family (Sylvie Spielmann)",
+      "founded": 1992,
+      "tasting_program": "Cellar visits by appointment at the Bergheim domaine.",
+      "signature_wines": [
+        "altenberg-de-bergheim-riesling",
+        "kanzlerberg-gewurztraminer",
+        "rotenberg-pinot-gris"
+      ],
+      "biodynamic_status": "biodynamic_practicing",
+      "organic_status": "organic_certified",
+      "description": "Bergheim single-vigneronne domaine on the family's former gypsum quarry, biodynamic since 1999 with monopole-style holdings on the Kanzlerberg Grand Cru.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://sylviespielmann.com/",
+        "address_quoted": "2 route de Thannenkirch, 68750 Bergheim",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wineroute.alsace/229002804-domaine-sylvie-spielmann/",
+        "cuisine_evidence_url": "https://sylviespielmann.com/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "domaine-schoenheitz",
+      "name": "Domaine Schoenheitz",
+      "address": "1 Rue de Walbach, 68230 Wihr-au-Val, France",
+      "neighborhood": "Turckheim-Niedermorschwihr-Katzenthal",
+      "varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Pinot Blanc",
+        "Pinot Noir"
+      ],
+      "classification": "Alsace AOC (Munster valley slopes, lieu-dit Holder, Herrenreben, Linsenberg)",
+      "hectares": 14,
+      "owner": "Schoenheitz family (Henri and Dominique Schoenheitz)",
+      "founded": 1980,
+      "tasting_program": "Cellar visits and tastings at the Wihr-au-Val winery in the Munster valley.",
+      "booking_url": "https://vins-schoenheitz.com/",
+      "signature_wines": [
+        "holder-riesling",
+        "herrenreben-pinot-gris",
+        "linsenberg-pinot-noir"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Munster valley domaine planted by Henri and Dominique Schoenheitz on the steep slopes above Wihr-au-Val, an outpost of viticulture at altitude in the Vosges foothills.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://vins-schoenheitz.com/",
+        "address_quoted": "1 Rue de Walbach, 68230 Wihr-au-Val",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wineroute.alsace/231006446-domaine-schoenheitz/",
+        "cuisine_evidence_url": "https://vins-schoenheitz.com/our-winery",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "domaine-burn",
+      "name": "Domaine Ernest Burn - Clos Saint-Imer",
+      "address": "8 Rue Basse, 68420 Gueberschwihr, France",
+      "neighborhood": "Rouffach-Pfaffenheim-Westhalten",
+      "varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Muscat",
+        "Pinot Blanc"
+      ],
+      "classification": "Alsace AOC and Alsace Grand Cru (Goldert, with monopole Clos Saint-Imer)",
+      "owner": "Burn family (Francis Burn)",
+      "founded": 1934,
+      "tasting_program": "Cellar visits by appointment at the Gueberschwihr winery.",
+      "booking_url": "https://www.domaine-burn.fr/",
+      "signature_wines": [
+        "clos-saint-imer-muscat",
+        "clos-saint-imer-riesling",
+        "clos-saint-imer-gewurztraminer"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Gueberschwihr family domaine owning the Clos Saint-Imer monopole on the Goldert Grand Cru, a notable address for Muscat in southern Alsace.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.domaine-burn.fr/",
+        "address_quoted": "8 Rue Basse, 68420 Gueberschwihr",
+        "open_status": "open",
+        "open_evidence_url": "https://www.vigneron-independant.com/burn-francis",
+        "cuisine_evidence_url": "https://www.domaine-burn.fr/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "bott-freres",
+      "name": "Domaine Bott Freres",
+      "address": "13 Avenue du General de Gaulle, 68150 Ribeauville, France",
+      "neighborhood": "Ribeauville-Hunawihr-Bergheim",
+      "varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Pinot Blanc",
+        "Pinot Noir",
+        "Muscat"
+      ],
+      "classification": "Alsace AOC and Alsace Grand Cru (Geisberg, Osterberg, Rosacker)",
+      "owner": "Bott family",
+      "founded": 1835,
+      "tasting_program": "Daily cellar visits and tastings at the Ribeauville winery; open Sundays in season.",
+      "booking_url": "https://bott-freres.fr/en/",
+      "signature_wines": [
+        "geisberg-riesling",
+        "rosacker-riesling",
+        "osterberg-pinot-gris"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Ribeauville house founded in 1835, a veteran village family domaine with parcels on the three local Grands Crus and a substantial Cremant programme.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://bott-freres.fr/en/",
+        "address_quoted": "13 Avenue du General de Gaulle, 68150 Ribeauville",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wineroute.alsace/229002807-bott-freres/",
+        "cuisine_evidence_url": "https://bott-freres.fr/en/our-winery/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "domaine-henry-fuchs",
+      "name": "Domaine Henry Fuchs",
+      "address": "8 Rue du 3 Decembre, 68150 Ribeauville, France",
+      "neighborhood": "Ribeauville-Hunawihr-Bergheim",
+      "varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Pinot Blanc",
+        "Pinot Noir",
+        "Muscat"
+      ],
+      "classification": "Alsace AOC and Alsace Grand Cru (Kirchberg de Ribeauville)",
+      "owner": "Fuchs family",
+      "founded": 1950,
+      "tasting_program": "Tastings by appointment at the Ribeauville winery.",
+      "booking_url": "https://www.henryfuchs.fr/",
+      "signature_wines": [
+        "kirchberg-de-ribeauville-riesling",
+        "vieilles-vignes-pinot-gris",
+        "gewurztraminer-terroirs"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "organic_certified",
+      "description": "Ribeauville family domaine certified organic, working terroirs across the village including the Kirchberg de Ribeauville Grand Cru.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.henryfuchs.fr/",
+        "address_quoted": "8 Rue du 3 Decembre, 68150 Ribeauville",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wine-searcher.com/merchant/23704-domaine-henry-fuchs-et-fils",
+        "cuisine_evidence_url": "https://www.henryfuchs.fr/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "domaine-paul-blanck",
+      "name": "Domaine Paul Blanck et Fils",
+      "address": "32 Grand Rue, 68240 Kientzheim, France",
+      "neighborhood": "Kaysersberg-Kientzheim-Sigolsheim",
+      "varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Pinot Blanc",
+        "Pinot Noir",
+        "Muscat",
+        "Sylvaner",
+        "Auxerrois"
+      ],
+      "classification": "Alsace AOC and Alsace Grand Cru (Furstentum, Mambourg, Schlossberg, Wineck-Schlossberg)",
+      "hectares": 36,
+      "owner": "Blanck family (Philippe and Frederic Blanck)",
+      "founded": 1923,
+      "tasting_program": "Daily cellar visits and tastings at the Kientzheim winery.",
+      "booking_url": "https://www.blanck.com/en/",
+      "signature_wines": [
+        "schlossberg-riesling",
+        "furstentum-gewurztraminer",
+        "wineck-schlossberg-riesling"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Kientzheim domaine farmed by cousins Philippe and Frederic Blanck across 36 hectares with parcels in four neighbouring Grands Crus on granite and limestone.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.blanck.com/en/",
+        "address_quoted": "32 Grand Rue, 68240 Kientzheim",
+        "open_status": "open",
+        "open_evidence_url": "https://www.kaysersberg.com/",
+        "cuisine_evidence_url": "https://www.blanck.com/en/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "domaine-albert-seltz",
+      "name": "Domaine Albert Seltz",
+      "address": "21 Rue Principale, 67140 Mittelbergheim, France",
+      "neighborhood": "Barr-Mittelbergheim-Andlau",
+      "varietals": [
+        "Sylvaner",
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Muscat"
+      ],
+      "classification": "Alsace AOC and Alsace Grand Cru (Zotzenberg)",
+      "owner": "Seltz family (Alexis Seltz)",
+      "founded": 1576,
+      "tasting_program": "Tastings by appointment at the 16th-century Mittelbergheim cellar; guided tours at 10:45 and 16:30.",
+      "booking_url": "https://www.albert-seltz.fr/en/home",
+      "signature_wines": [
+        "zotzenberg-sylvaner",
+        "zotzenberg-riesling",
+        "old-vines-sylvaner"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "organic_certified",
+      "description": "Fourteen-generation Mittelbergheim domaine, a long-standing advocate for Sylvaner's place at Grand Cru level and producer of well-regarded Zotzenberg cuvees.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.albert-seltz.fr/en/home",
+        "address_quoted": "21 rue Principale, 67140 Mittelbergheim",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wineroute.alsace/213007200-wines-seltz-albert/",
+        "cuisine_evidence_url": "https://www.albert-seltz.fr/en/our-story",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "domaine-marc-kreydenweiss",
+      "name": "Domaine Marc Kreydenweiss",
+      "address": "12 Rue Deharbe, 67140 Andlau, France",
+      "neighborhood": "Barr-Mittelbergheim-Andlau",
+      "varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Pinot Blanc",
+        "Pinot Noir",
+        "Sylvaner"
+      ],
+      "classification": "Alsace AOC and Alsace Grand Cru (Wiebelsberg, Moenchberg, Kastelberg)",
+      "hectares": 13.5,
+      "owner": "Kreydenweiss family (Antoine Kreydenweiss)",
+      "founded": 1971,
+      "tasting_program": "Cellar visits and tastings at the Andlau winery; appointments preferred.",
+      "booking_url": "https://www.kreydenweiss.com/",
+      "signature_wines": [
+        "kastelberg-riesling",
+        "wiebelsberg-riesling",
+        "moenchberg-pinot-gris"
+      ],
+      "biodynamic_status": "biodynamic_practicing",
+      "organic_status": "organic_certified",
+      "description": "Andlau biodynamic pioneer farming since 1989, three Bas-Rhin Grands Crus on schist, sandstone and limestone, now run by Marc's son Antoine.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.kreydenweiss.com/",
+        "address_quoted": "12 Rue Deharbe, 67140 Andlau",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wineroute.alsace/213007048-domain-kreydenweiss-marc/",
+        "cuisine_evidence_url": "http://www.kreydenweiss.com/alsace/10/18/the-winery/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "domaine-rene-rieffle",
+      "name": "Domaine Rieflé-Landmann",
+      "address": "7 Rue Drotfeld, 68250 Pfaffenheim, France",
+      "neighborhood": "Rouffach-Pfaffenheim-Westhalten",
+      "varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Pinot Blanc",
+        "Muscat",
+        "Pinot Noir"
+      ],
+      "classification": "Alsace AOC and Alsace Grand Cru (Steinert, Vorbourg, Zinnkoepfle, Bollenberg)",
+      "owner": "Rieflé family (Paul and Thomas Rieflé)",
+      "founded": 1850,
+      "tasting_program": "Cellar visits and tastings at the Pfaffenheim winery.",
+      "booking_url": "https://www.riefle.com/",
+      "signature_wines": [
+        "steinert-pinot-gris",
+        "bollenberg-riesling",
+        "zinnkoepfle-gewurztraminer"
+      ],
+      "biodynamic_status": "biodynamic_practicing",
+      "organic_status": "organic_certified",
+      "description": "Pfaffenheim family domaine, merged with the Landmann estate of Soultzmatt, with holdings spanning Steinert, Vorbourg, Zinnkoepfle and the Bollenberg lieu-dit.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.riefle.com/",
+        "address_quoted": "7 Rue Drotfeld, 68250 Pfaffenheim",
+        "open_status": "open",
+        "open_evidence_url": "https://www.routedesvins.alsace/253002347-vins-christophe-riefle/",
+        "cuisine_evidence_url": "https://www.riefle.com/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "domaine-gustave-lorentz",
+      "name": "Maison Gustave Lorentz",
+      "address": "91 Rue des Vignerons, 68750 Bergheim, France",
+      "neighborhood": "Ribeauville-Hunawihr-Bergheim",
+      "varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Pinot Blanc",
+        "Muscat",
+        "Pinot Noir",
+        "Sylvaner"
+      ],
+      "classification": "Alsace AOC, Alsace Grand Cru (Altenberg de Bergheim, Kanzlerberg) and Cremant d'Alsace",
+      "owner": "Lorentz family (Georges Lorentz)",
+      "founded": 1836,
+      "tasting_program": "Cellar visits and tastings at the Bergheim winery; tours run daily in season.",
+      "booking_url": "https://www.gustavelorentz.com/en/",
+      "signature_wines": [
+        "altenberg-de-bergheim-riesling",
+        "kanzlerberg-gewurztraminer",
+        "evidence-pinot-gris"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "organic_certified",
+      "description": "Bergheim house since 1836, certified organic across its 33 estate hectares with Altenberg de Bergheim and Kanzlerberg Grand Cru bottlings at the top of the range.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.gustavelorentz.com/en/",
+        "address_quoted": "91 Rue des Vignerons, 68750 Bergheim",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wineroute.alsace/229002788-gustave-lorentz/",
+        "cuisine_evidence_url": "https://www.gustavelorentz.com/en/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "domaine-wunsch-et-mann",
+      "name": "Domaine Wunsch et Mann",
+      "address": "71 Rue Herzog, 68920 Wettolsheim, France",
+      "neighborhood": "Colmar-Wintzenheim-Wettolsheim",
+      "varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Pinot Blanc",
+        "Muscat",
+        "Pinot Noir"
+      ],
+      "classification": "Alsace AOC and Alsace Grand Cru (Hengst, Steingrubler, Pfersigberg)",
+      "hectares": 17,
+      "owner": "Wunsch-Mann family (Sebastien Mann)",
+      "founded": 1959,
+      "tasting_program": "Cellar visits and tastings at the Wettolsheim winery; appointments preferred.",
+      "booking_url": "https://wunsch-mann.fr/en/",
+      "signature_wines": [
+        "hengst-riesling",
+        "steingrubler-pinot-gris",
+        "pfersigberg-gewurztraminer"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "organic_certified",
+      "description": "Wettolsheim family domaine certified organic, with parcels on three Grands Crus around the Colmar belt and a strong Cremant programme.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://wunsch-mann.fr/en/",
+        "address_quoted": "71 Rue Herzog, 68920 Wettolsheim",
+        "open_status": "open",
+        "open_evidence_url": "https://www.weinstrasse.alsace/235014416-domaine-wunsch-mann/",
+        "cuisine_evidence_url": "https://wunsch-mann.fr/en/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "domaine-jean-francois-ginglinger",
+      "name": "Domaine Jean-Francois Ginglinger",
+      "address": "8 Place Charles de Gaulle, 68420 Eguisheim, France",
+      "neighborhood": "Eguisheim-Husseren",
+      "varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Pinot Blanc",
+        "Muscat",
+        "Pinot Noir"
+      ],
+      "classification": "Alsace AOC and Alsace Grand Cru (Pfersigberg, Eichberg)",
+      "hectares": 6,
+      "owner": "Ginglinger family (Jean-Francois Ginglinger)",
+      "founded": 1610,
+      "tasting_program": "Cellar visits and natural-wine tastings at the Eguisheim winery.",
+      "booking_url": "https://www.vins-ginglinger.com/",
+      "signature_wines": [
+        "pfersigberg-riesling",
+        "pfersigberg-gewurztraminer",
+        "natur-pinot-blanc"
+      ],
+      "biodynamic_status": "biodynamic_practicing",
+      "organic_status": "organic_certified",
+      "description": "Eguisheim biodynamic estate run by Jean-Francois Ginglinger, six hectares worked by hand on clay-limestone and sandstone including the Pfersigberg Grand Cru.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.vins-ginglinger.com/",
+        "address_quoted": "8 Pl. Charles de Gaulle, 68420 Eguisheim",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tourisme-eguisheim-rouffach.com/FR/Domaine-GINGLINGER-Paul-f253001030.html",
+        "cuisine_evidence_url": "https://www.vins-ginglinger.com/en/ph-ginglinger-wine-estate/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "domaine-emile-beyer",
+      "name": "Domaine Emile Beyer",
+      "address": "7 Place du Chateau Saint-Leon, 68420 Eguisheim, France",
+      "neighborhood": "Eguisheim-Husseren",
+      "varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Pinot Blanc",
+        "Muscat",
+        "Pinot Noir"
+      ],
+      "classification": "Alsace AOC and Alsace Grand Cru (Eichberg, Pfersigberg, Hohrain)",
+      "hectares": 17,
+      "owner": "Beyer family (Christian and Valerie Beyer)",
+      "founded": 1580,
+      "tasting_program": "Cellar visits and tastings at the Eguisheim winery on Place du Chateau Saint-Leon.",
+      "booking_url": "https://www.emile-beyer.fr/",
+      "signature_wines": [
+        "eichberg-riesling",
+        "pfersigberg-pinot-gris",
+        "hohrain-gewurztraminer"
+      ],
+      "biodynamic_status": "biodynamic_practicing",
+      "organic_status": "organic_certified",
+      "description": "Eguisheim family domaine since 1580, fourteen generations in the village square at the foot of the Saint-Leon castle, now run biodynamically by Christian and Valerie Beyer.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.emile-beyer.fr/",
+        "address_quoted": "7 Place du Chateau Saint-Leon, 68420 Eguisheim",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wineroute.alsace/253001047-domaine-emile-beyer/",
+        "cuisine_evidence_url": "https://www.emile-beyer.fr/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "domaine-bruno-sorg",
+      "name": "Domaine Bruno Sorg",
+      "address": "8 Rue Monseigneur Stumpf, 68420 Eguisheim, France",
+      "neighborhood": "Eguisheim-Husseren",
+      "varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Muscat",
+        "Pinot Blanc",
+        "Pinot Noir"
+      ],
+      "classification": "Alsace AOC and Alsace Grand Cru (Pfersigberg, Eichberg, Florimont)",
+      "owner": "Sorg family",
+      "founded": 1965,
+      "tasting_program": "Cellar visits and tastings at the Eguisheim winery.",
+      "booking_url": "https://www.domaine-bruno-sorg.com/",
+      "signature_wines": [
+        "florimont-riesling",
+        "eichberg-gewurztraminer",
+        "pfersigberg-muscat"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Eguisheim family estate established in 1965, working three Grands Crus including Florimont with one of the better Muscat addresses south of Colmar.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.domaine-bruno-sorg.com/",
+        "address_quoted": "8 Rue Monseigneur Stumpf, 68420 Eguisheim",
+        "open_status": "open",
+        "open_evidence_url": "https://www.alsace-wine.net/p/sorg.shtml",
+        "cuisine_evidence_url": "https://www.domaine-bruno-sorg.com/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "domaine-agape",
+      "name": "Domaine Agape",
+      "address": "10 Rue des Tuileries, 68340 Riquewihr, France",
+      "neighborhood": "Riquewihr-Zellenberg",
+      "varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Pinot Blanc",
+        "Pinot Noir"
+      ],
+      "classification": "Alsace AOC and Alsace Grand Cru (Rosacker, Osterberg, Schoenenbourg)",
+      "hectares": 12,
+      "owner": "Sipp family (Vincent Sipp)",
+      "founded": 2007,
+      "tasting_program": "Cellar visits and tastings at the Riquewihr winery; rural rentals on site.",
+      "booking_url": "http://www.alsace-agape.fr/en/",
+      "signature_wines": [
+        "rosacker-riesling",
+        "schoenenbourg-riesling",
+        "osterberg-pinot-gris"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "organic_certified",
+      "description": "Riquewihr-based domaine founded by Vincent Sipp in 2007 from a partition of family vineyards, twelve hectares spread across Hunawihr, Ribeauville, Zellenberg and Bergheim Grands Crus.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "http://www.alsace-agape.fr/en/",
+        "address_quoted": "10 Rue des Tuileries, 68340 Riquewihr",
+        "open_status": "open",
+        "open_evidence_url": "https://www.ruedesvignerons.com/en/domaine/205/domaine-agape",
+        "cuisine_evidence_url": "http://www.alsace-agape.fr/en/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "domaine-vincent-stoeffler",
+      "name": "Domaine Vincent Stoeffler",
+      "address": "1 Rue des Lievres, 67140 Barr, France",
+      "neighborhood": "Barr-Mittelbergheim-Andlau",
+      "varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Pinot Blanc",
+        "Sylvaner",
+        "Pinot Noir"
+      ],
+      "classification": "Alsace AOC, Alsace Grand Cru (Kirchberg de Barr, Muenchberg) and Klevener de Heiligenstein",
+      "hectares": 16,
+      "owner": "Stoeffler family (Vincent and Adrien Stoeffler)",
+      "founded": 1900,
+      "tasting_program": "Daily cellar visits and tastings at the Barr winery.",
+      "booking_url": "https://www.vins-stoeffler.com/",
+      "signature_wines": [
+        "kirchberg-de-barr-riesling",
+        "muenchberg-pinot-gris",
+        "klevener-de-heiligenstein"
+      ],
+      "biodynamic_status": "biodynamic_practicing",
+      "organic_status": "organic_certified",
+      "description": "Barr family domaine with sixteen hectares between Barr, Mittelbergheim and Heiligenstein, organic for two decades and one of the few non-local Klevener de Heiligenstein bottlers.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.vins-stoeffler.com/",
+        "address_quoted": "1 Rue des Lievres, 67140 Barr",
+        "open_status": "open",
+        "open_evidence_url": "https://www.routedesvins.alsace/213007059-domaine-stoeffler-vincent-et-adrien/",
+        "cuisine_evidence_url": "https://www.vins-stoeffler.com/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "domaine-loew",
+      "name": "Domaine Loew",
+      "address": "21 Route de Balbronn, 67310 Westhoffen, France",
+      "neighborhood": "Marlenheim-Westhoffen",
+      "varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Pinot Blanc",
+        "Sylvaner",
+        "Muscat",
+        "Pinot Noir"
+      ],
+      "classification": "Alsace AOC (lieux-dits Bruderbach, Muschelkalk, Altenberg)",
+      "hectares": 10,
+      "owner": "Loew family (Etienne and Jocelyne Loew)",
+      "founded": 1996,
+      "tasting_program": "Cellar visits by appointment at the Westhoffen winery.",
+      "booking_url": "https://domaineloew.fr/",
+      "signature_wines": [
+        "muschelkalk-riesling",
+        "bruderbach-gewurztraminer",
+        "altenberg-pinot-gris"
+      ],
+      "biodynamic_status": "demeter_certified",
+      "organic_status": "organic_certified",
+      "description": "Westhoffen domaine in the far north of the Route des Vins, certified Demeter and Biodyvin, producing only around 3500 cases per year from limestone lieux-dits.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://domaineloew.fr/",
+        "address_quoted": "21 Route de Balbronn, 67310 Westhoffen",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wineroute.alsace/255001767-domaine-loew/",
+        "cuisine_evidence_url": "https://domaineloew.fr/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "domaine-achillee",
+      "name": "Domaine Achillee",
+      "address": "50 Rue de Dambach, 67750 Scherwiller, France",
+      "neighborhood": "Dambach-la-Ville",
+      "varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Pinot Blanc",
+        "Sylvaner",
+        "Pinot Noir",
+        "Muscat"
+      ],
+      "classification": "Alsace AOC (granite lieux-dits of Scherwiller)",
+      "owner": "Dietrich family (Jean and Pierre Dietrich)",
+      "founded": 2016,
+      "tasting_program": "Cellar visits at the straw-bale bioclimatic cellar in Scherwiller; tours by booking.",
+      "booking_url": "https://www.achillee.alsace/en",
+      "signature_wines": [
+        "riesling-granite",
+        "pinot-noir-rouge",
+        "edelzwicker-achillee"
+      ],
+      "biodynamic_status": "demeter_certified",
+      "organic_status": "organic_certified",
+      "description": "Scherwiller estate built around a distinctive straw-bale wine cellar, certified organic and Demeter biodynamic with a focus on indigenous yeast fermentations and minimal sulphur.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.achillee.alsace/en/le-domaine",
+        "address_quoted": "50 rue de Dambach, 67750 Scherwiller",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wineroute.alsace/222006043-domaine-achillee/",
+        "cuisine_evidence_url": "https://www.achillee.alsace/en",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "domaine-jean-marie-haag",
+      "name": "Domaine Jean-Marie Haag",
+      "address": "17 Rue des Chevres, 68570 Soultzmatt, France",
+      "neighborhood": "Rouffach-Pfaffenheim-Westhalten",
+      "varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Sylvaner",
+        "Pinot Blanc",
+        "Pinot Noir"
+      ],
+      "classification": "Alsace AOC and Alsace Grand Cru (Zinnkoepfle)",
+      "owner": "Haag family (Jean-Marie and Myriam Haag)",
+      "founded": 1949,
+      "tasting_program": "Cellar visits by appointment at the Soultzmatt winery.",
+      "booking_url": "https://www.domaine-haag.fr/en/",
+      "signature_wines": [
+        "zinnkoepfle-riesling",
+        "zinnkoepfle-gewurztraminer",
+        "sylvaner-bollenberg"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Soultzmatt family domaine under Terra Vitis and HVE sustainable farming, anchor address for the dry Zinnkoepfle Grand Cru above the Vallee Noble.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.domaine-haag.fr/en/",
+        "address_quoted": "17 rue des Chevres 68570 SOULTZMATT - FRANCE",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wine-searcher.com/merchant/96584-domaine-jean-marie-haag",
+        "cuisine_evidence_url": "https://www.domaine-haag.fr/en/the-estate-2.html",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "domaine-rietsch",
+      "name": "Domaine Rietsch",
+      "address": "7 Rue Stein, 67140 Mittelbergheim, France",
+      "neighborhood": "Barr-Mittelbergheim-Andlau",
+      "varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Pinot Blanc",
+        "Sylvaner",
+        "Muscat",
+        "Pinot Noir"
+      ],
+      "classification": "Alsace AOC and Alsace Grand Cru (Zotzenberg) and natural-wine cuvees",
+      "owner": "Rietsch family (Jean-Pierre and Sophie Rietsch)",
+      "founded": 1956,
+      "tasting_program": "Cellar visits by appointment at the Mittelbergheim winery; natural-wine focus.",
+      "booking_url": "https://alsace-rietsch.eu/",
+      "signature_wines": [
+        "zotzenberg-sylvaner",
+        "riesling-stein",
+        "macere-pinot-gris"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "organic_certified",
+      "description": "Mittelbergheim family domaine, certified organic and a touchstone of the Alsace natural-wine current with skin-contact and zero-sulphur cuvees alongside Zotzenberg Sylvaner.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://alsace-rietsch.eu/",
+        "address_quoted": "7 Rue Stein, 67140 Mittelbergheim",
+        "open_status": "open",
+        "open_evidence_url": "https://www.raisin.digital/en/explore/france/great-east/natural-winemakers/jean-pierre-sophie-rietsch-domaine-rietsch-248/",
+        "cuisine_evidence_url": "https://alsace-rietsch.eu/le-domaine/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "domaine-meyer-fonne",
+      "name": "Domaine Meyer-Fonne",
+      "address": "24 Grand Rue, 68230 Katzenthal, France",
+      "neighborhood": "Turckheim-Niedermorschwihr-Katzenthal",
+      "varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Pinot Blanc",
+        "Muscat",
+        "Pinot Noir"
+      ],
+      "classification": "Alsace AOC and Alsace Grand Cru (Wineck-Schlossberg, Sporen, Furstentum, Kaefferkopf, Kitterle)",
+      "hectares": 15,
+      "owner": "Meyer family (Felix Meyer)",
+      "founded": 1732,
+      "tasting_program": "Cellar visits and tastings at the Katzenthal winery; appointments preferred.",
+      "booking_url": "https://www.meyer-fonne.com/",
+      "signature_wines": [
+        "wineck-schlossberg-riesling",
+        "kaefferkopf-gewurztraminer",
+        "furstentum-vieilles-vignes"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Katzenthal family domaine since 1732, run by Felix Meyer with fifteen hectares of granite-and-limestone Grands Crus including the Wineck-Schlossberg behind the village.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.meyer-fonne.com/",
+        "address_quoted": "24, Grand Rue, 68230 KATZENTHAL",
+        "open_status": "open",
+        "open_evidence_url": "https://www.falstaff.com/en/wineries/domaine-meyer-fonne",
+        "cuisine_evidence_url": "https://www.meyer-fonne.com/famille-meyer-fonne-katzenthal-alsace-m27.html",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "domaine-bernhard-reibel",
+      "name": "Domaine Bernhard-Reibel",
+      "address": "46 Vieux Chemin de Selestat, 67730 Chatenois, France",
+      "neighborhood": "Dambach-la-Ville",
+      "varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Pinot Blanc",
+        "Sylvaner",
+        "Pinot Noir"
+      ],
+      "classification": "Alsace AOC (Chatenois granite lieux-dits)",
+      "owner": "Bernhard-Reibel family (Cecile Bernhard)",
+      "founded": 1817,
+      "tasting_program": "Cellar visits at the Chatenois winery.",
+      "signature_wines": [
+        "riesling-vieilles-vignes",
+        "pinot-gris-granit",
+        "gewurztraminer-chatenois"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "organic_certified",
+      "description": "Family domaine in Chatenois at the foot of the Hahnenberg, certified organic, working granite slopes between Selestat and the Vosges with a long Riesling vocation.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.hachette-vins.com/guide-vins/les-vins/dom-bernhard-et-reibel-coteaux-du-haut-koenigsbourg-2019-2024/202472300/",
+        "address_quoted": "46 Vieux Chemin de Selestat, 67730 Chatenois",
+        "open_status": "open",
+        "open_evidence_url": "https://www.selestat-haut-koenigsbourg.com/",
+        "cuisine_evidence_url": "https://www.hachette-vins.com/guide-vins/les-vins/dom-bernhard-et-reibel-coteaux-du-haut-koenigsbourg-2019-2024/202472300/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "domaine-melanie-pfister",
+      "name": "Domaine Melanie Pfister",
+      "address": "53 Rue Principale, 67310 Dahlenheim, France",
+      "neighborhood": "Marlenheim-Westhoffen",
+      "varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Pinot Blanc",
+        "Sylvaner",
+        "Pinot Noir",
+        "Muscat"
+      ],
+      "classification": "Alsace AOC and Alsace Grand Cru (Engelberg)",
+      "owner": "Pfister family (Melanie Pfister)",
+      "founded": 1780,
+      "tasting_program": "Cellar visits and tastings at the Dahlenheim winery; appointments preferred.",
+      "booking_url": "https://www.melaniepfister.fr/",
+      "signature_wines": [
+        "engelberg-riesling",
+        "pinot-gris-dahlenheim",
+        "gewurztraminer-silberberg"
+      ],
+      "biodynamic_status": "biodynamic_practicing",
+      "organic_status": "organic_certified",
+      "description": "Dahlenheim domaine run by eighth-generation Melanie Pfister, certified organic since 2021 with biodynamic preparations and access to the Engelberg Grand Cru.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.melaniepfister.fr/",
+        "address_quoted": "53 rue Principale, 67310 Dahlenheim",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wineroute.alsace/255003023-domaine-melanie-pfister/",
+        "cuisine_evidence_url": "https://www.melaniepfister.fr/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "domaine-beck-hartweg",
+      "name": "Domaine Beck-Hartweg",
+      "address": "5 Rue Clemenceau, 67650 Dambach-la-Ville, France",
+      "neighborhood": "Dambach-la-Ville",
+      "varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Pinot Blanc",
+        "Sylvaner",
+        "Pinot Noir"
+      ],
+      "classification": "Alsace AOC and Alsace Grand Cru (Frankstein)",
+      "hectares": 8,
+      "owner": "Beck-Hartweg family (Florian and Mathilde Beck-Hartweg)",
+      "founded": 1510,
+      "tasting_program": "Cellar visits and tastings by appointment in central Dambach-la-Ville.",
+      "booking_url": "https://beckhartweg.fr/en/welcome-at-2/",
+      "signature_wines": [
+        "frankstein-riesling",
+        "bungertal-riesling",
+        "dambach-rouge"
+      ],
+      "biodynamic_status": "biodynamic_practicing",
+      "organic_status": "organic_certified",
+      "description": "Sixteen-generation Dambach-la-Ville domaine traceable to 1510, organic since 2011 and biodynamic, working the pink-granite Frankstein Grand Cru above the medieval village.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://beckhartweg.fr/",
+        "address_quoted": "5 Rue Clemenceau, 67650 Dambach-la-Ville",
+        "open_status": "open",
+        "open_evidence_url": "https://beckhartweg.fr/en/welcome-at-2/",
+        "cuisine_evidence_url": "https://beckhartweg.fr/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "domaine-jean-becker",
+      "name": "Domaine Jean Becker",
+      "address": "4 Route d'Ostheim, 68340 Zellenberg, France",
+      "neighborhood": "Riquewihr-Zellenberg",
+      "varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Muscat",
+        "Pinot Blanc",
+        "Pinot Noir",
+        "Sylvaner"
+      ],
+      "classification": "Alsace AOC and Alsace Grand Cru (Schoenenbourg, Froehn)",
+      "hectares": 17,
+      "owner": "Becker family (Jean-Philippe and Jean-Francois Becker)",
+      "founded": 1610,
+      "tasting_program": "Daily cellar visits and tastings at the Zellenberg winery.",
+      "booking_url": "https://www.vinsbecker.com/en/home/",
+      "signature_wines": [
+        "froehn-muscat",
+        "schoenenbourg-riesling",
+        "pinot-noir-rimelsberg"
+      ],
+      "biodynamic_status": "biodynamic_practicing",
+      "organic_status": "organic_certified",
+      "description": "Zellenberg family domaine since 1610, organic and biodynamic, with parcels on the Froehn Grand Cru, a touchstone for dry Alsace Muscat from clay-marl soils.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.vinsbecker.com/en/home/",
+        "address_quoted": "4 Route d'Ostheim, 68340 Zellenberg",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wineroute.alsace/229002820-jean-becker-family/",
+        "cuisine_evidence_url": "https://www.vinsbecker.com/en/winery/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "maison-cattin",
+      "name": "Maison Cattin",
+      "address": "35 Rue Roger Fremeaux, 68420 Voegtlinshoffen, France",
+      "neighborhood": "Eguisheim-Husseren",
+      "varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Pinot Blanc",
+        "Pinot Noir",
+        "Muscat"
+      ],
+      "classification": "Alsace AOC, Alsace Grand Cru (Hatschbourg, Goldert) and Cremant d'Alsace",
+      "hectares": 90,
+      "owner": "Cattin family (Jacques Cattin)",
+      "founded": 1720,
+      "tasting_program": "Daily cellar visits and tastings at the Voegtlinshoffen estate.",
+      "booking_url": "https://www.cattin.fr/",
+      "signature_wines": [
+        "hatschbourg-pinot-gris",
+        "goldert-gewurztraminer",
+        "cremant-jacques-cattin"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Thirteen-generation Voegtlinshoffen estate spanning 90 hectares including parcels on the Hatschbourg and Goldert Grands Crus and a major Cremant programme.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.cattin.fr/",
+        "address_quoted": "35 Rue Roger Fremeaux, 68420 Voegtlinshoffen",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wineroute.alsace/253000995-maison-cattin/",
+        "cuisine_evidence_url": "https://www.cattin.fr/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "domaine-frederic-mochel",
+      "name": "Domaine Frederic Mochel",
+      "address": "56 Rue Principale, 67310 Traenheim, France",
+      "neighborhood": "Marlenheim-Westhoffen",
+      "varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Pinot Blanc",
+        "Muscat",
+        "Pinot Noir"
+      ],
+      "classification": "Alsace AOC and Alsace Grand Cru (Altenberg de Bergbieten)",
+      "hectares": 10,
+      "owner": "Mochel family (Guillaume Mochel)",
+      "founded": 1669,
+      "tasting_program": "Daily cellar visits and tastings at the Traenheim winery; appointments preferred.",
+      "booking_url": "https://mochel.alsace/",
+      "signature_wines": [
+        "altenberg-de-bergbieten-riesling",
+        "altenberg-de-bergbieten-muscat",
+        "altenberg-de-bergbieten-gewurztraminer"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "organic_certified",
+      "description": "Fourteen-generation Traenheim domaine working the Altenberg de Bergbieten Grand Cru and certified organic across its 10-hectare holding.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://mochel.alsace/",
+        "address_quoted": "56 Rue Principale, 67310 Traenheim",
+        "open_status": "open",
+        "open_evidence_url": "https://www.routedesvins.alsace/255001766-domaine-frederic-mochel/",
+        "cuisine_evidence_url": "http://mochel.alsace/nos-terroirs/traenheim/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "domaine-romain-fritsch",
+      "name": "Domaine Romain et Jeremie Fritsch",
+      "address": "49 Rue du General de Gaulle, 67520 Marlenheim, France",
+      "neighborhood": "Marlenheim-Westhoffen",
+      "varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Pinot Blanc",
+        "Pinot Noir",
+        "Muscat",
+        "Sylvaner"
+      ],
+      "classification": "Alsace AOC (Marlenheim lieux-dits Stephansberg, Steinklotz)",
+      "owner": "Fritsch family (Romain and Jeremie Fritsch)",
+      "founded": 1969,
+      "tasting_program": "Daily cellar visits and tastings at the Marlenheim winery.",
+      "booking_url": "https://domaine-fritsch.com/",
+      "signature_wines": [
+        "steinklotz-riesling",
+        "pinot-noir-rouge-de-marlenheim",
+        "gewurztraminer-stephansberg"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "organic_certified",
+      "description": "Marlenheim father-and-son domaine at the northern gate of the Route des Vins, certified organic, with a focus on the Steinklotz lieu-dit and Marlenheim's red-wine tradition.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://domaine-fritsch.com/",
+        "address_quoted": "49 rue du General de Gaulle, 67520 Marlenheim",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wineroute.alsace/255003027-domaine-romain-et-jeremie-fritsch/",
+        "cuisine_evidence_url": "https://domaine-fritsch.com/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "domaine-saint-remy",
+      "name": "Domaine Saint-Remy",
+      "address": "34 Route d'Eguisheim, 68920 Wettolsheim, France",
+      "neighborhood": "Colmar-Wintzenheim-Wettolsheim",
+      "varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Pinot Blanc",
+        "Pinot Noir",
+        "Muscat"
+      ],
+      "classification": "Alsace AOC and Alsace Grand Cru (Steingrubler, Hengst)",
+      "owner": "Ehrhart family",
+      "founded": 1725,
+      "tasting_program": "Cellar visits and tastings at the Wettolsheim winery.",
+      "booking_url": "https://www.domaine-saint-remy.com/",
+      "signature_wines": [
+        "steingrubler-riesling",
+        "hengst-pinot-gris",
+        "pinot-noir-herrenweg"
+      ],
+      "biodynamic_status": "biodynamic_practicing",
+      "organic_status": "organic_certified",
+      "description": "Wettolsheim Ehrhart family domaine biodynamic and organic, with parcels on Steingrubler and Hengst and a strong Pinot Noir vocation on the Herrenweg lieu-dit.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.domaine-saint-remy.com/",
+        "address_quoted": "34 Route d'Eguisheim, 68920 Wettolsheim",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tourisme-colmar.com/",
+        "cuisine_evidence_url": "https://www.domaine-saint-remy.com/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "cave-du-roi-dagobert",
+      "name": "Cave du Roi Dagobert",
+      "address": "1 Route de Scharrachbergheim, 67310 Traenheim, France",
+      "neighborhood": "Marlenheim-Westhoffen",
+      "varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Pinot Blanc",
+        "Pinot Noir",
+        "Muscat",
+        "Sylvaner"
+      ],
+      "classification": "Alsace AOC, Alsace Grand Cru (Altenberg de Bergbieten, Steinklotz, Engelberg) and Cremant d'Alsace",
+      "hectares": 1000,
+      "owner": "Cooperative (250 grower members)",
+      "founded": 1952,
+      "tasting_program": "Daily cellar visits and tastings at the Traenheim cooperative boutique.",
+      "booking_url": "https://cave-dagobert.fr/en/",
+      "signature_wines": [
+        "altenberg-de-bergbieten-riesling",
+        "steinklotz-pinot-noir",
+        "cremant-roi-dagobert"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Bas-Rhin cooperative founded in 1952 in Traenheim, with 250 grower members across 1000 hectares spanning the northern half of the Route des Vins.",
+      "editorial_score": 4.0,
+      "verified": {
+        "source_url": "https://cave-dagobert.fr/en/",
+        "address_quoted": "1 route de Scharrachbergheim, 67310 Traenheim",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wineroute.alsace/255001765-cave-cooperative-du-roi-dagobert/",
+        "cuisine_evidence_url": "https://cave-dagobert.fr/en/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "domaine-sick-dreyer",
+      "name": "Domaine Sick-Dreyer",
+      "address": "17 Route de Kientzheim, 68770 Ammerschwihr, France",
+      "neighborhood": "Kaysersberg-Kientzheim-Sigolsheim",
+      "varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Pinot Blanc",
+        "Pinot Noir",
+        "Muscat"
+      ],
+      "classification": "Alsace AOC and Alsace Grand Cru (Kaefferkopf)",
+      "hectares": 13,
+      "owner": "Sick-Dreyer family",
+      "founded": 1563,
+      "tasting_program": "Daily cellar visits and tastings at the Ammerschwihr winery.",
+      "booking_url": "https://www.sick-dreyer.com/",
+      "signature_wines": [
+        "kaefferkopf-riesling",
+        "kaefferkopf-gewurztraminer",
+        "kaefferkopf-vendanges-tardives"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Ammerschwihr family domaine with a winemaking legacy traced to 1563, more than two hectares on the Kaefferkopf Grand Cru, an early Alsace site to receive village-level recognition.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.sick-dreyer.com/domaine-sick-dreyer/",
+        "address_quoted": "17 Route de Kientzheim, 68770 Ammerschwihr",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wineroute.alsace/230106781-winery-sick-dreyer/",
+        "cuisine_evidence_url": "https://www.sick-dreyer.com/domaine-sick-dreyer/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "domaine-pierre-adam",
+      "name": "Domaine Pierre Adam",
+      "address": "8 Rue du Lt Louis Mourier, 68770 Ammerschwihr, France",
+      "neighborhood": "Kaysersberg-Kientzheim-Sigolsheim",
+      "varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Pinot Blanc",
+        "Pinot Noir",
+        "Muscat"
+      ],
+      "classification": "Alsace AOC and Alsace Grand Cru (Kaefferkopf)",
+      "owner": "Adam family (Remy and Norbert Adam)",
+      "founded": 1922,
+      "tasting_program": "Cellar visits and tastings at the Ammerschwihr winery.",
+      "booking_url": "https://www.domaine-adam.com/en/",
+      "signature_wines": [
+        "kaefferkopf-riesling",
+        "letzenberg-pinot-noir",
+        "gewurztraminer-rein"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "organic_certified",
+      "description": "Four-generation Ammerschwihr domaine, certified organic, with Kaefferkopf and Letzenberg as its terroir signatures and a steady Pinot Noir line.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.domaine-adam.com/en/",
+        "address_quoted": "8 Rue du Lt Louis Mourier, 68770 Ammerschwihr",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wineroute.alsace/230106770-winery-adam-pierre/",
+        "cuisine_evidence_url": "https://www.domaine-adam.com/en/vineyard/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "klipfel",
+      "name": "Caveau Lorentz-Klipfel",
+      "address": "1 Rue Rotland, 67140 Barr, France",
+      "neighborhood": "Barr-Mittelbergheim-Andlau",
+      "varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Pinot Blanc",
+        "Pinot Noir",
+        "Klevener de Heiligenstein"
+      ],
+      "classification": "Alsace AOC, Alsace Grand Cru (Kirchberg de Barr, Kastelberg, Wiebelsberg, Zotzenberg) and Klevener de Heiligenstein",
+      "owner": "Lorentz family",
+      "founded": 1824,
+      "tasting_program": "Daily cellar visits and tastings at the Barr boutique; closed Sundays and Mondays.",
+      "booking_url": "https://www.klipfel.com/en.html",
+      "signature_wines": [
+        "kirchberg-de-barr-riesling",
+        "kastelberg-riesling",
+        "klevener-de-heiligenstein"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "none",
+      "description": "Historic Barr house, founded in 1824, with Grand Cru holdings on Kirchberg de Barr, Kastelberg, Wiebelsberg and Zotzenberg, and one of the few outside the five-village pocket to bottle Klevener de Heiligenstein.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.klipfel.com/en.html",
+        "address_quoted": "1 Rue Rotland, 67140 Barr",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wineroute.alsace/",
+        "cuisine_evidence_url": "https://www.klipfel.com/en/family-house.html",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "domaine-martin-schaetzel",
+      "name": "Domaine Martin Schaetzel - Kirrenbourg",
+      "address": "15C Route du Vin, 68240 Kientzheim, France",
+      "neighborhood": "Kaysersberg-Kientzheim-Sigolsheim",
+      "varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Pinot Blanc",
+        "Pinot Noir"
+      ],
+      "classification": "Alsace AOC and Alsace Grand Cru (Kaefferkopf, Rangen de Thann, Schlossberg, Mackrain)",
+      "owner": "Kirrenbourg ownership group (formerly Schaetzel family)",
+      "winemaker": "Christophe Ehrhart",
+      "founded": 1929,
+      "tasting_program": "Cellar visits and tastings at the Kientzheim winery; appointments preferred.",
+      "booking_url": "https://www.domainekirrenbourg.fr/en",
+      "signature_wines": [
+        "schlossberg-riesling",
+        "kaefferkopf-gewurztraminer",
+        "rangen-de-thann-pinot-gris"
+      ],
+      "biodynamic_status": "demeter_certified",
+      "organic_status": "organic_certified",
+      "description": "Kientzheim-based estate (formerly Ammerschwihr) certified Demeter biodynamic since the 1990s, with parcels in four Grands Crus including a small Rangen de Thann holding.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.domainekirrenbourg.fr/en",
+        "address_quoted": "15C Route du Vin, 68240 Kientzheim",
+        "open_status": "open",
+        "open_evidence_url": "http://www.alsace-wine.net/p/schaetzel.shtml",
+        "cuisine_evidence_url": "https://www.domainekirrenbourg.fr/en",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "domaine-hubert-metz",
+      "name": "Domaine Hubert Metz",
+      "address": "3 Rue du Winzenberg, 67650 Blienschwiller, France",
+      "neighborhood": "Dambach-la-Ville",
+      "varietals": [
+        "Riesling",
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Pinot Blanc",
+        "Sylvaner",
+        "Pinot Noir"
+      ],
+      "classification": "Alsace AOC (Winzenberg granite lieux-dits)",
+      "owner": "Metz family (Celine Metz)",
+      "founded": 1956,
+      "tasting_program": "Daily cellar visits and tastings at the Blienschwiller winery.",
+      "booking_url": "http://hubertmetz.com/",
+      "signature_wines": [
+        "winzenberg-riesling",
+        "pinot-gris-blienschwiller",
+        "gewurztraminer-cuvee-celine"
+      ],
+      "biodynamic_status": "none",
+      "organic_status": "organic_certified",
+      "description": "Blienschwiller family domaine certified organic, working the granite Winzenberg slope at the southern end of the Dambach-la-Ville cluster.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "http://hubertmetz.com/",
+        "address_quoted": "3 Rue du Winzenberg, 67650 Blienschwiller",
+        "open_status": "open",
+        "open_evidence_url": "https://www.weinstrasse.alsace/213007171-domaine-hubert-metz/",
+        "cuisine_evidence_url": "http://hubertmetz.com/",
+        "checked_on": "2026-05-30"
+      }
+    }
+  ]
+}

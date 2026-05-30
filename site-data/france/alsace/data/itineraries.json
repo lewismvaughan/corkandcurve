@@ -1,0 +1,242 @@
+{
+  "itineraries": [
+    {
+      "slug": "route-des-vins-three-day-north-south",
+      "name": "Route des Vins three-day north-south traverse",
+      "length_days": 3,
+      "theme": "The full Alsace Wine Route from Marlenheim down to Thann, with grand cru villages and a Strasbourg gateway",
+      "base": "Colmar and Riquewihr",
+      "days": [
+        {
+          "day": 1,
+          "morning": "Drive west from Strasbourg through Marlenheim and start the wine route proper. Mid-morning visit at a northern Bas-Rhin estate such as Domaine Pfister in Dahlenheim, on the Engelberg Grand Cru slope.",
+          "lunch": "Lunch in Obernai or Barr on the wine route.",
+          "afternoon": "Afternoon at Domaine Stoeffler in Barr for the Kirchberg de Barr Grand Cru, including the 2022-eligible Pinot Noir.",
+          "evening": "Drive south to Ribeauville for an evening glass at a grower wine bar.",
+          "accommodation": "Stay in Ribeauville or Riquewihr.",
+          "venues": [
+            "domaine-melanie-pfister",
+            "domaine-vincent-stoeffler"
+          ]
+        },
+        {
+          "day": 2,
+          "morning": "Morning at Trimbach in Ribeauville for the house Riesling lineup, then a short drive to Hunawihr.",
+          "lunch": "Lunch in Hunawihr or Riquewihr.",
+          "afternoon": "Afternoon at Hugel in Riquewihr followed by Domaine Mittnacht Freres in Hunawihr, comparing big-name and biodynamic-grower styles.",
+          "evening": "Dinner in Riquewihr's medieval centre.",
+          "accommodation": "Riquewihr or Ribeauville.",
+          "venues": [
+            "trimbach",
+            "hugel-et-fils",
+            "domaine-mittnacht-freres"
+          ]
+        },
+        {
+          "day": 3,
+          "morning": "Drive south to Turckheim for a morning at Domaine Zind-Humbrecht, a long-running biodynamic estate working Riesling parcel by parcel.",
+          "lunch": "Lunch in Colmar.",
+          "afternoon": "Afternoon at Domaine Weinbach in Kaysersberg followed by a stop at Domaines Schlumberger in Guebwiller for the four-Grand-Cru lineup.",
+          "evening": "Final dinner in Colmar and a stroll through Petite Venise.",
+          "accommodation": "Colmar.",
+          "venues": [
+            "domaine-zind-humbrecht",
+            "domaine-weinbach",
+            "domaines-schlumberger"
+          ]
+        }
+      ],
+      "description": "A three-day traverse of the Alsace Wine Route from Strasbourg's northern doorstep down to Guebwiller in the south, hitting Grand Cru villages day by day.",
+      "tip": "Reserve domaine appointments weeks ahead, especially for Trimbach and Zind-Humbrecht; the route between villages is short but the cellar bookings are not.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.routedesvins.alsace/en/",
+        "address_quoted": "Alsace",
+        "open_status": "open",
+        "open_evidence_url": "https://www.visit.alsace/en/the-alsace-wine-route/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Route_des_Vins_d%27Alsace",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "grand-cru-two-day-ribeauville-riquewihr",
+      "name": "Grand Cru deep dive: Ribeauville to Riquewihr in two days",
+      "length_days": 2,
+      "theme": "The heart of the Haut-Rhin Grand Cru belt, hitting Geisberg, Schoenenbourg, Rosacker and Kaefferkopf",
+      "base": "Ribeauville",
+      "days": [
+        {
+          "day": 1,
+          "morning": "Start in Ribeauville with a morning at Trimbach for the Cuvee Frederic Emile Riesling from Geisberg and Osterberg.",
+          "lunch": "Lunch in Ribeauville centre.",
+          "afternoon": "Afternoon at Domaine Mittnacht Freres in Hunawihr for the Rosacker Grand Cru, then a walk up to the Rosacker slope and stork sanctuary.",
+          "evening": "Dinner in Ribeauville with a Riesling Grand Cru pour by the glass.",
+          "accommodation": "Ribeauville.",
+          "venues": [
+            "trimbach",
+            "domaine-mittnacht-freres"
+          ]
+        },
+        {
+          "day": 2,
+          "morning": "Drive south to Riquewihr for a morning at Hugel et Fils, with a tasting of the Schoenenbourg Grand Cru Riesling.",
+          "lunch": "Lunch in Riquewihr's old town.",
+          "afternoon": "Drive across to Ammerschwihr for an afternoon at Domaine Geschickt in the Kaefferkopf Grand Cru, with a side-by-side of skin-contact and conventional cuvees.",
+          "evening": "Return to Ribeauville for the final night.",
+          "accommodation": "Ribeauville.",
+          "venues": [
+            "hugel-et-fils",
+            "domaine-geschickt"
+          ]
+        }
+      ],
+      "description": "A two-day Grand Cru route through Ribeauville, Hunawihr, Riquewihr and Ammerschwihr, comparing Geisberg, Rosacker, Schoenenbourg and Kaefferkopf side by side.",
+      "tip": "The four villages sit within a 12-kilometre triangle; pick one base and treat the tour as a series of half-day cellar runs rather than a long drive each day.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.routedesvins.alsace/en/",
+        "address_quoted": "Ribeauville",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Alsace_Grand_Cru",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Riquewihr",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "strasbourg-to-vineyards-one-day",
+      "name": "Strasbourg to the vineyards: one-day taster",
+      "length_days": 1,
+      "theme": "A single day pairing Strasbourg's wine culture with a half-day on the northern wine route",
+      "base": "Strasbourg",
+      "days": [
+        {
+          "day": 1,
+          "morning": "Begin at the Cave Historique des Hospices de Strasbourg by the old hospital, the cellar that holds the 1472 cask and bottles 30-plus Alsatian estates' wines under a single label.",
+          "lunch": "Lunch in Strasbourg's Petite France.",
+          "afternoon": "Drive 25 minutes west to Dahlenheim for an afternoon at Domaine Pfister on the Engelberg Grand Cru, then a short tasting at Domaine Stoeffler in Barr if time allows.",
+          "evening": "Return to Strasbourg for a wine-bar dinner.",
+          "accommodation": "Strasbourg.",
+          "venues": [
+            "cave-historique-hospices-strasbourg",
+            "domaine-melanie-pfister",
+            "domaine-vincent-stoeffler"
+          ]
+        }
+      ],
+      "description": "A one-day taste of Alsace from Strasbourg, pairing the 1472-cask hospital cellar with a northern wine-route afternoon at Dahlenheim and Barr.",
+      "tip": "Strasbourg sits 25 to 40 minutes from the northern wine route; this day suits travellers with limited time who still want to taste at the vineyard, not just in town.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.vins-des-hospices-de-strasbourg.fr/",
+        "address_quoted": "Strasbourg",
+        "open_status": "open",
+        "open_evidence_url": "https://www.visit.alsace/en/the-alsace-wine-route/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Strasbourg",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "biodynamic-natural-two-day",
+      "name": "Biodynamic and natural-wine deep dive, two days",
+      "length_days": 2,
+      "theme": "Established Alsatian biodynamic houses and the new natural-wine wave",
+      "base": "Colmar",
+      "days": [
+        {
+          "day": 1,
+          "morning": "Morning at Domaine Zind-Humbrecht in Turckheim, a long-running biodynamic estate working Grand Cru Riesling and Pinot Gris.",
+          "lunch": "Lunch in Turckheim or Colmar.",
+          "afternoon": "Afternoon at Domaine Marcel Deiss in Bergheim, Demeter biodynamic and known for permitted field-blend Grand Cru Altenberg de Bergheim.",
+          "evening": "Dinner in Colmar with a natural-wine list.",
+          "accommodation": "Colmar.",
+          "venues": [
+            "domaine-zind-humbrecht",
+            "marcel-deiss"
+          ]
+        },
+        {
+          "day": 2,
+          "morning": "Drive to Scherwiller for a morning at Domaine Achillee, the Dietrich brothers' Demeter biodynamic natural-wine estate in a straw-bale cellar.",
+          "lunch": "Lunch in Selestat.",
+          "afternoon": "Afternoon at Domaine Pierre Frick in Pfaffenheim, Biodyvin-certified and a long-running zero-sulphur producer, then a short stop at Domaine Geschickt in Ammerschwihr for skin-contact whites.",
+          "evening": "Final dinner in Colmar.",
+          "accommodation": "Colmar.",
+          "venues": [
+            "domaine-achillee",
+            "domaine-pierre-frick",
+            "domaine-geschickt"
+          ]
+        }
+      ],
+      "description": "A two-day route through Alsace's established biodynamic and natural-wine houses, from Demeter-certified Zind-Humbrecht and Deiss to zero-sulphur Pierre Frick and Achillee.",
+      "tip": "Alsace has one of the highest concentrations of certified biodynamic estates in France; this route shows both the established names and the new natural-wine wave in two days.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.biodyvin.com/",
+        "address_quoted": "Alsace",
+        "open_status": "open",
+        "open_evidence_url": "https://www.demeter.fr/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Alsace_wine",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "wine-and-spirits-three-day",
+      "name": "Wine and spirits combo, three days",
+      "length_days": 3,
+      "theme": "Pair the Grand Cru wine route with Lapoutroie's eau-de-vie distilleries",
+      "base": "Ribeauville and Lapoutroie",
+      "days": [
+        {
+          "day": 1,
+          "morning": "Morning at Trimbach in Ribeauville followed by a stop at Domaine Sylvie Spielmann in Bergheim for the Altenberg de Bergheim Grand Cru.",
+          "lunch": "Lunch in Bergheim.",
+          "afternoon": "Afternoon at Hugel et Fils in Riquewihr, then a stroll through the medieval centre.",
+          "evening": "Dinner in Riquewihr or Ribeauville.",
+          "accommodation": "Ribeauville.",
+          "venues": [
+            "trimbach",
+            "domaine-sylvie-spielmann",
+            "hugel-et-fils"
+          ]
+        },
+        {
+          "day": 2,
+          "morning": "Drive west into the Vallee de Kaysersberg to Lapoutroie, the centre of Alsatian eau-de-vie distilling, for a morning at the Massenez or Miclo distillery.",
+          "lunch": "Lunch in the Vallee de Kaysersberg.",
+          "afternoon": "Afternoon at Domaine Weinbach in Kaysersberg-Vignoble for the Riesling and Pinot Gris Grand Cru lineup from the Schlossberg slope.",
+          "evening": "Dinner in Kaysersberg.",
+          "accommodation": "Kaysersberg.",
+          "venues": [
+            "distillerie-massenez-dieffenbach",
+            "distillerie-miclo-lapoutroie",
+            "domaine-weinbach"
+          ]
+        },
+        {
+          "day": 3,
+          "morning": "Morning at Domaine Zind-Humbrecht in Turckheim for the Brand and Rangen de Thann Grand Cru wines.",
+          "lunch": "Lunch in Turckheim or Eguisheim.",
+          "afternoon": "Afternoon at Domaines Schlumberger in Guebwiller for the four-Grand-Cru lineup and the estate's eau-de-vie of marc.",
+          "evening": "Final evening in Colmar.",
+          "accommodation": "Colmar.",
+          "venues": [
+            "domaine-zind-humbrecht",
+            "domaines-schlumberger"
+          ]
+        }
+      ],
+      "description": "A three-day combination of grand-cru wine days and the Vallee de Kaysersberg eau-de-vie distillery cluster, pairing the two great spirits of Alsace.",
+      "tip": "Eau-de-vie is the often-missed half of Alsatian drinks culture; book a Lapoutroie distillery visit alongside the wine cellars to taste the full range from Riesling to mirabelle and kirsch.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://en.wikipedia.org/wiki/Eau-de-vie",
+        "address_quoted": "Lapoutroie",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Lapoutroie",
+        "cuisine_evidence_url": "https://www.routedesvins.alsace/en/",
+        "checked_on": "2026-05-30"
+      }
+    }
+  ]
+}

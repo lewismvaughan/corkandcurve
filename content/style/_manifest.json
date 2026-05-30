@@ -95,6 +95,12 @@
       "display": "Orange",
       "regions": [
         {
+          "country_slug": "france",
+          "region_slug": "alsace",
+          "region_name": "Alsace",
+          "n": 3
+        },
+        {
           "country_slug": "italy",
           "region_slug": "sicily",
           "region_name": "Sicily",
@@ -106,6 +112,12 @@
       "slug": "sparkling",
       "display": "Sparkling",
       "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "alsace",
+          "region_name": "Alsace",
+          "n": 7
+        },
         {
           "country_slug": "france",
           "region_slug": "champagne",
@@ -154,6 +166,12 @@
       "slug": "still",
       "display": "Still",
       "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "alsace",
+          "region_name": "Alsace",
+          "n": 52
+        },
         {
           "country_slug": "france",
           "region_slug": "beaujolais",
@@ -250,6 +268,12 @@
       "slug": "sweet",
       "display": "Sweet",
       "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "alsace",
+          "region_name": "Alsace",
+          "n": 4
+        },
         {
           "country_slug": "france",
           "region_slug": "bordeaux",

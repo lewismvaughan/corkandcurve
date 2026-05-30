@@ -157,6 +157,18 @@
       ]
     },
     {
+      "slug": "auxerrois",
+      "display": "Auxerrois",
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "alsace",
+          "region_name": "Alsace",
+          "n": 8
+        }
+      ]
+    },
+    {
       "slug": "barbera",
       "display": "Barbera",
       "regions": [
@@ -487,6 +499,18 @@
       ]
     },
     {
+      "slug": "chasselas",
+      "display": "Chasselas",
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "alsace",
+          "region_name": "Alsace",
+          "n": 1
+        }
+      ]
+    },
+    {
       "slug": "chenin-blanc",
       "display": "Chenin Blanc",
       "regions": [
@@ -621,6 +645,30 @@
           "region_slug": "rhone",
           "region_name": "Rhone Valley",
           "n": 9
+        }
+      ]
+    },
+    {
+      "slug": "cremant",
+      "display": "Cremant",
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "alsace",
+          "region_name": "Alsace",
+          "n": 1
+        }
+      ]
+    },
+    {
+      "slug": "cremant-d-alsace",
+      "display": "Cremant d'Alsace",
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "alsace",
+          "region_name": "Alsace",
+          "n": 2
         }
       ]
     },
@@ -865,6 +913,18 @@
       ]
     },
     {
+      "slug": "gewurztraminer",
+      "display": "Gewurztraminer",
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "alsace",
+          "region_name": "Alsace",
+          "n": 86
+        }
+      ]
+    },
+    {
       "slug": "glera",
       "display": "Glera",
       "regions": [
@@ -1100,6 +1160,18 @@
           "country_slug": "hungary",
           "region_slug": "tokaj",
           "region_name": "Tokaj",
+          "n": 1
+        }
+      ]
+    },
+    {
+      "slug": "klevener-de-heiligenstein",
+      "display": "Klevener de Heiligenstein",
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "alsace",
+          "region_name": "Alsace",
           "n": 1
         }
       ]
@@ -1541,6 +1613,12 @@
       "display": "Muscat",
       "regions": [
         {
+          "country_slug": "france",
+          "region_slug": "alsace",
+          "region_name": "Alsace",
+          "n": 53
+        },
+        {
           "country_slug": "spain",
           "region_slug": "priorat",
           "region_name": "Priorat",
@@ -1812,6 +1890,12 @@
       "regions": [
         {
           "country_slug": "france",
+          "region_slug": "alsace",
+          "region_name": "Alsace",
+          "n": 77
+        },
+        {
+          "country_slug": "france",
           "region_slug": "champagne",
           "region_name": "Champagne",
           "n": 4
@@ -1846,6 +1930,12 @@
       "slug": "pinot-gris",
       "display": "Pinot Gris",
       "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "alsace",
+          "region_name": "Alsace",
+          "n": 87
+        },
         {
           "country_slug": "france",
           "region_slug": "burgundy",
@@ -1906,6 +1996,12 @@
       "slug": "pinot-noir",
       "display": "Pinot Noir",
       "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "alsace",
+          "region_name": "Alsace",
+          "n": 73
+        },
         {
           "country_slug": "france",
           "region_slug": "beaujolais",
@@ -1972,6 +2068,12 @@
       "slug": "riesling",
       "display": "Riesling",
       "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "alsace",
+          "region_name": "Alsace",
+          "n": 91
+        },
         {
           "country_slug": "germany",
           "region_slug": "mosel",
@@ -2265,6 +2367,18 @@
           "region_slug": "mosel",
           "region_name": "Mosel",
           "n": 4
+        }
+      ]
+    },
+    {
+      "slug": "sylvaner",
+      "display": "Sylvaner",
+      "regions": [
+        {
+          "country_slug": "france",
+          "region_slug": "alsace",
+          "region_name": "Alsace",
+          "n": 33
         }
       ]
     },

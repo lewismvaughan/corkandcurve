@@ -1,0 +1,468 @@
+{
+  "signature_wines": [
+    {
+      "slug": "clos-sainte-hune",
+      "name": "Clos Sainte-Hune",
+      "producer": "trimbach",
+      "varietals": [
+        "Riesling"
+      ],
+      "style": "still dry Alsace Riesling (single-vineyard)",
+      "vintage_range": "approachable from 8 years, cellar 20 to 40",
+      "price_band": "EUR 250 to 450 at retail",
+      "tasting_notes": "Trimbach's 1.67 hectare monopole inside Grand Cru Rosacker, declassified to Alsace AOC. Piercing dry Riesling that needs a decade to unwind into wax, citrus and Vosges granite salinity. Source: Trimbach producer page.",
+      "editorial_score": 5.0,
+      "description": "Trimbach's 1.67 hectare walled monopole inside Grand Cru Rosacker, family-declassified to Alsace AOC. The benchmark for dry, ageworthy Alsace Riesling.",
+      "verified": {
+        "source_url": "https://www.trimbach.fr/en/",
+        "open_status": "open",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "cuvee-frederic-emile",
+      "name": "Cuvee Frederic Emile Riesling",
+      "producer": "trimbach",
+      "varietals": [
+        "Riesling"
+      ],
+      "style": "still dry Alsace Riesling (Grand Cru blend)",
+      "vintage_range": "approachable from 5 years, cellar 15 to 25",
+      "price_band": "EUR 75 to 110 at retail",
+      "tasting_notes": "Trimbach's flagship Riesling, a Geisberg and Osterberg Grand Cru parcel blend released after years of bottle age. Smoky, structured, ageworthy. Source: Trimbach producer page.",
+      "editorial_score": 4.8,
+      "description": "Trimbach's flagship cuvee, a Riesling blend of Grand Cru Geisberg and Osterberg parcels released after several years of bottle age. Smoky, structured and ageworthy.",
+      "verified": {
+        "source_url": "https://www.trimbach.fr/en/",
+        "open_status": "open",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "hugel-schoelhammer",
+      "name": "Hugel Schoelhammer Riesling",
+      "producer": "hugel-et-fils",
+      "varietals": [
+        "Riesling"
+      ],
+      "style": "still dry Alsace Riesling (single-parcel)",
+      "vintage_range": "approachable from 10 years, cellar 20 to 30",
+      "price_band": "EUR 150 to 230 at retail",
+      "tasting_notes": "A single 0.45 hectare parcel inside Schoenenbourg, declassified to Alsace AOC. Hugel's flagship dry Riesling, released as a multi-decade vintage statement. Source: Hugel producer page.",
+      "editorial_score": 4.9,
+      "description": "Hugel's flagship single-parcel Schoenenbourg Riesling, declassified to Alsace AOC. Yellow plum, preserved lemon and limestone built for a 20-year cellar.",
+      "verified": {
+        "source_url": "https://m.hugel.com/2497G1XDFG",
+        "open_status": "open",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "hugel-sgn-gewurztraminer",
+      "name": "Hugel Selection de Grains Nobles Gewurztraminer",
+      "producer": "hugel-et-fils",
+      "varietals": [
+        "Gewurztraminer"
+      ],
+      "style": "botrytised dessert Gewurztraminer (SGN)",
+      "vintage_range": "approachable from 10 years, cellar 30 to 50",
+      "price_band": "EUR 180 to 320 at retail",
+      "tasting_notes": "Botrytised Gewurztraminer at near-Sauternes ripeness, made only in noble-rot vintages. Saffron honey, candied rose and apricot jam. Source: Hugel producer page.",
+      "editorial_score": 4.8,
+      "description": "Hugel's botrytised Gewurztraminer at SGN ripeness, made only in noble-rot vintages. Saffron honey, candied rose, apricot jam; a multi-decade dessert wine.",
+      "verified": {
+        "source_url": "https://m.hugel.com/2497G1XDFG",
+        "open_status": "open",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "leon-beyer-comtes-eguisheim-riesling",
+      "name": "Leon Beyer Cuvee des Comtes d Eguisheim Riesling",
+      "producer": "leon-beyer",
+      "varietals": [
+        "Riesling"
+      ],
+      "style": "still dry Alsace Riesling (old-vine Pfersigberg fruit)",
+      "vintage_range": "approachable from 5 years, cellar 15 to 25",
+      "price_band": "EUR 60 to 95 at retail",
+      "tasting_notes": "Beyer's flagship Riesling from old vines on Pfersigberg around Eguisheim, labelled Alsace AOC. Steely, dry, mineral, built for a long cellar. Source: Leon Beyer producer page.",
+      "editorial_score": 4.7,
+      "description": "Beyer's flagship dry Riesling, sourced from old vines on Pfersigberg around Eguisheim and labelled Alsace AOC. Steely, mineral, built for a 20-year cellar.",
+      "verified": {
+        "source_url": "https://www.leonbeyer.fr/",
+        "open_status": "open",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "leon-beyer-comtes-eguisheim-gewurztraminer",
+      "name": "Leon Beyer Cuvee des Comtes d Eguisheim Gewurztraminer",
+      "producer": "leon-beyer",
+      "varietals": [
+        "Gewurztraminer"
+      ],
+      "style": "still dry Alsace Gewurztraminer",
+      "vintage_range": "approachable from 5 years, cellar 10 to 20",
+      "price_band": "EUR 55 to 85 at retail",
+      "tasting_notes": "Beyer's flagship dry Gewurztraminer from Eguisheim old plots. Rose, lychee and white pepper, but bone-dry and structured. Source: Leon Beyer producer page.",
+      "editorial_score": 4.7,
+      "description": "Beyer's flagship dry Gewurztraminer from Eguisheim old plots. Rose, lychee and ginger, but bone-dry and structured; the textbook Alsace dry Gewurz.",
+      "verified": {
+        "source_url": "https://www.leonbeyer.fr/",
+        "open_status": "open",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "schlumberger-kitterle-riesling",
+      "name": "Schlumberger Kitterle Riesling",
+      "producer": "domaines-schlumberger",
+      "varietals": [
+        "Riesling"
+      ],
+      "style": "still dry Alsace Riesling Grand Cru",
+      "vintage_range": "approachable from 5 years, cellar 15 to 25",
+      "price_band": "EUR 45 to 65 at retail",
+      "tasting_notes": "Schlumberger's flagship Kitterle Riesling from steep terraced sandstone slopes above Guebwiller. Smoky, dry, structured. Source: Schlumberger producer page.",
+      "editorial_score": 4.7,
+      "description": "Schlumberger's flagship Kitterle Riesling from steep sandstone terraces above Guebwiller. Smoky stone, lime and structured dryness; a benchmark Grand Cru Riesling.",
+      "verified": {
+        "source_url": "https://www.domaines-schlumberger.com/the-estate/",
+        "open_status": "open",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "weinbach-schlossberg-riesling-cuvee-sainte-catherine",
+      "name": "Weinbach Schlossberg Riesling Cuvee Sainte Catherine",
+      "producer": "domaine-weinbach",
+      "varietals": [
+        "Riesling"
+      ],
+      "style": "still dry Alsace Riesling Grand Cru",
+      "vintage_range": "approachable from 5 years, cellar 15 to 25",
+      "price_band": "EUR 75 to 110 at retail",
+      "tasting_notes": "Weinbach's flagship dry Riesling from old vines on Schlossberg granite, picked late on Saint Catherine's Day. The estate's most precise Riesling. Source: Weinbach producer page.",
+      "editorial_score": 4.8,
+      "description": "Weinbach's flagship dry Riesling from old vines on Schlossberg granite, picked late on Saint Catherine's Day. The estate's most precise Riesling.",
+      "verified": {
+        "source_url": "https://www.domaineweinbach.com/",
+        "open_status": "open",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "weinbach-schlossberg-riesling-linedit",
+      "name": "Weinbach Schlossberg Riesling L Inedit",
+      "producer": "domaine-weinbach",
+      "varietals": [
+        "Riesling"
+      ],
+      "style": "still dry Alsace Riesling (top single-parcel Schlossberg)",
+      "vintage_range": "approachable from 8 years, cellar 20 to 30",
+      "price_band": "EUR 110 to 180 at retail",
+      "tasting_notes": "Weinbach's top Schlossberg parcel selection from 1940s-planted vines, made only in vintages that allow concentration with retained acidity. Source: Weinbach producer page.",
+      "editorial_score": 4.9,
+      "description": "Weinbach's top Schlossberg parcel selection from 1940s-planted vines. Salt, smoke, citrus and racy acid; made only in exceptional vintages.",
+      "verified": {
+        "source_url": "https://www.domaineweinbach.com/",
+        "open_status": "open",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "weinbach-furstentum-gewurztraminer-cuvee-laurence",
+      "name": "Weinbach Furstentum Gewurztraminer Cuvee Laurence",
+      "producer": "domaine-weinbach",
+      "varietals": [
+        "Gewurztraminer"
+      ],
+      "style": "still off-dry Alsace Gewurztraminer Grand Cru",
+      "vintage_range": "approachable from 5 years, cellar 15 to 25",
+      "price_band": "EUR 70 to 110 at retail",
+      "tasting_notes": "Weinbach's flagship Gewurztraminer from old vines on Furstentum limestone, named for Laurence Faller. Concentrated rose, lychee and ginger. Source: Weinbach producer page.",
+      "editorial_score": 4.7,
+      "description": "Weinbach's flagship Gewurztraminer from old vines on Furstentum limestone, named for Laurence Faller. Concentrated rose, lychee and ginger in the off-dry register.",
+      "verified": {
+        "source_url": "https://www.domaineweinbach.com/",
+        "open_status": "open",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "weinbach-altenbourg-pinot-gris-quintessence-sgn",
+      "name": "Weinbach Altenbourg Pinot Gris Quintessence SGN",
+      "producer": "domaine-weinbach",
+      "varietals": [
+        "Pinot Gris"
+      ],
+      "style": "botrytised dessert Pinot Gris (SGN Quintessence)",
+      "vintage_range": "approachable from 10 years, cellar 30 to 50",
+      "price_band": "EUR 200 to 400 at retail",
+      "tasting_notes": "Weinbach's top SGN selection from fully botrytised Altenbourg fruit. Saffron honey, candied apricot, marzipan. Source: Weinbach producer page.",
+      "editorial_score": 4.9,
+      "description": "Weinbach's noble-rot Pinot Gris from Altenbourg, top of the SGN pyramid. Saffron honey, candied apricot and marzipan; a multi-decade dessert wine.",
+      "verified": {
+        "source_url": "https://www.domaineweinbach.com/",
+        "open_status": "open",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "zind-humbrecht-clos-saint-urbain-rangen-riesling",
+      "name": "Zind Humbrecht Clos Saint Urbain Rangen Riesling",
+      "producer": "domaine-zind-humbrecht",
+      "varietals": [
+        "Riesling"
+      ],
+      "style": "still dry Alsace Riesling Grand Cru (volcanic)",
+      "vintage_range": "approachable from 8 years, cellar 20 to 30",
+      "price_band": "EUR 110 to 180 at retail",
+      "tasting_notes": "Zind-Humbrecht's flagship Riesling from the walled Clos Saint Urbain inside volcanic Grand Cru Rangen. Smoky, intensely mineral. Source: Zind-Humbrecht producer page.",
+      "editorial_score": 5.0,
+      "description": "Zind-Humbrecht's flagship Riesling from the walled Clos Saint Urbain inside volcanic Grand Cru Rangen. Smoky, mineral, structured; an Alsace flagship dry Riesling.",
+      "verified": {
+        "source_url": "https://www.zindhumbrecht.fr/en/",
+        "open_status": "open",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "zind-humbrecht-clos-saint-urbain-rangen-pinot-gris",
+      "name": "Zind Humbrecht Clos Saint Urbain Rangen Pinot Gris",
+      "producer": "domaine-zind-humbrecht",
+      "varietals": [
+        "Pinot Gris"
+      ],
+      "style": "still off-dry Alsace Pinot Gris Grand Cru (volcanic)",
+      "vintage_range": "approachable from 8 years, cellar 20 to 30",
+      "price_band": "EUR 100 to 170 at retail",
+      "tasting_notes": "Zind-Humbrecht's Clos Saint Urbain Rangen Pinot Gris. Honeyed pear, smoke and granite-mineral grip. Source: Zind-Humbrecht producer page.",
+      "editorial_score": 4.9,
+      "description": "Zind-Humbrecht's volcanic Pinot Gris from the walled Clos Saint Urbain in Grand Cru Rangen. Honeyed pear, smoke and granite-mineral grip; lightly off-dry.",
+      "verified": {
+        "source_url": "https://www.zindhumbrecht.fr/en/",
+        "open_status": "open",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "zind-humbrecht-clos-hauserer-riesling",
+      "name": "Zind Humbrecht Clos Hauserer Riesling",
+      "producer": "domaine-zind-humbrecht",
+      "varietals": [
+        "Riesling"
+      ],
+      "style": "still dry Alsace Riesling (monopole Clos)",
+      "vintage_range": "approachable from 5 years, cellar 15 to 25",
+      "price_band": "EUR 55 to 85 at retail",
+      "tasting_notes": "Zind-Humbrecht's monopole walled Riesling vineyard below Grand Cru Hengst, on calcareous-marl. Pure dry Riesling. Source: Zind-Humbrecht producer page.",
+      "editorial_score": 4.7,
+      "description": "Zind-Humbrecht's monopole walled Riesling vineyard below Grand Cru Hengst, on calcareous-marl. Dry, stony, structured; a benchmark Alsace AOC Riesling.",
+      "verified": {
+        "source_url": "https://www.zindhumbrecht.fr/en/",
+        "open_status": "open",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "zind-humbrecht-clos-windsbuhl-riesling",
+      "name": "Zind Humbrecht Clos Windsbuhl Riesling",
+      "producer": "domaine-zind-humbrecht",
+      "varietals": [
+        "Riesling"
+      ],
+      "style": "still dry Alsace Riesling (monopole limestone plateau)",
+      "vintage_range": "approachable from 8 years, cellar 20 to 30",
+      "price_band": "EUR 70 to 110 at retail",
+      "tasting_notes": "Zind-Humbrecht's Clos Windsbuhl monopole Riesling, high above Hunawihr on Muschelkalk limestone. Cool-climate, structured for the cellar. Source: Zind-Humbrecht producer page.",
+      "editorial_score": 4.8,
+      "description": "Zind-Humbrecht's Clos Windsbuhl monopole Riesling, high above Hunawihr on Muschelkalk limestone. Slow-developing, cool-climate, structured for the cellar.",
+      "verified": {
+        "source_url": "https://www.zindhumbrecht.fr/en/",
+        "open_status": "open",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "zind-humbrecht-brand-riesling",
+      "name": "Zind Humbrecht Brand Riesling",
+      "producer": "domaine-zind-humbrecht",
+      "varietals": [
+        "Riesling"
+      ],
+      "style": "still dry Alsace Riesling Grand Cru (granite)",
+      "vintage_range": "approachable from 5 years, cellar 15 to 25",
+      "price_band": "EUR 70 to 110 at retail",
+      "tasting_notes": "Zind-Humbrecht's Brand Grand Cru Riesling from steep granite above Turckheim. Yellow apple and preserved lemon with racy granite mineral lift. Source: Zind-Humbrecht producer page.",
+      "editorial_score": 4.7,
+      "description": "Zind-Humbrecht's Brand Grand Cru Riesling from steep granite above Turckheim. Yellow apple and preserved lemon with racy granite mineral lift.",
+      "verified": {
+        "source_url": "https://www.zindhumbrecht.fr/en/",
+        "open_status": "open",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "marcel-deiss-mambourg-grand-cru",
+      "name": "Marcel Deiss Mambourg Grand Cru",
+      "producer": "marcel-deiss",
+      "varietals": [
+        "Gewurztraminer",
+        "Pinot Gris",
+        "Riesling",
+        "Muscat"
+      ],
+      "style": "still complanted Alsace Grand Cru (field blend)",
+      "vintage_range": "approachable from 8 years, cellar 20 to 30",
+      "price_band": "EUR 90 to 140 at retail",
+      "tasting_notes": "Marcel Deiss's flagship complanted Grand Cru, noble grapes co-fermented on Mambourg limestone. Honey and exotic spice with saline finish. Source: Marcel Deiss producer page.",
+      "editorial_score": 4.8,
+      "description": "Marcel Deiss's complanted Mambourg Grand Cru: noble grapes co-fermented on south-facing limestone. The estate's case for terroir over varietal.",
+      "verified": {
+        "source_url": "https://www.marceldeiss.com/en/",
+        "open_status": "open",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "marcel-deiss-altenberg-de-bergheim",
+      "name": "Marcel Deiss Altenberg de Bergheim Grand Cru",
+      "producer": "marcel-deiss",
+      "varietals": [
+        "Riesling",
+        "Pinot Gris",
+        "Gewurztraminer",
+        "Muscat"
+      ],
+      "style": "still complanted Alsace Grand Cru (field blend)",
+      "vintage_range": "approachable from 8 years, cellar 20 to 30",
+      "price_band": "EUR 90 to 150 at retail",
+      "tasting_notes": "Deiss's complanted Altenberg de Bergheim, Riesling-dominant field blend on calcareous slopes. Profound, ageworthy. Source: Marcel Deiss producer page.",
+      "editorial_score": 4.9,
+      "description": "Deiss's complanted Altenberg de Bergheim Grand Cru, Riesling-dominant field-blend on calcareous slopes. Profound, ageworthy and the case for terroir over varietal.",
+      "verified": {
+        "source_url": "https://www.marceldeiss.com/en/",
+        "open_status": "open",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "boxler-sommerberg-riesling-e",
+      "name": "Albert Boxler Sommerberg Riesling E",
+      "producer": "domaine-albert-boxler",
+      "varietals": [
+        "Riesling"
+      ],
+      "style": "still dry Alsace Riesling (old-vine parcel selection)",
+      "vintage_range": "approachable from 5 years, cellar 15 to 25",
+      "price_band": "EUR 70 to 110 at retail",
+      "tasting_notes": "Boxler's E parcel selection on Sommerberg, a 70-year-old vine block on steep south-facing granite. Sharp, mineral. Source: Boxler producer page.",
+      "editorial_score": 4.7,
+      "description": "Boxler's E parcel Sommerberg Riesling from a 70-year-old vine block on steep south-facing granite. Sharp, mineral and slow-developing; an artisan benchmark.",
+      "verified": {
+        "source_url": "https://kermitlynch.com/grower/albert-boxler",
+        "open_status": "open",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "ostertag-muenchberg-riesling",
+      "name": "Ostertag Muenchberg Riesling",
+      "producer": "domaine-ostertag",
+      "varietals": [
+        "Riesling"
+      ],
+      "style": "still dry Alsace Riesling Grand Cru (volcanic-sandstone)",
+      "vintage_range": "approachable from 5 years, cellar 15 to 25",
+      "price_band": "EUR 70 to 110 at retail",
+      "tasting_notes": "Andre Ostertag's Riesling from volcanic-sandstone Muenchberg Grand Cru. Sharp, smoky, structured. Source: Ostertag producer page.",
+      "editorial_score": 4.8,
+      "description": "Andre Ostertag's flagship Riesling from volcanic-sandstone Muenchberg Grand Cru above Nothalten. Sharp, smoky and structured; a Bas-Rhin masterpiece.",
+      "verified": {
+        "source_url": "https://kermitlynch.com/files/andre-ostertag.pdf",
+        "open_status": "open",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "schoffit-clos-saint-theobald-rangen-riesling",
+      "name": "Schoffit Clos Saint Theobald Rangen Riesling",
+      "producer": "domaine-schoffit",
+      "varietals": [
+        "Riesling"
+      ],
+      "style": "still dry Alsace Riesling Grand Cru (volcanic)",
+      "vintage_range": "approachable from 8 years, cellar 20 to 30",
+      "price_band": "EUR 75 to 120 at retail",
+      "tasting_notes": "Schoffit's flagship Riesling from the walled Clos Saint Theobald inside volcanic Grand Cru Rangen. Smoky, intensely mineral. Source: Schoffit producer page.",
+      "editorial_score": 4.8,
+      "description": "Schoffit's flagship Riesling from the walled Clos Saint Theobald inside volcanic Grand Cru Rangen. Smoky, intensely mineral, multi-decade ageworthy.",
+      "verified": {
+        "source_url": "http://www.alsace-wine.net/p/schoffit.shtml",
+        "open_status": "open",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "albert-mann-pinot-noir-grand-h",
+      "name": "Albert Mann Pinot Noir Grand H",
+      "producer": "domaine-albert-mann",
+      "varietals": [
+        "Pinot Noir"
+      ],
+      "style": "still red Alsace Pinot Noir (old-vine Hengst)",
+      "vintage_range": "approachable from 5 years, cellar 10 to 15",
+      "price_band": "EUR 50 to 80 at retail",
+      "tasting_notes": "Albert Mann's top Pinot Noir from old vines on Grand Cru Hengst, biodynamic. Burgundian register cherry and forest floor. Source: Albert Mann producer page.",
+      "editorial_score": 4.6,
+      "description": "Albert Mann's top Pinot Noir from old vines on Grand Cru Hengst, biodynamic. Burgundian register cherry and forest floor with soft tannin and high acid.",
+      "verified": {
+        "source_url": "https://www.albertmann.com/",
+        "open_status": "open",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "kreydenweiss-kastelberg-riesling",
+      "name": "Marc Kreydenweiss Kastelberg Riesling",
+      "producer": "domaine-marc-kreydenweiss",
+      "varietals": [
+        "Riesling"
+      ],
+      "style": "still dry Alsace Riesling Grand Cru (Steige schist)",
+      "vintage_range": "approachable from 5 years, cellar 15 to 25",
+      "price_band": "EUR 55 to 85 at retail",
+      "tasting_notes": "Marc Kreydenweiss's Kastelberg Riesling from Steige schist above Andlau. Biodynamic since 1989; smoky, dry, structured. Source: Kreydenweiss producer page.",
+      "editorial_score": 4.7,
+      "description": "Marc Kreydenweiss's biodynamic flagship Riesling from Kastelberg Steige-schist above Andlau. Smoky, dry, structured; a 1989 biodynamic pioneer.",
+      "verified": {
+        "source_url": "https://www.kreydenweiss.com/",
+        "open_status": "open",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "barmes-buecher-cremant-extra-brut",
+      "name": "Barmes Buecher Cremant d Alsace Extra Brut",
+      "producer": "domaine-barmes-buecher",
+      "varietals": [
+        "Pinot Blanc",
+        "Auxerrois",
+        "Chardonnay"
+      ],
+      "style": "traditional-method sparkling Cremant d Alsace (vintage)",
+      "vintage_range": "approachable from 2 years, cellar 6 to 10",
+      "price_band": "EUR 22 to 32 at retail",
+      "tasting_notes": "Barmes-Buecher's vintage-dated extra-brut Cremant. Long-aged on lees, biodynamic, often zero-dosage. Source: Barmes-Buecher producer page.",
+      "editorial_score": 4.6,
+      "description": "Barmes-Buecher's biodynamic vintage-dated extra-brut Cremant d Alsace. Long-aged on lees, often zero-dosage; one of the region's serious sparkling cuvees.",
+      "verified": {
+        "source_url": "https://barmes-buecher.com/en/",
+        "open_status": "open",
+        "checked_on": "2026-05-30"
+      }
+    }
+  ]
+}

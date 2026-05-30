@@ -1,0 +1,334 @@
+{
+  "food_pairing": [
+    {
+      "slug": "riesling-with-choucroute-garnie",
+      "name": "Alsace Riesling with choucroute garnie",
+      "pairing": "Dry Alsace Riesling with Strasbourg choucroute garnie",
+      "tablejourney_ref": "france/strasbourg/dish/choucroute-garnie",
+      "wine_entities": [
+        "cuvee-frederic-emile",
+        "trimbach-riesling-reserve",
+        "hugel-estate-riesling",
+        "leon-beyer-cuvee-particuliere-riesling"
+      ],
+      "description": "The textbook Alsace pairing. Riesling's racy acidity cuts through the pork brine, lard and slow-cooked kraut while its citrus and stone lift the dish's saltiness without competing.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://tablejourney.com/france/strasbourg/dish/choucroute-garnie/",
+        "open_status": "open",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "gewurztraminer-with-munster",
+      "name": "Alsace Gewurztraminer with Munster cheese",
+      "pairing": "Off-dry Alsace Gewurztraminer with Munster cheese (with caraway or cumin)",
+      "tablejourney_ref": "france/strasbourg/dish/munster",
+      "wine_entities": [
+        "trimbach-gewurztraminer-vendanges-tardives",
+        "schlumberger-kessler-gewurztraminer",
+        "weinbach-furstentum-gewurztraminer-cuvee-laurence",
+        "zind-humbrecht-hengst-gewurztraminer"
+      ],
+      "description": "The classic Vosges valley pairing. Munster's pungent washed-rind cream meets Gewurz's rose, lychee and ginger; the cheese's traditional caraway or cumin echoes the wine's exotic spice.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://tablejourney.com/france/strasbourg/dish/munster/",
+        "open_status": "open",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "riesling-with-coq-au-riesling",
+      "name": "Alsace Riesling with coq au Riesling",
+      "pairing": "Alsace Riesling with the wine-braised chicken of the same name",
+      "tablejourney_ref": "france/strasbourg/dish/coq-au-riesling",
+      "wine_entities": [
+        "cuvee-frederic-emile",
+        "hugel-estate-riesling",
+        "weinbach-cuvee-theo-riesling",
+        "trimbach-riesling-reserve"
+      ],
+      "description": "Coq au Riesling is the Alsace cousin of coq au vin, braised in dry Riesling and finished with cream. The same wine in the glass amplifies the dish's herbal lift and creamy backbone.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://tablejourney.com/france/strasbourg/dish/coq-au-riesling/",
+        "open_status": "open",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "pinot-blanc-with-tarte-flambee",
+      "name": "Alsace Pinot Blanc with tarte flambee",
+      "pairing": "Light Alsace Pinot Blanc or Edelzwicker with tarte flambee",
+      "tablejourney_ref": "france/strasbourg/dish/tarte-flambee",
+      "wine_entities": [
+        "josmeyer-h-vieilles-vignes-pinot-blanc",
+        "weinbach-clos-des-capucins-pinot-blanc",
+        "achillee-edelzwicker"
+      ],
+      "description": "Tarte flambee, the Alsace cream-and-bacon flatbread, calls for a gentle, refreshing white. Pinot Blanc-Auxerrois soft fruit and salt frame the creme-fraiche and lardons without overshadowing.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://tablejourney.com/france/strasbourg/dish/tarte-flambee/",
+        "open_status": "open",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "pinot-gris-with-baeckeoffe",
+      "name": "Alsace Pinot Gris with baeckeoffe",
+      "pairing": "Off-dry Alsace Pinot Gris with baeckeoffe (three-meat baker's casserole)",
+      "tablejourney_ref": "france/strasbourg/dish/baeckeoffe",
+      "wine_entities": [
+        "leon-beyer-pinot-gris-reserve",
+        "schlumberger-spiegel-pinot-gris",
+        "mure-cote-de-rouffach-pinot-gris",
+        "schoffit-harth-vieilles-vignes-pinot-gris"
+      ],
+      "description": "Baeckeoffe is the Alsace casserole of lamb, beef and pork marinated in Riesling and slow-baked. Pinot Gris's smoky pear, weight and gentle off-dryness carry the long-cooked meats and root vegetables.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://tablejourney.com/france/strasbourg/dish/baeckeoffe/",
+        "open_status": "open",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "gewurztraminer-with-foie-gras",
+      "name": "Gewurztraminer or Pinot Gris with foie gras",
+      "pairing": "Late-harvest Gewurztraminer or SGN Pinot Gris with foie gras",
+      "tablejourney_ref": null,
+      "wine_entities": [
+        "trimbach-gewurztraminer-vendanges-tardives",
+        "schlumberger-cuvee-christine-vendanges-tardives",
+        "hugel-sgn-gewurztraminer",
+        "weinbach-altenbourg-pinot-gris-quintessence-sgn"
+      ],
+      "description": "The Alsace luxury pairing. Honeyed exotic Vendanges Tardives Gewurztraminer or SGN Pinot Gris cradles foie gras's richness while the wine's acidity stops the combination from cloying.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.vinsalsace.com/en/",
+        "open_status": "open",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "cremant-with-bretzel-aperitif",
+      "name": "Cremant d Alsace with bretzel aperitif",
+      "pairing": "Brut Cremant d Alsace with hot bretzel and aperitif charcuterie",
+      "tablejourney_ref": "france/strasbourg/dish/bretzel",
+      "wine_entities": [
+        "barmes-buecher-cremant-extra-brut",
+        "mure-cremant-brut",
+        "lucien-albrecht-cremant-brut",
+        "wolfberger-cremant-pinot-noir",
+        "cattin-jacques-cremant"
+      ],
+      "description": "The bar-stool Alsace ritual. Cremant's traditional-method bubbles and biscuit lees ageing meet the warm pretzel's salt; a perfect winstub aperitif before the choucroute lands.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://tablejourney.com/france/strasbourg/dish/bretzel/",
+        "open_status": "open",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "pinot-noir-with-presskopf",
+      "name": "Alsace Pinot Noir with presskopf",
+      "pairing": "Alsace Pinot Noir or light red with presskopf (head cheese)",
+      "tablejourney_ref": "france/strasbourg/dish/presskopf",
+      "wine_entities": [
+        "trimbach-pinot-noir-reserve-personnelle",
+        "hugel-pinot-noir-les-neveux",
+        "albert-mann-pinot-noir-grand-h",
+        "achillee-pinot-noir"
+      ],
+      "description": "Presskopf, the Alsace pork head terrine cured in vinegar and herbs, finds a peer in Pinot Noir's cherry, acid and gentle tannin; the wine cuts the rich aspic without overpowering.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://tablejourney.com/france/strasbourg/dish/presskopf/",
+        "open_status": "open",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "gewurztraminer-with-spaetzle",
+      "name": "Alsace Gewurztraminer with creamy spaetzle",
+      "pairing": "Off-dry Gewurztraminer with cheese spaetzle and caramelised onion",
+      "tablejourney_ref": "france/strasbourg/dish/spaetzle",
+      "wine_entities": [
+        "wolfberger-eichberg-gewurztraminer",
+        "rolly-gassmann-moenchreben-gewurztraminer",
+        "kuentz-bas-eichberg-gewurztraminer"
+      ],
+      "description": "Egg spaetzle with melted Emmental or Munster and caramelised onion is a winstub staple. Gewurztraminer's gentle sweetness lifts the cheese and onion while its acidity stops the dish from feeling heavy.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://tablejourney.com/france/strasbourg/dish/spaetzle/",
+        "open_status": "open",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "muscat-with-asparagus",
+      "name": "Dry Muscat with white asparagus",
+      "pairing": "Dry Alsace Muscat with white asparagus and hollandaise",
+      "tablejourney_ref": null,
+      "wine_entities": [
+        "jean-becker-froehn-muscat",
+        "hugel-gentil"
+      ],
+      "description": "Dry Muscat is one of the few wines that handles white asparagus, the seasonal Alsace vegetable. Its grape-on-the-vine lift mirrors the spear's vegetal sweetness rather than fighting it.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.vinsalsace.com/en/",
+        "open_status": "open",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "sylvaner-with-quiche-lorraine",
+      "name": "Alsace Sylvaner with quiche Lorraine",
+      "pairing": "Dry Alsace Sylvaner with quiche Lorraine and a green salad",
+      "tablejourney_ref": null,
+      "wine_entities": [
+        "ostertag-vignoble-d-e-sylvaner",
+        "albert-seltz-zotzenberg-sylvaner",
+        "rietsch-zotzenberg-sylvaner"
+      ],
+      "description": "Sylvaner's herb, salt and bright acid frame the cream-and-bacon classic. The wine's understated personality is the antidote to Riesling overload at a Sunday lunch.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.vinsalsace.com/en/",
+        "open_status": "open",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "gewurztraminer-vt-with-kougelhopf",
+      "name": "Vendanges Tardives Gewurztraminer with kougelhopf",
+      "pairing": "Vendanges Tardives Gewurztraminer with kougelhopf (yeasted brioche cake)",
+      "tablejourney_ref": "france/strasbourg/dish/kougelhopf",
+      "wine_entities": [
+        "trimbach-gewurztraminer-vendanges-tardives",
+        "schlumberger-cuvee-christine-vendanges-tardives"
+      ],
+      "description": "Kougelhopf, the rum-soaked yeasted brioche cake of Alsace, finds its match in honeyed late-harvest Gewurz. The wine's exotic fruit and rose petal weave through the cake's almond and raisin.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://tablejourney.com/france/strasbourg/dish/kougelhopf/",
+        "open_status": "open",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "riesling-grand-cru-with-fruits-de-mer",
+      "name": "Grand Cru Riesling with plateau de fruits de mer",
+      "pairing": "Grand Cru Alsace Riesling with a plateau of raw oysters, crab and shellfish",
+      "tablejourney_ref": null,
+      "wine_entities": [
+        "clos-sainte-hune",
+        "zind-humbrecht-clos-saint-urbain-rangen-riesling",
+        "weinbach-schlossberg-riesling-cuvee-sainte-catherine",
+        "schoffit-clos-saint-theobald-rangen-riesling"
+      ],
+      "description": "Top-tier Alsace Riesling, with its saline mineral and racy acid, is the great non-Champagne French shellfish wine. Granite and volcanic Grand Crus particularly amplify oyster brine.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.vinsalsace.com/en/",
+        "open_status": "open",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "pinot-gris-with-roast-pork",
+      "name": "Alsace Pinot Gris with roast pork and apples",
+      "pairing": "Off-dry Pinot Gris with roast pork loin and apples",
+      "tablejourney_ref": null,
+      "wine_entities": [
+        "zind-humbrecht-heimbourg-pinot-gris",
+        "schlumberger-spiegel-pinot-gris",
+        "leon-beyer-pinot-gris-reserve",
+        "boxler-sommerberg-pinot-gris"
+      ],
+      "description": "Pinot Gris's smoky pear, almond and gentle off-dryness mirror the apple sweetness of a herbed roast pork loin. A classic Alsace Sunday-lunch pairing.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.vinsalsace.com/en/",
+        "open_status": "open",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "klevener-with-tarte-flambee-special",
+      "name": "Klevener de Heiligenstein with white tarte flambee",
+      "pairing": "Klevener de Heiligenstein with tarte flambee specials (mushroom, gruyere)",
+      "tablejourney_ref": "france/strasbourg/dish/tarte-flambee",
+      "wine_entities": [
+        "stoeffler-klevener-de-heiligenstein"
+      ],
+      "description": "Klevener de Heiligenstein, the rare Savagnin Rose appellation north of Andlau, gives an aromatic but restrained white that handles the white tarte flambee variants with extra cheese or mushroom.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://tablejourney.com/france/strasbourg/dish/tarte-flambee/",
+        "open_status": "open",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "natural-wine-with-pain-d-epices-pork",
+      "name": "Natural Pinot Noir with pain d epices glazed pork",
+      "pairing": "Natural Alsace Pinot Noir with pork glazed in pain d epices spice",
+      "tablejourney_ref": "france/strasbourg/dish/pain-d-epices",
+      "wine_entities": [
+        "achillee-pinot-noir",
+        "marc-tempe-zellenberg-pinot-noir"
+      ],
+      "description": "Pain d epices, the Alsace spice bread of honey, anise and cinnamon, often glazes a pork rib. A light natural Pinot Noir matches the warming spice without competing for weight.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://tablejourney.com/france/strasbourg/dish/pain-d-epices/",
+        "open_status": "open",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "complanted-with-roast-goose",
+      "name": "Complanted Grand Cru with roast goose",
+      "pairing": "Complanted Alsace Grand Cru with roast goose and chestnut stuffing",
+      "tablejourney_ref": null,
+      "wine_entities": [
+        "marcel-deiss-mambourg-grand-cru",
+        "marcel-deiss-altenberg-de-bergheim",
+        "binner-kaefferkopf-cuvee-beatrice",
+        "ribeauville-clos-du-zahnacker"
+      ],
+      "description": "The complanted Grand Crus of Marcel Deiss, Binner and the Ribeauville cooperative pair the noble grapes for a multi-axis aromatic profile that handles the richness of festive game bird.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.vinsalsace.com/en/",
+        "open_status": "open",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "orange-wine-with-munster-curry",
+      "name": "Alsace orange wine with spiced washed-rind cheese or curry",
+      "pairing": "Skin-macerated Alsace orange wine with Munster or mild Indian curry",
+      "tablejourney_ref": "france/strasbourg/dish/munster",
+      "wine_entities": [
+        "frick-steinert-pinot-gris-macere",
+        "rietsch-macere-pinot-gris",
+        "binner-saveurs-printanieres"
+      ],
+      "description": "Alsace orange wine (skin-macerated Pinot Gris or field blend) has gentle tannic grip and dried apricot weight that loves pungent washed-rind cheese and mild curries with cumin and coriander.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://tablejourney.com/france/strasbourg/dish/munster/",
+        "open_status": "open",
+        "checked_on": "2026-05-30"
+      }
+    }
+  ]
+}

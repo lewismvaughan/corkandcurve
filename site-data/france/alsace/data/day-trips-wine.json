@@ -1,0 +1,172 @@
+{
+  "day_trips_wine": [
+    {
+      "slug": "champagne-reims-and-epernay",
+      "name": "Champagne (Reims and Epernay)",
+      "distance_km": 380,
+      "travel_time": "3h 30m by car or 2h 45m by TGV via Strasbourg",
+      "destination_country": "France",
+      "destination_region": "Champagne",
+      "signature_pours": ["Brut NV", "Blanc de Blancs", "Vintage Champagne", "Rose de Saignee"],
+      "recommended_vineyards": [],
+      "description": "France's sparkling-wine capital sits four hours west of Alsace by car. Reims for the Gothic cathedral and the major houses, Epernay for the Avenue de Champagne and its show cellars, the obvious counterpart to Alsace's Cremant slope.",
+      "tip": "Champagne is a long day; turn it into a weekend by booking Reims accommodation and visiting two houses each day, mixing a grande marque and a small grower for contrast.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.champagne.fr/en/",
+        "address_quoted": "Champagne",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Champagne",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Reims",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "burgundy-cote-dor",
+      "name": "Burgundy Cote d'Or",
+      "distance_km": 280,
+      "travel_time": "3h by car south to Beaune",
+      "destination_country": "France",
+      "destination_region": "Cote d'Or",
+      "signature_pours": ["Gevrey-Chambertin", "Meursault", "Puligny-Montrachet", "Pommard"],
+      "recommended_vineyards": [],
+      "description": "Three hours south of Colmar lies Beaune and the Cote d'Or, a long-standing benchmark for Pinot Noir and Chardonnay. The 2015 UNESCO Climats put 1,247 named plots from Dijon to Maranges on the world heritage list.",
+      "tip": "Pair a Burgundy weekend with Alsace by basing yourself in Beaune for two nights and Colmar for two; the autoroute connects them in under three hours.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.bourgogne-wines.com/our-terroir-our-wines/history-of-the-bourgogne-winegrowing-region,2447,9226.html",
+        "address_quoted": "Bourgogne",
+        "open_status": "open",
+        "open_evidence_url": "https://www.climats-bourgogne.com/en/the-climats-of-the-bourgogne-vineyards_36.html",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Burgundy_wine",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "jura-arbois-and-chateau-chalon",
+      "name": "Jura (Arbois and Chateau-Chalon)",
+      "distance_km": 220,
+      "travel_time": "2h 30m by car south-west",
+      "destination_country": "France",
+      "destination_region": "Jura",
+      "signature_pours": ["Vin Jaune", "Arbois Savagnin", "Cremant du Jura", "Macvin du Jura"],
+      "recommended_vineyards": [],
+      "description": "Two and a half hours south-west, the Jura makes a distinctive style: oxidative Savagnin, the sherry-like Vin Jaune aged six years under a yeast veil, and Chateau-Chalon, the AOC reserved for Vin Jaune alone.",
+      "tip": "Buy a clavelin, the squat 62cl bottle unique to Vin Jaune, in Arbois or Chateau-Chalon; the wine is a classic match for Comte cheese and roast chicken.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://en.wikipedia.org/wiki/Jura_wine",
+        "address_quoted": "Jura",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Cremant_du_Jura",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Eau-de-vie",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "pfalz-german-wine-route",
+      "name": "Pfalz (German Wine Route)",
+      "distance_km": 90,
+      "travel_time": "1h 15m by car north into the Palatinate",
+      "destination_country": "Germany",
+      "destination_region": "Pfalz",
+      "signature_pours": ["Pfalz Riesling", "Pfalz Pinot Noir (Spatburgunder)", "Pfalz Pinot Blanc (Weissburgunder)"],
+      "recommended_vineyards": [],
+      "description": "Cross the Rhine north into the Pfalz and follow the Deutsche Weinstrasse, Germany's oldest signposted wine route. Riesling and Spatburgunder dominate, and the sandstone-and-limestone soils mirror the Vosges side of the same shared geology.",
+      "tip": "A Pfalz day trip pairs naturally with northern Alsace; cross via the Wissembourg border for the Pfalz's southern villages and a side-by-side German and French Riesling tasting.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.deutscheweinstrasse-pfalz.de/",
+        "address_quoted": "Pfalz",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Pfalz_(wine_region)",
+        "cuisine_evidence_url": "https://www.pfalz.de/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "baden-baden-and-the-black-forest",
+      "name": "Baden-Baden and the Black Forest",
+      "distance_km": 60,
+      "travel_time": "50 min by car east across the Rhine",
+      "destination_country": "Germany",
+      "destination_region": "Baden",
+      "signature_pours": ["Baden Spatburgunder (Pinot Noir)", "Baden Grauburgunder (Pinot Gris)", "Baden Weissburgunder"],
+      "recommended_vineyards": [],
+      "description": "Just across the Rhine, Baden is Germany's southernmost and warmest wine region and a major source of German Spatburgunder Pinot Noir. Baden-Baden adds Belle-Epoque spa houses and the Casino made famous by Dostoevsky.",
+      "tip": "Use Baden-Baden as a half-day add-on to a wine route trip; the spa and the city's restaurants make a good non-wine pause between Alsace cellar days.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.baden-baden.com/en/",
+        "address_quoted": "Baden-Baden",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Baden-Baden",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Baden_(wine_region)",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "basel-and-three-borders",
+      "name": "Basel and the three-borders region",
+      "distance_km": 130,
+      "travel_time": "1h 30m by car south to the Swiss border",
+      "destination_country": "Switzerland",
+      "destination_region": "Basel",
+      "signature_pours": ["Swiss Pinot Noir", "Chasselas from neighbouring vineyards", "Swiss Riesling-Sylvaner"],
+      "recommended_vineyards": [],
+      "description": "Basel sits where France, Germany and Switzerland meet at the Rhine bend. Beyond the Kunstmuseum and Renaissance old town, the surrounding Aargau and Baselland vineyards offer Swiss Pinot Noir and Chasselas from steep south-facing slopes.",
+      "tip": "Swiss bottles rarely leave the country so use the day to taste wines you cannot buy outside Switzerland; the city is also a major art destination with the Fondation Beyeler a short tram ride away.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://en.wikipedia.org/wiki/Basel",
+        "address_quoted": "Basel",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Lake_Constance",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Eau-de-vie",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "lake-constance-bodensee",
+      "name": "Lake Constance (Bodensee)",
+      "distance_km": 250,
+      "travel_time": "2h 30m by car east through the Black Forest",
+      "destination_country": "Germany",
+      "destination_region": "Wurttemberg-Baden",
+      "signature_pours": ["Muller-Thurgau", "Bodensee Spatburgunder", "Bodensee Weissburgunder"],
+      "recommended_vineyards": [],
+      "description": "The Bodensee, where Germany, Switzerland and Austria meet, is the warmest and southernmost German wine zone. Muller-Thurgau dominates, with Spatburgunder and Weissburgunder on the lake's south-facing slopes; the Meersburg shoreline is the postcard side.",
+      "tip": "Easiest as a two-day add-on rather than a same-day round trip; combine a lake-side wine afternoon with a steam-train ride along the German shoreline.",
+      "editorial_score": 4.1,
+      "verified": {
+        "source_url": "https://en.wikipedia.org/wiki/Lake_Constance",
+        "address_quoted": "Bodensee",
+        "open_status": "open",
+        "open_evidence_url": "https://en.wikipedia.org/wiki/Baden_(wine_region)",
+        "cuisine_evidence_url": "https://www.baden-baden.com/en/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "cotes-de-toul-lorraine",
+      "name": "Cotes de Toul (Lorraine)",
+      "distance_km": 150,
+      "travel_time": "1h 45m by car north-west of Strasbourg",
+      "destination_country": "France",
+      "destination_region": "Lorraine",
+      "signature_pours": ["Cotes de Toul Gris (Vin Gris)", "Cotes de Toul Auxerrois", "Cotes de Toul Pinot Noir"],
+      "recommended_vineyards": [],
+      "description": "Often overlooked, the Cotes de Toul AOC in Lorraine makes its name on Vin Gris, a pale pressed-Pinot rose-like style. Auxerrois and Pinot Noir round out a tiny appellation that crystallises what France's far north-east wine country looks like outside Alsace.",
+      "tip": "Vin Gris is the wine to chase here; serve it as you would Provence rose with charcuterie or quiche lorraine, the region's signature savoury tart.",
+      "editorial_score": 4.0,
+      "verified": {
+        "source_url": "https://en.wikipedia.org/wiki/Toul",
+        "address_quoted": "Toul",
+        "open_status": "open",
+        "open_evidence_url": "https://www.inao.gouv.fr/",
+        "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Alsace-Lorraine",
+        "checked_on": "2026-05-30"
+      }
+    }
+  ]
+}

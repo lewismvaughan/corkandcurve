@@ -1,0 +1,76 @@
+{
+  "destination": {
+    "slug": "alsace",
+    "name": "Alsace",
+    "country": "France",
+    "country_slug": "france",
+    "hero_image": "https://upload.wikimedia.org/wikipedia/commons/7/70/Descending_into_Riquewihr_through_vineyards.jpg",
+    "hero_image_source_url": "https://commons.wikimedia.org/wiki/File:Descending_into_Riquewihr_through_vineyards.jpg",
+    "hero_image_credit": "Photo by Adam Baker on Wikimedia Commons, CC BY 2.0",
+    "hero_image_alt": "Vineyards descending through the foothills toward the medieval village of Riquewihr in Alsace",
+    "hero_image_source": "Wikimedia Commons",
+    "hero_image_photographer": "Adam Baker",
+    "hero_image_license": "CC BY 2.0",
+    "blurb": "France's mosaic of granite, limestone and volcanic terroirs along the Vosges, where Riesling, Gewurztraminer and Pinot Gris bottle Alsace's 51 Grands Crus and dual French-German village heritage.",
+    "type": "wine-region",
+    "tagline": "Riesling, Gewurztraminer and 51 Grands Crus on the Vosges flank",
+    "overview": "Alsace stretches along the eastern foot of the Vosges from Marlenheim to Thann, a narrow ribbon of 51 Grands Crus on granite, limestone and volcanic soils. The region's varietally labelled whites, Vendanges Tardives, Selections de Grains Nobles and Cremant d'Alsace are anchored by half-timbered Route des Vins villages.",
+    "cross_site_ref": "france/strasbourg",
+    "cross_site_name": "Strasbourg",
+    "cross_site_relation": "same"
+  },
+  "seo": {
+    "pages": {
+      "index": {
+        "title": "Alsace Wine Region Guide | Cork & Curve",
+        "description": "Explore Alsace wine estates, 51 Grands Crus and Route des Vins villages from Andlau and Riquewihr to Eguisheim, Guebwiller and the volcanic Rangen de Thann."
+      },
+      "vineyards": {
+        "title": "Alsace Vineyards and Domaines | Cork & Curve",
+        "description": "Discover Alsace domaines and maisons from Trimbach and Hugel to Zind-Humbrecht, Weinbach, Marcel Deiss, Albert Mann, Schlumberger and Leon Beyer."
+      },
+      "neighborhoods": {
+        "title": "Alsace Sub-Appellations and Wine Villages | Cork & Curve",
+        "description": "Alsace wine villages from Marlenheim and Mittelbergheim to Ribeauville, Riquewihr, Kaysersberg, Turckheim, Eguisheim, Guebwiller and Thann's Rangen."
+      },
+      "signature-grapes": {
+        "title": "Alsace Signature Grapes | Cork & Curve",
+        "description": "Alsace grape varieties from Riesling and Gewurztraminer to Pinot Gris, Muscat, Sylvaner, Pinot Blanc, Pinot Noir and the rare Klevener de Heiligenstein."
+      }
+    }
+  },
+  "faqs": [
+    {
+      "q": "What grapes is Alsace famous for?",
+      "a": "Alsace is built on seven noble grapes: Riesling, Gewurztraminer, Pinot Gris, Muscat, Sylvaner, Pinot Blanc and the only red, Pinot Noir. Around 90 percent of production is white, and a small Klevener de Heiligenstein niche around Heiligenstein adds Savagnin Rose."
+    },
+    {
+      "q": "How does the Alsace Grand Cru system work?",
+      "a": "Alsace has 51 Grand Cru lieux-dits, each a single named vineyard with its own decree on permitted varieties, yields and vinification. Most allow only the four noble grapes Riesling, Gewurztraminer, Pinot Gris and Muscat, with Zotzenberg the lone Sylvaner Grand Cru and a 2022 reform finally opening Hengst, Kirchberg de Barr and Vorbourg to Pinot Noir."
+    },
+    {
+      "q": "What is Vendanges Tardives and Selection de Grains Nobles?",
+      "a": "Vendanges Tardives (VT) means late-harvest from one of the noble grapes at high natural ripeness; Selection de Grains Nobles (SGN) requires botrytised berries selected one by one. Both are sweet styles introduced by Hugel-led reform in 1984 and produced only in warm vintages."
+    },
+    {
+      "q": "What is Cremant d'Alsace?",
+      "a": "Cremant d'Alsace is the region's traditional-method sparkling AOC, granted in 1976. It is mostly made from Pinot Blanc and Auxerrois with Pinot Gris, Pinot Noir, Riesling and Chardonnay also permitted, and is France's best-selling Cremant outside Champagne."
+    },
+    {
+      "q": "When should you drive the Route des Vins d'Alsace?",
+      "a": "The 170 km Route des Vins runs from Marlenheim south to Thann. Late spring through September is best for cellar visits and village stops, while October's harvest fairs and December's Christmas markets in Colmar, Riquewihr and Strasbourg pair tastings with seasonal cooking."
+    },
+    {
+      "q": "Why are so many Alsace producers biodynamic?",
+      "a": "Alsace converted earlier and more widely than almost any French region: Marc Kreydenweiss, Ostertag, Weinbach, Zind-Humbrecht, Josmeyer, Albert Mann, Marcel Deiss, Schlumberger and dozens more carry Demeter or Biodyvin certification. The narrow band of slopes, dry climate and pure varietal labels make biodynamic conversion legible in the glass."
+    },
+    {
+      "q": "Why are Alsace villages bilingual?",
+      "a": "Alsace switched between France and Germany four times between 1871 and 1945. The result is dual heritage everywhere: French AOC laws on a Germanic varietal-labelling tradition, half-timbered villages with French names spoken in Alsatian dialect, and a winstub culture that sits between bistro and Weinstube."
+    },
+    {
+      "q": "How big is the Alsace vineyard?",
+      "a": "Roughly 15,500 hectares of vines across the Bas-Rhin and Haut-Rhin departments, stretching about 120 km north to south but rarely more than 5 km wide. The CIVA records around 1,000 producers selling under their own label and around a dozen cooperatives."
+    }
+  ]
+}

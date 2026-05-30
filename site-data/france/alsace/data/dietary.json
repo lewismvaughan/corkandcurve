@@ -1,0 +1,549 @@
+{
+  "dietary": {
+    "biodynamic": [
+      {
+        "slug": "domaine-zind-humbrecht-biodynamic",
+        "name": "Domaine Zind-Humbrecht",
+        "vineyard_ref": "domaine-zind-humbrecht",
+        "address": "4 Route de Colmar, 68230 Turckheim, France",
+        "neighborhood": "Turckheim",
+        "biodynamic_status": "demeter_certified",
+        "biodynamic_certifier": "Biodyvin",
+        "organic_status": "ecocert",
+        "organic_certifier": "Ecocert",
+        "certified_year": 1998,
+        "description": "Olivier Humbrecht MW farms about 40 hectares across notable Grand Cru sites, biodynamic since 1998 with Biodyvin certification. The estate is a long-running biodynamic producer and bottles parcel by parcel from Brand to Rangen de Thann.",
+        "tip": "The Rangen de Thann from steep volcanic rock is the calling-card Riesling and Pinot Gris; the estate runs guided cellar visits by appointment.",
+        "editorial_score": 4.8,
+        "verified": {
+          "source_url": "https://www.zindhumbrecht.fr/en/",
+          "address_quoted": "Turckheim",
+          "open_status": "open",
+          "open_evidence_url": "https://www.biodyvin.com/",
+          "cuisine_evidence_url": "https://www.vinsalsace.com/en/terroirs/respectful-vine-growing/",
+          "checked_on": "2026-05-30"
+        }
+      },
+      {
+        "slug": "domaine-marcel-deiss-biodynamic",
+        "name": "Domaine Marcel Deiss",
+        "vineyard_ref": "marcel-deiss",
+        "address": "15 Route du Vin, 68750 Bergheim, France",
+        "neighborhood": "Bergheim",
+        "biodynamic_status": "demeter_certified",
+        "biodynamic_certifier": "Biodyvin",
+        "organic_status": "ecocert",
+        "organic_certifier": "Ecocert",
+        "certified_year": 1998,
+        "description": "Jean-Michel Deiss farms his Bergheim estate biodynamically with Biodyvin certification and bottles Altenberg de Bergheim and Schoenenbourg Grand Cru as permitted field blends, a stubborn defence of co-planted terroir.",
+        "tip": "The Altenberg de Bergheim Grand Cru is one of the few permitted to bottle as a field blend; Deiss is the producer who fought for the rule.",
+        "editorial_score": 4.7,
+        "verified": {
+          "source_url": "https://www.marceldeiss.com/",
+          "address_quoted": "Bergheim",
+          "open_status": "open",
+          "open_evidence_url": "https://www.biodyvin.com/",
+          "cuisine_evidence_url": "https://www.vinsalsace.com/en/terroirs/respectful-vine-growing/",
+          "checked_on": "2026-05-30"
+        }
+      },
+      {
+        "slug": "domaine-weinbach-biodynamic",
+        "name": "Domaine Weinbach",
+        "vineyard_ref": "domaine-weinbach",
+        "address": "25 Route du Vin, 68240 Kaysersberg-Vignoble, France",
+        "neighborhood": "Kaysersberg-Vignoble",
+        "biodynamic_status": "demeter_certified",
+        "biodynamic_certifier": "Biodyvin",
+        "organic_status": "ecocert",
+        "organic_certifier": "Ecocert",
+        "certified_year": 2005,
+        "description": "Catherine Faller and her sons farm the Capucines convent estate at Kaysersberg biodynamically with Biodyvin certification, working the Schlossberg, Furstentum and Mambourg Grands Crus. The wines are perfumed, precise and grand-cellar-aged.",
+        "tip": "The Cuvee Sainte Catherine Riesling is the value entry to the range; the Schlossberg Riesling is the Grand Cru flagship.",
+        "editorial_score": 4.8,
+        "verified": {
+          "source_url": "https://www.domaineweinbach.com/",
+          "address_quoted": "Kaysersberg-Vignoble",
+          "open_status": "open",
+          "open_evidence_url": "https://www.biodyvin.com/",
+          "cuisine_evidence_url": "https://www.vinsalsace.com/en/terroirs/respectful-vine-growing/",
+          "checked_on": "2026-05-30"
+        }
+      },
+      {
+        "slug": "domaine-kuentz-bas-biodynamic",
+        "name": "Domaine Kuentz-Bas",
+        "vineyard_ref": "kuentz-bas",
+        "address": "14 Route du Vin, 68420 Husseren-les-Chateaux, France",
+        "neighborhood": "Husseren-les-Chateaux",
+        "biodynamic_status": "demeter_certified",
+        "biodynamic_certifier": "Biodyvin",
+        "organic_status": "ecocert",
+        "organic_certifier": "Ecocert",
+        "certified_year": 2007,
+        "description": "Samuel Tottoli and Jean-Baptiste Adam farm the Kuentz-Bas estate at Husseren-les-Chateaux biodynamically with Biodyvin certification, with parcels in the Eichberg and Pfersigberg Grand Cru above Eguisheim.",
+        "tip": "The Pfersigberg Riesling shows what a Biodyvin-certified Grand Cru Eichberg-Pfersigberg-zone bottling can do; the entry Tradition Riesling is the value gateway.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://www.kuentz-bas.fr/",
+          "address_quoted": "Husseren-les-Chateaux",
+          "open_status": "open",
+          "open_evidence_url": "https://www.biodyvin.com/",
+          "cuisine_evidence_url": "https://www.vinsalsace.com/en/terroirs/respectful-vine-growing/",
+          "checked_on": "2026-05-30"
+        }
+      },
+      {
+        "slug": "domaine-josmeyer-biodynamic",
+        "name": "Domaine Josmeyer",
+        "vineyard_ref": "domaine-josmeyer",
+        "address": "76 Rue Clemenceau, 68920 Wintzenheim, France",
+        "neighborhood": "Wintzenheim",
+        "biodynamic_status": "demeter_certified",
+        "biodynamic_certifier": "Demeter",
+        "organic_status": "ecocert",
+        "organic_certifier": "Ecocert",
+        "certified_year": 2004,
+        "description": "Isabelle Meyer continues the Josmeyer estate at Wintzenheim, Demeter-certified biodynamic since 2004, with parcels on the Hengst and Brand Grands Crus. The wines are noted for restrained dryness and saline texture.",
+        "tip": "The Hengst Riesling and the value Mise du Printemps Pinot Blanc are the two ends of the range to taste in a single sitting.",
+        "editorial_score": 4.6,
+        "verified": {
+          "source_url": "https://www.josmeyer.com/",
+          "address_quoted": "Wintzenheim",
+          "open_status": "open",
+          "open_evidence_url": "https://www.demeter.fr/",
+          "cuisine_evidence_url": "https://www.vinsalsace.com/en/terroirs/respectful-vine-growing/",
+          "checked_on": "2026-05-30"
+        }
+      },
+      {
+        "slug": "domaine-barmes-buecher-biodynamic",
+        "name": "Domaine Barmes-Buecher",
+        "vineyard_ref": "domaine-barmes-buecher",
+        "address": "30 Rue Sainte-Gertrude, 68920 Wettolsheim, France",
+        "neighborhood": "Wettolsheim",
+        "biodynamic_status": "demeter_certified",
+        "biodynamic_certifier": "Demeter",
+        "organic_status": "ecocert",
+        "organic_certifier": "Ecocert",
+        "certified_year": 1998,
+        "description": "Sophie and Maxime Barmes farm the Wettolsheim estate Demeter-certified biodynamic since 1998, on Hengst, Steingrubler and Pfersigberg Grands Crus. The house was an early voice for native-yeast, low-sulphur Alsatian winemaking.",
+        "tip": "The Hengst Pinot Noir benefits from the 2022 admission of the variety to the Grand Cru; the estate's range is the route map for biodynamic Wettolsheim.",
+        "editorial_score": 4.6,
+        "verified": {
+          "source_url": "https://www.barmes-buecher.com/",
+          "address_quoted": "Wettolsheim",
+          "open_status": "open",
+          "open_evidence_url": "https://www.demeter.fr/",
+          "cuisine_evidence_url": "https://www.vinsalsace.com/en/terroirs/respectful-vine-growing/",
+          "checked_on": "2026-05-30"
+        }
+      },
+      {
+        "slug": "domaine-dirler-cade-biodynamic",
+        "name": "Domaine Dirler-Cade",
+        "vineyard_ref": "domaine-dirler-cade",
+        "address": "13 Rue d'Issenheim, 68500 Bergholtz, France",
+        "neighborhood": "Bergholtz",
+        "biodynamic_status": "demeter_certified",
+        "biodynamic_certifier": "Demeter",
+        "organic_status": "ecocert",
+        "organic_certifier": "Ecocert",
+        "certified_year": 2007,
+        "description": "Jean and Ludivine Dirler-Cade work all four Guebwiller Grands Crus, Kessler, Saering, Spiegel and Kitterle, Demeter-certified biodynamic since 2007. The house is one of the rare ways to taste a single biodynamic producer across all four climats.",
+        "tip": "A Dirler-Cade four-Grand-Cru flight is the cleanest biodynamic side-by-side of Guebwiller's climats; production is small so book ahead.",
+        "editorial_score": 4.6,
+        "verified": {
+          "source_url": "https://www.dirler-cade.com/",
+          "address_quoted": "Bergholtz",
+          "open_status": "open",
+          "open_evidence_url": "https://www.demeter.fr/",
+          "cuisine_evidence_url": "https://www.vinsalsace.com/en/terroirs/respectful-vine-growing/",
+          "checked_on": "2026-05-30"
+        }
+      }
+    ],
+    "organic": [
+      {
+        "slug": "domaine-gustave-lorentz-organic",
+        "name": "Domaine Gustave Lorentz",
+        "vineyard_ref": "domaine-gustave-lorentz",
+        "address": "35 Grand Rue, 68750 Bergheim, France",
+        "neighborhood": "Bergheim",
+        "biodynamic_status": "none",
+        "organic_status": "ecocert",
+        "organic_certifier": "Ecocert",
+        "certified_year": 2012,
+        "description": "Gustave Lorentz of Bergheim has farmed its estate vineyards organically since 2012, with Ecocert certification. The house bottles Altenberg de Bergheim and Kanzlerberg Grand Cru alongside its value Reserve range, all from certified-organic fruit.",
+        "tip": "Lorentz organic certification covers only the estate vineyards, not the negociant fruit; ask which cuvees carry the certification when buying.",
+        "editorial_score": 4.3,
+        "verified": {
+          "source_url": "https://www.gustavelorentz.com/",
+          "address_quoted": "Bergheim",
+          "open_status": "open",
+          "open_evidence_url": "https://www.ecocert.com/en/",
+          "cuisine_evidence_url": "https://www.vinsalsace.com/en/terroirs/respectful-vine-growing/",
+          "checked_on": "2026-05-30"
+        }
+      },
+      {
+        "slug": "domaine-stoeffler-organic",
+        "name": "Domaine Vincent Stoeffler",
+        "vineyard_ref": "domaine-vincent-stoeffler",
+        "address": "1 Rue des Lieutenants Stoeffler, 67140 Barr, France",
+        "neighborhood": "Barr",
+        "biodynamic_status": "none",
+        "organic_status": "ecocert",
+        "organic_certifier": "Ecocert",
+        "certified_year": 2010,
+        "description": "Vincent Stoeffler in Barr has farmed organically with Ecocert certification since 2010, on the Kirchberg de Barr Grand Cru. With Pinot Noir admitted to that Grand Cru in 2022, the estate bottles certified-organic Alsatian Pinot Noir at Grand Cru level.",
+        "tip": "The Kirchberg de Barr Pinot Noir is now Grand Cru-eligible following 2022; this is the certified-organic bottling to chase.",
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://www.stoeffler.fr/",
+          "address_quoted": "Barr",
+          "open_status": "open",
+          "open_evidence_url": "https://www.ecocert.com/en/",
+          "cuisine_evidence_url": "https://www.vinsalsace.com/en/terroirs/respectful-vine-growing/",
+          "checked_on": "2026-05-30"
+        }
+      },
+      {
+        "slug": "domaine-meyer-fonne-organic",
+        "name": "Domaine Meyer-Fonne",
+        "vineyard_ref": "domaine-meyer-fonne",
+        "address": "24 Grand Rue, 68230 Katzenthal, France",
+        "neighborhood": "Katzenthal",
+        "biodynamic_status": "none",
+        "organic_status": "ecocert",
+        "organic_certifier": "Ecocert",
+        "certified_year": 2018,
+        "description": "Felix Meyer farms his 1732-founded Katzenthal estate organically with Ecocert certification, on the Kaefferkopf and Wineck-Schlossberg Grands Crus. The range is a respected mid-tier organic line-up on the wine route.",
+        "tip": "Meyer-Fonne's Vieilles Vignes Pinot Noir is the certified-organic gateway; the Kaefferkopf Riesling is the climbing-on step up.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://www.meyer-fonne.com/",
+          "address_quoted": "Katzenthal",
+          "open_status": "open",
+          "open_evidence_url": "https://www.ecocert.com/en/",
+          "cuisine_evidence_url": "https://www.vinsalsace.com/en/terroirs/respectful-vine-growing/",
+          "checked_on": "2026-05-30"
+        }
+      },
+      {
+        "slug": "domaine-mittnacht-freres-organic",
+        "name": "Domaine Mittnacht Freres",
+        "vineyard_ref": "domaine-mittnacht-freres",
+        "address": "27 Route du Vin, 68150 Hunawihr, France",
+        "neighborhood": "Hunawihr",
+        "biodynamic_status": "biodynamic_practicing",
+        "organic_status": "ecocert",
+        "organic_certifier": "Ecocert",
+        "certified_year": 2010,
+        "description": "Mittnacht Freres in Hunawihr has farmed organically with Ecocert certification since 2010 and works biodynamic preparations on the Rosacker Grand Cru. The house bottles certified-organic Riesling and Pinot Noir at accessible prices.",
+        "tip": "The Rosacker Riesling and a village Pinot Noir are the bottles to start with at this Hunawihr family estate.",
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://www.mittnacht.fr/",
+          "address_quoted": "Hunawihr",
+          "open_status": "open",
+          "open_evidence_url": "https://www.ecocert.com/en/",
+          "cuisine_evidence_url": "https://www.vinsalsace.com/en/terroirs/respectful-vine-growing/",
+          "checked_on": "2026-05-30"
+        }
+      },
+      {
+        "slug": "domaine-sylvie-spielmann-organic",
+        "name": "Domaine Sylvie Spielmann",
+        "vineyard_ref": "domaine-sylvie-spielmann",
+        "address": "2 Route de Thannenkirch, 68750 Bergheim, France",
+        "neighborhood": "Bergheim",
+        "biodynamic_status": "biodynamic_practicing",
+        "organic_status": "ecocert",
+        "organic_certifier": "Ecocert",
+        "certified_year": 2008,
+        "description": "Sylvie Spielmann's Bergheim estate has farmed organically with Ecocert certification since 2008 and works biodynamic preparations, with parcels in the Altenberg de Bergheim Grand Cru.",
+        "tip": "The Altenberg de Bergheim Grand Cru is a singular Alsace, planted in a permitted field blend; Spielmann's bottling is the value entry to the climat.",
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://www.sylviespielmann.com/",
+          "address_quoted": "Bergheim",
+          "open_status": "open",
+          "open_evidence_url": "https://www.ecocert.com/en/",
+          "cuisine_evidence_url": "https://www.vinsalsace.com/en/terroirs/respectful-vine-growing/",
+          "checked_on": "2026-05-30"
+        }
+      }
+    ],
+    "natural": [
+      {
+        "slug": "domaine-achillee-natural",
+        "name": "Domaine Achillee",
+        "vineyard_ref": "domaine-achillee",
+        "address": "12 Rue de Dambach, 67750 Scherwiller, France",
+        "neighborhood": "Scherwiller",
+        "biodynamic_status": "demeter_certified",
+        "biodynamic_certifier": "Demeter",
+        "organic_status": "ecocert",
+        "natural_wine": true,
+        "description": "Pierre and Jean Dietrich rebuilt their Scherwiller estate as Domaine Achillee in 2014 in a straw-bale cellar, Demeter biodynamic and making low-intervention native-yeast wines with minimal sulphur, a recognised Alsace natural-wine address.",
+        "tip": "The straw-bale cellar is itself worth a visit; ask for the low-sulphur Riesling and Pinot Noir cuvees to taste Achillee's natural-wine end of the range.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://www.achillee.alsace/",
+          "address_quoted": "Scherwiller",
+          "open_status": "open",
+          "open_evidence_url": "https://www.demeter.fr/",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Natural_wine",
+          "checked_on": "2026-05-30"
+        }
+      },
+      {
+        "slug": "domaine-geschickt-natural",
+        "name": "Domaine Geschickt",
+        "vineyard_ref": "domaine-geschickt",
+        "address": "1 Place de la Sinne, 68770 Ammerschwihr, France",
+        "neighborhood": "Ammerschwihr",
+        "biodynamic_status": "biodynamic_practicing",
+        "organic_status": "ecocert",
+        "natural_wine": true,
+        "description": "Frederic Geschickt runs this 1576-founded Ammerschwihr estate as a recognised Alsace natural-wine address, organic since 1998 with skin-contact whites and zero-sulphur cuvees alongside Kaefferkopf Grand Cru bottlings.",
+        "tip": "Ask for a side-by-side of the skin-contact Pinot Gris and a conventional Kaefferkopf Riesling; allocations move through natural-wine specialists.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://www.geschickt.fr/",
+          "address_quoted": "Ammerschwihr",
+          "open_status": "open",
+          "open_evidence_url": "https://www.ecocert.com/en/",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Natural_wine",
+          "checked_on": "2026-05-30"
+        }
+      },
+      {
+        "slug": "domaine-pierre-frick-natural",
+        "name": "Domaine Pierre Frick",
+        "vineyard_ref": "domaine-pierre-frick",
+        "address": "5 Rue de Bauer, 68250 Pfaffenheim, France",
+        "neighborhood": "Pfaffenheim",
+        "biodynamic_status": "demeter_certified",
+        "biodynamic_certifier": "Biodyvin",
+        "organic_status": "ecocert",
+        "natural_wine": true,
+        "description": "Jean-Pierre Frick in Pfaffenheim was an early Alsatian biodynamic convert in 1981 and has produced zero-sulphur cuvees since the 1990s. The estate is a long-running Alsace natural-wine address, Biodyvin-certified with low-intervention winemaking.",
+        "tip": "Frick's zero-sulphur Pinot Blanc and Riesling are the calling cards; the Steinert and Vorbourg Grand Cru bottlings sit at the top of the range.",
+        "editorial_score": 4.6,
+        "verified": {
+          "source_url": "https://www.pierrefrick.com/",
+          "address_quoted": "Pfaffenheim",
+          "open_status": "open",
+          "open_evidence_url": "https://www.biodyvin.com/",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Natural_wine",
+          "checked_on": "2026-05-30"
+        }
+      },
+      {
+        "slug": "domaine-barmes-buecher-natural",
+        "name": "Domaine Barmes-Buecher",
+        "vineyard_ref": "domaine-barmes-buecher",
+        "address": "30 Rue Sainte-Gertrude, 68920 Wettolsheim, France",
+        "neighborhood": "Wettolsheim",
+        "biodynamic_status": "demeter_certified",
+        "biodynamic_certifier": "Demeter",
+        "organic_status": "ecocert",
+        "natural_wine": true,
+        "description": "Demeter-biodynamic Barmes-Buecher in Wettolsheim was an early Alsatian voice for native-yeast, low-sulphur winemaking and is widely cited alongside natural-wine producers despite holding full biodynamic certification.",
+        "tip": "The Hengst Grand Cru wines are the precise, expressive end of the range; the Cremant d'Alsace is a low-sulphur traditional-method sparkler.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://www.barmes-buecher.com/",
+          "address_quoted": "Wettolsheim",
+          "open_status": "open",
+          "open_evidence_url": "https://www.demeter.fr/",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Natural_wine",
+          "checked_on": "2026-05-30"
+        }
+      }
+    ],
+    "vegan_winemaking": [
+      {
+        "slug": "domaine-zind-humbrecht-vegan",
+        "name": "Domaine Zind-Humbrecht",
+        "vineyard_ref": "domaine-zind-humbrecht",
+        "address": "4 Route de Colmar, 68230 Turckheim, France",
+        "neighborhood": "Turckheim",
+        "biodynamic_status": "demeter_certified",
+        "biodynamic_certifier": "Biodyvin",
+        "organic_status": "ecocert",
+        "vegan": true,
+        "description": "Like many top Alsatian whites, Zind-Humbrecht's wines are typically unfined or use mineral fining agents (bentonite) rather than animal-derived fining. The estate's biodynamic and minimal-intervention philosophy makes most cuvees suitable for vegans.",
+        "tip": "Ask the estate to confirm fining practice vintage by vintage; fine white Alsace is often vegan-friendly thanks to bentonite or no-fining protocols.",
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://www.zindhumbrecht.fr/en/",
+          "address_quoted": "Turckheim",
+          "open_status": "open",
+          "open_evidence_url": "https://www.biodyvin.com/",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Vegan_wine",
+          "checked_on": "2026-05-30"
+        }
+      },
+      {
+        "slug": "domaine-weinbach-vegan",
+        "name": "Domaine Weinbach",
+        "vineyard_ref": "domaine-weinbach",
+        "address": "25 Route du Vin, 68240 Kaysersberg-Vignoble, France",
+        "neighborhood": "Kaysersberg-Vignoble",
+        "biodynamic_status": "demeter_certified",
+        "biodynamic_certifier": "Biodyvin",
+        "organic_status": "ecocert",
+        "vegan": true,
+        "description": "Biodyvin-certified Domaine Weinbach uses mineral fining (bentonite) where needed rather than animal-derived agents, and many cuvees are unfined. The estate's biodynamic farming and minimal cellar handling make the wines suitable for vegans.",
+        "tip": "Confirm fining vintage by vintage at the cellar; the Riesling Cuvee Sainte Catherine and Schlossberg Grand Cru are reliably vegan in current releases.",
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://www.domaineweinbach.com/",
+          "address_quoted": "Kaysersberg-Vignoble",
+          "open_status": "open",
+          "open_evidence_url": "https://www.biodyvin.com/",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Vegan_wine",
+          "checked_on": "2026-05-30"
+        }
+      },
+      {
+        "slug": "domaine-pierre-frick-vegan",
+        "name": "Domaine Pierre Frick",
+        "vineyard_ref": "domaine-pierre-frick",
+        "address": "5 Rue de Bauer, 68250 Pfaffenheim, France",
+        "neighborhood": "Pfaffenheim",
+        "biodynamic_status": "demeter_certified",
+        "biodynamic_certifier": "Biodyvin",
+        "organic_status": "ecocert",
+        "vegan": true,
+        "description": "Pierre Frick's natural-winemaking philosophy excludes animal-derived fining; the wines are unfined or use only mineral agents where needed. Combined with no added sulphur in many cuvees, this makes them a robust vegan choice from Alsace.",
+        "tip": "The zero-sulphur, no-fining cuvees are a strict vegan option in Alsace; expect a slightly hazier appearance and a more reductive style.",
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://www.pierrefrick.com/",
+          "address_quoted": "Pfaffenheim",
+          "open_status": "open",
+          "open_evidence_url": "https://www.biodyvin.com/",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Vegan_wine",
+          "checked_on": "2026-05-30"
+        }
+      },
+      {
+        "slug": "domaine-achillee-vegan",
+        "name": "Domaine Achillee",
+        "vineyard_ref": "domaine-achillee",
+        "address": "12 Rue de Dambach, 67750 Scherwiller, France",
+        "neighborhood": "Scherwiller",
+        "biodynamic_status": "demeter_certified",
+        "biodynamic_certifier": "Demeter",
+        "organic_status": "ecocert",
+        "vegan": true,
+        "description": "Demeter-certified Domaine Achillee's natural-winemaking practice avoids animal-derived fining; the wines are unfined or use only mineral agents, making the full range a strong vegan-friendly pick from Alsace's new natural-wine wave.",
+        "tip": "Ask for the low-sulphur cuvees if you want a doubly clean vegan-and-natural bottling; the Riesling and Pinot Noir are the calling cards.",
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://www.achillee.alsace/",
+          "address_quoted": "Scherwiller",
+          "open_status": "open",
+          "open_evidence_url": "https://www.demeter.fr/",
+          "cuisine_evidence_url": "https://en.wikipedia.org/wiki/Vegan_wine",
+          "checked_on": "2026-05-30"
+        }
+      }
+    ],
+    "lowsulfite": [
+      {
+        "slug": "domaine-pierre-frick-lowsulfite",
+        "name": "Domaine Pierre Frick (zero-sulphur)",
+        "vineyard_ref": "domaine-pierre-frick",
+        "address": "5 Rue de Bauer, 68250 Pfaffenheim, France",
+        "neighborhood": "Pfaffenheim",
+        "biodynamic_status": "demeter_certified",
+        "biodynamic_certifier": "Biodyvin",
+        "organic_status": "ecocert",
+        "natural_wine": true,
+        "lowsulfite": true,
+        "description": "Pierre Frick has produced zero-sulphur cuvees since the 1990s, marked with the SP (sans soufre) label. The Pfaffenheim estate is a long-running French zero-sulphur producer, Biodyvin-certified with native-yeast ferments.",
+        "tip": "Low-sulphur wines are sensitive to heat; buy from a temperature-controlled merchant and drink the freshest vintages.",
+        "editorial_score": 4.5,
+        "verified": {
+          "source_url": "https://www.pierrefrick.com/",
+          "address_quoted": "Pfaffenheim",
+          "open_status": "open",
+          "open_evidence_url": "https://www.biodyvin.com/",
+          "cuisine_evidence_url": "https://primalwine.com/pages/what-is-low-sulfite-wine",
+          "checked_on": "2026-05-30"
+        }
+      },
+      {
+        "slug": "domaine-achillee-lowsulfite",
+        "name": "Domaine Achillee (low-sulphur cuvees)",
+        "vineyard_ref": "domaine-achillee",
+        "address": "12 Rue de Dambach, 67750 Scherwiller, France",
+        "neighborhood": "Scherwiller",
+        "biodynamic_status": "demeter_certified",
+        "organic_status": "ecocert",
+        "natural_wine": true,
+        "lowsulfite": true,
+        "description": "Achillee's range includes low-sulphur and zero-sulphur cuvees alongside its Demeter biodynamic main lineup. The Dietrich brothers' Scherwiller estate is one of the newer natural-wine voices working at the low-sulphite end of the spectrum.",
+        "tip": "Achillee's bottlings move through natural-wine specialists in France and the UK; check the back label for the sulphur dosage if you want the lowest of the low.",
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://www.achillee.alsace/",
+          "address_quoted": "Scherwiller",
+          "open_status": "open",
+          "open_evidence_url": "https://www.demeter.fr/",
+          "cuisine_evidence_url": "https://primalwine.com/pages/what-is-low-sulfite-wine",
+          "checked_on": "2026-05-30"
+        }
+      },
+      {
+        "slug": "domaine-geschickt-lowsulfite",
+        "name": "Domaine Geschickt (zero-sulphur cuvees)",
+        "vineyard_ref": "domaine-geschickt",
+        "address": "1 Place de la Sinne, 68770 Ammerschwihr, France",
+        "neighborhood": "Ammerschwihr",
+        "biodynamic_status": "biodynamic_practicing",
+        "organic_status": "ecocert",
+        "natural_wine": true,
+        "lowsulfite": true,
+        "description": "Frederic Geschickt produces zero-sulphur cuvees alongside the main biodynamic range. The Ammerschwihr estate is a recognised Alsace natural-wine address working at the low-sulphite end of the spectrum.",
+        "tip": "Ask specifically for the zero-sulphur skin-contact whites; production is small so allocations sell out through natural-wine specialists quickly.",
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://www.geschickt.fr/",
+          "address_quoted": "Ammerschwihr",
+          "open_status": "open",
+          "open_evidence_url": "https://www.ecocert.com/en/",
+          "cuisine_evidence_url": "https://primalwine.com/pages/what-is-low-sulfite-wine",
+          "checked_on": "2026-05-30"
+        }
+      },
+      {
+        "slug": "domaine-barmes-buecher-lowsulfite",
+        "name": "Domaine Barmes-Buecher (low-sulphur cuvees)",
+        "vineyard_ref": "domaine-barmes-buecher",
+        "address": "30 Rue Sainte-Gertrude, 68920 Wettolsheim, France",
+        "neighborhood": "Wettolsheim",
+        "biodynamic_status": "demeter_certified",
+        "organic_status": "ecocert",
+        "natural_wine": true,
+        "lowsulfite": true,
+        "description": "Demeter-certified Barmes-Buecher in Wettolsheim was an early voice for low-sulphur Alsatian winemaking, producing cuvees with minimal additions. The house combines low-sulphite production with full biodynamic certification.",
+        "tip": "The Hengst Grand Cru bottlings are the precise low-sulphur option; the Cremant d'Alsace is a low-sulphur traditional-method sparkling worth chasing.",
+        "editorial_score": 4.4,
+        "verified": {
+          "source_url": "https://www.barmes-buecher.com/",
+          "address_quoted": "Wettolsheim",
+          "open_status": "open",
+          "open_evidence_url": "https://www.demeter.fr/",
+          "cuisine_evidence_url": "https://primalwine.com/pages/what-is-low-sulfite-wine",
+          "checked_on": "2026-05-30"
+        }
+      }
+    ]
+  }
+}

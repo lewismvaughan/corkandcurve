@@ -1,0 +1,183 @@
+{
+  "wine_schools": [
+    {
+      "slug": "ecole-des-vins-alsace-colmar",
+      "name": "Ecole des Vins d'Alsace",
+      "address": "12 Avenue de la Foire aux Vins, 68000 Colmar, France",
+      "neighborhood": "Colmar",
+      "description": "Official Alsace wine school operated by CIVA at the Maison des Vins. Workshops on grape varieties, terroir and Grand Cru study, plus multi-day certified courses for trade and consumers.",
+      "courses_offered": [
+        "Discover Alsace wines tasting workshop",
+        "Grand Cru study workshop",
+        "Cremant d'Alsace tasting",
+        "Multi-day Alsace certified programme"
+      ],
+      "languages": ["French", "English", "German"],
+      "price_range": "Tasting workshops from around EUR 30; multi-day certified courses several hundred euros",
+      "certifications": ["CIVA Alsace wine education"],
+      "booking_url": "https://www.vinsalsace.com/en/contact/",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.vinsalsace.com/en/contact/",
+        "address_quoted": "12 avenue de la Foire-Aux-Vins BP 11217 68012 Colmar Cedex France",
+        "open_status": "open",
+        "open_evidence_url": "https://www.pagesjaunes.fr/pros/00269299",
+        "cuisine_evidence_url": "https://www.petitfute.co.uk/v592-colmar-68000/c650-produits-gourmands-vins/c1117-vins-alcools-boissons-sans-alcool/809295-conseil-interprofessionnel-des-vins-d-alsace.html",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "aiva-landersheim",
+      "name": "Academie Internationale des Vins en Alsace",
+      "address": "4 Route de Saessolsheim, 67700 Landersheim, France",
+      "neighborhood": "Landersheim",
+      "description": "One of the few WSET-approved providers in France, AIVA in Landersheim near Strasbourg runs WSET Levels 1, 2 and 3 in wine and spirits with Diego Bonnel as the lead instructor.",
+      "courses_offered": [
+        "WSET Level 1 in Wines",
+        "WSET Level 2 in Wines",
+        "WSET Level 3 in Wines",
+        "WSET Spirits modules"
+      ],
+      "languages": ["French", "English"],
+      "price_range": "WSET Level 1 EUR 275; WSET Level 2 EUR 670; WSET Level 3 multi-day programme",
+      "certifications": ["WSET Level 1", "WSET Level 2", "WSET Level 3"],
+      "booking_url": "https://aiva-eu.com/wset/",
+      "meeting_point": "AIVA Landersheim campus",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://aiva-eu.com/wset/",
+        "address_quoted": "67700 LANDERSHEIM",
+        "open_status": "open",
+        "open_evidence_url": "https://annuaire-entreprises.data.gouv.fr/etablissement/83230575900025",
+        "cuisine_evidence_url": "https://aiva-eu.com/lacademie/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "musee-vins-colmar-tasting",
+      "name": "Musee des Vins d'Alsace Tasting Workshops",
+      "address": "12 Place de la Cathedrale, 68000 Colmar, France",
+      "neighborhood": "Colmar old town",
+      "description": "Cathedral-square wine museum with audio-guided tasting workshops in seven languages plus dedicated initiation classes on Riesling, Gewurztraminer and Pinot Noir from the Domaine Viticole de Colmar.",
+      "courses_offered": [
+        "90-minute audio-guide tasting",
+        "Initiation flight: Riesling, Gewurztraminer, Pinot Noir",
+        "Grape juice tasting for non-drinkers"
+      ],
+      "languages": ["French", "English", "German", "Italian", "Spanish", "Dutch", "Chinese"],
+      "price_range": "Adult EUR 15, reduced EUR 13, children EUR 9",
+      "certifications": [],
+      "booking_url": "https://www.museeduvin-colmar.fr/?lang=en",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.museeduvin-colmar.fr/?lang=en",
+        "address_quoted": "12 place de la Cathedrale 68000 Colmar",
+        "open_status": "open",
+        "open_evidence_url": "https://www.explore-grandest.com/en/offerings/activities/arts-culture/alsace-wine-museum/",
+        "cuisine_evidence_url": "https://www.museeduvin-colmar.fr/alsace-wine-tasting?lang=en",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "cercle-aromes-school-colmar",
+      "name": "Le Cercle des Aromes Tasting School",
+      "address": "1 Rue Schongauer, 68000 Colmar, France",
+      "neighborhood": "Colmar old town",
+      "description": "Sommelier-led tasting workshops in Le Cercle des Aromes wine bar with themed Grand Cru, Cremant and biodynamic-Alsace classes, plus food-and-wine pairing evenings.",
+      "courses_offered": [
+        "Alsace Grand Cru flight",
+        "Cremant d'Alsace masterclass",
+        "Biodynamic and natural Alsace tasting",
+        "Food and wine pairing evening"
+      ],
+      "languages": ["French", "English"],
+      "price_range": "Workshops from EUR 35 per person",
+      "certifications": [],
+      "booking_url": "https://lecercledesaromes.fr/en",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://lecercledesaromes.fr/en",
+        "address_quoted": "1 rue Schongauer",
+        "open_status": "open",
+        "open_evidence_url": "https://foodandgood.fr/en/the-circle-of-aromas/",
+        "cuisine_evidence_url": "https://www.tripadvisor.com/ShowUserReviews-g187073-d13330169-r614691394-Le_Cercle_Des_Aromes-Colmar_Haut_Rhin_Grand_Est.html",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "cave-beblenheim-workshops",
+      "name": "Cave Vinicole de Beblenheim Tasting Workshops",
+      "address": "14 Rue de Hoen, 68980 Beblenheim, France",
+      "neighborhood": "Beblenheim",
+      "description": "Cooperative cellar in 15th-century buildings with hundred-year oak barrels, running guided tastings of single-cru Rieslings and the gold-medal Cuvee Prestige Cremant d'Alsace.",
+      "courses_offered": [
+        "Cooperative cellar visit with tasting",
+        "Cremant d'Alsace tasting",
+        "Grand Cru Sonnenglanz workshop"
+      ],
+      "languages": ["French", "English", "German"],
+      "price_range": "Workshops from EUR 12 per person",
+      "certifications": [],
+      "booking_url": "https://www.cave-beblenheim.com/en/",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.cave-beblenheim.com/en/",
+        "address_quoted": "14 rue de Hoen",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wineroute.alsace/229002792-cooperative-wine-cellar-of-beblenheim/",
+        "cuisine_evidence_url": "https://www.petitfute.co.uk/v553-beblenheim-68980/c650-produits-gourmands-vins/c1117-vins-alcools-boissons-sans-alcool/c715-caves-maisons-des-vins/301111-cave-de-beblenheim.html",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "domaines-schlumberger-workshop",
+      "name": "Domaines Schlumberger Wine and Cheese Workshop",
+      "address": "100 Rue Theodore Deck, 68500 Guebwiller, France",
+      "neighborhood": "Guebwiller",
+      "description": "Saturday wine-and-cheese pairing class at Domaines Schlumberger's Guebwiller cellar, pairing the four Guebwiller Grand Crus with Alsace and Vosges artisanal cheeses.",
+      "courses_offered": [
+        "Wine and cheese pairing class",
+        "Prestige cellar visit and tasting",
+        "Adventure visit with Grand Cru flight"
+      ],
+      "languages": ["French", "English", "German"],
+      "price_range": "Wine and Cheese EUR 25; Prestige EUR 25; Adventure EUR 50",
+      "certifications": [],
+      "booking_url": "https://www.domaines-schlumberger.fr/visitez-notre-domaine/",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.domaines-schlumberger.fr/visitez-notre-domaine/",
+        "address_quoted": "100 rue Theodore Deck 68500 Guebwiller",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tourisme-mulhouse.com/en/offers/schlumberger-domaine-guebwiller-en-5217776/",
+        "cuisine_evidence_url": "https://www.alsace-terroir.com/127-domaines-schlumberger",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "hugel-tasting-class-riquewihr",
+      "name": "Famille Hugel Tasting Class",
+      "address": "3 Rue de la 1ere Armee, 68340 Riquewihr, France",
+      "neighborhood": "Riquewihr",
+      "description": "Pre-booked tasting workshops at Famille Hugel's Riquewihr cellars, walking through 12 generations of dry Riesling and a vendanges tardives masterclass.",
+      "courses_offered": [
+        "Heritage cellar visit with guided tasting",
+        "Estate range tasting",
+        "Vendanges Tardives and Grossi Laue masterclass"
+      ],
+      "languages": ["French", "English", "German", "Spanish"],
+      "price_range": "Workshops from EUR 20 per person",
+      "certifications": [],
+      "booking_url": "https://m.hugel.com/2497G1XDFG",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://m.hugel.com/2497G1XDFG",
+        "address_quoted": "3 rue de la 1ere Armee Francaise, 68340 Riquewihr",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wineroute.alsace/229002850-hugel-et-fils-vins/",
+        "cuisine_evidence_url": "https://m.hugel.com/598DGMB3C4",
+        "checked_on": "2026-05-30"
+      }
+    }
+  ]
+}

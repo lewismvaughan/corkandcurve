@@ -1,0 +1,256 @@
+{
+  "tasting_rooms": [
+    {
+      "slug": "wolfberger-eguisheim-cellar",
+      "name": "Wolfberger Cave Vinicole Eguisheim",
+      "address": "6 Grand Rue, 68420 Eguisheim, France",
+      "neighborhood": "Eguisheim",
+      "varietals_focus": ["Riesling", "Gewurztraminer", "Pinot Gris", "Cremant d'Alsace", "Pinot Blanc"],
+      "pricing": "Free self-guided cellar visit and tasting; group cellar tours by reservation",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": "wolfberger",
+      "description": "Founded 1902, Alsace's oldest wine cooperative pours its Cremant, Grand Cru and eau-de-vie range in a cellar lined with 1902 foudres. Free tasting daily for individuals.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.wolfberger.com/en/",
+        "address_quoted": "6 Grand Rue, 68420 Eguisheim",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tourisme-eguisheim-rouffach.com/FR/Cave-Vinicole-WOLFBERGER-f253001003.html",
+        "cuisine_evidence_url": "https://www.routedesvins.alsace/253001003-cave-vinicole-wolfberger/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "famille-hugel-riquewihr",
+      "name": "Famille Hugel Tasting Room",
+      "address": "3 Rue de la 1ere Armee, 68340 Riquewihr, France",
+      "neighborhood": "Riquewihr",
+      "varietals_focus": ["Riesling", "Gewurztraminer", "Pinot Gris", "Pinot Noir"],
+      "pricing": "Guided tour and tasting by reservation; free for private customers, fee for groups",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": "famille-hugel",
+      "description": "Twelve generations of Hugel since 1639 on the main street of Riquewihr, with cellar tours through the 17th-century barrel hall and tastings of the Classic, Estate and Grossi Laue ranges.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://m.hugel.com/2497G1XDFG",
+        "address_quoted": "3, rue de la premiere Armee, 68340 Riquewihr",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wineroute.alsace/229002850-hugel-et-fils-vins/",
+        "cuisine_evidence_url": "https://m.hugel.com/598DGMB3C4",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "trimbach-ribeauville",
+      "name": "Maison Trimbach Tasting Cellar",
+      "address": "15 Route de Bergheim, 68150 Ribeauville, France",
+      "neighborhood": "Ribeauville",
+      "varietals_focus": ["Riesling", "Gewurztraminer", "Pinot Gris", "Pinot Noir"],
+      "pricing": "Free tasting by appointment for private customers; tasting fee for groups",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "trimbach",
+      "description": "Thirteenth-generation Maison Trimbach since 1626, tasting cellar in Ribeauville with old foudres and stainless vats. Home of Clos Sainte Hune and Cuvee Frederic Emile Riesling.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.trimbach.fr/en/a-la-cave",
+        "address_quoted": "15 Route de Bergheim 68150 Ribeauville",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wineroute.alsace/229002828-f-e-trimbach/",
+        "cuisine_evidence_url": "https://www.trimbach.fr/en",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "domaines-schlumberger-guebwiller",
+      "name": "Domaines Schlumberger Caveau",
+      "address": "100 Rue Theodore Deck, 68500 Guebwiller, France",
+      "neighborhood": "Guebwiller",
+      "varietals_focus": ["Riesling", "Gewurztraminer", "Pinot Gris", "Muscat"],
+      "pricing": "Discovery visit EUR 15, Prestige visit EUR 25, Adventure visit EUR 50; Wine and Cheese pairing EUR 25 Saturdays",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "domaines-schlumberger",
+      "description": "Single-ownership Guebwiller estate at 130 hectares with four Grand Cru sites: Kitterle, Kessler, Saering and Spiegel. Caveau tours run Tuesday to Saturday with tastings of the four Grand Cru cuvees.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.domaines-schlumberger.fr/visitez-notre-domaine/",
+        "address_quoted": "100 rue Theodore Deck 68500 Guebwiller",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tourisme-mulhouse.com/en/offers/schlumberger-domaine-guebwiller-en-5217776/",
+        "cuisine_evidence_url": "https://www.domaines-schlumberger.fr/domaines/la-cave/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "domaine-weinbach-kaysersberg",
+      "name": "Domaine Weinbach",
+      "address": "25 Route du Vin, 68240 Kaysersberg Vignoble, France",
+      "neighborhood": "Kaysersberg",
+      "varietals_focus": ["Riesling", "Gewurztraminer", "Pinot Gris", "Muscat"],
+      "pricing": "Tasting by appointment only at the Clos des Capucins estate",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "domaine-weinbach",
+      "description": "Faller family Demeter and Ecocert estate at the foot of the Schlossberg Grand Cru, tasted inside the Clos des Capucins cellar. Catherine Faller and sons Eddy and Theo host visits.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.domaineweinbach.com/",
+        "address_quoted": "25 Route du Vin, 68240 Kaysersberg",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wineroute.alsace/230106773-domaine-weinbach-faller-catherine-et-fils-domaine/",
+        "cuisine_evidence_url": "https://www.petitfute.co.uk/v834-kaysersberg-68240/c650-produits-gourmands-vins/c1117-vins-alcools/c718-domaine/91531-domaine-weinbach.html",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "leon-beyer-eguisheim",
+      "name": "Domaine Leon Beyer",
+      "address": "2 Rue de la Premiere Armee, 68420 Eguisheim, France",
+      "neighborhood": "Eguisheim",
+      "varietals_focus": ["Riesling", "Gewurztraminer", "Pinot Gris", "Pinot Noir"],
+      "pricing": "Tasting by appointment at the Eguisheim cellars",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "leon-beyer",
+      "description": "Beyer family since 1580 in Eguisheim, classic dry-style house with Comtes d'Eguisheim Riesling and Cuvee des Ecaillers. Tasting cellar with stone walls inside the medieval village.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.leonbeyer.fr/",
+        "address_quoted": "2, rue de la premiere armee 68420 Eguisheim",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tourisme-eguisheim-rouffach.com/FR/Domaine-Leon-BEYER-f253001004.html",
+        "cuisine_evidence_url": "https://www.wineroute.alsace/253001004-domaine-leon-beyer/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "domaine-marcel-deiss-bergheim",
+      "name": "Domaine Marcel Deiss",
+      "address": "15 Route du Vin, 68750 Bergheim, France",
+      "neighborhood": "Bergheim",
+      "varietals_focus": ["Riesling", "Pinot Gris", "Gewurztraminer", "Sylvaner", "Pinot Noir"],
+      "pricing": "Tasting EUR 15 per person, deducted from purchases over EUR 50; appointment recommended",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": "domaine-marcel-deiss",
+      "description": "Demeter biodynamic estate of Jean-Michel Deiss in Bergheim, famous for co-planted field blends and the Altenberg de Bergheim Grand Cru. Tasting boutique on the Route du Vin.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.marceldeiss.com/en/",
+        "address_quoted": "15 Route du Vin 68750 Bergheim",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wineroute.alsace/229002814-domaine-marcel-deiss/",
+        "cuisine_evidence_url": "https://www.marceldeiss.com/en/contact",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "domaine-zind-humbrecht-turckheim",
+      "name": "Domaine Zind-Humbrecht",
+      "address": "4 Route de Colmar, 68230 Turckheim, France",
+      "neighborhood": "Turckheim",
+      "varietals_focus": ["Riesling", "Pinot Gris", "Gewurztraminer", "Muscat"],
+      "pricing": "Cellar tasting by appointment only, often booked weeks ahead",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "domaine-zind-humbrecht",
+      "description": "Biodynamic estate of Olivier Humbrecht MW in the Herrenweg of Turckheim, tasting Brand, Rangen de Thann and Clos Saint-Urbain Grand Crus in a dedicated cellar.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.zindhumbrecht.fr/en/visit-us?module=fsbookingform",
+        "address_quoted": "4 Rte de Colmar 68230 TURCKHEIM",
+        "open_status": "open",
+        "open_evidence_url": "https://www.tripadvisor.in/Attraction_Review-g424987-d290478-Reviews-Domaine_Zind_Humbrecht-Turckheim_Haut_Rhin_Grand_Est.html",
+        "cuisine_evidence_url": "https://www.falstaff.com/nordics/wineries/domaine-zind-humbrecht",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "dopff-au-moulin-riquewihr",
+      "name": "Dopff au Moulin",
+      "address": "2 Avenue Jacques Preiss, 68340 Riquewihr, France",
+      "neighborhood": "Riquewihr",
+      "varietals_focus": ["Cremant d'Alsace", "Riesling", "Pinot Blanc", "Gewurztraminer"],
+      "pricing": "Free tasting for private customers; guided tour by reservation",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": "dopff-au-moulin",
+      "description": "Dopff family since 1574 at the foot of Grand Cru Schoenenbourg, the cellar that pioneered Cremant d'Alsace in 1900. Tour the foudre hall and taste the sparkling and still ranges.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.wineroute.alsace/229002827-dopff-au-moulin/",
+        "address_quoted": "2 avenue Jacques Preiss, 68340 Riquewihr",
+        "open_status": "open",
+        "open_evidence_url": "https://www.dopff-au-moulin.fr/en/",
+        "cuisine_evidence_url": "https://www.dopff-au-moulin.fr/en/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "pierre-sparr-beblenheim",
+      "name": "Maison Pierre Sparr",
+      "address": "14 Rue de Hoen, 68980 Beblenheim, France",
+      "neighborhood": "Beblenheim",
+      "varietals_focus": ["Riesling", "Gewurztraminer", "Pinot Gris", "Cremant"],
+      "pricing": "Open daily 10:00 to 12:30 and 14:00 to 18:30; free tasting boutique",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": "pierre-sparr",
+      "description": "Sparr family negociant since 1680, tasting boutique in Beblenheim after the move from Sigolsheim. Range covers Reserve, Brand and Schoenenbourg single-vineyard Rieslings.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.vins-sparr.com/en/",
+        "address_quoted": "14 rue de Hoen - 68980 Beblenheim",
+        "open_status": "open",
+        "open_evidence_url": "https://www.falstaff.com/en/wineries/pierre-sparr",
+        "cuisine_evidence_url": "https://www.vins-sparr.com/en/la-maison/histoire/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "domaine-paul-blanck-kientzheim",
+      "name": "Domaine Paul Blanck",
+      "address": "32 Grand Rue, 68240 Kientzheim, France",
+      "neighborhood": "Kientzheim",
+      "varietals_focus": ["Riesling", "Gewurztraminer", "Pinot Gris", "Pinot Noir"],
+      "pricing": "Free tasting for under 9 persons; EUR 20 per person for groups of 8 plus",
+      "walk_in": true,
+      "appointment_required": false,
+      "parent_vineyard": "domaine-paul-blanck",
+      "description": "Blanck family in Kientzheim since 1610, cellar pioneer of single-cru bottling. Open daily for boutique tastings of Furstentum, Mambourg, Schlossberg and Wineck Grand Cru Rieslings.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.blanck.com/en/",
+        "address_quoted": "32, Grand'Rue 68240 Kientzheim",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wineroute.alsace/230106750-domaine-blanck-paul-et-fils/",
+        "cuisine_evidence_url": "https://www.parenthese-vigneronne.com/vignerons/domaine-blanck-paul-et-fils",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "albert-boxler-niedermorschwihr",
+      "name": "Domaine Albert Boxler",
+      "address": "78 Rue des Trois-Epis, 68230 Niedermorschwihr, France",
+      "neighborhood": "Niedermorschwihr",
+      "varietals_focus": ["Riesling", "Pinot Gris", "Pinot Blanc"],
+      "pricing": "Cellar tasting by appointment Monday to Friday 14:00 to 17:00",
+      "walk_in": false,
+      "appointment_required": true,
+      "parent_vineyard": "albert-boxler",
+      "description": "Single-street village domaine of Jean Boxler, cult source for Brand and Sommerberg Grand Cru Rieslings. Visits by appointment in a tasting room inside the family cellar.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.petitfute.co.uk/v760-niedermorschwihr-68230/c650-produits-gourmands-vins/c1117-vins-alcools/c718-domaine/91375-domaine-albert-boxler.html",
+        "address_quoted": "78, rue des Trois-Epis 68230 Niedermorschwihr",
+        "open_status": "open",
+        "open_evidence_url": "https://alsacewinetravel.wordpress.com/2016/11/08/albert-boxler-niedermorschwihr/",
+        "cuisine_evidence_url": "http://www.alsace-wine.net/p/boxler.shtml",
+        "checked_on": "2026-05-30"
+      }
+    }
+  ]
+}

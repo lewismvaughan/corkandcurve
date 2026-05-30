@@ -1,6 +1,615 @@
 {
   "entries": [
     {
+      "slug": "alsace-wine-route-villages",
+      "display": "Alsace Wine Route villages",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "ammerschwihr",
+      "display": "Ammerschwihr",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "barr",
+      "display": "Barr",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "barr-mittelbergheim-andlau",
+      "display": "Barr-Mittelbergheim-Andlau",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "beblenheim",
+      "display": "Beblenheim",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "bennwihr",
+      "display": "Bennwihr",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "bergheim",
+      "display": "Bergheim",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "bergholtz",
+      "display": "Bergholtz",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "champ-de-mars-colmar",
+      "display": "Champ de Mars Colmar",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "colmar",
+      "display": "Colmar",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "colmar-and-basel-departures",
+      "display": "Colmar and Basel departures",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "colmar-and-kaysersberg-valleys",
+      "display": "Colmar and Kaysersberg valleys",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "colmar-and-strasbourg-departures",
+      "display": "Colmar and Strasbourg departures",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "colmar-and-surrounding-grand-cru-villages",
+      "display": "Colmar and surrounding Grand Cru villages",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "colmar-and-the-grand-cru-villages",
+      "display": "Colmar and the Grand Cru villages",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "colmar-departure",
+      "display": "Colmar departure",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "colmar-departures",
+      "display": "Colmar departures",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "colmar-east",
+      "display": "Colmar east",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "colmar-houssen-airport",
+      "display": "Colmar-Houssen airport",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "colmar-munster-and-kaysersberg-valleys",
+      "display": "Colmar, Munster and Kaysersberg valleys",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "colmar-old-town",
+      "display": "Colmar old town",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "colmar-strasbourg-obernai-saverne",
+      "display": "Colmar, Strasbourg, Obernai, Saverne",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "colmar-wintzenheim-wettolsheim",
+      "display": "Colmar-Wintzenheim-Wettolsheim",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "dahlenheim",
+      "display": "Dahlenheim",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "dambach-la-ville",
+      "display": "Dambach-la-Ville",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "dambach-la-ville-to-bergheim",
+      "display": "Dambach-la-Ville to Bergheim",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "dieffenbach-au-val",
+      "display": "Dieffenbach-au-Val",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "eguisheim",
+      "display": "Eguisheim",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "eguisheim-husseren",
+      "display": "Eguisheim-Husseren",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "ensisheim",
+      "display": "Ensisheim",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "guebwiller",
+      "display": "Guebwiller",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "hohwarth",
+      "display": "Hohwarth",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "hunawihr",
+      "display": "Hunawihr",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "husseren-les-chateaux",
+      "display": "Husseren-les-Chateaux",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "illhaeusern",
+      "display": "Illhaeusern",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "katzenthal",
+      "display": "Katzenthal",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "kaysersberg",
+      "display": "Kaysersberg",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "kaysersberg-kientzheim-sigolsheim",
+      "display": "Kaysersberg-Kientzheim-Sigolsheim",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "kaysersberg-vignoble",
+      "display": "Kaysersberg-Vignoble",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "kientzheim",
+      "display": "Kientzheim",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "krutenau",
+      "display": "Krutenau",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "la-wantzenau",
+      "display": "La Wantzenau",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "landersheim",
+      "display": "Landersheim",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "lapoutroie",
+      "display": "Lapoutroie",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "lembach",
+      "display": "Lembach",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "marlenheim",
+      "display": "Marlenheim",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "marlenheim-westhoffen",
+      "display": "Marlenheim-Westhoffen",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "murbach",
+      "display": "Murbach",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "neustadt",
+      "display": "Neustadt",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "niedermorschwihr",
+      "display": "Niedermorschwihr",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "oberhaslach",
+      "display": "Oberhaslach",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "obernai",
+      "display": "Obernai",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "orangerie",
+      "display": "Orangerie",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "orangerie-park",
+      "display": "Orangerie park",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "orschwihr",
+      "display": "Orschwihr",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "ottrott",
+      "display": "Ottrott",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "petite-france",
+      "display": "Petite France",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "petite-venise-colmar",
+      "display": "Petite Venise Colmar",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "pfaffenheim",
+      "display": "Pfaffenheim",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "ribeauville",
+      "display": "Ribeauville",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "ribeauville-hunawihr-bergheim",
+      "display": "Ribeauville-Hunawihr-Bergheim",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "riquewihr",
+      "display": "Riquewihr",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "riquewihr-zellenberg",
+      "display": "Riquewihr-Zellenberg",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "rosheim",
+      "display": "Rosheim",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "rouffach",
+      "display": "Rouffach",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "rouffach-pfaffenheim-westhalten",
+      "display": "Rouffach-Pfaffenheim-Westhalten",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "saint-hippolyte",
+      "display": "Saint-Hippolyte",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "scherwiller",
+      "display": "Scherwiller",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "schiltigheim",
+      "display": "Schiltigheim",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "schoenenbourg",
+      "display": "Schoenenbourg",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "selestat",
+      "display": "Selestat",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "strasbourg",
+      "display": "Strasbourg",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "strasbourg-cathedral-quarter",
+      "display": "Strasbourg cathedral quarter",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "strasbourg-centre",
+      "display": "Strasbourg centre",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "strasbourg-colmar-and-ribeauville",
+      "display": "Strasbourg, Colmar and Ribeauville",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "strasbourg-halles",
+      "display": "Strasbourg Halles",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "strasbourg-hospital-quarter",
+      "display": "Strasbourg hospital quarter",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "thannenkirch",
+      "display": "Thannenkirch",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "turckheim",
+      "display": "Turckheim",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "turckheim-niedermorschwihr-katzenthal",
+      "display": "Turckheim-Niedermorschwihr-Katzenthal",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "uberach",
+      "display": "Uberach",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "ungersheim",
+      "display": "Ungersheim",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "vallee-de-la-bruche",
+      "display": "Vallee de la Bruche",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "vallee-de-ville",
+      "display": "Vallee de Ville",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "wettolsheim",
+      "display": "Wettolsheim",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "wine-route-villages",
+      "display": "Wine route villages",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
+      "slug": "wintzenheim",
+      "display": "Wintzenheim",
+      "region_slug": "alsace",
+      "region_name": "Alsace",
+      "country_slug": "france"
+    },
+    {
       "slug": "beaujeu",
       "display": "Beaujeu",
       "region_slug": "beaujolais",

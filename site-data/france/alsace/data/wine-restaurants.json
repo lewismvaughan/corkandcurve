@@ -1,0 +1,556 @@
+{
+  "wine_restaurants": [
+    {
+      "slug": "auberge-de-lill-illhaeusern",
+      "name": "L'Auberge de l'Ill",
+      "address": "2 Rue de Collonges au Mont d'Or, 68970 Illhaeusern, France",
+      "neighborhood": "Illhaeusern",
+      "cuisine": "Refined Alsatian gastronomy by Marc Haeberlin, with riverside dining and a deep Alsace and grand cru Burgundy cellar built over 150 years of family hosting",
+      "cellar_size": null,
+      "awards": [
+        {
+          "source": "Michelin",
+          "year": 2026
+        },
+        {
+          "source": "Michelin",
+          "year": 2025
+        },
+        {
+          "source": "Relais et Chateaux",
+          "year": 2025
+        }
+      ],
+      "description": "Haeberlin family riverside inn established 1882 in Illhaeusern, two Michelin stars in 2026. Marc Haeberlin's matelote au Riesling and salmon souffle anchor a deep Alsace wine list.",
+      "editorial_score": 4.9,
+      "verified": {
+        "source_url": "https://www.auberge-de-l-ill.com/en/",
+        "address_quoted": "2 rue de Collonges au Mont d'Or, Illhaeusern, 68970",
+        "open_status": "open",
+        "open_evidence_url": "https://guide.michelin.com/en/grand-est/illhaeusern/restaurant/auberge-de-l-ill",
+        "cuisine_evidence_url": "https://www.relaischateaux.com/us/restaurant/auberge-de-ill/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "table-olivier-nasti-kaysersberg",
+      "name": "La Table d'Olivier Nasti",
+      "address": "9-13 Rue du General de Gaulle, 68240 Kaysersberg, France",
+      "neighborhood": "Kaysersberg",
+      "cuisine": "Two-star gastronomic Alsatian cuisine by Meilleur Ouvrier de France Olivier Nasti, championing Vosges game, foie gras and morels with a Riesling-led cellar from sommelier Jean-Baptiste Klein",
+      "cellar_size": null,
+      "awards": [
+        {
+          "source": "Michelin",
+          "year": 2026
+        },
+        {
+          "source": "Meilleur Ouvrier de France",
+          "year": 2007
+        },
+        {
+          "source": "Relais et Chateaux",
+          "year": 2025
+        }
+      ],
+      "description": "Two-Michelin-star gastronomic table inside Hotel Le Chambard, Kaysersberg. Olivier Nasti at the stoves and Jean-Baptiste Klein on the wine list steer a season-led tasting menu around Alsace whites and game.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://www.lechambard.fr/en/gourmet-restaurant.html",
+        "address_quoted": "9 rue du General de Gaulle, 68240 Kaysersberg",
+        "open_status": "open",
+        "open_evidence_url": "https://guide.michelin.com/us/en/grand-est/kaysersberg/restaurant/la-table-d-olivier-nasti",
+        "cuisine_evidence_url": "https://www.relaischateaux.com/us/restaurant/la-table-d-olivier-nasti/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "jys-colmar",
+      "name": "JY'S",
+      "address": "3 Allee du Champ de Mars, 68000 Colmar, France",
+      "neighborhood": "Champ de Mars Colmar",
+      "cuisine": "Two-star gastronomic restaurant by Jean-Yves Schillinger blending Alsace, New York and Asian influences, paired with a deep Alsace by-the-glass programme",
+      "cellar_size": null,
+      "awards": [
+        {
+          "source": "Michelin",
+          "year": 2026
+        }
+      ],
+      "description": "Jean-Yves Schillinger's two-Michelin-star table in the MGallery hotel, facing Colmar's Champ de Mars park. Cuisine moves through Alsace, Brittany, Japan and the United States.",
+      "editorial_score": 4.8,
+      "verified": {
+        "source_url": "https://jean-yves-schillinger.com/en/jys/restaurant/",
+        "address_quoted": "3 Allee Du Champ De Mars",
+        "open_status": "open",
+        "open_evidence_url": "https://guide.michelin.com/us/en/grand-est/colmar/restaurant/jy-s",
+        "cuisine_evidence_url": "https://www.visit.alsace/en/235015850-restaurant-jys/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "buerehiesel-strasbourg",
+      "name": "Buerehiesel",
+      "address": "4 Parc de l'Orangerie, 67000 Strasbourg, France",
+      "neighborhood": "Orangerie park",
+      "cuisine": "Modern Alsace cuisine in a half-timbered 17th-century farmhouse rebuilt in the Orangerie, chef Eric Westermann pairs frog's-leg schniederspaetle with a strong Alsace cellar",
+      "cellar_size": null,
+      "awards": [
+        {
+          "source": "Michelin",
+          "year": 2026
+        },
+        {
+          "source": "Gault Millau",
+          "year": 2025
+        }
+      ],
+      "description": "Half-timbered 17th-century farmhouse in the Orangerie park, chef Eric Westermann earns one Michelin star with frog's-leg schniederspaetle and Alsace-led pairings.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.buerehiesel.fr/",
+        "address_quoted": "4, parc de l'Orangerie · 67000 STRASBOURG",
+        "open_status": "open",
+        "open_evidence_url": "https://guide.michelin.com/us/en/grand-est/strasbourg/restaurant/buerehiesel",
+        "cuisine_evidence_url": "https://fr.gaultmillau.com/en/people/eric-westermann",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "au-crocodile-strasbourg",
+      "name": "Au Crocodile",
+      "address": "10 Rue de l'Outre, 67000 Strasbourg, France",
+      "neighborhood": "Strasbourg cathedral quarter",
+      "cuisine": "Historic Strasbourg gastronomic table refurbished in 2020, chef Romain Brillat (a relative of Brillat-Savarin) cooks one-Michelin-star modern French alongside a sommelier-driven cellar",
+      "cellar_size": null,
+      "awards": [
+        {
+          "source": "Michelin",
+          "year": 2026
+        },
+        {
+          "source": "Relais et Chateaux",
+          "year": 2025
+        }
+      ],
+      "description": "Historic Strasbourg house with the eponymous stuffed crocodile, refurbished 2020 and re-starred 2021. Chef Romain Brillat plates one-Michelin-star modern French with Alsace pairings.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.au-crocodile.com/en/",
+        "address_quoted": "10 rue de l'Outre",
+        "open_status": "open",
+        "open_evidence_url": "https://guide.michelin.com/us/en/grand-est/strasbourg/restaurant/au-crocodile",
+        "cuisine_evidence_url": "https://www.relaischateaux.com/us/restaurant/au-crocodile/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "1741-strasbourg",
+      "name": "Le 1741",
+      "address": "22 Quai des Bateliers, 67000 Strasbourg, France",
+      "neighborhood": "Krutenau",
+      "cuisine": "One-Michelin-star modern French cuisine across from the Palais Rohan, chef Jeremy Page and sommelier Michael Wagner build menus around Alsace, Burgundy and Champagne pairings",
+      "cellar_size": null,
+      "awards": [
+        {
+          "source": "Michelin",
+          "year": 2026
+        }
+      ],
+      "description": "Quayside one-Michelin-star restaurant opposite the Palais Rohan, chef Jeremy Page plates precise modern French dishes paired with sommelier Michael Wagner's Alsace-led list.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.1741.fr/en/",
+        "address_quoted": "22 quai des Bateliers",
+        "open_status": "open",
+        "open_evidence_url": "https://guide.michelin.com/us/en/grand-est/strasbourg/restaurant/1741",
+        "cuisine_evidence_url": "https://fr.gaultmillau.com/en/restaurants/1741",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "umami-strasbourg",
+      "name": "Umami",
+      "address": "8 Rue des Dentelles, 67000 Strasbourg, France",
+      "neighborhood": "Petite France",
+      "cuisine": "One-Michelin-star fusion of Alsatian tradition and Asian flavours by chef Rene Fieger, paired with a tight cellar of Alsace whites and biodynamic French growers",
+      "cellar_size": null,
+      "awards": [
+        {
+          "source": "Michelin",
+          "year": 2026
+        }
+      ],
+      "description": "Chef Rene Fieger's one-Michelin-star table tucked in the half-timbered Petite France quarter. Market cooking that crosses Alsace and Asia, paired with biodynamic Alsace bottles.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.restaurant-umami.com/en",
+        "address_quoted": "8 Rue des Dentelles, 67000 Strasbourg",
+        "open_status": "open",
+        "open_evidence_url": "https://guide.michelin.com/us/en/grand-est/strasbourg/restaurant/umami202668",
+        "cuisine_evidence_url": "https://www.visitstrasbourg.fr/en/organising-my-stay/places-to-eat/bars-and-wine-bars/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "girardin-colmar",
+      "name": "Restaurant Girardin",
+      "address": "19 Rue des Tetes, 68000 Colmar, France",
+      "neighborhood": "Colmar old town",
+      "cuisine": "One-Michelin-star tasting-only restaurant inside La Maison des Tetes, chef Eric Girardin's 14-seat dining room and minimalist tasting menus paired with a deep Alsace cellar",
+      "cellar_size": null,
+      "awards": [
+        {
+          "source": "Michelin",
+          "year": 2026
+        },
+        {
+          "source": "Relais et Chateaux",
+          "year": 2025
+        }
+      ],
+      "description": "Eric Girardin's intimate 14-seat Michelin-star table inside the 1609 Maison des Tetes. Tasting menus at EUR 155 with deep Alsace pairings, set inside the Renaissance landmark.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.maisondestetes.com/en/restaurant-girardin.html",
+        "address_quoted": "19 Rue des Tetes, 68000 Colmar",
+        "open_status": "open",
+        "open_evidence_url": "https://guide.michelin.com/us/en/grand-est/colmar/restaurant/girardin-gastronomique",
+        "cuisine_evidence_url": "https://www.relaischateaux.com/us/restaurant/restaurant-girardin/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "le-feuillage-colroy",
+      "name": "Le Feuillage - Hostellerie La Cheneaudiere",
+      "address": "3 Rue Vieux Moulin, 67420 Colroy-la-Roche, France",
+      "neighborhood": "Vallee de la Bruche",
+      "cuisine": "One-Michelin-star gastronomic restaurant by Jean-Paul Acker inside the five-star Cheneaudiere Relais et Chateaux, with a forest-and-vineyard tasting menu and a Riesling-deep cellar",
+      "cellar_size": null,
+      "awards": [
+        {
+          "source": "Michelin",
+          "year": 2025
+        },
+        {
+          "source": "Gault Millau",
+          "year": 2025
+        },
+        {
+          "source": "Relais et Chateaux",
+          "year": 2025
+        }
+      ],
+      "description": "Hostellerie La Cheneaudiere's gastronomic restaurant in the Vosges foothills, where Jean-Paul Acker holds a Michelin star with Vosges foraging and Alsace-led pairings.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.cheneaudiere.com/en/the-restaurant.html",
+        "address_quoted": "3 rue Vieux Moulin Colroy la Roche 67420",
+        "open_status": "open",
+        "open_evidence_url": "https://guide.michelin.com/us/en/grand-est/colroy-la-roche/restaurant/hostellerie-la-cheneaudiere",
+        "cuisine_evidence_url": "https://www.relaischateaux.com/us/restaurant/hostellerie-la-cheneaudiere-spa/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "le-cerf-marlenheim",
+      "name": "Le Cerf",
+      "address": "30 Rue du General de Gaulle, 67520 Marlenheim, France",
+      "neighborhood": "Marlenheim",
+      "cuisine": "One-Michelin-star gastronomic table at the gateway of the Route des Vins, four generations of Husser family cuisine paired with a deep local cellar",
+      "cellar_size": null,
+      "awards": [
+        {
+          "source": "Michelin",
+          "year": 2026
+        }
+      ],
+      "description": "First-Michelin-starred 1936 hotel-restaurant at the start of the Route des Vins. Husser family kitchen, classical Alsatian gastronomy with a deep regional cellar.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://www.lecerf.com/en/",
+        "address_quoted": "30 rue du General de Gaulle, 67520 Marlenheim",
+        "open_status": "open",
+        "open_evidence_url": "https://guide.michelin.com/us/en/grand-est/marlenheim/restaurant/le-cerf",
+        "cuisine_evidence_url": "https://fr.wikipedia.org/wiki/Le_Cerf_(restaurant)",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "cheval-blanc-lembach",
+      "name": "Auberge du Cheval Blanc",
+      "address": "4 Rue de Wissembourg, 67510 Lembach, France",
+      "neighborhood": "Lembach",
+      "cuisine": "One-Michelin-star northern-Alsace coaching inn since 1822, chef Pascal Bastian plates classical-meets-modern cuisine inside a four-star Relais property paired with grower Alsace bottles",
+      "cellar_size": null,
+      "awards": [
+        {
+          "source": "Michelin",
+          "year": 2025
+        }
+      ],
+      "description": "Pascal and Carole Bastian's 1822 coaching inn in northern Alsace, one Michelin star. Stuffed morels and Paris-Lembach dessert paired with grower-direct Alsace bottles.",
+      "editorial_score": 4.6,
+      "verified": {
+        "source_url": "https://www.cheval-blanc-lembach.fr/en/",
+        "address_quoted": "4 rue de Wissembourg, 67510 Lembach",
+        "open_status": "open",
+        "open_evidence_url": "https://guide.michelin.com/sg/en/grand-est/lembach/restaurant/auberge-du-cheval-blanc4111",
+        "cuisine_evidence_url": "https://www.cheval-blanc-lembach.fr/en/gourmet-restaurant.html",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "la-table-du-gourmet-riquewihr",
+      "name": "La Table du Gourmet",
+      "address": "5 Rue de la 1ere Armee Francaise, 68340 Riquewihr, France",
+      "neighborhood": "Riquewihr",
+      "cuisine": "One-Michelin-star and Michelin Green Star restaurant by chef Jean-Luc Brendel in a 16th-century half-timbered house, hyper-seasonal vegetable-driven cuisine and biodynamic Alsace cellar",
+      "cellar_size": null,
+      "awards": [
+        {
+          "source": "Michelin",
+          "year": 2025
+        },
+        {
+          "source": "Michelin Green Star",
+          "year": 2025
+        },
+        {
+          "source": "Gault Millau",
+          "year": 2025
+        }
+      ],
+      "description": "Jean-Luc Brendel's one-Michelin-star (and Green Star) restaurant in a 16th-century half-timbered house in Riquewihr. Vegetable-led tasting menus and biodynamic Alsace pairings.",
+      "editorial_score": 4.7,
+      "verified": {
+        "source_url": "https://www.jlbrendel.com/en/table/the-table-du-gourmet.html",
+        "address_quoted": "5 rue de la 1e Armee Francaise, Riquewihr",
+        "open_status": "open",
+        "open_evidence_url": "https://guide.michelin.com/en/grand-est/riquewihr/restaurant/la-table-du-gourmet",
+        "cuisine_evidence_url": "https://www.visit.alsace/en/229000137-restaurant-la-table-du-gourmet/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "wistub-brenner-colmar",
+      "name": "Wistub Brenner",
+      "address": "1 Rue de Turenne, 68000 Colmar, France",
+      "neighborhood": "Petite Venise Colmar",
+      "cuisine": "Traditional Alsatian winstub in Colmar's Petite Venise quarter, choucroute, baeckeoffe and braised pork knuckle with a deep Alsace by-the-glass list",
+      "cellar_size": null,
+      "awards": [
+        {
+          "source": "Michelin Guide listing",
+          "year": 2025
+        }
+      ],
+      "description": "Riverside winstub in Petite Venise pouring an Alsace-only wine list alongside Papi Lucien's onion tart, choucroute and pork knuckle braised in Pinot Noir.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://guide.michelin.com/us/en/grand-est/colmar/restaurant/wistub-brenner",
+        "address_quoted": "1 rue de Turenne, Colmar, 68000",
+        "open_status": "open",
+        "open_evidence_url": "https://www.visit.alsace/en/235000380-wistub-brenner/",
+        "cuisine_evidence_url": "https://www.visit.alsace/en/235000380-wistub-brenner/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "maison-kammerzell-strasbourg",
+      "name": "Maison Kammerzell",
+      "address": "16 Place de la Cathedrale, 67000 Strasbourg, France",
+      "neighborhood": "Strasbourg cathedral quarter",
+      "cuisine": "Historic 16th-century brasserie at the foot of the cathedral, regional Alsatian cuisine and three fish choucroute with an Alsace and Cremant-led list",
+      "cellar_size": null,
+      "awards": [
+        {
+          "source": "Visit Alsace listing",
+          "year": 2025
+        }
+      ],
+      "description": "Carved 1589 sandstone house at the foot of Strasbourg cathedral, brasserie-restaurant famous for its three-fish choucroute and Alsace-led wine list with cellar by the glass.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.maison-kammerzell.com/",
+        "address_quoted": "16 place de la Cathedrale, Strasbourg",
+        "open_status": "open",
+        "open_evidence_url": "https://www.visitstrasbourg.fr/en/fiche-sit/F223006001_restaurant-maison-kammerzell-strasbourg/",
+        "cuisine_evidence_url": "https://www.maison-kammerzell.com/contact",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "wistub-petite-venise-colmar",
+      "name": "Wistub de la Petite Venise",
+      "address": "4 Rue de la Poissonnerie, 68000 Colmar, France",
+      "neighborhood": "Petite Venise Colmar",
+      "cuisine": "Family-run winstub in Petite Venise serving Alsatian classics, onion tart and choucroute with an Alsace-anchored wine list",
+      "cellar_size": null,
+      "awards": [
+        {
+          "source": "Gault Millau",
+          "year": 2025
+        }
+      ],
+      "description": "Half-timbered winstub on Rue de la Poissonnerie in Colmar's Petite Venise, classic Alsace onion tart, baeckeoffe and choucroute paired with grower Riesling and Pinot Gris.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://fr.gaultmillau.com/en/restaurants/winstub-de-la-petite-venise",
+        "address_quoted": "4 rue de la Poissonnerie",
+        "open_status": "open",
+        "open_evidence_url": "https://www.yelp.com/biz/wistub-de-la-petite-venise-colmar",
+        "cuisine_evidence_url": "https://www.petitfute.co.uk/v592-colmar-68000/c1165-restaurants/c1029-cuisine-regionale/c7-restaurant-alsacien/239114-wistub-de-la-petite-venise.html",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "wistub-du-sommelier-bergheim",
+      "name": "Wistub du Sommelier",
+      "address": "51 Grand Rue, 68750 Bergheim, France",
+      "neighborhood": "Bergheim",
+      "cuisine": "Sommelier-led winstub by Patrick Schneider in fortified Bergheim, deeply regional menu paired with a studious by-the-glass programme",
+      "cellar_size": null,
+      "awards": [
+        {
+          "source": "Maitre Restaurateur",
+          "year": 2024
+        }
+      ],
+      "description": "Patrick Schneider's sommelier-led winstub on Bergheim's Grand Rue. Alsatian classics paired with a tightly curated by-the-glass list of grower Riesling and Pinot Gris.",
+      "editorial_score": 4.4,
+      "verified": {
+        "source_url": "https://www.wistub-du-sommelier.com/",
+        "address_quoted": "51 Grand Rue, Bergheim",
+        "open_status": "open",
+        "open_evidence_url": "https://www.traditionalfrenchfood.com/wistub-du-sommelier-bergheim.html",
+        "cuisine_evidence_url": "https://www.chefs-alsace.fr/zoom-sur-un-chef-patrick-schneider-et-la-winstub-du-sommelier-a-bergheim/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "caveau-morakopf-niedermorschwihr",
+      "name": "Caveau Morakopf",
+      "address": "7 Rue des Trois Epis, 68230 Niedermorschwihr, France",
+      "neighborhood": "Niedermorschwihr",
+      "cuisine": "Husband-and-wife winstub in single-street Niedermorschwihr, chef Lukas Edl plays on Alsatian tradition with Austrian touches and an Alsace-only wine list including Cuvee Morakopf",
+      "cellar_size": null,
+      "awards": [
+        {
+          "source": "Gault Millau",
+          "year": 2025
+        },
+        {
+          "source": "Maitre Restaurateur",
+          "year": 2024
+        }
+      ],
+      "description": "Stained-glass winstub in Niedermorschwihr, chef Lukas Edl and Celine pair Alsatian tradition with Vienna touches and a Morakopf blend of Pinot Blanc, Pinot Gris and Gewurztraminer.",
+      "editorial_score": 4.5,
+      "verified": {
+        "source_url": "https://caveaumorakopf.fr/",
+        "address_quoted": "7 rue des Trois Epis, 68230 Niedermorschwihr",
+        "open_status": "open",
+        "open_evidence_url": "https://www.wineroute.alsace/235013897-caveau-morakopf/",
+        "cuisine_evidence_url": "https://www.tripadvisor.co.uk/Restaurant_Review-g1673089-d2221105-Reviews-Caveau_Morakopf-Niedermorschwihr_Haut_Rhin_Grand_Est.html",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "caveau-eguisheim",
+      "name": "Le Caveau d'Eguisheim",
+      "address": "1 Place du Chateau Saint-Leon, 68420 Eguisheim, France",
+      "neighborhood": "Eguisheim",
+      "cuisine": "Regional Alsace dining inside a 16th-century house on Eguisheim's main square, chef Alexandre Niggel cooks coq au Riesling and baeckeoffe with a tightly local wine list",
+      "cellar_size": null,
+      "awards": [
+        {
+          "source": "Tables et Auberges de France",
+          "year": 2025
+        }
+      ],
+      "description": "16th-century house on Eguisheim's Place du Chateau Saint-Leon, chef Alexandre Niggel plates Alsatian classics paired with Eguisheim and Pfaffenheim grower bottles.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.caveau-eguisheim.fr/?lang=en",
+        "address_quoted": "1 Place du Chateau St-Leon, 68420 Eguisheim",
+        "open_status": "open",
+        "open_evidence_url": "https://www.visit.alsace/en/253002830-caveau-deguisheim/",
+        "cuisine_evidence_url": "https://www.tourisme-eguisheim-rouffach.com/FR/Caveau-Eguisheim-f253002830.html",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "schwendi-kientzheim",
+      "name": "Hostellerie Schwendi",
+      "address": "2 Place Schwendi, 68240 Kientzheim, France",
+      "neighborhood": "Kientzheim",
+      "cuisine": "Family-run Kientzheim hostellerie with an 18th-century vaulted cellar dining room, Alsatian gastronomic menu paired with estate-produced Schille-Gisie Alsace bottles",
+      "cellar_size": null,
+      "awards": [
+        {
+          "source": "Visit Alsace listing",
+          "year": 2025
+        }
+      ],
+      "description": "Family-run Kientzheim hostellerie on Place Schwendi, gastronomic Alsace cuisine inside an 18th-century vaulted cellar paired with the Schille-Gisie family Alsace bottles.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://www.schwendi.fr/",
+        "address_quoted": "2 Place Schwendi, Kientzheim",
+        "open_status": "open",
+        "open_evidence_url": "https://www.visit.alsace/en/230101551-restaurant-schwendi/",
+        "cuisine_evidence_url": "https://www.kaysersberg.com/fr/detail/494/4634/230101551/restaurant-schwendi-kaysersberg-vignoble/",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "au-tire-bouchon-riquewihr",
+      "name": "Winstub Au Tire-Bouchon",
+      "address": "29 Rue du General de Gaulle, 68340 Riquewihr, France",
+      "neighborhood": "Riquewihr",
+      "cuisine": "Zimmer family winstub in central Riquewihr, traditional tartes flambees, fish choucroute and foie gras paired with the estate's Schoenenbourg Riesling and Gewurztraminer",
+      "cellar_size": null,
+      "awards": [
+        {
+          "source": "Visit Alsace listing",
+          "year": 2025
+        }
+      ],
+      "description": "Zimmer-family winstub on Riquewihr's main street since the early 1970s. Tartes flambees, fish choucroute and foie gras paired with estate Schoenenbourg Riesling.",
+      "editorial_score": 4.2,
+      "verified": {
+        "source_url": "https://www.wineroute.alsace/229000158-restaurant-le-tire-bouchon/",
+        "address_quoted": "29 rue du General de Gaulle, 68340 Riquewihr",
+        "open_status": "open",
+        "open_evidence_url": "https://www.visit.alsace/en/229000158-restaurant-le-tire-bouchon/",
+        "cuisine_evidence_url": "https://www.petitfute.co.uk/v800-riquewihr-68340/c1165-restaurants/c4-cuisine-francaise/437182-au-tire-bouchon.html",
+        "checked_on": "2026-05-30"
+      }
+    },
+    {
+      "slug": "au-pont-de-lill-wantzenau",
+      "name": "Au Pont de l'Ill",
+      "address": "2 Rue du General Leclerc, 67610 La Wantzenau, France",
+      "neighborhood": "La Wantzenau",
+      "cuisine": "Family-run gastronomic restaurant since 1987 in a half-timbered house north of Strasbourg, known for its seafood counter and an Alsace-anchored cellar of grower-direct bottles",
+      "cellar_size": null,
+      "awards": [
+        {
+          "source": "Gault Millau",
+          "year": 2024
+        }
+      ],
+      "description": "Half-timbered family restaurant just north of Strasbourg since 1987, known for its seafood counter and an Alsace-anchored wine list of grower bottles and Cremants.",
+      "editorial_score": 4.3,
+      "verified": {
+        "source_url": "https://aupontdelill.com/en/",
+        "address_quoted": "2 rue General Leclerc, La Wantzenau",
+        "open_status": "open",
+        "open_evidence_url": "https://www.alsace-terroir.com/94-restaurant-au-pont-de-l-ill",
+        "cuisine_evidence_url": "https://aupontdelill.com/en/booking/",
+        "checked_on": "2026-05-30"
+      }
+    }
+  ]
+}
