@@ -1,38 +1,6 @@
 {
   "wine_restaurants": [
     {
-      "slug": "bobajka-tarcal",
-      "name": "Bobajka",
-      "address": "Fő utca 94, 3915 Tarcal, Hungary",
-      "neighborhood": "Tarcal",
-      "cuisine": "Modern Hungarian regional cuisine with Tokaj wine pairings",
-      "cellar_size": 120,
-      "awards": [
-        {
-          "source": "Michelin Guide Hungary",
-          "year": 2023
-        },
-        {
-          "source": "Klasszis TopDesign Restaurant of the Year",
-          "year": 2022
-        },
-        {
-          "source": "Michelin Sommelier Award",
-          "year": 2023
-        }
-      ],
-      "description": "Michelin-recommended restaurant at Andrássy Kúria hotel, named after a 300-year-old Zemplén poppy-seed bread recipe. Exclusively Tokaj wine list of 120 labels curated by Michelin Sommelier Award winner Tamás Langó; local ingredients from regional producers.",
-      "editorial_score": 4.8,
-      "verified": {
-        "source_url": "https://bobajkaetterem.hu/en/concept/",
-        "address_quoted": "Tarcal, Főu. 94, 3915, Hungary",
-        "open_status": "open",
-        "open_evidence_url": "https://guide.michelin.com/en/borsod-abauj-zemplen/tarcal/restaurant/bobajka",
-        "cuisine_evidence_url": "https://bobajkaetterem.hu/en/elmeny/wine-tasting/",
-        "checked_on": "2026-05-29"
-      }
-    },
-    {
       "slug": "padi-ratka",
       "name": "Padi",
       "address": "Rátka 2722 hrsz., 3917 Rátka, Hungary",

@@ -138,6 +138,17 @@ run_one_city() {
     python3 scripts/check_score_claims.py --country "$country" --city "$city" || true
 
     echo ""
+    echo "[+] check_closed_venues.py — venues marked Temporarily/Permanently closed on producer site or SERP (WARN)"
+    # WARN-only backstop for closed-but-still-listed venues (Tokaj 2026-05-30:
+    # Bobajka closed across 3 entries; Alsace 2026-05-30: lecercledesaromes
+    # i18n false-positive class identified). Fetches each venue's source_url +
+    # DuckDuckGo + Bing SERP and scans for closure phrases in EN/DE/FR/IT/ES/HU
+    # with proximity check + script/style/hidden-class stripping. Cached 30d.
+    # QA must adjudicate each finding: remove if confirmed closure, leave if
+    # source-URL false positive (and consider fixing the source_url quality).
+    python3 scripts/check_closed_venues.py --region "${country}/${city}" || true
+
+    echo ""
     echo "============================================================"
     if [[ $failures -eq 0 ]]; then
         echo "  ${country}/${city}: ALL CHECKS PASSED"

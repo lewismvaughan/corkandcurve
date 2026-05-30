@@ -89,7 +89,33 @@ regions ship with 30-40% defect rates.
 13. [ ] **Self-HEAD every URL** before writing it. The URL-fabrication
         defect class applies double in wine — producer domains often
         change after ownership transitions.
-14. [ ] **No comparative-ranking claims without producer-site / roster
+14. [ ] **Closed-status verification (added 2026-05-30 after Tokaj
+        closure-pass).** Before listing any venue (tasting-rooms,
+        wine-bars, wine-restaurants, wine-hotels, distilleries,
+        wine-museums, wine-experiences, wine-tours, wine-retailers,
+        wine-schools, hidden-gems, vineyards), explicitly confirm the
+        venue is currently operating by:
+        - reading the source_url page for visible status banners
+          ("Permanently closed", "Temporarily closed", "Dauerhaft
+          geschlossen", "Fermé définitivement", "Cerrado
+          permanentemente", "Véglegesen bezárt", "Wegen Renovierung
+          geschlossen", "Closed for renovation")
+        - cross-checking against a recent (2024-2026) tripadvisor /
+          Google review / regional tourism roster mention
+        Tokaj 2026-05-30 shipped three Bobajka entries (wine-bar,
+        wine-restaurant, wine-experience) for the same physically-closed
+        venue because Stage-1 didn't scan the producer's own site for
+        the closure banner; Alsace dodged Krone Assmannshausen + Brömserburg
+        because Agent C did this check by hand. **Document the closed-status
+        evidence in `verified.open_evidence_url`** — that field must point
+        at something that confirms the venue is currently open
+        (tripadvisor "recently reviewed" page, regional tourism listing,
+        a Google review from the last 12 months, the producer's own
+        "visit us" / "opening hours" page). Mechanical backstop:
+        `scripts/check_closed_venues.py` runs from `ship_safety.sh` and
+        scans every venue's source_url plus DuckDuckGo/Bing SERPs for
+        EN/DE/FR/IT/ES/HU closure phrases with proximity-to-name check.
+15. [ ] **No comparative-ranking claims without producer-site / roster
         source (added 2026-05-30 after Alsace).** Researchers default to
         treating "the largest cooperative" / "the leading distillery" /
         "Europe's largest" as factual scaffolding, but these require the

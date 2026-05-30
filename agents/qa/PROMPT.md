@@ -248,6 +248,35 @@ verbatim street address, or drop the entity if no street address is
 verifiable. Also confirm `open_status` is exactly one of
 {open, seasonal, unknown, permanently_closed}.
 
+**Closed-venue adjudication (added 2026-05-30 after Tokaj closure-pass).**
+ship_safety runs `check_closed_venues.py` and surfaces any venue where
+the producer's own site, DuckDuckGo SERP, or Bing SERP contains a
+closure phrase ("Permanently closed", "Temporarily closed", locale
+variants in DE/FR/IT/ES/HU) near the venue's name in the page text.
+For each finding, adjudicate:
+- **Confirmed permanent closure** (e.g. Bobajka Tokaj 2026-05-30 — full
+  closure banner on the venue's own page across the entire site): REMOVE
+  the entity from the JSON entirely. If the same physical venue appears
+  in multiple topics (wine-bar + restaurant + experience for Bobajka),
+  remove every entry.
+- **Confirmed temporary / partial closure** (e.g. Tour de Castellane —
+  cellars temporarily closed but Tower museum still operating): if our
+  description doesn't depend on the closed scope, leave the entity but
+  ensure the description doesn't promise something that's currently
+  unavailable. If our description IS about the closed scope, soften or
+  remove.
+- **False positive — template noise** (e.g. Signorvino's hidden CSS-class
+  "Temporarily closed" placeholder): leave the entity. Note: the
+  checker already strips `class="...hidden..."` elements and JS-escaped
+  template HTML, so surviving false positives are rare; verify in the
+  rendered page before dismissing.
+- **False positive — third-party blog source_url** (e.g. I Rusteghi
+  Venice: source_url was rebelatlas.com covering 13 wine bars + Las
+  Vegas content where "temporarily closed" referred to a casino ride):
+  this is a separate data-quality defect. Replace `source_url` with the
+  venue's own site, a TripAdvisor profile, or a regional tourism page —
+  third-party listicles are not acceptable as the primary source.
+
 ### G. Cross-link sanity (food-pairing topic + wines.pairings)
 
 Every `food_pairing[*].tablejourney_url` must HEAD-resolve AND the

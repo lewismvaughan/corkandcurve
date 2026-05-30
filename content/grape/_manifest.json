@@ -311,6 +311,12 @@
           "n": 31
         },
         {
+          "country_slug": "germany",
+          "region_slug": "rheingau",
+          "region_name": "Rheingau",
+          "n": 2
+        },
+        {
           "country_slug": "spain",
           "region_slug": "ribera-del-duero",
           "region_name": "Ribera del Duero",
@@ -471,6 +477,12 @@
           "region_slug": "piedmont",
           "region_name": "Piedmont",
           "n": 14
+        },
+        {
+          "country_slug": "germany",
+          "region_slug": "rheingau",
+          "region_name": "Rheingau",
+          "n": 8
         },
         {
           "country_slug": "italy",
@@ -787,6 +799,18 @@
       ]
     },
     {
+      "slug": "fruhburgunder",
+      "display": "Fruhburgunder",
+      "regions": [
+        {
+          "country_slug": "germany",
+          "region_slug": "rheingau",
+          "region_name": "Rheingau",
+          "n": 1
+        }
+      ]
+    },
+    {
       "slug": "fruhroter-veltliner",
       "display": "Frühroter Veltliner",
       "regions": [
@@ -921,6 +945,12 @@
           "region_slug": "alsace",
           "region_name": "Alsace",
           "n": 86
+        },
+        {
+          "country_slug": "germany",
+          "region_slug": "rheingau",
+          "region_name": "Rheingau",
+          "n": 1
         }
       ]
     },
@@ -1029,6 +1059,18 @@
           "region_slug": "wachau",
           "region_name": "Wachau",
           "n": 1
+        }
+      ]
+    },
+    {
+      "slug": "grauburgunder-pinot-gris",
+      "display": "Grauburgunder (Pinot Gris)",
+      "regions": [
+        {
+          "country_slug": "germany",
+          "region_slug": "rheingau",
+          "region_name": "Rheingau",
+          "n": 10
         }
       ]
     },
@@ -1421,6 +1463,12 @@
           "n": 10
         },
         {
+          "country_slug": "germany",
+          "region_slug": "rheingau",
+          "region_name": "Rheingau",
+          "n": 3
+        },
+        {
           "country_slug": "spain",
           "region_slug": "ribera-del-duero",
           "region_name": "Ribera del Duero",
@@ -1593,6 +1641,12 @@
           "region_slug": "mosel",
           "region_name": "Mosel",
           "n": 3
+        },
+        {
+          "country_slug": "germany",
+          "region_slug": "rheingau",
+          "region_name": "Rheingau",
+          "n": 1
         }
       ]
     },
@@ -2087,6 +2141,12 @@
           "n": 3
         },
         {
+          "country_slug": "germany",
+          "region_slug": "rheingau",
+          "region_name": "Rheingau",
+          "n": 94
+        },
+        {
           "country_slug": "austria",
           "region_slug": "wachau",
           "region_name": "Wachau",
@@ -2119,6 +2179,18 @@
       ]
     },
     {
+      "slug": "roter-riesling",
+      "display": "Roter Riesling",
+      "regions": [
+        {
+          "country_slug": "germany",
+          "region_slug": "rheingau",
+          "region_name": "Rheingau",
+          "n": 1
+        }
+      ]
+    },
+    {
       "slug": "roussanne",
       "display": "Roussanne",
       "regions": [
@@ -2144,6 +2216,18 @@
           "country_slug": "italy",
           "region_slug": "piedmont",
           "region_name": "Piedmont",
+          "n": 1
+        }
+      ]
+    },
+    {
+      "slug": "saint-laurent",
+      "display": "Saint Laurent",
+      "regions": [
+        {
+          "country_slug": "germany",
+          "region_slug": "rheingau",
+          "region_name": "Rheingau",
           "n": 1
         }
       ]
@@ -2255,6 +2339,12 @@
           "n": 3
         },
         {
+          "country_slug": "germany",
+          "region_slug": "rheingau",
+          "region_name": "Rheingau",
+          "n": 5
+        },
+        {
           "country_slug": "italy",
           "region_slug": "tuscany",
           "region_name": "Tuscany",
@@ -2283,6 +2373,18 @@
           "region_slug": "bordeaux",
           "region_name": "Bordeaux",
           "n": 2
+        }
+      ]
+    },
+    {
+      "slug": "schwarzriesling",
+      "display": "Schwarzriesling",
+      "regions": [
+        {
+          "country_slug": "germany",
+          "region_slug": "rheingau",
+          "region_name": "Rheingau",
+          "n": 1
         }
       ]
     },
@@ -2343,6 +2445,12 @@
           "region_slug": "mosel",
           "region_name": "Mosel",
           "n": 1
+        },
+        {
+          "country_slug": "germany",
+          "region_slug": "rheingau",
+          "region_name": "Rheingau",
+          "n": 6
         }
       ]
     },
@@ -2355,6 +2463,12 @@
           "region_slug": "mosel",
           "region_name": "Mosel",
           "n": 8
+        },
+        {
+          "country_slug": "germany",
+          "region_slug": "rheingau",
+          "region_name": "Rheingau",
+          "n": 7
         }
       ]
     },
@@ -2367,6 +2481,12 @@
           "region_slug": "mosel",
           "region_name": "Mosel",
           "n": 4
+        },
+        {
+          "country_slug": "germany",
+          "region_slug": "rheingau",
+          "region_name": "Rheingau",
+          "n": 55
         }
       ]
     },
@@ -2807,6 +2927,12 @@
           "n": 6
         },
         {
+          "country_slug": "germany",
+          "region_slug": "rheingau",
+          "region_name": "Rheingau",
+          "n": 1
+        },
+        {
           "country_slug": "austria",
           "region_slug": "wachau",
           "region_name": "Wachau",
@@ -2823,6 +2949,12 @@
           "region_slug": "mosel",
           "region_name": "Mosel",
           "n": 5
+        },
+        {
+          "country_slug": "germany",
+          "region_slug": "rheingau",
+          "region_name": "Rheingau",
+          "n": 18
         }
       ]
     },
