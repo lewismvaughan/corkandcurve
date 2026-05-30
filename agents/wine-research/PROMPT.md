@@ -89,6 +89,27 @@ regions ship with 30-40% defect rates.
 13. [ ] **Self-HEAD every URL** before writing it. The URL-fabrication
         defect class applies double in wine — producer domains often
         change after ownership transitions.
+14. [ ] **No comparative-ranking claims without producer-site / roster
+        source (added 2026-05-30 after Alsace).** Researchers default to
+        treating "the largest cooperative" / "the leading distillery" /
+        "Europe's largest" as factual scaffolding, but these require the
+        same source verification as a critic score. Strip any clause
+        matching ANY of these patterns UNLESS the producer's own current
+        site, a consortium roster, or an INAO/Demeter/Biodyvin registry
+        supports the rank verbatim:
+        - `the (largest|leading|biggest|smallest|oldest|youngest|first|earliest|finest|highest) X` where X is a wine-trade entity (cooperative, producer, estate, operator, distillery, cellar, maison, domaine, house, grower, cuvée, cremant, champagne, appellation, cru, landholder)
+        - `<region|country|continent|world>'s (oldest|largest|biggest|first|finest)` boundary-superlative
+        - Ordinal ranks (`second-largest`, `third-largest`, `n-th largest`) — produce a producer-site / consortium-roster source or strip
+        - `the largest landholder on <Grand Cru>` without consortium roster
+        - `one of the (largest|leading|biggest|oldest|earliest|first|finest)` in a region — same rule (the "one of" softener is not a bypass)
+        Replacement: state the absolute number ("130 hectares", "1,200
+        hectares across 480 growers", "founded in 1902") instead of the
+        relative rank. Apply to EVERY free-text field: `description`,
+        `tip`, `wine_program`, `vibe`, `what_locals_love`, `evidence`,
+        `history.summary`, `taste.summary`, `morning`/`afternoon`/`evening`
+        in itineraries. Mechanical backstop: `check_score_claims.py`
+        RE_SOFT_RANK now scans for these patterns and surfaces them in
+        ship_safety.
 
 ## 24 wine topics
 

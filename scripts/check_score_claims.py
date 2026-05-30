@@ -99,7 +99,19 @@ RE_SOFT_RANK = re.compile(
     # "the most historically significant"
     rf"|\bmost\s+historically\s+significant\b"
     # "synonymous with <country>'s great X"
-    rf"|\bsynonymous\s+with\s+(?:one\s+of\s+)?{COUNTRIES}'?s\s+(?:great|greatest)\b",
+    rf"|\bsynonymous\s+with\s+(?:one\s+of\s+)?{COUNTRIES}'?s\s+(?:great|greatest)\b"
+    # Comparative-ranking tier (Alsace 2026-05-30 — Opus found 16). Researchers
+    # default to assuming "the largest" claims are factual scaffolding; they
+    # require producer-site / consortium-roster sourcing. State an absolute
+    # number ("130 hectares") instead of the relative rank.
+    # "the largest/leading/biggest <X>" where X is a wine-trade entity
+    rf"|\bthe\s+(?:largest|leading|biggest|finest|oldest|earliest|first|highest|widest|youngest|smallest)\s+(?:[A-Za-zé\-]+\s+){{0,4}}(?:cooperative|producer|estate|operator|distillery|cellar|maison|domaine|house|grower|cuv[ée]e|cremant|champagne|appellation|cru|landholder|reference|bottling)\b"
+    # "<world|continent|country>'s oldest/largest/biggest/first <X>"
+    rf"|\b(?:world|europe|france|germany|italy|spain|austria|hungary|portugal|alsace|burgundy|tuscany|piedmont|veneto|champagne|rh[oô]ne|bordeaux|loire|sicily|priorat|rioja|tokaj|wachau|mosel|douro)'?s\s+(?:oldest|largest|biggest|first|finest|highest|widest|earliest|second[- ]largest|third[- ]largest)\b"
+    # Ordinal ranks
+    rf"|\b(?:second|third|fourth|fifth)[- ](?:largest|biggest|oldest|finest|earliest|first)\b"
+    # "one of the (rank)" softener exploited to bypass the strict-strip
+    rf"|\bone\s+of\s+the\s+(?:largest|leading|biggest|oldest|earliest|first|finest|widest|smallest)\s+\w+\s+(?:in|of)\s+(?:the\s+)?(?:world|europe|france|germany|italy|spain|austria|hungary|portugal|alsace|burgundy|tuscany|piedmont|veneto|champagne|rh[oô]ne|bordeaux|loire|sicily|priorat|rioja|tokaj|wachau|mosel|douro)\b",
     re.I,
 )
 
@@ -125,8 +137,23 @@ RE_DOUBLE_HYPHEN = re.compile(r"(?<!\w)--(?!\w)")
 # "Chef Marina" / "sommelier Roberto" without a verifiable last name +
 # source is a fabrication risk (Ribera 2026-05-28 — Ambivium's fabricated
 # "Chef Cristobal Munoz" was actually Marina de la Hoz).
+# Alsace 2026-05-30: exclude "single-owner <Place>" and "owner <Place>"
+# constructions where the capitalised following word is a known wine-region
+# place name, not a first name. Place names that recurred as false positives:
+# Guebwiller (Alsace), plus common Alsace/French/Italian/Spanish wine towns.
+_PLACE_FALSE_POS = (
+    r"Guebwiller|Ribeauvill[eé]|Riquewihr|Eguisheim|Colmar|Strasbourg|Mulhouse|"
+    r"Bergheim|Hunawihr|Kaysersberg|Turckheim|Andlau|Barr|Mittelbergheim|"
+    r"Dambach|Marlenheim|Wettolsheim|Wintzenheim|Rouffach|Pfaffenheim|"
+    r"Bordeaux|Burgundy|Beaune|Reims|[EÉ]pernay|Avignon|Beaujeu|"
+    r"Florence|Siena|Montalcino|Montepulciano|Verona|Alba|Asti|Barolo|Barbaresco|"
+    r"Madrid|Logro[nñ]o|Haro|Jerez|Porto|Pinh[aã]o|Budapest|Tokaj|"
+    r"Single|Family|Estate|Domaine|Maison|Castello|Bodega|Quinta|Pince"
+)
 RE_FIRSTNAME_ATTRIB = re.compile(
-    r"\b(?:chef|sommelier|owner|winemaker|head\s*chef)\s+[A-Z][a-z]+\b(?!\s+[A-Z])",
+    rf"\b(?:chef|sommelier|owner|winemaker|head\s*chef)\s+"
+    rf"(?!(?:{_PLACE_FALSE_POS})\b)"
+    rf"[A-Z][a-z]+\b(?!\s+[A-Z])",
 )
 
 

@@ -136,6 +136,25 @@ last-name+source or strip the personal attribution. Mechanical backstop:
 `scripts/check_score_claims.py` now also scans for these patterns and
 surfaces them in ship_safety (WARN); use --strict to enforce.
 
+**Comparative-ranking tier — strip these too (added 2026-05-30 after
+Alsace).** Opus found 16 clauses that QA1+QA2 missed because the
+soft-superlative strip-list focused on `"one of <region>'s most <adj>"`
+and missed the ranking axis. Researchers default to assuming "the
+largest" claims are factual scaffolding, but they require the same
+source-verification as a critic score. Same categorical rule applies;
+expand the strip pattern to ALSO match:
+- `the (largest|leading|biggest|smallest|oldest|youngest|first|earliest|finest|highest|widest) <X> in <region/country/continent>` (e.g. "the largest Alsace cooperative", "the leading Bas-Rhin cooperative")
+- `<region/country>'s (largest|oldest|finest|first|earliest) <X>` (e.g. "Alsace's largest cooperative")
+- `(world|Europe|France|Germany|Italy|Spain)'?s (oldest|largest|biggest|first|finest) <X>` (e.g. "Europe's largest straw-bale cellar", "the world's oldest barrel-aged white wine")
+- Ordinal ranks: `second-largest`, `third-largest`, `n-th largest` — these need a producer-site or trade-roster source OR get stripped to the absolute number ("400 hectares") instead of the relative rank
+- Landholding ranks: `the largest landholder on <Grand Cru>` without consortium-roster source
+- `one of the (largest|leading|biggest|oldest|earliest|first|finest) <X> in <region>` (the "one of" softener that exploits the strict-strip)
+
+Concrete replacement: state the absolute number ("130 hectares", "1,200
+hectares across 480 growers", "founded in 1902") instead of the relative
+rank. Mechanical backstop: `scripts/check_score_claims.py` RE_SOFT_RANK
+now catches all of the above patterns.
+
 **C2 — NUMERIC verification on top scores (added 2026-05-22).**
 For every score with `points >= 99`, you must verify the
 `(reviewer, points, vintage, year)` tuple against a real, citeable
