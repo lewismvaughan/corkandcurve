@@ -258,6 +258,33 @@ verbatim street address, or drop the entity if no street address is
 verifiable. Also confirm `open_status` is exactly one of
 {open, seasonal, unknown, permanently_closed}.
 
+**Source-URL relevance adjudication (added 2026-05-31 after source-relevance pass).**
+ship_safety runs `check_source_relevance.py` and surfaces entities where
+the source_url + open_evidence_url + cuisine_evidence_url all return 200
+but NONE of those pages mention the entity's distinctive name tokens.
+This catches "200 but unrelated" source URLs — generic consortium index
+pages (`beaujolais.com/en/`, `doqpriorat.org/en/wineries/`,
+`tokajwineregion.com/`) that pass `check_external_urls.py` silently.
+
+For each finding, adjudicate:
+- **Wrong source_url, replacement exists**: find the venue's actual page
+  via Google/DuckDuckGo + the venue name + town, HEAD-verify, then
+  update verified.source_url. Common fixes: producer's own .de/.fr/.com
+  site, a VDP/AOC roster page that explicitly names this producer, a
+  tripadvisor or wineguide.wein.plus profile.
+- **Wrong source_url, no replacement available** (rare — venue lacks
+  any web presence): consider DROPPING the entity. Cork & Curve's
+  verified-block discipline requires source corroboration.
+- **False positive — bot-challenge page** (Cloudflare / "security
+  check" / "please enable JavaScript"): leave as-is. The checker's
+  bot-wall filter should catch these but some slip through; the URL is
+  fine, our scraper just couldn't see the content.
+- **False positive — distinctive name in a different form** (e.g. our
+  entry uses "Ruedesheimer" but the page says "Rüdesheimer"): the
+  checker normalises German ue/oe/ae/ß digraphs and Unicode
+  combining marks, but exotic transliterations may slip through. Verify
+  in the rendered page before dismissing.
+
 **Closed-venue adjudication (added 2026-05-30 after Tokaj closure-pass).**
 ship_safety runs `check_closed_venues.py` and surfaces any venue where
 the producer's own site, DuckDuckGo SERP, or Bing SERP contains a

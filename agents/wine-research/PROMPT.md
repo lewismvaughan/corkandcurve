@@ -31,9 +31,21 @@ regions ship with 30-40% defect rates.
 2. [ ] **`address` is real**: street + town + postal code visible on the
        venue's own site or on Google Maps. Fabrication of street numbers
        on a real-named winery is a recurring defect class.
-3. [ ] **`source_url`**: the venue's own current site OR a regional
-       consortium page that lists the venue. NOT a Wikipedia article
-       (Wikipedia is often outdated for ownership/hectarage).
+3. [ ] **`source_url`**: the venue's own current site that VISIBLY
+       MENTIONS THE VENUE BY NAME — fetch the page and verify the
+       entity name (or its distinctive name token) appears in the
+       rendered body. Tier-2 fallback only if no producer site exists:
+       a consortium ROSTER PAGE that lists this specific venue by name
+       (e.g. `vdp.de/de/weingueter/<slug>`, not the consortium home
+       page). HARD-fail: NEVER use a generic consortium index page
+       (`beaujolais.com/en/`, `doqpriorat.org/en/wineries/`,
+       `tokajwineregion.com/`) — those pass HEAD-200 checks but mention
+       nothing about your entity, and 2026-05-31 source-relevance pass
+       found 220 vineyards across older ships with this defect.
+       Mechanical backstop: `scripts/check_source_relevance.py` scans
+       every venue's source_url + open_evidence_url + cuisine_evidence_url
+       for entity-name presence + soft-404 indicators. Wikipedia is
+       still discouraged (often outdated for ownership/hectarage).
 4. [ ] **`address_quoted` is verbatim** from the `source_url` page.
        Do NOT paraphrase. Diacritics literal. It MUST be a street-level
        address (street name + number where the source gives one), and it

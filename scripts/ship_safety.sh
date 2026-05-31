@@ -138,6 +138,20 @@ run_one_city() {
     python3 scripts/check_score_claims.py --country "$country" --city "$city" || true
 
     echo ""
+    echo "[+] check_source_relevance.py — source_url content actually mentions the entity (WARN)"
+    # WARN-only backstop for "200 but unrelated" source URLs. check_external_urls.py
+    # only HEAD-checks, so an entity whose source_url points at a generic consortium
+    # index page (e.g. beaujolais.com/en/ for a specific producer, doqpriorat.org/en/wineries/
+    # for Nin-Ortiz) passes silently. This check fetches source_url + open_evidence_url
+    # + cuisine_evidence_url, decodes HTML, and looks for the entity's distinctive name
+    # tokens in the body (with German digraph + diacritic normalisation). Reports
+    # soft-404 (page returns "Page not found" with 200) and name-absent (200 page
+    # exists but doesn't mention the entity).
+    # 2026-05-31 full-pass on 18 shipped regions found 297 name-absent + 7 soft-404
+    # mostly in pre-hardening ships (Beaujolais, Rhône, Ribera, Jerez, Tokaj, Priorat).
+    python3 scripts/check_source_relevance.py --region "${country}/${city}" || true
+
+    echo ""
     echo "[+] check_closed_venues.py — venues marked Temporarily/Permanently closed on producer site or SERP (WARN)"
     # WARN-only backstop for closed-but-still-listed venues (Tokaj 2026-05-30:
     # Bobajka closed across 3 entries; Alsace 2026-05-30: lecercledesaromes
