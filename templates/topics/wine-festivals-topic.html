@@ -31,8 +31,12 @@
       "@id": "{{ seo.meta.canonical_url }}#fest-{{ loop.index }}",
       "name": {{ f.name | tojson }}{% if f.description %},
       "description": {{ f.description | tojson }}{% endif %},
-      "startDate": {{ (f.start_month or f.month or current_date_iso) | tojson }},
-      "endDate": {{ (f.end_month or f.start_month or f.month or current_date_iso) | tojson }},
+      {# schema.org Event.startDate/endDate require ISO 8601. Convert
+         free-text month names (July, mid-August, "Juillet") to YYYY-MM-DD
+         for the next occurrence of that month. GSC 2026-05-31 flagged
+         bare month-name dates as invalid Event structured data. #}
+      "startDate": {{ (f.start_date_iso or next_month_iso(f.start_month or f.month or '') or current_date_iso) | tojson }},
+      "endDate": {{ (f.end_date_iso or next_month_end_iso(f.end_month or f.start_month or f.month or '') or current_date_iso) | tojson }},
       "eventStatus": "https://schema.org/EventScheduled",
       "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
       "organizer": { "@type": "Organization", "name": {{ (f.organizer or f.name) | tojson }} },

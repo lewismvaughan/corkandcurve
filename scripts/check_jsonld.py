@@ -68,8 +68,9 @@ REQUIRED_BY_TYPE = {
     "TouristAttraction":  ("name",),
     "TouristDestination": ("name",),
     "TouristTrip":        ("name",),
-    "Festival":           ("name",),
-    "EducationEvent":     ("name",),
+    "Festival":           ("name", "startDate"),
+    "EducationEvent":     ("name", "startDate"),
+    "Event":              ("name", "startDate"),
     "Course":             ("name",),
     "Product":            ("name",),
     "Brand":              ("name",),
@@ -137,6 +138,17 @@ def _flatten_items(node: object) -> list[dict]:
     return out
 
 
+# ISO 8601 date / datetime regex. Matches YYYY-MM-DD and YYYY-MM-DDTHH:MM[:SS][Z|±HH:MM].
+# 2026-05-31: GSC structured-data alert flagged Event schema with bare month
+# names ("July") as invalid. Hard-fail any Event subtype's startDate/endDate
+# that is not ISO 8601.
+_ISO_DATE_RX = re.compile(
+    r"^\d{4}-\d{2}-\d{2}(?:T\d{2}:\d{2}(?::\d{2}(?:\.\d+)?)?(?:Z|[+-]\d{2}:?\d{2})?)?$"
+)
+EVENT_TYPES = {"Event", "Festival", "EducationEvent", "Course", "MusicEvent",
+               "SocialEvent", "FoodEvent", "ExhibitionEvent"}
+
+
 def _check_block(block: dict, where: str, issues: list) -> None:
     if not _has_context(block):
         issues.append(f"{where}: missing @context (or not schema.org)")
@@ -163,6 +175,28 @@ def _check_block(block: dict, where: str, issues: list) -> None:
             if v is None or (isinstance(v, str) and not v.strip()) \
                or (isinstance(v, (list, dict)) and not v):
                 issues.append(f"{where}: {t_check} missing '{field}'")
+        # ISO 8601 date validation for Event-family schema (GSC 2026-05-31).
+        # startDate + endDate must be parseable as ISO 8601, not "July" /
+        # "mid-August" / free-text month names.
+        if t_check in EVENT_TYPES:
+            for date_field in ("startDate", "endDate"):
+                v = item.get(date_field)
+                if v is None:
+                    continue
+                if not isinstance(v, str) or not _ISO_DATE_RX.match(v.strip()):
+                    issues.append(
+                        f"{where}: {t_check} {date_field}={v!r} is not ISO 8601 "
+                        f"(YYYY-MM-DD or YYYY-MM-DDThh:mm[:ss][±HH:MM])"
+                    )
+            # endDate must be on/after startDate when both present.
+            sd, ed = item.get("startDate"), item.get("endDate")
+            if (isinstance(sd, str) and isinstance(ed, str)
+                    and _ISO_DATE_RX.match(sd.strip())
+                    and _ISO_DATE_RX.match(ed.strip())
+                    and ed.strip() < sd.strip()):
+                issues.append(
+                    f"{where}: {t_check} endDate={ed!r} is before startDate={sd!r}"
+                )
 
 
 def main() -> int:

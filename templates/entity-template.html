@@ -86,10 +86,12 @@
         "longitude": {{ entity.geo.lon | tojson }}
       },{% endif %}{% endif %}
       {% if topic.slug == "wine-festivals" %}
-      {# Festival required field: startDate. Fall back to current_date_iso
-         when next occurrence isn't announced. GSC 2026-05-23: critical. #}
-      "startDate": {{ (entity.start_date_iso or current_date_iso) | tojson }},
-      "endDate": {{ (entity.end_date_iso or entity.start_date_iso or current_date_iso) | tojson }},
+      {# Festival required field: startDate. Fall back to next-occurrence
+         month-derived ISO when start_date_iso isn't populated, else
+         current_date_iso. Schema.org requires ISO 8601 — never emit raw
+         month names. GSC 2026-05-23 + 2026-05-31: both critical. #}
+      "startDate": {{ (entity.start_date_iso or next_month_iso(entity.start_month or entity.month or '') or current_date_iso) | tojson }},
+      "endDate": {{ (entity.end_date_iso or next_month_end_iso(entity.end_month or entity.start_month or entity.month or '') or current_date_iso) | tojson }},
       "eventStatus": {{ (entity.event_status_url or "https://schema.org/EventScheduled") | tojson }},
       "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
       "organizer": { "@type": "Organization", "name": {{ (entity.organizer or entity.name) | tojson }} },

@@ -20,6 +20,75 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 
 
+# Month-name → ISO date helpers. Wine-festival data carries `start_month` /
+# `end_month` as free-text strings ("July", "mid-July", "August"). Event
+# schema.org JSON-LD requires ISO 8601 startDate / endDate, so we map the
+# month name to the NEXT occurrence of that month and emit YYYY-MM-DD.
+# Google Search Console 2026-05-31 flagged Event schema where the template
+# was emitting raw "July" — schema.org rejects that and GSC shows a
+# "structured data issue" notification. Always emit ISO.
+_MONTH_NAMES = {
+    "january": 1, "jan": 1, "february": 2, "feb": 2, "march": 3, "mar": 3,
+    "april": 4, "apr": 4, "may": 5, "june": 6, "jun": 6, "july": 7, "jul": 7,
+    "august": 8, "aug": 8, "september": 9, "sept": 9, "sep": 9,
+    "october": 10, "oct": 10, "november": 11, "nov": 11, "december": 12, "dec": 12,
+    # Other locale forms occasionally appear in research data
+    "août": 8, "juillet": 7, "juin": 6, "septembre": 9, "octobre": 10,
+    "novembre": 11, "décembre": 12, "janvier": 1, "février": 2, "mars": 3,
+    "avril": 4, "mai": 5,
+}
+
+
+def _month_token(s: str) -> Optional[int]:
+    """Extract a month number from a free-text string. Handles 'July',
+    'mid-July', 'late August', 'July to August', 'Juillet'. Returns the
+    FIRST month token found, or None."""
+    if not s or not isinstance(s, str):
+        return None
+    s_low = s.lower()
+    for token, num in _MONTH_NAMES.items():
+        if re.search(rf"\b{token}\b", s_low):
+            return num
+    return None
+
+
+def _next_month_iso_factory(today, dt):
+    """Returns a callable: month_text -> ISO YYYY-MM-01 for the NEXT
+    occurrence of the named month (this year if not yet passed, else
+    next year). Falls back to today's ISO if no month token found."""
+    def _convert(month_text):
+        m = _month_token(month_text)
+        if m is None:
+            return today.isoformat()
+        year = today.year
+        if m < today.month or (m == today.month and today.day > 28):
+            year += 1
+        try:
+            return dt.date(year, m, 1).isoformat()
+        except ValueError:
+            return today.isoformat()
+    return _convert
+
+
+def _next_month_end_iso_factory(today, dt):
+    """Returns a callable: month_text -> ISO YYYY-MM-LAST_DAY for the
+    NEXT occurrence of the named month."""
+    import calendar as _cal
+    def _convert(month_text):
+        m = _month_token(month_text)
+        if m is None:
+            return today.isoformat()
+        year = today.year
+        if m < today.month or (m == today.month and today.day > 28):
+            year += 1
+        try:
+            last_day = _cal.monthrange(year, m)[1]
+            return dt.date(year, m, last_day).isoformat()
+        except ValueError:
+            return today.isoformat()
+    return _convert
+
+
 @lru_cache(maxsize=1)
 def _load_site_config() -> Dict[str, Any]:
     """Read data/site_config.json once and cache. Holds non-secret site-wide
@@ -355,6 +424,15 @@ class TemplateRenderer:
             context['current_date_iso'] = _today.isoformat()
         if 'next_year_iso' not in context:
             context['next_year_iso'] = (_today + _dt_local.timedelta(days=365)).isoformat()
+
+        # Helper: convert a month name like "July" or "mid-July" to an ISO
+        # 8601 date for the NEXT occurrence of that month. Used as a fallback
+        # in wine-festivals JSON-LD when start_date_iso/end_date_iso aren't
+        # populated. Google Search Console 2026-05-31 flagged Event schema
+        # with bare month names as invalid — schema.org Festival.startDate
+        # requires ISO 8601, never a free-text month.
+        context['next_month_iso'] = _next_month_iso_factory(_today, _dt_local)
+        context['next_month_end_iso'] = _next_month_end_iso_factory(_today, _dt_local)
 
         # Ensure hub_page has all required fields
         if 'hub_page' not in context:

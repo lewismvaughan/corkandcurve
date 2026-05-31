@@ -109,7 +109,20 @@ Annual fairs + en-primeur weeks. Recurrence patterns, NOT specific dates.
 Required: `slug`, `name`, `recurrence_pattern` (e.g. "annual, late October",
 "biennial, June even years"), `start_month`, `duration`, `host_organization`,
 `signature_pours` or `featured_producers`, `ticket_required` (bool),
-`verified`.
+`verified`, **`annual` (bool — non-null, no annual:null bypass)**.
+
+**ISO date fields (added 2026-05-31 after Google Search Console alert):**
+Festivals render schema.org Event JSON-LD. Event.startDate and Event.endDate
+must be ISO 8601 (`YYYY-MM-DD` or `YYYY-MM-DDThh:mm[:ss][±HH:MM]`), NEVER
+raw month names like "July" or "mid-August". The template auto-derives an
+ISO date from `start_month` if `start_date_iso` is null (next occurrence
+of that month), but populating `start_date_iso` + `end_date_iso` directly
+is preferred when the festival's exact dates for the upcoming year are
+known on the official site. Example:
+- `start_month`: "August"  (free text — used for prose only)
+- `start_date_iso`: "2026-08-14" (used for Event JSON-LD startDate)
+- `end_date_iso`: "2026-08-23"
+endDate >= startDate is enforced by `check_jsonld.py`.
 
 ### signature-wines
 
